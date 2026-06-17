@@ -212,15 +212,12 @@ export default function Home() {
             </thead>
             <tbody>
               {images.slice(0, 200).map((img: ImageIndex) => (
-                <tr key={img.id} className="border-t border-neutral-800 hover:bg-neutral-900/50">
-                  <td className="px-4 py-2.5">
-                    <Link
-                      href={`/image/${img.id}`}
-                      className="font-medium text-sky-400 hover:text-sky-300 hover:underline"
-                    >
-                      {img.retailer}
-                    </Link>
-                  </td>
+                <tr
+                  key={img.id}
+                  className="border-t border-neutral-800 hover:bg-neutral-900/70 cursor-pointer"
+                  onClick={() => window.location.href = `/image/${img.id}`}
+                >
+                  <td className="px-4 py-2.5 font-medium text-sky-400">{img.retailer}</td>
                   <td className="px-4 py-2.5 text-neutral-400">{img.brand}</td>
                   <td className="px-4 py-2.5 text-neutral-300">
                     {img.amount != null ? `$${img.amount.toFixed(2)}` : "—"}
