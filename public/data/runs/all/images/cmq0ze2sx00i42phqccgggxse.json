@@ -1,0 +1,332 @@
+{
+  "id": "cmq0ze2sx00i42phqccgggxse",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Unknown",
+  "amount": 15,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "147.33",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "20910",
+    "city": "Silver Spring",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 20121.042,
+        "totalUsd": 0.023304,
+        "inputTokens": 3692,
+        "outputTokens": 1974,
+        "reasoningTokens": 1978
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "147.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:00 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20910",
+          "status": "match"
+        },
+        "city": {
+          "value": "Silver Spring",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "833 Wayne Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5464",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SPRGR_ BEET GAZPACHO",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98
+        },
+        {
+          "text": "CRBNE TRFL ALFRDO PST SCE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "KEVNAT ORANGE CHKN BOWL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "KEVNAT THAI CCNT CKN BOWL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "BIGMOZ MOZZARELLA NUGGETS",
+          "quantity": 2,
+          "unitPrice": 10.79,
+          "totalSpend": 21.58
+        },
+        {
+          "text": "MAGICM PERFRMC SHOT SGL",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "PRFC3 CHC CHP CKIE DGH BR + Savings with Prime ($1.19)",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 2
+        },
+        {
+          "text": "CRNCHY CALM WTRMLN WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "CRNCHY ENRGIZE MNGO WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "NATSTA MAGTECH MAGNESIUM",
+          "quantity": 1,
+          "unitPrice": 38.49,
+          "totalSpend": 38.49
+        },
+        {
+          "text": "HOPWTR MANGO HOP WATER + Savings with Prime ($0.49)",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.8
+        },
+        {
+          "text": "FCYBC0 SLTD CRML COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "FCYBC0 CHOC CHIP COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "BYNDG0 OG GRND VANILLA",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99
+        },
+        {
+          "text": "CARRY OUT BAG CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nSilver Spring SSP 301-608-9373\n833 Wayne Ave\nSilver Spring, MD 20910 4427\nSPRGR_ BEET GAZPACHO\n$15.98 F\nQty 2 $7.99 ea\nCRBNE TRFL ALFRDO PST SCE\n$9.99 F\nKEVNAT ORANGE CHKN BOWL\n$6.99 F\nKEVNAT THAI CCNT CKN BOWL\n$6.99 F\nBIGMOZ MOZZARELLA NUGGETS\n$21.58 F\nQty 2 $10.79 ea\nMAGICM PERFRMC SHOT SGL\n$4.99\nPRFC3 CHC CHP CKIE DGH BR\n$2.00 F\nReg $3.19\nSavings with Prime ($1.19)\nCRNCHY CALM WTRMLN WTR\n$2.99 FT\nCRNCHY ENRGIZE MNGO WTR\n$2.99 FT\nNATSTA MAGTECH MAGNESIUM\n$38.49\nHOPWTR MANGO HOP WATER\n$1.80 FT\nReg $2.29\nSavings with Prime ($0.49)\nFCYBC0 SLTD CRML COOKIE\n$5.99 F\nFCYBC0 CHOC CHIP COOKIE\n$5.99 F\nBYNDG0 OG GRND VANILLA\n$19.99 F\nCARRY OUT BAG CHARGE\nFT\nSubtotal:\n$148.44\nTotal Savings:\n-$1.68\nNet Sales:\n$146.76\nBag Fee:\n$0.10EA $0.10\nTax:\n6.00% $0.47\nTotal:\n$147.33\nSold Items:\n17\nPaid:\nManufacturer Coupon\n$1.00\nManufacturer Coupon\n$1.00\nMasterCard *5464 $145.33\nChip Card:MASTERCARD\nChip Card AID:A0000000041010\n****************************************\nYour Total Savings\n$1.68\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n904 32279 06/04/2026 09:00 PM\n63011011890432279060420260\n91XDPHRPJK",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10088.046833,
+        "totalUsd": 0.0243435,
+        "inputTokens": 4355,
+        "outputTokens": 1979,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "147.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:00 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20910",
+          "status": "match"
+        },
+        "city": {
+          "value": "Silver Spring",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "833 Wayne Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5464",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SPRGR_ BEET GAZPACHO",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98
+        },
+        {
+          "text": "CRBNE TRFL ALFRDO PST SCE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "KEVNAT ORANGE CHKN BOWL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "KEVNAT THAI CCNT CKN BOWL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "BIGMOZ MOZZARELLA NUGGETS",
+          "quantity": 2,
+          "unitPrice": 10.79,
+          "totalSpend": 21.58
+        },
+        {
+          "text": "MAGICM PERFRMC SHOT SGL",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "PRFCB CHC CHP CKIE DGH BR + Savings with Prime ($1.19)",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 2
+        },
+        {
+          "text": "CRNCHY CALM WTRMLN WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "CRNCHY ENRGIZE MNGO WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "NATSTA MAGTECH MAGNESIUM",
+          "quantity": 1,
+          "unitPrice": 38.49,
+          "totalSpend": 38.49
+        },
+        {
+          "text": "HOPWTR MANGO HOP WATER + Savings with Prime ($0.49)",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.8
+        },
+        {
+          "text": "FCYBC0 SLTD CRML COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "FCYBC0 CHOC CHIP COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "BYNDG0 OG GRND VANILLA",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99
+        },
+        {
+          "text": "CARRY OUT BAG CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nSilver Spring SSP 301-608-9373\n833 Wayne Ave\nSilver Spring, MD 20910 4427\nSPRGR_ BEET GAZPACHO\n$15.98 F\nQty 2 $7.99 ea\nCRBNE TRFL ALFRDO PST SCE\n$9.99 F\nKEVNAT ORANGE CHKN BOWL\n$6.99 F\nKEVNAT THAI CCNT CKN BOWL\n$6.99 F\nBIGMOZ MOZZARELLA NUGGETS\n$21.58 F\nQty 2 $10.79 ea\nMAGICM PERFRMC SHOT SGL\n$4.99\nPRFCB CHC CHP CKIE DGH BR\n$2.00 F\nReg $3.19\nSavings with Prime ($1.19)\nCRNCHY CALM WTRMLN WTR\n$2.99 FT\nCRNCHY ENRGIZE MNGO WTR\n$2.99 FT\nNATSTA MAGTECH MAGNESIUM\n$38.49\nHOPWTR MANGO HOP WATER\n$1.80 FT\nReg $2.29\nSavings with Prime ($0.49)\nFCYBC0 SLTD CRML COOKIE\n$5.99 F\nFCYBC0 CHOC CHIP COOKIE\n$5.99 F\nBYNDG0 OG GRND VANILLA\n$19.99 F\nCARRY OUT BAG CHARGE\nFT\nSubtotal:\n$148.44\nTotal Savings:\n-$1.68\nNet Sales:\n$146.76\nBag Fee:\n$0.10EA\n$0.10\nTax:\n6.00%\n$0.47\nTotal:\n$147.33\nSold Items:\n17\nPaid:\nManufacturer Coupon\n$1.00\nManufacturer Coupon\n$1.00\nMasterCard *5464 $145.33\nChip Card:MASTERCARD\nChip Card AID:A0000000041010\n*************************************\nYour Total Savings\n$1.68\n*************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n*************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n*************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n904 32279 06/04/2026 09:00 PM\n63011011890432279060420260\n91XDPHRPJK",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

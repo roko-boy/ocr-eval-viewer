@@ -1,0 +1,176 @@
+{
+  "id": "cmq05omtn00spgsjzwuyqhdsx",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 11.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "23.81",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "85022",
+    "city": "Phoenix",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11256.66870800001,
+        "totalUsd": 0.013602,
+        "inputTokens": 3692,
+        "outputTokens": 896,
+        "reasoningTokens": 1502
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "23.81",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:56 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85022-2662",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Phoenix",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16806 N 7th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1495",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98
+        },
+        {
+          "text": "245033579 vHessentials",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        }
+      ],
+      "rawText": "Phoenix 7th Street and Bell - 602-794-3601\n16806 N 7th St\nPhoenix, Arizona 85022-2662\n06/04/2026 04:56 PM\n\nHEALTH AND BEAUTY\n245032817 vHessentials T $15.98\n2 @ $7.99 ea\n245033579 vHessentials T $6.99\nSUBTOTAL $22.97\nTarget Circle Card 5% $1.15 -\nT = AZ TAX 9.10000% on $21.82 $1.99\nTOTAL $23.81\n*1495 TARGET DEBIT CARD $23.81\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 004545\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.15\nREC#2-6155-2236-0171-0875-8\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4776 4982\nPassword: 891 242\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5615.328000000009,
+        "totalUsd": 0.0145515,
+        "inputTokens": 4355,
+        "outputTokens": 891,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "23.81",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:56 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85022-2662",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Phoenix",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16806 N 7th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1495",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "vHessentials + 245032817",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98
+        },
+        {
+          "text": "vHessentials + 245033579",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        }
+      ],
+      "rawText": "Phoenix 7th Street and Bell - 602-794-3601\n16806 N 7th St\nPhoenix, Arizona 85022-2662\n06/04/2026 04:56 PM\nHEALTH AND BEAUTY\n245032817 vHessentials T $15.98\n2 @ $7.99 ea\n245033579 vHessentials T $6.99\nSUBTOTAL $22.97\nTarget Circle Card 5% $1.15 -\nT = AZ TAX 9.10000 on $21.82 $1.99\nTOTAL $23.81\n*1495 TARGET DEBIT CARD $23.81\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 004545\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.15\nREC#2-6155-2236-0171-0875-8\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4776 4982\nPassword: 891 242\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

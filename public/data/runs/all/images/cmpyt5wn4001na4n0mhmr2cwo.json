@@ -1,0 +1,344 @@
+{
+  "id": "cmpyt5wn4001na4n0mhmr2cwo",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 12.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "69.65",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "92832",
+    "city": "Fullerton",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 60264.692208,
+        "totalUsd": 0.025896,
+        "inputTokens": 3692,
+        "outputTokens": 2262,
+        "reasoningTokens": 11991
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "69.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "18:11:27",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92832",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fullerton",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1447 South Harbor Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5927",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOLOGNESE SMMR SAUCE",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49
+        },
+        {
+          "text": "CREAMER-ORG-COCONUT-",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CREAMER-ORG-COCONUT- + BOGO MALK",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": null
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "MALK-ORG-SOY-UNSWEET",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "*CRV FS 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "MALK-ORG-SOY-UNSWEET + BOGO MALK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": null
+        },
+        {
+          "text": "*CRV FS 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "GAR LEMON PEP SALMON",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "GAR LEMON PEP SALMON",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "LNDRY DTRGENT SHEETS",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99
+        },
+        {
+          "text": "LNDRY DTRGENT SHEETS + BOGO MOLYVS SUDS + DGTL CPN MollysSud",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": -3
+        },
+        {
+          "text": "CHILL SUPERCUBE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "GLOW SUPERCUBE + DGTL CPN RoxliSupe + BOGO ROXII",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": -3
+        },
+        {
+          "text": "MANGO FROZEN DESSERT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1447 South Harbor Blvd\nFullerton, CA 92832\n(714)441-1233\nStore Hours MON-SUN 7AM-10PM\n\nCard # XXXXXXXXXXXX5927 PIN Used\nFood Stamps +++ APPROVED +++\nPurchase Amount $ 52.93\n\nEBT Food Balance $ 23.86\n\nEBT Cash Balance $ 0.00\n\nAuth # 866570 Exp Date **/**\nLane # 33 Cashier # 933\n06/03/26 18:11 Ref/Seq #336871\nEPS Sequence # 336871\nChip Card: EBT\nAID: A0000000044542\nEntry Method: Chip Read\n\n06/03/2026 18:11:27\nUS DEBIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX9650\nPURCHASE - APPROVED\nAUTH CODE:101339\n\nMode: Issuer-PIN Verified\nAID: A0000000042203\nTVR: 0000048001\nIAD: 0110A040012200000000000000000000\nOOOFF\nTSI: E800 ARC: 00\nTC: E85C19384C43E75E\nMID: 920764 TID: 001 RRN: 336872\n\nTotal: USD$ 10.72\n\nGROCERY\nBOLOGNESE SMMR SAUCE 9.49\n\nDAIRY\nCREAMER-ORG-COCONUT- 8.99\n*CRV FS/TX 05 0.05 T\nCREAMER-ORG-COCONUT- 8.99\n*CRV FS/TX 05 0.05 T\nMALK-ORG-SOY-UNSWEET 6.99\n*CRV FS 10 0.10\nMALK-ORG-SOY-UNSWEET 6.99\n*CRV FS 10 0.10\n\nFISH\nGAR LEMON PEP SALMON 6.99\nGAR LEMON PEP SALMON 6.99\n\nTAXABLE GROCERY\nLNDRY DTRGENT SHEETS 16.99 T\nLNDRY DTRGENT SHEETS 16.99 T\nBOGO MOLYVS SUDS -16.99\nDGTL CPN MollysSud -3.00\n\nFROZEN\nCHILL SUPERCUBE 12.99\nGLOW SUPERCUBE 12.99\nDGTL CPN RoxliSupe -3.00\nMANGO FROZEN DESSERT 5.99\n\nBOGO MALK -6.99\nBOGO MALK -8.99\nBOGO ROXII -12.99\nSPROUTS REWARDS -4.00\nAnniversary 5% off -3.27\n\nTax Report\nTAX 1 15.62 1.20 TT\n\nBALANCE DUE 69.65\nFood Stamps $52.93\n[ ] XXXXXXXXXXXX5927\nExp. DATE: /\nAuth# 866570 Ref# 336871\nEnding F/S Bal. 23.86\nEnding Cash Bal. 0.00\nDEBIT $10.72\n[ ] XXXXXXXXXXXX9650\nAuth# 101339 Ref# 336872\nFOOD STAMPS TOTAL $52.93\nCHANGE 0.00\n\nTAX FORGIVEN $0.01\nYou Saved!\nTOTAL DISCOUNTS 8 59.23",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10783.418583,
+        "totalUsd": 0.0266025,
+        "inputTokens": 4355,
+        "outputTokens": 2230,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "69.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "18:11",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92832",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fullerton",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1447 South Harbor Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9650",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOLOGNESE SMMR SAUCE",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49
+        },
+        {
+          "text": "CREAMER-ORG-COCONUT-",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CREAMER-ORG-COCONUT-",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "MALK-ORG-SOY-UNSWEET",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "*CRV FS 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "MALK-ORG-SOY-UNSWEET",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": null
+        },
+        {
+          "text": "*CRV FS 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "GAR LEMON PEP SALMON",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "GAR LEMON PEP SALMON",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "LNDRY DTRGENT SHEETS",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99
+        },
+        {
+          "text": "LNDRY DTRGENT SHEETS + BOGO MOLYYS SUDS + DGTL CPN MollysSud",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": -3
+        },
+        {
+          "text": "CHILL SUPERCUBE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "GLOW SUPERCUBE + DGTL CPN RoxliSupe + BOGO ROXII",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": -4
+        },
+        {
+          "text": "MANGO FROZEN DESSERT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1447 South Harbor Blvd\nFullerton, CA 92832\n(714)441-1233\nStore Hours MON-SUN 7AM-10PM\nCard # XXXXXXXXXXXX5927 PIN Used\nFood Stamps +++ APPROVED +++\nPurchase Amount $ 52.93\nEBT Food Balance $ 23.86\nEBT Cash Balance $ 0.00\nAuth # 866570 Exp Date **/**\nLane # 33 Cashier # 933\n06/03/26 18:11 Ref/Seq #336871\nEPS Sequence # 336871\nChip Card: EBT\nAID: A0000000044542\nEntry Method: Chip Read\n06/03/2026 18:11:27\nUS DEBIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX9650\nPURCHASE - APPROVED\nAUTH CODE:101339\nMode: Issuer-PIN Verified\nAID: A0000000042203\nTVR: 0000048001\nIAD: 0110A040012200000000000000000000\nOOOFF\nTSI: E800 ARC: 00\nTC: E85C19384C43E75E\nMID: 920764 TID: 001 RRN: 336872\nTotal: USD$ 10.72\nGROCERY\nBOLOGNESE SMMR SAUCE 9.49\nDAIRY\nCREAMER-ORG-COCONUT- 8.99\n*CRV FS/TX 05 0.05 T\nCREAMER-ORG-COCONUT- 8.99\n*CRV FS/TX 05 0.05 T\nMALK-ORG-SOY-UNSWEET 6.99\n*CRV FS 10 0.10\nMALK-ORG-SOY-UNSWEET 6.99\n*CRV FS 10 0.10\nFISH\nGAR LEMON PEP SALMON 6.99\nGAR LEMON PEP SALMON 6.99\nTAXABLE GROCERY\nLNDRY DTRGENT SHEETS 16.99 T\nLNDRY DTRGENT SHEETS 16.99 T\nBOGO MOLYYS SUDS -16.99\nDGTL CPN MollysSud -3.00\nFROZEN\nCHILL SUPERCUBE 12.99\nGLOW SUPERCUBE 12.99\nDGTL CPN RoxliSupe -3.00\nMANGO FROZEN DESSERT 5.99\nBOGO MALK -6.99\nBOGO MALK -8.99\nBOGO ROXII -12.99\nSPROUTS REWARDS -4.00\nAnniversary 5% off -3.27\nTax Report\nTAX 1 15.62 1.20 TT\nBALANCE DUE 69.65\nFood Stamps $52.93\n[ ] XXXXXXXXXXXX5927\nExp. DATE: /\nAuth# 866570 Ref# 336871\nEnding F/S Bal. 23.86\nEnding Cash Bal. 0.00\nDEBIT $10.72\n[ ] XXXXXXXXXXXX9650\nAuth# 101339 Ref# 336872\nFOOD STAMPS TOTAL $52.93\nCHANGE 0.00\nTAX FORGIVEN $0.01\nYou Saved!\nTOTAL DISCOUNTS 8 59.23\nCard XXXXXXXXXXXX5953",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

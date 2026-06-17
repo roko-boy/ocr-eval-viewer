@@ -1,0 +1,176 @@
+{
+  "id": "cmpu0mifu007pd012pdzfwrur",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "Unknown",
+  "amount": 3.75,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": null,
+    "totalCost": "25.37",
+    "purchaseDate": "2026-05-31T00:00:00.000Z",
+    "time": null,
+    "zipCode": "95818",
+    "city": "SACRAMENTO",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12336.88458300001,
+        "totalUsd": 0.011964,
+        "inputTokens": 3692,
+        "outputTokens": 714,
+        "reasoningTokens": 998
+      },
+      "fields": {
+        "storeName": {
+          "value": "LOS INMORTALES BROADWAY",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "25.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "9:29:54A",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95818",
+          "status": "match"
+        },
+        "city": {
+          "value": "SACRAMENTO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "501 BROADWAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8300",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Chilaquiles",
+          "quantity": 1,
+          "unitPrice": 18.95,
+          "totalSpend": 18.95
+        },
+        {
+          "text": "Soft Drinks",
+          "quantity": 1,
+          "unitPrice": 3.75,
+          "totalSpend": 3.75
+        }
+      ],
+      "rawText": "LOS INMORTALES BROADWAY\n501 BROADWAY\nSACRAMENTO, CA 95818\n916 290 2244\n\nORDER: 27\nDine-In\n\nCashier: Tati\n31-May-2026 9:29:54A\n\nTransaction 300003\n1 Chilaquiles\t$18.95\n1 Soft Drinks\t$3.75\n\nSubtotal\t$22.70\nDefault Tax\t8.75%\t$1.99\nsvc (3.0%)\t$0.68\nTotal\t$25.37\n\nCREDIT CARD SALE\t$25.37\nVISA 8300\n\nRetain this copy for statement validation\n\n31-May-2026 9:30:08A\n$25.37 | Method: CONTACTLESS\nVISA CREDIT XXXXXXXXXXXX8300\nVISA CARDHOLDER\nReference ID: 615100533113\nAuth ID: 45881D\nMID: ********0887\nAID: A0000000031010\nAthNtwkNm: VISA\n\nClover ID: KDEB0BNCZ117P\nPayment 8EBGYW8MZ02RJ\n\nClover Privacy Policy\nhttps://clover.com/privacy",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5140.419542,
+        "totalUsd": 0.0129495,
+        "inputTokens": 4355,
+        "outputTokens": 713,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "LOS INMORTALES BROADWAY",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "25.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "9:29:54A",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95818",
+          "status": "match"
+        },
+        "city": {
+          "value": "SACRAMENTO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "501 BROADWAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8300",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Chilaquiles",
+          "quantity": 1,
+          "unitPrice": 18.95,
+          "totalSpend": 18.95
+        },
+        {
+          "text": "Soft Drinks",
+          "quantity": 1,
+          "unitPrice": 3.75,
+          "totalSpend": 3.75
+        }
+      ],
+      "rawText": "LOS INMORTALES BROADWAY\n501 BROADWAY\nSACRAMENTO, CA 95818\n916 290 2244\n\nORDER: 27\nDine-In\n\nCashier: Tati\n31-May-2026 9:29:54A\n\nTransaction 300003\n1 Chilaquiles\t$18.95\n1 Soft Drinks\t$3.75\n\nSubtotal\t$22.70\nDefault Tax\t8.75%\t$1.99\nsvc (3.0%)\t$0.68\nTotal\t$25.37\n\nCREDIT CARD SALE\t$25.37\nVISA 8300\n\nRetain this copy for statement validation\n\n31-May-2026 9:30:08A\n$25.37 | Method: CONTACTLESS\nVISA CREDIT XXXXXXXXXXXX8300\nVISA CARDHOLDER\nReference ID: 615100533113\nAuth ID: 45881D\nMID: ********0887\nAID: A0000000031010\nAthNwkNm: VISA\n\nClover ID: KDEB0BNCZ117P\nPayment 8EBGYW8MZ02RJ\n\nClover Privacy Policy\nhttps://clover.com/privacy",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

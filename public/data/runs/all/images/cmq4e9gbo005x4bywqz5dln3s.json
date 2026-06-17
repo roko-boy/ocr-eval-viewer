@@ -1,0 +1,260 @@
+{
+  "id": "cmq4e9gbo005x4bywqz5dln3s",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "53.54",
+    "purchaseDate": "2026-06-07T00:00:00.000Z",
+    "time": null,
+    "zipCode": "57701",
+    "city": "Rapid City",
+    "state": "SD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 25743.910041,
+        "totalUsd": 0.017691,
+        "inputTokens": 3706,
+        "outputTokens": 1348,
+        "reasoningTokens": 5132
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "53.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:37 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "57701-9504",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Rapid City",
+          "status": "match"
+        },
+        "state": {
+          "value": "SD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1415 Eglin St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9978",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Lisre Hydrtn + 203750602",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "Lisre Hydrtn + 203750601",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "Lisre Hydrtn + 203750603",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "SGSY + 211080292",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Brownieful + 261000175",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "Brownieful + 261000162",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.29
+        },
+        {
+          "text": "WET CAT FOOD + 083131057 + $5 off Circle + Digital MFR Coupon $0.25-",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.58
+        },
+        {
+          "text": "LITTER + 083100060 + $5 off Circle + Digital MFR Coupon $3.00-",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 7.01
+        },
+        {
+          "text": "Friskies + 083124436 + $5 off Circle + Digital MFR Coupon $4.00-",
+          "quantity": 1,
+          "unitPrice": 17.29,
+          "totalSpend": 10.43
+        }
+      ],
+      "rawText": "Rapid City - 605-341-8620\n1415 Eglin St\nRapid City, South Dakota 57701-9504\n06/07/2026 04:37 PM\nGROCERY\n203750602 Lisre Hydrtn [F $2.69\n203750601 Lisre Hydrtn [F $2.69\n203750603 Lisre Hydrtn [F $2.69\n211080292 SGSY [F $3.79\n261000175 Brownieful [F $6.99\n261000162 Brownieful [F $6.29\nRegular Price $6.99\nHOME\n083131057 WET CAT FOOD [ $0.83\nRegular Price $0.99\n$5 off Circle\nDigital MFR Coupon\n$0.25-\n083100060 LITTER [ $10.01\nRegular Price $11.99\n$5 off Circle\nDigital MFR Coupon\n$3.00-\n083124436 Friskies [ $14.43\nRegular Price $17.29\n$5 off Circle\nDigital MFR Coupon\n$4.00-\nSUBTOTAL $50.41\nT = SD TAX 6.20000 on $50.41 $3.13\nTOTAL $53.54\nDigital MFR Coupon PAYMENT $7.25\n*9261 GIFT CARD PAYMENT $35.71\n*9978 MASTERCARD CHARGE $10.58\nAID: A0000000041010\nMastercard\nAUTH CODE: 00745B",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7514.718832999992,
+        "totalUsd": 0.0190005,
+        "inputTokens": 4369,
+        "outputTokens": 1383,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "53.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:37 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "57701-9504",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Rapid City",
+          "status": "match"
+        },
+        "state": {
+          "value": "SD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1415 Eglin St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9978",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Lisre Hydrtn + 203750602",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "Lisre Hydrtn + 203750601",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "Lisre Hydrtn + 203750603",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "SGSY + 211080292",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Brownieful + 261000175",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "Brownieful + 261000162 + Regular Price $6.99",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.29
+        },
+        {
+          "text": "WET CAT FOOD + 083131057 + Regular Price $0.99 + $5 off Circle + Digital MFR Coupon $0.25-",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.83
+        },
+        {
+          "text": "LITTER + 083100060 + Regular Price $11.99 + $5 off Circle + Digital MFR Coupon $3.00-",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 10.01
+        },
+        {
+          "text": "Friskies + 083124436 + Regular Price $17.29 + $5 off Circle + Digital MFR Coupon $4.00-",
+          "quantity": 1,
+          "unitPrice": 17.29,
+          "totalSpend": 14.43
+        }
+      ],
+      "rawText": "Rapid City - 605-341-8620\n1415 Eglin St\nRapid City, South Dakota 57701-9504\n06/07/2026 04:37 PM\nGROCERY\n203750602 Lisre Hydrtn [F $2.69\n203750601 Lisre Hydrtn [F $2.69\n203750603 Lisre Hydrtn [F $2.69\n211080292 SGSY [F $3.79\n261000175 Brownieful [F $6.99\n261000162 Brownieful [F $6.29\nRegular Price $6.99\nHOME\n083131057 WET CAT FOOD [ $0.83\nRegular Price $0.99\n$5 off Circle\nDigital MFR Coupon\n$0.25-\n083100060 LITTER [ $10.01\nRegular Price $11.99\n$5 off Circle\nDigital MFR Coupon\n$3.00-\n083124436 Friskies [ $14.43\nRegular Price $17.29\n$5 off Circle\nDigital MFR Coupon\n$4.00-\nSUBTOTAL $50.41\nT = SD TAX 6.20000 on $50.41 $3.13\nTOTAL $53.54\nDigital MFR Coupon PAYMENT $7.25\n*9261 GIFT CARD PAYMENT $35.71\n*9978 MASTERCARD CHARGE $10.58\nAID: A0000000041010\nMastercard\nAUTH CODE: 00745B",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

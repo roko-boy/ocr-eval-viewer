@@ -1,0 +1,200 @@
+{
+  "id": "cmq08iiq500f9skaqmg973xm2",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 12.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "28.11",
+    "purchaseDate": "2026-05-27T00:00:00.000Z",
+    "time": null,
+    "zipCode": "33578",
+    "city": "Riverview",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 10257.46229199998,
+        "totalUsd": 0.016056,
+        "inputTokens": 3726,
+        "outputTokens": 1163,
+        "reasoningTokens": 963
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "28.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-27",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:26 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33578",
+          "status": "match"
+        },
+        "city": {
+          "value": "Riverview",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12960 S. US Highway 301",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0136",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VITAMINS + PEACH TEA HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "DELI + JUST CHICKEN",
+          "quantity": 1,
+          "unitPrice": 7.34,
+          "totalSpend": 7.34
+        },
+        {
+          "text": "MEAT + 80% LEAN GROUND PORK",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89
+        },
+        {
+          "text": "MEAT + 80% LEAN GROUND PORK",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n12960 S. US Highway 301\nRiverview, FL 33578\n(813)-284-3440\nStore Hours MON-SUN 7AM-10PM\n\n05/27/2026 21:26:55\nMASTERCARD Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX0136\nPURCHASE - APPROVED\nAUTH CODE:09774Z\n\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0114A140030200000004000000000000\nOOOFF\nTSI: A800 ARC: 00\nTC: 18E88A7687541BC7\nMID: 518497 TID: 001 RRN: 037114\n\nTotal: USD$ 28.11\n\nVITAMINS\nPEACH TEA HYDRATION 12.99 F\nDELI\nJUST CHICKEN 7.34 F\nMEAT\n80% LEAN GROUND PORK 3.89 F\n80% LEAN GROUND PORK 3.89 F\n\nBALANCE DUE 28.11\nCREDIT $28.11\n[ ] XXXXXXXXXXXX0136\nAuth# 09774Z Ref# 037114\nCHANGE 0.00\n\nCard XXXXXXXXXX6767\nHave a Healthy Day Daniel!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 445\nBonus Points earned: 0\nTotal Points earned today: 140\nNew points balance: 585\n***********************************\n89062300389641472126\n***********************************\nCashier:Isaiah Store: 623\nPOS:003 Transaction:8964\nWednesday, May 27, 2026 09:26 PM\n\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\n\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6401.692458999998,
+        "totalUsd": 0.0173295,
+        "inputTokens": 4389,
+        "outputTokens": 1194,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "28.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-27",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:26 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33578",
+          "status": "match"
+        },
+        "city": {
+          "value": "Riverview",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12960 S. US Highway 301",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0136",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VITAMINS + PEACH TEA HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "DELI + JUST CHICKEN",
+          "quantity": 1,
+          "unitPrice": 7.34,
+          "totalSpend": 7.34
+        },
+        {
+          "text": "MEAT + 80% LEAN GROUND PORK",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89
+        },
+        {
+          "text": "MEAT + 80% LEAN GROUND PORK",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n12960 S. US Highway 301\nRiverview, FL 33578\n(813)-284-3440\nStore Hours MON-SUN 7AM-10PM\n\n05/27/2026\n21:26:55\nMASTERCARD\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX0136\nPURCHASE\n- APPROVED\nAUTH CODE:09774Z\n\nMode:\nIssuer\nAID:\nA0000000041010\nTVR:\n0000008001\nIAD:\n0114A140030200000004000000000000\n000FF\nTSI: A800\nARC: 00\nTC:\n18E88A7687541BC7\nMID: 518497 TID: 001 RRN: 037114\n\nTotal:\nUSD$ 28.11\n\nVITAMINS\nPEACH TEA HYDRATION\n12.99 F\n\nDELI\nJUST CHICKEN\n7.34 F\n\nMEAT\n80% LEAN GROUND PORK\n3.89 F\n80% LEAN GROUND PORK\n3.89 F\n\nBALANCE DUE\n28.11\nCREDIT\n$28.11\n[ ] XXXXXXXXXXXX0136\nAuth# 09774Z\nRef# 037114\nCHANGE\n0.00\n\nCard XXXXXXXXXX6767\n\nHave a Healthy Day Daniel!\n****************************************\nSprouts Rewards\n\nPrevious Points Balance:\n445\nBonus Points earned:\n0\nTotal Points earned today:\n140\nNew points balance:\n585\n****************************************\n\n89062300389641472126\n****************************************\nCashier:Isaiah Store: 623\nPOS:003 Transaction:8964\nWednesday, May 27, 2026 09:26 PM\n\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\n\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,176 @@
+{
+  "id": "cmq1husgu000pcamhndzodml0",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Unknown",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "3.04",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "90036",
+    "city": "Los Angeles",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12611.45337499998,
+        "totalUsd": 0.012108,
+        "inputTokens": 3692,
+        "outputTokens": 730,
+        "reasoningTokens": 1013
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:43 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90036",
+          "status": "match"
+        },
+        "city": {
+          "value": "Los Angeles",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6350 W 3rd St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5462",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JUNIDRK OG SPARKLING TEA",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "CRV SGL UNDER 24OZ",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nFairfax FFX 323-964-6800\n6350 W 3rd St\nLos Angeles, CA 90036\nJUNIDRK OG SPARKLING TEA $2.99 F\nCRV SGL UNDER 24OZ $0.05\nSubtotal: $3.04\nNet Sales: $3.04\nTotal: $3.04\nSold Items: 1\nPaid:\nVISA *5462 $3.04\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n204 22531 06/05/2026 01:43 PM\n63011017720422531060520260\nLR2E46SHIG",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4863.820917000005,
+        "totalUsd": 0.0130935,
+        "inputTokens": 4355,
+        "outputTokens": 729,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:43 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90036",
+          "status": "match"
+        },
+        "city": {
+          "value": "Los Angeles",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6350 W 3rd St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5462",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JUNIDRK OG SPARKLING TEA",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "CRV SGL UNDER 24OZ",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nFairfax FFX 323-964-6800\n6350 W 3rd St\nLos Angeles, CA 90036\nJUNIDRK OG SPARKLING TEA $2.99 F\nCRV SGL UNDER 24OZ $0.05\nSubtotal: $3.04\nNet Sales: $3.04\nTotal: $3.04\nSold Items: 1\nPaid:\nVISA *5462 $3.04\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n204 22531 06/05/2026 01:43 PM\n63011017720422531060520260\nLR2E46SHIG",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

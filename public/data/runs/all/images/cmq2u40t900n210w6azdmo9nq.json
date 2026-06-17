@@ -1,0 +1,224 @@
+{
+  "id": "cmq2u40t900n210w6azdmo9nq",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 7.22,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "41.27",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "32504",
+    "city": "Pensacola",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12318.07954099998,
+        "totalUsd": 0.016833,
+        "inputTokens": 3692,
+        "outputTokens": 1255,
+        "reasoningTokens": 1412
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "13:16:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32504",
+          "status": "match"
+        },
+        "city": {
+          "value": "PENSACOLA",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2650 CREIGHTON RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5457",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DAIYATACOMAC + 871459001830",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        },
+        {
+          "text": "MLLYS BBY LD + 852835006970",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        },
+        {
+          "text": "BAR PESTO + 076808007870",
+          "quantity": 1,
+          "unitPrice": 3.24,
+          "totalSpend": 3.24
+        },
+        {
+          "text": "MLLYS BBY LD + 852835006970",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        },
+        {
+          "text": "KMCPARPES 8 + 021000086610",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        },
+        {
+          "text": "1 SUB NOTBK + 026229574760",
+          "quantity": 1,
+          "unitPrice": 0.97,
+          "totalSpend": 0.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6SMF7VST\nWalmart\nWM Supercenter\n850-479-2101 Mgr. MICHAEL\n2650 CREIGHTON RD\nPENSACOLA FL 32504\nST# 01224 OP# 009037 TE# 37 TR# 00065\n# ITEMS SOLD 6\nTC# 9853 1792 0235 7811 8001\nDAIYATACOMAC 871459001830 F 2.97 N\nMLLYS BBY LD 852835006970 14.44 X\nBAR PESTO 076808007870 F 3.24 N\nMLLYS BBY LD 852835006970 14.44 X\nKMCPARPES 8 021000086610 F 2.97 N\n1 SUB NOTBK 026229574760 0.97 X\nSUBTOTAL 39.03\nTAX1 7.5000 % 2.24\nTOTAL 41.27\nMCARD TEND 41.27\nCHANGE DUE 0.00\nMCARD DECLINED TRANSACTION\nACCOUNT #- 5457 I 1\nTERMINAL # 28870410\n06/06/26 13:16:25\nMASTERCARD- 5457 I 1 APPR#34480Z\n41.27 TOTAL PURCHASE\nREF # UHIYRMO45374\nAID A0000000041010\nTERMINAL # 28870410\n*No Signature Required\n06/06/26 13:16:26\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/06/26 13:16:34",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6849.472542000003,
+        "totalUsd": 0.0175935,
+        "inputTokens": 4355,
+        "outputTokens": 1229,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "13:16:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32504",
+          "status": "match"
+        },
+        "city": {
+          "value": "Pensacola",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2650 CREIGHTON RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5457",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DAIYATACOMAC + 871459001830 F",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        },
+        {
+          "text": "MLLYS BBY LD + 852835006970",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        },
+        {
+          "text": "BAR PESTO + 076808007870 F",
+          "quantity": 1,
+          "unitPrice": 3.24,
+          "totalSpend": 3.24
+        },
+        {
+          "text": "MLLYS BBY LD + 852835006970",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        },
+        {
+          "text": "KMCPARPES 8 + 021000086610 F",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        },
+        {
+          "text": "1 SUB NOTBK + 026229574760",
+          "quantity": 1,
+          "unitPrice": 0.97,
+          "totalSpend": 0.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6SMF7VST\nWalmart *\nWM Supercenter\n850-479-2101 Mgr. MICHAEL\n2650 CREIGHTON RD\nPENSACOLA FL 32504\nST# 01224 OP# 009037 TE# 37 TR# 00065\n# ITEMS SOLD 6\nTC# 9853 1792 0235 7811 8001\nDAIYATACOMAC 871459001830 F 2.97 N\nMLLYS BBY LD 852835006970 14.44 X\nBAR PESTO 076808007870 F 3.24 N\nMLLYS BBY LD 852835006970 14.44 X\nKMCPARPES 8 021000086610 F 2.97 N\n1 SUB NOTBK 026229574760 0.97 X\nSUBTOTAL 39.03\nTAX1 7.5000 % 2.24\nTOTAL 41.27\nMCARD TEND 41.27\nCHANGE DUE 0.00\nMCARD DECLINED TRANSACTION\nACCOUNT #- 5457 I 1\nTERMINAL # 28870410\n06/06/26 13:16:25\nMASTERCARD- 5457 I 1 APPR#34480Z\n41.27 TOTAL PURCHASE\nREF # UHIYRMO45374\nAID A0000000041010\nTERMINAL # 28870410\n*No Signature Required\n06/06/26 13:16:26\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/06/26 13:16:34",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

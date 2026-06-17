@@ -1,0 +1,248 @@
+{
+  "id": "cmq04obk902aq145rfoshafla",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 4.45,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "37.31",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "55330",
+    "city": "Otsego",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 80493.83775,
+        "totalUsd": 0.018567,
+        "inputTokens": 3822,
+        "outputTokens": 1426,
+        "reasoningTokens": 3614
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:06 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55330-6546",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Otsego",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15800 87th St NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5988",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MP POTATO + 270010153 + Regular Price $3.29 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.94
+        },
+        {
+          "text": "Rise & Puff + 270020391 + Regular Price $3.99 + 2for$6 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.68
+        },
+        {
+          "text": "Rise & Puff + 270022167 + Regular Price $3.99 + 2for$6 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.68
+        },
+        {
+          "text": "Brainic Kids + 203160187 + Regular Price $4.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.45
+        },
+        {
+          "text": "Ocean's Halo + 270060225 + Regular Price $5.89 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.25
+        },
+        {
+          "text": "Cure + 203130443 + Regular Price $9.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.02
+        },
+        {
+          "text": "kevin'sntrfd + 270117103 + Regular Price $14.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 13.37
+        },
+        {
+          "text": "GG EGGS + 284031158 + Regular Price $2.19 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.95
+        }
+      ],
+      "rawText": "Otsego - 763-252-1315\n15800 87th St NE\nOtsego, Minnesota 55330-6546\n06/04/2026 06:06 PM\n..........................................\nGROCERY\n270010153 MP POTATO NF $2.94\nRegular Price $3.29\n$5 off Circle\n270020391 Rise & Puff NF $2.68\nRegular Price $3.99\n2for$6\n$5 off Circle\n270022167 Rise & Puff NF $2.68\nRegular Price $3.99\n2for$6\n$5 off Circle\n203160187 Brainic Kids NF $4.45\nRegular Price $4.99\n$5 off Circle\n270060225 Ocean's Halo NF $5.25\nRegular Price $5.89\n$5 off Circle\n203130443 Cure NF $8.02\nRegular Price $9.99\n$5 off Circle\n270117103 kevin'sntrfd NF $13.37\nRegular Price $14.99\n$5 off Circle\n284031158 GG EGGS NF $1.95\nRegular Price $2.19\n$5 off Circle\nSUBTOTAL $41.34\n5% off Birthday $2.06 -\nTarget Circle Card 5% $1.97 -\nNO TAX $0.00\nTOTAL $37.31\n*5988 TARGET DEBIT CARD $37.31\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 004708\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8039.255292000002,
+        "totalUsd": 0.0195375,
+        "inputTokens": 4391,
+        "outputTokens": 1439,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:06 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55330-6546",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Otsego",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15800 87th St NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5988",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MP POTATO + 270010153 + Regular Price $3.29 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.94
+        },
+        {
+          "text": "Rise & Puff + 270020391 + Regular Price $3.99 + 2for$6 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.68
+        },
+        {
+          "text": "Rise & Puff + 270022167 + Regular Price $3.99 + 2for$6 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.68
+        },
+        {
+          "text": "Brainic Kids + 203160187 + Regular Price $4.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.45
+        },
+        {
+          "text": "Ocean's Halo + 270060225 + Regular Price $5.89 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.25
+        },
+        {
+          "text": "Cure + 203130443 + Regular Price $9.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.02
+        },
+        {
+          "text": "kevin'sntrfd + 270117103 + Regular Price $14.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 13.37
+        },
+        {
+          "text": "GG EGGS + 284031158 + Regular Price $2.19 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.95
+        }
+      ],
+      "rawText": "Otsego - 763-252-1315\n15800 87th St NE\nOtsego, Minnesota 55330-6546\n06/04/2026 06:06 PM\nGROCERY\n270010153 MP POTATO NF $2.94\nRegular Price $3.29\n$5 off Circle\n270020391 Rise & Puff NF $2.68\nRegular Price $3.99\n2for$6\n$5 off Circle\n270022167 Rise & Puff NF $2.68\nRegular Price $3.99\n2for$6\n$5 off Circle\n203160187 Brainic Kids NF $4.45\nRegular Price $4.99\n$5 off Circle\n270060225 Ocean's Halo NF $5.25\nRegular Price $5.89\n$5 off Circle\n203130443 Cure NF $8.02\nRegular Price $9.99\n$5 off Circle\n270117103 kevin'sntrfd NF $13.37\nRegular Price $14.99\n$5 off Circle\n284031158 GG EGGS NF $1.95\nRegular Price $2.19\n$5 off Circle\nSUBTOTAL $41.34\n5% off Birthday $2.06 -\nTarget Circle Card 5% $1.97 -\nNO TAX $0.00\nTOTAL $37.31\n*5988 TARGET DEBIT CARD $37.31\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 004708\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

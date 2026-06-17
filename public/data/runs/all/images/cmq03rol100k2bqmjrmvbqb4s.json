@@ -1,0 +1,272 @@
+{
+  "id": "cmq03rol100k2bqmjrmvbqb4s",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "60.76",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "85712",
+    "city": "Tucson",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 23487.969375,
+        "totalUsd": 0.020343,
+        "inputTokens": 3692,
+        "outputTokens": 1645,
+        "reasoningTokens": 2673
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "60.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "16:01:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "TUCSON",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4645 EAST SPEEDWAY BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3755",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG RED BABY BUTTER",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79
+        },
+        {
+          "text": "ORG WHT MUSHROOMS",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69
+        },
+        {
+          "text": "RSPBRRY COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "WTRMLN HYDRATION BOX",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "SWT CRM COCO CREAMER",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "VANILLA COCO CREAMER + BOGO MALK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": null
+        },
+        {
+          "text": "RACK OF LAMB",
+          "quantity": 1,
+          "unitPrice": 9.03,
+          "totalSpend": 9.03
+        },
+        {
+          "text": "BROWNIE PRTN DESSERT",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "BROWNIE PRTN DESSERT",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "CHOC PROTEIN DESSERT",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n4645 EAST SPEEDWAY BLVD\nTUCSON, AZ\n(520)325-1320\nStore Hours MON-SUN 7AM-10PM\n\n06/04/2026 16:01:24\nDISCOVER Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX3755\nPURCHASE\n- APPROVED\nAUTH CODE:00436R\n\nMode:\nIssuer\nAID:\nA0000001523010010000001\nTVR:\n0000008000\nIAD:\n0115209240000000B000\nTSI: 0800\nARC: 00\nTC:\n10CD393A32AB6D43\nMID: 977581 TID: 001\nRRN: 885845\nTotal:\nUSD$ 60.76\n\nPRODUCE\nORG RED BABY BUTTER\n2.79\nORG WHT MUSHROOMS\n3.69\nGROCERY\nRSPBRRY COLLAGEN TEA\n3.50\n1 @ 2 FOR 7.00\nVITAMINS\nWTRMLN HYDRATION BOX\n12.99\nDAIRY\nSWT CRM COCO CREAMER\n7.99\nVANILLA COCO CREAMER\n7.99\nMEAT\nRACK OF LAMB\n9.03\nFROZEN\nBROWNIE PRTN DESSERT\n7.99\nBROWNIE PRTN DESSERT\n7.99\nCHOC PROTEIN DESSERT\n7.99\nBOGO MALK\n-7.99\nAnniversary 5% off\n-3.20\nBALANCE DUE\n60.76\nCREDIT\n$60.76\n[ ] XXXXXXXXXXXX3755\nAuth# 00436R\nRef# 5061337408\nCHANGE\n0.00\nYou Saved!\nTOTAL DISCOUNTS\n2\n11.19\nCard XXXXXXXXXXX3714\nHave a Healthy Day Rachel!\n***********************************\nSprouts Rewards\nPrevious Points Balance:\n710\nTotal Points earned today:\n305\nNew points balance:\n1015\n***********************************\n99002403337591551559\n***********************************\nCashier:SSC0933 Store: 24\nPOS:033 Transaction:3759\nThursday, June 4, 2026 03:59 PM\n- Save money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9688.897458,
+        "totalUsd": 0.0213825,
+        "inputTokens": 4355,
+        "outputTokens": 1650,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "60.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "03:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85712",
+          "status": "match"
+        },
+        "city": {
+          "value": "TUCSON",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4645 EAST SPEEDWAY BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3755",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG RED BABY BUTTER",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79
+        },
+        {
+          "text": "ORG WHT MUSHROOMS",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69
+        },
+        {
+          "text": "RSPBRRY COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "WTRMLN HYDRATION BOX",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "SWT CRM COCO CREAMER",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "VANILLA COCO CREAMER",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "RACK OF LAMB",
+          "quantity": 1,
+          "unitPrice": 9.03,
+          "totalSpend": 9.03
+        },
+        {
+          "text": "BROWNIE PRTN DESSERT",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "BROWNIE PRTN DESSERT + BOGO MALK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": null
+        },
+        {
+          "text": "CHOC PROTEIN DESSERT",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n4645 EAST SPEEDWAY BLVD\nTUCSON, AZ\n(520)325-1320\nStore Hours MON-SUN 7AM-10PM\n06/04/2026\n16:01:24\nDISCOVER\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX3755\nPURCHASE\n- APPROVED\nAUTH CODE:00436R\nMode:\nIssuer\nAID:\nA00000015230100100000001\nTVR:\n0000008000\nIAD:\n01152092400000000B000\nTSI: 0800\nARC: 00\nTC:\n10CD393A32AB6D43\nMID: 977581 TID: 001\nRRN: 885845\nTotal:\nUSD$ 60.76\nPRODUCE\nORG RED BABY BUTTER\n2.79\nORG WHT MUSHROOMS\n3.69\nGROCERY\nRSPBRRY COLLAGEN TEA\n3.50\n1 @ 2 FOR 7.00\nVITAMINS\nWTRMLN HYDRATION BOX\n12.99\nDAIRY\nSWT CRM COCO CREAMER\n7.99\nVANILLA COCO CREAMER\n7.99\nMEAT\nRACK OF LAMB\n9.03\nFROZEN\nBROWNIE PRTN DESSERT\n7.99\nBROWNIE PRTN DESSERT\n7.99\nCHOC PROTEIN DESSERT\n7.99\nBOGO MALK\n-7.99\nAnniversary 5% off\n-3.20\nBALANCE DUE\n60.76\nCREDIT\n$60.76\n[ ] XXXXXXXXXXXX3755\nAuth# 00436R\nRef# 5061337408\nCHANGE\n0.00\nYou Saved!\nTOTAL DISCOUNTS\n2\n11.19\nCard XXXXXXXXXXX3714\nHave a Healthy Day Rachel!\n***********************************\nSprouts Rewards\nPrevious Points Balance:\n710\nTotal Points earned today:\n305\nNew points balance:\n1015\n***********************************\n99002403337591551559\n***********************************\nCashier:SSC0933 Store: 24\nPOS:033 Transaction:3759\nThursday, June 4, 2026 03:59 PM\n- Save money, save paper -\nsign up to receive our weekly ad\nby email at sprouts.com\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

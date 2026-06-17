@@ -1,0 +1,248 @@
+{
+  "id": "cmpyqlxhu0052302b4i474u3n",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "19.49",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "57110",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 10537.207458,
+        "totalUsd": 0.017607,
+        "inputTokens": 3692,
+        "outputTokens": 1341,
+        "reasoningTokens": 1060
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:00:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "57110",
+          "status": "match"
+        },
+        "city": {
+          "value": "SIOUX FALLS",
+          "status": "match"
+        },
+        "state": {
+          "value": "SD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5521 E ARROWHEAD PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JBX LAV BAR + 810171577430",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "JBX LAV BAR + 810171577430",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "COV MASCARA + 022700576420",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6FW141PLJ\nWalmart\nWM Supercenter\n605-367-3140 Mgr. JENNIFER\n5521 E ARROWHEAD PKWY\nSIOUX FALLS SD 57110\nST# 03237 OP# 009004 TE# 04 TR# 03781\n# ITEMS SOLD 8\nTC# 9697 7140 9850 2386 6837\nJBX LAV BAR 810171577430 3.50 T\nJBX LAV BAR 810171577430 3.50 T\nCOV MASCARA 022700576420 5.00 T\nK CHOC 009800512040 F 1.27 X\nK CHOC 009800512040 F 1.27 X\nK CHOC 009800512040 F 1.27 X\nK CHOC 009800512040 F 1.27 X\nK CHOC 009800512040 F 1.27 X\nSUBTOTAL 18.35\nTAX1 6.2000 % 1.14\nTOTAL 19.49\nGIFTCARD TEND 19.49\nCHANGE DUE 0.00\nSHOPPING CARD REDEMPTION 19.49\nAPPR. CODE 194678\nBeg Bal Tran Amt End Bal\n25.00 19.49 5.51\n06/03/26 19:00:57\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/03/26 19:01:04",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6547.633000000002,
+        "totalUsd": 0.0185655,
+        "inputTokens": 4355,
+        "outputTokens": 1337,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:00:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "57110",
+          "status": "match"
+        },
+        "city": {
+          "value": "SIOUX FALLS",
+          "status": "match"
+        },
+        "state": {
+          "value": "SD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5521 E ARROWHEAD PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JBX LAV BAR + 810171577430",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "JBX LAV BAR + 810171577430",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "COV MASCARA + 022700576420",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5
+        },
+        {
+          "text": "K CHOC + 009800512040",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6FW141PLJ\nWalmart\nWM Supercenter\n605-367-3140 Mgr. JENNIFER\n5521 E ARROWHEAD PKWY\nSIOUX FALLS SD 57110\nST# 03237 OP# 009004 TE# 04 TR# 03781\n# ITEMS SOLD 8\nTC# 9697 7140 9850 2386 6837\nJBX LAV BAR 810171577430 3.50 T\nJBX LAV BAR 810171577430 3.50 T\nCOV MASCARA 022700576420 5.00 T\nK CHOC 009800512040 F 1.27 X\nK CHOC 009800512040 F 1.27 X\nK CHOC 009800512040 F 1.27 X\nK CHOC 009800512040 F 1.27 X\nK CHOC 009800512040 F 1.27 X\nSUBTOTAL 18.35\nTAX1 6.2000 % 1.14\nTOTAL 19.49\nGIFTCARD TEND 19.49\nCHANGE DUE 0.00\nSHOPPING CARD REDEMPTION 19.49\nAPPR. CODE 194678\nBeg Bal Tran Amt End Bal\n25.00 19.49 5.51\n06/03/26 19:00:57\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/03/26 19:01:04",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

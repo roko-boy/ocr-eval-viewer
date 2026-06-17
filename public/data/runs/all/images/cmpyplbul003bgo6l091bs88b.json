@@ -1,0 +1,224 @@
+{
+  "id": "cmpyplbul003bgo6l091bs88b",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "37.42",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "13057",
+    "city": "East Syracuse",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 17075.55566700001,
+        "totalUsd": 0.015861,
+        "inputTokens": 3692,
+        "outputTokens": 1147,
+        "reasoningTokens": 2085
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:53:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "13057",
+          "status": "match"
+        },
+        "city": {
+          "value": "EAST SYRACUSE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6438 BASILE ROWE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2534",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRUSKIN + 850001641970",
+          "quantity": 1,
+          "unitPrice": 14.68,
+          "totalSpend": 14.68
+        },
+        {
+          "text": "TRUSKIN + 850001641990",
+          "quantity": 1,
+          "unitPrice": 16.88,
+          "totalSpend": 16.88
+        },
+        {
+          "text": "CP WTRMLN + 850017346020 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "NY DEP FEE + 000787423702 F",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CP WTRMLN + 850017346020 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "NY DEP FEE + 000787423702 F",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6FWRG3MB\nWalmart *:\nWM Supercenter\n315-434-9873 Mgr. SUSAN\n6438 BASILE ROWE\nEAST SYRACUSE NY 13057\nST# 02166 OP# 009004 TE# 04 TR# 01539\n# ITEMS SOLD 4\nTC# 7020 4211 6683 3430 0456\nTRUSKIN 850001641970 14.68 X\nTRUSKIN 850001641990 16.88 X\nCP WTRMLN 850017346020 F 1.50 T\nNY DEP FEE 000787423702 F 0.05 O\nCP WTRMLN 850017346020 F 1.50 T\nNY DEP FEE 000787423702 F 0.05 O\nSUBTOTAL 34.66\nTAX1 8.0000 % 2.76\nTOTAL 37.42\nONE MCARD TEND 37.42\nCHANGE DUE 0.00\nONE\nACCOUNT #- 2534 0 APPR#2X3U34\n37.42 TOTAL PURCHASE\n06/03/26 17:53:23\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/03/26 17:53:29",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7846.532666999999,
+        "totalUsd": 0.0166035,
+        "inputTokens": 4355,
+        "outputTokens": 1119,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:53:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "13057",
+          "status": "match"
+        },
+        "city": {
+          "value": "EAST SYRACUSE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6438 BASILE ROWE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2534",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRUSKIN + 850001641970",
+          "quantity": 1,
+          "unitPrice": 14.68,
+          "totalSpend": 14.68
+        },
+        {
+          "text": "TRUSKIN + 850001641990",
+          "quantity": 1,
+          "unitPrice": 16.88,
+          "totalSpend": 16.88
+        },
+        {
+          "text": "CP WTRMLN + 850017346020 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "NY DEP FEE + 000787423702 F",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CP WTRMLN + 850017346020 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "NY DEP FEE + 000787423702 F",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6FWRG3MB\nWalmart\nWM Supercenter\n315-434-9873 Mgr. SUSAN\n6438 BASILE ROWE\nEAST SYRACUSE NY 13057\nST# 02166 OP# 009004 TE# 04 TR# 01539\n# ITEMS SOLD 4\nTC# 7020 4211 6683 3430 0456\nTRUSKIN 850001641970 14.68 X\nTRUSKIN 850001641990 16.88 X\nCP WTRMLN 850017346020 F 1.50 T\nNY DEP FEE 000787423702 F 0.05 O\nCP WTRMLN 850017346020 F 1.50 T\nNY DEP FEE 000787423702 F 0.05 O\nSUBTOTAL 34.66\nTAX1 8.0000 % 2.76\nTOTAL 37.42\nONE MCARD TEND 37.42\nCHANGE DUE 0.00\nONE\nACCOUNT #- 2534 0 APPR#2X3U34\n37.42 TOTAL PURCHASE\n06/03/26 17:53:23\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/03/26 17:53:29",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

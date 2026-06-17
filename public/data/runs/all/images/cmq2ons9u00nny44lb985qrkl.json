@@ -1,0 +1,188 @@
+{
+  "id": "cmq2ons9u00nny44lb985qrkl",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 7,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "42.54",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "10549",
+    "city": "Mount Kisco",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12615.033459,
+        "totalUsd": 0.01281,
+        "inputTokens": 3692,
+        "outputTokens": 808,
+        "reasoningTokens": 1369
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:17 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10549-1104",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Mount Kisco",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "195 N Bedford Rd Ste A",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BABY + 007067386 FreeStyle",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99
+        },
+        {
+          "text": "GROCERY + 055090079 KIT KAT SNGL",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99
+        },
+        {
+          "text": "HEALTH AND BEAUTY + 094095038 Blip",
+          "quantity": 1,
+          "unitPrice": 15.39,
+          "totalSpend": 15.39
+        }
+      ],
+      "rawText": "Mt Kisco - 914-602-0004\n195 N Bedford Rd Ste A\nMount Kisco, New York 10549-1104\n06/06/2026 02:17 PM\n\nBABY\n007067386 FreeStyle          N     $24.99\nGROCERY\n055090079 KIT KAT SNGL       TF     $1.99\nHEALTH AND BEAUTY\n094095038 Blip               N     $15.39\n\nSUBTOTAL    $42.37\nT = NY TAX 8.37500 on $1.99          $0.17\nTOTAL    $42.54\n\nCASH PAYMENT    $43.00\nCHANGE DUE     $0.46\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nREC#2-6157-1954-0081-0119-7\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 2804 6991\nPassword: 898 803\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5422.699667000008,
+        "totalUsd": 0.0137505,
+        "inputTokens": 4355,
+        "outputTokens": 802,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:17 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10549-1104",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Mount Kisco",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "195 N Bedford Rd Ste A",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BABY + 007067386 FreeStyle",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99
+        },
+        {
+          "text": "GROCERY + 055090079 KIT KAT SNGL",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99
+        },
+        {
+          "text": "HEALTH AND BEAUTY + 094095038 Blip",
+          "quantity": 1,
+          "unitPrice": 15.39,
+          "totalSpend": 15.39
+        }
+      ],
+      "rawText": "Mt Kisco - 914-602-0004\n195 N Bedford Rd Ste A\nMount Kisco, New York 10549-1104\n06/06/2026 02:17 PM\n\nBABY\n007067386 FreeStyle\nN\n$24.99\nGROCERY\n055090079 KIT KAT SNGL\nTF\n$1.99\nHEALTH AND BEAUTY\n094095038 Blip\nN\n$15.39\nSUBTOTAL\n$42.37\nT = NY TAX 8.37500 on $1.99\n$0.17\nTOTAL\n$42.54\nCASH PAYMENT\n$43.00\nCHANGE DUE\n$0.46\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nREC#2-6157-1954-0081-0119-7\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 2804 6991\nPassword: 898 803\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

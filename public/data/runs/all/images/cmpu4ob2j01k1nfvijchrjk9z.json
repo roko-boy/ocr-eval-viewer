@@ -1,0 +1,224 @@
+{
+  "id": "cmpu4ob2j01k1nfvijchrjk9z",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "30.63",
+    "purchaseDate": "2026-05-30T00:00:00.000Z",
+    "time": null,
+    "zipCode": "98003",
+    "city": "Federal Way",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 13294.06758300003,
+        "totalUsd": 0.016266,
+        "inputTokens": 3692,
+        "outputTokens": 1192,
+        "reasoningTokens": 812
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "30.63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:13:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98003",
+          "status": "match"
+        },
+        "city": {
+          "value": "FEDERAL WAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "34520 16TH AVE S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8009",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BULK CORN + 000000040780 S",
+          "quantity": 15,
+          "unitPrice": 0.33,
+          "totalSpend": 4.95
+        },
+        {
+          "text": "MAND 3 BAG + 091636000020 S",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48
+        },
+        {
+          "text": "CB SWT POT + 850003898570 S",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "SITE MERCH + 058449251090 S",
+          "quantity": 1,
+          "unitPrice": 5.74,
+          "totalSpend": 5.74
+        },
+        {
+          "text": "SITE MERCH + 058449251090 S",
+          "quantity": 1,
+          "unitPrice": 5.74,
+          "totalSpend": 5.74
+        },
+        {
+          "text": "SITE MERCH + 058449251090 S",
+          "quantity": 1,
+          "unitPrice": 5.74,
+          "totalSpend": 5.74
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WRYVX1B2NOV\nWalmart *:\nWM Supercenter\n253-835-4965 Mgr. DEWAYNE\n34520 16TH AVE S\nFEDERAL WAY WA 98003\nST# 03794 OP# 009020 TE# 20 TR# 03189\n# ITEMS SOLD 6\nTC# 8601 2734 4021 5085 6069\nBULK CORN 000000040780 S\n15 AT 1 FOR 0.33 4.95 N\nMAND 3 BAG 091636000020 S 4.48 N\nCB SWT POT 850003898570 S 3.98 N\nSITE MERCH 058449251090 S 5.74 N\nSITE MERCH 058449251090 S 5.74 N\nSITE MERCH 058449251090 S 5.74 N\nSUBTOTAL 30.63\nTOTAL 30.63\nPROGRAM CARD 8009 30.63\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n30.63 TOTAL PURCHASE\nACCOUNT #- 8009 S 0\nREF # U4TIFZ1T0000\nNETWORK ID. 0011 APPR. CODE 120c3c\nTERMINAL # 22847023\nTran Amt End Bal\nHOA3303127 30.63 26.04\n05/30/26 10:13:16\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n05/30/26 10:13:23",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6796.632832999996,
+        "totalUsd": 0.0174945,
+        "inputTokens": 4355,
+        "outputTokens": 1218,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "30.63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:13:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98003",
+          "status": "match"
+        },
+        "city": {
+          "value": "FEDERAL WAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "34520 16TH AVE S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8009",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BULK CORN + 000000040780 S",
+          "quantity": 15,
+          "unitPrice": 0.33,
+          "totalSpend": 4.95
+        },
+        {
+          "text": "MAND 3 BAG + 091636000020 S",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48
+        },
+        {
+          "text": "CB SWT POT + 850003898570 S",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "SITE MERCH + 058449251090 S",
+          "quantity": 1,
+          "unitPrice": 5.74,
+          "totalSpend": 5.74
+        },
+        {
+          "text": "SITE MERCH + 058449251090 S",
+          "quantity": 1,
+          "unitPrice": 5.74,
+          "totalSpend": 5.74
+        },
+        {
+          "text": "SITE MERCH + 058449251090 S",
+          "quantity": 1,
+          "unitPrice": 5.74,
+          "totalSpend": 5.74
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WRYVX1B2NOV\nWalmart *\nWM Supercenter\n253-835-4965 Mgr. DEWAYNE\n34520 16TH AVE S\nFEDERAL WAY WA 98003\nST# 03794 OP# 009020 TE# 20 TR# 03189\n# ITEMS SOLD 6\nTC# 8601 2734 4021 5085 6069\nBULK CORN 000000040780 S\n15 AT 1 FOR 0.33 4.95 N\nMAND 3 BAG 091636000020 S 4.48 N\nCB SWT POT 850003898570 S 3.98 N\nSITE MERCH 058449251090 S 5.74 N\nSITE MERCH 058449251090 S 5.74 N\nSITE MERCH 058449251090 S 5.74 N\nSUBTOTAL 30.63\nTOTAL 30.63\nPROGRAM CARD 8009 30.63\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n30.63 TOTAL PURCHASE\nACCOUNT #- 8009 S 0\nREF # U4TIFZ1T0000\nNETWORK ID. 0011 APPR. CODE 120c3c\nTERMINAL # 22847023\nTran Amt End Bal\nHOA3303127 30.63 26.04\n05/30/26 10:13:16\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n05/30/26 10:13:23",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

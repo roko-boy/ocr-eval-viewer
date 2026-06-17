@@ -1,0 +1,164 @@
+{
+  "id": "cmq0fgqa800ghxiy4a8vunwec",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "Unknown",
+  "amount": 1.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": null,
+    "totalCost": "5.35",
+    "purchaseDate": "2026-04-06T12:00:00.000Z",
+    "time": null,
+    "zipCode": "76548",
+    "city": "Harker Heights",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 15180.58899999998,
+        "totalUsd": 0.011655,
+        "inputTokens": 3708,
+        "outputTokens": 677,
+        "reasoningTokens": 1665
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "5.35",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "6:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76548",
+          "status": "match"
+        },
+        "city": {
+          "value": "Harker Heights",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "601 Indian Trail Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GORILLA ENERGY ULTIMATE",
+          "quantity": 2,
+          "unitPrice": 2.48,
+          "totalSpend": 4.96
+        }
+      ],
+      "rawText": "H-E-B\n\n1021 3901 0604 2518 0400 381\n\n1 GORILLA ENERGY ULTIMATE\n2 Ea. @ 1/ 2.48 T 4.96\n\nPENNIES ON US 0.02-\n\n********** Sale Subtotal*** 4.94\nSales Tax 0.41\n************* Total Sale*** 5.35\n*** CASH 10.00\nChange : 4.65 $\nITEMS PURCHASED: 2\n\nRECEIPT EXPIRES ON 09-02-26\n\n1021 3901 0604 2518 0400 381\n\nReturns can be done at any checkstand\nH-E-B Food-Drugs 381\n601 Indian Trail Drive\nHarker Heights, TX 76548\nPhone: (254) 699-8411\nPharmacy: (254) 699-8810\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier: SELF CHECKOUT E84\n213901 06-04-26 6:04P 6E4/84/00381",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6772.944375000006,
+        "totalUsd": 0.0123525,
+        "inputTokens": 4371,
+        "outputTokens": 644,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "5.35",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "6:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76548",
+          "status": "match"
+        },
+        "city": {
+          "value": "Harker Heights",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "601 Indian Trail Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GORILLA ENERGY ULTIMATE",
+          "quantity": 2,
+          "unitPrice": 2.48,
+          "totalSpend": 4.96
+        }
+      ],
+      "rawText": "H-E-B\n1021 3901 0604 2518 0400 381\n1 GORILLA ENERGY ULTIMATE\n2 Ea. @ 1/ 2.48 T 4.96\nPENNIES ON US 0.02-\n*********** Sale Subtotal*** 4.94\nSales Tax 0.41\n************* Total Sale*** 5.35\n*** CASH 10.00\nChange : 4.65 $\nITEMS PURCHASED: 2\nRECEIPT EXPIRES ON 09-02-26\n1021 3901 0604 2518 0400 381\nReturns can be done at any checkstand\nH-E-B Food-Drugs 381\n601 Indian Trail Drive\nHarker Heights, TX 76548\nPhone: (254) 699-8411\nPharmacy: (254) 699-8810\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier: SELF CHECKOUT E84\n213901 06-04-26 6:04P 6E4/84/00381",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

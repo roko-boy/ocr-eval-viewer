@@ -1,0 +1,236 @@
+{
+  "id": "cmq06wl9i005npcx7o4up9dmv",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "13.55",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "93612",
+    "city": "Clovis",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 14567.64874999999,
+        "totalUsd": 0.01722,
+        "inputTokens": 3692,
+        "outputTokens": 1298,
+        "reasoningTokens": 1914
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:26:49",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93612",
+          "status": "match"
+        },
+        "city": {
+          "value": "CLOVIS",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1185 HERNDON AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2655",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIFECIDER BC + 860008967110",
+          "quantity": 1,
+          "unitPrice": 2.08,
+          "totalSpend": 2.08
+        },
+        {
+          "text": "CRV FEE + 000787423909",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "LIFECIDER BC + 860008967110",
+          "quantity": 1,
+          "unitPrice": 2.08,
+          "totalSpend": 2.08
+        },
+        {
+          "text": "CRV FEE + 000787423909",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "NUTTYONE + 810124750010",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        },
+        {
+          "text": "NUTTYONE + 810124750010",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        },
+        {
+          "text": "NUTTYONE + 810124750010",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6L61VSJPC\nWalmart *\nWM Supercenter\n559-321-0067 Mgr. JOSHUA\n1185 HERNDON AVE\nCLOVIS CA 93612\nST# 053337 OP# 009038 TE# 38 TR# 01719\n# ITEMS SOLD 5\nTC# 7160 4615 6625 3121 9122\nLIFECIDER BC 860008967110 F 2.08 X\nCRV FEE 000787423909 0.05 O\nLIFECIDER BC 860008967110 F 2.08 X\nCRV FEE 000787423909 0.05 O\nNUTTYONE 810124750010 F 2.97 N\nNUTTYONE 810124750010 F 2.97 N\nNUTTYONE 810124750010 F 2.97 N\nSUBTOTAL 13.17\nTAX1 8.9750 % 0.38\nTOTAL 13.55\nDEBIT TEND 13.55\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n13.55 TOTAL PURCHASE\nUS DEBIT- 2655 I 1\nREF # UHFQKW202020\nNETWORK ID. 000L APPR. CODE 2JZX73\nAID A0000000042203\nTERMINAL # 28339205\n*No Signature Required\n06/04/26 17:26:49\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 17:26:56",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7981.598750000005,
+        "totalUsd": 0.0179535,
+        "inputTokens": 4355,
+        "outputTokens": 1269,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:26:49",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93612",
+          "status": "match"
+        },
+        "city": {
+          "value": "CLOVIS",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1185 HERNDON AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2655",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIFECIDER BC + 860008967110",
+          "quantity": 1,
+          "unitPrice": 2.08,
+          "totalSpend": 2.08
+        },
+        {
+          "text": "CRV FEE + 000787423909",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "LIFECIDER BC + 860008967110",
+          "quantity": 1,
+          "unitPrice": 2.08,
+          "totalSpend": 2.08
+        },
+        {
+          "text": "CRV FEE + 000787423909",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "NUTTYONE + 810124750010",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        },
+        {
+          "text": "NUTTYONE + 810124750010",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        },
+        {
+          "text": "NUTTYONE + 810124750010",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6L61VSJPC\nWalmart *\nWM Supercenter\n559-321-0067 Mgr. JOSHUA\n1185 HERNDON AVE\nCLOVIS CA 93612\nST# 05337 OP# 009038 TE# 38 TR# 01719\n# ITEMS SOLD 5\nTC# 7160 4615 6625 3121 9122\nLIFECIDER BC 860008967110 F 2.08 X\nCRV FEE 000787423909 0.05 O\nLIFECIDER BC 860008967110 F 2.08 X\nCRV FEE 000787423909 0.05 O\nNUTTYONE 810124750010 F 2.97 N\nNUTTYONE 810124750010 F 2.97 N\nNUTTYONE 810124750010 F 2.97 N\nSUBTOTAL 13.17\nTAX1 8.9750 % 0.38\nTOTAL 13.55\nDEBIT TEND 13.55\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n13.55 TOTAL PURCHASE\nUS DEBIT- 2655 I 1\nREF # UHFQKW202020\nNETWORK ID. 000L APPR. CODE 2JZX73\nAID A0000000042203\nTERMINAL # 28339205\n*No Signature Required\n06/04/26 17:26:49\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 17:26:56",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

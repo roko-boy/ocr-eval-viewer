@@ -1,0 +1,176 @@
+{
+  "id": "cmq03nfdo000x716d4bx5wd0u",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 18.97,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "38.91",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "76502",
+    "city": "Temple",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 8740.336958,
+        "totalUsd": 0.012945,
+        "inputTokens": 3692,
+        "outputTokens": 823,
+        "reasoningTokens": 389
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.91",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "15:56:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76502",
+          "status": "match"
+        },
+        "city": {
+          "value": "TEMPLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3401 S 31ST ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0733",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MBD TB PANDA + 850031970860",
+          "quantity": 1,
+          "unitPrice": 16.97,
+          "totalSpend": 16.97
+        },
+        {
+          "text": "MBD SX BLUE + 850031970830",
+          "quantity": 1,
+          "unitPrice": 18.97,
+          "totalSpend": 18.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6L482DTD\nWalmart *:\nWM Supercenter\n254-778-9235 Mgr. EULALIO\n3401 S 31ST ST\nTEMPLE TX 76502\nST# 00746 OP# 009036 TE# 36 TR# 00069\n# ITEMS SOLD 2\nTC# 0895 5681 3196 6370 6124\nMBD TB PANDA 850031970860 16.97 X\nMBD SX BLUE 850031970830 18.97 X\nSUBTOTAL 35.94\nTAX1 8.2500 % 2.97\nTOTAL 38.91\nMCARD TEND 38.91\nCHANGE DUE 0.00\nMASTERCARD- 0733 I 3 APPR#81742P\n38.91 TOTAL PURCHASE\nREF # 615533525109\nAID A0000000041010\nTERMINAL # 22850416\n*No Signature Required\n06/04/26 15:56:57\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 15:57:04",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5318.119208000004,
+        "totalUsd": 0.0136785,
+        "inputTokens": 4355,
+        "outputTokens": 794,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.91",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "15:56:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76502",
+          "status": "match"
+        },
+        "city": {
+          "value": "TEMPLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3401 S 31ST ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0733",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MBD TB PANDA 850031970860",
+          "quantity": 1,
+          "unitPrice": 16.97,
+          "totalSpend": 16.97
+        },
+        {
+          "text": "MBD SX BLUE 850031970830",
+          "quantity": 1,
+          "unitPrice": 18.97,
+          "totalSpend": 18.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6L482DTD\nWalmart *:\nWM Supercenter\n254-778-9235 Mgr. EULALIO\n3401 S 31ST ST\nTEMPLE TX 76502\nST# 00746 OP# 009036 TE# 36 TR# 00069\n# ITEMS SOLD 2\nTC# 0895 5681 3196 6370 6124\nMBD TB PANDA 850031970860 16.97 X\nMBD SX BLUE 850031970830 18.97 X\nSUBTOTAL 35.94\nTAX1 8.2500 % 2.97\nTOTAL 38.91\nMCARD TEND 38.91\nCHANGE DUE 0.00\nMASTERCARD- 0733 I 3 APPR#81742P\n38.91 TOTAL PURCHASE\nREF # 615533525109\nAID A0000000041010\nTERMINAL # 22850416\n*No Signature Required\n06/04/26 15:56:57\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 15:57:04",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,188 @@
+{
+  "id": "cmq02h1ut00kr1053k97u60wb",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 3.98,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "13.75",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "37421",
+    "city": "Chattanooga",
+    "state": "TN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 8355.455875,
+        "totalUsd": 0.013251,
+        "inputTokens": 3692,
+        "outputTokens": 857,
+        "reasoningTokens": 924
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.75",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "12:56:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37421",
+          "status": "match"
+        },
+        "city": {
+          "value": "CHATTANOOGA",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2020 GUNBARREL RD STE 250",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5492",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CB PURPLE + 850003898560",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "ZICO + 180127000250",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48
+        },
+        {
+          "text": "ZICO + 180127000250",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6K4HX6Q6\nWalmart\nWM Supercenter\n423-899-7021 Mgr. ALFONSO\n2020 GUNBARREL RD STE 250\nCHATTANOOGA TN 37421\nST# 01469 OP# 009005 TE# 05 TR# 03417\n# ITEMS SOLD 3\nTC# 7522 0253 2146 9597 5213\nCB PURPLE 850003898560 F 3.98 R\nZICO 180127000250 F 4.48 R\nZICO 180127000250 F 4.48 R\nSUBTOTAL 12.94\nTAX2 6.2500 % 0.81\nTOTAL 13.75\nWMP VISA TEND 13.75\nCHANGE DUE 0.00\nWALMART PAY\nACCOUNT #- 5492 0 APPR#049038\n13.75 TOTAL PURCHASE\n06/04/26 12:56:25\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 12:56:31",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5634.235334000001,
+        "totalUsd": 0.0140295,
+        "inputTokens": 4355,
+        "outputTokens": 833,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.75",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "12:56:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37421",
+          "status": "match"
+        },
+        "city": {
+          "value": "CHATTANOOGA",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2020 GUNBARREL RD STE 250",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5492",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CB PURPLE + 850003898560 F",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "ZICO + 180127000250 F",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48
+        },
+        {
+          "text": "ZICO + 180127000250 F",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6K4HX6Q6\nWalmart\nWM Supercenter\n423-899-7021 Mgr. ALFONSO\n2020 GUNBARREL RD STE 250\nCHATTANOOGA TN 37421\nST# 01469 OP# 009005 TE# 05 TR# 03417\n# ITEMS SOLD 3\nTC# 7522 0253 2146 9597 5213\nCB PURPLE 850003898560 F 3.98 R\nZICO 180127000250 F 4.48 R\nZICO 180127000250 F 4.48 R\nSUBTOTAL 12.94\nTAX2 6.2500 % 0.81\nTOTAL 13.75\nWMP VISA TEND 13.75\nCHANGE DUE 0.00\nWALMART PAY\nACCOUNT #- 5492 0 APPR#049038\n13.75 TOTAL PURCHASE\n06/04/26 12:56:25\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 12:56:31",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

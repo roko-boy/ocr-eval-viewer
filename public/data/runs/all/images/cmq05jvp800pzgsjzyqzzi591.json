@@ -1,0 +1,176 @@
+{
+  "id": "cmq05jvp800pzgsjzyqzzi591",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 5.59,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "14.98",
+    "purchaseDate": "2026-05-31T00:00:00.000Z",
+    "time": null,
+    "zipCode": "98006",
+    "city": "Bellevue",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9871.244833,
+        "totalUsd": 0.01326,
+        "inputTokens": 3692,
+        "outputTokens": 858,
+        "reasoningTokens": 1465
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:17 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98006-1286",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Bellevue",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4053 Factoria Square Mall SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1378",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "vHessentials + 245032817",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.59
+        },
+        {
+          "text": "vHessentials + 245032817",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "Factoria - 425-562-0830\n4053 Factoria Square Mall SE\nBellevue, Washington 98006-1286\n05/31/2026 06:17 PM\n\nHEALTH AND BEAUTY\n245032817 vHessentials T $5.59\nRegular Price $7.99\n245032817 vHessentials T $7.99\n\nSUBTOTAL $13.58\nT = WA TAX 10.30000 on $13.58 $1.40\nTOTAL $14.98\n\n*1378 GIFT CARD PAYMENT $14.98\n*1378 GIFT CARD BALANCE $10.02\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nVisit 1800recycle.wa.gov or call 1-\n800-RECYCLE to find electronic product\nrecycling services in your area.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$2.40\n\nREC#2-6151-0339-0172-2339-4\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 8966 1982\nPassword: 776 606\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5440.106082999999,
+        "totalUsd": 0.0140295,
+        "inputTokens": 4355,
+        "outputTokens": 833,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:17 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98006-1286",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Bellevue",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4053 Factoria Square Mall SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials + Regular Price $7.99",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.59
+        },
+        {
+          "text": "245032817 vHessentials",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "Factoria - 425-562-0830\n4053 Factoria Square Mall SE\nBellevue, Washington 98006-1286\n05/31/2026 06:17 PM\nHEALTH AND BEAUTY\n245032817 vHessentials T $5.59\nRegular Price $7.99\n245032817 vHessentials T $7.99\nSUBTOTAL $13.58\nT = WA TAX 10.30000 on $13.58 $1.40\nTOTAL $14.98\n*1378 GIFT CARD PAYMENT $14.98\n*1378 GIFT CARD BALANCE $10.02\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nVisit 1800recycle.wa.gov or call 1-\n800-RECYCLE to find electronic product\nrecycling services in your area.\nYOUR TOTAL SAVINGS THIS TRIP:\n$2.40\nREC#2-6151-0339-0172-2339-4\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 8966 1982\nPassword: 776 606\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

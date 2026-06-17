@@ -1,0 +1,176 @@
+{
+  "id": "cmq031ec20044c4a84r9yqpug",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 7.97,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "17.22",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "30606",
+    "city": "Athens",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11755.236875,
+        "totalUsd": 0.013035,
+        "inputTokens": 3692,
+        "outputTokens": 833,
+        "reasoningTokens": 1753
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:41:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30606",
+          "status": "match"
+        },
+        "city": {
+          "value": "ATHENS",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3130 ATLANTA HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1004",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6K61V145L\nWalmart*:\nNeighborhood Market\n706-715-6238 Mgr. DANIEL\n3130 ATLANTA HWY\nATHENS GA 30606\nST# 05267 OP# 009007 TE# 07 TR# 04505\n# ITEMS SOLD 2\nTC# 8835 5188 3714 6565 4845\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nSUBTOTAL 15.94\nTAX1 8.0000 % 1.28\nTOTAL 17.22\nAMEX TEND 17.22\nCHANGE DUE 0.00\nAMERICAN EXPRESS- 1004 I 0 APPR#891990\n17.22 TOTAL PURCHASE\nREF # 61551019570\nTRANS ID - 017418601861078\nAID A000000025010801\nTERMINAL # 28414119\n*No Signature Required\n06/04/26 17:41:16\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 17:41:24",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5358.958083999998,
+        "totalUsd": 0.0138045,
+        "inputTokens": 4355,
+        "outputTokens": 808,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:41:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30606",
+          "status": "match"
+        },
+        "city": {
+          "value": "ATHENS",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3130 ATLANTA HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1004",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6K61V145L\nWalmart *:\nNeighborhood Market\n706-715-6238 Mgr. DANIEL\n3130 ATLANTA HWY\nATHENS GA 30606\nST# 05267 OP# 009007 TE# 07 TR# 04505\n# ITEMS SOLD 2\nTC# 8835 5188 3714 6565 4845\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nSUBTOTAL 15.94\nTAX1 8.0000 % 1.28\nTOTAL 17.22\nAMEX TEND 17.22\nCHANGE DUE 0.00\nAMERICAN EXPRESS- 1004 I 0 APPR#891990\n17.22 TOTAL PURCHASE\nREF # 615511019570\nTRANS ID - 017418601861078\nAID A000000025010801\nTERMINAL # 28414119\n*No Signature Required\n06/04/26 17:41:16\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 17:41:24",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

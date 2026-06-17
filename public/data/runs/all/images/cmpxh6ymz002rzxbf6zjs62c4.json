@@ -1,0 +1,224 @@
+{
+  "id": "cmpxh6ymz002rzxbf6zjs62c4",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 2.69,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": null,
+    "purchaseDate": "2026-05-26T00:00:00.000Z",
+    "time": null,
+    "zipCode": "84070",
+    "city": "Sandy",
+    "state": "UT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 14912.18570900001,
+        "totalUsd": 0.016374,
+        "inputTokens": 3728,
+        "outputTokens": 1198,
+        "reasoningTokens": 2203
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.17",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84070-4118",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Sandy",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10130 S State St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6093",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRAFT + 212140231",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "Lisre Hydrtn + 203750601",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "JUBILEES + 286020065",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "KINDER + 055090506",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89
+        },
+        {
+          "text": "KIT KAT SNGL + 055090079",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99
+        },
+        {
+          "text": "TomsofMaine + 049090438 + Digital MFR Coupon $0.79-",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.2
+        }
+      ],
+      "rawText": "Sandy South Towne - 801-255-3301\n10130 S State St\nSandy, Utah 84070-4118\n05/26/2026 02:42 PM\nGROCERY\n212140231 KRAFT BF $6.99\n203750601 Lisre Hydrtn BF $2.69\n286020065 JUBILEES BF $3.49\n055090506 KINDER NF $1.89\n055090079 KIT KAT SNGL BF $1.99\nHEALTH AND BEAUTY\n049090438 TomsofMaine T $5.99\nDigital MFR Coupon $0.79-\nSUBTOTAL $23.04\nTarget Circle Rewards $20.00 -\nB = UT TAX 3.00000 on $2.00 $0.07\nT = UT TAX 7.45000 on $0.79 $0.06\nTOTAL $3.17\nDIGITAL MFR COUPON PAYMENT $0.79\n*6093 MASTERCARD CHARGE $2.38\nAID: A0000000042203\nDEBIT\nAUTH CODE: 2MXUI8\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n----------------------------------\nREC#2-6146-1752-0172-3406-3\n----------------------------------\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7385 3824 8982\nPassword: 765 937\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6109.922999999995,
+        "totalUsd": 0.0172785,
+        "inputTokens": 4391,
+        "outputTokens": 1188,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.17",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84070-4118",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Sandy",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10130 S State St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6093",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRAFT + 212140231",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "Lisre Hydrtn + 203750601",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "JUBILEES + 286020065",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "KINDER + 055090506",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89
+        },
+        {
+          "text": "KIT KAT SNGL + 055090079",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99
+        },
+        {
+          "text": "TomsofMaine + 049090438 + Digital MFR Coupon $0.79-",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.2
+        }
+      ],
+      "rawText": "Sandy South Towne - 801-255-3301\n10130 S State St\nSandy, Utah 84070-4118\n05/26/2026 02:42 PM\nGROCERY\n212140231 KRAFT BF $6.99\n203750601 Lisre Hydrtn BF $2.69\n286020065 JUBILEES BF $3.49\n055090506 KINDER NF $1.89\n055090079 KIT KAT SNGL BF $1.99\nHEALTH AND BEAUTY\n049090438 TomsofMaine T $5.99\nDigital MFR Coupon $0.79-\nSUBTOTAL $23.04\nTarget Circle Rewards $20.00 -\nB = UT TAX 3.00000 on $2.00 $0.07\nT = UT TAX 7.45000 on $0.79 $0.06\nTOTAL $3.17\nDIGITAL MFR COUPON PAYMENT $0.79\n*6093 MASTERCARD CHARGE $2.38\nAID: A0000000042203\nDEBIT\nAUTH CODE: 2MXUI8\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6146-1752-0172-3406-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7385 3824 8982\nPassword: 765 937\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

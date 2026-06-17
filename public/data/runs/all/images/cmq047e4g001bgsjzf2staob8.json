@@ -1,0 +1,176 @@
+{
+  "id": "cmq047e4g001bgsjzf2staob8",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 11.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "63.64",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "57701",
+    "city": "Rapid City",
+    "state": "SD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 10531.59066700001,
+        "totalUsd": 0.010704,
+        "inputTokens": 3692,
+        "outputTokens": 574,
+        "reasoningTokens": 1123
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "63.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:11 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "57701-9504",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Rapid City",
+          "status": "match"
+        },
+        "state": {
+          "value": "SD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1415 Eglin St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9978",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "245032817 vHessentials",
+          "quantity": 4,
+          "unitPrice": 7.99,
+          "totalSpend": 31.96
+        },
+        {
+          "text": "245033579 vHessentials",
+          "quantity": 4,
+          "unitPrice": 6.99,
+          "totalSpend": 27.96
+        }
+      ],
+      "rawText": "Rapid City - 605-341-8620\n1415 Eglin St\nRapid City, South Dakota 57701-9504\n06/04/2026 05:11 PM\n\nHEALTH AND BEAUTY\n245032817 vHessentials T $31.96\n4 @ $7.99 ea\n245033579 vHessentials T $27.96\n4 @ $6.99 ea\n\nSUBTOTAL $59.92\nT = SD TAX 6.20000 on $59.92 $3.72\nTOTAL $63.64\n\n*9978 MASTERCARD CHARGE $63.64\nAID: A0000000041010\nMastercard\nAUTH CODE: 00426B",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3859.825624999998,
+        "totalUsd": 0.0116445,
+        "inputTokens": 4355,
+        "outputTokens": 568,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "63.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:11 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "57701-9504",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Rapid City",
+          "status": "match"
+        },
+        "state": {
+          "value": "SD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1415 Eglin St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9978",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "245032817 vHessentials",
+          "quantity": 4,
+          "unitPrice": 7.99,
+          "totalSpend": 31.96
+        },
+        {
+          "text": "245033579 vHessentials",
+          "quantity": 4,
+          "unitPrice": 6.99,
+          "totalSpend": 27.96
+        }
+      ],
+      "rawText": "Rapid City - 605-341-8620\n1415 Eglin St\nRapid City, South Dakota 57701-9504\n06/04/2026 05:11 PM\nHEALTH AND BEAUTY\n245032817 vHessentials T $31.96\n4 @ $7.99 ea\n245033579 vHessentials T $27.96\n4 @ $6.99 ea\nSUBTOTAL $59.92\nT = SD TAX 6.20000 on $59.92 $3.72\nTOTAL $63.64\n*9978 MASTERCARD CHARGE $63.64\nAID: A0000000041010\nMastercard\nAUTH CODE: 00426B",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

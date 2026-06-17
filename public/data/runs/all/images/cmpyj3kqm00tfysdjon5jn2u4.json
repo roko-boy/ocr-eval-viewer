@@ -1,0 +1,272 @@
+{
+  "id": "cmpyj3kqm00tfysdjon5jn2u4",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "17.65",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "93720",
+    "city": "Fresno",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 54685.28595799999,
+        "totalUsd": 0.01956,
+        "inputTokens": 3692,
+        "outputTokens": 1558,
+        "reasoningTokens": 9383
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.14",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "13:08",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93720",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fresno",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7477 N. Blackstone",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5133",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RAINIER CHERRIES + 0.96 lb @ $1.99 / lb + Tare: 0.03 lb",
+          "quantity": 1,
+          "unitPrice": 1.91,
+          "totalSpend": 1.91
+        },
+        {
+          "text": "RED PLUMCOTS + 1.10 lb @ $0.99 / lb + Tare: 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 1.09,
+          "totalSpend": 1.09
+        },
+        {
+          "text": "ZESTY RANCH SNAPS + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "DRK CHOC PNK SLT BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": null
+        },
+        {
+          "text": "TEA-COLLAGEN-RASPBER + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CREAMER-ORG-COCONUT-",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CREAMER-ORG-COCONUT- + BOGO MALK",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": null
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n7477 N. Blackstone\nFresno, CA 93720\n(559) 256-1735\n7AM-10PM Daily\n\nPURCHASE\n\nGift Card #S84****748****\nAuth # 000735 Account Type: primary\nLane # 02 Cashier # 319\n06/03/26 13:08 Ref/Seq # 027941\nMrch=013660 Term=001 IC=SV\nEPS Sequence # 027941\nTotal $ 17.65\n\nEnd Bal $ 7.35\n\nPRODUCE\nRAINIER CHERRIES 1.91 F\n0.96 lb @ $1.99 / lb\nTare: 0.03 lb\nRED PLUMCOTS 1.09 F\n1.10 lb @ $0.99 / lb\nTare: 0.01 lb\nZESTY RANCH SNAPS 2.00 F\n1 @ 2 FOR 4.00\n\nGROCERY\nDRK CHOC PNK SLT BAR 2.49 F\nDGTL CPN Quantum E -2.49\nTEA-COLLAGEN-RASPBER 3.50 F\n1 @ 2 FOR 7.00\n*CRV FS 05 0.05\n\nDAIRY\nCREAMER-ORG-COCONUT- 8.99 F\n*CRV FS/TX 05 0.05 T\nCREAMER-ORG-COCONUT- 8.99 F\n*CRV FS/TX 05 0.05 T\nBOGO MALK -8.99\n\nTax Report\nSales Tax 0.10 0.01 TT\n\nBALANCE DUE 20.14\nGIFT CARD $17.65\nAuth# 000735 Ref# 027941\nOpen Bal.:\nAdditional Bal.:\nRedeem Bal.:\nNew Bal.: $7.35\nCHANGE 0.00\n\nYou Saved!\nTOTAL DISCOUNTS 2 11.48\n\nCard XXXXXXXXXXX5133\n\nHave a Healthy Day Andrew!\n*******************************\nSprouts Rewards\n\nPrevious Points Balance: 540\nBonus Points earned: 500\nTotal Points earned today: 590\nNew points balance: 1130",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7889.860917000005,
+        "totalUsd": 0.0203925,
+        "inputTokens": 4355,
+        "outputTokens": 1540,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.14",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "13:08",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93720",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fresno",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7477 N. Blackstone",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RAINIER CHERRIES + 0.96 lb @ $1.99 / lb + Tare: 0.03 lb",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.91
+        },
+        {
+          "text": "RED PLUMCOTS + 1.10 lb @ $0.99 / lb + Tare: 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 1.09
+        },
+        {
+          "text": "ZESTY RANCH SNAPS + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "DRK CHOC PNK SLT BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": null
+        },
+        {
+          "text": "TEA-COLLAGEN-RASPBER + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CREAMER-ORG-COCONUT-",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CREAMER-ORG-COCONUT- + BOGO MALK",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": null
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n7477 N. Blackstone\nFresno, CA 93720\n(559) 256-1735\n7AM-10PM Daily\nPURCHASE\nGift Card #S84****748****\nAuth # 000735 Account Type: primary\nLane # 02 Cashier # 319\n06/03/26 13:08 Ref/Seq # 027941\nMrch=013660 Term=001 IC=SV\nEPS Sequence # 027941\nTotal $ 17.65\n-----------\nEnd Bal $ 7.35\n\nPRODUCE\nRAINIER CHERRIES 1.91 F\n0.96 lb @ $1.99 / lb\nTare: 0.03 lb\nRED PLUMCOTS 1.09 F\n1.10 lb @ $0.99 / lb\nTare: 0.01 lb\nZESTY RANCH SNAPS 2.00 F\n1 @ 2 FOR 4.00\n\nGROCERY\nDRK CHOC PNK SLT BAR 2.49 F\nDGTL CPN Quantum E -2.49\nTEA-COLLAGEN-RASPBER 3.50 F\n1 @ 2 FOR 7.00\n*CRV FS 05 0.05\n\nDAIRY\nCREAMER-ORG-COCONUT- 8.99 F\n*CRV FS/TX 05 0.05 T\nCREAMER-ORG-COCONUT- 8.99 F\n*CRV FS/TX 05 0.05 T\nBOGO MALK -8.99\n\nTax Report\nSales Tax 0.10 0.01 TT\n\nBALANCE DUE 20.14\nGIFT CARD $17.65\nAuth# 000735 Ref# 027941\nOpen Bal.:\nAdditional Bal.:\nRedeem Bal.:\nNew Bal.: $7.35\nCHANGE 0.00\n\nYou Saved!\nTOTAL DISCOUNTS 2 11.48\n----------------------------------------\nCard XXXXXXXXXX5133\n----------------------------------------\nHave a Healthy Day Andrew!\n****************************************\nSprouts Rewards\nPrevious Points Balance: 540\nBonus Points earned: 500\nTotal Points earned today: 590\nNew points balance: 1130",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

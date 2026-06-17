@@ -1,0 +1,164 @@
+{
+  "id": "cmpybt0iv00ysnnae87t5xab2",
+  "url": null,
+  "retailer": "Costco Wholesale Corp.",
+  "brand": "Unknown",
+  "amount": 6,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "15.99",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "53072",
+    "city": "Pewaukee",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 8536.038499999995,
+        "totalUsd": 0.01119,
+        "inputTokens": 3692,
+        "outputTokens": 628,
+        "reasoningTokens": 734
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "15:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53072",
+          "status": "match"
+        },
+        "city": {
+          "value": "Pewaukee",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "443 Pewaukee Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7944",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1949622 YUMI BARS",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nPewaukee #1101\n443 Pewaukee Road\nPewaukee, WI 53072\nI3 Member 111860013516\nE 1949622 YUMI BARS 15.99\nSUBTOTAL 15.99\nTAX 0.00\n**** TOTAL 15.99\n************7944\nSeq#: 6257\nCostco Wallet APPROVED\nTran ID#: 615300006257....\nAPPROVED - Purchase\nWallet - Visa: $15.99\nWallet - Visa 15.99\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/02/2026 15:23 1101 6 290 20\n21 10100602902606021523\nOP#: 20 Name: BEN\nThank You!\nPlease Come Again\nWhse:1101 Trm:6 Trn:290 OP:20\nItems Sold: 1\nI3 06/02/2026 15:23",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4595.080167000007,
+        "totalUsd": 0.0123015,
+        "inputTokens": 4355,
+        "outputTokens": 641,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "15:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53072",
+          "status": "match"
+        },
+        "city": {
+          "value": "Pewaukee",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "443 Pewaukee Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7944",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1949622 YUMI BARS",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nPewaukee #1101\n443 Pewaukee Road\nPewaukee, WI 53072\n\nI3 Member 111860013516\nE 1949622 YUMI BARS 15.99\nSUBTOTAL 15.99\nTAX 0.00\n**** TOTAL 15.99\n\n************7944\nSeq#: 6257\nCostco Wallet APPROVED\nTran ID#: 615300006257....\n\nAPPROVED - Purchase\nWallet - Visa: $15.99\n\nWallet - Visa 15.99\nCHANGE 0.00\n\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/02/2026 15:23 1101 6 290 20\n\n21 10100602902606021523\nOP#: 20 Name: BEN\nThank You!\nPlease Come Again\nWhse:1101 Trm:6 Trn:290 OP:20\n\nItems Sold: 1\nI3 06/02/2026 15:23",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

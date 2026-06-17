@@ -1,0 +1,260 @@
+{
+  "id": "cmq043xzt012ofvun6p4lywir",
+  "url": null,
+  "retailer": "Sprouts",
+  "brand": "Unknown",
+  "amount": 12.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts",
+    "totalCost": "47.09",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "90804",
+    "city": "Long Beach",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 42469.45574999999,
+        "totalUsd": 0.019002,
+        "inputTokens": 3692,
+        "outputTokens": 1496,
+        "reasoningTokens": 3966
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "47.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "15:55:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90804",
+          "status": "match"
+        },
+        "city": {
+          "value": "Long Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4600 E Pacific Coast Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3733",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRK CHOC PB BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": null
+        },
+        {
+          "text": "ORG CHOC CHIP MILK + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "PEACH TEA HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "POM GUT SUPPORT SHOT + 1 @ 3 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "LNDRY DTRGENT PODS",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99
+        },
+        {
+          "text": "LNDRY DTRGENT PODS + BOGO MOLYYS SUDS + DGTL CPN MollysSud",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": -3
+        },
+        {
+          "text": "HYDRATION SUPERCUBE + DGTL CPN RoxiiSupe",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "IMMUNITY SUPERCUBE + BOGO ROXII",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": null
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n4600 E Pacific Coast Hwy\nLong Beach, CA 90804\n562-286-9409\nStore Hours MON-SUN 7AM-10PM\n\n06/04/2026 15:55:47\nCHASE VISA Entry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX3733\nPURCHASE\n- APPROVED\nAUTH CODE:06498D\n\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n06021203A00000\nTSI: 0000\nARC:\n00\nTC:\n7179B10AAC4F275B\nMID: 087836 TID: 001\nRRN: 319574\n\nTotal:\nUSD$ 47.09\n\nGROCERY\nDRK CHOC PB BAR\n2.49\nDGTL CPN Quantum E\n-2.49\nORG CHOC CHIP MILK\n2.50\n1 @ 2 FOR 5.00\n\nVITAMINS\nPEACH TEA HYDRATION\n12.99 T\nPOM GUT SUPPORT SHOT\n3.00 T\n1 @ 3 FOR 9.00\n*CRV FS 05\n0.05\n\nTAXABLE GROCERY\nLNDRY DTRGENT PODS\n17.99 T\nLNDRY DTRGENT PODS\n17.99 T\nBOGO MOLYYS SUDS\n-17.99\nDGTL CPN MollysSud\n-3.00\n\nFROZEN\nHYDRATION SUPERCUBE\n12.99\nDGTL CPN RoxiiSupe\n-3.00\nIMMUNITY SUPERCUBE\n12.99\nBOGO ROXII\n-12.99\n\nTax Report\nSales Tax\n33.98\n3.57 TT\n\nBALANCE DUE\n55.58\nCREDIT\n$47.09\n[ ] XXXXXXXXXXXX3733\nAuth# 06498D\nRef# 319574\nCHANGE\n0.00\n\nYou Saved!\nTOTAL DISCOUNTS\n5\n39.47\n\nCard XXXXXXXXXX9524\n\nHave a Healthy Day Erin!\n****************************************\nSprouts Rewards",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7488.194499999998,
+        "totalUsd": 0.0190965,
+        "inputTokens": 4355,
+        "outputTokens": 1396,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "47.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "15:55:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90804",
+          "status": "match"
+        },
+        "city": {
+          "value": "Long Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4600 E Pacific Coast Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3733",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRK CHOC PB BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": null
+        },
+        {
+          "text": "ORG CHOC CHIP MILK",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "PEACH TEA HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "POM GUT SUPPORT SHOT",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "LNDRY DTRGENT PODS",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99
+        },
+        {
+          "text": "LNDRY DTRGENT PODS + BOGO MOLYYS SUDS + DGTL CPN MollysSud",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": null
+        },
+        {
+          "text": "HYDRATION SUPERCUBE + DGTL CPN RoxiiSupe",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "IMMUNITY SUPERCUBE + BOGO ROXII",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": null
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n4600 E Pacific Coast Hwy\nLong Beach, CA 90804\n562-286-9409\nStore Hours MON-SUN 7AM-10PM\n06/04/2026 15:55:47\nCHASE VISA Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX3733\nPURCHASE - APPROVED\nAUTH CODE:06498D\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06021203A00000\nTSI: 0000 ARC: 00\nTC: 7179B10AAC4F275B\nMID: 087836 TID: 001 RRN: 319574\nTotal: USD$ 47.09\nGROCERY\nDRK CHOC PB BAR 2.49\nDGTL CPN Quantum E -2.49\nORG CHOC CHIP MILK 2.50\n1 @ 2 FOR 5.00\nVITAMINS\nPEACH TEA HYDRATION 12.99 T\nPOM GUT SUPPORT SHOT 3.00 T\n1 @ 3 FOR 9.00\n*CRV FS 05 0.05\nTAXABLE GROCERY\nLNDRY DTRGENT PODS 17.99 T\nLNDRY DTRGENT PODS 17.99 T\nBOGO MOLYYS SUDS -17.99\nDGTL CPN MollysSud -3.00\nFROZEN\nHYDRATION SUPERCUBE 12.99\nDGTL CPN RoxiiSupe -3.00\nIMMUNITY SUPERCUBE 12.99\nBOGO ROXII -12.99\nTax Report\nSales Tax 33.98 3.57 TT\nBALANCE DUE 55.58\nCREDIT $47.09\n[ ] XXXXXXXXXXXX3733\nAuth# 06498D Ref# 319574\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 5 39.47\nCard XXXXXXXXXX9524\nHave a Healthy Day Erin!\n***********************************\nSprouts Rewards",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

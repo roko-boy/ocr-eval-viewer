@@ -1,0 +1,176 @@
+{
+  "id": "cmq04l5mj019ozjw847bwr70p",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 3.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "10.08",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "95758",
+    "city": "Elk Grove",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 14728.683292,
+        "totalUsd": 0.01272,
+        "inputTokens": 3692,
+        "outputTokens": 798,
+        "reasoningTokens": 1031
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "03:12 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95758-5061",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Elk Grove",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7505 Laguna Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7367",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "270060225 Ocean's Halo",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 6.59
+        },
+        {
+          "text": "211340231 Little Spoon",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49
+        }
+      ],
+      "rawText": "Elk Grove - 916-683-5356\n7505 Laguna Blvd\nElk Grove, California 95758-5061\n06/04/2026 03:12 PM\nGROCERY\n270060225 Ocean's Halo NF $6.59\n211340231 Little Spoon NF $3.49\nSUBTOTAL $10.08\nNO TAX $0.00\nTOTAL $10.08\nReusable Bag Discount $0.05\n*7367 VISA CHARGE $10.03\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 27802D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nNOTICE: Some furniture products can expose\nyou to chemicals known to the State of\nCalifornia to cause cancer, birth defects or\nother reproductive harm. Please check on-\nproduct label for warning information\nREC#2-6155-1025-0174-3939-1\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4897 5982\nPassword: 560 609\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6940.136583,
+        "totalUsd": 0.0137505,
+        "inputTokens": 4355,
+        "outputTokens": 802,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "03:12 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95758-5061",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Elk Grove",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7505 Laguna Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7367",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ocean's Halo + 270060225",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 6.59
+        },
+        {
+          "text": "Little Spoon + 211340231",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49
+        }
+      ],
+      "rawText": "Elk Grove - 916-683-5356\n7505 Laguna Blvd\nElk Grove, California 95758-5061\n06/04/2026 03:12 PM\nGROCERY\n270060225 Ocean's Halo NF $6.59\n211340231 Little Spoon NF $3.49\nSUBTOTAL $10.08\nNO TAX $0.00\nTOTAL $10.08\nReusable Bag Discount $0.05\n*7367 VISA CHARGE $10.03\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 27802D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nNOTICE: Some furniture products can expose\nyou to chemicals known to the State of\nCalifornia to cause cancer, birth defects or\nother reproductive harm. Please check on-\nproduct label for warning information\nREC#2-6155-1025-0174-3939-1\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4897 5982\nPassword: 560 609\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

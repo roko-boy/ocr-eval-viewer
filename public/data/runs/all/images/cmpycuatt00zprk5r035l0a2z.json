@@ -1,0 +1,176 @@
+{
+  "id": "cmpycuatt00zprk5r035l0a2z",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "9.01",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "20878",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12822.804166,
+        "totalUsd": 0.012423,
+        "inputTokens": 3692,
+        "outputTokens": 765,
+        "reasoningTokens": 957
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:07 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20878-7305",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Gaithersburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "25 Grand Corner Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4777",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SGSY + 211080442",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Brainic Kids + 203160187",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        }
+      ],
+      "rawText": "Gaithersburg - 301-721-1760\n25 Grand Corner Ave\nGaithersburg, Maryland 20878-7305\n06/03/2026 01:07 PM\n\nGROCERY\n211080442 SGSY TF $3.79\n203160187 Brainic Kids NF $4.99\n\nSUBTOTAL $8.78\nT = MD TAX 6.00000 on $3.79 $0.23\nTOTAL $9.01\n*4777 VISA CHARGE $9.01\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 01181D\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nREC#2-6154-1193-0176-0635-2\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 5880 7982\nPassword: 393 648\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6257.1185,
+        "totalUsd": 0.0133275,
+        "inputTokens": 4355,
+        "outputTokens": 755,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:07 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20878-7305",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Gaithersburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "25 Grand Corner Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4777",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SGSY + 211080442",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Brainic Kids + 203160187",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        }
+      ],
+      "rawText": "Gaithersburg - 301-721-1760\n25 Grand Corner Ave\nGaithersburg, Maryland 20878-7305\n06/03/2026 01:07 PM\nGROCERY\n211080442 SGSY TF $3.79\n203160187 Brainic Kids NF $4.99\nSUBTOTAL $8.78\nT = MD TAX 6.00000 on $3.79 $0.23\nTOTAL $9.01\n*4777 VISA CHARGE $9.01\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 01181D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6154-1193-0176-0635-2\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 5880 7982\nPassword: 393 648\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

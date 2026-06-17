@@ -1,0 +1,200 @@
+{
+  "id": "cmq041k9o00p4zjw8iio6jo3g",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 12.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "24.56",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "29615",
+    "city": "Greenville",
+    "state": "SC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12358.785959,
+        "totalUsd": 0.0160605,
+        "inputTokens": 3711,
+        "outputTokens": 1166,
+        "reasoningTokens": 971
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:08:04",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "29615",
+          "status": "match"
+        },
+        "city": {
+          "value": "Greenville",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2435 E North Street Ste 1106",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7243",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FRT PNCH HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "LIPOSOMAL VIT C SNGL",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99
+        },
+        {
+          "text": "LIQUID COLOSTRUM SNG",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "VEGAN CHOCOLATE CAKE",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2435 E North Street Ste 1106\nGreenville, SC 29615\n864-914-3148\nStore Hours MON-SUN 7AM-10PM\n\n06/04/2026 19:08:04\nCAPITAL ONE Entry Method: Chip\nCARD #: XXXXXXXXXXXX7243\nPURCHASE - APPROVED\nAUTH CODE:04283Z\n\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008000\nIAD: 0110A0400122000000000000000000000000\nTSI: E800 ARC: 00\nTC: 2292C54E7D80ABE9\nMID: 080614 TID: 001 RRN: 317776\n\nTotal: USD$ 24.56\n\nVITAMINS\nFRT PNCH HYDRATION 12.99\nLIPOSOMAL VIT C SNGL 1.99 T\nLIQUID COLOSTRUM SNG 2.99 T\n\nBAKERY\nVEGAN CHOCOLATE CAKE 6.29\n\nTax Report\nSales Tax 4.98 0.30 TT\n\nBALANCE DUE 24.56\nCREDIT $24.56\n[ ] XXXXXXXXXXXX7243\nAuth# 04283Z Ref# 317776\nCHANGE 0.00\n\nCard XXXXXXXXXX9793\nHave a Healthy Day Tina!\n****************************************\nSprouts Rewards\nPrevious Points Balance: 1020\nTotal Points earned today: 120\nNew points balance: 1140\n****************************************\n99056503177431551907\n****************************************\nCashier:SSCO 31 Store: 565\nPOS:031 Transaction:7743\nThursday, June 4, 2026 07:07 PM\n- Save money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\n----------------------------------------\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7153.905834000001,
+        "totalUsd": 0.017082,
+        "inputTokens": 4374,
+        "outputTokens": 1169,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:07 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "29615",
+          "status": "match"
+        },
+        "city": {
+          "value": "Greenville",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2435 E North Street Ste 1106",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7243",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FRT PNCH HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "LIPOSOMAL VIT C SNGL",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99
+        },
+        {
+          "text": "LIQUID COLOSTRUM SNG",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "VEGAN CHOCOLATE CAKE",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2435 E North Street Ste 1106\nGreenville, SC 29615\n864-914-3148\nStore Hours MON-SUN 7AM-10PM\n06/04/2026\n19:08:04\nCAPITAL ONE\nEntry Method: Chip\nCARD #:\nXXXXXXXXXXXX7243\nPURCHASE\n- APPROVED\nAUTH CODE:04283Z\nMode:\nIssuer\nAID:\nA0000000041010\nTVR:\n0000008000\nIAD:\n0110A0400122000000000000000000000000\nOOOFF\nTSI: E800\nARC: 00\nTC:\n2292C54E7D80ABE9\nMID: 080614 TID: 001\nRRN: 317776\nTotal:\nUSD$ 24.56\nVITAMINS\nFRT PNCH HYDRATION\n12.99\nLIPOSOMAL VIT C SNGL\n1.99 T\nLIQUID COLOSTRUM SNG\n2.99 T\nBAKERY\nVEGAN CHOCOLATE CAKE\n6.29\nTax Report\nSales Tax\n4.98\n0.30 TT\nBALANCE DUE\n24.56\nCREDIT\n$24.56\n[ ] XXXXXXXXXXXX7243\nAuth# 04283Z\nRef# 317776\nCHANGE\n0.00\nCard XXXXXXXXXX9793\nHave a Healthy Day Tina!\n****************************************\nSprouts Rewards\nPrevious Points Balance:\n1020\nTotal Points earned today:\n120\nNew points balance:\n1140\n****************************************\n99056503177431551907\n****************************************\nCashier:SSCO 31 Store: 565\nPOS:031 Transaction:7743\nThursday, June 4, 2026 07:07 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,176 @@
+{
+  "id": "cmq1lp1jx0001n0ms9tw138ls",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "13.98",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "55403",
+    "city": "Minneapolis",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11483.71241599999,
+        "totalUsd": 0.01227,
+        "inputTokens": 3692,
+        "outputTokens": 748,
+        "reasoningTokens": 1363
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:14 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55403-2530",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Minneapolis",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "900 Nicollet Mall",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 212040288 TENAYO",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "212040322 Tenayo",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        }
+      ],
+      "rawText": "Mpls Nicollet Mall - 612-338-0085\n900 Nicollet Mall\nMinneapolis, Minnesota 55403-2530\n06/05/2026 06:14 PM\nGROCERY\n212040288 TENAYO NF $6.99\n212040322 Tenayo NF $6.99\nSUBTOTAL $13.98\nNO TAX $0.00\nTOTAL $13.98\n*6011 AMEX CHARGE $13.98\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 883309\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6156-1375-0173-3192-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 3862 5982\nPassword: 668 074\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5336.889167000001,
+        "totalUsd": 0.0132645,
+        "inputTokens": 4355,
+        "outputTokens": 748,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:14 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55403-2530",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Minneapolis",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "900 Nicollet Mall",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 212040288 TENAYO",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "212040322 Tenayo",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        }
+      ],
+      "rawText": "Mpls Nicollet Mall - 612-338-0085\n900 Nicollet Mall\nMinneapolis, Minnesota 55403-2530\n06/05/2026 06:14 PM\nGROCERY\n212040288 TENAYO NF $6.99\n212040322 Tenayo NF $6.99\nSUBTOTAL $13.98\nNO TAX $0.00\nTOTAL $13.98\n*6011 AMEX CHARGE $13.98\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 883309\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6156-1375-0173-3192-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 3862 5982\nPassword: 668 074\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

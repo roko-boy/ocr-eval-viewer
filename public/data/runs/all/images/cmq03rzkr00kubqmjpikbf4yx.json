@@ -1,0 +1,176 @@
+{
+  "id": "cmq03rzkr00kubqmjpikbf4yx",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 2.69,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "5.86",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "55113",
+    "city": "Roseville",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 8407.554084000003,
+        "totalUsd": 0.012441,
+        "inputTokens": 3692,
+        "outputTokens": 767,
+        "reasoningTokens": 867
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55113-6005",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1515 County Road B W",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "055022381 Hormbles",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "055022380 Hormbles",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        }
+      ],
+      "rawText": "Roseville T1 - 651-631-0330\n1515 County Road B W\nRoseville, Minnesota 55113-6005\n06/04/2026 04:28 PM\nGROCERY\n055022381 Hormbles TF $2.69\n055022380 Hormbles TF $2.69\nSUBTOTAL $5.38\nT = MN TAX 8.87500 on $5.38 $0.48\nTOTAL $5.86\n*6011 AMEX CHARGE $5.86\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 869725\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6155-2101-0162-5402-1\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4789 9983\nPassword: 745 979\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5145.777749999994,
+        "totalUsd": 0.0134085,
+        "inputTokens": 4355,
+        "outputTokens": 764,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55113-6005",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1515 County Road B W",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Hormbles + 055022381",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        },
+        {
+          "text": "Hormbles + 055022380",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        }
+      ],
+      "rawText": "Roseville T1 - 651-631-0330\n1515 County Road B W\nRoseville, Minnesota 55113-6005\n06/04/2026 04:28 PM\nGROCERY\n055022381 Hormbles TF $2.69\n055022380 Hormbles TF $2.69\nSUBTOTAL $5.38\nT = MN TAX 8.87500 on $5.38 $0.48\nTOTAL $5.86\n*6011 AMEX CHARGE $5.86\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 869725\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6155-2101-0162-5402-1\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4789 9983\nPassword: 745 979\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

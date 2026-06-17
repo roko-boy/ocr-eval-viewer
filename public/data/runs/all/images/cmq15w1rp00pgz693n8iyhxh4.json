@@ -1,0 +1,164 @@
+{
+  "id": "cmq15w1rp00pgz693n8iyhxh4",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 0.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "3.22",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "66062",
+    "city": "Olathe",
+    "state": "KS",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11119.760792,
+        "totalUsd": 0.011802,
+        "inputTokens": 3692,
+        "outputTokens": 696,
+        "reasoningTokens": 1405
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "11:34 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "66062-1074",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Olathe",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15345 W 119th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1713",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Slate Milk + 203800116",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.13
+        }
+      ],
+      "rawText": "Olathe - 913-393-4400\n15345 W 119th St\nOlathe, Kansas 66062-1074\n06/05/2026 11:34 AM\nGROCERY\n203800116 Slate Milk 3F $3.29\nSUBTOTAL $3.29\nTarget Circle Card 5% $0.16 -\nB = KS TAX 2.97500% on $3.13 $0.09\nTOTAL $3.22\n*1713 TARGET CARD $3.22\nAUTH CODE: 005981\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$0.16\nREC#2-6156-1756-0173-5084-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 3824 4982\nPassword: 639 157\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5989.346334,
+        "totalUsd": 0.0127785,
+        "inputTokens": 4355,
+        "outputTokens": 694,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "11:34 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "66062-1074",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Olathe",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15345 W 119th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1713",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 203800116 Slate Milk",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29
+        }
+      ],
+      "rawText": "Olathe - 913-393-4400\n15345 W 119th St\nOlathe, Kansas 66062-1074\n06/05/2026 11:34 AM\nGROCERY\n203800116 Slate Milk 3F $3.29\nSUBTOTAL $3.29\nTarget Circle Card 5% $0.16 -\nB = KS TAX 2.97500 on $3.13 $0.09\nTOTAL $3.22\n*1713 TARGET CARD $3.22\nAUTH CODE: 005981\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$0.16\nREC#2-6156-1756-0173-5084-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 3824 4982\nPassword: 639 157\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

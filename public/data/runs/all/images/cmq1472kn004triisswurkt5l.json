@@ -1,0 +1,188 @@
+{
+  "id": "cmq1472kn004triisswurkt5l",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 3.98,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "9.81",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "80234",
+    "city": "Westminster",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9337.991916999978,
+        "totalUsd": 0.013998,
+        "inputTokens": 3692,
+        "outputTokens": 940,
+        "reasoningTokens": 1129
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.81",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:01:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80234",
+          "status": "match"
+        },
+        "city": {
+          "value": "WESTMINSTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "200 W 136TH AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CB PURPLE + 850003898560",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "SMKD OYSTERS + 048000000660",
+          "quantity": 1,
+          "unitPrice": 2.46,
+          "totalSpend": 2.46
+        },
+        {
+          "text": "DAIYATACOMAC + 871459001830",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6NC1BW34L\nWalmart\nWM Supercenter\n720-929-1758 Mgr. ADAM\n200 W 136TH AVE\nWESTMINSTER CO 80234\nST# 03867 OP# 009005 TE# 05 TR# 01743\n# ITEMS SOLD 3\nTC# 7436 9862 5532 4540 6710\nCB PURPLE 850003898560 F 3.98 R\nSMKD OYSTERS 048000000660 F 2.46 R\nDAIYATACOMAC 871459001830 F 2.97 R\nSUBTOTAL 9.41\nTAX2 4.2500 % 0.40\nTOTAL 9.81\nVISA TEND 9.81\nCHANGE DUE 0.00\nCHASE VISA- 5019 I 1 APPR#04549D\n9.81 TOTAL PURCHASE\nREF # UHGXVA233721\nTRANS ID - 386156577111389\nVALIDATION - SSQ2\nPAYMENT SERVICE - E\nAID A0000000031010\nTERMINAL # 29786956\n*No Signature Required\n06/05/26 10:01:50\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/05/26 10:01:57",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6008.318790999998,
+        "totalUsd": 0.0149925,
+        "inputTokens": 4355,
+        "outputTokens": 940,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.81",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:01:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80234",
+          "status": "match"
+        },
+        "city": {
+          "value": "WESTMINSTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "200 W 136TH AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CB PURPLE + 850003898560",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "SMKD OYSTERS + 048000000660",
+          "quantity": 1,
+          "unitPrice": 2.46,
+          "totalSpend": 2.46
+        },
+        {
+          "text": "DAIYATACOMAC + 871459001830",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6NC1BW34L\nWalmart\nWM Supercenter\n720-929-1758 Mgr. ADAM\n200 W 136TH AVE\nWESTMINSTER CO 80234\nST# 03867 OP# 009005 TE# 05 TR# 01743\n# ITEMS SOLD 3\nTC# 7436 9862 5532 4540 6710\nCB PURPLE 850003898560 F 3.98 R\nSMKD OYSTERS 048000000660 F 2.46 R\nDAIYATACOMAC 871459001830 F 2.97 R\nSUBTOTAL 9.41\nTAX2 4.2500 % 0.40\nTOTAL 9.81\nVISA TEND 9.81\nCHANGE DUE 0.00\nCHASE VISA- 5019 I 1 APPR#04549D\n9.81 TOTAL PURCHASE\nREF # UHGXVA233721\nTRANS ID - 386156577111389\nVALIDATION - SSQ2\nPAYMENT SERVICE - E\nAID A0000000031010\nTERMINAL # 29786956\n*No Signature Required\n06/05/26 10:01:50\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/05/26 10:01:57",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,284 @@
+{
+  "id": "cmpywqkkj00mijcrvipw5bfen",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "18.09",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "85374",
+    "city": "Surprise",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 13703.60608399997,
+        "totalUsd": 0.021756,
+        "inputTokens": 3692,
+        "outputTokens": 1802,
+        "reasoningTokens": 1232
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:17:37",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85374",
+          "status": "match"
+        },
+        "city": {
+          "value": "SURPRISE",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13770 W BELL RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6724",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "PERF BAR CHC + 855569210780 F",
+          "quantity": 1,
+          "unitPrice": 1.8,
+          "totalSpend": 1.8
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "SITE MERCH + 850017346460 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "SITE MERCH + 850017346460 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "SITE MERCH + 850017346460 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "SITE MERCH + 850017346460 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "PERSIL OX 34 + 024200054760 + COUPON 24200 524200811000 A",
+          "quantity": 1,
+          "unitPrice": 5.44,
+          "totalSpend": 3.44
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6FYZ27M1\nWalmart\nWM Supercenter\n623-544-2200 Mgr. NORMAN\n13770 W BELL RD\nSURPRISE AZ 85374\nST# 02777 OP# 009006 TE# 06 TR# 02529\n# ITEMS SOLD 11\nTC# 1856 9966 5932 4123 4902\nK CHOC 009800512040 F 1.27 N\nK CHOC 009800512040 F 1.27 N\nPERF BAR CHC 855569210780 F 1.80 N\nK CHOC 009800512040 F 1.27 N\nK CHOC 009800512040 F 1.27 N\nK CHOC 009800512040 F 1.27 N\nSITE MERCH 850017346460 F 1.50 O\nSITE MERCH 850017346460 F 1.50 O\nSITE MERCH 850017346460 F 1.50 O\nSITE MERCH 850017346460 F 1.50 O\nPERSIL OX 34 024200054760 5.44 X\nCOUPON 24200 524200811000 A 2.00-T\nSUBTOTAL 17.59\nTAX1 9.1000 % 0.50\nTOTAL 18.09\nGIFTCARD TEND 17.82\nDEBIT TEND 0.27\nCHANGE DUE 0.00\nSHOPPING CARD REDEMPTION 17.82\nAPPR. CODE 060385\nBeg Bal Tran Amt End Bal\n17.82 17.82 0.00\n06/03/26 19:17:37\nEFT DEBIT PAY FROM PRIMARY\n0.27 TOTAL PURCHASE\nUS DEBIT- 6724 I 0\nREF # 615595271669\nNETWORK ID. 000R APPR. CODE 109459\nAID A0000000042203\nTERMINAL # 22984106\n*No Signature Required\n06/03/26 19:18:02\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/03/26 19:18:09",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9266.378666000004,
+        "totalUsd": 0.0230025,
+        "inputTokens": 4355,
+        "outputTokens": 1830,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:17:37",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85374",
+          "status": "match"
+        },
+        "city": {
+          "value": "SURPRISE",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13770 W BELL RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6724",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "PERF BAR CHC + 855569210780 F",
+          "quantity": 1,
+          "unitPrice": 1.8,
+          "totalSpend": 1.8
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "SITE MERCH + 850017346460 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "SITE MERCH + 850017346460 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "SITE MERCH + 850017346460 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "SITE MERCH + 850017346460 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "PERSIL OX 34 + 024200054760 + COUPON 24200 524200811000 A",
+          "quantity": 1,
+          "unitPrice": 5.44,
+          "totalSpend": 3.44
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6FYZ27M1\nWalmart\nWM Supercenter\n623-544-2200 Mgr. NORMAN\n13770 W BELL RD\nSURPRISE AZ 85374\nST# 02777 OP# 009006 TE# 06 TR# 02529\n# ITEMS SOLD 11\nTC# 1856 9966 5932 4123 4902\nK CHOC 009800512040 F 1.27 N\nK CHOC 009800512040 F 1.27 N\nPERF BAR CHC 855569210780 F 1.80 N\nK CHOC 009800512040 F 1.27 N\nK CHOC 009800512040 F 1.27 N\nK CHOC 009800512040 F 1.27 N\nSITE MERCH 850017346460 F 1.50 O\nSITE MERCH 850017346460 F 1.50 O\nSITE MERCH 850017346460 F 1.50 O\nSITE MERCH 850017346460 F 1.50 O\nPERSIL OX 34 024200054760 5.44 X\nCOUPON 24200 524200811000 A 2.00-T\nSUBTOTAL 17.59\nTAX1 9.1000 % 0.50\nTOTAL 18.09\nGIFTCARD TEND 17.82\nDEBIT TEND 0.27\nCHANGE DUE 0.00\nSHOPPING CARD REDEMPTION 17.82\nAPPR. CODE 060385\nBeg Bal Tran Amt End Bal\n17.82 17.82 0.00\n06/03/26 19:17:37\nEFT DEBIT PAY FROM PRIMARY\n0.27 TOTAL PURCHASE\nUS DEBIT- 6724 I 0\nREF # 615595271669\nNETWORK ID. 000R APPR. CODE 109459\nAID A0000000042203\nTERMINAL # 22984106\n*No Signature Required\n06/03/26 19:18:02\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/03/26 19:18:09",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,188 @@
+{
+  "id": "cmq2quva601126pphkh4bq5i8",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "22.76",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "32503",
+    "city": "Pensacola",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11062.704167,
+        "totalUsd": 0.013485,
+        "inputTokens": 3692,
+        "outputTokens": 883,
+        "reasoningTokens": 1403
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:21 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32503-2607",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Pensacola",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4711 Bayou Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5457",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Brightroom + 002055441",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalSpend": 4.5
+        },
+        {
+          "text": "PROTEIN + 288077115",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98
+        },
+        {
+          "text": "Lisre Hydrtn + 203750603",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        }
+      ],
+      "rawText": "Pensacola - 850-494-9070\n4711 Bayou Blvd\nPensacola, Florida 32503-2607\n06/06/2026 02:21 PM\nFURNITURE\n002055441 Brightroom T $4.50\nRegular Price $15.00\nGROCERY\n288077115 PROTEIN TF $13.98\n2 @ $6.99 ea\n203750603 Lisre Hydrtn TF $2.69\nSUBTOTAL $21.17\nT = FL TAX 7.50000 on $21.17 $1.59\nTOTAL $22.76\n*5457 MASTERCARD CHARGE $22.76\nAID: A0000000041010\nMastercard\nAUTH CODE: 88448Z\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6157-0686-0140-0312-1\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 2931 4985\nPassword: 996 879\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5613.342708000002,
+        "totalUsd": 0.0144795,
+        "inputTokens": 4355,
+        "outputTokens": 883,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:21 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32503-2607",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Pensacola",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4711 Bayou Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5457",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Brightroom + 002055441",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalSpend": 4.5
+        },
+        {
+          "text": "PROTEIN + 288077115",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98
+        },
+        {
+          "text": "Lisre Hydrtn + 203750603",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        }
+      ],
+      "rawText": "Pensacola - 850-494-9070\n4711 Bayou Blvd\nPensacola, Florida 32503-2607\n06/06/2026 02:21 PM\nFURNITURE\n002055441 Brightroom T $4.50\nRegular Price $15.00\nGROCERY\n288077115 PROTEIN TF $13.98\n2 @ $6.99 ea\n203750603 Lisre Hydrtn TF $2.69\nSUBTOTAL $21.17\nT = FL TAX 7.50000 on $21.17 $1.59\nTOTAL $22.76\n*5457 MASTERCARD CHARGE $22.76\nAID: A0000000041010\nMastercard\nAUTH CODE: 88448Z\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6157-0686-0140-0312-1\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 2931 4985\nPassword: 996 879\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

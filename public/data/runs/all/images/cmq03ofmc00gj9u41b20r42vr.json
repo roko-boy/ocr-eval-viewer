@@ -1,0 +1,188 @@
+{
+  "id": "cmq03ofmc00gj9u41b20r42vr",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 8.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "24.94",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "45069",
+    "city": "West Chester",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12983.68529200001,
+        "totalUsd": 0.013818,
+        "inputTokens": 3728,
+        "outputTokens": 914,
+        "reasoningTokens": 1418
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45069-2794",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "West Chester",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7644 Voice of America Centre Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0356",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "203130440 Cure + Regular Price $9.99",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "245032817 vHessentials",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "245033579 vHessentials",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        }
+      ],
+      "rawText": "West Chester Township - 513-712-1001\n7644 Voice of America Centre Dr\nWest Chester, Ohio 45069-2794\n06/04/2026 06:58 PM\nGROCERY\n203130440 Cure NF $8.99\nRegular Price $9.99\nHEALTH AND BEAUTY\n245032817 vHessentials T $7.99\n245033579 vHessentials T $6.99\nSUBTOTAL $23.97\nT = OH TAX 6.50000 on $14.98 $0.97\nTOTAL $24.94\n*9933 GIFT CARD PAYMENT $5.95\n*9925 GIFT CARD PAYMENT $10.00\n*9407 GIFT CARD PAYMENT $0.27\n*0356 DEBIT TOTAL PAYMENT $8.72\nAUTH CODE: 068147\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.00\nREC#2-6155-1534-0162-7612-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4846 6933\nPassword: 723 874\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5571.611791999996,
+        "totalUsd": 0.0148755,
+        "inputTokens": 4391,
+        "outputTokens": 921,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45069-2794",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "West Chester",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7644 Voice of America Centre Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0356",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cure + 203130440 + Regular Price $9.99",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "vHessentials + 245032817",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "vHessentials + 245033579",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        }
+      ],
+      "rawText": "West Chester Township - 513-712-1001\n7644 Voice of America Centre Dr\nWest Chester, Ohio 45069-2794\n06/04/2026 06:58 PM\nGROCERY\n203130440 Cure NF $8.99\nRegular Price $9.99\nHEALTH AND BEAUTY\n245032817 vHessentials T $7.99\n245033579 vHessentials T $6.99\nSUBTOTAL $23.97\nT = OH TAX 6.50000 on $14.98 $0.97\nTOTAL $24.94\n*9933 GIFT CARD PAYMENT $5.95\n*9925 GIFT CARD PAYMENT $10.00\n*9407 GIFT CARD PAYMENT $0.27\n*0356 DEBIT TOTAL PAYMENT $8.72\nAUTH CODE: 068147\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.00\nREC#2-6155-1534-0162-7612-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4846 6933\nPassword: 723 874\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

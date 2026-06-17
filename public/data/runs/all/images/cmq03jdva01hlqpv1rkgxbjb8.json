@@ -1,0 +1,164 @@
+{
+  "id": "cmq03jdva01hlqpv1rkgxbjb8",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 20.94,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "20.94",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "45459",
+    "city": "Dayton",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 10699.434,
+        "totalUsd": 0.010623,
+        "inputTokens": 3692,
+        "outputTokens": 565,
+        "reasoningTokens": 1226
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45459-3722",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Dayton",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2300 Miamisburg Centerville Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1017",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 286020064 JUBILEES",
+          "quantity": 6,
+          "unitPrice": 3.49,
+          "totalSpend": 20.94
+        }
+      ],
+      "rawText": "Dayton South - 937-435-3817\n2300 Miamisburg Centerville Rd\nDayton, Ohio 45459-3722\n06/04/2026 06:54 PM\nGROCERY\n286020064 JUBILEES\nNF\n$20.94\n6 @ $3.49 ea\nSUBTOTAL\n$20.94\nNO TAX\n$0.00\nTOTAL\n$20.94\n*1017 AMEX CHARGE\n$20.94\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE:\n823101\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3704.209957999999,
+        "totalUsd": 0.0115095,
+        "inputTokens": 4355,
+        "outputTokens": 553,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45459-3722",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Dayton",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2300 Miamisburg Centerville Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1017",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 286020064 JUBILEES",
+          "quantity": 6,
+          "unitPrice": 3.49,
+          "totalSpend": 20.94
+        }
+      ],
+      "rawText": "Dayton South - 937-435-3817\n2300 Miamisburg Centerville Rd\nDayton, Ohio 45459-3722\n06/04/2026 06:54 PM\nGROCERY NF $20.94\n286020064 JUBILEES\n6 @ $3.49 ea\nSUBTOTAL $20.94\nNO TAX $0.00\nTOTAL $20.94\n*1017 AMEX CHARGE $20.94\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 823101\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

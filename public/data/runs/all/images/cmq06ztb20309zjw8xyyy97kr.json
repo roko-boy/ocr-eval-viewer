@@ -1,0 +1,212 @@
+{
+  "id": "cmq06ztb20309zjw8xyyy97kr",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 3.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "27.12",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "84070",
+    "city": "Sandy",
+    "state": "UT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 13362.88333299995,
+        "totalUsd": 0.0158715,
+        "inputTokens": 3711,
+        "outputTokens": 1145,
+        "reasoningTokens": 1342
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "27.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "03:25 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84070-4118",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Sandy",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10130 S State St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4139",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP + 271750009",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 4.68
+        },
+        {
+          "text": "SGSY + 211080291",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.19
+        },
+        {
+          "text": "Cure + 203130442",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.57
+        },
+        {
+          "text": "CauliPuffs + 007101399",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.19
+        },
+        {
+          "text": "Magic Mind + 211080115",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 6.7
+        }
+      ],
+      "rawText": "Sandy South Towne - 801-255-3301\n10130 S State St\nSandy, Utah 84070-4118\n06/04/2026 03:25 PM\nGROCERY\n271750009 TRIP B $4.68\n2 @ $2.34 ea\nRegular Price $2.79\n$5 off Circle\n211080291 SGSY B $3.19\nRegular Price $3.79\n$5 off Circle\n203130442 Cure BF $7.57\nRegular Price $9.99\n$5 off Circle\n007101399 CauliPuffs BF $4.19\nRegular Price $4.99\n$5 off Circle\nHEALTH AND BEAUTY\n211080115 Magic Mind BF $6.70\n2 @ $3.35 ea\nRegular Price $3.99\n$5 off Circle\nSUBTOTAL $26.33\nB = UT TAX 3.00000 on $26.33 $0.79\nTOTAL $27.12\n*4139 VISA CHARGE $27.12\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 584730\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$6.00\nREC#2-6155-1752-0171-1844-0\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4824 8982\nPassword: 881 560\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6893.650790999993,
+        "totalUsd": 0.0117486,
+        "inputTokens": 4374,
+        "outputTokens": 1171,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "27.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "03:25 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84070-4118",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Sandy",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10130 S State St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4139",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP + 271750009 + $5 off Circle",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 4.68
+        },
+        {
+          "text": "SGSY + 211080291 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.19
+        },
+        {
+          "text": "Cure + 203130442 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.57
+        },
+        {
+          "text": "CauliPuffs + 007101399 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.19
+        },
+        {
+          "text": "Magic Mind + 211080115 + $5 off Circle",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 6.7
+        }
+      ],
+      "rawText": "Sandy South Towne - 801-255-3301\n10130 S State St\nSandy, Utah 84070-4118\n06/04/2026 03:25 PM\nGROCERY\n271750009 TRIP B $4.68\n2 @ $2.34 ea\nRegular Price $2.79\n$5 off Circle\n211080291 SGSY B $3.19\nRegular Price $3.79\n$5 off Circle\n203130442 Cure BF $7.57\nRegular Price $9.99\n$5 off Circle\n007101399 CauliPuffs BF $4.19\nRegular Price $4.99\n$5 off Circle\nHEALTH AND BEAUTY\n211080115 Magic Mind BF $6.70\n2 @ $3.35 ea\nRegular Price $3.99\n$5 off Circle\nSUBTOTAL $26.33\nB = UT TAX 3.00000 on $26.33 $0.79\nTOTAL $27.12\n*4139 VISA CHARGE $27.12\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 584730\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$6.00\nREC#2-6155-1752-0171-1844-0\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4824 8982\nPassword: 881 560\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,188 @@
+{
+  "id": "cmq06aqk200qjgb64i0zrhf6d",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "Unknown",
+  "amount": 15.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "75.61",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "18976",
+    "city": "WARRINGTON",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 7410.540875000006,
+        "totalUsd": 0.014016,
+        "inputTokens": 3692,
+        "outputTokens": 942,
+        "reasoningTokens": 642
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "75.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "5:39 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18976",
+          "status": "match"
+        },
+        "city": {
+          "value": "WARRINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "389-A EASTON RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1705",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936494 JFFD-DOG BLEND DIY B",
+          "quantity": 1,
+          "unitPrice": 27.99,
+          "totalSpend": 27.99
+        },
+        {
+          "text": "002936654 JFFD-DOG 18Z VEN/SQU",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99
+        },
+        {
+          "text": "003954926 JFFD-DOG 8Z OMEGA+ W",
+          "quantity": 1,
+          "unitPrice": 28.99,
+          "totalSpend": 28.99
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nWARRINGTON CREEKVIEW #03849\n389-A EASTON RD\nWARRINGTON, PA 18976\n215-488-9088\n06/04/26 5:39PM Reg 001 Trans 114284\nHelped by Scott\n002936494 JFFD-DOG BLEND DIY B 27.99 T\n002936654 JFFD-DOG 18Z VEN/SQU 15.99 T\n003954926 JFFD-DOG 8Z OMEGA+ W 28.99 N\nTaxable Total 43.98\nSubtotal 72.97\nTax PA 6% 2.64\nTOTAL 75.61\nVisa Credit Card 75.61\n2026-06-04 05:39:02 PM\nTotal: USD $75.61\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX1705\nPurchase - APPROVED\nAUTH CODE: 07183I\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 438879\n3 Items\nTransaction Barcode\n013849943001114284202606040000000000\nT = Taxable N = Non-Taxable",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6241.515499999994,
+        "totalUsd": 0.0150105,
+        "inputTokens": 4355,
+        "outputTokens": 942,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "75.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "5:39 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18976",
+          "status": "match"
+        },
+        "city": {
+          "value": "WARRINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "389-A EASTON RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1705",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936494 JFFD-DOG BLEND DIY B",
+          "quantity": 1,
+          "unitPrice": 27.99,
+          "totalSpend": 27.99
+        },
+        {
+          "text": "002936654 JFFD-DOG 18Z VEN/SQU",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99
+        },
+        {
+          "text": "003954926 JFFD-DOG 8Z OMEGA+ W",
+          "quantity": 1,
+          "unitPrice": 28.99,
+          "totalSpend": 28.99
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nWARRINGTON CREEKVIEW #03849\n389-A EASTON RD\nWARRINGTON, PA 18976\n215-488-9088\n06/04/26 5:39PM Reg 001 Trans 114284\nHelped by Scott\n002936494 JFFD-DOG BLEND DIY B 27.99 T\n002936654 JFFD-DOG 18Z VEN/SQU 15.99 T\n003954926 JFFD-DOG 8Z OMEGA+ W 28.99 N\nTaxable Total 43.98\nSubtotal 72.97\nTax PA 6% 2.64\nTOTAL 75.61\nVisa Credit Card 75.61\n2026-06-04 05:39:02 PM\nTotal: USD $75.61\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX1705\nPurchase - APPROVED\nAUTH CODE: 07183I\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 438879\n3 Items\nTransaction Barcode\n013849943001114284202606040000000000\nT = Taxable N = Non-Taxable",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

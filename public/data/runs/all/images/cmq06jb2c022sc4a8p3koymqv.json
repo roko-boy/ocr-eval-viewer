@@ -1,0 +1,332 @@
+{
+  "id": "cmq06jb2c022sc4a8p3koymqv",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Unknown",
+  "amount": 7.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "170.51",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "98004",
+    "city": "Bellevue",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 20281.68724999999,
+        "totalUsd": 0.0237,
+        "inputTokens": 3692,
+        "outputTokens": 2018,
+        "reasoningTokens": 3090
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "170.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98004",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bellevue",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "888 116th Ave NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7030",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIGMOZ BIG MOZZ STICKS",
+          "quantity": 2,
+          "unitPrice": 11.99,
+          "totalSpend": 23.98
+        },
+        {
+          "text": "TRINDN GARLIC NAAN 4CT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "PRAEG PIZZA STARS",
+          "quantity": 2,
+          "unitPrice": 6.69,
+          "totalSpend": 13.38
+        },
+        {
+          "text": "HMRY CKIES CREAM CUPS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "HMRY KEY LIME CUPS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "TRMNA OG DRNK YOGURT",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49
+        },
+        {
+          "text": "365WFM WHLE MILK RICOTTA",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "365WFM MOZZARELLA SHRED",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "SIMEKS MINI BF MEATBALLS + Savings with Prime ($4.98)",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 15
+        },
+        {
+          "text": "CPPLLO UNCRD PPPRNI PIZZA + Savings with Prime ($3.58)",
+          "quantity": 1,
+          "unitPrice": 14.29,
+          "totalSpend": 10.71
+        },
+        {
+          "text": "LSRHYD TRPCL MANGO RFRSHR + Savings with Prime ($0.79)",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2
+        },
+        {
+          "text": "CRBNE CCTR SIMMER SAUCE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "DRSQTC DEODORANT + Savings with Prime ($4.20)",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.79
+        },
+        {
+          "text": "BLULND DSHWSHR REFLL TBS",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 31.98
+        },
+        {
+          "text": "REELPR TOILET PAPER 4CT",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nBellevue BLV 425-462-1400\n888 116th Ave NE\nBellevue, WA 98004\nBIGMOZ BIG MOZZ STICKS\nQty 2 $11.99 ea\n$23.98 F\nTRINDN GARLIC NAAN 4CT\n$5.99 F\nPRAEG PIZZA STARS\nQty 2 $6.69 ea\n$13.38 F\nHMRY CKIES CREAM CUPS\n$3.99 F\nHMRY KEY LIME CUPS\n$3.99 F\nTRMNA OG DRNK YOGURT\n$6.49 F\n365WFM WHLE MILK RICOTTA\n$4.99 F\n365WFM MOZZARELLA SHRED\n$4.99 F\nSIMEKS MINI BF MEATBALLS\nQty 2 Reg $9.99 ea\nSavings with Prime ($4.98)\n$15.00 F\nCPPLLO UNCRD PPPRNI PIZZA\nReg $14.29\nSavings with Prime ($3.58)\n$10.71 F\nLSRHYD TRPCL MANGO RFRSHR\nReg $2.79\nSavings with Prime ($0.79)\n$2.00 FT\nCRBNE CCTR SIMMER SAUCE\n$9.99 F\nDRSQTC DEODORANT\nReg $14.99\nSavings with Prime ($4.20)\n$10.79 T\nBLULND DSHWSHR REFLL TBS\nQty 2 $15.99 ea\n$31.98 T\nREELPR TOILET PAPER 4CT\nQty 2 $7.99 ea\n$15.98 T\nSubtotal:\n$177.80\nTotal Savings:\n-$13.55\nNet Sales:\n$164.25\nTax:\n10.30%\n$6.26\nTotal:\n$170.51\nSold Items:\n20\nPaid:\nVISA\n*7030 $170.51\n*************************************\nYour Total Savings\n$13.55\n*************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n*************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n*************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n953 41142 06/04/2026 04:20 PM\n63011015395341142060420260\nMPHT8E7SUE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9252.346709000005,
+        "totalUsd": 0.0246765,
+        "inputTokens": 4355,
+        "outputTokens": 2016,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "170.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98004",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bellevue",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "888 116th Ave NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7030",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIGMOZ BIG MOZZ STICKS",
+          "quantity": 2,
+          "unitPrice": 11.99,
+          "totalSpend": 23.98
+        },
+        {
+          "text": "TRINDN GARLIC NAAN 4CT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "PRAEG PIZZA STARS",
+          "quantity": 2,
+          "unitPrice": 6.69,
+          "totalSpend": 13.38
+        },
+        {
+          "text": "HMRY CKIES CREAM CUPS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "HMRY KEY LIME CUPS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "TRMNA OG DRNK YOGURT",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49
+        },
+        {
+          "text": "365WFM WHLE MILK RICOTTA",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "365WFM MOZZARELLA SHRED",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "SIMEKS MINI BF MEATBALLS + Savings with Prime ($4.98)",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 15
+        },
+        {
+          "text": "CPPLLO UNCRD PPPRNI PIZZA + Savings with Prime ($3.58)",
+          "quantity": 1,
+          "unitPrice": 14.29,
+          "totalSpend": 10.71
+        },
+        {
+          "text": "LSRHYD TRPCL MANGO RFRSHR + Savings with Prime ($0.79)",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2
+        },
+        {
+          "text": "CRBNE CCTR SIMMER SAUCE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "DRSQTC DEODORANT + Savings with Prime ($4.20)",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.79
+        },
+        {
+          "text": "BLULND DSHWSHR REFLL TBS",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 31.98
+        },
+        {
+          "text": "REELPR TOILET PAPER 4CT",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nBellevue BLV 425-462-1400\n888 116th Ave NE\nBellevue, WA 98004\nBIGMOZ BIG MOZZ STICKS\n$23.98 F\nQty 2 $11.99 ea\nTRINDN GARLIC NAAN 4CT\n$5.99 F\nPRAEG PIZZA STARS\n$13.38 F\nQty 2 $6.69 ea\nHMRY CKIES CREAM CUPS\n$3.99 F\nHMRY KEY LIME CUPS\n$3.99 F\nTRMNA OG DRNK YOGURT\n$6.49 F\n365WFM WHLE MILK RICOTTA\n$4.99 F\n365WFM MOZZARELLA SHRED\n$4.99 F\nSIMEKS MINI BF MEATBALLS\n$15.00 F\nQty 2 Reg $9.99 ea\nSavings with Prime ($4.98)\nCPPLLO UNCRD PPPRNI PIZZA\n$10.71 F\nReg $14.29\nSavings with Prime ($3.58)\nLSRHYD TRPCL MANGO RFRSHR\n$2.00 FT\nReg $2.79\nSavings with Prime ($0.79)\nCRBNE CCTR SIMMER SAUCE\n$9.99 F\nDRSQTC DEODORANT\n$10.79 T\nReg $14.99\nSavings with Prime ($4.20)\nBLULND DSHWSHR REFLL TBS\n$31.98 T\nQty 2 $15.99 ea\nREELPR TOILET PAPER 4CT\n$15.98 T\nQty 2 $7.99 ea\nSubtotal:\n$177.80\nTotal Savings:\n-$13.55\nNet Sales:\n$164.25\nTax:\n10.30%\n$6.26\nTotal:\n$170.51\nSold Items:\n20\nPaid:\nVISA\n*7030 $170.51\n*************************************\nYour Total Savings\n$13.55\n*************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n*************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n*************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n953 41142 06/04/2026 04:20 PM\n63011015395341142060420260\nMPHT8E7SUE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

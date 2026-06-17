@@ -1,0 +1,164 @@
+{
+  "id": "cmpmy0z5800jb12ltc5jgk070",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 12.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "74.97",
+    "purchaseDate": "2026-05-25T00:00:00.000Z",
+    "time": null,
+    "zipCode": "18104",
+    "city": "Allentown",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 8103.394667,
+        "totalUsd": 0.010419,
+        "inputTokens": 3706,
+        "outputTokens": 540,
+        "reasoningTokens": 921
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "74.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "03:13 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18104-2318",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Allentown",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1600 N Cedar Crest Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8838",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FreeStyle + 007067110",
+          "quantity": 3,
+          "unitPrice": 24.99,
+          "totalSpend": 74.97
+        }
+      ],
+      "rawText": "Allentown - 610-398-4006\n1600 N Cedar Crest Blvd\nAllentown, Pennsylvania 18104-2318\n05/25/2026 03:13 PM\nBABY\n007067110 FreeStyle N $74.97\n3 @ $24.99 ea\nSUBTOTAL $74.97\nT = PA TAX 6.00000 on $0.00\nTOTAL $74.97\n*8838 VISA CHARGE\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 06997D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3947.036832999998,
+        "totalUsd": 0.0106125,
+        "inputTokens": 4369,
+        "outputTokens": 451,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "74.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "03:13 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18104-2318",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Allentown",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1600 N Cedar Crest Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8838",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FreeStyle + 007067110",
+          "quantity": 3,
+          "unitPrice": 24.99,
+          "totalSpend": 74.97
+        }
+      ],
+      "rawText": "Allentown - 610-398-4006\n1600 N Cedar Crest Blvd\nAllentown, Pennsylvania 18104-2318\n05/25/2026 03:13 PM\nBABY\n007067110 FreeStyle N $74.97\n3 @ $24.99 ea\nSUBTOTAL $74.97\nT = PA TAX 6.00000 on $0.00\nTOTAL $74.97\n*8838 VISA CHARGE\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 06997D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

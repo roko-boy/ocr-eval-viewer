@@ -1,0 +1,176 @@
+{
+  "id": "cmpwqzwar0035805bgpimhzx3",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 3.65,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "3.65",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "01801",
+    "city": "Woburn",
+    "state": "MA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 6982.619792,
+        "totalUsd": 0.012162,
+        "inputTokens": 3692,
+        "outputTokens": 736,
+        "reasoningTokens": 594
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:37 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01801-1007",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Woburn",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "101 Commerce Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3927",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 211080292 SGSY NFP",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Woburn - 781-904-0002\n101 Commerce Way\nWoburn, Massachusetts 01801-1007\n06/02/2026 10:37 AM\nGROCERY\n211080292 SGSY NFP $3.79\nBottle Deposit Fee $0.05\nSUBTOTAL $3.84\nTarget Circle Card 5% $0.19 -\nNO TAX $0.00\nTOTAL $3.65\n*3927 TARGET CARD $3.65\nAUTH CODE: 002501\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$0.19\nFee may not be refundable\nREC#2-6153-1266-0160-3889-2\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 6873 4983\nPassword: 961 108\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5956.5935,
+        "totalUsd": 0.0131385,
+        "inputTokens": 4355,
+        "outputTokens": 734,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:37 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01801-1007",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Woburn",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "101 Commerce Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3927",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 211080292 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Woburn - 781-904-0002\n101 Commerce Way\nWoburn, Massachusetts 01801-1007\n06/02/2026 10:37 AM\nGROCERY\n211080292 SGSY NFP $3.79\nBottle Deposit Fee $0.05\nSUBTOTAL $3.84\nTarget Circle Card 5% $0.19 -\nNO TAX $0.00\nTOTAL $3.65\n*3927 TARGET CARD $3.65\nAUTH CODE: 002501\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$0.19\nFee may not be refundable\nREC#2-6153-1266-0160-3889-2\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 6873 4983\nPassword: 961 108\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

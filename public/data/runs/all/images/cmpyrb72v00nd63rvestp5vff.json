@@ -1,0 +1,194 @@
+{
+  "id": "cmpyrb72v00nd63rvestp5vff",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 7.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "15.98",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 16173.26908399997,
+        "totalUsd": 0.011121,
+        "inputTokens": 3706,
+        "outputTokens": 618,
+        "reasoningTokens": 2675
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.06",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PAPER_BAG",
+          "quantity": 10,
+          "unitPrice": null,
+          "totalSpend": null
+        },
+        {
+          "text": "Bag fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "Scoot Frozen Lemonade - Strawberry - 3oz/ 5ct Pouches + Save $5, when you spend $25 on grocery + Target Circle Card 5%",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 12.9
+        },
+        {
+          "text": "Oath Nutrition Sparkling Juicy Peach Energy Drink - 10g Protein - 12 fl oz Can + Target Circle Card 5%",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.87
+        }
+      ],
+      "rawText": "8:25 1\nReceipt\n1 of 2\nPAPER_BAG\nQty 10 • $0.00 unit price\nAmount $0.00\nTaxes & fees\nBag fee $0.10\nItem total $0.10\n\nScoot Frozen Lemonade - Strawberry - 3oz/\n5ct Pouches\nQty 2 • $7.99 unit price\nAmount $15.98\nDiscounts\nSave $5, when you spend $25 on grocery -$2.54\nTarget Circle Card 5% -$0.54\nTaxes & fees\nSales tax $0.78\nItem total $13.68\n\nOath Nutrition Sparkling Juicy Peach Energy Drink\n- 10g Protein - 12 fl oz Can\nQty 1 • $2.99 unit price\nAmount $2.99\nDiscounts\nTarget Circle Card 5% -$0.12\nTaxes & fees\nSales tax $0.17\nItem total $3.04\n\nReceipt total $20.06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4300.976041000002,
+        "totalUsd": 0.0113325,
+        "inputTokens": 4369,
+        "outputTokens": 531,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.06",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PAPER_BAG",
+          "quantity": 10,
+          "unitPrice": null,
+          "totalSpend": null
+        },
+        {
+          "text": "Scoot Frozen Lemonade - Strawberry - 3oz/ 5ct Pouches",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 12.9
+        },
+        {
+          "text": "Oath Nutrition Sparkling Juicy Peach Energy Drink - 10g Protein - 12 fl oz Can",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.87
+        }
+      ],
+      "rawText": "Receipt\n1 of 2\nPAPER_BAG\nQty 10 • $0.00 unit price\nAmount $0.00\nTaxes & fees\nBag fee $0.10\nItem total $0.10\nScoot Frozen Lemonade - Strawberry - 3oz/\n5ct Pouches\nQty 2 • $7.99 unit price\nAmount $15.98\nDiscounts\nSave $5, when you spend $25 on grocery -$2.54\nTarget Circle Card 5% -$0.54\nTaxes & fees\nSales tax $0.78\nItem total $13.68\nOath Nutrition Sparkling Juicy Peach Energy Drink\n- 10g Protein - 12 fl oz Can\nQty 1 • $2.99 unit price\nAmount $2.99\nDiscounts\nTarget Circle Card 5% -$0.12\nTaxes & fees\nSales tax $0.17\nItem total $3.04\nReceipt total $20.06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

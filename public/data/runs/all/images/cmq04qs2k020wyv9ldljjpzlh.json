@@ -1,0 +1,224 @@
+{
+  "id": "cmq04qs2k020wyv9ldljjpzlh",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 2.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "36.15",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "10601",
+    "city": "White Plains",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 13103.26270800001,
+        "totalUsd": 0.014367,
+        "inputTokens": 3692,
+        "outputTokens": 981,
+        "reasoningTokens": 1244
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:39 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10601-3331",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "White Plains",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9 City Pl",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Stillrs Soda + 203050145",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Stillrs Soda + 203050145",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Batiste + 063009172",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99
+        },
+        {
+          "text": "Batiste + 063007241",
+          "quantity": 1,
+          "unitPrice": 14.29,
+          "totalSpend": 14.29
+        }
+      ],
+      "rawText": "White Plains - 914-821-0012\n9 City Pl\nWhite Plains, New York 10601-3331\n06/04/2026 06:39 PM\n\nGROCERY\n203050145 Stillrs Soda TFP $2.49\nBottle Deposit Fee $0.05\n203050145 Stillrs Soda TFP $2.49\nBottle Deposit Fee $0.05\nHEALTH AND BEAUTY\n063009172 Batiste T $13.99\n063007241 Batiste T $14.29\nSUBTOTAL $33.36\nT = NY TAX 8.37500 on $33.26 $2.79\nTOTAL $36.15\nCASH PAYMENT $37.00\nCHANGE DUE $0.85\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nFee may not be refundable\n\nREC#2-6155-1358-0071-6283-4\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4864 2992\nPassword: 837 166\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6184.752415999996,
+        "totalUsd": 0.0152895,
+        "inputTokens": 4355,
+        "outputTokens": 973,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:39 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10601-3331",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "White Plains",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9 City Pl",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Stillrs Soda + 203050145",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Stillrs Soda + 203050145",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Batiste + 063009172",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99
+        },
+        {
+          "text": "Batiste + 063007241",
+          "quantity": 1,
+          "unitPrice": 14.29,
+          "totalSpend": 14.29
+        }
+      ],
+      "rawText": "White Plains - 914-821-0012\n9 City Pl\nWhite Plains, New York 10601-3331\n06/04/2026 06:39 PM\nGROCERY\n203050145 Stillrs Soda TFP $2.49\nBottle Deposit Fee $0.05\n203050145 Stillrs Soda TFP $2.49\nBottle Deposit Fee $0.05\nHEALTH AND BEAUTY\n063009172 Batiste T $13.99\n063007241 Batiste T $14.29\nSUBTOTAL $33.36\nT = NY TAX 8.37500 on $33.26 $2.79\nTOTAL $36.15\nCASH PAYMENT $37.00\nCHANGE DUE $0.85\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nFee may not be refundable\nREC#2-6155-1358-0071-6283-4\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4864 2992\nPassword: 837 166\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

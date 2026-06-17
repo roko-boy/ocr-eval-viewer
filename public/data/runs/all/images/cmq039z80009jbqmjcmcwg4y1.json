@@ -1,0 +1,164 @@
+{
+  "id": "cmq039z80009jbqmjcmcwg4y1",
+  "url": null,
+  "retailer": "Publix Super Markets",
+  "brand": "Unknown",
+  "amount": 2.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "5.19",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "30605",
+    "city": "Athens",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11385.67000000001,
+        "totalUsd": 0.011775,
+        "inputTokens": 3692,
+        "outputTokens": 693,
+        "reasoningTokens": 1667
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:30PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30605-6811",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Athens",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1860 Barnett Shoals Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1004",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Nasoya Kimchi Spicy + You saved: $1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99
+        }
+      ],
+      "rawText": "Publix\n\nGeorgetown Square\n1860 Barnett Shoals Rd\nAthens, GA 30605-6811\n(706) 227-6260\nStore Manager: Billy Shuler\n\nNasoya Kimchi Spicy      Ft      4.99\n  You saved: $1.00\n\nSubtotal                         4.99\nFood Tax 4% - t                  0.20\nTotal                            5.19\nCredit                           5.19\nChange                           0.00\n\n****************************************\nSAVINGS: $1.00\n****************************************\n\nAmerican Express: *1004          $5.19\nCredit Card                   Purchase\nAuth/Trace: 888657/741239    Chip Read\nReference: 000805936431\nA000000025010801\nAMERICAN EXPRESS\n----------------------------------------\n06/04/2026 06:30PM\nThank you for shopping at store 1146\n3164, 0174, 774\n\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.\nTerms & conditions apply.\n\nPublix Super Markets, Inc.\n\n1146 64R 743 164",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5514.929917000001,
+        "totalUsd": 0.0121035,
+        "inputTokens": 4355,
+        "outputTokens": 619,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:30PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30605-6811",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Athens",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1860 Barnett Shoals Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1004",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Nasoya Kimchi Spicy + You saved: $1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99
+        }
+      ],
+      "rawText": "Publix.\nGeorgetown Square\n1860 Barnett Shoals Rd\nAthens, GA 30605-6811\n(706) 227-6260\nStore Manager: Billy Shuler\nNasoya Kimchi Spicy Ft 4.99\nYou saved: $1.00\nSubtotal 4.99\nFood Tax 4% - t 0.20\nTotal 5.19\nCredit 5.19\nChange 0.00\n****************************************\nSAVINGS: $1.00\n****************************************\nAmerican Express: *1004 $5.19\nCredit Card Purchase\nAuth/Trace: 888657/741239 Chip Read\nReference: 000805936341\nA000000025010801\nAMERICAN EXPRESS\n06/04/2026 06:30PM\nThank you for shopping at store 1146\n3164, 0174, 774\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.\nTerms & conditions apply.\nPublix Super Markets, Inc.\n1146 64R 743 164",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

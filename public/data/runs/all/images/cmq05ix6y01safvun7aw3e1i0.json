@@ -1,0 +1,188 @@
+{
+  "id": "cmq05ix6y01safvun7aw3e1i0",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 7.97,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "24.34",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "01864",
+    "city": "North Reading",
+    "state": "MA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 14047.757625,
+        "totalUsd": 0.014304,
+        "inputTokens": 3692,
+        "outputTokens": 974,
+        "reasoningTokens": 1558
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.34",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:51:37",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01864",
+          "status": "match"
+        },
+        "city": {
+          "value": "NORTH READING",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "72 MAIN ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0594",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTIAL + 365197720000",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6LJXSZK6\nWalmart\nWal-Mart\n978-664-3262 Mgr. LENNY\n72 MAIN ST\nNORTH READING MA 01864\nST# 02660 OP# 009048 TE# 48 TR# 02935\n# ITEMS SOLD 3\nTC# 5502 0156 2034 9391 8039\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTIAL 365197720000 6.97 X\nSUBTOTAL 22.91\nTAX1 6.2500 % 1.43\nTOTAL 24.34\nGIFTCARD TEND 5.00\nMCARD TEND 19.34\nCHANGE DUE 0.00\nSHOPPING CARD REDEMPTION 5.00\nAPPR. CODE 443558\nBeg Bal Tran Amt End Bal\n5.00 5.00 0.00\n06/04/26 19:51:37\nMASTERCARD- 0594 I 1 APPR#00410B\n19.34 TOTAL PURCHASE\nREF # 615560625740\nAID A0000000041010\nTERMINAL # 57770682\n*No Signature Required\n06/04/26 19:51:56\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 19:52:06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5084.350999999995,
+        "totalUsd": 0.0150645,
+        "inputTokens": 4355,
+        "outputTokens": 948,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.34",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:51:37",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01864",
+          "status": "match"
+        },
+        "city": {
+          "value": "NORTH READING",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "72 MAIN ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0594",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTIAL + 365197720000",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6LJXSZK6\nWalmart *:\nWal-Mart\n978-664-3262 Mgr. LENNY\n72 MAIN ST\nNORTH READING MA 01864\nST# 02660 OP# 009048 TE# 48 TR# 02935\n# ITEMS SOLD 3\nTC# 5502 0156 2034 9391 8039\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTIAL 365197720000 6.97 X\nSUBTOTAL 22.91\nTAX1 6.2500 % 1.43\nTOTAL 24.34\nGIFTCARD TEND 5.00\nMCARD TEND 19.34\nCHANGE DUE 0.00\nSHOPPING CARD REDEMPTION 5.00\nAPPR. CODE 443558\nBeg Bal Tran Amt End Bal\n5.00 5.00 0.00\n06/04/26 19:51:37\nMASTERCARD- 0594 I 1 APPR#00410B\n19.34 TOTAL PURCHASE\nREF # 615560625740\nAID A0000000041010\nTERMINAL # 57770682\n*No Signature Required\n06/04/26 19:51:56\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 19:52:06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

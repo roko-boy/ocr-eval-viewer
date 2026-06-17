@@ -1,0 +1,188 @@
+{
+  "id": "cmq03p30500eazjw8zqx10vov",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 11.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "52.12",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "45069",
+    "city": "West Chester",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 20122.05287499999,
+        "totalUsd": 0.014196,
+        "inputTokens": 3692,
+        "outputTokens": 962,
+        "reasoningTokens": 2667
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:39 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45069-2794",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "West Chester",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7644 Voice of America Centre Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "vHessentials + 245032817",
+          "quantity": 4,
+          "unitPrice": 7.99,
+          "totalSpend": 31.96
+        },
+        {
+          "text": "Tide + 003077447 + Digital MFR Coupon",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "Tide + 003070132",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99
+        }
+      ],
+      "rawText": "West Chester Township - 513-712-1001\n7644 Voice of America Centre Dr\nWest Chester, Ohio 45069-2794\n06/04/2026 06:39 PM\n\nHEALTH AND BEAUTY\n245032817 vHessentials          T      $31.96\n          4 @ $7.99 ea\nLAUNDRY CLEANING AND CLOSET\n003077447 Tide                  T       $4.99\n          Digital MFR Coupon\n          $1.50-\n003070132 Tide                  T      $11.99\n                        SUBTOTAL       $48.94\nT = OH TAX 6.50000 on $48.94            $3.18\n                           TOTAL       $52.12\n\n          Digital MFR Coupon PAYMENT    $1.50\n\n          *4293 GIFT CARD PAYMENT      $20.00\n\n          *0378 GIFT CARD PAYMENT      $20.00\n\n          *8734 GIFT CARD PAYMENT      $10.62\n          *8734 GIFT CARD BALANCE       $9.38\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nREC#2-6155-1534-0163-2356-3\n----------------------------------------\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 4846 6983\nPassword: 676 437\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6156.527958000006,
+        "totalUsd": 0.0149295,
+        "inputTokens": 4355,
+        "outputTokens": 933,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:39 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45069-2794",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "West Chester",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7644 Voice of America Centre Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8734",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 4,
+          "unitPrice": 7.99,
+          "totalSpend": 31.96
+        },
+        {
+          "text": "LAUNDRY CLEANING AND CLOSET + 003077447 Tide + Digital MFR Coupon",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "003070132 Tide",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99
+        }
+      ],
+      "rawText": "West Chester Township - 513-712-1001\n7644 Voice of America Centre Dr\nWest Chester, Ohio 45069-2794\n06/04/2026 06:39 PM\nHEALTH AND BEAUTY\n245032817 vHessentials T $31.96\n4 @ $7.99 ea\nLAUNDRY CLEANING AND CLOSET\n003077447 Tide T $4.99\nDigital MFR Coupon\n$1.50-\n003070132 Tide T $11.99\nSUBTOTAL $48.94\nT = OH TAX 6.50000 on $48.94 $3.18\nTOTAL $52.12\nDigital MFR Coupon PAYMENT $1.50\n*4293 GIFT CARD PAYMENT $20.00\n*0378 GIFT CARD PAYMENT $20.00\n*8734 GIFT CARD PAYMENT $10.62\n*8734 GIFT CARD BALANCE $9.38\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6155-1534-0163-2356-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4846 6983\nPassword: 676 437\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,236 @@
+{
+  "id": "cmpzzhh4e005ohz7vqzuzx8v0",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "27.48",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "87110",
+    "city": "Albuquerque",
+    "state": "NM",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 21070.88141599999,
+        "totalUsd": 0.017859,
+        "inputTokens": 3692,
+        "outputTokens": 1369,
+        "reasoningTokens": 3487
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "27.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "ALBUQUERQUE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5112 LOMAS BLVD. NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2575",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MEDITRRNEAN MARINARA",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49
+        },
+        {
+          "text": "RSPBRRY COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "CHOC PROTEIN SHAKES",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49
+        },
+        {
+          "text": "CHOC PROTEIN SHAKES + BOGO PIRQ",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": null
+        },
+        {
+          "text": "STRAWB PROTEIN SHAKE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "Voided Item + STRAWB PROTEIN SHAKE",
+          "quantity": 1,
+          "unitPrice": -2.99,
+          "totalSpend": -2.99
+        },
+        {
+          "text": "PROTEIN BAR + 1 @ 3 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n5112 LOMAS BLVD. NE\nALBUQUERQUE, NM\n(505) 268-5127\nStore Hours MON-SUN 7AM-10PM\nCard #SXXXXXXXXXXXX2575 PIN Used\nFood Stamps +++ APPROVED +++\nEBT Food Purchase $ 27.48\nEBT Food Balance $ 48.71\nEBT Cash Balance $ 0.00\nAuth # 992686 Exp Date **/**\nLane # 31 Cashier # 931\n06/04/26 15:02 Ref/Seq #314876\nEPS Sequence # 314876\nGROCERY\nMEDITRRNEAN MARINARA 9.49\nRSPBRRY COLLAGEN TEA 3.50\n1 @ 2 FOR 7.00\nVITAMINS\nCHOC PROTEIN SHAKES 11.49\nCHOC PROTEIN SHAKES 11.49\nBOGO PIRQ -11.49\nSTRAWB PROTEIN SHAKE 2.99\nVoided Item\nSTRAWB PROTEIN SHAKE -2.99\nDAIRY\nPROTEIN BAR 3.00\n1 @ 3 FOR 9.00\nBALANCE DUE 27.48\nFood Stamps $27.48\n[ ] XXXXXXXXXXXX2575\nExp. DATE: /\nAuth# 992686 Ref# 314876\nEnding F/S Bal. 48.71\nEnding Cash Bal. 0.00\nFOOD STAMPS TOTAL $27.48\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 1 11.49\nCard XXXXXXXXXXX7103\nHave a Healthy Day Scout!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 685\nBonus Points earned: 0\nTotal Points earned today: 135\nNew points balance: 820\n***********************************\n99070203114441551459\n***********************************\nCashier:SSC031 Store: 702\nPOS:031 Transaction:1444\nThursday, June 4, 2026 02:59 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7686.677041999996,
+        "totalUsd": 0.0187365,
+        "inputTokens": 4355,
+        "outputTokens": 1356,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "27.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "87108",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Albuquerque",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5112 LOMAS BLVD. NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2575",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MEDITRRNEAN MARINARA",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49
+        },
+        {
+          "text": "RSPBRRY COLLAGEN TEA",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "CHOC PROTEIN SHAKES",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49
+        },
+        {
+          "text": "CHOC PROTEIN SHAKES + BOGO PIRQ",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": null
+        },
+        {
+          "text": "STRAWB PROTEIN SHAKE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "Voided Item + STRAWB PROTEIN SHAKE",
+          "quantity": 1,
+          "unitPrice": -2.99,
+          "totalSpend": -2.99
+        },
+        {
+          "text": "PROTEIN BAR",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n5112 LOMAS BLVD. NE\nALBUQUERQUE, NM\n(505) 268-5127\nStore Hours MON-SUN 7AM-10PM\nCard #SXXXXXXXXXXXX2575 PIN Used\nFood Stamps +++ APPROVED +++\nEBT Food Purchase $ 27.48\nEBT Food Balance $ 48.71\nEBT Cash Balance $ 0.00\nAuth # 992686 Exp Date **/**\nLane # 31 Cashier # 931\n06/04/26 15:02 Ref/Seq #314876\nEPS Sequence # 314876\nGROCERY\nMEDITRRNEAN MARINARA 9.49\nRSPBRRY COLLAGEN TEA 3.50\n1 @ 2 FOR 7.00\nVITAMINS\nCHOC PROTEIN SHAKES 11.49\nCHOC PROTEIN SHAKES 11.49\nBOGO PIRQ -11.49\nSTRAWB PROTEIN SHAKE 2.99\nVoided Item\nSTRAWB PROTEIN SHAKE -2.99\nDAIRY\nPROTEIN BAR 3.00\n1 @ 3 FOR 9.00\nBALANCE DUE 27.48\nFood Stamps $27.48\n[ ] XXXXXXXXXXXX2575\nExp. DATE: /\nAuth# 992686 Ref# 314876\nEnding F/S Bal. 48.71\nEnding Cash Bal. 0.00\nFOOD STAMPS TOTAL $27.48\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 1 11.49\nCard XXXXXXXXXXX7103\nHave a Healthy Day Scout!\n****************************************\nSprouts Rewards\nPrevious Points Balance: 685\nBonus Points earned: 0\nTotal Points earned today: 135\nNew points balance: 820\n****************************************\n99070203114441551459\n****************************************\nCashier:SSC031 Store: 702\nPOS:031 Transaction:1444\nThursday, June 4, 2026 02:59 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

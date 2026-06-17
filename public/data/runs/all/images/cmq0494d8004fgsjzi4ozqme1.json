@@ -1,0 +1,212 @@
+{
+  "id": "cmq0494d8004fgsjzi4ozqme1",
+  "url": null,
+  "retailer": "Costco Wholesale Corp.",
+  "brand": "Unknown",
+  "amount": 18.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "54.75",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "20706",
+    "city": "Lanham",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 14904.295666,
+        "totalUsd": 0.016005,
+        "inputTokens": 3692,
+        "outputTokens": 1163,
+        "reasoningTokens": 1949
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "54.75",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20706",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lanham",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2400 Five Lees Lane",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7573",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2059615 NEURO GUM",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99
+        },
+        {
+          "text": "107699 DUMPLINGS + 0000382064 / 107699",
+          "quantity": 1,
+          "unitPrice": 14.79,
+          "totalSpend": 11.29
+        },
+        {
+          "text": "4296 4LB ORG ENVY",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "2038618 CAULISTIRFRY + 0000382084 /2038618",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "5276 RED GRAPES + 0000382103 / 5276",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nWoodmore Towne Centre #1078\n2400 Five Lees Lane\nLanham, MD 20706\n\nSELF-CHECKOUT\n\nEF Member 112014387518\n   2059615 NEURO GUM          18.99\nE  107699 DUMPLINGS           14.79\nE 0000382064 / 107699          3.50-\nE     4296 4LB ORG ENVY        9.99\nE  2038618 CAULISTIRFRY       10.99\nE 0000382084 /2038618          3.00-\nE     5276 RED GRAPES          7.99\nE 0000382103 / 5276            1.50-\n      SUBTOTAL                54.75\n      TAX                      0.00\n**** TOTAL                    54.75\n\nXXXXXXXXXXXX7573             H\nAID: A0000000031010\nSeq# 204411      APP#: 04278D\nVisa    Resp: APPROVED\nTran ID#: 615500204411....\n\nAPPROVED - Purchase\nAMOUNT: $54.75\n06/04/2026 17:47 1078 204 256 704\n\n        Visa                  54.75\n        CHANGE                 0.00\n\nTOTAL NUMBER OF ITEMS SOLD =      5\nINSTANT SAVINGS             $  8.00\n06/04/2026 17:47 1078 204 256 704\n\n21107820402562606041747\nOP#: 704 Name: SCO\n      Thank You!\n   Please Come Again",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6907.625625000001,
+        "totalUsd": 0.0168195,
+        "inputTokens": 4355,
+        "outputTokens": 1143,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "54.75",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20706",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lanham",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2400 Five Lees Lane",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7573",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2059615 NEURO GUM",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99
+        },
+        {
+          "text": "107699 DUMPLINGS + 0000382064 / 107699",
+          "quantity": 1,
+          "unitPrice": 14.79,
+          "totalSpend": 11.29
+        },
+        {
+          "text": "4296 4LB ORG ENVY",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "2038618 CAULISTIRFRY + 0000382084 /2038618",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "5276 RED GRAPES + 0000382103 / 5276",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nWoodmore Towne Centre #1078\n2400 Five Lees Lane\nLanham, MD 20706\nSELF-CHECKOUT\nEF Member 112014387518\n2059615 NEURO GUM 18.99\nE 107699 DUMPLINGS 14.79\nE 0000382064 / 107699 3.50-\nE 4296 4LB ORG ENVY 9.99\nE 2038618 CAULISTIRFRY 10.99\nE 0000382084 /2038618 3.00-\nE 5276 RED GRAPES 7.99\nE 0000382103 / 5276 1.50-\nSUBTOTAL 54.75\nTAX 0.00\n**** TOTAL 54.75\nXXXXXXXXXXXX7573 H\nAID: A0000000031010\nSeq# 204411 APP#: 04278D\nVisa Resp: APPROVED\nTran ID#: 615500204411....\nAPPROVED - Purchase\nAMOUNT: $54.75\n06/04/2026 17:47 1078 204 256 704\nVisa 54.75\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 5\nINSTANT SAVINGS $ 8.00\n06/04/2026 17:47 1078 204 256 704\n21107820402562606041747\nOP#: 704 Name: SCO\nThank You!\nPlease Come Again",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

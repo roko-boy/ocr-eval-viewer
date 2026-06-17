@@ -1,0 +1,236 @@
+{
+  "id": "cmq070sb500d89ccd0zsnvths",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 3.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "18.39",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "10023",
+    "city": "New York",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12303.464959,
+        "totalUsd": 0.015888,
+        "inputTokens": 3692,
+        "outputTokens": 1150,
+        "reasoningTokens": 1663
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:33 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10023-7503",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1863 Broadway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4161",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "203750336 Cadence",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "211080291 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "203750338 Cadence",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "271550296 Gorgie + 2 @ $2.99 ea",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98
+        }
+      ],
+      "rawText": "Upper West Side 61st and Broadway -\n646-429-3934\n1863 Broadway\nNew York, New York 10023-7503\n06/04/2026 08:33 PM\nGROCERY\n203750336 Cadence TFP $3.49\nBottle Deposit Fee $0.05\n211080291 SGSY TFP $3.79\nBottle Deposit Fee $0.05\n203750338 Cadence TFP $3.49\nBottle Deposit Fee $0.05\n271550296 Gorgie TF $5.98\n2 @ $2.99 ea\nSUBTOTAL $16.90\nT = NY TAX 8.87500 on $16.75 $1.49\nTOTAL $18.39\n*4161 MASTERCARD CHARGE $18.39\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 76427P\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nFee may not be refundable\nREC#2-6155-3334-0166-8722-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4666 6983\nPassword: 312 774\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6240.309625000002,
+        "totalUsd": 0.0117201,
+        "inputTokens": 4355,
+        "outputTokens": 1171,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:33 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10023-7503",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1863 Broadway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4161",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cadence + 203750336",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "SGSY + 211080291",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Cadence + 203750338",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Gorgie + 271550296",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98
+        }
+      ],
+      "rawText": "Upper West Side 61st and Broadway -\n646-429-3934\n1863 Broadway\nNew York, New York 10023-7503\n06/04/2026 08:33 PM\n\nGROCERY\n203750336 Cadence TFP $3.49\nBottle Deposit Fee $0.05\n211080291 SGSY TFP $3.79\nBottle Deposit Fee $0.05\n203750338 Cadence TFP $3.49\nBottle Deposit Fee $0.05\n271550296 Gorgie TF $5.98\n2 @ $2.99 ea\n\nSUBTOTAL $16.90\nT = NY TAX 8.87500 on $16.75 $1.49\nTOTAL $18.39\n\n*4161 MASTERCARD CHARGE $18.39\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 76427P\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nFee may not be refundable\n\nREC#2-6155-3334-0166-8722-6\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 4666 6983\nPassword: 312 774\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

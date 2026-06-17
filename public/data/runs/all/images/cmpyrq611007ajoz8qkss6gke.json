@@ -1,0 +1,212 @@
+{
+  "id": "cmpyrq611007ajoz8qkss6gke",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 3.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "28.02",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "44060",
+    "city": "Mentor",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 13622.945334,
+        "totalUsd": 0.01614,
+        "inputTokens": 3692,
+        "outputTokens": 1178,
+        "reasoningTokens": 1914
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.02",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "16:37:27",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44060",
+          "status": "match"
+        },
+        "city": {
+          "value": "MENTOR",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9303 MENTOR AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7670",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SUAV OCEAN + 827854024990",
+          "quantity": 1,
+          "unitPrice": 4.47,
+          "totalSpend": 4.47
+        },
+        {
+          "text": "SUAV OCEAN + 827854024990",
+          "quantity": 1,
+          "unitPrice": 4.47,
+          "totalSpend": 4.47
+        },
+        {
+          "text": "AD + 365197409200",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        },
+        {
+          "text": "GB SQ CH + 015000983330 F + 1.000 oz @ 1 oz /5.48",
+          "quantity": 1,
+          "unitPrice": 5.48,
+          "totalSpend": 5.48
+        },
+        {
+          "text": "GB SQ CH + 015000983330 F + 1.000 oz @ 1 oz /5.48",
+          "quantity": 1,
+          "unitPrice": 5.48,
+          "totalSpend": 5.48
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6D1N3FPQ\nWalmart\nWal-Mart\n440-974-3300 Mgr. ANDREW\n9303 MENTOR AVE\nMENTOR OH 44060\nST# 01857 OP# 009047 TE# 47 TR# 02959\n# ITEMS SOLD 5\nTC# 8021 2338 4219 5236 9477\nSUAV OCEAN 827854024990 4.47 X\nSUAV OCEAN 827854024990 4.47 X\nAD 365197409200 6.97 X\nGB SQ CH 015000983330 F\n1.000 oz @ 1 oz /5.48 5.48 N\nGB SQ CH 015000983330 F\n1.000 oz @ 1 oz /5.48 5.48 N\nSUBTOTAL 26.87\nTAX1 7.2500 % 1.15\nTOTAL 28.02\nVISA TEND 28.02\nCHANGE DUE 0.00\nVISA CREDIT- 7670 I 1 APPR#002570\n28.02 TOTAL PURCHASE\nREF # UHBQMM574902\nTRANS ID - 386153742478149\nVALIDATION - HWTF\nPAYMENT SERVICE - E\nAID A0000000031010\nTERMINAL # 29380925\n*No Signature Required\n06/02/26 16:37:27\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/02/26 16:37:33",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6552.570000000003,
+        "totalUsd": 0.0169005,
+        "inputTokens": 4355,
+        "outputTokens": 1152,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.02",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "16:37:27",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44060",
+          "status": "match"
+        },
+        "city": {
+          "value": "MENTOR",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9303 MENTOR AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7670",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SUAV OCEAN + 827854024990",
+          "quantity": 1,
+          "unitPrice": 4.47,
+          "totalSpend": 4.47
+        },
+        {
+          "text": "SUAV OCEAN + 827854024990",
+          "quantity": 1,
+          "unitPrice": 4.47,
+          "totalSpend": 4.47
+        },
+        {
+          "text": "AD + 365197409200",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        },
+        {
+          "text": "GB SQ CH + 015000983330 F + 1.000 oz @ 1 oz /5.48",
+          "quantity": 1,
+          "unitPrice": 5.48,
+          "totalSpend": 5.48
+        },
+        {
+          "text": "GB SQ CH + 015000983330 F + 1.000 oz @ 1 oz /5.48",
+          "quantity": 1,
+          "unitPrice": 5.48,
+          "totalSpend": 5.48
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6D1N3FPQ\nWalmart *:\nWal-Mart\n440-974-3300 Mgr. ANDREW\n9303 MENTOR AVE\nMENTOR OH 44060\nST# 01857 OP# 009047 TE# 47 TR# 02959\n# ITEMS SOLD 5\nTC# 8021 2338 4219 5236 9477\nSUAV OCEAN 827854024990 4.47 X\nSUAV OCEAN 827854024990 4.47 X\nAD 365197409200 6.97 X\nGB SQ CH 015000983330 F\n1.000 oz @ 1 oz /5.48 5.48 N\nGB SQ CH 015000983330 F\n1.000 oz @ 1 oz /5.48 5.48 N\nSUBTOTAL 26.87\nTAX1 7.2500 % 1.15\nTOTAL 28.02\nVISA TEND 28.02\nCHANGE DUE 0.00\nVISA CREDIT- 7670 I 1 APPR#002570\n28.02 TOTAL PURCHASE\nREF # UHBQMM574902\nTRANS ID - 386153742478149\nVALIDATION - HWTF\nPAYMENT SERVICE - E\nAID A0000000031010\nTERMINAL # 29380925\n*No Signature Required\n06/02/26 16:37:27\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/02/26 16:37:33",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

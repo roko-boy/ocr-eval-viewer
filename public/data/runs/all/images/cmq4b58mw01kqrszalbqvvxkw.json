@@ -1,0 +1,176 @@
+{
+  "id": "cmq4b58mw01kqrszalbqvvxkw",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "Unknown",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "12.22",
+    "purchaseDate": "2026-06-07T12:00:00.000Z",
+    "time": null,
+    "zipCode": "30080",
+    "city": "Smyrna",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12009.31400000001,
+        "totalUsd": 0.011064,
+        "inputTokens": 3692,
+        "outputTokens": 614,
+        "reasoningTokens": 1581
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:13am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30080",
+          "status": "match"
+        },
+        "city": {
+          "value": "Smyrna",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3240 South Cobb Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1001",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DR PRAEGER MT FREE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "DR PRAEGER MT FREE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        }
+      ],
+      "rawText": "Kroger\nFRESH\nFOR\nEVERYONE TM\n3240 South Cobb Drive\n770-433-3410\nYour cashier was CHEC 650\nDR PRAEGER MT FREE 5.99 B\nDR PRAEGER MT FREE 5.99 B\nTAX 0.24\n**** BALANCE 12.22\nAMERICAN EXPRESS Purchase\n************1001 - H\nREF#: 822616 TOTAL: 12.22\nAID: A000000025010801\nTC: 25860B09C29E4BE4\nAMEX 12.22\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/07/26 09:13am 699 650 38 999999650\n#ER#\nTHANK YOU FOR SHOPPING KROGER\nFresh opportunity awaits\nJoin our team today!\njobs.kroger.com\nwww.kroger.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4451.305166999999,
+        "totalUsd": 0.0121125,
+        "inputTokens": 4355,
+        "outputTokens": 620,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:13 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30080",
+          "status": "match"
+        },
+        "city": {
+          "value": "Smyrna",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3240 South Cobb Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1001",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DR PRAEGER MT FREE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "DR PRAEGER MT FREE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE\n3240 South Cobb Drive\n770-433-3410\nYour cashier was CHEC 650\nDR PRAEGER MT FREE 5.99 B\nDR PRAEGER MT FREE 5.99 B\nTAX 0.24\n**** BALANCE 12.22\nSmyrna GA 30080\nAMERICAN EXPRESS Purchase\n************1001 - H\nREF#: 822616 TOTAL: 12.22\nAID: A000000025010801\nTC: 25860809C29E4BE4\nAMEX 12.22\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/07/26 09:13am 699 650 38 999999650\nTHANK YOU FOR SHOPPING KROGER\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kroger.com\nwww.kroger.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

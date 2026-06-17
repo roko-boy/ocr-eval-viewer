@@ -1,0 +1,164 @@
+{
+  "id": "cmq42yodr002nkf6sg0klknd8",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 2.87,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "2.87",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "58701",
+    "city": "Minot",
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 6641.362792,
+        "totalUsd": 0.008348999999999999,
+        "inputTokens": 3706,
+        "outputTokens": 310,
+        "reasoningTokens": 686
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.44",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Leisure Hydration Tropical Mango Electrolyte Refresher - 16oz Single Can",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        }
+      ],
+      "rawText": "12:50 1\nReceipt\n1 of 1\nPicked up at\nWard Parkway\n$21.44\nReceipt total\n2-6158-3991-1569-5214-2\nHide details\nLeisure Hydration Tropical Mango Electrolyte\nRefresher - 16oz Single Can\nQty 1 • $2.69 unit price\nAmount\n$2.69\nTaxes & fees\nSales tax\n$0.18\nItem total\n$2.87",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3219.273708000008,
+        "totalUsd": 0.0094965,
+        "inputTokens": 4369,
+        "outputTokens": 327,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.44",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Leisure Hydration Tropical Mango Electrolyte Refresher - 16oz Single Can",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69
+        }
+      ],
+      "rawText": "12:50 1\nReceipt\n1 of 1\nPicked up at\nWard Parkway\n$21.44\nReceipt total\n2-6158-3991-1569-5214-2\nHide details\nLeisure Hydration Tropical Mango Electrolyte\nRefresher - 16oz Single Can\nQty 1 • $2.69 unit price\nAmount\n$2.69\nTaxes & fees\nSales tax\n$0.18\nItem total\n$2.87\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

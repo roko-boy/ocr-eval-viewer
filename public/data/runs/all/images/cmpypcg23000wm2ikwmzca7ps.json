@@ -1,0 +1,176 @@
+{
+  "id": "cmpypcg23000wm2ikwmzca7ps",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 3.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "12.47",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "20720",
+    "city": "Bowie",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9675.281958000007,
+        "totalUsd": 0.012657,
+        "inputTokens": 3692,
+        "outputTokens": 791,
+        "reasoningTokens": 1194
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20720-4201",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Bowie",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10401 Martin Luther King Jr Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3367",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Slate Milk + 203800267",
+          "quantity": 2,
+          "unitPrice": 3.29,
+          "totalSpend": 6.58
+        },
+        {
+          "text": "Bactine + 245070799",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.89
+        }
+      ],
+      "rawText": "Lanham - 301-955-0107\n10401 Martin Luther King Jr Hwy\nBowie, Maryland 20720-4201\n06/03/2026 07:04 PM\n\nGROCERY\n203800267 Slate Milk NF $6.58\n2 @ $3.29 ea\nHEALTH AND BEAUTY\n245070799 Bactine N+ $5.89\n\nSUBTOTAL $12.47\nNO TAX $0.00\nTOTAL $12.47\n\n*3367 GIFT CARD PAYMENT $12.47\n*3367 GIFT CARD BALANCE $4.21\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\n+ INDICATES HEALTH ITEM\n\nHEALTH ITEM TOTAL: 5.89\n\nREC#2-6154-2007-0172-8613-1\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 5799 3982\nPassword: 713 869\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4407.021583000009,
+        "totalUsd": 0.0133185,
+        "inputTokens": 4355,
+        "outputTokens": 754,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20720-4201",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Bowie",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10401 Martin Luther King Jr Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Slate Milk + 203800267",
+          "quantity": 2,
+          "unitPrice": 3.29,
+          "totalSpend": 6.58
+        },
+        {
+          "text": "Bactine + 245070799",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.89
+        }
+      ],
+      "rawText": "Lanham - 301-955-0107\n10401 Martin Luther King Jr Hwy\nBowie, Maryland 20720-4201\n06/03/2026 07:04 PM\nGROCERY\n203800267 Slate Milk NF $6.58\n2 @ $3.29 ea\nHEALTH AND BEAUTY\n245070799 Bactine N+ $5.89\nSUBTOTAL $12.47\nNO TAX $0.00\nTOTAL $12.47\n*3367 GIFT CARD PAYMENT $12.47\n*3367 GIFT CARD BALANCE $4.21\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n+ INDICATES HEALTH ITEM\nHEALTH ITEM TOTAL: 5.89\nREC#2-6154-2007-0172-8613-1\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 5799 3982\nPassword: 713 869\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

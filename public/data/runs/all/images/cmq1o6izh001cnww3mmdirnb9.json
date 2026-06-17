@@ -1,0 +1,236 @@
+{
+  "id": "cmq1o6izh001cnww3mmdirnb9",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 5.95,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "42.25",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "60404",
+    "city": "Shorewood",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 20277.870042,
+        "totalUsd": 0.016968,
+        "inputTokens": 3692,
+        "outputTokens": 1270,
+        "reasoningTokens": 2777
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:03 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60404-8845",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Shorewood",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1111 Brook Forest Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9374",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "288070342 ProteinPints + Regular Price $6.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.95
+        },
+        {
+          "text": "288077115 PROTEIN + Regular Price $6.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.95
+        },
+        {
+          "text": "270065965 Wow Bao + Regular Price $6.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.94
+        },
+        {
+          "text": "071090436 RipVanWafels + 2 @ $4.08 ea + Regular Price $5.99 + $5 off Circle",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 8.16
+        },
+        {
+          "text": "071080354 GG + Regular Price $4.00",
+          "quantity": 1,
+          "unitPrice": 4,
+          "totalSpend": 2
+        },
+        {
+          "text": "211340131 PERFEC SNACK + Regular Price $2.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.54
+        },
+        {
+          "text": "003070132 Tide",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99
+        }
+      ],
+      "rawText": "        Shorewood - 815-609-6800\n         1111 Brook Forest Ave\n      Shorewood, Illinois 60404-8845\n         06/02/2026 04:03 PM\n\nGROCERY\n288070342 ProteinPints      BF      $5.95\n          Regular Price $6.99\n          $5 off Circle\n288077115 PROTEIN           BF      $5.95\n          Regular Price $6.99\n          $5 off Circle\n270065965 Wow Bao           BF      $5.94\n          Regular Price $6.99\n          $5 off Circle\n071090436 RipVanWafels      BF      $8.16\n          2 @ $4.08 ea\n          Regular Price $5.99\n          $5 off Circle\n071080354 GG                TF      $2.00\n          Regular Price $4.00\n211340131 PERFEC SNACK      TF      $2.54\n          Regular Price $2.99\n          $5 off Circle\nLAUNDRY CLEANING AND CLOSET\n003070132 Tide              T      $11.99\n                    SUBTOTAL       $42.53\n         Target Circle Card 5%      $2.13 -\nB = IL TAX 1.75000 on $24.70        $0.43\nT = IL TAX 9.00000 on $15.70        $1.42\n                       TOTAL       $42.25\n\n*9374 TARGET DEBIT CARD            $42.25\n                 AID: A0000006123333\n                         Target Debit\n                 AUTH CODE:        002683\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7253.519458000002,
+        "totalUsd": 0.0176385,
+        "inputTokens": 4355,
+        "outputTokens": 1234,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:03 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60404-8845",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Shorewood",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1111 Brook Forest Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9374",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ProteinPints + 288070342 + Regular Price $6.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.95
+        },
+        {
+          "text": "PROTEIN + 288077115 + Regular Price $6.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.95
+        },
+        {
+          "text": "Wow Bao + 270065965 + Regular Price $6.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.94
+        },
+        {
+          "text": "RipVanWafels + 071090436 + 2 @ $4.08 ea + Regular Price $5.99 + $5 off Circle",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 8.16
+        },
+        {
+          "text": "GG + 071080354 + Regular Price $4.00",
+          "quantity": 1,
+          "unitPrice": 4,
+          "totalSpend": 2
+        },
+        {
+          "text": "PERFEC SNACK + 211340131 + Regular Price $2.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.54
+        },
+        {
+          "text": "Tide + 003070132",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99
+        }
+      ],
+      "rawText": "Shorewood - 815-609-6800\n1111 Brook Forest Ave\nShorewood, Illinois 60404-8845\n06/02/2026 04:03 PM\nGROCERY\n288070342 ProteinPints BF $5.95\nRegular Price $6.99\n$5 off Circle\n288077115 PROTEIN BF $5.95\nRegular Price $6.99\n$5 off Circle\n270065965 Wow Bao BF $5.94\nRegular Price $6.99\n$5 off Circle\n071090436 RipVanWafels BF $8.16\n2 @ $4.08 ea\nRegular Price $5.99\n$5 off Circle\n071080354 GG TF $2.00\nRegular Price $4.00\n211340131 PERFEC SNACK TF $2.54\nRegular Price $2.99\n$5 off Circle\nLAUNDRY CLEANING AND CLOSET\n003070132 Tide T $11.99\nSUBTOTAL $42.53\nTarget Circle Card 5% $2.13 -\nB = IL TAX 1.75000 on $24.70 $0.43\nT = IL TAX 9.00000 on $15.70 $1.42\nTOTAL $42.25\n*9374 TARGET DEBIT CARD $42.25\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 002683\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

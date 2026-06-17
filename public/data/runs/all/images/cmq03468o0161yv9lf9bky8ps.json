@@ -1,0 +1,224 @@
+{
+  "id": "cmq03468o0161yv9lf9bky8ps",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 5.98,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "28",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "34236",
+    "city": "Sarasota",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 16347.158375,
+        "totalUsd": 0.016212,
+        "inputTokens": 3728,
+        "outputTokens": 1180,
+        "reasoningTokens": 1965
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "18:44:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34236",
+          "status": "match"
+        },
+        "city": {
+          "value": "Sarasota",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "111 Links Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5676",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CCMBR MINT SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "PEACH GNGER SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "RASP ORANGE SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "VNILLA HONEY NUT BAR + 1 @ 3 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 1.67,
+          "totalSpend": 1.67
+        },
+        {
+          "text": "FRT PNCH HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n111 Links Ave\nSarasota, FL, 34236\n941-278-4790\nStore Hours MON-SUN 7AM-10PM\n\n06/04/2026 18:44:01\nMASTERCARD Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX5676\nPURCHASE\n- APPROVED\nAUTH CODE:132522\n\nMode:\nIssuer\nAID:\nA0000000041010\nTVR:\n0000008001\nIAD:\n0114A140030200000004000000000000\n000FF\nTSI: A800\nARC:\n00\nTC:\n5278D9AF35CEBEA4\nMID: 080600 TID: 001 RRN: 320830\n\nTotal:\nUSD$ 28.00\n\nGROCERY\nCCMBR MINT SPRK WTR\n2.99 T\nPEACH COLLAGEN TEA\n3.50 T\n1 @ 2 FOR 7.00\nPEACH GNGER SPRK WTR\n2.99 T\nRASP ORANGE SPRK WTR\n2.99 T\nVNILLA HONEY NUT BAR\n1.67\n1 @ 3 FOR 5.00\n\nVITAMINS\nFRT PNCH HYDRATION\n12.99\n\nTax Report\nSales Tax\n12.47\n0.87 TT\n\nBALANCE DUE\n28.00\nCREDIT\n$28.00\n[ ] XXXXXXXXXXXX5676\nAuth# 132522 Ref# 320830\nCHANGE\n0.00\n\n****************************************\n99066003263081551842\n****************************************\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6600.167291999998,
+        "totalUsd": 0.0169725,
+        "inputTokens": 4391,
+        "outputTokens": 1154,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "18:44:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34236",
+          "status": "match"
+        },
+        "city": {
+          "value": "Sarasota",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "111 Links Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5676",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CCMBR MINT SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "PEACH GNGER SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "RASP ORANGE SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "VNILLA HONEY NUT BAR + 1 @ 3 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 1.67,
+          "totalSpend": 1.67
+        },
+        {
+          "text": "FRT PNCH HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n111 Links Ave\nSarasota, FL, 34236\n941-278-4790\nStore Hours MON-SUN 7AM-10PM\n\n06/04/2026 18:44:01\nMASTERCARD Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX5676\nPURCHASE - APPROVED\nAUTH CODE:132522\n\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0114A140030200000004000000000000\n000FF\nTSI: A800 ARC: 00\nTC: 5278D9AF35CEBEA4\nMID: 080600 TID: 001 RRN: 320830\n\nTotal: USD$ 28.00\n\nGROCERY\nCCMBR MINT SPRK WTR 2.99 T\nPEACH COLLAGEN TEA 3.50 T\n1 @ 2 FOR 7.00\nPEACH GNGER SPRK WTR 2.99 T\nRASP ORANGE SPRK WTR 2.99 T\nVNILLA HONEY NUT BAR 1.67\n1 @ 3 FOR 5.00\n\nVITAMINS\nFRT PNCH HYDRATION 12.99\n\nTax Report\nSales Tax 12.47 0.87 TT\n\nBALANCE DUE 28.00\nCREDIT $28.00\n[ ] XXXXXXXXXXXX5676\nAuth# 132522 Ref# 320830\nCHANGE 0.00\n****************************************\n99066003263081551842\n****************************************\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

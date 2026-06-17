@@ -1,0 +1,284 @@
+{
+  "id": "cmpyncv1v001yx5oevkvnh3b9",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 8.22,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "60.18",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "78753",
+    "city": "Austin",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 23724.12391699999,
+        "totalUsd": 0.02262,
+        "inputTokens": 3692,
+        "outputTokens": 1898,
+        "reasoningTokens": 3396
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "60.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:18:36",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78753",
+          "status": "match"
+        },
+        "city": {
+          "value": "AUSTIN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1030 NORWOOD PARK BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1871",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SITE MERCH + 058449251090",
+          "quantity": 1,
+          "unitPrice": 5.74,
+          "totalSpend": 5.74
+        },
+        {
+          "text": "DD CKY CRM + 073321051160",
+          "quantity": 1,
+          "unitPrice": 5.84,
+          "totalSpend": 5.84
+        },
+        {
+          "text": "ELBOW PASTA + 076808516130",
+          "quantity": 1,
+          "unitPrice": 1.84,
+          "totalSpend": 1.84
+        },
+        {
+          "text": "MLLYS LIQ LD + 852835006370",
+          "quantity": 1,
+          "unitPrice": 18.44,
+          "totalSpend": 18.44
+        },
+        {
+          "text": "MLLYS LD PWD + 852835006160",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        },
+        {
+          "text": "IMPERIA SPRE + 011115871320",
+          "quantity": 1,
+          "unitPrice": 1.24,
+          "totalSpend": 1.24
+        },
+        {
+          "text": "WHL CARROTS + 033383664010",
+          "quantity": 1,
+          "unitPrice": 2.26,
+          "totalSpend": 2.26
+        },
+        {
+          "text": "POTATOES + 000000040720 + 1.33 lb. @ 1.00 lb. / 0.82",
+          "quantity": 1,
+          "unitPrice": 0.82,
+          "totalSpend": 1.09
+        },
+        {
+          "text": "TOMATO ROMA + 000000040870 + 0.61 lb. @ 1.00 lb. / 0.97",
+          "quantity": 1,
+          "unitPrice": 0.97,
+          "totalSpend": 0.59
+        },
+        {
+          "text": "GV 1G DR + 078742356240",
+          "quantity": 1,
+          "unitPrice": 1.37,
+          "totalSpend": 1.37
+        },
+        {
+          "text": "PT HT STRCHS + 070640025280",
+          "quantity": 1,
+          "unitPrice": 4.62,
+          "totalSpend": 4.62
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6GDDTYXL\nWalmart *\nWM Supercenter\n512-339-6060 Mgr. DALMACIO\n1030 NORWOOD PARK BLVD\nAUSTIN TX 78753\nST# 01185 OP# 009020 TE# 20 TR# 02899\n# ITEMS SOLD 11\nTC# 7030 4719 6441 3996 8686\nSITE MERCH 058449251090 F 5.74 N\nDD CKY CRM 073321051160 F 5.84 N\nELBOW PASTA 076808516130 F 1.84 N\nMLLYS LIQ LD 852835006370 18.44 X\nMLLYS LD PWD 852835006160 14.44 X\nIMPERIA SPRE 011115871320 F 1.24 N\nWHL CARROTS 033383664010 F 2.26 N\nPOTATOES 000000040720 F\n1.33 lb. @ 1.00 lb. / 0.82 1.09 N\nTOMATO ROMA 000000040870 F\n0.61 lb. @ 1.00 lb. / 0.97 0.59 N\nGV 1G DR 078742356240 F 1.37 N\nPT HT STRCHS 070640025280 S 4.62 N\nSUBTOTAL 57.47\nTAX1 8.2500 % 2.71\nTOTAL 60.18\nPROGRAM CARD 0419 4.62\nDEBIT TEND 55.56\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n4.62 TOTAL PURCHASE\nACCOUNT #- 0419 0\nREF # U2ZD5W3L010J\nNETWORK ID. 0009 APPR. CODE 686519\nTERMINAL # 51278379\n06/03/26 17:18:36\nEFT DEBIT PAY FROM PRIMARY\n55.56 TOTAL PURCHASE\nUS DEBIT- 1871 I 2\nREF # 615432251490\nNETWORK ID. 000L APPR. CODE 467945\nAID A0000000042203\nTERMINAL # 51278379\n*Pin Verified\n06/03/26 17:18:57\nSave time in-store\nwith store maps &\nitem aisle locations.\nGet the App\nLow prices You Can Trust. Every Day.\n06/03/26 17:19:09",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9319.351209,
+        "totalUsd": 0.0236775,
+        "inputTokens": 4355,
+        "outputTokens": 1905,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "60.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:18:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78753",
+          "status": "match"
+        },
+        "city": {
+          "value": "AUSTIN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1030 NORWOOD PARK BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1871",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SITE MERCH + 058449251090 F",
+          "quantity": 1,
+          "unitPrice": 5.74,
+          "totalSpend": 5.74
+        },
+        {
+          "text": "DD CKY CRM + 073321051160 F",
+          "quantity": 1,
+          "unitPrice": 5.84,
+          "totalSpend": 5.84
+        },
+        {
+          "text": "ELBOW PASTA + 076808516130 F",
+          "quantity": 1,
+          "unitPrice": 1.84,
+          "totalSpend": 1.84
+        },
+        {
+          "text": "MLLYS LIQ LD + 852835006370",
+          "quantity": 1,
+          "unitPrice": 18.44,
+          "totalSpend": 18.44
+        },
+        {
+          "text": "MLLYS LD PWD + 852835006160",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        },
+        {
+          "text": "IMPERIA SPRE + 011115871320 F",
+          "quantity": 1,
+          "unitPrice": 1.24,
+          "totalSpend": 1.24
+        },
+        {
+          "text": "WHL CARROTS + 033383664010 F",
+          "quantity": 1,
+          "unitPrice": 2.26,
+          "totalSpend": 2.26
+        },
+        {
+          "text": "POTATOES + 000000040720 F + 1.33 lb. @ 1.00 lb. / 0.82",
+          "quantity": 1,
+          "unitPrice": 1.09,
+          "totalSpend": 1.09
+        },
+        {
+          "text": "TOMATO ROMA + 000000040870 F + 0.61 lb. @ 1.00 lb. / 0.97",
+          "quantity": 1,
+          "unitPrice": 0.59,
+          "totalSpend": 0.59
+        },
+        {
+          "text": "GV 1G DR + 078742356240 F",
+          "quantity": 1,
+          "unitPrice": 1.37,
+          "totalSpend": 1.37
+        },
+        {
+          "text": "PT HT STRCHS + 070640025280 S",
+          "quantity": 1,
+          "unitPrice": 4.62,
+          "totalSpend": 4.62
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6GDDTYXL\nWalmart\nWM Supercenter\n512-339-6060 Mgr. DALMACIO\n1030 NORWOOD PARK BLVD\nAUSTIN TX 78753\nST# 01185 OP# 009020 TE# 20 TR# 02899\n# ITEMS SOLD 11\nTC# 7030 4719 6441 3996 8686\nSITE MERCH 058449251090 F 5.74 N\nDD CKY CRM 073321051160 F 5.84 N\nELBOW PASTA 076808516130 F 1.84 N\nMLLYS LIQ LD 852835006370 18.44 X\nMLLYS LD PWD 852835006160 14.44 X\nIMPERIA SPRE 011115871320 F 1.24 N\nWHL CARROTS 033383664010 F 2.26 N\nPOTATOES 000000040720 F\n1.33 lb. @ 1.00 lb. / 0.82 1.09 N\nTOMATO ROMA 000000040870 F\n0.61 lb. @ 1.00 lb. / 0.97 0.59 N\nGV 1G DR 078742356240 F 1.37 N\nPT HT STRCHS 070640025280 S 4.62 N\nSUBTOTAL 57.47\nTAX1 8.2500 % 2.71\nTOTAL 60.18\nPROGRAM CARD 0419 4.62\nDEBIT TEND 55.56\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n4.62 TOTAL PURCHASE\nACCOUNT #- 0419 0\nREF # U2ZD5W3L010J\nNETWORK ID. 0009 APPR. CODE 686519\nTERMINAL # 51728379\n06/03/26 17:18:36\nEFT DEBIT PAY FROM PRIMARY\n55.56 TOTAL PURCHASE\nUS DEBIT- 1871 I 2\nREF # 615432251490\nNETWORK ID. 000L APPR. CODE 467945\nAID A0000000042203\nTERMINAL # 51728379\n*Pin Verified\n06/03/26 17:18:57\nSave time in-store\nwith store maps &\nitem aisle locations.\nGet the App\nLow prices You Can Trust. Every Day.\n06/03/26 17:19:09",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,176 @@
+{
+  "id": "cmq03idk1009gc4a8u7sntx6w",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 19.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "49.44",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "20155",
+    "city": "Gainesville",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9846.201125000003,
+        "totalUsd": 0.012468,
+        "inputTokens": 3692,
+        "outputTokens": 770,
+        "reasoningTokens": 1308
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20155-2984",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Gainesville",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13301 Gateway Center Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2608",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRAFT + 212140231",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "Nello + 094027278",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98
+        }
+      ],
+      "rawText": "Gainesville - 571-261-5052\n13301 Gateway Center Dr\nGainesville, Virginia 20155-2984\n06/04/2026 06:55 PM\n\nGROCERY\n212140231 KRAFT BF $6.99\nHEALTH AND BEAUTY\n094027278 Nello T $39.98\n2 @ $19.99 ea\n\nSUBTOTAL $46.97\nT = VA TAX 6.00000 on $39.98 $2.40\nB = VA TAX 1.00000 on $6.99 $0.07\nTOTAL $49.44\n\n*2608 VISA CHARGE $49.44\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 05656D\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nREC#2-6155-1873-0174-6888-0\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 4812 7982\nPassword: 531 120\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6725.714916999998,
+        "totalUsd": 0.0133185,
+        "inputTokens": 4355,
+        "outputTokens": 754,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20155-2984",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Gainesville",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13301 Gateway Center Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2608",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRAFT + 212140231",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        },
+        {
+          "text": "Nello + 094027278",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98
+        }
+      ],
+      "rawText": "Gainesville - 571-261-5052\n13301 Gateway Center Dr\nGainesville, Virginia 20155-2984\n06/04/2026 06:55 PM\n\nGROCERY\n212140231 KRAFT BF $6.99\nHEALTH AND BEAUTY\n094027278 Nello T $39.98\n2 @ $19.99 ea\nSUBTOTAL $46.97\nT = VA TAX 6.00000 on $39.98 $2.40\nB = VA TAX 1.00000 on $6.99 $0.07\nTOTAL $49.44\n*2608 VISA CHARGE $49.44\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 05656D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nREC#2-6155-1873-0174-6888-0\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4812 7982\nPassword: 531 120\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

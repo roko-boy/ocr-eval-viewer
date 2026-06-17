@@ -1,0 +1,200 @@
+{
+  "id": "cmq1lvse6004ukexryfhk72ol",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "10.05",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "55435",
+    "city": "Edina",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9888.474542,
+        "totalUsd": 0.014412,
+        "inputTokens": 3692,
+        "outputTokens": 986,
+        "reasoningTokens": 1329
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55435-4213",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Edina",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7000 York Ave S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "261000090 Muffinful + Regular Price $6.99 + 2for$10",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5
+        },
+        {
+          "text": "261000162 Brownieful + Regular Price $6.99 + 2for$10",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5
+        },
+        {
+          "text": "004100019 TARGET BAG",
+          "quantity": 1,
+          "unitPrice": null,
+          "totalSpend": null
+        },
+        {
+          "text": "Bag Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Edina - 952-925-4610\n7000 York Ave S\nEdina, Minnesota 55435-4213\n06/05/2026 02:51 PM\nGROCERY\n261000090 Muffinful NF $5.00\nRegular Price $6.99\n2for$10\n261000162 Brownieful NF $5.00\nRegular Price $6.99\n2for$10\nNON RETAIL\n004100019 TARGET BAG TP $0.00\nBag Fee $0.05\nSUBTOTAL $10.05\nNO TAX $0.00\nTOTAL $10.05\n*6011 AMEX CHARGE $10.05\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 826222\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$3.98\nFee may not be refundable\nREC#2-6156-2313-0165-3627-7\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 3768 7983\nPassword: 463 723\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6038.654334000001,
+        "totalUsd": 0.0154245,
+        "inputTokens": 4355,
+        "outputTokens": 988,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55435-4213",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Edina",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7000 York Ave S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Muffinful + 261000090 + Regular Price $6.99 + 2for$10",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5
+        },
+        {
+          "text": "Brownieful + 261000162 + Regular Price $6.99 + 2for$10",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5
+        },
+        {
+          "text": "TARGET BAG + 004100019",
+          "quantity": 1,
+          "unitPrice": null,
+          "totalSpend": null
+        },
+        {
+          "text": "Bag Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Edina - 952-925-4610\n7000 York Ave S\nEdina, Minnesota 55435-4213\n06/05/2026 02:51 PM\nGROCERY\n261000090 Muffinful NF $5.00\nRegular Price $6.99\n2for$10\n261000162 Brownieful NF $5.00\nRegular Price $6.99\n2for$10\nNON RETAIL\n004100019 TARGET BAG TP $0.00\nBag Fee $0.05\nSUBTOTAL $10.05\nNO TAX $0.00\nTOTAL $10.05\n*6011 AMEX CHARGE $10.05\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 826222\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$3.98\nFee may not be refundable\nREC#2-6156-2313-0165-3627-7\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 3768 7983\nPassword: 463 723\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,164 @@
+{
+  "id": "cmq1kbo5n0084pglnikhu82hg",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 16.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "18.18",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "30041",
+    "city": "Cumming",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9245.157166999998,
+        "totalUsd": 0.011361,
+        "inputTokens": 3692,
+        "outputTokens": 647,
+        "reasoningTokens": 1307
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:14 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30041-7395",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Cumming",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1525 Market Place Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5112",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "049090143 MdebyDentist",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99
+        }
+      ],
+      "rawText": "Cumming - 678-455-9618\n1525 Market Place Blvd\nCumming, Georgia 30041-7395\n06/05/2026 07:14 PM\n\nHEALTH AND BEAUTY\n049090143 MdebyDentist T $16.99\n\nSUBTOTAL $16.99\nT = GA TAX 7.00000 on $16.99 $1.19\nTOTAL $18.18\n\n*5112 DEBIT TOTAL PAYMENT $18.18\nAID: A0000000042203\nUS Debit\nAUTH CODE: 20HQR5\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nREC#2-6156-1394-0174-8896-6\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 3860 6982\nPassword: 5112 034\n\nCUENTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4617.262959,
+        "totalUsd": 0.0122475,
+        "inputTokens": 4355,
+        "outputTokens": 635,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:14 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30041-7935",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Cumming",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1525 Market Place Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5112",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 049090143 MdebyDentist",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99
+        }
+      ],
+      "rawText": "Cumming - 678-455-9618\n1525 Market Place Blvd\nCumming, Georgia 30041-7935\n06/05/2026 07:14 PM\nHEALTH AND BEAUTY\n049090143 MdebyDentist T $16.99\nSUBTOTAL $16.99\nT = GA TAX 7.00000 on $16.99 $1.19\nTOTAL $18.18\n*5112 DEBIT TOTAL PAYMENT $18.18\nAID: A0000000042203\nUS Debit\nAUTH CODE: 20HQR5\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nREC#2-6156-1394-0174-8896-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 3860 6982\nPassword: 511 034\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

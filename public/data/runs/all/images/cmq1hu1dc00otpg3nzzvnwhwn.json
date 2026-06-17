@@ -1,0 +1,164 @@
+{
+  "id": "cmq1hu1dc00otpg3nzzvnwhwn",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Unknown",
+  "amount": 8.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "9.87",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "90036",
+    "city": "Los Angeles",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 8584.45974999998,
+        "totalUsd": 0.011541,
+        "inputTokens": 3692,
+        "outputTokens": 667,
+        "reasoningTokens": 1345
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.87",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90036",
+          "status": "match"
+        },
+        "city": {
+          "value": "Los Angeles",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6350 W 3rd St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5462",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PIRQ PROTEIN SHAKE 4PK",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nFairfax FFX 323-964-6800\n6350 W 3rd St\nLos Angeles, CA 90036\nPIRQ PROTEIN SHAKE 4PK $8.99 FT\nSubtotal: $8.99\nNet Sales: $8.99\nTax: 9.75% $0.88\nTotal: $9.87\nSold Items: 1\nPaid:\nVISA *5462 $9.87\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n204 22530 06/05/2026 01:42 PM\n63011017720422530060520260\nPPLRBIERGU",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4499.857833999995,
+        "totalUsd": 0.0125355,
+        "inputTokens": 4355,
+        "outputTokens": 667,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.87",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90036",
+          "status": "match"
+        },
+        "city": {
+          "value": "Los Angeles",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6350 W 3rd St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5462",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PIRQ PROTEIN SHAKE 4PK",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nFairfax FFX 323-964-6800\n6350 W 3rd St\nLos Angeles, CA 90036\nPIRQ PROTEIN SHAKE 4PK $8.99 FT\nSubtotal: $8.99\nNet Sales: $8.99\nTax: 9.75% $0.88\nTotal: $9.87\nSold Items: 1\nPaid:\nVISA *5462 $9.87\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n204 22530 06/05/2026 01:42 PM\n63011017720422530060520260\nPPLRBIERGU",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

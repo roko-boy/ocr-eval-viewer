@@ -1,0 +1,176 @@
+{
+  "id": "cmq2osoqq016dl5g01eh2p9qx",
+  "url": null,
+  "retailer": "Giant (MD)",
+  "brand": "Unknown",
+  "amount": 3.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Giant (MD)",
+    "totalCost": "3.29",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "20878",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12078.927625,
+        "totalUsd": 0.013962,
+        "inputTokens": 3692,
+        "outputTokens": 936,
+        "reasoningTokens": 1768
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:24pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20878",
+          "status": "match"
+        },
+        "city": {
+          "value": "GAITHERSBURG",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "229 KENTLANDS BOULEVARD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7710",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PTASTY RB 12Z",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29
+        },
+        {
+          "text": "CUCUMBERS + SC FLEXIBLE REWARD",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": null
+        }
+      ],
+      "rawText": "Giant\n\n229 KENTLANDS BOULEVARD\nGAITHERSBURG, MD 20878\nStore Telephone: (301) 208-8203\nPharmacy Telephone: (301) 208-8204\nStore #320 06/06/26 02:24pm\n\nGROCERY\nPTASTY RB 12Z 3.29 F\nPRODUCE\nCUCUMBERS 0.99 F\nSC FLEXIBLE REWARD 0.99-F\nPRICE YOU PAY FREE\n\nTAX 0.00\n**** BALANCE 3.29\n\n*************************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************7710\nPayment Amt: $3.29\nBALANCE: $\nAID: A0000000031010\nAUTH#06391D RC#00 06/06/26 02:25pm\n*************************************\nVISA 3.29\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n\n********* SAVINGS SUMMARY *********\nCard Savings: 0.99\nYour Total Savings: 0.99\n\n06/06/26 02:25pm 320 407 118 880007\n\n***** Flexible Rewards *****\nFlex pts earned 3\nTotal Flex pts 269\n\nFlex pts earned today expire by the\nend of the next month.\n\n2026 CARD SAVINGS\n$210.56\n\n*************************************\nCustomer 4******1901\nwww.GiantFood.com\nThank you for shopping GIANT\nTUSITA CHANDRASIRI, STORE MGR\nSELF-CHECKOUT, Your Cashier\n\nHow was your visit?\nTake our survey to help us improve.\nWithin 5 days please visit:\nwww.talktogiantfood.com\nUse the PIN # below to start:\n0606 1425 0322 0407 0118\nTambien disponible en espanol",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5622.556250000001,
+        "totalUsd": 0.0147945,
+        "inputTokens": 4355,
+        "outputTokens": 918,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:24pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20878",
+          "status": "match"
+        },
+        "city": {
+          "value": "GAITHERSBURG",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "229 KENTLANDS BOULEVARD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7710",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PTASTY RB 12Z",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29
+        },
+        {
+          "text": "CUCUMBERS + SC FLEXIBLE REWARD PRICE YOU PAY FREE",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": null
+        }
+      ],
+      "rawText": "Giant\n229 KENTLANDS BOULEVARD\nGAITHERSBURG, MD 20878\nStore Telephone: (301) 208-8203\nPharmacy Telephone: (301) 208-8204\nStore #320 06/06/26 02:24pm\nGROCERY\nPTASTY RB 12Z 3.29 F\nPRODUCE\nCUCUMBERS 0.99 F\nSC FLEXIBLE REWARD 0.99-F\nPRICE YOU PAY FREE\nTAX 0.00\n**** BALANCE 3.29\n*************************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************7710\nPayment Amt: $3.29\nBALANCE: $\nAID: A0000000031010\nAUTH#06391D RC#00 06/06/26 02:25pm\n*************************************\nVISA 3.29\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n******** SAVINGS SUMMARY *********\nCard Savings: 0.99\nYour Total Savings: 0.99\n06/06/26 02:25pm 320 407 118 880007\n***** Flexible Rewards *****\nFlex pts earned 3\nTotal Flex pts 269\nFlex pts earned today expire by the\nend of the next month.\n2026 CARD SAVINGS\n$210.56\n*************************************\nCustomer 4******1901\nwww.GiantFood.com\nThank you for shopping GIANT\nTUSITA CHANDRASIRI, STORE MGR\nSELF-CHECKOUT, Your Cashier\nHow was your visit?\nTake our survey to help us improve.\nWithin 5 days please visit:\nwww.talktogiantfood.com\nUse the PIN # below to start:\n0606 1425 0322 0407 0118\nTambien disponible en espanol",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

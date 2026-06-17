@@ -1,0 +1,224 @@
+{
+  "id": "cmq0405ml00m0bqmj2nxgmsgk",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "23.03",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "92373",
+    "city": "Redlands",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 24948.040208,
+        "totalUsd": 0.016608,
+        "inputTokens": 3692,
+        "outputTokens": 1230,
+        "reasoningTokens": 4392
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "23.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "16:08:49",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92373",
+          "status": "match"
+        },
+        "city": {
+          "value": "Redlands",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "560 W. Stuart Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0585",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BLK TRUFFLE ALFREDO",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49
+        },
+        {
+          "text": "DRK CHOC PB BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": null
+        },
+        {
+          "text": "TEA-COLLAGEN-LEMON + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CHILL SUPERCUBE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "HYDRATION SUPERCUBE + DGTL CPN RoxiiSupe + BOGO ROXII",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": -3
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n560 W. Stuart Avenue\nRedlands, CA 92373\n(909) 283-7162\nStore Hours MON-SUN 7AM-10PM\n\n06/04/2026 16:08:49\nVISA CREDIT Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX0585\nPURCHASE\n- APPROVED\nAUTH CODE:05590D\n\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n1F420132A000000001003027300000\n00040000000000000000000000000000\nTSI: 0000\nARC: 00\nTC:\n3837534AE20960C2\nMID: 100294 TID: 001 RRN: 359193\n\nTotal:\nUSD$ 23.03\n\nGROCERY\nBLK TRUFFLE ALFREDO 9.49\nDRK CHOC PB BAR 2.49\nDGTL CPN Quantum E -2.49\nTEA-COLLAGEN-LEMON 3.50\n1 @ 2 FOR 7.00\n*CRV FS 05 0.05\n\nFROZEN\nCHILL SUPERCUBE 12.99\nHYDRATION SUPERCUBE 12.99\nDGTL CPN RoxiiSupe -3.00\nBOGO ROXII -12.99\n\nBALANCE DUE 28.52\nCREDIT $23.03\n[ ] XXXXXXXXXXXX0585\nAuth# 05590D Ref# 359193\nCHANGE 0.00\n\nYou Saved!\nTOTAL DISCOUNTS 3 18.48\n\nCard XXXXXXXXXXX7647\n\nHave a Healthy Day James!\n****************************************\nSprouts Rewards\n\nPrevious Points Balance: 1285\nBonus Points earned: 0\nTotal Points earned today: 115\nNew points balance: 1400",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6261.733167000002,
+        "totalUsd": 0.0173865,
+        "inputTokens": 4355,
+        "outputTokens": 1206,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "23.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "16:08:49",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92373",
+          "status": "match"
+        },
+        "city": {
+          "value": "Redlands",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "560 W. Stuart Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0585",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BLK TRUFFLE ALFREDO",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49
+        },
+        {
+          "text": "DRK CHOC PB BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": null
+        },
+        {
+          "text": "TEA-COLLAGEN-LEMON + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "CHILL SUPERCUBE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "HYDRATION SUPERCUBE + DGTL CPN RoxiiSupe + BOGO ROXII",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": null
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n560 W. Stuart Avenue\nRedlands, CA 92373\n(909) 283-7162\nStore Hours MON-SUN 7AM-10PM\n06/04/2026\n16:08:49\nVISA CREDIT\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX0585\nPURCHASE\n- APPROVED\nAUTH CODE:05590D\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n1F420132A000000001003027300000\n000400000000000000000000000000\nTSI: 0000\nARC: 00\nTC:\n3837534AE20960C2\nMID: 100294 TID: 001 RRN: 359193\nTotal:\nUSD$ 23.03\nGROCERY\nBLK TRUFFLE ALFREDO\n9.49\nDRK CHOC PB BAR\n2.49\nDGTL CPN Quantum E\n-2.49\nTEA-COLLAGEN-LEMON\n3.50\n1 @ 2 FOR 7.00\n*CRV FS 05\n0.05\nFROZEN\nCHILL SUPERCUBE\n12.99\nHYDRATION SUPERCUBE\n12.99\nDGTL CPN RoxiiSupe\n-3.00\nBOGO ROXII\n-12.99\nBALANCE DUE\n28.52\nCREDIT\n$23.03\n[ ] XXXXXXXXXXXX0585\nAuth# 05590D\nRef# 359193\nCHANGE\n0.00\nYou Saved!\nTOTAL DISCOUNTS\n3\n18.48\nCard XXXXXXXXXX7647\nHave a Healthy Day James!\n****************************************\nSprouts Rewards\nPrevious Points Balance:\n1285\nBonus Points earned:\n0\nTotal Points earned today:\n115\nNew points balance:\n1400",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

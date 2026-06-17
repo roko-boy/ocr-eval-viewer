@@ -1,0 +1,224 @@
+{
+  "id": "cmq2woqu600vnwxs06qymluck",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 6.38,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "10.7",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "90755",
+    "city": "Signal Hill",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 15482.119833,
+        "totalUsd": 0.013872,
+        "inputTokens": 3692,
+        "outputTokens": 926,
+        "reasoningTokens": 1546
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:14 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90755-5114",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Signal Hill",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "950 E 33rd St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7400",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SGSY + 211080292",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Be Amazing + 203750141",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Be Amazing + 203750143",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Signal Hill - 562-427-7751\n950 E 33rd St\nSignal Hill, California 90755-5114\n06/06/2026 02:14 PM\n\nGROCERY\n211080292 SGSY TFP $3.79\nBottle Deposit Fee $0.05\n203750141 Be Amazing NFP $3.19\nBottle Deposit Fee $0.05\n203750143 Be Amazing NFP $3.19\nBottle Deposit Fee $0.05\n\nSUBTOTAL $10.32\nT = CA TAX 10.50000 on $3.59 $0.38\nTOTAL $10.70\n\nReusable Bag Discount $0.25\n\n*7400 GIFT CARD PAYMENT $10.45\n*7400 GIFT CARD BALANCE $50.47\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nNOTICE: Some furniture products can expose\nchemicals known to the State",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6222.525666000001,
+        "totalUsd": 0.0146325,
+        "inputTokens": 4355,
+        "outputTokens": 900,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:14 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90755-5114",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Signal Hill",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "950 E 33rd St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SGSY + 211080292",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Be Amazing + 203750141",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Be Amazing + 203750143",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Signal Hill - 562-427-7751\n950 E 33rd St\nSignal Hill, California 90755-5114\n06/06/2026 02:14 PM\nGROCERY\n211080292 SGSY TFP $3.79\nBottle Deposit Fee $0.05\n203750141 Be Amazing NFP $3.19\nBottle Deposit Fee $0.05\n203750143 Be Amazing NFP $3.19\nBottle Deposit Fee $0.05\nSUBTOTAL $10.32\nT = CA TAX 10.50000 on $3.59 $0.38\nTOTAL $10.70\nReusable Bag Discount $0.25\n*7400 GIFT CARD PAYMENT $10.45\n*7400 GIFT CARD BALANCE $50.47\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nNOTICE: Some furniture products can expose\nchemicals known to the State",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,176 @@
+{
+  "id": "cmq19wg9n003jnc6eomxyiz1l",
+  "url": null,
+  "retailer": "Costco Wholesale Corp.",
+  "brand": "Unknown",
+  "amount": 18.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "23.57",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "89113",
+    "city": "Las Vegas",
+    "state": "NV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 10526.208208,
+        "totalUsd": 0.014202,
+        "inputTokens": 3720,
+        "outputTokens": 958,
+        "reasoningTokens": 1352
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "23.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "11:09 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89113",
+          "status": "match"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6880 S. Buffalo Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9511",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2059615 NEURO GUM",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99
+        },
+        {
+          "text": "829729 BUNS 12 PACK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSpring Valley #1709\n6880 S. Buffalo Drive\nLas Vegas, NV 89113\nSELF-CHECKOUT\nXG Member 111971734256\n***START OF PRE-SCANNED ITEMS**********\n2059615 NEURO GUM 18.99 A\nE 829729 BUNS 12 PACK 2.99\n***END OF PRE-SCANNED ITEMS************\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 2\nSUBTOTAL 21.98\nTAX 1.59\n**** TOTAL 23.57\nXXXXXXXXXXXX9511 SWIPED\nSeq#: 204334 App#: 950066\nShop Card Resp: Approved\nAMOUNT: $21.89\nREMAINING BALANCE: $0.00\nShop Card 21.89\nSUBTOTAL 0.09\nTAX 1.59\n**** TOTAL 1.68\nXXXXXXXXXXXX9806 CHIP Read\nAID: A0000000031010\nSeq#: 204335 App#: 01760B\nCostco Visa Resp: APPROVED\nTran ID#: 615600204335....\nAPPROVED - Purchase\nAMOUNT: $1.68\n06/05/2026 11:09 1709 204 55 704\nCostco Visa 1.68\nCHANGE 0.00\nA 8.375% TAX 1.59\nTOTAL TAX 1.59\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/05/2026 11:09 1709 204 55 704\n21170920400552606051109\nOP#: 704 Name: SCO\nThank You!\nPlease Come Again\nWhse:1709 Trm:204 Trn:55 OP:704\nPrescan OP#:136 Name: JENNER\nItems Sold: 2\nXG 06/05/2026 11:09",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7696.368916000007,
+        "totalUsd": 0.0152235,
+        "inputTokens": 4383,
+        "outputTokens": 961,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "23.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "11:09 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89113",
+          "status": "match"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6880 S. Buffalo Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9806",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2059615 NEURO GUM",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99
+        },
+        {
+          "text": "829729 BUNS 12 PACK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSpring Valley #1709\n6880 S. Buffalo Drive\nLas Vegas, NV 89113\nSELF-CHECKOUT\nXG Member 111971734256\n***START OF PRE-SCANNED ITEMS**********\n2059615 NEURO GUM 18.99 A\nE 829729 BUNS 12 PACK 2.99\n***END OF PRE-SCANNED ITEMS************\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 2\nSUBTOTAL 21.98\nTAX 1.59\n**** TOTAL 23.57\n-------------\nXXXXXXXXXXXX9511 SWIPED\nSeq#: 204334 App#: 950066\nShop Card Resp: Approved\nAMOUNT: $21.89\nREMAINING BALANCE: $0.00\n-------------\nShop Card 21.89\nSUBTOTAL 0.09\nTAX 1.59\n**** TOTAL 1.68\n-------------\nXXXXXXXXXXXX9806 CHIP Read\nAID: A0000000031010\nSeq#: 204335 App#: 01760B\nCostco Visa Resp: APPROVED\nTran ID#: 615600204335....\nAPPROVED - Purchase\nAMOUNT: $1.68\n06/05/2026 11:09 1709 204 55 704\n-------------\nCostco Visa 1.68\nCHANGE 0.00\nA 8.375% TAX 1.59\nTOTAL TAX 1.59\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/05/2026 11:09 1709 204 55 704\n21170920400552606051109\nOP#: 704 Name: SCO\nThank You!\nPlease Come Again\nWhse:1709 Trm:204 Trn:55 OP:704\nPrescan OP#:136 Name: JENNER\nItems Sold: 2\nXG 06/05/2026 11:09",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

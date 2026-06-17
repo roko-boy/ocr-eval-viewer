@@ -1,0 +1,584 @@
+{
+  "id": "cmpt4mgw800a1bovqnklh1y98",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "117.19",
+    "purchaseDate": "2026-05-30T00:00:00.000Z",
+    "time": null,
+    "zipCode": "84095",
+    "city": "South Jordan",
+    "state": "UT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 48565.32158399999,
+        "totalUsd": 0.039423,
+        "inputTokens": 3692,
+        "outputTokens": 3765,
+        "reasoningTokens": 9976
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "117.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:49:52",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84095",
+          "status": "match"
+        },
+        "city": {
+          "value": "South Jordan",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11519 S. 4000 W.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1300",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MICRO RAINBOW MIX",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49
+        },
+        {
+          "text": "MUNG BEAN SPROUTS",
+          "quantity": 1,
+          "unitPrice": 1.24,
+          "totalSpend": 1.24
+        },
+        {
+          "text": "ORG MIXED PEPPERS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "ORG MIXED PEPPERS + BOGO PEPPER/CUCUMBER",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": null
+        },
+        {
+          "text": "BLOOD ORANGE DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "BROWNIE BATTER BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "BROWNIE BATTER BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "CARAMEL FUDGE BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "CARAMEL FUDGE BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "CCMBR MINT SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "CHRRY LIME INFUSION",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79
+        },
+        {
+          "text": "CITRUS COCO INFUSION + BOGO STEAZ/C20",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": null
+        },
+        {
+          "text": "COOKIE BUTTER BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "COOKIE BUTTER BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "ORANGE PEACH GUMMIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "ORG LEMNADE ICED TEA",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "PASSIONFRT INFUSION",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79
+        },
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "RASP ORANGE SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "RSPBRRY COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "SOUR VARIETY GUMMIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "STEAZ ICED TEA SNGL + BOGO STEAZ/C20",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": null
+        },
+        {
+          "text": "STEAZ ICED TEA SNGL",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79
+        },
+        {
+          "text": "WATERMELON INFUSION + BOGO STEAZ/C20",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": null
+        },
+        {
+          "text": "COFFE PROTEIN SHAKES",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49
+        },
+        {
+          "text": "PCH MNGO GRNS DRNK + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "PERIOD REFLIEF TONIC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "PINK LEM GREENS DRNK + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "PMS SUPPORT TONIC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "STRAW PROTEIN SHAKE + BOGO PIRQ",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": null
+        },
+        {
+          "text": "WTRMLN HYDRATION BOX",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "CHOC PB PRTN PUDDING",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "RISE N PUFF TORTILLA",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n11519 S. 4000 W.\nSouth Jordan, UT 84095\n(385) 695-6809\nStore Hours MON-SUN 7AM-10PM\n05/30/2026 19:49:52\nUS DEBIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX1300\nPURCHASE - APPROVED\nAUTH CODE:668062\nMode: Issuer-PIN Verified\nAID: A0000000980840\nTVR: 0000000000\nIAD: 1F42FF6EA00000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: 2E497C1D358BA9B0\nMID: 134306 TID: 001 RRN: 063583\nTotal: USD$ 117.19\nPRODUCE\nMICRO RAINBOW MIX 4.49 T F\nMUNG BEAN SPROUTS 1.24 T F\nORG MIXED PEPPERS 3.99 T F\nORG MIXED PEPPERS 3.99 T F\nBOGO PEPPER/CUCUMBER -3.99\nGROCERY\nBLOOD ORANGE DRINK 2.99 T\nBROWNIE BATTER BAR 2.50 T F\n1 @ 2 FOR 5.00\nBROWNIE BATTER BAR 2.50 T F\n1 @ 2 FOR 5.00\nCARAMEL FUDGE BAR 2.50 T F\n1 @ 2 FOR 5.00\nCARAMEL FUDGE BAR 2.50 T F\nCCMBR MINT SPRK WTR 2.99 T F\nCHRRY LIME INFUSION 2.79 T F\nCITRUS COCO INFUSION 2.79 T F\nCOOKIE BUTTER BAR 2.50 T F\n1 @ 2 FOR 5.00\nCOOKIE BUTTER BAR 2.50 T F\n1 @ 2 FOR 5.00\nORANGE PEACH GUMMIES 3.99 T\nORG LEMNADE ICED TEA 2.99 T F\nPASSIONFRT INFUSION 2.79 T F\nPEACH COLLAGEN TEA 3.50 T F\n1 @ 2 FOR 7.00\nRASP ORANGE SPRK WTR 2.99 T F\nRSPBRRY COLLAGEN TEA 3.50 T F\n1 @ 2 FOR 7.00\nSOUR VARIETY GUMMIES 3.99 T\nSTEAZ ICED TEA SNGL 2.79 T F\nSTEAZ ICED TEA SNGL 2.79 T F\nWATERMELON INFUSION 2.79 T F\nVITAMINS\nCOFFE PROTEIN SHAKES 11.49 T F\nPCH MNGO GRNS DRNK 3.50 T F\n1 @ 2 FOR 7.00\nPERIOD REFLIEF TONIC 4.99 T\nPINK LEM GREENS DRNK 3.50 T F\n1 @ 2 FOR 7.00\nPMS SUPPORT TONIC 4.99 T\nSTRAW PROTEIN SHAKE 11.49 T F\nWTRMLN HYDRATION BOX 12.99 T F\nDAIRY\nCHOC PB PRTN PUDDING 5.99 T F\nBAKERY\nRISE N PUFF TORTILLA 5.99 T F\nCRV\nBAG PROMPT CHARGE 0.10 T\nBAG PROMPT CHARGE 0.10 T\nBAG PROMPT CHARGE 0.10 T\nBOGO PIRQ -11.49\nBOGO STEAZ/C20 -2.79\nBOGO STEAZ/C20 -2.79\nBOGO STEAZ/C20 -2.79\nTax Report\nSales Tax 0.30 0.02 TT\nFood Tax 113.47 3.40 TT\nBALANCE DUE 117.19\nDEBIT XXXXXXXXXXXX1300 117.19\nAuth# 668062 Ref# 063583\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 5 23.85\nCard XXXXXXXXXXX6743\nHave a Healthy Day Sam!\nSPROUTS REWARDS\nPrevious Points Balance: 1455\nTotal Points earned today: 565\nNew points balance: 2020\n99060500621871501946\nCashier:Jaycee Store: 605\nPOS:006 Trans",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 17341.632125,
+        "totalUsd": 0.04059749999999999,
+        "inputTokens": 4355,
+        "outputTokens": 3785,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "117.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:49:52",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84095",
+          "status": "match"
+        },
+        "city": {
+          "value": "South Jordan",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11519 S. 4000 W.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1300",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MICRO RAINBOW MIX",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49
+        },
+        {
+          "text": "MUNG BEAN SPROUTS",
+          "quantity": 1,
+          "unitPrice": 1.24,
+          "totalSpend": 1.24
+        },
+        {
+          "text": "ORG MIXED PEPPERS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "ORG MIXED PEPPERS + BOGO PEPPER/CUCUMBER",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": null
+        },
+        {
+          "text": "BLOOD ORANGE DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "BROWNIE BATTER BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "BROWNIE BATTER BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "CARAMEL FUDGE BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "CARAMEL FUDGE BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "CCMBR MINT SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "CHRRY LIME INFUSION",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79
+        },
+        {
+          "text": "CITRUS COCO INFUSION",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79
+        },
+        {
+          "text": "COOKIE BUTTER BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "COOKIE BUTTER BAR + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "ORANGE PEACH GUMMIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "ORG LEMNADE ICED TEA",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "PASSIONFRT INFUSION",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79
+        },
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "RASP ORANGE SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "RSPBRRY COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "SOUR VARIETY GUMMIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99
+        },
+        {
+          "text": "STEAZ ICED TEA SNGL + BOGO STEAZ/C20",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": null
+        },
+        {
+          "text": "STEAZ ICED TEA SNGL + BOGO STEAZ/C20",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": null
+        },
+        {
+          "text": "WATERMELON INFUSION + BOGO STEAZ/C20",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": null
+        },
+        {
+          "text": "COFFE PROTEIN SHAKES",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49
+        },
+        {
+          "text": "PCH MNGO GRNS DRINK + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "PERIOD REFLIEF TONIC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "PINK LEM GREENS DRNK + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "PMS SUPPORT TONIC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "STRAW PROTEIN SHAKE + BOGO PIRQ",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": null
+        },
+        {
+          "text": "WTRMLN HYDRATION BOX",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "CHOC PB PRTN PUDDING",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "RISE N PUFF TORTILLA",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n11519 S. 4000 W.\nSouth Jordan, UT 84095\n(385) 695-6809\nStore Hours MON-SUN 7AM-10PM\n05/30/2026 19:49:52\nUS DEBIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX1300\nPURCHASE - APPROVED\nAUTH CODE:668062\nMode: Issuer-PIN Verified\nAID: A0000000980840\nTVR: 0000000000\nIAD: 1F42FF6EA00000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: 2E497C1D358BA9B0\nMID: 134306 TID: 001 RRN: 063583\nTotal: USD$ 117.19\nPRODUCE\nMICRO RAINBOW MIX 4.49 T F\nMUNG BEAN SPROUTS 1.24 T F\nORG MIXED PEPPERS 3.99 T F\nORG MIXED PEPPERS 3.99 T F\nBOGO PEPPER/CUCUMBER -3.99\nGROCERY\nBLOOD ORANGE DRINK 2.99 T\nBROWNIE BATTER BAR 2.50 T F\n1 @ 2 FOR 5.00\nBROWNIE BATTER BAR 2.50 T F\n1 @ 2 FOR 5.00\nCARAMEL FUDGE BAR 2.50 T F\n1 @ 2 FOR 5.00\nCARAMEL FUDGE BAR 2.50 T F\n1 @ 2 FOR 5.00\nCCMBR MINT SPRK WTR 2.99 T F\nCHRRY LIME INFUSION 2.79 T F\nCITRUS COCO INFUSION 2.79 T F\nCOOKIE BUTTER BAR 2.50 T F\n1 @ 2 FOR 5.00\nCOOKIE BUTTER BAR 2.50 T F\n1 @ 2 FOR 5.00\nORANGE PEACH GUMMIES 3.99 T F\nORG LEMNADE ICED TEA 2.99 T F\nPASSIONFRT INFUSION 2.79 T F\nPEACH COLLAGEN TEA 3.50 T F\n1 @ 2 FOR 7.00\nRASP ORANGE SPRK WTR 2.99 T F\nRSPBRRY COLLAGEN TEA 3.50 T F\n1 @ 2 FOR 7.00\nSOUR VARIETY GUMMIES 3.99 T F\nSTEAZ ICED TEA SNGL 2.79 T F\nSTEAZ ICED TEA SNGL 2.79 T F\nWATERMELON INFUSION 2.79 T F\nVITAMINS\nCOFFE PROTEIN SHAKES 11.49 T F\nPCH MNGO GRNS DRINK 3.50 T F\n1 @ 2 FOR 7.00\nPERIOD REFLIEF TONIC 4.99 T\nPINK LEM GREENS DRNK 3.50 T F\n1 @ 2 FOR 7.00\nPMS SUPPORT TONIC 4.99 T\nSTRAW PROTEIN SHAKE 11.49 T F\nWTRMLN HYDRATION BOX 12.99 T F\nDAIRY\nCHOC PB PRTN PUDDING 5.99 T F\nBAKERY\nRISE N PUFF TORTILLA 5.99 T F\nCRV\nBAG PROMPT CHARGE 0.10 T\nBAG PROMPT CHARGE 0.10 T\nBAG PROMPT CHARGE 0.10 T\nBOGO PIRQ -11.49\nBOGO STEAZ/C20 -2.79\nBOGO STEAZ/C20 -2.79\nBOGO STEAZ/C20 -2.79\nTax Report\nSales Tax 0.30 0.02 TT\nFood Tax 113.47 3.40 TT\nBALANCE DUE 117.19\nDEBIT 117.19\nCARD XXXXXXXXXXXX1300\nAuth# 668062 Ref# 063583\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 5 23.85\nCard XXXXXXXXXXX6743\n! Have a Healthy Day Sam! \n***********************************\nSprouts Rewards\nPrevious Points Balance: 1455\nTotal Points earned today: 565\nNew points balance: 2020\n99060500621871501946\n***********************************\nCashier: Jaycee Store: 605",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

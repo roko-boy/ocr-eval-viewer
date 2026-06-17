@@ -1,0 +1,224 @@
+{
+  "id": "cmq17myj900wf7icrp36xmuyd",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 0.75,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "25.45",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "44057",
+    "city": "Madison",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 14834.54199999996,
+        "totalUsd": 0.016401,
+        "inputTokens": 3692,
+        "outputTokens": 1207,
+        "reasoningTokens": 2310
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "25.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "13:22:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44057",
+          "status": "match"
+        },
+        "city": {
+          "value": "MADISON",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6067 N RIDGE RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7670",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SITE MERCH + 07007462700",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "SITE MERCH + 07007462700",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "SF CHCHPCKDG + 852261007260",
+          "quantity": 1,
+          "unitPrice": 9.54,
+          "totalSpend": 9.54
+        },
+        {
+          "text": "CB CHIC BRTH + 850003898680",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "MELSRIRCHA + 810057652290",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1
+        },
+        {
+          "text": "DAIYATACOMAC + 871459001830",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6PF1826M9\nWalmart\nWM Supercenter\n440-417-0010 Mgr. STACY\n6067 N RIDGE RD\nMADISON OH 44057\nST# 03608 OP# 009038 TE# 38 TR# 03265\n# ITEMS SOLD 6\nTC# 1340 4314 6229 3180 9213\nSITE MERCH 07007462700 F 3.98 N\nSITE MERCH 07007462700 F 3.98 N\nSF CHCHPCKDG 852261007260 F 9.54 N\nCB CHIC BRTH 850003898680 F 3.98 N\nMELSRIRCHA 810057652290 F 1.00 N\nDAIYATACOMAC 871459001830 F 2.97 N\nSUBTOTAL 25.45\nTOTAL 25.45\nVISA TEND 25.45\nCHANGE DUE 0.00\nVISA CREDIT- 7670 I 1 APPR#005062\n25.45 TOTAL PURCHASE\nREF # 615660826063\nTRANS ID - 346156625528998\nVALIDATION - NPKC\nPAYMENT SERVICE - E\nAID A0000000031010\nTERMINAL # 28497867\n*No Signature Required\n06/05/26 13:22:31\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/05/26 13:22:38",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6764.537333,
+        "totalUsd": 0.0172425,
+        "inputTokens": 4355,
+        "outputTokens": 1190,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "25.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "13:22:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44057",
+          "status": "match"
+        },
+        "city": {
+          "value": "MADISON",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6067 N RIDGE RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7670",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SITE MERCH + 070074692700 F",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "SITE MERCH + 070074692700 F",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "SF CHCHPCKDG + 852261007260 F",
+          "quantity": 1,
+          "unitPrice": 9.54,
+          "totalSpend": 9.54
+        },
+        {
+          "text": "CB CHIC BRTH + 850003898680 F",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98
+        },
+        {
+          "text": "MELSRIRCHA + 810057652290 F",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1
+        },
+        {
+          "text": "DAIYATACOMAC + 871459001830 F",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6PF1826M9\nWalmart *\nWM Supercenter\n440-417-0010 Mgr. STACY\n6067 N RIDGE RD\nMADISON OH 44057\nST# 03608 OP# 009038 TE# 38 TR# 03265\n# ITEMS SOLD 6\nTC# 1340 4314 6229 3180 9213\nSITE MERCH 070074692700 F 3.98 N\nSITE MERCH 070074692700 F 3.98 N\nSF CHCHPCKDG 852261007260 F 9.54 N\nCB CHIC BRTH 850003898680 F 3.98 N\nMELSRIRCHA 810057652290 F 1.00 N\nDAIYATACOMAC 871459001830 F 2.97 N\nSUBTOTAL 25.45\nTOTAL 25.45\nVISA TEND 25.45\nCHANGE DUE 0.00\nVISA CREDIT- 7670 I 1 APPR#005062\n25.45 TOTAL PURCHASE\nREF # 615660826063\nTRANS ID - 346156625528998\nVALIDATION - NPKC\nPAYMENT SERVICE - E\nAID A0000000031010\nTERMINAL # 28497867\n*No Signature Required\n06/05/26 13:22:31\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/05/26 13:22:38",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

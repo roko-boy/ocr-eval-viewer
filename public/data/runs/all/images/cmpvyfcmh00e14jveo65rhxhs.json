@@ -1,0 +1,368 @@
+{
+  "id": "cmpvyfcmh00e14jveo65rhxhs",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Unknown",
+  "amount": 4.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "96.38",
+    "purchaseDate": "2026-06-01T00:00:00.000Z",
+    "time": null,
+    "zipCode": "91505",
+    "city": "Burbank",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 22650.49120799999,
+        "totalUsd": 0.029925,
+        "inputTokens": 3726,
+        "outputTokens": 2704,
+        "reasoningTokens": 2117
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "96.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "11:04 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91505",
+          "status": "match"
+        },
+        "city": {
+          "value": "Burbank",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3401 W Olive Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1823",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CERBLY OG APPLE KALE BARS + Qty 2 Reg $7.07 ea + Savings with Prime ($8.14)",
+          "quantity": 2,
+          "unitPrice": 7.07,
+          "totalSpend": 6
+        },
+        {
+          "text": "CERBLY OG STRW BEET BARS + Qty 2 Reg $7.07 ea + Savings with Prime ($8.14)",
+          "quantity": 2,
+          "unitPrice": 7.07,
+          "totalSpend": 6
+        },
+        {
+          "text": "OVF OG WHOLE GRASSMILK + Reg $7.49 + Savings with Prime ($1.88)",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.61
+        },
+        {
+          "text": "SIMEKS ORIG BF MEATBALLS + Qty 2 Reg $8.99 ea + Savings with Prime ($4.50)",
+          "quantity": 2,
+          "unitPrice": 8.99,
+          "totalSpend": 13.48
+        },
+        {
+          "text": "OG RED SEEDLESS GRAPES + Qty 2.06 lb Reg $4.99/lb + Tare Weight 0.02 lb + Savings with Prime ($3.09)",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 7.19
+        },
+        {
+          "text": "365WFM OG SPRING MIX CLAM",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "365WFM OG BBY ARUGULA SLD",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "CASC OG CIN APPLE CEREAL + Reg $6.09 + Savings with Prime ($1.83)",
+          "quantity": 1,
+          "unitPrice": 6.09,
+          "totalSpend": 4.26
+        },
+        {
+          "text": "OVF OG USLTD BUTTER QRTRS + Reg $9.99 + Savings with Prime ($2.51)",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.48
+        },
+        {
+          "text": "365WFM OG LONG GRAIN RICE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "OG STRAWBERRIES + Reg $6.99 + Savings with Prime ($2.20)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.79
+        },
+        {
+          "text": "WSBGL PLAIN MINI BAGELS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49
+        },
+        {
+          "text": "SUPER SWT NAVEL ORANGES + Qty 1.32 lb Reg $2.19/lb + Tare Weight 0.01 lb + Savings with Prime ($0.92)",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.97
+        },
+        {
+          "text": "VTLFR LARGE GRD A EGGS + Reg $12.49 + Savings with Prime ($3.75)",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 8.74
+        },
+        {
+          "text": "SDLS MINI YLLW WATERMELON + Reg $4.99 + Savings with Prime ($2.74)",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.25
+        },
+        {
+          "text": "DRSCL OG BLACKBERRY 6OZ + Reg $5.49 + Savings with Prime ($1.99)",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "OG GALA APPLE + Qty 1.16 lb Reg $2.59/lb + Tare Weight 0.01 lb + Savings with Prime ($0.70)",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.3
+        },
+        {
+          "text": "OG GRANNY SMITH APPLE + Qty 1.15 lb @ $3.09/lb + Tare Weight 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 3.09,
+          "totalSpend": 3.55
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nBurbank BBK 818-239-5380\n3401 W Olive Ave\nBurbank, CA 91505\nCERBLY OG APPLE KALE BARS  $6.00 F\nQty 2 Reg $7.07 ea\nSavings with Prime ($8.14)\nCERBLY OG STRW BEET BARS  $6.00 F\nQty 2 Reg $7.07 ea\nSavings with Prime ($8.14)\nOVF OG WHOLE GRASSMILK  $5.61 F\nReg $7.49\nSavings with Prime ($1.88)\nSIMEKS ORIG BF MEATBALLS  $13.48 F\nQty 2 Reg $8.99 ea\nSavings with Prime ($4.50)\nOG RED SEEDLESS GRAPES  $7.19 F\nQty 2.06 lb Reg $4.99/lb\nTare Weight 0.02 lb\nSavings with Prime ($3.09)\n365WFM OG SPRING MIX CLAM  $5.99 F\n365WFM OG BBY ARUGULA SLD  $3.79 F\nCASC OG CIN APPLE CEREAL  $4.26 F\nReg $6.09\nSavings with Prime ($1.83)\nOVF OG USLTD BUTTER QRTRS  $7.48 F\nReg $9.99\nSavings with Prime ($2.51)\n365WFM OG LONG GRAIN RICE  $4.99 F\nOG STRAWBERRIES  $4.79 F\nReg $6.99\nSavings with Prime ($2.20)\nWSBGL PLAIN MINI BAGELS  $4.49 F\nSUPER SWT NAVEL ORANGES  $1.97 F\nQty 1.32 lb Reg $2.19/lb\nTare Weight 0.01 lb\nSavings with Prime ($0.92)\nVTLFR LARGE GRD A EGGS  $8.74 F\nReg $12.49\nSavings with Prime ($3.75)\nSDLS MINI YLLW WATERMELON  $2.25 F\nReg $4.99\nSavings with Prime ($2.74)\nDRSCL OG BLACKBERRY 6OZ  $3.50 F\nReg $5.49\nSavings with Prime ($1.99)\nOG GALA APPLE  $2.30 F\nQty 1.16 lb Reg $2.59/lb\nTare Weight 0.01 lb\nSavings with Prime ($0.70)\nOG GRANNY SMITH APPLE  $3.55 F\nQty 1.15 lb @ $3.09/lb\nTare Weight 0.01 lb\nSubtotal:  $138.77\nTotal Savings:  -$42.39\nNet Sales:  $96.38\nTotal:  $96.38\nSold Items:  21\nPaid:\nVISA *1823  $96.38\nChip Card: VISA CREDIT\nChip Card AID: A0000000031010\n****************************************\nYour Total Savings\n$42.39\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n202 79585 06/01/2026 11:04 AM\n63011054520279585060120260\nJHBC458S46",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 12858.85625,
+        "totalUsd": 0.0306855,
+        "inputTokens": 4389,
+        "outputTokens": 2678,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "96.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "11:04 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91505",
+          "status": "match"
+        },
+        "city": {
+          "value": "Burbank",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3401 W Olive Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1823",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CERBLY OG APPLE KALE BARS + Qty 2 Reg $7.07 ea + Savings with Prime ($8.14)",
+          "quantity": 2,
+          "unitPrice": 7.07,
+          "totalSpend": 6
+        },
+        {
+          "text": "CERBLY OG STRW BEET BARS + Qty 2 Reg $7.07 ea + Savings with Prime ($8.14)",
+          "quantity": 2,
+          "unitPrice": 7.07,
+          "totalSpend": 6
+        },
+        {
+          "text": "OVF OG WHOLE GRASSMILK + Reg $7.49 + Savings with Prime ($1.88)",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.61
+        },
+        {
+          "text": "SIMEKS ORIG BF MEATBALLS + Qty 2 Reg $8.99 ea + Savings with Prime ($4.50)",
+          "quantity": 2,
+          "unitPrice": 8.99,
+          "totalSpend": 13.48
+        },
+        {
+          "text": "OG RED SEEDLESS GRAPES + Qty 2.06 lb Reg $4.99/lb + Tare Weight 0.02 lb + Savings with Prime ($3.09)",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 7.19
+        },
+        {
+          "text": "365WFM OG SPRING MIX CLAM",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "365WFM OG BBY ARUGULA SLD",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "CASC OG CIN APPLE CEREAL + Reg $6.09 + Savings with Prime ($1.83)",
+          "quantity": 1,
+          "unitPrice": 6.09,
+          "totalSpend": 4.26
+        },
+        {
+          "text": "OVF OG USLTD BUTTER QRTRS + Reg $9.99 + Savings with Prime ($2.51)",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.48
+        },
+        {
+          "text": "365WFM OG LONG GRAIN RICE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "OG STRAWBERRIES + Reg $6.99 + Savings with Prime ($2.20)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.79
+        },
+        {
+          "text": "WSBGL PLAIN MINI BAGELS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49
+        },
+        {
+          "text": "SUPER SWT NAVEL ORANGES + Qty 1.32 lb Reg $2.19/lb + Tare Weight 0.01 lb + Savings with Prime ($0.92)",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.97
+        },
+        {
+          "text": "VTLFR LARGE GRD A EGGS + Reg $12.49 + Savings with Prime ($3.75)",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 8.74
+        },
+        {
+          "text": "SDLS MINI YLLW WATERMELON + Reg $4.99 + Savings with Prime ($2.74)",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.25
+        },
+        {
+          "text": "DRSCL OG BLACKBERRY 6OZ + Reg $5.49 + Savings with Prime ($1.99)",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "OG GALA APPLE + Qty 1.16 lb Reg $2.59/lb + Tare Weight 0.01 lb + Savings with Prime ($0.70)",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.3
+        },
+        {
+          "text": "OG GRANNY SMITH APPLE + Qty 1.15 lb @ $3.09/lb + Tare Weight 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 3.09,
+          "totalSpend": 3.55
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nBurbank BBK 818-239-5380\n3401 W Olive Ave\nBurbank, CA 91505\nCERBLY OG APPLE KALE BARS $6.00 F\nQty 2 Reg $7.07 ea\nSavings with Prime ($8.14)\nCERBLY OG STRW BEET BARS $6.00 F\nQty 2 Reg $7.07 ea\nSavings with Prime ($8.14)\nOVF OG WHOLE GRASSMILK $5.61 F\nReg $7.49\nSavings with Prime ($1.88)\nSIMEKS ORIG BF MEATBALLS $13.48 F\nQty 2 Reg $8.99 ea\nSavings with Prime ($4.50)\nOG RED SEEDLESS GRAPES $7.19 F\nQty 2.06 lb Reg $4.99/lb\nTare Weight 0.02 lb\nSavings with Prime ($3.09)\n365WFM OG SPRING MIX CLAM $5.99 F\n365WFM OG BBY ARUGULA SLD $3.79 F\nCASC OG CIN APPLE CEREAL $4.26 F\nReg $6.09\nSavings with Prime ($1.83)\nOVF OG USLTD BUTTER QRTRS $7.48 F\nReg $9.99\nSavings with Prime ($2.51)\n365WFM OG LONG GRAIN RICE $4.99 F\nOG STRAWBERRIES $4.79 F\nReg $6.99\nSavings with Prime ($2.20)\nWSBGL PLAIN MINI BAGELS $4.49 F\nSUPER SWT NAVEL ORANGES $1.97 F\nQty 1.32 lb Reg $2.19/lb\nTare Weight 0.01 lb\nSavings with Prime ($0.92)\nVTLFR LARGE GRD A EGGS $8.74 F\nReg $12.49\nSavings with Prime ($3.75)\nSDLS MINI YLLW WATERMELON $2.25 F\nReg $4.99\nSavings with Prime ($2.74)\nDRSCL OG BLACKBERRY 6OZ $3.50 F\nReg $5.49\nSavings with Prime ($1.99)\nOG GALA APPLE $2.30 F\nQty 1.16 lb Reg $2.59/lb\nTare Weight 0.01 lb\nSavings with Prime ($0.70)\nOG GRANNY SMITH APPLE $3.55 F\nQty 1.15 lb @ $3.09/lb\nTare Weight 0.01 lb\nSubtotal: $138.77\nTotal Savings: -$42.39\nNet Sales: $96.38\nTotal: $96.38\nSold Items: 21\nPaid:\nVISA *1823 $96.38\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$42.39\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n202 79585 06/01/2026 11:04 AM\n63011054520279585060120260\nJHBC458S46",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

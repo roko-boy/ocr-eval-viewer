@@ -1,0 +1,176 @@
+{
+  "id": "cmq17jynr00cy2jdbjvjc0zab",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 11.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "30.44",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "85050",
+    "city": "Phoenix",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 10079.055,
+        "totalUsd": 0.013998,
+        "inputTokens": 3692,
+        "outputTokens": 940,
+        "reasoningTokens": 1166
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "30.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:37 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85050-4207",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Phoenix",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21001 N Tatum Blvd Ste 20",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1495",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "APPAREL + 327061475 Carter's JOY",
+          "quantity": 1,
+          "unitPrice": 18,
+          "totalSpend": 5.4
+        },
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalSpend": 23.97
+        }
+      ],
+      "rawText": "Phoenix NE - 480-419-9380\n21001 N Tatum Blvd Ste 20\nPhoenix, Arizona 85050-4207\n06/05/2026 10:37 AM\n\nAPPAREL\n327061475 Carter's JOY T $5.40\nRegular Price $18.00\nHEALTH AND BEAUTY\n245032817 vHessentials T $23.97\n3 @ $7.99 ea\n\nSUBTOTAL $29.37\nTarget Circle Card 5% $1.47 -\nT = AZ TAX 9.10000 on $27.90 $2.54\nTOTAL $30.44\n\n*1495 TARGET DEBIT CARD $30.44\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 005735\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.47\n\nREC#2-6156-1360-0162-0569-3\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 3864 0983\nPassword: 794 301\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6865.373959,
+        "totalUsd": 0.0149655,
+        "inputTokens": 4355,
+        "outputTokens": 937,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "30.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:37 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85050-4207",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Phoenix",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21001 N Tatum Blvd Ste 20",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1495",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "APPAREL + 327061475 Carter's JOY",
+          "quantity": 1,
+          "unitPrice": 18,
+          "totalSpend": 5.4
+        },
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalSpend": 23.97
+        }
+      ],
+      "rawText": "Phoenix NE - 480-419-9380\n21001 N Tatum Blvd Ste 20\nPhoenix, Arizona 85050-4207\n06/05/2026 10:37 AM\n\nAPPAREL\n327061475 Carter's JOY T $5.40\nRegular Price $18.00\nHEALTH AND BEAUTY\n245032817 vHessentials T $23.97\n3 @ $7.99 ea\n\nSUBTOTAL $29.37\nTarget Circle Card 5% $1.47 -\nT = AZ TAX 9.10000 on $27.90 $2.54\nTOTAL $30.44\n\n*1495 TARGET DEBIT CARD $30.44\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 005735\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.47\n\nREC#2-6156-1360-0162-0569-3\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 3864 0983\nPassword: 794 307\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

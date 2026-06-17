@@ -1,0 +1,176 @@
+{
+  "id": "cmq4sjuji000e8v1mjz6sgia3",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 16.97,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "19.97",
+    "purchaseDate": "2026-06-07T00:00:00.000Z",
+    "time": null,
+    "zipCode": "93635",
+    "city": "Los Banos",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 8193.636709000013,
+        "totalUsd": 0.01182,
+        "inputTokens": 3692,
+        "outputTokens": 698,
+        "reasoningTokens": 856
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "22:49:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93635",
+          "status": "match"
+        },
+        "city": {
+          "value": "LOS BANOS",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1575 WEST PACHECO BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MBD TB SHARK + 850031970620",
+          "quantity": 1,
+          "unitPrice": 16.97,
+          "totalSpend": 16.97
+        },
+        {
+          "text": "K CHOC + 009800512040",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6VSQXN6R\nWalmart *:\nWM Supercenter\n209-826-9655 Mgr. TBD\n1575 WEST PACHECO BLVD\nLOS BANOS CA 93635\nST# 02117 OP# 009004 TE# 04 TR# 01039\n# ITEMS SOLD 2\nTC# 1056 9763 5532 4251 8915\nMBD TB SHARK 850031970620 16.97 X\nK CHOC 009800512040 F 1.27 N\nSUBTOTAL 18.24\nTAX8 1.5000 % 0.25\nTAX1 8.7500 % 1.48\nTOTAL 19.97\nCASH TEND 20.00\nROUNDING 0.02\nCHANGE DUE 0.05\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/07/26 22:49:00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4739.879291000005,
+        "totalUsd": 0.0128235,
+        "inputTokens": 4355,
+        "outputTokens": 699,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "22:49:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93635",
+          "status": "match"
+        },
+        "city": {
+          "value": "LOS BANOS",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1575 WEST PACHECO BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MBD TB SHARK + 850031970620",
+          "quantity": 1,
+          "unitPrice": 16.97,
+          "totalSpend": 16.97
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6VSQXN6R\nWalmart *:\nWM Supercenter\n209-826-9655 Mgr. TBD\n1575 WEST PACHECO BLVD\nLOS BANOS CA 93635\nST# 02117 OP# 009004 TE# 04 TR# 01039\n# ITEMS SOLD 2\nTC# 1056 9763 5532 4251 8915\nMBD TB SHARK 850031970620 16.97 X\nK CHOC 009800512040 F 1.27 N\nSUBTOTAL 18.24\nTAX8 1.5000 % 0.25\nTAX1 8.7500 % 1.48\nTOTAL 19.97\nCASH TEND 20.00\nROUNDING 0.02\nCHANGE DUE 0.05\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/07/26 22:49:00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

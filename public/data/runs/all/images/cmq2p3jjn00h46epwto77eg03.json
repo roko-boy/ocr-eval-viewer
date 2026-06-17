@@ -1,0 +1,164 @@
+{
+  "id": "cmq2p3jjn00h46epwto77eg03",
+  "url": null,
+  "retailer": "Pick 'n Save",
+  "brand": "Unknown",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Pick 'n Save",
+    "totalCost": "2.56",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "53227",
+    "city": "WEST ALLIS",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9919.40225,
+        "totalUsd": 0.011199,
+        "inputTokens": 3692,
+        "outputTokens": 629,
+        "reasoningTokens": 1346
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pick 'n Save",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:30pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53227",
+          "status": "match"
+        },
+        "city": {
+          "value": "West Allis",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2625 S. 108th St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3729",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WILDE CHIPS + *******0824",
+          "quantity": 1,
+          "unitPrice": 2.56,
+          "totalSpend": 2.56
+        }
+      ],
+      "rawText": "Pick 'n Save FRESH FOR EVERYONE..\n\n2625 S. 108th St.\n414.541.1333\nYour cashier was CHEC 513\nWILDE CHIPS 2.56 F\nFresh Perks Customer *******0824\nSC eCpn 2X Fuel Pts\nTAX 0.00\n**** BALANCE 2.56\nWest Allis WI 53227\nCHASE VISA Purchase\n************3729 - C\nREF#: 03420C TOTAL: 2.56\nAID: A0000000031010\nTC: F5CB2E7D7051063A\nVISA 2.56\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/06/26 01:30pm 846 513 89 999999513\n*********************************\nAnnual Card Savings $232.80\n*********************************\n*********************************\nFuel Points Earned Today: 6\nTotal June Fuel Points: 334\n*********************************\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kroger.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4226.465334,
+        "totalUsd": 0.0121125,
+        "inputTokens": 4355,
+        "outputTokens": 620,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pick 'n Save",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:30pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53227",
+          "status": "match"
+        },
+        "city": {
+          "value": "West Allis",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2625 S. 108th St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3729",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WILDE CHIPS + *******0824",
+          "quantity": 1,
+          "unitPrice": 2.56,
+          "totalSpend": 2.56
+        }
+      ],
+      "rawText": "Pick 'n Save FRESH FOR EVERYONE..\n2625 S. 108th St.\n414.541.1333\nYour cashier was CHEC 513\nWILDE CHIPS 2.56 F\nFresh Perks Customer *******0824\nSC eCpn 2X Fuel Pts\nTAX 0.00\n**** BALANCE 2.56\nWest Allis WI 53227\nCHASE VISA Purchase\n************3729 - C\nREF#: 03420C TOTAL: 2.56\nAID: A0000000031010\nTC: F5CB2E7D7051063A\nVISA 2.56\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/06/26 01:30pm 846 513 89 999999513\n****************************************\nAnnual Card Savings $232.80\n****************************************\n****************************************\nFuel Points Earned Today: 6\nTotal June Fuel Points: 334\n****************************************\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kroger.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

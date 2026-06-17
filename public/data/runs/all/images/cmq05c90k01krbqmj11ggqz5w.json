@@ -1,0 +1,344 @@
+{
+  "id": "cmq05c90k01krbqmj11ggqz5w",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 19.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "359.13",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "33403",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 18703.051542,
+        "totalUsd": 0.02244,
+        "inputTokens": 3692,
+        "outputTokens": 1878,
+        "reasoningTokens": 1759
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "359.13",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33403-3802",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Lake Park",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "500 N Congress Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "013141133 UT - Shirts",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5
+        },
+        {
+          "text": "013103180 UT-Sweatshrt",
+          "quantity": 1,
+          "unitPrice": 30,
+          "totalSpend": 30
+        },
+        {
+          "text": "018104632 A New Day",
+          "quantity": 1,
+          "unitPrice": 35,
+          "totalSpend": 35
+        },
+        {
+          "text": "018023469 A New Day",
+          "quantity": 1,
+          "unitPrice": 30,
+          "totalSpend": 30
+        },
+        {
+          "text": "014196033 UT Shorts",
+          "quantity": 1,
+          "unitPrice": 25,
+          "totalSpend": 25
+        },
+        {
+          "text": "018008271 SHIRTS",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalSpend": 12
+        },
+        {
+          "text": "018061200 A New Day",
+          "quantity": 1,
+          "unitPrice": 45,
+          "totalSpend": 45
+        },
+        {
+          "text": "014140442 Levi's",
+          "quantity": 1,
+          "unitPrice": 54.99,
+          "totalSpend": 54.99
+        },
+        {
+          "text": "094085496 Grüns",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99
+        },
+        {
+          "text": "094030692 eos",
+          "quantity": 2,
+          "unitPrice": 5,
+          "totalSpend": 10
+        },
+        {
+          "text": "094035827 eos",
+          "quantity": 3,
+          "unitPrice": 4.99,
+          "totalSpend": 14.97
+        },
+        {
+          "text": "094027278 Nello",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98
+        },
+        {
+          "text": "234535502 Tumbler",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5
+        },
+        {
+          "text": "053147602 Amrcn Grtngs",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "053144641 CarltonCards",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "053143416 Amrcn Grtngs",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49
+        }
+      ],
+      "rawText": "O\nLake Park/Palm Beach Gardens - 561-352-2098\n500 N Congress Ave\nLake Park, Florida 33403-3802\n06/04/2026 06:44 PM\nAPPAREL\n013141133 UT - Shirts\nT\n$5.00\n013103180 UT-Sweatshrt\nT\n$30.00\n018104632 A New Day\nT\n$35.00\n018023469 A New Day\nT\n$30.00\n014196033 UT Shorts\nT\n$25.00\n018008271 SHIRTS\nT\n$12.00\n018061200 A New Day\nT\n$45.00\n014140442 Levi's\nT\n$54.99\nHEALTH AND BEAUTY\n094085496 Grüns\nN\n$19.99\n094030692 eos\nN\n$10.00\n2 @ $5.00 ea\n094035827 eos\nN\n$14.97\n3 @ $4.99 ea\n094027278 Nello\nN\n$39.98\n2 @ $19.99 ea\nHOME\n234535502 Tumbler\nT\n$5.00\nSTATIONERY & OFFICE SUPPLIES\n053147602 Amrcn Grtngs\nT\n$2.99\n053144641 CarltonCards\nT\n$4.99\n053143416 Amrcn Grtngs\nT\n$7.49\nSUBTOTAL\n$342.40\nT = FL TAX 6.50000% on $257.46\n$16.73\nTOTAL\n$359.13\n*4003 AMEX CHARGE\n$359.13\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE:\n847929\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8427.990709000005,
+        "totalUsd": 0.0232095,
+        "inputTokens": 4355,
+        "outputTokens": 1853,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "359.13",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33403-3802",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Lake Park",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "500 N Congress Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "013141133 UT - Shirts",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5
+        },
+        {
+          "text": "013103180 UT-Sweatshrt",
+          "quantity": 1,
+          "unitPrice": 30,
+          "totalSpend": 30
+        },
+        {
+          "text": "018104632 A New Day",
+          "quantity": 1,
+          "unitPrice": 35,
+          "totalSpend": 35
+        },
+        {
+          "text": "018023469 A New Day",
+          "quantity": 1,
+          "unitPrice": 30,
+          "totalSpend": 30
+        },
+        {
+          "text": "014196033 UT Shorts",
+          "quantity": 1,
+          "unitPrice": 25,
+          "totalSpend": 25
+        },
+        {
+          "text": "018008271 SHIRTS",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalSpend": 12
+        },
+        {
+          "text": "018061200 A New Day",
+          "quantity": 1,
+          "unitPrice": 45,
+          "totalSpend": 45
+        },
+        {
+          "text": "014140442 Levi's",
+          "quantity": 1,
+          "unitPrice": 54.99,
+          "totalSpend": 54.99
+        },
+        {
+          "text": "094085496 Grüns",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99
+        },
+        {
+          "text": "094030692 eos + 2 @ $5.00 ea",
+          "quantity": 2,
+          "unitPrice": 5,
+          "totalSpend": 10
+        },
+        {
+          "text": "094035827 eos + 3 @ $4.99 ea",
+          "quantity": 3,
+          "unitPrice": 4.99,
+          "totalSpend": 14.97
+        },
+        {
+          "text": "094027278 Nello + 2 @ $19.99 ea",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98
+        },
+        {
+          "text": "234535502 Tumbler",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5
+        },
+        {
+          "text": "053147602 Amrcn Grtngs",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "053144641 CarltonCards",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "053143416 Amrcn Grtngs",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49
+        }
+      ],
+      "rawText": "Lake Park/Palm Beach Gardens - 561-352-2098\n500 N Congress Ave\nLake Park, Florida 33403-3802\n06/04/2026 06:44 PM\nAPPAREL\n013141133 UT - Shirts T $5.00\n013103180 UT-Sweatshrt T $30.00\n018104632 A New Day T $35.00\n018023469 A New Day T $30.00\n014196033 UT Shorts T $25.00\n018008271 SHIRTS T $12.00\n018061200 A New Day T $45.00\n014140442 Levi's T $54.99\nHEALTH AND BEAUTY\n094085496 Grüns N $19.99\n094030692 eos N $10.00\n2 @ $5.00 ea\n094035827 eos N $14.97\n3 @ $4.99 ea\n094027278 Nello N $39.98\n2 @ $19.99 ea\nHOME\n234535502 Tumbler T $5.00\nSTATIONERY & OFFICE SUPPLIES\n053147602 Amrcn Grtngs T $2.99\n053144641 CarltonCards T $4.99\n053143416 Amrcn Grtngs T $7.49\nSUBTOTAL $342.40\nT = FL TAX 6.50000 on $257.46 $16.73\nTOTAL $359.13\n*4003 AMEX CHARGE $359.13\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 847929\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

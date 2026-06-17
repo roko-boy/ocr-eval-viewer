@@ -1,0 +1,332 @@
+{
+  "id": "cmq06ys3802d0c4a8e6odfvh8",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 21.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "161.9",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "44446",
+    "city": "Niles",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 20130.37245800003,
+        "totalUsd": 0.02343,
+        "inputTokens": 3692,
+        "outputTokens": 1988,
+        "reasoningTokens": 2548
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "161.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:00 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44446-4804",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Niles",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5555 Youngstown Warren Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0606",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FreeStyle + 007064701",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 22.49
+        },
+        {
+          "text": "Little Spoon + 007102732",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "Little Spoon + 007103137",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "Little Spoon + 007106435",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "Little Spoon + 007105166",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "Slate Milk + 203800264",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49
+        },
+        {
+          "text": "Slate Milk + 203800266",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29
+        },
+        {
+          "text": "Slate Milk + 203800265",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49
+        },
+        {
+          "text": "Slate Milk + 203800267",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29
+        },
+        {
+          "text": "BAKEFUL + 261004710",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2
+        },
+        {
+          "text": "BAKEFUL + 261005798",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2
+        },
+        {
+          "text": "DE SOI + 213120250",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 13.99
+        },
+        {
+          "text": "EverydayDose + 094083369",
+          "quantity": 2,
+          "unitPrice": 21.99,
+          "totalSpend": 43.98
+        },
+        {
+          "text": "vHessentials + 245032817",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "Be Amazing + 094082191",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 29.99
+        }
+      ],
+      "rawText": "Niles - 330-505-1928\n5555 Youngstown Warren Rd\nNiles, Ohio 44446-4804\n06/04/2026 06:00 PM\n\nBABY\n007064701 FreeStyle N $22.49\nRegular Price $24.99\n10% off Circle\nGROCERY\n007102732 Little Spoon NF $8.99\n007103137 Little Spoon NF $8.99\n007106435 Little Spoon NF $4.99\n007105166 Little Spoon NF $4.99\n203800264 Slate Milk NF $4.49\n203800266 Slate Milk NF $3.29\n203800265 Slate Milk NF $4.49\n203800267 Slate Milk NF $3.29\n261004710 BAKEFUL NF $2.00\nRegular Price $2.49\n2for$4\n261005798 BAKEFUL NF $2.00\nRegular Price $2.49\n2for$4\n213120250 DE SOI T $13.99\nRegular Price $14.99\nHEALTH AND BEAUTY\n094083369 EverydayDose T $43.98\n2 @ $21.99 ea\n245032817 vHessentials T $7.99\n094082191 Be Amazing N $29.99\nRegular Price $32.99\n\nSUBTOTAL $165.96\nTarget Circle Card 5% $8.29 -\nT = OH TAX 6.75000 on $62.66 $4.23\nTOTAL $161.90\n\n*0606 TARGET CARD $161.90\nAUTH CODE: 004329\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$15.77\n\nREC#2-6155-1301-0171-6097-6\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4869 9982\nPassword: 839 024\nCUENTENOS EN ESPANOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8815.152666000009,
+        "totalUsd": 0.0251805,
+        "inputTokens": 4355,
+        "outputTokens": 2072,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "161.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:00 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44446-4804",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Niles",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5555 Youngstown Warren Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0606",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FreeStyle + 007064701 + Regular Price $24.99 + 10% off Circle",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 22.49
+        },
+        {
+          "text": "Little Spoon + 007102732",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "Little Spoon + 007103137",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "Little Spoon + 007106435",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "Little Spoon + 007105166",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "Slate Milk + 203800264",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49
+        },
+        {
+          "text": "Slate Milk + 203800266",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29
+        },
+        {
+          "text": "Slate Milk + 203800265",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49
+        },
+        {
+          "text": "Slate Milk + 203800267",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29
+        },
+        {
+          "text": "BAKEFUL + 261004710 + Regular Price $2.49 + 2for$4",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2
+        },
+        {
+          "text": "BAKEFUL + 261005798 + Regular Price $2.49 + 2for$4",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2
+        },
+        {
+          "text": "DE SOI + 213120250 + Regular Price $14.99",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 13.99
+        },
+        {
+          "text": "EverydayDose + 094083369 + 2 @ $21.99 ea",
+          "quantity": 2,
+          "unitPrice": 21.99,
+          "totalSpend": 43.98
+        },
+        {
+          "text": "vHessentials + 245032817",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "Be Amazing + 094082191 + Regular Price $32.99",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 29.99
+        }
+      ],
+      "rawText": "Niles - 330-505-1928\n5555 Youngstown Warren Rd\nNiles, Ohio 44446-4804\n06/04/2026 06:00 PM\n\nBABY\n007064701 FreeStyle N $22.49\nRegular Price $24.99\n10% off Circle\nGROCERY\n007102732 Little Spoon NF $8.99\n007103137 Little Spoon NF $8.99\n007106435 Little Spoon NF $4.99\n007105166 Little Spoon NF $4.99\n203800264 Slate Milk NF $4.49\n203800266 Slate Milk NF $3.29\n203800265 Slate Milk NF $4.49\n203800267 Slate Milk NF $3.29\n261004710 BAKEFUL NF $2.00\nRegular Price $2.49\n2for$4\n261005798 BAKEFUL NF $2.00\nRegular Price $2.49\n2for$4\n213120250 DE SOI T $13.99\nRegular Price $14.99\nHEALTH AND BEAUTY\n094083369 EverydayDose T $43.98\n2 @ $21.99 ea\n245032817 vHessentials T $7.99\n094082191 Be Amazing N $29.99\nRegular Price $32.99\n\nSUBTOTAL $165.96\nTarget Circle Card 5% $8.29 -\nT = OH TAX 6.75000 on $62.66 $4.23\nTOTAL $161.90\n\n*0606 TARGET CARD $161.90\nAUTH CODE: 004329\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$15.77\n\nREC#2-6155-1301-0171-6097-6\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 4869 9982\nPassword: 839 024\n\nCUENTENOS EN ESPANOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

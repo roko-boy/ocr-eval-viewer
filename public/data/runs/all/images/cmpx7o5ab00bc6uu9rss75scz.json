@@ -1,0 +1,164 @@
+{
+  "id": "cmpx7o5ab00bc6uu9rss75scz",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 3.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "4.05",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "45249",
+    "city": "Cincinnati",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 5234.441875,
+        "totalUsd": 0.011412,
+        "inputTokens": 3678,
+        "outputTokens": 655,
+        "reasoningTokens": 295
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45249-8296",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Cincinnati",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9841 Waterstone Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9933",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 211080291 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        }
+      ],
+      "rawText": "Fields Ertel - 513-677-1888\n9841 Waterstone Blvd\nCincinnati, Ohio 45249-8296\n06/02/2026 06:28 PM\nGROCERY\n211080291 SGSY TF $3.79\nSUBTOTAL $3.79\nT = OH TAX 6.75000 on $3.79 $0.26\nTOTAL $4.05\n*9933 GIFT CARD PAYMENT $4.05\n*9933 GIFT CARD BALANCE $5.95\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6153-1091-0168-5137-9\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 6890 9983\nPassword: 148 621\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7550.639083,
+        "totalUsd": 0.0124155,
+        "inputTokens": 4341,
+        "outputTokens": 656,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45249-8296",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Cincinnati",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9841 Waterstone Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 211080291 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        }
+      ],
+      "rawText": "Fields Ertel - 513-677-1888\n9841 Waterstone Blvd\nCincinnati, Ohio 45249-8296\n06/02/2026 06:28 PM\nGROCERY\n211080291 SGSY\nTF\n$3.79\nSUBTOTAL\n$3.79\nT = OH TAX 6.75000 on $3.79\n$0.26\nTOTAL\n$4.05\n*9933 GIFT CARD PAYMENT\n$4.05\n*9933 GIFT CARD BALANCE\n$5.95\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6153-1091-0168-5137-9\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 6890 9983\nPassword: 148 621\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

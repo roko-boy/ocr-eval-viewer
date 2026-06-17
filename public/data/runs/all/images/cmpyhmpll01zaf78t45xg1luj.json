@@ -1,0 +1,164 @@
+{
+  "id": "cmpyhmpll01zaf78t45xg1luj",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "3.83",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "80302",
+    "city": "Boulder",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 13866.662667,
+        "totalUsd": 0.01452,
+        "inputTokens": 3692,
+        "outputTokens": 998,
+        "reasoningTokens": 1938
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "13:55:44",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "BOULDER",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2525 ARAPAHOE AVE.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2525 ARAPAHOE AVE.\nBOULDER, CO\n(303) 449-0777\nStore Hours MON-SUN 8AM-10PM\n06/03/2026\n041964\n13:55:44\nCREDIT CARD\nPURCHASE\nCARD #:\nXXXXXXXXXXXX5019\nChip Card:\nCHASE VISA\nAID:\nA0000000031010\nATC:\n027A\nTSI:\nE800\nTC:\nARC: 06480D\nINVOICE:\n8E2AF5C333617E17\nApproval Code:\n041964\nEntry Method:\n06480D\nMode:\nChip Read\nIssuer\nTotal:\nUSD$ 3.83\nAPPROVED BY ISSUER\nGROCERY\nPEACH COLLAGEN TEA\n3.50 M F\n1 @ 2 FOR 7.00\nPEACH COLLAGEN TEA\n3.50 M F\n1 @ 2 FOR 7.00\nVoided Item\nPEACH COLLAGEN TEA\n-3.50 M F\n-1 @ 2 FOR 7.00\nTax Report\nState/Dist\n3.50\n0.14 TT\nCounty Tax\n3.50\n0.05 TT\nCityFood Ta\n3.50\n0.14 TT\nBALANCE DUE\n3.83\nCREDIT\n$3.83\n[ ] XXXXXXXXXXXX5019\nAuth# 06480D\nRef# 041964\nCHANGE\n0.00\nCard XXXXXXXXXX3697\nHave a Healthy Day Marcia!\n*******************************\nSPROUTS REWARDS\nPrevious Points Balance:\n1630\nBonus Points earned:\n0\nTotal Points earned today:\n20\nNew points balance:\n1650\n*******************************\n99031200460671541355\n*******************************\nCashier:Cillian Store: 312\nPOS:004 Transaction:6067\nWednesday, June 3, 2026 01:55 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at sprouts.com\n------------------------\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 18392.282875,
+        "totalUsd": 0.0221115,
+        "inputTokens": 4469,
+        "outputTokens": 1002,
+        "reasoningTokens": 710
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80302",
+          "status": "match"
+        },
+        "city": {
+          "value": "Boulder",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2525 Arapahoe Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2525 ARAPAHOE AVE.\nBOULDER, CO\n(303) 449-0777\nStore Hours MON-SUN 8AM-10PM\n06/03/2026\n041964\n13:55:44\nCREDIT CARD\nPURCHASE\nCARD #:\nXXXXXXXXXXXX5019\nChip Card:\nCHASE VISA\nAID:\nA0000000031010\nATC:\n027A\nTSI: E800\nTC:\nARC: 06480D\n8E2AF5C333617E17\nINVOICE:\n041964\nApproval Code:\n06480D\nEntry Method:\nChip Read\nMode:\nIssuer\nTotal:\nUSD$ 3.83\nAPPROVED BY ISSUER\nGROCERY\nPEACH COLLAGEN TEA\n3.50 M F\n1 @ 2 FOR 7.00\nPEACH COLLAGEN TEA\n3.50 M F\n1 @ 2 FOR 7.00\nVoided Item\nPEACH COLLAGEN TEA\n-3.50 M F\n-1 @ 2 FOR 7.00\nTax Report\nState/Dist\n3.50\n0.14 TT\nCounty Tax\n3.50\n0.05 TT\nCity/Food Ta\n3.50\n0.14 TT\nBALANCE DUE\n3.83\nCREDIT\n$3.83\n[ ] XXXXXXXXXXXX5019\nAuth# 06480D\nRef# 041964\nCHANGE\n0.00\nCard XXXXXXXXXXX3697\nHave a Healthy Day Marcia!\n*********************************\nSprouts REWARDS\nPrevious Points Balance:\n1630\nBonus Points earned:\n0\nTotal Points earned today:\n20\nNew points balance:\n1650\n*********************************\n99031200460671541355\nCashier: Cillian Store: 312\nPOS:004 Transaction:6067\nWednesday, June 3, 2026 01:55 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\n-------------------------\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

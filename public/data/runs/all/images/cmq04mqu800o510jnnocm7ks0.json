@@ -1,0 +1,308 @@
+{
+  "id": "cmq04mqu800o510jnnocm7ks0",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 9.68,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "67.77",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "95757",
+    "city": "Elk Grove",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 25393.126667,
+        "totalUsd": 0.023214,
+        "inputTokens": 3692,
+        "outputTokens": 1964,
+        "reasoningTokens": 3217
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "67.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "15:49:46",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95757",
+          "status": "match"
+        },
+        "city": {
+          "value": "ELK GROVE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10075 BRUCEVILLE RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5847",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MLLYS LIQ LD + 852835006370",
+          "quantity": 1,
+          "unitPrice": 19.36,
+          "totalSpend": 19.36
+        },
+        {
+          "text": "MLLYS LIQ LD + 852835006370",
+          "quantity": 1,
+          "unitPrice": 19.36,
+          "totalSpend": 19.36
+        },
+        {
+          "text": "GV BROTH 32 + 078742072760 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "GV BROTH 32 + 078742072760 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "GV BROTH 32 + 078742072760 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "GV BROTH 32 + 078742072760 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "BAR WG TSPAG + 076808006490 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "BAR WG TSPAG + 076808006490 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "BAR WG TSPAG + 076808006490 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "BAR WG TSPAG + 076808006490 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "EQ ANTIDIARR + 681131289390 H",
+          "quantity": 1,
+          "unitPrice": 5.64,
+          "totalSpend": 5.64
+        },
+        {
+          "text": "BRUTVEG330 + 850018544410",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48
+        },
+        {
+          "text": "DAIYA MEX + 871459003190 F",
+          "quantity": 1,
+          "unitPrice": 4.66,
+          "totalSpend": 4.66
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6LJ21B5DK\nWalmart *\nWal-Mart\n916-585-7344 Mgr. ARACELLY\n10075 BRUCEVILLE RD\nELK GROVE CA 95757\nST# 05848 OP# 009048 TE# 48 TR# 04927\n# ITEMS SOLD 13\nTC# 9351 2238 4117 5919 7397\nMLLYS LIQ LD 852835006370 19.36 X\nMLLYS LIQ LD 852835006370 19.36 X\nGV BROTH 32 078742072760 F 1.27 N\nGV BROTH 32 078742072760 F 1.27 N\nGV BROTH 32 078742072760 F 1.27 N\nGV BROTH 32 078742072760 F 1.27 N\nBAR WG TSPAG 076808006490 F 1.50 O\nBAR WG TSPAG 076808006490 F 1.50 O\nBAR WG TSPAG 076808006490 F 1.50 O\nBAR WG TSPAG 076808006490 F 1.50 O\nEQ ANTIDIARR 681131289390 H 5.64 X\nBRUTVEG330 850018544410 3.48 X\nDAIYA MEX 871459003190 F 4.66 N\nSUBTOTAL 63.58\nTAX1 8.7500 % 4.19\nTOTAL 67.77\nEBT SNAP TEND 15.74\nCASH TEND 52.05\nROUNDING 0.03\nCHANGE DUE 0.05\nEBT SNAP SNAP PURCHASE\n15.74 TOTAL PURCHASE\nACCOUNT #- 5847 F 0\nREF # 615500421067\nNETWORK ID. 000E APPR. CODE 289710\nTERMINAL # 28684679\nBeg Bal End Bal\nEBT CASH 0.00 0.00\nEBT SNAP 559.94 544.20\n06/04/26 15:49:46\nGet 50% off membership\nEnjoy free delivery & more with Walmart+ Assist.\nScan to start a trial.\nLow prices You Can Trust. Every Day.\n06/04/26 15:50:33",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10921.53375,
+        "totalUsd": 0.0240105,
+        "inputTokens": 4355,
+        "outputTokens": 1942,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "67.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "15:49:46",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95757",
+          "status": "match"
+        },
+        "city": {
+          "value": "ELK GROVE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10075 BRUCEVILLE RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MLLYS LIQ LD 852835006370",
+          "quantity": 1,
+          "unitPrice": 19.36,
+          "totalSpend": 19.36
+        },
+        {
+          "text": "MLLYS LIQ LD 852835006370",
+          "quantity": 1,
+          "unitPrice": 19.36,
+          "totalSpend": 19.36
+        },
+        {
+          "text": "GV BROTH 32 078742072760 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "GV BROTH 32 078742072760 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "GV BROTH 32 078742072760 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "GV BROTH 32 078742072760 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "BAR WG TSPAG 076808006490 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "BAR WG TSPAG 076808006490 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "BAR WG TSPAG 076808006490 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "BAR WG TSPAG 076808006490 F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5
+        },
+        {
+          "text": "EQ ANTIDIARR 681131289390 H",
+          "quantity": 1,
+          "unitPrice": 5.64,
+          "totalSpend": 5.64
+        },
+        {
+          "text": "BRUTVEG330 850018544410",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48
+        },
+        {
+          "text": "DAIYA MEX 871459003190 F",
+          "quantity": 1,
+          "unitPrice": 4.66,
+          "totalSpend": 4.66
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6LJ21B5DK\nWalmart\nWal-Mart\n916-585-7344 Mgr. ARACELLY\n10075 BRUCEVILLE RD\nELK GROVE CA 95757\nST# 05848 OP# 009048 TE# 48 TR# 04927\n# ITEMS SOLD 13\nTC# 9351 2238 4117 5919 7397\nMLLYS LIQ LD 852835006370 19.36 X\nMLLYS LIQ LD 852835006370 19.36 X\nGV BROTH 32 078742072760 F 1.27 N\nGV BROTH 32 078742072760 F 1.27 N\nGV BROTH 32 078742072760 F 1.27 N\nGV BROTH 32 078742072760 F 1.27 N\nBAR WG TSPAG 076808006490 F 1.50 O\nBAR WG TSPAG 076808006490 F 1.50 O\nBAR WG TSPAG 076808006490 F 1.50 O\nBAR WG TSPAG 076808006490 F 1.50 O\nEQ ANTIDIARR 681131289390 H 5.64 X\nBRUTVEG330 850018544410 3.48 X\nDAIYA MEX 871459003190 F 4.66 N\nSUBTOTAL 63.58\nTAX1 8.7500 % 4.19\nTOTAL 67.77\nEBT SNAP TEND 15.74\nCASH TEND 52.05\nROUNDING 0.03\nCHANGE DUE 0.05\nEBT SNAP SNAP PURCHASE\n15.74 TOTAL PURCHASE\nACCOUNT #- 5847 F 0\nREF # 615500421067\nNETWORK ID. 000E APPR. CODE 289710\nTERMINAL # 26864679\nBeg Bal End Bal\nEBT CASH 0.00 0.00\nEBT SNAP 559.94 544.20\n06/04/26 15:49:46\nGet 50% off membership\nEnjoy free delivery\n& more with\nWalmart+ Assist.\nScan to start a trial.\nLow prices You Can Trust. Every Day.\n06/04/26 15:50:33",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

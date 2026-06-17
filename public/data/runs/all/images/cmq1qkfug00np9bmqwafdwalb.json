@@ -1,0 +1,200 @@
+{
+  "id": "cmq1qkfug00np9bmqwafdwalb",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 4.98,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "12.17",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "98057",
+    "city": "Renton",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 13013.68270799999,
+        "totalUsd": 0.014556,
+        "inputTokens": 3692,
+        "outputTokens": 1002,
+        "reasoningTokens": 1378
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:27:55",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98057",
+          "status": "match"
+        },
+        "city": {
+          "value": "RENTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "743 RAINIER AVENUE SOUTH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7710",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KUII APPLE + 674806009370",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1
+        },
+        {
+          "text": "KUII APPLE + 674806009370",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1
+        },
+        {
+          "text": "SQZ AVO SALT + 850058250140",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        },
+        {
+          "text": "SQZ AVO SALT + 850058250440",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6P4W7N4W\nWalmart *:\nWM Supercenter\n425-227-0407 Mgr. DAVID\n743 RAINIER AVENUE SOUTH\nRENTON WA 98057\nST# 02516 OP# 009029 TE# 29 TR# 02975\n# ITEMS SOLD 4\nTC# 4297 7043 9772 2099 3774\nKUII APPLE 674806009370 F 1.00 X\nKUII APPLE 674806009370 F 1.00 X\nSQZ AVO SALT 850058250140 F 4.98 N\nSQZ AVO SALT 850058250440 F 4.98 N\nSUBTOTAL 11.96\nTAX1 10.5000 % 0.21\nTOTAL 12.17\nMCARD TEND 12.17\nCHANGE DUE 0.00\nMASTERCARD- 7710 I 1 APPR#09315Z\n12.17 TOTAL PURCHASE\nREF # 615772107585\nAID A0000000041010\nTERMINAL # 26978377\n*No Signature Required\n06/05/26 19:27:55\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/05/26 19:28:02",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5799.916875000003,
+        "totalUsd": 0.0153615,
+        "inputTokens": 4355,
+        "outputTokens": 981,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:27:55",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98057",
+          "status": "match"
+        },
+        "city": {
+          "value": "RENTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "743 RAINIER AVENUE SOUTH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7710",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KUII APPLE + 674806009370 F",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1
+        },
+        {
+          "text": "KUII APPLE + 674806009370 F",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1
+        },
+        {
+          "text": "SQZ AVO SALT + 850058250140 F",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        },
+        {
+          "text": "SQZ AVO SALT + 850058250440 F",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6P4W7N4W\nWalmart\nWM Supercenter\n425-227-0407 Mgr. DAVID\n743 RAINIER AVENUE SOUTH\nRENTON WA 98057\nST# 02516 OP# 009029 TE# 29 TR# 02975\n# ITEMS SOLD 4\nTC# 4297 7043 9772 2099 3774\nKUII APPLE 674806009370 F 1.00 X\nKUII APPLE 674806009370 F 1.00 X\nSQZ AVO SALT 850058250140 F 4.98 N\nSQZ AVO SALT 850058250440 F 4.98 N\nSUBTOTAL 11.96\nTAX1 10.5000 % 0.21\nTOTAL 12.17\nMCARD TEND 12.17\nCHANGE DUE 0.00\nMASTERCARD- 7710 I 1 APPR#09315Z\n12.17 TOTAL PURCHASE\nREF # 615772107585\nAID A0000000041010\nTERMINAL # 26978377\n*No Signature Required\n06/05/26 19:27:55\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/05/26 19:28:02",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

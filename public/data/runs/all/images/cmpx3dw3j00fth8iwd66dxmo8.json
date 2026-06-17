@@ -1,0 +1,164 @@
+{
+  "id": "cmpx3dw3j00fth8iwd66dxmo8",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "Unknown",
+  "amount": 10.59,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": null,
+    "totalCost": "10.59",
+    "purchaseDate": "2026-06-01T00:00:00.000Z",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 7958.931707999989,
+        "totalUsd": 0.009001499999999999,
+        "inputTokens": 3709,
+        "outputTokens": 382,
+        "reasoningTokens": 814
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "10.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9742",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ayoh! Tangy Dijonayo Sando Sauce - 12 fl oz",
+          "quantity": 1,
+          "unitPrice": 10.59,
+          "totalSpend": 10.59
+        }
+      ],
+      "rawText": "$10.59\nReceipt total\n2-6153-3991-4837-6939-2\nHide details\nAyoh! Tangy Dijonayo Sando Sauce - 12 fl oz\nQty 1 • $10.59 unit price\nAmount $10.59\nItem total $10.59\nVISA Receipt total $10.59\nVisa *9742\nMon, Jun 1, 2026\nInvoice #61533991483769392",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3611.921374999991,
+        "totalUsd": 0.009996,
+        "inputTokens": 4372,
+        "outputTokens": 382,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "10.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9742",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ayoh! Tangy Dijonayo Sando Sauce - 12 fl oz",
+          "quantity": 1,
+          "unitPrice": 10.59,
+          "totalSpend": 10.59
+        }
+      ],
+      "rawText": "$10.59\nReceipt total\n2-6153-3991-4837-6939-2\nHide details\nAyoh! Tangy Dijonayo Sando Sauce - 12 fl oz\nQty 1 • $10.59 unit price\nAmount $10.59\nItem total $10.59\nVISA Receipt total $10.59\nVisa *9742\nMon, Jun 1, 2026\nInvoice #61533991483769392",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

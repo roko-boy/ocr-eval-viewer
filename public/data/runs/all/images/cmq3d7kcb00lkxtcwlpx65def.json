@@ -1,0 +1,224 @@
+{
+  "id": "cmq3d7kcb00lkxtcwlpx65def",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 4.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "26.18",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "85297",
+    "city": "Chandler",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 15161.261208,
+        "totalUsd": 0.017985,
+        "inputTokens": 3692,
+        "outputTokens": 1383,
+        "reasoningTokens": 2149
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "21:48:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85297",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chandler",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4065 S Gilbert Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4812",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WHITE PEACHES + 0.38 lb @ $2.99 / lb",
+          "quantity": 1,
+          "unitPrice": 1.14,
+          "totalSpend": 1.14
+        },
+        {
+          "text": "DRK CHOC PB BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": null
+        },
+        {
+          "text": "FOUR CHEESE SAUCE",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49
+        },
+        {
+          "text": "WHITE CHDDR PUFFCORN",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "ORGANIC WHOLE MILK",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "ORGANIC WHOLE MILK + VENDOR COUPON",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": null
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n4065 S Gilbert Rd\nChandler, AZ 85297\n480-781-0088\nStore Hours MON-SUN 7AM-10PM\n06/06/2026 21:48:57\nMASTERCARD Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX4812\nPURCHASE - APPROVED\nAUTH CODE:63015Z\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0114A140030200000004000000000000\nOOOFF\nTSI: A800 ARC: 00\nTC: 14AA9E7E79897A8C\nMID: 218655 TID: 001 RRN: 340749\nTotal: USD$ 26.18\nPRODUCE\nWHITE PEACHES 1.14 T\n0.38 lb @ $2.99 / lb\nGROCERY\nDRK CHOC PB BAR 2.49 T\nDGTL CPN Quantum E -2.49\nFOUR CHEESE SAUCE 9.49 T\nWHITE CHDDR PUFFCORN 4.99 T\nDAIRY\nORGANIC WHOLE MILK 9.99 T\nORGANIC WHOLE MILK 9.99 T\nVENDOR COUPON -9.99 T\nTax Report\nCityFood Ta 38.09 0.57 TT\nBALANCE DUE 28.67\nCREDIT $26.18\n[ ] XXXXXXXXXXXX4812\nAuth# 63015Z Ref# 340749\nCHANGE 0.00\nYOUR SAVINGS TODAY!\nVendor Coupon 1 -9.99\nTOTAL COUPONS 1 -9.99\nYou Saved!\nTOTAL DISCOUNTS 1 2.49\nCard XXXXXXXXXXX4134\nHave a Healthy Day Roy!\n*************************************\nSprouts Rewards\nPrevious Points Balance: 1085\nTotal Points earned today: 180\nNew points balance: 1265\n*************************************\n9900330429681572147\n*************************************\nCashier:SSCO 34 Store: 33\nPOS:034 Transaction:2968\nSaturday, June 6, 2026 09:47 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7497.299500000001,
+        "totalUsd": 0.0187815,
+        "inputTokens": 4355,
+        "outputTokens": 1361,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "28.67",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:47 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85297",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chandler",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4065 S Gilbert Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4812",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WHITE PEACHES",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.14
+        },
+        {
+          "text": "DRK CHOC PB BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": null
+        },
+        {
+          "text": "FOUR CHEESE SAUCE",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49
+        },
+        {
+          "text": "WHITE CHDDR PUFFCORN",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "ORGANIC WHOLE MILK",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99
+        },
+        {
+          "text": "ORGANIC WHOLE MILK + VENDOR COUPON",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": null
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n4065 S Gilbert Rd\nChandler, AZ 85297\n480-781-0088\nStore Hours MON-SUN 7AM-10PM\n06/06/2026 21:48:57\nMASTERCARD Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX4812\nPURCHASE - APPROVED\nAUTH CODE:63015Z\nMode: Issuer\nAID: A0000000041010\nTVR: 000008001\nIAD: 0114A140030200000004000000000000\nOOOFF\nTSI: A800 ARC: 00\nTC: 14AA9E7E79897A8C\nMID: 218655 TID: 001 RRN: 340749\nTotal: USD$ 26.18\nPRODUCE\nWHITE PEACHES 1.14 T\n0.38 lb @ $2.99 / lb\nGROCERY\nDRK CHOC PB BAR 2.49 T\nDGTL CPN Quantum E -2.49\nFOUR CHEESE SAUCE 9.49 T\nWHITE CHDDR PUFFCORN 4.99 T\nDAIRY\nORGANIC WHOLE MILK 9.99 T\nORGANIC WHOLE MILK 9.99 T\nVENDOR COUPON -9.99 T\nTax Report\nCityFood Ta 38.09 0.57 TT\nBALANCE DUE 28.67\nCREDIT $26.18\n[ ] XXXXXXXXXXXX4812\nAuth# 63015Z Ref# 340749\nCHANGE 0.00\nYOUR SAVINGS TODAY!\nVendor Coupon 1 -9.99\nTOTAL COUPONS 1 -9.99\nYou Saved!\nTOTAL DISCOUNTS 1 2.49\nCard XXXXXXXXXX4134\nHave a Healthy Day Roy!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 1085\nTotal Points earned today: 180\nNew points balance: 1265\n***********************************\n9900330429681572147\n***********************************\nCashier:SSCO 34 Store: 33\nPOS:034 Transaction:2968\nSaturday, June 6, 2026 09:47 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 2,
+  "nullCount": 0
+}

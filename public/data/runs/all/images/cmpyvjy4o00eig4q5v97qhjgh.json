@@ -1,0 +1,212 @@
+{
+  "id": "cmpyvjy4o00eig4q5v97qhjgh",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 16.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "44.71",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "48101",
+    "city": "Allen Park",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11839.24008300001,
+        "totalUsd": 0.014643,
+        "inputTokens": 3708,
+        "outputTokens": 1009,
+        "reasoningTokens": 1772
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.71",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48101-2870",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Allen Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3100 Fairlane Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7763",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PROMO GFTCRD + 790017459 + 041-816-224-287-771 + New Bal: $5.00 + Final sale, no return",
+          "quantity": 1,
+          "unitPrice": null,
+          "totalSpend": null
+        },
+        {
+          "text": "MdebyDentist + 049096117 + Regular Price $4.99 + Buy4Get$5GC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "MdebyDentist + 049090442 + Buy4Get$5GC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "MdebyDentist + 049090131 + Buy4Get$5GC",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99
+        },
+        {
+          "text": "MdebyDentist + 049090143 + Buy4Get$5GC",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99
+        }
+      ],
+      "rawText": "View your receipt\n\nAllen Park - 313-768-0064\n3100 Fairlane Dr\nAllen Park, Michigan 48101-2870\n06/02/2026 02:28 PM\n\nELECTRONICS\n790017459 PROMO GFTCRD N $0.00\n041-816-224-287-771\nNew Bal: $5.00\nFinal sale, no return\nHEALTH AND BEAUTY\n049096117 MdebyDentist T $3.49\nRegular Price $4.99\nBuy4Get$5GC\n049090442 MdebyDentist T $4.99\nBuy4Get$5GC\n049090131 MdebyDentist T $16.99\nBuy4Get$5GC\n049090143 MdebyDentist T $16.99\nBuy4Get$5GC\n\nSUBTOTAL $42.46\nT = MI TAX 6.00000 on $37.46 $2.25\nTOTAL $44.71\n*7763 GIFT CARD PAYMENT $44.71\n*7763 GIFT CARD BALANCE $1.59\n\nWHEN YOU RETURN ANY ITEM, YOUR RETURN CREDIT WILL NOT INCLUDE ANY PROMOTIONAL DISCOUNT OR COUPON APPLIED TO THE ORIGINAL ORDER.\n\n*Not redeemable for cash",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6009.885625000003,
+        "totalUsd": 0.0155295,
+        "inputTokens": 4371,
+        "outputTokens": 997,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.71",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48101-2870",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Allen Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3100 Fairlane Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7763",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PROMO GFTCRD + 790017459 + 041-816-224-287-771 + New Bal: $5.00 + Final sale, no return",
+          "quantity": 1,
+          "unitPrice": null,
+          "totalSpend": null
+        },
+        {
+          "text": "MdebyDentist + 049096117 + Buy4Get$5GC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.49
+        },
+        {
+          "text": "MdebyDentist + 049090442 + Buy4Get$5GC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "MdebyDentist + 049090131 + Buy4Get$5GC",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99
+        },
+        {
+          "text": "MdebyDentist + 049090143 + Buy4Get$5GC",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99
+        }
+      ],
+      "rawText": "View your receipt\nAllen Park - 313-768-0064\n3100 Fairlane Dr\nAllen Park, Michigan 48101-2870\n06/02/2026 02:28 PM\nELECTRONICS\n790017459 PROMO GFTCRD N $0.00\n041-816-224-287-771\nNew Bal: $5.00\nFinal sale, no return\nHEALTH AND BEAUTY\n049096117 MdebyDentist T $3.49\nRegular Price $4.99\nBuy4Get$5GC\n049090442 MdebyDentist T $4.99\nBuy4Get$5GC\n049090131 MdebyDentist T $16.99\nBuy4Get$5GC\n049090143 MdebyDentist T $16.99\nBuy4Get$5GC\nSUBTOTAL $42.46\nT = MI TAX 6.00000 on $37.46 $2.25\nTOTAL $44.71\n*7763 GIFT CARD PAYMENT $44.71\n*7763 GIFT CARD BALANCE $1.59\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n*Not redeemable for cash",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

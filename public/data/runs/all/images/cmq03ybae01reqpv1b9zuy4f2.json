@@ -1,0 +1,176 @@
+{
+  "id": "cmq03ybae01reqpv1b9zuy4f2",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 7.21,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "14.85",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "55113",
+    "city": "Roseville",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 10634.671209,
+        "totalUsd": 0.012999,
+        "inputTokens": 3692,
+        "outputTokens": 829,
+        "reasoningTokens": 1344
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.85",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55113-6005",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1515 County Road B W",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Simek's + 210020098",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.21
+        },
+        {
+          "text": "SIMEKS + 210020201",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 7.64
+        }
+      ],
+      "rawText": "Roseville T1 - 651-631-0330\n1515 County Road B W\nRoseville, Minnesota 55113-6005\n06/04/2026 04:28 PM\n\nGROCERY\n210020098 Simek's NF $7.21\nRegular Price $8.49\n210020201 SIMEKS NF $7.64\nRegular Price $8.99\n\nSUBTOTAL $14.85\nNO TAX $0.00\nTOTAL $14.85\n\n*6011 AMEX CHARGE $14.85\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 887156\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nmail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$2.63\n\nREC#2-6155-2101-0162-5401-3\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 4789 9983\nPassword: 745 987\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5583.342708,
+        "totalUsd": 0.0137055,
+        "inputTokens": 4355,
+        "outputTokens": 797,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.85",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55113-6005",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1515 County Road B W",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Simek's + 210020098",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.21
+        },
+        {
+          "text": "SIMEKS + 210020201",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 7.64
+        }
+      ],
+      "rawText": "Roseville T1 - 651-631-0330\n1515 County Road B W\nRoseville, Minnesota 55113-6005\n06/04/2026 04:28 PM\nGROCERY\n210020098 Simek's NF $7.21\nRegular Price $8.49\n210020201 SIMEKS NF $7.64\nRegular Price $8.99\nSUBTOTAL $14.85\nNO TAX $0.00\nTOTAL $14.85\n*6011 AMEX CHARGE $14.85\nAID: A000000025010801\nAMERICAN EXPRESS\nAUTH CODE: 887156\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nmail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$2.63\nREC#2-6155-2101-0162-5401-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4789 9983\nPassword: 745 987\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

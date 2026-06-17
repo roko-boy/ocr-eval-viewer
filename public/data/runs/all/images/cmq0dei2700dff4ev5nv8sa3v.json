@@ -1,0 +1,236 @@
+{
+  "id": "cmq0dei2700dff4ev5nv8sa3v",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 2.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "22.53",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "98057",
+    "city": "Renton",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 15021.94441699999,
+        "totalUsd": 0.018837,
+        "inputTokens": 3726,
+        "outputTokens": 1472,
+        "reasoningTokens": 1403
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:31 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98057-5521",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Renton",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1215 N Landing Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3132",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP MINDFUL + 271750436 + Regular Price $2.79 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.27
+        },
+        {
+          "text": "TRIP + 271750009 + Regular Price $2.79 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.27
+        },
+        {
+          "text": "SGSY + 211080292 + Regular Price $3.79 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.08
+        },
+        {
+          "text": "Slate Milk + 203800267 + Regular Price $3.29 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.67
+        },
+        {
+          "text": "Slate Milk + 203800036 + Regular Price $3.29 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.67
+        },
+        {
+          "text": "Ocean's Halo + 270038058 + Regular Price $5.39 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 4.39
+        },
+        {
+          "text": "Ocean's Halo + 270030013 + Regular Price $5.39 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 4.38
+        }
+      ],
+      "rawText": "Renton - 425-207-0067\n1215 N Landing Way\nRenton, Washington 98057-5521\n06/04/2026 08:31 PM\nGROCERY\n271750436 TRIP MINDFUL TF $2.27\nRegular Price $2.79\n$5 off Circle\n271750009 TRIP TF $2.27\nRegular Price $2.79\n$5 off Circle\n211080292 SGSY TF $3.08\nRegular Price $3.79\n$5 off Circle\n203800267 Slate Milk NF $2.67\nRegular Price $3.29\n$5 off Circle\n203800036 Slate Milk NF $2.67\nRegular Price $3.29\n$5 off Circle\n270038058 Ocean's Halo NF $4.39\nRegular Price $5.39\n$5 off Circle\n270030013 Ocean's Halo NF $4.38\nRegular Price $5.39\n$5 off Circle\nSUBTOTAL $21.73\nT = WA TAX 10.50000 on $7.62 $0.80\nTOTAL $22.53\n*3132 VISA CHARGE $22.53\nAID: A0000000031010\nVisa Credit\nAUTH CODE: 004174\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nVisit 1800recycle.wa.gov or call 1-\n800-RECYCLE to find electronic product\nrecycling services in your area.\nYOUR TOTAL SAVINGS THIS TRIP:\n$5.00\nREC#2-6155-2290-0174-7650-9\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4771 0982\nPassword: 523 491\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6705.111208000002,
+        "totalUsd": 0.0198405,
+        "inputTokens": 4389,
+        "outputTokens": 1473,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:31 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98057-5521",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Renton",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1215 N Landing Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3132",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP MINDFUL + 271750436 + Regular Price $2.79 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.27
+        },
+        {
+          "text": "TRIP + 271750009 + Regular Price $2.79 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.27
+        },
+        {
+          "text": "SGSY + 211080292 + Regular Price $3.79 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.08
+        },
+        {
+          "text": "Slate Milk + 203800267 + Regular Price $3.29 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.67
+        },
+        {
+          "text": "Slate Milk + 203800036 + Regular Price $3.29 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.67
+        },
+        {
+          "text": "Ocean's Halo + 270038058 + Regular Price $5.39 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 4.39
+        },
+        {
+          "text": "Ocean's Halo + 270030013 + Regular Price $5.39 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 4.38
+        }
+      ],
+      "rawText": "Renton - 425-207-0067\n1215 N Landing Way\nRenton, Washington 98057-5521\n06/04/2026 08:31 PM\nGROCERY\n271750436 TRIP MINDFUL TF $2.27\nRegular Price $2.79\n$5 off Circle\n271750009 TRIP TF $2.27\nRegular Price $2.79\n$5 off Circle\n211080292 SGSY TF $3.08\nRegular Price $3.79\n$5 off Circle\n203800267 Slate Milk NF $2.67\nRegular Price $3.29\n$5 off Circle\n203800036 Slate Milk NF $2.67\nRegular Price $3.29\n$5 off Circle\n270038058 Ocean's Halo NF $4.39\nRegular Price $5.39\n$5 off Circle\n270030013 Ocean's Halo NF $4.38\nRegular Price $5.39\n$5 off Circle\nSUBTOTAL $21.73\nT = WA TAX 10.50000 on $7.62 $0.80\nTOTAL $22.53\n*3132 VISA CHARGE $22.53\nAID: A0000000031010\nVisa Credit\nAUTH CODE: 004174\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nVisit 1800recycle.wa.gov or call 1-\n800-RECYCLE to find electronic product\nrecycling services in your area.\nYOUR TOTAL SAVINGS THIS TRIP:\n$5.00\nREC#2-6155-2290-0174-7650-9\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4771 0982\nPassword: 523 491\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,164 @@
+{
+  "id": "cmq1d9cgw01gypywissme5rdg",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 8.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "8.99",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "92373",
+    "city": "Redlands",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11814.76491700002,
+        "totalUsd": 0.012585,
+        "inputTokens": 3692,
+        "outputTokens": 783,
+        "reasoningTokens": 1197
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "8.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "13:15:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92373",
+          "status": "match"
+        },
+        "city": {
+          "value": "Redlands",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "560 W. Stuart Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0585",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MEDIUM FRESH SALSA",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n560 W. Stuart Avenue\nRedlands, CA 92373\n(909) 283-7162\nStore Hours MON-SUN 7AM-10PM\n\n06/05/2026 13:15:51\nVISA CREDIT Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX0585\nPURCHASE - APPROVED\nAUTH CODE:06644D\n\nIssuer\nMode:\nA0000000031010\nAID:\n0000000000\nTVR:\n1F420132A000000001003027300000\nIAD:\n00040000000000000000000000000000\nTSI: 0000\nARC: 00\nTC:\n35559D84A9E77A4A\nMID: 100294 TID: 001\nRRN: 343659\n\nTotal:\nUSD$ 8.99\n\nPRODUCE\nMEDIUM FRESH SALSA\n8.99\n\nBALANCE DUE\n8.99\nCREDIT\n$8.99\n[ ] XXXXXXXXXXXX0585\nAuth# 06644D\nRef# 343659\nCHANGE\n0.00\n\nCard XXXXXXXXXX7647\n\nHave a Healthy Day James!\n***********************************\nSprouts Rewards\n-----------------------------------\nPrevious Points Balance:\n1400\nBonus Points earned:\n0\nTotal Points earned today:\n45\nNew points balance:\n1445\n***********************************\n***********************************\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4882.140584000008,
+        "totalUsd": 0.0132645,
+        "inputTokens": 4355,
+        "outputTokens": 748,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "8.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "13:15:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92373",
+          "status": "match"
+        },
+        "city": {
+          "value": "Redlands",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "560 W. Stuart Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0585",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MEDIUM FRESH SALSA",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n560 W. Stuart Avenue\nRedlands, CA 92373\n(909) 283-7162\nStore Hours MON-SUN 7AM-10PM\n\n06/05/2026 13:15:51\nVISA CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX0585\nPURCHASE - APPROVED\nAUTH CODE:06644D\nIssuer\nMode: A0000000031010\nAID: 0000000000\nTVR: 1F420132A0000000001003027300000\nIAD: 00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: 35559D84A9E77A4A\nMID: 100294 TID: 001 RRN: 343659\n\nTotal: USD$ 8.99\n\nPRODUCE\nMEDIUM FRESH SALSA 8.99\n\nBALANCE DUE 8.99\nCREDIT $8.99\n[ ] XXXXXXXXXXXX0585\nAuth# 06644D Ref# 343659\nCHANGE 0.00\n\nCard XXXXXXXXXX7647\nHave a Healthy Day James!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 1400\nBonus Points earned: 0\nTotal Points earned today: 45\nNew points balance: 1445\n***********************************\n***********************************\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

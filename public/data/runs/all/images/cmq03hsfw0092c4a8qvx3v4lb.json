@@ -1,0 +1,164 @@
+{
+  "id": "cmq03hsfw0092c4a8qvx3v4lb",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "8.47",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "20878",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9821.869791000005,
+        "totalUsd": 0.01209,
+        "inputTokens": 3692,
+        "outputTokens": 728,
+        "reasoningTokens": 1318
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20878-7305",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Gaithersburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "25 Grand Corner Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5849",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "Gaithersburg - 301-721-1760\n25 Grand Corner Ave\nGaithersburg, Maryland 20878-7305\n06/04/2026 06:53 PM\n\nHEALTH AND BEAUTY\n245032817 vHessentials       T      $7.99\n\nSUBTOTAL      $7.99\nT = MD TAX 6.00000 on $7.99   $0.48\nTOTAL      $8.47\n\n*9858 GIFT CARD PAYMENT      $7.50\n\n*5849 AMEX CHARGE            $0.97\nAID: A000000025010901\nAMEX CREDIT\nAUTH CODE: 840689\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nREC#2-6155-1193-0176-0940-3\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 4880 7982\nPassword: 390 597\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5279.924249999996,
+        "totalUsd": 0.0129405,
+        "inputTokens": 4355,
+        "outputTokens": 712,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20878-7305",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Gaithersburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "25 Grand Corner Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5849",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "Gaithersburg - 301-721-1760\n25 Grand Corner Ave\nGaithersburg, Maryland 20878-7305\n06/04/2026 06:53 PM\nHEALTH AND BEAUTY\n245032817 vHessentials\nT\n$7.99\nSUBTOTAL\n$7.99\nT = MD TAX 6.00000 on $7.99\n$0.48\nTOTAL\n$8.47\n*9858 GIFT CARD PAYMENT\n$7.50\n*5849 AMEX CHARGE\n$0.97\nAID: A000000025010901\nAMEX CREDIT\nAUTH CODE:\n840689\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6155-1193-0176-0940-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4880 7982\nPassword: 390 597\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

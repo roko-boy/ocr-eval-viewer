@@ -1,0 +1,224 @@
+{
+  "id": "cmq0yc9mf00dp3lom5zdrjx16",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 11.96,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "50.17",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "70769",
+    "city": "Prairieville",
+    "state": "LA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 14741.97670900001,
+        "totalUsd": 0.016392,
+        "inputTokens": 3692,
+        "outputTokens": 1206,
+        "reasoningTokens": 1725
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:06:41",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "70769",
+          "status": "match"
+        },
+        "city": {
+          "value": "PRAIRIEVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "LA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15047 AIRLINE HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1671",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTIAL + 365197720000",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        },
+        {
+          "text": "VH ESSENTIAL + 365197720000",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6NF1VHH4J\nWalmart *:\nNeighborhood Market\n225-744-8405 Mgr. AISHA\n15047 AIRLINE HWY\nPRAIRIEVILLE LA 70769\nST# 05310 OP# 009007 TE# 07 TR# 02117\n# ITEMS SOLD 6\nTC# 7952 0252 2044 9722 7541\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTIAL 365197720000 6.97 X\nVH ESSENTIAL 365197720000 6.97 X\nSUBTOTAL 45.82\nTAX1 9.5000 % 4.35\nTOTAL 50.17\nDEBIT TEND 50.17\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n50.17 TOTAL PURCHASE\nUS DEBIT- 1671 I 3\nREF # 615645715317\nNETWORK ID. 000L APPR. CODE 002832\nAID A0000000042203\nTERMINAL # 27125833\n*Pin Verified\n06/05/26 08:06:41\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/05/26 08:06:49",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6019.503124999988,
+        "totalUsd": 0.0171345,
+        "inputTokens": 4355,
+        "outputTokens": 1178,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:06:41",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "70769",
+          "status": "match"
+        },
+        "city": {
+          "value": "PRAIRIEVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "LA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15047 AIRLINE HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1671",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTIAL + 365197720000",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        },
+        {
+          "text": "VH ESSENTIAL + 365197720000",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6NF1VHH4J\nWalmart *\nNeighborhood Market\n225-744-8405 Mgr. AISHA\n15047 AIRLINE HWY\nPRAIRIEVILLE LA 70769\nST# 05310 OP# 009007 TE# 07 TR# 02117\n# ITEMS SOLD 6\nTC# 7952 0252 2044 9722 7541\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTLS 365197760000 7.97 X\nVH ESSENTIAL 365197720000 6.97 X\nVH ESSENTIAL 365197720000 6.97 X\nSUBTOTAL 45.82\nTAX1 9.5000 % 4.35\nTOTAL 50.17\nDEBIT TEND 50.17\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n50.17 TOTAL PURCHASE\nUS DEBIT- 1671 I 3\nREF # 615645715317\nNETWORK ID. 000L APPR. CODE 002832\nAID A0000000042203\nTERMINAL # 27125833\n*Pin Verified\n06/05/26 08:06:41\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/05/26 08:06:49",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

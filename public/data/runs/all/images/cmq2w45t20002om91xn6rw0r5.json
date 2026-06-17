@@ -1,0 +1,176 @@
+{
+  "id": "cmq2w45t20002om91xn6rw0r5",
+  "url": null,
+  "retailer": "Fresh Thyme",
+  "brand": "Unknown",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fresh Thyme",
+    "totalCost": "9.98",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "45249",
+    "city": "Cincinnati",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 10364.365292,
+        "totalUsd": 0.012909,
+        "inputTokens": 3686,
+        "outputTokens": 820,
+        "reasoningTokens": 637
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fresh Thyme Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:52:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45249",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cincinnati",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11349 Montgomery Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1008",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "O MILK PECAN BARI",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "O MILK PECAN ZERO",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99
+        }
+      ],
+      "rawText": "****************************************\nFRESH THYME\nMARKET\n11349 Montgomery Rd.\nCincinnati, OH 45249\n(513) 247-0018\n7a-9p Daily\nFRESHTHYME.COM\nRRN:\n118210\nSALE\nXXXXXXXXXXXX1008\nAmerican Express Entry Method: Chip\n06/06/2026\n17:52:34\nINVOICE:\n118210\nAMERICAN EXPRESS\nAID:\nA000000025010801\nTVR:\n0000008000\nTSI:\nE800\nTotal:\nUSD$ 9.98\nAPPROVED\n838707\nGROCERY\nO MILK PECAN BARI\n*\n4.99 N F\nYou saved 1.00\nO MILK PECAN ZERO\n*\n4.99 N F\nYou saved 1.00\nBALANCE DUE\n9.98\nAmerican Express\n9.98\nEXP. DATE: **/****\nAuth Code = 838707\nCHANGE\n0.00\nYour Savings Today:\nTOTAL DISCOUNTS\n2\n-2.00\nTotal number of items sold = 2\nFTFM\n#000000000101\nCASHIER NAME: SC011\nSTORE:00304 REGISTER:011 CASHIER:0911\nTICKET#:2360\n6JUN2026 17:52:35\nThank you for\nshopping with us\nSee you next Thyme!\nTurn every $1 spent into points!\nJoin MyThyme Rewards in the Fresh Thyme\napp for extra savings.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5589.488540999999,
+        "totalUsd": 0.0140205,
+        "inputTokens": 4349,
+        "outputTokens": 833,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fresh Thyme",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:52:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45249",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cincinnati",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11349 Montgomery Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1008",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "O MILK PECAN BARI + You saved 1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "O MILK PECAN ZERO + You saved 1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99
+        }
+      ],
+      "rawText": "****************************************\nFRESH THYME\nMARKET\n11349 Montgomery Rd.\nCincinnati, OH 45249\n(513) 247-0018\n7a-9p Daily\nFRESHTHYME.COM\nRRN:\n118210\nSALE\nXXXXXXXXXXXX1008\nAmerican Express Entry Method: Chip\n06/06/2026\n17:52:34\nINVOICE:\n118210\nAMERICAN EXPRESS\nAID:\nA000000025010801\nTVR:\n0000008000\nTSI:\nE800\nTotal:\nUSD$ 9.98\nAPPROVED\n838707\nGROCERY\nO MILK PECAN BARI *\n4.99 N F\nYou saved 1.00\nO MILK PECAN ZERO *\n4.99 N F\nYou saved 1.00\nBALANCE DUE\n9.98\nAmerican Express\n9.98\nEXP. DATE: **/****\nAuth Code = 838707\nCHANGE\n0.00\nYour Savings Today:\nTOTAL DISCOUNTS\n2\n-2.00\nTotal number of items sold = 2\nFTFM\n#000000000101\nCASHIER NAME: SC011\nSTORE:00304 REGISTER:011 CASHIER:0911\nTICKET#:2360\n6JUN2026 17:52:35\nThank you for\nshopping with us\nSee you next Thyme!\nTurn every $1 spent into points!\nJoin MyThyme Rewards in the Fresh Thyme\napp for extra savings.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

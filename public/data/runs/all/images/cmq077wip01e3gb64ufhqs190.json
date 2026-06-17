@@ -1,0 +1,188 @@
+{
+  "id": "cmq077wip01e3gb64ufhqs190",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 5.45,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "41",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "14020",
+    "city": "Batavia",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 15900.33387499998,
+        "totalUsd": 0.013125,
+        "inputTokens": 3692,
+        "outputTokens": 843,
+        "reasoningTokens": 1975
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:33 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14020-1258",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Batavia",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4300 Veterans Memorial Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2541",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003025488 Biom + Regular Price $12.99 + $15 off Circle",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 9.44
+        },
+        {
+          "text": "003029020 Molly's Suds + 2 @ $10.90 ea + Regular Price $14.99 + $15 off Circle",
+          "quantity": 2,
+          "unitPrice": 14.99,
+          "totalSpend": 21.8
+        },
+        {
+          "text": "003070132 Tide + Regular Price $11.99 + $15 off Circle",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 8.72
+        }
+      ],
+      "rawText": "Batavia - 585-300-2045\n4300 Veterans Memorial Dr\nBatavia, New York 14020-1258\n06/04/2026 07:33 PM\n\nLAUNDRY CLEANING AND CLOSET\n003025488 Biom\tT\t$9.44\nRegular Price $12.99\n$15 off Circle\n003029020 Molly's Suds\tT\t$21.80\n2 @ $10.90 ea\nRegular Price $14.99\n$15 off Circle\n003070132 Tide\tT\t$8.72\nRegular Price $11.99\n$15 off Circle\n\nSUBTOTAL $39.96\nTarget Circle Card 5%\t$2.00 -\nT = NY TAX 8.00000 on $37.96\t$3.04\nTOTAL\t$41.00\n\n*2541 TARGET CARD\t$41.00\nAID: A0000006122222\nTarget Credit\nAUTH CODE:\t004625\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5178.129166999992,
+        "totalUsd": 0.0140385,
+        "inputTokens": 4355,
+        "outputTokens": 834,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:33 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14020-1258",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Batavia",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4300 Veterans Memorial Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2541",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LAUNDRY CLEANING AND CLOSET + 003025488 Biom + Regular Price $12.99 + $15 off Circle",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 9.44
+        },
+        {
+          "text": "Molly's Suds + 003029020 + 2 @ $10.90 ea + Regular Price $14.99 + $15 off Circle",
+          "quantity": 2,
+          "unitPrice": 14.99,
+          "totalSpend": 21.8
+        },
+        {
+          "text": "Tide + 003070132 + Regular Price $11.99 + $15 off Circle",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 8.72
+        }
+      ],
+      "rawText": "Batavia - 585-300-2045\n4300 Veterans Memorial Dr\nBatavia, New York 14020-1258\n06/04/2026 07:33 PM\nLAUNDRY CLEANING AND CLOSET\n003025488 Biom\nT $9.44\nRegular Price $12.99\n$15 off Circle\n003029020 Molly's Suds\nT $21.80\n2 @ $10.90 ea\nRegular Price $14.99\n$15 off Circle\n003070132 Tide\nT $8.72\nRegular Price $11.99\n$15 off Circle\nSUBTOTAL $39.96\nTarget Circle Card 5% $2.00 -\nT = NY TAX 8.00000 on $37.96 $3.04\nTOTAL $41.00\n*2541 TARGET CARD $41.00\nAID: A0000006122222\nTarget Credit\nAUTH CODE: 004625\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

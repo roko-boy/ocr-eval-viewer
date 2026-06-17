@@ -1,0 +1,164 @@
+{
+  "id": "cmpwros8c0080neispk9lhjha",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 3.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "4.05",
+    "purchaseDate": "2026-06-01T00:00:00.000Z",
+    "time": null,
+    "zipCode": "33323",
+    "city": "Sunrise",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12375.28537499999,
+        "totalUsd": 0.01137,
+        "inputTokens": 3692,
+        "outputTokens": 648,
+        "reasoningTokens": 1226
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:19 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33323-4020",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Sunrise",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12801 W Sunrise Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4503",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 211080442 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        }
+      ],
+      "rawText": "Sawgrass - 954-846-2600\n12801 W Sunrise Blvd\nSunrise, Florida 33323-4020\n06/01/2026 09:19 PM\n\nGROCERY\n211080442 SGSY TF $3.79\n\nSUBTOTAL $3.79\nT = FL TAX 7.00000 on $3.74 $0.26\nTOTAL $4.05\n\nReusable Bag Discount $0.05\n\n*4503 VISA CHARGE $4.00\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 08697D\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nREC#2-6152-0815-0170-9016-2\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 7918 5982\nPassword: 909 838\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4116.591124999999,
+        "totalUsd": 0.0121845,
+        "inputTokens": 4355,
+        "outputTokens": 628,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:19 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33323-4020",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Sunrise",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12801 W Sunrise Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4503",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 211080442 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        }
+      ],
+      "rawText": "Sawgrass - 954-846-2600\n12801 W Sunrise Blvd\nSunrise, Florida 33323-4020\n06/01/2026 09:19 PM\nGROCERY\n211080442 SGSY TF $3.79\nSUBTOTAL $3.79\nT = FL TAX 7.00000 on $3.74 $0.26\nTOTAL $4.05\nReusable Bag Discount $0.05\n*4503 VISA CHARGE $4.00\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 08697D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nREC#2-6152-0815-0170-9016-2\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 7918 5982\nPassword: 909 838\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

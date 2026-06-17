@@ -1,0 +1,164 @@
+{
+  "id": "cmq03xmoo01r5qpv1z1z5knko",
+  "url": null,
+  "retailer": "Costco Wholesale Corp.",
+  "brand": "Unknown",
+  "amount": 18.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "18.99",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "08648",
+    "city": "Lawrence Township",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11184.44695800002,
+        "totalUsd": 0.01227,
+        "inputTokens": 3692,
+        "outputTokens": 748,
+        "reasoningTokens": 642
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "18.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:06",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08648",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lawrence Township",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4100 Quaker Bridge Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6090",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2059615 NEURO GUM",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\n#1199 Lawrence Twp\n4100 Quaker Bridge Rd\nLawrence Township, NJ 08648\n609-779-7000\nSELF-CHECKOUT\n\nWQ Member 112010150175\n2059615 NEURO GUM 18.99\nSUBTOTAL 18.99\nTAX 0.00\n**** TOTAL 18.99\n----------------------------------------\nXXXXXXXXXXXX6090 H\nAID: A0000000031010\nSeq# 205364 App#: 09724D\nVisa Resp: APPROVED\nTran ID#: 615500205364....\n\nAPPROVED - Purchase\nAMOUNT: $18.99\n06/04/2026 19:06 1199 205 287 705\n----------------------------------------\nVisa 18.99\nCHANGE 0.00\n\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/04/2026 19:06 1199 205 287 705\n21119920502872606041906\nOP#: 705 Name: SCO\nThank You!\nPlease Come Again\nWhse:1199 Trm:205 Trn:287 OP:705\n\nItems Sold: 1\nWQ 06/04/2026 19:06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4986.997915999993,
+        "totalUsd": 0.0132555,
+        "inputTokens": 4355,
+        "outputTokens": 747,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "18.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:06",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08648",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lawrence Township",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4100 Quaker Bridge Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6090",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2059615 NEURO GUM",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\n#1199 Lawrence Twp\n4100 Quaker Bridge Rd\nLawrence Township, NJ 08648\n609-779-7000\nSELF-CHECKOUT\n\nWQ Member 112010150175\n2059615 NEURO GUM 18.99\nSUBTOTAL 18.99\nTAX 0.00\n**** TOTAL 18.99\n-------------\nXXXXXXXXXXXX6090 H\nAID: A0000000031010\nSeq# 205364 App#: 09724D\nVisa Resp: APPROVED\nTran ID#: 615500205364....\n\nAPPROVED - Purchase\nAMOUNT: $18.99\n06/04/2026 19:06 1199 205 287 705\n-------------\nVisa 18.99\nCHANGE 0.00\n\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/04/2026 19:06 1199 205 287 705\n\n21119920502872606041906\nOP#: 705 Name: SCO\nThank You!\nPlease Come Again\nWhse:1199 Trm:205 Trn:287 OP:705\n\nItems Sold: 1\nWQ 06/04/2026 19:06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

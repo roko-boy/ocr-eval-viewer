@@ -1,0 +1,308 @@
+{
+  "id": "cmpzwoatv01j1132vugid6vr6",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "52.35",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "85032",
+    "city": "Phoenix",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 19861.24058300001,
+        "totalUsd": 0.020775,
+        "inputTokens": 3692,
+        "outputTokens": 1693,
+        "reasoningTokens": 2975
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.35",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "12:41:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85032",
+          "status": "match"
+        },
+        "city": {
+          "value": "Phoenix",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12415 N. Tatum Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2986",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG OOLONG TEA + 1 @ 2 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "ORG OOLONG TEA + 1 @ 2 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "SWT CRM COCO CREAMER",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "SWT CRM COCO CREAMER + BOGO MALK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": null
+        },
+        {
+          "text": "SLT & VNGR CHIPS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99
+        },
+        {
+          "text": "SPECIAL SANDWICH",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "RISE N PUFF TORTILLA",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "RISE N PUFF TORTILLA",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "PWDR LAUNDRY DTRGENT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99
+        },
+        {
+          "text": "PWDR LAUNDRY DTRGENT + BOGO MOLYYS SUDS",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": null
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n12415 N. Tatum Blvd.\nPhoenix, AZ 85032\n(602) 971-4177\nStore Hours MON-SUN 7AM-10PM\n06/04/2026 12:41:13\nCAPITAL ONE Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX2986\nPURCHASE - APPROVED\nAUTH CODE:03497Z\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0110A0400122A8000000000000000069\n301FF\nTSI: E800 ARC: 00\nTC: 9D99F52ADD290FFD\nMID: 534889 TID: 001 RRN: 341159\nTotal: USD$ 52.35\nGROCERY\nORG OOLONG TEA 3.00\n1 @ 2 FOR 6.00\nORG OOLONG TEA 3.00\n1 @ 2 FOR 6.00\nDAIRY\nSWT CRM COCO CREAMER 7.99\nSWT CRM COCO CREAMER 7.99\nBOGO MALK -7.99\nDELI\nSLT & VNGR CHIPS 0.99\nSPECIAL SANDWICH 4.99 M\nBAKERY\nRISE N PUFF TORTILLA 5.99\nRISE N PUFF TORTILLA 5.99\nTAXABLE GROCERY\nPWDR LAUNDRY DTRGENT 17.99 M\nPWDR LAUNDRY DTRGENT 17.99 M\nBAG PROMPT CHARGE 0.10 M\nBAG PROMPT CHARGE 0.10 M\nBAG PROMPT CHARGE 0.10 M\nBOGO MOLYYS SUDS -17.99\nTax Report\nState Tax 23.28 1.30 TT\nCounty Tax 23.28 0.16 TT\nCity Tax 18.29 0.51 TT\nPrepFood Ta 4.99 0.14 TT\nBALANCE DUE 52.35\nCREDIT $52.35\n[ ] XXXXXXXXXXXX2986\nAuth# 03497Z Ref# 341159\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 2 25.98",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8956.634250000003,
+        "totalUsd": 0.0216615,
+        "inputTokens": 4355,
+        "outputTokens": 1681,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.35",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "12:41:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85032",
+          "status": "match"
+        },
+        "city": {
+          "value": "Phoenix",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12415 N. Tatum Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2986",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG OOLONG TEA + 1 @ 2 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "ORG OOLONG TEA + 1 @ 2 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "SWT CRM COCO CREAMER",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "SWT CRM COCO CREAMER + BOGO MALK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": null
+        },
+        {
+          "text": "SLT & VNGR CHIPS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99
+        },
+        {
+          "text": "SPECIAL SANDWICH",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "RISE N PUFF TORTILLA",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "RISE N PUFF TORTILLA",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99
+        },
+        {
+          "text": "PWDR LAUNDRY DTRGENT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99
+        },
+        {
+          "text": "PWDR LAUNDRY DTRGENT + BOGO MOLYYS SUDS",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": null
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n12415 N. Tatum Blvd.\nPhoenix, AZ 85032\n(602) 971-4177\nStore Hours MON-SUN 7AM-10PM\n06/04/2026 12:41:13\nCAPITAL ONE Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX2986\nPURCHASE - APPROVED\nAUTH CODE:03497Z\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0110A0400122A80000000000000000000069\n301FF\nTSI: E800 ARC: 00\nTC: 9D99F52ADD290FFD\nMID: 534889 TID: 001 RRN: 341159\nTotal: USD$ 52.35\nGROCERY\nORG OOLONG TEA 3.00\n1 @ 2 FOR 6.00\nORG OOLONG TEA 3.00\n1 @ 2 FOR 6.00\nDAIRY\nSWT CRM COCO CREAMER 7.99\nSWT CRM COCO CREAMER 7.99\nBOGO MALK -7.99\nDELI\nSLT & VNGR CHIPS 0.99\nSPECIAL SANDWICH 4.99 M\nBAKERY\nRISE N PUFF TORTILLA 5.99\nRISE N PUFF TORTILLA 5.99\nTAXABLE GROCERY\nPWDR LAUNDRY DTRGENT 17.99 M\nPWDR LAUNDRY DTRGENT 17.99 M\nBAG PROMPT CHARGE 0.10 M\nBAG PROMPT CHARGE 0.10 M\nBAG PROMPT CHARGE 0.10 M\nBOGO MOLYYS SUDS -17.99\nTax Report\nState Tax 23.28 1.30 TT\nCounty Tax 23.28 0.16 TT\nCity Tax 18.29 0.51 TT\nPrepFood Ta 4.99 0.14 TT\nBALANCE DUE 52.35\nCREDIT $52.35\n[ ] XXXXXXXXXXXX2986\nAuth# 03497Z Ref# 341159\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 2 25.98",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

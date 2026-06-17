@@ -1,0 +1,217 @@
+{
+  "id": "cmq1pif5n00b79hle9vexg3l8",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 11.96,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "51.77",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": true,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6111.771832999999,
+        "totalUsd": 0.0202575,
+        "inputTokens": 4355,
+        "outputTokens": 1525,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "51.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "20:41:11",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SUAV FLORAL + 827854024980",
+          "quantity": 1,
+          "unitPrice": 4.47,
+          "totalSpend": 4.47
+        },
+        {
+          "text": "SUAV FLORAL + 827854024980",
+          "quantity": 1,
+          "unitPrice": 4.47,
+          "totalSpend": 4.47
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "VH ESSENTLS + 365197760000",
+          "quantity": 1,
+          "unitPrice": 7.97,
+          "totalSpend": 7.97
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        },
+        {
+          "text": "K CHOC + 009800512040 F",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27
+        }
+      ],
+      "rawText": "SUAV FLORAL  827854024980      4.47 X\nSUAV FLORAL  827854024980      4.47 X\nVH ESSENTLS  365197760000      7.97 X\nVH ESSENTLS  365197760000      7.97 X\nVH ESSENTLS  365197760000      7.97 X\nVH ESSENTLS  365197760000      7.97 X\nK CHOC       009800512040 F    1.27 X\nK CHOC       009800512040 F    1.27 X\nK CHOC       009800512040 F    1.27 X\nK CHOC       009800512040 F    1.27 X\nK CHOC       009800512040 F    1.27 X\n             SUBTOTAL         47.17\n        TAX1 9.7500 %          4.60\n             TOTAL            51.77\n        GIFTCARD TEND         20.57\n        GIFTCARD TEND         25.69\n        GIFTCARD TEND          5.51\n        CHANGE DUE             0.00\n\nSHOPPING CARD REDEMPTION      20.57\nAPPR. CODE 150007\nBeg Bal      Tran Amt      End Bal\n20.57        20.57         0.00\n      06/05/26     20:40:43\n\nSHOPPING CARD REDEMPTION      25.69\nAPPR. CODE 087558\nBeg Bal      Tran Amt      End Bal\n25.69        25.69         0.00\n      06/05/26     20:40:52\n\nSHOPPING CARD REDEMPTION       5.51\nAPPR. CODE 541897\nBeg Bal      Tran Amt      End Bal\n20.00        5.51          14.49\n      06/05/26     20:41:06\n\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\n\nLow prices You Can Trust. Every Day.\n06/05/26     20:41:11",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 2,
+  "nullCount": 1
+}

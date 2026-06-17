@@ -1,0 +1,164 @@
+{
+  "id": "cmq03us4u00lc9u41qlb7toiq",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 11.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "24.61",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "85382",
+    "city": "Peoria",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12143.56412499998,
+        "totalUsd": 0.012954,
+        "inputTokens": 3692,
+        "outputTokens": 824,
+        "reasoningTokens": 1207
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85382-3806",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Peoria",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8055 W Bell Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8960",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalSpend": 23.97
+        }
+      ],
+      "rawText": "Peoria North - 623-979-0250\n8055 W Bell Rd\nPeoria, Arizona 85382-3806\n06/04/2026 04:04 PM\n\nHEALTH AND BEAUTY\n245032817 vHessentials T $23.97\n3 @ $7.99 ea\n\nSUBTOTAL $23.97\nTarget Circle Card 5% $1.20 -\nT = AZ TAX 8.10000 on $22.77 $1.84\nTOTAL $24.61\n\n*8960 TARGET DEBIT CARD $24.61\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 004358\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.20\n\nREC#2-6155-0825-0161-7673-3\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 4917 5983\nPassword: 823 267\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5587.296125000001,
+        "totalUsd": 0.0138405,
+        "inputTokens": 4355,
+        "outputTokens": 812,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85382-3806",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Peoria",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8055 W Bell Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8960",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalSpend": 23.97
+        }
+      ],
+      "rawText": "Peoria North - 623-979-0250\n8055 W Bell Rd\nPeoria, Arizona 85382-3806\n06/04/2026 04:04 PM\nHEALTH AND BEAUTY\n245032817 vHessentials\nT\n$23.97\n3 @ $7.99 ea\nSUBTOTAL\n$23.97\nTarget Circle Card 5%\n$1.20 -\nT = AZ TAX 8.10000 on $22.77\n$1.84\nTOTAL\n$24.61\n*8960 TARGET DEBIT CARD\n$24.61\nAID: A0000006123333\nTarget Debit\nAUTH CODE:\n004358\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.20\nREC#2-6155-0825-0161-7673-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4917 5983\nPassword: 823 267\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

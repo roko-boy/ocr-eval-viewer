@@ -1,0 +1,212 @@
+{
+  "id": "cmq1czfxs018bpy6ndkxvoq95",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 11.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "44.37",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "95758",
+    "city": "Elk Grove",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 21248.2425,
+        "totalUsd": 0.015519,
+        "inputTokens": 3692,
+        "outputTokens": 1109,
+        "reasoningTokens": 3155
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "12:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95758-5061",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Elk Grove",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7505 Laguna Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4059",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ocean's Halo + 270060225 + Regular Price $6.59 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 5.3
+        },
+        {
+          "text": "Ocean's Halo + 270060225 + Regular Price $6.59 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 5.31
+        },
+        {
+          "text": "GG TURKEY + 210010262 + 3 @ $2.89 ea + Regular Price $3.59 + $5 off Circle",
+          "quantity": 3,
+          "unitPrice": 3.59,
+          "totalSpend": 8.67
+        },
+        {
+          "text": "GG CHEESE + 284111340 + Regular Price $1.69 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.36
+        },
+        {
+          "text": "vHessentials + 245032817 + 3 @ $7.99 ea",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalSpend": 23.97
+        }
+      ],
+      "rawText": "      Target Logo\nElk Grove - 916-683-5356\n   7505 Laguna Blvd\nElk Grove, California 95758-5061\n   06/05/2026 12:54 PM\n\nGROCERY\n270060225 Ocean's Halo       NF     $5.30\n          Regular Price $6.59\n          $5 off Circle\n270060225 Ocean's Halo       NF     $5.31\n          Regular Price $6.59\n          $5 off Circle\n210010262 GG TURKEY          NF     $8.67\n          3 @ $2.89 ea\n          Regular Price $3.59\n          $5 off Circle\n284111340 GG CHEESE          NF     $1.36\n          Regular Price $1.69\n          $5 off Circle\nHEALTH AND BEAUTY\n245032817 vHessentials       T      $23.97\n          3 @ $7.99 ea\n\n                    SUBTOTAL        $44.61\n       Target Circle Card 5%         $2.23 -\nT = CA TAX 8.75000 on $22.72         $1.99\n                       TOTAL        $44.37\n\n       Reusable Bag Discount         $0.05\n\n*4059 TARGET DEBIT CARD             $44.32\n                  AUTH CODE:        005061\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6135.580209,
+        "totalUsd": 0.0159555,
+        "inputTokens": 4355,
+        "outputTokens": 1047,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "12:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95758-5061",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Elk Grove",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7505 Laguna Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4059",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "270060225 Ocean's Halo + Regular Price $6.59 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 5.3
+        },
+        {
+          "text": "270060225 Ocean's Halo + Regular Price $6.59 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 5.31
+        },
+        {
+          "text": "210010262 GG TURKEY + 3 @ $2.89 ea + Regular Price $3.59 + $5 off Circle",
+          "quantity": 3,
+          "unitPrice": 3.59,
+          "totalSpend": 8.67
+        },
+        {
+          "text": "284111340 GG CHEESE + Regular Price $1.69 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.36
+        },
+        {
+          "text": "245032817 vHessentials + 3 @ $7.99 ea",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalSpend": 23.97
+        }
+      ],
+      "rawText": "Elk Grove - 916-683-5356\n7505 Laguna Blvd\nElk Grove, California 95758-5061\n06/05/2026 12:54 PM\nGROCERY\n270060225 Ocean's Halo NF $5.30\nRegular Price $6.59\n$5 off Circle\n270060225 Ocean's Halo NF $5.31\nRegular Price $6.59\n$5 off Circle\n210010262 GG TURKEY NF $8.67\n3 @ $2.89 ea\nRegular Price $3.59\n$5 off Circle\n284111340 GG CHEESE NF $1.36\nRegular Price $1.69\n$5 off Circle\nHEALTH AND BEAUTY\n245032817 vHessentials T $23.97\n3 @ $7.99 ea\nSUBTOTAL $44.61\nTarget Circle Card 5% $2.23 -\nT = CA TAX 8.75000 on $22.72 $1.99\nTOTAL $44.37\nReusable Bag Discount $0.05\n*4059 TARGET DEBIT CARD $44.32\nAUTH CODE: 005061\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

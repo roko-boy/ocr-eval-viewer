@@ -1,0 +1,200 @@
+{
+  "id": "cmq2hidyf00vr11niohy75a13",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 3.48,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "25.1",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "45241",
+    "city": "Cincinnati",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11523.12554099999,
+        "totalUsd": 0.014853,
+        "inputTokens": 3692,
+        "outputTokens": 1035,
+        "reasoningTokens": 1302
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "25.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:57:09",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45241",
+          "status": "match"
+        },
+        "city": {
+          "value": "CINCINNATI",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2801 CUNNINGHAM RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MS OG PANTRY + 850015690780",
+          "quantity": 1,
+          "unitPrice": 13.27,
+          "totalSpend": 13.27
+        },
+        {
+          "text": "SEAWEEDSNACK + 811670032550",
+          "quantity": 1,
+          "unitPrice": 0.84,
+          "totalSpend": 0.84
+        },
+        {
+          "text": "5PK SEAWEED + 811670032300",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48
+        },
+        {
+          "text": "YUZU + 840269200240",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6RQ19LG5D\nwalmart\nWM Supercenter\n513-769-1124 Mgr. LUKE\n2801 CUNNINGHAM RD\nCINCINNATI OH 45241\nST# 03749 OP# 009009 TE# 09 TR# 00699\n# ITEMS SOLD 4\nTC# 5188 8520 7995 0947 5621\nMS OG PANTRY 850015690780 F 13.27 N\nSEAWEEDSNACK 811670032550 F 0.84 N\n5PK SEAWEED 811670032300 F 3.48 N\nYUZU 840269200240 F 6.97 X\nSUBTOTAL 24.56\nTAX1 7.8000 % 0.54\nTOTAL 25.10\nAMEX TEND 25.10\nCHANGE DUE 0.00\nAMERICAN EXPRESS- 1019 I 0 APPR#865731\n25.10 TOTAL PURCHASE\nREF # 615760037630\nTRANS ID - 017458183123075\nAID A000000025010801\nTERMINAL # 26842992\n*No Signature Required\n06/06/26 09:57:09\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/06/26 09:57:16",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6212.730708000003,
+        "totalUsd": 0.0158475,
+        "inputTokens": 4355,
+        "outputTokens": 1035,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "25.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "09:57:09",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45241",
+          "status": "match"
+        },
+        "city": {
+          "value": "CINCINNATI",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2801 CUNNINGHAM RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MS OG PANTRY + 850015690780",
+          "quantity": 1,
+          "unitPrice": 13.27,
+          "totalSpend": 13.27
+        },
+        {
+          "text": "SEAWEEDSNACK + 811670032550",
+          "quantity": 1,
+          "unitPrice": 0.84,
+          "totalSpend": 0.84
+        },
+        {
+          "text": "5PK SEAWEED + 811670032300",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48
+        },
+        {
+          "text": "YUZU + 840269200240",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6RQ19LG5D\nwalmart\nWM Supercenter\n513-769-1124 Mgr. LUKE\n2801 CUNNINGHAM RD\nCINCINNATI OH 45241\nST# 03749 OP# 009009 TE# 09 TR# 00699\n# ITEMS SOLD 4\nTC# 5188 8520 7995 0947 5621\nMS OG PANTRY 850015690780 F 13.27 N\nSEAWEEDSNACK 811670032550 F 0.84 N\n5PK SEAWEED 811670032300 F 3.48 N\nYUZU 840269200240 F 6.97 X\nSUBTOTAL 24.56\nTAX1 7.8000 % 0.54\nTOTAL 25.10\nAMEX TEND 25.10\nCHANGE DUE 0.00\nAMERICAN EXPRESS- 1019 I 0 APPR#865731\n25.10 TOTAL PURCHASE\nREF # 615760037630\nTRANS ID - 017458183123075\nAID A000000025010801\nTERMINAL # 26842992\n*No Signature Required\n06/06/26 09:57:09\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/06/26 09:57:16",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

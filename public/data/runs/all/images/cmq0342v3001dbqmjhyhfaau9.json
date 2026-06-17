@@ -1,0 +1,212 @@
+{
+  "id": "cmq0342v3001dbqmjhyhfaau9",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 1.75,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "61.81",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "07652",
+    "city": "Paramus",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 24280.084042,
+        "totalUsd": 0.016923,
+        "inputTokens": 3692,
+        "outputTokens": 1265,
+        "reasoningTokens": 4094
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "61.81",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:43 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07652-5005",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Paramus",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "900 Bergen Town Ctr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9742",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GREY POUPON + 212040217 + $5 off Circle",
+          "quantity": 2,
+          "unitPrice": 4.59,
+          "totalSpend": 7.36
+        },
+        {
+          "text": "Stillrs Soda + 203050145 + $5 off Circle",
+          "quantity": 2,
+          "unitPrice": 2.19,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "Barilla + 212400044 + $5 off Circle + Digital MFR Coupon $1.50-",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.29
+        },
+        {
+          "text": "PERDUE + 268050062 + $5 off Circle",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 6.38
+        },
+        {
+          "text": "Dove Men+Car + 049017278",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "totalSpend": 38.97
+        }
+      ],
+      "rawText": "Paramus - 201-881-7660\n900 Bergen Town Ctr\nParamus, New Jersey 07652-5005\n06/04/2026 06:43 PM\n\nGROCERY\n212040217 GREY POUPON NF $7.36\n2 @ $3.68 ea\nRegular Price $4.59\n$5 off Circle\n203050145 Stillrs Soda TF $3.50\n2 @ $1.75 ea\nRegular Price $2.19\n$5 off Circle\n212400044 Barilla NF $2.79\nRegular Price $3.49\n$5 off Circle\nDigital MFR Coupon\n$1.50-\n268050062 PERDUE NF $6.38\n2 @ $3.19 ea\nRegular Price $3.99\n$5 off Circle\nHEALTH AND BEAUTY\n049017278 Dove Men+Car T $38.97\n3 @ $12.99 ea\n\nSUBTOTAL $59.00\nT = NJ TAX 6.62500 on $42.47 $2.81\nTOTAL $61.81\n\nDigital MFR Coupon PAYMENT $1.50\n*8522 GIFT CARD PAYMENT $2.73\n*9742 DEBIT TOTAL PAYMENT $57.58\nAID: A0000000980840\nUS DEBIT\nAUTH CODE: 098837\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$5.00\n\nREC#2-6155-2381-0164-1826-9\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 4761 9983\nPassword: 581 731\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6301.847915999999,
+        "totalUsd": 0.0174855,
+        "inputTokens": 4355,
+        "outputTokens": 1217,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "61.81",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:43 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07652-5005",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Paramus",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "900 Bergen Town Ctr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9742",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GREY POUPON + 212040217",
+          "quantity": 2,
+          "unitPrice": 4.59,
+          "totalSpend": 7.36
+        },
+        {
+          "text": "Stillrs Soda + 203050145",
+          "quantity": 2,
+          "unitPrice": 2.19,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "Barilla + 212400044 + Digital MFR Coupon $1.50-",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.29
+        },
+        {
+          "text": "PERDUE + 268050062",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 6.38
+        },
+        {
+          "text": "Dove Men+Car + 049017278",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "totalSpend": 38.97
+        }
+      ],
+      "rawText": "Paramus - 201-881-7660\n900 Bergen Town Ctr\nParamus, New Jersey 07652-5005\n06/04/2026 06:43 PM\nGROCERY\n212040217 GREY POUPON NF $7.36\n2 @ $3.68 ea\nRegular Price $4.59\n$5 off Circle\n203050145 Stillrs Soda TF $3.50\n2 @ $1.75 ea\nRegular Price $2.19\n$5 off Circle\n212400044 Barilla NF $2.79\nRegular Price $3.49\n$5 off Circle\nDigital MFR Coupon\n$1.50-\n268050062 PERDUE NF $6.38\n2 @ $3.19 ea\nRegular Price $3.99\n$5 off Circle\nHEALTH AND BEAUTY\n049017278 Dove Men+Car T $38.97\n3 @ $12.99 ea\nSUBTOTAL $59.00\nT = NJ TAX 6.62500 on $42.47 $2.81\nTOTAL $61.81\nDigital MFR Coupon PAYMENT $1.50\n*8522 GIFT CARD PAYMENT $2.73\n*9742 DEBIT TOTAL PAYMENT $57.58\nAID: A0000000980840\nUS DEBIT\nAUTH CODE: 098837\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$5.00\nREC#2-6155-2381-0164-1826-9\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4761 9983\nPassword: 581 731\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

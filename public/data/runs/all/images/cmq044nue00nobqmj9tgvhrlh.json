@@ -1,0 +1,176 @@
+{
+  "id": "cmq044nue00nobqmj9tgvhrlh",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 11.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "38.76",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "89131",
+    "city": "Las Vegas",
+    "state": "NV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 8964.644499999995,
+        "totalUsd": 0.012378,
+        "inputTokens": 3692,
+        "outputTokens": 760,
+        "reasoningTokens": 678
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "03:00 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89131-4038",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6480 Sky Pointe Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0163",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "270060225 Ocean's Halo",
+          "quantity": 2,
+          "unitPrice": 6.39,
+          "totalSpend": 12.78
+        },
+        {
+          "text": "245032817 vHessentials",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalSpend": 23.97
+        }
+      ],
+      "rawText": "Las Vegas Centennial Hills - 702-839-1591\n6480 Sky Pointe Dr\nLas Vegas, Nevada 89131-4038\n06/04/2026 03:00 PM\nGROCERY\n270060225 Ocean's Halo NF $12.78\n2 @ $6.39 ea\nHEALTH AND BEAUTY\n245032817 vHessentials T $23.97\n3 @ $7.99 ea\nSUBTOTAL $36.75\nT = NV TAX 8.37500 on $23.97 $2.01\nTOTAL $38.76\n*0583 GIFT CARD PAYMENT $20.58\n*0163 MASTERCARD CHARGE $18.18\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 01409Z\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nREC#2-6155-1462-0166-8360-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4853 8983\nPassword: 316 394\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4823.421624999988,
+        "totalUsd": 0.0133725,
+        "inputTokens": 4355,
+        "outputTokens": 760,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "03:00 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89131-4038",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6480 Sky Pointe Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0163",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "270060225 Ocean's Halo",
+          "quantity": 2,
+          "unitPrice": 6.39,
+          "totalSpend": 12.78
+        },
+        {
+          "text": "245032817 vHessentials",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalSpend": 23.97
+        }
+      ],
+      "rawText": "Las Vegas Centennial Hills - 702-839-1591\n6480 Sky Pointe Dr\nLas Vegas, Nevada 89131-4038\n06/04/2026 03:00 PM\nGROCERY\n270060225 Ocean's Halo NF $12.78\n2 @ $6.39 ea\nHEALTH AND BEAUTY\n245032817 vHessentials T $23.97\n3 @ $7.99 ea\nSUBTOTAL $36.75\nT = NV TAX 8.37500 on $23.97 $2.01\nTOTAL $38.76\n*0583 GIFT CARD PAYMENT $20.58\n*0163 MASTERCARD CHARGE $18.18\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 01409Z\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nREC#2-6155-1462-0166-8360-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4853 8983\nPassword: 316 394\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

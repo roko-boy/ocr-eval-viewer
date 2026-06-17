@@ -1,0 +1,176 @@
+{
+  "id": "cmq44vrdk02c06hqsleukk56b",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 7.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "16.94",
+    "purchaseDate": "2026-06-07T00:00:00.000Z",
+    "time": null,
+    "zipCode": "20815",
+    "city": "Bethesda",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9777.701499999996,
+        "totalUsd": 0.012747,
+        "inputTokens": 3692,
+        "outputTokens": 801,
+        "reasoningTokens": 1116
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:46 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20815-6122",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Bethesda",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6831 Wisconsin Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7710",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cleancult + 003024646",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "Cleancult + 003020488",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "Bethesda - 240-781-3725\n6831 Wisconsin Ave\nBethesda, Maryland 20815-6122\n06/07/2026 02:46 PM\n\nLAUNDRY CLEANING AND CLOSET\n003024646 Cleancult T $7.99\n003020488 Cleancult T $7.99\n\nSUBTOTAL $15.98\nT = MD TAX 6.00000 on $15.98 $0.96\nTOTAL $16.94\n\n*9481 GIFT CARD PAYMENT $5.00\n*7710 VISA CHARGE $11.94\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 08087D\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nREC#2-6158-3242-0161-9467-7\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 1675 8983\nPassword: 805 323\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5528.33600000001,
+        "totalUsd": 0.0135345,
+        "inputTokens": 4355,
+        "outputTokens": 778,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:46 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20815-6122",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Bethesda",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6831 Wisconsin Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7710",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003024646 Cleancult",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "003020488 Cleancult",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "Bethesda - 240-781-3725\n6831 Wisconsin Ave\nBethesda, Maryland 20815-6122\n06/07/2026 02:46 PM\nLAUNDRY CLEANING AND CLOSET\n003024646 Cleancult T $7.99\n003020488 Cleancult T $7.99\nSUBTOTAL $15.98\nT = MD TAX 6.00000 on $15.98 $0.96\nTOTAL $16.94\n*9481 GIFT CARD PAYMENT $5.00\n*7710 VISA CHARGE $11.94\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 08087D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6158-3242-0161-9467-7\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 1675 8983\nPassword: 805 323\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

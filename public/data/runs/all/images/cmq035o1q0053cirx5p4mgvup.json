@@ -1,0 +1,176 @@
+{
+  "id": "cmq035o1q0053cirx5p4mgvup",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 5.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "22.21",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "30606",
+    "city": "Athens",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9858.379209000006,
+        "totalUsd": 0.013278,
+        "inputTokens": 3692,
+        "outputTokens": 860,
+        "reasoningTokens": 887
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.21",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30606-3334",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Athens",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3065 Atlanta Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7952",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "270060225 Ocean's Halo + 2 @ $5.49 ea",
+          "quantity": 2,
+          "unitPrice": 5.49,
+          "totalSpend": 10.98
+        },
+        {
+          "text": "213007540 SPRTZ SOCTY + Regular Price $10.99",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 9.99
+        }
+      ],
+      "rawText": "Athens - 706-208-9379\n3065 Atlanta Hwy\nAthens, Georgia 30606-3334\n06/04/2026 05:54 PM\n\nGROCERY\n270060225 Ocean's Halo BF $10.98\n2 @ $5.49 ea\n213007540 SPRTZ SOCTY T $9.99\nRegular Price $10.99\n\nSUBTOTAL $20.97\nB = GA TAX 4.00000 on $10.98 $0.44\nT = GA TAX 8.00000 on $9.99 $0.80\nTOTAL $22.21\n\n*7952 VISA CHARGE $22.21\nAID: A0000000031010\nVisa Credit\nAUTH CODE: 172059\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.00\n\nREC#2-6155-1453-0172-3625-4\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4854 7982\nPassword: 763 746\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4750.086000000003,
+        "totalUsd": 0.0140205,
+        "inputTokens": 4355,
+        "outputTokens": 832,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.21",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30606-3334",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Athens",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3065 Atlanta Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7952",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ocean's Halo + 270060225",
+          "quantity": 2,
+          "unitPrice": 5.49,
+          "totalSpend": 10.98
+        },
+        {
+          "text": "SPRTZ SOCTY + 213007540",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 9.99
+        }
+      ],
+      "rawText": "Athens - 706-208-9379\n3065 Atlanta Hwy\nAthens, Georgia 30606-3334\n06/04/2026 05:54 PM\nGROCERY\n270060225 Ocean's Halo BF $10.98\n2 @ $5.49 ea\n213007540 SPRTZ SOCTY T $9.99\nRegular Price $10.99\nSUBTOTAL $20.97\nB = GA TAX 4.00000 on $10.98 $0.44\nT = GA TAX 8.00000 on $9.99 $0.80\nTOTAL $22.21\n*7952 VISA CHARGE $22.21\nAID: A0000000031010\nVisa Credit\nAUTH CODE: 172059\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.00\nREC#2-6155-1453-0172-3625-4\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4854 7982\nPassword: 763 746\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

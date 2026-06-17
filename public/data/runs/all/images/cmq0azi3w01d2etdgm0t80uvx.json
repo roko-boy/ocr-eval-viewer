@@ -1,0 +1,260 @@
+{
+  "id": "cmq0azi3w01d2etdgm0t80uvx",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 2.92,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "31.47",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "34471",
+    "city": "Ocala",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 20218.878792,
+        "totalUsd": 0.018462,
+        "inputTokens": 3692,
+        "outputTokens": 1436,
+        "reasoningTokens": 1959
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "31.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "21:21:38",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34471",
+          "status": "match"
+        },
+        "city": {
+          "value": "OCALA",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2600 SW 19TH AVENUE RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3616",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WILDSOL SLSA + 860011139830",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        },
+        {
+          "text": "WILDSOL SLSA + 860011139800",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        },
+        {
+          "text": "WILDSOL SLSA + 860011139830",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        },
+        {
+          "text": "LA CIN BUN + 850014335200",
+          "quantity": 1,
+          "unitPrice": 2.92,
+          "totalSpend": 2.92
+        },
+        {
+          "text": "TARO BOBA + 850047217940",
+          "quantity": 1,
+          "unitPrice": 7.43,
+          "totalSpend": 7.43
+        },
+        {
+          "text": "TRAYLESSSWD + 811670031500",
+          "quantity": 1,
+          "unitPrice": 0.84,
+          "totalSpend": 0.84
+        },
+        {
+          "text": "SSKA TRP PCH + 043000953500",
+          "quantity": 1,
+          "unitPrice": 3.97,
+          "totalSpend": 3.97
+        },
+        {
+          "text": "BOWL + 810194280230",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5
+        },
+        {
+          "text": "BOWL + 810194280230",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6K47K3WW\nWalmart\nWM Supercenter\n352-237-7155 Mgr. TONI\n2600 SW 19TH AVENUE RD\nOCALA FL 34471\nST# 00697 OP# 009005 TE# 05 TR# 04841\n# ITEMS SOLD 9\nTC# 5676 9860 5832 4218 6354\nWILDSOL SLSA 860011139830 F 4.98 N\nWILDSOL SLSA 860011139800 F 4.98 N\nWILDSOL SLSA 860011139830 F 4.98 N\nLA CIN BUN 850014335200 F 2.92 N\nTARO BOBA 850047217940 F 7.43 N\nTRAYLESSSWD 811670031500 F 0.84 N\nSSKA TRP PCH 043000953500 F 3.97 X\nBOWL 810194280230 0.50 X\nBOWL 810194280230 0.50 X\nSUBTOTAL 31.10\nTAX1 7.5000 % 0.37\nTOTAL 31.47\nCASH TEND 10.16\nWMP DISCOVER TEND 21.31\nCHANGE DUE 0.00\nWALMART PAY\nACCOUNT #- 3616 0 APPR#002139\n21.31 TOTAL PURCHASE\n06/04/26 21:21:38\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 21:21:46",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7186.159083000002,
+        "totalUsd": 0.0192495,
+        "inputTokens": 4355,
+        "outputTokens": 1413,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "31.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "21:21:38",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34471",
+          "status": "match"
+        },
+        "city": {
+          "value": "OCALA",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2600 SW 19TH AVENUE RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3616",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WILDSOL SLSA + 860011139830",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        },
+        {
+          "text": "WILDSOL SLSA + 860011139800",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        },
+        {
+          "text": "WILDSOL SLSA + 860011139830",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98
+        },
+        {
+          "text": "LA CIN BUN + 850014335200",
+          "quantity": 1,
+          "unitPrice": 2.92,
+          "totalSpend": 2.92
+        },
+        {
+          "text": "TARO BOBA + 850047217940",
+          "quantity": 1,
+          "unitPrice": 7.43,
+          "totalSpend": 7.43
+        },
+        {
+          "text": "TRAYLESSSWD + 811670031500",
+          "quantity": 1,
+          "unitPrice": 0.84,
+          "totalSpend": 0.84
+        },
+        {
+          "text": "SSKA TRP PCH + 043000953500",
+          "quantity": 1,
+          "unitPrice": 3.97,
+          "totalSpend": 3.97
+        },
+        {
+          "text": "BOWL + 810194280230",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5
+        },
+        {
+          "text": "BOWL + 810194280230",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6K47K3WW\nWalmart\nWM Supercenter\n352-237-7155 Mgr. TONI\n2600 SW 19TH AVENUE RD\nOCALA FL 34471\nST# 00697 OP# 009005 TE# 05 TR# 04841\n# ITEMS SOLD 9\nTC# 5676 9860 5832 4218 6354\nWILDSOL SLSA 860011139830 F 4.98 N\nWILDSOL SLSA 860011139800 F 4.98 N\nWILDSOL SLSA 860011139830 F 4.98 N\nLA CIN BUN 850014335200 F 2.92 N\nTARO BOBA 850047217940 F 7.43 N\nTRAYLESSSWD 811670031500 F 0.84 N\nSSKA TRP PCH 043000953500 F 3.97 X\nBOWL 810194280230 0.50 X\nBOWL 810194280230 0.50 X\nSUBTOTAL 31.10\nTAX1 7.5000 % 0.37\nTOTAL 31.47\nCASH TEND 10.16\nWMP DISCOVER TEND 21.31\nCHANGE DUE 0.00\nWALMART PAY\nACCOUNT #- 3616 0 APPR#002139\n21.31 TOTAL PURCHASE\n06/04/26 21:21:38\nGet Free Delivery\nfrom this store\nwith Walmart+\nScan to start a trial\nLow prices You Can Trust. Every Day.\n06/04/26 21:21:46",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

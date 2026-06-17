@@ -1,0 +1,164 @@
+{
+  "id": "cmq0711u301augsjz1eqx5t4l",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "18.22",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "90046",
+    "city": "West Hollywood",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9772.471791999997,
+        "totalUsd": 0.011568,
+        "inputTokens": 3692,
+        "outputTokens": 670,
+        "reasoningTokens": 1297
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:31 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90046-5896",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "West Hollywood",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7100 Santa Monica Blvd, STE 201",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6474",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 049010969 Juus",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 16.49
+        }
+      ],
+      "rawText": "West Hollywood - 323-603-0004\n7100 Santa Monica Blvd, STE 201\nWest Hollywood, California 90046-5896\n06/04/2026 05:31 PM\nHEALTH AND BEAUTY\n049010969 Juus T $16.49\nSUBTOTAL $16.49\nT = CA TAX 10.50000 on $16.49 $1.73\nTOTAL $18.22\n*6474 GIFT CARD PAYMENT $18.22\n*6474 GIFT CARD BALANCE $11.31\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nNOTICE: Some furniture products can expose\nyou to chemicals known to the State of\nCalifornia to cause cancer, birth defects or\nother reproductive harm. Please check on-\nproduct label for warning information\nREC#2-6155-1884-0084-2907-0\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4811 6991\nPassword: 570 930\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5062.0815,
+        "totalUsd": 0.0125625,
+        "inputTokens": 4355,
+        "outputTokens": 670,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:31 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90046-5896",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "West Hollywood",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7100 Santa Monica Blvd, STE 201",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6474",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 049010969 Juus",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 16.49
+        }
+      ],
+      "rawText": "West Hollywood - 323-603-0004\n7100 Santa Monica Blvd, STE 201\nWest Hollywood, California 90046-5896\n06/04/2026 05:31 PM\nHEALTH AND BEAUTY\n049010969 Juus T $16.49\nSUBTOTAL $16.49\nT = CA TAX 10.50000 on $16.49 $1.73\nTOTAL $18.22\n*6474 GIFT CARD PAYMENT $18.22\n*6474 GIFT CARD BALANCE $11.31\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nNOTICE: Some furniture products can expose\nyou to chemicals known to the State of\nCalifornia to cause cancer, birth defects or\nother reproductive harm. Please check on-\nproduct label for warning information\nREC#2-6155-1884-0084-2907-0\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4811 6991\nPassword: 570 930\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

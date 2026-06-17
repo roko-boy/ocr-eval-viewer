@@ -1,0 +1,200 @@
+{
+  "id": "cmpxfrywu00om6tuat6prcpil",
+  "url": null,
+  "retailer": "Erewhon",
+  "brand": "Unknown",
+  "amount": 3.69,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Erewhon",
+    "totalCost": "8.25",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "91206",
+    "city": "Glendale",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 7793.931333999994,
+        "totalUsd": 0.012513,
+        "inputTokens": 3692,
+        "outputTokens": 775,
+        "reasoningTokens": 1016
+      },
+      "fields": {
+        "storeName": {
+          "value": "Erewhon",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "7:15 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91206",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glendale",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "520 N. Glendale Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3609",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Drink Energy Strwbrry Drgn12z",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69
+        },
+        {
+          "text": "CRV - $.05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Drink Energy Wht Pch Ctrs Gngr 1",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69
+        },
+        {
+          "text": "CRV - $.05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "EREWHON\n520 N. Glendale Ave\nGlendale, CA 91206\n8186769011\n6/02/26 7:15 PM Receipt #: 002434-01\nYour cashier today is Lawrence M.\nDrink Energy Strwbrry Drgn12z $3.69 TEL\nCRV - $.05 $0.05 EL\nDrink Energy Wht Pch Ctrs Gngr 1 $3.69 TEL\nCRV - $.05 $0.05 EL\nSUBTOTAL $7.48\nGD State Tax $0.77\nTOTAL $8.25\nCredit Card $8.25\nTOTAL TENDERED $8.25\nChange $0.00\nCARD INFORMATION:\nCard Type: Visa\nAccount: 3609\nAmount: USD $8.25\nApproval #: 002383\nDate: 6/02/26\nReference #: 095002434001\nCustomer Name: CARDHOLDER/VISA\nMID: **3034\nMODE: Issuer\nCard Name: VISA CREDIT\nAID: A0000000031010\nThank you for shopping with us!\nPlease Note:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5643.684041999993,
+        "totalUsd": 0.0135075,
+        "inputTokens": 4355,
+        "outputTokens": 775,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Erewhon",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "7:15 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91206",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glendale",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "520 N. Glendale Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3609",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Drink Energy Strwbrry Drgn12z",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69
+        },
+        {
+          "text": "CRV - $.05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        },
+        {
+          "text": "Drink Energy Wht Pch Ctrs Gngr 1",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69
+        },
+        {
+          "text": "CRV - $.05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "EREWHON\n520 N. Glendale Ave\nGlendale, CA 91206\n8186769011\n6/02/26 7:15 PM Receipt #: 002434-01\nYour cashier today is Lawrence M.\nDrink Energy Strwbrry Drgn12z $3.69 TEL\nCRV - $.05 $0.05 EL\nDrink Energy Wht Pch Ctrs Gngr 1 $3.69 TEL\nCRV - $.05 $0.05 EL\nSUBTOTAL $7.48\nGD State Tax $0.77\nTOTAL $8.25\nCredit Card $8.25\nTOTAL TENDERED $8.25\nChange $0.00\nCARD INFORMATION:\nCard Type: Visa\nAccount: 3609\nAmount: USD $8.25\nApproval #: 002383\nDate: 6/02/26\nReference #: 095002434001\nCustomer Name: CARDHOLDER/VISA\nMID: **3034\nMODE: Issuer\nCard Name: VISA CREDIT\nAID: A0000000031010\nThank you for shopping with us!\nPlease Note:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

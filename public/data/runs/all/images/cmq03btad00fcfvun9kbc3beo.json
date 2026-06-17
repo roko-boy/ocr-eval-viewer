@@ -1,0 +1,212 @@
+{
+  "id": "cmq03btad00fcfvun9kbc3beo",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 12.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "40.02",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "32819",
+    "city": "Orlando",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 17210.938917,
+        "totalUsd": 0.017607,
+        "inputTokens": 3692,
+        "outputTokens": 1341,
+        "reasoningTokens": 2410
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "40.02",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "18:44:09",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32819",
+          "status": "match"
+        },
+        "city": {
+          "value": "Orlando",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7603 Turkey Lake Rd, STE 101",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7814",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BLUEBERRY MUFFIN + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT + BOGO MOLYYS SUDS",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": null
+        },
+        {
+          "text": "IMMUNITY SUPERCUBE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "IMMUNITY SUPERCUBE + BOGO ROXII",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": null
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n7603 Turkey Lake Rd, STE 101\nOrlando, FL 32819\n(321) 340-2023\nStore Hours MON-SUN 7AM-10PM\n06/04/2026 18:44:09\nMastercard Entry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX7814\nPURCHASE - APPROVED\nAUTH CODE:98308P\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0110A040012200000000000000000000\n000FF\nTSI: E800 ARC: 00\nTC: 8693AE90410E3C1E\nMID: 579437 TID: 001 RRN: 022707\nTotal: USD$ 40.02\nBAKERY\nBLUEBERRY MUFFIN 2.50 F\n1 @ 2 FOR 5.00\nTAXABLE GROCERY\nLIQUID LNDRY DTRGENT 24.99 T\nLIQUID LNDRY DTRGENT 24.99 T\nFROZEN\nIMMUNITY SUPERCUBE 12.99 F\nIMMUNITY SUPERCUBE 12.99 F\nBOGO ROXII -12.99\nBOGO MOLYYS SUDS -24.99\nSprouts Reward -2.00\nTax Report\nSales Tax 23.76 1.54 TT\nBALANCE DUE 40.02\nCREDIT $40.02\n[ ] XXXXXXXXXXXX7814\nAuth# 98308P Ref# 022707\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 3 39.98\nCard XXXXXXXXXX0460\nHave a Healthy Day Cari!\n*************************************\nSprouts Rewards\nPrevious Points Balance: 15\nBonus Points earned: 0\nTotal Points earned today: 190\nNew points balance: 205\n*************************************\n99063400201081551843\n*************************************\nCashier: Carlos Store: 634\nPOS:002 Transaction:0108\nThursday, June 4, 2026 06:43 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9065.925625,
+        "totalUsd": 0.0185565,
+        "inputTokens": 4355,
+        "outputTokens": 1336,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "40.02",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:43 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32819",
+          "status": "match"
+        },
+        "city": {
+          "value": "Orlando",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7603 Turkey Lake Rd, STE 101",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7814",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BLUEBERRY MUFFIN + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT + BOGO MOLYYS SUDS",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": null
+        },
+        {
+          "text": "IMMUNITY SUPERCUBE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "IMMUNITY SUPERCUBE + BOGO ROXII",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": null
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n7603 Turkey Lake Rd, STE 101\nOrlando, FL 32819\n(321) 340-2023\nStore Hours MON-SUN 7AM-10PM\n06/04/2026 18:44:09\nMastercard Entry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX7814\nPURCHASE - APPROVED\nAUTH CODE:98308P\nMode: Issuer\nAID: A0000000041010\nTVR: 000008001\nIAD: 0110A040012200000000000000000000\nOOOFF\nTSI: E800 ARC: 00\nTC: 8693AE90410E3C1E\nMID: 579437 TID: 001 RRN: 022707\nTotal: USD$ 40.02\nBAKERY\nBLUEBERRY MUFFIN 2.50 F\n1 @ 2 FOR 5.00\nTAXABLE GROCERY\nLIQUID LNDRY DTRGENT 24.99 T\nLIQUID LNDRY DTRGENT 24.99 T\nFROZEN\nIMMUNITY SUPERCUBE 12.99 F\nIMMUNITY SUPERCUBE 12.99 F\nBOGO ROXII -12.99\nBOGO MOLYYS SUDS -24.99\nSprouts Reward -2.00\nTax Report\nSales Tax 23.76 1.54 TT\nBALANCE DUE 40.02\nCREDIT $40.02\n[ ] XXXXXXXXXXXX7814\nAuth# 98308P Ref# 022707\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 3 39.98\nCard XXXXXXXXXX0460\nHave a Healthy Day Carl!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 15\nBonus Points earned: 0\nTotal Points earned today: 190\nNew points balance: 205\n***********************************\n99063400201081551843\n***********************************\nCashier: Carlos Store: 634\nPOS:002 Transaction:0108\nThursday, June 4, 2026 06:43 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

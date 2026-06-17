@@ -1,0 +1,176 @@
+{
+  "id": "cmpzwc9xe00otf498ly7dpk36",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "Unknown",
+  "amount": 7.22,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "30.61",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "48126",
+    "city": "Dearborn",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 15553.82925000001,
+        "totalUsd": 0.011496,
+        "inputTokens": 3692,
+        "outputTokens": 662,
+        "reasoningTokens": 1724
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "30.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48126",
+          "status": "match"
+        },
+        "city": {
+          "value": "DEARBORN",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5851 MERCURY DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2171",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MLLYS BBY LD 852835006970",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        },
+        {
+          "text": "MLLYS BBY LD 852835006970",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6KB1JGBON\nWalmart * \nWM Supercenter\n313-441-0194 Mgr. AMANDA\n5851 MERCURY DR\nDEARBORN MI 48126\nST# 04383 OP# 009011 TE# 11 TR# 02191\n\n# ITEMS SOLD 2\nTC# 3895 5083 3539 6326 3719\n\nMLLYS BBY LD 852835006970 14.44 X\nMLLYS BBY LD 852835006970 14.44 X\nSUBTOTAL 28.88\nTAX1 6.0000 % 1.73\nTOTAL 30.61\nDEBIT TEND 30.61\nCHANGE DUE 0.00\n\nEFT DEBIT PAY FROM PRIMARY\n30.61 TOTAL PURCHASE\nUS DEBIT 2171",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4398.050833999994,
+        "totalUsd": 0.0122205,
+        "inputTokens": 4355,
+        "outputTokens": 632,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "30.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48126",
+          "status": "match"
+        },
+        "city": {
+          "value": "DEARBORN",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5851 MERCURY DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MLLYS BBY LD 852835006970",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        },
+        {
+          "text": "MLLYS BBY LD 852835006970",
+          "quantity": 1,
+          "unitPrice": 14.44,
+          "totalSpend": 14.44
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WS6KB1JGBON\nWalmart *\nWM Supercenter\n313-441-0194 Mgr. AMANDA\n5851 MERCURY DR\nDEARBORN MI 48126\nST# 04383 OP# 009011 TE# 11 TR# 02191\n# ITEMS SOLD 2\nTC# 3895 5083 3539 6326 3719\nMLLYS BBY LD 852835006970 14.44 X\nMLLYS BBY LD 852835006970 14.44 X\nSUBTOTAL 28.88\nTAX1 6.0000 % 1.73\nTOTAL 30.61\nDEBIT TEND 30.61\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n30.61 TOTAL PURCHASE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

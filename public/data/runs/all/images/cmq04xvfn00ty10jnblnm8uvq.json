@@ -1,0 +1,332 @@
+{
+  "id": "cmq04xvfn00ty10jnblnm8uvq",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 12.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "69.49",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "33025",
+    "city": "Miramar",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 20454.871,
+        "totalUsd": 0.025032,
+        "inputTokens": 3692,
+        "outputTokens": 2166,
+        "reasoningTokens": 3227
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "69.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33025",
+          "status": "match"
+        },
+        "city": {
+          "value": "Miramar",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12216 Miramar Parkway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1204",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORGANIC ASPARAGUS + 0.91 lb @ $5.99 / lb",
+          "quantity": 1,
+          "unitPrice": 5.45,
+          "totalSpend": 5.45
+        },
+        {
+          "text": "MANGO DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "MANGO DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "MANGO DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "ORIGINAL NAUGHTY SCE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "RSPBRY WHT CHOC BAR + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "RSPBRY WHT CHOC BAR + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "LMN LM HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "MOCHA PROTEIN COFFEE + 1 @ 2 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "MOCHA PROTEIN COFFEE + 1 @ 2 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "ORG VANILA NF YOGURT",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "ORG VANILA NF YOGURT",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "FRENCH TOST STICKS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n12216 Miramar Parkway\nMiramar, FL 33025\n(754) 799-8177\nStore Hours MON-SUN 7AM-10PM\n06/02/2026\n16:03:45\nVISA CREDIT\nEntry Method: Contactless\nCARD #:\nXXXXXXXXXXXX1204\nPURCHASE\n- APPROVED\nAUTH CODE:00538G\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n1F420132A00000000001003027300000\n00040000000000000000000000000000\nTSI: 0000\nARC: 00\nTC:\n384DDE8D8894F3F5\nMID: 579434\nTID: 001\nRRN: 064308\nTotal:\nUSD$ 69.49\nPRODUCE\nORGANIC ASPARAGUS\n5.45 F\n0.91 lb @ $5.99 / lb\nGROCERY\nMANGO DRINK\n2.99 T\nMANGO DRINK\n2.99 T\nMANGO DRINK\n2.99 T\nORIGINAL NAUGHTY SCE\n8.99 F\nPEACH COLLAGEN TEA\n3.50 T F\n1 @ 2 FOR 7.00\nPEACH COLLAGEN TEA\n3.50 T F\n1 @ 2 FOR 7.00\nRSPBRY WHT CHOC BAR\n2.00 F\n1 @ 2 FOR 4.00\nRSPBRY WHT CHOC BAR\n2.00 F\n1 @ 2 FOR 4.00\nVITAMINS\nLMN LM HYDRATION\n12.99 F\nMOCHA PROTEIN COFFEE\n3.00 F\n1 @ 2 FOR 6.00\nMOCHA PROTEIN COFFEE\n3.00 F\n1 @ 2 FOR 6.00\nDAIRY\nORG VANILA NF YOGURT\n2.99 F\nORG VANILA NF YOGURT\n2.99 F\nFROZEN\nFRENCH TOST STICKS\n8.99 F\nTax Report\nSales Tax\n15.97\n1.12 TT\nBALANCE DUE\n69.49\nCREDIT\n$69.49\n[ ] XXXXXXXXXXXX1204\nAuth# 00538G\nRef# 064308\nCHANGE\n0.00\nCard XXXXXXXXXXX8964\nHave a Healthy Day Andie!\n***********************************\nSprouts Rewards\nPrevious Points Balance:\n0\nTotal Points earned today:\n340\nNew points balance:\n340\n***********************************\n99062600670241531602\n***********************************\nCashier: Alejandro D. ( H. Ca Store: 626\nPOS:006 Transaction:7024\nTuesday, June 2, 2026 04:02 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 11192.307541,
+        "totalUsd": 0.0257295,
+        "inputTokens": 4355,
+        "outputTokens": 2133,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "69.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33025",
+          "status": "match"
+        },
+        "city": {
+          "value": "Miramar",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12216 Miramar Parkway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1204",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORGANIC ASPARAGUS + 0.91 lb @ $5.99 / lb",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.45
+        },
+        {
+          "text": "MANGO DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "MANGO DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "MANGO DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "ORIGINAL NAUGHTY SCE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "PEACH COLLAGEN TEA + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5
+        },
+        {
+          "text": "RSPBRY WHT CHOC BAR + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "RSPBRY WHT CHOC BAR + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "LMN LM HYDRATION",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "MOCHA PROTEIN COFFEE + 1 @ 2 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "MOCHA PROTEIN COFFEE + 1 @ 2 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3
+        },
+        {
+          "text": "ORG VANILA NF YOGURT",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "ORG VANILA NF YOGURT",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "FRENCH TOAST STICKS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n12216 Miramar Parkway\nMiramar, FL 33025\n(754) 799-8177\nStore Hours MON-SUN 7AM-10PM\n06/02/2026 16:03:45\nVISA CREDIT Entry Method: Contactless\nCARD #: XXXXXXXXXXXX1204\nPURCHASE - APPROVED\nAUTH CODE:00538G\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 1F420132A00000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: 384DDE8D8894F3F5\nMID: 579434 TID: 001 RRN: 064308\nTotal: USD$ 69.49\nPRODUCE\nORGANIC ASPARAGUS 5.45 F\n0.91 lb @ $5.99 / lb\nGROCERY\nMANGO DRINK 2.99 T\nMANGO DRINK 2.99 T\nMANGO DRINK 2.99 T\nORIGINAL NAUGHTY SCE 8.99 F\nPEACH COLLAGEN TEA 3.50 T F\n1 @ 2 FOR 7.00\nPEACH COLLAGEN TEA 3.50 T F\n1 @ 2 FOR 7.00\nRSPBRY WHT CHOC BAR 2.00 F\n1 @ 2 FOR 4.00\nRSPBRY WHT CHOC BAR 2.00 F\n1 @ 2 FOR 4.00\nVITAMINS\nLMN LM HYDRATION 12.99 F\nMOCHA PROTEIN COFFEE 3.00 F\n1 @ 2 FOR 6.00\nMOCHA PROTEIN COFFEE 3.00 F\n1 @ 2 FOR 6.00\nDAIRY\nORG VANILA NF YOGURT 2.99 F\nORG VANILA NF YOGURT 2.99 F\nFROZEN\nFRENCH TOAST STICKS 8.99 F\nTax Report\nSales Tax 15.97 1.12 TT\nBALANCE DUE 69.49\nCREDIT $69.49\n[ ] XXXXXXXXXXXX1204\nAuth# 00538G Ref# 064308\nCHANGE 0.00\nCard XXXXXXXXXXX8964\nHave a Healthy Day Andie!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 0\nTotal Points earned today: 340\nNew points balance: 340\n***********************************\n99062600670241531602\n***********************************\nCashier:Alejandro D. ( H. Ca Store: 626\nPOS:006 Transaction:7024\nTuesday, June 2, 2026 04:02 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

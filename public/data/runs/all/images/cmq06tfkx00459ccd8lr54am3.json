@@ -1,0 +1,188 @@
+{
+  "id": "cmq06tfkx00459ccd8lr54am3",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 8.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "13.16",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "92507",
+    "city": "Riverside",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 17171.82820800002,
+        "totalUsd": 0.014061,
+        "inputTokens": 3692,
+        "outputTokens": 947,
+        "reasoningTokens": 2376
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.11",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92507-0932",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Riverside",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2755 Canyon Springs Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0442",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "203130440 Cure + Regular Price $9.99",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "211080292 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Riverside SE - 951-697-6778\n2755 Canyon Springs Pkwy\nRiverside, California 92507-0932\n06/02/2026 06:29 PM\n\nGROCERY\n203130440 Cure NF $8.99\nRegular Price $9.99\n211080292 SGSY TFP $3.79\nBottle Deposit Fee $0.05\n\nSUBTOTAL $12.83\nT = CA TAX 8.75000 on $3.79 $0.33\nTOTAL $13.16\n\nReusable Bag Discount $0.05\n\n*0442 VISA CHARGE $13.11\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 08180D\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nNOTICE: Some furniture products can expose\nyou to chemicals known to the State of\nCalifornia to cause cancer, birth defects or\nother reproductive harm. Please check on-\nproduct label for warning information.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.00\n\nFee may not be refundable\n\nREC#2-6153-1843-0174-4851-8\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 6815 7982\nPassword: 551 482\n\nCUENTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7338.464207999998,
+        "totalUsd": 0.0148935,
+        "inputTokens": 4355,
+        "outputTokens": 929,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.16",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92507-0932",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Riverside",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2755 Canyon Springs Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0442",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 203130440 Cure + NF + Regular Price $9.99",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "211080292 SGSY + TFP",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05
+        }
+      ],
+      "rawText": "Riverside SE - 951-697-6778\n2755 Canyon Springs Pkwy\nRiverside, California 92507-0932\n06/02/2026 06:29 PM\nGROCERY\n203130440 Cure NF $8.99\nRegular Price $9.99\n211080292 SGSY TFP $3.79\nBottle Deposit Fee $0.05\nSUBTOTAL $12.83\nT = CA TAX 8.75000 on $3.79 $0.33\nTOTAL $13.16\nReusable Bag Discount $0.05\n*0442 VISA CHARGE $13.11\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 08180D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nNOTICE: Some furniture products can expose\nyou to chemicals known to the State of\nCalifornia to cause cancer, birth defects or\nother reproductive harm. Please check on-\nproduct label for warning information.\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.00\nFee may not be refundable\nREC#2-6153-1843-0174-4851-8\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 6815 7982\nPassword: 551 482\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

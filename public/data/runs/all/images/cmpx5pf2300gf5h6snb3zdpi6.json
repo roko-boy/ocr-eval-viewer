@@ -1,0 +1,164 @@
+{
+  "id": "cmpx5pf2300gf5h6snb3zdpi6",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Unknown",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "2.37",
+    "purchaseDate": "2026-06-02T00:00:00.000Z",
+    "time": null,
+    "zipCode": "45040",
+    "city": "Mason",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9792.468834,
+        "totalUsd": 0.012339,
+        "inputTokens": 3732,
+        "outputTokens": 749,
+        "reasoningTokens": 1353
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45040",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mason",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5805 Deerfield Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1008",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LSRHYD TRPCL MANGO RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.22
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nMason MSO 513-398-9358\n5805 Deerfield Blvd\nMason, OH 45040 2521\nLSRHYD TRPCL MANGO RFRSHR      $2.22 FT\n  Reg $2.79\n  Savings ($0.57)\n        Subtotal:             $2.79\n        Total Savings:       -$0.57\n        Net Sales:            $2.22\n        Tax:         6.75%    $0.15\n        Total:                $2.37\n        Sold Items:               1\nPaid:\nAmerican Exp  *1008           $2.37\n  Chip Card:AMERICAN EXPRESS\n  Chip Card AID:A00000002501\n*****************************************\nYour Total Savings\n$0.57\n*****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n*****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n*****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n951 34226 06/02/2026 05:32 PM\n63011034095134226060220260\nTG16R7ATRY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7225.556958000001,
+        "totalUsd": 0.0129285,
+        "inputTokens": 4395,
+        "outputTokens": 704,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "2.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45040",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mason",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5805 Deerfield Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1008",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LSRHYD TRPCL MANGO RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.22
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nMason MSO 513-398-9358\n5805 Deerfield Blvd\nMason, OH 45040 2521\nLSRHYD TRPCL MANGO RFRSHR $2.22 FT\nReg $2.79\nSavings ($0.57)\nSubtotal: $2.79\nTotal Savings: -$0.57\nNet Sales: $2.22\nTax: 6.75% $0.15\nTotal: $2.37\nSold Items: 1\nPaid:\nAmerican Exp *1008 $2.37\nChip Card: AMERICAN EXPRESS\nChip Card AID: A00000002501\n****************************************\nYour Total Savings\n$0.57\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n951 34226 06/02/2026 05:32 PM\n63011034095134226060220260\nTG16R7ATRY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

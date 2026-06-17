@@ -1,0 +1,200 @@
+{
+  "id": "cmpydsqbp007kq3gyrz8c891n",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 12.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "102.95",
+    "purchaseDate": "2026-06-03T00:00:00.000Z",
+    "time": null,
+    "zipCode": "07014",
+    "city": "Clifton",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 10946.56491699998,
+        "totalUsd": 0.014133,
+        "inputTokens": 3692,
+        "outputTokens": 955,
+        "reasoningTokens": 1514
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "102.95",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07014-1904",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Clifton",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "30 Kingsland Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1700",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Huggies + 007043867 + Spend$100Get$20GC",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99
+        },
+        {
+          "text": "FreeStyle + 007065235 + 3 @ $24.99 ea + Spend$100Get$20GC",
+          "quantity": 3,
+          "unitPrice": 24.99,
+          "totalSpend": 74.97
+        },
+        {
+          "text": "PROMO GFTCRD + 790017459 + 041-816-601-710-429 + New Bal: $20.00 + Final sale, no return",
+          "quantity": 1,
+          "unitPrice": null,
+          "totalSpend": null
+        },
+        {
+          "text": "Millie Moon + 007070239 + Spend$100Get$20GC",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        }
+      ],
+      "rawText": "Clifton - 973-330-0002\n30 Kingsland Rd\nClifton, New Jersey 07014-1904\n06/03/2026 01:54 PM\nBABY\n007043867 Huggies\nN\n$24.99\nSpend$100Get$20GC\n007065235 FreeStyle\nN\n$74.97\n3 @ $24.99 ea\nSpend$100Get$20GC\nELECTRONICS\n790017459 PROMO GFTCRD\nN\n$0.00\n041-816-601-710-429\nNew Bal: $20.00\nFinal sale, no return\nHEALTH AND BEAUTY\n007070239 Millie Moon\nN\n$2.99\nSpend$100Get$20GC\nSUBTOTAL\n$102.95\nNO TAX\n$0.00\nTOTAL\n$102.95\n*1700 GIFT CARD PAYMENT\n$102.95\n*1700 GIFT CARD BALANCE\n$6.80\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n*Not redeemable for cash\nexcept where required by law\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5876.738582999998,
+        "totalUsd": 0.0148665,
+        "inputTokens": 4355,
+        "outputTokens": 926,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "102.95",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "01:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07014-1904",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Clifton",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "30 Kingsland Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1700",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BABY + 007043867 Huggies + Spend$100Get$20GC",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99
+        },
+        {
+          "text": "BABY + 007065235 FreeStyle + Spend$100Get$20GC",
+          "quantity": 3,
+          "unitPrice": 24.99,
+          "totalSpend": 74.97
+        },
+        {
+          "text": "ELECTRONICS + 790017459 PROMO GFTCRD + 041-816-601-710-429 + New Bal: $20.00 + Final sale, no return",
+          "quantity": 1,
+          "unitPrice": null,
+          "totalSpend": null
+        },
+        {
+          "text": "HEALTH AND BEAUTY + 007070239 Millie Moon + Spend$100Get$20GC",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99
+        }
+      ],
+      "rawText": "Clifton - 973-330-0002\n30 Kingsland Rd\nClifton, New Jersey 07014-1904\n06/03/2026 01:54 PM\nBABY\n007043867 Huggies N $24.99\nSpend$100Get$20GC\n007065235 FreeStyle N $74.97\n3 @ $24.99 ea\nSpend$100Get$20GC\nELECTRONICS\n790017459 PROMO GFTCRD N $0.00\n041-816-601-710-429\nNew Bal: $20.00\nFinal sale, no return\nHEALTH AND BEAUTY\n007070239 Millie Moon N $2.99\nSpend$100Get$20GC\nSUBTOTAL $102.95\nNO TAX $0.00\nTOTAL $102.95\n*1700 GIFT CARD PAYMENT $102.95\n*1700 GIFT CARD BALANCE $6.80\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n*Not redeemable for cash\nexcept where required by law\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

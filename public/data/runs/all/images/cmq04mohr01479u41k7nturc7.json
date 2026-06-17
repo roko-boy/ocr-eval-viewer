@@ -1,0 +1,176 @@
+{
+  "id": "cmq04mohr01479u41k7nturc7",
+  "url": null,
+  "retailer": "ALDI",
+  "brand": "Unknown",
+  "amount": 2.45,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ALDI",
+    "totalCost": "3.51",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "33323",
+    "city": "Plantation",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12448.620584,
+        "totalUsd": 0.011505,
+        "inputTokens": 3692,
+        "outputTokens": 663,
+        "reasoningTokens": 1731
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:50 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Plantation",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "12190 West Sunrise Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4503",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "343735 Perfect Bar",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45
+        },
+        {
+          "text": "356537 Cilantro",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89
+        }
+      ],
+      "rawText": "ALDI\nStore #012\n12190 West Sunrise Blvd\nPlantation\nhttps://help.aldi.us\n\n343735 Perfect Bar 2.45 FB\n356537 Cilantro 0.89 FA\n\nSUBTOTAL 3.34\nB:Taxable @7.000% 0.17\nA:Taxable @0.00% 0.00\nAMOUNT DUE 3.51\nT O T A L 3.51\n2 ITEMS\nCredit Card $ 3.51\n\n*4370 FA04/007/804 06/04/26 05:50PM\n******************************************\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nhttp://www.aldi.us/signup\n\nVISA 3.51\n****************4503 ONLINE\n06/04/26 17:50 Ref/Seq # 774179\nTrace # 774179\nAuth # 01663D\nAID A0000000031010\nTVR 0000000000\nIAD 06011203A00000\nTSI 0000 ARC 000 EntryMode 07\n++APPROVED++",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5005.043916999999,
+        "totalUsd": 0.0126075,
+        "inputTokens": 4355,
+        "outputTokens": 675,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:50 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Plantation",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "12190 West Sunrise Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4503",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "343735 Perfect Bar",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45
+        },
+        {
+          "text": "356537 Cilantro",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89
+        }
+      ],
+      "rawText": "ALDI\nStore #012\n12190 West Sunrise Blvd\nPlantation\nhttps://help.aldi.us\n\n343735 Perfect Bar\n2.45 FB\n356537 Cilantro\n0.89 FA\n\nSUBTOTAL\n3.34\nB:Taxable @7.000%\n0.17\nA:Taxable @0.00%\n0.00\nAMOUNT DUE\n3.51\nTOTAL\n3.51\n2 ITEMS\nCredit Card\n$ 3.51\n\n*4370 FA04/007/804 06/04/26 05:50PM\n****************************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nhttp://www.aldi.us/signup\n\nVISA\n3.51\n****************4503 ONLINE\n06/04/26 17:50 Ref/Seq # 774179\nTrace # 774179\nAuth # 01663D\nAID A0000000031010\nTVR 0000000000\nIAD 06011203A00000\nTSI 0000\nARC 000\nEntryMode 07\n++APPROVED++",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

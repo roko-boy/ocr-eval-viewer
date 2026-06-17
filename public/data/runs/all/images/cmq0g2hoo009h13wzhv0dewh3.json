@@ -1,0 +1,236 @@
+{
+  "id": "cmq0g2hoo009h13wzhv0dewh3",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 4.46,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "20.58",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "16066",
+    "city": "Cranberry Twp",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 15838.551209,
+        "totalUsd": 0.016941,
+        "inputTokens": 3692,
+        "outputTokens": 1267,
+        "reasoningTokens": 1695
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.58",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "16066-5312",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Cranberry Twp",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1717 Route 228",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3534",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Capri Sun + 203160226",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 2.96
+        },
+        {
+          "text": "MP OLIVES + 212060450",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.59
+        },
+        {
+          "text": "TRIP + 271750009",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.23
+        },
+        {
+          "text": "TRIP MINDFUL + 271750433",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.23
+        },
+        {
+          "text": "Pop-Tarts + 231140665",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.61
+        },
+        {
+          "text": "POP TARTS + 231140153",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.2
+        },
+        {
+          "text": "POP TARTS + 231140042",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.31
+        }
+      ],
+      "rawText": "Cranberry - 724-778-9000\n1717 Route 228\nCranberry Twp, Pennsylvania 16066-5312\n06/04/2026 07:27 PM\nGROCERY\n203160226 Capri Sun TF $2.96\nRegular Price $3.69\n$5 off Circle\n212060450 MP OLIVES NF $1.59\nRegular Price $1.99\n$5 off Circle\n271750009 TRIP TF $2.23\nRegular Price $2.79\n$5 off Circle\n271750433 TRIP MINDFUL TF $2.23\nRegular Price $2.79\n$5 off Circle\n231140665 Pop-Tarts NF $5.61\nRegular Price $6.99\n$5 off Circle\n231140153 POP TARTS NF $3.20\nRegular Price $3.99\n$5 off Circle\n231140042 POP TARTS NF $2.31\nRegular Price $2.89\n$5 off Circle\nSUBTOTAL $20.13\nT = PA TAX 6.00000 on $7.42 $0.45\nTOTAL $20.58\n*3534 DEBIT TOTAL PAYMENT $20.58\nAID: A0000000980840\nUS DEBIT\nAUTH CODE: 437488\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$5.00\nREC#2-6155-1259-0173-7455-1",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7734.076707999993,
+        "totalUsd": 0.0187365,
+        "inputTokens": 4355,
+        "outputTokens": 1356,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.58",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "16066-5312",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Cranberry Twp",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1717 Route 228",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3534",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Capri Sun + 203160226 + Regular Price $3.69 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 2.96
+        },
+        {
+          "text": "MP OLIVES + 212060450 + Regular Price $1.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.59
+        },
+        {
+          "text": "TRIP + 271750009 + Regular Price $2.79 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.23
+        },
+        {
+          "text": "TRIP MINDFUL + 271750433 + Regular Price $2.79 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.23
+        },
+        {
+          "text": "Pop-Tarts + 231140665 + Regular Price $6.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.61
+        },
+        {
+          "text": "POP TARTS + 231140153 + Regular Price $3.99 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.2
+        },
+        {
+          "text": "POP TARTS + 231140042 + Regular Price $2.89 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.31
+        }
+      ],
+      "rawText": "Cranberry - 724-778-9000\n1717 Route 228\nCranberry Twp, Pennsylvania 16066-5312\n06/04/2026 07:27 PM\nGROCERY\n203160226 Capri Sun TF $2.96\nRegular Price $3.69\n$5 off Circle\n212060450 MP OLIVES NF $1.59\nRegular Price $1.99\n$5 off Circle\n271750009 TRIP TF $2.23\nRegular Price $2.79\n$5 off Circle\n271750433 TRIP MINDFUL TF $2.23\nRegular Price $2.79\n$5 off Circle\n231140665 Pop-Tarts NF $5.61\nRegular Price $6.99\n$5 off Circle\n231140153 POP TARTS NF $3.20\nRegular Price $3.99\n$5 off Circle\n231140042 POP TARTS NF $2.31\nRegular Price $2.89\n$5 off Circle\nSUBTOTAL $20.13\nT = PA TAX 6.00000 on $7.42 $0.45\nTOTAL $20.58\n*3534 DEBIT TOTAL PAYMENT $20.58\nAID: A0000000980840\nUS DEBIT\nAUTH CODE: 437488\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$5.00\nREC#2-6155-1259-0173-7455-1",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,176 @@
+{
+  "id": "cmpzqjlop00cwptick4aj8tbr",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 8.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": null,
+    "purchaseDate": "2026-06-01T12:00:00.000Z",
+    "time": null,
+    "zipCode": "20874",
+    "city": "Germantown",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 8040.007000000012,
+        "totalUsd": 0.009852,
+        "inputTokens": 3706,
+        "outputTokens": 477,
+        "reasoningTokens": 903
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20874-6216",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Germantown",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "18909 Lark Song Ter",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cure Electrolyte Drink Mix Strawberry Kiwi - 1.6oz/6ct",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "plusOne Restful Sleep Spray - Magnesium - 4 fl oz",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49
+        }
+      ],
+      "rawText": "12:51 1\nGmail\nJun 1, 2026\nHelp\nDelivered Thu, Jun 4\nDelivered to\nAmanda Schoen\n18909 Lark Song Ter\nGermantown, MD 20874-6216\nGermantown, MD\nFedEx\nPackage delivered\n10:57am Today\nTracking details\nCure Electrolyte Drink Mix Strawberry Kiwi - 1.6oz/6ct\n$8.99 unit price\nQty 1\nplusOne Restful Sleep Spray - Magnesium - 4 fl oz\n$8.49 unit price\nQty 1\nDelivered Thu, Jun 4\nDelivered to\nAmanda Schoen\n18909 Lark Song Ter\nGermantown, MD 20874-6216\nDiscover Buy Again Wallet Cart My Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 2977.913042,
+        "totalUsd": 0.0109455,
+        "inputTokens": 4369,
+        "outputTokens": 488,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20874-6216",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Germantown",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "18909 Lark Song Ter",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cure Electrolyte Drink Mix Strawberry Kiwi - 1.6oz/6ct",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "plusOne Restful Sleep Spray - Magnesium - 4 fl oz",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49
+        }
+      ],
+      "rawText": "12:51 1\nGmail\nJun 1, 2026\nHelp\nDelivered Thu, Jun 4\nDelivered to\nAmanda Schoen\n18909 Lark Song Ter\nGermantown, MD 20874-6216\nGermantown, MD\nFedEx\nFedEx\nPackage delivered\n10:57am Today\nTracking details\nCure Electrolyte Drink Mix Strawberry Kiwi - 1.6oz/6ct\n$8.99 unit price\nQty 1\nplusOne Restful Sleep Spray - Magnesium - 4 fl oz\n$8.49 unit price\nQty 1\nDelivered Thu, Jun 4\nDelivered to\nAmanda Schoen\n18909 Lark Song Ter\nGermantown, MD 20874-6216\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

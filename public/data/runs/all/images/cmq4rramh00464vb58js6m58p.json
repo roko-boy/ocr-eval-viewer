@@ -1,0 +1,236 @@
+{
+  "id": "cmq4rramh00464vb58js6m58p",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "48.29",
+    "purchaseDate": "2026-06-07T00:00:00.000Z",
+    "time": null,
+    "zipCode": "98030",
+    "city": "Kent",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 68507.638958,
+        "totalUsd": 0.016533,
+        "inputTokens": 3786,
+        "outputTokens": 1206,
+        "reasoningTokens": 1365
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "48.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:01 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98030-7649",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Kent",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "26301 104th Ave SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0560",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "284067439 Mooala + Regular Price $4.99",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "211080292 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "203160188 Brainic Kids",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "213009319 SPRTZ SOCTY + Regular Price $10.99",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "003070132 Tide + Regular Price $11.99",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 9.59
+        },
+        {
+          "text": "003026186 Cleancult",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "003024617 Cleancult",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "Kent - 253-850-9710\n26301 104th Ave SE\nKent, Washington 98030-7649\n06/07/2026 10:01 PM\nGROCERY\n284067439 Mooala NF $2.99\nRegular Price $4.99\n211080292 SGSY TF $3.79\n203160188 Brainic Kids TF $4.99\n213009319 SPRTZ SOCTY T $8.99\nRegular Price $10.99\nLAUNDRY CLEANING AND CLOSET\n003070132 Tide T $9.59\nRegular Price $11.99\n003026186 Cleancult T $7.99\n003024617 Cleancult T $7.99\nSUBTOTAL $46.33\nTarget Circle Card 5% $2.32 -\nT = WA TAX 10.40000 on $41.12 $4.28\nTOTAL $48.29\nReusable Bag Discount $0.05\n*0560 TARGET DEBIT CARD $48.24\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 008179\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7189.542084000001,
+        "totalUsd": 0.0173415,
+        "inputTokens": 4355,
+        "outputTokens": 1201,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "48.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:01 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98030-7649",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Kent",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "26301 104th Ave SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0560",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Mooala + 284067439",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99
+        },
+        {
+          "text": "SGSY + 211080292",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79
+        },
+        {
+          "text": "Brainic Kids + 203160188",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "SPRTZ SOCTY + 213009319",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 8.99
+        },
+        {
+          "text": "Tide + 003070132",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 9.59
+        },
+        {
+          "text": "Cleancult + 003026186",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "Cleancult + 003024617",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        }
+      ],
+      "rawText": "Kent - 253-850-9710\n26301 104th Ave SE\nKent, Washington 98030-7649\n06/07/2026 10:01 PM\nGROCERY\n284067439 Mooala NF $2.99\nRegular Price $4.99\n211080292 SGSY TF $3.79\n203160188 Brainic Kids TF $4.99\n213009319 SPRTZ SOCTY T $8.99\nRegular Price $10.99\nLAUNDRY CLEANING AND CLOSET\n003070132 Tide T $9.59\nRegular Price $11.99\n003026186 Cleancult T $7.99\n003024617 Cleancult T $7.99\nSUBTOTAL $46.33\nTarget Circle Card 5% $2.32 -\nT = WA TAX 10.40000 on $41.12 $4.28\nTOTAL $48.29\nReusable Bag Discount $0.05\n*0560 TARGET DEBIT CARD $48.24\nAID: A0000006123333\nTarget Debit\nAUTH CODE: 008179\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,212 @@
+{
+  "id": "cmpzoj8i600ghxz36w9uoq2pg",
+  "url": null,
+  "retailer": "Smith's Food and Drug",
+  "brand": "Unknown",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Smith's Food and Drug",
+    "totalCost": "15.31",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "89139",
+    "city": "Las Vegas",
+    "state": "NV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 23788.561416,
+        "totalUsd": 0.015708,
+        "inputTokens": 3692,
+        "outputTokens": 1130,
+        "reasoningTokens": 3448
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:33 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "8050 S. Rainbow Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MM PLANT BSD CHOC",
+          "quantity": 1,
+          "unitPrice": 0.92,
+          "totalSpend": 0.92
+        },
+        {
+          "text": "MM PLANT BSD CHOC",
+          "quantity": 1,
+          "unitPrice": 0.92,
+          "totalSpend": 0.92
+        },
+        {
+          "text": "PROTEIN PNTS IC CRFV + SC YOU SAVED 1.50 + SC Mega Event Savings2.00",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "PROTEIN PNTS IC CRFV + SC YOU SAVED 1.50 + SC Mega Event Savings2.00",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 4.99
+        },
+        {
+          "text": "SANPEL SPRKL WATERFV + SC YOU SAVED 1.00 + SC Mega Event Savings2.00",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.49
+        }
+      ],
+      "rawText": "Smith's FRESH\nFOR\nEVERYONE...\n\n8050 S. Rainbow Blvd\n702-294-7200\nYour cashier was CHEC 502\nMM PLANT BSD CHOC      0.92 F\nMM PLANT BSD CHOC      0.92 F\nPROTEIN PNTS IC CRFV   4.99 F\nSC    YOU SAVED        1.50\nSC    Mega Event Savings2.00\nPROTEIN PNTS IC CRFV   4.99 F\nSC    YOU SAVED        1.50\nSC    Mega Event Savings2.00\nSANPEL SPRKL WATERFV   3.49 F\nSC    YOU SAVED        1.00\nSC    Mega Event Savings2.00\nFRESH VALUE CUSTOMER   *******6339\nTAX                    0.00\n**** BALANCE          15.31\nGIFT CARD Purchase\n****************6353 - SCANNED\nREF#: 773556     TOTAL: 8.27\nPURCHASE: 15.31  CASHBACK: 0.00\nRemaining Balance: 0.00\nGIFT CARD              8.27\nGIFT CARD Purchase\n****************9671 - SCANNED\nREF#: 931187     TOTAL: 7.04\nPURCHASE: 7.04   CASHBACK: 0.00\nRemaining Balance: 12.96\nGIFT CARD              7.04\nCHANGE                 0.00\nTOTAL NUMBER OF ITEMS SOLD = 5\nFreshValues Savings    $ 10.00\nTotal Savings (39 Percent) $ 10.00\n06/04/26 08:33am 311 502 9 999999502\n************************************\nAnnual Card Savings $184.91\n************************************\n************************************\nFuel Points Earned Today: 15\nTotal June Fuel Points: 29\n************************************\nRemaining May Fuel Points: 130\n************************************\nToday, You Saved\n$10.00\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7776.136,
+        "totalUsd": 0.0165675,
+        "inputTokens": 4355,
+        "outputTokens": 1115,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:33 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8050 S. Rainbow Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MM PLANT BSD CHOC",
+          "quantity": 1,
+          "unitPrice": 0.92,
+          "totalSpend": 0.92
+        },
+        {
+          "text": "MM PLANT BSD CHOC",
+          "quantity": 1,
+          "unitPrice": 0.92,
+          "totalSpend": 0.92
+        },
+        {
+          "text": "PROTEIN PNTS IC CRFV + SC YOU SAVED 1.50 + SC Mega Event Savings2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.49
+        },
+        {
+          "text": "PROTEIN PNTS IC CRFV + SC YOU SAVED 1.50 + SC Mega Event Savings2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.49
+        },
+        {
+          "text": "SANPEL SPRKL WATERFV + SC YOU SAVED 1.00 + SC Mega Event Savings2.00",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 0.49
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n8050 S. Rainbow Blvd\n702-294-7200\nYour cashier was CHEC 502\nMM PLANT BSD CHOC 0.92 F\nMM PLANT BSD CHOC 0.92 F\nPROTEIN PNTS IC CRFV 4.99 F\nSC YOU SAVED 1.50\nSC Mega Event Savings2.00\nPROTEIN PNTS IC CRFV 4.99 F\nSC YOU SAVED 1.50\nSC Mega Event Savings2.00\nSANPEL SPRKL WATERFV 3.49 F\nSC YOU SAVED 1.00\nSC Mega Event Savings2.00\nFRESH VALUE CUSTOMER ********6339\nTAX 0.00\n**** BALANCE 15.31\nGIFT CARD Purchase\n****************6353 - SCANNED\nREF#: 773556 TOTAL: 8.27\nPURCHASE: 15.31 CASHBACK: 0.00\nRemaining Balance: 0.00\nGIFT CARD 8.27\nGIFT CARD Purchase\n****************9671 - SCANNED\nREF#: 931187 TOTAL: 7.04\nPURCHASE: 7.04 CASHBACK: 0.00\nRemaining Balance: 12.96\nGIFT CARD 7.04\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 5\nFreshValues Savings $ 10.00\nTotal Savings (39 Percent) $ 10.00\n06/04/26 08:33am 311 502 9 999999502\n****************************************\nAnnual Card Savings $184.91\n****************************************\n****************************************\nFuel Points Earned Today: 15\nTotal June Fuel Points: 29\n****************************************\nRemaining May Fuel Points: 130\n****************************************\nToday, You Saved\n$10.00\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 2,
+  "nullCount": 0
+}

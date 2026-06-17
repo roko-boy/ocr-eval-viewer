@@ -1,0 +1,164 @@
+{
+  "id": "cmq3x4ndl00dful0ermieu90l",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "13.98",
+    "purchaseDate": "2026-06-07T00:00:00.000Z",
+    "time": null,
+    "zipCode": "53227",
+    "city": "West Allis",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11787.602166,
+        "totalUsd": 0.012378,
+        "inputTokens": 3692,
+        "outputTokens": 760,
+        "reasoningTokens": 1036
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53227-1926",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "West Allis",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2600 S 108th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8811",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 288070313 PROTEIN",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98
+        }
+      ],
+      "rawText": "West Allis - 414-545-8000\n2600 S 108th St\nWest Allis, Wisconsin 53227-1926\n06/07/2026 10:08 AM\n\nGROCERY\n288070313 PROTEIN\n2 @ $6.99 ea\nNF $13.98\n\nSUBTOTAL $13.98\nNO TAX $0.00\nTOTAL $13.98\n\n*8811 MASTERCARD CHARGE $13.98\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 01708Z\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nWisconsin Electronics Recycling\nMany electronics may not be thrown away.\nFor information on how to recycle used\nelectronics visit\nhttps://dnr.wisconsin.gov/topic/Ecycle\n\nREC#2-6158-2199-0171-0224-3\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7384 1780 1982\nPassword: 897 757\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4335.435624999998,
+        "totalUsd": 0.0132645,
+        "inputTokens": 4355,
+        "outputTokens": 748,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "10:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53227-1926",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "West Allis",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2600 S 108th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8811",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 288070313 PROTEIN",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98
+        }
+      ],
+      "rawText": "West Allis - 414-545-8000\n2600 S 108th St\nWest Allis, Wisconsin 53227-1926\n06/07/2026 10:08 AM\nGROCERY\n288070313 PROTEIN\nNF\n$13.98\n2 @ $6.99 ea\nSUBTOTAL\n$13.98\nNO TAX\n$0.00\nTOTAL\n$13.98\n*8811 MASTERCARD CHARGE\n$13.98\nAID: A0000000041010\nMASTERCARD\nAUTH CODE:\n01708Z\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nWisconsin Electronics Recycling\nMany electronics may not be thrown away.\nFor information on how to recycle used\nelectronics visit\nhttps://dnr.wisconsin.gov/topic/Ecycle\nREC#2-6158-2199-0171-0224-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 1780 1982\nPassword: 897 757\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,212 @@
+{
+  "id": "cmq1nwbzg001nat64q2mhu6oz",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Unknown",
+  "amount": 7.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "28.79",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "98003",
+    "city": "Federal Way",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 17133.982833,
+        "totalUsd": 0.017868,
+        "inputTokens": 3692,
+        "outputTokens": 1370,
+        "reasoningTokens": 1873
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "18:12",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98003",
+          "status": "match"
+        },
+        "city": {
+          "value": "FEDERAL WAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1207 S. 320TH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7710",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SUNDAY NIGHT SAUCE + 85002807017",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "SUNDAY NIGHT CARAM + 85002807028",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "2@ SLATE PROTEIN 42GR + 85002974276 + Member Savings -2.60",
+          "quantity": 2,
+          "unitPrice": 5.29,
+          "totalSpend": 7.98
+        },
+        {
+          "text": "C20 PURE CCNT WTR + 85388300300 + Member Savings -0.50 + forU Personalized -0.54",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.25
+        },
+        {
+          "text": "2@ PANAJI NAAN MINIS + 77634369033 + Member Savings -2.40",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 7.58
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1555 Dir Darcy Alderman\nMain: (253) 839-8503 Rx: (253) 946-150\n1207 S. 320TH\nFEDERAL WAY WA 98003\n00155505401762606051812\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85002807017 SUNDAY NIGHT SAUCE 7.99 7.99 S\n85002807028 SUNDAY NIGHT CARAM 7.99 7.99 S\n85002974276 2@ SLATE PROTEIN 42GR 10.58 7.98 S\nMember Savings -2.60\n85388300300 C20 PURE CCNT WTR 3.29 2.25 S\nMember Savings -0.50\nforU Personalized -0.54\nBAKED GOODS\n77634369033 2@ PANAJI NAAN MINIS 9.98 7.58 S\nMember Savings -2.40\nADDITIONAL DISCOUNTS\nBasket Savings -5.00\nTAX 0.00\n**** BALANCE 28.79\nCredit Purchase 06/05/26 18:12\nCARD # ************7710\nREF: 191246477100 AUTH: 0062131Z\nPAYMENT AMOUNT 28.79\nAL Mastercard\nAID A0000000041010\nTVR 0000008001\nMastercard 28.79\nCHANGE 0.00\n******************************************\nNOW HIRING!\nSee Store Director or visit\nwww.Safeway.com/Careers to apply\n******************************************\nYOUR SAVINGS\nMember Savings 5.50\nBasket Savings 5.00\nfor U Savings 0.54\nTotal 11.04\nTotal Savings Value 28%\nYOUR POINTS\nPoints Earned Today 28\nPoints Available 152\nTOTAL NUMBER OF ITEMS SOLD = 7\n06/05/26 18:12 1555 54 176 8854\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8404.985375,
+        "totalUsd": 0.0188085,
+        "inputTokens": 4355,
+        "outputTokens": 1364,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "18:12",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98003",
+          "status": "match"
+        },
+        "city": {
+          "value": "FEDERAL WAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1207 S. 320TH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7710",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SUNDAY NIGHT SAUCE + 85002807017",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "SUNDAY NIGHT CARAM + 85002807028",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99
+        },
+        {
+          "text": "SLATE PROTEIN 42GR + 85002974276 + Member Savings -2.60",
+          "quantity": 2,
+          "unitPrice": 5.29,
+          "totalSpend": 7.98
+        },
+        {
+          "text": "C20 PURE CCNT WTR + 85388300300 + Member Savings -0.50 + forU Personalized -0.54",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.25
+        },
+        {
+          "text": "PANAJI NAAN MINIS + 77634369033 + Member Savings -2.40",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 7.58
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1555 Dir Darcy Alderman\nMain: (253) 839-8503 Rx: (253) 946-150\n1207 S. 320TH\nFEDERAL WAY WA 98003\n00155505401762606051812\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85002807017 SUNDAY NIGHT SAUCE 7.99 7.99 S\n85002807028 SUNDAY NIGHT CARAM 7.99 7.99 S\n85002974276 2@ SLATE PROTEIN 42GR 10.58 7.98 S\nMember Savings -2.60\n85388300300 C20 PURE CCNT WTR 3.29 2.25 S\nMember Savings -0.50\nforU Personalized -0.54\nBAKED GOODS\n77634369033 2@ PANAJI NAAN MINIS 9.98 7.58 S\nMember Savings -2.40\nADDITIONAL DISCOUNTS\nBasket Savings -5.00\nTAX 0.00\n**** BALANCE 28.79\nCredit Purchase 06/05/26 18:12\nCARD # ************7710\nREF: 191246477100 AUTH: 0062131Z\nPAYMENT AMOUNT 28.79\nAL Mastercard\nAID A0000000041010\nTVR 0000008001\nMastercard 28.79\nCHANGE 0.00\n****************************************\nNOW HIRING!\nSee Store Director or visit\nwww.Safeway.com/Careers to apply\n****************************************\nYOUR SAVINGS\nMember Savings 5.50\nBasket Savings 5.00\nfor U Savings 0.54\nTotal 11.04\nTotal Savings Value 28%\nYOUR POINTS\nPoints Earned Today 28\nPoints Available 152\nTOTAL NUMBER OF ITEMS SOLD = 7\n06/05/26 18:12 1555 54 176 8854\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,164 @@
+{
+  "id": "cmq03p7wv00cqc4a8f2epqu1m",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "Unknown",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "15.27",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "37421",
+    "city": "Chattanooga",
+    "state": "TN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 12485.7375,
+        "totalUsd": 0.011838,
+        "inputTokens": 3692,
+        "outputTokens": 700,
+        "reasoningTokens": 1283
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37421",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chattanooga",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2130 Gunbarrel Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5492",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "INSTINCT FRESHRAW MEALS CKN 8 + 769949641018",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #639\n2130 Gunbarrel Rd\nChattanooga, TN 37421\n423-899-9223\nS-639 R-102 BUS.DATE-06/04/2026\nT-98684 A-357196\nSALE\nINSTINCT FRESHRAW MEALS CKN 8 $13.98\n769949641018 StCo\nQTY: 2 @ $6.99\nReturn Amount $6.99\n2 Sale item(s)\nSUBTOTAL $13.98\nSALE\nTAX State 7.00% ON $13.98 $0.98\nTAX County 2.25% ON $13.98 $0.31\nTAX TOTAL: $1.29\nTOTAL $15.27\nDebit\nACCOUNT#:************5492 $15.27\nAUTH#:000610\nCHANGE DUE $0.00\n--------TRANSACTION RECORD--------\nINVOICE # 19868410201\nMERCHANT # *********3881\nTERMINAL # ***7228\n** DIRECT PAYMENT **\nTYPE: Sale\nDEBIT: VISA TAPPED\nUS DEBIT\nAID: A0000000980840\nNETWORKNAME: INTERLINK\nTotal USD$ 15.27\nMODE : ISSUER\nApproved\nVerified by PIN\nCUSTOMER COPY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6199.178167000002,
+        "totalUsd": 0.0129855,
+        "inputTokens": 4355,
+        "outputTokens": 717,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "06/04/2026",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37421",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chattanooga",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2130 Gunbarrel Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5492",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "INSTINCT FRESHRAW MEALS CKN 8 + 769949641018",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #639\n2130 Gunbarrel Rd\nChattanooga, TN 37421\n423-899-9223\nS-639 R-102 BUS.DATE-06/04/2026\nT-98684 A-357196\nSALE\nINSTINCT FRESHRAW MEALS CKN 8 $13.98\n769949641018 StCo\nQTY: 2 @ $6.99\nReturn Amount $6.99\n2 Sale item(s)\nSUBTOTAL $13.98\nSALE\nTAX State 7.00% ON $13.98 $0.98\nTAX County 2.25% ON $13.98 $0.31\nTAX TOTAL: $1.29\nTOTAL $15.27\nDebit\nACCOUNT#:************5492 $15.27\nAUTH#:000610\nCHANGE DUE $0.00\n--------TRANSACTION RECORD--------\nINVOICE # 19868410201\nMERCHANT # *********3881\nTERMINAL # ***7228\n** DIRECT PAYMENT **\nTYPE: Sale\nDEBIT: VISA TAPPED\nUS DEBIT\nAID: A0000000980840\nNETWORKNAME: INTERLINK\nTotal USD$ 15.27\nMODE : ISSUER\nApproved\nVerified by PIN\nCUSTOMER COPY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

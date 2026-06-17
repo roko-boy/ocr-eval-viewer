@@ -1,0 +1,212 @@
+{
+  "id": "cmq2pkkn2030092gtez4wcq1g",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Unknown",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "42.55",
+    "purchaseDate": "2026-06-06T00:00:00.000Z",
+    "time": null,
+    "zipCode": "30097",
+    "city": "Johns Creek",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 14130.450083,
+        "totalUsd": 0.015636,
+        "inputTokens": 3692,
+        "outputTokens": 1122,
+        "reasoningTokens": 1372
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:39 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30097",
+          "status": "match"
+        },
+        "city": {
+          "value": "Duluth",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5945 State Bridge Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2001",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIGMOZ BIG MOZZ STICKS + Qty 2 $10.99 ea",
+          "quantity": 2,
+          "unitPrice": 10.99,
+          "totalSpend": 21.98
+        },
+        {
+          "text": "MY ORGNL PLLD PRK",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49
+        },
+        {
+          "text": "FROPRO CHC CHP SNK BAR + Qty 2 $3.19 ea",
+          "quantity": 2,
+          "unitPrice": 3.19,
+          "totalSpend": 6.38
+        },
+        {
+          "text": "365WFM SPRING WATER SGL",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49
+        },
+        {
+          "text": "ZEVIA CRMY ROOT BEER SGL + Reg $1.79 + Savings ($0.12)",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.67
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nDuluth DUL 678-514-2400\n5945 State Bridge Rd\nDuluth, GA 30097\nBIGMOZ BIG MOZZ STICKS\n$21.98 FT\nQty 2 $10.99 ea\nMY ORGNL PLLD PRK\n$10.49 FT\nFROPRO CHC CHP SNK BAR\n$6.38 FT\nQty 2 $3.19 ea\n365WFM SPRING WATER SGL\n$0.49 FT\nZEVIA CRMY ROOT BEER SGL\n$1.67 FT\nReg $1.79\nSavings ($0.12)\nSubtotal:\n$41.13\nTotal Savings:\n-$0.12\nNet Sales:\n$41.01\nTax:\n3.75%\n$1.54\nTotal:\n$42.55\nSold Items:\n7\nPaid:\nAmerican Exp *2001\n$42.55\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$0.12\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n904 46366 06/06/2026 02:39 PM\n63011021590446366060620260\nZFYJIL5001",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6579.665041,
+        "totalUsd": 0.0162075,
+        "inputTokens": 4355,
+        "outputTokens": 1075,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "42.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "02:39 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30097",
+          "status": "match"
+        },
+        "city": {
+          "value": "Duluth",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5945 State Bridge Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2001",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIGMOZ BIG MOZZ STICKS",
+          "quantity": 2,
+          "unitPrice": 10.99,
+          "totalSpend": 21.98
+        },
+        {
+          "text": "MY ORGNL PLLD PRK",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49
+        },
+        {
+          "text": "FROPRO CHC CHP SNK BAR",
+          "quantity": 2,
+          "unitPrice": 3.19,
+          "totalSpend": 6.38
+        },
+        {
+          "text": "365WFM SPRING WATER SGL",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49
+        },
+        {
+          "text": "ZEVIA CRMY ROOT BEER SGL",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.67
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nDuluth DUL 678-514-2400\n5945 State Bridge Rd\nDuluth, GA 30097\nBIGMOZ BIG MOZZ STICKS\nQty 2 $10.99 ea\nMY ORGNL PLLD PRK\nFROPRO CHC CHP SNK BAR\nQty 2 $3.19 ea\n365WFM SPRING WATER SGL\nZEVIA CRMY ROOT BEER SGL\nReg $1.79\nSavings ($0.12)\nSubtotal:\nTotal Savings:\nNet Sales:\nTax:\nTotal:\nSold Items:\nPaid:\nAmerican Exp *2001\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n$21.98 FT\n$10.49 FT\n$6.38 FT\n$0.49 FT\n$1.67 FT\n$41.13\n-$0.12\n$41.01\n3.75% $1.54\n$42.55\n7\n$42.55\n****************************************\nYour Total Savings\n$0.12\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n904 46366 06/06/2026 02:39 PM\n63011021590446366060620260\nZFYJIL5001",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

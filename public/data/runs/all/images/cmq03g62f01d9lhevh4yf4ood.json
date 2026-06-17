@@ -1,0 +1,164 @@
+{
+  "id": "cmq03g62f01d9lhevh4yf4ood",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 11.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "34.2",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "68114",
+    "city": "Omaha",
+    "state": "NE",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 13208.52045899999,
+        "totalUsd": 0.011514,
+        "inputTokens": 3692,
+        "outputTokens": 664,
+        "reasoningTokens": 1155
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "68114-3673",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Omaha",
+          "status": "match"
+        },
+        "state": {
+          "value": "NE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7200 Dodge St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 4,
+          "unitPrice": 7.99,
+          "totalSpend": 31.96
+        }
+      ],
+      "rawText": "Omaha - 402-390-8880\n7200 Dodge St\nOmaha, Nebraska 68114-3673\n06/04/2026 05:53 PM\nHEALTH AND BEAUTY\n245032817 vHessentials T $31.96\n4 @ $7.99 ea\nSUBTOTAL $31.96\nT = NE TAX 7.00000 on $31.96 $2.24\nTOTAL $34.20\n*1951 GIFT CARD PAYMENT $34.20\n*1951 GIFT CARD BALANCE $2.69\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6155-2125-0161-7703-1\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4787 5983\nPassword: 822 969\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6615.633040999994,
+        "totalUsd": 0.0126255,
+        "inputTokens": 4355,
+        "outputTokens": 677,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "05:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "68114-3673",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Omaha",
+          "status": "match"
+        },
+        "state": {
+          "value": "NE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7200 Dodge St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 4,
+          "unitPrice": 7.99,
+          "totalSpend": 31.96
+        }
+      ],
+      "rawText": "Omaha - 402-390-8880\n7200 Dodge St\nOmaha, Nebraska 68114-3673\n06/04/2026 05:53 PM\nHEALTH AND BEAUTY\n245032817 vHessentials\nT\n$31.96\n4 @ $7.99 ea\nSUBTOTAL\n$31.96\nT = NE TAX 7.00000 on $31.96\n$2.24\nTOTAL\n$34.20\n*1951 GIFT CARD PAYMENT\n$34.20\n*1951 GIFT CARD BALANCE\n$2.69\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6155-2125-0161-7703-1\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 4787 5983\nPassword: 822 969\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,200 @@
+{
+  "id": "cmq05ddmi000sgb6483da9nvm",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Unknown",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "45.14",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "30080",
+    "city": "Smyrna",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 11291.038542,
+        "totalUsd": 0.016212,
+        "inputTokens": 3692,
+        "outputTokens": 1186,
+        "reasoningTokens": 849
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "45.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "19:47:56",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30080",
+          "status": "match"
+        },
+        "city": {
+          "value": "Smyrna",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2530 Cumberland Blvd SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2001",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CHOC SS PROTEIN BAR + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "CHOC SS PROTEIN BAR + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "ORNG HYDRATION BOX",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "VANILLA PLANT PRTN",
+          "quantity": 1,
+          "unitPrice": 26.24,
+          "totalSpend": 26.24
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2530 Cumberland Blvd SE\nSmyrna, GA 30080\n(470)-750-1841\nStore Hours MON-SUN 7AM-10PM\n06/04/2026 19:47:56\nAMERICAN EXPRESS Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX2001\nPURCHASE - APPROVED\nAUTH CODE:861409\nMode: Issuer\nAID: A000000025010801\nTVR: 0000008000\nIAD: 06640103A02002\nTSI: E800\nARC: 00\nTC: EFD799FEF93580BE\nMID: 811355 TID: 001 SEQ: 314211\nTotal: USD$ 45.14\nGROCERY\nCHOC SS PROTEIN BAR 2.00 M\n1 @ 2 FOR 4.00\nCHOC SS PROTEIN BAR 2.00 M\n1 @ 2 FOR 4.00\nVITAMINS\nORNG HYDRATION BOX 12.99 M\nVANILLA PLANT PRTN 26.24 M\nTax Report\nState Tax 26.24 1.05 TT\nCounty Tax 26.24 0.52 TT\nCo Food Tax 16.99 0.34 TT\nBALANCE DUE 45.14\nCREDIT $45.14\n[ ] XXXXXXXXXXXX2001\nAuth# 861409 Ref# 314211\nCHANGE 0.00\n****************************************\n99053003146571551947\n****************************************\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR\nHow was your visit?\nLet us know at SproutsFeedback.com\nso we can grow and improve!\n****************************************\nCashier:SSCO 931 Store: 530\nPOS:031 Transaction:4657\nThursday, June 4, 2026 07:47 PM\n- Save money, save paper -\nsign up to receive our weekly ad\nby email at sprouts.com\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6118.042167,
+        "totalUsd": 0.0171075,
+        "inputTokens": 4355,
+        "outputTokens": 1175,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "45.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "07:47 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30080",
+          "status": "match"
+        },
+        "city": {
+          "value": "Smyrna",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2530 Cumberland Blvd SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2001",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CHOC SS PROTEIN BAR + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "CHOC SS PROTEIN BAR + 1 @ 2 FOR 4.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2
+        },
+        {
+          "text": "ORNG HYDRATION BOX",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99
+        },
+        {
+          "text": "VANILLA PLANT PRTN",
+          "quantity": 1,
+          "unitPrice": 26.24,
+          "totalSpend": 26.24
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2530 Cumberland Blvd SE\nSmyrna, GA 30080\n(470)-750-1841\nStore Hours MON-SUN 7AM-10PM\n06/04/2026\n19:47:56\nAMERICAN EXPRESS Entry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX2001\nPURCHASE\n- APPROVED\nAUTH CODE:861409\nMode:\nIssuer\nAID:\nA000000025010801\nTVR:\n0000008000\nIAD:\n06640103A02002\nTSI:\nE800\nARC:\n00\nTC:\nEFD799FEF93580BE\nMID: 811355 TID: 001 SEQ: 314211\nTotal:\nUSD$ 45.14\nGROCERY\nCHOC SS PROTEIN BAR\n2.00 M\n1 @ 2 FOR 4.00\nCHOC SS PROTEIN BAR\n2.00 M\n1 @ 2 FOR 4.00\nVITAMINS\nORNG HYDRATION BOX\n12.99 M\nVANILLA PLANT PRTN\n26.24 M\nTax Report\nState Tax\n26.24\n1.05 TT\nCounty Tax\n26.24\n0.52 TT\nCo Food Tax\n16.99\n0.34 TT\nBALANCE DUE\n45.14\nCREDIT\n$45.14\n[ ] XXXXXXXXXXXX2001\nAuth# 861409\nRef# 314211\nCHANGE\n0.00\n****************************************\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR\nHow was your visit?\nLet us know at SproutsFeedback.com\nso we can grow and improve!\n****************************************\nCashier: SSCO 931 Store: 530\nPOS:031 Transaction:4657\nThursday, June 4, 2026 07:47 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at sprouts.com\nPlease keep your original receipt, th\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 1,
+  "nullCount": 0
+}

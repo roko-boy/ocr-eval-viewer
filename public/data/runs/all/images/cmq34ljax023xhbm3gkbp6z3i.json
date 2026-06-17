@@ -1,0 +1,200 @@
+{
+  "id": "cmq34ljax023xhbm3gkbp6z3i",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 2.56,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "20.32",
+    "purchaseDate": "2026-06-05T00:00:00.000Z",
+    "time": null,
+    "zipCode": "78660",
+    "city": "Pflugerville",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 16143.46004199999,
+        "totalUsd": 0.015195,
+        "inputTokens": 3692,
+        "outputTokens": 1073,
+        "reasoningTokens": 2210
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.32",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78660-6545",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Pflugerville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "18700 Limestone Commercial Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0733",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OATLY + 284050222",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "totalSpend": 6.84
+        },
+        {
+          "text": "SAINT JAMES + 203000002",
+          "quantity": 5,
+          "unitPrice": 2.99,
+          "totalSpend": 12.8
+        },
+        {
+          "text": "Ocean's Halo + 270060225",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.04
+        },
+        {
+          "text": "Ocean's Halo + 270060225",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.05
+        }
+      ],
+      "rawText": "Pflugerville - 512-687-2064\n18700 Limestone Commercial Dr\nPflugerville, Texas 78660-6545\n06/05/2026 08:49 PM\nGROCERY\n284050222 OATLY NF $6.84\n2 @ $3.42 ea\nRegular Price $4.49\n2for$8\n$5 off Circle\n203000002 SAINT JAMES TF $12.80\n5 @ $2.56 ea\nRegular Price $2.99\n$5 off Circle\n270060225 Ocean's Halo NF $5.04\nRegular Price $5.89\n$5 off Circle\n270060225 Ocean's Halo NF $5.05\nRegular Price $5.89\n$5 off Circle\nSUBTOTAL $29.73\nTarget Circle Rewards $10.00 -\nT = TX TAX 8.25000 on $7.20 $0.59\nTOTAL $20.32\n*0733 MASTERCARD CHARGE $20.32\nAID: A0000000041010\nMastercard\nAUTH CODE: 61393P\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$15.98\nREC#2-6156-2495-0163-5014-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 3750 5983\nPassword: 649 854\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5886.099166999993,
+        "totalUsd": 0.0168915,
+        "inputTokens": 4355,
+        "outputTokens": 1151,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.32",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "08:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78660-6545",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Pflugerville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "18700 Limestone Commercial Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0733",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OATLY + 284050222 + 2 @ $3.42 ea + Regular Price $4.49 + 2for$8 + $5 off Circle",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "totalSpend": 6.84
+        },
+        {
+          "text": "SAINT JAMES + 203000002 + 5 @ $2.56 ea + Regular Price $2.99 + $5 off Circle",
+          "quantity": 5,
+          "unitPrice": 2.99,
+          "totalSpend": 12.8
+        },
+        {
+          "text": "Ocean's Halo + 270060225 + Regular Price $5.89 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.04
+        },
+        {
+          "text": "Ocean's Halo + 270060225 + Regular Price $5.89 + $5 off Circle",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.05
+        }
+      ],
+      "rawText": "Pflugerville - 512-687-2064\n18700 Limestone Commercial Dr\nPflugerville, Texas 78660-6545\n06/05/2026 08:49 PM\nGROCERY\n284050222 OATLY NF $6.84\n2 @ $3.42 ea\nRegular Price $4.49\n2for$8\n$5 off Circle\n203000002 SAINT JAMES TF $12.80\n5 @ $2.56 ea\nRegular Price $2.99\n$5 off Circle\n270060225 Ocean's Halo NF $5.04\nRegular Price $5.89\n$5 off Circle\n270060225 Ocean's Halo NF $5.05\nRegular Price $5.89\n$5 off Circle\nSUBTOTAL $29.73\nTarget Circle Rewards $10.00 -\nT = TX TAX 8.25000 on $7.20 $0.59\nTOTAL $20.32\n*0733 MASTERCARD CHARGE $20.32\nAID: A0000000041010\nMastercard\nAUTH CODE: 61393P\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$15.98\nREC#2-6156-2495-0163-5014-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7384 3750 5983\nPassword: 649 854\nCUENTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}

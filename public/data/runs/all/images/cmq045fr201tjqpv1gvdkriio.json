@@ -1,0 +1,176 @@
+{
+  "id": "cmq045fr201tjqpv1gvdkriio",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Unknown",
+  "amount": 11.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "25.32",
+    "purchaseDate": "2026-06-04T00:00:00.000Z",
+    "time": null,
+    "zipCode": "94568",
+    "city": "Dublin",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash",
+      "metrics": {
+        "latencyMs": 9414.882041000004,
+        "totalUsd": 0.011523,
+        "inputTokens": 3692,
+        "outputTokens": 665,
+        "reasoningTokens": 1037
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "25.32",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:12 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94568-4589",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Dublin",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2800 Dublin Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "vHessentials + 245032817",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98
+        },
+        {
+          "text": "vHessentials + 245033579",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        }
+      ],
+      "rawText": "Dublin East - 925-241-1042\n2800 Dublin Blvd\nDublin, California 94568-4589\n06/04/2026 04:12 PM\n\nHEALTH AND BEAUTY\n245032817 vHessentials\tT\t$15.98\n2 @ $7.99 ea\n245033579 vHessentials\tT\t$6.99\n\nSUBTOTAL\t$22.97\nT = CA TAX 10.25000 on $22.92\t$2.35\nTOTAL\t$25.32\n\nReusable Bag Discount\t$0.05\n*9133 GIFT CARD PAYMENT\t$8.78\n*6583 GIFT CARD PAYMENT\t$16.49\n*6583 GIFT CARD BALANCE\t$3.51\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4519.546125000001,
+        "totalUsd": 0.0122475,
+        "inputTokens": 4355,
+        "outputTokens": 635,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "25.32",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "04:12 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94568-4589",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Dublin",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2800 Dublin Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEALTH AND BEAUTY + 245032817 vHessentials",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98
+        },
+        {
+          "text": "245033579 vHessentials",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99
+        }
+      ],
+      "rawText": "Dublin East - 925-241-1042\n2800 Dublin Blvd\nDublin, California 94568-4589\n06/04/2026 04:12 PM\nHEALTH AND BEAUTY\n245032817 vHessentials T $15.98\n2 @ $7.99 ea\n245033579 vHessentials T $6.99\nSUBTOTAL $22.97\nT = CA TAX 10.25000 on $22.92 $2.35\nTOTAL $25.32\nReusable Bag Discount $0.05\n*9133 GIFT CARD PAYMENT $8.78\n*6583 GIFT CARD PAYMENT $16.49\n*6583 GIFT CARD BALANCE $3.51\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": null,
+  "disagreementCount": 0,
+  "nullCount": 0
+}
