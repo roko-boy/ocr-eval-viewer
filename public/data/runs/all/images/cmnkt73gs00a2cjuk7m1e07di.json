@@ -1,0 +1,243 @@
+{
+  "id": "cmnkt73gs00a2cjuk7m1e07di",
+  "url": null,
+  "retailer": "Nob Hill Foods",
+  "brand": "ChiChi",
+  "amount": 7.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Nob Hill Foods",
+    "totalCost": "7.99",
+    "purchaseDate": "2026-04-04",
+    "time": null,
+    "zipCode": "94040",
+    "city": "Mountain View",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6435.835958000003,
+        "totalUsd": 0.015042,
+        "inputTokens": 6086,
+        "outputTokens": 657,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Nob Hill Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:54:53",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "NOB HILL",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0258",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CHI CHIG HOT CEREA Q1",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "NOB HILL\nFOODS\nGet Something Extra\nat Raleys.com\nTERM# 3 STORE# 634 OPERATOR# 883\n04/04/26 12:54:53\nNOB HILL (800)925-9989\n\nCHI CHIG HOT CEREA Q1 7.99 F\nSUBTOTAL 7.99\nTAX DUE .00\nTOTAL $ 7.99\nDEBIT (ATM) 7.99\nXXXXXXXXXXXX0258\nCASH CHANGE .00\n\nNUMBER OF ITEMS 1\n\n****************************************\n\n04/04/2026 12:55:48\nMID: 029801386343 TID: 001\n037916\n\nDEBIT CARD\nPURCHASE\n\nCARD #: XXXXXXXXXXXX0258\nChip Card: DEBIT\nAID: A0000000042203\nATC: 0032\nTSI: E800 ARC: 854061\nTC: 6D802E393BBAEA80\nINVOICE: 037916\nApproval Code: 854061\nEntry Method: Cntctless\nMode: Issuer-PIN Verified\n\nTotal: USD$ 7.99\n\nAPPROVED BY ISSUER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8079.585291000003,
+        "totalUsd": 0.018417,
+        "inputTokens": 3692,
+        "outputTokens": 618,
+        "reasoningTokens": 813
+      },
+      "fields": {
+        "storeName": {
+          "value": "Nob Hill Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:54:53",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95032",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CHI CHIG HOT CEREA Q1",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "NOB HILL\nFOODS\nGet Something Extra\nat Raleys.com\nTERM# 3 STORE# 634 OPERATOR# 883\n04/04/26 12:54:53\nNOB HILL (800)925-9989\n\nCHI CHIG HOT CEREA Q1 7.99 F\nSUBTOTAL 7.99\nTAX DUE .00\nTOTAL $ 7.99\nDEBIT (ATM) 7.99\nXXXXXXXXXXXX0258\nCASH CHANGE .00\n\nNUMBER OF ITEMS 1\n\n****************************************\n04/04/2026 12:55:48\nMID: 029801386343 TID: 001\n037916\nDEBIT CARD\nPURCHASE\nCARD #: XXXXXXXXXXXX0258\nChip Card: DEBIT\nAID: A0000000042203\nATC: 0032\nTSI: E800 ARC: 854061\nTC: 6D802E393BBAEA80\nINVOICE: 037916\nApproval Code: 854061\nEntry Method: Cntctless\nMode: Issuer-PIN Verified\nTotal: USD$ 7.99\nAPPROVED BY ISSUER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3885.665000000001,
+        "totalUsd": 0.011073,
+        "inputTokens": 3692,
+        "outputTokens": 615,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Nob Hill Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:54:53",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "925-9989",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CHI CHIG HOT CEREA Q1",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "NOB HILL\nFOODS\nGet Something Extra\nat Raleys.com\nTERM# 3 STORE# 634 OPERATOR# 883\n04/04/26 12:54:53\nNOB HILL (800)925-9989\nCHI CHIG HOT CEREA Q1 7.99 F\nSUBTOTAL 7.99\nTAX DUE .00\nTOTAL $ 7.99\nDEBIT (ATM) 7.99\nXXXXXXXXXXXX0258\nCASH CHANGE .00\nNUMBER OF ITEMS 1\n****************************************\n04/04/2026 12:55:48\nMID: 029801386343 TID: 001\n037916\nDEBIT CARD\nPURCHASE\nCARD #: XXXXXXXXXXXX0258\nChip Card: DEBIT\nAID: A0000000042203\nATC: 0032\nTSI: E800 ARC: 854061\nTC: 6D802E393BBAEA80\nINVOICE: 037916\nApproval Code: 854061\nEntry Method: Cntctless\nMode: Issuer-PIN Verified\nTotal: USD$ 7.99\nAPPROVED BY ISSUER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CHI CHIG HOT CEREA Q1",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

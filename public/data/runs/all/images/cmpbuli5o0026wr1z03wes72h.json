@@ -1,0 +1,419 @@
+{
+  "id": "cmpbuli5o0026wr1z03wes72h",
+  "url": null,
+  "retailer": "ALDI",
+  "brand": "Bolthouse Farms",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ALDI",
+    "totalCost": "14.17",
+    "purchaseDate": "2026-05-17",
+    "time": null,
+    "zipCode": null,
+    "city": "Westlake",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11531.33295900002,
+        "totalUsd": 0.019812,
+        "inputTokens": 6086,
+        "outputTokens": 1187,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Westlake",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5062 Seminole Pratt Whitney Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1327",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "262730 Plantains",
+          "quantity": 2,
+          "unitPrice": 0.47,
+          "totalSpend": 0.94,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "713943 Cold Pressed OJ",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "356419 Mangoes",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 0.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "356486 Avocados",
+          "quantity": 3,
+          "unitPrice": 0.55,
+          "totalSpend": 1.65,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "VOID + 365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": -1.95,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "            ALDI\n         Store #213\n 5062 Seminole Pratt Whitney Road\n        Westlake, FL\n    https://help.aldi.us\nYour cashier today was Byron\n\n262730 Plantains                    0.94 FA\n2 @               0.47\n713943 Cold Pressed OJ              6.99 FA\n356419 Mangoes                      0.69 FA\n356486 Avocados                     1.65 FA\n3 @               0.55\n365209 Condensed Milk               1.95 FA\n365209 Condensed Milk               1.95 FA\n365209 Condensed Milk               1.95 FA\nVOID\n-   365209 Condensed Milk          -1.95 FA\nDiscover                           14.17\n****************1327 OTHER\n05/17/26 15:09 Ref/Seq # 181054\nTrace # 181054\nAuth # 01789R\nAID A0000001523010\nTVR 0000000000\nIAD 0115201080001400B000010000000014\n17\nTSI 4800      ARC 000    EntryMode 07\n               ++APPROVED++\n\nSUBTOTAL                           14.17\nA-Taxable @0.00%                    0.00\nAMOUNT DUE                         14.17\nT O T A L                       $ 14.17\n9 ITEMS\nCredit Card                      $ 14.17\n\n*9437 FF93/003/019 05/17/26 03:09PM\n****************************************\n\n         Sign up for ALDI emails\n     for a sneak peek on the weekly ad!\n          www.aldi.us/signup",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 41616.89333300001,
+        "totalUsd": 0.046695,
+        "inputTokens": 3806,
+        "outputTokens": 1123,
+        "reasoningTokens": 3431
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:09",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Westlake",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5062 Seminole Pratt Whitney Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1327",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "262730 Plantains",
+          "quantity": 2,
+          "unitPrice": 0.47,
+          "totalSpend": 0.94,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "713943 Cold Pressed OJ",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "356419 Mangoes",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 0.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "356486 Avocados",
+          "quantity": 3,
+          "unitPrice": 0.55,
+          "totalSpend": 1.65,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "365209 Condensed Milk + VOID - 365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ALDI\nStore #213\n5062 Seminole Pratt Whitney Road\nWestlake, FL\nhttps://help.aldi.us\nYour cashier today was Byron\n262730 Plantains 0.94 FA\n2 @ 0.47\n713943 Cold Pressed OJ 6.99 FA\n356419 Mangoes 0.69 FA\n356486 Avocados 1.65 FA\n3 @ 0.55\n365209 Condensed Milk 1.95 FA\n365209 Condensed Milk 1.95 FA\n365209 Condensed Milk 1.95 FA\nVOID\n- 365209 Condensed Milk -1.95 FA\nDiscover 14.17\n***************1327 OTHER\n05/17/26 15:09 Ref/Seq # 181054\nTrace # 181054\nAuth # 01789R\nAID A0000001523010\nTVR 0000000000\nIAD 0115201080001400B000010000000014\n17\nTSI 4800 ARC 000 EntryMode 07\n++APPROVED++\nSUBTOTAL 14.17\nA-Taxable @0.00% 0.00\nAMOUNT DUE 14.17\nT O T A L $ 14.17\n9 ITEMS\nCredit Card $ 14.17\n*9437 FF93/03/019 05/17/26 03:09PM\n******************************************\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nwww.aldi.us/signup",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6727.612041999993,
+        "totalUsd": 0.016104,
+        "inputTokens": 3692,
+        "outputTokens": 1174,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Westlake",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5062 Seminole Pratt Whitney Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1327",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "262730 Plantains",
+          "quantity": 2,
+          "unitPrice": 0.47,
+          "totalSpend": 0.94,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "713943 Cold Pressed OJ",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "356419 Mangoes",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 0.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "356486 Avocados",
+          "quantity": 3,
+          "unitPrice": 0.55,
+          "totalSpend": 1.65,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "VOID + 365209 Condensed Milk",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": -1.95,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ALDI\nStore #213\n5062 Seminole Pratt Whitney Road\nWestlake, FL\nhttps://help.aldi.us\nYour cashier today was Byron\n262730 Plantains\n0.94 FA\n2 @\n0.47\n713943 Cold Pressed OJ\n6.99 FA\n356419 Mangoes\n0.69 FA\n356486 Avocados\n1.65 FA\n3 @\n0.55\n365209 Condensed Milk\n1.95 FA\n365209 Condensed Milk\n1.95 FA\n365209 Condensed Milk\n1.95 FA\nVOID\n- 365209 Condensed Milk\n-1.95 FA\nDiscover\n14.17\n****************1327 OTHER\n05/17/26 15:09 Ref/Seq # 181054\nTrace # 181054\nAuth # 01789R\nAID A0000001523010\nTVR 0000000000\nIAD 0115201080001400B000010000000014\n17\nTSI 4800\nARC 000\nEntryMode 07\n++APPROVED++\nSUBTOTAL\n14.17\nA-Taxable @0.00%\n0.00\nAMOUNT DUE\n14.17\nTOTAL\n$ 14.17\n9 ITEMS\nCredit Card\n$ 14.17\n*9437 FF93/003/019 05/17/26 03:09PM\n**************************************************\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nwww.aldi.us/signup",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Plantains + 262730 + 2 @ 0.47",
+      "price": 0.47,
+      "quantity": 2,
+      "totalSpend": 0.94
+    },
+    {
+      "text": "Cold Pressed OJ + 713943",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "Mangoes + 356419",
+      "price": 0.69,
+      "quantity": 1,
+      "totalSpend": 0.69
+    },
+    {
+      "text": "Avocados + 356486 + 3 @ 0.55",
+      "price": 0.55,
+      "quantity": 3,
+      "totalSpend": 1.65
+    },
+    {
+      "text": "Condensed Milk + 365209",
+      "price": 1.95,
+      "quantity": 1,
+      "totalSpend": 1.95
+    },
+    {
+      "text": "Condensed Milk + 365209",
+      "price": 1.95,
+      "quantity": 1,
+      "totalSpend": 1.95
+    },
+    {
+      "text": "Condensed Milk + 365209",
+      "price": 1.95,
+      "quantity": 1,
+      "totalSpend": 1.95
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

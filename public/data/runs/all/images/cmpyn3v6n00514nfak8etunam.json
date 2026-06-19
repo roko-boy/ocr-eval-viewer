@@ -1,0 +1,270 @@
+{
+  "id": "cmpyn3v6n00514nfak8etunam",
+  "url": null,
+  "retailer": "Vons",
+  "brand": "Boochcraft",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Vons",
+    "totalCost": "19.11",
+    "purchaseDate": "2026-06-03",
+    "time": null,
+    "zipCode": "90713",
+    "city": "Lakewood",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7710.834875,
+        "totalUsd": 0.015735,
+        "inputTokens": 6086,
+        "outputTokens": 734,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:38",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90713",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKEWOOD",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4226 WOODRUFF AVE.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8169",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOOCHCRAFT GUAVA LEM + 85001467509 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV BEER 6PK + 9506",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "VONS.\nStore 1638 Dir Ryan Butler\nMain: (562) 496-4144 Rx: (562) 496-415\n4226 WOODRUFF AVE.\nLAKEWOOD CA 90713\n00163800102002606031438\nYOUR CASHIER TODAY WAS AMY\nLIQUOR\nPrice You Pay\n85001467509 BOOCHCRAFT GUAVA LEM 18.99 16.99 T\n9506 CRV BEER 6PK 0.30 0.30 T\nMember Savings -2.00\nTAX 1.82\n**** BALANCE 19.11\nCredit Purchase 06/03/26 14:38\nCARD # ************8169\nREF: 033820481690 AUTH: 0081942D\nPAYMENT AMOUNT 19.11\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 19.11\nCHANGE 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20532.11079199999,
+        "totalUsd": 0.030828,
+        "inputTokens": 3692,
+        "outputTokens": 747,
+        "reasoningTokens": 2063
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:38",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90713",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKEWOOD",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4226 WOODRUFF AVE.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8169",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOOCHCRAFT GUAVA LEM + 85001467509",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV BEER 6PK + 9506",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "VONS.\nStore 1638 Dir Ryan Butler\nMain: (562) 496-4144 Rx: (562) 496-415\n4226 WOODRUFF AVE.\nLAKEWOOD CA 90713\n00163800102002606031438\nYOUR CASHIER TODAY WAS AMY\nLIQUOR\nPrice You Pay\n85001467509 BOOCHCRAFT GUAVA LEM\n18.99 16.99 T\n9506\nCRV BEER 6PK\n0.30 0.30 T\nMember Savings -2.00\nTAX\n1.82\n**** BALANCE\n19.11\nCredit Purchase 06/03/26 14:38\nCARD # ************8169\nREF: 033820481690 AUTH: 0081942D\nPAYMENT AMOUNT\n19.11\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n19.11\nCHANGE\n0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4717.953915999999,
+        "totalUsd": 0.01236,
+        "inputTokens": 3692,
+        "outputTokens": 758,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:38",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90713",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKEWOOD",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4226 WOODRUFF AVE.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8169",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOOCHCRAFT GUAVA LEM + 85001467509 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV BEER 6PK + 9506",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "VONS.\nStore 1638 Dir Ryan Butler\nMain: (562) 496-4144 Rx: (562) 496-415\n4226 WOODRUFF AVE.\nLAKEWOOD CA 90713\n00163800102002606031438\nYOUR CASHIER TODAY WAS AMY\nLIQUOR\nPrice You Pay\n85001467509 BOOCHCRAFT GUAVA LEM 18.99 16.99 T\n9506 CRV BEER 6PK 0.30 0.30 T\nMember Savings -2.00\nTAX 1.82\n**** BALANCE 19.11\nCredit Purchase 06/03/26 14:38\nCARD # ************8169\nREF: 033820481690 AUTH: 0081942D\nPAYMENT AMOUNT 19.11\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 19.11\nCHANGE 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOOCHCRAFT GUAVA LEM + 85001467509",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    },
+    {
+      "text": "CRV BEER 6PK + 9506 + Member Savings -2.00",
+      "price": 0.3,
+      "quantity": 1,
+      "totalSpend": 0.3
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

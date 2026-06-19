@@ -1,7 +1,9 @@
 export const MODEL_LABELS: Record<string, string> = {
   "gemini-3.5-flash": "Gemini 3.5 Flash",
   "gemini-3.5-flash-lowThinking": "Gemini 3.5 Flash (Low Thinking)",
+  "gemini-3.5-flash-mediumThinking": "Gemini 3.5 Flash (Medium Thinking)",
   "gemini-3.5-flash-minimalThinking": "Gemini 3.5 Flash (Min Thinking)",
+  "gemini-3.5-flash-merchantSpecific": "Gemini 3.5 Flash (Merchant-Specific)",
   "gemini-3.1-pro-preview": "Gemini 3.1 Pro Prev",
   "gemini-3-flash-preview": "Gemini 3 Flash Prev",
   "claude-opus-4-7": "Opus 4.7",

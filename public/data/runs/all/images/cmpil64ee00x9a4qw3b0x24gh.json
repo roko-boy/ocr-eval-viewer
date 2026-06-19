@@ -1,0 +1,911 @@
+{
+  "id": "cmpil64ee00x9a4qw3b0x24gh",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "The Ryl Company",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "189.87",
+    "purchaseDate": "2026-05-23",
+    "time": null,
+    "zipCode": "37912",
+    "city": "Knoxville",
+    "state": "TN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 20650.33370799996,
+        "totalUsd": 0.03351,
+        "inputTokens": 6086,
+        "outputTokens": 2709,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "189.87",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:48pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Knoxville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6702 CLINTON HWY.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KND. MPR. 4CT. CSPCBPC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CLIF BAR",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THINK KETO PROTEIN",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THINK KETO PROTEIN",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOBR CEREAL BAR",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOBR CEREAL BAR",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOBR CEREAL BAR",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THINK KETO PROTEIN",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRC BLU RSP TEA + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SPYLT MAX CHOCOLATPC + KROGER SAVINGS + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 3.3,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RYL GRN APL TEA + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TRC BLU RSP TEA + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "THOMAS MUFFINS + KROGER SAVINGS + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "THOMAS MUFFINS + KROGER SAVINGS + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRLT DRINK MIX + KROGER SAVINGS + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PRTZLZD MED PITA + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CEDARS ORG HOT HNY + ecpn Cedar's Hommu1.50",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SACH PANEER ORIGIN",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FRCV HNY JALA HUM + ecpn Fresh Craving1.00",
+          "quantity": 1,
+          "unitPrice": 2.8,
+          "totalSpend": 1.8,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VRMT GOAT LG",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GREEK GODS YOGURT + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 5.62,
+          "totalSpend": 4.62,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GREEK GODS YOGURT + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ARIZONA TEA",
+          "quantity": 1,
+          "unitPrice": 4.36,
+          "totalSpend": 4.36,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BENEFUL DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEPHORA GC VL",
+          "quantity": 1,
+          "unitPrice": 50,
+          "totalSpend": 50,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ULTA BEAUTY GC VL",
+          "quantity": 1,
+          "unitPrice": 50,
+          "totalSpend": 50,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FOR EVERYONE\n6702 CLINTON HWY.\n865-947-3283\nYour cashier was TAMI\nKND. MPR. 4CT. CSPCBPC 3.99 B\nCLIF BAR 6.79 B\nTHINK KETO PROTEIN 0.89 B\nTHINK KETO PROTEIN 0.89 B\nBOBR CEREAL BAR 0.49 B\nBOBR CEREAL BAR 0.49 B\nBOBR CEREAL BAR 0.49 B\nTHINK KETO PROTEIN 0.89 B\nTRC BLU RSP TEA 2.49 B\nKROGER SAVINGS 0.49\nSPYLT MAX CHOCOLATPC 3.30 B\nKROGER SAVINGS 0.30\nMega Event Savings1.00\nRYL GRN APL TEA 2.49 B\nKROGER SAVINGS 0.49\nTRC BLU RSP TEA 2.49 B\nKROGER SAVINGS 0.49\nTHOMAS MUFFINS 3.49 B\nKROGER SAVINGS 0.49\nMega Event Savings1.00\nTHOMAS MUFFINS 3.49 B\nKROGER SAVINGS 0.49\nMega Event Savings1.00\nCRLT DRINK MIX 1.99 B\nKROGER SAVINGS 0.30\nMega Event Savings1.00\nPRTZLZD MED PITA 3.99 B\nMega Event Savings1.00\nCEDARS ORG HOT HNY 4.99 B\necpn Cedar's Hommu1.50\nSACH PANEER ORIGIN 4.49 B\nFRCV HNY JALA HUM 2.80 F\necpn Fresh Craving1.00\nVRMT GOAT LG 3.99 B\nGREEK GODS YOGURT 5.62 B\nMega Event Savings1.00\nGREEK GODS YOGURT 3.99 B\nMega Event Savings1.00\nARIZONA TEA 4.36 B\nBENEFUL DOG FOOD 16.99 T\nSEPHORA GC VL 50.00\nULTA BEAUTY GC VL 50.00\nKROGER PLUS CUSTOMER\necpn 4X Fuel Pts\necpnMemorial4X\nLoad Digital Cpns\nTAX 6.27\n**** BALANCE 189.87\nKNOXVILLE TN 37912\nMastercard Purchase\n************8019 - C\nREF#: 090635 TOTAL: 189.87\nAID: A0000000041010\nTC: 4462132876452F9D\nMASTERCARD 189.87\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 24\nKROGER SAVINGS $ 10.57\nTOTAL COUPONS $ 10.57\nTOTAL SAVINGS (5 %) $ 10.57\n05/23/26 12:48pm 549 6 107 63\nAnnual Card Savings $564.94",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 42503.88166700001,
+        "totalUsd": 0.098067,
+        "inputTokens": 3692,
+        "outputTokens": 2644,
+        "reasoningTokens": 7637
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "189.87",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:48pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37912",
+          "status": "match"
+        },
+        "city": {
+          "value": "Knoxville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6702 CLINTON HWY.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KND.MPR. 4CT.CSPCBPC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CLIF BAR",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THINK KETO PROTEIN",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THINK KETO PROTEIN",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOBR CEREAL BAR",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOBR CEREAL BAR",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOBR CEREAL BAR",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRC BLU RSP TEA PC + KROGER SAVINGS 0.49",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SPYLT MAX CHOCOLATPC + KROGER SAVINGS 0.30",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RYL GRN APL TEA PC + KROGER SAVINGS 0.49",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TRC BLU RSP TEA PC + KROGER SAVINGS 0.49",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "THOMAS MUFFINS + MEGA Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "THOMAS MUFFINS + MEGA Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CRLT DRINK MIX PC + KROGER SAVINGS 0.30",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTZLZD MED PITA + MEGA Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CEDARS ORG HOT HNY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SACH PANEER ORIGIN",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FRCV HNY JALA HUM",
+          "quantity": 1,
+          "unitPrice": 2.8,
+          "totalSpend": 2.8,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "VRMT GOAT LG + ecpn Fresh Craving1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GREEK GODS YOGURT + MEGA Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GREEK GODS YOGURT + MEGA Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ARIZONA TEA PC",
+          "quantity": 1,
+          "unitPrice": 4.36,
+          "totalSpend": 4.36,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BENEFUL DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEPHORA GC VL + GB ************1805",
+          "quantity": 1,
+          "unitPrice": 50,
+          "totalSpend": 50,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ULTA BEAUTY GC VL + GB ************3854",
+          "quantity": 1,
+          "unitPrice": 50,
+          "totalSpend": 50,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FOR EVERYONE\n6702 CLINTON HWY.\n865-947-3283\nYour cashier was TAMI\nKND.MPR. 4CT.CSPCBPC 3.99 B\nCLIF BAR 6.79 B\nTHINK KETO PROTEIN 0.89 B\nTHINK KETO PROTEIN 0.89 B\nBOBR CEREAL BAR 0.49 B\nBOBR CEREAL BAR 0.49 B\nBOBR CEREAL BAR 0.49 B\nTRC BLU RSP TEA PC 2.00 B\nKROGER SAVINGS 0.49\nSPYLT MAX CHOCOLATPC 2.49 B\nKROGER SAVINGS 0.30\nRYL GRN APL TEA PC 2.00 B\nKROGER SAVINGS 0.49\nTRC BLU RSP TEA PC 2.00 B\nKROGER SAVINGS 0.49\nTHOMAS MUFFINS 3.49 B\nMEGA Event Savings1.00\nTHOMAS MUFFINS 3.49 B\nMEGA Event Savings1.00\nCRLT DRINK MIX PC 1.99 B\nKROGER SAVINGS 0.30\nPRTZLZD MED PITA 3.99 B\nMEGA Event Savings1.00\nCEDARS ORG HOT HNY 3.99 B\nSACH PANEER ORIGIN 4.49 B\nFRCV HNY JALA HUM 2.80 F\nVRMT GOAT LG 3.99 B\necpn Fresh Craving1.00\nGREEK GODS YOGURT 3.99 B\nMEGA Event Savings1.00\nGREEK GODS YOGURT 3.99 B\nMEGA Event Savings1.00\nARIZONA TEA PC 4.36 B\nBENEFUL DOG FOOD 16.99 T\nSEPHORA GC VL 50.00\nGB ************1805 50.00 BInc\nULTA BEAUTY GC VL 50.00\nGB ************3854 50.00 BInc\nKROGER PLUS CUSTOMER\necpn 4X Fuel Pts\necpnMemorial4X\nLoad Digital Cpns\nTAX 6.27\n**** BALANCE 189.87\nKNOXVILLE TN 37912\nMastercard Purchase\n************8019 - C\nREF#: 090635 TOTAL: 189.87\nAID: A0000000041010\nTC: 4462132876452F9D\nMASTERCARD 189.87\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 24\nKROGER SAVINGS $ 10.57\nTOTAL COUPONS $ 10.57\nTOTAL SAVINGS (5 %) $ 10.57\n05/23/26 12:48pm 549 6 107 63\n***********************************\nAnnual Card Savings $564.94",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 13452.65770899999,
+        "totalUsd": 0.030612,
+        "inputTokens": 3692,
+        "outputTokens": 2786,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "189.87",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:48pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37912",
+          "status": "match"
+        },
+        "city": {
+          "value": "Knoxville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6702 CLINTON HWY.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KND.MPR. 4CT.CSPCPBC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLIF BAR",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THINK KETO PROTEIN",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THINK KETO PROTEIN",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOBR CEREAL BAR",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOBR CEREAL BAR",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOBR CEREAL BAR",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THINK KETO PROTEIN + KROGER SAVINGS 0.49",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TRC BLU RSP TEA + KROGER SAVINGS 0.49",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SPYLT MAX CHOCOLATPC + KROGER SAVINGS 0.30 + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RYL GRN APL TEA + KROGER SAVINGS 0.49",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TRC BLU RSP TEA + KROGER SAVINGS 0.49",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "THOMAS MUFFINS + KROGER SAVINGS 0.49 + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "THOMAS MUFFINS + KROGER SAVINGS 0.49 + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRLT DRINK MIX + KROGER SAVINGS 0.30 + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTZLZD MED PITA + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CEDARS ORG HOT HNY + ecpn Cedar's Hommu1.50",
+          "quantity": 1,
+          "unitPrice": 4.3,
+          "totalSpend": 2.8,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SACH PANEER ORIGIN",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FRCV HNY JALA HUM + ecpn Fresh Craving1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VRMT GOAT LG",
+          "quantity": 1,
+          "unitPrice": 5.62,
+          "totalSpend": 5.62,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GREEK GODS YOGURT + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GREEK GODS YOGURT + Mega Event Savings1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ARIZONA TEA",
+          "quantity": 1,
+          "unitPrice": 4.36,
+          "totalSpend": 4.36,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BENEFUL DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEPHORA GC VL",
+          "quantity": 1,
+          "unitPrice": 50,
+          "totalSpend": 50,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ULTA BEAUTY GC VL",
+          "quantity": 1,
+          "unitPrice": 50,
+          "totalSpend": 50,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FOR EVERYONE\n6702 CLINTON HWY.\n865-947-3283\nYour cashier was TAMI\nKND.MPR. 4CT.CSPCPBC 3.99 B\nCLIF BAR 6.79 B\nTHINK KETO PROTEIN 0.89 B\nTHINK KETO PROTEIN 0.89 B\nBOBR CEREAL BAR 0.49 B\nBOBR CEREAL BAR 0.49 B\nBOBR CEREAL BAR 0.49 B\nTHINK KETO PROTEIN 2.49 B\nKROGER SAVINGS 0.49\nTRC BLU RSP TEA 2.49 B\nKROGER SAVINGS 0.49\nSPYLT MAX CHOCOLATPC 3.49 B\nKROGER SAVINGS 0.30\nMega Event Savings1.00\nRYL GRN APL TEA 2.49 B\nKROGER SAVINGS 0.49\nTRC BLU RSP TEA 2.49 B\nKROGER SAVINGS 0.49\nTHOMAS MUFFINS 3.49 B\nKROGER SAVINGS 0.49\nMega Event Savings1.00\nTHOMAS MUFFINS 3.49 B\nKROGER SAVINGS 0.49\nMega Event Savings1.00\nCRLT DRINK MIX 3.29 B\nKROGER SAVINGS 0.30\nMega Event Savings1.00\nPRTZLZD MED PITA 4.99 B\nMega Event Savings1.00\nCEDARS ORG HOT HNY 4.30 F\necpn Cedar's Hommu1.50\nSACH PANEER ORIGIN 4.49 B\nFRCV HNY JALA HUM 3.99 B\necpn Fresh Craving1.00\nVRMT GOAT LG 5.62 B\nGREEK GODS YOGURT 4.99 B\nMega Event Savings1.00\nGREEK GODS YOGURT 4.99 B\nMega Event Savings1.00\nARIZONA TEA 4.36 B\nBENEFUL DOG FOOD 16.99 T\nSEPHORA GC VL 50.00\nULTA BEAUTY GC VL 50.00\nKROGER PLUS CUSTOMER\necpn 4X Fuel Pts\necpnMemorial4X\nLoad Digital Cpns\nTAX 6.27\n**** BALANCE 189.87\nKNOXVILLE TN 37912\nMastercard Purchase\n************8019 - C\nREF#: 09063S TOTAL: 189.87\nAID: A0000000041010\nTC: 4462132876452F9D\nMASTERCARD 189.87\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 24\nKROGER SAVINGS $ 10.57\nTOTAL COUPONS $ 10.57\nTOTAL SAVINGS (5 %) $ 10.57\n05/23/26 12:48pm 549 6 107 63\nAnnual Card Savings $564.94",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KND.MPR.4CT.CSPCPB",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "CLIF BAR",
+      "price": 6.79,
+      "quantity": 1,
+      "totalSpend": 6.79
+    },
+    {
+      "text": "THINK KETO PROTEIN",
+      "price": 0.89,
+      "quantity": 1,
+      "totalSpend": 0.89
+    },
+    {
+      "text": "THINK KETO PROTEIN",
+      "price": 0.89,
+      "quantity": 1,
+      "totalSpend": 0.89
+    },
+    {
+      "text": "BOBR CEREAL BAR",
+      "price": 0.49,
+      "quantity": 1,
+      "totalSpend": 0.49
+    },
+    {
+      "text": "BOBR CEREAL BAR",
+      "price": 0.49,
+      "quantity": 1,
+      "totalSpend": 0.49
+    },
+    {
+      "text": "BOBR CEREAL BAR",
+      "price": 0.49,
+      "quantity": 1,
+      "totalSpend": 0.49
+    },
+    {
+      "text": "THINK KETO PROTEIN",
+      "price": 0.89,
+      "quantity": 1,
+      "totalSpend": 0.89
+    },
+    {
+      "text": "TRC BLU RSP TEA + SC KROGER SAVINGS 0.49",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "SPYLT MAX CHOCOLAT + SC KROGER SAVINGS 0.30 + SC Mega Event Savings 1.00",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "RYL GRN APL TEA + SC KROGER SAVINGS 0.49",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "TRC BLU RSP TEA + SC KROGER SAVINGS 0.49",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "THOMAS MUFFINS + SC Mega Event Savings 1.00",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "THOMAS MUFFINS + SC Mega Event Savings 1.00",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "CRLT DRINK MIX + SC KROGER SAVINGS 0.30 + SC Mega Event Savings 1.00",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "PRTZLZED MED PITA",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "CEDARS ORG HOT HNY + SC eCpn Cedar's Hommu 1.50",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SACH PANEER ORIGIN",
+      "price": 2.8,
+      "quantity": 1,
+      "totalSpend": 2.8
+    },
+    {
+      "text": "FRCV HNY JALA HUM + SC eCpn Fresh Craving 1.00",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "VRMT GOAT LG",
+      "price": 5.62,
+      "quantity": 1,
+      "totalSpend": 5.62
+    },
+    {
+      "text": "GREEK GODS YOGURT + SC Mega Event Savings 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "GREEK GODS YOGURT + SC Mega Event Savings 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "ARIZONA TEA",
+      "price": 4.36,
+      "quantity": 1,
+      "totalSpend": 4.36
+    },
+    {
+      "text": "BENEFUL DOG FOOD",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    },
+    {
+      "text": "SEPHORA GC VL + GB ************1805 50.00 Blnc",
+      "price": 50,
+      "quantity": 1,
+      "totalSpend": 50
+    },
+    {
+      "text": "ULTA BEAUTY GC VL + GB ************3854 50.00 Blnc + KROGER PLUS CUSTOMER *******5021 + SC eCpn 4X Fuel Pts + SC eCpnMemorial4X",
+      "price": 50,
+      "quantity": 1,
+      "totalSpend": 50
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

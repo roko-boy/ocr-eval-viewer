@@ -1,0 +1,264 @@
+{
+  "id": "cmnb8634t001ywj7nl4mukmnf",
+  "url": null,
+  "retailer": "FreshCo",
+  "brand": "Ketone-IQ™",
+  "amount": 31.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "FreshCo",
+    "totalCost": "30.11",
+    "purchaseDate": "2026-03-12",
+    "time": null,
+    "zipCode": "93004",
+    "city": "Ventuna",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12838.730416,
+        "totalUsd": 0.0154905,
+        "inputTokens": 6163,
+        "outputTokens": 694,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": "2026-03-12",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93004",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ventura",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7786 Hermosa St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "75566802 - Old Spice Fresh Collection Deodorant Deep Sea Ocean Elements - 3oz: Aluminum-Free, Invisible Solid, Normal Skin + SHIP_2024 Global SW 35 FreeShip FS + $1 shipping discount",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.39,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "94743173 - Ketone-IQ Classic Raspberry Lemonade Non Caffeine Energy Drink - 6pk/2 fl oz + $1 shipping discount + SHIP_2024 Global SW 35 FreeShip FS",
+          "quantity": 1,
+          "unitPrice": 31.99,
+          "totalSpend": 30.11,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Invoice 1 of 1\n\nShip to\nRichard Williams\n7786 Hermosa St\nVentura, CA 93004\n\nInvoice date: Thu, Mar 12, 2026\nInvoice number: 60713991373503780\n\nItem\n75566802 - Old Spice Fresh Collection Deodorant\nDeep Sea Ocean Elements - 3oz: Aluminum-Free,\nInvisible Solid, Normal Skin\nQty. 1\nUnit price $7.99\nAmount $7.99\nSHIP_2024 Global SW 35 FreeShip FS -$1.50\n$1 shipping discount -$0.10\nItem subtotal $6.39\nNo rush shipping $1.50\nSales tax $0.61\nItem total $8.50\n\nItem\n94743173 - Ketone-IQ Classic Raspberry\nLemonade Non Caffeine Energy Drink - 6pk/2 fl oz\nQty. 1\nUnit price $31.99\nAmount $31.99\n$1 shipping discount -$0.38\nSHIP_2024 Global SW 35 FreeShip FS -$1.50\nItem subtotal $30.11",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15236.368916,
+        "totalUsd": 0.032286,
+        "inputTokens": 3692,
+        "outputTokens": 693,
+        "reasoningTokens": 2279
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": "2026-03-12",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93004",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ventura",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7786 Hermosa St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "755566802 - Old Spice Fresh Collection Deodorant Deep Sea Ocean Elements - 3oz: Aluminum-Free, Invisible Solid, Normal Skin + SHIP_2024 Global SW 35 FreeShip FS + $1 shipping discount",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.39,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "94743173 - Ketone-IQ Classic Raspberry Lemonade Non Caffeine Energy Drink - 6pk/2 fl oz + $1 shipping discount + SHIP_2024 Global SW 35 FreeShip FS",
+          "quantity": 1,
+          "unitPrice": 31.99,
+          "totalSpend": 30.11,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Invoice 1 of 1\n\nShip to\nRichard Williams\n7786 Hermosa St\nVentura, CA 93004\n\nInvoice date: Thu, Mar 12, 2026\nInvoice number: 60713991373503780\n\nItem\n755566802 - Old Spice Fresh Collection Deodorant\nDeep Sea Ocean Elements - 3oz: Aluminum-Free,\nInvisible Solid, Normal Skin\nQty. 1\nUnit price $7.99\nAmount $7.99\n\nSHIP_2024 Global SW 35 FreeShip FS -$1.50\n$1 shipping discount -$0.10\n\nItem subtotal $6.39\n\nNo rush shipping $1.50\nSales tax $0.61\n\nItem total $8.50\n\nItem\n94743173 - Ketone-IQ Classic Raspberry\nLemonade Non Caffeine Energy Drink - 6pk/2 fl oz\nQty. 1\nUnit price $31.99\nAmount $31.99\n\n$1 shipping discount -$0.38\nSHIP_2024 Global SW 35 FreeShip FS -$1.50\n\nItem subtotal $30.11",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4014.937,
+        "totalUsd": 0.011127,
+        "inputTokens": 3692,
+        "outputTokens": 621,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": "2026-03-12",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93004",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ventura",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7786 Hermosa St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "75566802 - Old Spice Fresh Collection Deodorant Deep Sea Ocean Elements - 3oz: Aluminum-Free, Invisible Solid, Normal Skin",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.39,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "94743173 - Ketone-IQ Classic Raspberry Lemonade Non Caffeine Energy Drink - 6pk/2 fl oz",
+          "quantity": 1,
+          "unitPrice": 31.99,
+          "totalSpend": 30.11,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Invoice 1 of 1\nShip to\nRichard Williams\n7786 Hermosa St\nVentura, CA 93004\nInvoice date: Thu, Mar 12, 2026\nInvoice number: 60713991373503780\nItem Qty. Unit price Amount\n75566802 - Old Spice Fresh Collection Deodorant 1 $7.99 $7.99\nDeep Sea Ocean Elements - 3oz: Aluminum-Free,\nInvisible Solid, Normal Skin\nSHIP_2024 Global SW 35 FreeShip FS -$1.50\n$1 shipping discount -$0.10\nItem subtotal $6.39\nNo rush shipping $1.50\nSales tax $0.61\nItem total $8.50\nItem Qty. Unit price Amount\n94743173 - Ketone-IQ Classic Raspberry 1 $31.99 $31.99\nLemonade Non Caffeine Energy Drink - 6pk/2 fl oz\n$1 shipping discount -$0.38\nSHIP_2024 Global SW 35 FreeShip FS -$1.50\nItem subtotal $30.11",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Ketone-IQ Classic Raspbemy + 94743173 + Lemonade Non Caffeine EnergyDrink - 6pk/2 l oz",
+      "price": 31.99,
+      "quantity": 1,
+      "totalSpend": 31.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

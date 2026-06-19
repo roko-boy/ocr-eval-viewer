@@ -1,0 +1,270 @@
+{
+  "id": "cmnp3n5gt002mjzlxgbfwae2s",
+  "url": null,
+  "retailer": "Circle K",
+  "brand": "Olipop",
+  "amount": 1.6,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Circle K",
+    "totalCost": "12.92",
+    "purchaseDate": "2026-04-07",
+    "time": null,
+    "zipCode": "34475",
+    "city": "Ocala",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5266.905457999994,
+        "totalUsd": 0.014292,
+        "inputTokens": 6162,
+        "outputTokens": 561,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Circle K",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:55:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34475",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ocala",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6961 N US Hwy 441",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "5 OLIPOP CLRTBR SLKCN 12Z",
+          "quantity": 5,
+          "unitPrice": 1.6,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "3 PRIME E DRIPSICLE 16Z + Inner Circle",
+          "quantity": 3,
+          "unitPrice": 1.64,
+          "totalSpend": 4.92,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "4/7/2026 1:55:20 PM\nOrder Number: 1739650\nCircle K 2722902\n6961 N US Hwy 441\nOcala, FL 34475\n(352) 368-1911\nRegister:2 3065096, Cindy\nT 5 OLIPOP CLRTBR SLKCN 12Z $8.00\nT 3 PRIME E DRIPSICLE 16Z $4.92\nInner Circle $0.00\nSub. Total: $12.92\nTax: $0.00\nPenny Rounding: $0.00\nTotal: $12.92\nDiscount Total: $0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11279.37000000002,
+        "totalUsd": 0.026088,
+        "inputTokens": 3730,
+        "outputTokens": 549,
+        "reasoningTokens": 1728
+      },
+      "fields": {
+        "storeName": {
+          "value": "Circle K",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:55:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34475",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ocala",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6961 N US Hwy 441",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OLIPOP CLRTBR SLKCN 12Z",
+          "quantity": 5,
+          "unitPrice": 1.6,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRIME E DRIPSICLE 16Z",
+          "quantity": 3,
+          "unitPrice": 1.64,
+          "totalSpend": 4.92,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "4/7/2026 1:55:20 PM\nOrder Number: 1739650\nCircle K 2722902\n6961 N US Hwy 441\nOcala, FL 34475\n(352) 368-1911\nRegister:2 3065096, Cindy\n\nT 5 OLIPOP CLRTBR SLKCN 12Z $8.00\nT 3 PRIME E DRIPSICLE 16Z $4.92\nInner Circle $0.00\nSub. Total: $12.92\nTax: $0.00\nPenny Rounding: $0.00\nTotal: $12.92\nDiscount Total: $0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3706.621625,
+        "totalUsd": 0.010635,
+        "inputTokens": 3730,
+        "outputTokens": 560,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Circle K",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:55:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34475",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ocala",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6961 N US Hwy 441",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OLIPOP CLRTBR SLKCN 12Z",
+          "quantity": 5,
+          "unitPrice": 1.6,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRIME E DRIPSICLE 16Z + Inner Circle",
+          "quantity": 3,
+          "unitPrice": 1.64,
+          "totalSpend": 4.92,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "4/7/2026 1:55:20 PM\nOrder Number: 1739650\nCircle K 2722902\n6961 N US Hwy 441\nOcala, FL 34475\n(352) 368-1911\nRegister:2 3065096, Cindy\nT 5 OLIPOP CLRTBR SLKCN 12Z $8.00\nT 3 PRIME E DRIPSICLE 16Z $4.92\nInner Circle $0.00\nSub. Total: $12.92\nTax: $0.00\nPenny Rounding: $0.00\nTotal: $12.92\nDiscount Total: $0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "OLIPOP CLRTBR SLKCN 12Z",
+      "price": 1.6,
+      "quantity": 5,
+      "totalSpend": 8
+    },
+    {
+      "text": "PRIME E DRIPSICLE 16Z",
+      "price": 1.64,
+      "quantity": 3,
+      "totalSpend": 4.92
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

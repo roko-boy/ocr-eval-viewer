@@ -1,0 +1,243 @@
+{
+  "id": "cmp49h8l20026ivo4zehjgzio",
+  "url": null,
+  "retailer": "Farmers Market",
+  "brand": "Boochcraft",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Farmers Market",
+    "totalCost": "21.39",
+    "purchaseDate": "2026-05-12",
+    "time": null,
+    "zipCode": "33442",
+    "city": "Deerfield Beach",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11809.04941699999,
+        "totalUsd": 0.0259575,
+        "inputTokens": 6169,
+        "outputTokens": 648,
+        "reasoningTokens": 1208
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "21.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:55:11",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33442",
+          "status": "match"
+        },
+        "city": {
+          "value": "Deerfield Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3701 W Hillsboro Blvd, Ste B",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3265",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HARD KOMBUCHA 8 PK",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n3701 W Hillsboro Blvd, Ste B\nDeerfield Beach, FL 33442\n(754) 346-6322\nStore Hours MON-SUN 7AM-10PM\n05/12/2026 16:55:11\nCHASE VISA Entry Method: Chip\nCARD #: XXXXXXXXXXXX3265\nPURCHASE - APPROVED\nAUTH CODE:05488D\nMode: Issuer\nAID: A0000000031010\nTVR: 0000008000\nIAD: 06021203A0A002\nTSI: E800 ARC: 00\nTC: B97CB766C5D0601E\nMID: 153909 TID: 001 RRN: 045169\nTotal: USD$ 21.39\nBEER\nAge Confirmed - 4 /15/1966\nHARD KOMBUCHA 8 PK 19.99 T\nTax Report\nSales Tax 19.99 1.40 TT\nBALANCE DUE 21.39\nCREDIT $21.39\n[ ] XXXXXXXXXXXX3265\nAuth# 05488D Ref# 045169\nCHANGE 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10116.44929099998,
+        "totalUsd": 0.020037,
+        "inputTokens": 3692,
+        "outputTokens": 653,
+        "reasoningTokens": 958
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "21.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:55:11",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33442",
+          "status": "match"
+        },
+        "city": {
+          "value": "Deerfield Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3701 W Hillsboro Blvd, Ste B",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3265",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HARD KOMBUCHA 8 PK",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n3701 W Hillsboro Blvd, Ste B\nDeerfield Beach, FL 33442\n(754) 346-6322\nStore Hours MON-SUN 7AM-10PM\n\n05/12/2026 16:55:11\nCHASE VISA Entry Method: Chip\nCARD #: XXXXXXXXXXXX3265\nPURCHASE - APPROVED\nAUTH CODE:05488D\n\nMode: Issuer\nAID: A0000000031010\nTVR: 0000008000\nIAD: 06021203A0A002\nTSI: E800 ARC: 00\nTC: B97CB766C5D0601E\nMID: 153909 TID: 001 RRN: 045169\n\nTotal: USD$ 21.39\n\nBEER\nAge Confirmed - 4 /15/1966\nHARD KOMBUCHA 8 PK 19.99 T\n\nTax Report\nSales Tax 19.99 1.40 TT\n\nBALANCE DUE 21.39\nCREDIT $21.39\n[ ] XXXXXXXXXXXX3265\nAuth# 05488D Ref# 045169\nCHANGE 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4512.138875000004,
+        "totalUsd": 0.011505,
+        "inputTokens": 3692,
+        "outputTokens": 663,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "21.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:55:11",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33442",
+          "status": "match"
+        },
+        "city": {
+          "value": "Deerfield Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3701 W Hillsboro Blvd, Ste B",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3265",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HARD KOMBUCHA 8 PK",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n3701 W Hillsboro Blvd, Ste B\nDeerfield Beach, FL 33442\n(754) 346-6322\nStore Hours MON-SUN 7AM-10PM\n05/12/2026\n16:55:11\nCHASE VISA\nEntry Method: Chip\nCARD #:\nXXXXXXXXXXXX3265\nPURCHASE\n- APPROVED\nAUTH CODE:05488D\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000008000\nIAD:\n06021203A0A002\nTSI: E800\nARC: 00\nTC:\nB97CB766C5D0601E\nMID: 153909\nTID: 001\nRRN: 045169\nTotal:\nUSD$ 21.39\nBEER\nAge Confirmed - 4 /15/1966\nHARD KOMBUCHA 8 PK\n19.99 T\nTax Report\nSales Tax\n19.99\n1.40 TT\nBALANCE DUE\n21.39\nCREDIT\n$21.39\n[ ] XXXXXXXXXXXX3265\nAuth# 05488D\nRef# 045169\nCHANGE\n0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HARD KOMBUCHA 8 PK",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,540 @@
+{
+  "id": "cmoot6noj004lvx618embjvo0",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Botticelli",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": null,
+    "purchaseDate": "2026-05-02",
+    "time": null,
+    "zipCode": "88011",
+    "city": "Las Cruces",
+    "state": "NM",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15479.593125,
+        "totalUsd": 0.0272535,
+        "inputTokens": 6163,
+        "outputTokens": 2001,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "91.48",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:44 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "88011-8233",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Las Cruces",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2541 E Lohman Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1603",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOTTICELLI + 212400240 + Regular Price $4.99",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Lisre Hydrtn + 203750601",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Stillrs Soda + 203050144 + 3 @ $2.19 ea",
+          "quantity": 3,
+          "unitPrice": 2.19,
+          "totalSpend": 6.57,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OathNutrtion + 082023271",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Function + 063006153 + 3 @ $4.99 ea + Regular Price $9.99",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "totalSpend": 14.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MdebyDentist + 049090131",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Fancy Feast + 083163488 + 4 @ $1.99 ea",
+          "quantity": 4,
+          "unitPrice": 1.99,
+          "totalSpend": 7.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MrsMyrsClnDy + 003029973 + Regular Price $10.19",
+          "quantity": 1,
+          "unitPrice": 10.19,
+          "totalSpend": 5.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Glade + 003049597 + Digital MFR Coupon $2.00-",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SeventhGrtn + 003020444 + 4 @ $4.49 ea + Regular Price $4.99 + BOGO20% Circle",
+          "quantity": 4,
+          "unitPrice": 4.99,
+          "totalSpend": 17.96,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SeventhGrtn + 003020448 + 2 @ $4.49 ea + Regular Price $4.99 + BOGO20% Circle",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 8.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TARGET BAG + 004100019 + 2 @ $0.00 ea + Bag Fee",
+          "quantity": 2,
+          "unitPrice": 0.1,
+          "totalSpend": 0.2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Las Cruces - 575-532-5899\n2541 E Lohman Ave\nLas Cruces, New Mexico 88011-8233\n05/02/2026 10:44 AM\nGROCERY\n212400240 BOTTICELLI NF $2.49\nRegular Price $4.99\n203750601 Lisre Hydrtn NF $2.69\n203050144 Stillrs Soda NF $6.57\n3 @ $2.19 ea\nHEALTH AND BEAUTY\n082023271 OathNutrtion N $2.99\n063006153 Function T $14.97\n3 @ $4.99 ea\nRegular Price $9.99\n049090131 MdebyDentist T $16.99\nHOME\n083163488 Fancy Feast T $7.96\n4 @ $1.99 ea\nLAUNDRY CLEANING AND CLOSET\n003029973 MrsMyrsClnDy T $5.09\nRegular Price $10.19\n003049597 Glade T $2.99\nDigital MFR Coupon\n$2.00-\n003020444 SeventhGrtn T $17.96\n4 @ $4.49 ea\nRegular Price $4.99\nBOGO20% Circle\n003020448 SeventhGrtn T $8.98\n2 @ $4.49 ea\nRegular Price $4.99\nBOGO20% Circle\nNON RETAIL\n004100019 TARGET BAG TP $0.00\n2 @ $0.00 ea\nBag Fee $0.20\nSUBTOTAL $89.88\nTarget Circle Card 5% $4.38 -\nT = NM TAX 8.39000 on $71.29 $5.98\nTOTAL $91.48\nDigital MFR Coupon PAYMENT $2.00\n*1603 TARGET CARD $89.48\nAUTH CODE: 002112\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE.\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$7.38\nFee may not be refundable\nREC#2-6122-0769-0163-7429-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7387 7923 1983\nPassword: 625 704\nCUENTENOS EN ESPANOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 30272.803416,
+        "totalUsd": 0.065649,
+        "inputTokens": 3692,
+        "outputTokens": 1987,
+        "reasoningTokens": 4692
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "91.48",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:44 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "88011-8233",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Las Cruces",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2541 E Lohman Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1603",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "212400240 BOTTICELLI + Regular Price $4.99",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "203750601 Lisre Hydrtn",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "203050144 Stillrs Soda + 3 @ $2.19 ea",
+          "quantity": 3,
+          "unitPrice": 2.19,
+          "totalSpend": 6.57,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "082023271 OathNutrtion",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "063006153 Function + 3 @ $4.99 ea + Regular Price $9.99",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "totalSpend": 14.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "049090131 MdebyDentist",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "083163488 Fancy Feast + 4 @ $1.99 ea",
+          "quantity": 4,
+          "unitPrice": 1.99,
+          "totalSpend": 7.96,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003029973 MrsMyrsClnDy + Regular Price $10.19",
+          "quantity": 1,
+          "unitPrice": 10.19,
+          "totalSpend": 5.09,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003049597 Glade + Digital MFR Coupon $2.00-",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003020444 SeventhGnrtn + 4 @ $4.49 ea + Regular Price $4.99 + BOGO20% Circle",
+          "quantity": 4,
+          "unitPrice": 4.99,
+          "totalSpend": 17.96,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003020448 SeventhGnrtn + 2 @ $4.49 ea + Regular Price $4.99 + BOGO20% Circle",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 8.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004100019 TARGET BAG + 2 @ $0.00 ea + Bag Fee",
+          "quantity": 2,
+          "unitPrice": 0.1,
+          "totalSpend": 0.2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Las Cruces - 575-532-5899\n2541 E Lohman Ave\nLas Cruces, New Mexico 88011-8233\n05/02/2026 10:44 AM\n\nGROCERY\n212400240 BOTTICELLI NF $2.49\nRegular Price $4.99\n203750601 Lisre Hydrtn NF $2.69\n203050144 Stillrs Soda NF $6.57\n3 @ $2.19 ea\nHEALTH AND BEAUTY\n082023271 OathNutrtion N $2.99\n063006153 Function T $14.97\n3 @ $4.99 ea\nRegular Price $9.99\n049090131 MdebyDentist T $16.99\nHOME\n083163488 Fancy Feast T $7.96\n4 @ $1.99 ea\nLAUNDRY CLEANING AND CLOSET\n003029973 MrsMyrsClnDy T $5.09\nRegular Price $10.19\n003049597 Glade T $2.99\nDigital MFR Coupon\n$2.00-\n003020444 SeventhGnrtn T $17.96\n4 @ $4.49 ea\nRegular Price $4.99\nBOGO20% Circle\n003020448 SeventhGnrtn T $8.98\n2 @ $4.49 ea\nRegular Price $4.99\nBOGO20% Circle\nNON RETAIL\n004100019 TARGET BAG TP $0.00\n2 @ $0.00 ea\nBag Fee $0.20\n\nSUBTOTAL $89.88\nTarget Circle Card 5% $4.38 -\nT = NM TAX 8.39000% on $71.29 $5.98\nTOTAL $91.48\n\nDigital MFR Coupon PAYMENT $2.00\n*1603 TARGET CARD $89.48\nAUTH CODE: 002112\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE.\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$7.38\n\nFee may not be refundable\n\nREC#2-6122-0769-0163-7429-6\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7387 7923 1983\nPassword: 625 704\n\nCUENTENOS EN ESPANOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9075.834458000001,
+        "totalUsd": 0.022494,
+        "inputTokens": 3692,
+        "outputTokens": 1884,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "91.48",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:44 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "88011-8233",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Las Cruces",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2541 E Lohman Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1603",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOTTICELLI + 212400240",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Lisre Hydrtn + 203750301",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Stillrs Soda + 203050144",
+          "quantity": 3,
+          "unitPrice": 2.19,
+          "totalSpend": 6.57,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OathNutrtion + 082023271",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Function + 063006153",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "totalSpend": 14.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MdebyDentist + 049090131",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Fancy Feast + 083163488",
+          "quantity": 4,
+          "unitPrice": 1.99,
+          "totalSpend": 7.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MrsMyrsClnDy + 003029973",
+          "quantity": 1,
+          "unitPrice": 10.19,
+          "totalSpend": 5.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Glade + 003049597 + Digital MFR Coupon $2.00-",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SeventhGrtn + 003020444 + BOGO20% Circle",
+          "quantity": 4,
+          "unitPrice": 4.99,
+          "totalSpend": 17.96,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SeventhGrtn + 003020448 + BOGO20% Circle",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 8.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TARGET BAG + 004100019 + Bag Fee",
+          "quantity": 2,
+          "unitPrice": 0.1,
+          "totalSpend": 0.2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Las Cruces - 575-532-5899\n2541 E Lohman Ave\nLas Cruces, New Mexico 88011-8233\n05/02/2026 10:44 AM\nGROCERY\n212400240 BOTTICELLI NF $2.49\nRegular Price $4.99\n203750301 Lisre Hydrtn NF $2.69\n203050144 Stillrs Soda NF $6.57\n3 @ $2.19 ea\nHEALTH AND BEAUTY\n082023271 OathNutrtion N $2.99\n063006153 Function T $14.97\n3 @ $4.99 ea\nRegular Price $9.99\n049090131 MdebyDentist T $16.99\nHOME\n083163488 Fancy Feast T $7.96\n4 @ $1.99 ea\nLAUNDRY CLEANING AND CLOSET\n003029973 MrsMyrsClnDy T $5.09\nRegular Price $10.19\n003049597 Glade T $2.99\nDigital MFR Coupon\n$2.00-\n003020444 SeventhGrtn T $17.96\n4 @ $4.49 ea\nRegular Price $4.99\nBOGO20% Circle\n003020448 SeventhGrtn T $8.98\n2 @ $4.49 ea\nRegular Price $4.99\nBOGO20% Circle\nNON RETAIL\n004100019 TARGET BAG TP $0.00\n2 @ $0.00 ea\nBag Fee $0.20\nSUBTOTAL $89.88\nTarget Circle Card 5% $4.38 -\nT = NM TAX 8.39000 on $71.29 $5.98\nTOTAL $91.48\nDigital MFR Coupon PAYMENT $2.00\n*1603 TARGET CARD $89.48\nAUTH CODE: 002112\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE.\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$7.38\nFee may not be refundable\nREC#2-6122-0769-0163-7429-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7387 7923 1983\nPassword: 625 704\nCUENTENOS EN ESPANOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOTTICELLI + 212400240 + Regular Price $4.99",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "Lisre Hydrtn + 203750601",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    },
+    {
+      "text": "Stillrs Soda + 203050144 + 3 @ $2.19 ea + HEALTH AND BEAUTY",
+      "price": 2.19,
+      "quantity": 3,
+      "totalSpend": 6.57
+    },
+    {
+      "text": "OathNutrtion + 082023271",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "Function + 063006153 + 3 @ $4.99 ea + Regular Price $9.99",
+      "price": 4.99,
+      "quantity": 3,
+      "totalSpend": 14.97
+    },
+    {
+      "text": "MdebyDentist + 049090131 + HOME",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    },
+    {
+      "text": "Fancy Feast + 083163488 + 4 @ $1.99 ea + LAUNDRY CLEANING AND CLOSET",
+      "price": 1.99,
+      "quantity": 4,
+      "totalSpend": 7.96
+    },
+    {
+      "text": "MrsMyrsClnDy + 003029973 + Regular Price $10.19",
+      "price": 5.09,
+      "quantity": 1,
+      "totalSpend": 5.09
+    },
+    {
+      "text": "Glade + 003049597 + Digital MFR Coupon $2.00-",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SeventhGnrtn + 003020444 + 4 @ $4.49 ea + Regular Price $4.99",
+      "price": 4.49,
+      "quantity": 4,
+      "totalSpend": 17.96
+    },
+    {
+      "text": "SeventhGnrtn + 003020448 + 2 @ $4.49 ea + Regular Price $4.99",
+      "price": 4.49,
+      "quantity": 2,
+      "totalSpend": 8.98
+    },
+    {
+      "text": "Bag Fee",
+      "price": 0.2,
+      "quantity": 1,
+      "totalSpend": 0.2
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,270 @@
+{
+  "id": "cmp8ka2bn006sneps4yvv6u0s",
+  "url": null,
+  "retailer": "Hannaford",
+  "brand": "Beyond Good",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Hannaford",
+    "totalCost": "17.18",
+    "purchaseDate": "2026-05-16",
+    "time": null,
+    "zipCode": "05201",
+    "city": "Bennington",
+    "state": "VT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13364.430083,
+        "totalUsd": 0.015951,
+        "inputTokens": 6086,
+        "outputTokens": 758,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hannaford",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:30:04",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "05201",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bennington",
+          "status": "match"
+        },
+        "state": {
+          "value": "VT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "350 North Side Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9339",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BYND GD ORG MDGS VAN",
+          "quantity": 1,
+          "unitPrice": 16.39,
+          "totalSpend": 16.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Plu# 4053 + LARGE LEMONS",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Hannaford\n350 North Side Dr - Bennington VT 05201\n(802) 442-1521 - www.hannaford.com\n\nGROCERY\n  BYND GD ORG MDGS VAN  16.39 *\nPRODUCE\n  Plu# 4053\n  LARGE LEMONS  W  0.79 *\n\n2 BALANCE DUE  17.18\n  American Express  $17.18\n\nMID: 160000101474\nRRN: 510577\n\nSALE\nXXXXXXXXXXXX9339\nAmerican Express Entry Method: Chip\n\n05/16/2026 11:30:04\nINVOICE: 510577\n\nAMEX\nAID: A000000025010402\nTVR: 0000008000\nTSI: E800\nTotal: USD$ 17.18\nAPPROVED : 701016\n\nCHANGE 0.00\n\nYTD Savings $70.61\n\nMY HANNAFORD REWARDS TOTALS\nThis Visit $0\nThis Quarter $0.42\nYear to Date $6.13\n\nMy Hannaford Rewards #042001411843\n****************************************\nHow was your visit?\nTake our survey to help us improve.\nWithin the next 5 days please visit:\nwww.TalkToHannaford.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9973.176500000001,
+        "totalUsd": 0.023151,
+        "inputTokens": 3692,
+        "outputTokens": 774,
+        "reasoningTokens": 1183
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hannaford",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:30:04",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "05201",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bennington",
+          "status": "match"
+        },
+        "state": {
+          "value": "VT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "350 North Side Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9339",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BYND GD ORG MDGS VAN",
+          "quantity": 1,
+          "unitPrice": 16.39,
+          "totalSpend": 16.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Plu# 4053 + LARGE LEMONS",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Hannaford\n\n350 North Side Dr - Bennington VT 05201\n(802) 442-1521 - www.hannaford.com\n\nGROCERY\n  BYND GD ORG MDGS VAN      16.39 *\n\nPRODUCE\n  Plu# 4053\n  LARGE LEMONS           W   0.79 *\n\n  2 BALANCE DUE             17.18\n    American Express        $17.18\n\nMID:                    160000101474\nRRN:                          510577\n\n                 SALE\n\nXXXXXXXXXXXX9339\nAmerican Express  Entry Method:   Chip\n\n05/16/2026                  11:30:04\nINVOICE:                      510577\n\nAMEX\nAID:                 A000000025010402\nTVR:                      0000008000\nTSI:                            E800\nTotal:                    USD$ 17.18\nAPPROVED                      701016\n\n------------------------------------\n\nCHANGE                          0.00\n\nYTD Savings   $70.61\n\nMY HANNAFORD REWARDS TOTALS\n\nThis Visit    $0\nThis Quarter  $0.42\nYear to Date  $6.13\n\nMy Hannaford Rewards #042001411843\n************************************\nHow was your visit?\nTake our survey to help us improve.\n\nWithin the next 5 days please visit:\nwww.TalkToHannaford.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4447.236375,
+        "totalUsd": 0.012027,
+        "inputTokens": 3692,
+        "outputTokens": 721,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hannaford",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:30:04",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "05201",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bennington",
+          "status": "match"
+        },
+        "state": {
+          "value": "VT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "350 North Side Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9339",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BYND GD ORG MDGS VAN",
+          "quantity": 1,
+          "unitPrice": 16.39,
+          "totalSpend": 16.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Plu# 4053 + LARGE LEMONS",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Hannaford\n350 North Side Dr - Bennington VT 05201\n(802) 442-1521 - www.hannaford.com\nGROCERY\nBYND GD ORG MDGS VAN 16.39 *\nPRODUCE\nPlu# 4053\nLARGE LEMONS W 0.79 *\n2 BALANCE DUE 17.18\nAmerican Express $17.18\nMID: 160000101474\nRRN: 510577\nSALE\nXXXXXXXXXXXX9339\nAmerican Express Entry Method: Chip\n05/16/2026 11:30:04\nINVOICE: 510577\nAMEX\nAID: A000000025010402\nTVR: 0000008000\nTSI: E800\nTotal: USD$ 17.18\nAPPROVED : 701016\nCHANGE 0.00\nYTD Savings $70.61\nMY HANNAFORD REWARDS TOTALS\nThis Visit $0\nThis Quarter $0.42\nYear to Date $6.13\nMy Hannaford Rewards #042001411843\n****************************************\nHow was your visit?\nTake our survey to help us improve.\nWithin the next 5 days please visit:\nwww.TalkToHannaford.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BYND GD ORG MDGS VAN",
+      "price": 16.39,
+      "quantity": 1,
+      "totalSpend": 16.39
+    },
+    {
+      "text": "Plu# 4053 + LARGE LEMONS W",
+      "price": 0.79,
+      "quantity": 1,
+      "totalSpend": 0.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

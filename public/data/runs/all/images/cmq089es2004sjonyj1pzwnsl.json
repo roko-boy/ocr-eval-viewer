@@ -1,0 +1,284 @@
+{
+  "id": "cmq089es2004sjonyj1pzwnsl",
+  "url": null,
+  "retailer": "Publix Super Market at City Plaza at Tampa Palms",
+  "brand": "Pulmuone - Plant Based",
+  "amount": 2.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "5.49",
+    "purchaseDate": "2026-06-04",
+    "time": null,
+    "zipCode": "33647",
+    "city": "Tampa",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 24252.477541,
+        "totalUsd": 0.015312,
+        "inputTokens": 6086,
+        "outputTokens": 687,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:49PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33647-2001",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Tampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16041 Tampa Palms Blvd W",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Poise Light Reg Pads + 1 @ 2 for $12.00 + You saved: $2.99",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Nasoya Kimchi Spicy + You saved: $1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nCity Plaza at Tampa Palms\n16041 Tampa Palms Blvd W\nTampa, FL 33647-2001\n(813) 972-2784\nStore Manager: Brian Downing\nPoise Light Reg Pads H\n1 @ 2 for $12.00\n6.00\nYou saved: $2.99\nNasoya Kimchi Spicy F\n4.99\nYou saved: $1.00\nDEPENDS AND POISE\n-3.00\nDC Depend or Poise\n-2.50\nSubtotal\n5.49\nTotal Tax\n0.00\nTotal\n5.49\nCash\n5.50\nChange\n0.01\n****************************************\nSAVINGS: $9.49\n****************************************\n06/04/2026 07:49PM\nThank you for shopping at store 1373\nYour cashier today was Loretta.\n2462, 0105, 155\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.\nTerms & conditions apply.\nPublix Super Markets, Inc.\n1373 64R 052 462",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17534.06779200002,
+        "totalUsd": 0.029514,
+        "inputTokens": 3692,
+        "outputTokens": 676,
+        "reasoningTokens": 1988
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33647-2001",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Tampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16041 Tampa Palms Blvd W",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Poise Light Reg Pads + DEPENDS AND POISE + DC Depend or Poise",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 0.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Nasoya Kimchi Spicy",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nCity Plaza at Tampa Palms\n16041 Tampa Palms Blvd W\nTampa, FL 33647-2001\n(813) 972-2784\nStore Manager: Brian Downing\nPoise Light Reg Pads H\n1 @ 2 for $12.00\n6.00\nYou saved: $2.99\nNasoya Kimchi Spicy F\n4.99\nYou saved: $1.00\nDEPENDS AND POISE -3.00\nDC Depend or Poise -2.50\nSubtotal 5.49\nTotal Tax 0.00\nTotal 5.49\nCash 5.50\nChange 0.01\n****************************************\nSAVINGS: $9.49\n****************************************\n06/04/2026 07:49PM\nThank you for shopping at store 1373\nYour cashier today was Loretta.\n2462, 0105, 155\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.\nTerms & conditions apply.\nPublix Super Markets, Inc.\n1373 64R 052 462",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6489.405916999996,
+        "totalUsd": 0.012531,
+        "inputTokens": 3692,
+        "outputTokens": 777,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33647-2001",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Tampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16041 Tampa Palms Blvd W",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Poise Light Reg Pads + You saved: $2.99",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Nasoya Kimchi Spicy + You saved: $1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPENDS AND POISE",
+          "quantity": 1,
+          "unitPrice": -3,
+          "totalSpend": -3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DC Depend or Poise",
+          "quantity": 1,
+          "unitPrice": -2.5,
+          "totalSpend": -2.5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\nCity Plaza at Tampa Palms\n16041 Tampa Palms Blvd W\nTampa, FL 33647-2001\n(813) 972-2784\nStore Manager: Brian Downing\nPoise Light Reg Pads H\n1 @ 2 for $12.00\n6.00\nYou saved: $2.99\nNasoya Kimchi Spicy F\n4.99\nYou saved: $1.00\nDEPENDS AND POISE\n-3.00\nDC Depend or Poise\n-2.50\nSubtotal\n5.49\nTotal Tax\n0.00\nTotal\n5.49\nCash\n5.50\nChange\n0.01\n****************************************\nSAVINGS: $9.49\n****************************************\n06/04/2026 07:49PM\nThank you for shopping at store 1373\nYour cashier today was Loretta.\n2462, 0105, 155\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.\nTerms & conditions apply.\nPublix Super Markets, Inc.\n1373 64R 052 462",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Poise Light Reg Pads + 1 @ 2 for $12.00 6.00 + You saved: $2.99",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "Nasoya Kimchi Spicy + You saved: $1.00",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

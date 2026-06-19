@@ -1,0 +1,291 @@
+{
+  "id": "cmp1fficr001ganzvvkw6c0cb",
+  "url": null,
+  "retailer": "Super 1 Foods",
+  "brand": "JustFoodForDogs",
+  "amount": 10.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Super 1 Foods",
+    "totalCost": null,
+    "purchaseDate": "2026-05-01",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9323.079167000004,
+        "totalUsd": 0.013572,
+        "inputTokens": 6114,
+        "outputTokens": 489,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "27.69",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92657",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "21181 NEWPORT COAST DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Recyclable Paper Grocery Bag Charge",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Burts Bees Towelettes Cleansing Facial",
+          "quantity": 3,
+          "unitPrice": 7.49,
+          "totalSpend": 5.61,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Justfoodfordogs Chicken & Rice",
+          "quantity": 2,
+          "unitPrice": 10.99,
+          "totalSpend": 21.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "3:17 1\nStore purchase\nMay 1, 2026\n21181 NEWPORT COAST DRIVE, NEWPORT BEACH, CA 92657\nReceipt\nFeedback\nChat\nReady for spring\nShop now\nSponsored\nItems (6)\nHide All\nRecyclable Paper Grocery Bag Charge\n$0.10\nQty: 1\nBurts Bees Towelettes Cleansing Facial\n$5.61 $22.47\nQty: 3\nJustfoodfordogs Chicken & Rice\n$21.98\nQty: 2\nPurchase summary\nAdd all to list\nAdd all to Cart\nHOME\nSHOP\nDEALS+\nMY LISTS\nMEMBER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12679.955583,
+        "totalUsd": 0.024873,
+        "inputTokens": 3706,
+        "outputTokens": 513,
+        "reasoningTokens": 1633
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pavilions",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92657",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "NEWPORT BEACH",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "CA",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "21181 NEWPORT COAST DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Recyclable Paper Grocery Bag Charge",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Burts Bees Towelettes Cleansing Facial",
+          "quantity": 3,
+          "unitPrice": 7.49,
+          "totalSpend": 5.61,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Justfoodfordogs Chicken & Rice",
+          "quantity": 2,
+          "unitPrice": 10.99,
+          "totalSpend": 21.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "3:17 1\nStore purchase\nMay 1, 2026\n21181 NEWPORT COAST DRIVE, NEWPORT BEACH, CA 92657\nReceipt\nFeedback\nChat\nReady for spring\nShop now\nSponsored\nItems (6)\nHide All\nTHIS ITEM IS CAMERA SHY\nRecyclable Paper Grocery Bag Charge\n$0.10\nQty: 1\nBurts Bees Towelettes Cleansing Facial\n$5.61 $22.47\nQty: 3\nTHIS ITEM IS CAMERA SHY\nJustfoodfordogs Chicken & Rice\n$21.98\nQty: 2\nPurchase summary\nAdd all to list\nAdd all to Cart\nHOME\nSHOP\nDEALS+\nMY LISTS\nMEMBER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3509.079874999999,
+        "totalUsd": 0.010185,
+        "inputTokens": 3706,
+        "outputTokens": 514,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92657",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "NEWPORT BEACH",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "CA",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "21181 NEWPORT COAST DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Recyclable Paper Grocery Bag Charge",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Burts Bees Towelettes Cleansing Facial",
+          "quantity": 3,
+          "unitPrice": 7.49,
+          "totalSpend": 5.61,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Justfoodfordogs Chicken & Rice",
+          "quantity": 2,
+          "unitPrice": 10.99,
+          "totalSpend": 21.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "3:17 1\nStore purchase\nMay 1, 2026\n21181 NEWPORT COAST DRIVE, NEWPORT\nBEACH, CA 92657\nReceipt\nFeedback\nChat\nReady for spring\nShop now\nSponsored\nItems (6)\nHide All\nTHIS ITEM IS\nCAMERA SHY\nRecyclable Paper Grocery\nBag Charge\n$0.10\nQty: 1\nBurts Bees Towelettes\nCleansing Facial\n$5.61 $22.47\nQty: 3\nTHIS ITEM IS\nCAMERA SHY\nJustfoodfordogs Chicken &\nRice\n$21.98\nQty: 2\nPurchase summary\nAdd all to list\nAdd all to Cart\nHOME\nSHOP\nDEALS+\nMY LISTS\nMEMBER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "T smoS Recyclable Paper Grocery + ce SY + Bag Charge Q6y:1",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "TMsm s Justfoodfordogs Chicken & + Cleansing Facial + Qty:3 + c s",
+      "price": 7.33,
+      "quantity": 3,
+      "totalSpend": 21.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

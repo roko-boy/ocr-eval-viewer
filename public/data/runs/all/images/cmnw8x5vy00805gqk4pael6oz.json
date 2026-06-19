@@ -1,0 +1,297 @@
+{
+  "id": "cmnw8x5vy00805gqk4pael6oz",
+  "url": null,
+  "retailer": "Randall's Food Markets",
+  "brand": "ZICO",
+  "amount": 3.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Randall's Food Markets",
+    "totalCost": "9.66",
+    "purchaseDate": "2026-04-12",
+    "time": null,
+    "zipCode": "78731",
+    "city": "Austin",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13395.00033400001,
+        "totalUsd": 0.019227,
+        "inputTokens": 6086,
+        "outputTokens": 1122,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Randalls",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78731",
+          "status": "match"
+        },
+        "city": {
+          "value": "AUSTIN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8040 MESA DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1775",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ACTUAL VEGGIES BUR + 85002026044 + forU Store Coupon -2.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZICO PURE + 18012700035 + Sale Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RSPBRY LYCHEE + 86000330419 + Sale Savings -0.50",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Randalls\nStore 2482 Dir Michele Spencer\nMain: (512) 345-1825 Rx: (512) 345-723\n8040 MESA DRIVE\nAUSTIN TX 78731\n00248205300472604121425\nYOUR CASHIER TODAY WAS SELF\nREFRIG/FROZEN Price You Pay\n85002026044 ACTUAL VEGGIES BUR 7.99 5.99 S\nforU Store Coupon -2.00\nPRODUCE\n18012700035 ZICO PURE 4.99 3.49 S\nSale Savings -1.50\n86000330419 RSPBRY LYCHEE 3.49 2.99 T\nSale Savings -0.50\nADDITIONAL DISCOUNTS\nDepartment Savings -1.00\nDepartment Savings -1.00\nRewards and CashOff -1.00\nTAX 0.19\n**** BALANCE 9.66\nCredit Purchase 04/12/26 14:25\nCARD # ************1775\nREF: 222529417750 AUTH: 00012752\nPAYMENT AMOUNT 9.66\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 9.66\nCHANGE 0.00\nYOUR SAVINGS\nDepartment Savings 2.00\nPaper Coupons 2.00\nSale Savings 2.00\nRewards and CashOff 1.00\nTotal 7.00\nTotal Savings Value 42%\nYOUR POINTS\nPoints Earned Today 9\nPoints Available 109\nTOTAL NUMBER OF ITEMS SOLD = 3\n04/12/26 14:25 2482 53 47 8853\nThank you for shopping Randalls!\nFor RANDALLS FOR U questions call\n877-276-9637 or Randalls.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12762.957458,
+        "totalUsd": 0.03369,
+        "inputTokens": 3692,
+        "outputTokens": 1138,
+        "reasoningTokens": 1990
+      },
+      "fields": {
+        "storeName": {
+          "value": "Randalls",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78731",
+          "status": "match"
+        },
+        "city": {
+          "value": "AUSTIN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8040 MESA DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1775",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ACTUAL VEGGIES BUR + 85002026044 + forU Store Coupon -2.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZICO PURE + 18012700035 + Sale Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RSPBRY LYCHEE + 86000330419 + Sale Savings -0.50",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Randalls\nStore 2482 Dir Michele Spencer\nMain: (512) 345-1825 Rx: (512) 345-723\n8040 MESA DRIVE\nAUSTIN TX 78731\n00248205300472604121425\nYOUR CASHIER TODAY WAS SELF\nREFRIG/FROZEN\nPrice You Pay\n85002026044 ACTUAL VEGGIES BUR\n7.99 5.99 S\nforU Store Coupon -2.00\nPRODUCE\n18012700035 ZICO PURE\n4.99 3.49 S\nSale Savings -1.50\n86000330419 RSPBRY LYCHEE\n3.49 2.99 T\nSale Savings -0.50\nADDITIONAL DISCOUNTS\nDepartment Savings\n-1.00\nDepartment Savings\n-1.00\nRewards and CashOff\n-1.00\nTAX\n0.19\n**** BALANCE\n9.66\nCredit Purchase 04/12/26 14:25\nCARD # ************1775\nREF: 222529417750 AUTH: 00012752\nPAYMENT AMOUNT\n9.66\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n9.66\nCHANGE\n0.00\nYOUR SAVINGS\nDepartment Savings\n2.00\nPaper Coupons\n2.00\nSale Savings\n2.00\nRewards and CashOff\n1.00\nTotal\n7.00\nTotal Savings Value\n42%\nYOUR POINTS\nPoints Earned Today 9\nPoints Available 109\nTOTAL NUMBER OF ITEMS SOLD = 3\n04/12/26 14:25 2482 53 47\n8853\nThank you for shopping Randalls!\nFor RANDALLS FOR U questions call\n877-276-9637 or Randalls.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6140.426374999995,
+        "totalUsd": 0.015717,
+        "inputTokens": 3692,
+        "outputTokens": 1131,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Randalls",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78731",
+          "status": "match"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8040 MESA DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1775",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ACTUAL VEGGIES BUR + 85002026044 + forU Store Coupon -2.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZICO PURE + 18012700035 + Sale Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RSPBRY LYCHEE + 86000330419 + Sale Savings -0.50",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Randalls\nStore 2482 Dir Michele Spencer\nMain: (512) 345-1825 Rx: (512) 345-723\n8040 MESA DRIVE\nAUSTIN TX 78731\n00248205300472604121425\nYOUR CASHIER TODAY WAS SELF\nREFRIG/FROZEN\nPrice You Pay\n85002026044 ACTUAL VEGGIES BUR\n7.99 5.99 S\nforU Store Coupon -2.00\nPRODUCE\n18012700035 ZICO PURE\n4.99 3.49 S\nSale Savings -1.50\n86000330419 RSPBRY LYCHEE\n3.49 2.99 T\nSale Savings -0.50\nADDITIONAL DISCOUNTS\nDepartment Savings\n-1.00\nDepartment Savings\n-1.00\nRewards and CashOff\n-1.00\nTAX\n0.19\n**** BALANCE\n9.66\nCredit Purchase 04/12/26 14:25\nCARD # ************1775\nREF: 222529417750 AUTH: 00012752\nPAYMENT AMOUNT\n9.66\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n9.66\nCHANGE\n0.00\nYOUR SAVINGS\nDepartment Savings\n2.00\nPaper Coupons\n2.00\nSale Savings\n2.00\nRewards and CashOff\n1.00\nTotal\n7.00\nTotal Savings Value\n43%\nYOUR POINTS\nPoints Earned Today 9\nPoints Available 109\nTOTAL NUMBER OF ITEMS SOLD = 3\n04/12/26 14:25 2482 53 47\n8853\nThank you for shopping Randalls!\nFor RANDALLS FOR U questions call\n877-276-9637 or Randalls.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ACTUAL VEGGIES BUR + 85002026044 + forU Store Coupon -2.00 + PROOUCE",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "ZICO PURE + 18012700035 + Sale Savings -1.50",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "RSPBRY LYCHEE + 86000330419 + Sale Savings -0.50",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

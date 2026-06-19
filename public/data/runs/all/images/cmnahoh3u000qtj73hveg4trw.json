@@ -1,0 +1,243 @@
+{
+  "id": "cmnahoh3u000qtj73hveg4trw",
+  "url": null,
+  "retailer": "ShopRite",
+  "brand": "SimpliiGood",
+  "amount": 11.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "68.94",
+    "purchaseDate": "2026-03-28",
+    "time": null,
+    "zipCode": "07960",
+    "city": "Morristown",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7702.428916999983,
+        "totalUsd": 0.016644,
+        "inputTokens": 6086,
+        "outputTokens": 835,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "68.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:21am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Morristown",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "178 E Hanover Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8362",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SMPLGD FRZN SPIRUL",
+          "quantity": 6,
+          "unitPrice": 11.49,
+          "totalSpend": 68.94,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\n\nShopRite of Greater Morristown\n178 E Hanover Ave\n(973) 829-6825\n\n03/28/26 10:21am S245 R86 T21 C86\n\n***********************************\n* Regular Items *\n***********************************\n6 @ 11.49\nSMPLGD FRZN SPIRUL 68.94 F\nTAX 0.00\n**** BALANCE 68.94\n***********************************\nShopRite Credit Receipt\nStore # 245 of Cedar Knolls , NJ\nTerminal: 86 Operator: 86 Trans: 21\nDate: 03/28/26 Time: 10:22am\n\nPurchase: $ 68.94\nAcct#: ************8362 CONTACTLESS\n\nResponse : APPROVED\nApproval : 07503I\nPrepaid Card Balance: 0.00\n\n***********************************\n\nVISA CARD 68.94\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\n03/28/26 10:22am 245 86 21 86\n\nAsk the manager how our Price Plus\nClub can save you money at Shoprite\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n\n***********************************\n***HOLIDAY PROMOTION***\n***********************************\n\n***********************************\n* HOW WAS YOUR VISIT TODAY? *\n***********************************\nPlease take our survey within\n7 days for a chance to win\n$100 in ShopRite Gift Cards.\nScan the QR Code or visit\nMyShopRiteExperience.com\nUse This Code: 245 S 86 R 21 T\nThank you for your feedback!\n\n***********************************\n\nYour Cashier today: SCOT 86\nStore Manager: David Van Benscho\nPLEASE NOTE:No Returns or Exchanges\nOn Any Alcoholic Beverages...\n** Thank You for shopping with us! **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10650.10958400002,
+        "totalUsd": 0.025698,
+        "inputTokens": 3692,
+        "outputTokens": 830,
+        "reasoningTokens": 1410
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "68.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:21am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Cedar Knolls",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "178 E Hanover Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8362",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SMPLGD FRZN SPIRUL",
+          "quantity": 6,
+          "unitPrice": 11.49,
+          "totalSpend": 68.94,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\n\nShopRite of Greater Morristown\n178 E Hanover Ave\n(973) 829-6825\n\n03/28/26 10:21am S245 R86 T21 C86\n***********************************\n* Regular Items *\n***********************************\n6 @ 11.49\nSMPLGD FRZN SPIRUL 68.94 F\nTAX 0.00\n**** BALANCE 68.94\n***********************************\nShopRite Credit Receipt\nStore # 245 of Cedar Knolls , NJ\nTerminal: 86 Operator: 86 Trans: 21\nDate: 03/28/26 Time: 10:22am\n\nPurchase: $ 68.94\nAcct#: ************8362 CONTACTLESS\n\nResponse : APPROVED\nApproval : 07503I\nPrepaid Card Balance: 0.00\n\n***********************************\n\nVISA CARD 68.94\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\n03/28/26 10:22am 245 86 21 86\n\nAsk the manager how our Price Plus\nClub can save you money at Shoprite\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n\n***********************************\n***HOLIDAY PROMOTION***\n***********************************\n\n***********************************\n* HOW WAS YOUR VISIT TODAY? *\n***********************************\nPlease take our survey within\n7 days for a chance to win\n$100 in ShopRite Gift Cards.\nScan the QR Code or visit\nMyShopRiteExperience.com\nUse This Code: 245 S 86 R 21 T\nThank you for your feedback!\n\n***********************************\n\nYour Cashier today: SCOT 86\nStore Manager: David Van Benscho\nPLEASE NOTE:No Returns or Exchanges\nOn Any Alcoholic Beverages...\n** Thank You for shopping with us! **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5971.944749999995,
+        "totalUsd": 0.01281,
+        "inputTokens": 3692,
+        "outputTokens": 808,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "68.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:21 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Cedar Knolls",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "178 E Hanover Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8362",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SMPLGD FRZN SPIRUL",
+          "quantity": 6,
+          "unitPrice": 11.49,
+          "totalSpend": 68.94,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nShopRite of Greater Morristown\n178 E Hanover Ave\n(973) 829-6825\n03/28/26 10:21am S245 R86 T21 C86\n***********************************\n* Regular Items *\n***********************************\n6 @ 11.49\nSMPLGD FRZN SPIRUL 68.94 F\nTAX 0.00\n**** BALANCE 68.94\n***********************************\nShopRite Credit Receipt\nStore # 245 of Cedar Knolls, NJ\nTerminal: 86 Operator: 86 Trans: 21\nDate: 03/28/26 Time: 10:22am\nPurchase: $ 68.94\nAcct#: ************8362 CONTACTLESS\nResponse: APPROVED\nApproval: 07503I\nPrepaid Card Balance: 0.00\n***********************************\nVISA CARD 68.94\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\n03/28/26 10:22am 245 86 21 86\nAsk the manager how our Price Plus\nClub can save you money at Shoprite\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n***********************************\n***HOLIDAY PROMOTION***\n***********************************\n***********************************\n* HOW WAS YOUR VISIT TODAY? *\n***********************************\nPlease take our survey within\n7 days for a chance to win\n$100 in ShopRite Gift Cards.\nScan the QR Code or visit\nMyShopRiteExperience.com\nUse This Code: 245 S 86 R 21 T\nThank you for your feedback!\n***********************************\nYour Cashier today: SCOT 86\nStore Manager: David Van Benscho\nPLEASE NOTE:No Returns or Exchanges\nOn Any Alcoholic Beverages...\n** Thank You for shopping with us! **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SMPLGD FRZN SPIRUL + 6 @ 11.49",
+      "price": 11.49,
+      "quantity": 6,
+      "totalSpend": 68.94
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

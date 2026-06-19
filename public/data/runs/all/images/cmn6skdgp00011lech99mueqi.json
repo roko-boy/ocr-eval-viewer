@@ -1,0 +1,345 @@
+{
+  "id": "cmn6skdgp00011lech99mueqi",
+  "url": null,
+  "retailer": "Walmart Supercenter",
+  "brand": "milo's",
+  "amount": 4.48,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "11.73",
+    "purchaseDate": "2026-03-25",
+    "time": null,
+    "zipCode": "30228",
+    "city": "Lovejoy",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9305.367542,
+        "totalUsd": 0.020613,
+        "inputTokens": 6086,
+        "outputTokens": 1276,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:53:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30228",
+          "status": "match"
+        },
+        "city": {
+          "value": "HAMPTON",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11465 TARA BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1622",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MILO Z LEM + 091475630070 F",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UPDATE PEACH + 850029843030 F",
+          "quantity": 1,
+          "unitPrice": 2.48,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UPDATE MANDN + 850029843020 F",
+          "quantity": 1,
+          "unitPrice": 2.48,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GV LF 1 HG + 078742352020 X",
+          "quantity": 1,
+          "unitPrice": 1.96,
+          "totalSpend": 1.96,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BANANAS + 000000040110 X + 0.66 lb. @ 1.00 lb. / 0.50",
+          "quantity": 1,
+          "unitPrice": 0.33,
+          "totalSpend": 0.33,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WR8KJ1W28KX\nWalmart\nWM Supercenter\n770-471-4451 Mgr. ZOLA\n11465 TARA BLVD\nHAMPTON GA 30228\nST# 05363 OP# 009048 TE# 48 TR# 02043\n# ITEMS SOLD 5\nTC# 3503 1562 2153 7378 6903\nMILO Z LEM 091475630070 F 4.48 N\nUPDATE PEACH 850029843030 F 2.48 N\nUPDATE MANDN 850029843020 F 2.48 N\nGV LF 1 HG 078742352020 X 1.96 N\nBANANAS 000000040110 X\n0.66 lb. @ 1.00 lb. / 0.50 0.33 N\nSUBTOTAL 11.73\nTOTAL 11.73\nEWIC TEND 2.29\nEBT SNAP TEND 9.44\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n2.29 TOTAL PURCHASE\nACCOUNT #- 1622 S 0\nREF # 608490111586\nNETWORK ID. 0006 APPR. CODE 377230\n03/25/26 19:53:13\nEBT SNAP SNAP PURCHASE\n9.44 TOTAL PURCHASE\nACCOUNT #- 5664 S 0\nREF # 608487446752\nNETWORK ID. 000K APPR. CODE 014929\nTERMINAL # 22972916\nBeg Bal End Bal\nEBT CASH 0.00 0.00\nEBT SNAP 154.00 144.56\n03/25/26 19:53:41\nGet 50% off membership\nEnjoy free delivery & more with Walmart+ Assist\nScan for 30-day free trial.\nLow prices You Can Trust. Every Day.\n03/25/26 19:53:48",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13385.178083,
+        "totalUsd": 0.030396,
+        "inputTokens": 3692,
+        "outputTokens": 1279,
+        "reasoningTokens": 1483
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:53:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30228",
+          "status": "match"
+        },
+        "city": {
+          "value": "HAMPTON",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11465 TARA BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5664",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MILO Z LEM 091475630070 F",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UPDATE PEACH 850029843030 F",
+          "quantity": 1,
+          "unitPrice": 2.48,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UPDATE MANDN 850029843020 F",
+          "quantity": 1,
+          "unitPrice": 2.48,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GV LF 1 HG 078742352020 X",
+          "quantity": 1,
+          "unitPrice": 1.96,
+          "totalSpend": 1.96,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BANANAS 000000040110 X + 0.66 lb. @ 1.00 lb. / 0.50",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.33,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WR8KJ1W28KX\nWalmart\nWM Supercenter\n770-471-4451 Mgr. ZOLA\n11465 TARA BLVD\nHAMPTON GA 30228\nST# 05363 OP# 009048 TE# 48 TR# 02043\n# ITEMS SOLD 5\nTC# 3503 1562 2153 7378 6903\nMILO Z LEM 091475630070 F 4.48 N\nUPDATE PEACH 850029843030 F 2.48 N\nUPDATE MANDN 850029843020 F 2.48 N\nGV LF 1 HG 078742352020 X 1.96 N\nBANANAS 000000040110 X\n0.66 lb. @ 1.00 lb. / 0.50 0.33 N\nSUBTOTAL 11.73\nTOTAL 11.73\nEWIC TEND 2.29\nEBT SNAP TEND 9.44\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n2.29 TOTAL PURCHASE\nACCOUNT #- 1622 S 0\nREF # 608490111586\nNETWORK ID. 0006 APPR. CODE 377230\n03/25/26 19:53:13\nEBT SNAP SNAP PURCHASE\n9.44 TOTAL PURCHASE\nACCOUNT #- 5664 S 0\nREF # 608487446752\nNETWORK ID. 000K APPR. CODE 014929\nTERMINAL # 22972916\nBeg Bal End Bal\nEBT CASH 0.00 0.00\nEBT SNAP 154.00 144.56\n03/25/26 19:53:41\nGet 50% off membership\nEnjoy free delivery\n& more with\nWalmart+ Assist\nScan for 30-day free trial.\nLow prices You Can Trust. Every Day.\n03/25/26 19:53:48",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7543.263083000001,
+        "totalUsd": 0.016914,
+        "inputTokens": 3692,
+        "outputTokens": 1264,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:53:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30228",
+          "status": "match"
+        },
+        "city": {
+          "value": "HAMPTON",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11465 TARA BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5664",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MILO Z LEM + 091475630070",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UPDATE PEACH + 850029843030",
+          "quantity": 1,
+          "unitPrice": 2.48,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UPDATE MANDN + 850029843020",
+          "quantity": 1,
+          "unitPrice": 2.48,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GV LF 1 HG + 078742352020",
+          "quantity": 1,
+          "unitPrice": 1.96,
+          "totalSpend": 1.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANAS + 000000040110 + 0.66 lb. @ 1.00 lb. / 0.50",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.33,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WR8KJ1W28KX\nWalmart\nWM Supercenter\n770-471-4451 Mgr. ZOLA\n11465 TARA BLVD\nHAMPTON GA 30228\nST# 05363 OP# 009048 TE# 48 TR# 02043\n# ITEMS SOLD 5\nTC# 3503 1562 2153 7378 6903\nMILO Z LEM 091475630070 F 4.48 N\nUPDATE PEACH 850029843030 F 2.48 N\nUPDATE MANDN 850029843020 F 2.48 N\nGV LF 1 HG 078742352020 X 1.96 N\nBANANAS 000000040110 X\n0.66 lb. @ 1.00 lb. / 0.50 0.33 N\nSUBTOTAL 11.73\nTOTAL 11.73\nEWIC TEND 2.29\nEBT SNAP TEND 9.44\nCHANGE DUE 0.00\nEFT DEBIT PAY FROM PRIMARY\n2.29 TOTAL PURCHASE\nACCOUNT #- 1622 S 0\nREF # 608490111586\nNETWORK ID. 0006 APPR. CODE 377230\n03/25/26 19:53:13\nEBT SNAP SNAP PURCHASE\n9.44 TOTAL PURCHASE\nACCOUNT #- 5664 S 0\nREF # 608487446752\nNETWORK ID. 000K APPR. CODE 014929\nTERMINAL # 22972916\nBeg Bal End Bal\nEBT CASH 0.00 0.00\nEBT SNAP 154.00 144.56\n03/25/26 19:53:41\nGet 50% off membership\nEnjoy free delivery\n& more with\nWalmart+ Assist\nScan for 30-day free trial.\nLow prices You Can Trust. Every Day.\n03/25/26 19:53:48",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MILO Z LEM + 091475630070",
+      "price": 4.48,
+      "quantity": 1,
+      "totalSpend": 4.48
+    },
+    {
+      "text": "UPDATE PEACH + 850029843030",
+      "price": 2.48,
+      "quantity": 1,
+      "totalSpend": 2.48
+    },
+    {
+      "text": "UPDATE MANDN + 850029843020",
+      "price": 2.48,
+      "quantity": 1,
+      "totalSpend": 2.48
+    },
+    {
+      "text": "GV LF 1 HG + 078742352020 + BANANAS 000000040110 X + 0.66 lb @ 1.00 lb / 0.50 0.33 N",
+      "price": 1.96,
+      "quantity": 1,
+      "totalSpend": 1.96
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

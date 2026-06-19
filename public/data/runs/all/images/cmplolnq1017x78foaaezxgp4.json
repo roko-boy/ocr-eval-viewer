@@ -1,0 +1,534 @@
+{
+  "id": "cmplolnq1017x78foaaezxgp4",
+  "url": null,
+  "retailer": "Ralphs",
+  "brand": "PRETZELIZED",
+  "amount": 0.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Ralphs",
+    "totalCost": "56.57",
+    "purchaseDate": "2026-05-24",
+    "time": null,
+    "zipCode": "91730",
+    "city": "Rancho Cucamonga",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 32823.62874999997,
+        "totalUsd": 0.024144,
+        "inputTokens": 6118,
+        "outputTokens": 1663,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "56.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:42pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Rancho Cucamonga",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7369 Milliken Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7764",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "QKER PRTN CRSPS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAP",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO GRAPES RED SDL",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CATALINA CINNAMON RC + RALPHS SAVED YOU 8.49",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CATALINA SNACK CRLRC",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR PRAEGER MT FREERC + RALPHS SAVED YOU 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DR PRAEGER MT FREERC + RALPHS SAVED YOU 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ACTUAL VEGGIES BRGRC + RALPHS SAVED YOU 1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PRTZLZO EVRYTHG",
+          "quantity": 1,
+          "unitPrice": 1.75,
+          "totalSpend": 1.75,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRES BRIE + RALPHS SAVED YOU 1.50",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTZL BITE RC",
+          "quantity": 1,
+          "unitPrice": 2.8,
+          "totalSpend": 2.8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHECKOUT BAG TAX",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n7369 Milliken Ave.\n(909) 944-4827\nYour cashier was CHEC 553\nQKER PRTN CRSPS 2.99 F\nEGGLF EGG WHT WRAP 6.99 F\nKRO GRAPES RED SDL 7.99 F\nCATALINA CINNAMON RC 0.00 F\nSC RALPHS SAVED YOU 8.49\nCATALINA SNACK CRLRC 8.49 F\nDR PRAEGER MT FREERC 4.99 F\nSC RALPHS SAVED YOU 2.00\nDR PRAEGER MT FREERC 4.99 F\nSC RALPHS SAVED YOU 2.00\nACTUAL VEGGIES BRGRC 6.99 F\nSC RALPHS SAVED YOU 1.00\nPRTZLZO EVRYTHG 1.75 F\nPRES BRIE 8.49 F\nSC RALPHS SAVED YOU 1.50\nPRTZL BITE RC 2.80 F\nMR CHECKOUT BAG TAX 0.10\nRALPHS rewards CUSTOMER ********7889\nTAX 0.00\n**** BALANCE 56.57\nUS DEBIT Purchase\n************7764 - C\nREF#: 268263 TOTAL: 56.57\nPURCHASE: 56.57 CASHBACK: 0.00\nAID: A0000000980840\nTC: 7D2B2497BDA67ABA\nVERIFIED BY PIN\nDEBIT 56.57\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 11\nRALPHS rewards SAVINGS $14.99\nTOTAL COUPONS $ 14.99\n05/24/26 05:42pm 13 553 107 999999553\n****************************************\nAnnual Card Savings $331.39\n****************************************\n****************************************\nFuel Points Earned Today: 56\nTotal May Fuel Points: 1269\n****************************************\nRemaining April Fuel Points: 232\n****************************************\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 14.\nMGR: KALLIE REITER (909) 944-4827\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.ralphs.com\nwww.ralphs.com\n*** Check Cart ***",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 33460.41354100005,
+        "totalUsd": 0.05676299999999999,
+        "inputTokens": 3708,
+        "outputTokens": 1652,
+        "reasoningTokens": 4037
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "56.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:42pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Rancho Cucamonga",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7369 Milliken Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7764",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "QKER PRTN CRSPS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAP",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO GRAPES RED SDL",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CATALINA CINNAMON RC + SC RALPHS SAVED YOU 8.49",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CATALINA SNACK CRLRC",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR PRAEGER MT FREERC + SC RALPHS SAVED YOU 2.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DR PRAEGER MT FREERC + SC RALPHS SAVED YOU 2.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ACTUAL VEGGIES BRGRC + SC RALPHS SAVED YOU 1.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTZLZED EVRYTHG",
+          "quantity": 1,
+          "unitPrice": 1.75,
+          "totalSpend": 1.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRES BRIE + SC RALPHS SAVED YOU 1.50",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRTZL BITE RC",
+          "quantity": 1,
+          "unitPrice": 2.8,
+          "totalSpend": 2.8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MR CHECKOUT BAG TAX",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n\n7369 Milliken Ave.\n(909) 944-4827\nYour cashier was CHEC 553\nQKER PRTN CRSPS 2.99 F\nEGGLF EGG WHT WRAP 6.99 F\nKRO GRAPES RED SDL 7.99 F\nCATALINA CINNAMON RC 0.00 F\nSC RALPHS SAVED YOU 8.49\nCATALINA SNACK CRLRC 8.49 F\nDR PRAEGER MT FREERC 4.99 F\nSC RALPHS SAVED YOU 2.00\nDR PRAEGER MT FREERC 4.99 F\nSC RALPHS SAVED YOU 2.00\nACTUAL VEGGIES BRGRC 6.99 F\nSC RALPHS SAVED YOU 1.00\nPRTZLZED EVRYTHG 1.75 F\nPRES BRIE 8.49 F\nSC RALPHS SAVED YOU 1.50\nPRTZL BITE RC 2.80 F\nMR CHECKOUT BAG TAX 0.10\nRALPHS rewards CUSTOMER ********7889\nTAX 0.00\n**** BALANCE 56.57\nUS DEBIT Purchase\n************7764 - C\nREF#: 268263 TOTAL: 56.57\nPURCHASE: 56.57 CASHBACK: 0.00\nAID: A0000000980840\nTC: 7D2B2497BDA67ABA\nVERIFIED BY PIN\nDEBIT 56.57\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 11\nRALPHS rewards SAVINGS $14.99\nTOTAL COUPONS $14.99\n05/24/26 05:42pm 13 553 107 999999553\n****************************************\nAnnual Card Savings $331.39\n****************************************\n****************************************\nFuel Points Earned Today: 56\nTotal May Fuel Points: 1269\n****************************************\nRemaining April Fuel Points: 232\n****************************************\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 14.\nMGR: KALLIE REITER (909) 944-4827\nTHANK YOU FOR SHOPPING AT RALPHS!\n\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.ralphs.com\nwww.ralphs.com\n*** Check Cart ***",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8273.998583000008,
+        "totalUsd": 0.020475,
+        "inputTokens": 3708,
+        "outputTokens": 1657,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "56.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Rancho Cucamonga",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7369 Milliken Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7764",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "QKER PRTN CRSPS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAP",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO GRAPES RED SDL",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CATALINA CINNAMON RC + RALPHS SAVED YOU 8.49",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CATALINA SNACK CRLRC",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR PRAEGER MT FREERC + RALPHS SAVED YOU 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DR PRAEGER MT FREERC + RALPHS SAVED YOU 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ACTUAL VEGGIES BRGRC + RALPHS SAVED YOU 1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PRTZLZED EVRYTHG",
+          "quantity": 1,
+          "unitPrice": 1.75,
+          "totalSpend": 1.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRES BRIE + RALPHS SAVED YOU 1.50",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTZL BITE RC",
+          "quantity": 1,
+          "unitPrice": 2.8,
+          "totalSpend": 2.8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHECKOUT BAG TAX",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n7369 Milliken Ave.\n(909) 944-4827\nYour cashier was CHEC 553\nQKER PRTN CRSPS 2.99 F\nEGGLF EGG WHT WRAP 6.99 F\nKRO GRAPES RED SDL 7.99 F\nCATALINA CINNAMON RC 0.00 F\nSC RALPHS SAVED YOU 8.49\nCATALINA SNACK CRLRC 8.49 F\nDR PRAEGER MT FREERC 4.99 F\nSC RALPHS SAVED YOU 2.00\nDR PRAEGER MT FREERC 4.99 F\nSC RALPHS SAVED YOU 2.00\nACTUAL VEGGIES BRGRC 6.99 F\nSC RALPHS SAVED YOU 1.00\nPRTZLZED EVRYTHG 1.75 F\nPRES BRIE 8.49 F\nSC RALPHS SAVED YOU 1.50\nPRTZL BITE RC 2.80 F\nMR CHECKOUT BAG TAX 0.10\nRALPHS rewards CUSTOMER ********7889\nTAX 0.00\n**** BALANCE 56.57\nUS DEBIT Purchase\n************7764 - C\nREF#: 268263 TOTAL: 56.57\nPURCHASE: 56.57 CASHBACK: 0.00\nAID: A0000000980840\nTC: 7D2B2497BDA67ABA\nVERIFIED BY PIN\nDEBIT 56.57\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 11\nRALPHS rewards SAVINGS $14.99\nTOTAL COUPONS $ 14.99\n05/24/26 05:42pm 13 553 107 999999553\n****************************************\nAnnual Card Savings $331.39\n****************************************\n****************************************\nFuel Points Earned Today: 56\nTotal May Fuel Points: 1269\n****************************************\nRemaining April Fuel Points: 232\n****************************************\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 14.\nMGR: KALLIE REITER (909) 944-4827\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.ralphs.com\nwww.ralphs.com\n*** Check Cart ***",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "QKER PRTN CRSPS",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "EGGLF EGG WHT WRAP",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "KRO GRAPES RED SDL",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "CATALINA SNACK CRL",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "DR PRAEGER MT FREE + SC RALPHS SAVED YOU 2.00",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "DR PRAEGER MT FREE + SC RALPHS SAVED YOU 2.00",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "ACTUAL VEGGIES BRG + SC RALPHS SAVED YOU 1.00",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "PRTZLZED EVRYTHG",
+      "price": 1.75,
+      "quantity": 1,
+      "totalSpend": 1.75
+    },
+    {
+      "text": "PRES BRIE + SC RALPHS SAVED YOU 1.50",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "PRTZL BITE",
+      "price": 2.8,
+      "quantity": 1,
+      "totalSpend": 2.8
+    },
+    {
+      "text": "CHECKOUT BAG TAX + RALPHS rewards CUSTOMER ********7889",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

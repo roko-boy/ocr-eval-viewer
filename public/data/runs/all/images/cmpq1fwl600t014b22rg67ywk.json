@@ -1,0 +1,378 @@
+{
+  "id": "cmpq1fwl600t014b22rg67ywk",
+  "url": null,
+  "retailer": "Fresh Thyme",
+  "brand": "Actual Veggies",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fresh Thyme",
+    "totalCost": "54.12",
+    "purchaseDate": "2026-05-23",
+    "time": null,
+    "zipCode": "63108",
+    "city": "St. Louis",
+    "state": "MO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7874.988458000036,
+        "totalUsd": 0.020091,
+        "inputTokens": 6086,
+        "outputTokens": 1218,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fresh Thyme Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "54.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:29:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "63108",
+          "status": "match"
+        },
+        "city": {
+          "value": "St. Louis",
+          "status": "match"
+        },
+        "state": {
+          "value": "MO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3701 Foundry Way Suite 201",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6627",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BURGER VEGGIE B",
+          "quantity": 1,
+          "unitPrice": 8.59,
+          "totalSpend": 8.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIES HOUSE CUT",
+          "quantity": 1,
+          "unitPrice": 8.19,
+          "totalSpend": 8.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIES HOUSE CUT",
+          "quantity": 1,
+          "unitPrice": 8.19,
+          "totalSpend": 8.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O ORG BELLA SLCD",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O SWEET CHERRIES + 1.90 lb @ 4.99/ lb + You saved 5.70",
+          "quantity": 1,
+          "unitPrice": 15.18,
+          "totalSpend": 9.48,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "O WCM LIONS MANE",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 12.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Thank you and good luck!\n*****************************************\nFRESH THYME\nMARKET\n3701 Foundry Way Suite 201\nSt. Louis, MO. 63108\n(314) 597-4400\n7a-10p Daily\nFRESHTHYME.COM\nRRN:\n205687\nSALE\nXXXXXXXXXXXX6627\nVISA\nEntry Method:Cntctless\n05/23/2026\n19:29:26\nINVOICE:\n205687\nVISA CREDIT\nAID:\nA0000000031010\nTVR:\n0000000000\nTSI:\n0000\nTotal:\nUSD$ 54.12\nAPPROVED\n023926\nFROZEN\nBURGER VEGGIE B\n8.59 t F\nFRIES HOUSE CUT\n8.19 t F\nFRIES HOUSE CUT\n8.19 t F\nPRODUCE\nO ORG BELLA SLCD\n2.99 t F\nO SWEET CHERRIES\n*\n1.90 lb @\n4.99/ lb\n9.48 t F\nYou saved\n5.70\nO WCM LIONS MANE\n12.49 t F\nBALANCE DUE\n54.12\nVISA\n54.12\nEXP. DATE: **/****\nAuth Code = 023926\nCHANGE\n0.00\nTAX-CODE\nTAXABLE-VAL\nTAX-VALUE\nTax 1\n49.93\n4.19\nYour Savings Today:\nTOTAL DISCOUNTS\n1\n-5.70\nTotal number of items sold = 6\nFTFM\n#000000000101\nCASHIER NAME: SC020\nSTORE:00408 REGISTER:020 CASHIER:0920\nTICKET#:5979\n23MAY2026 19:29:26\nThank you for\nshopping with us!\nSee you next Thyme!\nTurn every $1 spent into points!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16264.15075,
+        "totalUsd": 0.038586,
+        "inputTokens": 3692,
+        "outputTokens": 1189,
+        "reasoningTokens": 2483
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fresh Thyme Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "54.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:29:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "63108",
+          "status": "match"
+        },
+        "city": {
+          "value": "St. Louis",
+          "status": "match"
+        },
+        "state": {
+          "value": "MO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3701 Foundry Way Suite 201",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6627",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BURGER VEGGIE B",
+          "quantity": 1,
+          "unitPrice": 8.59,
+          "totalSpend": 8.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIES HOUSE CUT",
+          "quantity": 1,
+          "unitPrice": 8.19,
+          "totalSpend": 8.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIES HOUSE CUT",
+          "quantity": 1,
+          "unitPrice": 8.19,
+          "totalSpend": 8.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O ORG BELLA SLCD",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O SWEET CHERRIES + 1.90 lb @ 4.99/ lb + You saved 5.70",
+          "quantity": 1,
+          "unitPrice": 15.18,
+          "totalSpend": 9.48,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "O WCM LIONS MANE",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 12.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Thank you and good luck!\n****************************************\nFRESH THYME\nMARKET\n3701 Foundry Way Suite 201\nSt. Louis, MO. 63108\n(314) 597-4400\n7a-10p Daily\nFRESHTHYME.COM\nRRN:\n205687\nSALE\nXXXXXXXXXXXX6627\nVISA\nEntry Method:Cntctless\n05/23/2026\n19:29:26\nINVOICE:\n205687\nVISA CREDIT\nAID:\nA0000000031010\nTVR:\n0000000000\nTSI:\n0000\nTotal:\nUSD$ 54.12\nAPPROVED\n023926\nFROZEN\nBURGER VEGGIE B\n8.59 t F\nFRIES HOUSE CUT\n8.19 t F\nFRIES HOUSE CUT\n8.19 t F\nPRODUCE\nO ORG BELLA SLCD\n2.99 t F\nO SWEET CHERRIES\n*\n1.90 lb @\n4.99/ lb\n9.48 t F\nYou saved\n5.70\nO WCM LIONS MANE\n12.49 t F\nBALANCE DUE\n54.12\nVISA\n54.12\nEXP. DATE: **/**\nAuth Code = 023926\nCHANGE\n0.00\nTAX-CODE\nTAXABLE-VAL\nTAX-VALUE\nTax 1\n49.93\n4.19\nYour Savings Today:\nTOTAL DISCOUNTS\n1\n-5.70\nTotal number of items sold = 6\nFTFM\n#000000000101\nCASHIER NAME: SC020\nSTORE:00408 REGISTER:020 CASHIER:0920\nTICKET#:5979\n23MAY2026 19:29:26\nThank you for\nshopping with us!\nSee you next Thyme!\nTurn every $1 spent into points!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6713.675958000007,
+        "totalUsd": 0.016203,
+        "inputTokens": 3692,
+        "outputTokens": 1185,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fresh Thyme Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "54.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:29:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "63108",
+          "status": "match"
+        },
+        "city": {
+          "value": "St. Louis",
+          "status": "match"
+        },
+        "state": {
+          "value": "MO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3701 Foundry Way Suite 201",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6627",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BURGER VEGGIE B",
+          "quantity": 1,
+          "unitPrice": 8.59,
+          "totalSpend": 8.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIES HOUSE CUT",
+          "quantity": 1,
+          "unitPrice": 8.19,
+          "totalSpend": 8.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIES HOUSE CUT",
+          "quantity": 1,
+          "unitPrice": 8.19,
+          "totalSpend": 8.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O ORG BELLA SLCD",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O SWEET CHERRIES + 1.90 lb @ 4.99/ lb + You saved 5.70",
+          "quantity": 1,
+          "unitPrice": 15.18,
+          "totalSpend": 9.48,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "O WCM LIONS MANE",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 12.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Thank you and good luck!\n****************************************\nFRESH THYME\nMARKET\n3701 Foundry Way Suite 201\nSt. Louis, MO. 63108\n(314) 597-4400\n7a-10p Daily\nFRESHTHYME.COM\nRRN:\n205687\nSALE\nXXXXXXXXXXXX6627\nVISA\nEntry Method:Cntctless\n05/23/2026\n19:29:26\nINVOICE:\n205687\nVISA CREDIT\nAID:\nA0000000031010\nTVR:\n0000000000\nTSI:\n0000\nTotal:\nUSD$ 54.12\nAPPROVED\n023926\nFROZEN\nBURGER VEGGIE B\n8.59 t F\nFRIES HOUSE CUT\n8.19 t F\nFRIES HOUSE CUT\n8.19 t F\nPRODUCE\nO ORG BELLA SLCD\n2.99 t F\nO SWEET CHERRIES\n*\n1.90 lb @\n4.99/ lb\n9.48 t F\nYou saved\n5.70\nO WCM LIONS MANE\n12.49 t F\nBALANCE DUE\n54.12\nVISA\n54.12\nEXP. DATE: **/****\nAuth Code = 023926\nCHANGE\n0.00\nTAX-CODE\nTAXABLE-VAL\nTAX-VALUE\nTax 1\n49.93\n4.19\nYour Savings Today:\nTOTAL DISCOUNTS\n1\n-5.70\nTotal number of items sold = 6\nFTFM\n#000000000101\nCASHIER NAME: SC020\nSTORE:00408 REGISTER:020 CASHIER:0920\nTICKET#:5979\n23MAY2026 19:29:26\nThank you for\nshopping with us!\nSee you next Thyme!\nTurn every $1 spent into points!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BURGER VEGGIE B",
+      "price": 8.59,
+      "quantity": 1,
+      "totalSpend": 8.59
+    },
+    {
+      "text": "FRIES HOUSE CUT",
+      "price": 8.19,
+      "quantity": 1,
+      "totalSpend": 8.19
+    },
+    {
+      "text": "FRIES HOUSE CUT",
+      "price": 8.19,
+      "quantity": 1,
+      "totalSpend": 8.19
+    },
+    {
+      "text": "O ORG BELLA SLCD",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "O SWEET CHERRIES + 1.90lb @ 4.99/ lb 9.48 t F + You saved 5.70",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 9.48
+    },
+    {
+      "text": "O WCM LIONS MANE",
+      "price": 12.49,
+      "quantity": 1,
+      "totalSpend": 12.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

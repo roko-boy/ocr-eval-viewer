@@ -1,0 +1,270 @@
+{
+  "id": "cmn99a3ie0066i5dctre4q31y",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Gorgie",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "22.55",
+    "purchaseDate": "2026-03-27",
+    "time": null,
+    "zipCode": "92708",
+    "city": "Fountain Valley",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11533.12666600005,
+        "totalUsd": 0.01695,
+        "inputTokens": 6086,
+        "outputTokens": 869,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "22.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:43",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92708",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fountain Valley",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "17900 Newhope St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3624",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2026730 GORGIE",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4600000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 0.75,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nFountain Valley #411\n17900 Newhope St\nFountain Valley, CA 92708\n(714) 338-2183\nSELF-CHECKOUT\n***START OF PRE-SCANNED ITEMS*********\nE 2026730 GORGIE 19.99 A\nE 4600000000 CA REDEMP VA 0.75 A\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 1\nSUBTOTAL 20.74\nTAX 1.81\n**** TOTAL 22.55\nXXXXXXXXXXXX3624 H\nAID: A0000000031010\nSeq# 205024 App#: 317234\nVisa Resp: APPROVED\nTran ID#: 608600205024....\nAPPROVED - Purchase\nAMOUNT: $22.55\n03/27/2026 11:43 411 205 72 705\nVisa 22.55\nCHANGE 0.00\nA 8.75% TAX 1.81\nTOTAL TAX 1.81\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/27/2026 11:43 411 205 72 705\n21041120500722603271143\nOP#: 705 Name: SCO\nThank You!\nPlease Come Again\nWhse:411 Trm:205 Trn:72 OP:705\nItems Sold: 1\nUL 03/27/2026 11:43",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12234.38050000003,
+        "totalUsd": 0.029919,
+        "inputTokens": 3692,
+        "outputTokens": 884,
+        "reasoningTokens": 1825
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "22.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:43",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92708",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fountain Valley",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "17900 Newhope St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3624",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2026730 GORGIE",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4600000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 0.75,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nFountain Valley #411\n17900 Newhope St\nFountain Valley, CA 92708\n(714) 338-2183\n\nSELF-CHECKOUT\n\n***START OF PRE-SCANNED ITEMS*********\n\nE 2026730 GORGIE 19.99 A\nE 4600000000 CA REDEMP VA 0.75 A\n\n***END OF PRE-SCANNED ITEMS***********\n\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 1\n\nSUBTOTAL 20.74\nTAX 1.81\n**** TOTAL 22.55\n\nXXXXXXXXXXXX3624 H\nAID: A0000000031010\nSeq# 205024 App#: 317234\nVisa Resp: APPROVED\nTran ID#: 608600205024....\n\nAPPROVED - Purchase\nAMOUNT: $22.55\n03/27/2026 11:43 411 205 72 705\n\nVisa 22.55\nCHANGE 0.00\n\nA 8.75% TAX 1.81\nTOTAL TAX 1.81\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/27/2026 11:43 411 205 72 705\n21041120500722603271143\nOP#: 705 Name: SCO\nThank You!\nPlease Come Again\nWhse:411 Trm:205 Trn:72 OP:705\n\nItems Sold: 1\nUL 03/27/2026 11:43",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5231.928167000005,
+        "totalUsd": 0.013341,
+        "inputTokens": 3692,
+        "outputTokens": 867,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "22.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:43 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92708",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fountain Valley",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "17900 Newhope St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3624",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GORGIE + 2026730",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CA REDEMP VA + 4600000000",
+          "quantity": 1,
+          "unitPrice": 0.75,
+          "totalSpend": 0.75,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nFountain Valley #411\n17900 Newhope St\nFountain Valley, CA 92708\n(714) 338-2183\nSELF-CHECKOUT\n***START OF PRE-SCANNED ITEMS*********\nE 2026730 GORGIE 19.99 A\nE 4600000000 CA REDEMP VA 0.75 A\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 1\nSUBTOTAL 20.74\nTAX 1.81\n**** TOTAL 22.55\nXXXXXXXXXXXX3624 H\nAID: A0000000031010\nSeq# 205024 App#: 317234\nVisa Resp: APPROVED\nTran ID#: 608600205024....\nAPPROVED - Purchase\nAMOUNT: $22.55\n03/27/2026 11:43 411 205 72 705\nVisa 22.55\nCHANGE 0.00\nA 8.75% TAX 1.81\nTOTAL TAX 1.81\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/27/2026 11:43 411 205 72 705\n21041120500722603271143\nOP#: 705 Name: SCO\nThank You!\nPlease Come Again\nWhse:411 Trm:205 Trn:72 OP:705\nItems Sold: 1\nUL 03/27/2026 11:43",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GORGIE + 2026730",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    },
+    {
+      "text": "CA REDEMP VA + 4600000000",
+      "price": 0.75,
+      "quantity": 1,
+      "totalSpend": 0.75
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmq9opa6c0083dctyhec8woem",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Alden's Organic",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Whole Foods",
+    "totalCost": "9.59",
+    "purchaseDate": "2026-06-11",
+    "time": null,
+    "zipCode": "11217",
+    "city": "Brooklyn",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6394.966626000009,
+        "totalUsd": 0.014823,
+        "inputTokens": 6162,
+        "outputTokens": 620,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:58 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11217",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brooklyn",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "292 Ashland Pl",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4269",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ALDEN OG THAI TEA BARS",
+          "quantity": 1,
+          "unitPrice": 9.59,
+          "totalSpend": 9.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nFort Greene FTG 718-290-1010\n292 Ashland Pl\nBrooklyn, NY 11217 1110\n*** This is a receipt copy ***\nALDEN OG THAI TEA BARS $9.59 F\nSubtotal: $9.59\nNet Sales: $9.59\nTotal: $9.59\nSold Items: 1\nPaid:\nPoints *4269 $0.20\nVISA *4269 $9.39\n\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\n\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n959 54259 06/11/2026 11:58 AM\n\n63011070995954259061120260\nUQW9F8EKCR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8442.462291999953,
+        "totalUsd": 0.020661,
+        "inputTokens": 3730,
+        "outputTokens": 647,
+        "reasoningTokens": 1027
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:58 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11217 1110",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Brooklyn",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "292 Ashland Pl",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4269",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ALDEN OG THAI TEA BARS",
+          "quantity": 1,
+          "unitPrice": 9.59,
+          "totalSpend": 9.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nFort Greene FTG 718-290-1010\n292 Ashland Pl\nBrooklyn, NY 11217 1110\n*** This is a receipt copy ***\nALDEN OG THAI TEA BARS $9.59 F\nSubtotal: $9.59\nNet Sales: $9.59\nTotal: $9.59\nSold Items: 1\nPaid:\nPoints *4269 $0.20\nVISA *4269 $9.39\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n959 54259 06/11/2026 11:58 AM\n6301070995954259061120260\nUQW9F8EKCR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4194.000625000015,
+        "totalUsd": 0.011391,
+        "inputTokens": 3730,
+        "outputTokens": 644,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:58 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11217",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brooklyn",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "292 Ashland Pl",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4269",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ALDEN OG THAI TEA BARS",
+          "quantity": 1,
+          "unitPrice": 9.59,
+          "totalSpend": 9.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nFort Greene FTG 718-290-1010\n292 Ashland Pl\nBrooklyn, NY 11217 1110\n*** This is a receipt copy ***\nALDEN OG THAI TEA BARS $9.59 F\nSubtotal: $9.59\nNet Sales: $9.59\nTotal: $9.59\nSold Items: 1\nPaid:\nPoints *4269 $0.20\nVISA *4269 $9.39\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n959 54259 06/11/2026 11:58 AM\n63011070995954259061120260\nUQW9F8EKCR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ALDEN OG THAI TEA BARS",
+      "price": 9.59,
+      "quantity": 1,
+      "totalSpend": 9.59
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

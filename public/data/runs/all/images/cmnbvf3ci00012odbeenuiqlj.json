@@ -1,0 +1,264 @@
+{
+  "id": "cmnbvf3ci00012odbeenuiqlj",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "Wet Hydration",
+  "amount": 2.62,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "62.04",
+    "purchaseDate": "2026-03-28",
+    "time": null,
+    "zipCode": "29640",
+    "city": "EASLEY",
+    "state": "SC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9231.476916000014,
+        "totalUsd": 0.016527,
+        "inputTokens": 6086,
+        "outputTokens": 822,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "62.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8182",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2306785 ELECTRASHRED LMN LIM + 161957-2306785-11.24: -33.73 (1)",
+          "quantity": 1,
+          "unitPrice": 44.97,
+          "totalSpend": 11.24,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "2708568 WH PINEAPPLE WHIP 1C + 1206-2708568-2.62: -0.87 (1)",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.62,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "2306785 ELECTRASHRED LMN LIM - 11.24 T\nReg Price: 44.97\n161957-2306785-11.24: -33.73 (1)\n2708568 WH PINEAPPLE WHIP 1C - 2.62 T\nReg Price: 3.49\n1206-2708568-2.62: -0.87 (1)\nSubtotal 212.36\nTax Local Sales and Use Tax 1% 0.60\nTax N 0% 0.00\nTax S 6% 1.33\nTOTAL 62.04\nVisa Credit Card 62.04\nAMOUNT: 62.04\nCARD:VISA CREDIT XXXX8182 CTLS EMV\nAPPROVAL CODE:08238D\nAID:A0000000031010\nTVR:0000000000\nIAD:06021203A00000\nTSI:\nARC:00\nAPPLICATION CRYPTOGRAM:DBCA7E18530C05DC\nAPPLICATION PREFERRED NAME:CHASE VISA\nAPPLICATION LABEL:VISA CREDIT\nResponse Code:000\nREFERENCE NUMBER:043051\n12 Items\nYou saved 152.25 today.\nT = Taxable N = Non-Taxable\n(1)Discount not subject to sales tax\n(2)Manufacturer coupon subject to sales ta\nx\nThank you for shopping at\nStore 0749\nSave with Auto Delivery!\nIt's convenient, flexible and time-saving.\nAsk a Health Enthusiast for details.\n01074900104305120260328",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 25361.95808299998,
+        "totalUsd": 0.055209,
+        "inputTokens": 3692,
+        "outputTokens": 838,
+        "reasoningTokens": 4681
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Vitamin Shoppe",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "62.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2023-06-28",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8182",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ELECTRASHRED LMN LIM + 2306785",
+          "quantity": 1,
+          "unitPrice": 44.97,
+          "totalSpend": 11.24,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WH PINEAPPLE WHIP 1C + 2708568",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.62,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "2306785 ELECTRASHRED LMN LIM  - 11.24 T\n                     Reg Price: 44.97\n       161957-2306785-11.24: -33.73 (1)\n2708568 WH PINEAPPLE WHIP 1C   - 2.62 T\n                     Reg Price: 3.49\n        1206-2708568-2.62: -0.87 (1)\n\n                 Subtotal      212.36\n\nTax Local Sales and Use Tax 1%   0.60\nTax N 0%     0.00\nTax S 6%     1.33\n                  TOTAL         62.04\n\n\nVisa Credit Card                62.04\n\nAMOUNT: 62.04\nCARD:VISA CREDIT XXXX8182 CTLS EMV\nAPPROVAL CODE:08238D\nAID:A0000000031010\nTVR:0000000000\nIAD:06021203A00000\nTSI:\nARC:00\nAPPLICATION CRYPTOGRAM:DBCA7E18530C05DC\nAPPLICATION PREFERRED NAME:CHASE VISA\nAPPLICATION LABEL:VISA CREDIT\nResponse Code:000\nREFERENCE NUMBER:043051\n\n            12 Items\n\n\n          You saved 152.25 today.\nT = Taxable             N = Non-Taxable\n\n (1)Discount not subject to sales tax\n(2)Manufacturer coupon subject to sales ta\n                     x\n\n          Thank you for shopping at\n                 Store 0749\n\n          Save with Auto Delivery!\n\nIt's convenient, flexible and time-saving.\n\n    Ask a Health Enthusiast for details.\n\n          01074900104305120230628",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5129.210541000008,
+        "totalUsd": 0.012702,
+        "inputTokens": 3692,
+        "outputTokens": 796,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Vitamin Shoppe",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "62.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8182",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2306785 ELECTRASHRED LMN LIM + 161957-2306785-11.24",
+          "quantity": 1,
+          "unitPrice": 44.97,
+          "totalSpend": 11.24,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "2708568 WH PINEAPPLE WHIP 1C + 1206-2708568-2.62",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.62,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "2306785 ELECTRASHRED LMN LIM - 11.24 T\nReg Price: 44.97\n161957-2306785-11.24: -33.73 (1)\n2708568 WH PINEAPPLE WHIP 1C - 2.62 T\nReg Price: 3.49\n1206-2708568-2.62: -0.87 (1)\nSubtotal 212.36\nTax Local Sales and Use Tax 1% 0.60\nTax N 0% 0.00\nTax S 6% 1.33\nTOTAL 62.04\nVisa Credit Card 62.04\nAMOUNT: 62.04\nCARD:VISA CREDIT XXXX8182 CTLS EMV\nAPPROVAL CODE:08238D\nAID:A0000000031010\nTVR:0000000000\nIAD:06021203A00000\nTSI:\nARC:00\nAPPLICATION CRYPTOGRAM:DBCA7E18530C05DC\nAPPLICATION PREFERRED NAME:CHASE VISA\nAPPLICATION LABEL:VISA CREDIT\nResponse Code:000\nREFERENCE NUMBER:043051\n12 Items\nYou saved 152.25 today.\nT = Taxable N = Non-Taxable\n(1)Discount not subject to sales tax\n(2)Manufacturer coupon subject to sales ta\nx\nThank you for shopping at\nStore 0749\nSave with Auto Delivery!\nIt's convenient, flexible and time-saving.\nAsk a Health Enthusiast for details.\n01074900104305120260328",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Reg Price",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

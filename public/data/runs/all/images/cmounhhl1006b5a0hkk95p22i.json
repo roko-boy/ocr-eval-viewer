@@ -1,0 +1,297 @@
+{
+  "id": "cmounhhl1006b5a0hkk95p22i",
+  "url": null,
+  "retailer": "Harris Teeter",
+  "brand": "Skinny Mixes",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Harris Teeter",
+    "totalCost": "15.86",
+    "purchaseDate": "2026-05-06",
+    "time": null,
+    "zipCode": "27526",
+    "city": "FUQUAY VARINA",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14469.79004100003,
+        "totalUsd": 0.017454,
+        "inputTokens": 6086,
+        "outputTokens": 925,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Harris Teeter",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:23pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27526",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fuquay-Varina",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1371 E Broad St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7994",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JORDANS SF SALTED",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JORDANS SF MARSHMA + MC SCANNED COUPON",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JORDANS SF DOUBLE + MC OP SCANNED COUPON",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Harris Teeter\nYOUR NEIGHBORHOOD MARKET\nSTORE # 498\n1371 E Broad St - Fuquay-Varina, NC\n919-567-7423\nSTORE MANAGER: Robert N\nYOUR CASHIER : Eileen N\nJORDANS SF SALTED 6.49 B\nJORDANS SF MARSHMA 6.49 B\nJORDANS SF DOUBLE 6.49 B\nMC SCANNED COUPON 2.00-F\nMC OP SCANNED COUPON 2.00-\nTAX 0.39\n**** BALANCE 15.86\nFuquay-Varina NC 27526-\nVISA CREDIT PURCHASE\n************7994 - C\nREF#: 66950D TOTAL: 15.86\nAID: A0000000031010\nTC: 27D495A485600569\nVISA 15.86\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n************ VIC SAVINGS ************\nMFG CPN SAVINGS $ 4.00\nTOTAL COUPONS $ 4.00\nTOTAL SAVINGS (20 %) $ 4.00\n************ VIC SAVINGS ************\n05/06/26 05:23pm 498 2 171 7114\nASK ANY ASSOCIATE HOW OUR\nVIC PROGRAM CAN SAVE YOU MONEY\n9102049809700201712605061723\nTHANK YOU FOR SHOPPING HARRIS TEETER\nCORPORATE CUSTOMER SERV 1-800-432-6111",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16431.58991599997,
+        "totalUsd": 0.035868,
+        "inputTokens": 3692,
+        "outputTokens": 896,
+        "reasoningTokens": 2474
+      },
+      "fields": {
+        "storeName": {
+          "value": "Harris Teeter",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:23pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27526",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fuquay-Varina",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1371 E Broad St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7994",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JORDANS SF SALTED",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JORDANS SF MARSHMA",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JORDANS SF DOUBLE",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Harris Teeter\nYOUR NEIGHBORHOOD MARKET\nSTORE # 498\n1371 E Broad St - Fuquay-Varina, NC\n919-567-7423\nSTORE MANAGER: Robert N\nYOUR CASHIER : Eileen N\nJORDANS SF SALTED 6.49 B\nJORDANS SF MARSHMA 6.49 B\nJORDANS SF DOUBLE 6.49 B\nMC SCANNED COUPON 2.00-F\nMC OP SCANNED COUPON 2.00-\nTAX 0.39\n**** BALANCE 15.86\nFuquay-Varina NC 27526-\nVISA CREDIT PURCHASE\n************7994 - C\nREF#: 66950D TOTAL: 15.86\nAID: A0000000031010\nTC: 27D495A485600569\nVISA 15.86\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n************ VIC SAVINGS ************\nMFG CPN SAVINGS $ 4.00\nTOTAL COUPONS $ 4.00\nTOTAL SAVINGS (20 %) $ 4.00\n************ VIC SAVINGS ************\n05/06/26 05:23pm 498 2 171 7114\nASK ANY ASSOCIATE HOW OUR\nVIC PROGRAM CAN SAVE YOU MONEY\n9102049809700201712605061723\nTHANK YOU FOR SHOPPING HARRIS TEETER\nCORPORATE CUSTOMER SERV 1-800-432-6111",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5102.263166999997,
+        "totalUsd": 0.013422,
+        "inputTokens": 3692,
+        "outputTokens": 876,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Harris Teeter",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:23pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27526",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fuquay-Varina",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1371 E Broad St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7994",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JORDANS SF SALTED",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JORDANS SF MARSHMA + SCANNED COUPON",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JORDANS SF DOUBLE + SCANNED COUPON",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Harris Teeter\nYOUR NEIGHBORHOOD MARKET\nSTORE # 498\n1371 E Broad St - Fuquay-Varina, NC\n919-567-7423\nSTORE MANAGER: Robert N\nYOUR CASHIER : Eileen N\nJORDANS SF SALTED 6.49 B\nJORDANS SF MARSHMA 6.49 B\nJORDANS SF DOUBLE 6.49 B\nMC SCANNED COUPON 2.00-F\nMC OP SCANNED COUPON 2.00-\nTAX 0.39\n**** BALANCE 15.86\nFuquay-Varina NC 27526-\nVISA CREDIT PURCHASE\n************7994 - C\nREF#: 66950D TOTAL: 15.86\nAID: A0000000031010\nTC: 27D495A485600569\nVISA 15.86\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n************ VIC SAVINGS ************\nMFG CPN SAVINGS $ 4.00\nTOTAL COUPONS $ 4.00\nTOTAL SAVINGS (20 %) $ 4.00\n************ VIC SAVINGS ************\n05/06/26 05:23pm 498 2 171 7114\nASK ANY ASSOCIATE HOW OUR\nVIC PROGRAM CAN SAVE YOU MONEY\n9102049809700201712605061723\nTHANK YOU FOR SHOPPING HARRIS TEETER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JORDANS SF SALTED",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "JORDANS SF MARSHMA",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "JORDANS SF DOUBLE + MC SCANNED COUPON 2.00-F",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

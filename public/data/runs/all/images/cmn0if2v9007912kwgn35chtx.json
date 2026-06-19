@@ -1,0 +1,270 @@
+{
+  "id": "cmn0if2v9007912kwgn35chtx",
+  "url": null,
+  "retailer": "Kwik Trip",
+  "brand": "f'real",
+  "amount": 0.51,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kwik Trip",
+    "totalCost": "5.03",
+    "purchaseDate": "2026-03-21",
+    "time": null,
+    "zipCode": "54935",
+    "city": "Fond Du Lac",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12628.79358299999,
+        "totalUsd": 0.016113,
+        "inputTokens": 6086,
+        "outputTokens": 776,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:53:12 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54935",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fond Du Lac",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "168 N Pioneer Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL SHAKE OREO CKIENCR",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FREAL SHAKE COTTON CANDY + MM 105 Freal Items 2 for + L-5% Discount",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.25,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kwik Trip\n168 N Pioneer Rd\nFond Du Lac, WI 54935\n\nStore #1176   3/21/2026   10:53:12 AM\nRegister # 4  Trans # 3359412\n\nTax Description        Qty   Amount\n\nT FREAL SHAKE OREO CKIENCR   $3.99\nT FREAL SHAKE COTTON CANDY   $3.99\n  MM 105 Freal Items 2 for   -$2.98\n  L-5% Discount          1   -$0.25\n\n                 Sub Total   $4.75\n                       Tax   $0.28\n                     Total   $5.03\n\n                  KwikPlus:  $5.03\n                    Change   $0.00\n\nKwikPlus\nCard Num : (S) XXXXXXXXXXXXXX0019\nSwiped\nTerminal : RA1094001176906\nApproval : P29957\n\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\n\nKwik Rewards Plus\nCard Num : (*) XXXXXXXXXXXX8029\nTerminal : 1176\nApproval : U:1177886\n\nTotal Visits: 68/15\n-----------------------------------\nYou saved 5% with your Kwik Rewards\nCard!\n\nNow Available:\nFreshly Made\nTake Home Meals\n-----------------------------------\nTake and Bake Pizza\n-----------------------------------\nHave a nice day,\nSee you next time!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20239.84612500001,
+        "totalUsd": 0.03512999999999999,
+        "inputTokens": 3692,
+        "outputTokens": 808,
+        "reasoningTokens": 2480
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:53:12 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54935",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fond Du Lac",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "168 N Pioneer Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL SHAKE OREO CKIENCR + MM 105 FReal Items 2 for + L-5% Discount",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.38,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FREAL SHAKE COTTON CANDY + MM 105 FReal Items 2 for + L-5% Discount",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.37,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kwik Trip\n168 N Pioneer Rd\nFond Du Lac, WI 54935\n\nStore #1176    3/21/2026    10:53:12 AM\nRegister # 4  Trans # 3359412\n\nTax Description        Qty   Amount\nT  FREAL SHAKE OREO CKIENCR  $3.99\nT  FREAL SHAKE COTTON CANDY  $3.99\n   MM 105 FReal Items 2 for -$2.98\n   L-5% Discount          1  -$0.25\n\n                    Sub Total  $4.75\n                          Tax  $0.28\n                        Total  $5.03\n\n                     KwikPlus: $5.03\n                       Change  $0.00\n\nKwikPlus\nCard Num : (S) XXXXXXXXXXXXXX0019\nSwiped\nTerminal : RA1094001176906\nApproval : P29957\n\n  All fuel types purchased at the pump\n  have all applicable taxes included\n          in the fuel price.\n\nKwik Rewards Plus\nCard Num : (*) XXXXXXXXXXXX8029\nTerminal : 1176\nApproval : U:1177886\n\n            Total Visits: 68/15\n----------------------------------------\n  You saved 5% with your Kwik Rewards\n                 Card!\n\n       Now Available:\n        Freshly Made\n      Take Home Meals\n----------------------------------------\n     Take and Bake Pizza\n----------------------------------------\n       Have a nice day,\n     See you next time!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4541.840708999996,
+        "totalUsd": 0.011838,
+        "inputTokens": 3692,
+        "outputTokens": 700,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:53:12 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54935",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fond Du Lac",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "168 N Pioneer Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "KwikPlus",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL SHAKE OREO CKIENCR",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.38,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FREAL SHAKE COTTON CANDY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.37,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kwik Trip\n168 N Pioneer Rd\nFond Du Lac, WI 54935\nStore #1176 3/21/2026 10:53:12 AM\nRegister # 4 Trans # 3359412\nTax Description Qty Amount\nT FREAL SHAKE OREO CKIENCR $3.99\nT FREAL SHAKE COTTON CANDY $3.99\nMM 105 FReal Items 2 for -$2.98\nL-5% Discount 1 -$0.25\nSub Total $4.75\nTax $0.28\nTotal $5.03\nKwikPlus: $5.03\nChange $0.00\nKwikPlus\nCard Num : (S) XXXXXXXXXXXX0019\nSwiped\nTerminal : RA1094001176906\nApproval : P29957\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nKwik Rewards Plus\nCard Num : (*) XXXXXXXXXXXX8029\nTerminal : 1176\nApproval : U:1177886\nTotal Visits: 68/15\nYou saved 5% with your Kwik Rewards\nCard!\nNow Available:\nFreshly Made\nTake Home Meals\nTake and Bake Pizza\nHave a nice day,\nSee you next time!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FREAL SHAKE OREO CKIENCR",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "FREAL SHAKE COTTON CANDY",
+      "price": 1.01,
+      "quantity": 1,
+      "totalSpend": 1.01
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

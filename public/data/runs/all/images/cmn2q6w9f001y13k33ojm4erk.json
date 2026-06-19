@@ -1,0 +1,405 @@
+{
+  "id": "cmn2q6w9f001y13k33ojm4erk",
+  "url": null,
+  "retailer": "Dollar Tree",
+  "brand": "Pepsi Food Service",
+  "amount": 2.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Dollar Tree",
+    "totalCost": "12",
+    "purchaseDate": "2026-03-22",
+    "time": null,
+    "zipCode": "60409",
+    "city": "Calumet City",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 31756.92212599999,
+        "totalUsd": 0.019353,
+        "inputTokens": 6086,
+        "outputTokens": 1136,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60409-2118",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Calumet City",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1949 Sibley Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4035",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI 20Z",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HVY DTY LATEX GLOVE",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HVY DTY LATEX GLOVE",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "M&MS PEANUT SINGLES 1.74Z",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REESES PB CUPS STD BAR 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WISE SC&O RIDGIES CHIPS 3.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WISE SC&O RIDGIES CHIPS 3.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 3678\n(708) 730-4830\n1949 Sibley Blvd.\nCalumet City IL 60409-2118\n========================================\nDESCRIPTION             QTY   PRICE    TOTAL\n========================================\nPEPSI 20Z                 1    2.50    2.50T\nHVY DTY LATEX GLOVE       1    1.50    1.50T\nHVY DTY LATEX GLOVE       1    1.50    1.50T\nM&MS PEANUT SINGLES 1.74Z 1    1.50    1.50T\nREESES PB CUPS STD BAR 1.5Z 1  1.50    1.50T\nWISE SC&O RIDGIES CHIPS 3.5Z 1 1.25    1.25T\nWISE SC&O RIDGIES CHIPS 3.5Z 1 1.25    1.25T\n                      Sub Total       $11.00\n                      SALES TAX        $0.94\n                      FOOD TAX         $0.06\n                      Total           $12.00\n                      US Debit        $12.00\n                      ************4035 Approved\n                      Purchase         Chip\n                      Auth/Trace Number: 022012/045877\n                      Chip Card AID: A0000000042203\n========================================\nNOW SHOP ON-LINE AT DOLLARTREE.COM\nPlease provide your feedback at\nwww.dollartreefeedback.com\n0128 03678 04 449 28015541   3/22/26 16:15\nSales Associate:Jeffrey",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 40321.401916,
+        "totalUsd": 0.03306,
+        "inputTokens": 3692,
+        "outputTokens": 1111,
+        "reasoningTokens": 1947
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60409-2118",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Calumet City",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1949 Sibley Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4035",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI 20Z",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HVY DTY LATEX GLOVE",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HVY DTY LATEX GLOVE",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "M&MS PEANUT SINGLES 1.74Z",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REESES PB CUPS STD BAR 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WISE SC&O RIDGIES CHIPS 3.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WISE SC&O RIDGIES CHIPS 3.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 3678 (708) 730-4830\n1949 Sibley Blvd.\nCalumet City IL 60409-2118\n=========================================\nDESCRIPTION QTY PRICE TOTAL\n-----------------------------------------\nPEPSI 20Z 1 2.50 2.50T\nHVY DTY LATEX GLOVE 1 1.50 1.50T\nHVY DTY LATEX GLOVE 1 1.50 1.50T\nM&MS PEANUT SINGLES 1.74Z 1 1.50 1.50T\nREESES PB CUPS STD BAR 1.5Z 1 1.50 1.50T\nWISE SC&O RIDGIES CHIPS 3.5Z 1 1.25 1.25T\nWISE SC&O RIDGIES CHIPS 3.5Z 1 1.25 1.25T\nSub Total $11.00\nSALES TAX $0.94\nFOOD TAX $0.06\nTotal $12.00\nUS Debit $12.00\n************4035 Approved\nPurchase Chip\nAuth/Trace Number: 022012/045877\nChip Card AID: A0000000042203\n=========================================\nNOW SHOP ON-LINE AT DOLLARTREE.COM\nPlease provide your feedback at\nwww.dollartreefeedback.com\n0128 03678 04 449 28015541 3/22/26 16:15\nSales Associate:Jeffrey",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6240.924291000003,
+        "totalUsd": 0.01551,
+        "inputTokens": 3692,
+        "outputTokens": 1108,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60409-2118",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Calumet City",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1949 Sibley Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4035",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI 20Z",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HVY DTY LATEX GLOVE",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HVY DTY LATEX GLOVE",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "M&MS PEANUT SINGLES 1.74Z",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REESES PB CUPS STD BAR 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WISE SC&O RIDGIES CHIPS 3.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WISE SC&O RIDGIES CHIPS 3.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 3678\n(708) 730-4830\n1949 Sibley Blvd.\nCalumet City IL 60409-2118\n=========================================\nDESCRIPTION QTY PRICE TOTAL\nPEPSI 20Z 1 2.50 2.50T\nHVY DTY LATEX GLOVE 1 1.50 1.50T\nHVY DTY LATEX GLOVE 1 1.50 1.50T\nM&MS PEANUT SINGLES 1.74Z 1 1.50 1.50T\nREESES PB CUPS STD BAR 1.5Z 1 1.50 1.50T\nWISE SC&O RIDGIES CHIPS 3.5Z 1 1.25 1.25T\nWISE SC&O RIDGIES CHIPS 3.5Z 1 1.25 1.25T\nSub Total $11.00\nSALES TAX $0.94\nFOOD TAX $0.06\nTotal $12.00\nUS Debit $12.00\n************4035 Approved\nPurchase Chip\nAuth/Trace Number: 022012/045877\nChip Card AID: A0000000042203\n=========================================\nNOW SHOP ON-LINE AT DOLLARTREE.COM\nPlease provide your feedback at\nwww.dollartreefeedback.com\n0128 03678 04 449 28015541 3/22/26 16:15\nSales Associate:Jeffrey",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PEPSI 20Z",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "HVY DTY LATEX GLOVE",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "HVY DTY LATEX GLOVE",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "M&MS PEANUT SINGLES 1.74Z",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "REESES PB CUPS STD BAR 1.5Z",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "WISE SC&O RIDGIES CHIPS 3.5Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "WISE SC&O RIDGIES CHIPS 3.5Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

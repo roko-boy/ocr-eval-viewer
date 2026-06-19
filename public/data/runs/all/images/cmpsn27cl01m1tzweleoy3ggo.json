@@ -1,0 +1,270 @@
+{
+  "id": "cmpsn27cl01m1tzweleoy3ggo",
+  "url": null,
+  "retailer": "Target",
+  "brand": "nello ",
+  "amount": 21.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "62.38",
+    "purchaseDate": "2026-05-30",
+    "time": null,
+    "zipCode": "60607",
+    "city": "Chicago",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11166.798416,
+        "totalUsd": 0.0153105,
+        "inputTokens": 6163,
+        "outputTokens": 674,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60607-2905",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1101 W Jackson Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4651",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "094020915 Nello",
+          "quantity": 2,
+          "unitPrice": 21.99,
+          "totalSpend": 43.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "049015968 Juus",
+          "quantity": 1,
+          "unitPrice": 16.19,
+          "totalSpend": 16.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Chicago West Loop - 312-279-3340\n1101 W Jackson Blvd\nChicago, Illinois 60607-2905\n05/30/2026 12:40 PM\nHEALTH AND BEAUTY\n094020915 Nello B $43.98\n2 @ $21.99 ea\n049015968 Juus T $16.19\nSUBTOTAL $60.17\nB = IL TAX 1.25000 on $43.98 $0.55\nT = IL TAX 10.25000 on $16.19 $1.66\nTOTAL $62.38\n*4651 VISA CHARGE $62.38\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 00197D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nREC#2-6150-2781-0171-6664-6",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10416.291375,
+        "totalUsd": 0.021171,
+        "inputTokens": 3692,
+        "outputTokens": 693,
+        "reasoningTokens": 1044
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60607-2905",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1101 W Jackson Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4651",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "094020915 Nello",
+          "quantity": 2,
+          "unitPrice": 21.99,
+          "totalSpend": 43.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "049015968 Juus",
+          "quantity": 1,
+          "unitPrice": 16.19,
+          "totalSpend": 16.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Chicago West Loop - 312-279-3340\n1101 W Jackson Blvd\nChicago, Illinois 60607-2905\n05/30/2026 12:40 PM\n\nHEALTH AND BEAUTY\n094020915 Nello             B      $43.98\n     2 @ $21.99 ea\n049015968 Juus              T      $16.19\n                  SUBTOTAL         $60.17\nB = IL TAX 1.25000 on $43.98        $0.55\nT = IL TAX 10.25000 on $16.19       $1.66\n                     TOTAL         $62.38\n*4651 VISA CHARGE                  $62.38\n             AID: A0000000031010\n                     VISA CREDIT\n             AUTH CODE:            00197D\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nREC#2-6150-2781-0171-6664-6\nHelp make your Target Run better",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4342.791166999999,
+        "totalUsd": 0.011577,
+        "inputTokens": 3692,
+        "outputTokens": 671,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60607-2905",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1101 W Jackson Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4651",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "094020915 Nello",
+          "quantity": 2,
+          "unitPrice": 21.99,
+          "totalSpend": 43.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "049015968 Juus",
+          "quantity": 1,
+          "unitPrice": 16.19,
+          "totalSpend": 16.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Chicago West Loop - 312-279-3340\n1101 W Jackson Blvd\nChicago, Illinois 60607-2905\n05/30/2026 12:40 PM\nHEALTH AND BEAUTY\n094020915 Nello B $43.98\n2 @ $21.99 ea\n049015968 Juus T $16.19\nSUBTOTAL $60.17\nB = IL TAX 1.25000 on $43.98 $0.55\nT = IL TAX 10.25000 on $16.19 $1.66\nTOTAL $62.38\n*4651 VISA CHARGE $62.38\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 00197D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nREC#2-6150-2781-0171-6664-6\nHelp make your Target Run better",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Nello + 094020915 + 2 @ $21.99 ea",
+      "price": 21.99,
+      "quantity": 2,
+      "totalSpend": 43.98
+    },
+    {
+      "text": "Juus + 049015968",
+      "price": 16.19,
+      "quantity": 1,
+      "totalSpend": 16.19
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

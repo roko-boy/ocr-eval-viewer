@@ -1,0 +1,243 @@
+{
+  "id": "cmon45zrt00mzvmiqvylbapkt",
+  "url": null,
+  "retailer": "Tractor Supply Co.",
+  "brand": "JustFoodForDogs",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Tractor Supply",
+    "totalCost": "6.39",
+    "purchaseDate": "2026-05-01",
+    "time": null,
+    "zipCode": "45036",
+    "city": "LEBANON",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6754.391833,
+        "totalUsd": 0.014511,
+        "inputTokens": 6086,
+        "outputTokens": 598,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tractor Supply Co",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45036-8078",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "LEBANON",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1235 COLUMBUS AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JFFD BOOST SENSITIVE SKIN + 6060610",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "TSC TRACTOR\nSUPPLY CO\nTractorSupply.com\n1235 COLUMBUS AVE\nLEBANON, OH 45036-8078\n513-268-8349\nTicket: 54052\nDate: 5/1/26\nStore: 2975\nCashier: Kimberly\nTime: 12:09 PM\nRegister: 1\nItem Qty Price Amount\nJFFD BOOST SENSITIVE SKIN\n6060610 1 5.99 5.99\nSubtotal 5.99\nTax 0.40\nTotal 6.39\nCash 7.09\nChange Cash (0.70)\nTSC NEIGHBOR PREFERRED\nThank you for being\na Preferred member!\n$$$$$$$$$$$$$$$$$$$$$$$$$\nEXCLUSIVE OFFER\n2x Points\non Your Order When You Spend $35 on Garden\nCenter Products at Tractor Supply\nExpires May 10th, 2026\nLimited to Neighbor's Club Member #*2366",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10508.416458,
+        "totalUsd": 0.021801,
+        "inputTokens": 3692,
+        "outputTokens": 576,
+        "reasoningTokens": 1231
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tractor Supply Co",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45036-8078",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "LEBANON",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1235 COLUMBUS AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JFFD BOOST SENSITIVE SKIN + 6060610",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "TSC TRACTOR\nSUPPLY CO\nTractorSupply.com\n1235 COLUMBUS AVE\nLEBANON, OH 45036-8078\n513-268-8349\n\nTicket: 54052\nDate: 5/1/26\nStore: 2975\nCashier: Kimberly\nTime: 12:09 PM\nRegister: 1\n\nItem Qty Price Amount\nJFFD BOOST SENSITIVE SKIN\n6060610 1 5.99 5.99\n\nSubtotal 5.99\nTax 0.40\nTotal 6.39\n\nCash 7.09\nChange Cash (0.70)\n\nTSC NEIGHBOR PREFERRED\nThank you for being\na Preferred member!\n\nEXCLUSIVE OFFER\n2x Points\non Your Order When You Spend $35 on Garden\nCenter Products at Tractor Supply\nExpires May 10th, 2026\nLimited to Neighbor's Club Member #*2366",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3884.676374999999,
+        "totalUsd": 0.010911,
+        "inputTokens": 3692,
+        "outputTokens": 597,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tractor Supply Co",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45036-8078",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "LEBANON",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1235 COLUMBUS AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JFFD BOOST SENSITIVE SKIN + 6060610",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "TSC TRACTOR\nSUPPLY CO\nTractorSupply.com\n1235 COLUMBUS AVE\nLEBANON, OH 45036-8078\n513-268-8349\nTicket: 54052\nDate: 5/1/26\nStore: 2975\nCashier: Kimberly\nTime: 12:09 PM\nRegister: 1\nItem\nQty\nPrice\nAmount\nJFFD BOOST SENSITIVE SKIN\n6060610\n1\n5.99\n5.99\nSubtotal\n5.99\nTax\n0.40\nTotal\n6.39\nCash\n7.09\nChange\nCash\n(0.70)\nTSC\nNEIGHBOR\nPREFERRED\nThank you for being\na Preferred member!\n$$$$$$$$$$$$$$$$$$$$$$$$$\nEXCLUSIVE OFFER\n2x Points\non Your Order When You Spend $35 on Garden\nCenter Products at Tractor Supply\nExpires May 10th, 2026\nLimited to Neighbor's Club Member #*2366",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JFFD BOOST SENSITIVE SKIN + 6060610",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

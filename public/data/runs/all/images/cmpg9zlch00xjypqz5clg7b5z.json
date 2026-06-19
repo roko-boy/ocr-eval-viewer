@@ -1,0 +1,270 @@
+{
+  "id": "cmpg9zlch00xjypqz5clg7b5z",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Bare Bones Broth",
+  "amount": 1.59,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "3.49",
+    "purchaseDate": "2026-05-21",
+    "time": null,
+    "zipCode": "91423",
+    "city": "Sherman Oaks",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18307.193959,
+        "totalUsd": 0.016032,
+        "inputTokens": 6086,
+        "outputTokens": 767,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91423",
+          "status": "match"
+        },
+        "city": {
+          "value": "Sherman Oaks",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14311 Ventura Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7505",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BBONES CLLGN DRNK MIX SGL",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BBONES CLLGN DRNK MIX SGL",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nSherman SHM 818-528-8030\n14311 Ventura Blvd\nSherman Oaks, CA 91423 2716\n*** This is a receipt copy ***\nBBONES CLLGN DRNK MIX SGL $1.59 FT\nBBONES CLLGN DRNK MIX SGL $1.59 FT\nSubtotal: $3.18\nNet Sales: $3.18\nTax: 9.75% $0.31\nTotal: $3.49\nSold Items: 2\nPaid:\nDebit *7505 $3.49\nChip Card:US DEBIT\nChip Card AID:A00000000908040\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n*********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n*********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n907 38538 05/21/2026 06:49 PM\n63011067190738538052120260\nIY9MPG37W7",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12742.60733300005,
+        "totalUsd": 0.027966,
+        "inputTokens": 3692,
+        "outputTokens": 764,
+        "reasoningTokens": 1728
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91423",
+          "status": "match"
+        },
+        "city": {
+          "value": "Sherman Oaks",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14311 Ventura Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7505",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BBONES CLLGN DRNK MIX SGL",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BBONES CLLGN DRNK MIX SGL",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nSherman SHM 818-528-8030\n14311 Ventura Blvd\nSherman Oaks, CA 91423 2716\n*** This is a receipt copy ***\nBBONES CLLGN DRNK MIX SGL $1.59 FT\nBBONES CLLGN DRNK MIX SGL $1.59 FT\nSubtotal: $3.18\nNet Sales: $3.18\nTax: 9.75% $0.31\nTotal: $3.49\nSold Items: 2\nPaid:\nDebit *7505 $3.49\nChip Card: US DEBIT\nChip Card AID: A0000000980840\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n907 38538 05/21/2026 06:49 PM\n63011067190738538052120260\nIY9MPG37W7",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5049.886916999996,
+        "totalUsd": 0.012288,
+        "inputTokens": 3692,
+        "outputTokens": 750,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91423",
+          "status": "match"
+        },
+        "city": {
+          "value": "Sherman Oaks",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14311 Ventura Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7505",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BBONES CLLGN DRNK MIX SGL",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BBONES CLLGN DRNK MIX SGL",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nSherman SHM 818-528-8030\n14311 Ventura Blvd\nSherman Oaks, CA 91423 2716\n*** This is a receipt copy ***\nBBONES CLLGN DRNK MIX SGL $1.59 FT\nBBONES CLLGN DRNK MIX SGL $1.59 FT\nSubtotal: $3.18\nNet Sales: $3.18\nTax: 9.75% $0.31\nTotal: $3.49\nSold Items: 2\nPaid:\nDebit *7505 $3.49\nChip Card:US DEBIT\nChip Card AID:A0000000980840\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n*********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n*********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n907 38538 05/21/2026 06:49 PM\n63011067190738538052120260\nIY9MPG37W7",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BBONES CLLGN DRNK MIX SGL",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.59
+    },
+    {
+      "text": "BBONES CLLGN DRNK MIX SGL",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.59
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

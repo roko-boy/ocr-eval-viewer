@@ -1,0 +1,324 @@
+{
+  "id": "cmnh0j8ih0020j1a01k4cfbo8",
+  "url": null,
+  "retailer": "Ralph's",
+  "brand": "GOOD GOOD",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Ralphs",
+    "totalCost": "19.96",
+    "purchaseDate": "2026-04-01",
+    "time": null,
+    "zipCode": "92627",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18471.74075,
+        "totalUsd": 0.018921,
+        "inputTokens": 6086,
+        "outputTokens": 1088,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.96",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:05pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92627",
+          "status": "match"
+        },
+        "city": {
+          "value": "Costa Mesa",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "380 E. 17th Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8801",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRIS STRWBRY + RALPHS SAVED YOU 1.00 + eCpn Strawberries 3.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DRIS STRWBRY + RALPHS SAVED YOU 1.00 + eCpn Strawberries 3.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOOD GOOD JAM + RALPHS SAVED YOU 0.50",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOOD GOOD JAM + RALPHS SAVED YOU 0.50",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n380 E. 17th Street\n(949) 645-8282\nYour cashier was CHEC 512\nDRIS STRWBRY RC 3.99 F\nSC RALPHS SAVED YOU 1.00\nSC eCpn Strawberries 3.00\nDRIS STRWBRY RC 3.99 F\nSC RALPHS SAVED YOU 1.00\nSC eCpn Strawberries 3.00\nGOOD GOOD JAM RC 5.99 F\nSC RALPHS SAVED YOU 0.50\nGOOD GOOD JAM RC 5.99 F\nSC RALPHS SAVED YOU 0.50\nRALPHS rewards CUSTOMER *******0924\nTAX 0.00\n**** BALANCE 19.96\nCosta Mesa CA 92627\nAMEX CREDIT Purchase\n************8801 - H\nREF#: 807524 TOTAL: 19.96\nAID: A000000025010901\nTC: E6C9CD4270FA765F\nVERIFIED BY PIN\nAMEX 19.96\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\nRALPHS rewards SAVINGS $9.00\nTOTAL COUPONS $ 9.00\n04/01/26 10:05pm 33 512 123 999999512\n****************************************\nAnnual Card Savings $106.44\n****************************************\n****************************************\nFuel Points Earned Today: 20\nTotal April Fuel Points: 20\n****************************************\nRemaining March Fuel Points: 152\n****************************************\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 9.\nMGR: ADOLFO VERGARA (949) 645-8282\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.ralphs.com\nwww.ralphs.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12881.40654200001,
+        "totalUsd": 0.031926,
+        "inputTokens": 3692,
+        "outputTokens": 1080,
+        "reasoningTokens": 1852
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.96",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:05pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92627",
+          "status": "match"
+        },
+        "city": {
+          "value": "Costa Mesa",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "380 E. 17th Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8801",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRIS STRWBRY + RALPHS SAVED YOU 1.00 + eCpn Strawberries 3.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DRIS STRWBRY + RALPHS SAVED YOU 1.00 + eCpn Strawberries 3.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOOD GOOD JAM + RALPHS SAVED YOU 0.50",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GOOD GOOD JAM + RALPHS SAVED YOU 0.50",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n\n380 E. 17th Street\n(949) 645-8282\nYour cashier was CHEC 512\nDRIS STRWBRY RC 3.99 F\nSC RALPHS SAVED YOU 1.00\nSC eCpn Strawberries 3.00\nDRIS STRWBRY RC 3.99 F\nSC RALPHS SAVED YOU 1.00\nSC eCpn Strawberries 3.00\nGOOD GOOD JAM RC 5.99 F\nSC RALPHS SAVED YOU 0.50\nGOOD GOOD JAM RC 5.99 F\nSC RALPHS SAVED YOU 0.50\nRALPHS rewards CUSTOMER *******0924\nTAX 0.00\n**** BALANCE 19.96\nCosta Mesa CA 92627\nAMEX CREDIT Purchase\n************8801 - H\nREF#: 807524 TOTAL: 19.96\nAID: A000000025010901\nTC: E6C9CD4270FA765F\nVERIFIED BY PIN\nAMEX 19.96\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\nRALPHS rewards SAVINGS $9.00\nTOTAL COUPONS $ 9.00\n04/01/26 10:05pm 33 512 123 999999512\n****************************************\nAnnual Card Savings $106.44\n****************************************\n****************************************\nFuel Points Earned Today: 20\nTotal April Fuel Points: 20\n****************************************\nRemaining March Fuel Points: 152\n****************************************\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 9.\nMGR: ADOLFO VERGARA (949) 645-8282\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.ralphs.com\nwww.ralphs.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5620.799916999997,
+        "totalUsd": 0.01506,
+        "inputTokens": 3692,
+        "outputTokens": 1058,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.96",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:05pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92627",
+          "status": "match"
+        },
+        "city": {
+          "value": "Costa Mesa",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "380 E. 17th Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8801",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRIS STRWBRY + RALPHS SAVED YOU + eCpn Strawberries",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DRIS STRWBRY + RALPHS SAVED YOU + eCpn Strawberries",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOOD GOOD JAM + RALPHS SAVED YOU",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOOD GOOD JAM + RALPHS SAVED YOU",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Ralphs FRESH\nFOR\nEVERYONE TM\n380 E. 17th Street\n(949) 645-8282\nYour cashier was CHEC 512\nDRIS STRWBRY RC 3.99 F\nSC RALPHS SAVED YOU 1.00\nSC eCpn Strawberries 3.00\nDRIS STRWBRY RC 3.99 F\nSC RALPHS SAVED YOU 1.00\nSC eCpn Strawberries 3.00\nGOOD GOOD JAM RC 5.99 F\nSC RALPHS SAVED YOU 0.50\nGOOD GOOD JAM RC 5.99 F\nSC RALPHS SAVED YOU 0.50\nRALPHS rewards CUSTOMER ********0924\nTAX 0.00\n**** BALANCE 19.96\nCosta Mesa CA 92627\nAMEX CREDIT Purchase\n************8801 - H\nREF#: 807524 TOTAL: 19.96\nAID: A000000025010901\nTC: E6C9CD4270FA765F\nVERIFIED BY PIN\nAMEX 19.96\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\nRALPHS rewards SAVINGS $9.00\nTOTAL COUPONS $ 9.00\n04/01/26 10:05pm 33 512 123 999999512\n****************************************\nAnnual Card Savings $106.44\n****************************************\n****************************************\nFuel Points Earned Today: 20\nTotal April Fuel Points: 20\n****************************************\nRemaining March Fuel Points: 152\n****************************************\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 9.\nMGR: ADOLFO VERGARA (949) 645-8282\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.ralphs.com\nwww.ralphs.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "DRIS STRWBRY + SC RALPHS SAVED YOU 1.00 + SC eCpn Strawberries 3.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "DRIS STRWBRY + SC RALPHS SAVED YOU 1.00 + SC eCpn Strawberries 3.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "GOOD GOOD JAM + SC RALPHS SAVED YOU 0.50",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "GOOD GOOD JAM + SC RALPHS SAVED YOU 0.50 + RALPHS rewards CUSTOMER *******0924",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

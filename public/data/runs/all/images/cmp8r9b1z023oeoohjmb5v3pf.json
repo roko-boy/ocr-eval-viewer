@@ -1,0 +1,338 @@
+{
+  "id": "cmp8r9b1z023oeoohjmb5v3pf",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "Pepsi Food Service",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "16.44",
+    "purchaseDate": "2026-05-16",
+    "time": null,
+    "zipCode": "28387",
+    "city": "Southern Pines",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16444.43150000001,
+        "totalUsd": 0.017877,
+        "inputTokens": 6086,
+        "outputTokens": 972,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:35:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "28387",
+          "status": "match"
+        },
+        "city": {
+          "value": "Southern Pines",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1695 US Hwy S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9582",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Meatball Whole",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PERFECT BAR DRK CHOC PB 3 OZ",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Apple Single",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI 20OZ ZERO SUGAR Single",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #836\n1695 US Hwy S\nSouthern Pines, NC 28387\n(910)725-1847\n5/16/2026 3:35:45 PM\nCSS Inside\nOrder Number: 361\nRegister:3\nMeatball Whole $7.79\nMy Sheetz Rewardz $0.00\nPERFECT BAR DRK CHOC PB 3 OZ $3.79\nApple Single $1.19\nPEPSI 20OZ ZERO SUGAR Single $2.89\nSub. Total: $15.66\nWireless Fee $0.00\nSales Tax $0.78\nTotal: $16.44\nDiscount Total: $0.00\nVisa: $16.44\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9582\nChip Read\nTerminal : XXXXXXXXXX2002\nApproval : 06342C\nSequence : 003918\nUSD$ 16.44\nCHASE VISA\nMode: Issuer\nAID: A0000000031010\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: ECC4D8F1E0915C4F\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0164\nTerminal : 20836\nApproval : 199868647\nYou earned 78 Points today!\nSpendable Points: 283\nYearly Points: 223\nLEVEL:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12270.63175,
+        "totalUsd": 0.030423,
+        "inputTokens": 3692,
+        "outputTokens": 905,
+        "reasoningTokens": 1860
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:35:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "28387",
+          "status": "match"
+        },
+        "city": {
+          "value": "Southern Pines",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1695 US Hwy S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9582",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Meatball Whole",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR DRK CHOC PB 3 OZ",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Apple Single",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI 20OZ ZERO SUGAR Single",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #836\n1695 US Hwy S\nSouthern Pines, NC 28387\n(910)725-1847\n5/16/2026 3:35:45 PM\nCSS Inside\nOrder Number: 361\nRegister:3\nMeatball Whole $7.79\nMy Sheetz Rewardz $0.00\nPERFECT BAR DRK CHOC PB 3 OZ $3.79\nApple Single $1.19\nPEPSI 20OZ ZERO SUGAR Single $2.89\nSub. Total: $15.66\nWireless Fee $0.00\nSales Tax $0.78\nTotal: $16.44\nDiscount Total: $0.00\nVisa: $16.44\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9582\nChip Read\nTerminal : XXXXXXXXXX2002\nApproval : 06342C\nSequence : 003918\nUSD$ 16.44\nCHASE VISA\nMode: Issuer\nAID: A0000000031010\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: ECC4D8F1E0915C4F\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0164\nTerminal : 20836\nApproval : 199868647\nYou earned 78 Points today!\nSpendable Points: 283\nYearly Points: 223\nLEVEL:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7127.862209000014,
+        "totalUsd": 0.014187,
+        "inputTokens": 3692,
+        "outputTokens": 961,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:35:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "28387",
+          "status": "match"
+        },
+        "city": {
+          "value": "Southern Pines",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1695 US Hwy S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9582",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Meatball Whole",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PERFECT BAR DRK CHOC PB 3 OZ",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Apple Single",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI 20OZ ZERO SUGAR Single",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #836\n1695 US Hwy S\nSouthern Pines, NC 28387\n(910)725-1847\n5/16/2026 3:35:45 PM\nCSS Inside\nOrder Number: 361\nRegister:3\nMeatball Whole $7.79\nMy Sheetz Rewardz $0.00\nPERFECT BAR DRK CHOC PB 3 OZ $3.79\nApple Single $1.19\nPEPSI 20OZ ZERO SUGAR Single $2.89\nSub. Total: $15.66\nWireless Fee $0.00\nSales Tax $0.78\nTotal: $16.44\nDiscount Total: $0.00\nVisa: $16.44\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9582\nChip Read\nTerminal : XXXXXXXXXX2002\nApproval : 06342C\nSequence : 003918\nUSD$ 16.44\nCHASE VISA\nMode: Issuer\nAID: A0000000031010\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: ECC4D8F1E0915C4F\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0164\nTerminal : 20836\nApproval : 199868647\nYou earned 78 Points today!\nSpendable Points: 283\nYearly Points: 223\nLEVEL:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Meatball Whole + My Sheetz Rewardz $0.00",
+      "price": 7.79,
+      "quantity": 1,
+      "totalSpend": 7.79
+    },
+    {
+      "text": "PERFECT BAR DRK CHOC PB 3 OZ",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "Apple Single",
+      "price": 1.19,
+      "quantity": 1,
+      "totalSpend": 1.19
+    },
+    {
+      "text": "PEPSI 20OZ ZERO SUGAR Single",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

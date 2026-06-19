@@ -1,0 +1,278 @@
+{
+  "id": "cmncuk9kn0009ysugk7fd3f93",
+  "url": null,
+  "retailer": "Fairway Market",
+  "brand": "ESW Beauty",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fairway Market",
+    "totalCost": null,
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "24088",
+    "city": "Ferrum",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6074.767125000006,
+        "totalUsd": 0.0139935,
+        "inputTokens": 6191,
+        "outputTokens": 523,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "23.98",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "24088-4199",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "45 Woodcott Rd Apt 2",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ESW Beauty The Pink Dream Moisturizing Raw Juice Sheet Mask",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Neutrogena Evenly Clear Acne Cleansing Mask with Benzoyl Peroxide - 4.2 fl oz",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Women's Coca-Cola Bow Short Sleeve Graphic T-Shirt - Gray M",
+          "quantity": 1,
+          "unitPrice": 6,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "3:07 1\nToday\nHelp\nQty 1\nPreparing to ship\nScheduled to arrive Thu, Apr 2\nDelivering to\nReagan Lawson\n45 Woodcott Rd Apt 2\nFerrum, VA 24088-4199\nTarget\nOrder placed\n3:02am Today\nESW Beauty The Pink Dream Moisturizing Raw Juice Sheet Mask\n$4.99 unit price\nQty 1\nNeutrogena Evenly Clear Acne Cleansing Mask with Benzoyl Peroxide - 4.2 fl oz\n$12.99 unit price\nQty 1\nWomen's Coca-Cola Bow Short Sleeve Graphic T-Shirt - Gray M\n$6.00 unit price\nQty 1\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9131.931292000001,
+        "totalUsd": 0.019527,
+        "inputTokens": 3706,
+        "outputTokens": 531,
+        "reasoningTokens": 1021
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "3:02am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "24088-4199",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Ferrum",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "45 Woodcott Rd Apt 2",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ESW Beauty The Pink Dream Moisturizing Raw Juice Sheet Mask",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Neutrogena Evenly Clear Acne Cleansing Mask with Benzoyl Peroxide - 4.2 fl oz",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Women's Coca-Cola Bow Short Sleeve Graphic T-Shirt - Gray M",
+          "quantity": 1,
+          "unitPrice": 6,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "3:07 1\nToday\nHelp\nQty 1\nPreparing to ship\nScheduled to arrive Thu, Apr 2\nDelivering to\nReagan Lawson\n45 Woodcott Rd Apt 2\nFerrum, VA 24088-4199\nTarget\nOrder placed\n3:02am Today\nESW Beauty The Pink Dream Moisturizing Raw Juice Sheet Mask\n$4.99 unit price\nQty 1\nNeutrogena Evenly Clear Acne Cleansing Mask with Benzoyl Peroxide - 4.2 fl oz\n$12.99 unit price\nQty 1\nWomen's Coca-Cola Bow Short Sleeve Graphic T-Shirt - Gray M\n$6.00 unit price\nQty 1\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 66168.314833,
+        "totalUsd": 0.015384,
+        "inputTokens": 3800,
+        "outputTokens": 480,
+        "reasoningTokens": 596
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "3:02 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ESW Beauty The Pink Dream Moisturizing Raw Juice Sheet Mask",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Neutrogena Evenly Clear Acne Cleansing Mask with Benzoyl Peroxide - 4.2 fl oz",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Women's Coca-Cola Bow Short Sleeve Graphic T-Shirt - Gray M",
+          "quantity": 1,
+          "unitPrice": 6,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "3:07 1\nToday\nHelp\nQty 1\nPreparing to ship\nScheduled to arrive Thu, Apr 2\nDelivering to\nReagan Lawson\n45 Woodcott Rd Apt 2\nFerrum, VA 24088-4199\nTarget\nOrder placed\n3:02am Today\nESW Beauty The Pink Dream Moisturizing Raw Juice Sheet Mask\n$4.99 unit price\nQty 1\nNeutrogena Evenly Clear Acne Cleansing Mask with Benzoyl Peroxide - 4.2 fl oz\n$12.99 unit price\nQty 1\nWomen's Coca-Cola Bow Short Sleeve Graphic T-Shirt - Gray M\n$6.00 unit price\nQty 1\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

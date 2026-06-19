@@ -1,0 +1,999 @@
+{
+  "id": "cmnnh5y3x0014ls37u3bin7v6",
+  "url": null,
+  "retailer": "Giant Food Store",
+  "brand": "Go Raw",
+  "amount": 9.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Giant Food Store",
+    "totalCost": "68.46",
+    "purchaseDate": "2026-04-06",
+    "time": null,
+    "zipCode": "17112",
+    "city": "Harrisburg",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17637.32062500001,
+        "totalUsd": 0.038244,
+        "inputTokens": 6086,
+        "outputTokens": 3235,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "68.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:01pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17112",
+          "status": "match"
+        },
+        "city": {
+          "value": "HARRISBURG",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5005 JONESTOWN ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SGR CKIE DGH6.9Z",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CC CKIE DGH6.9Z",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZS SLT CRML 24Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ZS SLT CRML 24Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LC ESP MS CB48Z + BONUS BUY SAVINGS + FREE LA COLOMBE + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GORAW PMKN 10Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 9.19,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COS SARDINES + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COS SARDINES + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBR S&S BBQ 18.5",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FF LD F SL 1.96 + BONUS BUY SAVINGS + CHOICE REWARD + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FF LD F SL 1.96 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SH PR SLM2OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SH PR SLM2OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SH PR SLM2OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AW OIL WRMR 2EA + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OREO MARVL10.68 + BONUS BUY SAVINGS + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RC CK WHT CH POP",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SB CRML RICE CKE",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RUMMO RIGTNI 16Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RUMMO CAVATAP 16 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RUMMO ANGEL H16Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB THNSLCD OR TK + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB THNSLCD OR TK + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB THNSLCD OR TK + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KVT CN SPRMJ12Z",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+GOLD PINEAPPLE + PINEAPPLE CPN",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REDUCED PRODUCE",
+          "quantity": 1,
+          "unitPrice": 2.41,
+          "totalSpend": 2.41,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TO SNACKERS 3Z",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TO SNACKERS 3Z",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n5005 JONESTOWN ROAD\nHARRISBURG, PA 17112\nStore Telephone: (717) 645-3752\nPharmacy Telephone: (717) 645-9313\nStore #6539 04/06/26 01:01pm\nDAIRY\nSGR CKIE DGH6.9Z 5.99 F\nCC CKIE DGH6.9Z 5.99 F\nZS SLT CRML 24Z 5.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 4.50\nZS SLT CRML 24Z 5.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 4.50\nLC ESP MS CB48Z 6.59 F\nBONUS BUY SAVINGS 2.09-F\nSC FREE LA COLOMBE 3.50-F\nMC COUPON SAVINGS 1.00-F\nPRICE YOU PAY FREE\nGROCERY\nGORAW PMKN 10Z 9.19 F\nBONUS BUY SAVINGS 2.20-F\nPRICE YOU PAY 6.99\nCOS SARDINES 1.59 F\nBONUS BUY SAVINGS 0.34-F\nPRICE YOU PAY 1.25\nCOS SARDINES 1.59 F\nBONUS BUY SAVINGS 0.34-F\nPRICE YOU PAY 1.25\nSBR S&S BBQ 18.5 3.49 F\nFF LD F SL 1.96 2.29 T\nBONUS BUY SAVINGS 0.29-T\nSC CHOICE REWARD 1.25-T\nMC COUPON SAVINGS 0.75-T\nPRICE YOU PAY FREE\nFF LD F SL 1.96 2.29 T\nBONUS BUY SAVINGS 0.29-T\nPRICE YOU PAY 2.00\nSH PR SLM2OZ 2.99 T\nSH PR SLM2OZ 2.99 T\nSH PR SLM2OZ 2.99 T\nAW OIL WRMR 2EA 3.79 T\nMC COUPON SAVINGS 3.00-T\nPRICE YOU PAY 0.79\nOREO MARVL10.68 4.99 F\nBONUS BUY SAVINGS 2.00-F\nMC COUPON SAVINGS 1.00-F\nPRICE YOU PAY 1.99\nRC CK WHT CH POP 1.99 F\nSB CRML RICE CKE 1.99 F\nRUMMO RIGTNI 16Z 4.39 F\nBONUS BUY SAVINGS 1.39-F\nPRICE YOU PAY 3.00\nRUMMO CAVATAP 16 4.39 F\nBONUS BUY SAVINGS 1.39-F\nPRICE YOU PAY 3.00\nRUMMO ANGEL H16Z 4.39 F\nBONUS BUY SAVINGS 1.39-F\nPRICE YOU PAY 3.00\nMEAT\nSB THNSLCD OR TK 4.99 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 4.00\nSB THNSLCD OR TK 4.99 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 4.00\nSB THNSLCD OR TK 4.99 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 4.00\nPRODUCE\n1 @ 2/5.00\nKVT CN SPRMJ12Z 2.50 B\n+GOLD PINEAPPLE 3.99 F\nSC PINEAPPLE CPN 2.52-F\nPRICE YOU PAY 1.47\nREDUCED PRODUCE 2.41 F\nSEAFOOD / FISH\nTO SNACKERS 3Z 1.19 F\nTO SNACKERS 3Z 1.19 F\nSC PERSONAL DISC 6.00-T\nMC SBR S&S BBQ 18.5 3.49-F\nMC ZS SLT CRML 24Z 3.00-F\nMC ZS SLT CRML 24Z 0.75-F\nDOUBLED COUPON 0.25-F\nTAX 0.50\n**** BALANCE 68.46",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 53837.07375000001,
+        "totalUsd": 0.099939,
+        "inputTokens": 3692,
+        "outputTokens": 3220,
+        "reasoningTokens": 7269
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "68.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:01pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17112",
+          "status": "match"
+        },
+        "city": {
+          "value": "HARRISBURG",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5005 JONESTOWN ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SGR CKIE DGH6.9Z",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CC CKIE DGH6.9Z",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ZS SLT CRML 24Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ZS SLT CRML 24Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LC ESP MS CB48Z + BONUS BUY SAVINGS + FREE LA COLOMBE + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GORAW PMKN 10Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 9.19,
+          "totalSpend": 6.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "COS SARDINES + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COS SARDINES + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBR S&S BBQ 18.5",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FF LD F SL 1.96 + BONUS BUY SAVINGS + CHOICE REWARD + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FF LD F SL 1.96 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SH PR SLM2OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SH PR SLM2OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SH PR SLM2OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AW OIL WRMR 2EA + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OREO MARVL10.68 + BONUS BUY SAVINGS + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RC CK WHT CH POP",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SB CRML RICE CKE",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RUMMO RIGNTI 16Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RUMMO CAVATAP 16 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RUMMO ANGEL H16Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB THNSLCD OR TK + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB THNSLCD OR TK + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB THNSLCD OR TK + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1 @ 2/5.00 + KVT CN SPRMJ12Z",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "+GOLD PINEAPPLE + PINEAPPLE CPN",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REDUCED PRODUCE",
+          "quantity": 1,
+          "unitPrice": 2.41,
+          "totalSpend": 2.41,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TO SNACKERS 3Z",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TO SNACKERS 3Z",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n5005 JONESTOWN ROAD\nHARRISBURG, PA 17112\nStore Telephone: (717) 645-3752\nPharmacy Telephone: (717) 645-9313\nStore #6539 04/06/26 01:01pm\nDAIRY\nSGR CKIE DGH6.9Z 5.99 F\nCC CKIE DGH6.9Z 6.99 F\nZS SLT CRML 24Z 5.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 4.50\nZS SLT CRML 24Z 5.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 4.50\nLC ESP MS CB48Z 6.59 F\nBONUS BUY SAVINGS 2.09-F\nSC FREE LA COLOMBE 3.50-F\nMC COUPON SAVINGS 1.00-F\nPRICE YOU PAY FREE\nGROCERY\nGORAW PMKN 10Z 9.19 F\nBONUS BUY SAVINGS 2.20-F\nPRICE YOU PAY 6.99\nCOS SARDINES 1.59 F\nBONUS BUY SAVINGS 0.34-F\nPRICE YOU PAY 1.25\nCOS SARDINES 1.59 F\nBONUS BUY SAVINGS 0.34-F\nPRICE YOU PAY 1.25\nSBR S&S BBQ 18.5 3.49 F\nFF LD F SL 1.96 2.29 T\nBONUS BUY SAVINGS 0.29-T\nSC CHOICE REWARD 1.25-T\nMC COUPON SAVINGS 0.75-T\nPRICE YOU PAY FREE\nFF LD F SL 1.96 2.29 T\nBONUS BUY SAVINGS 0.29-T\nPRICE YOU PAY 2.00\nSH PR SLM2OZ 2.99 T\nSH PR SLM2OZ 2.99 T\nSH PR SLM2OZ 2.99 T\nAW OIL WRMR 2EA 3.79 T\nMC COUPON SAVINGS 3.00-T\nPRICE YOU PAY 0.79\nOREO MARVL10.68 4.99 F\nBONUS BUY SAVINGS 2.00-F\nMC COUPON SAVINGS 1.00-F\nPRICE YOU PAY 1.99\nRC CK WHT CH POP 1.99 F\nSB CRML RICE CKE 1.99 F\nRUMMO RIGNTI 16Z 4.39 F\nBONUS BUY SAVINGS 1.39-F\nPRICE YOU PAY 3.00\nRUMMO CAVATAP 16 4.39 F\nBONUS BUY SAVINGS 1.39-F\nPRICE YOU PAY 3.00\nRUMMO ANGEL H16Z 4.39 F\nBONUS BUY SAVINGS 1.39-F\nPRICE YOU PAY 3.00\nMEAT\nSB THNSLCD OR TK 4.99 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 4.00\nSB THNSLCD OR TK 4.99 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 4.00\nSB THNSLCD OR TK 4.99 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 4.00\nPRODUCE\n1 @ 2/5.00\nKVT CN SPRMJ12Z 2.50 B\n+GOLD PINEAPPLE 3.99 F\nSC PINEAPPLE CPN 2.52-F\nPRICE YOU PAY 1.47\nREDUCED PRODUCE 2.41 F\nSEAFOOD / FISH\nTO SNACKERS 3Z 1.19 F\nTO SNACKERS 3Z 1.19 F\nSC PERSONAL DISC 6.00-T\nMC SBR S&S BBQ 18.6 3.49-F\nMC ZS SLT CRML 24Z 3.00-F\nMC ZS SLT CRML 24Z 0.75-F\nDOUBLED COUPON 0.25-F\nTAX 0.50\n**** BALANCE 68.46",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 13380.206042,
+        "totalUsd": 0.034572,
+        "inputTokens": 3692,
+        "outputTokens": 3226,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "68.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:01pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17112",
+          "status": "match"
+        },
+        "city": {
+          "value": "HARRISBURG",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5005 JONESTOWN ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SGR CKIE DGH6.9Z",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CC CKIE DGH6.9Z",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZS SLT CRML 24Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ZS SLT CRML 24Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LC ESP MS CB48Z + BONUS BUY SAVINGS + FREE LA COLOMBE + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GORAW PMKN 10Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 9.19,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COS SARDINES + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COS SARDINES + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBR S&S BBQ 18.5",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FF LD F SL 1.96 + BONUS BUY SAVINGS + CHOICE REWARD + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FF LD F SL 1.96 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SH PR SLM2OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SH PR SLM2OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SH PR SLM2OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AW OIL WRMR 2EA + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OREO MARVL10.68 + BONUS BUY SAVINGS + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RC CK WHT CH POP",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SB CRML RICE CKE",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RUMMO RIGTNI 16Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RUMMO CAVATAP 16 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RUMMO ANGEL H16Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB THNSLCD OR TK + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB THNSLCD OR TK + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB THNSLCD OR TK + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KVT CN SPRMJ12Z",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+GOLD PINEAPPLE + PINEAPPLE CPN",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REDUCED PRODUCE",
+          "quantity": 1,
+          "unitPrice": 2.41,
+          "totalSpend": 2.41,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TO SNACKERS 3Z",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TO SNACKERS 3Z",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n5005 JONESTOWN ROAD\nHARRISBURG, PA 17112\nStore Telephone: (717) 645-3752\nPharmacy Telephone: (717) 645-9313\nStore #6539 04/06/26 01:01pm\nDAIRY\nSGR CKIE DGH6.9Z 5.99 F\nCC CKIE DGH6.9Z 5.99 F\nZS SLT CRML 24Z 5.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 4.50\nZS SLT CRML 24Z 5.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 4.50\nLC ESP MS CB48Z 6.59 F\nBONUS BUY SAVINGS 2.09-F\nSC FREE LA COLOMBE 3.50-F\nMC COUPON SAVINGS 1.00-F\nPRICE YOU PAY FREE\nGROCERY\nGORAW PMKN 10Z 9.19 F\nBONUS BUY SAVINGS 2.20-F\nPRICE YOU PAY 6.99\nCOS SARDINES 1.59 F\nBONUS BUY SAVINGS 0.34-F\nPRICE YOU PAY 1.25\nCOS SARDINES 1.59 F\nBONUS BUY SAVINGS 0.34-F\nPRICE YOU PAY 1.25\nSBR S&S BBQ 18.5 3.49 F\nFF LD F SL 1.96 2.29 T\nBONUS BUY SAVINGS 0.29-T\nSC CHOICE REWARD 1.25-T\nMC COUPON SAVINGS 0.75-T\nPRICE YOU PAY FREE\nFF LD F SL 1.96 2.29 T\nBONUS BUY SAVINGS 0.29-T\nPRICE YOU PAY 2.00\nSH PR SLM2OZ 2.99 T\nSH PR SLM2OZ 2.99 T\nSH PR SLM2OZ 2.99 T\nAW OIL WRMR 2EA 3.79 T\nMC COUPON SAVINGS 3.00-T\nPRICE YOU PAY 0.79\nOREO MARVL10.68 4.99 F\nBONUS BUY SAVINGS 2.00-F\nMC COUPON SAVINGS 1.00-F\nPRICE YOU PAY 1.99\nRC CK WHT CH POP 1.99 F\nSB CRML RICE CKE 1.99 F\nRUMMO RIGTNI 16Z 4.39 F\nBONUS BUY SAVINGS 1.39-F\nPRICE YOU PAY 3.00\nRUMMO CAVATAP 16 4.39 F\nBONUS BUY SAVINGS 1.39-F\nPRICE YOU PAY 3.00\nRUMMO ANGEL H16Z 4.39 F\nBONUS BUY SAVINGS 1.39-F\nPRICE YOU PAY 3.00\nMEAT\nSB THNSLCD OR TK 4.99 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 4.00\nSB THNSLCD OR TK 4.99 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 4.00\nSB THNSLCD OR TK 4.99 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 4.00\nPRODUCE\n1 @ 2/5.00\nKVT CN SPRMJ12Z 2.50 B\n+GOLD PINEAPPLE 3.99 F\nSC PINEAPPLE CPN 2.52-F\nPRICE YOU PAY 1.47\nREDUCED PRODUCE 2.41 F\nSEAFOOD / FISH\nTO SNACKERS 3Z 1.19 F\nTO SNACKERS 3Z 1.19 F\nSC PERSONAL DISC 6.00-T\nMC SBR S&S BBQ 18.5 3.49-F\nMC ZS SLT CRML 24Z 3.00-F\nMC ZS SLT CRML 24Z 0.75-F\nDOUBLED COUPON 0.25-F\nTAX 0.50\n**** BALANCE 68.46",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SGR CKIE DGH6.9Z + DAIRY",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "CC CKIE DGH6.9Z",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "ZS SLT CRML 24Z + ZS SLT CRML 24Z",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    },
+    {
+      "text": "ZS SLT CRML 24Z + ZS SLT CRML 24Z",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    },
+    {
+      "text": "LC ESP MS CB48Z + MC COUPON SAVINGS 1.00-F",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    },
+    {
+      "text": "GORAW PMKN 10Z + GROCERY",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "COS SARDINES",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "COS SARDINES",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "SBR S&S BBQ 18.5 + MC SBR S&S BBQ 18.5",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "FF LD F SL 1.96 + MC COUPON SAVINGS 0.75-T",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "FF LD F SL 1.96",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "SH PR SLM20Z",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SH PR SLM20Z",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SH PR SLM20Z",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "AW OIL WRMR 2EA + MC COUPON SAVINGS 3.00-T",
+      "price": 0.79,
+      "quantity": 1,
+      "totalSpend": 0.79
+    },
+    {
+      "text": "OREO MARVL10.68 + MC COUPON SAVINGS 1.00-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "RC CK WHT CH POP",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "SB CRML RICE CKE",
+      "price": 1.24,
+      "quantity": 1,
+      "totalSpend": 1.24
+    },
+    {
+      "text": "RUMMO RIGTNI 16Z",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "RUMMO CAVATAP 16",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "RUMMO ANGEL H16Z",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "SB THNSLCD OR TK + MEAT",
+      "price": 4,
+      "quantity": 1,
+      "totalSpend": 4
+    },
+    {
+      "text": "SB THNSLCD OR TK",
+      "price": 4,
+      "quantity": 1,
+      "totalSpend": 4
+    },
+    {
+      "text": "SB THNSLCD OR TK",
+      "price": 4,
+      "quantity": 1,
+      "totalSpend": 4
+    },
+    {
+      "text": "KVT CN SPRMJ12Z + 1 @ 2/5.00",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "GOLD PINEAPPLE",
+      "price": 1.47,
+      "quantity": 1,
+      "totalSpend": 1.47
+    },
+    {
+      "text": "REDUCED PRODUCE + SEAFOOD / FISH",
+      "price": 2.41,
+      "quantity": 1,
+      "totalSpend": 2.41
+    },
+    {
+      "text": "TO SNACKERS 3Z",
+      "price": 1.19,
+      "quantity": 1,
+      "totalSpend": 1.19
+    },
+    {
+      "text": "TO SNACKERS 3Z",
+      "price": 1.19,
+      "quantity": 1,
+      "totalSpend": 1.19
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

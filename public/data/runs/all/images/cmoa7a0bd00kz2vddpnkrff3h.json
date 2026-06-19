@@ -1,0 +1,297 @@
+{
+  "id": "cmoa7a0bd00kz2vddpnkrff3h",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "Pirq",
+  "amount": 10.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "137.05",
+    "purchaseDate": "2026-04-15",
+    "time": null,
+    "zipCode": "47802",
+    "city": "Terre Haute",
+    "state": "IN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14893.55341600004,
+        "totalUsd": 0.0270345,
+        "inputTokens": 6197,
+        "outputTokens": 384,
+        "reasoningTokens": 1587
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "137.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "O ALMND BTR DATES",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O HYDRATION WATER",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O PLANT PRTN RTD",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "O SN CHOC SAUCE\nPRODUCE\nO ALMND BTR DATES 4.89 N F\nVITAMINS\nO HYDRATION WATER 11.99 N F\nO PLANT PRTN RTD 10.99 N F\nBALANCE DUE 137.05\nVISA 137.05\nEXP. DATE: **/****\nAuth Code = 05925C\nCHANGE 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9915.91208400001,
+        "totalUsd": 0.021498,
+        "inputTokens": 3706,
+        "outputTokens": 365,
+        "reasoningTokens": 1406
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "137.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "O ALMND BTR DATES",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O HYDRATION WATER",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O PLANT PRTN RTD",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "O SW CHOC SAUCE\nPRODUCE\nO ALMND BTR DATES 4.89 N F\nVITAMINS\nO HYDRATION WATER 11.99 N F\nO PLANT PRTN RTD 10.99 N F\nBALANCE DUE 137.05\nVISA 137.05\nEXP. DATE: **/****\nAuth Code = 05925C\nCHANGE 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3397.274375000008,
+        "totalUsd": 0.008898,
+        "inputTokens": 3706,
+        "outputTokens": 371,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "137.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "O ALMND BTR DATES",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O HYDRATION WATER",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O PLANT PRTN RTD",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "O SW CHOC SAUCE\nPRODUCE\nO ALMND BTR DATES\n4.89 N F\nVITAMINS\nO HYDRATION WATER\n11.99 N F\nO PLANT PRTN RTD\n10.99 N F\nBALANCE DUE\n137.05\nVISA\n137.05\nEXP. DATE: **/****\nAuth Code = 05925C\nCHANGE\n0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "O ALMND BTR DATES",
+      "price": 4.89,
+      "quantity": 1,
+      "totalSpend": 4.89
+    },
+    {
+      "text": "O HYDRATION WATER",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "O PLANT PRTN RTD",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,297 @@
+{
+  "id": "cmnex4ri8000ssdasxianczj0",
+  "url": null,
+  "retailer": "Cub Foods",
+  "brand": "Steaz Tea",
+  "amount": 2.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Cub Foods",
+    "totalCost": "8.8",
+    "purchaseDate": "2026-03-31",
+    "time": null,
+    "zipCode": "55433",
+    "city": "Coon Rapids",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18125.304001,
+        "totalUsd": 0.018498,
+        "inputTokens": 6086,
+        "outputTokens": 1041,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Cub",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "8.8",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55433",
+          "status": "match"
+        },
+        "city": {
+          "value": "Coon Rapids",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2050 Northdale Boulevard",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2831",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CLUB CRACKER PK + 030100472414",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STEZ ZERO ICED TEA + 856820160000",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STEZ ZERO ICED TEA + 856820160024",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Cub\nCoon Rapids South\n2050 Northdale Boulevard\nCoon Rapids, MN 55433\n763-767-9330\nCashier: Lane 49\n3/31/26 12:55 PM\nGROCERY\nCLUB CRACKER PK 030100472414 $2.99 F\nSTEZ ZERO ICED 856820160000 $2.79 F\nTEA\nSTEZ ZERO ICED 856820160024 $2.79 TF\nTEA\nSUBTOTAL $8.57\nMN STATE TAX $0.19\nANOKA CNTY TAX $0.01\nMETRO H/T CNTY TAX $0.03\nTOTAL $8.80\nCREDIT $8.80\nTOTAL TENDERED $8.80\nChange $0.00\nNUMBER OF ITEMS 3\nTrx:342921 Term:49 Store:1638\n3/31/26 12:55 PM\n****************************************\nMY CUB REWARDS FUEL DISCOUNTS\nFor every $100 you spend at Cub\nGet .10 off per gallon\nof fuel at participating Holiday and Circle\nK stores.\nMyCub Rewards Number: 486389576716\nDiscount This Purchase: $0.00 / gal\nPrevious Balance: $0.00 / gal\nNew Balance: $0.00 / gal\nFuel Rewards earned today expire\nthe last day of next month\nVisit cub.com/rewards\nfor additional information\nThank You!\nCARD INFORMATION:\nCard Type: Maste\nAccount: 2831\nAmount: USD $8.80\nApproval #: 05518Z\nDate: 3/31/26\nReference #: 942342921001\nAID: A0000000041010\nMode: Issuer\nMID: **9784\nCard Name: MASTERCARD\nEnter to be a weekly winner\nof a $100 Cub Gift Card!\nScan the QR code and fill out the survey\nwithin 3 days for a chance to win!\n>0S1W11GKKZY71D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10267.38070800001,
+        "totalUsd": 0.023682,
+        "inputTokens": 3692,
+        "outputTokens": 1054,
+        "reasoningTokens": 962
+      },
+      "fields": {
+        "storeName": {
+          "value": "Cub",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "8.8",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55433",
+          "status": "match"
+        },
+        "city": {
+          "value": "Coon Rapids",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2050 Northdale Boulevard",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2831",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CLUB CRACKER PK + 030100472414",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STEZ ZERO ICED TEA + 856820160000",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STEZ ZERO ICED TEA + 856820160024",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Cub\nCoon Rapids South\n2050 Northdale Boulevard\nCoon Rapids, MN 55433\n763-767-9330\nCashier: Lane 49\n3/31/26 12:55 PM\nGROCERY\nCLUB CRACKER PK 030100472414 $2.99 F\nSTEZ ZERO ICED 856820160000 $2.79 F\nTEA\nSTEZ ZERO ICED 856820160024 $2.79 TF\nTEA\nSUBTOTAL $8.57\nMN STATE TAX $0.19\nANOKA CNTY TAX $0.01\nMETRO H/T CNTY TAX $0.03\nTOTAL $8.80\nCREDIT $8.80\nTOTAL TENDERED $8.80\nChange $0.00\nNUMBER OF ITEMS 3\nTrx:342921 Term:49 Store:1638\n3/31/26 12:55 PM\n****************************************\nMY CUB REWARDS FUEL DISCOUNTS\nFor every $100 you spend at Cub\nGet .10 off per gallon\nof fuel at participating Holiday and Circle\nK stores.\nMyCub Rewards Number: 486389576716\nDiscount This Purchase: $0.00 / gal\nPrevious Balance: $0.00 / gal\nNew Balance: $0.00 / gal\nFuel Rewards earned today expire\nthe last day of next month\nVisit cub.com/rewards\nfor additional information\nThank You!\nCARD INFORMATION:\nCard Type: Maste\nAccount: 2831\nAmount: USD $8.80\nApproval #: 05518Z\nDate: 3/31/26\nReference #: 942342921001\nAID: A0000000041010\nMode: Issuer\nMID: **9784\nCard Name: MASTERCARD\nEnter to be a weekly winner\nof a $100 Cub Gift Card!\nScan the QR code and fill out the survey\nwithin 3 days for a chance to win!\n>0S1W11GKKZY71D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6587.940166,
+        "totalUsd": 0.015402,
+        "inputTokens": 3692,
+        "outputTokens": 1096,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Cub",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "8.8",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55433",
+          "status": "match"
+        },
+        "city": {
+          "value": "Coon Rapids",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2050 Northdale Boulevard",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2831",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CLUB CRACKER PK + 030100472414",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STEZ ZERO ICED TEA + 856820160000",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STEZ ZERO ICED TEA + 856820160024",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Cub\nCoon Rapids South\n2050 Northdale Boulevard\nCoon Rapids, MN 55433\n763-767-9330\nCashier: Lane 49\n3/31/26\n12:55 PM\nGROCERY\nCLUB CRACKER PK\n030100472414\n$2.99 F\nSTEZ ZERO ICED\n856820160000\n$2.79 F\nTEA\nSTEZ ZERO ICED\n856820160024\n$2.79 TF\nTEA\nSUBTOTAL\n$8.57\nMN STATE TAX\n$0.19\nANOKA CNTY TAX\n$0.01\nMETRO H/T CNTY TAX\n$0.03\nTOTAL\n$8.80\nCREDIT\n$8.80\nTOTAL TENDERED\n$8.80\nChange\n$0.00\nNUMBER OF ITEMS\n3\nTrx:342921\nTerm:49\nStore:1638\n3/31/26\n12:55 PM\n****************************************\nMY CUB REWARDS FUEL DISCOUNTS\nFor every $100 you spend at Cub\nGet .10 off per gallon\nof fuel at participating Holiday and Circle\nK stores.\nMyCub Rewards Number:\n486389576716\nDiscount This Purchase:\n$0.00 / gal\nPrevious Balance:\n$0.00 / gal\nNew Balance:\n$0.00 / gal\nFuel Rewards earned today expire\nthe last day of next month\nVisit cub.com/rewards\nfor additional information\nThank You!\nCARD INFORMATION:\nCard Type:\nMaste\nAccount:\n2831\nAmount:\nUSD $8.80\nApproval #:\n05518Z\nDate:\n3/31/26\nReference #:\n942342921001\nAID:\nA0000000041010\nMode:\nIssuer\nMID:\n**9784\nCard Name:\nMASTERCARD\nEnter to be a weekly winner\nof a $100 Cub Gift Card!\nScan the QR code and fill out the survey\nwithin 3 days for a chance to win!\n>0S1W11GKKZY71D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CLUB CRACKER PK + 030100472414",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "STEZ ZERO ICED TEA + 856820160000 + TEA",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "STEZ ZERO ICED TEA + 856820160024 + TEA",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

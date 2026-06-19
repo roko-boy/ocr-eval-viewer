@@ -1,0 +1,396 @@
+{
+  "id": "cmq5zxe7e0046hthzt9jfidyr",
+  "url": null,
+  "retailer": "Albertsons",
+  "brand": "Pocari Sweat",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Albertsons",
+    "totalCost": "36.42",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "89139",
+    "city": "LasVegaS",
+    "state": "NV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12124.25233300001,
+        "totalUsd": 0.02385,
+        "inputTokens": 6114,
+        "outputTokens": 1631,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "02:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89139",
+          "status": "match"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7350 S Rainbow Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1928",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Pocari Sweat - 16.9 OZ",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Protein Pints High Protein Salted Caramel Ice Cream - 16 Oz + Albertsons for U Savings $1.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Strawberries Prepacked - 1 Lb + Albertsons for U Savings $0.12 + Sale Price Savings $0.50",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.87,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Green Seedless Grapes Prepacked Bag - 2 Lb + Albertsons for U Savings $0.19 + Sale Price Savings $2.36",
+          "quantity": 1,
+          "unitPrice": 7.06,
+          "totalSpend": 4.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Signature FARMS Hass Avocados Bagged - Each + Albertsons for U Savings $0.16 + Sale Price Savings $1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.83,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "POM Wonderful Pomegranate Arils Pomegranate Seeds - 4 Oz + Albertsons for U Savings $0.21",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.78,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Signature SELECT/FARMS Apples Honeycrisp Prepacked Bag - 2 Lb + Albertsons for U Savings $0.21",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.78,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Ginger Root + Albertsons for U Savings $0.11",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.68,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "albertsons.com\n1 of 2\nAlbertsons\nHere's the receipt from your recent purchase at Albertsons.\nPurchase Summary\nFinal Total: $36.42\nTotal Savings: $5.86\nCustomer Information\nJESSICA DELEON\n7350 S Rainbow Blvd\nLas Vegas, NV 89139\n702-301-8028\nOrder Information\nOrder Number 175319338\nDate 06/08/26\nTime 04:00 PM - 08:00 PM\nOrder Details DUG\nOrder Count 30\nSpecial Instructions/Driver Instructions:\nPurchase Details\nItem Description Quantity Total\nBeverages\nPocari Sweat - 16.9 OZ 2 $5.98\nFrozen Foods\nProtein Pints High Protein Salted Caramel Ice Cream - 16 Oz 1 $6.99\nRegular Price $7.99\nAlbertsons for U Savings $1.00\nFruits & Vegetables\nStrawberries Prepacked - 1 Lb 1 $2.87\nRegular Price $3.49\nAlbertsons for U Savings $0.12\nSale Price Savings $0.50\nGreen Seedless Grapes Prepacked Bag - 2 Lb 1 $4.51\nRegular Price $7.06 (2.36 LB @ $2.99/LB)\nAlbertsons for U Savings $0.19\nSale Price Savings $2.36\nSignature FARMS Hass Avocados Bagged - Each 1 $3.83\nRegular Price $4.99\nAlbertsons for U Savings $0.16\nSale Price Savings $1.00\nPOM Wonderful Pomegranate Arils Pomegranate Seeds - 4 Oz 1 $4.78\nRegular Price $4.99\nAlbertsons for U Savings $0.21\nSignature SELECT/FARMS Apples Honeycrisp Prepacked Bag - 2 Lb 1 $4.78\nRegular Price $4.99\nAlbertsons for U Savings $0.21\nGinger Root 1 $2.68\nRegular Price $2.79 (0.7 LB @ $3.99/LB)\nAlbertsons for U Savings $0.11\nPage 1 of 2\nfor U You earned 36 points today!\nYou now have 36 points.\nPurchase Summary\nTotal Items (9) $42.28\nTotal Savings -$5.86\nSale Price Savings -$3.86\nAlbertsons for U Savings -$2.00\nSubtotal $36.42\nTotal Taxes and Fees $0.00\nSales Tax $0.00\nTotal $36.42\nPayment\nCard ending in 1928 $36.42\nTransaction Details\nType Credit/ Debit Card\nCard Type VISA\nAmount $36.42\nCard Number ************1928\nAuthorization Code 014124\nAuthorization Date Jun 08, 2026\nAuthorization Time 02:54 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20824.25549999997,
+        "totalUsd": 0.045357,
+        "inputTokens": 3706,
+        "outputTokens": 1686,
+        "reasoningTokens": 2736
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "02:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89139",
+          "status": "match"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7350 S Rainbow Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1928",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Pocari Sweat - 16.9 OZ",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Protein Pints High Protein Salted Caramel Ice Cream - 16 Oz + Albertsons for U Savings $1.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Strawberries Prepacked - 1 Lb + Albertsons for U Savings $0.12 + Sale Price Savings $0.50",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.87,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Green Seedless Grapes Prepacked Bag - 2 Lb + Albertsons for U Savings $0.19 + Sale Price Savings $2.36",
+          "quantity": 1,
+          "unitPrice": 7.06,
+          "totalSpend": 4.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Signature FARMS Hass Avocados Bagged - Each + Albertsons for U Savings $0.16 + Sale Price Savings $1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.83,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "POM Wonderful Pomegranate Arils Pomegranate Seeds - 4 Oz + Albertsons for U Savings $0.21",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.78,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Signature SELECT/FARMS Apples Honeycrisp Prepacked Bag - 2 Lb + Albertsons for U Savings $0.21",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.78,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Ginger Root + Albertsons for U Savings $0.11",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.68,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "7:02\nalbertsons.com\n1 of 2\nAlbertsons\nHere's the receipt from your recent purchase at Albertsons.\nPurchase Summary\nFinal Total : $36.42\nTotal Savings : $5.86\nCustomer Information\nJESSICA DELEON\n7350 S Rainbow Blvd\nLas Vegas, NV 89139\n702-301-8028\nOrder Information\nOrder Number\n175319338\nDate\n06/08/26\nTime\n04:00 PM - 08:00 PM\nOrder Details\nDUG\nOrder Count\n30\nSpecial Instructions/Driver Instructions:\nPurchase Details\nItem Description\nQuantity\nTotal\nBeverages\nPocari Sweat - 16.9 OZ\n2\n$5.98\nFrozen Foods\nProtein Pints High Protein Salted Caramel Ice Cream - 16 Oz\n1\n$6.99\nRegular Price $7.99\nAlbertsons for U Savings $1.00\nFruits & Vegetables\nStrawberries Prepacked - 1 Lb\n1\n$2.87\nRegular Price $3.49\nAlbertsons for U Savings $0.12\nSale Price Savings $0.50\nGreen Seedless Grapes Prepacked Bag - 2 Lb\n1\n$4.51\nRegular Price $7.06 (2.36 LB @ $2.99/LB)\nAlbertsons for U Savings $0.19\nSale Price Savings $2.36\nSignature FARMS Hass Avocados Bagged - Each\n1\n$3.83\nRegular Price $4.99\nAlbertsons for U Savings $0.16\nSale Price Savings $1.00\nPOM Wonderful Pomegranate Arils Pomegranate Seeds - 4 Oz\n1\n$4.78\nRegular Price $4.99\nAlbertsons for U Savings $0.21\nSignature SELECT/FARMS Apples Honeycrisp Prepacked Bag - 2 Lb\n1\n$4.78\nRegular Price $4.99\nAlbertsons for U Savings $0.21\nGinger Root\n1\n$2.68\nRegular Price $2.79 (0.7 LB @ $3.99/LB)\nAlbertsons for U Savings $0.11\nPage 1 of 2\nYou earned 36 points today!\nYou now have 36 points.\nPurchase Summary\nTotal Items (9)\n$42.28\nTotal Savings\n-$5.86\nSale Price Savings\n-$3.86\nAlbertsons for U Savings\n-$2.00\nSubtotal\n$36.42\nTotal Taxes and Fees\n$0.00\nSales Tax\n$0.00\nTotal\n$36.42\nPayment\nCard ending in 1928\n$36.42\nTransaction Details\nType\nCredit/ Debit Card\nCard Type\nVISA\nAmount\n$36.42\nCard Number\n************1928\nAuthorization Code\n014124\nAuthorization Date\nJun 08, 2026\nAuthorization Time\n02:54 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8763.7405,
+        "totalUsd": 0.020751,
+        "inputTokens": 3706,
+        "outputTokens": 1688,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "02:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89139",
+          "status": "match"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7350 S Rainbow Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1928",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Pocari Sweat - 16.9 OZ",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Protein Pints High Protein Salted Caramel Ice Cream - 16 Oz + Albertsons for U Savings $1.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Strawberries Prepacked - 1 Lb + Albertsons for U Savings $0.12 + Sale Price Savings $0.50",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.87,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Green Seedless Grapes Prepacked Bag - 2 Lb + Albertsons for U Savings $0.19 + Sale Price Savings $2.36",
+          "quantity": 1,
+          "unitPrice": 7.06,
+          "totalSpend": 4.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Signature FARMS Hass Avocados Bagged - Each + Albertsons for U Savings $0.16 + Sale Price Savings $1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.83,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "POM Wonderful Pomegranate Arils Pomegranate Seeds - 4 Oz + Albertsons for U Savings $0.21",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.78,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Signature SELECT/FARMS Apples Honeycrisp Prepacked Bag - 2 Lb + Albertsons for U Savings $0.21",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.78,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Ginger Root + Albertsons for U Savings $0.11",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.68,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "7:02\nalbertsons.com\n1 of 2\nAlbertsons\nHere's the receipt from your recent purchase at Albertsons.\nPurchase Summary\nFinal Total : $36.42\nTotal Savings : $5.86\nCustomer Information\nJESSICA DELEON\n7350 S Rainbow Blvd\nLas Vegas, NV 89139\n702-301-8028\nOrder Information\nOrder Number\nDate\nTime\nOrder Details\nOrder Count\n175319338\n06/08/26\n04:00 PM - 08:00 PM\nDUG\n30\nSpecial Instructions/Driver Instructions:\nPurchase Details\nItem Description\nBeverages\nPocari Sweat - 16.9 OZ\nFrozen Foods\nProtein Pints High Protein Salted Caramel Ice Cream - 16 Oz\nRegular Price $7.99\nAlbertsons for U Savings $1.00\nFruits & Vegetables\nStrawberries Prepacked - 1 Lb\nRegular Price $3.49\nAlbertsons for U Savings $0.12\nSale Price Savings $0.50\nGreen Seedless Grapes Prepacked Bag - 2 Lb\nRegular Price $7.06 (2.36 LB @ $2.99/LB)\nAlbertsons for U Savings $0.19\nSale Price Savings $2.36\nSignature FARMS Hass Avocados Bagged - Each\nRegular Price $4.99\nAlbertsons for U Savings $0.16\nSale Price Savings $1.00\nPOM Wonderful Pomegranate Arils Pomegranate Seeds - 4 Oz\nRegular Price $4.99\nAlbertsons for U Savings $0.21\nSignature SELECT/FARMS Apples Honeycrisp Prepacked Bag - 2 Lb\nRegular Price $4.99\nAlbertsons for U Savings $0.21\nGinger Root\nRegular Price $2.79 (0.7 LB @ $3.99/LB)\nAlbertsons for U Savings $0.11\nQuantity\nTotal\n2\n$5.98\n1\n$6.99\n1\n$2.87\n1\n$4.51\n1\n$3.83\n1\n$4.78\n1\n$4.78\n1\n$2.68\nPage 1 of 2\nfor U You earned 36 points today!\nYou now have 36 points.\nPurchase Summary\nTotal Items (9)\nTotal Savings\nSale Price Savings\nAlbertsons for U Savings\nSubtotal\nTotal Taxes and Fees\nSales Tax\nTotal\n$42.28\n-$5.86\n-$3.86\n-$2.00\n$36.42\n$0.00\n$0.00\n$36.42\nPayment\nCard ending in 1928\nTransaction Details\nType\nCard Type\nAmount\nCard Number\nAuthorization Code\nAuthorization Date\nAuthorization Time\n$36.42\nCredit/Debit Card\nVISA\n$36.42\n************1928\n014124\nJun 08, 2026\n02:54 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SaePHceSavngs + Type CHedRVDebt Card",
+      "price": 3.86,
+      "quantity": 1,
+      "totalSpend": 3.86
+    },
+    {
+      "text": "AbetsonsforUSavhgs + Ca dType VSA",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

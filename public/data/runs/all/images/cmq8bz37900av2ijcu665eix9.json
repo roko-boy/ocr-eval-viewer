@@ -1,0 +1,420 @@
+{
+  "id": "cmq8bz37900av2ijcu665eix9",
+  "url": null,
+  "retailer": "Pressed Juicery",
+  "brand": "solti beverages",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": null,
+    "totalCost": null,
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "92108",
+    "city": "SAN DIEGO",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 66822.76225100004,
+        "totalUsd": 0.017376,
+        "inputTokens": 6208,
+        "outputTokens": 896,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "9210821048820900872604251211",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "SAN DIEGO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1849333 TC MUFFIN",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "48757 SPRING MIX",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1920724 PRESSED SHOT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "4619 CA REDEMP VAL N EE/1920724",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7267 ORG BROC 2LB",
+          "quantity": 1,
+          "unitPrice": 5.69,
+          "totalSpend": 5.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "512515 ORG STRAWBRY",
+          "quantity": 1,
+          "unitPrice": 11.98,
+          "totalSpend": 11.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2045082 GNGRBTSHOT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "4619 CA REDEMP VAL N EE/2045082",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMISSION VALLEY #488\n2345 FENTON PKWY\nSAN DIEGO, CA 92108\n21048820900872604251211\n1849333 TC MUFFIN 6.99 N\n48757 SPRING MIX 3.79 N\n1920724 PRESSED SHOT 17.99 N\nCA REDEMP\n4619 VAL N 0.50\nEE/1920724\n7267 ORG BROC 2LB 5.69 N\n512515 ORG STRAWBRY 11.98 N\n2045082 GNGRBTSHOT 17.99 N\nCA REDEMP\n4619 VAL N 0.50\nEE/2045082",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14948.21804200002,
+        "totalUsd": 0.027834,
+        "inputTokens": 3706,
+        "outputTokens": 905,
+        "reasoningTokens": 1570
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92108",
+          "status": "match"
+        },
+        "city": {
+          "value": "SAN DIEGO",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "2345 FENTON PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1849333 TC MUFFIN",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "48757 SPRING MIX",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1920724 PRESSED SHOT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "4619 CA REDEMP VAL N EE/1920724",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7267 ORG BROC 2LB",
+          "quantity": 1,
+          "unitPrice": 5.69,
+          "totalSpend": 5.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "512515 ORG STRAWBRY",
+          "quantity": 1,
+          "unitPrice": 11.98,
+          "totalSpend": 11.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2045082 GNGRBTSHOT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "4619 CA REDEMP VAL N EE/2045082",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "10:15\nOrders and Purchases\nat Poway | Delivering to 92101\nCOSTCO\nWHOLESALE\nMISSION VALLEY #488\n2345 FENTON PKWY\nSAN DIEGO, CA 92108\n21048820900872604251211\n1849333 TC MUFFIN 6.99 N\n48757 SPRING MIX 3.79 N\n1920724 PRESSED SHOT 17.99 N\n4619 CA REDEMP VAL N EE/1920724 0.50\n7267 ORG BROC 2LB 5.69 N\n512515 ORG STRAWBRY 11.98 N\n2045082 GNGRBTSHOT 17.99 N\n4619 CA REDEMP VAL N EE/2045082 0.50",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6400.13404200002,
+        "totalUsd": 0.015072,
+        "inputTokens": 3706,
+        "outputTokens": 1057,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "9210821048820900872604251211\n1849333 TC MUFFIN 6.99 N\n48757 SPRING MIX 3.79 N\n1920724 PRESSED SHOT 17.99 N\nCA REDEMP\n4619 VAL N 0.50\nEE/1920724\n7267 ORG BROC 2LB 5.69 N\n512515 ORG STRAWBRY 11.98 N\n2045082 GNGRBTSHOT 17.99 N\nCA REDEMP\n4619 VAL N 0.50\nEE/2045082",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "SAN DIEGO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1849333 TC MUFFIN",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "48757 SPRING MIX",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1920724 PRESSED SHOT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "4619 CA REDEMP VAL N EE/1920724",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7267 ORG BROC 2LB",
+          "quantity": 1,
+          "unitPrice": 5.69,
+          "totalSpend": 5.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "512515 ORG STRAWBRY",
+          "quantity": 1,
+          "unitPrice": 11.98,
+          "totalSpend": 11.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2045082 GNGRBTSHOT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "4619 CA REDEMP VAL N EE/2045082",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMISSION VALLEY #488\n2345 FENTON PKWY\nSAN DIEGO, CA 92108\n21048820900872604251211\n1849333 TC MUFFIN 6.99 N\n48757 SPRING MIX 3.79 N\n1920724 PRESSED SHOT 17.99 N\nCA REDEMP\n4619 VAL N 0.50\nEE/1920724\n7267 ORG BROC 2LB 5.69 N\n512515 ORG STRAWBRY 11.98 N\n2045082 GNGRBTSHOT 17.99 N\nCA REDEMP\n4619 VAL N 0.50\nEE/2045082",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "TCMUFFIN + 1849333",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "SPRINGMIX + 48757 + 17.99 + 1920724 PRESSED SHOT N",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "VALN + 4619 + EE/1920724",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    },
+    {
+      "text": "ORGBROC2LB + 7267",
+      "price": 5.69,
+      "quantity": 1,
+      "totalSpend": 5.69
+    },
+    {
+      "text": "ORG + 512515 + STRAWBRY N + 17.99 + 2045082 GNGRBTSHOT N",
+      "price": 11.98,
+      "quantity": 1,
+      "totalSpend": 11.98
+    },
+    {
+      "text": "VALN + 4619 + EE/2045082",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

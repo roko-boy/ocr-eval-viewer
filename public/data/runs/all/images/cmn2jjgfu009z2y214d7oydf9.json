@@ -1,0 +1,243 @@
+{
+  "id": "cmn2jjgfu009z2y214d7oydf9",
+  "url": null,
+  "retailer": "Maverik",
+  "brand": "f'real",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "2.14",
+    "purchaseDate": "2026-03-22",
+    "time": null,
+    "zipCode": "84065",
+    "city": "Riverton",
+    "state": "UT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6543.635416000005,
+        "totalUsd": 0.016428,
+        "inputTokens": 6086,
+        "outputTokens": 811,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84065",
+          "status": "match"
+        },
+        "city": {
+          "value": "Riverton",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2707 W. 12600 S.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7452",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL MLKSHK BRWN SGR LA + TEAM MEMBER 50% OFF",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nRiverton | 264\n2707 W. 12600 S.\nRiverton, UT 84065\n03-22-2026 07:58 PM Invoice # 264003771930\nPURCHASE\nAdventure Club XXXXXXXXXXXX2447\nDESC QTY AMNT\nFREAL MLKSHK BRWN SGR LA 1 $3.99 A\nTEAM MEMBER 50% OFF $2.00-\nSUB-TOTAL $1.99\nSALES TAX 7.45% (A) $0.15\nTOTAL PURCHASES $2.14\nDEBIT XXXXXXXXXXXX7452\nContactless\nAmount Tendered $2.14\nPayment Network:03\nAID: A0000000042203\nAUTH # 2KQAT1\nNo CVM\nMode: Issuer\nMID **7140 TID 001\nSequence # 484339\nIAD: 0114A04003020000000000000000000000FF\nTVR: 0000008001\nARC: Z3\nItems Sold = 1\nCard #: **552447\nAdventure Guide Nitro\nPoints Earned 4\nPoints Balance 413\nSee App for Additional Rewards Details\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202608137719300000000264\n264 1 sel12",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9858.150208999985,
+        "totalUsd": 0.023565,
+        "inputTokens": 3692,
+        "outputTokens": 833,
+        "reasoningTokens": 1170
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84065",
+          "status": "match"
+        },
+        "city": {
+          "value": "Riverton",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2707 W. 12600 S.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7452",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL MLKSHK BRWN SGR LA + TEAM MEMBER 50% OFF",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\n\nMaverik Inc.\nRiverton | 264\n2707 W. 12600 S.\nRiverton, UT 84065\n\n03-22-2026 07:58 PM  Invoice #  264003771930\nPURCHASE\n\nAdventure Club            XXXXXXXXXXXX2447\n\nDESC                      QTY   AMNT\n\nFREAL MLKSHK BRWN SGR LA    1  $3.99 A\n  TEAM MEMBER 50% OFF          $2.00-\n\n         SUB-TOTAL             $1.99\n         SALES TAX 7.45% (A)   $0.15\n         TOTAL PURCHASES       $2.14\n\nDEBIT XXXXXXXXXXXX7452\nContactless\nAmount Tendered                $2.14\nPayment Network:03\nAID: A0000000042203\nAUTH # 2KQAT1\nNo CVM\nMode: Issuer\nMID **7140 TID 001\nSequence # 484339\nIAD: 0114A040030200000000000000000000FF\nTVR: 0000008001\nARC: Z3\n\n         Items Sold = 1\n\nCard #: **552447\nAdventure Guide Nitro\n\nPoints Earned                      4\nPoints Balance                   413\n\n   See App for Additional Rewards Details\n\n       Thanks for fueling your\n         adventure at Maverik\n\nCustomer Service 1-800-789-4455\n\n202608137719300000000264\n264       1                  self2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4846.248666,
+        "totalUsd": 0.012891,
+        "inputTokens": 3692,
+        "outputTokens": 817,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84065",
+          "status": "match"
+        },
+        "city": {
+          "value": "Riverton",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2707 W. 12600 S.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7452",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL MLKSHK BRWN SGR LA + TEAM MEMBER 50% OFF",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nRiverton | 264\n2707 W. 12600 S.\nRiverton, UT 84065\n03-22-2026 07:58 PM Invoice # 264003771930\nPURCHASE\nAdventure Club\nXXXXXXXXXXXX2447\nDESC\nQTY AMNT\nFREAL MLKSHK BRWN SGR LA\n1 $3.99 A\nTEAM MEMBER 50% OFF\n$2.00-\nSUB-TOTAL\n$1.99\nSALES TAX 7.45% (A)\n$0.15\nTOTAL PURCHASES\n$2.14\nDEBIT XXXXXXXXXXXX7452\nContactless\nAmount Tendered\n$2.14\nPayment Network:03\nAID: A0000000042203\nAUTH # 2KQAT1\nNo CVM\nMode: Issuer\nMID **7140 TID 001\nSequence # 484339\nIAD: 0114A04003020000000000000000000000FF\nTVR: 0000008001\nARC: Z3\nItems Sold = 1\nCard #: **552447\nAdventure Guide Nitro\nPoints Earned\n4\nPoints Balance\n413\nSee App for Additional Rewards Details\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202608137719300000000264\n264\n1\nself2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FREAL MLKSHK BRWN SGR LA",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

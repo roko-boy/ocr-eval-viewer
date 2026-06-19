@@ -1,0 +1,339 @@
+{
+  "id": "cmorsvmzr00408pev6x4y8j0u",
+  "url": null,
+  "retailer": "Central Market",
+  "brand": "Ruby Jewel ",
+  "amount": 4.39,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": null,
+    "totalCost": "20.63",
+    "purchaseDate": "2026-05-04",
+    "time": null,
+    "zipCode": "75206",
+    "city": "Dallas",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8916.90875100001,
+        "totalUsd": 0.017274,
+        "inputTokens": 6086,
+        "outputTokens": 905,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Central Market",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "20.63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:54P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75206",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dallas",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5750 East Lovers Lane",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6200",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 PIRQ HYDRATION PUNCH TF",
+          "quantity": 1,
+          "unitPrice": 11.18,
+          "totalSpend": 11.18,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2 RUBY JEWEL CHOC CHIP VANI TF",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "3 KEY PINEAPPLE PASSIONFRUI TF",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Central Market\n1062 0024 0504 2616 5400 552\n1 PIRQ HYDRATION PUNCH TF 11.18\n2 RUBY JEWEL CHOC CHIP VANI TF 4.39\n3 KEY PINEAPPLE PASSIONFRUI TF 3.49\n*********** Sale Subtotal*** 19.06\nSales Tax 1.57\n************* Total Sale*** 20.63\n*** VISA EPS 20.63\nITEMS PURCHASED: 3\nON SALE SAVINGS : $0.60\nYOU SAVED\n$0.60\nUS DEBIT\n************6200\nContactless Chip USD$ 20.63\nAppr No : 270842 Ref No : 465031\nMode: Issuer\nVISA\nAID : A0000000980840\nTVR : 0000000000\nIAD : 06011203A00000\nTSI : ARC : 00\nRECEIPT EXPIRES ON 08-02-26\n1062 0024 0504 2616 5400 552\nCentral Market 552\n5750 East Lovers Lane, Dallas, TX 75206\nPhone: (214) 234-7000\nStore Hours: 8 A.M. to 10 P.M.\nYour Cashier: SELF CHECKOUT 656\n620024 05-04-26 4:54P 656/17/00552",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14774.479292,
+        "totalUsd": 0.034788,
+        "inputTokens": 3692,
+        "outputTokens": 901,
+        "reasoningTokens": 2349
+      },
+      "fields": {
+        "storeName": {
+          "value": "Central Market",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "20.63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:54P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75206",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dallas",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5750 East Lovers Lane",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6200",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PIRQ HYDRATION PUNCH",
+          "quantity": 1,
+          "unitPrice": 11.18,
+          "totalSpend": 11.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUBY JEWEL CHOC CHIP VANI",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEY PINEAPPLE PASSIONFRUI",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Central Market\n1062 0024 0504 2616 5400 552\n\n1 PIRQ HYDRATION PUNCH TF 11.18\n2 RUBY JEWEL CHOC CHIP VANI TF 4.39\n3 KEY PINEAPPLE PASSIONFRUI TF 3.49\n\n************ Sale Subtotal*** 19.06\nSales Tax 1.57\n************** Total Sale*** 20.63\n*** VISA EPS 20.63\nITEMS PURCHASED: 3\nON SALE SAVINGS : $0.60\n\nYOU SAVED\n$0.60\n\nUS DEBIT\n************6200\nContactless Chip USD$ 20.63\nAppr No : 270842 Ref No : 465031\nMode: Issuer\nVISA\nAID : A0000000980840\nTVR : 0000000000\nIAD : 06011203A00000\nTSI : ARC : 00\n\nRECEIPT EXPIRES ON 08-02-26\n\n1062 0024 0504 2616 5400 552\n\nCentral Market 552\n5750 East Lovers Lane, Dallas, TX 75206\nPhone: (214) 234-7000\nStore Hours: 8 A.M. to 10 P.M.\nYour Cashier: SELF CHECKOUT 656\n620024 05-04-26 4:54P 656/17/00552",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5722.82583300001,
+        "totalUsd": 0.013539,
+        "inputTokens": 3692,
+        "outputTokens": 889,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Central Market",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "20.63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:54P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75206",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dallas",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5750 East Lovers Lane",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6200",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PIRQ HYDRATION PUNCH",
+          "quantity": 1,
+          "unitPrice": 11.18,
+          "totalSpend": 11.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUBY JEWEL CHOC CHIP VANI TF",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEY PINEAPPLE PASSIONFRUI TF",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Central Market\n1062 0024 0504 2616 5400 552\n1 PIRQ HYDRATION PUNCH TF 11.18\n2 RUBY JEWEL CHOC CHIP VANI TF 4.39\n3 KEY PINEAPPLE PASSIONFRUI TF 3.49\n************ Sale Subtotal*** 19.06\nSales Tax 1.57\n************* Total Sale*** 20.63\n*** VISA EPS 20.63\nITEMS PURCHASED: 3\nON SALE SAVINGS : $0.60\nYOU SAVED\n$0.60\nUS DEBIT\n************6200\nContactless Chip USD$ 20.63\nAppr No : 270842 Ref No : 465031\nMode: Issuer\nVISA\nAID : A0000000980840\nTVR : 0000000000\nIAD : 06011203A00000\nTSI : ARC : 00\nRECEIPT EXPIRES ON 08-02-26\n1062 0024 0504 2616 5400 552\nCentral Market 552\n5750 East Lovers Lane, Dallas, TX 75206\nPhone: (214) 234-7000\nStore Hours: 8 A.M. to 10 P.M.\nYour Cashier: SELF CHECKOUT 656\n620024 05-04-26 4:54P 656/17/00552",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PIRQ HYDRATION PUNCH TF 11.18",
+      "price": 11.18,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "2 RUBY JEWEL CHOC CHIP VANI TF 4.39",
+      "price": 4.39,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "KEY PINEAPPLE PASSIONFRUI TF 3.49",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "** Sale Subtotal *** 19.06",
+      "price": 19.06,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Sales Tax 1.57",
+      "price": 1.57,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "***** Total Sale *** 20.63",
+      "price": 20.63,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "*** VISA EPS 20.63",
+      "price": 20.63,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "ON SALE SAVINGS   $0.60",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$0.60",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Contactless Chip USD$ 20.63",
+      "price": 20.63,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

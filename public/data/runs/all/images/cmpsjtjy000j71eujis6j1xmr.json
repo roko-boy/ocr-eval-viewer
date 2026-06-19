@@ -1,0 +1,453 @@
+{
+  "id": "cmpsjtjy000j71eujis6j1xmr",
+  "url": null,
+  "retailer": "Meijer Bakery",
+  "brand": "Pepsi Food Service",
+  "amount": 1.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "29.72",
+    "purchaseDate": "2026-05-30",
+    "time": null,
+    "zipCode": "44718",
+    "city": "Canton",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14229.03462499997,
+        "totalUsd": 0.021612,
+        "inputTokens": 6086,
+        "outputTokens": 1387,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.72",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44718",
+          "status": "match"
+        },
+        "city": {
+          "value": "Canton",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4866 Fulton Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7760",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BANANAS + Meijer Coupon => .35 off + 2.95 lb @ .55",
+          "quantity": 1,
+          "unitPrice": 1.62,
+          "totalSpend": 1.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CARROTS + 70880035856",
+          "quantity": 1,
+          "unitPrice": 1.39,
+          "totalSpend": 1.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PEPSI ZERO + 1200020320 + Pepsi Coupon => .50 off",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MINI CUKES 1LB + 578016851",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FRUIT MIX + 71383732",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FFM PINEAPPLE + 713395982",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BUBBLR + 28560037",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUEBERRIES + 818701033 + was 6.99 now 4.99",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RASPBERRIES + 575610001 + 2 @ 4 / 5.00 + was 6.38 now 2.50",
+          "quantity": 1,
+          "unitPrice": 6.38,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "meijer\n4866 Fulton Drive - #325\nCanton, OH 44718\n234.804.0850 meijer.com\n05/30/26 MELISSA\nMEIJER SAVINGS\nSPECIALS 5.88\nCOUPONS 4.10\nHealthy Savings 7.44\nSAVINGS TOTAL 17.42\nGROCERY\n4011 BANANAS 1.62 F\nMeijer Coupon\n=> .35 off -.35 F\n2.95 lb @ .55\n70880035856 CARROTS 1.39 F\n1200020320 PEPSI ZERO 1.79 FT\nPepsi Coupon\n=> .50 off -.50 F\n578016851 MINI CUKES 1LB 3.49 F\n71383732 FRUIT MIX 4.49 F\n713395982 FFM PINEAPPLE 5.99 F\n28560037 BUBBLR 6.99 HFT\n*818701033 BLUEBERRIES\nwas 6.99 now 4.99 F\n575610001 RASPBERRIES\n2 @ 4 / 5.00\nwas 6.38 now 2.50 F\nCOUPONS\nMeijer Coupon -3.25 C\nTOTAL\nOH 6.50% Sales Tax .57\nTOTAL TAX .57\nTOTAL 29.72\nPAYMENTS\nOTC CARD TENDER 7.44\nXXXXXXXXXXXXXXX1304\nAPPROVAL CODE 982242\nCREDIT CARDS TENDER 22.28\nXXXXXXXXXXXX7760 (X)\nAPPROVAL CODE 842493\nAMEX CREDIT\nAID A000000025010901",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 25892.22649999999,
+        "totalUsd": 0.059223,
+        "inputTokens": 3692,
+        "outputTokens": 1385,
+        "reasoningTokens": 4580
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.72",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44718",
+          "status": "match"
+        },
+        "city": {
+          "value": "Canton",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4866 Fulton Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7760",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BANANAS + 4011 + Meijer Coupon => .35 off + 2.95 lb @ .55 / 1 lb",
+          "quantity": 1,
+          "unitPrice": 1.62,
+          "totalSpend": 1.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CARROTS + 70880035856",
+          "quantity": 1,
+          "unitPrice": 1.39,
+          "totalSpend": 1.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PEPSI ZERO + 1200020320 + Pepsi Coupon => .50 off",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MINI CUKES 1LB + 578316851",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FRUIT MIX + 71383732",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FFM PINEAPPLE + 713395982",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BUBBLR + 28560037",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUEBERRIES + 8818701033 + was 6.99 now 4.99",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RASPBERRIES + 575610001 + 2 @ 4 / 5.00 + was 6.38 now 2.50",
+          "quantity": 2,
+          "unitPrice": 3.19,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n4866 Fulton Drive - #325\nCanton, OH 44718\n234.804.0850 meijer.com\n05/30/26 MELISSA\nMEIJER SAVINGS\nSPECIALS 5.88\nCOUPONS 4.10\nHealthy Savings 7.44\nSAVINGS TOTAL 17.42\nGROCERY\n4011 BANANAS 1.62 F\nMeijer Coupon => .35 off -.35 F\n2.95 lb @ .55 / 1 lb\n70880035856 CARROTS 1.39 F\n1200020320 PEPSI ZERO 1.79 FT\nPepsi Coupon => .50 off -.50 F\n578316851 MINI CUKES 1LB 3.49 F\n71383732 FRUIT MIX 4.49 F\n713395982 FFM PINEAPPLE 5.99 F\n28560037 BUBBLR 6.99 HFT\n8818701033 BLUEBERRIES\nwas 6.99 now 4.99 F\n575610001 RASPBERRIES\n2 @ 4 / 5.00\nwas 6.38 now 2.50 F\nCOUPONS\nMeijer Coupon -3.25 C\nTOTAL\nOH 6.50% Sales Tax .57\nTOTAL TAX .57\nTOTAL 29.72\nPAYMENTS\nOTC Card TENDER 7.44\nXXXXXXXXXXXXXXXX1304\nAPPROVAL CODE 982242\nCREDIT CARDS TENDER 22.28\nXXXXXXXXXXXX7760 (X)\nAPPROVAL CODE 842493\nAMEX CREDIT\nAID A000000025010901",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6961.160833000002,
+        "totalUsd": 0.017463,
+        "inputTokens": 3692,
+        "outputTokens": 1325,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.72",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44718",
+          "status": "match"
+        },
+        "city": {
+          "value": "Canton",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4866 Fulton Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7760",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BANANAS + Meijer Coupon => .35 off",
+          "quantity": 1,
+          "unitPrice": 1.62,
+          "totalSpend": 1.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CARROTS + 70880035856",
+          "quantity": 1,
+          "unitPrice": 1.39,
+          "totalSpend": 1.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PEPSI ZERO + 1200020320 + Pepsi Coupon => .50 off",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MINI CUKES 1LB + 578016851",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FRUIT MIX + 71383732",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FFM PINEAPPLE + 713395982",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BUBBLR + 28560037",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUEBERRIES + 818701033",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RASPBERRIES + 575610001",
+          "quantity": 2,
+          "unitPrice": 6.38,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n4866 Fulton Drive - #325\nCanton, OH 44718\n234.804.0850 meijer.com\n05/30/26 MELISSA\nMEIJER SAVINGS\nSPECIALS 5.88\nCOUPONS 4.10\nHealthy Savings 7.44\nSAVINGS TOTAL 17.42\nGROCERY\n4011 BANANAS 1.62 F\nMeijer Coupon\n=> .35 off -.35 F\n2.95 lb @ 1 lb / .55\n70880035856 CARROTS 1.39 F\n1200020320 PEPSI ZERO 1.79 FT\nPepsi Coupon\n=> .50 off -.50 F\n578016851 MINI CUKES 1LB 3.49 F\n71383732 FRUIT MIX 4.49 F\n713395982 FFM PINEAPPLE 5.99 F\n28560037 BUBBLR 6.99 HFT\n818701033 BLUEBERRIES\nwas 6.99 now 4.99 F\n575610001 RASPBERRIES\n2 @ 4 / 5.00\nwas 6.38 now 2.50 F\nCOUPONS\nMeijer Coupon -3.25 C\nTOTAL\nOH 6.50% Sales Tax .57\nTOTAL TAX .57\nTOTAL 29.72\nPAYMENTS\nOTC Card TENDER 7.44\nXXXXXXXXXXXXXXXX1304\nAPPROVAL CODE 982242\nCREDIT CARDS TENDER 22.28\nXXXXXXXXXXXX7760 (X)\nAPPROVAL CODE 842493\nAMEX CREDIT\nAID A000000025010901",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CARROTS + 035856",
+      "price": 1.39,
+      "quantity": 1,
+      "totalSpend": 1.39
+    },
+    {
+      "text": "PEPSI ZERO + 20320 + Pe i Coupon",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "MINI CUKES 1LB + 16851",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "FRUIT MIX + 5383732",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "FFM PINEAPPLE + 3395982",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "BUBBLR + 560037",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "BLUEBERRIES + 318701033 + was 6.99 now 4.99 F",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "RASPBERRIES + 575610001 + 2 @ 4 / 5.00",
+      "price": 1.25,
+      "quantity": 2,
+      "totalSpend": 2.5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,297 @@
+{
+  "id": "cmoos0tyh00exyvnqb27eo3uh",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "Pepsi Food Service",
+  "amount": 2.89,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": null,
+    "totalCost": null,
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11780.349916,
+        "totalUsd": 0.013212,
+        "inputTokens": 6114,
+        "outputTokens": 449,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Taco Bell",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "6.41",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "2:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "1024 Endeavour Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cantina Chicken Soft Taco",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Pepsi® Zero Sugar - Medium",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Chocolate Fudge & Caramel Empanadas",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Taco Bell\nReady at 2:04 PM\nCourtyard by Marriott Rapid City\nResidence Inn Marriott Rapid City\nWaTiki® Waterpark\nIn View Village\nCheyenne Blvd\nTaco Bell\n1024 Endeavour Blvd.\nGoogle\nORDER #905597\nCancel Order\n1 Cantina Chicken Soft Taco $2.99\n1 Pepsi® Zero Sugar - Medium $2.89\n1 Chocolate Fudge & Caramel Empanadas $2.99\nSubtotal $8.87\nPromotion -$2.89\nTaxes & Fees $0.43\nTotal $6.41",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10970.00225,
+        "totalUsd": 0.022974,
+        "inputTokens": 3706,
+        "outputTokens": 420,
+        "reasoningTokens": 1515
+      },
+      "fields": {
+        "storeName": {
+          "value": "Taco Bell",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "6.41",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "2:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Rapid City",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "1024 Endeavour Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cantina Chicken Soft Taco",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Pepsi® Zero Sugar - Medium",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Chocolate Fudge & Caramel Empanadas",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Taco Bell\nReady at 2:04 PM\nCourtyard by Marriott Rapid City\n1024 Endeavour Blvd.\nORDER #905597\nCancel Order\n1 Cantina Chicken Soft Taco $2.99\n1 Pepsi® Zero Sugar - Medium $2.89\n1 Chocolate Fudge & Caramel Empanadas $2.99\nSubtotal $8.87\nPromotion -$2.89\nTaxes & Fees $0.43\nTotal $6.41",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3498.28225,
+        "totalUsd": 0.009564,
+        "inputTokens": 3706,
+        "outputTokens": 445,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Taco Bell",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "6.41",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "2:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "1024 Endeavour Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cantina Chicken Soft Taco",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Pepsi® Zero Sugar - Medium",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Chocolate Fudge & Caramel Empanadas",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Taco Bell\nReady at 2:04 PM\nResidence Inn\nCourtyard by\nMarriott Rapid City\nWaTiki®\nWaterpark\nIn View Village\nCheyenne Blvd.\nTaco Bell\n1024 Endeavour Blvd.\nGoogle\nORDER #905597\nCancel Order\n1 Cantina Chicken Soft Taco $2.99\n1 Pepsi® Zero Sugar - Medium $2.89\n1 Chocolate Fudge & Caramel Empanadas $2.99\nSubtotal $8.87\nPromotion -$2.89\nTaxes & Fees $0.43\nTotal $6.41",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Cantina Chicken Soft Taco",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "Pepsi@ Zero Sugar",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "Chocolate Fudge &",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

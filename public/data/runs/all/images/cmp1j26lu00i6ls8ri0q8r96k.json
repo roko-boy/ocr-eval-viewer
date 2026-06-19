@@ -1,0 +1,411 @@
+{
+  "id": "cmp1j26lu00i6ls8ri0q8r96k",
+  "url": null,
+  "retailer": "Target",
+  "brand": "TRIP",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "19.51",
+    "purchaseDate": "2026-05-08",
+    "time": null,
+    "zipCode": "66223",
+    "city": "Overland Park",
+    "state": "KS",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 37839.97350000001,
+        "totalUsd": 0.0196635,
+        "inputTokens": 6191,
+        "outputTokens": 1153,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "66223-2113",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Overland Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8101 W 151st",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6475",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP MINDFUL + 271750433 + 2 @ $2.00 ea + Regular Price $2.99 + 3for$6",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RECESS MOOD + 271750296",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RECESS MOOD + 271750295",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRIP MINDFUL + 271750434 + Regular Price $2.99 + 3for$6",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RECESS MOOD + 271750071",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Huel RTD + 203750314 + Regular Price $2.99 + 2for$4",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Huel RTD + 203750313 + Regular Price $2.99 + 2for$4",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "View your receipt\nOverland Park South - 913-905-0419\n8101 W 151st\nOverland Park, Kansas 66223-2113\n05/08/2026 02:55 PM\nGROCERY\n271750433 TRIP MINDFUL BF $4.00\n2 @ $2.00 ea\nRegular Price $2.99\n3for$6\n271750296 RECESS MOOD BF $2.99\n271750295 RECESS MOOD BF $2.99\n271750434 TRIP MINDFUL BF $2.00\nRegular Price $2.99\n3for$6\n271750071 RECESS MOOD BF $2.99\n203750314 Huel RTD BF $2.00\nRegular Price $2.99\n2for$4\n203750313 Huel RTD BF $2.00\nRegular Price $2.99\n2for$4\nSUBTOTAL $18.97\nB = KS TAX 2.85000 on $18.97 $0.54\nTOTAL $19.51\n*6475 MASTERCARD CHARGE $19.51\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 06177P",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15311.973583,
+        "totalUsd": 0.032379,
+        "inputTokens": 3706,
+        "outputTokens": 1081,
+        "reasoningTokens": 1899
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "66223-2113",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Overland Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8101 W 151st",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6475",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP MINDFUL + 271750433",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RECESS MOOD + 271750296",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RECESS MOOD + 271750295",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRIP MINDFUL + 271750434",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RECESS MOOD + 271750071",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Huel RTD + 203750314",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Huel RTD + 203750313",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "View your receipt\nOverland Park South - 913-905-0419\n8101 W 151st\nOverland Park, Kansas 66223-2113\n05/08/2026 02:55 PM\nGROCERY\n271750433 TRIP MINDFUL BF $4.00\n2 @ $2.00 ea\nRegular Price $2.99\n3for$6\n271750296 RECESS MOOD BF $2.99\n271750295 RECESS MOOD BF $2.99\n271750434 TRIP MINDFUL BF $2.00\nRegular Price $2.99\n3for$6\n271750071 RECESS MOOD BF $2.99\n203750314 Huel RTD BF $2.00\nRegular Price $2.99\n2for$4\n203750313 Huel RTD BF $2.00\nRegular Price $2.99\n2for$4\nSUBTOTAL $18.97\nB = KS TAX 2.85000 on $18.97 $0.54\nTOTAL $19.51\n*6475 MASTERCARD CHARGE $19.51\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 06177P",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6202.009333999999,
+        "totalUsd": 0.01554,
+        "inputTokens": 3706,
+        "outputTokens": 1109,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "66223-2113",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Overland Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8101 W 151st",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6475",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP MINDFUL + 271750433 + 3for$6",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RECESS MOOD + 271750296",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RECESS MOOD + 271750295",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRIP MINDFUL + 271750434 + 3for$6",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RECESS MOOD + 271750071",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Huel RTD + 203750314 + 2for$4",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Huel RTD + 203750313 + 2for$4",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "View your receipt\nOverland Park South - 913-905-0419\n8101 W 151st\nOverland Park, Kansas 66223-2113\n05/08/2026 02:55 PM\nGROCERY\n271750433 TRIP MINDFUL BF $4.00\n2 @ $2.00 ea\nRegular Price $2.99\n3for$6\n271750296 RECESS MOOD BF $2.99\n271750295 RECESS MOOD BF $2.99\n271750434 TRIP MINDFUL BF $2.00\nRegular Price $2.99\n3for$6\n271750071 RECESS MOOD BF $2.99\n203750314 Huel RTD BF $2.00\nRegular Price $2.99\n2for$4\n203750313 Huel RTD BF $2.00\nRegular Price $2.99\n2for$4\nSUBTOTAL $18.97\nB = KS TAX 2.85000 on $18.97 $0.54\nTOTAL $19.51\n*6475 MASTERCARD CHARGE $19.51\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 06177P",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "TRIPMINDFUL + 271750433 + : + 2 @ $2.00ea + Regular Price $2.99",
+      "price": 2,
+      "quantity": 2,
+      "totalSpend": 4
+    },
+    {
+      "text": "RECESSMOOD + 271750296",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "RECESSMOOD + 271750295",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "TRIPMINDFUL + 271750434 + : + : RegularPrice $2.99",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "RECESSMOOD + 271750071 + :",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "HuelRTD + 203750314 + : RegularPrice $2.99",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "HuelRTD + 203750313 + RegularPrice $2.99",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "B =KS TAX2.85000 on",
+      "price": 0.54,
+      "quantity": 1,
+      "totalSpend": 0.54
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

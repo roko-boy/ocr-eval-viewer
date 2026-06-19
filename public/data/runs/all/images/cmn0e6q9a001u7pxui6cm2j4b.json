@@ -1,0 +1,236 @@
+{
+  "id": "cmn0e6q9a001u7pxui6cm2j4b",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "javvy",
+  "amount": 13.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": null,
+    "totalCost": null,
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11135.74341700005,
+        "totalUsd": 0.01407,
+        "inputTokens": 6086,
+        "outputTokens": 549,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Bel Air",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "26.99",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-03-20",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "21:55:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JAVVY MOCHA",
+          "quantity": 1,
+          "unitPrice": 26.99,
+          "totalSpend": 26.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "BEL AIR\nGet Something Extra\nat Raleys.com\nTERM# 1 STORE# 516 OPERATOR# 820\n03/20/26 BEL AIR (800)925-9989 21:55:31\nSOMETHING EXTRA ACCT. XXXXXXXX8432\nGROCERY Items\nJAVVY MOCHA 01 26.99 F\nSUBTOTAL 26.99\nTAX DUE .00\nTOTAL 26.99\nEBT Food Stamps $ 26.99\nXXXXXXXXXXXX1513\nCASH CHANGE .00\nNUMBER OF ITEMS 1\n****************************************\nCard #Sxxxxxxxxxxxx1513 PIN Used\nFood Stamps +++ APPROVED +++\nEBT Food Purchase $ 26.99\n----------------------------------------\nEBT Food Balance $ 136.30\nEBT Cash Balance $ 1.11\nAuth # 353181 Exp Date xx/xx\nLane # 01 Cashier # 820\n03/20/26 21:56 Ref/Seq #018736\nEPS Sequence # 018736",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9506.054957999964,
+        "totalUsd": 0.023529,
+        "inputTokens": 3692,
+        "outputTokens": 573,
+        "reasoningTokens": 1426
+      },
+      "fields": {
+        "storeName": {
+          "value": "Bel Air",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "26.99",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-03-20",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "21:55:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1513",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JAVVY MOCHA 01",
+          "quantity": 1,
+          "unitPrice": 26.99,
+          "totalSpend": 26.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "BEL AIR\nGet Something Extra\nat Raleys.com\n\nTERM# 1 STORE# 516 OPERATOR# 820\n03/20/26 BEL AIR (800)925-9989 21:55:31\n\nSOMETHING EXTRA ACCT. XXXXXXX8432\nGrocery Items\nJAVVY MOCHA 01 26.99 F\n----------------------------------------\nSUBTOTAL 26.99\nTAX DUE .00\nTOTAL 26.99\n\nEBT Food Stamps $ 26.99\nXXXXXXXXXXXX1513\nCASH CHANGE .00\n\nNUMBER OF ITEMS 1\n\n****************************************\nCard #Sxxxxxxxxxxxx1513 PIN Used\nFood Stamps +++ APPROVED +++\nEBT Food Purchase $ 26.99\n\nEBT Food Balance $ 136.30\n\nEBT Cash Balance $ 1.11\n\nAuth # 353181 Exp Date xx/xx\nLane # 01 Cashier # 820\n03/20/26 21:56 Ref/Seq #018736\nEPS Sequence # 018736",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3869.358042000007,
+        "totalUsd": 0.010812,
+        "inputTokens": 3692,
+        "outputTokens": 586,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Bel Air",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "26.99",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-03-20",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "21:55:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Bel Air",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1513",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JAVVY MOCHA",
+          "quantity": 1,
+          "unitPrice": 26.99,
+          "totalSpend": 26.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "BEL AIR\nGet Something Extra\nat Raleys.com\nTERM# 1 STORE# 516 OPERATOR# 820\n03/20/26\nBEL AIR\n(800)925-9989\n21:55:31\nSOMETHING EXTRA ACCT. XXXXXXX8432\nGrocery Items\nJAVVY MOCHA\n01\n26.99 F\nSUBTOTAL\n26.99\nTAX DUE\n.00\nTOTAL\n26.99\nEBT Food Stamps\n$ 26.99\nXXXXXXXXXXXX1513\nCASH\nCHANGE\n.00\nNUMBER OF ITEMS\n1\n****************************************\nCard #Sxxxxxxxxxxxx1513\nPIN Used\nFood Stamps +++ APPROVED +++\nEBT Food Purchase $\n26.99\nEBT Food Balance $\n136.30\nEBT Cash Balance $\n1.11\nAuth # 353181\nExp Date xx/xx\nLane # 01\nCashier # 820\n03/20/26 21:56\nRef/Seq #018736\nEPS Sequence\n# 018736",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

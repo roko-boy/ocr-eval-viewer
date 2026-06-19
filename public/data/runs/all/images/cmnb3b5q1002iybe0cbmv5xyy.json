@@ -1,0 +1,243 @@
+{
+  "id": "cmnb3b5q1002iybe0cbmv5xyy",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Ritual Vitamins",
+  "amount": 15,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "53.4",
+    "purchaseDate": "2026-03-28",
+    "time": null,
+    "zipCode": "91763",
+    "city": "Montclair",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7812.42291699996,
+        "totalUsd": 0.016644,
+        "inputTokens": 6086,
+        "outputTokens": 835,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "53.4",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91763",
+          "status": "match"
+        },
+        "city": {
+          "value": "Montclair",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9404 Central Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0027",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2001199 RITUALPRENL",
+          "quantity": 1,
+          "unitPrice": 48.99,
+          "totalSpend": 48.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMontclair #686\n9404 Central Ave\nMontclair, CA 91763\n(909) 575-5004\n\nSELF-CHECKOUT\n\nRD Member 111978802121\n\n***START OF PRE-SCANNED ITEMS*********\n\n2001199 RITUALPRENL 48.99 A\n\n***END OF PRE-SCANNED ITEMS***********\n\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 1\n\nSUBTOTAL 48.99\nTAX 4.41\n**** TOTAL 53.40\n\nXXXXXXXXXXXX0027 CHIP Read\nAID: A0000000031010\nSeq# 203728 App#: 41507C\nCostco Visa Resp: APPROVED\nTran ID#: 608700203728....\n\nAPPROVED - Purchase\nAMOUNT: $53.40\n03/28/2026 18:24 686 203 261 703\n----------------------------------------\nCostco Visa 53.40\nCHANGE 0.00\n\nA 9.00% TAX 4.41\nTOTAL TAX 4.41\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/28/2026 18:24 686 203 261 703\n\n21068620302612603281824\nOP#: 703 Name: SCO\nThank You!\nPlease Come Again\nWhse:686 Trm:203 Trn:261 OP:703\n\nItems Sold: 1\nRD 03/28/2026 18:24",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9046.84583299997,
+        "totalUsd": 0.021108,
+        "inputTokens": 3692,
+        "outputTokens": 798,
+        "reasoningTokens": 932
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "53.4",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91763",
+          "status": "match"
+        },
+        "city": {
+          "value": "Montclair",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9404 Central Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0027",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2001199 RITUALPRENTL",
+          "quantity": 1,
+          "unitPrice": 48.99,
+          "totalSpend": 48.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMontclair #686\n9404 Central Ave\nMontclair, CA 91763\n(909) 575-5004\nSELF-CHECKOUT\nRD Member 111978802121\n***START OF PRE-SCANNED ITEMS*********\n2001199 RITUALPRENTL 48.99 A\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 1\nSUBTOTAL 48.99\nTAX 4.41\n**** TOTAL 53.40\nXXXXXXXXXXXX0027 CHIP Read\nAID: A0000000031010\nSeq# 203728 App#: 41507C\nCostco Visa Resp: APPROVED\nTran ID#: 608700203728....\nAPPROVED - Purchase\nAMOUNT: $53.40\n03/28/2026 18:24 686 203 261 703\nCostco Visa 53.40\nCHANGE 0.00\nA 9.00% TAX 4.41\nTOTAL TAX 4.41\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/28/2026 18:24 686 203 261 703\n21068620302612603281824\nOP#: 703 Name: SCO\nThank You!\nPlease Come Again\nWhse:686 Trm:203 Trn:261 OP:703\nItems Sold: 1\nRD 03/28/2026 18:24",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4530.242375000002,
+        "totalUsd": 0.012702,
+        "inputTokens": 3692,
+        "outputTokens": 796,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "53.4",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91763",
+          "status": "match"
+        },
+        "city": {
+          "value": "Montclair",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9404 Central Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0027",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2001199 RITUALPRENTL",
+          "quantity": 1,
+          "unitPrice": 48.99,
+          "totalSpend": 48.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMontclair #686\n9404 Central Ave\nMontclair, CA 91763\n(909) 575-5004\nSELF-CHECKOUT\nRD Member 111978802121\n***START OF PRE-SCANNED ITEMS*********\n2001199 RITUALPRENTL 48.99 A\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 1\nSUBTOTAL 48.99\nTAX 4.41\n**** TOTAL 53.40\nXXXXXXXXXXXX0027 CHIP Read\nAID: A0000000031010\nSeq# 203728 App#: 41507C\nCostco Visa Resp: APPROVED\nTran ID#: 608700203728....\nAPPROVED - Purchase\nAMOUNT: $53.40\n03/28/2026 18:24 686 203 261 703\nCostco Visa 53.40\nCHANGE 0.00\nA 9.00% TAX 4.41\nTOTAL TAX 4.41\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/28/2026 18:24 686 203 261 703\n21068620302612603281824\nOP#: 703 Name: SCO\nThank You!\nPlease Come Again\nWhse:686 Trm:203 Trn:261 OP:703\nItems Sold: 1\nRD 03/28/2026 18:24",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "RITUALPRENTL + 2001199",
+      "price": 48.99,
+      "quantity": 1,
+      "totalSpend": 48.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

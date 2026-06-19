@@ -1,0 +1,270 @@
+{
+  "id": "cmpwyz5d7002l7ajfybo6esry",
+  "url": null,
+  "retailer": "Ralphs Fresh Fare",
+  "brand": "Nectar",
+  "amount": 15.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Ralphs",
+    "totalCost": "17.66",
+    "purchaseDate": "2026-05-31",
+    "time": null,
+    "zipCode": "92037",
+    "city": "La Jolla",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9729.907625000022,
+        "totalUsd": 0.016536,
+        "inputTokens": 6086,
+        "outputTokens": 823,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:55pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "La Jolla",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8657 Villa La Jolla Dr.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5755",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NECTAR SO JC VRTY RC + SC RALPHS SAVED YOU 8.00",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 15.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CA REDEM VAL",
+          "quantity": 1,
+          "unitPrice": 0.4,
+          "totalSpend": 0.4,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "FRESH\nRalphs FOR\nEVERYONE\n8657 Villa La Jolla Dr.\n(858) 597-1550\nYour cashier was Sean C\nVERIFIED TOTAL SAVINGS $ 8.00\nNECTAR SO JC VRTY RC 15.99 T\nCA REDEM VAL 0.40 T\nSC RALPHS SAVED YOU 8.00\nRALPHS rewards CUSTOMER *******6120\nTAX 1.27\n**** BALANCE 17.66\nUS DEBIT Purchase\n************5755 - H\nREF#: 502298 TOTAL: 17.66\nPURCHASE: 17.66 CASHBACK: 0.00\nAID: A0000000980840\nTC: 5B437F4EDED1FF13\nVERIFIED BY PIN\nDEBIT 17.66\nCHANGE 0.00\nDate of Birth = xx/xx/xx KEYED\nTOTAL NUMBER OF ITEMS SOLD = 2\nRALPHS rewards SAVINGS $8.00\nTOTAL COUPONS $ 8.00\n05/31/26 03:55pm 108 13 124 350\n****************************************\nAnnual Card Savings $21.44\n****************************************\n****************************************\nTotal May Fuel Points: 7\n****************************************\nWith Card & Coupons\nVERIFIED TOTAL SAVINGS $ 8.\nTRY OUR PHARMACY (858) 597-0108\nMGR: NICOLE SABEH (858) 597-1550\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19020.826458,
+        "totalUsd": 0.037776,
+        "inputTokens": 3692,
+        "outputTokens": 812,
+        "reasoningTokens": 2770
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:55pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "La Jolla",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8657 Villa La Jolla Dr.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5755",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NECTAR SO JC VRTY RC",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 15.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CA REDEM VAL",
+          "quantity": 1,
+          "unitPrice": 0.4,
+          "totalSpend": 0.4,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "FRESH\nRalphs FOR\nEVERYONE...\n\n8657 Villa La Jolla Dr.\n(858) 597-1550\nYour cashier was Sean C\nVERIFIED TOTAL SAVINGS $ 8.00\nNECTAR SO JC VRTY RC 15.99 T\nCA REDEM VAL 0.40 T\nSC RALPHS SAVED YOU 8.00\nRALPHS rewards CUSTOMER ******6120\nTAX 1.27\n**** BALANCE 17.66\nUS DEBIT Purchase\n************5755 - H\nREF#: 502298 TOTAL: 17.66\nPURCHASE: 17.66 CASHBACK: 0.00\nAID: A0000000980840\nTC: 5B437F4EDED1FF13\nVERIFIED BY PIN\nDEBIT 17.66\nCHANGE 0.00\nDate of Birth = xx/xx/xx KEYED\nTOTAL NUMBER OF ITEMS SOLD = 2\nRALPHS rewards SAVINGS $8.00\nTOTAL COUPONS $ 8.00\n05/31/26 03:55pm 108 13 124 350\n****************************************\nAnnual Card Savings $21.44\n****************************************\n****************************************\nTotal May Fuel Points: 7\n****************************************\nWith Card & Coupons\nVERIFIED TOTAL SAVINGS $ 8.\nTRY OUR PHARMACY (858) 597-0108\nMGR: NICOLE SABEH (858) 597-1550\nTHANK YOU FOR SHOPPING AT RALPHS!\n\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5099.28349999999,
+        "totalUsd": 0.012747,
+        "inputTokens": 3692,
+        "outputTokens": 801,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:55pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92037",
+          "status": "match"
+        },
+        "city": {
+          "value": "La Jolla",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8657 Villa La Jolla Dr.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5755",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NECTAR SO JC VRTY RC",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 15.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CA REDEM VAL",
+          "quantity": 1,
+          "unitPrice": 0.4,
+          "totalSpend": 0.4,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n8657 Villa La Jolla Dr.\n(858) 597-1550\nYour cashier was Sean C\nVERIFIED TOTAL SAVINGS $ 8.00\nNECTAR SO JC VRTY RC 15.99 T\nCA REDEM VAL 0.40 T\nSC RALPHS SAVED YOU 8.00\nRALPHS rewards CUSTOMER *******6120\nTAX 1.27\n**** BALANCE 17.66\nUS DEBIT Purchase\n************5755 - H\nREF#: 502298 TOTAL: 17.66\nPURCHASE: 17.66 CASHBACK: 0.00\nAID: A0000000980840\nTC: 5B437F4EDED1FF13\nVERIFIED BY PIN\nDEBIT 17.66\nCHANGE 0.00\nDate of Birth = xx/xx/xx KEYED\nTOTAL NUMBER OF ITEMS SOLD = 2\nRALPHS rewards SAVINGS $8.00\nTOTAL COUPONS $ 8.00\n05/31/26 03:55pm 108 13 124 350\n****************************************\nAnnual Card Savings $21.44\n****************************************\n****************************************\nTotal May Fuel Points: 7\n****************************************\nWith Card & Coupons\nVERIFIED TOTAL SAVINGS $ 8.\nTRY OUR PHARMACY (858) 597-0108\nMGR: NICOLE SABEH (858) 597-1550\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NECTAR SO JC VRTY",
+      "price": 15.99,
+      "quantity": 1,
+      "totalSpend": 15.99
+    },
+    {
+      "text": "CA REDEM VAL + SC RALPHS SAVED YOU 8.00 + RALPHS rewards CUSTOMER *******6120",
+      "price": 0.4,
+      "quantity": 1,
+      "totalSpend": 0.4
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

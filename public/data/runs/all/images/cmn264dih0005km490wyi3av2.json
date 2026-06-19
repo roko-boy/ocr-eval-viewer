@@ -1,0 +1,270 @@
+{
+  "id": "cmn264dih0005km490wyi3av2",
+  "url": null,
+  "retailer": "Festival Foods",
+  "brand": "nutpods",
+  "amount": 4.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Festival Foods",
+    "totalCost": "4.19",
+    "purchaseDate": "2026-03-22",
+    "time": null,
+    "zipCode": "54701",
+    "city": "Eau Claire",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7147.941417000002,
+        "totalUsd": 0.017481,
+        "inputTokens": 6086,
+        "outputTokens": 928,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Festival Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:43:04",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54701",
+          "status": "match"
+        },
+        "city": {
+          "value": "EAU CLAIRE",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3007 MALL DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0004",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BARILLA AL BRONZO + Vendor coupon",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NATURAL ORGANIC NUTPODS CREAMER FREN",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "festival\nfoods\n3007 MALL DR\nEAU CLAIRE, WI 54701\n715-838-1000\nwww.festfoods.com\nStore: 2722\n#2722-005 3/22/2026 14:43:04 Monique\nInv#:00306787 Trs#:598028\n78675300485640\nGROCERY\nCPN: GROCERY F\nVendor coupon -$3.19\nBARILLA AL BRONZO $3.19 F\nNATURAL ORGANIC\nNUTPODS CREAMER FREN $4.19 F\nADDITIONAL COUPON\nSubtotal $4.19\nTOTAL $4.19\nMaster Card $4.19\n# ************0004\nBalance $0.00\nItem count 2\nVendor coupon $3.19\n$3.19\nNETWORK ID:MASTERCARD\nMODE:Online(Issuer)\nTYPE : Purchase\nTENDER : MasterCard\nCARD : C************0004\nChip read\nAMOUNT : USD$4.19\nRESULT : 03 APPROVAL\nDATE/TIME : MAR 22 2026 14:43\nSEQUENCE # : 338008\nAUTHOR. # : 02279P\nLABEL: Mastercard\nAID : A0000000041010\nType: Points update\nCard: *********5640\nGas Rewards given: 7\nGas Rewards balance: 89\nPoint expiry: 2026-04-21\nTerminal: 2722-005\nAuthID: 2956818304\nResult: Success\nThank you for shopping at\nFestival Foods\nGas Rewards Terms and\nConditions can be be found at\nhttps://www.festfoods.com/gas-rewards\n970127220050598028",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15186.353,
+        "totalUsd": 0.031818,
+        "inputTokens": 3692,
+        "outputTokens": 971,
+        "reasoningTokens": 1949
+      },
+      "fields": {
+        "storeName": {
+          "value": "Festival Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:43:04",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54701",
+          "status": "match"
+        },
+        "city": {
+          "value": "EAU CLAIRE",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3007 MALL DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0004",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BARILLA AL BRONZO + Vendor coupon",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NATURAL ORGANIC + NUTPODS CREAMER FREN",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "festival foods\n3007 MALL DR\nEAU CLAIRE, WI 54701\n715-838-1000\nwww.festfoods.com\nStore: 2722\n#2722-005 3/22/2026 14:43:04 Monique\nInv#:00306787 Trs#:598028\n78675300485640\nGROCERY\nCPN: GROCERY                 F\n  Vendor coupon         -$3.19\nBARILLA AL BRONZO        $3.19 F\nNATURAL ORGANIC\nNUTPODS CREAMER FREN     $4.19 F\nADDITIONAL COUPON\n----------------------------\nSubtotal                 $4.19\n----------------------------\nTOTAL                    $4.19\nMaster Card              $4.19\n# ************0004\nBalance                  $0.00\n----------------------------\nItem count                   2\nVendor coupon            $3.19\n----------------------------\n                         $3.19\n----------------------------\nNETWORK ID:MASTERCARD\nMODE:Online(Issuer)\nTYPE   : Purchase\nTENDER : MasterCard\nCARD   : C************0004\nChip read\nAMOUNT      : USD$4.19\nRESULT      : 03 APPROVAL\nDATE/TIME   : MAR 22 2026 14:43\nSEQUENCE # : 338008\nAUTHOR. #  : 02279P\nLABEL: Mastercard\nAID : A0000000041010\n----------------------------\nType: Points update\nCard: *********5640\nGas Rewards given: 7\nGas Rewards balance: 89\nPoint expiry: 2026-04-21\nTerminal: 2722-005\nAuthID: 2956818304\nResult: Success\n\n     Thank you for shopping at\n          Festival Foods\n\n      Gas Rewards Terms and\n   Conditions can be found at\nhttps://www.festfoods.com/gas-rewards\n\n970127220050598028",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5711.062042000001,
+        "totalUsd": 0.013773,
+        "inputTokens": 3692,
+        "outputTokens": 915,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Festival Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:43:04",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54701",
+          "status": "match"
+        },
+        "city": {
+          "value": "EAU CLAIRE",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3007 MALL DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0004",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BARILLA AL BRONZO + Vendor coupon",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NUTPODS CREAMER FREN + NATURAL ORGANIC",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "festival\nfoods\n3007 MALL DR\nEAU CLAIRE, WI 54701\n715-838-1000\nwww.festfoods.com\nStore: 2722\n#2722-005 3/22/2026 14:43:04 Monique\nInv#:00306787 Trs#:598028\n78675300485640\nGROCERY\nCPN: GROCERY F\nVendor coupon -$3.19\nBARILLA AL BRONZO $3.19 F\nNATURAL ORGANIC\nNUTPODS CREAMER FREN $4.19 F\nADDITIONAL COUPON\nSubtotal $4.19\nTOTAL $4.19\nMaster Card $4.19\n# ************0004\nBalance $0.00\nItem count 2\nVendor coupon $3.19\n$3.19\nNETWORK ID:MASTERCARD\nMODE:Online(Issuer)\nTYPE : Purchase\nTENDER : MasterCard\nCARD : C************0004\nChip read\nAMOUNT : USD$4.19\nRESULT : 03 APPROVAL\nDATE/TIME : MAR 22 2026 14:43\nSEQUENCE #: 338008\nAUTHOR. # : 02279P\nLABEL: Mastercard\nAID : A0000000041010\nType: Points update\nCard: **********5640\nGas Rewards given: 7\nGas Rewards balance: 89\nPoint expiry: 2026-04-21\nTerminal: 2722-005\nAuthID: 2956818304\nResult: Success\nThank you for shopping at\nFestival Foods\nGas Rewards Terms and\nConditions can be found at\nhttps://www.festfoods.com/gas-rewards\n970127220050598028",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BARILLA AL BRONZO + NATURAL ORGANIC",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    },
+    {
+      "text": "NUTPODS CREAMER FREN + ADDITIONAL COUPON",
+      "price": 4.19,
+      "quantity": 1,
+      "totalSpend": 4.19
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

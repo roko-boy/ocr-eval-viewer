@@ -1,0 +1,297 @@
+{
+  "id": "cmotxkdiq009mjz17pssgqmxx",
+  "url": null,
+  "retailer": "Hannaford",
+  "brand": "Caulipower",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Hannaford",
+    "totalCost": "33.97",
+    "purchaseDate": "2026-04-21",
+    "time": null,
+    "zipCode": "03461",
+    "city": "Rindge",
+    "state": "NH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 21266.70883400002,
+        "totalUsd": 0.01767,
+        "inputTokens": 6086,
+        "outputTokens": 949,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hannaford",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:35:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03461",
+          "status": "match"
+        },
+        "city": {
+          "value": "Rindge",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "Route 202",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CLPWR WHITE PIZZA",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLPWR PZZA CRUST",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ATG NF PESTO PZZA GF",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Hannaford\nRoute 202 - Rindge NH 03461\n(603) 899-2110 - www.hannaford.com\n\nGROCERY\n  CLPWR WHITE PIZZA       10.99 *\n  CLPWR PZZA CRUST        10.99 *\n  ATG NF PESTO PZZA GF    11.99 *\n\n  3 BALANCE DUE           33.97\n\nMID:                     160000101421\nRRN:                           576377\n\n               SALE\nXXXXXXXXXXXX5011\nDebit Card      Entry Method:    Chip\n\n04/21/2026                   07:35:57\nINVOICE:                       576377\nTrace #: 00184517           Lane #: 57\nUS DEBIT\nAID:                   A0000000980840\nTVR:                       8000048000\nTSI:                             6800\nTotal:                    USD$ 33.97\nAPPROVED                       747675\n\n           PIN VERIFIED\n\n--------------------------------------\n  CHANGE                         0.00\n**************************************\n          How was your visit?\n   Take our survey to help us improve.\n\n   Within the next 5 days please visit:\n         www.TalkToHannaford.com\n\n       También disponible en español.\n\n       Use the PIN # below to start:\nPIN:0421818040570040\n**************************************\nSTORE:08180 REGISTER:057 CASHIER:0507\nTICKET#:0040      21APR2026   7:36:00\n\n      Thank you for shopping with us\n               at Hannaford!\n     Have you scheduled your Flu Shot?\n     Ask the pharmacist about others!\n\n        Ray Abramo Store Manager\n           PH# 603-899-2110",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12161.472291,
+        "totalUsd": 0.02937,
+        "inputTokens": 3692,
+        "outputTokens": 903,
+        "reasoningTokens": 1745
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hannaford",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:35:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03461",
+          "status": "match"
+        },
+        "city": {
+          "value": "Rindge",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "Route 202",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CLPWR WHITE PIZZA",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLPWR PZZA CRUST",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ATG NF PESTO PZZA GF",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Hannaford\nRoute 202 - Rindge NH 03461\n(603) 899-2110 - www.hannaford.com\nGROCERY\nCLPWR WHITE PIZZA 10.99 *\nCLPWR PZZA CRUST 10.99 *\nATG NF PESTO PZZA GF 11.99 *\n3 BALANCE DUE 33.97\nMID: 160000101421\nRRN: 576377\nSALE\nXXXXXXXXXXXX5011\nDebit Card Entry Method: Chip\n04/21/2026 07:35:57\nINVOICE: 576377\nTrace #: 00184517 Lane #: 57\nUS DEBIT\nAID: A0000000980840\nTVR: 8000048000\nTSI: 6800\nTotal: USD$ 33.97\nAPPROVED 747675\nPIN VERIFIED\nCHANGE 0.00\n****************************************\nHow was your visit?\nTake our survey to help us improve.\nWithin the next 5 days please visit:\nwww.TalkToHannaford.com\nTambien disponible en espanol.\nUse the PIN # below to start:\nPIN:0421818040570040\n****************************************\nSTORE:08180 REGISTER:057 CASHIER:0507\nTICKET#:0040 21APR2026 7:36:00\nThank you for shopping with us\nat Hannaford!\nHave you scheduled your Flu Shot?\nAsk the pharmacist about others!\nRay Abramo Store Manager\nPH# 603-899-2110",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5180.206333000002,
+        "totalUsd": 0.013512,
+        "inputTokens": 3692,
+        "outputTokens": 886,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hannaford",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:35:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03461",
+          "status": "match"
+        },
+        "city": {
+          "value": "Rindge",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "Route 202",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5011",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CLPWR WHITE PIZZA",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLPWR PZZA CRUST",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ATG NF PESTO PZZA GF",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Hannaford\nRoute 202 - Rindge NH 03461\n(603) 899-2110 - www.hannaford.com\nGROCERY\nCLPWR WHITE PIZZA 10.99 *\nCLPWR PZZA CRUST 10.99 *\nATG NF PESTO PZZA GF 11.99 *\n3 BALANCE DUE 33.97\nMID: 160000101421\nRRN: 576377\nSALE\nXXXXXXXXXXXX5011\nDebit Card Entry Method: Chip\n04/21/2026 07:35:57\nINVOICE: 576377\nTrace #: 00184517 Lane #: 57\nUS DEBIT\nAID: A0000000980840\nTVR: 8000048000\nTSI: 6800\nTotal: USD$ 33.97\nAPPROVED 747675\nPIN VERIFIED\nCHANGE 0.00\n****************************************\nHow was your visit?\nTake our survey to help us improve.\nWithin the next 5 days please visit:\nwww.TalkToHannaford.com\nTambien disponible en espanol.\nUse the PIN # below to start:\nPIN:0421818040570040\n****************************************\nSTORE:08180 REGISTER:057 CASHIER:0507\nTICKET#:0040 21APR2026 7:36:00\nThank you for shopping with us\nat Hannaford!\nHave you scheduled your Flu Shot?\nAsk the pharmacist about others!\nRay Abramo Store Manager\nPH# 603-899-2110",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CLPWR WHITE PIZZA",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "CLPWR PZZA CRUST",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "ATG NF PESTO PZZA GF",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

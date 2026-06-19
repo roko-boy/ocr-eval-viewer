@@ -1,0 +1,297 @@
+{
+  "id": "cmq2seugx00876d9unw74bevf",
+  "url": null,
+  "retailer": "Cumberland Farms",
+  "brand": "Pepsi Food Service",
+  "amount": 2.89,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Cumberland Farms",
+    "totalCost": "3.86",
+    "purchaseDate": "2026-06-06",
+    "time": null,
+    "zipCode": "12144",
+    "city": "Rensselaer",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12373.18529200001,
+        "totalUsd": 0.016725,
+        "inputTokens": 6086,
+        "outputTokens": 844,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Cumberland Farms",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:05:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "1524-3118",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "North Greenbush",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "499 N Greenbush Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3206",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "20OZ PEPSI ZERO",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTL DEPOSIT UPC .0",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CF PEPPERJACK STK IW",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 0.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Cumberland Farms\n499 N Greenbush Rd\nNorth Greenbush, NY\n1524-3118\n518-283-0092\n#ORIGINAL\nReceipt 1032202\nQty Name Price Total\n1 20OZ PEPSI ZERO 2.89 2.89\n1 BOTTL DEPOSIT UPC .0 0.05 0.05\n1 CF PEPPERJACK STK IW 0.69 0.69\nSubTotal 3.63\nState/Local Sales Ta 0.23\nTotal 3.86\nReceived\nSALE\nVisa\nCard Num : (C) XXXXXXXXXXXX3206\nChip Read\nTerminal : 001\nApproval : 06433C\nUSD$ 3.86\nCAPITAL ONE VISA\nAID: A0000000031010\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: 0B9BF454E130410A\nPhone: ###-###-1300\nALT ID Discount: $0.00\nTransaction total: $3.86\n06/06/2026 4:05:51 PM Pos:1 Cashier:383\nWe Appreciate Your Business\nQuestions or Comments Please Call:\n1-800-225-9702\nNow Hiring!\nTEXT Cumbys to 242424 to Apply",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12440.86483400001,
+        "totalUsd": 0.025536,
+        "inputTokens": 3692,
+        "outputTokens": 833,
+        "reasoningTokens": 1389
+      },
+      "fields": {
+        "storeName": {
+          "value": "Cumberland Farms",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:05:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "North Greenbush",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "499 N Greenbush Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3206",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "20OZ PEPSI ZERO",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTL DEPOSIT UPC .0",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CF PEPPERJACK STK IW",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 0.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Cumberland Farms\n499 N Greenbush Rd\nNorth Greenbush, NY\n1524-3118\n518-283-0092\n#ORIGINAL\nReceipt 1032202\nQty Name Price Total\n1 20OZ PEPSI ZERO 2.89 2.89\n1 BOTTL DEPOSIT UPC .0 0.05 0.05\n1 CF PEPPERJACK STK IW 0.69 0.69\nSubTotal 3.63\nState/Local Sales Ta 0.23\nTotal 3.86\nReceived\nSALE\nVisa\nCard Num : (C) XXXXXXXXXXXX3206\nChip Read\nTerminal : 001\nApproval : 06433C\nUSD$ 3.86\nCAPITAL ONE VISA\nAID: A0000000031010\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: 0B9BF454E130410A\nPhone: ###-###-1300\nALT ID Discount: $0.00\nTransaction total: $3.86\n06/06/2026 4:05:51 PM Pos:1 Cashier:383\nWe Appreciate Your Business\nQuestions or Comments Please Call:\n1-800-225-9702\nNow Hiring!\nTEXT Cumbys to 242424 to Apply",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4725.306624999997,
+        "totalUsd": 0.012882,
+        "inputTokens": 3692,
+        "outputTokens": 816,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Cumberland Farms",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:05:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "North Greenbush",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "499 N Greenbush Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3206",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "20OZ PEPSI ZERO",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTL DEPOSIT UPC .0",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CF PEPPERJACK STK IW",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 0.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Cumberland Farms\n499 N Greenbush Rd\nNorth Greenbush, NY\n1524-3118\n518-283-0092\n#ORIGINAL\nReceipt 1032202\nQty Name Price Total\n1 20OZ PEPSI ZERO 2.89 2.89\n1 BOTTL DEPOSIT UPC .0 0.05 0.05\n1 CF PEPPERJACK STK IW 0.69 0.69\nSubTotal 3.63\nState/Local Sales Ta 0.23\nTotal 3.86\nReceived\nSALE\nVisa\nCard Num: (C) XXXXXXXXXXXX3206\nChip Read\nTerminal: 001\nApproval: 06433C\nUSD$ 3.86\nCAPITAL ONE VISA\nAID: A0000000031010\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: 0B9BF454E130410A\nPhone: ###-###-1300\nALT ID Discount: $0.00\nTransaction total: $3.86\n06/06/2026 4:05:51 PM Pos:1 Cashier:383\nWe Appreciate Your Business\nQuestions or Comments Please Call:\n1-800-225-9702\nNow Hiring!\nTEXT Cumbys to 242424 to Apply",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "20OZ PEPSI ZERO",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "BOTTL DEPOSIT UPC .0",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "CF PEPPERJACK STK IW",
+      "price": 0.69,
+      "quantity": 1,
+      "totalSpend": 0.69
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

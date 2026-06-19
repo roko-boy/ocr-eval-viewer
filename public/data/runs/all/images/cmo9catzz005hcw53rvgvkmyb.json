@@ -1,0 +1,270 @@
+{
+  "id": "cmo9catzz005hcw53rvgvkmyb",
+  "url": null,
+  "retailer": "Trader Joe's",
+  "brand": "ZICO",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Trader Joe's",
+    "totalCost": "4.78",
+    "purchaseDate": "2026-04-21",
+    "time": null,
+    "zipCode": "19107",
+    "city": "Philadelphia",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7773.676000000007,
+        "totalUsd": 0.014997,
+        "inputTokens": 6086,
+        "outputTokens": 652,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Trader Joe's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:35",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19107",
+          "status": "match"
+        },
+        "city": {
+          "value": "Philadelphia",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1324 Arch St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2665",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ZICO COCONUT WATER NTRL",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPRING WATER 1.5 LT",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "TRADER JOE'S\n\n1324 Arch St.\nPhiladelphia, PA 19107\nStore #0618 - 215-563-2170\n\nOPEN 9:00AM TO 9:00PM DAILY\n\nSALE TRANSACTION\n\nZICO COCONUT WATER NTRL $3.99\nSPRING WATER 1.5 LT $0.79\n\nItems in Transaction:2\nBalance to pay $4.78\nDiscover $4.78\n\nPAYMENT CARD PURCHASE TRANSACTION\nCUSTOMER COPY\n\nDISCOVER ************2665\nType: CONTACTLESS Auth Code: 02132R\nMID: *******74216 TID: ****6302\nTOTAL PURCHASE $4.78\n\nNo Cardholder Verification\n\nPlease retain for your records\n\nB, Grace\nSTORE TILL TRANS. DATE\n0618 11 9162 04-21-2026 12:35\n\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nwww.traderjoes.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10707.909667,
+        "totalUsd": 0.023529,
+        "inputTokens": 3692,
+        "outputTokens": 664,
+        "reasoningTokens": 1335
+      },
+      "fields": {
+        "storeName": {
+          "value": "Trader Joe's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:35",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19107",
+          "status": "match"
+        },
+        "city": {
+          "value": "Philadelphia",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1324 Arch St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2665",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ZICO COCONUT WATER NTRL",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPRING WATER 1.5 LT",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "TRADER JOE'S\n\n1324 Arch St.\nPhiladelphia, PA 19107\nStore #0618 - 215-563-2170\n\nOPEN 9:00AM TO 9:00PM DAILY\n\nSALE TRANSACTION\n\nZICO COCONUT WATER NTRL\t$3.99\nSPRING WATER 1.5 LT\t$0.79\n\nItems in Transaction:2\nBalance to pay\t$4.78\nDiscover\t$4.78\n\nPAYMENT CARD PURCHASE TRANSACTION\nCUSTOMER COPY\n\nDISCOVER\t************2665\nType: CONTACTLESS\tAuth Code: 02132R\nMID: ******74216\tTID: ****6302\nTOTAL PURCHASE\t$4.78\n\nNo Cardholder Verification\n\nPlease retain for your records\n\nB, Grace\nSTORE\tTILL\tTRANS.\tDATE\n0618\t11\t9162\t04-21-2026 12:35\n\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nwww.traderjoes.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4082.380582999991,
+        "totalUsd": 0.011109,
+        "inputTokens": 3692,
+        "outputTokens": 619,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Trader Joe's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:35",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19107",
+          "status": "match"
+        },
+        "city": {
+          "value": "Philadelphia",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1324 Arch St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2665",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ZICO COCONUT WATER NTRL",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPRING WATER 1.5 LT",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "TRADER JOE'S\n1324 Arch St.\nPhiladelphia, PA 19107\nStore #0618 - 215-563-2170\nOPEN 9:00AM TO 9:00PM DAILY\nSALE TRANSACTION\nZICO COCONUT WATER NTRL $3.99\nSPRING WATER 1.5 LT $0.79\nItems in Transaction:2\nBalance to pay $4.78\nDiscover $4.78\nPAYMENT CARD PURCHASE TRANSACTION\nCUSTOMER COPY\nDISCOVER ************2665\nType: CONTACTLESS Auth Code: 02132R\nMID: *******74216 TID: ****6302\nTOTAL PURCHASE $4.78\nNo Cardholder Verification\nPlease retain for your records\nB, Grace\nSTORE TILL TRANS. DATE\n0618 11 9162 04-21-2026 12:35\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nwww.traderjoes.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ZICO COCONUT WATER NTRL",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SPRING WATER 1.5 LT",
+      "price": 0.79,
+      "quantity": 1,
+      "totalSpend": 0.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

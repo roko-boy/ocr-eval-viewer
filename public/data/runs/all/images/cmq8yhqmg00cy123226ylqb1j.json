@@ -1,0 +1,554 @@
+{
+  "id": "cmq8yhqmg00cy123226ylqb1j",
+  "url": null,
+  "retailer": "H-E-B",
+  "brand": "crisp power ",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "45.17",
+    "purchaseDate": "2026-06-10",
+    "time": null,
+    "zipCode": "77845",
+    "city": "College Station",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11415.16170900001,
+        "totalUsd": 0.025221,
+        "inputTokens": 6086,
+        "outputTokens": 1788,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "45.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "77845",
+          "status": "match"
+        },
+        "city": {
+          "value": "College Station",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11675 FM 2154",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9803",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SCRATCH SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HALF 10 GRAIN SANDWICH BR",
+          "quantity": 1,
+          "unitPrice": 3.58,
+          "totalSpend": 3.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB 2LB LEMONS BAG",
+          "quantity": 1,
+          "unitPrice": 3.92,
+          "totalSpend": 3.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DH SIG LEMON SUPRM CAKE + 2 Ea. @ 1/ 1.68",
+          "quantity": 2,
+          "unitPrice": 1.68,
+          "totalSpend": 3.36,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRISP POWER PRTN PRETZEL",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRISP POWER PRTN PRTZLS E",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRISP POWER PRTN PRTZEL F",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TAJIN CHILE POWDER",
+          "quantity": 1,
+          "unitPrice": 2.48,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB SI POST OAK HAM FSL",
+          "quantity": 1,
+          "unitPrice": 5.55,
+          "totalSpend": 5.55,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB SI POST OAK HAM FSL",
+          "quantity": 1,
+          "unitPrice": 5.88,
+          "totalSpend": 5.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "10 CT FLOUR TORTILLA SCAN + 2 Ea. @ 1/ 1.98",
+          "quantity": 2,
+          "unitPrice": 1.98,
+          "totalSpend": 3.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PREMIUM BANANAS + 1.35 Lbs @ 1/ 0.49",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.66,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DIGITAL COUPON SHOPPER",
+          "quantity": 1,
+          "unitPrice": -1,
+          "totalSpend": -1,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "H-E-B\n1085 5242 0610 2619 4500 746\n1 SCRATCH SOURDOUGH F 4.48\n2 HALF 10 GRAIN SANDWICH BR F 3.58\n3 HEB 2LB LEMONS BAG FW 3.92\n4 DH SIG LEMON SUPRM CAKE\n2 Ea. @ 1/ 1.68 F 3.36\n5 CRISP POWER PRTN PRETZEL TF 3.48\n6 CRISP POWER PRTN PRTZLS E TF 3.48\n7 CRISP POWER PRTN PRTZEL F TF 3.48\n8 TAJIN CHILE POWDER F 2.48\n9 HEB SI POST OAK HAM FSL F 5.55\n10 HEB SI POST OAK HAM FSL F 5.88\n11 10 CT FLOUR TORTILLA SCAN\n2 Ea. @ 1/ 1.98 F 3.96\n12 PREMIUM BANANAS\n1.35 Lbs @ 1/ 0.49 FW 0.66\n13 DIGITAL COUPON SHOPPER -1.00\n*********** Sale Subtotal*** 44.31\nSales Tax 0.86\n************* Total Sale*** 45.17\n*** VISA EPS 45.17\nITEMS PURCHASED: 14\nSALE & PRICE CUT SAVINGS : $1.00\nYOU SAVED\n$1.00\nVISA CREDIT\n************9803\nContactless Chip USD$ 45.17\nAppr No : 05658D Ref No : 319255\nMode: Issuer\nVISA\nAID : A0000000031010\nTVR : 0000000000\nIAD : 06021203A00000\nTSI : ARC : 00\nRECEIPT EXPIRES ON 09-08-26\n1085 5242 0610 2619 4500 746\nH-E-B Food-Drugs #03/746\n11675 FM 2154\nCollege Station, TX 77845\nPhone: (979) 680-3200\nPharmacy: (979) 485-8111\nStore Hours: 6 A.M. to Midnight\nYour Cashier:BELLA B\n855242 06-10-26 7:45P 138/10/00746",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19443.28766700003,
+        "totalUsd": 0.0471,
+        "inputTokens": 3692,
+        "outputTokens": 1720,
+        "reasoningTokens": 2898
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "45.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:45P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "77845",
+          "status": "match"
+        },
+        "city": {
+          "value": "College Station",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11675 FM 2154",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9803",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SCRATCH SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HALF 10 GRAIN SANDWICH BR",
+          "quantity": 1,
+          "unitPrice": 3.58,
+          "totalSpend": 3.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB 2LB LEMONS BAG",
+          "quantity": 1,
+          "unitPrice": 3.92,
+          "totalSpend": 3.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DH SIG LEMON SUPRM CAKE + 2 Ea. @ 1/ 1.68",
+          "quantity": 2,
+          "unitPrice": 1.68,
+          "totalSpend": 3.36,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRISP POWER PRTN PRETZEL",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRISP POWER PRTN PRTZLS E",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRISP POWER PRTN PRTZEL F",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TAJIN CHILE POWDER",
+          "quantity": 1,
+          "unitPrice": 2.48,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB SI POST OAK HAM FSL",
+          "quantity": 1,
+          "unitPrice": 5.55,
+          "totalSpend": 5.55,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB SI POST OAK HAM FSL",
+          "quantity": 1,
+          "unitPrice": 5.88,
+          "totalSpend": 5.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "10 CT FLOUR TORTILLA SCAN + 2 Ea. @ 1/ 1.98",
+          "quantity": 2,
+          "unitPrice": 1.98,
+          "totalSpend": 3.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PREMIUM BANANAS + 1.35 Lbs @ 1/ 0.49",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.66,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1085 5242 0610 2619 4500 746\n1 SCRATCH SOURDOUGH F 4.48\n2 HALF 10 GRAIN SANDWICH BR F 3.58\n3 HEB 2LB LEMONS BAG FW 3.92\n4 DH SIG LEMON SUPRM CAKE\n2 Ea. @ 1/ 1.68 F 3.36\n5 CRISP POWER PRTN PRETZEL TF 3.48\n6 CRISP POWER PRTN PRTZLS E TF 3.48\n7 CRISP POWER PRTN PRTZEL F TF 3.48\n8 TAJIN CHILE POWDER F 2.48\n9 HEB SI POST OAK HAM FSL F 5.55\n10 HEB SI POST OAK HAM FSL F 5.88\n11 10 CT FLOUR TORTILLA SCAN\n2 Ea. @ 1/ 1.98 F 3.96\n12 PREMIUM BANANAS\n1.35 Lbs @ 1/ 0.49 FW 0.66\n13 DIGITAL COUPON SHOPPER\n********** Sale Subtotal*** 44.31\nSales Tax 0.86\n************* Total Sale*** 45.17\n*** VISA EPS 45.17\nITEMS PURCHASED: 14\nSALE & PRICE CUT SAVINGS : $1.00\nYOU SAVED\n$1.00\nVISA CREDIT\n************9803\nContactless Chip USD$ 45.17\nAppr No : 05658D Ref No : 319255\nMode: Issuer\nVISA\nAID : A0000000031010\nTVR : 0000000000\nIAD : 06021203A00000\nTSI : ARC : 00\nRECEIPT EXPIRES ON 09-08-26\n1085 5242 0610 2619 4500 746\nH-E-B Food-Drugs #03/746\n11675 FM 2154\nCollege Station, TX 77845\nPhone: (979) 680-3200\nPharmacy: (979) 485-8111\nStore Hours: 6 A.M. to Midnight\nYour Cashier:BELLA B\n855242 06-10-26 7:45P 138/10/00746",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7876.215333,
+        "totalUsd": 0.021162,
+        "inputTokens": 3692,
+        "outputTokens": 1736,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "45.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "77845",
+          "status": "match"
+        },
+        "city": {
+          "value": "College Station",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11675 FM 2154",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9803",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SCRATCH SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HALF 10 GRAIN SANDWICH BR",
+          "quantity": 1,
+          "unitPrice": 3.58,
+          "totalSpend": 3.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB 2LB LEMONS BAG",
+          "quantity": 1,
+          "unitPrice": 3.92,
+          "totalSpend": 3.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DH SIG LEMON SUPRM CAKE",
+          "quantity": 2,
+          "unitPrice": 1.68,
+          "totalSpend": 3.36,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRISP POWER PRTN PRETZEL",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRISP POWER PRTN PRTZLS E",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRISP POWER PRTN PRTZEL F",
+          "quantity": 1,
+          "unitPrice": 3.48,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TAJIN CHILE POWDER",
+          "quantity": 1,
+          "unitPrice": 2.48,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB SI POST OAK HAM FSL",
+          "quantity": 1,
+          "unitPrice": 5.55,
+          "totalSpend": 5.55,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB SI POST OAK HAM FSL",
+          "quantity": 1,
+          "unitPrice": 5.88,
+          "totalSpend": 5.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "10 CT FLOUR TORTILLA SCAN",
+          "quantity": 2,
+          "unitPrice": 1.98,
+          "totalSpend": 3.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PREMIUM BANANAS",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.66,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DIGITAL COUPON SHOPPER",
+          "quantity": 1,
+          "unitPrice": -1,
+          "totalSpend": -1,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "H-E-B\n1085 5242 0610 2619 4500 746\n1 SCRATCH SOURDOUGH F 4.48\n2 HALF 10 GRAIN SANDWICH BR F 3.58\n3 HEB 2LB LEMONS BAG FW 3.92\n4 DH SIG LEMON SUPRM CAKE\n2 Ea. @ 1/ 1.68 F 3.36\n5 CRISP POWER PRTN PRETZEL TF 3.48\n6 CRISP POWER PRTN PRTZLS E TF 3.48\n7 CRISP POWER PRTN PRTZEL F TF 3.48\n8 TAJIN CHILE POWDER F 2.48\n9 HEB SI POST OAK HAM FSL F 5.55\n10 HEB SI POST OAK HAM FSL F 5.88\n11 10 CT FLOUR TORTILLA SCAN\n2 Ea. @ 1/ 1.98 F 3.96\n12 PREMIUM BANANAS\n1.35 Lbs @ 1/ 0.49 FW 0.66\n13 DIGITAL COUPON SHOPPER\n*********** Sale Subtotal*** 44.31\nSales Tax 0.86\n************* Total Sale*** 45.17\n*** VISA EPS 45.17\nITEMS PURCHASED: 14\nSALE & PRICE CUT SAVINGS : $1.00\nYOU SAVED\n$1.00\nVISA CREDIT\n************9803\nContactless Chip USD$ 45.17\nAppr No : 05658D Ref No : 319255\nMode: Issuer\nVISA\nAID : A0000000031010\nTVR : 0000000000\nIAD : 06021203A00000\nTSI : ARC : 00\nRECEIPT EXPIRES ON 09-08-26\n1085 5242 0610 2619 4500 746\nH-E-B Food-Drugs #03/746\n11675 FM 2154\nCollege Station, TX 77845\nPhone: (979) 680-3200\nPharmacy: (979) 485-8111\nStore Hours: 6 A.M. to Midnight\nYour Cashier:BELLA B\n855242 06-10-26 7:45P 138/10/00746",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SCRATCH SOURDOUGH",
+      "price": 4.48,
+      "quantity": 1,
+      "totalSpend": 4.48
+    },
+    {
+      "text": "HALF 10 GRAIN SANDWICH BR",
+      "price": 3.58,
+      "quantity": 1,
+      "totalSpend": 3.58
+    },
+    {
+      "text": "HEB 2LB LEMONS BAG",
+      "price": 3.92,
+      "quantity": 1,
+      "totalSpend": 3.92
+    },
+    {
+      "text": "DH SIG LEMON SUPRM CAKE + 2 Ea. @ 1/ 1.68 F 3.36",
+      "price": 1.68,
+      "quantity": 2,
+      "totalSpend": 3.36
+    },
+    {
+      "text": "CRISP POWER PRTN PRETZEL",
+      "price": 3.48,
+      "quantity": 1,
+      "totalSpend": 3.48
+    },
+    {
+      "text": "CRISP POWER PRTN PRTZLS E",
+      "price": 3.48,
+      "quantity": 1,
+      "totalSpend": 3.48
+    },
+    {
+      "text": "CRISP POWER PRTN PRTZEL F",
+      "price": 3.48,
+      "quantity": 1,
+      "totalSpend": 3.48
+    },
+    {
+      "text": "TAJIN CHILE POWDER",
+      "price": 2.48,
+      "quantity": 1,
+      "totalSpend": 2.48
+    },
+    {
+      "text": "HEB SI POST OAK HAM FSL",
+      "price": 5.55,
+      "quantity": 1,
+      "totalSpend": 5.55
+    },
+    {
+      "text": "HEB SI POST OAK HAM FSL",
+      "price": 5.88,
+      "quantity": 1,
+      "totalSpend": 5.88
+    },
+    {
+      "text": "10 CT FLOUR TORTILLA SCAN + 2 Ea. @ 1/ 1.98 F 3.96",
+      "price": 1.98,
+      "quantity": 2,
+      "totalSpend": 3.96
+    },
+    {
+      "text": "PREMIUM BANANAS + 1.35 Lbs @ 1/ 0.49 FW 0.66 + 13 DIGITAL COUPON SHOPPER",
+      "price": 0.49,
+      "quantity": 1,
+      "totalSpend": 0.66
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

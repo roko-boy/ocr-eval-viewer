@@ -1,0 +1,270 @@
+{
+  "id": "cmnw3oznz019ds5kc2k1js84w",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "TRIP",
+  "amount": 22.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "25.89",
+    "purchaseDate": "2026-04-12",
+    "time": null,
+    "zipCode": "91367",
+    "city": "Woodland Hills",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10728.44245799998,
+        "totalUsd": 0.016608,
+        "inputTokens": 6086,
+        "outputTokens": 831,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:22",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91367",
+          "status": "match"
+        },
+        "city": {
+          "value": "Woodland Hills",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21800 Victory Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1838",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "E 2044028 TRIP DRINK",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "E 4500000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nWoodland Hills #1205\n21800 Victory Blvd\nWoodland Hills, CA 91367\n(818) 884-9099\nSELF-CHECKOUT\nJA Member 112032264207\nE 2044028 TRIP DRINK 22.99 A\nE 4500000000 CA REDEMP VA 0.60 A\nSUBTOTAL 23.59\nTAX 2.30\n**** TOTAL 25.89\nXXXXXXXXXXXX1838 CHIP Read\nAID: A0000000031010\nSeq# 205228 App#: 06068I\nVisa Resp: APPROVED\nTran ID#: 610200205228....\nAPPROVED - Purchase\nAMOUNT: $25.89\n04/12/2026 10:22 1205 205 40 705\nVisa 25.89\nCHANGE 0.00\nA 9.75% Tax 2.30\nTOTAL TAX 2.30\nTOTAL NUMBER OF ITEMS SOLD = 1\n04/12/2026 10:22 1205 205 40 705\n21120520500402604121022\nOP#: 705 Name: SCO\nThank You!\nPlease Come Again\nWhse:1205 Trm:205 Trn:40 OP:705\nItems Sold: 1\nJA 04/12/2026 10:22",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12400.18095800001,
+        "totalUsd": 0.031017,
+        "inputTokens": 3692,
+        "outputTokens": 861,
+        "reasoningTokens": 1970
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:22",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91367",
+          "status": "match"
+        },
+        "city": {
+          "value": "Woodland Hills",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21800 Victory Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1838",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2044028 TRIP DRINK",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4500000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nWoodland Hills #1205\n21800 Victory Blvd\nWoodland Hills, CA 91367\n(818) 884-9099\n\nSELF-CHECKOUT\n\nJA Member 112032264207\nE 2044028 TRIP DRINK 22.99 A\nE 4500000000 CA REDEMP VA 0.60 A\nSUBTOTAL 23.59\nTAX 2.30\n**** TOTAL 25.89\n\nXXXXXXXXXXXX1838 CHIP Read\nAID: A0000000031010\nSeq# 205228 App#: 06068I\nVisa Resp: APPROVED\nTran ID#: 610200205228....\n\nAPPROVED - Purchase\nAMOUNT: $25.89\n04/12/2026 10:22 1205 205 40 705\n\nVisa 25.89\nCHANGE 0.00\n\nA 9.75% Tax 2.30\nTOTAL TAX 2.30\nTOTAL NUMBER OF ITEMS SOLD = 1\n04/12/2026 10:22 1205 205 40 705\n21120520500402604121022\nOP#: 705 Name: SCO\nThank You!\nPlease Come Again\nWhse:1205 Trm:205 Trn:40 OP:705\n\nItems Sold: 1\nJA 04/12/2026 10:22",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4941.877582999994,
+        "totalUsd": 0.01317,
+        "inputTokens": 3692,
+        "outputTokens": 848,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:22 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91367",
+          "status": "match"
+        },
+        "city": {
+          "value": "Woodland Hills",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21800 Victory Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1838",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2044028 TRIP DRINK",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4500000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nWoodland Hills #1205\n21800 Victory Blvd\nWoodland Hills, CA 91367\n(818) 884-9099\nSELF-CHECKOUT\nJA Member 112032264207\nE 2044028 TRIP DRINK 22.99 A\nE 4500000000 CA REDEMP VA 0.60 A\nSUBTOTAL 23.59\nTAX 2.30\n**** TOTAL 25.89\nXXXXXXXXXXXX1838 CHIP Read\nAID: A0000000031010\nSeq# 205228 App#: 06068I\nVisa Resp: APPROVED\nTran ID#: 610200205228....\nAPPROVED - Purchase\nAMOUNT: $25.89\n04/12/2026 10:22 1205 205 40 705\nVisa 25.89\nCHANGE 0.00\nA 9.75% Tax 2.30\nTOTAL TAX 2.30\nTOTAL NUMBER OF ITEMS SOLD - 1\n04/12/2026 10:22 1205 205 40 705\n21120520500402604121022\nOP#: 705 Name: SCO\nThank You!\nPlease Come Again\nWhse:1205 Trm:205 Trn:40 OP:705\nItems Sold: 1\nJA 04/12/2026 10:22",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "TRIP DRINK + 2044028",
+      "price": 22.99,
+      "quantity": 1,
+      "totalSpend": 22.99
+    },
+    {
+      "text": "CA REDEMP VA + 4500000000",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0.6
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

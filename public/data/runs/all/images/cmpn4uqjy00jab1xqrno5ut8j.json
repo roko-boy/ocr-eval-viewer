@@ -1,0 +1,513 @@
+{
+  "id": "cmpn4uqjy00jab1xqrno5ut8j",
+  "url": null,
+  "retailer": "Lunds & Byerlys",
+  "brand": "Fronen Foods, Inc.",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Lunds & Byerlys",
+    "totalCost": "188.6",
+    "purchaseDate": "2026-05-26",
+    "time": null,
+    "zipCode": "55369",
+    "city": "Maple Grove",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13041.908375,
+        "totalUsd": 0.027876,
+        "inputTokens": 6086,
+        "outputTokens": 2083,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Lunds & Byerlys",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "188.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:47 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55369",
+          "status": "match"
+        },
+        "city": {
+          "value": "Maple Grove",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12880 Elm Creek Blvd N",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0782",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "046100001233 SARG SLICED PROVOLONE + YOU SAVED -1.49",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "046100002223 SARG SLICED THIN SWISS + YOU SAVED -1.49",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "049568600048 FOLLOW YOUR HEART PARMESAN",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "042421140088 BH BEEF FRANKFURTERS",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "865839000252 MN ICE 5LB BAG",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "074570428540 HAAGEN DAZS BARS COFFEE ALM",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "850028051344 JONNYPOPS SUMMER SUNRISE + YOU SAVED -2.99",
+          "quantity": 1,
+          "unitPrice": 5.5,
+          "totalSpend": 2.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "850028051849 JONNYPOPS ORG PINEAPPLE + YOU SAVED -2.99",
+          "quantity": 1,
+          "unitPrice": 5.5,
+          "totalSpend": 2.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "850031740754 ROOTBERRY KOREAN FRIED RICE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "850031740389 ROOTBERRY FAJITA BOWL",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "812184030052 FRONEN DF VANILLA",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "LUNDS&BYERLYS\nMAPLE GROVE\nGeneral Manager\nTom Gordon\n763-416-1611\nOpen 6am - 10pm\nCashier: Jean\n5/26/26 3:47 PM\nDAIRY\n046100001233 1 @ 2/7.00 3.50 F\nSARG SLICED PROVOLONE\nYOU SAVED -1.49\n046100002223 1 @ 2/7.00 3.50 F\nSARG SLICED THIN SWISS\nYOU SAVED -1.49\n049568600048 1 @ 5.99\nFOLLOW YOUR HEART PARMESAN 5.99 F\nL&B DELI WAGYU ROAST BEEF\n042421140088 1 @ 12.99\nBH BEEF FRANKFURTERS 12.99 F\nFROZEN FOOD\n865839000252 1 @ 2.49\nMN ICE 5LB BAG 2.49 F\n074570428540 1 @ 6.99\nHAAGEN DAZS BARS COFFEE ALM 6.99 F\n850028051344 1 @ 2/11.00\nJONNYPOPS SUMMER SUNRISE 5.50 F\nYOU SAVED -2.99\n850028051849 1 @ 2/11.00\nJONNYPOPS ORG PINEAPPLE 5.50 F\nYOU SAVED -2.99\n850031740754 1 @ 9.99\nROOTBERRY KOREAN FRIED RICE 9.99 F\n850031740389 1 @ 9.99\nROOTBERRY FAJITA BOWL 9.99 F\n812184030052 1 @ 6.99\nFRONEN DF VANILLA 6.99 F\nGROCERY\nSUBTOTAL 188.23\nTotal Sales Tax: 0.37\nTOTAL 188.60\nCredit 188.60\nTOTAL TENDERED 188.60\nChange 0.00\nAccount: 44001129471\nCARD INFORMATION:\nCard Type: Visa\nAccount: 0782\nAmount: USD $188.60\nApproval #: 780370\nDate: 5/26/26\nReference #: 432227547001\nMID: **3539\nMODE: Issuer\nCard Name: US DEBIT\nAID: A0000000980840\nToday you saved $ 25.45\nThis is a total savings of 12%\nThank you for shopping with us!\nScan barcode below for store returns\n>EP5X5T5HR8P1DF\n12880 Elm Creek Blvd N\nMaple Grove, MN55369\n763-416-1611\nTrx:227547 Term: 03 Store: 1014\nOper Jean\n5/26/26 3:47 PM\n****************************************\nL&B Extras Customer Service\n952-548-1400\nPlease Note: Your change total will be\nrounded to the nearest 5-cent increment\nwhen paying with cash.\nThis is due to the United States Treasury\nceasing penny production\nlack of avail",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 32988.30475,
+        "totalUsd": 0.071859,
+        "inputTokens": 3692,
+        "outputTokens": 2088,
+        "reasoningTokens": 5281
+      },
+      "fields": {
+        "storeName": {
+          "value": "Lunds & Byerlys",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "188.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:47 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55369",
+          "status": "match"
+        },
+        "city": {
+          "value": "Maple Grove",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12880 Elm Creek Blvd N",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0782",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SARG SLICED PROVOLONE + 046100001233",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SARG SLICED THIN SWISS + 046100002223",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOLLOW YOUR HEART PARMESAN + 049568600048",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BH BEEF FRANKFURTERS + 042421140088",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MN ICE 5LB BAG + 865839000252",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HAAGEN DAZS BARS COFFEE ALM + 074570428540",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JONNYPOPS SUMMER SUNRISE + 850028051344",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 5.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JONNYPOPS ORG PINEAPPLE + 850028051849",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 5.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ROOTBERRY KOREAN FRIED RICE + 850031740754",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ROOTBERRY FAJITA BOWL + 850031740389",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRONEN DF VANILLA + 812184030052",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "LUNDS & BYERLYS\nMAPLE GROVE\nGeneral Manager\nTom Gordon\n763-416-1611\nOpen 6am - 10pm\nCashier:Jean\n5/26/26\n3:47 PM\nDAIRY\n046100001233 1 @ 2/7.00\nSARG SLICED PROVOLONE\nYOU SAVED\n046100002223 1 @ 2/7.00\nSARG SLICED THIN SWISS\nYOU SAVED\n049568600048 1 @ 5.99\nFOLLOW YOUR HEART PARMESAN\n3.50 F\n-1.49\n3.50 F\n-1.49\n5.99 F\nL&B DELI WAGYU ROAST BEEF\n042421140088 1 @ 12.99\nBH BEEF FRANKFURTERS\n12.99 F\nFROZEN FOOD\n865839000252 1 @ 2.49\nMN ICE 5LB BAG\n2.49 F\n074570428540 1 @ 6.99\nHAAGEN DAZS BARS COFFEE ALM\n6.99 F\n850028051344 1 @ 2/11.00\nJONNYPOPS SUMMER SUNRISE\n5.50 F\nYOU SAVED\n-2.99\n850028051849 1 @ 2/11.00\nJONNYPOPS ORG PINEAPPLE\n5.50 F\nYOU SAVED\n-2.99\n850031740754 1 @ 9.99\nROOTBERRY KOREAN FRIED RICE\n9.99 F\n850031740389 1 @ 9.99\nROOTBERRY FAJITA BOWL\n9.99 F\n812184030052 1 @ 6.99\nFRONEN DF VANILLA\n6.99 F\nGROCERY\nSUBTOTAL\n188.23\nTotal Sales Tax:\n0.37\nTOTAL\n188.60\nCredit\n188.60\nTOTAL TENDERED\n188.60\nChange\n0.00\nAccount:\n44001129471\nCARD INFORMATION:\nCard Type: Visa\nAccount: 0782\nAmount: USD $188.60\nApproval #:\n780370\nDate:\n5/26/26\nReference #:\n432227547001\nMID:\n**3539\nMODE:\nIssuer\nCard Name:\nUS DEBIT\nAID:\nA00000000380840\nToday you saved $ 25.45\nThis is a total savings of 12%\nThank you for shopping with us!\nScan barcode below for store returns\n>EP5X5T5HR8P1DF\n12880 Elm Creek Blvd N\nMaple Grove, MN55369\n763-416-1611\nTrx:227547\nTerm: 03\nStore: 1014\nOper Jean\n5/26/26\n3:47 PM\n************************************\nL&B Extras Customer Service\n952-548-1400\nPlease Note: Your change total will be\nrounded to the nearest 5-cent increment\nwhen paying with cash.\nThis is due to the United States Treasury\nceasing penny production\nlack of avail",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9799.955542,
+        "totalUsd": 0.024357,
+        "inputTokens": 3692,
+        "outputTokens": 2091,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Lunds & Byerlys",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "188.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:47 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55369",
+          "status": "match"
+        },
+        "city": {
+          "value": "Maple Grove",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12880 Elm Creek Blvd N",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0782",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SARG SLICED PROVOLONE + 046100001233",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SARG SLICED THIN SWISS + 046100002223",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FOLLOW YOUR HEART PARMESAN + 049568600048",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BH BEEF FRANKFURTERS + 042421140088",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MN ICE 5LB BAG + 865839000252",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HAAGEN DAZS BARS COFFEE ALM + 074570428540",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JONNYPOPS SUMMER SUNRISE + 850028051344",
+          "quantity": 1,
+          "unitPrice": 5.5,
+          "totalSpend": 2.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JONNYPOPS ORG PINEAPPLE + 850028051849",
+          "quantity": 1,
+          "unitPrice": 5.5,
+          "totalSpend": 2.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ROOTBERRY KOREAN FRIED RICE + 850031740754",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ROOTBERRY FAJITA BOWL + 850031740389",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRONEN DF VANILLA + 812184030052",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "LUNDS & BYERLYS\nMAPLE GROVE\nGeneral Manager\nTom Gordon\n763-416-1611\nOpen 6am - 10pm\nCashier: Jean\n5/26/26\n3:47 PM\nDAIRY\n046100001233 1 @ 2/7.00\nSARG SLICED PROVOLONE\nYOU SAVED\n046100002223 1 @ 2/7.00\nSARG SLICED THIN SWISS\nYOU SAVED\n049568600048 1 @ 5.99\nFOLLOW YOUR HEART PARMESAN\nL&B DELI WAGYU ROAST BEEF\n042421140088 1 @ 12.99\nBH BEEF FRANKFURTERS\nFROZEN FOOD\n865839000252 1 @ 2.49\nMN ICE 5LB BAG\n074570428540 1 @ 6.99\nHAAGEN DAZS BARS COFFEE ALM\n850028051344 1 @ 2/11.00\nJONNYPOPS SUMMER SUNRISE\nYOU SAVED\n850028051849 1 @ 2/11.00\nJONNYPOPS ORG PINEAPPLE\nYOU SAVED\n850031740754 1 @ 9.99\nROOTBERRY KOREAN FRIED RICE\n850031740389 1 @ 9.99\nROOTBERRY FAJITA BOWL\n812184030052 1 @ 6.99\nFRONEN DF VANILLA\nGROCERY\nSUBTOTAL\nTotal Sales Tax:\nTOTAL\nCredit\nTOTAL TENDERED\nChange\nAccount:\n44001129471\nCARD INFORMATION:\nCard Type: Visa\nAccount: 0782\nAmount: USD $188.60\nApproval #: 780370\nDate: 5/26/26\nReference #: 432227547001\nMID: **3539\nMODE: Issuer\nCard Name: US DEBIT\nAID: A0000000980840\nToday you saved $ 25.45\nThis is a total savings of 12%\nThank you for shopping with us!\nScan barcode below for store returns\n>EP5X5T5HR8P1DF\n12880 Elm Creek Blvd N\nMaple Grove, MN55369\n763-416-1611\nTrx:227547\nTerm: 03\nStore: 1014\nOper: Jean\n5/26/26\n3:47 PM\n****************************************\nL&B Extras Customer Service\n952-548-1400\nPlease Note: Your change total will be\nrounded to the nearest 5-cent increment\nwhen paying with cash.\nThis is due to the United States Treasury\nceasing penny production\nlack of avail\ncurrent\n3.50 F\n-1.49\n3.50 F\n-1.49\n5.99 F\n12.99 F\n2.49 F\n6.99 F\n5.50 F\n-2.99\n5.50 F\n-2.99\n9.99 F\n9.99 F\n6.99 F\n188.23\n0.37\n188.60\n188.60\n188.60\n0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SARG SLICED PROVOLONE + 046100001233 + SARG SLICED PROVOLONE 3.50",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "SARG SLICED THIN SWISS + 046100002223 + SARG SLICED THIN SWISS 3.50",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "FOLLOW YOUR HEART PARMESAN + 049568600048 + FOLLOW YOUR HEART PARMESAN 5.99 + LAB DELI WAGWO RdASrBe",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "BH BEEF FRANKFURTERS + 042421140088 + BH BEEF FRANKFURTERS 12.99 F + FROZEN FOOD",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "MN ICE 5LB BAG + 865839000252 + MN ICE 5LB BAG 2.49",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "HAAGEN DAZS BARS COFFEE ALM + 074570428540 + HAAGEN DAZS BARS COFFEE ALM 6.99",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "JONNYPOPS SUMMER SUNRISE + 850028051344 + JONNYPOPS SUMMER SUNRISE 5.50",
+      "price": 5.5,
+      "quantity": 1,
+      "totalSpend": 5.5
+    },
+    {
+      "text": "JONNYPOPS ORG PINEAPPLE + 850028051849 + JONNYPOPS ORG PINEAPPLE 5.50 F",
+      "price": 5.5,
+      "quantity": 1,
+      "totalSpend": 5.5
+    },
+    {
+      "text": "ROOTBERRY KOREAN FRIED RICE + 850031740754 + ROOTBERRY KOREAN FRIED RICE 9.99 F",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "ROOTBERRY FAJITA BOWL + 850031740389 + ROOTBERRY FAJITA BOWL 9.99 F",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "FRONEN DF VANILLA + 812184030052 + FRONEN DF VANILLA 6.99 F + 0OO0CQV",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

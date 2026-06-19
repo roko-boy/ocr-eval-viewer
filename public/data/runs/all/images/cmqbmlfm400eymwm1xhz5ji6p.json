@@ -1,0 +1,243 @@
+{
+  "id": "cmqbmlfm400eymwm1xhz5ji6p",
+  "url": null,
+  "retailer": "ShopRite",
+  "brand": "BEAM Be Amazing",
+  "amount": 7.98,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "8.51",
+    "purchaseDate": "2026-06-12",
+    "time": null,
+    "zipCode": null,
+    "city": "MONTGOMERY TWSP",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6975.477458000008,
+        "totalUsd": 0.016509,
+        "inputTokens": 6086,
+        "outputTokens": 820,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:32pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "MONTGOMERY TWSP",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5545",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BEAMAZ PCH MNGO DR",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\n\nWelcome to ShopRite\nof MONTGOMERY\n\n06/12/26 08:32pm S617 R75 T217 C75\n\n*****************************************\n*             Regular Items             *\n*****************************************\n 2 @ 3.99\n     BEAMAZ PCH MNGO DR        7.98 B\n Valued Customer            48504750019\n     TAX                       0.53\n **** BALANCE                  8.51\n*****************************************\nShopRite Credit Receipt\nStore # 617 of MONTGOMERY TWSP , NJ\nTerminal: 75 Operator: 75 Trans: 217\nDate: 06/12/26 Time: 08:33pm\n\n Purchase: $ 8.51\n Acct#: ************5545   CONTACTLESS\n\n Response : APPROVED\n Approval : 21897P\n Prepaid Card Balance: 0.00\n\n*****************************************\n\n     MASTER CARD               8.51\n     CHANGE                    0.00\nTOTAL NUMBER OF ITEMS SOLD =   2\n06/12/26 08:33pm 617 75 217 75\n\nPresent your card with every order\nand save with Price Plus discounts!\n\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n\nStar-Spangled Savings\nSpend $250 on participating items\nand receive a $75 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 7/4/2026\nREDEEM by 7/18/2026\nPlease view the front page of\nthe circular for item details.\nSwing into Savings\nSpend $150 on participating items\nand receive a $50 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 5/30/2026\nREDEEM by 6/13/2026\nPlease view the front page of\nthe circular for item details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13315.70462500001,
+        "totalUsd": 0.024789,
+        "inputTokens": 3692,
+        "outputTokens": 796,
+        "reasoningTokens": 1343
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "MONTGOMERY TWSP",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5545",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BEAMAZ PCH MNGO DR + 48504750019",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof MONTGOMERY\n06/12/26 08:32pm S617 R75 T217 C75\n*************************************\n* Regular Items *\n*************************************\n2 @ 3.99\nBEAMAZ PCH MNGO DR 7.98 B\nValued Customer 48504750019\nTAX 0.53\n**** BALANCE 8.51\n*************************************\nShopRite Credit Receipt\nStore # 617 of MONTGOMERY TWSP , NJ\nTerminal: 75 Operator: 75 Trans: 217\nDate: 06/12/26 Time: 08:33pm\nPurchase: $ 8.51\nAcct#: ************5545 CONTACTLESS\nResponse : APPROVED\nApproval : 21897P\nPrepaid Card Balance: 0.00\n*************************************\nMASTER CARD 8.51\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/12/26 08:33pm 617 75 217 75\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\nStar-Spangled Savings\nSpend $250 on participating items\nand receive a $75 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 7/4/2026\nREDEEM by 7/18/2026\nPlease view the front page of\nthe circular for item details.\nSwing into Savings\nSpend $150 on participating items\nand receive a $50 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 5/30/2026\nREDEEM by 6/13/2026\nPlease view the front page of\nthe circular for item details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5247.460332999995,
+        "totalUsd": 0.012702,
+        "inputTokens": 3692,
+        "outputTokens": 796,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "MONTGOMERY TWSP",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5545",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BEAMAZ PCH MNGO DR + 48504750019",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof MONTGOMERY\n06/12/26 08:32pm S617 R75 T217 C75\n*************************************\n* Regular Items *\n*************************************\n2 @ 3.99\nBEAMAZ PCH MNGO DR 7.98 B\nValued Customer 48504750019\nTAX 0.53\n**** BALANCE 8.51\n*************************************\nShopRite Credit Receipt\nStore # 617 of MONTGOMERY TWSP , NJ\nTerminal: 75 Operator: 75 Trans: 217\nDate: 06/12/26 Time: 08:33pm\nPurchase: $ 8.51\nAcct#: ************5545 CONTACTLESS\nResponse : APPROVED\nApproval : 21897P\nPrepaid Card Balance: 0.00\n*************************************\nMASTER CARD 8.51\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/12/26 08:33pm 617 75 217 75\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\nStar-Spangled Savings\nSpend $250 on participating items\nand receive a $75 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 7/4/2026\nREDEEM by 7/18/2026\nPlease view the front page of\nthe circular for item details.\nSwing into Savings\nSpend $150 on participating items\nand receive a $50 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 5/30/2026\nREDEEM by 6/13/2026\nPlease view the front page of\nthe circular for item details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BEAMAZ PCH MNGO DR + 48504750019",
+      "price": 3.99,
+      "quantity": 2,
+      "totalSpend": 7.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

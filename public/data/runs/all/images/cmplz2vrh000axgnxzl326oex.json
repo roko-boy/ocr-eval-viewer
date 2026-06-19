@@ -1,0 +1,243 @@
+{
+  "id": "cmplz2vrh000axgnxzl326oex",
+  "url": null,
+  "retailer": "Natural Grocers",
+  "brand": "Sweet Loren's",
+  "amount": 7.45,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Natural Grocers",
+    "totalCost": "7.45",
+    "purchaseDate": "2026-05-22",
+    "time": null,
+    "zipCode": "79119",
+    "city": "Amarillo",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9583.018667000011,
+        "totalUsd": 0.015951,
+        "inputTokens": 6086,
+        "outputTokens": 758,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Natural Grocers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79119",
+          "status": "match"
+        },
+        "city": {
+          "value": "Amarillo",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7441 Hillside Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3570",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "00182 SWLR Cookie Dou 12 o",
+          "quantity": 1,
+          "unitPrice": 7.45,
+          "totalSpend": 7.45,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "NATURAL\nGROCERS\n\nNatural Grocers by Vitamin Cottage\n7441 Hillside Rd.\nAmarillo, TX 79119\nPhone: 806-463-5500\n\nDate      Time      Store   Reg Emp Txn\n05/22/26  04:27 PM  U030     2  36336 162\n\n                                    USD\n00182 SWLR Cookie Dou 12 o       7.45 BF\n\nSUBTOTAL [1]            USD      7.45\nB         7.45 @ 0.000% =        0.00\n\nTOTAL                   USD      7.45\nDebit                   USD      7.45\n\nPURCHASE $7.45\n************3570 Visa\n          CHIP READ\nREF#: 704014 Approved\n\nUS DEBIT\n\nAAC - 9CAA6989F67F092F\n\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000980840\nTVR: 8000048000\nIAD: 0601120321A000\nTSI: 6800    ARC:\n\nLoyalty Card: 0000000047208446369\nNPower Member\n\na001U030220526002000162a\n\nYou were served by:\nSydney\n\nPlease review posted return policy.\nAll returns must be within 30-days of\npurchase. Two items per receipt.\nExclusions apply.\nAll clearance items are non-refundable.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13637.46891699999,
+        "totalUsd": 0.024708,
+        "inputTokens": 3692,
+        "outputTokens": 765,
+        "reasoningTokens": 1365
+      },
+      "fields": {
+        "storeName": {
+          "value": "Natural Grocers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79119",
+          "status": "match"
+        },
+        "city": {
+          "value": "Amarillo",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7441 Hillside Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3570",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "00182 SWLR Cookie Dou 12 o",
+          "quantity": 1,
+          "unitPrice": 7.45,
+          "totalSpend": 7.45,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "NATURAL\nGROCERS\n\nNatural Grocers by Vitamin Cottage\n7441 Hillside Rd.\nAmarillo, TX 79119\nPhone: 806-463-5500\n\nDate Time Store Reg Emp Txn\n05/22/26 04:27 PM U030 2 36336 162\n\nUSD\n00182 SWLR Cookie Dou 12 o 7.45 BF\n\nSUBTOTAL [1] USD 7.45\nB 7.45 @ 0.000% = 0.00\n\nTOTAL USD 7.45\nDebit USD 7.45\n\nPURCHASE $7.45\n************3570 Visa\nCHIP READ\nREF#: 704014 Approved\n\nUS DEBIT\n\nAAC - 9CAA6989F67F092F\n\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000980840\nTVR: 8000048000\nIAD: 0601120321A000\nTSI: 6800 ARC:\n\nLoyalty Card: 000000047208446369\nNPower Member\n\na001U030220526002000162a\n\nYou were served by:\nSydney\n\nPlease review posted return policy.\nAll returns must be within 30-days of\npurchase. Two items per receipt.\nExclusions apply.\nAll clearance items are non-refundable.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4392.731165999998,
+        "totalUsd": 0.012171,
+        "inputTokens": 3692,
+        "outputTokens": 737,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Natural Grocers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79119",
+          "status": "match"
+        },
+        "city": {
+          "value": "Amarillo",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7441 Hillside Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3570",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "00182 SWLR Cookie Dou 12 o",
+          "quantity": 1,
+          "unitPrice": 7.45,
+          "totalSpend": 7.45,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "NATURAL\nGROCERS\nNatural Grocers by Vitamin Cottage\n7441 Hillside Rd.\nAmarillo, TX 79119\nPhone: 806-463-5500\nDate Time Store Reg Emp Txn\n05/22/26 04:27 PM U030 2 36336 162\nUSD\n00182 SWLR Cookie Dou 12 o 7.45 BF\nSUBTOTAL [1] USD 7.45\nB 7.45 @ 0.000% = 0.00\nTOTAL USD 7.45\nDebit USD 7.45\nPURCHASE $7.45\n************3570 Visa\nCHIP READ\nREF#: 704014 Approved\nUS DEBIT\nAAC - 9CAA6989F67F092F\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000980840\nTVR: 8000048000\nIAD: 0601120321A000\nTSI: 6800 ARC:\nLoyalty Card: 000000047208446369\nNPower Member\na001U030220526002000162a\nYou were served by:\nSydney\nPlease review posted return policy.\nAll returns must be within 30-days of\npurchase. Two items per receipt.\nExclusions apply.\nAll clearance items are non-refundable.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SWLR Cookie Dou 12 o + 00182",
+      "price": 7.45,
+      "quantity": 1,
+      "totalSpend": 7.45
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

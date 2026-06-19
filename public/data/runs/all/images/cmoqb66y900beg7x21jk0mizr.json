@@ -1,0 +1,954 @@
+{
+  "id": "cmoqb66y900beg7x21jk0mizr",
+  "url": null,
+  "retailer": "Albertsons",
+  "brand": "Saint James Iced Tea",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Albertsons",
+    "totalCost": "60.96",
+    "purchaseDate": "2026-05-03",
+    "time": null,
+    "zipCode": "83706",
+    "city": "Boise",
+    "state": "ID",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 23676.12404099997,
+        "totalUsd": 0.04478700000000001,
+        "inputTokens": 6158,
+        "outputTokens": 3950,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Star Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "60.96",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:36 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "83706",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "250 E. Parkcenter Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7827",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Saint James Green Tea Pineapple Mango - 16 FZ + Regular Price: $2.99 + SAVE30:$0.82 + Sale Price Savings:$0.49",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.68,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Saint James Organic Black Tea, Half & Half 16 Fz Bottle - 16 FZ + Regular Price: $2.99 + SAVE30:$0.82 + Sale Price Savings:$0.49",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.68,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Signature SELECT White Corn Tortillas 30 Count - 25 Oz + Regular Price: $2.49 + SAVE30:$0.82",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Mosh Bar Lemon White Chocolate Crunch - 1.48 OZ + Regular Price: $2.99 + SAVE30:$0.98",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.01,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Mosh Bar Blueberry Almond Crunch - 1.48 OZ + Regular Price: $2.99 + SAVE30:$0.98",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Reese Artichoke Hearts Marinated Quartered - 7.5 Oz + Regular Price: $3.29 + SAVE30:$0.78 + Sale Price Savings:$0.60",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 1.61,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Goya Peas Chick Garbanzes Can - 15.5 Oz + Regular Price: $1.99 + SAVE30:$0.65",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.34,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "O Organics Organic Bone Broth Beef - 32 Oz + Regular Price: $3.99 + Star Market for U Savings:$0.27 + SAVE30:$1.22",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Enjoy Life Chocolate Chips Mini - 9 OZ + Regular Price: $8.99 + SAVE30:$2.31 + Sale Price Savings:$2.00",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 4.68,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lucerne Cheese Grated Parmesan Tub - 5 Oz + Regular Price: $2.99 + SAVE30:$0.98",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "O Organics Organic Eggs Large Brown - 6 Count + Regular Price: $3.49 + Star Market for U Savings:$0.24 + SAVE30:$1.07",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.18,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Icelandic Provisions Whole Milk Skyr - 30 Oz + Regular Price: $6.99 + Star Market for U Savings:$1.00 + SAVE30:$1.98",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.01,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "President Crumbled Feta Cheese - 6 Oz + Regular Price: $5.99 + SAVE30:$1.32 + Sale Price Savings:$2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.67,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Dorot Gardens Garlic Crushed Cubes 16 Count - 2.8 Oz + Regular Price: $3.49 + SAVE30:$1.15",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.34,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Signature SELECT/FARMS Carrots Shredded - 10 Oz + Regular Price: $2.49 + Star Market for U Savings:$0.21 + SAVE30:$0.75",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.53,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Lemon Large + Regular Price: $0.79 + Star Market for U Savings:$0.06 + SAVE30:$0.24",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lime + Regular Price: $0.79 + Star Market for U Savings:$0.06 + SAVE30:$0.24",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Caramel Naturel Dates Fresh Medjool - 16 Oz + Regular Price: $7.99 + Star Market for U Savings:$0.67 + SAVE30:$2.43",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 4.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "O Organics Rice Thai Jasmine Long Grain - 32 Oz + Regular Price: $6.99 + Star Market for U Savings:$0.49 + SAVE30:$2.15",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.35,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Shady Brook Farms 93% Lean 7% Fat Ground Turkey Tray - 1 Lb + Regular Price: $6.99 + SAVE30:$2.32",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.67,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "al fresco Sweet Italian Style All Natural Chicken Sausage - 11 Oz + Regular Price: $5.99 + SAVE30:$1.98",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Farmer Focus Organic Halal Thin Sliced Chicken Breast - LB + Regular Price: $14.39 (Pkg. Wt. 1.2 LB @ $11.99/LB) + SAVE30:$4.01 + Sale Price Savings:$2.40",
+          "quantity": 1,
+          "unitPrice": 14.39,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "From: Star Market starmarket@p.starmarket.com\nSubject: Your order has been picked up!\nDate: May 3, 2026 at 5:43:42 PM\nTo: juliasch@comcast.net\n\nThank you for your order!\nJulia,\nYour order was picked up at 5:36 PM.\n\nPlease freeze or refrigerate perishables as soon as possible.\nView order details\n\nYour Receipt\nOrder #170448207\nfor U You earned 75 Points!\n\nOrder Details\nBEVERAGES\n1x Saint James Green Tea Pineapple Mango - 16 FZ\nRegular Price: $2.99\nSAVE30:$0.82\nSale Price Savings:$0.49\n$1.68\n\n1x Saint James Organic Black Tea, Half & Half 16 Fz Bottle - 16 FZ\nRegular Price: $2.99\nSAVE30:$0.82\nSale Price Savings:$0.49\n$1.68\n\nBREAD & BAKERY\n1x Signature SELECT White Corn Tortillas 30 Count - 25 Oz\nRegular Price: $2.49\nSAVE30:$0.82\n$1.67\n\nBREAKFAST & CEREAL\n1x Mosh Bar Lemon White Chocolate Crunch - 1.48 OZ\nRegular Price: $2.99\nSAVE30:$0.98\n$2.01\n\n1x Mosh Bar Blueberry Almond Crunch - 1.48 OZ\nRegular Price: $2.99\nSAVE30:$0.98\n$2.01\n\nCANNED GOODS & SOUPS\n1x Reese Artichoke Hearts Marinated Quartered - 7.5 Oz\nRegular Price: $3.29\nSAVE30:$0.78\nSale Price Savings:$0.60\n$1.61\n\n1x Goya Peas Chick Garbanzes Can - 15.5 Oz\nRegular Price: $1.99\nSAVE30:$0.65\n$1.34\n\n1x O Organics Organic Bone Broth Beef - 32 Oz\nRegular Price: $3.99\nStar Market for U Savings:$0.27\nSAVE30:$1.22\n$2.50\n\nCONDIMENTS, SPICE & BAKE\n1x Enjoy Life Chocolate Chips Mini - 9 OZ\nRegular Price: $8.99\nSAVE30:$2.31\nSale Price Savings:$2.00\n$4.68\n\nDAIRY, EGGS & CHEESE\n1x Lucerne Cheese Grated Parmesan Tub - 5 Oz\nRegular Price: $2.99\nSAVE30:$0.98\n$2.01\n\n1x O Organics Organic Eggs Large Brown - 6 Count\nRegular Price: $3.49\nStar Market for U Savings:$0.24\nSAVE30:$1.07\n$2.18\n\n1x Icelandic Provisions Whole Milk Skyr - 30 Oz\nRegular Price: $6.99\nStar Market for U Savings:$1.00\nSAVE30:$1.98\n$4.01\n\nDELI\n1x President Crumbled Feta Cheese - 6 Oz\nRegular Price: $5.99\nSAVE30:$1.32\nSale Price Savings:$2.00\n$2.67\n\nFROZEN FOODS\n1x Dorot Gardens Garlic Crushed Cubes 16 Count - 2.8 Oz\nRegular Price: $3.49\nSAVE30:$1.15\n$2.34\n\nFRUITS & VEGETABLES\n1x Signature SELECT/FARMS Carrots Shredded - 10 Oz\nRegular Price: $2.49\nStar Market for U Savings:$0.21\nSAVE30:$0.75\n$1.53\n\n1x Lemon Large\nRegular Price: $0.79\nStar Market for U Savings:$0.06\nSAVE30:$0.24\n$0.49\n\n1x Lime\nRegular Price: $0.79\nStar Market for U Savings:$0.06\nSAVE30:$0.24\n$0.49\n\n1x Caramel Naturel Dates Fresh Medjool - 16 Oz\nRegular Price: $7.99\nStar Market for U Savings:$0.67\nSAVE30:$2.43\n$4.89\n\nGRAINS, PASTA & SIDES\n1x O Organics Rice Thai Jasmine Long Grain - 32 Oz\nRegular Price: $6.99\nStar Market for U Savings:$0.49\nSAVE30:$2.15\n$4.35\n\nMEAT & SEAFOOD\n1x Shady Brook Farms 93% Lean 7% Fat Ground Turkey Tray - 1 Lb\nRegular Price: $6.99\nSAVE30:$2.32\n$4.67\n\n1x al fresco Sweet Italian Style All Natural Chicken Sausage - 11 Oz\nRegular Price: $5.99\nSAVE30:$1.98\n$4.01\n\n1x Farmer Focus Organic Halal Thin Sliced Chicken Breast - LB\nRegular Price: $14.39 (Pkg. Wt. 1.2 LB @ $11.99/LB)\nSAVE30:$4.01\nSale Price Savings:$2.40\n$7.98\n\nItems (22) $101.78\nTotal Savings -$40.98\nSAVE30 -$30.00\nStar Market for U Savings -$3.00\nSale Price Savings -$7.98\nTaxes and Fees $0.16\nSales Tax $0.01\nFlash Pickup Fee $0.00\nBag Fee $0.15\nTotal $60.96\n\nPayment\nCard ending in 7827 $60.96\n\nTransaction Details\nCard ending in ************7827\nType Credit Card\nCard Type VISA\nAmount $60.96\nAuthorization Date May 03, 2026\nAuthorization Time 4:53 PM\nFor Customer Support please call 1-877-505-4040\nSincerely,\nStar Market\nStar Market For U Deals Weekly Ad\nMeal Plans Health FreshPass\nAlbertsons Companies\nCopyright © 2026 by Albertsons Companies, Inc. All rights reserved.\nContact us at 250 E. Parkcenter Blvd., Boise, ID 83706.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 33293.47562500002,
+        "totalUsd": 0.08432400000000001,
+        "inputTokens": 3728,
+        "outputTokens": 3394,
+        "reasoningTokens": 5354
+      },
+      "fields": {
+        "storeName": {
+          "value": "Star Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "60.96",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:36 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "83706",
+          "status": "match"
+        },
+        "city": {
+          "value": "Boise",
+          "status": "match"
+        },
+        "state": {
+          "value": "ID",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "250 E. Parkcenter Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Saint James Green Tea Pineapple Mango - 16 FZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.68,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Saint James Organic Black Tea, Half & Half 16 Fz Bottle - 16 FZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.68,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Signature SELECT White Corn Tortillas 30 Count - 25 Oz",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Mosh Bar Lemon White Chocolate Crunch - 1.48 OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.01,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Mosh Bar Blueberry Almond Crunch - 1.48 OZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Reese Artichoke Hearts Marinated Quartered - 7.5 Oz",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.61,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Goya Peas Chick Garbanzos Can - 15.5 Oz",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.34,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O Organics Organic Bone Broth Beef - 32 Oz",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Enjoy Life Chocolate Chips Mini - 9 OZ",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 4.68,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lucerne Cheese Grated Parmesan Tub - 5 Oz",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "O Organics Organic Eggs Large Brown - 6 Count",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.18,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Icelandic Provisions Whole Milk Skyr - 30 Oz",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.01,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "President Crumbled Feta Cheese - 6 Oz",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.67,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Dorot Gardens Garlic Crushed Cubes 16 Count - 2.8 Oz",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.34,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Signature SELECT/FARMS Carrots Shredded - 10 Oz",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.53,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Lemon Large",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lime",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Caramel Naturel Dates Fresh Medjool - 16 Oz",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 4.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "O Organics Rice Thai Jasmine Long Grain - 32 Oz",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.35,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Shady Brook Farms 93% Lean 7% Fat Ground Turkey Tray - 1 Lb",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.67,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "al fresco Sweet Italian Style All Natural Chicken Sausage - 11 Oz",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Farmer Focus Organic Halal Thin Sliced Chicken Breast - LB",
+          "quantity": 1,
+          "unitPrice": 14.39,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "From: Star Market starmarket@p.starmarket.com\nSubject: Your order has been picked up!\nDate: May 3, 2026 at 5:43:42 PM\nTo: juliasch@comcast.net\n\nstar market\n\nThank you for your order!\nJulia,\nYour order was picked up at 5:36 PM.\nPlease freeze or refrigerate perishables as soon as possible.\nView order details\n\nYour Receipt\nOrder #170448207\nfor U You earned 75 Points!\n\nOrder Details\nBEVERAGES\n1x Saint James Green Tea Pineapple Mango - 16 FZ $1.68\nRegular Price: $2.99\nSAVE30: $0.82\nSale Price Savings: $0.49\n\n1x Saint James Organic Black Tea, Half & Half 16 Fz Bottle - 16 FZ $1.68\nRegular Price: $2.99\nSAVE30: $0.82\nSale Price Savings: $0.49\n\nBREAD & BAKERY\n1x Signature SELECT White Corn Tortillas 30 Count - 25 Oz $1.67\nRegular Price: $2.49\nSAVE30: $0.82\n\nBREAKFAST & CEREAL\n1x Mosh Bar Lemon White Chocolate Crunch - 1.48 OZ $2.01\nRegular Price: $2.99\nSAVE30: $0.98\n\n1x Mosh Bar Blueberry Almond Crunch - 1.48 OZ $2.01\nRegular Price: $2.99\nSAVE30: $0.98\n\nCANNED GOODS & SOUPS\n1x Reese Artichoke Hearts Marinated Quartered - 7.5 Oz $1.61\nRegular Price: $2.99\nSAVE30: $0.78\nSale Price Savings: $0.60\n\n1x Goya Peas Chick Garbanzos Can - 15.5 Oz $1.34\nRegular Price: $1.99\nSAVE30: $0.65\n\n1x O Organics Organic Bone Broth Beef - 32 Oz $2.50\nRegular Price: $3.99\nStar Market for U Savings: $0.27\nSAVE30: $1.22\n\nCONDIMENTS, SPICE & BAKE\n1x Enjoy Life Chocolate Chips Mini - 9 OZ $4.68\nRegular Price: $8.99\nSAVE30: $2.31\nSale Price Savings: $2.00\n\nDAIRY, EGGS & CHEESE\n1x Lucerne Cheese Grated Parmesan Tub - 5 Oz $2.01\nRegular Price: $2.99\nSAVE30: $0.98\n\n1x O Organics Organic Eggs Large Brown - 6 Count $2.18\nRegular Price: $3.49\nStar Market for U Savings: $0.24\nSAVE30: $1.07\n\n1x Icelandic Provisions Whole Milk Skyr - 30 Oz $4.01\nRegular Price: $6.99\nStar Market for U Savings: $1.00\nSAVE30: $1.98\n\nDELI\n1x President Crumbled Feta Cheese - 6 Oz $2.67\nRegular Price: $5.99\nSAVE30: $1.32\nSale Price Savings: $2.00\n\nFROZEN FOODS\n1x Dorot Gardens Garlic Crushed Cubes 16 Count - 2.8 Oz $2.34\nRegular Price: $3.49\nSAVE30: $1.15\n\nFRUITS & VEGETABLES\n1x Signature SELECT/FARMS Carrots Shredded - 10 Oz $1.53\nRegular Price: $2.49\nStar Market for U Savings: $0.21\nSAVE30: $0.75\n\n1x Lemon Large $0.49\nRegular Price: $0.79\nStar Market for U Savings: $0.06\nSAVE30: $0.24\n\n1x Lime $0.49\nRegular Price: $0.79\nStar Market for U Savings: $0.06\nSAVE30: $0.24\n\n1x Caramel Naturel Dates Fresh Medjool - 16 Oz $4.89\nRegular Price: $7.99\nStar Market for U Savings: $0.67\nSAVE30: $2.43\n\nGRAINS, PASTA & SIDES\n1x O Organics Rice Thai Jasmine Long Grain - 32 Oz $4.35\nRegular Price: $6.99\nStar Market for U Savings: $0.49\nSAVE30: $2.15\n\nMEAT & SEAFOOD\n1x Shady Brook Farms 93% Lean 7% Fat Ground Turkey Tray - 1 Lb $4.67\nRegular Price: $6.99\nSAVE30: $2.32\n\n1x al fresco Sweet Italian Style All Natural Chicken Sausage - 11 Oz $4.01\nRegular Price: $5.99\nSAVE30: $1.98\n\n1x Farmer Focus Organic Halal Thin Sliced Chicken Breast - LB $7.98\nRegular Price: $14.39 (Pkg. Wt. 1.2 LB @ $11.99/LB)\nSAVE30: $4.01\nSale Price Savings: $2.40\n\nItems (22) $101.78\nTotal Savings -$40.98\nSAVE30 -$30.00\nStar Market for U Savings -$3.00\nSale Price Savings -$7.98\n\nTaxes and Fees $0.16\nSales Tax $0.01\nFlash Pickup Fee $0.00\nBag Fee $0.15\n\nTotal $60.96\n\nPayment\nCard ending in 7827 $60.96\n\nTransaction Details\nCard ending in ************7827\nType Credit Card\nCard Type VISA\nAmount $60.96\nAuthorization Date May 03, 2026\nAuthorization Time 4:53 PM\nFor Customer Support please call 1-877-505-4040\nSincerely,\nstar market\nStar Market For U\nDeals\nWeekly Ad\nMeal Plans\nHealth\nFreshPass\nAlbertsons Companies\nCopyright © 2026 by Albertsons Companies, Inc. All rights reserved.\nContact us at 250 E. Parkcenter Blvd., Boise, ID 83706.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 14415.346875,
+        "totalUsd": 0.036264,
+        "inputTokens": 3728,
+        "outputTokens": 3408,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Star Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "60.96",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:36 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7827",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Saint James Green Tea Pineapple Mango - 16 FZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.68,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Saint James Organic Black Tea, Half & Half 16 Fz Bottle - 16 FZ",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.68,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Signature SELECT White Corn Tortillas 30 Count - 25 Oz",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Mosh Bar Lemon White Chocolate Crunch - 1.48 Oz",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.01,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Mosh Bar Blueberry Almond Crunch - 1.48 Oz",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Reese Artichoke Hearts Marinated Quartered - 7.5 Oz",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.61,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Goya Peas Chick Garbanzos Can - 15.5 Oz",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.34,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O Organics Organic Bone Broth Beef - 32 Oz",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Enjoy Life Chocolate Chips Mini - 9 Oz",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 4.68,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lucerne Cheese Grated Parmesan Tub - 5 Oz",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "O Organics Organic Eggs Large Brown - 6 Count",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.18,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Icelandic Provisions Whole Milk Skyr - 30 Oz",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.01,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "President Crumbled Feta Cheese - 6 Oz",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.67,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Dorot Gardens Garlic Crushed Cubes 16 Count - 2.8 Oz",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.34,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Signature SELECT/FARMS Carrots Shredded - 10 Oz",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.53,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Lemon Large",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lime",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Caramel Naturel Dates Fresh Medjool - 16 Oz",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 4.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "O Organics Rice Thai Jasmine Long Grain - 32 Oz",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.35,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Shady Brook Farms 93% Lean 7% Fat Ground Turkey Tray - 1 Lb",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.67,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "al fresco Sweet Italian Style All Natural Chicken Sausage - 11 Oz",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Farmer Focus Organic Halal Thin Sliced Chicken Breast - LB",
+          "quantity": 1,
+          "unitPrice": 14.39,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "From: Star Market starmarket@p.starmarket.com\nSubject: Your order has been picked up!\nDate: May 3, 2026 at 5:43:42 PM\nTo: juliasch@comcast.net\n\nstar market\n\nThank you for your order!\nJulia,\nYour order was picked up at 5:36 PM.\nPlease freeze or refrigerate perishables as soon as possible.\nView order details\nYour Receipt\nOrder #170448207\nfor U You earned 75 Points!\nOrder Details\nBEVERAGES\n1x Saint James Green Tea Pineapple Mango - 16 FZ\nRegular Price: $2.99\nSAVE30:$0.82\nSale Price Savings:$0.49\n$1.68\n1x Saint James Organic Black Tea, Half & Half 16 Fz Bottle - 16 FZ\nRegular Price: $2.99\nSAVE30:$0.82\nSale Price Savings:$0.49\n$1.68\nBREAD & BAKERY\n1x Signature SELECT White Corn Tortillas 30 Count - 25 Oz\nRegular Price: $2.49\nSAVE30:$0.82\n$1.67\nBREAKFAST & CEREAL\n1x Mosh Bar Lemon White Chocolate Crunch - 1.48 Oz\nRegular Price: $2.99\nSAVE30:$0.98\n$2.01\n1x Mosh Bar Blueberry Almond Crunch - 1.48 Oz\nRegular Price: $2.99\nSAVE30:$0.98\n$2.01\nCANNED GOODS & SOUPS\n1x Reese Artichoke Hearts Marinated Quartered - 7.5 Oz\nRegular Price: $2.99\nSAVE30:$0.78\nSale Price Savings:$0.60\n$1.61\n1x Goya Peas Chick Garbanzos Can - 15.5 Oz\nRegular Price: $1.99\nSAVE30:$0.65\n$1.34\n1x O Organics Organic Bone Broth Beef - 32 Oz\nRegular Price: $3.99\nStar Market for U Savings:$0.27\nSAVE30:$1.22\n$2.50\nCONDIMENTS, SPICE & BAKE\n1x Enjoy Life Chocolate Chips Mini - 9 Oz\nRegular Price: $8.99\nSAVE30:$2.31\nSale Price Savings:$2.00\n$4.68\nDAIRY, EGGS & CHEESE\n1x Lucerne Cheese Grated Parmesan Tub - 5 Oz\nRegular Price: $2.99\nSAVE30:$0.98\n$2.01\n1x O Organics Organic Eggs Large Brown - 6 Count\nRegular Price: $3.49\nStar Market for U Savings:$0.24\nSAVE30:$1.07\n$2.18\n1x Icelandic Provisions Whole Milk Skyr - 30 Oz\nRegular Price: $6.99\nStar Market for U Savings:$1.00\nSAVE30:$1.98\n$4.01\nDELI\n1x President Crumbled Feta Cheese - 6 Oz\nRegular Price: $5.99\nSAVE30:$1.32\nSale Price Savings:$2.00\n$2.67\nFROZEN FOODS\n1x Dorot Gardens Garlic Crushed Cubes 16 Count - 2.8 Oz\nRegular Price: $3.49\nSAVE30:$1.15\n$2.34\nFRUITS & VEGETABLES\n1x Signature SELECT/FARMS Carrots Shredded - 10 Oz\nRegular Price: $2.49\nStar Market for U Savings:$0.21\nSAVE30:$0.75\n$1.53\n1x Lemon Large\nRegular Price: $0.79\nStar Market for U Savings:$0.06\nSAVE30:$0.24\n$0.49\n1x Lime\nRegular Price: $0.79\nStar Market for U Savings:$0.06\nSAVE30:$0.24\n$0.49\n1x Caramel Naturel Dates Fresh Medjool - 16 Oz\nRegular Price: $7.99\nStar Market for U Savings:$0.67\nSAVE30:$2.43\n$4.89\nGRAINS, PASTA & SIDES\n1x O Organics Rice Thai Jasmine Long Grain - 32 Oz\nRegular Price: $6.99\nStar Market for U Savings:$0.49\nSAVE30:$2.15\n$4.35\nMEAT & SEAFOOD\n1x Shady Brook Farms 93% Lean 7% Fat Ground Turkey Tray - 1 Lb\nRegular Price: $6.99\nSAVE30:$2.32\n$4.67\n1x al fresco Sweet Italian Style All Natural Chicken Sausage - 11 Oz\nRegular Price: $5.99\nSAVE30:$1.98\n$4.01\n1x Farmer Focus Organic Halal Thin Sliced Chicken Breast - LB\nRegular Price: $14.39 (Pkg. Wt. 1.2 LB @ $11.99/LB)\nSAVE30:$4.01\nSale Price Savings:$2.40\n$7.98\nItems (22) $101.78\nTotal Savings -$40.98\nSAVE30 -$30.00\nStar Market for U Savings -$3.00\nSale Price Savings -$7.98\nTaxes and Fees $0.18\nSales Tax $0.01\nFlash Pickup Fee $0.00\nBag Fee $0.15\nTotal $60.96\nPayment\nCard ending in 7827 $60.96\nTransaction Details\nCard ending in ************7827\nType Credit Card\nCard Type VISA\nAmount $60.96\nAuthorization Date May 03, 2026\nAuthorization Time 4:53 PM\nFor Customer Support please call 1-877-505-4040\nSincerely,\nstar market\nStar Market For U™ Deals Weekly Ad\nMeal Plans Health FreshPass®\nThis email was sent by Star Market. Please do not reply to this email. We cannot accept or\nmonitor electronic replies to this email address. This email contains information for the\nintended recipient. If you received this email in error, please delete it.\nEmails are sent from the no-reply@o.starmarket.com domain.\nPlease do not reply to this email.\nHaving trouble viewing this email? View in browser.\nAccessibility Statement | Privacy Policy\nAlbertsons Companies\nCopyright © 2026 by Albertsons Companies, Inc. All rights reserved.\nContact us at 250 E. Parkcenter Blvd., Boise, ID 83706.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Saint James Green Tea Pineapple Mango - $1.68",
+      "price": 1.68,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $2.99",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Saint James Organic Black Tea a, Half & Half $1.68",
+      "price": 1.68,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $2.99",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$1.67",
+      "price": 1.67,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $2.49",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "1x Mosh Bar Lemon White hocolate Crunch $2.0",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "- 1.48 OZ",
+      "price": 1.48,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $2.99",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "1x Mosh Bar Blueberry Alm inch - 1.48 520",
+      "price": 1.48,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $2.99",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$1.6",
+      "price": 1.6,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Quartered - 7.5 Oz",
+      "price": 7.5,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $2.99",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "1x Goya Peas Chick Garbanzos Can - 15.5 Oz $1.34",
+      "price": 1.34,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $1.99",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $3.99",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $8.99",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $2.99",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Count 92.16",
+      "price": 92.16,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $3.49",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Oz $4.01",
+      "price": 4.01,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $6.99",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $5.99",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$2.34",
+      "price": 2.34,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Count - 2.8 Oz",
+      "price": 2.8,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $3.49",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$1.53",
+      "price": 1.53,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $2.49",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Lemon Large $0.40",
+      "price": 0.4,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $0.79",
+      "price": 0.79,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $0.79",
+      "price": 0.79,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $7.99",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $6.99",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $6.99",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Chicken Sausage - 11 Oz 34.01",
+      "price": 34.01,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $5.99",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SAVESU > 1.98",
+      "price": 1.98,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$7.98",
+      "price": 7.98,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Regular Price  $14.39 (Pkg. Wt. 1.2 LB @",
+      "price": 1.2,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Items (22) 5101.78",
+      "price": 5101.78,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Taxes and Fees $0.16",
+      "price": 0.16,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Sales Tax $0.01",
+      "price": 0.01,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Bag Fee $0.15",
+      "price": 0.15,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$60.96",
+      "price": 60.96,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Card ending in 7827 $60.96",
+      "price": 60.96,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 3,
+  "nullCount": 0
+}

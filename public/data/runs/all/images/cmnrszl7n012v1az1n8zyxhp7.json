@@ -1,0 +1,459 @@
+{
+  "id": "cmnrszl7n012v1az1n8zyxhp7",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Soupergirl",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "21.78",
+    "purchaseDate": "2026-04-09",
+    "time": null,
+    "zipCode": "20011",
+    "city": "Washington",
+    "state": "DC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11015.58879200002,
+        "totalUsd": 0.024834,
+        "inputTokens": 6134,
+        "outputTokens": 1737,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:46",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20011",
+          "status": "match"
+        },
+        "city": {
+          "value": "WASHINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "DC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3830 GEORGIA AVE NW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1005",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MARUCHAN RAMEN SP + 4178900211 + Member Savings -0.24",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GATORADE LOWER SGR + 5200006779 + Member Savings -0.98 + for U Savings -2.00",
+          "quantity": 2,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MALK COCONUT CREAM + 85003046432 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIG SNACKING TOMAT + 2113015055 + Member Savings -1.49",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIG MINI CUCUMBERS + 5783616826 + Member Savings -2.49",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LEMONS LARGE + 7224013429 + Member Savings -0.19",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIMES LARGE + 85000914545",
+          "quantity": 1,
+          "unitPrice": 0.59,
+          "totalSpend": 0.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PETEYS BING BLACK + 89081700100 + Member Savings -0.82",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PORTUGUESE WHT BN + 85001178826",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY (S)\nStore 2808 Dir Kiana Graves\nMain: (202) 722-4023 Rx: (202) 722-406\n3830 GEORGIA AVE NW\nWASHINGTON DC 20011\n00280809300872604091346\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n4178900211 MARUCHAN RAMEN SP 0.99 0.75 S\nMember Savings -0.24\n5200006779 2@ GATORADE LOWER SGR 4.98 2.00 F\nMember Savings -0.98\nfor U Savings -2.00\nREFRIG/FROZEN\n85003046432 MALK COCONUT CREAM 6.99 4.99 S\nMember Savings -2.00\nPRODUCE\n2113015055 SIG SNACKING TOMAT 3.99 2.50 S\nMember Savings -1.49\n5783616826 SIG MINI CUCUMBERS 3.99 1.50 S\nMember Savings -2.49\n7224013429 LEMONS LARGE 0.69 0.50 S\nMember Savings -0.19\n85000914545 LIMES LARGE 0.59 0.59 S\n89081700100 PETEYS BING BLACK 2.49 1.67 B\nMember Savings -0.82\nDELI\n85001178826 PORTUGUESE WHT BN 6.99 6.99 S\nTAX 0.29\n**** BALANCE 21.78\nCredit Purchase 04/09/26 13:46\nCARD # ************1005\nREF: 704633410050 AUTH: 00864934\nPAYMENT AMOUNT 21.78\nAL AMERICAN EXPRESS\nAID A000000025010801\nTVR 0000008000\nAMEX 21.78\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 8.21\nfor U Savings 2.00\nTotal 10.21\nTotal Savings Value 32%\nYOUR POINTS\nPoints Earned Today 17\nPoints Available 25\nTOTAL NUMBER OF ITEMS SOLD = 10\n04/09/26 13:46 2808 93 87 8893\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19116.67983400001,
+        "totalUsd": 0.04524599999999999,
+        "inputTokens": 3716,
+        "outputTokens": 1746,
+        "reasoningTokens": 2662
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:46",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20011",
+          "status": "match"
+        },
+        "city": {
+          "value": "WASHINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "DC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3830 GEORGIA AVE NW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1005",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MARUCHAN RAMEN SP + 4178900211 + Member Savings -0.24",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GATORADE LOWER SGR + 5200006779 + Member Savings -0.98 + for U Savings -2.00",
+          "quantity": 2,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MALK COCONUT CREAM + 85003046432 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIG SNACKING TOMAT + 2113015055 + Member Savings -1.49",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIG MINI CUCUMBERS + 5783616826 + Member Savings -2.49",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LEMONS LARGE + 7224013429 + Member Savings -0.19",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIMES LARGE + 85000914545",
+          "quantity": 1,
+          "unitPrice": 0.59,
+          "totalSpend": 0.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PETEYS BING BLACK + 89081700100 + Member Savings -0.82",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PORTUGUESE WHT BN + 85001178826",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 2808 Dir Kiana Graves\nMain: (202) 722-4023 Rx: (202) 722-406\n3830 GEORGIA AVE NW\nWASHINGTON DC 20011\n00280809300872604091346\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n4178900211 MARUCHAN RAMEN SP\n0.99 0.75 S\nMember Savings -0.24\n5200006779 2@ GATORADE LOWER SGR\n4.98 2.00 F\nMember Savings -0.98\nfor U Savings -2.00\nREFRIG/FROZEN\n85003046432 MALK COCONUT CREAM\n6.99 4.99 S\nMember Savings -2.00\nPRODUCE\n2113015055 SIG SNACKING TOMAT\n3.99 2.50 S\nMember Savings -1.49\n5783616826 SIG MINI CUCUMBERS\n3.99 1.50 S\nMember Savings -2.49\n7224013429 LEMONS LARGE\n0.69 0.50 S\nMember Savings -0.19\n85000914545 LIMES LARGE\n0.59 0.59 S\n89081700100 PETEYS BING BLACK\n2.49 1.67 B\nMember Savings -0.82\nDELI\n85001178826 PORTUGUESE WHT BN\n6.99 6.99 S\nTAX\n0.29\n**** BALANCE\n21.78\nCredit Purchase 04/09/26 13:46\nCARD # ************1005\nREF: 704633410050 AUTH: 00864934\nPAYMENT AMOUNT\n21.78\nAL AMERICAN EXPRESS\nAID A000000025010801\nTVR 0000008000\nAMEX\n21.78\nCHANGE\n0.00\nYOUR SAVINGS\nMember Savings\n8.21\nfor U Savings\n2.00\nTotal\n10.21\nTotal Savings Value\n32%\nYOUR POINTS\nPoints Earned Today 17\nPoints Available 25\nTOTAL NUMBER OF ITEMS SOLD = 10\n04/09/26 13:46 2808 93 87 8893\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7963.859291000001,
+        "totalUsd": 0.020973,
+        "inputTokens": 3716,
+        "outputTokens": 1711,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:46",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20011",
+          "status": "match"
+        },
+        "city": {
+          "value": "WASHINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "DC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3830 GEORGIA AVE NW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1005",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MARUCHAN RAMEN SP + 4178900211 + Member Savings -0.24",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GATORADE LOWER SGR + 5200006779 + Member Savings -0.98 + for U Savings -2.00",
+          "quantity": 2,
+          "unitPrice": 2.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MALK COCONUT CREAM + 85003046432 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIG SNACKING TOMAT + 2113015055 + Member Savings -1.49",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIG MINI CUCUMBERS + 5783616826 + Member Savings -2.49",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LEMONS LARGE + 7224013429 + Member Savings -0.19",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIMES LARGE + 85000914545",
+          "quantity": 1,
+          "unitPrice": 0.59,
+          "totalSpend": 0.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PETEYS BING BLACK + 89081700100 + Member Savings -0.82",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PORTUGUESE WHT BN + 85001178826",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 2808 Dir Kiana Graves\nMain: (202) 722-4023 Rx: (202) 722-406\n3830 GEORGIA AVE NW\nWASHINGTON DC 20011\n00280809300872604091346\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n4178900211 MARUCHAN RAMEN SP 0.99 0.75 S\nMember Savings -0.24\n5200006779 2@ GATORADE LOWER SGR 4.98 2.00 F\nMember Savings -0.98\nfor U Savings -2.00\nREFRIG/FROZEN\n85003046432 MALK COCONUT CREAM 6.99 4.99 S\nMember Savings -2.00\nPRODUCE\n2113015055 SIG SNACKING TOMAT 3.99 2.50 S\nMember Savings -1.49\n5783616826 SIG MINI CUCUMBERS 3.99 1.50 S\nMember Savings -2.49\n7224013429 LEMONS LARGE 0.69 0.50 S\nMember Savings -0.19\n85000914545 LIMES LARGE 0.59 0.59 S\n89081700100 PETEYS BING BLACK 2.49 1.67 E\nMember Savings -0.82\nDELI\n85001178826 PORTUGUESE WHT BN 6.99 6.99 S\nTAX 0.29\n**** BALANCE 21.78\nCredit Purchase 04/09/26 13:46\nCARD # ************1005\nREF: 704633410050 AUTH: 00864934\nPAYMENT AMOUNT 21.78\nAL AMERICAN EXPRESS\nAID A000000025010801\nTVR 0000008000\nAMEX 21.78\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 8.21\nfor U Savings 2.00\nTotal 10.21\nTotal Savings Value 32%\nYOUR POINTS\nPoints Earned Today 17\nPoints Available 25\nTOTAL NUMBER OF ITEMS SOLD = 10\n04/09/26 13:46 2808 93 87 8893\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MARUCHAN RAMEN SP 0.99 + 4178900211 + Membar Savings -0.24",
+      "price": 0.75,
+      "quantity": 1,
+      "totalSpend": 0.75
+    },
+    {
+      "text": "GATORADE LOWER SGR 4.98 + 5200006779 + Member Savinps -0.98 + for U Savings -2.00 + REFRIG/FROZEN",
+      "price": 1,
+      "quantity": 2,
+      "totalSpend": 2
+    },
+    {
+      "text": "MALK COCONUT CREAM 6.99 + 85003046432 + Member Savings -2.00 + PRODUCE",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "SIG SNACKING TOMAT 3.99 + 2113015055 + Member Savings -1.49",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "SIG MINI CUCUMBERS 3.99 + 5783616826 + Membar Savings -2.49",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "LEMONS LARGE 0.69 + 7224013429 + Member Savings -0.19",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    },
+    {
+      "text": "LIMES LRRGE + 85000914645",
+      "price": 0.59,
+      "quantity": 1,
+      "totalSpend": 0.59
+    },
+    {
+      "text": "PETEYS BING BLACK 2.49 + 89081700100 + Member Savings -0.82 + DELI",
+      "price": 1.67,
+      "quantity": 1,
+      "totalSpend": 1.67
+    },
+    {
+      "text": "PORTUGUESE WHT BN + 85001178826",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

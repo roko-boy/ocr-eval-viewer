@@ -1,0 +1,270 @@
+{
+  "id": "cmp4ka97a00f01iqn8061l5d5",
+  "url": null,
+  "retailer": "Grand Island Fat Dogs",
+  "brand": "f'real",
+  "amount": 2.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Grand Island Fat Dogs",
+    "totalCost": "8.62",
+    "purchaseDate": "2026-05-13",
+    "time": null,
+    "zipCode": "69101",
+    "city": "Doniphan",
+    "state": "NE",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8206.813667999999,
+        "totalUsd": 0.016104,
+        "inputTokens": 6086,
+        "outputTokens": 775,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fat Dogs",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "8.62",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:06:37 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "69101",
+          "status": "match"
+        },
+        "city": {
+          "value": "NORTH PLATTE",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3400 HALLIGAN DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4352",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Hostess Donnettes C",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2 FREAL OREO COOKIE &",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nFATDOGS GULF\nNORTH PLATTE NE\nEXIT 179\n(308) 532-3090\n***************\n1790\n3400 HALLIGAN DR\nNORTH PLATTE NE 69101\n\n<CUSTOMER COPY>\n\nDescription\tQty\tAmount\n-----------\t---\t------\nHostess Donnettes C\t1\t3.79\n2 FREAL OREO COOKIE &\t1\t4.49\n\nSubtotal\t8.28\nTax\t0.34\nTOTAL\t8.62\nDEBIT $\t8.62\n\nSALE Receipt\nUSD$8.62\nPayment from Primary Account\nAcct/Card #: ************4352\nEntry: Contactless ICC\nAppName: US DEBIT\nAuthNet: INTERLNK\nMODE: Issuer\nAID: A0000000980840\nAuth #: 947487\nResp Code: 000\nStan: 03011747950\nInvoice #: 858221\nShift #: 1\nStore # ***************\n\nVerified By PIN\nNo Signature Needed\n\nCUSTOMER COPY\n\nAPPROVED\n\nTHANKS COME AGAIN!!\nLIKE US ON FACEBOOK\n@FatDogsNebraska\nVisit us online @ FatDogs.com\nST#1790\tDR#1 TRAN#1038060\nCSH: 3\t5/13/26 4:06:37 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10695.804625,
+        "totalUsd": 0.025356,
+        "inputTokens": 3692,
+        "outputTokens": 754,
+        "reasoningTokens": 1448
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fat Dogs Gulf",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "8.62",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:06:37 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "69101",
+          "status": "match"
+        },
+        "city": {
+          "value": "NORTH PLATTE",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3400 HALLIGAN DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4352",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Hostess Donnettes C",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2 FREAL OREO COOKIE &",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nFATDOGS GULF\nNORTH PLATTE NE\nEXIT 179\n(308) 532-3090\n****************\n1790\n3400 HALLIGAN DR\nNORTH PLATTE NE 69101\n\n<CUSTOMER COPY>\n\nDescription Qty Amount\n-----------------------\nHostess Donnettes C 1 3.79\n2 FREAL OREO COOKIE & 1 4.49\nSubtotal 8.28\nTax 0.34\nTOTAL 8.62\nDEBIT $ 8.62\n\nSALE Receipt\nUSD$8.62\nPayment from Primary Account\nAcct/Card #: ************4352\nEntry: Contactless ICC\nAppName: US DEBIT\nAuthNet: INTERLNK\nMODE: Issuer\nAID: A0000000980840\nAuth #: 947487\nResp Code: 000\nStan: 03011747950\nInvoice #: 858221\nShift #: 1\nStore # ****************\n\nVerified By PIN\nNo Signature Needed\n\nCUSTOMER COPY\n\nAPPROVED\n\nTHANKS COME AGAIN!!\nLIKE US ON FACEBOOK\n@FatDogsNebraska\nVisit us online @ FatDogs.com\nST#1790 DR#1 TRAN#1038060\nCSH: 3 5/13/26 4:06:37 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4328.367791999999,
+        "totalUsd": 0.012306,
+        "inputTokens": 3692,
+        "outputTokens": 752,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fat Dogs",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "8.62",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:06:37 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "69101",
+          "status": "match"
+        },
+        "city": {
+          "value": "NORTH PLATTE",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3400 HALLIGAN DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4352",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Hostess Donnettes C",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2 FREAL OREO COOKIE &",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nFATDOGS GULF\nNORTH PLATTE NE\nEXIT 179\n(308) 532-3090\n****************\n1790\n3400 HALLIGAN DR\nNORTH PLATTE NE 69101\n\n<CUSTOMER COPY>\n\nDescription Qty Amount\n-------------------------\nHostess Donnettes C 1 3.79\n2 FREAL OREO COOKIE & 1 4.49\n\nSubtotal 8.28\nTax 0.34\nTOTAL 8.62\nDEBIT $ 8.62\n\nSALE Receipt\nUSD$8.62\nPayment from Primary Account\nAcct/Card #: ************4352\nEntry: Contactless ICC\nAppName: US DEBIT\nAuthNet: INTERLNK\nMODE: Issuer\nAID: A0000000980840\nAuth #: 947487\nResp Code: 000\nStan: 03011747950\nInvoice #: 858221\nShift #: 1\nStore # ****************\n\nVerified By PIN\nNo Signature Needed\n\nCUSTOMER COPY\n\nAPPROVED\n\nTHANKS COME AGAIN!!\nLIKE US ON FACEBOOK\n@FatDogsNebraska\nVisit us online @ FatDogs.com\nST#1790 DR#1 TRAN#1038060\nCSH: 3 5/13/26 4:06:37 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Hostess Donnettes C",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "FREAL OREO COOKIE &",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

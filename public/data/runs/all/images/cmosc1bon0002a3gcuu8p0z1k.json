@@ -1,0 +1,351 @@
+{
+  "id": "cmosc1bon0002a3gcuu8p0z1k",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Madhava Foods",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "27.45",
+    "purchaseDate": "2026-04-29",
+    "time": null,
+    "zipCode": "94015",
+    "city": "Daly City",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 20901.16370799998,
+        "totalUsd": 0.0328425,
+        "inputTokens": 6169,
+        "outputTokens": 1175,
+        "reasoningTokens": 1446
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "27.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:23 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94015",
+          "status": "match"
+        },
+        "city": {
+          "value": "Daly City",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "301 Gellert Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0747",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG AMBER AGAVE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG LIGHT AGAVE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRADITIONAL CORN BRD",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRADITIONAL CORN BRD + BOGO 50% OFF BAKERY",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MINI PIZZA BAGELS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n301 Gellert Blvd.\nDaly City, CA 94015\n(415) 325-1091\nStore Hours MON-SUN 7AM-10PM\nCard # XXXXXXXXXXXX0747 PIN Used\nFood Stamps +++ APPROVED +++\nPurchase Amount $ 27.45\nEBT Food Balance $ 519.66\nEBT Cash Balance $ 22.84\nAuth # 811729 Exp Date **/**\nLane # 31 Cashier # 931\n04/29/26 18:24 Ref/Seq #315529\nEPS Sequence # 315529\nChip Card: EBT\nAID: A0000000044542\nEntry Method: Chip Read\nGROCERY\nORG AMBER AGAVE 5.99\nORG LIGHT AGAVE 5.99\nBAKERY\nTRADITIONAL CORN BRD 5.99\nTRADITIONAL CORN BRD 5.99\nBOGO 50% OFF BAKERY -3.00\nFROZEN\nMINI PIZZA BAGELS 6.49\nBALANCE DUE 27.45\nFood Stamps $27.45\n[ ] XXXXXXXXXXXX0747\nExp. DATE: /\nAuth# 811729 Ref# 315529\nEnding F/S Bal. 519.66\nEnding Cash Bal. 22.84\nFOOD STAMPS TOTAL $27.45\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 1 3.00\nCard XXXXXXXXXX1623\nHave a Healthy Day Grace!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 110\nTotal Points earned today: 135\nNew points balance: 245\n***********************************\n99027603153601191823\n***********************************\nCashier:SSCO 31 Store: 276\nPOS:031 Transaction:5360\nWednesday, April 29, 2026 06:23 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17150.90887499996,
+        "totalUsd": 0.04107,
+        "inputTokens": 3692,
+        "outputTokens": 1228,
+        "reasoningTokens": 2720
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "27.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:23 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94015",
+          "status": "match"
+        },
+        "city": {
+          "value": "Daly City",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "375 Gellert Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0747",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG AMBER AGAVE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG LIGHT AGAVE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRADITIONAL CORN BRD",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRADITIONAL CORN BRD + BOGO 50% OFF BAKERY",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MINI PIZZA BAGELS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n375 Gellert Blvd.\nDaly City, CA 94015\n(415) 325-1091\nStore Hours MON-SUN 7AM-10PM\n\nCard # XXXXXXXXXXXX0747   PIN Used\nFood Stamps +++ APPROVED +++\nPurchase Amount $   27.45\n\nEBT Food Balance $   519.66\n\nEBT Cash Balance $    22.84\n\nAuth # 811729     Exp Date **/**\nLane # 31         Cashier # 931\n04/29/26 18:24    Ref/Seq #315529\nEPS Sequence      # 315529\nChip Card:        EBT\nAID:              A0000000044542\nEntry Method:     Chip Read\n\n\nGROCERY\n  ORG AMBER AGAVE                     5.99\n  ORG LIGHT AGAVE                     5.99\n\nBAKERY\n  TRADITIONAL CORN BRD                5.99\n  TRADITIONAL CORN BRD                5.99\n    BOGO 50% OFF BAKERY              -3.00\n\nFROZEN\n  MINI PIZZA BAGELS                   6.49\n\n      BALANCE DUE                    27.45\n      Food Stamps                   $27.45\n      [ ] XXXXXXXXXXXX0747\n      Exp. DATE:    /\n      Auth# 811729      Ref# 315529\n      Ending F/S Bal.       519.66\n      Ending Cash Bal.       22.84\n      FOOD STAMPS TOTAL     $27.45\n      CHANGE                  0.00\n\nYou Saved!\n  TOTAL DISCOUNTS       1             3.00\n\nCard XXXXXXXXXX1623\n----------------------------------------\nHave a Healthy Day Grace!\n****************************************\nSprouts Rewards\n\nPrevious Points Balance:       110\nTotal Points earned today:     135\nNew points balance:            245\n****************************************\n\n          99027603153601191823\n****************************************\n\nCashier:SSCO 31  Store: 276\nPOS:031 Transaction:5360\nWednesday, April 29, 2026 06:23 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8039.313792000001,
+        "totalUsd": 0.016266,
+        "inputTokens": 3692,
+        "outputTokens": 1192,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "27.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:23 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94015",
+          "status": "match"
+        },
+        "city": {
+          "value": "Daly City",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "375 Gellert Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0747",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG AMBER AGAVE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG LIGHT AGAVE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRADITIONAL CORN BRD",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRADITIONAL CORN BRD + BOGO 50% OFF BAKERY",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MINI PIZZA BAGELS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n375 Gellert Blvd.\nDaly City, CA 94015\n(415) 325-1091\nStore Hours MON-SUN 7AM-10PM\n\nCard # XXXXXXXXXXXX0747 PIN Used\nFood Stamps +++ APPROVED +++\nPurchase Amount $ 27.45\n\nEBT Food Balance $ 519.66\nEBT Cash Balance $ 22.84\n\nAuth # 811729 Exp Date **/**\nLane # 31 Cashier # 931\n04/29/26 18:24 Ref/Seq #315529\nEPS Sequence # 315529\nChip Card: EBT\nAID: A0000000044542\nEntry Method: Chip Read\n\nGROCERY\nORG AMBER AGAVE 5.99\nORG LIGHT AGAVE 5.99\n\nBAKERY\nTRADITIONAL CORN BRD 5.99\nTRADITIONAL CORN BRD 5.99\nBOGO 50% OFF BAKERY -3.00\n\nFROZEN\nMINI PIZZA BAGELS 6.49\n\nBALANCE DUE 27.45\nFood Stamps $27.45\n[ ] XXXXXXXXXXXX0747\nExp. DATE: /\nAuth# 811729 Ref# 315529\nEnding F/S Bal. 519.66\nEnding Cash Bal. 22.84\nFOOD STAMPS TOTAL $27.45\nCHANGE 0.00\n\nYou Saved!\nTOTAL DISCOUNTS 1 3.00\n\nCard XXXXXXXXXX1623\n-----------------------------------------\nHave a Healthy Day Grace!\n*****************************************\nSprouts Rewards\n-----------------------------------------\nPrevious Points Balance: 110\nTotal Points earned today: 135\nNew points balance: 245\n*****************************************\n99027603153601191823\n*****************************************\nCashier:SSCO 31 Store: 276\nPOS:031 Transaction:5360\nWednesday, April 29, 2026 06:23 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ORG AMBER AGAVE",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "ORG LIGHT AGAVE",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "TRADITIONAL CORN BRD",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "TRADITIONAL CORN BRD",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "MINI PIZZA BAGELS",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

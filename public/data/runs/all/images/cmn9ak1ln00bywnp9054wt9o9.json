@@ -1,0 +1,412 @@
+{
+  "id": "cmn9ak1ln00bywnp9054wt9o9",
+  "url": null,
+  "retailer": "Giant Eagle Supermarket",
+  "brand": "Perfect Bar",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Giant Eagle",
+    "totalCost": "21.61",
+    "purchaseDate": "2026-03-27",
+    "time": null,
+    "zipCode": "15074",
+    "city": "Rochester",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8234.859458000006,
+        "totalUsd": 0.020811,
+        "inputTokens": 6086,
+        "outputTokens": 1298,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant Eagle",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:22pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15074",
+          "status": "match"
+        },
+        "city": {
+          "value": "Rochester",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "111 W. Madison St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8177",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOYLAN SODA 4PK",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KINDER BUENO PINT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FM SDLS CUCUMBR + 1 @ 4/5.00",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OREO STAND BAR",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GG RPK REESE FST B + 1 @ 2/6.00",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PERFECT BAR CHO CH + 0.91 lb @ 3.99 /lb",
+          "quantity": 1,
+          "unitPrice": 3.63,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SUMO CITRUS 18/1LB + 0.91 lb @ 3.99 /lb",
+          "quantity": 1,
+          "unitPrice": 3.63,
+          "totalSpend": 3.63,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VOIDP SUMO CITRUS 18/1LB",
+          "quantity": 1,
+          "unitPrice": -3.63,
+          "totalSpend": -3.63,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "giant\neagle\n\n#62 ROCHESTER\n111 W. Madison St.   724-775-0551\nRochester, PA 15074\n\nBOYLAN SODA 4PK       6.49 B\nKINDER BUENO PINT     5.99 F\nFM SDLS CUCUMBR       1.00 F\n1 @ 4/5.00\nOREO STAND BAR        1.25 F\nGG RPK REESE FST B    3.49 F\n1 @ 2/6.00\nPERFECT BAR CHO CH    3.00 F\n0.91 lb @ 3.99 /lb\nWT SUMO CITRUS 18/1LB 3.63 F\n0.91 lb @ 3.99 /lb\nVOIDP SUMO CITRUS 18/1LB 3.63-F\nTAX                   0.39\n\n**** BALANCE          21.61\n\n**********************************\nDATE: 03/27/26 TIME: 03:22pm\nTYPE: Purchase\n----------------------------------\nACCT: VISA CREDIT     21.61\nAPPROVED\n----------------------------------\n*** CARD # ************8177\n*** REF # 51696810606   C\n*** AUTH # 027499\n\nTERMINAL: 393\nAID: A0000000031010\nTVR: 8000008000\nTSI: 6800\n\n**********************************\n(Signature Not Required)\n\nVISA                  21.61\nCHANGE                 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\n\n03/27/26 03:22pm   62 393   61 393000\n\nCARD # ******71111\n**********************************\nmy+\nperks\n\nYou earned 21 perks today!\nTotal Perks",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20397.994834,
+        "totalUsd": 0.050007,
+        "inputTokens": 3692,
+        "outputTokens": 1126,
+        "reasoningTokens": 3815
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant Eagle",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:22pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15074",
+          "status": "match"
+        },
+        "city": {
+          "value": "Rochester",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "111 W. Madison St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8177",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOYLAN SODA 4PK",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KINDER BUENO PINT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FM SDLS CUCUMBR + 1 @ 4/5.00",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OREO STAND BAR",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GG RPK REESE FST B",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR CHO CH + 1 @ 2/6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "giant eagle\n\n#62 ROCHESTER\n111 W. Madison St.  724-775-0551\nRochester, PA 15074\n\nBOYLAN SODA 4PK  6.49 B\nKINDER BUENO PINT  5.99 F\nFM SDLS CUCUMBR  1.00 F\n1 @ 4/5.00\nOREO STAND BAR  1.25 F\nGG RPK REESE FST B  3.49 F\n1 @ 2/6.00\nPERFECT BAR CHO CH  3.00 F\n0.91 lb @ 3.99 /lb\nWT SUMO CITRUS 18/1LB  3.63 F\n0.91 lb @ 3.99 /lb\nVOIOP SUMO CITRUS 18/1LB  3.63-F\nTAX  0.39\n\n**** BALANCE  21.61\n\n****************************************\nDATE: 03/27/26 TIME: 03:22pm\nTYPE: Purchase\n----------------------------------------\nACCT: VISA CREDIT  21.61\nAPPROVED\n----------------------------------------\n*** CARD # ************8177\n*** REF # 51696810606  C\n*** AUTH # 027499\n\nTERMINAL: 393\nAID: A0000000031010\nTVR: 8000008000\nTSI: 6800\n\n****************************************\n(Signature Not Required)\n\nVISA  21.61\nCHANGE  0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\n\n03/27/26 03:22pm  62 393  61 393000\n\nCARD # ******71111\n****************************************\nmy+\nperks\n\nYou earned 21 perks today!\n\nTotal Perks",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6382.171833,
+        "totalUsd": 0.016923,
+        "inputTokens": 3692,
+        "outputTokens": 1265,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant Eagle",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:22pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15074",
+          "status": "match"
+        },
+        "city": {
+          "value": "Rochester",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "111 W. Madison St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8177",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOYLAN SODA 4PK",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KINDER BUENO PINT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FM SDLS CUCUMBR + 1 @ 4/5.00",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OREO STAND BAR",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GG RPK REESE FST B + 1 @ 2/6.00",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PERFECT BAR CHO CH",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SUMO CITRUS 18/1LB + WT 0.91 lb @ 3.99 /lb",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.63,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SUMO CITRUS 18/1LB + VOIDED WT 0.91 lb @ 3.99 /lb",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": -3.63,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "giant\neagle\n#62 ROCHESTER\n111 W. Madison St. 724-775-0551\nRochester, PA 15074\nBOYLAN SODA 4PK 6.49 B\nKINDER BUENO PINT 5.99 F\nFM SDLS CUCUMBR 1.00 F\n1 @ 4/5.00\nOREO STAND BAR 1.25 F\nGG RPK REESE FST B 3.49 F\n1 @ 2/6.00\nPERFECT BAR CHO CH 3.00 F\n0.91 lb @ 3.99 /lb\nWT SUMO CITRUS 18/1LB 3.63 F\n0.91 lb @ 3.99 /lb\nVOIDP SUMO CITRUS 18/1LB 3.63-F\nTAX 0.39\n**** BALANCE 21.61\n****************************************\nDATE: 03/27/26 TIME: 03:22pm\nTYPE: Purchase\n----------------------------------------\nACCT: VISA CREDIT 21.61\nAPPROVED\n----------------------------------------\n*** CARD # ************8177\n*** REF # 51696810606 C\n*** AUTH # 027499\nTERMINAL: 393\nAID: A0000000031010\nTVR: 8000008000\nTSI: 6800\n****************************************\n(Signature Not Required)\nVISA 21.61\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\n03/27/26 03:22pm 62 393 61 393000\nCARD # ******71111\n****************************************\nmy+\nperks\nYou earned 21 perks today!\nTotal Perks",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOYLAN SODA 4PK",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "KINDER BUENO PINT",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "FM SDLS CUCUMBR + 1 @ 4/5.00",
+      "price": 1,
+      "quantity": 1,
+      "totalSpend": 1
+    },
+    {
+      "text": "OREO STAND BAR + 1 @ 4/5.00",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "GG RPK REESE FST B + 1 @ 2/6.00",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "PERFECT BAR CHO CH + 1 @ 2/6.00 + 0.91 lb @ 3.99 /lb",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "SUMO CITRUS 18/1LB + 0.91 lb @ 3.99 /lb",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

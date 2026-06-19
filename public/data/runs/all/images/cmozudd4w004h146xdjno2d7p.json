@@ -1,0 +1,297 @@
+{
+  "id": "cmozudd4w004h146xdjno2d7p",
+  "url": null,
+  "retailer": "Stop & Shop",
+  "brand": "Go Raw",
+  "amount": 7.15,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Stop & Shop",
+    "totalCost": "7.15",
+    "purchaseDate": "2026-05-10",
+    "time": null,
+    "zipCode": "06066",
+    "city": "Vernon",
+    "state": "CT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10453.40579199998,
+        "totalUsd": 0.01767,
+        "inputTokens": 6158,
+        "outputTokens": 937,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:56 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06066",
+          "status": "match"
+        },
+        "city": {
+          "value": "VERNON",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 PITKIN ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4909",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GORAW PMKN 10Z + SAVINGS + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB SHRLY TMP 2L",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP BTL/CAN DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n10 PITKIN ROAD\nVERNON, CT 06066\nStore Telephone: (860) 871-0897\nPharmacy Telephone: (860) 871-1053\nStore #613 05/10/26 09:56am\nGROCERY\nGORAW PMKN 10Z 8.99 F\nSAVINGS 3.00-F\nPRICE YOU PAY 5.99\nSB SHRLY TMP 2L 1.00 B\nDP BTL/CAN DEPOSIT 0.10 F\nTotal After Savings 7.09\nTAX 0.06\n**** BALANCE 7.15\n****************************************\nPayment Type: Mastercard\nCHIP Purchase\nCard: ************4909\nPayment Amt: $7.15\nBALANCE: $\nAID: A0000000041010\nAUTH#06419Z RC#00 05/10/26 09:59am\n****************************************\nMASTERCARD 7.15\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n********* SAVINGS SUMMARY *********\nCard Savings: 3.00\nYour Total Savings: 3.00\n05/10/26 09:59am 613 420 34 880020\n****************************************\n******* GO Points *******\nGO Points Today 7\nTotal GO Points 19\nOpen your Stop & Shop mobile app or\ngo to StopandShop.com to redeem these\npoints for:\n100 points - $1 off your\nnext in-store or online\ngrocery order, or\n100 points - $.10 off each\ngallon of gas at participating fuel\nsites. Open our app or website to\nredeem your points.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9241.668542000029,
+        "totalUsd": 0.021522,
+        "inputTokens": 3728,
+        "outputTokens": 946,
+        "reasoningTokens": 824
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:56 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06066",
+          "status": "match"
+        },
+        "city": {
+          "value": "VERNON",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 PITKIN ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4909",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GORAW PMKN 10Z + SAVINGS + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB SHRLY TMP 2L",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BTL/CAN DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n10 PITKIN ROAD\nVERNON, CT 06066\nStore Telephone: (860) 871-0897\nPharmacy Telephone: (860) 871-1053\nStore #613 05/10/26 09:56am\nGROCERY\nGORAW PMKN 10Z 8.99 F\nSAVINGS 3.00-F\nPRICE YOU PAY 5.99\nSB SHRLY TMP 2L 1.00 B\nDP BTL/CAN DEPOSIT 0.10 F\nTotal After Savings 7.09\nTAX 0.06\n**** BALANCE 7.15\n****************************************\nPayment Type: Mastercard\nCHIP Purchase\nCard: ************4909\nPayment Amt: $7.15\nBALANCE: $\nAID: A0000000041010\nAUTH#06419Z RC#00 05/10/26 09:59am\n****************************************\nMASTERCARD 7.15\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n********* SAVINGS SUMMARY *********\nCard Savings: 3.00\nYour Total Savings: 3.00\n05/10/26 09:59am 613 420 34 880020\n****************************************\n******* GO Points *******\nGO Points Today 7\nTotal GO Points 19\nOpen your Stop & Shop mobile app or\ngo to StopandShop.com to redeem these\npoints for:\n100 points - $1 off your\nnext in-store or online\ngrocery order, or\n100 points - $.10 off each\ngallon of gas at participating fuel\nsites. Open our app or website to\nredeem your points.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4982.676999999996,
+        "totalUsd": 0.013872,
+        "inputTokens": 3728,
+        "outputTokens": 920,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:56 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06066",
+          "status": "match"
+        },
+        "city": {
+          "value": "VERNON",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 PITKIN ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4909",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GORAW PMKN 10Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB SHRLY TMP 2L",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BTL/CAN DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n10 PITKIN ROAD\nVERNON, CT 06066\nStore Telephone: (860) 871-0897\nPharmacy Telephone: (860) 871-1053\nStore #613 05/10/26 09:56am\nGROCERY\nGORAW PMKN 10Z 8.99 F\nSAVINGS 3.00-F\nPRICE YOU PAY 5.99\nSB SHRLY TMP 2L 1.00 B\nDP BTL/CAN DEPOSIT 0.10 F\nTotal After Savings 7.09\nTAX 0.06\n**** BALANCE 7.15\n****************************************\nPayment Type: Mastercard\nCHIP Purchase\nCard: ************4909\nPayment Amt: $7.15\nBALANCE: $\nAID: A0000000041010\nAUTH#06419Z RC#00 05/10/26 09:59am\n****************************************\nMASTERCARD 7.15\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n********* SAVINGS SUMMARY *********\nCard Savings: 3.00\nYour Total Savings: 3.00\n05/10/26 09:59am 613 420 34 880020\n****************************************\n******* GO Points *******\nGO Points Today 7\nTotal GO Points 19\nOpen your Stop & Shop mobile app or\ngo to StopandShop.com to redeem these\npoints for:\n100 points - $1 off your\nnext in-store or online\ngrocery order, or\n100 points - $.10 off each\ngallon of gas at participating fuel\nsites. Open our app or website to\nredeem your points.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GORAW PMKN 1OZ + GROCERY",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "SB SHRLY TMP 2L",
+      "price": 1,
+      "quantity": 1,
+      "totalSpend": 1
+    },
+    {
+      "text": "BTL/CAN DEPOSIT",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

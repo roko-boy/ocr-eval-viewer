@@ -1,0 +1,513 @@
+{
+  "id": "cmpoq3f5n00cdr6o9wqmq2cpw",
+  "url": null,
+  "retailer": "Meijer",
+  "brand": "Slate",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "22.46",
+    "purchaseDate": "2026-05-27",
+    "time": null,
+    "zipCode": "44011",
+    "city": "Avon",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 22933.195458,
+        "totalUsd": 0.026013,
+        "inputTokens": 6086,
+        "outputTokens": 1876,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-27",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44011",
+          "status": "match"
+        },
+        "city": {
+          "value": "Avon",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1810 Nagel Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3671",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "71373367565 SPARKLING WATE + mPerks Offer => .25 off",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.64,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4125010269 MILK + mPerks Offer => FREE item",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4157005418 MILK ALTERNATV + mPerks Offer => .50 off",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9800010138 PURE LEAF + 2 @ 2.29 + => FREE item + => FREE item",
+          "quantity": 2,
+          "unitPrice": 2.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "9800010142 PURE LEAF + 2 @ 2.29",
+          "quantity": 2,
+          "unitPrice": 2.29,
+          "totalSpend": 4.58,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*85002974297 SLATE 11 OZ + 2 @ 3.00 + was 7.58 now 6.00",
+          "quantity": 2,
+          "unitPrice": 3.79,
+          "totalSpend": 6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*3663203273 DANNON LNF + was 5.79 now 4.99",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*76163520260 BLACKBERRIES + 1 @ 4 / 5.00 + was 2.69 now 1.25 + mPerks Offer => .35 off",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 0.9,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*81363501307 RASPBERRIES + 1 @ 4 / 5.00 + was 3.19 now 1.25 + mPerks Offer => .75 off",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*71373380345 FFM BABY SPNCH + was 2.49 now .87",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 0.87,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*87489600037 PERO GREEN BEA + was 4.39 now 1.76",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 1.76,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n1810 Nagel Rd.\nAvon, OH 44011 - #308\n(440)695-2428 meijer.com\n05/27/26 Fastlane126\nMEIJER SAVINGS\nmPerks 4.04\nSPECIALS 14.59\nSAVINGS TOTAL 18.63\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n257.96\nGROCERY\n71373367565 SPARKLING WATE .89 FT\nmPerks Offer\n=> .25 off -.25 N\n4125010269 MILK 2.19 F\nmPerks Offer\n=> FREE item -2.19 N\n4157005418 MILK ALTERNATV 2.29 F\nmPerks Offer\n=> .50 off -.50 F\n9800010138 PURE LEAF\n2 @ 2.29 4.58 FT\n=> FREE item -2.29 FT\n=> FREE item -2.29 FT\n9800010142 PURE LEAF\n2 @ 2.29 4.58 F\n*85002974297 SLATE 11 OZ\n2 @ 3.00\nwas 7.58 now 6.00 FT\n*3663203273 DANNON LNF\nwas 5.79 now 4.99 F\n*76163520260 BLACKBERRIES\n1 @ 4 / 5.00\nwas 2.69 now 1.25 F\nmPerks Offer\n=> .35 off -.35 F\n*81363501307 RASPBERRIES\n1 @ 4 / 5.00\nwas 3.19 now 1.25 F\nmPerks Offer\n=> .75 off -.75 F\n*71373380345 FFM BABY SPNCH\nwas 2.49 now .87 F\n*87489600037 PERO GREEN BEA\nwas 4.39 now 1.76 F\nmPerks # -- ********33\nTOTAL\nOH 6.50% Sales Tax .43\nTOTAL TAX .43\nTOTAL 22.46\nPAYMENTS\nVISA Payment TENDER 22.46\nXXXXXXXXXXXX3671 (X)\nAPPROVAL CODE 06654C\nVISA CREDIT\nAID A0000000031010\nTC 981612202CC0E8D9\nNO CVM REQUIRED\nNUMBER OF ITEMS 14",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19896.01287500001,
+        "totalUsd": 0.049188,
+        "inputTokens": 3692,
+        "outputTokens": 1895,
+        "reasoningTokens": 2955
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-27",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44011",
+          "status": "match"
+        },
+        "city": {
+          "value": "Avon",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1810 Nagel Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3671",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "71373367565 SPARKLING WATE + mPerks Offer => .25 off",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.64,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4125010269 MILK + mPerks Offer => FREE item",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4157005418 MILK ALTERNATV + mPerks Offer => .50 off",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9800010138 PURE LEAF + 2 @ 2.29 + => FREE item + => FREE item",
+          "quantity": 2,
+          "unitPrice": 2.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "9800010142 PURE LEAF + 2 @ 2.29",
+          "quantity": 2,
+          "unitPrice": 2.29,
+          "totalSpend": 4.58,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*85002974297 SLATE 11 OZ + 2 @ 3.00 + was 7.58 now 6.00",
+          "quantity": 2,
+          "unitPrice": 3.79,
+          "totalSpend": 6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*3663203273 DANNON LNF + was 5.79 now 4.99",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*76163520260 BLACKBERRIES + 1 @ 4 / 5.00 + was 2.69 now 1.25 + mPerks Offer => .35 off",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 0.9,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*81363501307 RASPBERRIES + 1 @ 4 / 5.00 + was 3.19 now 1.25 + mPerks Offer => .75 off",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*71373380345 FFM BABY SPNCH + was 2.49 now .87",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 0.87,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*87489600037 PERO GREEN BEA + was 4.39 now 1.76",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 1.76,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n1810 Nagel Rd.\nAvon, OH 44011 - #308\n(440)695-2428 meijer.com\n05/27/26 Fastlane126\nMEIJER SAVINGS\nmPerks 4.04\nSPECIALS 14.59\nSAVINGS TOTAL 18.63\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n257.96\nGROCERY\n71373367565 SPARKLING WATE .89 FT\nmPerks Offer\n=> .25 off -.25 N\n4125010269 MILK 2.19 F\nmPerks Offer\n=> FREE item -2.19 N\n4157005418 MILK ALTERNATV 2.29 F\nmPerks Offer\n=> .50 off -.50 F\n9800010138 PURE LEAF\n2 @ 2.29 4.58 FT\n=> FREE item -2.29 FT\n=> FREE item -2.29 FT\n9800010142 PURE LEAF\n2 @ 2.29 4.58 F\n*85002974297 SLATE 11 OZ\n2 @ 3.00\nwas 7.58 now 6.00 FT\n*3663203273 DANNON LNF\nwas 5.79 now 4.99 F\n*76163520260 BLACKBERRIES\n1 @ 4 / 5.00\nwas 2.69 now 1.25 F\nmPerks Offer\n=> .35 off -.35 F\n*81363501307 RASPBERRIES\n1 @ 4 / 5.00\nwas 3.19 now 1.25 F\nmPerks Offer\n=> .75 off -.75 F\n*71373380345 FFM BABY SPNCH\nwas 2.49 now .87 F\n*87489600037 PERO GREEN BEA\nwas 4.39 now 1.76 F\nmPerks # -- ********33\nTOTAL\nOH 6.50% Sales Tax .43\nTOTAL TAX .43\nTOTAL 22.46\nPAYMENTS\nVISA Payment TENDER 22.46\nXXXXXXXXXXXX3671 (X)\nAPPROVAL CODE 06654C\nVISA CREDIT\nAID A0000000031010\nTC 981612202CC0E8D9\nNO CVM REQUIRED\nNUMBER OF ITEMS 14",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7352.674292000011,
+        "totalUsd": 0.021423,
+        "inputTokens": 3692,
+        "outputTokens": 1765,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-27",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44011",
+          "status": "match"
+        },
+        "city": {
+          "value": "Avon",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1810 Nagel Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3671",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SPARKLING WATE + 71373367565 + mPerks Offer => .25 off",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.64,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MILK + 4125010269 + mPerks Offer => FREE item",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MILK ALTERNATV + 4157005418 + mPerks Offer => .50 off",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PURE LEAF + 9800010138 + => FREE item + => FREE item",
+          "quantity": 2,
+          "unitPrice": 2.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PURE LEAF + 9800010142",
+          "quantity": 2,
+          "unitPrice": 2.29,
+          "totalSpend": 4.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLATE 11 OZ + *85002974297",
+          "quantity": 2,
+          "unitPrice": 3.79,
+          "totalSpend": 6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DANNON LNF + *3663203273",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLACKBERRIES + *76163520260 + mPerks Offer => .35 off",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 0.9,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RASPBERRIES + *81363501307 + mPerks Offer => .75 off",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FFM BABY SPNCH + *71373380345",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 0.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERO GREEN BEA + *87489600037",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 1.76,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n1810 Nagel Rd.\nAvon, OH 44011 - #308\n(440)695-2428 meijer.com\n05/27/26 Fastlane126\nMEIJER SAVINGS\nmPerks 4.04\nSPECIALS 14.59\nSAVINGS TOTAL 18.63\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n257.96\nGROCERY\n71373367565 SPARKLING WATE .89 FT\nmPerks Offer\n=> .25 off -.25 N\n4125010269 MILK 2.19 F\nmPerks Offer\n=> FREE item -2.19 N\n4157005418 MILK ALTERNATV 2.29 F\nmPerks Offer\n=> .50 off -.50 F\n9800010138 PURE LEAF\n2 @ 2.29 4.58 FT\n=> FREE item -2.29 FT\n=> FREE item -2.29 FT\n9800010142 PURE LEAF\n2 @ 2.29 4.58 F\n*85002974297 SLATE 11 OZ\n2 @ 3.00\nwas 7.58 now 6.00 FT\n*3663203273 DANNON LNF\nwas 5.79 now 4.99 F\n*76163520260 BLACKBERRIES\n1 @ 4 / 5.00\nwas 2.69 now 1.25 F\nmPerks Offer\n=> .35 off -.35 F\n*81363501307 RASPBERRIES\n1 @ 4 / 5.00\nwas 3.19 now 1.25 F\nmPerks Offer\n=> .75 off -.75 F\n*71373380345 FFM BABY SPNCH\nwas 2.49 now .87 F\n*87489600037 PERO GREEN BEA\nwas 4.39 now 1.76 F\nmPerks # -- ********33\nTOTAL\nOH 6.50% Sales Tax .43\nTOTAL TAX .43\nTOTAL 22.46\nPAYMENTS\nVISA Payment TENDER 22.46\nXXXXXXXXXXXX3671 (X)\nAPPROVAL CODE 06654C\nVISA CREDIT\nAID A0000000031010\nTC 981612202CC0E8D9\nNO CVM REQUIRED\nNUMBER OF ITEMS 14",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SPARKLING WATE + 71373367565 + mPerks Offer",
+      "price": 0.64,
+      "quantity": 1,
+      "totalSpend": 0.64
+    },
+    {
+      "text": "MILK + 4125010269 + mPerks Offer",
+      "price": 2.19,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "MILK ALTERNATV + 4157005418 + mPerks Offer",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "PURE LEAF + 9800010138 + 2 @ 2.29 4.58 FT",
+      "price": 1.15,
+      "quantity": 2,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "PURE LEAF + 9800010142 + 2 @ 2.29 4.58 F",
+      "price": 2.29,
+      "quantity": 2,
+      "totalSpend": 4.58
+    },
+    {
+      "text": "SLATE 11 OZ + 85002974297 + 2 @ 3.00",
+      "price": 3,
+      "quantity": 2,
+      "totalSpend": 6
+    },
+    {
+      "text": "DANNON LNF + 3663203273 + was 5.79 now 4.99 F",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "BLACKBERRIES + 76163520260 + 1 @ 4 / 5.00 + mPerks Offer",
+      "price": 0.9,
+      "quantity": 1,
+      "totalSpend": 0.9
+    },
+    {
+      "text": "RASPBERRIES + 81363501307 + 1 @ 4 / 5.00 + mPerks Offer",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    },
+    {
+      "text": "FFM BABY SPNCH + 71373380345 + was 2.49 now 0.87 F",
+      "price": 0.87,
+      "quantity": 1,
+      "totalSpend": 0.87
+    },
+    {
+      "text": "PERO GREEN BEA + 87489600037 + was 4.39 now 1.76 F",
+      "price": 1.76,
+      "quantity": 1,
+      "totalSpend": 1.76
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

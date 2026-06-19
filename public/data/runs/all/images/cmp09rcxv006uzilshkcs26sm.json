@@ -1,0 +1,243 @@
+{
+  "id": "cmp09rcxv006uzilshkcs26sm",
+  "url": null,
+  "retailer": "Kwik Trip #1033",
+  "brand": "Happy Dad",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kwik Trip",
+    "totalCost": "19.19",
+    "purchaseDate": "2026-05-10",
+    "time": null,
+    "zipCode": "54401",
+    "city": "Wausau",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7092.010249999992,
+        "totalUsd": 0.015834,
+        "inputTokens": 6086,
+        "outputTokens": 745,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:11:38 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Wausau",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1415 West Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1758",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD VARIETY PK 12P",
+          "quantity": 1,
+          "unitPrice": 18.19,
+          "totalSpend": 18.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Trip\n1415 West Street\nWausau, WI\n(715) 843-5622\nStore #1033 5/10/2026 4:11:38 PM\nRegister # 1 Trans # 7314023\nTax Description Qty Amount\nT HAPPY DAD VARIETY PK 12P $18.19\nSub Total $18.19\nTax $1.00\nTotal $19.19\nDebit: $19.19\nChange $0.00\nDebit\nCard Num : (C) XXXXXXXXXXXX1758\nChip Read\nTerminal : RA1094001033206\nApproval : 665626\nTrace Number: 951709\nSale\nUSD$ 19.19\nUS Debit\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 6800\nARC: 00\nARQC: 8ABEEOADAF2B4912\nVerified by PIN\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nAlternate ID\nCard Num : (*) XXXXXX8936\nTerminal : 1033\nApproval : U:15672183\nTotal Visits: 5/15\nFuel Discounts:\n$0.05\nNow Available:\nFreshly Made\nTake Home Meals\nTake and Bake Pizza\n(715) 843-5622\nHave a nice day,\nSee you next time!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11212.649458,
+        "totalUsd": 0.022773,
+        "inputTokens": 3692,
+        "outputTokens": 734,
+        "reasoningTokens": 1181
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:11:38 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Wausau",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1415 West Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1758",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD VARIETY PK 12P",
+          "quantity": 1,
+          "unitPrice": 18.19,
+          "totalSpend": 18.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Trip\n1415 West Street\nWausau, WI\n(715) 843-5622\nStore #1033 5/10/2026 4:11:38 PM\nRegister # 1 Trans # 7314023\nTax Description Qty Amount\nT HAPPY DAD VARIETY PK 12P $18.19\nSub Total $18.19\nTax $1.00\nTotal $19.19\nDebit: $19.19\nChange $0.00\nDebit\nCard Num : (C) XXXXXXXXXXXX1758\nChip Read\nTerminal : RA1094001033206\nApproval : 665626\nTrace Number: 951709\nSale\nUSD$ 19.19\nUS Debit\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 6800\nARC: 00\nARQC: 8ABEEOADAF2B4912\nVerified by PIN\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nAlternate ID\nCard Num : (*) XXXXXX8936\nTerminal : 1033\nApproval : U:15672183\nTotal Visits: 5/15\nFuel Discounts:\n$0.05\nNow Available:\nFreshly Made\nTake Home Meals\nTake and Bake Pizza\n(715) 843-5622\nHave a nice day,\nSee you next time!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4873.870834000001,
+        "totalUsd": 0.01227,
+        "inputTokens": 3692,
+        "outputTokens": 748,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:11:38 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54401",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wausau",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1415 West Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1758",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD VARIETY PK 12P",
+          "quantity": 1,
+          "unitPrice": 18.19,
+          "totalSpend": 18.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Trip\n1415 West Street\nWausau, WI\n(715) 843-5622\nStore #1033 5/10/2026 4:11:38 PM\nRegister # 1 Trans # 7314023\nTax Description Qty Amount\nT HAPPY DAD VARIETY PK 12P $18.19\nSub Total $18.19\nTax $1.00\nTotal $19.19\nDebit: $19.19\nChange $0.00\nDebit\nCard Num : (C) XXXXXXXXXXXX1758\nChip Read\nTerminal : RA1094001033206\nApproval : 665626\nTrace Number: 951709\nSale\nUSD$ 19.19\nUS Debit\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 6800\nARC: 00\nARQC: 8ABEE0ADAF2B4912\nVerified by PIN\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nAlternate ID\nCard Num : (*) XXXXXX8936\nTerminal : 1033\nApproval : U:15672183\nTotal Visits: 5/15\nFuel Discounts:\n$0.05\nNow Available:\nFreshly Made\nTake Home Meals\nTake and Bake Pizza\n(715) 843-5622\nHave a nice day,\nSee you next time!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HAPPY DAD VARIETY PK 12P",
+      "price": 18.19,
+      "quantity": 1,
+      "totalSpend": 18.19
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

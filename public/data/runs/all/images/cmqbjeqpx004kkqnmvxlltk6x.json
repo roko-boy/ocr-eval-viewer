@@ -1,0 +1,324 @@
+{
+  "id": "cmqbjeqpx004kkqnmvxlltk6x",
+  "url": null,
+  "retailer": "Meijer",
+  "brand": "Hummus Goodness ",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "18.84",
+    "purchaseDate": "2026-06-12",
+    "time": null,
+    "zipCode": "48051",
+    "city": "Chesterfield",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14117.20116600004,
+        "totalUsd": 0.017301,
+        "inputTokens": 6086,
+        "outputTokens": 908,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:03:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48051",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chesterfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "27255 23 Mile Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9464",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PRETZEL CRISPS + 4950800610",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "80 ACRES MCRGR + 81757802146",
+          "quantity": 1,
+          "unitPrice": 4.69,
+          "totalSpend": 4.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HUMMUS + 85005797500",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HUMMUS + 85005797506",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n27255 23 Mile Rd.\nChesterfield, MI 48051 - #105\n(586)598-0600 meijer.com\n06/12/26 Fastlane192\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n623.15\nGROCERY\n4950800610 PRETZEL CRISPS 3.89 F\n81757802146 80 ACRES MCRGR 4.69 FT\n85005797500 HUMMUS 4.99 F\n85005797506 HUMMUS 4.99 F\nmPerks # -- ********39\nTOTAL\nMI 6% Sales Tax .28\nTOTAL TAX .28\nTOTAL 18.84\nPAYMENTS\nDISCOVER CREDIT CARD TENDER 18.84\nXXXXXXXXXXXX9464 (X)\nAPPROVAL CODE 080321\nDISCOVER\nAID A000000152301001\nTC 230C41502CABB10E\nNO CVM REQUIRED\nNUMBER OF ITEMS 4\nA0105155LL51ZRS\nTx:153 Op:592 Tm:192 St:105 19:03:21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13526.62266600004,
+        "totalUsd": 0.024834,
+        "inputTokens": 3692,
+        "outputTokens": 902,
+        "reasoningTokens": 1242
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:03:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48051",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chesterfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "27255 23 Mile Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9464",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PRETZEL CRISPS + 4950800610",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "80 ACRES MCRGR + 81757802146",
+          "quantity": 1,
+          "unitPrice": 4.69,
+          "totalSpend": 4.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HUMMUS + 85005797500",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HUMMUS + 85005797506",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n27255 23 Mile Rd.\nChesterfield, MI 48051 - #105\n(586)598-0600 meijer.com\n06/12/26 Fastlane192\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n623.15\nGROCERY\n4950800610 PRETZEL CRISPS 3.89 F\n81757802146 80 ACRES MCRGR 4.69 FT\n85005797500 HUMMUS 4.99 F\n85005797506 HUMMUS 4.99 F\nmPerks # -- ********39\nTOTAL\nMI 6% Sales Tax .28\nTOTAL TAX .28\nTOTAL 18.84\nPAYMENTS\nDISCOVER CREDIT CARD TENDER 18.84\nXXXXXXXXXXXX9464 (X)\nAPPROVAL CODE 080321\nDISCOVER\nAID A000000152301001\nTC 230C41502CABB10E\nNO CVM REQUIRED\nNUMBER OF ITEMS 4\nA0105155LL51ZRS\nTx:153 Op:592 Tm:192 St:105 19:03:21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5052.922541999986,
+        "totalUsd": 0.013656,
+        "inputTokens": 3692,
+        "outputTokens": 902,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:03:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48051",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chesterfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "27255 23 Mile Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9464",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PRETZEL CRISPS + 4950800610",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "80 ACRES MCRGR + 81757802146",
+          "quantity": 1,
+          "unitPrice": 4.69,
+          "totalSpend": 4.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HUMMUS + 85005797500",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HUMMUS + 85005797506",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n27255 23 Mile Rd.\nChesterfield, MI 48051 - #105\n(586)598-0600 meijer.com\n06/12/26 Fastlane192\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n623.15\nGROCERY\n4950800610 PRETZEL CRISPS 3.89 F\n81757802146 80 ACRES MCRGR 4.69 FT\n85005797500 HUMMUS 4.99 F\n85005797506 HUMMUS 4.99 F\nmPerks # -- ********39\nTOTAL\nMI 6% Sales Tax .28\nTOTAL TAX .28\nTOTAL 18.84\nPAYMENTS\nDISCOVER CREDIT CARD TENDER 18.84\nXXXXXXXXXXXX9464 (X)\nAPPROVAL CODE 080321\nDISCOVER\nAID A000000152301001\nTC 230C41502CABB10E\nNO CVM REQUIRED\nNUMBER OF ITEMS 4\nA0105155LL51ZRS\nTx:153 Op:592 Tm:192 St:105 19:03:21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PRETZEL CRISPS + 4950800610",
+      "price": 3.89,
+      "quantity": 1,
+      "totalSpend": 3.89
+    },
+    {
+      "text": "80 ACRES MCRGR + 8175802146",
+      "price": 4.69,
+      "quantity": 1,
+      "totalSpend": 4.69
+    },
+    {
+      "text": "HUMMUS + 85005797500",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "HUMMUS + 85005797506",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

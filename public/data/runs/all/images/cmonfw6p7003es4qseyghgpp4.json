@@ -1,0 +1,324 @@
+{
+  "id": "cmonfw6p7003es4qseyghgpp4",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "JustFoodForDogs",
+  "amount": 8.92,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "14.03",
+    "purchaseDate": "2026-05-01",
+    "time": null,
+    "zipCode": "08075",
+    "city": "Delran",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15382.35720800003,
+        "totalUsd": 0.019938,
+        "inputTokens": 6086,
+        "outputTokens": 1201,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08075",
+          "status": "match"
+        },
+        "city": {
+          "value": "Delran",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4004 Route 130",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1000",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JFFD FRZN BF & POTATO 18 OZ + 799471556641 + Points Redemption $6.00 (12.99-4.07) + Return Amount $8.92",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 8.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS*_HDC CHURRO STICK CHS 10 IN + 850008942143 + Points Redemption $6.00 (2.99-0.94) + Return Amount $2.05",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS*_NATURE'S ANIMALS BIG BITE + 758632002465 + Points Redemption $6.00 (2.19-0.68) + Return Amount $1.51",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.51,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS*_NATURE'S ANIMALS ORGNL BIS + 758632004865 + Points Redemption $6.00 (0.99-0.31) + Return Amount $0.68",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.68,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #1461\n4004 Route 130\nDelran, NJ 08075\n856-461-0353\nS-1461 R-102 BUS.DATE-05/01/2026\nT-57668 A-841521\nSALE\nJFFD FRZN BF & POTATO 18 OZ $8.92\n799471556641 St\nPoints Redemption $6.00 (12.99-4.07)\nReturn Amount $8.92\nAS*_HDC CHURRO STICK CHS 10 IN $2.05\n850008942143 St\nPoints Redemption $6.00 (2.99-0.94)\nReturn Amount $2.05\nAS*_NATURE'S ANIMALS BIG BITE $1.51\n758632002465 St\nPoints Redemption $6.00 (2.19-0.68)\nReturn Amount $1.51\nAS*_NATURE'S ANIMALS ORGNL BIS $0.68\n758632004865 St\nPoints Redemption $6.00 (0.99-0.31)\nReturn Amount $0.68\n4 Sale item(s)\nSUBTOTAL $13.16\nSALE\nTAX State 6.625% ON $13.16 $0.87\nTAX TOTAL: $0.87\nTOTAL $14.03\nMASTERCARD\nACCOUNT#: ************1000 $14.03\nAUTH#: 54288Z\nCHANGE DUE $0.00\n---------TRANSACTION RECORD---------\nINVOICE # 15766810201\nMERCHANT # ********5889\nTERMINAL # ***7756\nTYPE Sale\nMASTERCARD TAPPED\nMASTERCARD",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11939.178625,
+        "totalUsd": 0.029154,
+        "inputTokens": 3692,
+        "outputTokens": 1194,
+        "reasoningTokens": 1430
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08075",
+          "status": "match"
+        },
+        "city": {
+          "value": "Delran",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4004 Route 130",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1000",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JFFD FRZN BF & POTATO 18 OZ + 799471556641 + Points Redemption $6.00 (12.99-4.07) + Return Amount $8.92",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 8.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS*_HDC CHURRO STICK CHS 10 IN + 85008942143 + Points Redemption $6.00 (2.99-0.94) + Return Amount $2.05",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.05,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AS*_NATURE'S ANIMALS BIG BITE + 758632002465 + Points Redemption $6.00 (2.19-0.68) + Return Amount $1.51",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.51,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS*_NATURE'S ANIMALS ORGNL BIS + 758632004865 + Points Redemption $6.00 (0.99-0.31) + Return Amount $0.68",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.68,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #1461\n4004 Route 130\nDelran, NJ 08075\n856-461-0353\nS-1461 R-102 BUS.DATE-05/01/2026\nT-57668 A-841521\nSALE\nJFFD FRZN BF & POTATO 18 OZ $8.92\n799471556641 St\nPoints Redemption $6.00 (12.99-4.07)\nReturn Amount $8.92\nAS*_HDC CHURRO STICK CHS 10 IN $2.05\n85008942143 St\nPoints Redemption $6.00 (2.99-0.94)\nReturn Amount $2.05\nAS*_NATURE'S ANIMALS BIG BITE $1.51\n758632002465 St\nPoints Redemption $6.00 (2.19-0.68)\nReturn Amount $1.51\nAS*_NATURE'S ANIMALS ORGNL BIS $0.68\n758632004865 St\nPoints Redemption $6.00 (0.99-0.31)\nReturn Amount $0.68\n4 Sale item(s)\nSUBTOTAL $13.16\nSALE\nTAX State 6.625% ON $13.16 $0.87\nTAX TOTAL: $0.87\nTOTAL $14.03\nMASTERCARD\nACCOUNT#: ************1000\nAUTH#: 54288Z $14.03\nCHANGE DUE $0.00\n---------TRANSACTION RECORD---------\nINVOICE # 15766810201\nMERCHANT # ********5889\nTERMINAL # ***7756\nTYPE: Sale\nMASTERCARD TAPPED\nMASTERCARD",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5853.131167000014,
+        "totalUsd": 0.015969,
+        "inputTokens": 3692,
+        "outputTokens": 1159,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08075",
+          "status": "match"
+        },
+        "city": {
+          "value": "Delran",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4004 Route 130",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1000",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JFFD FRZN BF & POTATO 18 OZ + 799471556641 + Points Redemption $6.00 (12.99-4.07)",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 8.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS*_HDC CHURRO STICK CHS 10 IN + 850008942143 + Points Redemption $6.00 (2.99-0.94)",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS*_NATURE'S ANIMALS BIG BITE + 758632002465 + Points Redemption $6.00 (2.19-0.68)",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.51,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS*_NATURE'S ANIMALS ORGNL BIS + 758632004865 + Points Redemption $6.00 (0.99-0.31)",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.68,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #1461\n4004 Route 130\nDelran, NJ 08075\n856-461-0353\nS-1461 R-102 BUS.DATE-05/01/2026\nT-57668 A-841521\nSALE\nJFFD FRZN BF & POTATO 18 OZ $8.92\n799471556641 St\nPoints Redemption $6.00 (12.99-4.07)\nReturn Amount $8.92\nAS*_HDC CHURRO STICK CHS 10 IN $2.05\n850008942143 St\nPoints Redemption $6.00 (2.99-0.94)\nReturn Amount $2.05\nAS*_NATURE'S ANIMALS BIG BITE $1.51\n758632002465 St\nPoints Redemption $6.00 (2.19-0.68)\nReturn Amount $1.51\nAS*_NATURE'S ANIMALS ORGNL BIS $0.68\n758632004865 St\nPoints Redemption $6.00 (0.99-0.31)\nReturn Amount $0.68\n4 Sale item(s)\nSUBTOTAL $13.16\nSALE\nTAX State 6.625% ON $13.16 $0.87\nTAX TOTAL: $0.87\nTOTAL $14.03\nMASTERCARD\nACCOUNT#: ************1000 $14.03\nAUTH#: 54288Z\nCHANGE DUE $0.00\n---------TRANSACTION RECORD---------\nINVOICE # 15766810201\nMERCHANT # *********5889\nTERMINAL # ***7756\nTYPE Sale\nMASTERCARD TAPPED\nMASTERCARD",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JFFD FRZN BF & POTATO 18 OZ + 799471556641 + Points Redemption $6.00 (12.99-4.07) + Return Amount $8.92",
+      "price": 8.92,
+      "quantity": 1,
+      "totalSpend": 8.92
+    },
+    {
+      "text": "AS* HDC CHURRO STICK CHS 10 IN + 850008942143 + Points Redemption $6.00 (2.99-0.94) + Return Amount $2.05",
+      "price": 2.05,
+      "quantity": 1,
+      "totalSpend": 2.05
+    },
+    {
+      "text": "AS* NATURE'S ANIMALS BIG BITE + 758632002465 + Points Redemption $6.00 (2.19-0.68) + Return Amount $1.51",
+      "price": 1.51,
+      "quantity": 1,
+      "totalSpend": 1.51
+    },
+    {
+      "text": "AS* NATURE'S ANIMALs ORGNL BIS + 758632004865 + Points Redemption $6.00 (0.99-0.31) + Return Amount $0.68",
+      "price": 0.68,
+      "quantity": 1,
+      "totalSpend": 0.68
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

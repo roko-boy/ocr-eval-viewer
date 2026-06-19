@@ -1,0 +1,351 @@
+{
+  "id": "cmp5vmzp001lfhr0s3xs6or60",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Kevin's Natural Foods",
+  "amount": 8.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "73.83",
+    "purchaseDate": "2026-05-13",
+    "time": null,
+    "zipCode": "36606",
+    "city": "Mobile",
+    "state": "AL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8919.58712599997,
+        "totalUsd": 0.020163,
+        "inputTokens": 6086,
+        "outputTokens": 1226,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "29.55",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:03",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "36606",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mobile",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1450 Tingle Circle West",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0959",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1911652 CHIC STIX",
+          "quantity": 1,
+          "unitPrice": 12.89,
+          "totalSpend": 12.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1081297 HNEYGARLICBF",
+          "quantity": 1,
+          "unitPrice": 19.79,
+          "totalSpend": 19.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1454251 KEVINSKOREAN",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2007663 LJ CHAR CORN",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1380296 AMYLU SAUSGE",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMobile #1192\n1450 Tingle Circle West\nMobile, AL 36606\n9X Member 112013513829\nE 1911652 CHIC STIX 12.89 B\nE 1081297 HNEYGARLICBF 19.79 B\nE 1454251 KEVINSKOREAN 14.99 B\nE 2007663 LJ CHAR CORN 7.99 B\nE 1380296 AMYLU SAUSGE 13.99 B\nSUBTOTAL 69.65\nTAX 4.18\n**** TOTAL 73.83\nXXXXXXXXXXXX4284 SWIPED\nSeq#: 7182 App#: 389188\nMasterCard Resp: APPROVED\nTran ID#: 613300007182....\nAPPROVED - Purchase\nAMOUNT: $44.28\n05/13/2026 15:01 1192 7 109 851\nMasterCard 44.28\nSUBTOTAL 25.37\nTAX 4.18\n**** TOTAL 29.55\nXXXXXXXXXXXX0959 CHIP Read\nAID: A0000000980840 VERIFIED BY PIN\nSeq#: 7183 App#: 607586\nEFT/Debit Resp: APPROVED\nTran ID#: 613300007183....\nAPPROVED - Purchase\nAMOUNT: $29.55\n05/13/2026 15:03 1192 7 109 851\nEFT/Debit 29.55\nCHANGE 0.00\nB 6.000% Tax 4.18\nTOTAL TAX 4.18\nTOTAL NUMBER OF ITEMS SOLD = 5\n05/13/2026 15:03 1192 7 109 851\n21119200701092605131503\nOP#: 851 Name: Patricia\nThank You!\nPlease Come Again\nWhse:1192 Trm:7 Trn:109 OP:851\nItems Sold: 5\n9X 05/13/2026 15:03",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17317.05012500001,
+        "totalUsd": 0.030801,
+        "inputTokens": 3692,
+        "outputTokens": 1217,
+        "reasoningTokens": 1590
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "73.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:03",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "36606",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mobile",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1450 Tingle Circle West",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4284",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1911652 CHIC STIX",
+          "quantity": 1,
+          "unitPrice": 12.89,
+          "totalSpend": 12.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1081297 HNEYGARLICBF",
+          "quantity": 1,
+          "unitPrice": 19.79,
+          "totalSpend": 19.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1454251 KEVINSKOREAN",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2007663 LJ CHAR CORN",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1380296 AMYLU SAUSGE",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMobile #1192\n1450 Tingle Circle West\nMobile, AL 36606\n9X Member 112013513829\nE 1911652 CHIC STIX 12.89 B\nE 1081297 HNEYGARLICBF 19.79 B\nE 1454251 KEVINSKOREAN 14.99 B\nE 2007663 LJ CHAR CORN 7.99 B\nE 1380296 AMYLU SAUSGE 13.99 B\nSUBTOTAL 69.65\nTAX 4.18\n**** TOTAL 73.83\nXXXXXXXXXXXX4284 SWIPED\nSeq#: 7182 App#: 389188\nMasterCard Resp: APPROVED\nTran ID#: 613300007182....\nAPPROVED - Purchase\nAMOUNT: $44.28\n05/13/2026 15:01 1192 7 109 851\nMasterCard 44.28\nSUBTOTAL 25.37\nTAX 4.18\n**** TOTAL 29.55\nXXXXXXXXXXXX0959 CHIP Read\nAID: A0000000980840 VERIFIED BY PIN\nSeq#: 7183 App#: 607586\nEFT/Debit Resp: APPROVED\nTran ID#: 613300007183....\nAPPROVED - Purchase\nAMOUNT: $29.55\n05/13/2026 15:03 1192 7 109 851\nEFT/Debit 29.55\nCHANGE 0.00\nB.6.000% Tax 4.18\nTOTAL TAX 4.18\nTOTAL NUMBER OF ITEMS SOLD = 5\n05/13/2026 15:03 1192 7 109 851\n21119200701092605131503\nOP#: 851 Name: Patricia\nThank You!\nPlease Come Again\nWhse:1192 Trm:7 Trn:109 OP:851\nItems Sold: 5\n9X 05/13/2026 15:03",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7123.153749999998,
+        "totalUsd": 0.016473,
+        "inputTokens": 3692,
+        "outputTokens": 1215,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "73.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:03",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "36606",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mobile",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1450 Tingle Circle West",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0959",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1911652 CHIC STIX",
+          "quantity": 1,
+          "unitPrice": 12.89,
+          "totalSpend": 12.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1081297 HNEYGARLICBF",
+          "quantity": 1,
+          "unitPrice": 19.79,
+          "totalSpend": 19.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1454251 KEVINSKOREAN",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2007663 LJ CHAR CORN",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1380296 AMYLU SAUSGE",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMobile #1192\n1450 Tingle Circle West\nMobile, AL 36606\n9X Member 112013513829\nE 1911652 CHIC STIX 12.89 B\nE 1081297 HNEYGARLICBF 19.79 B\nE 1454251 KEVINSKOREAN 14.99 B\nE 2007663 LJ CHAR CORN 7.99 B\nE 1380296 AMYLU SAUSGE 13.99 B\nSUBTOTAL 69.65\nTAX 4.18\n**** TOTAL 73.83\nXXXXXXXXXXXX4284 SWIPED\nSeq#: 7182 App#: 389188\nMasterCard Resp: APPROVED\nTran ID#: 613300007182....\nAPPROVED - Purchase\nAMOUNT: $44.28\n05/13/2026 15:01 1192 7 109 851\nMasterCard 44.28\nSUBTOTAL 25.37\nTAX 4.18\n**** TOTAL 29.55\nXXXXXXXXXXXX0959 CHIP Read\nAID: A0000000980840 VERIFIED BY PIN\nSeq# 7183 App#: 607586\nEFT/Debit Resp: APPROVED\nTran ID#: 613300007183....\nAPPROVED - Purchase\nAMOUNT: $29.55\n05/13/2026 15:03 1192 7 109 851\nEFT/Debit 29.55\nCHANGE 0.00\nB.6.000% Tax 4.18\nTOTAL TAX 4.18\nTOTAL NUMBER OF ITEMS SOLD = 5\n05/13/2026 15:03 1192 7 109 851\n21119200701092605131503\nOP#: 851 Name: Patricia\nThank You!\nPlease Come Again\nWhse:1192 Trm:7 Trn:109 OP:851\nItems Sold: 5\n9X 05/13/2026 15:03",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CHIC STIX + 1911652",
+      "price": 12.89,
+      "quantity": 1,
+      "totalSpend": 12.89
+    },
+    {
+      "text": "HNEYGARLICBF + 1081297",
+      "price": 19.79,
+      "quantity": 1,
+      "totalSpend": 19.79
+    },
+    {
+      "text": "KEVINSKOREAN + 1454251",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "LJ CHAR CORN + 2007663",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "AMYLO SAUSGE + 1380296",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

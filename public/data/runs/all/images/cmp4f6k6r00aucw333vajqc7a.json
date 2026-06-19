@@ -1,0 +1,405 @@
+{
+  "id": "cmp4f6k6r00aucw333vajqc7a",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Juni Sparkling Tea with Adaptogens",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "80.53",
+    "purchaseDate": "2026-05-13",
+    "time": null,
+    "zipCode": "78154",
+    "city": "Selma",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12922.11229199998,
+        "totalUsd": 0.020415,
+        "inputTokens": 6086,
+        "outputTokens": 1254,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "80.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78154",
+          "status": "match"
+        },
+        "city": {
+          "value": "Selma",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15330 IH-35 North",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5200",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1372590 NUGODRKCHOC",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2035028 PRIMALCHKSTK",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1920381 JUNI TEA",
+          "quantity": 1,
+          "unitPrice": 8.97,
+          "totalSpend": 8.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "947880 HF NAT TRKEY",
+          "quantity": 1,
+          "unitPrice": 12.89,
+          "totalSpend": 12.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1736931 KS LBC",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2042606 MMPINKLEMON",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2029201 PL BAGEL 8CT",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSelma #1006\n15330 IH-35 North\nSelma, TX 78154\nSELF-CHECKOUT\nC2 Member 112044130016\nE 1372590 NUGODRKCHOC 19.99\nE 2035028 PRIMALCHKSTK 13.99\nE 1920381 JUNI TEA 8.97 A\nE 947880 HF NAT TRKEY 12.89\nE 1736931 KS LBC 15.99\nE 2042606 MMPINKLEMON 2.97\nE 2029201 PL BAGEL 8CT 4.99\nSUBTOTAL 79.79\nTAX 0.74\n**** TOTAL 80.53\nXXXXXXXXXXXX5200 H\nAID: A0000000042203 VERIFIED BY PIN\nSeq# 206233 APP#: 209948\nEFT/Debit Resp: APPROVED\nTran ID#: 613300206233....\nAPPROVED - Purchase\nAMOUNT: $80.53\n05/13/2026 13:51 1006 206 114 706\nEFT/Debit 80.53\nCHANGE 0.00\nA 8.25 % TAX RATE 0.74\nTOTAL TAX 0.74\nTOTAL NUMBER OF ITEMS SOLD = 7\n05/13/2026 13:51 1006 206 114 706\n21100620601142605131351\nOP#: 706 Name: SCO\nThank You!\nPlease Come Again\nWhse:1006 Trm:206 Trn:114 OP:706\nItems Sold: 7\nC2 05/13/2026 13:51",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12953.02195799997,
+        "totalUsd": 0.032556,
+        "inputTokens": 3692,
+        "outputTokens": 1264,
+        "reasoningTokens": 1738
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "80.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78154",
+          "status": "match"
+        },
+        "city": {
+          "value": "Selma",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15330 IH-35 North",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5200",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1372590 NUGODRKCHOC",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2035028 PRIMALCHKSTK",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1920381 JUNI TEA",
+          "quantity": 1,
+          "unitPrice": 8.97,
+          "totalSpend": 8.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "947880 HF NAT TRKEY",
+          "quantity": 1,
+          "unitPrice": 12.89,
+          "totalSpend": 12.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1736931 KS LBC",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2042606 MMPINKLEMON",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2029201 PL BAGEL 8CT",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSelma #1006\n15330 IH-35 North\nSelma, TX 78154\n\nSELF-CHECKOUT\n\nC2 Member 112044130016\nE 1372590 NUGODRKCHOC 19.99\nE 2035028 PRIMALCHKSTK 13.99\nE 1920381 JUNI TEA 8.97 A\nE 947880 HF NAT TRKEY 12.89\nE 1736931 KS LBC 15.99\nE 2042606 MMPINKLEMON 2.97\nE 2029201 PL BAGEL 8CT 4.99\nSUBTOTAL 79.79\nTAX 0.74\n**** TOTAL 80.53\n\nXXXXXXXXXXXX5200 H\nAID: A0000000042203 VERIFIED BY PIN\nSeq# 206233 App#: 209948\nEFT/Debit Resp: APPROVED\nTran ID#: 613300206233...\n\nAPPROVED - Purchase\nAMOUNT: $80.53\n05/13/2026 13:51 1006 206 114 706\n\nEFT/Debit 80.53\nCHANGE 0.00\n\nA 8.25 % TAX RATE 0.74\nTOTAL TAX 0.74\nTOTAL NUMBER OF ITEMS SOLD = 7\n05/13/2026 13:51 1006 206 114 706\n\n21100620601142605131351\nOP#: 706 Name: SCO\nThank You!\nPlease Come Again\nWhse:1006 Trm:206 Trn:114 OP:706\n\nItems Sold: 7\nC2 05/13/2026 13:51",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7359.186874999985,
+        "totalUsd": 0.01677,
+        "inputTokens": 3692,
+        "outputTokens": 1248,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "80.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78154",
+          "status": "match"
+        },
+        "city": {
+          "value": "Selma",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15330 IH-35 North",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5200",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1372590 NUGODRKCHOC",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2035028 PRIMALCHKSTK",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1920381 JUNI TEA",
+          "quantity": 1,
+          "unitPrice": 8.97,
+          "totalSpend": 8.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "947880 HF NAT TRKEY",
+          "quantity": 1,
+          "unitPrice": 12.89,
+          "totalSpend": 12.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1736931 KS LBC",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2042606 MMPINKLEMON",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2029201 PL BAGEL 8CT",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSelma #1006\n15330 IH-35 North\nSelma, TX 78154\nSELF-CHECKOUT\nC2 Member 112044130016\nE 1372590 NUGODRKCHOC 19.99\nE 2035028 PRIMALCHKSTK 13.99\nE 1920381 JUNI TEA 8.97 A\nE 947880 HF NAT TRKEY 12.89\nE 1736931 KS LBC 15.99\nE 2042606 MMPINKLEMON 2.97\nE 2029201 PL BAGEL 8CT 4.99\nSUBTOTAL 79.79\nTAX 0.74\n**** TOTAL 80.53\nXXXXXXXXXXXX5200 H\nAID: A0000000042203 VERIFIED BY PIN\nSeq# 206233 App#: 209948\nEFT/Debit Resp: APPROVED\nTran ID#: 613300206233...\nAPPROVED - Purchase\nAMOUNT: $80.53\n05/13/2026 13:51 1006 206 114 706\nEFT/Debit 80.53\nCHANGE 0.00\nA 8.25 % TAX RATE 0.74\nTOTAL TAX 0.74\nTOTAL NUMBER OF ITEMS SOLD = 7\n05/13/2026 13:51 1006 206 114 706\n21100620601142605131351\nOP#: 706 Name: SCO\nThank You!\nPlease Come Again\nWhse:1006 Trm:206 Trn:114 OP:706\nItems Sold: 7\nC2 05/13/2026 13:51",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NUGODRKCHOC + 1372590",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    },
+    {
+      "text": "PRIMALCHKSTK + 2035028",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "JUNI TEA + 1920381",
+      "price": 8.97,
+      "quantity": 1,
+      "totalSpend": 8.97
+    },
+    {
+      "text": "HF NAT TRKEY + 947880",
+      "price": 12.89,
+      "quantity": 1,
+      "totalSpend": 12.89
+    },
+    {
+      "text": "KS LBC + 1736931",
+      "price": 15.99,
+      "quantity": 1,
+      "totalSpend": 15.99
+    },
+    {
+      "text": "MMPINKLEMON + 2042606",
+      "price": 2.97,
+      "quantity": 1,
+      "totalSpend": 2.97
+    },
+    {
+      "text": "PL BAGEL BCT + 2029201",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

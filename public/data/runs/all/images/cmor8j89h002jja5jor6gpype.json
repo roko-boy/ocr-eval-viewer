@@ -1,0 +1,306 @@
+{
+  "id": "cmor8j89h002jja5jor6gpype",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "LesserEvil",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "36.92",
+    "purchaseDate": "2026-05-03",
+    "time": null,
+    "zipCode": "22181",
+    "city": "Vienna",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 22855.48837500002,
+        "totalUsd": 0.016743,
+        "inputTokens": 6128,
+        "outputTokens": 839,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "22181",
+          "status": "match"
+        },
+        "city": {
+          "value": "Vienna",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10010 Murnane St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4358",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LesserEvil Organic Gluten-Free Popcorn, Himalayan Pink Salt, 0.88 oz + $1.44/oz",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Smash Kitchen Organic Extra Virgin Olive Oil Spray, 4.7 fl oz Can + Size: 4.7 fl oz + Multipack Quantity: 1 + $1.06/fl oz",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Hi, Shelby\nAccount\nHome\nPurchase history\nWalmart+\nMy savings\nWalmart Cash\nMessages\nMy items\nReorder\nLists\nSubscriptions\nRegistry\nProtection plans\nMy profile\nReviews 10+ items to review\nPets\nVehicles\nRecipes\nGiving & impact\nOther Accounts\nPharmacy\nMay 03, 2026 order | Order# 2000147-42128757\nDelivery from store\nDelivered on May 03\nReturn eligible until Sun, Aug 02\nView delivery details\nPlaced Preparing On the way Delivered\nDelivery dropped off on May 03\nHere's a photo of where your package was left.\nView delivery photo\nHow was your delivery experience?\nSelect a rating to begin quick survey.\n4 items received\nLesserEvil Organic Gluten-Free Popcorn, Himalayan Pink Salt, 0.88 oz\n$1.44/oz\nQty 1\n$1.27\nAdd to cart\nReview item\nSmash Kitchen Organic Extra Virgin Olive Oil Spray, 4.7 fl oz Can\nSize: 4.7 fl oz\nMultipack Quantity: 1\n$1.06/fl oz\n$4.97\nPrint invoice\nDelivery from store\nAddress\nShelby Lee\n10010 Murnane St, Vienna, VA 22181\nDelivery instructions\nPayment method\nVISA Ending in 4358\n$36.92\nYour payment method has a temporary hold for $36.92. An updated charge will appear on your statement within 10 business days.\nSubtotal\n$35.12\nTax\n$1.80\nTotal\n$36.92\nCharge history\nYour transaction activity for this order\nOrder# 2000147-42128757",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7793.527583000017,
+        "totalUsd": 0.0199605,
+        "inputTokens": 3713,
+        "outputTokens": 705,
+        "reasoningTokens": 894
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "22181",
+          "status": "match"
+        },
+        "city": {
+          "value": "Vienna",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10010 Murnane St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4358",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LesserEvil Organic Gluten-Free Popcorn, Himalayan Pink Salt, 0.88 oz",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Smash Kitchen Organic Extra Virgin Olive Oil Spray, 4.7 fl oz Can",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Hi, Shelby\nMay 03, 2026 order | Order# 2000147-42128757\nPrint invoice\nDelivery from store\nDelivered on May 03\nReturn eligible until Sun, Aug 02\nView delivery details\nPlaced Preparing On the way Delivered\nDelivery dropped off on May 03\nHere's a photo of where your package was left.\nView delivery photo\nHow was your delivery experience?\nSelect a rating to begin quick survey.\n4 items received\nLesserEvil Organic Gluten-Free Popcorn, Himalayan Pink Salt, 0.88 oz\n$1.44/oz\nQty 1\n$1.27\nAdd to cart\nReview item\nSmash Kitchen Organic Extra Virgin Olive Oil Spray, 4.7 fl oz Can\nSize: 4.7 fl oz\nMultipack Quantity: 1\n$1.06/fl oz\n$4.97\nDelivery from store\nAddress\nShelby Lee\n10010 Murnane St, Vienna, VA 22181\nDelivery instructions\nPayment method\nVISA Ending in 4358 $36.92\nYour payment method has a temporary hold for $36.92. An updated charge will appear on your statement within 10 business days.\nSubtotal $35.12\nTax $1.80\nTotal $36.92\nCharge history\nYour transaction activity for this order\nOrder# 2000147-42128757",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4258.132042000012,
+        "totalUsd": 0.0118785,
+        "inputTokens": 3713,
+        "outputTokens": 701,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "22181",
+          "status": "match"
+        },
+        "city": {
+          "value": "Vienna",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10010 Murnane St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4358",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LesserEvil Organic Gluten-Free Popcorn, Himalayan Pink Salt, 0.88 oz",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Smash Kitchen Organic Extra Virgin Olive Oil Spray, 4.7 fl oz Can",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Hi, Shelby\nMay 03, 2026 order | Order# 2000147-42128757\nDelivery from store\nDelivered on May 03\nReturn eligible until Sun, Aug 02\nView delivery details\nPlaced Preparing On the way Delivered\nDelivery dropped off on May 03\nHere's a photo of where your package was left.\nView delivery photo\nHow was your delivery experience?\nSelect a rating to begin quick survey.\n4 items received\nLesserEvil Organic Gluten-Free Popcorn, Himalayan Pink Salt, 0.88 oz\n$1.44/oz\nQty 1\n$1.27\nAdd to cart\nReview item\nSmash Kitchen Organic Extra Virgin Olive Oil Spray, 4.7 fl oz Can\nSize: 4.7 fl oz\nMultipack Quantity: 1\n$1.06/fl oz\n$4.97\nDelivery from store\nAddress\nShelby Lee\n10010 Murnane St, Vienna, VA 22181\nDelivery instructions\nPayment method\nVISA Ending in 4358 $36.92\nYour payment method has a temporary hold for $36.92. An updated charge will appear on your statement within 10 business days.\nSubtotal $35.12\nTax $1.80\nTotal $36.92\nCharge history\nYour transaction activity for this order\nOrder# 2000147-42128757",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "VISA Ending in 4358 $36.92",
+      "price": 36.92,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Subscriptions Subtotal $35.12",
+      "price": 35.12,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Tax $1.80",
+      "price": 1.8,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "LesserEvil Organic Gluten-Free Popcorn, Himalayan $1.27 Total $36.92",
+      "price": 36.92,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "My profile Pink Salt, 0.88 oz",
+      "price": 0.88,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Giving & impact Smash Kitchen Organic Extra Virgin Olive Oil Spray, $4.97",
+      "price": 4.97,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "4.7 fl oz Can",
+      "price": 4.7,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Other Accounts Size  4.7 fl oz",
+      "price": 4.7,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

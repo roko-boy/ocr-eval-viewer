@@ -1,0 +1,432 @@
+{
+  "id": "cmqgnm44p0032kmpcv06a9rmo",
+  "url": null,
+  "retailer": "New Seasons Market - Cedar Hills",
+  "brand": "LesserEvil",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "New Seasons Market",
+    "totalCost": "20.27",
+    "purchaseDate": "2026-06-15",
+    "time": null,
+    "zipCode": "97005",
+    "city": "Beaverton",
+    "state": "OR",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7853.695707999999,
+        "totalUsd": 0.019206,
+        "inputTokens": 6114,
+        "outputTokens": 1115,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "New Seasons Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ICELAND YOGURT (85407400603)",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIGGI YOGURT (84029070030)",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOT BAR (8380)",
+          "quantity": 1,
+          "unitPrice": 5.07,
+          "totalSpend": 5.07,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHERRIES (4045)",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HASS AVOCADO (4225)",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COOKIES BY LB (8998)",
+          "quantity": 1,
+          "unitPrice": 1.54,
+          "totalSpend": 1.54,
+          "matchStatus": "match"
+        },
+        {
+          "text": "P&D 21/25 SHP (74175113121) + OTHER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LESSE POPCORN (85006737411)",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Subject Your Neighbor Rewards Email Receipt\nTo: [null <krisneep@yahoo.com>]\nFrom Neighbor Rewards <receipts@neighborrewards.com>\nDate: Mon, Jun 15, 2026 at 5:03 PM\nNEW SEASONS\nMARKET\nDownload our app and get $15 off\nyour first $60+ order with code\nDOWNLOAD15. Online only\n(terms apply)\nDOWNLOAD\nAPP\nPAID\n$20.27\nREWARDS APPLIED\n$0.00\nOTHER SAVINGS\n$13.99\nQTY. ITEMS PRICE\n1 ICELAND YOGURT (85407400603) $1.99\n1 SIGGI YOGURT (84029070030) $1.89\n0.39 HOT BAR (8380) $5.07\n0.56 CHERRIES (4045) $2.79\n1 HASS AVOCADO (4225) $3.49\n0.11 COOKIES BY LB (8998) $1.54\n1 P&D 21/25 SHP (74175113121) $13.99\n1 LESSE POPCORN (85006737411) $3.50\nOTHER SAVINGS -$13.99\nSubtotal $20.27\nTax $0.00\nNEIGHBOR REWARDS APPLIED -$0.00\nTOTAL $20.27\nAMERICAN_EXPRESS $20.27\nReturning or exchanging? Click here for a barcode\nTransaction Date Transaction ID\n06/15/2026 17:01 220",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18873.246833,
+        "totalUsd": 0.045582,
+        "inputTokens": 3706,
+        "outputTokens": 1106,
+        "reasoningTokens": 3341
+      },
+      "fields": {
+        "storeName": {
+          "value": "New Seasons Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ICELAND YOGURT (85407400603)",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIGGI YOGURT (84029070030)",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOT BAR (8380)",
+          "quantity": 1,
+          "unitPrice": 5.07,
+          "totalSpend": 5.07,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHERRIES (4045)",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HASS AVOCADO (4225)",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COOKIES BY LB (8998)",
+          "quantity": 1,
+          "unitPrice": 1.54,
+          "totalSpend": 1.54,
+          "matchStatus": "match"
+        },
+        {
+          "text": "P&D 21/25 SHP (74175113121)",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LESSE POPCORN (85006737411)",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Subject: Your Neighbor Rewards Email Receipt\nTo: [null <krisneep@yahoo.com>]\nFrom: Neighbor Rewards <receipts@neighborrewards.com>\nDate: Mon, Jun 15, 2026 at 5:03 PM\n\nNEW SEASONS MARKET\n\nDownload our app and get $15 off\nyour first $60+ order with code\nDOWNLOAD15. Online only\n(terms apply)\n\nDOWNLOAD APP\n\nPAID $20.27\nREWARDS APPLIED $0.00\nOTHER SAVINGS $13.99\n\nQTY. ITEMS PRICE\n1 ICELAND YOGURT (85407400603) $1.99\n1 SIGGI YOGURT (84029070030) $1.89\n0.39 HOT BAR (8380) $5.07\n0.56 CHERRIES (4045) $2.79\n1 HASS AVOCADO (4225) $3.49\n0.11 COOKIES BY LB (8998) $1.54\n1 P&D 21/25 SHP (74175113121) $13.99\n1 LESSE POPCORN (85006737411) $3.50\nOTHER SAVINGS -$13.99\n\nSubtotal $20.27\nTax $0.00\nNEIGHBOR REWARDS APPLIED -$0.00\n\nTOTAL $20.27\nAMERICAN_EXPRESS $20.27\n\nReturning or exchanging? Click here for a barcode\nTransaction Date Transaction ID\n06/15/2026 17:01 220",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6214.324334000001,
+        "totalUsd": 0.015855,
+        "inputTokens": 3706,
+        "outputTokens": 1144,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "New Seasons Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ICELAND YOGURT (85407400603)",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIGGI YOGURT (84029070030)",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOT BAR (8380)",
+          "quantity": 1,
+          "unitPrice": 5.07,
+          "totalSpend": 5.07,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHERRIES (4045)",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HASS AVOCADO (4225)",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COOKIES BY LB (8998)",
+          "quantity": 1,
+          "unitPrice": 1.54,
+          "totalSpend": 1.54,
+          "matchStatus": "match"
+        },
+        {
+          "text": "P&D 21/25 SHP (74175113121) + OTHER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LESSE POPCORN (85006737411)",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Subject Your Neighbor Rewards Email Receipt\nTo: [null <krisneep@yahoo.com>]\nFrom Neighbor Rewards <receipts@neighborrewards.com>\nDate: Mon, Jun 15, 2026 at 5:03 PM\nNEW SEASONS\nMARKET\nDownload our app and get $15 off\nyour first $60+ order with code\nDOWNLOAD15. Online only\n(terms apply)\nDOWNLOAD\nAPP\nPAID\n$20.27\nREWARDS APPLIED\n$0.00\nOTHER SAVINGS\n$13.99\nQTY. ITEMS\nPRICE\n1\nICELAND YOGURT (85407400603)\n$1.99\n1\nSIGGI YOGURT (84029070030)\n$1.89\n0.39\nHOT BAR (8380)\n$5.07\n0.56\nCHERRIES (4045)\n$2.79\n1\nHASS AVOCADO (4225)\n$3.49\n0.11\nCOOKIES BY LB (8998)\n$1.54\n1\nP&D 21/25 SHP (74175113121)\n$13.99\n1\nLESSE POPCORN (85006737411)\n$3.50\nOTHER SAVINGS\n-$13.99\nSubtotal\n$20.27\nTax\n$0.00\nNEIGHBOR REWARDS APPLIED\n-$0.00\nTOTAL\n$20.27\nAMERICAN_EXPRESS\n$20.27\nReturning or exchanging? Click here for a barcode\nTransaction Date\nTransaction ID\n06/15/2026 17:01\n220",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ICELAND YOGURT (85407400603)",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "SIGGI YOGURT (84029070030)",
+      "price": 1.89,
+      "quantity": 1,
+      "totalSpend": 1.89
+    },
+    {
+      "text": "HOT BAR (8380)",
+      "price": 5.07,
+      "quantity": 1,
+      "totalSpend": 5.07
+    },
+    {
+      "text": "CHERRIES (4045)",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "HASS AVOCADO (4225)",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "COOKIES BY LB (8998)",
+      "price": 1.54,
+      "quantity": 1,
+      "totalSpend": 1.54
+    },
+    {
+      "text": "P&D 21/25 SHP (74175113121) + OTHER SAVINGS",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "LESSE POPCORN (85006737411)",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

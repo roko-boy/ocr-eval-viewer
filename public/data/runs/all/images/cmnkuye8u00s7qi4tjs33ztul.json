@@ -1,0 +1,297 @@
+{
+  "id": "cmnkuye8u00s7qi4tjs33ztul",
+  "url": null,
+  "retailer": "Giant Eagle",
+  "brand": "Leisure Project",
+  "amount": 2.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Giant Eagle",
+    "totalCost": "9.04",
+    "purchaseDate": "2026-04-04",
+    "time": null,
+    "zipCode": "43235",
+    "city": "Columbus",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9641.430209000013,
+        "totalUsd": 0.016122,
+        "inputTokens": 6086,
+        "outputTokens": 777,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market District",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:58pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "43235",
+          "status": "match"
+        },
+        "city": {
+          "value": "Columbus",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4747 Sawmill Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7579",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ETRLYTE RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ELCTLYTE RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ELCTLYTE RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Market\nDISTRICT\n\n6504 SAWMILL\n4747 Sawmill Road\n614-923-0475\nColumbus, OH 43235\n\nETRLYTE RFRSHR 2.79 B\nELCTLYTE RFRSHR 2.79 B\nELCTLYTE RFRSHR 2.79 B\nTAX 0.67\n\n**** BALANCE 9.04\n\n****************************************\nDATE: 04/04/26 TIME: 04:58pm\nTYPE: Purchase\n----------------------------------------\nACCT: US DEBIT 9.04\nAPPROVED\n----------------------------------------\n*** CARD # ************7579\n*** REF # 51702769168 H\n*** AUTH # 537357\n\nTERMINAL: 509\nAID: A0000000980840\nTVR: 0000000000\nTSI:\n\n****************************************\n(Signature Not Required)\n\nVISA 9.04\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n\n04/04/26 04:58pm 6504 509 117 509000",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9379.695667000007,
+        "totalUsd": 0.020595,
+        "inputTokens": 3692,
+        "outputTokens": 775,
+        "reasoningTokens": 898
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market District",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "43235",
+          "status": "match"
+        },
+        "city": {
+          "value": "Columbus",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4747 Sawmill Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7579",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ETRLYTE RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ELCTLYTE RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ELCTLYTE RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Market\nDISTRICT\n\n6504 SAWMILL\n4747 Sawmill Road\n614-923-0475\nColumbus, OH 43235\n\nETRLYTE RFRSHR\n2.79 B\nELCTLYTE RFRSHR\n2.79 B\nELCTLYTE RFRSHR\n2.79 B\nTAX\n0.67\n\n**** BALANCE\n9.04\n\n****************************************\nDATE: 04/04/26 TIME: 04:58pm\nTYPE: Purchase\n----------------------------------------\nACCT: US DEBIT\n9.04\nAPPROVED\n----------------------------------------\n*** CARD # ************7579\n*** REF # 51702769168\nH\n*** AUTH # 537357\n\nTERMINAL: 509\nAID: A0000000980840\nTVR: 0000000000\nTSI:\n\n****************************************\n(Signature Not Required)\n\nVISA\n9.04\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n3\n\n04/04/26 04:58pm 6504 509 117 509000",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4619.265083999999,
+        "totalUsd": 0.012513,
+        "inputTokens": 3692,
+        "outputTokens": 775,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market District",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "43235",
+          "status": "match"
+        },
+        "city": {
+          "value": "Columbus",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4747 Sawmill Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7579",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ETRLYTE RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ELCTLYTE RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ELCTLYTE RFRSHR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Market\nDISTRICT\n\n6504 SAWMILL\n4747 Sawmill Road\n614-923-0475\nColumbus, OH 43235\n\nETRLYTE RFRSHR\n2.79 B\nELCTLYTE RFRSHR\n2.79 B\nELCTLYTE RFRSHR\n2.79 B\nTAX\n0.67\n\n**** BALANCE\n9.04\n\n****************************************\nDATE: 04/04/26 TIME: 04:58pm\nTYPE: Purchase\n----------------------------------------\nACCT: US DEBIT\n9.04\nAPPROVED\n----------------------------------------\n*** CARD # ************7579\n*** REF # 51702769168\nH\n*** AUTH # 537357\n\nTERMINAL: 509\nAID: A0000000980840\nTVR: 0000000000\nTSI:\n\n****************************************\n(Signature Not Required)\n\nVISA\n9.04\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n3\n\n04/04/26 04:58pm 6504 509 117 509000",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ELCTLYTE RFRSHR",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "ELCTLYTE RFRSHR",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "ETRLYTE RFRSHR",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

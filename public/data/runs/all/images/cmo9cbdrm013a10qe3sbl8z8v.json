@@ -1,0 +1,588 @@
+{
+  "id": "cmo9cbdrm013a10qe3sbl8z8v",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "Avocados From Mexico",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "63.67",
+    "purchaseDate": "2026-04-21",
+    "time": null,
+    "zipCode": "38834",
+    "city": "Corinth",
+    "state": "MS",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10365.65679099999,
+        "totalUsd": 0.025167,
+        "inputTokens": 6086,
+        "outputTokens": 1782,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "63.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:19pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "38834",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "104 HWY 72 WEST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRO BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YASSO FRZ YGRT BARPC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "YASSO YOUGRT PC",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SILK ALMOND MILK PC + KROGER SAVINGS + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SILK ALMOND MILK PC + KROGER SAVINGS + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHEEZ IT SNACKS + eCpn Cheez It Snap",
+          "quantity": 1,
+          "unitPrice": 4.24,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHEEZ IT SNACKS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KODIAK CK FLJKWFL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ACE SOURDOUGH SLC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADO",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JELLO PUDDING MIX",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JELLO PUDDING MIX",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHIQ BANANAS + 2.26 (2.27) lb @ 0.49 /lb",
+          "quantity": 1,
+          "unitPrice": 1.11,
+          "totalSpend": 1.11,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORIGINAL PB2 PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 9.79,
+          "totalSpend": 8.59,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger FOR EVERYONE\n104 HWY 72 WEST\n(662)287-8155\nYour cashier was MERCEDES\nKRO BLUEBERRIES 10.99 B\nYASSO FRZ YGRT BARPC 0.00 B\nSC KROGER SAVINGS 5.99\nYASSO YOUGRT PC 5.99 B\nSILK ALMOND MILK PC 1.99 B\nSC KROGER SAVINGS 0.70\nSC eCpn Silk 1.00\nSILK ALMOND MILK PC 1.99 B\nSC KROGER SAVINGS 0.70\nSC eCpn Silk 1.00\nCHEEZ IT SNACKS 4.24 B\nSC eCpn Cheez It Snap0.75\nCHEEZ IT SNACKS 4.99 B\nKODIAK CK FLJKWFL 6.99 B\nACE SOURDOUGH SLC 4.99 B\nAVOCADO 3.99 B\nJELLO PUDDING MIX 1.79 B\nJELLO PUDDING MIX 1.79 B\n2.26 (2.27) lb @ 0.49 /lb\nWT CHIQ BANANAS 1.11 B\nORIGINAL PB2 PC 9.79 B\nSC KROGER SAVINGS 1.20\nKROGER PLUS CUSTOMER *******2023\nSC eCpn 4x Pts Prod\nTAX 3.03\n**** BALANCE 63.67\nUS DEBIT Purchase\n************5450 - H\nREF#: 146113 TOTAL: 63.67\nPURCHASE: 63.67 CASHBACK: 0.00\nAID: A0000000980840\nTC: 79BEF2CF48514305\nVERIFIED BY PIN\nDEBIT 63.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 14\nKROGER SAVINGS $ 11.34\nTOTAL COUPONS $ 11.34\nTOTAL SAVINGS (15 %) $ 11.34\n04/21/26 07:19pm 454 7 257 109\n****************************************\nAnnual Card Savings $332.52\n****************************************\n****************************************\nFuel Points Earned Today: 76\nTotal April Fuel Points: 656\n****************************************\nKroger Community Rewards\nOn your behalf, we are contributing to\nCorinth Alcorn Animal Shelter\n****************************************\nWith Our Low Prices, You Saved\n$11.34\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 152441.865125,
+        "totalUsd": 0.05999400000000001,
+        "inputTokens": 3786,
+        "outputTokens": 1799,
+        "reasoningTokens": 4236
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "63.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:19pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Corinth",
+          "status": "match"
+        },
+        "state": {
+          "value": "MS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "104 HWY 72 WEST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5450",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRO BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YASSO FRZ YGRT BARPC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "YASSO YOUGRT PC",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SILK ALMOND MILK PC + KROGER SAVINGS + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SILK ALMOND MILK PC + KROGER SAVINGS + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHEEZ IT SNACKS + eCpn Cheez It Snap",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.24,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHEEZ IT SNACKS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KODIAK CK FLJKWFL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ACE SOURDOUGH SLC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADO",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JELLO PUDDING MIX",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JELLO PUDDING MIX",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHIQ BANANAS + 2.26 (2.27) lb @ 0.49 /lb",
+          "quantity": 1,
+          "unitPrice": 1.11,
+          "totalSpend": 1.11,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORIGINAL PB2 PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 9.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Kroger FOR EVERYONE\n104 HWY 72 WEST\n(662)287-8155\nYour cashier was MERCEDES\nKRO BLUEBERRIES 10.99 B\nYASSO FRZ YGRT BARPC 0.00 B\nSC KROGER SAVINGS 5.99\nYASSO YOUGRT PC 5.99 B\nSILK ALMOND MILK PC 1.99 B\nSC KROGER SAVINGS 0.70\nSC eCpn Silk 1.00\nSILK ALMOND MILK PC 1.99 B\nSC KROGER SAVINGS 0.70\nSC eCpn Silk 1.00\nCHEEZ IT SNACKS 4.24 B\nSC eCpn Cheez It Snap0.75\nCHEEZ IT SNACKS 4.99 B\nKODIAK CK FLJKWFL 6.99 B\nACE SOURDOUGH SLC 4.99 B\nAVOCADO 3.99 B\nJELLO PUDDING MIX 1.79 B\nJELLO PUDDING MIX 1.79 B\n2.26 (2.27) lb @ 0.49 /lb\nWT CHIQ BANANAS 1.11 B\nORIGINAL PB2 PC 9.79 B\nSC KROGER SAVINGS 1.20\nKROGER PLUS CUSTOMER ******2023\nSC eCpn 4x Pts Prod\nTAX 3.03\n**** BALANCE 63.67\nUS DEBIT Purchase\n************5450 - H\nREF#: 146113 TOTAL: 63.67\nPURCHASE: 63.67 CASHBACK: 0.00\nAID: A0000000980840\nTC: 79BEF2CF48514305\nVERIFIED BY PIN\nDEBIT 63.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 14\nKROGER SAVINGS $ 11.34\nTOTAL COUPONS $ 11.34\nTOTAL SAVINGS (15 %) $ 11.34\n04/21/26 07:19pm 454 7 257 109\n****************************************\nAnnual Card Savings $332.52\n****************************************\nFuel Points Earned Today: 76\nTotal April Fuel Points: 656\n****************************************\nKroger Community Rewards\nOn your behalf, we are contributing to\nCorinth Alcorn Animal Shelter\n****************************************\nWith Our Low Prices, You Saved\n$11.34\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8084.522083000018,
+        "totalUsd": 0.021468,
+        "inputTokens": 3692,
+        "outputTokens": 1770,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "63.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:19pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Corinth",
+          "status": "match"
+        },
+        "state": {
+          "value": "MS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "104 HWY 72 WEST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5450",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRO BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YASSO FRZ YGRT BARPC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "YASSO YOUGRT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SILK ALMOND MILK + KROGER SAVINGS + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SILK ALMOND MILK + KROGER SAVINGS + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHEEZ IT SNACKS + eCpn Cheez It Snap",
+          "quantity": 1,
+          "unitPrice": 4.24,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHEEZ IT SNACKS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KODIAK CK FLJKWFL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ACE SOURDOUGH SLC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADO",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JELLO PUDDING MIX",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JELLO PUDDING MIX",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHIQ BANANAS",
+          "quantity": 1,
+          "unitPrice": 1.11,
+          "totalSpend": 1.11,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORIGINAL PB2 + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 9.79,
+          "totalSpend": 8.59,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger FOR EVERYONE\n104 HWY 72 WEST\n(662)287-8155\nYour cashier was MERCEDES\nKRO BLUEBERRIES 10.99 B\nYASSO FRZ YGRT BARPC 0.00 B\nSC KROGER SAVINGS 5.99\nYASSO YOUGRT PC 5.99 B\nSILK ALMOND MILK PC 1.99 B\nSC KROGER SAVINGS 0.70\nSC eCpn Silk 1.00\nSILK ALMOND MILK PC 1.99 B\nSC KROGER SAVINGS 0.70\nSC eCpn Silk 1.00\nCHEEZ IT SNACKS 4.24 B\nSC eCpn Cheez It Snap0.75\nCHEEZ IT SNACKS 4.99 B\nKODIAK CK FLJKWFL 6.99 B\nACE SOURDOUGH SLC 4.99 B\nAVOCADO 3.99 B\nJELLO PUDDING MIX 1.79 B\nJELLO PUDDING MIX 1.79 B\n2.26 (2.27) lb @ 0.49 /lb\nWT CHIQ BANANAS 1.11 B\nORIGINAL PB2 PC 9.79 B\nSC KROGER SAVINGS 1.20\nKROGER PLUS CUSTOMER *******2023\nSC eCpn 4x Pts Prod\nTAX 3.03\n**** BALANCE 63.67\nUS DEBIT Purchase\n************5450 - H\nREF#: 146113 TOTAL: 63.67\nPURCHASE: 63.67 CASHBACK: 0.00\nAID: A0000000980840\nTC: 79BEF2CF48514305\nVERIFIED BY PIN\nDEBIT 63.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 14\nKROGER SAVINGS $ 11.34\nTOTAL COUPONS $ 11.34\nTOTAL SAVINGS (15 %) $ 11.34\n04/21/26 07:19pm 454 7 257 109\n****************************************\nAnnual Card Savings $332.52\n****************************************\nFuel Points Earned Today: 76\nTotal April Fuel Points: 656\n****************************************\nKroger Community Rewards\nOn your behalf, we are contributing to\nCorinth Alcorn Animal Shelter\n****************************************\nWith Our Low Prices, You Saved\n$11.34\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KRO BLUEBERRIES",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "YASSO YOUGRT",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "SILK ALMOND MILK + SC KROGER SAVINGS 0.70 + SC eCpn Silk 1.00",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "SILK ALMOND MILK + SC KROGER SAVINGS 0.70 + SC eCpn Silk 1.00",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "CHEEZ IT SNACKS + SC eCpn Cheez It Snap 0.75",
+      "price": 4.24,
+      "quantity": 1,
+      "totalSpend": 4.24
+    },
+    {
+      "text": "CHEEZ IT SNACKS",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "KODIAK CK FLJKWFL",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "ACE SOURDOUGH SLC",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "AVOCADO",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "JELLO PUDDING MIX",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "JELLO PUDDING MIX + 2.26 (2.27) lb @ 0.49 /lb",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "CHIQ BANANAS + 2.26 (2.27) lb @ 0.49 /lb",
+      "price": 0.49,
+      "quantity": 1,
+      "totalSpend": 1.11
+    },
+    {
+      "text": "ORIGINAL PB2 + SC KRDGER SAVINGS 1.20 + KROGER PLUS CUSTOMER *******2023 + SC eCpn 4x Pts Prod",
+      "price": 9.79,
+      "quantity": 1,
+      "totalSpend": 9.79
+    }
+  ],
+  "disagreementCount": 3,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmpmrp2lx007wum0zgrcfzc70",
+  "url": null,
+  "retailer": "Starbucks",
+  "brand": "All In",
+  "amount": 2.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Starbucks",
+    "totalCost": "2.37",
+    "purchaseDate": "2026-05-26",
+    "time": null,
+    "zipCode": null,
+    "city": "Roanoke",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8398.761625,
+        "totalUsd": 0.015483,
+        "inputTokens": 6086,
+        "outputTokens": 706,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Starbucks",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:04 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Roanoke",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4201 Brambleton Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4384",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Van Hny Almnd Bar",
+          "quantity": 1,
+          "unitPrice": 2.25,
+          "totalSpend": 2.25,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Starbucks Coffee #78650\n4201 Brambleton Ave\nRoanoke, VA\n-------------------------\nCHK 656908\n05/26/2026 11:04 AM\nXXX1751 Drawer: 2 Reg: 1\n-------------------------\nCafe To Go\nOrder\nVan Hny Almnd Bar 2.25\n-------------------------\nSubtotal 2.25\nDiscounts 0.00\nTax 5.3% 0.12\nTotal 2.37\nChange Due 0.00\n-------------------------\nPayments\nMastercard 2.37\nXXXXXXXXXXXX4384\nCard Entry: CONTACTLESS\nTrans Type: SALE\nApp Label: Mastercard\nAuth: 52637Z\nAID: A0000000041010\nTVR: 0000008001\nTSI: E800\n--------- Check Closed ---------\n05/26/2026 11:04 AM\n\nMerchandise, Packaged Coffee and\nPackaged Tea on this receipt may be\nreturned or exchanged within 60 days\nof the transaction date printed\nabove. All returns or exchanges must\nbe accompanied with this original\nreceipt. Refund method depends on\nform of payment. For questions call\n1-800-STARBUC (1-800-782-7282)\n\nJoin our loyalty program\nStarbucks Rewards®\nSign up for promotional emails\nVisit Starbucks.com/rewards\nOr download our app\nAt participating stores\nSome restrictions apply",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13141.13629200001,
+        "totalUsd": 0.025032,
+        "inputTokens": 3692,
+        "outputTokens": 713,
+        "reasoningTokens": 1453
+      },
+      "fields": {
+        "storeName": {
+          "value": "Starbucks",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:04 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Roanoke",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4201 Brambleton Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4384",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Van Hny Almnd Bar",
+          "quantity": 1,
+          "unitPrice": 2.25,
+          "totalSpend": 2.25,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Starbucks Coffee #78650\n4201 Brambleton Ave\nRoanoke, VA\n-------------------------\nCHK 656908\n05/26/2026 11:04 AM\nXXX1751 Drawer: 2 Reg: 1\n-------------------------\nCafe To Go\nOrder\nVan Hny Almnd Bar 2.25\n-------------------------\nSubtotal 2.25\nDiscounts 0.00\nTax 5.3% 0.12\nTotal 2.37\nChange Due 0.00\n-------------------------\nPayments\nMastercard 2.37\nXXXXXXXXXXXX4384\nCard Entry: CONTACTLESS\nTrans Type: SALE\nApp Label: Mastercard\nAuth: 52637Z\nAID: A0000000041010\nTVR: 0000008001\nTSI: E800\n------- Check Closed -------\n05/26/2026 11:04 AM\n\nMerchandise, Packaged Coffee and\nPackaged Tea on this receipt may be\nreturned or exchanged within 60 days\nof the transaction date printed\nabove. All returns or exchanges must\nbe accompanied with this original\nreceipt. Refund method depends on\nform of payment. For questions call\n1-800-STARBUC (1-800-782-7282)\n\nJoin our loyalty program\nStarbucks Rewards®\nSign up for promotional emails\nVisit Starbucks.com/rewards\nOr download our app\nAt participating stores\nSome restrictions apply",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4560.738249999995,
+        "totalUsd": 0.011838,
+        "inputTokens": 3692,
+        "outputTokens": 700,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Starbucks",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:04 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Roanoke",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4201 Brambleton Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4384",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Van Hny Almnd Bar",
+          "quantity": 1,
+          "unitPrice": 2.25,
+          "totalSpend": 2.25,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Starbucks Coffee #78650\n4201 Brambleton Ave\nRoanoke, VA\n-------------------------\nCHK 656908\n05/26/2026 11:04 AM\nXXX1751 Drawer: 2 Reg: 1\n-------------------------\nCafe To Go\nOrder\nVan Hny Almnd Bar 2.25\n-------------------------\nSubtotal 2.25\nDiscounts 0.00\nTax 5.3% 0.12\nTotal 2.37\nChange Due 0.00\n-------------------------\nPayments\nMastercard 2.37\nXXXXXXXXXXXX4384\nCard Entry: CONTACTLESS\nTrans Type: SALE\nApp Label: Mastercard\nAuth: 52637Z\nAID: A0000000041010\nTVR: 0000008001\nTSI: E800\n--------- Check Closed ---------\n05/26/2026 11:04 AM\n\nMerchandise, Packaged Coffee and\nPackaged Tea on this receipt may be\nreturned or exchanged within 60 days\nof the transaction date printed\nabove. All returns or exchanges must\nbe accompanied with this original\nreceipt. Refund method depends on\nform of payment. For questions call\n1-800-STARBUC (1-800-782-7282)\n\nJoin our loyalty program\nStarbucks Rewards®\nSign up for promotional emails\nVisit Starbucks.com/rewards\nOr download our app\nAt participating stores\nSome restrictions apply",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Van Hny Almnd Bar",
+      "price": 2.25,
+      "quantity": 1,
+      "totalSpend": 2.25
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

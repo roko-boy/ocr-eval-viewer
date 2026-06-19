@@ -1,0 +1,922 @@
+{
+  "id": "cmplprxce002i12cstin7cb7z",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Wet Hydration",
+  "amount": 3.83,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "86.73",
+    "purchaseDate": "2026-05-25",
+    "time": null,
+    "zipCode": "87501",
+    "city": "Santa Fe",
+    "state": "NM",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 110601.534459,
+        "totalUsd": 0.115329,
+        "inputTokens": 3824,
+        "outputTokens": 3323,
+        "reasoningTokens": 8854
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "86.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:42:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "SANTA FE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "199 PASEO DE PERALTA",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0612",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG PINT BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG PINT BLUEBERRIES + BOGO 50% OFF BERRY",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BIRRIA BEEF STRIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIRRIA BEEF STRIP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLT PPR VENISON STRP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLT PPR VENISON STRP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPICY LEMONADE",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SRIRACHA CHCKN STRIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SRIRACHA CHCKN STRIP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWEET HEAT CSHW BTTR",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWEET HEAT POPCORN",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WAGYU BEEF STK STRIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WAGYU BEEF STK STRIP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG SEASON KOMBUCHA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG SEASON KOMBUCHA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRWBRY GRK YGT BRS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VANILLA GRK YGRT BRS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEMON GLAZED ALMONDS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEMON GLAZED ALMONDS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LMN SHRTBRD COOKIES",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG WALNUT DATE ROLL",
+          "quantity": 1,
+          "unitPrice": 7.5,
+          "totalSpend": 7.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RSPBRY SHRTBRD CKIES",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CANNED DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WET DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WET DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WET DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BRWN BUTTER ICE CRM",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LMN DILL SALMON BOWL",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SALT CARAMEL ICE CRM + BOGO FROZEN",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SHRIMP ALFREDO BOWL + BOGO ENTREES",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n199 PASEO DE PERALTA\nSANTA FE, NM\n(505)988-1140\nStore Hours MON-SUN 7AM-10PM\n\n05/25/2026 14:42:16\nMID:000012648584 TID: 001\n313602\n\nCREDIT CARD\nPURCHASE\n\nCARD #: XXXXXXXXXXXX0612\nChip Card: CHASE VISA\nAID: A0000000031010\nATC: 001D\nTC: 508B60FF309E4ED4\nInvoice: 05682D\nAuth Code: 06682D\nEntry Method: Cntctless\nMode: Issuer\n\nSALE AMOUNT $86.73\n\nAPPROVED BY ISSUER\n\nPRODUCE\nORG PINT BLUEBERRIES 1.50\n1 @ 2 FOR 3.00\nORG PINT BLUEBERRIES 1.50\n1 @ 2 FOR 3.00\nBOGO 50% OFF BERRY -0.75\n\nGROCERY\nBIRRIA BEEF STRIP 2.99\nBIRRIA BEEF STRIP 2.99\nBOGO GROCERY -2.99\nORG TART CHRRY JUICE 13.99\nVoided Item\nORG TART CHRRY JUICE -13.99\nSLT PPR VENISON STRP 2.99\nSLT PPR VENISON STRP 2.99\nBOGO GROCERY -2.99\nSPICY LEMONADE 0.99\nSRIRACHA CHCKN STRIP 2.99\nSRIRACHA CHCKN STRIP 2.99\nBOGO GROCERY -2.99\nSWEET HEAT CSHW BTTR 0.99\nSWEET HEAT POPCORN 0.99\nWAGYU BEEF STK STRIP 2.99\nWAGYU BEEF STK STRIP 2.99\nBOGO GROCERY -2.99\n\nDAIRY\nORG SEASON KOMBUCHA 0.99\nORG SEASON KOMBUCHA 0.99\nSTRWBRY GRK YGT BRS 1.99\nVANILLA GRK YGRT BRS 4.99\n\nBULK\nLEMON GLAZED ALMONDS 3.00\nLEMON GLAZED ALMONDS 3.00\nLMN SHRTBRD COOKIES 2.50\nORG WALNUT DATE ROLL 7.50\nRSPBRY SHRTBRD CKIES 2.50\n\nTAXABLE GROCERY\nCANNED DOG FOOD 3.83 M\nWET DOG FOOD 3.83 M\nWET DOG FOOD 3.83 M\nWET DOG FOOD 3.83 M\n\nFROZEN\nBRWN BUTTER ICE CRM 9.99\nLMN DILL SALMON BOWL 7.99\nSALT CARAMEL ICE CRM 9.99\nSHRIMP ALFREDO BOWL 7.99\n\nMENS BODY BAR 1.74 M\nMENS BODY BAR 1.74 M\nMENS BODY BAR 1.74 M\nMENS BODY BAR 1.74 M\n\nBOGO FROZEN -9.99\n\nBOGO ENTREES -7.99\n\nTax Report\nState Tax 22.28 1.09 TT\nLocal Tax 22.28 0.74 TT\n\nBALANCE DUE 86.73\nCREDIT $86.73\n[ ] XXXXXXXXXXXX0612\nAuth# 06682D Ref# 313602\nCHANGE 0.00\n\nYou Saved!\nTOTAL DISCOUNTS 7 30.69\n\nCard XXXXXXXXXX4175\n\nHave a Healthy Day Robyn!\nSprouts Rewards\nPrevious Points Balance 1790\nNew points earned today: 2125\nNew points balance: 3915",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 14905.647333,
+        "totalUsd": 0.037221,
+        "inputTokens": 3730,
+        "outputTokens": 3514,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "86.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:42:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "87501",
+          "status": "match"
+        },
+        "city": {
+          "value": "SANTA FE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "199 PASEO DE PERALTA",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0612",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG PINT BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG PINT BLUEBERRIES + BOGO 50% OFF BERRY",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BIRRIA BEEF STRIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIRRIA BEEF STRIP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG TART CHRRY JUICE",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLT PPR VENISON STRP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLT PPR VENISON STRP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPICY LEMONADE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SRIRACHA CHCKN STRIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SRIRACHA CHCKN STRIP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWEET HEAT CHSW BTTR",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SWEET HEAT POPCORN",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WAGYU BEEF STK STRIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WAGYU BEEF STK STRIP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG SEASON KOMBUCHA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORG SEASON KOMBUCHA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRWBRY GRK YGT BRS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VANILLA GRK YGRT BRS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEMON GLAZED ALMONDS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEMON GLAZED ALMONDS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "LMN SHRTBRD COOKIES",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG WALNUT DATE ROLL",
+          "quantity": 1,
+          "unitPrice": 7.5,
+          "totalSpend": 7.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RSPBRY SHRTBRD CKIES",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CANNED DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WET DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WET DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WET DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BRWN BUTTER ICE CRM",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LMN DILL SALMON BOWL",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SALT CARAMEL ICE CRM",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHRIMP ALFREDO BOWL",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOGO FROZEN",
+          "quantity": 1,
+          "unitPrice": -9.99,
+          "totalSpend": -9.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BOGO ENTREES",
+          "quantity": 1,
+          "unitPrice": -7.99,
+          "totalSpend": -7.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n199 PASEO DE PERALTA\nSANTA FE, NM\n(505)988-1140\nStore Hours MON-SUN 7AM-10PM\n05/25/2026\n14:42:16\nMID:000012648584\nTID: 001\n313602\nCREDIT CARD\nPURCHASE\nCARD #:\nXXXXXXXXXXXX0612\nChip Card:\nCHASE VISA\nA0000000031010\nATC:\n001D\nTC:\n50BB60FF309E4ED4\nINVOICE:\n056820\nAuth Code:\n06682D\nEntry Method:\nCntctless\nMode:\nIssuer\nSALE AMOUNT\n$86.73\nAPPROVED BY ISSUER\nPRODUCE\nORG PINT BLUEBERRIES\n1.50\n1 @ 2 FOR 3.00\nORG PINT BLUEBERRIES\n1.50\n1 @ 2 FOR 3.00\nBOGO 50% OFF BERRY\n-0.75\nGROCERY\nBIRRIA BEEF STRIP\n2.99\nBIRRIA BEEF STRIP\n2.99\nBOGO GROCERY\n-2.99\nORG TART CHRRY JUICE\n13.99\nVoided Item\nORG TART CHRRY JUICE\n-13.99\nSLT PPR VENISON STRP\n2.99\nSLT PPR VENISON STRP\n2.99\nBOGO GROCERY\n-2.99\nSPICY LEMONADE\n2.99\nSRIRACHA CHCKN STRIP\n2.99\nSRIRACHA CHCKN STRIP\n2.99\nBOGO GROCERY\n-2.99\nSWEET HEAT CHSW BTTR\n0.99\nSWEET HEAT POPCORN\n0.99\nWAGYU BEEF STK STRIP\n2.99\nWAGYU BEEF STK STRIP\n2.99\nBOGO GROCERY\n-2.99\nDAIRY\nORG SEASON KOMBUCHA\n0.99\nORG SEASON KOMBUCHA\n0.99\nSTRWBRY GRK YGT BRS\n1.99\nVANILLA GRK YGRT BRS\n4.99\nBULK\nLEMON GLAZED ALMONDS\n3.00\nLEMON GLAZED ALMONDS\n3.00\nLMN SHRTBRD COOKIES\n2.50\nORG WALNUT DATE ROLL\n7.50\nRSPBRY SHRTBRD CKIES\n2.50\nTAXABLE GROCERY\nCANNED DOG FOOD\n3.83 M\nWET DOG FOOD\n3.83 M\nWET DOG FOOD\n3.83 M\nWET DOG FOOD\n3.83 M\nFROZEN\nBRWN BUTTER ICE CRM\n9.99\nLMN DILL SALMON BOWL\n7.99\nSALT CARAMEL ICE CRM\n9.99\nSHRIMP ALFREDO BOWL\n7.99\nMENS BODY BAR\n1.74 M\nMENS BODY BAR\n1.74 M\nMENS BODY BAR\n1.74 M\nMENS BODY BAR\n1.74 M\nBOGO FROZEN\n-9.99\nBOGO ENTREES\n-7.99\nTax Report\nState Tax\n22.28\n1.09 TT\nLocal Tax\n22.28\n0.74 TT\nBALANCE DUE\n86.73\nCREDIT\n86.73\n[ ] XXXXXXXXXXXX0612\nAuth# 06682D\nRef# 313602\nCHANGE\n0.00\nYou Saved!\nTOTAL DISCOUNTS\n7\n30.69\nCard XXXXXXXXXX4175\nHave a Healthy Day Robyn!\n********************************\nSprouts Rewards\nPrevious Points Balance:\n1790\nTotal Points earned today:\n2125\nNew points balance:\n3915\n********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ORG PINT BLUEBERRIES + 1 @ 2 FOR 3.00",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "ORG PINT BLUEBERRIES + 1 @ 2 FOR 3.00",
+      "price": 0.75,
+      "quantity": 1,
+      "totalSpend": 0.75
+    },
+    {
+      "text": "BIRRIA BEEF STRIP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "BIRRIA BEEF STRIP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "ORG TART CHRRY JUICE + Voided Item",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "SLT PPR VENISON STRP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SLT PPR VENISON STRP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SPICY LEMONADE",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "SRIRACHA CHCKN STRIP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SRIRACHA CHCKN STRIP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SWEET HEAT CSHW BTTR",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "SWEET HEAT POPCORN",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "WAGYU BEEF STK STRIP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "WAGYU BEEF STK STRIP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "ORG SEASON KOMBUCHA",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "ORG SEASON KOMBUCHA",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "STRWBRY GRK YGT BRS",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "VANILLA GRK YGRT BRS",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "LEMON GLAZED ALMONDS",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "LEMON GLAZED ALMONDS",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "LMN SHRTBRD COOKIES",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "ORG WALNUT DATE ROLL",
+      "price": 7.5,
+      "quantity": 1,
+      "totalSpend": 7.5
+    },
+    {
+      "text": "RSPBRY SHRTBRD CKIES",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "CANNED DOG FOOD",
+      "price": 3.83,
+      "quantity": 1,
+      "totalSpend": 3.83
+    },
+    {
+      "text": "WET DOG FOOD",
+      "price": 3.83,
+      "quantity": 1,
+      "totalSpend": 3.83
+    },
+    {
+      "text": "WET DOG FOOD",
+      "price": 3.83,
+      "quantity": 1,
+      "totalSpend": 3.83
+    },
+    {
+      "text": "WET DOG FOOD",
+      "price": 3.83,
+      "quantity": 1,
+      "totalSpend": 3.83
+    },
+    {
+      "text": "BRWN BUTTER ICE CRM",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "LMN DILL SALMON BOWL",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "SALT CARAMEL ICE CRM",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "SHRIMP ALFREDO BOWL",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "MENS BODY BAR",
+      "price": 1.74,
+      "quantity": 1,
+      "totalSpend": 1.74
+    },
+    {
+      "text": "MENS BODY BAR",
+      "price": 1.74,
+      "quantity": 1,
+      "totalSpend": 1.74
+    },
+    {
+      "text": "MENS BODY BAR",
+      "price": 1.74,
+      "quantity": 1,
+      "totalSpend": 1.74
+    },
+    {
+      "text": "MENS BODY BAR",
+      "price": 1.74,
+      "quantity": 1,
+      "totalSpend": 1.74
+    }
+  ],
+  "disagreementCount": 5,
+  "nullCount": 1
+}

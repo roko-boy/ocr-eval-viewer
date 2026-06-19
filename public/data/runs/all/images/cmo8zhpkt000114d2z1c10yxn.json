@@ -1,0 +1,600 @@
+{
+  "id": "cmo8zhpkt000114d2z1c10yxn",
+  "url": null,
+  "retailer": "Farmers Market",
+  "brand": "Cleveland Kitchen",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Farmers Market",
+    "totalCost": null,
+    "purchaseDate": "2026-04-21",
+    "time": null,
+    "zipCode": "07001",
+    "city": "Avenel",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 27136.09504199999,
+        "totalUsd": 0.0571335,
+        "inputTokens": 6169,
+        "outputTokens": 1689,
+        "reasoningTokens": 3631
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "57.03",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:57:19",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07001",
+          "status": "match"
+        },
+        "city": {
+          "value": "Avenel",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1002 Saint Georges Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6696",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORGANIC BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC BLACKBERRIES + BOGO BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNOW PEAS",
+          "quantity": 1,
+          "unitPrice": 0.98,
+          "totalSpend": 0.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GINGER LMNGRASS SODA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GINGER STRWBRY SODA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEMON BAR",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LYCHEE SPRKL WTR 6PK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMOKED JACK MACKEREL",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 6.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLASSIC KIMCHI",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG 2% RF MILK",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 7.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRWBRY GRK YGT BRS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BBQ CHICKEN PIZZA + DGTL CPN Milton's",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PISTACHIO ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REGULAR PADS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1002 Saint Georges Ave\nAvenel,NJ 07001\n(848) 343-9871\nStore Hours MON-SUN 7AM-10PM\n\n04/21/2026 12:57:19\nAMEX CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX6696\nPURCHASE - APPROVED\nAUTH CODE:824627\n\nMode: Issuer\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: A800 ARC: 00\nTC: F6CC2161E014F901\nMID: 297338 TID: 001 RRN: 334448\n\nTotal: USD$ 57.03\n\nPRODUCE\nGREEN BEANS 6.99\nVoided Item\nGREEN BEANS -6.99\nORGANIC BLACKBERRIES 4.99\nORGANIC BLACKBERRIES 4.99\nBOGO BLACKBERRIES -4.99\nSNOW PEAS 0.98\n\nGROCERY\nGINGER LMNGRASS SODA 0.99 T\nGINGER STRWBRY SODA 0.99 T\nLEMON BAR 1.99 T\nLYCHEE SPRKL WTR 6PK 7.99\nSMOKED JACK MACKEREL 6.59\n\nDAIRY\nCLASSIC KIMCHI 5.99\nORG 2% RF MILK 7.29\nSTRWBRY GRK YGT BRS 3.99\n\nFROZEN\nBBQ CHICKEN PIZZA 12.99\nDGTL CPN Milton's -12.99\nPISTACHIO ICE CREAM 5.99\n\nREGULAR PADS 8.99\n\nTax Report\nSales Tax 3.97 0.26 TT\n\nBALANCE DUE 70.02\nCREDIT $57.03\n[ ] XXXXXXXXXXXX6696\nAuth# 824627 Ref# 334448\nCHANGE 0.00\n\nYou Saved!\nTOTAL DISCOUNTS 2 17.98\n\nCard XXXXXXXXXXX6695",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 28475.51404099999,
+        "totalUsd": 0.06375,
+        "inputTokens": 3692,
+        "outputTokens": 1723,
+        "reasoningTokens": 4745
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "57.03",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:57:19",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07001",
+          "status": "match"
+        },
+        "city": {
+          "value": "Avenel",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1002 Saint Georges Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6696",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORGANIC BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC BLACKBERRIES + BOGO BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNOW PEAS",
+          "quantity": 1,
+          "unitPrice": 0.98,
+          "totalSpend": 0.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GINGER LMNGRASS SODA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GINGER STRWBRY SODA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEMON BAR",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LYCHEE SPRKL WTR 6PK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMOKED JACK MACKEREL",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 6.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLASSIC KIMCHI",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG 2% RF MILK",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 7.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRWBRY GRK YGT BRS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BBQ CHICKEN PIZZA + DGTL CPN Milton's",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PISTACHIO ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REGULAR PADS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1002 Saint Georges Ave\nAvenel, NJ 07001\n(848) 343-9871\nStore Hours MON-SUN 7AM-10PM\n\n04/21/2026 12:57:19\nAMEX CREDIT Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX6696\nPURCHASE - APPROVED\nAUTH CODE:824627\n\nMode:\nIssuer\nAID:\nA000000025010901\nTVR:\n0000008000\nIAD:\n06040103A20102\nTSI: A800\nARC: 00\nTC:\nF6CC2161E014F901\nMID: 297338 TID: 001 RRN: 334448\n\nTotal:\nUSD$ 57.03\n\nPRODUCE\nGREEN BEANS\n6.99\nVoided Item\nGREEN BEANS\n-6.99\nORGANIC BLACKBERRIES\n4.99\nORGANIC BLACKBERRIES\n4.99\nBOGO BLACKBERRIES\n-4.99\nSNOW PEAS\n0.98\n\nGROCERY\nGINGER LMNGRASS SODA\n0.99 T\nGINGER STRWBRY SODA\n0.99 T\nLEMON BAR\n1.99 T\nLYCHEE SPRKL WTR 6PK\n7.99\nSMOKED JACK MACKEREL\n6.59\n\nDAIRY\nCLASSIC KIMCHI\n5.99\nORG 2% RF MILK\n7.29\nSTRWBRY GRK YGT BRS\n3.99\n\nFROZEN\nBBQ CHICKEN PIZZA\n12.99\nDGTL CPN Milton's\n-12.99\nPISTACHIO ICE CREAM\n5.99\n\nREGULAR PADS\n8.99\n\nTax Report\nSales Tax\n3.97\n0.26 TT\n\nBALANCE DUE\n70.02\nCREDIT\n$57.03\n[ ] XXXXXXXXXXXX6696\nAuth# 824627\nRef# 334448\nCHANGE\n0.00\n\nYou Saved!\nTOTAL DISCOUNTS\n2\n17.98\n\nCard XXXXXXXXXXX0665",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8020.765999999996,
+        "totalUsd": 0.020406,
+        "inputTokens": 3692,
+        "outputTokens": 1652,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "70.02",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:57:19",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07001",
+          "status": "match"
+        },
+        "city": {
+          "value": "Avenel",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1002 Saint Georges Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6696",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORGANIC BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC BLACKBERRIES + BOGO BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNOW PEAS",
+          "quantity": 1,
+          "unitPrice": 0.98,
+          "totalSpend": 0.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GINGER LMNGRASS SODA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GINGER STRWBRY SODA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEMON BAR",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LYCHEE SPRKL WTR 6PK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMOKED JACK MACKEREL",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 6.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLASSIC KIMCHI",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG 2% RF MILK",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 7.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRWBRY GRK YGT BRS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BBQ CHICKEN PIZZA + DGTL CPN Milton's",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PISTACHIO ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REGULAR PADS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1002 Saint Georges Ave\nAvenel, NJ 07001\n(848) 343-9871\nStore Hours MON-SUN 7AM-10PM\n04/21/2026 12:57:19\nAMEX CREDIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX6696\nPURCHASE - APPROVED\nAUTH CODE: 824627\nMode: Issuer\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: A800 ARC: 00\nTC: F6CC2161E014F901\nMID: 297338 TID: 001 RRN: 334448\nTotal: USD$ 57.03\nPRODUCE\nGREEN BEANS 6.99\nVoided Item\nGREEN BEANS -6.99\nORGANIC BLACKBERRIES 4.99\nORGANIC BLACKBERRIES 4.99\nBOGO BLACKBERRIES -4.99\nSNOW PEAS 0.98\nGROCERY\nGINGER LMNGRASS SODA 0.99 T\nGINGER STRWBRY SODA 0.99 T\nLEMON BAR 1.99 T\nLYCHEE SPRKL WTR 6PK 7.99\nSMOKED JACK MACKEREL 6.59\nDAIRY\nCLASSIC KIMCHI 5.99\nORG 2% RF MILK 7.29\nSTRWBRY GRK YGT BRS 3.99\nFROZEN\nBBQ CHICKEN PIZZA 12.99\nDGTL CPN Milton's -12.99\nPISTACHIO ICE CREAM 5.99\nREGULAR PADS 8.99\nTax Report\nSales Tax 3.97 0.26 TT\nBALANCE DUE 70.02\nCREDIT $57.03\n[ ] XXXXXXXXXXXX6696\nAuth# 824627 Ref# 334448\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 2 17.98\nCard XXXXXXXXXXX6695",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GREEN BEANS + Voided Item",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "ORGANIC BLACKBERRIES",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "ORGANIC BLACKBERRIES",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SNOW PEAS",
+      "price": 0.98,
+      "quantity": 1,
+      "totalSpend": 0.98
+    },
+    {
+      "text": "GINGER LMNGRASS SODA",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "GINGER STRWBRY SODA",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "LEMON BAR",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "LYCHEE SPRKL WTR 6PK",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "SMOKED JACK MACKEREL",
+      "price": 6.59,
+      "quantity": 1,
+      "totalSpend": 6.59
+    },
+    {
+      "text": "CLASSIC KIMCHI",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "ORG 2% RF MILK",
+      "price": 7.29,
+      "quantity": 1,
+      "totalSpend": 7.29
+    },
+    {
+      "text": "STRWBRY GRK YGT BRS",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BBQ CHICKEN PIZZA",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "PISTACHIO ICE CREAM",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "REGULAR PADS",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

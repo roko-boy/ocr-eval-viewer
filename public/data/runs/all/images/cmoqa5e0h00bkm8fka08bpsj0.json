@@ -1,0 +1,459 @@
+{
+  "id": "cmoqa5e0h00bkm8fka08bpsj0",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Doughp",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "35.8",
+    "purchaseDate": "2026-05-03",
+    "time": null,
+    "zipCode": "80301",
+    "city": "Boulder",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14736.02816600003,
+        "totalUsd": 0.021684,
+        "inputTokens": 6086,
+        "outputTokens": 1395,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "35.8",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Boulder",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2905 Pearl St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2515",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OATOVR BDY CKE OVRNGHT OT",
+          "quantity": 2,
+          "unitPrice": 2.05,
+          "totalSpend": 4.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG LMN DATE POPS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG CN BN DATE POPS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS PCH NCTR COCO YGRT + Reg $6.49 + Savings with Prime ($1.73)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.76,
+          "matchStatus": "match"
+        },
+        {
+          "text": "88ACR CREAM SEED OAT BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POPBTL OG MCHA OAT LATTE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG CINN GRHM CRKR BAR",
+          "quantity": 2,
+          "unitPrice": 1.37,
+          "totalSpend": 2.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRUBAR COOKIE DOUGH BAR + Reg $2.69 + Savings with Prime ($0.69)",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TRUBAR SMOTHER FUDGER BAR + Reg $2.69 + Savings with Prime ($0.69)",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nPearl PRL 303-545-6611\n2905 Pearl St\nBoulder, CO 80301 1130\nOATOVR BDY CKE OVRNGHT OT $4.10 FT\nQty 2 $2.05 ea\nJOOLIE OG LMN DATE POPS $5.99 FT\nJOOLIE OG CN BN DATE POPS $5.99 FT\nGTS PCH NCTR COCO YGRT $4.76 FT\nReg $6.49\nSavings with Prime ($1.73)\n88ACR CREAM SEED OAT BAR $2.79 FT\nPOPBTL OG MCHA OAT LATTE $3.99 FT\nBALTIG CINN GRHM CRKR BAR $2.74 FT\nQty 2 $1.37 ea\nTRUBAR COOKIE DOUGH BAR $2.00 FT\nReg $2.69\nSavings with Prime ($0.69)\nTRUBAR SMOTHER FUDGER BAR $2.00 FT\nReg $2.69\nSavings with Prime ($0.69)\nSubtotal: $37.47\nTotal Savings: -$3.11\nNet Sales: $34.36\nTax: 7.86% $0.22\nTax: 3.86% $1.22\nTotal: $35.80\nSold Items: 11\nPaid:\nVISA *2515 $35.80\nChip Card: VISA CREDIT\nChip Card AID: A0000000031010\n****************************************\nYour Total Savings\n$3.11\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n903 36211 05/03/2026 03:20 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17253.51925000001,
+        "totalUsd": 0.043221,
+        "inputTokens": 3692,
+        "outputTokens": 1498,
+        "reasoningTokens": 2689
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "35.8",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Boulder",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2905 Pearl St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2515",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OATOVR BDY CKE OVRNGHT OT + Qty 2 $2.05 ea",
+          "quantity": 2,
+          "unitPrice": 2.05,
+          "totalSpend": 4.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG LMN DATE POPS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG CN BN DATE POPS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS PCH NCTR COCO YGRT + Reg $6.49 + Savings with Prime ($1.73)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.76,
+          "matchStatus": "match"
+        },
+        {
+          "text": "88ACR CREAM SEED OAT BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POPBTL OG MCHA OAT LATTE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG CINN GRHM CRKR BAR + Qty 2 $1.37 ea",
+          "quantity": 2,
+          "unitPrice": 1.37,
+          "totalSpend": 2.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRUBAR COOKIE DOUGH BAR + Reg $2.69 + Savings with Prime ($0.69)",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TRUBAR SMOTHER FUDGER BAR + Reg $2.69 + Savings with Prime ($0.69)",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nPearl PRL 303-545-6611\n2905 Pearl St\nBoulder, CO 80301 1130\nOATOVR BDY CKE OVRNGHT OT      $4.10 FT\n  Qty 2 $2.05 ea\nJOOLIE OG LMN DATE POPS        $5.99 FT\nJOOLIE OG CN BN DATE POPS        $5.99 FT\nGTS PCH NCTR COCO YGRT         $4.76 FT\n  Reg $6.49\n  Savings with Prime ($1.73)\n88ACR CREAM SEED OAT BAR       $2.79 FT\nPOPBTL OG MCHA OAT LATTE       $3.99 FT\nBALTIG CINN GRHM CRKR BAR      $2.74 FT\n  Qty 2 $1.37 ea\nTRUBAR COOKIE DOUGH BAR        $2.00 FT\n  Reg $2.69\n  Savings with Prime ($0.69)\nTRUBAR SMOTHER FUDGER BAR      $2.00 FT\n  Reg $2.69\n  Savings with Prime ($0.69)\n        Subtotal:             $37.47\n        Total Savings:        -$3.11\n        Net Sales:            $34.36\n        Tax:         7.86%     $0.22\n        Tax:         3.86%     $1.22\n             Total:           $35.80\n           Sold Items:            11\nPaid:\nVISA             *2515        $35.80\n  Chip Card:VISA CREDIT\n  Chip Card AID:A0000000031010\n\n****************************************\n           Your Total Savings\n                 $3.11\n****************************************\n\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\n\nEarn 5% back at Whole Foods Market\n        with Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n\n903 36211 05/03/2026 03:20 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7004.474040999979,
+        "totalUsd": 0.018435,
+        "inputTokens": 3692,
+        "outputTokens": 1433,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "35.8",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Boulder",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2905 Pearl St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2515",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OATOVR BDY CKE OVRNGHT OT",
+          "quantity": 2,
+          "unitPrice": 2.05,
+          "totalSpend": 4.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG LMN DATE POPS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG CN BN DATE POPS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS PCH NCTR COCO YGRT + Savings with Prime ($1.73)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.76,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "88ACR CREAM SEED OAT BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POPBTL OG MCHA OAT LATTE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG CINN GRHM CRKR BAR",
+          "quantity": 2,
+          "unitPrice": 1.37,
+          "totalSpend": 2.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRUBAR COOKIE DOUGH BAR + Savings with Prime ($0.69)",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TRUBAR SMOTHER FUDGER BAR + Savings with Prime ($0.69)",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nPearl PRL 303-545-6611\n2905 Pearl St\nBoulder, CO 80301 1130\nOATOVR BDY CKE OVRNGHT OT\n$4.10 FT\nQty 2 $2.05 ea\nJOOLIE OG LMN DATE POPS\n$5.99 FT\nJOOLIE OG CN BN DATE POPS\n$5.99 FT\nGTS PCH NCTR COCO YGRT\n$4.76 FT\nReg $6.49\nSavings with Prime ($1.73)\n88ACR CREAM SEED OAT BAR\n$2.79 FT\nPOPBTL OG MCHA OAT LATTE\n$3.99 FT\nBALTIG CINN GRHM CRKR BAR\n$2.74 FT\nQty 2 $1.37 ea\nTRUBAR COOKIE DOUGH BAR\n$2.00 FT\nReg $2.69\nSavings with Prime ($0.69)\nTRUBAR SMOTHER FUDGER BAR\n$2.00 FT\nReg $2.69\nSavings with Prime ($0.69)\nSubtotal:\n$37.47\nTotal Savings:\n-$3.11\nNet Sales:\n$34.36\nTax:\n7.86%\n$0.22\nTax:\n3.86%\n$1.22\nTotal:\n$35.80\nSold Items:\n11\nPaid:\nVISA\n*2515\n$35.80\nChip Card: VISA CREDIT\nChip Card AID: A0000000031010\n****************************************\nYour Total Savings\n$3.11\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n903 36211 05/03/2026 03:20 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "OATOVR BDY CKE OVRNGHT OT + Qty 2 $2.05 ea",
+      "price": 2.05,
+      "quantity": 2,
+      "totalSpend": 4.1
+    },
+    {
+      "text": "JOOLIE OG LMN DATE POPS",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "JOOLIE OG CN BN DATE POPS",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "GTS PCH NCTR COCO YGRT + Reg $6.49 + Savings with Prime ($1.73)",
+      "price": 4.76,
+      "quantity": 1,
+      "totalSpend": 4.76
+    },
+    {
+      "text": "88ACR CREAM SEED OAT BAR",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "POPBTL OG MCHA OAT LATTE",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BALTIG CINN GRHM CRKR BAR + Qty 2 $1.37 ea",
+      "price": 1.37,
+      "quantity": 2,
+      "totalSpend": 2.74
+    },
+    {
+      "text": "TRUBAR SMOTHER FUDGER BAR + Reg $2.69 + Savings with Prime ($0.69)",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "TRUBAR COOKIE DOUGH BAR + Reg $2.69 + Savings with Prime ($0.69)",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

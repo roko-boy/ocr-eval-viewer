@@ -1,0 +1,243 @@
+{
+  "id": "cmokozwti00a310b3i8l5rsb3",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Pioneer Pastures",
+  "amount": 1.6,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "8.53",
+    "purchaseDate": "2026-04-28",
+    "time": null,
+    "zipCode": "37064",
+    "city": "Franklin",
+    "state": "TN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12769.53433400008,
+        "totalUsd": 0.0326265,
+        "inputTokens": 6169,
+        "outputTokens": 960,
+        "reasoningTokens": 1637
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "8.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:07:40",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37064",
+          "status": "match"
+        },
+        "city": {
+          "value": "FRANKLIN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1010 MURFEESBORO RD & MAPLE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0709",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LACT FR WHOLE MILK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1010 MURFEESBORO RD & MAPLE\nFRANKLIN, TN 37064\n(615)567-0191\nStore Hours MON-SUN 7AM-10PM\n\n04/28/2026 17:07:40\nMASTERCARD Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX0709\nPURCHASE - APPROVED\nAUTH CODE:02457S\n\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0114A1400302000000000000000000000000\nOOOFF\nTSI: A800 ARC: 00\nTC: 2E732CC3CD50A851\nMID: 100299 TID: 001 RRN: 056032\n\nTotal: USD$ 8.53\n\nDAIRY\nLACT FR WHOLE MILK 7.99 T F\n\nTax Report\nFood Tax 7.99 0.54 TT\n\nBALANCE DUE 8.53\nCREDIT $8.53\n[ ] XXXXXXXXXXXX0709\nAuth# 02457S Ref# 056032\nCHANGE 0.00\n----------------------------------------\nCard XXXXXXXXXXX2506\n----------------------------------------\nHave a Healthy Day Katie!\n****************************************\nSprouts Rewards\nPrevious Points Balance: 1755\nTotal Points earned today: 40\nNew points balance: 1795\n****************************************\n99058000563231181707\n****************************************\nCashier:Emily Store: 580\nPOS:005 Transaction:6323\nTuesday, April 28, 2026 05:07 PM\n\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\n----------------------------------------\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10511.07016699994,
+        "totalUsd": 0.026877,
+        "inputTokens": 3692,
+        "outputTokens": 912,
+        "reasoningTokens": 1459
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:07 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37064",
+          "status": "match"
+        },
+        "city": {
+          "value": "FRANKLIN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1010 MURFEESBORO RD & MAPLE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0709",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LACT FR WHOLE MILK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1010 MURFEESBORO RD & MAPLE\nFRANKLIN, TN 37064\n(615)567-0191\nStore Hours MON-SUN 7AM-10PM\n04/28/2026 17:07:40\nMASTERCARD Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX0709\nPURCHASE - APPROVED\nAUTH CODE:02457S\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0114A140030200000000000000000000\nOOOFF\nTSI: A800 ARC: 00\nTC: 2E732CC3CD50A851\nMID: 100299 TID: 001 RRN: 056032\nTotal: USD$ 8.53\nDAIRY\nLACT FR WHOLE MILK 7.99 T F\nTax Report\nFood Tax 7.99 0.54 TT\nBALANCE DUE 8.53\nCREDIT $8.53\n[ ] XXXXXXXXXXXX0709\nAuth# 02457S Ref# 056032\nCHANGE 0.00\nCard XXXXXXXXXX2506\nHave a Healthy Day Katie!\n****************************************\nSprouts Rewards\nPrevious Points Balance: 1755\nTotal Points earned today: 40\nNew points balance: 1795\n****************************************\n99058000563231181707\n****************************************\nCashier:Emily Store: 580\nPOS:005 Transaction:6323\nTuesday, April 28, 2026 05:07 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5070.769459000003,
+        "totalUsd": 0.013944,
+        "inputTokens": 3692,
+        "outputTokens": 934,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:07 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37064",
+          "status": "match"
+        },
+        "city": {
+          "value": "FRANKLIN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1010 MURFEESBORO RD & MAPLE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0709",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LACT FR WHOLE MILK",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1010 MURFEESBORO RD & MAPLE\nFRANKLIN, TN 37064\n(615)567-0191\nStore Hours MON-SUN 7AM-10PM\n04/28/2026\n17:07:40\nMASTERCARD\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX0709\nPURCHASE\n- APPROVED\nAUTH CODE:02457S\nMode:\nIssuer\nAID:\nA0000000041010\nTVR:\n0000008001\nIAD:\n0114A140030200000000000000000000\nOOOFF\nTSI: A800\nARC: 00\nTC:\n2E732CC3CD50A851\nMID: 100299\nTID: 001\nRRN: 056032\nTotal:\nUSD$ 8.53\nDAIRY\nLACT FR WHOLE MILK\n7.99 T F\nTax Report\nFood Tax\n7.99\n0.54 TT\nBALANCE DUE\n8.53\nCREDIT\n$8.53\n[ ] XXXXXXXXXXXX0709\nAuth# 02457S\nRef# 056032\nCHANGE\n0.00\nCard XXXXXXXXXX2506\nHave a Healthy Day Katie!\n****************************************\nSprouts Rewards\nPrevious Points Balance:\n1755\nTotal Points earned today:\n40\nNew points balance:\n1795\n****************************************\n99058000563231181707\n****************************************\nCashier:Emily Store: 580\nPOS:005 Transaction:6323\nTuesday, April 28, 2026 05:07 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "LACT FR WHOLE MILK",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

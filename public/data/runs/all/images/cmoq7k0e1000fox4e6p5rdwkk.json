@@ -1,0 +1,243 @@
+{
+  "id": "cmoq7k0e1000fox4e6p5rdwkk",
+  "url": null,
+  "retailer": "Unleashed by Petco",
+  "brand": "boxiecat ",
+  "amount": 10,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Unleashed by Petco",
+    "totalCost": "37.09",
+    "purchaseDate": "2026-05-03",
+    "time": null,
+    "zipCode": "20001",
+    "city": "Washington",
+    "state": "DC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9002.657750000013,
+        "totalUsd": 0.013752,
+        "inputTokens": 6114,
+        "outputTokens": 509,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:40PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20001",
+          "status": "match"
+        },
+        "city": {
+          "value": "WASHINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "DC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1550 7TH ST NW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003120884 BOX-28# UNS PRO CLAY",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 34.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nDC SHAW UN #05826\n1550 7TH ST NW\nWASHINGTON, DC 20001\n202-238-9010\n05/03/26 3:40PM Reg 001 Trans 108510\nHelped by Laudeth\n003120884 BOX-28# UNS PRO CLAY 34.99 T\nTaxable Total 34.99\nSubtotal 34.99\nTax DC 6% 2.10\nTOTAL 37.09\nDiscover Credit Card 37.09\n2026-05-03 03:40:04 PM\nTotal: USD $37.09",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7487.905333000002,
+        "totalUsd": 0.018348,
+        "inputTokens": 3706,
+        "outputTokens": 512,
+        "reasoningTokens": 909
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20001",
+          "status": "match"
+        },
+        "city": {
+          "value": "WASHINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "DC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1550 7TH ST NW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003120884 BOX-28# UNS PRO CLAY",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 34.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\n\nDC SHAW UN #05826\n1550 7TH ST NW\nWASHINGTON, DC 20001\n202-238-9010\n\n05/03/26 3:40PM Reg 001 Trans 108510\nHelped by Laudeth\n\n003120884 BOX-28# UNS PRO CLAY\n34.99 T\n\nTaxable Total\n34.99\nSubtotal\n34.99\nTax DC 6%\n2.10\nTOTAL\n37.09\n\nDiscover Credit Card\n37.09\n2026-05-03 03:40:04 PM\nTotal: USD $37.09",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4163.337417000002,
+        "totalUsd": 0.010041,
+        "inputTokens": 3706,
+        "outputTokens": 498,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:40PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20001",
+          "status": "match"
+        },
+        "city": {
+          "value": "WASHINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "DC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1550 7TH ST NW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003120884 BOX-28# UNS PRO CLAY",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 34.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nDC SHAW UN #05826\n1550 7TH ST NW\nWASHINGTON, DC 20001\n202-238-9010\n05/03/26 3:40PM Reg 001 Trans 108510\nHelped by Laudeth\n003120884 BOX-28# UNS PRO CLAY 34.99 T\nTaxable Total 34.99\nSubtotal 34.99\nTax DC 6% 2.10\nTOTAL 37.09\nDiscover Credit Card 37.09\n2026-05-03 03:40:04 PM\nTotal: USD $37.09",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOX-28# UNS PRO CLAY + 003120884",
+      "price": 34.99,
+      "quantity": 1,
+      "totalSpend": 34.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

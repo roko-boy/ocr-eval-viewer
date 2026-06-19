@@ -1,0 +1,486 @@
+{
+  "id": "cmnoy38mh00181o15fjqathri",
+  "url": null,
+  "retailer": "Meijer Express Gas Station",
+  "brand": "LesserEvil",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "38.16",
+    "purchaseDate": "2026-04-06",
+    "time": null,
+    "zipCode": "48066",
+    "city": "Roseville",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12572.42700000003,
+        "totalUsd": 0.022014,
+        "inputTokens": 6114,
+        "outputTokens": 1427,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.16",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-06",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48066",
+          "status": "match"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3399",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "19056952220 + FROZEN SPINACH",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "21935900000 + TOMATOES",
+          "quantity": 1,
+          "unitPrice": 1.62,
+          "totalSpend": 1.62,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4125011250 + COTTAGE CHEESE",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "70882015782 + ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85890600480 + LESSER EVIL + mPerks Offer => 2 @ .75 off",
+          "quantity": 2,
+          "unitPrice": 3.59,
+          "totalSpend": 5.68,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "75703751355 + STAIN REMOVER",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8068692651 + VODKA",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*7294595836 + SL HALF LOAF + was 2.69 now 2.39",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*3260190011 + EBF LETTUCE + was 3.69 now 2.99",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*2100002650 + MIRACLE WHIP + was 5.99 now 5.49 + mPerks Offer => 2.00 off",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Roseville, MI 48066 - #63\n(586)296-6900 meijer.com\n04/06/26 Fastlane192\nMEIJER SAVINGS\nmPerks 3.50\nSPECIALS 1.50\nSAVINGS TOTAL 5.00\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n226.14\nGROCERY\n19056952220 FROZEN SPINACH 1.59 F\n21935900000 TOMATOES 1.62 F\n4125011250 COTTAGE CHEESE 2.29 F\n70882015782 ICE CREAM 3.29 F\n85890600480 LESSER EVIL\n2 @ 3.59 7.18 F\nmPerks Offer\n=> 2 @ .75 off -1.50 F\n75703751355 STAIN REMOVER 3.99 T\n8068692651 VODKA 9.99 NT\n*7294595836 SL HALF LOAF\nwas 2.69 now 2.39 F\n*3260190011 EBF LETTUCE\nwas 3.69 now 2.99 F\n*2100002650 MIRACLE WHIP\nwas 5.99 now 5.49 F\nmPerks Offer\n=> 2.00 off -2.00 F\nmPerks # -- ********45\nTOTAL\nMI 6% Sales Tax .84\nTOTAL TAX .84\nTOTAL 38.16\nPAYMENTS\nVISA Payment TENDER 38.16\nXXXXXXXXXXXX3399 (X)",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16657.603917,
+        "totalUsd": 0.04305299999999999,
+        "inputTokens": 3706,
+        "outputTokens": 1425,
+        "reasoningTokens": 2741
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.16",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-06",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48066",
+          "status": "match"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3399",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "19056952220 + FROZEN SPINACH",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "21935900000 + TOMATOES",
+          "quantity": 1,
+          "unitPrice": 1.62,
+          "totalSpend": 1.62,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4125011250 + COTTAGE CHEESE",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "70882015782 + ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85890600480 + LESSER EVIL + mPerks Offer => 2 @ .75 off",
+          "quantity": 2,
+          "unitPrice": 3.59,
+          "totalSpend": 5.68,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "75703751355 + STAIN REMOVER",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8068692651 + VODKA",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*7294595836 + SL HALF LOAF + was 2.69 now 2.39",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*3260190011 + EBF LETTUCE + was 3.69 now 2.99",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*2100002650 + MIRACLE WHIP + was 5.99 now 5.49 + mPerks Offer => 2.00 off",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Roseville, MI 48066 - #63\n(586)296-6900 meijer.com\n04/06/26 Fastlane192\nMEIJER SAVINGS\nmPerks 3.50\nSPECIALS 1.50\nSAVINGS TOTAL 5.00\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n226.14\nGROCERY\n19056952220 FROZEN SPINACH 1.59 F\n21935900000 TOMATOES 1.62 F\n4125011250 COTTAGE CHEESE 2.29 F\n70882015782 ICE CREAM 3.29 F\n85890600480 LESSER EVIL\n2 @ 3.59 7.18 F\nmPerks Offer\n=> 2 @ .75 off -1.50 F\n75703751355 STAIN REMOVER 3.99 T\n8068692651 VODKA 9.99 NT\n*7294595836 SL HALF LOAF\nwas 2.69 now 2.39 F\n*3260190011 EBF LETTUCE\nwas 3.69 now 2.99 F\n*2100002650 MIRACLE WHIP\nwas 5.99 now 5.49 F\nmPerks Offer\n=> 2.00 off -2.00 F\n\nmPerks # -- ********45\nTOTAL\nMI 6% Sales Tax .84\nTOTAL TAX .84\nTOTAL 38.16\nPAYMENTS\nVISA Payment TENDER 38.16\nXXXXXXXXXXXX3399 (X)",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6814.892333999975,
+        "totalUsd": 0.018258,
+        "inputTokens": 3706,
+        "outputTokens": 1411,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.16",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-06",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48066",
+          "status": "match"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3399",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "19056952220 FROZEN SPINACH",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "21935900000 TOMATOES",
+          "quantity": 1,
+          "unitPrice": 1.62,
+          "totalSpend": 1.62,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4125011250 COTTAGE CHEESE",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "70882015782 ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85890600480 LESSER EVIL + mPerks Offer => 2 @ .75 off",
+          "quantity": 2,
+          "unitPrice": 3.59,
+          "totalSpend": 5.68,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "75703751355 STAIN REMOVER",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8068692651 VODKA",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*7294595836 SL HALF LOAF + was 2.69 now 2.39",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*3260190011 EBF LETTUCE + was 3.69 now 2.99",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*2100002650 MIRACLE WHIP + was 5.99 now 5.49 + mPerks Offer => 2.00 off",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Roseville, MI 48066 - #63\n(586)296-6900 meijer.com\n04/06/26 Fastlane192\nMEIJER SAVINGS\nmPerks 3.50\nSPECIALS 1.50\nSAVINGS TOTAL 5.00\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n226.14\nGROCERY\n19056952220 FROZEN SPINACH 1.59 F\n21935900000 TOMATOES 1.62 F\n4125011250 COTTAGE CHEESE 2.29 F\n70882015782 ICE CREAM 3.29 F\n85890600480 LESSER EVIL\n2 @ 3.59 7.18 F\nmPerks Offer\n=> 2 @ .75 off -1.50 F\n75703751355 STAIN REMOVER 3.99 T\n8068692651 VODKA 9.99 NT\n*7294595836 SL HALF LOAF\nwas 2.69 now 2.39 F\n*3260190011 EBF LETTUCE\nwas 3.69 now 2.99 F\n*2100002650 MIRACLE WHIP\nwas 5.99 now 5.49 F\nmPerks Offer\n=> 2.00 off -2.00 F\nmPerks # -- ********45\nTOTAL\nMI 6% Sales Tax .84\nTOTAL TAX .84\nTOTAL 38.16\nPAYMENTS\nVISA Payment TENDER 38.16\nXXXXXXXXXXXX3399 (X)",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FROZEN SPINACH + 19056952220",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.59
+    },
+    {
+      "text": "TOMATOES + 21935900000",
+      "price": 1.62,
+      "quantity": 1,
+      "totalSpend": 1.62
+    },
+    {
+      "text": "COTTAGE CHEESE + 4125011250",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "ICE CREAM + 70882015782",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "LESSER EVIL + 85890600480 + 2 @ 3.59 7.18 F + mPerks Offer",
+      "price": 2.84,
+      "quantity": 2,
+      "totalSpend": 5.68
+    },
+    {
+      "text": "STAIN REMOVER + 75703751355",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "VODKA + 8068692651",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "SL HALF LOAF + 7294595836 + was 2.69 now 2.39 F",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "EBF LETTUCE + 3260190011 + was 3.69 now 2.99 F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "MIRACLE WHIP + 2100002650 + was 5.99 now 5.49 F + mPerks Offer",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

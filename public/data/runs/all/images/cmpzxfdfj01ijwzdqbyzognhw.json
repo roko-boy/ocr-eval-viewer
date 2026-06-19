@@ -1,0 +1,243 @@
+{
+  "id": "cmpzxfdfj01ijwzdqbyzognhw",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "Instinct - Fresh Raw Meals",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "7.53",
+    "purchaseDate": "2026-06-03",
+    "time": null,
+    "zipCode": "92064",
+    "city": "Poway",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13341.61100000003,
+        "totalUsd": 0.015834,
+        "inputTokens": 6086,
+        "outputTokens": 745,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92064",
+          "status": "match"
+        },
+        "city": {
+          "value": "POWAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13375 POWAY RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6186",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "004622587 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nPOWAY #04502\n13375 POWAY RD\nPOWAY, CA 92064\n858-762-8720\n06/03/26 4:05PM Reg 002 Trans 239081\nHelped by Catrina\n004622587 NAV-DOG 8Z FRESHRAW 6.99 T\nTaxable Total 6.99\nSubtotal 6.99\nTax CA 7.75% 0.54\nTOTAL 7.53\nVisa Debit Card 7.53\n2026-06-03 04:04:44 PM\nTotal: USD $7.53\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX6186\nPurchase - APPROVED\nAUTH CODE: 000826\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 663869\n1 Item\nTransaction Barcode\n014502056002239081202606033219662020\nVital Care Number: 321966202\nT = Taxable N = Non-Taxable",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11905.13829199999,
+        "totalUsd": 0.023151,
+        "inputTokens": 3692,
+        "outputTokens": 736,
+        "reasoningTokens": 1221
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92064",
+          "status": "match"
+        },
+        "city": {
+          "value": "POWAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13375 POWAY RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6186",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NAV-DOG 8Z FRESHRAW + 004622587",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nPOWAY #04502\n13375 POWAY RD\nPOWAY, CA 92064\n858-762-8720\n06/03/26 4:05PM Reg 002 Trans 239081\nHelped by Catrina\n004622587 NAV-DOG 8Z FRESHRAW 6.99 T\nTaxable Total 6.99\nSubtotal 6.99\nTax CA 7.75% 0.54\nTOTAL 7.53\nVisa Debit Card 7.53\n2026-06-03 04:04:44 PM\nTotal: USD $7.53\nVisa\nEntry Method: TAP\nCard #: XXXXXXXXXXXX6186\nPurchase - APPROVED\nAUTH CODE: 000826\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 663869\n1 Item\nTransaction Barcode\n014502056002239081202606033219662020\nVital Care Number: 321966202\nT = Taxable N = Non-Taxable",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4403.009875000018,
+        "totalUsd": 0.012144,
+        "inputTokens": 3692,
+        "outputTokens": 734,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92064",
+          "status": "match"
+        },
+        "city": {
+          "value": "POWAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13375 POWAY RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6186",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "004622587 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nPOWAY #04502\n13375 POWAY RD\nPOWAY, CA 92064\n858-762-8720\n06/03/26 4:05PM Reg 002 Trans 239081\nHelped by Catrina\n004622587 NAV-DOG 8Z FRESHRAW 6.99 T\nTaxable Total 6.99\nSubtotal 6.99\nTax CA 7.75% 0.54\nTOTAL 7.53\nVisa Debit Card 7.53\n2026-06-03 04:04:44 PM\nTotal: USD $7.53\nVisa\nEntry Method: TAP\nCard #: XXXXXXXXXXXX6186\nPurchase - APPROVED\nAUTH CODE: 000826\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 663869\n1 Item\nTransaction Barcode\n014502056002239081202606033219662020\nVital Care Number: 321966202\nT = Taxable N = Non-Taxable",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NAV-DOG 8Z FRESHRAW + 004622587",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

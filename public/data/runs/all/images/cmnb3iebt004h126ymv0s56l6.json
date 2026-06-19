@@ -1,0 +1,345 @@
+{
+  "id": "cmnb3iebt004h126ymv0s56l6",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "Brutus Bone Broth",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "57.62",
+    "purchaseDate": "2026-03-28",
+    "time": null,
+    "zipCode": "80127",
+    "city": "Littleton",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 22742.18595699995,
+        "totalUsd": 0.020109,
+        "inputTokens": 6086,
+        "outputTokens": 1220,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "57.62",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80127",
+          "status": "match"
+        },
+        "city": {
+          "value": "Littleton",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8440 S Kipling Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6642",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TP FALL 25 V PUFFER BURG XL + 196481114173 + Return Amount $9.97",
+          "quantity": 1,
+          "unitPrice": 9.97,
+          "totalSpend": 9.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*ONE CAT TRUE INSTINCT CHK/SLM + 017800158275 + QTY: 2 @ $0.97 + Return Amount $0.97",
+          "quantity": 2,
+          "unitPrice": 0.97,
+          "totalSpend": 1.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOOD DRIVE DONATION + 400521755517 + QTY: 2 @ $0.00 + Item is not returnable.",
+          "quantity": 2,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "AS* BRUTUS BB PORK BROTH 32 OZ + 850018544061 + Return Amount $9.99",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* INST D PKBST KBLE SLM 3.5 + 769949657941 + Return Amount $32.99",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 32.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #1084\n8440 S Kipling Pkwy\nLittleton, CO 80127\n720-922-8335\nS-1084 R-103 BUS.DATE-03/28/2026\nT-69623 A-827622\nSALE\nTP FALL 25 V PUFFER BURG XL $9.97\n196481114173 StSpSpSpC\nReturn Amount $9.97\n*ONE CAT TRUE INSTINCT CHK/SLM $1.94\n017800158275 StSpSpSpC\nQTY: 2 @ $0.97\nReturn Amount $0.97\nFOOD DRIVE DONATION $0.00\n400521755517 N\nQTY: 2 @ $0.00\nItem is not returnable.\nAS* BRUTUS BB PORK BROTH 32 OZ $9.99\n850018544061 StSpSpSpC\nReturn Amount $9.99\nAS* INST D PKBST KBLE SLM 3.5 $32.99\n769949657941 StSpSpSpC\nReturn Amount $32.99\n7 Sale item(s)\nSUBTOTAL $54.89\nSALE\nTAX State 2.90% ON $54.89 $1.59\nTAX County 0.50% ON $54.89 $0.27\nTAX Special 0.50% ON $54.89 $0.27\nTAX Special 1.00% ON $54.89 $0.55\nTAX Special 0.10% ON $54.89 $0.05\nTAX TOTAL: $2.73\nTOTAL $57.62\nVISA\nACCOUNT#: ************6642 $57.62\nAUTH#: 559245\nCHANGE DUE $0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10886.88250000001,
+        "totalUsd": 0.027021,
+        "inputTokens": 3692,
+        "outputTokens": 1183,
+        "reasoningTokens": 1204
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "57.62",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80127",
+          "status": "match"
+        },
+        "city": {
+          "value": "Littleton",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8440 S Kipling Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6642",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TP FALL 25 V PUFFER BURG XL + 196481114173 + Return Amount $9.97",
+          "quantity": 1,
+          "unitPrice": 9.97,
+          "totalSpend": 9.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*ONE CAT TRUE INSTINCT CHK/SLM + 017800158275 + Return Amount $0.97",
+          "quantity": 2,
+          "unitPrice": 0.97,
+          "totalSpend": 1.94,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FOOD DRIVE DONATION + 400521755517 + Item is not returnable.",
+          "quantity": 2,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "AS* BRUTUS BB PORK BROTH 32 OZ + 850018544061 + Return Amount $9.99",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* INST D PKBST KBLE SLM 3.5 + 769949657941 + Return Amount $32.99",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 32.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #1084\n8440 S Kipling Pkwy\nLittleton, CO 80127\n720-922-8335\nS-1084 R-103 BUS.DATE-03/28/2026\nT-69623 A-827622\nSALE\nTP FALL 25 V PUFFER BURG XL $9.97\n196481114173 StSpSpSpC\nReturn Amount $9.97\n*ONE CAT TRUE INSTINCT CHK/SLM $1.94\n017800158275 StSpSpSpC\nQTY: 2 @ $0.97\nReturn Amount $0.97\nFOOD DRIVE DONATION $0.00\n400521755517 N\nQTY: 2 @ $0.00\nItem is not returnable.\nAS* BRUTUS BB PORK BROTH 32 OZ $9.99\n850018544061 StSpSpSpC\nReturn Amount $9.99\nAS* INST D PKBST KBLE SLM 3.5 $32.99\n769949657941 StSpSpSpC\nReturn Amount $32.99\n7 Sale item(s)\nSUBTOTAL $54.89\nSALE\nTAX State 2.90% ON $54.89 $1.59\nTAX County 0.50% ON $54.89 $0.27\nTAX Special 0.50% ON $54.89 $0.27\nTAX Special 1.00% ON $54.89 $0.55\nTAX Special 0.10% ON $54.89 $0.05\nTAX TOTAL: $2.73\nTOTAL $57.62\nVISA\nACCOUNT#: ************6642 $57.62\nAUTH#: 559245\nCHANGE DUE $0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6661.711166000023,
+        "totalUsd": 0.015834,
+        "inputTokens": 3692,
+        "outputTokens": 1144,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "57.62",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80127",
+          "status": "match"
+        },
+        "city": {
+          "value": "Littleton",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8440 S Kipling Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6642",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TP FALL 25 V PUFFER BURG XL + 196481114173",
+          "quantity": 1,
+          "unitPrice": 9.97,
+          "totalSpend": 9.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*ONE CAT TRUE INSTINCT CHK/SLM + 017800158275",
+          "quantity": 2,
+          "unitPrice": 0.97,
+          "totalSpend": 1.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOOD DRIVE DONATION + 400521755517",
+          "quantity": 2,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "AS* BRUTUS BB PORK BROTH 32 OZ + 850018544061",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* INST D PKBST KBLE SLM 3.5 + 769949657941",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 32.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #1084\n8440 S Kipling Pkwy\nLittleton, CO 80127\n720-922-8335\nS-1084 R-103 BUS.DATE-03/28/2026\nT-69623 A-827622\nSALE\nTP FALL 25 V PUFFER BURG XL $9.97\n196481114173 StSpSpSpC\nReturn Amount $9.97\n*ONE CAT TRUE INSTINCT CHK/SLM $1.94\n017800158275 StSpSpSpC\nQTY: 2 @ $0.97\nReturn Amount $0.97\nFOOD DRIVE DONATION $0.00\n400521755517 N\nQTY: 2 @ $0.00\nItem is not returnable.\nAS* BRUTUS BB PORK BROTH 32 OZ $9.99\n850018544061 StSpSpSpC\nReturn Amount $9.99\nAS* INST D PKBST KBLE SLM 3.5 $32.99\n769949657941 StSpSpSpC\nReturn Amount $32.99\n7 Sale item(s)\nSUBTOTAL $54.89\nSALE\nTAX State 2.90% ON $54.89 $1.59\nTAX County 0.50% ON $54.89 $0.27\nTAX Special 0.50% ON $54.89 $0.27\nTAX Special 1.00% ON $54.89 $0.55\nTAX Special 0.10% ON $54.89 $0.05\nTAX TOTAL: $2.73\nTOTAL $57.62\nVISA\nACCOUNT#: ************6642 $57.62\nAUTH#: 559245\nCHANGE DUE $0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "TP FALL 25 V PUFFER BURG XL + 196481114173 + Return Amount $9.97",
+      "price": 9.97,
+      "quantity": 1,
+      "totalSpend": 9.97
+    },
+    {
+      "text": "ONE CAT TRUE INSTINCT CHK/SLM + 017800158275 + QTY: 2 @ $0.97 + Return Amount $0.97",
+      "price": 0.97,
+      "quantity": 2,
+      "totalSpend": 1.94
+    },
+    {
+      "text": "AS* BRUTUS BB PORK BROTH 32 OZ + 850018544061 + Return Amount $9.99",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "AS* INST D PKBST KBLE SLM 3.5 + 769949657941 + Return Amount $32.99",
+      "price": 32.99,
+      "quantity": 1,
+      "totalSpend": 32.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

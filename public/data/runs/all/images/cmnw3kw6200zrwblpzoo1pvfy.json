@@ -1,0 +1,297 @@
+{
+  "id": "cmnw3kw6200zrwblpzoo1pvfy",
+  "url": null,
+  "retailer": "Kings Food Markets Bakery",
+  "brand": "Madhava Foods",
+  "amount": 8.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kings Food Markets",
+    "totalCost": "30.56",
+    "purchaseDate": "2026-04-12",
+    "time": null,
+    "zipCode": "07932",
+    "city": "Florham Park",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8824.594041999982,
+        "totalUsd": 0.017427,
+        "inputTokens": 6086,
+        "outputTokens": 922,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kings",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "30.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07932",
+          "status": "match"
+        },
+        "city": {
+          "value": "Florham Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "184 Columbia Turnpike",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5497",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "7831421170 + 2@ MADHAVA HONEY AGAV",
+          "quantity": 2,
+          "unitPrice": 8.79,
+          "totalSpend": 17.58,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4319231550 + NANCYS COTTAGE",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8599700527 + GD CULT CLSIC16Z",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "KINGS\nStore 3618 Dir Patricia Burns\nMain: (973) 360-1600 Rx:\n184 Columbia Turnpike\nFlorham Park NJ 0932\n00361805301062604121426\nYOUR CASHIER TODAY WAS SELF\nGROCERY Price You Pay\n7831421170 2@ MADHAVA HONEY AGAV 17.58 17.58 S\nREFRIG/FROZEN\n4319231550 NANCYS COTTAGE 7.49 7.49 S\n8599700527 GD CULT CLSIC16Z 5.49 5.49 S\nTAX 0.00\n**** BALANCE 30.56\nCredit Purchase 04/12/26 14:26\nCARD # ************5497\nREF: 782652454970 AUTH: 0054382Z\nPAYMENT AMOUNT 30.56\nAL MASTERCARD\nAID A0000000041010\nTVR 0000008001\nMastercard 30.56\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\n04/12/26 14:26 3618 53 106 8853\nThank you for shopping Kings\nVisit kingsfoodmarkets.com\nor call 1-800-326-4647\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13892.88050000001,
+        "totalUsd": 0.031044,
+        "inputTokens": 3692,
+        "outputTokens": 908,
+        "reasoningTokens": 1926
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kings",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "30.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "0932",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Florham Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "184 Columbia Turnpike",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5497",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MADHAVA HONEY AGAV + 7831421170",
+          "quantity": 2,
+          "unitPrice": 8.79,
+          "totalSpend": 17.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NANCYS COTTAGE + 4319231550",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GD CULT CLSIC16Z + 85997700527",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KINGS\nStore 3618 Dir Patricia Burns\nMain: (973) 360-1600 Rx:\n184 Columbia Turnpike\nFlorham Park NJ 0932\n00361805301062604121426\nYOUR CASHIER TODAY WAS SELF\nGROCERY Price You Pay\n7831421170 2@ MADHAVA HONEY AGAV 17.58 17.58 S\nREFRIG/FROZEN\n4319231550 NANCYS COTTAGE 7.49 7.49 S\n85997700527 GD CULT CLSIC16Z 5.49 5.49 S\nTAX 0.00\n**** BALANCE 30.56\nCredit Purchase 04/12/26 14:26\nCARD # ************5497\nREF: 782652454970 AUTH: 0054382Z\nPAYMENT AMOUNT 30.56\nAL MASTERCARD\nAID A0000000041010\nTVR 0000008001\nMastercard 30.56\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\n04/12/26 14:26 3618 53 106 8853\nThank you for shopping Kings\nVisit kingsfoodmarkets.com\nor call 1-800-326-4647",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5702.098416000001,
+        "totalUsd": 0.01389,
+        "inputTokens": 3692,
+        "outputTokens": 928,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kings",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "30.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07932",
+          "status": "match"
+        },
+        "city": {
+          "value": "Florham Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "184 Columbia Turnpike",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5497",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MADHAVA HONEY AGAV + 7831421170",
+          "quantity": 2,
+          "unitPrice": 8.79,
+          "totalSpend": 17.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NANCYS COTTAGE + 4319231550",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GD CULT CLSIC16Z + 85997700527",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KINGS\nStore 3618 Dir Patricia Burns\nMain: (973) 360-1600 Rx:\n184 Columbia Turnpike\nFlorham Park NJ 07932\n00361805301062604121426\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n7831421170 2@ MADHAVA HONEY AGAV\n17.58 17.58 S\nREFRIG/FROZEN\n4319231550 NANCYS COTTAGE\n7.49 7.49 S\n85997700527 GD CULT CLSIC16Z\n5.49 5.49 S\nTAX\n0.00\n**** BALANCE\n30.56\nCredit Purchase 04/12/26 14:26\nCARD # ************5497\nREF: 782652454970 AUTH: 0054382Z\nPAYMENT AMOUNT\n30.56\nAL MASTERCARD\nAID A0000000041010\nTVR 0000008001\nMastercard\n30.56\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n4\n04/12/26 14:26 3618 53 106\n8853\nThank you for shopping Kings\nVisit kingsfoodmarkets.com\nor call 1-800-325-4647\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MADHAVA HONEY AGAV + 7831421170 + REFRIG/FROZEN",
+      "price": 8.79,
+      "quantity": 2,
+      "totalSpend": 17.58
+    },
+    {
+      "text": "NANCYS COTTAGE + 4319231550",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    },
+    {
+      "text": "GD CULT CLSIC16Z + 85997700527",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

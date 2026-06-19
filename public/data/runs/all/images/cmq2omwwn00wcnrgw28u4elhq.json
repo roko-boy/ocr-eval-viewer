@@ -1,0 +1,918 @@
+{
+  "id": "cmq2omwwn00wcnrgw28u4elhq",
+  "url": null,
+  "retailer": "Hy-Vee Grocery Store",
+  "brand": "Califia Farms",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Hy-Vee",
+    "totalCost": "136.89",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "66062",
+    "city": "Olathe",
+    "state": "KS",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 22148.587,
+        "totalUsd": 0.039162,
+        "inputTokens": 6086,
+        "outputTokens": 3337,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "136.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2021-06-26",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "66062",
+          "status": "match"
+        },
+        "city": {
+          "value": "Olathe",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14955 W 151st St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7931",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GLOW PALS BIKINI 2166473112",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "XOCHITL SEA SALT 1020304040",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CALIFIA COLD BREW 1363602388",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YUMBANA CHEESE CA 1125702001",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NATURE OWN BUTTER 7225004919 + 1397861 DC Nature's Own",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRO DECADENT CHO 5769000824",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HILLS DELI RSTD T 4450097650",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKE AIR CLASSIC 5001433502",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF OG HICKORY BEE 5208900719 + 2 @ 1.99",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MISSION GF SOFT T 7373107140",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CANTALOUPE 4050",
+          "quantity": 1,
+          "unitPrice": 1.48,
+          "totalSpend": 1.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF ST TACO PINEAP 5208900750",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV SLICED COLBY 7545052501 + 1 @ 2 / 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TACO BELL ORIG TA 2100003934",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF OG HICKORY BEE 5208900776",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF LEMON BASIL PE 5208900779",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PORK THICK TOP LO 3332700000 + 1.860 LB @ 3.99 USD/LB",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 7.42,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRSH BNLS PORK LO 3334500000 + 0.821 LB @ 3.97 USD/LB",
+          "quantity": 1,
+          "unitPrice": 3.97,
+          "totalSpend": 3.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRSH BNLS PORK LO 3334500000 + 0.929 LB @ 3.97 USD/LB",
+          "quantity": 1,
+          "unitPrice": 3.97,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV HNY LEMON DRO 7545082585",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV WHOLE FRYER 3080500000 + 5.477 LB @ 1.28 USD/LB",
+          "quantity": 1,
+          "unitPrice": 1.28,
+          "totalSpend": 7.01,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNAPDRAGON CKN PH 1505501001",
+          "quantity": 1,
+          "unitPrice": 3.59,
+          "totalSpend": 3.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNAPDRAGON MUSHRO 1505501006",
+          "quantity": 1,
+          "unitPrice": 3.59,
+          "totalSpend": 3.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MILK 50 LACT FR 0 4190009104",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BARILLA GF ELBOWS 7680800391",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SOFTSOAP CLEAR AQ 7418245993 + 1398631 DC Softsoap",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n14955 W 151st St\nOlathe, KS 66062\n913-780-9339\n1463StoreManagementMailGroup@Hy-Vee.com\nGLOW PALS BIKINI 2166473112 5.99 t\nXOCHITL SEA SALT 1020304040 3.99 tF\nCALTIFIA COLD BREW 1363602388 5.49 tF\nYUMBANA CHEESE CA 1125702001 9.99 tF\nNATURE OWN BUTTER 7225004919 4.29 tF\n1397861 DC Nature's Own -0.50\nPIRO DECADENT CHO 5769000824 7.99 tF\nHILLS DELI RSTD T 4450097650 4.99 tF\nLIKE AIR CLASSIC 5001433502 3.99 tF\nRF OG HICKORY BEE 5208900719 3.98 tF\n2 @ 1.99\nMISSION GF SOFT T 7373107140 6.29 tF\nCANTALOUPE 4050 1.48 tF\nRF ST TACO PINEAP 5208900750 1.99 tF\nHYV SLICED COLBY 7545052501 2.50 tF\n1 @ 2 / 5.00\nTACO BELL ORIG TA 2100003934 1.59 tF\nRF OG HICKORY BEE 5208900776 10.99 tF\nRF LEMON BASIL PE 5208900779 10.99 tF\nPORK THICK TOP LO 3332700000 7.42 tF\n1.860 LB @ 3.99 USD/LB\nFRSH BNLS PORK LO 3334500000 3.26 tF\n0.821 LB @ 3.97 USD/LB\nFRSH BNLS PORK LO 3334500000 3.69 tF\n0.929 LB @ 3.97 USD/LB\nHYV HNY LEMON DRO 7545082585 2.99 T\nHYV WHOLE FRYER 3080500000 7.01 tF\n5.477 LB @ 1.28 USD/LB\nSNAPDRAGON CKN PH 1505501001 3.59 tF\nSNAPDRAGON MUSHRO 1505501006 3.59 tF\nMILK 50 LACT FR 0 4190009104 6.99 tF\nBARILLA GF ELBOWS 7680800391 2.49 tF\nSOFTSOAP CLEAR AQ 7418245993 6.99 T\n1398631 DC Softsoap -2.00\nSUBTOTAL [27] 132.05\nT 13.97 @ 9.475% = 1.32\nt 118.08 @ 2.975% = 3.51\nTOTAL 136.89\nManufacturer Coupon 1.00\nManufacturer Coupon 1.00\nDebit 134.89\nPURCHASE $134.89\n************7931 Visa CHIP READ\nREF#: 008561 480030067164\nTransaction Approved\nUS DEBIT (as Debit)\nAAC - 3DABF4C819E538E8\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000980840\nTVR: 8000048800\nIAD: 06011203210000\nTSI: 6800 ARC: 00\nLoyalty Card # xxxxxxx6707\nEarned Today: $0.00 per gallon\nRedeemed Today: $0.00 per gallon\nTotal Rewards: $0.00 per gallon\n0011463060626010000108\nCashier Name: Toni",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 112663.398875,
+        "totalUsd": 0.09052199999999999,
+        "inputTokens": 3786,
+        "outputTokens": 3350,
+        "reasoningTokens": 6077
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "136.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2023-06-06",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "66062",
+          "status": "match"
+        },
+        "city": {
+          "value": "Olathe",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14955 W 151st St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7931",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GLOW PALS BIKINI 2166473112",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "XOCHITL SEASALT 1020304040",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CALIFIA COLD BREW 1363602388",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YUMBANA CHEESE CA 1125702001",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NATURE OWN BUTTER 7225004919 + 1397861 DC Nature's Own",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRO DECADENT CHO 5769000824",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HILLS DELI RSTD T 4450097650",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKE AIR CLASSIC 5001433502",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF OG HICKORY BEE 5208900719 + 2 @ 1.99",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MISSION GF SOFT T 7373107140",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CANTALOUPE 4050",
+          "quantity": 1,
+          "unitPrice": 1.48,
+          "totalSpend": 1.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF ST TACO PINEAP 5208900750",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV SLICED COLBY 7545052501 + 1 @ 2 / 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TACO BELL ORIG TA 2100003934",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF OG HICKORY BEE 5208900776",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF LEMON BASIL PE 5208900779",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PORK THICK TOP LO 3332700000 + 1.860 LB @ 3.99 USD/LB",
+          "quantity": 1,
+          "unitPrice": 7.42,
+          "totalSpend": 7.42,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRSH BNLS PORK LO 3334500000 + 0.821 LB @ 3.97 USD/LB",
+          "quantity": 1,
+          "unitPrice": 3.26,
+          "totalSpend": 3.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRSH BNLS PORK LO 3334500000 + 0.929 LB @ 3.97 USD/LB",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV HNY LEMON DRO 7545082585",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV WHOLE FRYER 3080500000 + 5.477 LB @ 1.28 USD/LB",
+          "quantity": 1,
+          "unitPrice": 7.01,
+          "totalSpend": 7.01,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNAPDRAGON CKN PH 1505501001",
+          "quantity": 1,
+          "unitPrice": 3.59,
+          "totalSpend": 3.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNAPDRAGON MUSHRO 1505501006",
+          "quantity": 1,
+          "unitPrice": 3.59,
+          "totalSpend": 3.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MILK 50 LACT FR 0 4190009104",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BARILLA GF ELBOWS 7680800391",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SOFTSOAP CLEAR AQ 7418245993 + 1398631 DC Softsoap",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n14955 W 151st St\nOlathe, KS 66062\n913-780-9339\n1463StoreManagementMailGroup@Hy-Vee.com\nGLOW PALS BIKINI 2166473112 5.99 t\nXOCHITL SEASALT 1020304040 3.99 tF\nCALIFIA COLD BREW 1363602388 5.49 tF\nYUMBANA CHEESE CA 1125702001 9.99 tF\nNATURE OWN BUTTER 7225004919 4.29 tF\n1397861 DC Nature's Own -0.50\nPIRO DECADENT CHO 5769000824 7.99 tF\nHILLS DELI RSTD T 4450097650 4.99 tF\nLIKE AIR CLASSIC 5001433502 3.99 tF\nRF OG HICKORY BEE 5208900719 3.98 tF\n2 @ 1.99\nMISSION GF SOFT T 7373107140 6.29 tF\nCANTALOUPE 4050 1.48 tF\nRF ST TACO PINEAP 5208900750 1.99 tF\nHYV SLICED COLBY 7545052501 2.50 tF\n1 @ 2 / 5.00\nTACO BELL ORIG TA 2100003934 1.59 tF\nRF OG HICKORY BEE 5208900776 10.99 tF\nRF LEMON BASIL PE 5208900779 10.99 tF\nPORK THICK TOP LO 3332700000 7.42 tF\n1.860 LB @ 3.99 USD/LB\nFRSH BNLS PORK LO 3334500000 3.26 tF\n0.821 LB @ 3.97 USD/LB\nFRSH BNLS PORK LO 3334500000 3.69 tF\n0.929 LB @ 3.97 USD/LB\nHYV HNY LEMON DRO 7545082585 2.99 T\nHYV WHOLE FRYER 3080500000 7.01 tF\n5.477 LB @ 1.28 USD/LB\nSNAPDRAGON CKN PH 1505501001 3.59 tF\nSNAPDRAGON MUSHRO 1505501006 3.59 tF\nMILK 50 LACT FR 0 4190009104 6.99 tF\nBARILLA GF ELBOWS 7680800391 2.49 tF\nSOFTSOAP CLEAR AQ 7418245993 6.99 T\n1398631 DC Softsoap -2.00\nSUBTOTAL [27] 132.05\nT 13.97 @ 9.475% = 1.32\nt 118.08 @ 2.975% = 3.51\nTOTAL 136.89\nManufacturer Coupon 1.00\nManufacturer Coupon 1.00\nDebit 134.89\nPURCHASE $134.89\n************7931 Visa CHIP READ\nREF#: 008561 480030067164\nTransaction Approved\nUS DEBIT (as Debit)\nAAC - 3DABF4C819E538E8\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000980840\nTVR: 8000048800\nIAD: 06011203210000\nTSI: 6800 ARC: 00\nLoyalty Card # xxxxxxx6707\nEarned Today: $0.00 per gallon\nRedeemed Today: $0.00 per gallon\nTotal Rewards: $0.00 per gallon\n001146306062301000108\nCashier Name: Toni",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 13732.770625,
+        "totalUsd": 0.034815,
+        "inputTokens": 3692,
+        "outputTokens": 3253,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "136.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "66062",
+          "status": "match"
+        },
+        "city": {
+          "value": "Olathe",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14955 W 151st St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7931",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GLOW PALS BIKINI + 2166473112",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "XOCHITL SEA SALT + 1020304040",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CALIFIA COLD BREW + 1363602388",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YUMBANA CHEESE CA + 1125702001",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NATURE OWN BUTTER + 7225004919 + 1397861 DC Nature's Own",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ DECADENT CHO + 5769000824",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HILLS DELI RSTD T + 4450097650",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKE AIR CLASSIC + 5001433502",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF OG HICKORY BEE + 5208900719",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MISSION GF SOFT T + 7373107140",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CANTALOUPE + 4050",
+          "quantity": 1,
+          "unitPrice": 1.48,
+          "totalSpend": 1.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF ST TACO PINEAP + 5208900750",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV SLICED COLBY + 7545052501",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TACO BELL ORIG TA + 2100003934",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF OG HICKORY BEE + 5208900776",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RF LEMON BASIL PE + 5208900779",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PORK THICK TOP LO + 3332700000",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 7.42,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRSH BNLS PORK LO + 3334500000",
+          "quantity": 1,
+          "unitPrice": 3.97,
+          "totalSpend": 3.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRSH BNLS PORK LO + 3334500000",
+          "quantity": 1,
+          "unitPrice": 3.97,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV HNY LEMON DRO + 7545082585",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV WHOLE FRYER + 3080500000",
+          "quantity": 1,
+          "unitPrice": 1.28,
+          "totalSpend": 7.01,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNAPDRAGON CKN PH + 1505501001",
+          "quantity": 1,
+          "unitPrice": 3.59,
+          "totalSpend": 3.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNAPDRAGON MUSHRO + 1505501006",
+          "quantity": 1,
+          "unitPrice": 3.59,
+          "totalSpend": 3.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MILK 50 LACT FR 0 + 4190009104",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BARILLA GF ELBOWS + 7680800391",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SOFTSOAP CLEAR AQ + 7418245993 + 1398631 DC Softsoap",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n14955 W 151st St\nOlathe, KS 66062\n913-780-9339\n1463StoreManagementMailGroup@Hy-Vee.com\nGLOW PALS BIKINI 2166473112 5.99 T\nXOCHITL SEA SALT 1020304040 3.99 tF\nCALIFIA COLD BREW 1363602388 5.49 tF\nYUMBANA CHEESE CA 1125702001 9.99 tF\nNATURE OWN BUTTER 7225004919 4.29 tF\n1397861 DC Nature's Own -0.50\nPIRQ DECADENT CHO 5769000824 7.99 tF\nHILLS DELI RSTD T 4450097650 4.99 tF\nLIKE AIR CLASSIC 5001433502 3.99 tF\nRF OG HICKORY BEE 5208900719 3.98 tF\n2 @ 1.99\nMISSION GF SOFT T 7373107140 6.29 tF\nCANTALOUPE 4050 1.48 tF\nRF ST TACO PINEAP 5208900750 1.99 tF\nHYV SLICED COLBY 7545052501 2.50 tF\n1 @ 2 / 5.00\nTACO BELL ORIG TA 2100003934 1.59 tF\nRF OG HICKORY BEE 5208900776 10.99 tF\nRF LEMON BASIL PE 5208900779 10.99 tF\nPORK THICK TOP LO 3332700000 7.42 tF\n1.860 LB @ 3.99 USD/LB\nFRSH BNLS PORK LO 3334500000 3.26 tF\n0.821 LB @ 3.97 USD/LB\nFRSH BNLS PORK LO 3334500000 3.69 tF\n0.929 LB @ 3.97 USD/LB\nHYV HNY LEMON DRO 7545082585 2.99 T\nHYV WHOLE FRYER 3080500000 7.01 tF\n5.477 LB @ 1.28 USD/LB\nSNAPDRAGON CKN PH 1505501001 3.59 tF\nSNAPDRAGON MUSHRO 1505501006 3.59 tF\nMILK 50 LACT FR 0 4190009104 6.99 tF\nBARILLA GF ELBOWS 7680800391 2.49 tF\nSOFTSOAP CLEAR AQ 7418245993 6.99 T\n1398631 DC Softsoap -2.00\nSUBTOTAL [27] 132.05\nT 13.97 @ 9.475% = 1.32\nt 118.08 @ 2.975% = 3.51\nTOTAL 136.89\nManufacturer Coupon 1.00\nManufacturer Coupon 1.00\nDebit 134.89\nPURCHASE $134.89\n************7931 Visa CHIP READ\nREF#: 008561 480030067164\nTransaction Approved\nUS DEBIT (as Debit)\nAAC - 3DABF4C819E538E8\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000980840\nTVR: 8000048800\nIAD: 06011203210000\nTSI: 6800 ARC: 00\nLoyalty Card # xxxxxxx6707\nEarned Today: $0.00 per gallon\nRedeemed Today: $0.00 per gallon\nTotal Rewards: $0.00 per gallon\n0011463060626010000108\nCashier Name: Toni",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GLOW PALS BIKINI + 2166473112",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "XOOHITL SEA SALT + 1020304040",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "CALIFIA COUD BRE + 1363602388",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "YUMBANA CHETSE CA + 1125702001",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "NATURE OwN BUTTER + 7225004919",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "PIRO DECADENT CHO + 5769000824",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "HILLS DELI RSTD T + 4450097650",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "LIKE AIR CLASSIC + 5001433502",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "RF OG HICKORY BEE + 5208900719 + 2@ 1.99",
+      "price": 1.99,
+      "quantity": 2,
+      "totalSpend": 3.98
+    },
+    {
+      "text": "MISSION GF SOFT T + 7373107140",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 4.29
+    },
+    {
+      "text": "CANTALOUPE + 4050",
+      "price": 1.48,
+      "quantity": 1,
+      "totalSpend": 1.48
+    },
+    {
+      "text": "RF ST TACO PINEAP + 5208900750",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "HYV SLICED COLBY + 7545052501 + 1 @ 2 / 5.00",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "TACO BELL ORIG TA + 2100003934",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.59
+    },
+    {
+      "text": "RF OG HICKORY BEE + 5208900776",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "RF LEMON BASIL PE + 5208900779",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "PORK THICK TOP LO + 3332700000 + 1.860 LB @ 3.99 USD/LB",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 7.42
+    },
+    {
+      "text": "FRSH BNLS PORK LO + 3334500000 + 0.821 LB @ 3.97 USD/LB",
+      "price": 3.97,
+      "quantity": 1,
+      "totalSpend": 3.26
+    },
+    {
+      "text": "FRSH BNLS PORK LO + 3334500000 + 0.929 LB @ 3.97 USD/LB",
+      "price": 3.97,
+      "quantity": 1,
+      "totalSpend": 3.69
+    },
+    {
+      "text": "HYV HNY LEMON DRO + 7545082585",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "HYV WHOLE FRYER + 3080500000 + 5.477 LB @ 1.28 USD/LB",
+      "price": 1.28,
+      "quantity": 1,
+      "totalSpend": 7.01
+    },
+    {
+      "text": "SNAPDRAGON CKN PH + 1505501001",
+      "price": 3.59,
+      "quantity": 1,
+      "totalSpend": 3.59
+    },
+    {
+      "text": "SNAPDRAGON MUSHRO + 1505501006",
+      "price": 3.59,
+      "quantity": 1,
+      "totalSpend": 3.59
+    },
+    {
+      "text": "MILK 50 LACT FR O + 4190009104",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "BARILLA GF ELBOWS + 7680800391",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "SOFTSOAP CLEAR AQ + 7418245993",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

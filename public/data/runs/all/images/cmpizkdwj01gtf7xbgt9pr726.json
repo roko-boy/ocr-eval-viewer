@@ -1,0 +1,547 @@
+{
+  "id": "cmpizkdwj01gtf7xbgt9pr726",
+  "url": null,
+  "retailer": "Publix Super Market at Veranda Shoppes",
+  "brand": "Soom",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "37.92",
+    "purchaseDate": "2026-05-22",
+    "time": null,
+    "zipCode": "33324",
+    "city": "Plantation",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 26520.79425000004,
+        "totalUsd": 0.024105,
+        "inputTokens": 6086,
+        "outputTokens": 1664,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:14",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33324",
+          "status": "match"
+        },
+        "city": {
+          "value": "Plantation",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "550 North Pine Island Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0859",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIZZY BRKFST ROAST",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIZZY BRKFST ROAST + Promotion",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR P ZERO CRM CCNT",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR P ZERO CRM CCNT",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GREEN ONIONS",
+          "quantity": 2,
+          "unitPrice": 1.59,
+          "totalSpend": 3.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAESAR CHOPPED KIT",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAESAR CHOPPED KIT + Promotion",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RPCC GET DCP200Z",
+          "quantity": 1,
+          "unitPrice": -2.89,
+          "totalSpend": -2.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CUCUMBER BABY SDLS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CUCUMBER BABY SDLS + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SOOM TAHINI",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KAME STIRFRY UDON",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KIKKOMAN OYSTER SC + You Saved",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Publix.\nVeranda Shoppes\n550 North Pine Island Road\nPlantation, FL 33324\nStore Manager: Ryan\n954-475-5285\n\nBIZZY BRKFST ROAST\t6.99 F\nBIZZY BRKFST ROAST\t6.99 F\n  Promotion\t-6.99 F\nDR P ZERO CRM CCNT\t2.89 T\nDR P ZERO CRM CCNT\t2.89 T\nGREEN ONIONS\n  2 @ 1.59\t3.18 F\nCAESAR CHOPPED KIT\t5.49 F\nCAESAR CHOPPED KIT\t5.49 F\n  Promotion\t-5.49 F\nRPCC GET DCP200Z\t-2.89 F\nCUCUMBER BABY SDLS\t4.99 F\nCUCUMBER BABY SDLS\t4.99 F\n  Promotion\t-4.99 F\nSOOM TAHINI\t6.99 F\nKAME STIRFRY UDON\t4.49 F\nKIKKOMAN OYSTER SC\n  1 @ 2 FOR 5.00\t2.50 F\n  You Saved\t0.29\n\nOrder Total\t37.52\nSales Tax\t0.40\nGrand Total\t37.92\nCredit Payment\t37.92\nChange\t0.00\n\nSavings Summary\nStore Coupon\t2.89\nSpecial Price Savings\t17.76\n****************************************\n* Your Savings at Publix *\n* 20.65 *\n****************************************\nReceipt ID: 1040 5MR 773 603\n----------------------------------------\nPRESTO!\nTrace #: 777563\nReference #: 1311186908\nAcct #: XXXXXXXXXXXX0859\nPurchase VISA\nAmount: $37.92\nAuth #: 462446\n----------------------------------------\nCREDIT CARD\tPURCHASE\nA00000000980840\tUS DEBIT\nEntry Method:\tCntctless\nMode:\tIssuer\n----------------------------------------\nYour cashier was Self-Checkout Lane 1\n05/22/2026 19:14 S1040 R177 3603 C0777",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 30177.53200000006,
+        "totalUsd": 0.051825,
+        "inputTokens": 3692,
+        "outputTokens": 1617,
+        "reasoningTokens": 3526
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:14",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33324",
+          "status": "match"
+        },
+        "city": {
+          "value": "Plantation",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "550 North Pine Island Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0859",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIZZY BRKFST ROAST",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIZZY BRKFST ROAST + Promotion",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR P ZERO CRM CCNT",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR P ZERO CRM CCNT + RPCC GET DCP200Z",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GREEN ONIONS",
+          "quantity": 2,
+          "unitPrice": 1.59,
+          "totalSpend": 3.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAESAR CHOPPED KIT",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAESAR CHOPPED KIT + Promotion",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBER BABY SDLS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CUCUMBER BABY SDLS + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SOOM TAHINI",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KAME STIRFRY UDON",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KIKKOMAN OYSTER SC + You Saved 0.29",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Publix.\nVeranda Shoppes\n550 North Pine Island Road\nPlantation, FL 33324\nStore Manager: Ryan\n954-475-5285\n\nBIZZY BRKFST ROAST\t6.99 F\nBIZZY BRKFST ROAST\t6.99 F\n  Promotion\t-6.99 F\nDR P ZERO CRM CCNT\t2.89 T\nDR P ZERO CRM CCNT\t2.89 T\nGREEN ONIONS\n  2 @ 1.59\t3.18 F\nCAESAR CHOPPED KIT\t5.49 F\nCAESAR CHOPPED KIT\t5.49 F\n  Promotion\t-5.49 F\n  RPCC GET DCP200Z\t-2.89 F\nCUCUMBER BABY SDLS\t4.99 F\nCUCUMBER BABY SDLS\t4.99 F\n  Promotion\t-4.99 F\nSOOM TAHINI\t6.99 F\nKAME STIRFRY UDON\t4.49 F\nKIKKOMAN OYSTER SC\n  1 @ 2 FOR 5.00\t2.50 F\n  You Saved 0.29\n\nOrder Total\t37.52\nSales Tax\t0.40\nGrand Total\t37.92\nCredit Payment\t37.92\nChange\t0.00\n\nSavings Summary\nStore Coupon\t2.89\nSpecial Price Savings\t17.76\n****************************************\n* Your Savings at Publix *\n* 20.65 *\n****************************************\n\nReceipt ID: 1040 5MR 773 603\n----------------------------------------\nPRESTO!\nTrace #: 777563\nReference #: 1311186908\nAcct #: XXXXXXXXXXXX0859\nPurchase VISA\nAmount: $37.92\nAuth #: 462446\n----------------------------------------\nCREDIT CARD\tPURCHASE\nA00000000980840\tUS DEBIT\nEntry Method:\tCntctless\nMode:\tIssuer\n----------------------------------------\nYour cashier was Self-Checkout Lane 1\n05/22/2026 19:14 S1040 R177 3603 C0777",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7865.198333999986,
+        "totalUsd": 0.02001,
+        "inputTokens": 3692,
+        "outputTokens": 1608,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:14",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33324",
+          "status": "match"
+        },
+        "city": {
+          "value": "Plantation",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "550 North Pine Island Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0859",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIZZY BRKFST ROAST",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIZZY BRKFST ROAST + Promotion",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR P ZERO CRM CCNT",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR P ZERO CRM CCNT",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GREEN ONIONS",
+          "quantity": 2,
+          "unitPrice": 1.59,
+          "totalSpend": 3.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAESAR CHOPPED KIT",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAESAR CHOPPED KIT + Promotion + RPCC GET DCP200Z",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": -2.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CUCUMBER BABY SDLS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CUCUMBER BABY SDLS + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SOOM TAHINI",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KAME STIRFRY UDON",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KIKKOMAN OYSTER SC + You Saved",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Publix.\nVeranda Shoppes\n550 North Pine Island Road\nPlantation, FL 33324\nStore Manager: Ryan\n954-475-5285\n\nBIZZY BRKFST ROAST\t6.99 F\nBIZZY BRKFST ROAST\t6.99 F\n  Promotion\t-6.99 F\nDR P ZERO CRM CCNT\t2.89 T\nDR P ZERO CRM CCNT\t2.89 T\nGREEN ONIONS\n  2 @ 1.59\t3.18 F\nCAESAR CHOPPED KIT\t5.49 F\nCAESAR CHOPPED KIT\t5.49 F\n  Promotion\t-5.49 F\n  RPCC GET DCP200Z\t-2.89 F\nCUCUMBER BABY SDLS\t4.99 F\nCUCUMBER BABY SDLS\t4.99 F\n  Promotion\t-4.99 F\nSOOM TAHINI\t6.99 F\nKAME STIRFRY UDON\t4.49 F\nKIKKOMAN OYSTER SC\n  1 @ 2 FOR 5.00\t2.50 F\n  You Saved\t0.29\n\nOrder Total\t37.52\nSales Tax\t0.40\nGrand Total\t37.92\nCredit Payment\t37.92\nChange\t0.00\n\nSavings Summary\nStore Coupon\t2.89\nSpecial Price Savings\t17.76\n****************************************\n* Your Savings at Publix *\n* 20.65 *\n****************************************\n\nReceipt ID: 1040 5MR 773 603\n----------------------------------------\nPRESTO!\nTrace #: 777563\nReference #: 1311186908\nAcct #: XXXXXXXXXXXX0859\nPurchase VISA\nAmount: $37.92\nAuth #: 462446\n----------------------------------------\nCREDIT CARD\tPURCHASE\nA00000000980840\tUS DEBIT\nEntry Method:\tCntctless\nMode:\tIssuer\n----------------------------------------\nYour cashier was Self-Checkout Lane 1\n05/22/2026 19:14 S1040 R177 3603 C0777",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BIZZY BRKFST ROAST",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "BIZZY BRKFST ROAST",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "DR P ZERO CRM CCNT",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "DR P ZERO CRM CCNT",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "GREEN ONIONS + 2 @ 1.59 3.18 F",
+      "price": 1.59,
+      "quantity": 2,
+      "totalSpend": 3.18
+    },
+    {
+      "text": "CAESAR CHOPPED KIT",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "CAESAR CHOPPED KIT",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "CUCUMBER BABY SDLS",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "CUCUMBER BABY SDLS",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SOOM TAHINI",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "KAME STIRFRY UDON",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "KIKKOMAN OYSTER SC + 1 @ 2 FOR 5.00 2.50 F + You Saved 0.29",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

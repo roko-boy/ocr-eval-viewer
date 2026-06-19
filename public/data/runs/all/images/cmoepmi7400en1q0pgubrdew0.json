@@ -1,0 +1,243 @@
+{
+  "id": "cmoepmi7400en1q0pgubrdew0",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "Brutus Bone Broth",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "10.59",
+    "purchaseDate": "2026-04-25",
+    "time": null,
+    "zipCode": "17402",
+    "city": "York",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8135.230458999984,
+        "totalUsd": 0.015645,
+        "inputTokens": 6086,
+        "outputTokens": 724,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17402",
+          "status": "match"
+        },
+        "city": {
+          "value": "YORK",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2420 EASTERN BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7103",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153133 BTH-DOG 32Z CHICKEN",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nYORK EASTERN-PA #02814\n2420 EASTERN BLVD\nYORK, PA 17402\n717-840-1755\n04/25/26 12:59PM Reg 001 Trans 239983\nHelped by Thomas\n003153133 BTH-DOG 32Z CHICKEN 9.99 T\nTaxable Total 9.99\nSubtotal 9.99\nTax PA 6% 0.60\nTOTAL 10.59\nVisa Credit card 10.59\n2026-04-25 12:59:31 PM\nTotal: USD $10.59\nVisa\nEntry Method: INSERT\nCARD #: XXXXXXXXXXXX7103\nPurchase - APPROVED\nAUTH CODE: 025939\nAID: A0000000980840\nTVR: 8080088000\nIAD: 06011203A0A000\nTSI: 6800\nARC: Z3\nRRN: 556491\n1 Item\nTransaction Barcode\n012814690001239983202604253771393790",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 6432.024417000008,
+        "totalUsd": 0.016653,
+        "inputTokens": 3692,
+        "outputTokens": 712,
+        "reasoningTokens": 523
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17402",
+          "status": "match"
+        },
+        "city": {
+          "value": "YORK",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2420 EASTERN BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7103",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153133 BTH-DOG 32Z CHICKEN",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nYORK EASTERN-PA #02814\n2420 EASTERN BLVD\nYORK, PA 17402\n717-840-1755\n04/25/26 12:59PM Reg 001 Trans 239983\nHelped by Thomas\n003153133 BTH-DOG 32Z CHICKEN 9.99 T\nTaxable Total 9.99\nSubtotal 9.99\nTax PA 6% 0.60\nTOTAL 10.59\nVisa Credit card\n2026-04-25 12:59:31 PM\nTotal: USD $10.59\nVisa\nEntry Method: INSERT\nCARD #: XXXXXXXXXXXX7103\nPurchase - APPROVED\nAUTH CODE: 025939\nAID: A0000000980840\nTVR: 8080088000\nIAD: 06011203A0A000\nTSI: 6800\nARC: Z3\nRRN: 556491\n1 Item\nTransaction Barcode\n012814690001239983202604253771393790",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4626.034709,
+        "totalUsd": 0.012,
+        "inputTokens": 3692,
+        "outputTokens": 718,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17402",
+          "status": "match"
+        },
+        "city": {
+          "value": "YORK",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2420 EASTERN BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7103",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153133 BTH-DOG 32Z CHICKEN",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nYORK EASTERN-PA #02814\n2420 EASTERN BLVD\nYORK, PA 17402\n717-840-1755\n04/25/26 12:59PM Reg 001 Trans 239983\nHelped by Thomas\n003153133 BTH-DOG 32Z CHICKEN 9.99 T\nTaxable Total 9.99\nSubtotal 9.99\nTax PA 6% 0.60\nTOTAL 10.59\nVisa Credit Card 10.59\n2026-04-25 12:59:31 PM\nTotal: USD $10.59\nVisa\nEntry Method: INSERT\nCARD #: XXXXXXXXXXXX7103\nPurchase - APPROVED\nAUTH CODE: 025939\nAID: A0000000980840\nTVR: 8080088000\nIAD: 06011203A0A000\nTSI: 6800\nARC: Z3\nRRN: 556491\n1 Item\nTransaction Barcode\n012814690001239983202604253771393790",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BTH-DOG 32Z CHICKEN + 003153133",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

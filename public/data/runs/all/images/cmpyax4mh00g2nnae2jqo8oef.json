@@ -1,0 +1,378 @@
+{
+  "id": "cmpyax4mh00g2nnae2jqo8oef",
+  "url": null,
+  "retailer": "Dierbergs Markets - Four Seasons",
+  "brand": "realsy",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Dierbergs Markets",
+    "totalCost": "26.32",
+    "purchaseDate": "2026-06-03",
+    "time": null,
+    "zipCode": "63017",
+    "city": "Chesterfield",
+    "state": "MO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8004.868916000007,
+        "totalUsd": 0.021198,
+        "inputTokens": 6086,
+        "outputTokens": 1341,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dierbergs",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.32",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:41:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "63017",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chesterfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "Four Seasons Center",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7683",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GRILLED CKN BRST PLN",
+          "quantity": 1,
+          "unitPrice": 9.98,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOIA BAN CHOC + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOIA PROTEIN DRINK + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY ALMOND BUTTER + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY CHOC PEANUT B + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY PEANUT BUTTER + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Dierbergs\n#8 Four Seasons Center\nChesterfield, MO 63017\n314-469-1400\nStore Director: Steven Chinnici\n\nDELI\n  GRILLED CKN BRST PLN          $9.98 t F\n\nGROCERY\n  KOIA BAN CHOC\n  1 @ 2 FOR     $6.00           $3.00 t F\n  KOIA PROTEIN DRINK\n  1 @ 2 FOR     $6.00           $3.00 t F\n\nPRODUCE\n  REALSY ALMOND BUTTER\n  1 @ 2 FOR     $6.00           $3.00 t F\n  REALSY CHOC PEANUT B\n  1 @ 2 FOR     $6.00           $3.00 t F\n  REALSY PEANUT BUTTER\n  1 @ 2 FOR     $6.00           $3.00 t F\n\n    SUBTOTAL                   $24.98\n    t-Low Tax                   $1.34\n    ORDER TOTAL                $26.32\n06/03/2026                     11:41:13\nDiscover            Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX7683\nPURCHASE            - APPROVED\nAUTH CODE:00344P\n\nMode:                           Issuer\nAID:                    A0000001523010\nTVR:                        8000008000\nIAD:      0115E09000003500B000010000000005\n100\nTSI:                              0800\nARC:                                00\nTC:                 C544D572781B9F67\nMID:   00000   TID:   001 RRN: 763518\n\nTotal:                       USD$ 26.32\n\n    CHANGE                      $0.00\n****************************************\n    DIERBERGS REWARDS\n        Points Earned Today:  974\n        Current Points Balance: 23455\n        Points Until Next Reward: 545\n        Member XXX-XXX-5067\n****************************************\n000-02038-76142-02606-03114-119\nC0438 #7614 11:41:20\n500002 R038 3JUN2026",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18628.08358300001,
+        "totalUsd": 0.031593,
+        "inputTokens": 3692,
+        "outputTokens": 1296,
+        "reasoningTokens": 1599
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dierbergs",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.32",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:41:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "63017",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chesterfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "Four Seasons Center",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7683",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GRILLED CKN BRST PLN",
+          "quantity": 1,
+          "unitPrice": 9.98,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOIA BAN CHOC + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOIA PROTEIN DRINK + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY ALMOND BUTTER + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY CHOC PEANUT B + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY PEANUT BUTTER + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Dierbergs\n#8 Four Seasons Center\nChesterfield, MO 63017\n314-469-1400\nStore Director: Steven Chinnici\n\nDELI\nGRILLED CKN BRST PLN $9.98 t F\n\nGROCERY\nKOIA BAN CHOC\n1 @ 2 FOR $6.00 $3.00 t F\nKOIA PROTEIN DRINK\n1 @ 2 FOR $6.00 $3.00 t F\n\nPRODUCE\nREALSY ALMOND BUTTER\n1 @ 2 FOR $6.00 $3.00 t F\nREALSY CHOC PEANUT B\n1 @ 2 FOR $6.00 $3.00 t F\nREALSY PEANUT BUTTER\n1 @ 2 FOR $6.00 $3.00 t F\n\nSUBTOTAL $24.98\nt-Low Tax $1.34\nORDER TOTAL $26.32\n06/03/2026 11:41:13\nDiscover Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX7683\nPURCHASE - APPROVED\nAUTH CODE: 00344P\n\nMode: Issuer\nAID: A0000001523010\nTVR: 8000008000\nIAD: 0115E09000003500B000010000000005\n100\nTSI: 0800\nARC: 00\nTC: C544D572781B9F67\nMID: 00000 TID: 001 RRN: 763518\n\nTotal: USD$ 26.32\n\nCHANGE $0.00\n****************************************\nDIERBERGS REWARDS\nPoints Earned Today: 974\nCurrent Points Balance: 23455\nPoints Until Next Reward: 545\nMember XXX-XXX-5067\n****************************************\n000-02038-76142-02606-03114-119\nC0438 #7614 11:41:20 3JUN2026\n500002 R038",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6912.322333,
+        "totalUsd": 0.017427,
+        "inputTokens": 3692,
+        "outputTokens": 1321,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dierbergs",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.32",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:41:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "63017",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chesterfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "Four Seasons Center",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7683",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GRILLED CKN BRST PLN",
+          "quantity": 1,
+          "unitPrice": 9.98,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOIA BAN CHOC + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOIA PROTEIN DRINK + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY ALMOND BUTTER + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY CHOC PEANUT B + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY PEANUT BUTTER + 1 @ 2 FOR $6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Dierbergs\n#8 Four Seasons Center\nChesterfield, MO 63017\n314-469-1400\nStore Director: Steven Chinnici\n\nDELI\n  GRILLED CKN BRST PLN          $9.98 t F\nGROCERY\n  KOIA BAN CHOC\n  1 @ 2 FOR      $6.00          $3.00 t F\n  KOIA PROTEIN DRINK\n  1 @ 2 FOR      $6.00          $3.00 t F\nPRODUCE\n  REALSY ALMOND BUTTER\n  1 @ 2 FOR      $6.00          $3.00 t F\n  REALSY CHOC PEANUT B\n  1 @ 2 FOR      $6.00          $3.00 t F\n  REALSY PEANUT BUTTER\n  1 @ 2 FOR      $6.00          $3.00 t F\n\nSUBTOTAL                       $24.98\nt-Low Tax                       $1.34\nORDER TOTAL                    $26.32\n06/03/2026                   11:41:13\nDiscover          Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX7683\nPURCHASE          - APPROVED\nAUTH CODE:00344P\n\nMode:                          Issuer\nAID:                   A0000001523010\nTVR:                       8000008000\nIAD:      0115E09000003500B000010000000005\n100\nTSI:                             0800\nARC:                               00\nTC:                  C544D572781B9F67\nMID:   00000   TID:   001 RRN: 763518\n\nTotal:                     USD$ 26.32\n\nCHANGE                          $0.00\n**************************************\nDIERBERGS REWARDS\nPoints Earned Today:  974\nCurrent Points Balance:  23455\nPoints Until Next Reward:  545\nMember XXX-XXX- 5067\n**************************************\n000-02038-76142-02606-03114-119\nC0438 #7614 11:41:20 3JUN2026\n500002 R038",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GRILLED CKN BRST PLN",
+      "price": 9.98,
+      "quantity": 1,
+      "totalSpend": 9.98
+    },
+    {
+      "text": "KOIA BAN CHOC + 1 @ 2 FOR $6.00 $3.00 t F",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "KOIA PROTEIN DRINK + 1 @ 2 FOR $6.00 $3.00 t F",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "REALSY ALMOND BUTTER + 1 @ 2 FOR $6.00 $3.00 t F",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "REALSY CHOC PEANUT B + 1 @ 2 FOR $6.00 $3.00 t F",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "REALSY PEANUT BUTTER + 1 @ 2 FOR $6.00 $3.00 t F",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

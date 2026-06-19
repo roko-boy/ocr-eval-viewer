@@ -1,0 +1,378 @@
+{
+  "id": "cmp2ae38e001n1zowhbdar5qz",
+  "url": null,
+  "retailer": "Fry's Food And Drug",
+  "brand": "GT's Living Foods",
+  "amount": 1.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fry's Food and Drug",
+    "totalCost": "24.17",
+    "purchaseDate": "2026-05-05",
+    "time": null,
+    "zipCode": "85282",
+    "city": "Tempe",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8431.286708000029,
+        "totalUsd": 0.021741,
+        "inputTokens": 6118,
+        "outputTokens": 1396,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fry's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "24.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:13pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85282",
+          "status": "match"
+        },
+        "city": {
+          "value": "TEMPE",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5100 S. McCLINTOCK RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0354",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FRST CAT LITTER + YOUR SAVINGS 5.00",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 7.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.19,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "frys FOOD STORES FRESH FOR EVERYONE\n5100 S. McCLINTOCK RD.\n(480-752-9700)\nYour cashier was CHEC 515\nFRST CAT LITTER V 12.99 T\nSC YOUR SAVINGS 5.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nVIP Customer *******7005\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nVIP Customer *******7005\nTAX 1.23\n**** BALANCE 24.17\nTEMPE AZ 85282\nVISA CREDIT Purchase\n************0354 - C\nREF#: 005262 TOTAL: 24.17\nAID: A0000000031010\nTC: 732F3169CF3D61D0\nVISA 24.17\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nVIP CARD SAVINGS $ 14.00\nTOTAL COUPONS $ 14.00\nTOTAL SAVINGS (37 %) $ 14.00\n05/05/26 06:13pm 607 515 182 999999515\n****************************************\nAnnual Card Savings $143.64\n****************************************\n****************************************\nFuel Points Earned Today: 23\nTotal May Fuel Points: 150\n****************************************\nD-BACKS REWARDS\nTotal points earned*:7\n*May not reflect recent redemptions\nVisit www.frysfood.com/dbacks\nor customer service for details.\n****************************************\nFry's Community Rewards\nOn your behalf, we are contributing to\nMesa Public Schools - Lehi Elementary\nWith Our Low Prices, You Saved\n$14.00\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.frysfood.com/careers\nwww.frysfood.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 21705.73916699999,
+        "totalUsd": 0.048087,
+        "inputTokens": 3708,
+        "outputTokens": 1393,
+        "reasoningTokens": 3332
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fry's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "24.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:13pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85282",
+          "status": "match"
+        },
+        "city": {
+          "value": "TEMPE",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5100 S. McCLINTOCK RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0354",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FRST CAT LITTER + YOUR SAVINGS 5.00",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "fry's FOOD STORES FRESH FOR EVERYONE\n5100 S. McCLINTOCK RD.\n(480-752-9700)\nYour cashier was CHEC 515\nFRST CAT LITTER V 12.99 T\nSC YOUR SAVINGS 5.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nVIP Customer *******7005\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nVIP Customer *******7005\nTAX 1.23\n**** BALANCE 24.17\nTEMPE AZ 85282\nVISA CREDIT Purchase\n************0354 - C\nREF#: 005262 TOTAL: 24.17\nAID: A0000000031010\nTC: 732F3169CF3D61D0\nVISA 24.17\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nVIP CARD SAVINGS $ 14.00\nTOTAL COUPONS $ 14.00\nTOTAL SAVINGS (37 %) $ 14.00\n05/05/26 06:13pm 607 515 182 999999515\n****************************************\nAnnual Card Savings $143.64\n****************************************\n****************************************\nFuel Points Earned Today: 23\nTotal May Fuel Points: 150\n****************************************\nD-BACKS REWARDS\nTotal points earned*:7\n*May not reflect recent redemptions\nVisit www.frysfood.com/dbacks\nor customer service for details.\n****************************************\nFry's Community Rewards\nOn your behalf, we are contributing to\nMesa Public Schools - Lehi Elementary\nWith Our Low Prices, You Saved\n$14.00\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.frysfood.com/careers\nwww.frysfood.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6855.366708000001,
+        "totalUsd": 0.017946,
+        "inputTokens": 3708,
+        "outputTokens": 1376,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fry's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "24.17",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:13pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85282",
+          "status": "match"
+        },
+        "city": {
+          "value": "TEMPE",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5100 S. McCLINTOCK RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0354",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FRST CAT LITTER + YOUR SAVINGS 5.00",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GTS KOMBCHA + YOUR SAVINGS 0.80 + eCpn Gts Kombucha 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "fry's FOOD STORES FRESH FOR EVERYONE\n5100 S. McCLINTOCK RD.\n(480-752-9700)\nYour cashier was CHEC 515\nFRST CAT LITTER V 12.99 T\nSC YOUR SAVINGS 5.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nVIP Customer *******7005\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nGTS KOMBCHA V 1.99 B\nSC YOUR SAVINGS 0.80\nSC eCpn Gts Kombucha 1.00\nVIP Customer *******7005\nTAX 1.23\n**** BALANCE 24.17\nTEMPE AZ 85282\nVISA CREDIT Purchase\n************0354 - C\nREF#: 005262 TOTAL: 24.17\nAID: A0000000031010\nTC: 732F3169CF3D61D0\nVISA 24.17\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nVIP CARD SAVINGS $ 14.00\nTOTAL COUPONS $ 14.00\nTOTAL SAVINGS (37 %) $ 14.00\n05/05/26 06:13pm 607 515 182 999999515\n****************************************\nAnnual Card Savings $143.64\n****************************************\n****************************************\nFuel Points Earned Today: 23\nTotal May Fuel Points: 150\n****************************************\nD-BACKS REWARDS\nTotal points earned*:7\n*May not reflect recent redemptions\nVisit www.frysfood.com/dbacks\nor customer service for details.\n****************************************\nFry's Community Rewards\nOn your behalf, we are contributing to\nMesa Public Schools - Lehi Elementary\nWith Our Low Prices, You Saved\n$14.00\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.frysfood.com/careers\nwww.frysfood.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FRST CAT LITTER + SC YOUR SAVINGS 5.00",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "GTS KOMBCHA + SC YOUR SAVINGS 0.80 + SC eCpn Gts Kombucha 1.00 + VIP Customer *******7005",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GTS KOMBCHA + SC YOUR SAVINGS 0.80 + SC eCpn Gts Kombucha 1.00",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GTS KOMBCHA + SC YOUR SAVINGS 0.80 + SC eCpn Gts Kombucha 1.00",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GTS KOMBUCHA + SC YOUR SAVINGS 0.80 + SC eCpn Gts Kombucha 1.00 + SC eCpn Gts Kombucha",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GTS KOMBCHA + SC YOUR SAVINGS 0.80 + SC eCpn Gts Kombucha 1.00 + VIP Customer *******7005",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmnqhb4680005y8qec4ksrlgf",
+  "url": null,
+  "retailer": "Hy-Vee Grocery Store",
+  "brand": "Like Air",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Hy-Vee",
+    "totalCost": "4.24",
+    "purchaseDate": "2026-04-08",
+    "time": null,
+    "zipCode": "57006",
+    "city": "Brookings",
+    "state": "SD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13581.43483300001,
+        "totalUsd": 0.016887,
+        "inputTokens": 6086,
+        "outputTokens": 862,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "57006",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brookings",
+          "status": "match"
+        },
+        "state": {
+          "value": "SD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "790 22nd Ave S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3827",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIKE AIR CLASSIC + 5001433502",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n790 22nd Ave S\nBrookings, SD 57006\n605-692-7317\n1039StoreManagementMailGroup@Hy-Vee.com\nLIKE AIR CLASSIC 5001433502 3.99 TF\nSUBTOTAL (1) 3.99\nT 3.99 @ 6.200% = 0.25\nTOTAL 4.24\nDebit 4.24\nPURCHASE $4.24\n************3827 MC CHIP READ\nREF#: 084572 480008905544\nTransaction Approved\nUS Debit (as Debit)\nTC - 0D5E9626FD99B797\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048800\nIAD: 011460100122000000000000000000000000\nTSI: 6800 ARC: 00\nLoyalty Card # xxxxxxx9754\nEarned Today: $0.00 per gallon\nRedeemed Today: $0.00 per gallon\nTotal Rewards: $0.00 per gallon\nReceipt has been sent to email:\ncxxxxxxxxx@gxxxxx.com\nCashier Name: SCO\nDate Time Store POS Emp TRX\n04/08/26 03:04 PM 1039 41 10000 0129\nTell us about your trip for a chance to\nWIN A $500 HY-VEE GIFT CARD!\nVisit Hy-VeeSurvey.com\nfor a survey and official rules.\nNo purchase necessary to enter\nsweepstakes.\nwww.hy-vee.com\n0011039080426041000129",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12103.519333,
+        "totalUsd": 0.028947,
+        "inputTokens": 3692,
+        "outputTokens": 856,
+        "reasoningTokens": 1745
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "57006",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brookings",
+          "status": "match"
+        },
+        "state": {
+          "value": "SD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "790 22nd Ave S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3827",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIKE AIR CLASSIC + 5001433502",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n790 22nd Ave S\nBrookings, SD 57006\n605-692-7317\n1039StoreManagementMailGroup@Hy-Vee.com\nLIKE AIR CLASSIC 5001433502 3.99 TF\nSUBTOTAL (1) 3.99\nT 3.99 @ 6.200% = 0.25\nTOTAL 4.24\nDebit 4.24\nPURCHASE $4.24\n************3827 MC CHIP READ\nREF#: 084572 480008905544\nTransaction Approved\nUS Debit (as Debit)\nTC - 0D5E9626FD99B797\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048800\nIAD: 011460100122000000000000000000000000\nTSI: 6800 ARC: 00\nLoyalty Card # xxxxxxx9754\nEarned Today: $0.00 per gallon\nRedeemed Today: $0.00 per gallon\nTotal Rewards: $0.00 per gallon\nReceipt has been sent to email:\ncxxxxxxxxx@gxxxxx.com\nCashier Name: SCO\nDate Time Store POS Emp TRX\n04/08/26 03:04 PM 1039 41 10000 0129\nTell us about your trip for a chance to\nWIN A $500 HY-VEE GIFT CARD!\nVisit Hy-VeeSurvey.com\nfor a survey and official rules.\nNo purchase necessary to enter\nsweepstakes.\nwww.hy-vee.com\n0011039080426041000129",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5108.632165999996,
+        "totalUsd": 0.013062,
+        "inputTokens": 3692,
+        "outputTokens": 836,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "57006",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brookings",
+          "status": "match"
+        },
+        "state": {
+          "value": "SD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "790 22nd Ave S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3827",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIKE AIR CLASSIC + 5001433502",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n790 22nd Ave S\nBrookings, SD 57006\n605-692-7317\n1039StoreManagementMailGroup@Hy-Vee.com\nLIKE AIR CLASSIC 5001433502 3.99 TF\nSUBTOTAL (1) 3.99\nT 3.99 @ 6.200% = 0.25\nTOTAL 4.24\nDebit 4.24\nPURCHASE $4.24\n************3827 MC CHIP READ\nREF#: 084572 480008905544\nTransaction Approved\nUS Debit (as Debit)\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048800\nIAD: 011460100122000000000000000000000000\nTSI: 6800 ARC: 00\nLoyalty Card # xxxxxxx9754\nEarned Today: $0.00 per gallon\nRedeemed Today: $0.00 per gallon\nTotal Rewards: $0.00 per gallon\nReceipt has been sent to email:\ncxxxxxxxxx@gxxxxx.com\nCashier Name: SCO\nDate Time Store POS Emp TRX\n04/08/26 03:04 PM 1039 41 10000 0129\nTell us about your trip for a chance to\nWIN A $500 HY-VEE GIFT CARD!\nVisit Hy-VeeSurvey.com\nfor a survey and official rules.\nNo purchase necessary to enter\nsweepstakes.\nwww.hy-vee.com\n0011039080426041000129",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "LIKE AIR CLASSIC + 5001433502",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

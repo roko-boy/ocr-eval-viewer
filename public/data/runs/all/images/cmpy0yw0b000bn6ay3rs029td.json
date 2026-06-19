@@ -1,0 +1,277 @@
+{
+  "id": "cmpy0yw0b000bn6ay3rs029td",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "killer brownie",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "2.79",
+    "purchaseDate": "2026-06-03",
+    "time": null,
+    "zipCode": "15017",
+    "city": "Bridgeville",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14875.13416699995,
+        "totalUsd": 0.01452,
+        "inputTokens": 6086,
+        "outputTokens": 599,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:08:02 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15017",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bridgeville",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1297 Washington Pike",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Fanta Zero Sugar Orange 20oz + Free 20oz Soda",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Killer Brownie Kitchen Sink",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #679\n1297 Washington Pike\nBridgeville, PA 15017\n(412) 284-0355\n6/3/2026 8:08:02 AM\nPOS Terminal\nOrder Number: 760\nRegister:21\nMy Sheetz Rewardz $0.00\nFanta Zero Sugar Orange 20oz $2.99\nKiller Brownie Kitchen Sink $2.79\nFree 20oz Soda -$2.99\nSub. Total: $2.79\nTax: $0.00\nTotal: $2.79\nDiscount Total: -$2.99\nDiscover: $2.79\nChange $0.00\nSale",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8125.050792000024,
+        "totalUsd": 0.018885,
+        "inputTokens": 3692,
+        "outputTokens": 540,
+        "reasoningTokens": 943
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:08:02 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15017",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bridgeville",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1297 Washington Pike",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Fanta Zero Sugar Orange 20oz + Free 20oz Soda",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Killer Brownie Kitchen Sink",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #679\n1297 Washington Pike\nBridgeville, PA 15017\n(412) 284-0355\n6/3/2026 8:08:02 AM\nPOS Terminal\nOrder Number: 760\nRegister:21\nMy Sheetz Rewardz $0.00\nFanta Zero Sugar Orange 20oz $2.99\nKiller Brownie Kitchen Sink $2.79\nFree 20oz Soda -$2.99\nSub. Total: $2.79\nTax: $0.00\nTotal: $2.79\nDiscount Total: -$2.99\nDiscover: $2.79\nChange $0.00\nSale",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4303.212333000003,
+        "totalUsd": 0.010389,
+        "inputTokens": 3692,
+        "outputTokens": 539,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:08:02 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15017",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bridgeville",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1297 Washington Pike",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Fanta Zero Sugar Orange 20oz + Free 20oz Soda",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Killer Brownie Kitchen Sink",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #679\n1297 Washington Pike\nBridgeville, PA 15017\n(412) 284-0355\n6/3/2026 8:08:02 AM\nPOS Terminal\nOrder Number: 760\nRegister:21\nMy Sheetz Rewardz $0.00\nFanta Zero Sugar Orange 20oz $2.99\nKiller Brownie Kitchen Sink $2.79\nFree 20oz Soda -$2.99\nSub. Total: $2.79\nTax: $0.00\nTotal: $2.79\nDiscount Total: -$2.99\nDiscover: $2.79\nChange $0.00\nSale",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Fanta Zero Sugar Orange 20oz",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Killer Brownie Kitchen Sink",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

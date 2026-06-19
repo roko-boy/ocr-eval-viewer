@@ -1,0 +1,270 @@
+{
+  "id": "cmo954e7l001zr1rsdkkxerru",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "Cirrus Vodka",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": null,
+    "totalCost": "52.98",
+    "purchaseDate": "2026-04-21",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17928.880501,
+        "totalUsd": 0.014871,
+        "inputTokens": 6086,
+        "outputTokens": 638,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "VA ABC",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "52.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20166",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Sterling",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "VA",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "22000 Dulles Retail Plaza Unit",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7290",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Item/GTIN 181158000002 + Cirrus Vodka 750ml + $3.00 off item",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 21.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Item/GTIN 721059707503 + Espolon Tequila Blanco + $2.00 off item",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "totalSpend": 27.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "VA ABC\n\n226040\n22000 Dulles Retail Plaza Unit\nSterling, 20166\nPhone: 5714953644\n\nUSD\nItem/GTIN 181158000002\nCirrus Vodka 750ml 24.99 R\n$3.00 off item -3.00\n\nItem/GTIN 721059707503\nEspolon Tequila Blanco 29.99 R\n$2.00 off item -2.00\n\nSUBTOTAL [2] USD 49.98\nR 49.98 @ 5.300% = 2.65\nR 49.98 @ 0.700% = 0.35\n\nTOTAL USD 52.98\nVisa USD 52.98\n\n************7290\nPURCHASE $52.98\n************7290 Visa\n\nCHIP CONTACTLESS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9963.048917,
+        "totalUsd": 0.023439,
+        "inputTokens": 3692,
+        "outputTokens": 654,
+        "reasoningTokens": 1335
+      },
+      "fields": {
+        "storeName": {
+          "value": "VA ABC",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "52.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20166",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Sterling",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "VA",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "22000 Dulles Retail Plaza Unit",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7290",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Item/GTIN 181158000002 + Cirrus Vodka 750ml + $3.00 off item",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 21.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Item/GTIN 721059707503 + Espolon Tequila Blanco + $2.00 off item",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "totalSpend": 27.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "VA ABC\n\n226040\n22000 Dulles Retail Plaza Unit\nSterling, 20166\nPhone: 5714953644\n\n\nUSD\nItem/GTIN 181158000002\nCirrus Vodka 750ml          24.99 R\n$3.00 off item               -3.00\n\nItem/GTIN 721059707503\nEspolon Tequila Blanco      29.99 R\n$2.00 off item               -2.00\n\n----------------------------------\nSUBTOTAL [2]          USD    49.98\nR       49.98 @ 5.300% =      2.65\nR       49.98 @ 0.700% =      0.35\n----------------------------------\nTOTAL                 USD    52.98\nVisa                  USD    52.98\n----------------------------------\n\n************7290\nPURCHASE $52.98\n************7290 Visa\n\nCHIP CONTACTLESS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4215.361542000001,
+        "totalUsd": 0.011244,
+        "inputTokens": 3692,
+        "outputTokens": 634,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "VA ABC",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "52.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20166",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Sterling",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "VA",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "22000 Dulles Retail Plaza Unit",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7290",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cirrus Vodka 750ml + Item/GTIN 181158000002 + $3.00 off item",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 21.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Espolon Tequila Blanco + Item/GTIN 721059707503 + $2.00 off item",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "totalSpend": 27.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "VA ABC\n226040\n22000 Dulles Retail Plaza Unit\nSterling, 20166\nPhone: 5714953644\nUSD\nItem/GTIN 181158000002\nCirrus Vodka 750ml\n24.99 R\n$3.00 off item\n-3.00\nItem/GTIN 721059707503\nEspolon Tequila Blanco\n29.99 R\n$2.00 off item\n-2.00\nSUBTOTAL [2]\nUSD\n49.98\nR\n49.98 @ 5.300% =\n2.65\nR\n49.98 @ 0.700% =\n0.35\nTOTAL\nUSD\n52.98\nVisa\nUSD\n52.98\n************7290\nPURCHASE $52.98\n************7290 Visa\nCHIP CONTACTLESS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Cirrus Vodka 750ml + 181158000002 + Cirrus Vodka 750ml 24.99 R",
+      "price": 21.99,
+      "quantity": 1,
+      "totalSpend": 21.99
+    },
+    {
+      "text": "Espolon Tequila Blanco + 721059707503 + Espolon Tequila Blanco 29.99 R",
+      "price": 29.99,
+      "quantity": 1,
+      "totalSpend": 29.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

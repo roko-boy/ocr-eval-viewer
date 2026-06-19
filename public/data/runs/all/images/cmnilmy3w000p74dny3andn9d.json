@@ -1,0 +1,270 @@
+{
+  "id": "cmnilmy3w000p74dny3andn9d",
+  "url": null,
+  "retailer": "Kwik Trip #964",
+  "brand": "Olipop",
+  "amount": 2.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kwik Trip",
+    "totalCost": "16.42",
+    "purchaseDate": "2026-04-02",
+    "time": null,
+    "zipCode": "53562",
+    "city": "Middleton",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6124.814584000036,
+        "totalUsd": 0.0165,
+        "inputTokens": 6086,
+        "outputTokens": 819,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:29:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53562",
+          "status": "match"
+        },
+        "city": {
+          "value": "Middleton",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7508 Century Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1324",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OLIPOP CREAM SODA 12OZ",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZYN COOL MINT PCH 6MG + *MM 9653 ZYN W/OUT AFTER",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Trip\n7508 Century Ave\nMiddleton, WI 53562\n(608)824-0711\nStore #964 4/2/2026 8:29:49 PM\nRegister # 1 Trans # 10804223\nTax Description Qty Amount\nT OLIPOP CREAM SODA 12OZ 2 $5.58\nT ZYN COOL MINT PCH 6MG 2 $11.98\n*MM 9653 ZYN W/OUT AFTER -$2.00\nSub Total $15.56\nTax $0.86\nTotal $16.42\nDebit: $16.42\nChange $0.00\nDebit\nCard Num : (P) XXXXXXXXXXXX1324\nContactless\nTerminal : RA1094000964906\nApproval : 273425\nTrace Number: 488843\nSale\nUSD$ 16.42\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: A4D38EC436875B69\nVerified by PIN\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nNow Available:\nFreshly Made\nTake Home Meals\nTake and Bake Pizza\n(608)824-0711\nHave a nice day,\nSee you next time!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11009.159583,
+        "totalUsd": 0.020397,
+        "inputTokens": 3692,
+        "outputTokens": 806,
+        "reasoningTokens": 845
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:29:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53562",
+          "status": "match"
+        },
+        "city": {
+          "value": "Middleton",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7508 Century Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1324",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OLIPOP CREAM SODA 12OZ",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZYN COOL MINT PCH 6MG + *MM 9653 ZYN W/OUT AFTER",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Trip\n7508 Century Ave\nMiddleton, WI 53562\n(608)824-0711\nStore #964 4/2/2026 8:29:49 PM\nRegister # 1 Trans # 10804223\nTax Description Qty Amount\nT OLIPOP CREAM SODA 12OZ 2 $5.58\nT ZYN COOL MINT PCH 6MG 2 $11.98\n*MM 9653 ZYN W/OUT AFTER -$2.00\nSub Total $15.56\nTax $0.86\nTotal $16.42\nDebit: $16.42\nChange $0.00\nDebit\nCard Num : (P) XXXXXXXXXXXX1324\nContactless\nTerminal : RA1094000964906\nApproval : 273425\nTrace Number: 488843\nSale\nUSD$ 16.42\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: A4D38EC436875B69\nVerified by PIN\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nNow Available:\nFreshly Made\nTake Home Meals\nTake and Bake Pizza\n(608)824-0711\nHave a nice day,\nSee you next time!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4947.77691700001,
+        "totalUsd": 0.01281,
+        "inputTokens": 3692,
+        "outputTokens": 808,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:29:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53562",
+          "status": "match"
+        },
+        "city": {
+          "value": "Middleton",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7508 Century Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1324",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OLIPOP CREAM SODA 12OZ",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZYN COOL MINT PCH 6MG + *MM 9653 ZYN W/OUT AFTER",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Trip\n7508 Century Ave\nMiddleton, WI 53562\n(608)824-0711\nStore #964 4/2/2026 8:29:49 PM\nRegister # 1 Trans # 10804223\nTax Description Qty Amount\nT OLIPOP CREAM SODA 12OZ 2 $5.58\nT ZYN COOL MINT PCH 6MG 2 $11.98\n*MM 9653 ZYN W/OUT AFTER -$2.00\nSub Total $15.56\nTax $0.86\nTotal $16.42\nDebit: $16.42\nChange $0.00\nDebit\nCard Num : (P) XXXXXXXXXXXX1324\nContactless\nTerminal : RA1094000964906\nApproval : 273425\nTrace Number: 488843\nSale\nUSD$ 16.42\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: A4D38EC436875B69\nVerified by PIN\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nNow Available:\nFreshly Made\nTake Home Meals\nTake and Bake Pizza\n(608)824-0711\nHave a nice day,\nSee you next time!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "OLIPOP CREAM SODA 12OZ",
+      "price": 2.79,
+      "quantity": 2,
+      "totalSpend": 5.58
+    },
+    {
+      "text": "ZYN COOL MINT PCH 6MG",
+      "price": 4.99,
+      "quantity": 2,
+      "totalSpend": 9.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

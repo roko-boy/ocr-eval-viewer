@@ -1,0 +1,297 @@
+{
+  "id": "cmn6yok1r00jmc4tum06ic6dl",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "nutcase",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "15.3",
+    "purchaseDate": "2026-03-23",
+    "time": null,
+    "zipCode": "90803",
+    "city": "Long Beach",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13035.92820900003,
+        "totalUsd": 0.017616,
+        "inputTokens": 6086,
+        "outputTokens": 943,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:52 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90803",
+          "status": "match"
+        },
+        "city": {
+          "value": "Long Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6400 E Pacific Coast Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6853",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTCAS VANLLA CASHEW MILK + Qty 2 $3.99 ea",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV SGL UNDER 24OZ + Qty 2 $0.05 ea",
+          "quantity": 2,
+          "unitPrice": 0.05,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PARTKE CONFETTI CKIE 10CT + Reg $8.99 + Savings ($1.77)",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 7.22,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nLong Beach Relocation LBR 562-598-8687\n6400 E Pacific Coast Hwy\nLong Beach, CA 90803 4265\nNUTCAS VANLLA CASHEW MILK $7.98 F\nQty 2 $3.99 ea\nCRV SGL UNDER 24OZ $0.10\nQty 2 $0.05 ea\nPARTKE CONFETTI CKIE 10CT $7.22 F\nReg $8.99\nSavings ($1.77)\nSubtotal: $17.07\nTotal Savings: -$1.77\nNet Sales: $15.30\nTotal: $15.30\nSold Items: 3\nPaid:\nVISA *6853 $15.30\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$1.77\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n954 18231 03/23/2026 03:52 PM\n63011070195418231032320260\nXIX70F01AY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12986.54341600009,
+        "totalUsd": 0.03146699999999999,
+        "inputTokens": 3692,
+        "outputTokens": 899,
+        "reasoningTokens": 1982
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:52 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90803",
+          "status": "match"
+        },
+        "city": {
+          "value": "Long Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6400 E Pacific Coast Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6853",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTCAS VANLLA CASHEW MILK",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV SGL UNDER 24OZ",
+          "quantity": 2,
+          "unitPrice": 0.05,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PARTKE CONFETTI CKIE 10CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 7.22,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nLong Beach Relocation LBR 562-598-8687\n6400 E Pacific Coast Hwy\nLong Beach, CA 90803 4265\nNUTCAS VANLLA CASHEW MILK $7.98 F\nQty 2 $3.99 ea\nCRV SGL UNDER 24OZ $0.10\nQty 2 $0.05 ea\nPARTKE CONFETTI CKIE 10CT $7.22 F\nReg $8.99\nSavings ($1.77)\nSubtotal: $17.07\nTotal Savings: -$1.77\nNet Sales: $15.30\nTotal: $15.30\nSold Items: 3\nPaid:\nVISA *6853 $15.30\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$1.77\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n954 18231 03/23/2026 03:52 PM\n63011070195418231032320260\nXIX70F01AY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5402.691416999995,
+        "totalUsd": 0.013755,
+        "inputTokens": 3692,
+        "outputTokens": 913,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:52 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90803",
+          "status": "match"
+        },
+        "city": {
+          "value": "Long Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6400 E Pacific Coast Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6853",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTCAS VANLLA CASHEW MILK",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV SGL UNDER 24OZ",
+          "quantity": 2,
+          "unitPrice": 0.05,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PARTKE CONFETTI CKIE 10CT + Savings ($1.77)",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 7.22,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nLong Beach Relocation LBR 562-598-8687\n6400 E Pacific Coast Hwy\nLong Beach, CA 90803 4265\nNUTCAS VANLLA CASHEW MILK $7.98 F\nQty 2 $3.99 ea\nCRV SGL UNDER 24OZ $0.10\nQty 2 $0.05 ea\nPARTKE CONFETTI CKIE 10CT $7.22 F\nReg $8.99\nSavings ($1.77)\nSubtotal: $17.07\nTotal Savings: -$1.77\nNet Sales: $15.30\nTotal: $15.30\nSold Items: 3\nPaid:\nVISA *6853 $15.30\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$1.77\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n954 18231 03/23/2026 03:52 PM\n63011070195418231032320260\nXIX70F01AY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NUTCAS VANLLA CASHEW MILK + Qty 2 $3.99 ea",
+      "price": 3.99,
+      "quantity": 2,
+      "totalSpend": 7.98
+    },
+    {
+      "text": "CRV SGL UNDER 24OZ + Qty 2 $0.05 ea",
+      "price": 0.05,
+      "quantity": 2,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "PARTKE CONFETTI CKIE 10CT + Reg $8.99 + Savings ($1.77)",
+      "price": 7.22,
+      "quantity": 1,
+      "totalSpend": 7.22
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

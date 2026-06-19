@@ -1,0 +1,891 @@
+{
+  "id": "cmo4rnd9y005pf690hnpaoinx",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Melinda's Hot Sauce",
+  "amount": 0.75,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "234.34",
+    "purchaseDate": "2026-04-18",
+    "time": null,
+    "zipCode": "21009",
+    "city": "Abingdon",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18970.54837599996,
+        "totalUsd": 0.031134,
+        "inputTokens": 6086,
+        "outputTokens": 2445,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "234.34",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "21009",
+          "status": "match"
+        },
+        "city": {
+          "value": "Abingdon",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21 WEGMANS BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6767",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DAISY LT SOUR CRM",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO RASPBERRIES + 2 @ 4.99",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SS ORG WILD BLUBRY + 3 @ 3.99",
+          "quantity": 3,
+          "unitPrice": 3.99,
+          "totalSpend": 16.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SIETE QUESO PUFFS",
+          "quantity": 1,
+          "unitPrice": 11.97,
+          "totalSpend": 11.97,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MELINDAS CHILI SCE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MC JUST 5 ONION MX",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO GROUND CHICKEN",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG BL BRST FP",
+          "quantity": 1,
+          "unitPrice": 22.37,
+          "totalSpend": 22.37,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG BL BRST FP",
+          "quantity": 1,
+          "unitPrice": 21.26,
+          "totalSpend": 21.26,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ORG BL BRST FP",
+          "quantity": 1,
+          "unitPrice": 22.23,
+          "totalSpend": 22.23,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LOCATELLI GRATED",
+          "quantity": 1,
+          "unitPrice": 11.04,
+          "totalSpend": 11.04,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GARLIC MUSHROOMS",
+          "quantity": 1,
+          "unitPrice": 9.11,
+          "totalSpend": 9.11,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG RAW 13-15CT",
+          "quantity": 1,
+          "unitPrice": 27.98,
+          "totalSpend": 27.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO GARLIC 3OZ",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BASIL HYRDOPONIC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAULIFLOWER 12 + 2 @ 0.69",
+          "quantity": 2,
+          "unitPrice": 0.69,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "LEMONS",
+          "quantity": 1,
+          "unitPrice": 1.38,
+          "totalSpend": 1.38,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CILANTRO BUNCH",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB ORG SWEET LETTU",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "APL HONEY CRISP + WT 3.23 lb @ 2.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 9.66,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "APL HONEY CRISP + WT 3.23 lb @ 2.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 9.66,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WBO 2# CARROTS",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 6PK RED PEPPER",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SQUASH GREEN + WT 2.09 lb @ 1.79 /lb",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 3.74,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SUGAR BOMBS TOMATO",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n21 WEGMANS BLVD\nABINGDON, MD 21009\n(443)372-2900\n04/18/26 OP# 420118\nDAISY LT SOUR CRM 2.79 F\n2 @ 4.99\nWBO RASPBERRIES 9.98 F\nSS ORG WILD BLUBRY 16.49 F\n3 @ 3.99\nSIETE QUESO PUFFS 11.97 F\nMELINDAS CHILI SCE 4.99 F\nMC JUST 5 ONION MX 2.39 F\nWBO GROUND CHICKEN 16.99 F\nORG BL BRST FP 22.37 F\nORG BL BRST FP 21.26 F\nORG BL BRST FP 22.23 F\nLOCATELLI GRATED 11.04 F\nGARLIC MUSHROOMS 9.11 F\nWEG RAW 13-15CT 27.98 F\nWBO GARLIC 3OZ 3.99 F\nBASIL HYRDOPONIC 3.99 F\nCAULIFLOWER 12 2.99 F\n2 @ 0.69\nLEMONS 1.38 F\nCILANTRO BUNCH 0.99 F\nWB ORG SWEET LETTU 3.29 F\n3.23 lb @ 2.99 /lb\nWT APL HONEY CRISP 9.66 F\n3.23 lb @ 2.99 /lb\nWT APL HONEY CRISP 9.66 F\nWBO 2# CARROTS 2.79 F\nWB 6PK RED PEPPER 6.49 F\n2.09 lb @ 1.79 /lb\nWT SQUASH GREEN 3.74 F\nSUGAR BOMBS TOMATO 5.79 F\nTAX 0.00\n**** BALANCE 234.34\nAMERICAN EXPRESS PURCHASE\nCARD NUMBER: ***********6767 H\nAMEX CREDIT 07\nAUTH: 802942 RCPT: 13301\nCODE: 0000 Approved\nAID: A000000025010901\nVERIFIED BY PIN\nCREDIT CARD 234.34\nCHANGE 0.00\n04/18/26 11:08AM 53 13 57 420118\nSave $500+\nevery year\nwith digital coupons\ndownload the\napp today",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 26298.14166700002,
+        "totalUsd": 0.065361,
+        "inputTokens": 3692,
+        "outputTokens": 2456,
+        "reasoningTokens": 4191
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "234.34",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:08AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "21009",
+          "status": "match"
+        },
+        "city": {
+          "value": "ABINGDON",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21 WEGMANS BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6767",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DAISY LT SOUR CRM",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO RASPBERRIES + 2 @ 4.99",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SS ORG WILD BLUBRY",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 16.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIETE QUESO PUFFS + 3 @ 3.99",
+          "quantity": 3,
+          "unitPrice": 3.99,
+          "totalSpend": 11.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MELINDAS CHILI SCE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MC JUST 5 ONION MX",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO GROUND CHICKEN",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG BL BRST FP",
+          "quantity": 1,
+          "unitPrice": 22.37,
+          "totalSpend": 22.37,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG BL BRST FP",
+          "quantity": 1,
+          "unitPrice": 21.26,
+          "totalSpend": 21.26,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ORG BL BRST FP",
+          "quantity": 1,
+          "unitPrice": 22.23,
+          "totalSpend": 22.23,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LOCATELLI GRATED",
+          "quantity": 1,
+          "unitPrice": 11.04,
+          "totalSpend": 11.04,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GARLIC MUSHROOMS",
+          "quantity": 1,
+          "unitPrice": 9.11,
+          "totalSpend": 9.11,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG RAW 13-15CT",
+          "quantity": 1,
+          "unitPrice": 27.98,
+          "totalSpend": 27.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO GARLIC 3OZ",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BASIL HYRDOPONIC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAULIFLOWER 12",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LEMONS + 2 @ 0.69",
+          "quantity": 2,
+          "unitPrice": 0.69,
+          "totalSpend": 1.38,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CILANTRO BUNCH",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB ORG SWEET LETTU",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WT APL HONEY CRISP + 3.23 lb @ 2.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 9.66,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WT APL HONEY CRISP + 3.23 lb @ 2.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 9.66,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO 2# CARROTS",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 6PK RED PEPPER",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WT SQUASH GREEN + 2.09 lb @ 1.79 /lb",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 3.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUGAR BOMBS TOMATO",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n21 WEGMANS BLVD\nABINGDON, MD 21009\n(443)372-2900\n\n04/18/26 OP# 420118\n\nDAISY LT SOUR CRM 2.79 F\n2 @ 4.99\nWBO RASPBERRIES 9.98 F\nSS ORG WILD BLUBRY 16.49 F\n3 @ 3.99\nSIETE QUESO PUFFS 11.97 F\nMELINDAS CHILI SCE 4.99 F\nMC JUST 5 ONION MX 2.39 F\nWBO GROUND CHICKEN 16.99 F\nORG BL BRST FP 22.37 F\nORG BL BRST FP 21.26 F\nORG BL BRST FP 22.23 F\nLOCATELLI GRATED 11.04 F\nGARLIC MUSHROOMS 9.11 F\nWEG RAW 13-15CT 27.98 F\nWBO GARLIC 3OZ 3.99 F\nBASIL HYRDOPONIC 3.99 F\nCAULIFLOWER 12 2.99 F\n2 @ 0.69\nLEMONS 1.38 F\nCILANTRO BUNCH 0.99 F\nWB ORG SWEET LETTU 3.29 F\n3.23 lb @ 2.99 /lb\nWT APL HONEY CRISP 9.66 F\n3.23 lb @ 2.99 /lb\nWT APL HONEY CRISP 9.66 F\nWBO 2# CARROTS 2.79 F\nWB 6PK RED PEPPER 6.49 F\n2.09 lb @ 1.79 /lb\nWT SQUASH GREEN 3.74 F\nSUGAR BOMBS TOMATO 5.79 F\nTAX 0.00\n\n**** BALANCE 234.34\n\nAMERICAN EXPRESS PURCHASE\nCARD NUMBER: ***********6767 H\nAMEX CREDIT 07\nAUTH: 802942 RCPT: 13301\nCODE: 0000 Approved\nAID: A000000025010901\nVERIFIED BY PIN\nCREDIT CARD 234.34\nCHANGE 0.00\n\n04/18/26 11:08AM 53 13 57 420118\n\nSave $500+\nevery year\nwith digital coupons\ndownload the\napp today",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10829.070416,
+        "totalUsd": 0.027183,
+        "inputTokens": 3692,
+        "outputTokens": 2405,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "234.34",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "21009",
+          "status": "match"
+        },
+        "city": {
+          "value": "ABINGDON",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21 WEGMANS BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6767",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DAISY LT SOUR CRM",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO RASPBERRIES",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SS ORG WILD BLUBRY",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 16.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIETE QUESO PUFFS",
+          "quantity": 3,
+          "unitPrice": 3.99,
+          "totalSpend": 11.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MELINDAS CHILI SCE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MC JUST 5 ONION MX",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO GROUND CHICKEN",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG BL BRST FP",
+          "quantity": 1,
+          "unitPrice": 22.37,
+          "totalSpend": 22.37,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG BL BRST FP",
+          "quantity": 1,
+          "unitPrice": 21.26,
+          "totalSpend": 21.26,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ORG BL BRST FP",
+          "quantity": 1,
+          "unitPrice": 22.23,
+          "totalSpend": 22.23,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LOCATELLI GRATED",
+          "quantity": 1,
+          "unitPrice": 11.04,
+          "totalSpend": 11.04,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GARLIC MUSHROOMS",
+          "quantity": 1,
+          "unitPrice": 9.11,
+          "totalSpend": 9.11,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG RAW 13-15CT",
+          "quantity": 1,
+          "unitPrice": 27.98,
+          "totalSpend": 27.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO GARLIC 3OZ",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BASIL HYRDOPONIC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAULIFLOWER 12",
+          "quantity": 2,
+          "unitPrice": 2.185,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "LEMONS",
+          "quantity": 1,
+          "unitPrice": 1.38,
+          "totalSpend": 1.38,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CILANTRO BUNCH",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB ORG SWEET LETTU",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WT + APL HONEY CRISP + 3.23 lb @ 2.99 /lb",
+          "quantity": 1,
+          "unitPrice": 9.66,
+          "totalSpend": 9.66,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WT + APL HONEY CRISP + 3.23 lb @ 2.99 /lb",
+          "quantity": 1,
+          "unitPrice": 9.66,
+          "totalSpend": 9.66,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO 2# CARROTS",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 6PK RED PEPPER",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WT + SQUASH GREEN + 2.09 lb @ 1.79 /lb",
+          "quantity": 1,
+          "unitPrice": 3.74,
+          "totalSpend": 3.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUGAR BOMBS TOMATO",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n21 WEGMANS BLVD\nABINGDON, MD 21009\n(443)372-2900\n04/18/26 OP# 420118\nDAISY LT SOUR CRM 2.79 F\n2 @ 4.99\nWBO RASPBERRIES 9.98 F\nSS ORG WILD BLUBRY 16.49 F\n3 @ 3.99\nSIETE QUESO PUFFS 11.97 F\nMELINDAS CHILI SCE 4.99 F\nMC JUST 5 ONION MX 2.39 F\nWBO GROUND CHICKEN 16.99 F\nORG BL BRST FP 22.37 F\nORG BL BRST FP 21.26 F\nORG BL BRST FP 22.23 F\nLOCATELLI GRATED 11.04 F\nGARLIC MUSHROOMS 9.11 F\nWEG RAW 13-15CT 27.98 F\nWBO GARLIC 3OZ 3.99 F\nBASIL HYRDOPONIC 3.99 F\nCAULIFLOWER 12 2.99 F\n2 @ 0.69\nLEMONS 1.38 F\nCILANTRO BUNCH 0.99 F\nWB ORG SWEET LETTU 3.29 F\n3.23 lb @ 2.99 /lb\nWT APL HONEY CRISP 9.66 F\n3.23 lb @ 2.99 /lb\nWT APL HONEY CRISP 9.66 F\nWBO 2# CARROTS 2.79 F\nWB 6PK RED PEPPER 6.49 F\n2.09 lb @ 1.79 /lb\nWT SQUASH GREEN 3.74 F\nSUGAR BOMBS TOMATO 5.79 F\nTAX 0.00\n**** BALANCE 234.34\nAMERICAN EXPRESS PURCHASE\nCARD NUMBER: ************6767 H\nAMEX CREDIT 07\nAUTH: 802942 RCPT: 13301\nCODE: 0000 Approved\nAID: A000000025010901\nVERIFIED BY PIN\nCREDIT CARD 234.34\nCHANGE 0.00\n04/18/26 11:08AM 53 13 57 420118\nSave $500+\nevery year\nwith digital coupons\ndownload the\napp today",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "DAISY LT SOUR CRM + 2 @ 4.99",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "WBO RASPBERRIES + 2 @ 4.99",
+      "price": 4.99,
+      "quantity": 2,
+      "totalSpend": 9.98
+    },
+    {
+      "text": "SS ORG WILD BLUBRY + 3 @ 3.99",
+      "price": 16.49,
+      "quantity": 1,
+      "totalSpend": 16.49
+    },
+    {
+      "text": "SIETE QUESO PUFFS + 3 @ 3.99",
+      "price": 3.99,
+      "quantity": 3,
+      "totalSpend": 11.97
+    },
+    {
+      "text": "MELINDAS CHILI SCE",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "MC JUST 5 ONION MX",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "WBO GROUND CHICKEN",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    },
+    {
+      "text": "ORG BL BRST FP",
+      "price": 22.37,
+      "quantity": 1,
+      "totalSpend": 22.37
+    },
+    {
+      "text": "ORG BL BRST FP",
+      "price": 21.25,
+      "quantity": 1,
+      "totalSpend": 21.25
+    },
+    {
+      "text": "ORG BL BRST FP",
+      "price": 22.23,
+      "quantity": 1,
+      "totalSpend": 22.23
+    },
+    {
+      "text": "LOCATELLI GRATED",
+      "price": 11.04,
+      "quantity": 1,
+      "totalSpend": 11.04
+    },
+    {
+      "text": "GARLIC MUSHROOMS",
+      "price": 9.11,
+      "quantity": 1,
+      "totalSpend": 9.11
+    },
+    {
+      "text": "WEG RAW 13-15CT",
+      "price": 27.98,
+      "quantity": 1,
+      "totalSpend": 27.98
+    },
+    {
+      "text": "WBO GARLIC 3OZ",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BASIL HYRDOPONIC",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "CAULIFLOWER 1Z + 2 @ 0.69",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "LEMONS + 2 @ 0.69",
+      "price": 0.69,
+      "quantity": 2,
+      "totalSpend": 1.38
+    },
+    {
+      "text": "CILANTRO BUNCH",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "WB ORG SWEET LETTU + 3.23 lb @ 2.99 /lb",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "APL HONEY CRISP + 3.23 lb @ 2.99 /lb + 3.23 lb @ 2.99 /lb",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 9.66
+    },
+    {
+      "text": "APL HONEY CRISP + 3.23 lb @ 2.99 /lb",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 9.66
+    },
+    {
+      "text": "WBO 2# CARROTS",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "WB 6PK RED PEPPER + 2.09 lb @ 1.79 /lb",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "SQUASH GREEN + 2.09 lb @ 1.79 /lb",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 3.74
+    },
+    {
+      "text": "SUGAR BOMBS TOMATO",
+      "price": 5.79,
+      "quantity": 1,
+      "totalSpend": 5.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,615 @@
+{
+  "id": "cmqdrfevp000xxgxu6bkkgzwa",
+  "url": null,
+  "retailer": "ShopRite",
+  "brand": "Harpoon",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "68.08",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "10514",
+    "city": "Chappaqua",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11286.49525000001,
+        "totalUsd": 0.029217,
+        "inputTokens": 6086,
+        "outputTokens": 2232,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "68.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "02:45pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "New Rochelle",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1606",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEINZ KETCHUP PC + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Heinz Ketchup",
+          "quantity": 1,
+          "unitPrice": 2.2,
+          "totalSpend": 2.2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BLACKBERRY 12/6Z",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GRP GREEN SDLS 19 + 1.47 lb @ 3.99 /lb",
+          "quantity": 1,
+          "unitPrice": 5.87,
+          "totalSpend": 5.87,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIMES 110 + 2 @ 1.09",
+          "quantity": 2,
+          "unitPrice": 1.09,
+          "totalSpend": 2.18,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ORANGE NAVEL 56 PC + 2 @ 0.20 + Navel Oranges",
+          "quantity": 2,
+          "unitPrice": 0.2,
+          "totalSpend": 0.4,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WTMLN SDLS 55COUNTPC + On Sale You Saved 1.00 + Whole Seedless Wat",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 7.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SRBB SAUERKRAUT + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SS VINYL GLOVES XL",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HARPOON IPA 2/12 C",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 21.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTLE DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\n\nWelcome to ShopRite\nof New Rochelle\nStore Manager: Al Cimmino\n** Store Phone Number 914-740-9764 **\n\n05/29/26 02:45pm 293 74 68 Op74\n\n*****************************************\n* Items Purchased Today *\n*****************************************\nHEINZ KETCHUP PC 5.19 F\nOn Sale You Saved 0.50\nSC Heinz Ketchup 2.20-F\nBLACKBERRY 12/6Z 3.99 F\n1.47 lb @ 3.99 /lb\nWT GRP GREEN SDLS 19 5.87 F\n4 @ 3/2.00\nLIMES 110 2.67 F\n2 @ 1.09\nORANGE NAVEL 56 PC 2.18 F\n2 @ 0.20\nSC Navel Oranges 0.40-F\nWTMLN SDLS 55COUNTPC 8.99 F\nOn Sale You Saved 1.00\nSC Whole Seedless Wat 2.00-F\nSBRT SKNLS FRNK BUPC 3.99 F\nOn Sale You Saved 3.50\nSC Sabrett Beef Frank 1.00-F\nSBRT SKNLS FRNK BUPC 3.99 F\nOn Sale You Saved 3.50\nSC Sabrett Beef Frank 1.00-F\nSBRT SKNLS FRNK BUPC 3.99 F\nOn Sale You Saved 3.50\nSC Sabrett Beef Frank 1.00-F\nSBRT SKNLS FRNK BUPC 3.99 F\nOn Sale You Saved 3.50\nSC Sabrett Beef Frank 1.00-F\nSBRT SKNLS FRNK BUPC 3.99 F\nOn Sale You Saved 3.50\nSC Sabrett Beef Frank 1.00-F\nSRBB SAUERKRAUT 1.99 F\nOn Sale You Saved 0.50\nSS VINYL GLOVES XL 4.99 T\nHARPOON IPA 2/12 C 21.99 T\nDP BOTTLE DEPOSIT 0.60\nValued Customer 47107611814\nTAX 2.26\n**** BALANCE 68.08\n*****************************************\nShopRite Credit Receipt\nStore # 293 of New Rochelle , NY\nTerminal: 74 Operator: 74 Trans: 68\nDate: 05/29/26 Time: 02:48pm\n\nPurchase: $ 68.08\nAcct#: ************1606 CONTACTLESS\n\nResponse : APPROVED\nApproval : 04762D\nPrepaid Card Balance: 0.00\n\n*****************************************\n\nVISA CARD 68.08\nCHANGE 0.00\nDate of Birth = xx/xx/xx KEYED\nTOTAL NUMBER OF ITEMS SOLD = 17\n\n------- ShopRite Savings -------\nTotal On Sale Savings $ 16.32\nPPC & Str Cpns $ 8.60\nTotal Savings today is $ 24.92\n\n05/29/26 02:48pm 293 74 68 74\n\nYou saved $ 8.60 in PricePlusCpns\n\nPresent your card with every order",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 137933.85675,
+        "totalUsd": 0.13887,
+        "inputTokens": 3786,
+        "outputTokens": 2226,
+        "reasoningTokens": 12573
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "68.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "02:48 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "New Rochelle",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1606",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEINZ KETCHUP PC + On Sale You Saved 0.50 + SC Heinz Ketchup",
+          "quantity": 1,
+          "unitPrice": 5.69,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLACKBERRY 12/6Z",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GRP GREEN SDLS 19 + 1.47 lb @ 3.99 /lb",
+          "quantity": 1,
+          "unitPrice": 5.87,
+          "totalSpend": 5.87,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIMES 110 + 4 @ 3/2.00",
+          "quantity": 4,
+          "unitPrice": 0.67,
+          "totalSpend": 2.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORANGE NAVEL 56 PC + 2 @ 1.09 + SC Navel Oranges",
+          "quantity": 2,
+          "unitPrice": 1.09,
+          "totalSpend": 1.78,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WTMLN SDLS 55COUNTPC + On Sale You Saved 1.00 + SC Whole Seedless Wat",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + SC Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + SC Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + SC Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + SC Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SRBB SAUERKRAUT + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SS VINYL GLOVES XL",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HARPOON IPA 2/12 C",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 21.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTLE DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\n\nWelcome to ShopRite\nof New Rochelle\nStore Manager: Al Cimmino\n** Store Phone Number 914-740-9764 **\n\n05/29/26 02:45pm 293 74 68 Op74\n\n******************************************\n*         Items Purchased Today          *\n******************************************\n          HEINZ KETCHUP     PC    5.19 F\nOn Sale You Saved      0.50\nSC      Heinz Ketchup             2.20-F\n        BLACKBERRY 12/6Z          3.99 F\n  1.47 lb @ 3.99 /lb\nWT      GRP GREEN SDLS 19         5.87 F\n  4 @ 3/2.00\n        LIMES 110                 2.67 F\n  2 @ 1.09\n        ORANGE NAVEL 56     PC    2.18 F\n  2 @ 0.20\nSC      Navel Oranges             0.40-F\n        WTMLN SDLS 55COUNTPC      8.99 F\nOn Sale You Saved      1.00\nSC      Whole Seedless Wat        2.00-F\n        SBRT SKNLS FRNK BUPC      3.99 F\nOn Sale You Saved      3.50\nSC      Sabrett Beef Frank        1.00-F\n        SBRT SKNLS FRNK BUPC      3.99 F\nOn Sale You Saved      3.50\nSC      Sabrett Beef Frank        1.00-F\n        SBRT SKNLS FRNK BUPC      3.99 F\nOn Sale You Saved      3.50\nSC      Sabrett Beef Frank        1.00-F\n        SBRT SKNLS FRNK BUPC      3.99 F\nOn Sale You Saved      3.50\nSC      Sabrett Beef Frank        1.00-F\n        SBRT SKNLS FRNK BUPC      3.99 F\nOn Sale You Saved      3.50\n        SRBB SAUERKRAUT           1.99 F\nOn Sale You Saved      0.50\n        SS VINYL GLOVES XL        4.99 T\n        HARPOON IPA 2/12 C       21.99 T\nDP      BOTTLE DEPOSIT            0.60\n        Valued Customer      47107611814\n        TAX                       2.26\n        **** BALANCE             68.08\n******************************************\nShopRite Credit Receipt\nStore # 293 of New Rochelle , NY\nTerminal: 74 Operator: 74 Trans: 68\nDate: 05/29/26 Time: 02:48pm\n\n  Purchase: $ 68.08\n  Acct#: ************1606   CONTACTLESS\n\n  Response : APPROVED\n  Approval : 04762D\n  Prepaid Card Balance: 0.00\n\n******************************************\n\n        VISA CARD                68.08\n        CHANGE                    0.00\nDate of Birth = xx/xx/xx KEYED\nTOTAL NUMBER OF ITEMS SOLD =      17\n\n--------- ShopRite Savings ---------\nTotal On Sale Savings   $ 16.32\nPPC & Str Cpns          $  8.60\nTotal Savings today is  $ 24.92\n\n05/29/26 02:48pm 293 74 68 74\n\nYou saved $ 8.60 in PricePlusCpns\n\nPresent your card with every order",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9416.347250000006,
+        "totalUsd": 0.023907,
+        "inputTokens": 3692,
+        "outputTokens": 2041,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "68.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "02:48pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "New Rochelle",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1606",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEINZ KETCHUP PC + On Sale You Saved 0.50 + Heinz Ketchup",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLACKBERRY 12/6Z",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GRP GREEN SDLS 19 + 1.47 lb @ 3.99 /lb",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 5.87,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIMES 110 + 4 @ 3/2.00",
+          "quantity": 4,
+          "unitPrice": 0.67,
+          "totalSpend": 2.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORANGE NAVEL 56 PC + 2 @ 1.09 + Navel Oranges",
+          "quantity": 2,
+          "unitPrice": 1.09,
+          "totalSpend": 1.78,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WTMLN SDLS 55COUNTPC + 2 @ 0.20 + On Sale You Saved 1.00 + Whole Seedless Wat",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + Sabrett Beef Frank",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SRBB SAUERKRAUT + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SS VINYL GLOVES XL",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HARPOON IPA 2/12 C",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 21.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTLE DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof New Rochelle\nStore Manager: Al Cimmino\n** Store Phone Number 914-740-9764 **\n05/29/26 02:45pm 293 74 68 Op74\n*****************************************\n* Items Purchased Today *\n*****************************************\nHEINZ KETCHUP PC 5.19 F\nOn Sale You Saved 0.50\nSC Heinz Ketchup 2.20-F\nBLACKBERRY 12/6Z 3.99 F\n1.47 lb @ 3.99 /lb\nWT GRP GREEN SDLS 19 5.87 F\n4 @ 3/2.00\nLIMES 110 2.67 F\n2 @ 1.09\nORANGE NAVEL 56 PC 2.18 F\n2 @ 0.20\nSC Navel Oranges 0.40-F\nWTMN SDLS 55COUNTPC 8.99 F\nOn Sale You Saved 1.00\nSC Whole Seedless Wat 2.00-F\nSBRT SKNLS FRNK BUPC 3.99 F\nOn Sale You Saved 3.50\nSC Sabrett Beef Frank 1.00-F\nSBRT SKNLS FRNK BUPC 3.99 F\nOn Sale You Saved 3.50\nSC Sabrett Beef Frank 1.00-F\nSBRT SKNLS FRNK BUPC 3.99 F\nOn Sale You Saved 3.50\nSC Sabrett Beef Frank 1.00-F\nSBRT SKNLS FRNK BUPC 3.99 F\nOn Sale You Saved 3.50\nSC Sabrett Beef Frank 1.00-F\nSRBB SAUERKRAUT 1.99 F\nOn Sale You Saved 0.50\nSS VINYL GLOVES XL 4.99 T\nHARPOON IPA 2/12 C 21.99 T\nDP BOTTLE DEPOSIT 0.60\nValued Customer 47107611814\nTAX 2.26\n**** BALANCE 68.08\n*****************************************\nShopRite Credit Receipt\nStore # 293 of New Rochelle , NY\nTerminal: 74 Operator: 74 Trans: 68\nDate: 05/29/26 Time: 02:48pm\nPurchase: $ 68.08\nAcct#: ************1606 CONTACTLESS\nResponse : APPROVED\nApproval : 04762D\nPrepaid Card Balance: 0.00\n*****************************************\nVISA CARD 68.08\nCHANGE 0.00\nDate of Birth = xx/xx/xx KEYED\nTOTAL NUMBER OF ITEMS SOLD = 17\n------ ShopRite Savings ------\nTotal On Sale Savings $ 16.32\nPPC & Str Cpns $ 8.60\nTotal Savings today is $ 24.92\n05/29/26 02:48pm 293 74 68 74\nYou saved $ 8.60 in PricePlusCpns\nPresent your card with every order",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HEINZ KETCHUP PC + On Sale You Saved 0.50 + SC Heinz Ketchup 2.20-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "BLACKBERRY 12/6Z",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "1.47 lb @ 3.99 /lb + WT GRP GREEN SDLS 19",
+      "price": 5.87,
+      "quantity": 1,
+      "totalSpend": 5.87
+    },
+    {
+      "text": "4 @ 3/2.00 + LIMES 110",
+      "price": 0.67,
+      "quantity": 4,
+      "totalSpend": 2.67
+    },
+    {
+      "text": "2 @ 1.09 + ORANGE NAVEL 56 PC + 2 @ 0.20 + SC Navel Oranges 0.40-F",
+      "price": 0.89,
+      "quantity": 2,
+      "totalSpend": 1.78
+    },
+    {
+      "text": "WTMLN SDLS 55COUNTPC + On Sale You Saved 1.00 + SC Whole Seedless Wat 2.00-F",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + SC Sabrett Beef Frank 1.00-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + SC Sabrett Beef Frank 1.00-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + SC Sabrett Beef Frank 1.00-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SBRT SKNLS FRNK BUPC + On Sale You Saved 3.50 + SC Sabrett Beef Frank 1.00-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SRBB SAUERKRAUT + On Sale You Saved 0.50",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "SS VINYL GLOVES XL",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "HARPOON IPA 2/12 C",
+      "price": 21.99,
+      "quantity": 1,
+      "totalSpend": 21.99
+    },
+    {
+      "text": "DP BOTTLE DEPOSIT",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0.6
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

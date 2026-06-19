@@ -1,0 +1,270 @@
+{
+  "id": "cmq7atfqm004airr7g9evka4k",
+  "url": null,
+  "retailer": "Mariano's",
+  "brand": "Slate",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Mariano's",
+    "totalCost": "7.07",
+    "purchaseDate": "2026-06-09",
+    "time": null,
+    "zipCode": "60025",
+    "city": "GLENVIEW",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6122.610791999992,
+        "totalUsd": 0.014988,
+        "inputTokens": 6086,
+        "outputTokens": 651,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Mariano's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:54pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60025",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glenview",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "25 Waukegan Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3000",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SLATE SHAKE PC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMP DLSH PUDDING PC",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MARIANO'S SM\n25 Waukegan Road\n847.724.4685\nYour cashier was CHEC 502\nSLATE SHAKE PC 3.99 B\nSMP DLSH PUDDING PC 2.99 B\nTAX 0.09\n**** BALANCE 7.07\nGlenview IL 60025\nAMERICAN EXPRESS Purchase\n************3000 - H\nREF#: 843809 TOTAL: 7.07\nAID: A000000025010801\nTC: F08CE21C24BEFE83\nAMEX 7.07\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/09/26 06:54pm 518 502 88 999999502\nJOIN MARIANO'S REWARDS & BEGIN SAVING\nYOU COULD HAVE SAVED $1.19 TODAY.\nQUESTIONS OR COMMENTS, PLEASE SEE MGR\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kroger.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12720.50279099999,
+        "totalUsd": 0.025536,
+        "inputTokens": 3692,
+        "outputTokens": 646,
+        "reasoningTokens": 1576
+      },
+      "fields": {
+        "storeName": {
+          "value": "Mariano's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:54pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60025",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glenview",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "25 Waukegan Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3000",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SLATE SHAKE PC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMP DLSH PUDDING PC",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MARIANO'S SM\n\n25 Waukegan Road\n847.724.4685\nYour cashier was CHEC 502\nSLATE SHAKE PC 3.99 B\nSMP DLSH PUDDING PC 2.99 B\nTAX 0.09\n**** BALANCE 7.07\nGlenview IL 60025\nAMERICAN EXPRESS Purchase\n************3000 - H\nREF#: 843809 TOTAL: 7.07\nAID: A000000025010801\nTC: F08CE21C24BEFE83\nAMEX 7.07\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/09/26 06:54pm 518 502 88 999999502\n\nJOIN MARIANO'S REWARDS & BEGIN SAVING\nYOU COULD HAVE SAVED $1.19 TODAY.\nQUESTIONS OR COMMENTS, PLEASE SEE MGR\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kroger.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4704.270209000002,
+        "totalUsd": 0.011343,
+        "inputTokens": 3692,
+        "outputTokens": 645,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Mariano's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:54pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60025",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glenview",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "25 Waukegan Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3000",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SLATE SHAKE PC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMP DLSH PUDDING PC",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MARIANO'S SM\n25 Waukegan Road\n847.724.4685\nYour cashier was CHEC 502\nSLATE SHAKE PC 3.99 B\nSMP DLSH PUDDING PC 2.99 B\nTAX 0.09\n**** BALANCE 7.07\nGlenview IL 60025\nAMERICAN EXPRESS Purchase\n************3000 - H\nREF#: 843809 TOTAL: 7.07\nAID: A000000025010801\nTC: F08CE21C24BEFE83\nAMEX 7.07\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/09/26 06:54pm 518 502 88 999999502\nJOIN MARIANO'S REWARDS & BEGIN SAVING\nYOU COULD HAVE SAVED $1.19 TODAY.\nQUESTIONS OR COMMENTS, PLEASE SEE MGR\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kroger.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SLATE SHAKE",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SMP DLSH PUDDING",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

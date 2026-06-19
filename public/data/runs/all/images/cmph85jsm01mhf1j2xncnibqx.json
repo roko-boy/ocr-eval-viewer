@@ -1,0 +1,324 @@
+{
+  "id": "cmph85jsm01mhf1j2xncnibqx",
+  "url": null,
+  "retailer": "Casey's General Store",
+  "brand": "1st Phorm",
+  "amount": 2.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Casey's General Store",
+    "totalCost": "25",
+    "purchaseDate": "2026-05-22",
+    "time": null,
+    "zipCode": "68601",
+    "city": "Co umbus",
+    "state": "NE",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11524.65820799999,
+        "totalUsd": 0.015357,
+        "inputTokens": 6086,
+        "outputTokens": 692,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Casey's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:58:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "68601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Columbus",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7797",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 1Phorm Energy Silver",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1 1Phorm Energy Silver",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Prepay Fuel",
+          "quantity": 1,
+          "unitPrice": 10,
+          "totalSpend": 10,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1 Instant Ticket #1362",
+          "quantity": 1,
+          "unitPrice": 10,
+          "totalSpend": 10,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Casey's# 2881\nColumbus, NE 68601\nRegister 2\n\n5/22/26      12:58:28\nReg:2 Cashier:CHELSEY\nReceipt     2022996 ****SUSPENDED****\nType SALE\n----------------------------------------\n1 1Phorm Energy Silver              2.50\n1 1Phorm Energy Silver              2.50\nPrepay Fuel                        10.00\n1 Instant Ticket #1362             10.00\n----------------------------------------\nSubTotal                           25.00\nTotal                              25.00\n----------------------------------------\nReceived\n  Debit                            25.00\n  Debit\n  Chip Read\n  Tran Type: Preauthorization\n  Response : APPROVED\n  Card Num : XXXXXXXXXXXX7797\n  Merchant : 134000022002881\n  Terminal : 00999004",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10313.673375,
+        "totalUsd": 0.022233,
+        "inputTokens": 3692,
+        "outputTokens": 654,
+        "reasoningTokens": 1201
+      },
+      "fields": {
+        "storeName": {
+          "value": "Casey's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:58:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "68601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Columbus",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "n",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7797",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Phorm Energy Silver",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Phorm Energy Silver",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Prepay Fuel",
+          "quantity": 1,
+          "unitPrice": 10,
+          "totalSpend": 10,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Instant Ticket #1362",
+          "quantity": 1,
+          "unitPrice": 10,
+          "totalSpend": 10,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Casey's# 2881\nn\nColumbus, NE 68601\nRegister 2\n\n5/22/26 12:58:28\nReg:2 Cashier:CHELSEY\nReceipt 2022996 ****SUSPENDED****\nType SALE\n\n1 Phorm Energy Silver 2.50\n1 Phorm Energy Silver 2.50\nPrepay Fuel 10.00\n1 Instant Ticket #1362 10.00\n\nSubTotal 25.00\nTotal 25.00\n\nReceived\nDebit 25.00\nDebit\nChip Read\nTran Type: Preauthorization\nResponse : APPROVED\nCard Num : XXXXXXXXXXXX7797\nMerchant : 13400022002881\nTerminal : 00999004",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4401.038583000001,
+        "totalUsd": 0.011442,
+        "inputTokens": 3692,
+        "outputTokens": 656,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Casey's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:58:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "68601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Columbus",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7797",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 Phorm Energy Silver",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1 Phorm Energy Silver",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Prepay Fuel",
+          "quantity": 1,
+          "unitPrice": 10,
+          "totalSpend": 10,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1 Instant Ticket #1362",
+          "quantity": 1,
+          "unitPrice": 10,
+          "totalSpend": 10,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Casey's# 2881\nColumbus, NE 68601\nRegister 2\n\n5/22/26 12:58:28\nReg:2 Cashier:CHELSEY\nReceipt 2022996 ****SUSPENDED****\nType SALE\n\n1 Phorm Energy Silver 2.50\n1 Phorm Energy Silver 2.50\nPrepay Fuel 10.00\n1 Instant Ticket #1362 10.00\n\nSubTotal 25.00\nTotal 25.00\n\nReceived\nDebit 25.00\nDebit\nChip Read\nTran Type: Preauthorization\nResponse : APPROVED\nCard Num : XXXXXXXXXXXX7797\nMerchant : 134000022002881\nTerminal : 00999004",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Phorm Energy Silver",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "Phorm Energy Silver",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "FUEL",
+      "price": 10,
+      "quantity": 1,
+      "totalSpend": 10
+    },
+    {
+      "text": "Instant Ticket #1362",
+      "price": 10,
+      "quantity": 1,
+      "totalSpend": 10
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

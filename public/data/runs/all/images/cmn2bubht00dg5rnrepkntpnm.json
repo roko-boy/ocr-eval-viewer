@@ -1,0 +1,243 @@
+{
+  "id": "cmn2bubht00dg5rnrepkntpnm",
+  "url": null,
+  "retailer": "Albertsons",
+  "brand": "Bing Energizing Juice Beverage",
+  "amount": 1.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Albertsons",
+    "totalCost": "1.94",
+    "purchaseDate": "2026-03-22",
+    "time": null,
+    "zipCode": "76137",
+    "city": "Fort Worth",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11209.70891599997,
+        "totalUsd": 0.016248,
+        "inputTokens": 6086,
+        "outputTokens": 791,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76137",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Worth",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4400 Western Center Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7007",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "89081700101 BING CHERRY DRINK + Sale Savings -0.70",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Albertsons\nStore 4151 Dir Brandon Westburg\nMain: (817) 232-2180 Rx:\n4400 Western Center Blvd.\nFort Worth TX 76137\n00415105201442603221725\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n89081700101 BING CHERRY DRINK 2.49 1.79 B\nSale Savings -0.70\nTAX 0.15\n**** BALANCE 1.94\nCredit Purchase 03/22/26 17:25\nCARD # ************7007\nREF: 182509470070 AUTH: 00824116\nPAYMENT AMOUNT 1.94\nAL AMERICAN EXPRESS\nAID A000000025010801\nTVR 0000008000\nAMEX 1.94\nCHANGE 0.00\nYOUR SAVINGS\nStore Savings 0.70\nTotal 0.70\nTotal Savings Value 0.70\n28%\nYOUR POINTS\nPoints Earned Today 1\nPoints Available 119\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/22/26 17:25 4151 52 144 8852\nThank you for shopping Albertsons!\nFor ALBERTSONS FOR U questions call\n877-276-9637 or Albertsons.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 6976.899416,
+        "totalUsd": 0.018426,
+        "inputTokens": 3692,
+        "outputTokens": 788,
+        "reasoningTokens": 644
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76137",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Worth",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4400 Western Center Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7007",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BING CHERRY DRINK + 89081700101 + Sale Savings -0.70",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Albertsons\nStore 4151 Dir Brandon Westburg\nMain: (817) 232-2180 Rx:\n4400 Western Center Blvd.\nFort Worth TX 76137\n00415105201442603221725\nYOUR CASHIER TODAY WAS SELF\nPRODUCE\nPrice You Pay\n89081700101 BING CHERRY DRINK\n2.49 1.79 B\nSale Savings -0.70\nTAX\n0.15\n**** BALANCE\n1.94\nCredit Purchase 03/22/26 17:25\nCARD # ************7007\nREF: 182509470070 AUTH: 00824116\nPAYMENT AMOUNT\n1.94\nAL AMERICAN EXPRESS\nAID A000000025010801\nTVR 0000008000\nAMEX\n1.94\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n0.70\nTotal\n0.70\nTotal Savings Value\n28%\nYOUR POINTS\nPoints Earned Today 1\nPoints Available 119\nTOTAL NUMBER OF ITEMS SOLD =\n1\n03/22/26 17:25 4151 52 144\n8852\nThank you for shopping Albertsons!\nFor ALBERTSONS FOR U questions call\n877-276-9637 or Albertsons.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4893.429375000007,
+        "totalUsd": 0.012585,
+        "inputTokens": 3692,
+        "outputTokens": 783,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76137",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Worth",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4400 Western Center Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7007",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BING CHERRY DRINK + 89081700101 + Sale Savings -0.70",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Albertsons\nStore 4151 Dir Brandon Westburg\nMain: (817) 232-2180 Rx:\n4400 Western Center Blvd.\nFort Worth TX 76137\n00415105201442603221725\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n89081700101 BING CHERRY DRINK 2.49 1.79 B\nSale Savings -0.70\nTAX 0.15\n**** BALANCE 1.94\nCredit Purchase 03/22/26 17:25\nCARD # ************7007\nREF: 182509470070 AUTH: 00824116\nPAYMENT AMOUNT 1.94\nAL AMERICAN EXPRESS\nAID A000000025010801\nTVR 0000008000\nAMEX 1.94\nCHANGE 0.00\nYOUR SAVINGS\nStore Savings 0.70\nTotal 0.70\nTotal Savings Value 0.70\n28%\nYOUR POINTS\nPoints Earned Today 1\nPoints Available 119\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/22/26 17:25 4151 52 144 8852\nThank you for shopping Albertsons!\nFor ALBERTSONS FOR U questions call\n877-276-9637 or Albertsons.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BING CHERRY DRINK + 89081700101 + Sale Savings -0.70",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

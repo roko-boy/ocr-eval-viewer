@@ -1,0 +1,270 @@
+{
+  "id": "cmov0o5xj007ratu1019tm86p",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "August",
+  "amount": 8.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "11.48",
+    "purchaseDate": "2026-05-06",
+    "time": null,
+    "zipCode": "91711",
+    "city": "Claremont",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12482.218666,
+        "totalUsd": 0.0300255,
+        "inputTokens": 6169,
+        "outputTokens": 815,
+        "reasoningTokens": 1493
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "11.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "21:37:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91711",
+          "status": "match"
+        },
+        "city": {
+          "value": "CLAREMONT",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "835 WEST FOOTHILL BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8796",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VANILLA WITH SEEDS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REG/SUP PADS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n835 WEST FOOTHILL BLVD\nCLAREMONT, CALIFORNIA 91711\n(909) 267-1049\nStore Hours MON-SUN 7AM-10PM\n05/06/2026 21:37:34\nUS DEBIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX8796\nPURCHASE - APPROVED\nAUTH CODE:323592\nMode: Issuer-PIN Verified\nAID: A0000000980840\nTVR: 0000000000\nIAD: 1F42046EA000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: A8ACC5E5CBDFCA5E\nMID: 595706 TID: 001 RRN: 067733\nTotal: USD$ 11.48\nGROCERY\nVANILLA WITH SEEDS 2.49 F\nHBA\nREG/SUP PADS 8.99\nBALANCE DUE 11.48\nDEBIT $11.48\n[ ] XXXXXXXXXXXX8796\nAuth# 323592 Ref# 067733\nCHANGE 0.00\nCard XXXXXXXXXXXX4369\nHave a Healthy Day Esperanza!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 1085\nBonus Points earned: 0\nTotal Points earned today: 55\nNew points balance: 1140\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8116.112542000017,
+        "totalUsd": 0.019254,
+        "inputTokens": 3692,
+        "outputTokens": 804,
+        "reasoningTokens": 720
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "21:37:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91711",
+          "status": "match"
+        },
+        "city": {
+          "value": "CLAREMONT",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "835 WEST FOOTHILL BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8796",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VANILLA WITH SEEDS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REG/SUP PADS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n835 WEST FOOTHILL BLVD\nCLAREMONT, CALIFORNIA 91711\n(909) 267-1049\nStore Hours MON-SUN 7AM-10PM\n05/06/2026 21:37:34\nUS DEBIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX8796\nPURCHASE - APPROVED\nAUTH CODE:323592\nMode: Issuer-PIN Verified\nAID: A0000000980840\nTVR: 0000000000\nIAD: 1F42046EA000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: A8ACC5E5CBDFCA5E\nMID: 595706 TID: 001 RRN: 067733\nTotal: USD$ 11.48\nGROCERY\nVANILLA WITH SEEDS 2.49 F\nHBA\nREG/SUP PADS 8.99\nBALANCE DUE 11.48\nDEBIT $11.48\n[ ] XXXXXXXXXXXX8796\nAuth# 323592 Ref# 067733\nCHANGE 0.00\nCard XXXXXXXXXX4369\nHave a Healthy Day Esperanza!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 1085\nBonus Points earned: 0\nTotal Points earned today: 55\nNew points balance: 1140\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4458.594083000004,
+        "totalUsd": 0.012864,
+        "inputTokens": 3692,
+        "outputTokens": 814,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "11.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "21:37:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91711",
+          "status": "match"
+        },
+        "city": {
+          "value": "CLAREMONT",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "835 WEST FOOTHILL BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8796",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + VANILLA WITH SEEDS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HBA + REG/SUP PADS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n835 WEST FOOTHILL BLVD\nCLAREMONT, CALIFORNIA 91711\n(909) 267-1049\nStore Hours MON-SUN 7AM-10PM\n05/06/2026\n21:37:34\nUS DEBIT\nEntry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX8796\nPURCHASE\n- APPROVED\nAUTH CODE:323592\nMode:\nIssuer-PIN Verified\nAID:\nA0000000980840\nTVR:\n0000000000\nIAD:\n1F42046EA000000001003027300000\n000400000000000000000000000000\nTSI: 0000\nARC: 00\nTC:\nA8ACC5E5CBDFCA5E\nMID: 595706\nTID: 001\nRRN: 067733\nTotal:\nUSD$ 11.48\nGROCERY\nVANILLA WITH SEEDS\n2.49 F\nHBA\nREG/SUP PADS\n8.99\nBALANCE DUE\n11.48\nDEBIT\n$11.48\n[ ] XXXXXXXXXXXX8796\nAuth# 323592\nRef# 067733\nCHANGE\n0.00\nCard XXXXXXXXXX4369\nHave a Healthy Day Esperanza!\n***********************************\nSprouts Rewards\nPrevious Points Balance:\n1085\nBonus Points earned:\n0\nTotal Points earned today:\n55\nNew points balance:\n1140\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "VANILLA WITH SEEDS",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "REG/SUP PADS",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

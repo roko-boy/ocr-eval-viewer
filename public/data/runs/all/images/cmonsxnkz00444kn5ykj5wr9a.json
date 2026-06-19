@@ -1,0 +1,243 @@
+{
+  "id": "cmonsxnkz00444kn5ykj5wr9a",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "boxiecat ",
+  "amount": 10,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "37.31",
+    "purchaseDate": "2026-05-01",
+    "time": null,
+    "zipCode": "07066",
+    "city": "Clark",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7346.307790999999,
+        "totalUsd": 0.015267,
+        "inputTokens": 6086,
+        "outputTokens": 682,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:20PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07066",
+          "status": "match"
+        },
+        "city": {
+          "value": "CLARK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1255 RARITAN RD STE 140",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9193",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003120884 BOX-28# UNS PRO CLAY",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 34.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\n\nCLARK #02899\n1255 RARITAN RD STE 140\nCLARK, NJ 07066\n732-815-0580\n\n05/01/26 8:20PM Reg 003 Trans 258439\nHelped by Barbara\n\n003120884 BOX-28# UNS PRO CLAY 34.99 T\n\nTaxable Total 34.99\nSubtotal 34.99\nTax NJ 6.625% 2.32\nTOTAL 37.31\n\nDiscover Credit Card 37.31\n2026-05-01 08:20:06 PM\nTotal: USD $37.31\nDiscover\nEntry Method: INSERT\nCARD #: XXXXXXXXXXXX9193\nPurchase - APPROVED\nAUTH CODE: 00170R\nAID: A0000001523010\nTVR: 0080008000\nIAD: 0105A080038000000000000000000000\nTSI: E800\nARC: Z3\nRRN: 530399\n\n1 Item\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9610.984750000003,
+        "totalUsd": 0.020703,
+        "inputTokens": 3692,
+        "outputTokens": 678,
+        "reasoningTokens": 1007
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07066",
+          "status": "match"
+        },
+        "city": {
+          "value": "CLARK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1255 RARITAN RD STE 140",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9193",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003120884 BOX-28# UNS PRO CLAY",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 34.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\n\nCLARK #02899\n1255 RARITAN RD STE 140\nCLARK, NJ 07066\n732-815-0580\n\n05/01/26 8:20PM Reg 003 Trans 258439\nHelped by Barbara\n\n003120884 BOX-28# UNS PRO CLAY 34.99 T\n\nTaxable Total 34.99\nSubtotal 34.99\nTax NJ 6.625% 2.32\nTOTAL 37.31\n\nDiscover Credit Card 37.31\n2026-05-01 08:20:06 PM\nTotal: USD $37.31\nDiscover\nEntry Method: INSERT\nCARD #: XXXXXXXXXXXX9193\nPurchase - APPROVED\nAUTH CODE: 00170R\nAID: A0000001523010\nTVR: 0080008000\nIAD: 0105A080038000000000000000000000\nTSI: E800\nARC: Z3\nRRN: 530399\n\n1 Item\n\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4378.022625000012,
+        "totalUsd": 0.011514,
+        "inputTokens": 3692,
+        "outputTokens": 664,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07066",
+          "status": "match"
+        },
+        "city": {
+          "value": "CLARK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1255 RARITAN RD STE 140",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9193",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003120884 BOX-28# UNS PRO CLAY",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 34.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCLARK #02899\n1255 RARITAN RD STE 140\nCLARK, NJ 07066\n732-815-0580\n05/01/26 8:20PM Reg 003 Trans 258439\nHelped by Barbara\n003120884 BOX-28# UNS PRO CLAY 34.99 T\nTaxable Total 34.99\nSubtotal 34.99\nTax NJ 6.625% 2.32\nTOTAL 37.31\nDiscover Credit Card 37.31\n2026-05-01 08:20:06 PM\nTotal: USD $37.31\nDiscover\nEntry Method: INSERT\nCARD #: XXXXXXXXXXXX9193\nPurchase - APPROVED\nAUTH CODE: 00170R\nAID: A0000001523010\nTVR: 0080008000\nIAD: 0105A080038000000000000000000000\nTSI: E800\nARC: Z3\nRRN: 530399\n1 Item\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOX-28# UNS PRO CLAY + 003120884",
+      "price": 34.99,
+      "quantity": 1,
+      "totalSpend": 34.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

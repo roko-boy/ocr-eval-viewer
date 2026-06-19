@@ -1,0 +1,324 @@
+{
+  "id": "cmo7e2tjo000vsyrkmut6ccc1",
+  "url": null,
+  "retailer": "H-E-B",
+  "brand": "Slate",
+  "amount": 2.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "11.23",
+    "purchaseDate": "2026-04-20",
+    "time": null,
+    "zipCode": "78749",
+    "city": "Austin",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8858.391290999949,
+        "totalUsd": 0.01884,
+        "inputTokens": 6086,
+        "outputTokens": 1079,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9416",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SLATE VANILLA LATTE + COUPON $0.48 orig 2.98 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZOA GREEN APPLE ZERO SUGA + 2 Ea. @ 2/ 3.00 T + COUPON $0.50 orig 2.00 Ea.",
+          "quantity": 2,
+          "unitPrice": 2,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SLATE CARAMEL LATTE + COUPON $0.48 orig 2.98 Ea.",
+          "quantity": 3,
+          "unitPrice": 2.98,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SLATE CLASSIC CHOCOLATE M F",
+          "quantity": 4,
+          "unitPrice": 2.98,
+          "totalSpend": 2.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "H-E-B\n1074 3146 0420 2611 0600 068\n1 SLATE VANILLA LATTE F 2.50\nCOUPON $0.48 orig 2.98 Ea.\n2 ZOA GREEN APPLE ZERO SUGA\n2 Ea. @ 2/ 3.00 T 3.00\nCOUPON $0.50 orig 2.00 Ea.\n3 SLATE CARAMEL LATTE F 2.50\nCOUPON $0.48 orig 2.98 Ea.\n4 SLATE CLASSIC CHOCOLATE M F 2.98\n11 DIGITAL COUPON SHOPPER\n********** Sale Subtotal*** 10.98\nSales Tax 0.25\n************* Total Sale*** 11.23\n*** DEBIT 11.23\nITEMS PURCHASED: 5\nFREE/COUPON SAVINGS : $1.96\nYOU SAVED\n$1.96\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n068042026743 146726\n****************************************\nUS DEBIT\n************9416\nContactless Chip USD$ 11.23\nAppr No : 249809 Ref No : 672039\nMode: Issuer Verified By Pin\nINTERLNK\nAID : A0000000980840\nTVR : 0000000000\nIAD : 06061203A00000\nTSI : ARC : 00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 30064.97495800001,
+        "totalUsd": 0.053004,
+        "inputTokens": 3692,
+        "outputTokens": 1158,
+        "reasoningTokens": 4116
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9416",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SLATE VANILLA LATTE + COUPON $0.48 orig 2.98 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZOA GREEN APPLE ZERO SUGA + 2 Ea. @ 2/ 3.00 T + COUPON $0.50 orig 2.00 Ea.",
+          "quantity": 2,
+          "unitPrice": 2,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SLATE CARAMEL LATTE + COUPON $0.48 orig 2.98 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLATE CLASSIC CHOCOLATE M",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1074 3146 0420 2611 0600 068\n\n1 SLATE VANILLA LATTE      F   2.50\nCOUPON         $0.48  orig  2.98 Ea.\n2 ZOA GREEN APPLE ZERO SUGA\n    2 Ea. @  2/   3.00 T   3.00\nCOUPON         $0.50  orig  2.00 Ea.\n3 SLATE CARAMEL LATTE      F   2.50\nCOUPON         $0.48  orig  2.98 Ea.\n4 SLATE CLASSIC CHOCOLATE M F  2.98\n11 DIGITAL COUPON SHOPPER\n\n********** Sale Subtotal***   10.98\n   Sales Tax       0.25\n************** Total Sale***   11.23\n *** DEBIT                    11.23\n   ITEMS PURCHASED: 5\n   FREE/COUPON SAVINGS    :   $1.96\n\n      YOU SAVED\n        $1.96\n\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\n\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\n\nCERTIFICATE CODE\n   068042026743 146726\n*************************************\n\nUS DEBIT\n************9416\nContactless Chip   USD$ 11.23\nAppr No : 249809   Ref No : 672039\nMode: Issuer       Verified By Pin\nINTERLNK\nAID : A0000000980840\nTVR : 0000000000\nIAD : 06061203A00000\nTSI :       ARC : 00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5895.082083999994,
+        "totalUsd": 0.015285,
+        "inputTokens": 3692,
+        "outputTokens": 1083,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9416",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SLATE VANILLA LATTE + COUPON $0.48 orig 2.98 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZOA GREEN APPLE ZERO SUGA + COUPON $0.50 orig 2.00 Ea.",
+          "quantity": 2,
+          "unitPrice": 2,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SLATE CARAMEL LATTE + COUPON $0.48 orig 2.98 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLATE CLASSIC CHOCOLATE M F",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "H-E-B\n1074 3146 0420 2611 0600 068\n1 SLATE VANILLA LATTE F 2.50\nCOUPON $0.48 orig 2.98 Ea.\n2 ZOA GREEN APPLE ZERO SUGA\n2 Ea. @ 2/ 3.00 T 3.00\nCOUPON $0.50 orig 2.00 Ea.\n3 SLATE CARAMEL LATTE F 2.50\nCOUPON $0.48 orig 2.98 Ea.\n4 SLATE CLASSIC CHOCOLATE M F 2.98\n11 DIGITAL COUPON SHOPPER\n*********** Sale Subtotal*** 10.98\nSales Tax 0.25\n************* Total Sale*** 11.23\n*** DEBIT 11.23\nITEMS PURCHASED: 5\nFREE/COUPON SAVINGS : $1.96\nYOU SAVED\n$1.96\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n068042026743 146726\n*************************************\nUS DEBIT\n************9416\nContactless Chip USD$ 11.23\nAppr No : 249809 Ref No : 672039\nMode: Issuer Verified By Pin\nINTERLNK\nAID : A0000000980840\nTVR : 0000000000\nIAD : 06061203A00000\nTSI : ARC : 00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SLATE VANILLA LATTE + COUPON $0.48 orig 2.98 Ea. Ea",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "ZOA GREEN APPLE ZERO SUGA + 2 Ea. @ 2/ 3.00 T 3.00 + COUPON $0.50 orig 2.00 Ea. Ea",
+      "price": 3,
+      "quantity": 2,
+      "totalSpend": 3
+    },
+    {
+      "text": "SLATE CARAMEL LATTE + COUPON $0.48 orig 2.98 Ea. Ea",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "SLATE CLASSIC CHOCOLATE M + 11 DIGITAL COUPON SHOPPER",
+      "price": 2.98,
+      "quantity": 1,
+      "totalSpend": 2.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

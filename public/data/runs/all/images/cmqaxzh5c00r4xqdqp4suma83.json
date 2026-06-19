@@ -1,0 +1,297 @@
+{
+  "id": "cmqaxzh5c00r4xqdqp4suma83",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Fomin",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "18.66",
+    "purchaseDate": "2026-06-12",
+    "time": null,
+    "zipCode": "01035",
+    "city": "Hadley",
+    "state": "MA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15380.77962499997,
+        "totalUsd": 0.017328,
+        "inputTokens": 6086,
+        "outputTokens": 911,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:05 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01035",
+          "status": "match"
+        },
+        "city": {
+          "value": "Hadley",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "327 Russell St # 9",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2999",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VGFRSH ROMANO BEANS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOMINN TEA TREE SOAP TIN + Qty 2 $3.99 ea",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OG SCAPE SPEAR GARLIC + Qty 1.30 lb @ $3.99/lb + Tare Weight 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 5.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nHadley HAD 413-586-9932\n327 Russell St # 9\nHadley, MA 01035 3535\nVGFRSH ROMANO BEANS $4.99 F\nFOMINN TEA TREE SOAP TIN $7.98 T\nQty 2 $3.99 ea\nOG SCAPE SPEAR GARLIC $5.19 F\nQty 1.30 lb @ $3.99/lb\nTare Weight 0.01 lb\nSubtotal: $18.16\nNet Sales: $18.16\nTax: 6.25% $0.50\nTotal: $18.66\nSold Items: 4\nPaid:\nVISA *2999 $18.66\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n907 43015 06/12/2026 09:05 AM\n63011001290743015061220260\nGJA6BXTJ7U",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10293.832375,
+        "totalUsd": 0.025995,
+        "inputTokens": 3692,
+        "outputTokens": 905,
+        "reasoningTokens": 1368
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:05 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01035",
+          "status": "match"
+        },
+        "city": {
+          "value": "Hadley",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "327 Russell St # 9",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2999",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VGFRSH ROMANO BEANS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOMINN TEA TREE SOAP TIN + Qty 2 $3.99 ea",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OG SCAPE SPEAR GARLIC + Qty 1.30 lb @ $3.99/lb + Tare Weight 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 5.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nHadley HAD 413-586-9932\n327 Russell St # 9\nHadley, MA 01035 3535\nVGFRSH ROMANO BEANS $4.99 F\nFOMINN TEA TREE SOAP TIN $7.98 T\nQty 2 $3.99 ea\nOG SCAPE SPEAR GARLIC $5.19 F\nQty 1.30 lb @ $3.99/lb\nTare Weight 0.01 lb\nSubtotal: $18.16\nNet Sales: $18.16\nTax: 6.25% $0.50\nTotal: $18.66\nSold Items: 4\nPaid:\nVISA *2999 $18.66\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n907 43015 06/12/2026 09:05 AM\n63011001290743015061220260\nGJA6BXTJ7U",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4580.062708000012,
+        "totalUsd": 0.013683,
+        "inputTokens": 3692,
+        "outputTokens": 905,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:05 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01035",
+          "status": "match"
+        },
+        "city": {
+          "value": "Hadley",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "327 Russell St # 9",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2999",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VGFRSH ROMANO BEANS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOMINN TEA TREE SOAP TIN",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OG SCAPE SPEAR GARLIC + Qty 1.30 lb @ $3.99/lb + Tare Weight 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 5.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nHadley HAD 413-586-9932\n327 Russell St # 9\nHadley, MA 01035 3535\nVGFRSH ROMANO BEANS\n$4.99 F\nFOMINN TEA TREE SOAP TIN\n$7.98 T\nQty 2 $3.99 ea\nOG SCAPE SPEAR GARLIC\n$5.19 F\nQty 1.30 lb @ $3.99/lb\nTare Weight 0.01 lb\nSubtotal:\n$18.16\nNet Sales:\n$18.16\nTax:\n6.25%\n$0.50\nTotal:\n$18.66\nSold Items:\n4\nPaid:\nVISA\n*2999\n$18.66\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n907 43015 06/12/2026 09:05 AM\n63011001290743015061220260\nGJA6BXTJ7U",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "VGFRSH ROMANO BEANS",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "FOMINN TEA TREE SOAP TIN + Qty 2 $3.99 ea",
+      "price": 3.99,
+      "quantity": 2,
+      "totalSpend": 7.98
+    },
+    {
+      "text": "OG SCAPE SPEAR GARLIC + Qty 1.30 lb @ $3.99/lb + Tare Weight 0.01 lb",
+      "price": 5.19,
+      "quantity": 1,
+      "totalSpend": 5.19
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

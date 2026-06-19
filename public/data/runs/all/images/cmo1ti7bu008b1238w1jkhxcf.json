@@ -1,0 +1,294 @@
+{
+  "id": "cmo1ti7bu008b1238w1jkhxcf",
+  "url": null,
+  "retailer": "Walmart",
+  "brand": "tangle",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "19.98",
+    "purchaseDate": "2026-04-16",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7558.350040999998,
+        "totalUsd": 0.013527,
+        "inputTokens": 6114,
+        "outputTokens": 484,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": "2026-04-16",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Tangle Instant Pasta Bulgogi Alfredo Flavor, 3.70 oz (105g), 4-Pack",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Tangle Instant Pasta Creamy Mushroom Flavor, 3.70 oz (105g), 4-Pack + Multipack Quantity: 1 + $1.00 from savings",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "1:33\nApr 16, 2026 order\nOrder# 2000145-88957615\nDelivery\nArrives tomorrow\nPlaced\nPreparing\nOn the way\nDelivered\n2 items\nTangle Instant Pasta Bulgogi Alfredo Flavor, 3.70 oz (105g), 4-Pack\n81.0¢/oz\nQty 1\nWalmart Cash pending\n$11.99\nTangle Instant Pasta Creamy Mushroom Flavor, 3.70 oz (105g), 4-Pack\nMultipack Quantity: 1\n60.7¢/oz\nQty 1\n$1.00 from savings\nWalmart Cash pending\n$8.99\n$9.99",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10081.81537500001,
+        "totalUsd": 0.017916,
+        "inputTokens": 3706,
+        "outputTokens": 466,
+        "reasoningTokens": 907
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": "2026-04-16",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Tangle Instant Pasta Bulgogi Alfredo Flavor, 3.70 oz (105g), 4-Pack",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Tangle Instant Pasta Creamy Mushroom Flavor, 3.70 oz (105g), 4-Pack + Multipack Quantity: 1",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "1:33\nApr 16, 2026 order\nOrder# 2000145-88957615\nDelivery\nArrives tomorrow\nPlaced\nPreparing\nOn the way\nDelivered\n2 items\nTangle Instant Pasta Bulgogi Alfredo Flavor, 3.70 oz (105g), 4-Pack\n81.0¢/oz\nQty 1\nWalmart Cash pending\n$11.99\nTangle Instant Pasta Creamy Mushroom Flavor, 3.70 oz (105g), 4-Pack\nMultipack\nQuantity: 1\n60.7¢/oz\nQty 1\n$1.00 from savings\nWalmart Cash pending\n$8.99\n$9.99",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 16167.27729199998,
+        "totalUsd": 0.009672,
+        "inputTokens": 3706,
+        "outputTokens": 457,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": "2026-04-16",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Tangle Instant Pasta Bulgogi Alfredo Flavor, 3.70 oz (105g), 4-Pack",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Tangle Instant Pasta Creamy Mushroom Flavor, 3.70 oz (105g), 4-Pack",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "1:33\nApr 16, 2026 order\nOrder# 2000145-88957615\nDelivery\nArrives tomorrow\nPlaced\nPreparing\nOn the way\nDelivered\n2 items\nTangle Instant Pasta Bulgogi Alfredo Flavor, 3.70 oz (105g), 4-Pack\n81.0¢/oz\nQty 1\nWalmart Cash pending\n$11.99\nTangle Instant Pasta Creamy Mushroom Flavor, 3.70 oz (105g), 4-Pack\nMultipack Quantity: 1\n60.7¢/oz\nQty 1\n$1.00 from savings\nWalmart Cash pending\n$8.99\n$9.99",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "tangle Tangle Instant Pasta $11.99",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "tangle 3.70 oz (105g), 4-Pack",
+      "price": 3.7,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "- Tangle Instant Pasta $8.99",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Creamy Mushroom $9.99",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "tangle Flavor, 3.70 oz (105g),",
+      "price": 3.7,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$1.00 from savings",
+      "price": 1,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

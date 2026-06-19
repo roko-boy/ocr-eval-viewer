@@ -1,0 +1,540 @@
+{
+  "id": "cmn4we0m0000xucnvcf0y7smj",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Three Wishes",
+  "amount": 7.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "58.76",
+    "purchaseDate": "2026-03-24",
+    "time": null,
+    "zipCode": "10016",
+    "city": "New York",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13182.92779199994,
+        "totalUsd": 0.024483,
+        "inputTokens": 6086,
+        "outputTokens": 1706,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "58.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10016",
+          "status": "match"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "63 Madison Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4665",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TWISHC FRUITY CEREAL",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "365WFM OG CHICKEN TENDERS + Qty 1.14 lb @ $8.99/lb",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 10.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MALK OG UNSWTND ALMND MLK + Reg $7.29 + Savings with Prime ($1.60)",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 5.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIEN WHPD CTTAGE CHZ",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUNST ANGEL GRAPE TOMATO",
+          "quantity": 1,
+          "unitPrice": 4.69,
+          "totalSpend": 4.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ECOFSH WILD SARDINES",
+          "quantity": 1,
+          "unitPrice": 4.69,
+          "totalSpend": 4.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILDPL WILD SARDINES",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "365WFM OG BABY SPINACH",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FAGE TOTAL GREEK YOGURT",
+          "quantity": 1,
+          "unitPrice": 8.19,
+          "totalSpend": 8.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HASS AVOCADO LARGE + Qty 2 Reg $1.89 ea + Savings with Prime ($0.78)",
+          "quantity": 2,
+          "unitPrice": 1.89,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUNST MINI CUCUMBER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANA + Qty 1.01 lb @ $0.59/lb",
+          "quantity": 1,
+          "unitPrice": 0.59,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nNoMad NOM 646-779-2848\n63 Madison Ave\nNew York, NY 10016\nTWISHC FRUITY CEREAL          $7.49 F\n365WFM OG CHICKEN TENDERS     $10.25 F\n Qty 1.14 lb @ $8.99/lb\nMALK OG UNSWTND ALMND MLK      $5.69 F\n Reg $7.29\n Savings with Prime ($1.60)\nFRIEN WHPD CTTAGE CHZ          $4.39 F\nSUNST ANGEL GRAPE TOMATO       $4.69 F\nECOFSH WILD SARDINES           $4.69 F\nWILDPL WILD SARDINES           $3.79 F\n365WFM OG BABY SPINACH         $2.99 F\nFAGE TOTAL GREEK YOGURT        $8.19 F\nHASS AVOCADO LARGE             $3.00 F\n Qty 2 Reg $1.89 ea\n Savings with Prime ($0.78)\nSUNST MINI CUCUMBER            $2.99 F\nBANANA                         $0.60 F\n Qty 1.01 lb @ $0.59/lb\n      Subtotal:               $61.14\n      Total Savings:          -$2.38\n      Net Sales:              $58.76\n      Total:                  $58.76\n      Sold Items:                13\nPaid:\n VISA          *4665  $58.76\n Chip Card:VISA CREDIT\n Chip Card AID:A0000000031010\n\n****************************************\nYour Total Savings\n$2.38\n****************************************\n\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\n\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n\n902 32152 03/24/2026 01:32 PM\n\n63011077390232152032420260\nYIZZ9N64X9",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 25440.56591700006,
+        "totalUsd": 0.06144600000000001,
+        "inputTokens": 3692,
+        "outputTokens": 1726,
+        "reasoningTokens": 4486
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "58.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10016",
+          "status": "match"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "63 Madison Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4665",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TWISHC FRUITY CEREAL",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "365WFM OG CHICKEN TENDERS + Qty 1.14 lb @ $8.99/lb",
+          "quantity": 1,
+          "unitPrice": 10.25,
+          "totalSpend": 10.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MALK OG UNSWTND ALMND MLK + Reg $7.29 + Savings with Prime ($1.60)",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 5.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIEN WHPD CTTAGE CHZ",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUNST ANGEL GRAPE TOMATO",
+          "quantity": 1,
+          "unitPrice": 4.69,
+          "totalSpend": 4.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ECOFSH WILD SARDINES",
+          "quantity": 1,
+          "unitPrice": 4.69,
+          "totalSpend": 4.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILDPL WILD SARDINES",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "365WFM OG BABY SPINACH",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FAGE TOTAL GREEK YOGURT",
+          "quantity": 1,
+          "unitPrice": 8.19,
+          "totalSpend": 8.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HASS AVOCADO LARGE + Qty 2 Reg $1.89 ea + Savings with Prime ($0.78)",
+          "quantity": 2,
+          "unitPrice": 1.89,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUNST MINI CUCUMBER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANA + Qty 1.01 lb @ $0.59/lb",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nNoMad NOM 646-779-2848\n63 Madison Ave\nNew York, NY 10016\nTWISHC FRUITY CEREAL          $7.49 F\n365WFM OG CHICKEN TENDERS    $10.25 F\n  Qty 1.14 lb @ $8.99/lb\nMALK OG UNSWTND ALMND MLK     $5.69 F\n  Reg $7.29\n  Savings with Prime ($1.60)\nFRIEN WHPD CTTAGE CHZ         $4.39 F\nSUNST ANGEL GRAPE TOMATO      $4.69 F\nECOFSH WILD SARDINES          $4.69 F\nWILDPL WILD SARDINES          $3.79 F\n365WFM OG BABY SPINACH        $2.99 F\nFAGE TOTAL GREEK YOGURT       $8.19 F\nHASS AVOCADO LARGE            $3.00 F\n  Qty 2 Reg $1.89 ea\n  Savings with Prime ($0.78)\nSUNST MINI CUCUMBER           $2.99 F\nBANANA                        $0.60 F\n  Qty 1.01 lb @ $0.59/lb\n        Subtotal:            $61.14\n        Total Savings:       -$2.38\n        Net Sales:           $58.76\n        Total:               $58.76\n        Sold Items:              13\nPaid:\nVISA             *4665       $58.76\n   Chip Card:VISA CREDIT\n   Chip Card AID:A0000000031010\n\n****************************************\n           Your Total Savings\n                 $2.38\n****************************************\n\nRETURNS: All returns require proof\nof purchase. No returns on items\n     purchased after 30 days.\n    For additional information\n   please visit wfm.com/returns.\n****************************************\n\nEarn 5% back at Whole Foods Market\n         with Prime Visa\n and an eligible Prime membership\n Learn more at amazon.com/wfmvisa\n\n****************************************\n     HOW WAS YOUR SHOPPING EXPERIENCE?\n     Go to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n\n     902 32152 03/24/2026 01:32 PM\n\n63011077390232152032420260\nYIZZ9N64X9",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7986.477332999988,
+        "totalUsd": 0.020604,
+        "inputTokens": 3692,
+        "outputTokens": 1674,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "58.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10016",
+          "status": "match"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "63 Madison Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4665",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TWISHC FRUITY CEREAL",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "365WFM OG CHICKEN TENDERS + Qty 1.14 lb @ $8.99/lb",
+          "quantity": 1,
+          "unitPrice": 10.25,
+          "totalSpend": 10.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MALK OG UNSWTND ALMND MLK + Reg $7.29 + Savings with Prime ($1.60)",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 5.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIEN WHPD CTTAGE CHZ",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUNST ANGEL GRAPE TOMATO",
+          "quantity": 1,
+          "unitPrice": 4.69,
+          "totalSpend": 4.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ECOFSH WILD SARDINES",
+          "quantity": 1,
+          "unitPrice": 4.69,
+          "totalSpend": 4.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILDPL WILD SARDINES",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "365WFM OG BABY SPINACH",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FAGE TOTAL GREEK YOGURT",
+          "quantity": 1,
+          "unitPrice": 8.19,
+          "totalSpend": 8.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HASS AVOCADO LARGE + Qty 2 Reg $1.89 ea + Savings with Prime ($0.78)",
+          "quantity": 2,
+          "unitPrice": 1.89,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUNST MINI CUCUMBER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANA + Qty 1.01 lb @ $0.59/lb",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nNoMad NOM 646-779-2848\n63 Madison Ave\nNew York, NY 10016\nTWISHC FRUITY CEREAL $7.49 F\n365WFM OG CHICKEN TENDERS $10.25 F\nQty 1.14 lb @ $8.99/lb\nMALK OG UNSWTND ALMND MLK $5.69 F\nReg $7.29\nSavings with Prime ($1.60)\nFRIEN WHPD CTTAGE CHZ $4.39 F\nSUNST ANGEL GRAPE TOMATO $4.69 F\nECOFSH WILD SARDINES $4.69 F\nWILDPL WILD SARDINES $3.79 F\n365WFM OG BABY SPINACH $2.99 F\nFAGE TOTAL GREEK YOGURT $8.19 F\nHASS AVOCADO LARGE $3.00 F\nQty 2 Reg $1.89 ea\nSavings with Prime ($0.78)\nSUNST MINI CUCUMBER $2.99 F\nBANANA $0.60 F\nQty 1.01 lb @ $0.59/lb\nSubtotal: $61.14\nTotal Savings: -$2.38\nNet Sales: $58.76\nTotal: $58.76\nSold Items: 13\nPaid:\nVISA *4665 $58.76\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$2.38\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n902 32152 03/24/2026 01:32 PM\n63011077390232152032420260\nYIZZ9N64X9",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "TWISHC FRUITY CEREAL",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    },
+    {
+      "text": "365WFM OG CHICKEN TENDERS + Qty 1.14 lb @ $8.99/lb",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 10.25
+    },
+    {
+      "text": "MALK OG UNSWTND ALMND MLK + Reg $7.29 + Savings with Prime ($1.60)",
+      "price": 5.69,
+      "quantity": 1,
+      "totalSpend": 5.69
+    },
+    {
+      "text": "FRIEN WHPD CTTAGE CHZ",
+      "price": 4.39,
+      "quantity": 1,
+      "totalSpend": 4.39
+    },
+    {
+      "text": "SUNST ANGEL GRAPE TOMATO",
+      "price": 4.69,
+      "quantity": 1,
+      "totalSpend": 4.69
+    },
+    {
+      "text": "ECOFSH WILD SARDINES",
+      "price": 4.69,
+      "quantity": 1,
+      "totalSpend": 4.69
+    },
+    {
+      "text": "WILDPL WILD SARDINES",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "365WFM OG BABY SPINACH",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "FAGE TOTAL GREEK YOGURT",
+      "price": 8.19,
+      "quantity": 1,
+      "totalSpend": 8.19
+    },
+    {
+      "text": "HASS AVOCADO LARGE + Qty 2 Reg $1.89 ea + Savings with Prime ($0.78)",
+      "price": 1.5,
+      "quantity": 2,
+      "totalSpend": 3
+    },
+    {
+      "text": "SUNST MINI CUCUMBER",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "BANANA + Qty 1.01 lb @ $0.59/lb",
+      "price": 0.59,
+      "quantity": 1,
+      "totalSpend": 0.6
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

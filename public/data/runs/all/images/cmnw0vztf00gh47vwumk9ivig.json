@@ -1,0 +1,703 @@
+{
+  "id": "cmnw0vztf00gh47vwumk9ivig",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "UNREAL",
+  "amount": 8.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "162",
+    "purchaseDate": "2026-04-09",
+    "time": null,
+    "zipCode": "54913",
+    "city": "Grand Chute",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13997.74933299999,
+        "totalUsd": 0.028074,
+        "inputTokens": 6086,
+        "outputTokens": 2105,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "162",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:57 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54913",
+          "status": "match"
+        },
+        "city": {
+          "value": "Grand Chute",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5401 W. Integrity Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6480",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "51070 CANNED CHCKN",
+          "quantity": 1,
+          "unitPrice": 12.59,
+          "totalSpend": 12.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1777000 KS WHIP CRM",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1777000 KS WHIP CRM",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2203187 LNDRY SNTZER",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "785094 VF NAPKIN",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4569569 FS BAGS PACK",
+          "quantity": 1,
+          "unitPrice": 19.97,
+          "totalSpend": 19.97,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "0000374553 / 4569569",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": -6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1908714 LEVI BELT",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7772005 KS ANKLE PNT",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "427381 KS ORG EGGS",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "57554 BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "57554 BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "702669 BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 5.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "702669 BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 5.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "27003 STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "27003 STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1268728 UNREAL BARS",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 12.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "0000376404 / 1268728",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": -3.7,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "938492 KS KETTLE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nGrand Chute #1222\n5401 W. Integrity Way\nGrand Chute, WI 54913\nSELF-CHECKOUT\nOP# Member 111871808533\n51070 CANNED CHCKN 12.59\n1777000 KS WHIP CRM 8.49\n1777000 KS WHIP CRM 8.49\n2203187 LNDRY SNTZER 16.99 A\n785094 VF NAPKIN 11.99 A\n4569569 FS BAGS PACK 19.97 A\n0000374553 / 4569569 6.00-A\n1908714 LEVI BELT 14.99 A\n7772005 KS ANKLE PNT 14.99 A\n427381 KS ORG EGGS 7.69\n57554 BLUEBERRIES 6.89\n57554 BLUEBERRIES 6.89\n702669 BLACKBERRIES 5.39\n702669 BLACKBERRIES 5.39\n27003 STRAWBERRIES 3.99\n27003 STRAWBERRIES 3.99\n1268728 UNREAL BARS 12.49 A\n0000376404 / 1268728 3.70-A\n938492 KS KETTLE 5.99\nSUBTOTAL 157.51\nTAX 4.49\n**** TOTAL 162.00\nXXXXXXXXXXXX6480 H\nAID: A0000000031010\nSeq# 205496 App#: 25741C\nCostco Visa Resp: APPROVED\nTran ID#: 609900205496...\nAPPROVED - Purchase\nAMOUNT: $162.00\n04/09/2026 11:57 1222 205 71 705\nCostco Visa 162.00\nCHANGE 0.00\nA 5.50% 4.49\nTOTAL TAX 4.49\nTOTAL NUMBER OF ITEMS SOLD = 17\nINSTANT SAVINGS $ 9.70\n04/09/2026 11:57 1222 205 71 705",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 25544.91329200001,
+        "totalUsd": 0.065334,
+        "inputTokens": 3692,
+        "outputTokens": 2044,
+        "reasoningTokens": 4600
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "162",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:57",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54913",
+          "status": "match"
+        },
+        "city": {
+          "value": "Grand Chute",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5401 W. Integrity Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6480",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "51070 CANNED CHCKN",
+          "quantity": 1,
+          "unitPrice": 12.59,
+          "totalSpend": 12.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1777000 KS WHIP CRM",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1777000 KS WHIP CRM",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2203187 LNDRY SNTZER",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "785094 VF NAPKIN",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4569569 FS BAGS PACK + 0000374553 / 4569569",
+          "quantity": 1,
+          "unitPrice": 19.97,
+          "totalSpend": 13.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1908714 LEVI BELT",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7772005 KS ANKLE PNT",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "427381 KS ORG EGGS",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "57554 BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "57554 BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "702669 BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 5.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "702669 BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 5.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "27003 STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "27003 STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1268728 UNREAL BARS + 0000376404 /1268728",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 8.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "938492 KS KETTLE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nGrand Chute #1222\n5401 W. Integrity Way\nGrand Chute, WI 54913\n\nSELF-CHECKOUT\n\nOP# Member 111871808533\nE 51070 CANNED CHCKN 12.59\nE 1777000 KS WHIP CRM 8.49\nE 1777000 KS WHIP CRM 8.49\nE 2203187 LNDRY SNTZER 16.99 A\nE 785094 VF NAPKIN 11.99 A\nE 4569569 FS BAGS PACK 19.97 A\nE 0000374553 / 4569569 6.00-A\nE 1908714 LEVI BELT 14.99 A\nE 7772005 KS ANKLE PNT 14.99 A\nE 427381 KS ORG EGGS 7.69\nE 57554 BLUEBERRIES 6.89\nE 57554 BLUEBERRIES 6.89\nE 702669 BLACKBERRIES 5.39\nE 702669 BLACKBERRIES 5.39\nE 27003 STRAWBERRIES 3.99\nE 27003 STRAWBERRIES 3.99\nE 1268728 UNREAL BARS 12.49 A\nE 0000376404 /1268728 3.70-A\nE 938492 KS KETTLE 5.99\nSUBTOTAL 157.51\nTAX 4.49\n**** TOTAL 162.00\nXXXXXXXXXXXX6480 H\nAID: A0000000031010\nSeq# 205496 App#: 25741C\nCostco Visa Resp: APPROVED\nTran ID#: 609900205496...\nAPPROVED - Purchase\nAMOUNT: $162.00\n04/09/2026 11:57 1222 205 71 705\n\nCostco Visa 162.00\nCHANGE 0.00\n\nA 5.50% TOTAL TAX 4.49\nTOTAL TAX 4.49\nTOTAL NUMBER OF ITEMS SOLD = 17\nINSTANT SAVINGS $ 9.70\n04/09/2026 11:57 1222 205 71 705",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9908.909500000009,
+        "totalUsd": 0.024699,
+        "inputTokens": 3692,
+        "outputTokens": 2129,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "162",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:57 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54913",
+          "status": "match"
+        },
+        "city": {
+          "value": "Grand Chute",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5401 W. Integrity Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6480",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "51070 CANNED CHCKN",
+          "quantity": 1,
+          "unitPrice": 12.59,
+          "totalSpend": 12.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1777000 KS WHIP CRM",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1777000 KS WHIP CRM",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2203187 LNDRY SNTZER",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "785094 VF NAPKIN",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4569569 FS BAGS PACK",
+          "quantity": 1,
+          "unitPrice": 19.97,
+          "totalSpend": 19.97,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "0000374553 / 4569569",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": -6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1908714 LEVI BELT",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7772005 KS ANKLE PNT",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "427381 KS ORG EGGS",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "57554 BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "57554 BLUEBERRIES",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "702669 BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 5.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "702669 BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 5.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "27003 STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "27003 STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1268728 UNREAL BARS",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 12.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "0000376404 / 1268728",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": -3.7,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "938492 KS KETTLE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nGrand Chute #1222\n5401 W. Integrity Way\nGrand Chute, WI 54913\nSELF-CHECKOUT\n06 Member 111871808533\nE 51070 CANNED CHCKN 12.59\nE 1777000 KS WHIP CRM 8.49\nE 1777000 KS WHIP CRM 8.49\nE 2203187 LNDRY SNTZER 16.99 A\nE 785094 VF NAPKIN 11.99 A\nE 4569569 FS BAGS PACK 19.97 A\nE 0000374553 / 4569569 6.00-A\nE 1908714 LEVI BELT 14.99 A\nE 7772005 KS ANKLE PNT 14.99 A\nE 427381 KS ORG EGGS 7.69\nE 57554 BLUEBERRIES 6.89\nE 57554 BLUEBERRIES 6.89\nE 702669 BLACKBERRIES 5.39\nE 702669 BLACKBERRIES 5.39\nE 27003 STRAWBERRIES 3.99\nE 27003 STRAWBERRIES 3.99\nE 1268728 UNREAL BARS 12.49 A\nE 0000376404 / 1268728 3.70-A\nE 938492 KS KETTLE 5.99\nSUBTOTAL 157.51\nTAX 4.49\n**** TOTAL 162.00\nXXXXXXXXXXXX6480 H\nAID: A0000000031010\nSeq# 205496 App#: 25741C\nCostco Visa Resp: APPROVED\nTran ID#: 609900205496...\nAPPROVED - Purchase\nAMOUNT: $162.00\n04/09/2026 11:57 1222 205 71 705\nCostco Visa 162.00\nCHANGE 0.00\nA 5.50% 4.49\nTOTAL TAX 4.49\nTOTAL NUMBER OF ITEMS SOLD = 17\nINSTANT SAVINGS $ 9.70\n04/09/2026 11:57 1222 205 71 705",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CANNED CHCKN + 51070",
+      "price": 12.59,
+      "quantity": 1,
+      "totalSpend": 12.59
+    },
+    {
+      "text": "KS WHIP CRM + 1777000",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "KS WMIP CRM + 1777000",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "LNDRY SNTZER + 2203187",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    },
+    {
+      "text": "VF NAPKIN + 785094",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "FS BAGS PACK + 4569569",
+      "price": 13.97,
+      "quantity": 1,
+      "totalSpend": 13.97
+    },
+    {
+      "text": "LEVI BELT + 1908714",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "KS ANKLE PNT + 7772005",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "KS ORG EGGS + 427381",
+      "price": 7.69,
+      "quantity": 1,
+      "totalSpend": 7.69
+    },
+    {
+      "text": "BLUEBERRIES + 57554",
+      "price": 6.89,
+      "quantity": 1,
+      "totalSpend": 6.89
+    },
+    {
+      "text": "BLUEBERRIES + 57554",
+      "price": 6.89,
+      "quantity": 1,
+      "totalSpend": 6.89
+    },
+    {
+      "text": "BLACKBERRIES + 702669",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 5.39
+    },
+    {
+      "text": "BLACKBERRIES + 702669",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 5.39
+    },
+    {
+      "text": "STRAWBERRIES + 27003",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "STRAWBERRIES + 27003",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "UNREAL BARS + 1268728",
+      "price": 8.79,
+      "quantity": 1,
+      "totalSpend": 8.79
+    },
+    {
+      "text": "KS KETTLE + 938492",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

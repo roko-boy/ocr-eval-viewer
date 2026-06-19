@@ -1,0 +1,324 @@
+{
+  "id": "cmnwdm31x00059flv6ae03d78",
+  "url": null,
+  "retailer": "HEB",
+  "brand": "f'real",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "HEB",
+    "totalCost": "10.71",
+    "purchaseDate": "2026-04-12",
+    "time": null,
+    "zipCode": "32055",
+    "city": "AKE CITY",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8996.749123999965,
+        "totalUsd": 0.017004,
+        "inputTokens": 6086,
+        "outputTokens": 875,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Busy Bee",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "10.71",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:39:18 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32055",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKE CITY",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "772 NW US HIGHWAY 41",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0947",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OUNTAIN 44Z",
+          "quantity": 1,
+          "unitPrice": 2.09,
+          "totalSpend": 2.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CEE 16Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REAL PB CUP W REESE ML",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OLDEN RECIPE YOGURT PRE",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ARATHON 182022\n772 NW US HIGHWAY 41\nAKE CITY FL 32055\nXXXXXXXXX0001\n\n04/12/2026 5:39:18 PM\nRegister: 4 Trans #: 701 Op ID: 3201\nYour cashier: Paula\n\nOUNTAIN 44Z $2.09\nCEE 16Z $1.79\nREAL PB CUP W REESE ML $3.49\nOLDEN RECIPE YOGURT PRE $2.79 99\n\nSubtotal = $10.16\nTax = $0.55\nTotal = $10.71\nChange Due = $0.00\nebit $10.71\n\nXXXXXXXXXXXX0947 Debit\nNVOICE: 016087\nJTH 573810\n========================================\nOS Purchase/Capture\nequence Number 43746\nontactless\nS DEBIT\node: Issuer\nID: A0000000980840\nVR: 0000000000\nAD: 06021203A00000\nSI: 0000\nRC: 00\nPPROVED 573810\nerified by PIN\n========================================\n----------------------------------------\n\nPlease keep receipt for returns.\nPlease Visit www.shopthebusybee.com\nThank you for shopping with us!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12253.57250000001,
+        "totalUsd": 0.030549,
+        "inputTokens": 3692,
+        "outputTokens": 840,
+        "reasoningTokens": 1939
+      },
+      "fields": {
+        "storeName": {
+          "value": "Marathon",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "10.71",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:39:18 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32055",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lake City",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "772 NW US HIGHWAY 41",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0947",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OUNTAIN 44Z",
+          "quantity": 1,
+          "unitPrice": 2.09,
+          "totalSpend": 2.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CEE 16Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REAL PB CUP W REESE ML",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OLDEN RECIPE YOGURT PRE",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ARATHON 182022\n772 NW US HIGHWAY 41\nAKE CITY FL 32055\nXXXXXXXXXX0001\n\n04/12/2026 5:39:18 PM\nRegister: 4 Trans #: 701 Op ID: 3201\nYour cashier: Paula\n\nOUNTAIN 44Z $2.09\nCEE 16Z $1.79\nREAL PB CUP W REESE ML $3.49\nOLDEN RECIPE YOGURT PRE $2.79 99\n\nSubtotal = $10.16\nTax = $0.55\nTotal = $10.71\nChange Due = $0.00\n\nebit $10.71\n\nXXXXXXXXXXXX0947 Debit\nNVOICE: 016087\nJTH 573810\n========================================\nOS Purchase/Capture\nequence Number 43746\nontactless\nS DEBIT\node: Issuer\nID: A0000000980840\nVR: 0000000000\nAD: 06021203A00000\nSI: 0000\nRC: 00\nPPROVED 573810\nerified by PIN\n========================================\n\nPlease keep receipt for returns.\nPlease Visit www.shopthebusybee.com\nThank you for shopping with us!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5511.64966700002,
+        "totalUsd": 0.013026,
+        "inputTokens": 3692,
+        "outputTokens": 832,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Marathon",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "10.71",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:39:18 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32055",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKE CITY",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "772 NW US HIGHWAY 41",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0947",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FOUNTAIN 44Z",
+          "quantity": 1,
+          "unitPrice": 2.09,
+          "totalSpend": 2.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICEE 16Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CEREAL PB CUP W REESE ML",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GOLDEN RECIPE YOGURT PRE",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MARATHON 182022\n772 NW US HIGHWAY 41\nLAKE CITY FL 32055\nXXXXXXXXX0001\n\n04/12/2026 5:39:18 PM\nRegister: 4 Trans #: 701 Op ID: 3201\nYour cashier: Paula\n\nFOUNTAIN 44Z $2.09\nICEE 16Z $1.79\nCEREAL PB CUP W REESE ML $3.49\nGOLDEN RECIPE YOGURT PRE $2.79 99\n\nSubtotal = $10.16\nTax = $0.55\nTotal = $10.71\nChange Due = $0.00\n\nDebit $10.71\n\nXXXXXXXXXXXX0947 Debit\nINVOICE: 016087\nAUTH 573810\n========================================\nPOS Purchase/Capture\nSequence Number 43746\nContactless\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06021203A00000\nTSI: 0000\nARC: 00\nAPPROVED 573810\nVerified by PIN\n========================================\n\nPlease keep receipt for returns.\nPlease Visit www.shopthebusybee.com\nThank you for shopping with us!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "OUNTAIN 44Z",
+      "price": 2.09,
+      "quantity": 1,
+      "totalSpend": 2.09
+    },
+    {
+      "text": "CEE 16Z",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "REAL PB CUP W REESE ML",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "OLDEN RECIPE YOGURT PRE",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

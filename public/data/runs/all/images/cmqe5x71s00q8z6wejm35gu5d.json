@@ -1,0 +1,243 @@
+{
+  "id": "cmqe5x71s00q8z6wejm35gu5d",
+  "url": null,
+  "retailer": "United Dairy Farmers",
+  "brand": "Ruby Jewel ",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "United Dairy Farmers",
+    "totalCost": "4.99",
+    "purchaseDate": "2026-06-14",
+    "time": null,
+    "zipCode": null,
+    "city": "Bellevue",
+    "state": "KY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12609.498125,
+        "totalUsd": 0.015717,
+        "inputTokens": 6086,
+        "outputTokens": 732,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "United Dairy Farmers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:57:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Bellevue",
+          "status": "match"
+        },
+        "state": {
+          "value": "KY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "145 Fairfield",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6920",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RJ SLTD CRM IC SAND",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "United Dairy Farmers\nStore #148\n145 Fairfield\nBellevue, KY\n\nIGINAL\nReceipt 1220574\nTake Away\nQty Name Price Total\n1 RJ SLTD CRM IC SAND 4.99 4.99\nSubTotal 4.99\nTotal 4.99\nReceived\nRef 045555\nApproval 014043\nApproved On 06/14/2026 14:57:39\nSale\nVisa\nCard Num : XXXXXXXXXXXX6920\nContactless\nTerminal : XXXXXXXXXX6001\nApproval : 014043\nSequence : 045555\nUSD$ 4.99\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 5C1D87BD2E45D183\n06/14/2026 2:57:42 PM Pos:1 Cashier:187\n**Tell us how we did.**\nGet a regular coffee\nor medium fountain\ndrink for $0.50\n1) Visit www.UDFfeedback.com\n2) Enter Store #148\n3) Leave your feedback\n4) Write redemption code\n5) Bring your receipt with redemption code\nto any UDF location to get your\ndiscounted Hot or Cold Beverage\nwith your next purchase.\nWe look forward to seeing you again soon!\nLimit one survey per customer per store\nper week. See www.udfinc.com for full\nprogram rules.\nOffer Expires 06/30/2026",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12009.509125,
+        "totalUsd": 0.018525,
+        "inputTokens": 3692,
+        "outputTokens": 728,
+        "reasoningTokens": 715
+      },
+      "fields": {
+        "storeName": {
+          "value": "United Dairy Farmers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:57:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Bellevue",
+          "status": "match"
+        },
+        "state": {
+          "value": "KY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "145 Fairfield",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6920",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RJ SLTD CRM IC SAND",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "United Dairy Farmers\nStore #148\n145 Fairfield\nBellevue, KY\n\nIGINAL\nReceipt 1220574\nTake Away\nQty Name Price Total\n1 RJ SLTD CRM IC SAND 4.99 4.99\nSubTotal 4.99\nTotal 4.99\nReceived\nRef 045555\nApproval 014043\nApproved On 06/14/2026 14:57:39\nSale\nVisa\nCard Num : XXXXXXXXXXXX6920\nContactless\nTerminal : XXXXXXXXXX6001\nApproval : 014043\nSequence : 045555\nUSD$ 4.99\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 5C1D87BD2E45D183\n06/14/2026 2:57:42 PM Pos:1 Cashier:187\n**Tell us how we did.**\nGet a regular coffee\nor medium fountain\ndrink for $0.50\n1) Visit www.UDFfeedback.com\n2) Enter Store #148\n3) Leave your feedback\n4) Write redemption code\n5) Bring your receipt with redemption code\nto any UDF location to get your\ndiscounted Hot or Cold Beverage\nwith your next purchase.\nWe look forward to seeing you again soon!\nLimit one survey per customer per store\nper week. See www.udfinc.com for full\nprogram rules.\nOffer Expires 06/30/2026",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5313.971375000001,
+        "totalUsd": 0.01209,
+        "inputTokens": 3692,
+        "outputTokens": 728,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "United Dairy Farmers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:57:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Bellevue",
+          "status": "match"
+        },
+        "state": {
+          "value": "KY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "145 Fairfield",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6920",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RJ SLTD CRM IC SAND",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "United Dairy Farmers\nStore #148\n145 Fairfield\nBellevue, KY\n\nIGINAL\nReceipt 1220574\nTake Away\nQty Name Price Total\n1 RJ SLTD CRM IC SAND 4.99 4.99\nSubTotal 4.99\nTotal 4.99\nReceived\nRef 045555\nApproval 014043\nApproved On 06/14/2026 14:57:39\nSale\nVisa\nCard Num : XXXXXXXXXXXX6920\nContactless\nTerminal : XXXXXXXXXX6001\nApproval : 014043\nSequence : 045555\nUSD$ 4.99\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 5C1D87BD2E45D183\n06/14/2026 2:57:42 PM Pos:1 Cashier:187\n**Tell us how we did.**\nGet a regular coffee\nor medium fountain\ndrink for $0.50\n1) Visit www.UDFfeedback.com\n2) Enter Store #148\n3) Leave your feedback\n4) Write redemption code\n5) Bring your receipt with redemption code\nto any UDF location to get your\ndiscounted Hot or Cold Beverage\nwith your next purchase.\nWe look forward to seeing you again soon!\nLimit one survey per customer per store\nper week. See www.udfinc.com for full\nprogram rules.\nOffer Expires 06/30/2026",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "RJ SLTD CRM IC SAND",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

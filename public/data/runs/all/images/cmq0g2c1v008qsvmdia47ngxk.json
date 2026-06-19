@@ -1,0 +1,267 @@
+{
+  "id": "cmq0g2c1v008qsvmdia47ngxk",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Ocean's Halo",
+  "amount": 2.7,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "5.39",
+    "purchaseDate": "2026-06-04",
+    "time": null,
+    "zipCode": "95131",
+    "city": "San Jose",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 4852.408625999989,
+        "totalUsd": 0.0121305,
+        "inputTokens": 6197,
+        "outputTokens": 315,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ocean's Halo Fried Rice Spicy Garlic and Chili Kimbap - 8.11oz",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 5.39,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Picked up at\nSan Jose College Park\n$5.39\nReceipt total\n2-6154-3991-1045-0691-6\nHide details\nOcean's Halo Fried Rice Spicy Garlic and Chili Kimbap - 8.11oz\nQty 1 • $5.39 unit price\nAmount $5.39\nItem total $5.39\nVISA Receipt total $5.39",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 6331.623584000045,
+        "totalUsd": 0.0143475,
+        "inputTokens": 3709,
+        "outputTokens": 333,
+        "reasoningTokens": 643
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ocean's Halo Fried Rice Spicy Garlic and Chili Kimbap - 8.11oz",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 5.39,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Picked up at\nSan Jose College Park\n\n$5.39\nReceipt total\n\n2-6154-3991-1045-0691-6\n\nHide details\n\nOcean's Halo Fried Rice Spicy Garlic and\nChili Kimbap - 8.11oz\nQty 1 • $5.39 unit price\n\nAmount\n$5.39\nItem total\n$5.39\n\nVISA Receipt total\n$5.39",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3208.452875000017,
+        "totalUsd": 0.0083985,
+        "inputTokens": 3709,
+        "outputTokens": 315,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ocean's Halo Fried Rice Spicy Garlic and Chili Kimbap - 8.11oz",
+          "quantity": 1,
+          "unitPrice": 5.39,
+          "totalSpend": 5.39,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Picked up at\nSan Jose College Park\n$5.39\nReceipt total\n2-6154-3991-1045-0691-6\nHide details\nOcean's Halo Fried Rice Spicy Garlic and\nChili Kimbap - 8.11oz\nQty 1 • $5.39 unit price\nAmount\n$5.39\nItem total\n$5.39\nVISA\nReceipt total\n$5.39",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "$5.39",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Qty 1 . $5.39 unit price",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Amount $5.39",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Item total $5.39",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "VISA Receipt total $5.39",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

@@ -1,0 +1,351 @@
+{
+  "id": "cmpzusofe008kdw0vnqampxl4",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "TRIP",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "35.18",
+    "purchaseDate": "2026-06-02",
+    "time": null,
+    "zipCode": "08540",
+    "city": "Princeton",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7753.240042000019,
+        "totalUsd": 0.016707,
+        "inputTokens": 6086,
+        "outputTokens": 842,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "35.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08540",
+          "status": "match"
+        },
+        "city": {
+          "value": "PRINCETON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "240 NASSAU PARK BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8732",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP RSPBRY BL 4PK",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ PROTEIN VAN",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 4CT BAG AVOCADO",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUEBERRIES 18 OZ",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRIES 2LBS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n240 NASSAU PARK BLVD\nPRINCETON, NJ 08540\n(609) 919-9300\n06/02/26 OP# 85\nTRIP RSPBRY BL 4PK 10.99 B\nPIRQ PROTEIN VAN 7.99 F\nWB 4CT BAG AVOCADO 3.49 F\nBLUEBERRIES 18 OZ 5.99 F\nSTRAWBERRIES 2LBS 5.99 F\nTAX 0.73\n**** BALANCE 35.18\nMASTERCARD PURCHASE\nCARD NUMBER: ************8732 H\nCHASE MASTERCARD 07\nAUTH: 00309P RCPT: 85331\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 35.18\nCHANGE 0.00\n06/02/26 16:13 93 85 92 85\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9970.748375000025,
+        "totalUsd": 0.025671,
+        "inputTokens": 3692,
+        "outputTokens": 820,
+        "reasoningTokens": 1417
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "35.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08540",
+          "status": "match"
+        },
+        "city": {
+          "value": "PRINCETON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "240 NASSAU PARK BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8732",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP RSPBRY BL 4PK",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ PROTEIN VAN",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 4CT BAG AVOCADO",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUEBERRIES 18 OZ",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRIES 2LBS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n240 NASSAU PARK BLVD\nPRINCETON, NJ 08540\n(609) 919-9300\n06/02/26 OP# 85\nTRIP RSPBRY BL 4PK 10.99 B\nPIRQ PROTEIN VAN 7.99 F\nWB 4CT BAG AVOCADO 3.49 F\nBLUEBERRIES 18 OZ 5.99 F\nSTRAWBERRIES 2LBS 5.99 F\nTAX 0.73\n**** BALANCE 35.18\nMASTERCARD PURCHASE\nCARD NUMBER: ************8732 H\nCHASE MASTERCARD 07\nAUTH: 00309P RCPT: 85331\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 35.18\nCHANGE 0.00\n06/02/26 16:13 93 85 92 85\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4730.694415999984,
+        "totalUsd": 0.012909,
+        "inputTokens": 3692,
+        "outputTokens": 819,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "35.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:13",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08540",
+          "status": "match"
+        },
+        "city": {
+          "value": "PRINCETON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "240 NASSAU PARK BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8732",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TRIP RSPBRY BL 4PK",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ PROTEIN VAN",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 4CT BAG AVOCADO",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUEBERRIES 18 OZ",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRIES 2LBS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n240 NASSAU PARK BLVD\nPRINCETON, NJ 08540\n(609) 919-9300\n06/02/26 OP# 85\nTRIP RSPBRY BL 4PK 10.99 B\nPIRQ PROTEIN VAN 7.99 F\nWB 4CT BAG AVOCADO 3.49 F\nBLUEBERRIES 18 OZ 5.99 F\nSTRAWBERRIES 2LBS 5.99 F\nTAX 0.73\n**** BALANCE 35.18\nMASTERCARD PURCHASE\nCARD NUMBER: ************8732 H\nCHASE MASTERCARD 07\nAUTH: 00309P RCPT: 85331\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 35.18\nCHANGE 0.00\n06/02/26 16:13 93 85 92 85\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "TRIP RSPBRY BL 4PK",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "PIRQ PROTEIN VAN",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "WB 4CT BAG AVOCADO",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "BLUEBERRIES 18 OZ",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "STRAWBERRIES 2LBS",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

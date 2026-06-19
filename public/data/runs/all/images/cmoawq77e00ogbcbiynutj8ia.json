@@ -1,0 +1,528 @@
+{
+  "id": "cmoawq77e00ogbcbiynutj8ia",
+  "url": null,
+  "retailer": "H-E-B",
+  "brand": "Alec's Ice Cream",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "54.48",
+    "purchaseDate": "2026-04-22",
+    "time": null,
+    "zipCode": "78731",
+    "city": "Austin",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13747.21408299997,
+        "totalUsd": 0.028422,
+        "inputTokens": 6168,
+        "outputTokens": 2130,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "54.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:44P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78731",
+          "status": "match"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7025 Village Ctr Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6921",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEB PREMIUM PINEAPPLES FW",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUJA ESSENTIALS MIGHTY GR F",
+          "quantity": 1,
+          "unitPrice": 3.68,
+          "totalSpend": 3.68,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB KCO GREEN LEAF CRNCH FW + FREE COUPON $3.28 orig 3.28 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.28,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TROP PUR PREM OJ LOTS OF F",
+          "quantity": 1,
+          "unitPrice": 3.87,
+          "totalSpend": 3.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1LB STRAWBERRIES FW",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRIME CHUCK ROAST BNLS F",
+          "quantity": 1,
+          "unitPrice": 20.14,
+          "totalSpend": 20.14,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALECS CC MADAGSCR VAN 4CT F",
+          "quantity": 1,
+          "unitPrice": 8.58,
+          "totalSpend": 8.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HIGH BREW MEXICAN VANILLA F + FREE COUPON $2.58 orig 2.58 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "80 ACRES FARMS BROCC N' R FW + Reduced Item - 50.00 % Off orig 4.48 Ea.",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 2.24,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HIGH BREW COFFEE BLK UNSW F",
+          "quantity": 1,
+          "unitPrice": 5.68,
+          "totalSpend": 5.68,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUMBO WHITE ONION + 2.97 Lbs @ 1/ 1.17 FW",
+          "quantity": 1,
+          "unitPrice": 1.17,
+          "totalSpend": 3.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BULK RUSSET POTATOES + 3.11 Lbs @ 1/ 0.82 FW + F BIG $AVINGS 2.50-",
+          "quantity": 1,
+          "unitPrice": 0.82,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "H-E-B\n1097 2605 0422 2621 4400 096\n1 HEB PREMIUM PINEAPPLES FW 4.48\n2 SUJA ESSENTIALS MIGHTY GR F 3.68\n3 HEB KCO GREEN LEAF CRNCH FW 0.00\nFREE COUPON $3.28 orig 3.28 Ea.\n4 TROP PUR PREM OJ LOTS OF F 3.87\n5 1LB STRAWBERRIES FW 2.29\n6 PRIME CHUCK ROAST BNLS F 20.14\n7 ALECS CC MADAGSCR VAN 4CT F 8.58\n8 HIGH BREW MEXICAN VANILLA F 0.00\nFREE COUPON $2.58 orig 2.58 Ea.\n9 80 ACRES FARMS BROCC N' R FW 2.24\nReduced Item - 50.00 % Off orig 4.48 Ea.\n10 HIGH BREW COFFEE BLK UNSW F 5.68\n11 JUMBO WHITE ONION\n2.97 Lbs @ 1/ 1.17 FW 3.47\n12 BULK RUSSET POTATOES\n3.11 Lbs @ 1/ 0.82 FW 2.55\nF BIG $AVINGS 2.50-\n************ Total Sale*** 54.48\n*** EPS AMEX 54.48\nITEMS PURCHASED: 12\nFREE/COUPON SAVINGS : $5.86\nYOU SAVED\n$5.86\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 6/30/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 6/30/26.\nCERTIFICATE CODE\n096042226972 605311\n****************************************\nAMEX CREDIT\n**********6921\nContactless Chip USD$ 54.48\nAppr No : 886996 Ref No : 836416\nMode: Issuer Verified By Pin\nAMEX\nAID : A000000025010901\nTVR : 0000008000\nIAD : 06040103A20102\nTSI : E800 ARC : 00\nRECEIPT EXPIRES ON 07-21-26\n1097 2605 0422 2621 4400 096\nReturns can be done at any checkstand\nH-E-B Food-Drugs #04/096\n7025 Village Ctr Dr, Austin, TX 78731\nPhone: (512) 502-8445\nPharmacy: (512) 502-8301\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:JOHN M\n972605 04-22-26 9:44P 227/09/00096",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 26573.54129199998,
+        "totalUsd": 0.0645855,
+        "inputTokens": 3733,
+        "outputTokens": 2112,
+        "reasoningTokens": 4442
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "54.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78731",
+          "status": "match"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7025 Village Ctr Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6921",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEB PREMIUM PINEAPPLES FW",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUJA ESSENTIALS MIGHTY GR F",
+          "quantity": 1,
+          "unitPrice": 3.68,
+          "totalSpend": 3.68,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB KCO GREEN LEAF CRNCH FW + FREE COUPON $3.28 orig 3.28 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.28,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TROP PUR PREM OJ LOTS OF F",
+          "quantity": 1,
+          "unitPrice": 3.87,
+          "totalSpend": 3.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1LB STRAWBERRIES FW",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRIME CHUCK ROAST BNLS F",
+          "quantity": 1,
+          "unitPrice": 20.14,
+          "totalSpend": 20.14,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALECS CC MADAGSCR VAN 4CT F",
+          "quantity": 1,
+          "unitPrice": 8.58,
+          "totalSpend": 8.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HIGH BREW MEXICAN VANILLA F + FREE COUPON $2.58 orig 2.58 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "80 ACRES FARMS BROCC N' R FW + Reduced Item - 50.00 % Off orig 4.48 Ea.",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 2.24,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HIGH BREW COFFEE BLK UNSW F",
+          "quantity": 1,
+          "unitPrice": 5.68,
+          "totalSpend": 5.68,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUMBO WHITE ONION + 2.97 Lbs @ 1/ 1.17 FW",
+          "quantity": 1,
+          "unitPrice": 3.47,
+          "totalSpend": 3.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BULK RUSSET POTATOES + 3.11 Lbs @ 1/ 0.82 FW",
+          "quantity": 1,
+          "unitPrice": 2.55,
+          "totalSpend": 2.55,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "H-E-B\n1097 2605 0422 2621 4400 096\n1 HEB PREMIUM PINEAPPLES FW 4.48\n2 SUJA ESSENTIALS MIGHTY GR F 3.68\n3 HEB KCO GREEN LEAF CRNCH FW 0.00\nFREE COUPON $3.28 orig 3.28 Ea.\n4 TROP PUR PREM OJ LOTS OF F 3.87\n5 1LB STRAWBERRIES FW 2.29\n6 PRIME CHUCK ROAST BNLS F 20.14\n7 ALECS CC MADAGSCR VAN 4CT F 8.58\n8 HIGH BREW MEXICAN VANILLA F 0.00\nFREE COUPON $2.58 orig 2.58 Ea.\n9 80 ACRES FARMS BROCC N' R FW 2.24\nReduced Item - 50.00 % Off orig 4.48 Ea.\n10 HIGH BREW COFFEE BLK UNSW F 5.68\n11 JUMBO WHITE ONION\n2.97 Lbs @ 1/ 1.17 FW 3.47\n12 BULK RUSSET POTATOES\n3.11 Lbs @ 1/ 0.82 FW 2.55\nF BIG $AVINGS 2.50-\n************* Total Sale*** 54.48\n*** EPS AMEX 54.48\nITEMS PURCHASED: 12\nFREE/COUPON SAVINGS : $5.86\nYOU SAVED $5.86\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 6/30/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 6/30/26.\nCERTIFICATE CODE\n096042226972 605311\n****************************************\nAMEX CREDIT\n************6921\nContactless Chip USD$ 54.48\nAppr No : 886996 Ref No : 836416\nMode: Issuer Verified By Pin\nAMEX\nAID : A000000025010901\nTVR : 0000008000\nIAD : 06040103A20102\nTSI : E800 ARC : 00\nRECEIPT EXPIRES ON 07-21-26\n1097 2605 0422 2621 4400 096\nReturns can be done at any checkstand\nH-E-B Food-Drugs #04/096\n7025 Village Ctr Dr, Austin, TX 78731\nPhone: (512) 502-8445\nPharmacy: (512) 502-8301\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:JOHN M\n972605 04-22-26 9:44P 227/09/00096",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9386.873541000008,
+        "totalUsd": 0.0246795,
+        "inputTokens": 3733,
+        "outputTokens": 2120,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "54.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:44P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78731",
+          "status": "match"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7025 Village Ctr Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6921",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEB PREMIUM PINEAPPLES",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUJA ESSENTIALS MIGHTY GR",
+          "quantity": 1,
+          "unitPrice": 3.68,
+          "totalSpend": 3.68,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB KCO GREEN LEAF CRNCH + FREE COUPON $3.28 orig 3.28 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.28,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TROP PUR PREM OJ LOTS OF",
+          "quantity": 1,
+          "unitPrice": 3.87,
+          "totalSpend": 3.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1LB STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRIME CHUCK ROAST BNLS",
+          "quantity": 1,
+          "unitPrice": 20.14,
+          "totalSpend": 20.14,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALECS CC MADAGSCR VAN 4CT",
+          "quantity": 1,
+          "unitPrice": 8.58,
+          "totalSpend": 8.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HIGH BREW MEXICAN VANILLA + FREE COUPON $2.58 orig 2.58 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "80 ACRES FARMS BROCC N' R + Reduced Item - 50.00 % Off orig 4.48 Ea.",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 2.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HIGH BREW COFFEE BLK UNSW",
+          "quantity": 1,
+          "unitPrice": 5.68,
+          "totalSpend": 5.68,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUMBO WHITE ONION + 2.97 Lbs @ 1/ 1.17 FW",
+          "quantity": 1,
+          "unitPrice": 1.17,
+          "totalSpend": 3.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BULK RUSSET POTATOES + 3.11 Lbs @ 1/ 0.82 FW + F BIG $AVINGS 2.50-",
+          "quantity": 1,
+          "unitPrice": 0.82,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "H-E-B\n1097 2605 0422 2621 4400 096\n1 HEB PREMIUM PINEAPPLES FW 4.48\n2 SUJA ESSENTIALS MIGHTY GR F 3.68\n3 HEB KCO GREEN LEAF CRNCH FW 0.00\nFREE COUPON $3.28 orig 3.28 Ea.\n4 TROP PUR PREM OJ LOTS OF F 3.87\n5 1LB STRAWBERRIES FW 2.29\n6 PRIME CHUCK ROAST BNLS F 20.14\n7 ALECS CC MADAGSCR VAN 4CT F 8.58\n8 HIGH BREW MEXICAN VANILLA F 0.00\nFREE COUPON $2.58 orig 2.58 Ea.\n9 80 ACRES FARMS BROCC N' R FW 2.24\nReduced Item - 50.00 % Off orig 4.48 Ea.\n10 HIGH BREW COFFEE BLK UNSW F 5.68\n11 JUMBO WHITE ONION\n2.97 Lbs @ 1/ 1.17 FW 3.47\n12 BULK RUSSET POTATOES\n3.11 Lbs @ 1/ 0.82 FW 2.55\nF BIG $AVINGS 2.50-\n************ Total Sale*** 54.48\n*** EPS AMEX 54.48\nITEMS PURCHASED: 12\nFREE/COUPON SAVINGS : $5.86\nYOU SAVED\n$5.86\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 6/30/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 6/30/26.\nCERTIFICATE CODE\n096042226972 605311\n****************************************\nAMEX CREDIT\n************6921\nContactless Chip USD$ 54.48\nAppr No : 886996 Ref No : 836416\nMode: Issuer Verified By Pin\nAMEX\nAID : A000000025010901\nTVR : 0000008000\nIAD : 06040103A20102\nTSI : E800 ARC : 00\nRECEIPT EXPIRES ON 07-21-26\n1097 2605 0422 2621 4400 096\nReturns can be done at any checkstand\nH-E-B Food-Drugs #04/096\n7025 Village Ctr Dr, Austin, TX 78731\nPhone: (512) 502-8445\nPharmacy: (512) 502-8301\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:JOHN M\n972605 04-22-26 9:44P 227/09/00096",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HEB PREMIUM PINEAPPLES",
+      "price": 4.48,
+      "quantity": 1,
+      "totalSpend": 4.48
+    },
+    {
+      "text": "SUJA ESSENTIALS MIGHTY GR",
+      "price": 3.68,
+      "quantity": 1,
+      "totalSpend": 3.68
+    },
+    {
+      "text": "TROP PUR PREM OJ LOTS OF",
+      "price": 3.87,
+      "quantity": 1,
+      "totalSpend": 3.87
+    },
+    {
+      "text": "1LB STRAWBERRIES",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "PRIME CHUCK ROAST BNLS",
+      "price": 20.14,
+      "quantity": 1,
+      "totalSpend": 20.14
+    },
+    {
+      "text": "ALECS CC MADAGSCR VAN 4CT",
+      "price": 8.58,
+      "quantity": 1,
+      "totalSpend": 8.58
+    },
+    {
+      "text": "80 ACRES FARMS BROCC N' R + Reduced Item - 50.00 % Off orig 4.48 Ea",
+      "price": 2.24,
+      "quantity": 1,
+      "totalSpend": 2.24
+    },
+    {
+      "text": "HIGH BREW COFFEE BLK UNSW",
+      "price": 5.68,
+      "quantity": 1,
+      "totalSpend": 5.68
+    },
+    {
+      "text": "JUMBO WHITE ONION + 2.97 Lbs @ 1/ 1.17 FW 3.47",
+      "price": 1.17,
+      "quantity": 1,
+      "totalSpend": 3.47
+    },
+    {
+      "text": "BULK RUSSET POTATOES + 3.11 Lbs @ 1/ 0.82 FW 2.55",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

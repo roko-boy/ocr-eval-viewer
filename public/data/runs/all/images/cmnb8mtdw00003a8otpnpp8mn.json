@@ -1,0 +1,243 @@
+{
+  "id": "cmnb8mtdw00003a8otpnpp8mn",
+  "url": null,
+  "retailer": "Aldi",
+  "brand": "SENIQ",
+  "amount": 15,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Aldi",
+    "totalCost": null,
+    "purchaseDate": "2026-02-13",
+    "time": null,
+    "zipCode": "94612",
+    "city": "OAKLAND",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5512.034249999997,
+        "totalUsd": 0.014196,
+        "inputTokens": 6104,
+        "outputTokens": 560,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "REI",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "130.61",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-02-13",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94612",
+          "status": "match"
+        },
+        "city": {
+          "value": "OAKLAND",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "269 24TH ST UNIT 1601",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Trailmix Cargo Pants - Women's + 2558720002",
+          "quantity": 1,
+          "unitPrice": 148,
+          "totalSpend": 117.93,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ORDER #A393731053\nFriday, February, 13, 2026\nREI co-op\nBill to\nName Esther Chung\nMember # 13675038\nAddress 269 24TH ST UNIT 1601\nOAKLAND CA 94612\nDate February 13, 2026\nPayment method Visa\nShip to\nName Esther Chung\nAddress 269 24TH ST UNIT 1601\nOAKLAND CA 94612\nDelivery date February 15, 2026\nShipping method OnTrac Ground\nShip to address\nQty. Item# Description Unit price Discount Line total\n1 2558720002 Trailmix Cargo Pants - Women's 148.00 30.07 117.93\nSubtotal 117.93\nShipping FREE\nEstimated sales tax 12.68\nTotal discount 30.07\nTotal 130.61\nThank you for your business!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8221.882500000007,
+        "totalUsd": 0.0193215,
+        "inputTokens": 3701,
+        "outputTokens": 530,
+        "reasoningTokens": 1000
+      },
+      "fields": {
+        "storeName": {
+          "value": "REI",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "130.61",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-02-13",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94612",
+          "status": "match"
+        },
+        "city": {
+          "value": "OAKLAND",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "269 24TH ST UNIT 1601",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Trailmix Cargo Pants - Women's + 2558720002",
+          "quantity": 1,
+          "unitPrice": 148,
+          "totalSpend": 117.93,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ORDER #A393731053\nFriday, February 13, 2026\nREI co-op\nBill to\nName Esther Chung\nMember # 13675038\nAddress 269 24TH ST UNIT 1601\nOAKLAND CA 94612\nDate February 13, 2026\nPayment method Visa\nShip to\nName Esther Chung\nAddress 269 24TH ST UNIT 1601\nOAKLAND CA 94612\nDelivery date February 15, 2026\nShipping method OnTrac Ground\nShip to address\nQty. Item# Description Unit price Discount Line total\n1 2558720002 Trailmix Cargo Pants - Women's 148.00 30.07 117.93\nSubtotal 117.93\nShipping FREE\nEstimated sales tax 12.68\nTotal discount 30.07\nTotal 130.61\nThank you for your business!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3641.161709000007,
+        "totalUsd": 0.0103035,
+        "inputTokens": 3701,
+        "outputTokens": 528,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "REI",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "130.61",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-02-13",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94612",
+          "status": "match"
+        },
+        "city": {
+          "value": "OAKLAND",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "269 24TH ST UNIT 1601",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Trailmix Cargo Pants - Women's + 2558720002",
+          "quantity": 1,
+          "unitPrice": 148,
+          "totalSpend": 117.93,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ORDER #A393731053\nFriday, February, 13, 2026\nREI co-op\nBill to\nName Esther Chung\nMember # 13675038\nAddress 269 24TH ST UNIT 1601 OAKLAND CA 94612\nDate February 13, 2026\nPayment method Visa\nShip to\nName Esther Chung\nAddress 269 24TH ST UNIT 1601 OAKLAND CA 94612\nDelivery date February 15, 2026\nShipping method OnTrac Ground\nShip to address\nQty. Item# Description Unit price Discount Line total\n1 2558720002 Trailmix Cargo Pants - Women's 148.00 30.07 117.93\nSubtotal 117.93\nShipping FREE\nEstimated sales tax 12.68\nTotal discount 30.07\nTotal 130.61\nThank you for your business!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Tralmix Cargo Pants + 2558720002 + Womens",
+      "price": 148,
+      "quantity": 1,
+      "totalSpend": 148
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

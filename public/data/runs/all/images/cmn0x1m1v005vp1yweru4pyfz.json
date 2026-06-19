@@ -1,0 +1,459 @@
+{
+  "id": "cmn0x1m1v005vp1yweru4pyfz",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Refresh Gum",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "51.46",
+    "purchaseDate": "2026-03-21",
+    "time": null,
+    "zipCode": "35801",
+    "city": "Huntsville",
+    "state": "AL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 26520.99479199998,
+        "totalUsd": 0.023097,
+        "inputTokens": 6086,
+        "outputTokens": 1552,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "51.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "35801",
+          "status": "match"
+        },
+        "city": {
+          "value": "Huntsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2501 Memorial Pkwy SW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9204",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BTN SOUR CRM ONN CRKCR + Reg $3.99 + Savings with Prime ($1.00)",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BTN GRLC HERB MINI CRKCR + Reg $3.99 + Savings with Prime ($1.00)",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLSPS DRIED CACAO FRUIT + Qty 2 $7.69 ea",
+          "quantity": 2,
+          "unitPrice": 7.69,
+          "totalSpend": 15.38,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YUMI OG BERRY BLND SMTHIE + Qty 2 $3.49 ea",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 6.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFRGUM GARDEN MINT GUM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFRGUM PEPPERMINT GUM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFRGUM BUBBLE GUM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG HNY CLSTRBUCKS + Reg $6.99 + Savings with Prime ($1.60)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG BL GRNLA CLSTRS + Reg $6.99 + Savings with Prime ($1.60)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.39,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nHuntsville HSV 256-801-3741\n2501 Memorial Pkwy SW\nHuntsville, AL 35801\nBTN SOUR CRM ONN CRKCR $2.99 FT\nReg $3.99\nSavings with Prime ($1.00)\nBTN GRLC HERB MINI CRKCR $2.99 FT\nReg $3.99\nSavings with Prime ($1.00)\nBLSPS DRIED CACAO FRUIT $15.38 FT\nQty 2 $7.69 ea\nYUMI OG BERRY BLND SMTHIE $6.98 FT\nQty 2 $3.49 ea\nRFRGUM GARDEN MINT GUM $2.99 FT\nRFRGUM PEPPERMINT GUM $2.99 FT\nRFRGUM BUBBLE GUM $2.99 FT\nLILBUK OG HNY CLSTRBUCKS $5.39 FT\nReg $6.99\nSavings with Prime ($1.60)\nLILBUK OG BL GRNLA CLSTRS $5.39 FT\nReg $6.99\nSavings with Prime ($1.60)\nSubtotal: $53.29\nTotal Savings: -$5.20\nNet Sales: $48.09\nTax: 7.00% $3.37\nTotal: $51.46\nSold Items: 11\nPaid:\nVISA *9204 $51.46\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$5.20\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n903 28650 03/21/2026 05:27 PM\n63011059190328650032120260\n5R901YRPGT",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15583.04712500004,
+        "totalUsd": 0.040296,
+        "inputTokens": 3692,
+        "outputTokens": 1567,
+        "reasoningTokens": 2295
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "51.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "35801",
+          "status": "match"
+        },
+        "city": {
+          "value": "Huntsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2501 Memorial Pkwy SW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9204",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BTN SOUR CRM ONN CRKCR + Reg $3.99 + Savings with Prime ($1.00)",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BTN GRLC HERB MINI CRCKR + Reg $3.99 + Savings with Prime ($1.00)",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLSPS DRIED CACAO FRUIT + Qty 2 $7.69 ea",
+          "quantity": 2,
+          "unitPrice": 7.69,
+          "totalSpend": 15.38,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YUMI OG BERRY BLND SMTHIE + Qty 2 $3.49 ea",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 6.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFRGUM GARDEN MINT GUM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFRGUM PEPPERMINT GUM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFRGUM BUBBLE GUM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG HNY CLSTRBUCKS + Reg $6.99 + Savings with Prime ($1.60)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG BL GRNLA CLSTRS + Reg $6.99 + Savings with Prime ($1.60)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.39,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nHuntsville HSV 256-801-3741\n2501 Memorial Pkwy SW\nHuntsville, AL 35801\nBTN SOUR CRM ONN CRKCR\n$2.99 FT\nReg $3.99\nSavings with Prime ($1.00)\nBTN GRLC HERB MINI CRCKR\n$2.99 FT\nReg $3.99\nSavings with Prime ($1.00)\nBLSPS DRIED CACAO FRUIT\n$15.38 FT\nQty 2 $7.69 ea\nYUMI OG BERRY BLND SMTHIE\n$6.98 FT\nQty 2 $3.49 ea\nRFRGUM GARDEN MINT GUM\n$2.99 FT\nRFRGUM PEPPERMINT GUM\n$2.99 FT\nRFRGUM BUBBLE GUM\n$2.99 FT\nLILBUK OG HNY CLSTRBUCKS\n$5.39 FT\nReg $6.99\nSavings with Prime ($1.60)\nLILBUK OG BL GRNLA CLSTRS\n$5.39 FT\nReg $6.99\nSavings with Prime ($1.60)\nSubtotal:\n$53.29\nTotal Savings:\n-$5.20\nNet Sales:\n$48.09\nTax:\n7.00%\n$3.37\nTotal:\n$51.46\nSold Items:\n11\nPaid:\nVISA\n*9204\n$51.46\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$5.20\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n903 28650 03/21/2026 05:27 PM\n63011059190328650032120260\n5R901YRPGT",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7244.914790999988,
+        "totalUsd": 0.019353,
+        "inputTokens": 3692,
+        "outputTokens": 1535,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "51.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "35801",
+          "status": "match"
+        },
+        "city": {
+          "value": "Huntsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2501 Memorial Pkwy SW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9204",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BTN SOUR CRM ONN CRKCR + Reg $3.99 + Savings with Prime ($1.00)",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BTN GRLC HERB MINI CRCKR + Reg $3.99 + Savings with Prime ($1.00)",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLSPS DRIED CACAO FRUIT + Qty 2 $7.69 ea",
+          "quantity": 2,
+          "unitPrice": 7.69,
+          "totalSpend": 15.38,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YUMI OG BERRY BLND SMTHIE + Qty 2 $3.49 ea",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 6.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFRGUM GARDEN MINT GUM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFRGUM PEPPERMINT GUM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFRGUM BUBBLE GUM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG HNY CLSTRBUCKS + Reg $6.99 + Savings with Prime ($1.60)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG BL GRNLA CLSTRS + Reg $6.99 + Savings with Prime ($1.60)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.39,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nHuntsville HSV 256-801-3741\n2501 Memorial Pkwy SW\nHuntsville, AL 35801\nBTN SOUR CRM ONN CRKCR $2.99 FT\nReg $3.99\nSavings with Prime ($1.00)\nBTN GRLC HERB MINI CRCKR $2.99 FT\nReg $3.99\nSavings with Prime ($1.00)\nBLSPS DRIED CACAO FRUIT $15.38 FT\nQty 2 $7.69 ea\nYUMI OG BERRY BLND SMTHIE $6.98 FT\nQty 2 $3.49 ea\nRFRGUM GARDEN MINT GUM $2.99 FT\nRFRGUM PEPPERMINT GUM $2.99 FT\nRFRGUM BUBBLE GUM $2.99 FT\nLILBUK OG HNY CLSTRBUCKS $5.39 FT\nReg $6.99\nSavings with Prime ($1.60)\nLILBUK OG BL GRNLA CLSTRS $5.39 FT\nReg $6.99\nSavings with Prime ($1.60)\nSubtotal: $53.29\nTotal Savings: -$5.20\nNet Sales: $48.09\nTax: 7.00% $3.37\nTotal: $51.46\nSold Items: 11\nPaid:\nVISA *9204 $51.46\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$5.20\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n903 28650 03/21/2026 05:27 PM\n63011059190328650032120260\n5R901YRPGT",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BTN SOUR CRM ONN CRKCR + Reg $3.99 + Savings with Prime ($1.00)",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "BTN GRLC HERB MINI CRCKR + Reg $3.99 + Savings with Prime ($1.00)",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "BLSPS DRIED CACAO FRUIT + Qty 2 $7.69 ea",
+      "price": 7.69,
+      "quantity": 2,
+      "totalSpend": 15.38
+    },
+    {
+      "text": "YUMI OG BERRY BLND SMTHIE + Qty 2 $3.49 ea",
+      "price": 3.49,
+      "quantity": 2,
+      "totalSpend": 6.98
+    },
+    {
+      "text": "RFRGUM GARDEN MINT GUM",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "RFRGUM PEPPERMINT GUM",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "RFRGUM BUBBLE GUM",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "LILBUK OG HNY CLSTRBUCKS + Reg $6.99 + Savings with Prime ($1.60)",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 5.39
+    },
+    {
+      "text": "LILBUK OG BL GRNLA CLSTRS + Reg $6.99 + Savings with Prime ($1.60)",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 5.39
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

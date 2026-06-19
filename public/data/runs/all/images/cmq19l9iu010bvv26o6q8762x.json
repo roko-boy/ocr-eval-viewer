@@ -1,0 +1,405 @@
+{
+  "id": "cmq19l9iu010bvv26o6q8762x",
+  "url": null,
+  "retailer": "Dillons",
+  "brand": "Slate",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Dillons",
+    "totalCost": "26.67",
+    "purchaseDate": "2026-06-05",
+    "time": null,
+    "zipCode": "67214",
+    "city": "Wichita",
+    "state": "KS",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11376.09849999999,
+        "totalUsd": 0.020685,
+        "inputTokens": 6086,
+        "outputTokens": 1284,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dillons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:42 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "67214",
+          "status": "match"
+        },
+        "city": {
+          "value": "WICHITA",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3020 E. DOUGLAS AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8606",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LATE LF ESPRESSO C",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLATE LATTE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOTS PRETZELS + DILLON SAVINGS + eCpn DotsReeses",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SNPC CUTIES",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BAREBELLS BARS + DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BAREBELLS BROWNIE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SUJA SHOT JUICE + DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.67,
+          "totalSpend": 2.05,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Dillons FRESH FOR EVERYONE\n3020 E. DOUGLAS AVE\n(316) 681-6830\nYour cashier was CHEC 670\nLATE LF ESPRESSO C 3.99 B\nSLATE LATTE 3.99 B\nDOTS PRETZELS PC 4.99 B\nSC DILLON SAVINGS 1.00\nSC eCpn DotsReeses 1.00\nSNPC CUTIES 4.99 B\nBAREBELLS BARS PC 2.79 B\nSC DILLON SAVINGS 0.20\nBAREBELLS BROWNIE 2.99 B\nSUJA SHOT JUICE PC 2.67 B\nSC DILLON SAVINGS 0.62\nPlus Customer ******2878\nTAX 0.26\n**** BALANCE 26.67\nCASH 23.00\nWICHITA KS 67214\nCHASE VISA Purchase\n************8606 - C\nREF#: 02083D TOTAL: 3.67\nAID: A0000000031010\nTC: EE06CEF047C66993\nVISA 3.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nSTORE COUPONS 2.82\nTOTAL SAVINGS (9 pct.) 2.82\n06/05/26 07:43am 91 670 17 999999670\n****************************************\nAnnual Card Savings $363.31\n****************************************\n****************************************\nRedeem Points in the App\nfor Dollars Off Groceries\nor at the Pump for Fuel Discounts\n-----\nPoints Earned Today: 26\nTotal June Points: 50\n****************************************\nEARN 50 POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 06/05/26\nTime: 07:42AM\nEntry ID: 615-101-17-91-670-687\n****************************************\nWith Our Low Prices, You Saved\n$2.82\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.dillons.com\nwww.dillons.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 33164.18737500001,
+        "totalUsd": 0.071598,
+        "inputTokens": 3692,
+        "outputTokens": 1291,
+        "reasoningTokens": 6049
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dillons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:42 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "67214",
+          "status": "match"
+        },
+        "city": {
+          "value": "WICHITA",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3020 E. DOUGLAS AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8606",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LATE LF ESPRESSO C",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLATE LATTE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOTS PRETZELS PC + SC DILLON SAVINGS + SC eCpn DotsReeses",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SNPC CUTIES",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAREBELLS BARS PC + SC DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BAREBELLS BROWNIE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUJA SHOT JUICE PC + SC DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.67,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Dillons FRESH FOR EVERYONE\n3020 E. DOUGLAS AVE\n(316) 681-6830\nYour cashier was CHEC 670\nLATE LF ESPRESSO C 3.99 B\nSLATE LATTE 3.99 B\nDOTS PRETZELS PC 4.99 B\nSC DILLON SAVINGS 1.00\nSC eCpn DotsReeses 1.00\nSNPC CUTIES 4.99 B\nBAREBELLS BARS PC 2.79 B\nSC DILLON SAVINGS 0.20\nBAREBELLS BROWNIE 2.99 B\nSUJA SHOT JUICE PC 2.67 B\nSC DILLON SAVINGS 0.62\nPlus Customer ******2878\nTAX 0.26\n**** BALANCE 26.67\nCASH 23.00\nWICHITA KS 67214\nCHASE VISA Purchase\n************8606 - C\nREF#: 02083D TOTAL: 3.67\nAID: A0000000031010\nTC: EE06CEF047C66993\nVISA 3.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nSTORE COUPONS 2.82\nTOTAL SAVINGS (9 pct.) 2.82\n06/05/26 07:43am 91 670 17 999999670\n*************************************\nAnnual Card Savings $363.31\n*************************************\n*************************************\nRedeem Points in the App\nfor Dollars Off Groceries\nor at the Pump for Fuel Discounts\n-----\nPoints Earned Today: 26\nTotal June Points: 50\n*************************************\nEARN 50 POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 06/05/26\nTime: 07:42AM\nEntry ID: 615-101-17-91-670-687\n*************************************\nWith Our Low Prices, You Saved\n$2.82\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.dillons.com\nwww.dillons.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6667.122790999994,
+        "totalUsd": 0.016995,
+        "inputTokens": 3692,
+        "outputTokens": 1273,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dillons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:42 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "67214",
+          "status": "match"
+        },
+        "city": {
+          "value": "WICHITA",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3020 E. DOUGLAS AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8606",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LATE LF ESPRESSO C",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLATE LATTE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOTS PRETZELS + DILLON SAVINGS + eCpn DotsReeses",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SNPC CUTIES",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BAREBELLS BARS + DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BAREBELLS BROWNIE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SUJA SHOT JUICE + DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.67,
+          "totalSpend": 2.05,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Dillons FRESH FOR EVERYONE\n3020 E. DOUGLAS AVE\n(316) 681-6830\nYour cashier was CHEC 670\nLATE LF ESPRESSO C 3.99 B\nSLATE LATTE 3.99 B\nDOTS PRETZELS PC 4.99 B\nSC DILLON SAVINGS 1.00\nSC eCpn DotsReeses 1.00\nSNPC CUTIES 4.99 B\nBAREBELLS BARS PC 2.79 B\nSC DILLON SAVINGS 0.20\nBAREBELLS BROWNIE 2.99 B\nSUJA SHOT JUICE PC 2.67 B\nSC DILLON SAVINGS 0.62\nPlus Customer ******2878\nTAX 0.26\n**** BALANCE 26.67\nCASH 23.00\nWICHITA KS 67214\nCHASE VISA Purchase\n************8606 - C\nREF#: 02083D TOTAL: 3.67\nAID: A0000000031010\nTC: EE06CEF047C66993\nVISA 3.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nSTORE COUPONS 2.82\nTOTAL SAVINGS (9 pct.) 2.82\n06/05/26 07:43am 91 670 17 999999670\n*************************************\nAnnual Card Savings $363.31\n*************************************\n*************************************\nRedeem Points in the App\nfor Dollars Off Groceries\nor at the Pump for Fuel Discounts\n-----\nPoints Earned Today: 26\nTotal June Points: 50\n*************************************\nEARN 50 POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 06/05/26\nTime: 07:42AM\nEntry ID: 615-101-17-91-670-687\n*************************************\nWith Our Low Prices, You Saved\n$2.82\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.dillons.com\nwww.dillons.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "LATE LF ESPRESSO C",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SLATE LATTE",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "DOTS PRETZELS + SC DILLON SAVINGS 1.00 + SC eCpn DotsReeses 1.00",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "SNPC CUTIES",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "BAREBELLS BARS + SC DILLON SAVINGS 0.20",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "BAREBELLS BROWNIE",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SUJA SHOT JUICE + SC DILLON SAVINGS 0.62 + Plus Customer *******2878",
+      "price": 2.67,
+      "quantity": 1,
+      "totalSpend": 2.67
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

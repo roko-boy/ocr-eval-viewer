@@ -1,0 +1,243 @@
+{
+  "id": "cmovzhws0000bj8rh565yoj9j",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Jesse & Ben's",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "11.99",
+    "purchaseDate": "2026-05-05",
+    "time": null,
+    "zipCode": "32092",
+    "city": "St.Augustine",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7447.531832999957,
+        "totalUsd": 0.015699,
+        "inputTokens": 6086,
+        "outputTokens": 730,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "11.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:43",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32092",
+          "status": "match"
+        },
+        "city": {
+          "value": "St. Augustine",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "215 World Commerce Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7936",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2050516 TALLOW FRIES",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSt. Augustine #1615\n215 World Commerce Pkwy\nSt. Augustine, FL 32092\nSELF-CHECKOUT\n\nM9 Member 111889768177\nE 2050516 TALLOW FRIES 11.99\nSUBTOTAL 11.99\nTAX 0.00\n**** TOTAL 11.99\n\nXXXXXXXXXXXX7936 H\nAID: A0000000031010\nSeq# 202840 App#: 00215C\nVisa Resp: APPROVED\nTran ID#: 612500202840....\n\nAPPROVED - Purchase\nAMOUNT: $11.99\n05/05/2026 18:43 1615 202 309 702\n\nVisa 11.99\nCHANGE 0.00\n\nTOTAL NUMBER OF ITEMS SOLD = 1\n05/05/2026 18:43 1615 202 309 702\n\n21161520203092605051843\nOP#: 702 Name: SCO Operator\nThank You!\nPlease Come Again\nWhse:1615 Trm:202 Trn:309 OP:702\n\nItems Sold: 1\nM9 05/05/2026 18:43",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7373.481207999983,
+        "totalUsd": 0.019596,
+        "inputTokens": 3692,
+        "outputTokens": 703,
+        "reasoningTokens": 859
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "11.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:43",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32092",
+          "status": "match"
+        },
+        "city": {
+          "value": "St. Augustine",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "215 World Commerce Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7936",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2050516 TALLOW FRIES",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSt. Augustine #1615\n215 World Commerce Pkwy\nSt. Augustine, FL 32092\nSELF-CHECKOUT\nM9 Member 111889768177\n2050516 TALLOW FRIES 11.99\nSUBTOTAL 11.99\nTAX 0.00\n**** TOTAL 11.99\nXXXXXXXXXXXX7936 H\nAID: A0000000031010\nSeq# 202840 App#: 00215C\nVisa Resp: APPROVED\nTran ID#: 612500202840....\nAPPROVED - Purchase\nAMOUNT: $11.99\n05/05/2026 18:43 1615 202 309 702\nVisa 11.99\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n05/05/2026 18:43 1615 202 309 702\n21161520203092605051843\nOP#: 702 Name: SCO Operator\nThank You!\nPlease Come Again\nWhse:1615 Trm:202 Trn:309 OP:702\nItems Sold: 1\nM9 05/05/2026 18:43",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5836.839250000019,
+        "totalUsd": 0.011883,
+        "inputTokens": 3692,
+        "outputTokens": 705,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "11.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:43",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32092",
+          "status": "match"
+        },
+        "city": {
+          "value": "St. Augustine",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "215 World Commerce Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7936",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2050516 TALLOW FRIES",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSt. Augustine #1615\n215 World Commerce Pkwy\nSt. Augustine, FL 32092\nSELF-CHECKOUT\nM9 Member 111889768177\nE 2050516 TALLOW FRIES 11.99\nSUBTOTAL 11.99\nTAX 0.00\n**** TOTAL 11.99\nXXXXXXXXXXXX7936 H\nAID: A0000000031010\nSeq# 202840 App#: 00215C\nVisa Resp: APPROVED\nTran ID#: 612500202840....\nAPPROVED - Purchase\nAMOUNT: $11.99\n05/05/2026 18:43 1615 202 309 702\nVisa 11.99\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n05/05/2026 18:43 1615 202 309 702\n21161520203092605051843\nOP#: 702 Name: SCO Operator\nThank You!\nPlease Come Again\nWhse:1615 Trm:202 Trn:309 OP:702\nItems Sold: 1\nM9 05/05/2026 18:43",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "TALLOW FRIES + 2050516",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

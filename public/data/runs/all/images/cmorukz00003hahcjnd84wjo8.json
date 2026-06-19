@@ -1,0 +1,513 @@
+{
+  "id": "cmorukz00003hahcjnd84wjo8",
+  "url": null,
+  "retailer": "Smith's Food and Drug",
+  "brand": "Egglife",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Smith's Food and Drug",
+    "totalCost": "32.59",
+    "purchaseDate": "2026-05-04",
+    "time": null,
+    "zipCode": "89014",
+    "city": "Henderson",
+    "state": "NV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12678.85770800003,
+        "totalUsd": 0.027363,
+        "inputTokens": 6278,
+        "outputTokens": 1994,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "32.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89014",
+          "status": "match"
+        },
+        "city": {
+          "value": "HENDERSON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1000 N. GREEN VALLEY PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8133",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EGGLF EGG WHT WRAPFV + YOU SAVED 2.00 + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + YOU SAVED 2.00 + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + YOU SAVED 2.00 + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + YOU SAVED 2.00 + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + YOU SAVED 2.00 + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OIKOS FSN BRY YGRT",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GOMACRO W CHOC FV + YOU SAVED 0.30 + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GO MACRO BAR FV + YOU SAVED 0.30 + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GOMACRO SLTD CARMLFV + YOU SAVED 0.30 + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GO MACRO BAR FV + YOU SAVED 0.30 + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GO MACRO BAR FV + YOU SAVED 0.30 + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n1000 N. GREEN VALLEY PKWY\n702-260-0060\nYour cashier was CHEC 511\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nOIKOS FSN BRY YGRT 2.69 F\nGOMACRO W CHOC FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGO MACRO BAR FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGOMACRO SLTD CARMLFV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGO MACRO BAR FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGO MACRO BAR FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nFRESH VALUE CUSTOMER *******6841\nTAX 0.00\n**** BALANCE 32.59\nHENDERSON NV 89014\nMASTERCARD Purchase\n************8133 - H\nREF#: 57487Z TOTAL: 32.59\nAID: A0000000041010\nTC: 69942E53FB56961A\nVERIFIED BY PIN\nMASTERCARD 32.59\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 11\nFreshValues Savings $ 19.00\nTotal Savings (36 Percent) $ 19.00\n05/04/26 04:41pm 348 511 105 999999511\nAnnual Card Savings $90.23\nFuel Points Earned Today: 33\nTotal May Fuel Points: 33\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to smithsfoodanddrug.com/feedback\nDate: 05/04/26\nTime: 04:40PM\nEntry ID: 706-501-105-348-511-616\nToday, You Saved\n$19.00\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 33244.18687500001,
+        "totalUsd": 0.06742200000000001,
+        "inputTokens": 3728,
+        "outputTokens": 2040,
+        "reasoningTokens": 4830
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "32.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89014",
+          "status": "match"
+        },
+        "city": {
+          "value": "HENDERSON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1000 N. GREEN VALLEY PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8133",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EGGLF EGG WHT WRAPFV + SC + YOU SAVED 2.00 + SC + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + SC + YOU SAVED 2.00 + SC + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + SC + YOU SAVED 2.00 + SC + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + SC + YOU SAVED 2.00 + SC + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + SC + YOU SAVED 2.00 + SC + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OIKOS FSN BRY YGRT",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GOMACRO W CHOC FV + SC + YOU SAVED 0.30 + SC + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GO MACRO BAR FV + SC + YOU SAVED 0.30 + SC + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GOMACRO SLTD CARMLFV + SC + YOU SAVED 0.30 + SC + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GO MACRO BAR FV + SC + YOU SAVED 0.30 + SC + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GO MACRO BAR FV + SC + YOU SAVED 0.30 + SC + eCpn Gomacro 0.50",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n1000 N. GREEN VALLEY PKWY\n702-260-0060\nYour cashier was CHEC 511\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nEGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nOIKOS FSN BRY YGRT 2.69 F\nGOMACRO W CHOC FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGO MACRO BAR FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGOMACRO SLTD CARMLFV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGO MACRO BAR FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGO MACRO BAR FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nFRESH VALUE CUSTOMER *******6841\nTAX 0.00\n**** BALANCE 32.59\nHENDERSON NV 89014\nMASTERCARD Purchase\n************8133 - H\nREF#: 57487Z TOTAL: 32.59\nAID: A0000000041010\nTC: 69942E53FB56961A\nVERIFIED BY PIN\nMASTERCARD 32.59\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 11\nFreshValues Savings $ 19.00\nTotal Savings (36 Percent) $ 19.00\n05/04/26 04:41pm 348 511 105 999999511\n******************************************\nAnnual Card Savings $90.23\n******************************************\n******************************************\nFuel Points Earned Today: 33\nTotal May Fuel Points: 33\n******************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to smithsfoodanddrug.com/feedback\nDate: 05/04/26\nTime: 04:40PM\nEntry ID: 706-501-105-348-511-616\n******************************************\nToday, You Saved\n$19.00\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8645.620624999996,
+        "totalUsd": 0.022521,
+        "inputTokens": 3728,
+        "outputTokens": 1881,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "32.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89014",
+          "status": "match"
+        },
+        "city": {
+          "value": "Henderson",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1000 N. GREEN VALLEY PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8133",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EGGLF EGG WHT WRAPFV + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAPFV + eCpn Egglife Foods1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OIKOS FSN BRY YGRT",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GOMACRO W CHOC + eCpn Gomacro",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GO MACRO BAR + eCpn Gomacro",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOMACRO SLTD CARMLFV + eCpn Gomacro",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GO MACRO BAR + eCpn Gomacro",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GO MACRO BAR + eCpn Gomacro",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.19,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n1000 N. GREEN VALLEY PKWY\n702-260-0060\nYour cashier was CHEC 511\nSC EGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nSC EGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nSC EGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nSC EGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nSC EGGLF EGG WHT WRAPFV 3.99 F\nSC YOU SAVED 2.00\nSC eCpn Egglife Foods1.00\nOIKOS FSN BRY YGRT 2.69 F\nGOMACRO W CHOC FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGO MACRO BAR FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGOMACRO SLTD CARMLFV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGO MACRO BAR FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nGO MACRO BAR FV 1.99 F\nSC YOU SAVED 0.30\nSC eCpn Gomacro 0.50\nFRESH VALUE CUSTOMER *******6841\nTAX 0.00\n**** BALANCE 32.59\nHENDERSON NV 89014\nMASTERCARD Purchase\n************8133 - H\nREF#: 574872 TOTAL: 32.59\nAID: A0000000041010\nTC: 69942E53FB56961A\nVERIFIED BY PIN\nMASTERCARD 32.59\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 11\nFreshValues Savings $ 19.00\nTotal Savings (36 Percent) $ 19.00\n05/04/26 04:41pm 348 511 105 999999511\n******************************************\nAnnual Card Savings $90.23\n******************************************\n******************************************\nFuel Points Earned Today: 33\nTotal May Fuel Points: 33\n******************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to smithsfoodanddrug.com/feedback\nDate: 05/04/26\nTime: 04:40PM\nEntry ID: 706-501-105-348-511-616\n******************************************\nToday, You Saved\n$19.00\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "EGGLF EGG WHT WRAPFV + SC YOU SAVED 2.00 + SC eCpn Egglife Foods 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "EGGLF EGG WHT WRAPFV + SC YOU SAVED 2.00 + SC eCpn Egglife Foods 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "EGGLF EGG WHT WRAP + SC YOU SAVED 2.00 + SC eCpn Egglife Foods 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "EGGLF EGG WHT WRAP + SC YOU SAVED 2.00 + SC eCpn Egglife Foods 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "EGGLF EGG WHT WRAP + SC YOU SAVED 2.00 + SC eCpn Egglife Foods 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "OIKOS FSN BRY YGRT",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    },
+    {
+      "text": "GOMACRO W CHOC + SC YOU SAVED 0.30 + SC eCpn Gomacro 0.50 + SC eCpn Gomacro",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GO MACRO BAR + SC YOU SAVED 0.30 + SC eCpn Gomacro 0.50",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GOMACRO SLTD CARML + SC YOU SAVED 0.30 + SC eCpn Gomacro 0.50",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GO MACRO BAR + SC YOU SAVED 0.30 + SC eCpn Gomacro 0.50",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GO MACRO BAR + SC YOU SAVED 0.30 + SC eCpn Gomacro 0.50 + FRESH VALUE CUSTOMER *******6841",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

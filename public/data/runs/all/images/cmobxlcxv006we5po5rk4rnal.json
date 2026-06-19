@@ -1,0 +1,459 @@
+{
+  "id": "cmobxlcxv006we5po5rk4rnal",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Go Raw",
+  "amount": 13.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "58.95",
+    "purchaseDate": "2026-04-23",
+    "time": null,
+    "zipCode": "22102",
+    "city": "Tysons",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14933.36200099997,
+        "totalUsd": 0.020154,
+        "inputTokens": 6086,
+        "outputTokens": 1225,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "58.95",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:20",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "22102",
+          "status": "match"
+        },
+        "city": {
+          "value": "TYSONS",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1835 CAPITAL ONE DRIVE SOUTH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1749",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WEG HALF & HALF",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GORAW PUMPKIN SEED",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 6.5,
+          "totalSpend": 6.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG. 1/2 SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 3.75,
+          "totalSpend": 3.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB MINI CUKES 2LB",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO 1# CARROTS",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB BLACKBERRIES + 2 @ 5.99",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 11.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB BLUEBERRIES + 2 @ 7.99",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GREEN SDLS GRAPES + 1.32 lb @ 3.49 /lb + WT",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 4.61,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1835 CAPITAL ONE DRIVE SOUTH\nTYSONS, VA 22102\n(571) 423-0700\n04/23/26 OP# 85\nWEG HALF & HALF 2.49 B\nGORAW PUMPKIN SEED 13.99 B\nORGANIC SOURDOUGH 6.50 B\nORG. 1/2 SOURDOUGH 3.75 B\nWB MINI CUKES 2LB 3.99 B\nWBO 1# CARROTS 1.49 B\n2 @ 5.99\nSB BLACKBERRIES 11.98 B\n2 @ 7.99\nSB BLUEBERRIES 15.98 B\n1.32 lb @ 3.49 /lb\nWT GREEN SDLS GRAPES 4.61 B\n---------- COUPONS ----------\nWC 06997 100FF 6.48-\nTAX 0.65\n**** BALANCE 58.95\nVISA PURCHASE\nCARD NUMBER: ************1749 H\nVISA CREDIT 07\nAUTH: 00812I RCPT: 85899\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 58.95\nCHANGE 0.00\n---------- SAVINGS SUMMARY ----------\nWEG COUPON SAVINGS $ 6.48\nTOTAL $ 6.48\n04/23/26 16:20 115 85 62 85\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15396.30654099997,
+        "totalUsd": 0.03855,
+        "inputTokens": 3692,
+        "outputTokens": 1195,
+        "reasoningTokens": 2473
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "58.95",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:20",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "22102",
+          "status": "match"
+        },
+        "city": {
+          "value": "TYSONS",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1835 CAPITAL ONE DRIVE SOUTH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1749",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WEG HALF & HALF",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GORAW PUMPKIN SEED",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 6.5,
+          "totalSpend": 6.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG. 1/2 SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 3.75,
+          "totalSpend": 3.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB MINI CUKES 2LB",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO 1# CARROTS",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB BLACKBERRIES",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 11.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB BLUEBERRIES",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GREEN SDLS GRAPES",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 4.61,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1835 CAPITAL ONE DRIVE SOUTH\nTYSONS, VA 22102\n(571) 423-0700\n04/23/26 OP# 85\nWEG HALF & HALF 2.49 B\nGORAW PUMPKIN SEED 13.99 B\nORGANIC SOURDOUGH 6.50 B\nORG. 1/2 SOURDOUGH 3.75 B\nWB MINI CUKES 2LB 3.99 B\nWBO 1# CARROTS 1.49 B\n2 @ 5.99\nSB BLACKBERRIES 11.98 B\n2 @ 7.99\nSB BLUEBERRIES 15.98 B\n1.32 lb @ 3.49 /lb\nWT GREEN SDLS GRAPES 4.61 B\n---------- COUPONS ----------\nWC 06997 100FF 6.48-\nTAX 0.65\n**** BALANCE 58.95\nVISA PURCHASE\nCARD NUMBER: ************1749 H\nVISA CREDIT 07\nAUTH: 00812I RCPT: 85899\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 58.95\nCHANGE 0.00\n---------- SAVINGS SUMMARY ----------\nWEG COUPON SAVINGS $ 6.48\nTOTAL $ 6.48\n04/23/26 16:20 115 85 62 85\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6002.892332999996,
+        "totalUsd": 0.016194,
+        "inputTokens": 3692,
+        "outputTokens": 1184,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "58.95",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:20",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "22102",
+          "status": "match"
+        },
+        "city": {
+          "value": "TYSONS",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1835 CAPITAL ONE DRIVE SOUTH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1749",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WEG HALF & HALF",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GORAW PUMPKIN SEED",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 6.5,
+          "totalSpend": 6.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG. 1/2 SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 3.75,
+          "totalSpend": 3.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB MINI CUKES 2LB",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO 1# CARROTS",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB BLACKBERRIES",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 11.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB BLUEBERRIES",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GREEN SDLS GRAPES",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 4.61,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1835 CAPITAL ONE DRIVE SOUTH\nTYSONS, VA 22102\n(571) 423-0700\n04/23/26 OP# 85\nWEG HALF & HALF 2.49 B\nGORAW PUMPKIN SEED 13.99 B\nORGANIC SOURDOUGH 6.50 B\nORG. 1/2 SOURDOUGH 3.75 B\nWB MINI CUKES 2LB 3.99 B\nWBO 1# CARROTS 1.49 B\n2 @ 5.99\nSB BLACKBERRIES 11.98 B\n2 @ 7.99\nSB BLUEBERRIES 15.98 B\n1.32 lb @ 3.49 /lb\nWT GREEN SDLS GRAPES 4.61 B\n---------- COUPONS ----------\nWC 06997 100FF 6.48-\nTAX 0.65\n**** BALANCE 58.95\nVISA PURCHASE\nCARD NUMBER: ************1749 H\nVISA CREDIT 07\nAUTH: 00812I RCPT: 85899\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 58.95\nCHANGE 0.00\n---------- SAVINGS SUMMARY ----------\nWEG COUPON SAVINGS $ 6.48\nTOTAL $ 6.48\n04/23/26 16:20 115 85 62 85\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "WEG HALF & HALF",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "GORAW PUMPKIN SEED",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "ORGANIC SOURDOUGH",
+      "price": 6.5,
+      "quantity": 1,
+      "totalSpend": 6.5
+    },
+    {
+      "text": "ORG. 1/2 SOURDOUGH",
+      "price": 3.75,
+      "quantity": 1,
+      "totalSpend": 3.75
+    },
+    {
+      "text": "WB MINI CUKES 2LB",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "WBO 1# CARROTS + 2 @ 5.99",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "SB BLACKBERRIES + 2 @ 5.99 + 2 @ 7.99",
+      "price": 5.99,
+      "quantity": 2,
+      "totalSpend": 11.98
+    },
+    {
+      "text": "SB BLUEBERRIES + 2 @ 7.99 + 1.32 lb @ 3.49 /lb",
+      "price": 7.99,
+      "quantity": 2,
+      "totalSpend": 15.98
+    },
+    {
+      "text": "GREEN SDLS GRAPES + 1.32 lb @ 3.49 /lb",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 4.61
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

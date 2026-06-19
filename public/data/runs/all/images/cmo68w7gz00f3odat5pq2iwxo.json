@@ -1,0 +1,270 @@
+{
+  "id": "cmo68w7gz00f3odat5pq2iwxo",
+  "url": null,
+  "retailer": "Maverik Adventure's First Stop",
+  "brand": "1st Phorm",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "7.98",
+    "purchaseDate": "2026-04-19",
+    "time": null,
+    "zipCode": "89506",
+    "city": "Reno",
+    "state": "NV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12733.36795800002,
+        "totalUsd": 0.015906,
+        "inputTokens": 6086,
+        "outputTokens": 753,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:17 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89506",
+          "status": "match"
+        },
+        "city": {
+          "value": "Reno",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10495 Stead Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2601",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1ST PHORM ORIG SMKHOUSE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1ST PHORM JAL HEAT MEAT",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nReno | #421\n10495 Stead Blvd\nReno, NV 89506\n04-19-2026 09:17 AM Invoice # 421010582519\nPURCHASE\nAdventure Club XXXXXXXXX8297\nDESC QTY AMNT\n1ST PHORM ORIG SMKHOUSE 1 $3.99 N\n1ST PHORM JAL HEAT MEAT 1 $3.99 N\nSUB-TOTAL $7.98\nTOTAL PURCHASES $7.98\nDEBIT XXXXXXXXXXXX2601\nContactless\nAmount Tendered $7.98\nPayment Network:03\nAID: A0000000042203\nAUTH # 054114\nNo CVM\nMode: Issuer\nSequence # 019072\nLog # 019072\nItems Sold = 2\nCard #: **758297\nNitro\nPoints Earned 16\nPoints Balance 495\nSee App for Additional Rewards Details\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n421 202610905825190000000421 1 micast",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11096.71141700004,
+        "totalUsd": 0.028128,
+        "inputTokens": 3692,
+        "outputTokens": 765,
+        "reasoningTokens": 1745
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:17 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89506",
+          "status": "match"
+        },
+        "city": {
+          "value": "Reno",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10495 Stead Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2601",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1ST PHORM ORIG SMKHOUSE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1ST PHORM JAL HEAT MEAT",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nReno | #421\n10495 Stead Blvd\nReno, NV 89506\n\n04-19-2026 09:17 AM Invoice # 421010582519\nPURCHASE\n\nAdventure Club XXXXXXXX8297\n\nDESC QTY AMNT\n1ST PHORM ORIG SMKHOUSE 1 $3.99 N\n1ST PHORM JAL HEAT MEAT 1 $3.99 N\n\nSUB-TOTAL $7.98\nTOTAL PURCHASES $7.98\n\nDEBIT XXXXXXXXXXXX2601\nContactless\nAmount Tendered $7.98\nPayment Network:03\nAID: A0000000042203\nAUTH # 054114\nNo CVM\nMode: Issuer\nSequence # 019072\nLog # 019072\n\nItems Sold = 2\n\nCard #: **758297\nNitro\n----------------------------------------\nPoints Earned 16\nPoints Balance 495\n\nSee App for Additional Rewards Details\n\nThanks for fueling your\nadventure at Maverik\n\nCustomer Service 1-800-789-4455\n20261090582519000000421\n1\n421 micast",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4902.187792000012,
+        "totalUsd": 0.012414,
+        "inputTokens": 3692,
+        "outputTokens": 764,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:17 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89506",
+          "status": "match"
+        },
+        "city": {
+          "value": "Reno",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10495 Stead Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2601",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1ST PHORM ORIG SMKHOUSE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1ST PHORM JAL HEAT MEAT",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nReno | #421\n10495 Stead Blvd\nReno, NV 89506\n04-19-2026 09:17 AM Invoice # 421010582519\nPURCHASE\nAdventure Club\nXXXXXXXXX8297\nDESC\nQTY AMNT\n1ST PHORM ORIG SMKHOUSE\n1 $3.99 N\n1ST PHORM JAL HEAT MEAT\n1 $3.99 N\nSUB-TOTAL\n$7.98\nTOTAL PURCHASES\n$7.98\nDEBIT XXXXXXXXXXXX2601\nContactless\nAmount Tendered\n$7.98\nPayment Network:03\nAID: A0000000042203\nAUTH # 054114\nNo CVM\nMode: Issuer\nSequence # 019072\nLog # 019072\nItems Sold = 2\nCard #: **758297\nNitro\nPoints Earned\n16\nPoints Balance\n495\nSee App for Additional Rewards Details\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202610905825190000000421\n421\n1\nmicast",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "1ST PHORM ORIG SVKHOUSE",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "1ST PHORM JAL HEAT MEAT",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

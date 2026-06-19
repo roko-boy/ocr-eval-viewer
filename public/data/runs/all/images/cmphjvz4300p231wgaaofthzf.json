@@ -1,0 +1,270 @@
+{
+  "id": "cmphjvz4300p231wgaaofthzf",
+  "url": null,
+  "retailer": "ALDI",
+  "brand": "The Ryl Company",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ALDI",
+    "totalCost": "1.84",
+    "purchaseDate": "2026-05-22",
+    "time": null,
+    "zipCode": "90703",
+    "city": "Cerritos",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6733.082208000007,
+        "totalUsd": 0.015519,
+        "inputTokens": 6086,
+        "outputTokens": 710,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:17PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90703",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cerritos",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11530 South St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7240",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "714208 Ryl Tea",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "80000624 Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #24\n11530 South St\nCerritos, CA\nhttps://help.aldi.us\nYour cashier today was Eddie\n\n714208 Ryl Tea 1.79 FA\n80000624 Bottle Deposit Fee 0.05 FA\nFOOD STAMPS TOTAL 1.84\nEBT Food Stamp 1.84\n****************7240 PIN\n05/22/26 16:18 Ref/Seq # 210212\nTrace # 210212\nAuth # 585996\nAID A0000000044542\nTVR 8000041000\nIAD 0114200001E200000000FFFFFFFFFFFF\nFFFF\nTSI 6800 ARC 00 EntryMode 05\nAvailable Balance (EBT) 242.88\n++APPROVED++\n\nSUBTOTAL 1.84\nAMOUNT DUE 1.84\nTOTAL $ 1.84\n1 ITEMS\nEBT Food Stamps $ 1.84\n\n*8586 FB42/004/032 05/22/26 04:17PM\n******************************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nwww.aldi.us",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10256.55079100002,
+        "totalUsd": 0.022197,
+        "inputTokens": 3692,
+        "outputTokens": 691,
+        "reasoningTokens": 1160
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:17 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Cerritos",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11530 South St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7240",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "714208 Ryl Tea",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "80000624 Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #24\n11530 South St\nCerritos, CA\nhttps://help.aldi.us\nYour cashier today was Eddie\n\n714208 Ryl Tea 1.79 FA\n80000624 Bottle Deposit Fee 0.05 FA\nFOOD STAMPS TOTAL 1.84\nEBT Food Stamp 1.84\n***************7240 PIN\n05/22/26 16:18 Ref/Seq # 210212\nTrace # 210212\nAuth # 585996\nAID A0000000044542\nTVR 8000041000\nIAD 0114200001E200000000FFFFFFFFFFFF\nFFFF\nTSI 6800 ARC 00 EntryMode 05\nAvailable Balance (EBT) 242.88\n++APPROVED++\n\nSUBTOTAL 1.84\nAMOUNT DUE 1.84\nTOTAL $ 1.84\n1 ITEMS\nEBT Food Stamps $ 1.84\n\n*8586 FB42/004/032 05/22/26 04:17PM\n******************************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4410.168583999999,
+        "totalUsd": 0.011658,
+        "inputTokens": 3692,
+        "outputTokens": 680,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:17 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Cerritos",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11530 South St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7240",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "714208 Ryl Tea",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "80000624 Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #24\n11530 South St\nCerritos, CA\nhttps://help.aldi.us\nYour cashier today was Eddie\n\n714208 Ryl Tea 1.79 FA\n80000624 Bottle Deposit Fee 0.05 FA\nFOOD STAMPS TOTAL 1.84\nEBT Food Stamp 1.84\n***************7240 PIN\n05/22/26 16:18 Ref/Seq # 210212\nTrace # 210212\nAuth # 585996\nAID A0000000044542\nTVR 8000041000\nIAD 0114200001E200000000FFFFFFFFFFFF\nFFFF\nTSI 6800 ARC 00 EntryMode 05\nAvailable Balance (EBT) 242.88\n++APPROVED++\n\nSUBTOTAL 1.84\nAMOUNT DUE 1.84\nTOTAL $ 1.84\n1 ITEMS\nEBT Food Stamps $ 1.84\n\n*8586 FB42/004/032 05/22/26 04:17PM\n**********************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nwww.aldi.us",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Ryl Tea + 714208",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "Bottle Deposit Fee + 80000624",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

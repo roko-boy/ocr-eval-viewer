@@ -1,0 +1,324 @@
+{
+  "id": "cmn5znpoz001zks8dvi9an5ec",
+  "url": null,
+  "retailer": "Publix Super Market at Brickell Village",
+  "brand": "Sunsweet Growers Inc",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "12.79",
+    "purchaseDate": "2026-03-25",
+    "time": null,
+    "zipCode": "33130",
+    "city": "Miami",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8017.453582999995,
+        "totalUsd": 0.016302,
+        "inputTokens": 6086,
+        "outputTokens": 797,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "12.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:22",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33130",
+          "status": "match"
+        },
+        "city": {
+          "value": "Miami",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "134 SW 13 St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SS PRUNE JUICE",
+          "quantity": 1,
+          "unitPrice": 4.55,
+          "totalSpend": 4.55,
+          "matchStatus": "match"
+        },
+        {
+          "text": "H/DZ ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 6.23,
+          "totalSpend": 6.23,
+          "matchStatus": "match"
+        },
+        {
+          "text": "H/DZ ICE CREAM + Promotion",
+          "quantity": 1,
+          "unitPrice": 6.23,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANAS + 2.41 lb @ 0.65/ lb",
+          "quantity": 1,
+          "unitPrice": 1.57,
+          "totalSpend": 1.57,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "publix.\nBrickell Village\n134 SW 13 St.\nMiami, FL 33130\nStore Manager: Yurel Perez\n305-860-2280\n0581 3QR 072 297\nSS PRUNE JUICE 4.55 F\nH/DZ ICE CREAM 6.23 T F\nH/DZ ICE CREAM 6.23 T F\nPromotion -6.23 T F\nBANANAS\n2.41 lb @ 0.65/ lb 1.57 F\nOrder Total 12.35\nSales Tax 0.44\nGrand Total 12.79\nCash 20.00\nChange 7.21\nSavings Summary\nSpecial Price Savings 6.23\n****************************************\n* Your Savings at Publix *\n* 6.23 *\n****************************************\nReceipt ID: 0581 3QR 072 297\nYour cashier was Kennie\n03/25/2026 7:22 S0581 R107 2297 C0240",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10888.07679199998,
+        "totalUsd": 0.0264,
+        "inputTokens": 3692,
+        "outputTokens": 791,
+        "reasoningTokens": 1527
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "12.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:22",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33130",
+          "status": "match"
+        },
+        "city": {
+          "value": "Miami",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "134 SW 13 St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SS PRUNE JUICE",
+          "quantity": 1,
+          "unitPrice": 4.55,
+          "totalSpend": 4.55,
+          "matchStatus": "match"
+        },
+        {
+          "text": "H/DZ ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 6.23,
+          "totalSpend": 6.23,
+          "matchStatus": "match"
+        },
+        {
+          "text": "H/DZ ICE CREAM + Promotion",
+          "quantity": 1,
+          "unitPrice": 6.23,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANAS + 2.41 lb @ 0.65/ lb",
+          "quantity": 1,
+          "unitPrice": 0.65,
+          "totalSpend": 1.57,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "publix\nBrickell Village\n134 SW 13 St.\nMiami, FL 33130\nStore Manager: Yurel Perez\n305-860-2280\n0581 3QR 072 297\nSS PRUNE JUICE 4.55 F\nH/DZ ICE CREAM 6.23 T F\nH/DZ ICE CREAM 6.23 T F\nPromotion -6.23 T F\nBANANAS\n2.41 lb @ 0.65/ lb 1.57 F\nOrder Total 12.35\nSales Tax 0.44\nGrand Total 12.79\nCash 20.00\nChange 7.21\nSavings Summary\nSpecial Price Savings 6.23\n****************************************\n* Your Savings at Publix *\n* 6.23 *\n****************************************\nReceipt ID: 0581 3QR 072 297\nYour cashier was Kennie\n03/25/2026 7:22 S0581 R107 2297 C0240",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5020.61370799999,
+        "totalUsd": 0.012765,
+        "inputTokens": 3692,
+        "outputTokens": 803,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "12.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:22",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33130",
+          "status": "match"
+        },
+        "city": {
+          "value": "Miami",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "134 SW 13 St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SS PRUNE JUICE",
+          "quantity": 1,
+          "unitPrice": 4.55,
+          "totalSpend": 4.55,
+          "matchStatus": "match"
+        },
+        {
+          "text": "H/DZ ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 6.23,
+          "totalSpend": 6.23,
+          "matchStatus": "match"
+        },
+        {
+          "text": "H/DZ ICE CREAM + Promotion",
+          "quantity": 1,
+          "unitPrice": 6.23,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANAS + 2.41 lb @ 0.65/ lb",
+          "quantity": 1,
+          "unitPrice": 1.57,
+          "totalSpend": 1.57,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "publix.\nBrickell Village\n134 SW 13 St.\nMiami, FL 33130\nStore Manager: Yurel Perez\n305-860-2280\n0581 3QR 072 297\nSS PRUNE JUICE\n4.55 F\nH/DZ ICE CREAM\n6.23 T F\nH/DZ ICE CREAM\n6.23 T F\nPromotion\n-6.23 T F\nBANANAS\n2.41 lb @ 0.65/ lb\n1.57 F\nOrder Total\n12.35\nSales Tax\n0.44\nGrand Total\n12.79\nCash\n20.00\nChange\n7.21\nSavings Summary\nSpecial Price Savings\n6.23\n****************************************\n* Your Savings at Publix *\n* 6.23 *\n****************************************\nReceipt ID: 0581 3QR 072 297\nYour cashier was Kennie\n03/25/2026 7:22 S0581 R107 2297 C0240",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SS PRUNE JUICE",
+      "price": 4.55,
+      "quantity": 1,
+      "totalSpend": 4.55
+    },
+    {
+      "text": "H/DZ ICE CREAM",
+      "price": 6.23,
+      "quantity": 1,
+      "totalSpend": 6.23
+    },
+    {
+      "text": "H/DZ ICE CREAM",
+      "price": 6.23,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "BANANAS + 2.41lb @ 0.65/ lb 1.57 F",
+      "price": 0.65,
+      "quantity": 1,
+      "totalSpend": 1.57
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

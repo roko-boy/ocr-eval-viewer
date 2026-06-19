@@ -1,0 +1,297 @@
+{
+  "id": "cmpubsaqa0001ikditg6a8bfl",
+  "url": null,
+  "retailer": "Casey's",
+  "brand": "Protein Pints",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Casey's General Store",
+    "totalCost": "9.9",
+    "purchaseDate": "2026-05-31",
+    "time": null,
+    "zipCode": "45424",
+    "city": "HUBER HEIGHTS",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8581.00791700001,
+        "totalUsd": 0.018183,
+        "inputTokens": 6158,
+        "outputTokens": 994,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Casey's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:16:58",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45424",
+          "status": "match"
+        },
+        "city": {
+          "value": "HUBER HEIGHTS",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8000 BRANDT PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3829",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Protein Pints Cookie",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCB 16oz Med",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCB 16oz Med",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Casey's# 4242\n8000 BRANDT PIKE\nHUBER HEIGHTS, OH 45424\nRegister 1\n\n5/31/26 17:16:58\nReg:1 Cashier:WILLIAM\nReceipt 1311217\nType SALE\n\n1 Protein Pints Cookie 7.99\n1 FCB 16oz Med 0.89\n1 FCB 16oz Med 0.89\n\nSubTotal 9.77\nState Tax 0.10\nCounty Tax 0.03\nTotal 9.90\n\nReceived\nVisa 9.90\nVisa\nChip Read\nTran Type: Sale\nResponse : APPROVED\nCard Num : XXXXXXXXXXXX3829\nMerchant : 134000022004242\nTerminal : 00999003\nDeviceID : 1\nApproval : 09707D\nDate/Time : 2026/05/31 17:16:50\nBatch : 20260531838\n\nSeq# : 7836\nReference:\n615159269750466151766166969SDLBVEU000000\n00\n1\nCVV2 : P (Not processed)\n\nUSD$ 9.90\n\nCHASE VISA\nAID: A0000000031010\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXX\nTSI: E800\n\nARQC: 94EC76FA517E1740\n\nAPPROVED BY ISSUER\n\n++++++++++++++++++++++++++++++++++++++\nCASEY'S REWARDS\nGuest: Troy Sommers\nRewards Account: XXXXXXXXXXXX1669\n++++++++++++++++++++++++++++++++++++++\nVisit caseys.com/survey\nTo take a short survey about your visit\nAnd be entered into a monthly drawing\nto win a $500 Casey's Gift Card.\nSurvey # 4242-0001311217-1716\n++++++++++++++++++++++++++++++++++++++\n\n5/31/26 17:16:58",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20553.32545800001,
+        "totalUsd": 0.020046,
+        "inputTokens": 3728,
+        "outputTokens": 992,
+        "reasoningTokens": 614
+      },
+      "fields": {
+        "storeName": {
+          "value": "Casey's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:16:58",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45424",
+          "status": "match"
+        },
+        "city": {
+          "value": "HUBER HEIGHTS",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8000 BRANDT PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3829",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Protein Pints Cookie",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCB 16oz Med",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCB 16oz Med",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Casey's# 4242\n8000 BRANDT PIKE\nHUBER HEIGHTS, OH 45424\nRegister 1\n\n5/31/26 17:16:58\nReg:1 Cashier:WILLIAM\nReceipt 1311217\nType SALE\n\n1 Protein Pints Cookie 7.99\n1 FCB 16oz Med 0.89\n1 FCB 16oz Med 0.89\n\nSubTotal 9.77\nState Tax 0.10\nCounty Tax 0.03\nTotal 9.90\n\nReceived\nVisa 9.90\nVisa\nChip Read\nTran Type: Sale\nResponse : APPROVED\nCard Num : XXXXXXXXXXXX3829\nMerchant : 134000022004242\nTerminal : 00999003\nDeviceID : 1\nApproval : 09707D\nDate/Time: 2026/05/31 17:16:50\nBatch : 20260531838\n\nSeq# : 7836\nReference:\n615159269750466151766166969SDLBVEU000000\n00\n1\nCVV2 : P (Not processed)\n\nUSD$ 9.90\n\nCHASE VISA\nAID: A0000000031010\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXX\nTSI: E800\n\nARQC: 94EC76FA517E1740\n\nAPPROVED BY ISSUER\n\n++++++++++++++++++++++++++++++++++++\nCASEY'S REWARDS\nGuest: Troy Sommers\nRewards Account: XXXXXXXXXXXX1669\n++++++++++++++++++++++++++++++++++++\nVisit caseys.com/survey\nTo take a short survey about your visit\nAnd be entered into a monthly drawing\nto win a $500 Casey's Gift Card.\nSurvey # 4242-0001311217-1716\n++++++++++++++++++++++++++++++++++++\n\n5/31/26 17:16:58",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5675.419666000002,
+        "totalUsd": 0.014457,
+        "inputTokens": 3728,
+        "outputTokens": 985,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Casey's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:16:58",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45424",
+          "status": "match"
+        },
+        "city": {
+          "value": "HUBER HEIGHTS",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8000 BRANDT PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3829",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Protein Pints Cookie",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCB 16oz Med",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCB 16oz Med",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Casey's# 4242\n8000 BRANDT PIKE\nHUBER HEIGHTS, OH 45424\nRegister 1\n\n5/31/26 17:16:58\nReg:1 Cashier:WILLIAM\nReceipt 1311217\nType SALE\n\n1 Protein Pints Cookie 7.99\n1 FCB 16oz Med 0.89\n1 FCB 16oz Med 0.89\n\nSubTotal 9.77\nState Tax 0.10\nCounty Tax 0.03\nTotal 9.90\n\nReceived\nVisa 9.90\nVisa\nChip Read\nTran Type: Sale\nResponse : APPROVED\nCard Num : XXXXXXXXXXXX3829\nMerchant : 134000022004242\nTerminal : 00999003\nDeviceID : 1\nApproval : 09707D\nDate/Time : 2026/05/31 17:16:50\nBatch : 20260531838\n\nSeq# : 7836\nReference:\n615159269750466151766166969SDLBVEU000000\n00\n1\nCVV2 : P (Not processed)\n\nUSD$ 9.90\n\nCHASE VISA\nAID: A0000000031010\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXX\nTSI: E800\n\nARQC: 94EC76FA517E1740\n\nAPPROVED BY ISSUER\n\n++++++++++++++++++++++++++++++++++++\nCASEY'S REWARDS\nGuest: Troy Sommers\nRewards Account: XXXXXXXXXXXX1669\n++++++++++++++++++++++++++++++++++++\nVisit caseys.com/survey\nTo take a short survey about your visit\nAnd be entered into a monthly drawing\nto win a $500 Casey's Gift Card.\nSurvey # 4242-0001311217-1716\n++++++++++++++++++++++++++++++++++++\n\n5/31/26 17:16:58",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Protein Pints Cookie",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "FCB 16oz Med",
+      "price": 0.89,
+      "quantity": 1,
+      "totalSpend": 0.89
+    },
+    {
+      "text": "FCB 16oz Med",
+      "price": 0.89,
+      "quantity": 1,
+      "totalSpend": 0.89
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

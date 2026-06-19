@@ -1,0 +1,299 @@
+{
+  "id": "cmq1uy9pf00493x5f4t9kgk1g",
+  "url": null,
+  "retailer": "ALDI",
+  "brand": "Brainiac Foods",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ALDI",
+    "totalCost": null,
+    "purchaseDate": "2026-06-05",
+    "time": null,
+    "zipCode": "75098",
+    "city": "Wylie",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 138499.857541,
+        "totalUsd": 0.0150825,
+        "inputTokens": 6329,
+        "outputTokens": 621,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75098-9408",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Brainiac Kids Super Fruit Punch Juice Drink 8 pk/6.75 fl oz Boxes",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Jubilee's Chocolate Chip Flavored Milk - 8 fl oz",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 6.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Cure Electrolyte Drink Mix Tropical Punch - 1.6oz/6ct",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "So Good So You Strawberry Mango Sparkling Organic Energy Drink - 8.4 fl oz",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "9:05\nLTE\nJun 5, 2026\n#6156-2550-0171-2061\nHelp\nBrainiac Kids Super Fruit Punch Juice Drink 8 pk/6.75 fl oz Boxes\n$4.99 unit price\nQty 1\nJubilee's Chocolate Chip Flavored Milk - 8 fl oz\n$3.49 unit price\nQty 2\nCure Electrolyte Drink Mix Tropical Punch - 1.6oz/6ct\n$8.99 unit price\nQty 1\nSo Good So You Strawberry Mango Sparkling Organic Energy Drink - 8.4 fl oz\n$3.79 unit price\nQty 1\nWylie\n3440 W FM 544\nWylie, TX 75098-9408\nDetails\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8954.34029100003,
+        "totalUsd": 0.022341,
+        "inputTokens": 3728,
+        "outputTokens": 714,
+        "reasoningTokens": 1147
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75098-9408",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Wylie",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3440 W FM 544",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Brainiac Kids Super Fruit Punch Juice Drink 8 pk/6.75 fl oz Boxes",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Jubilee's Chocolate Chip Flavored Milk - 8 fl oz",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 6.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Cure Electrolyte Drink Mix Tropical Punch - 1.6oz/6ct",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "So Good So You Strawberry Mango Sparkling Organic Energy Drink - 8.4 fl oz",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "9:05\nLTE\nJun 5, 2026\n#6156-2550-0171-2061\nHelp\nBrainiac Kids Super Fruit Punch Juice Drink 8 pk/6.75 fl oz Boxes\n$4.99 unit price\nQty 1\nJubilee's Chocolate Chip Flavored Milk - 8 fl oz\n$3.49 unit price\nQty 2\nCure Electrolyte Drink Mix Tropical Punch - 1.6oz/6ct\n$8.99 unit price\nQty 1\nSo Good So You Strawberry Mango Sparkling Organic Energy Drink - 8.4 fl oz\n$3.79 unit price\nQty 1\nWylie\n3440 W FM 544\nWylie, TX 75098-9408\nDetails\nOleander Dr\nALDI\nRosa's Café & Tortilla Factory\nBojangles\nE Farm\nTarget\nTJ Maxx & HomeGood\nCityLine Automotive\n's Nature Preserve\nTimbers Nature\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4424.165915999998,
+        "totalUsd": 0.012027,
+        "inputTokens": 3728,
+        "outputTokens": 715,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75098-9408",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Wylie",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3440 W FM 544",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Brainiac Kids Super Fruit Punch Juice Drink 8 pk/6.75 fl oz Boxes",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Jubilee's Chocolate Chip Flavored Milk - 8 fl oz",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 6.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Cure Electrolyte Drink Mix Tropical Punch - 1.6oz/6ct",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "So Good So You Strawberry Mango Sparkling Organic Energy Drink - 8.4 fl oz",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "9:05\nLTE\nJun 5, 2026\n#6156-2550-0171-2061\nHelp\nBrainiac Kids Super Fruit Punch Juice Drink 8 pk/6.75 fl oz Boxes\n$4.99 unit price\nQty 1\nJubilee's Chocolate Chip Flavored Milk - 8 fl oz\n$3.49 unit price\nQty 2\nCure Electrolyte Drink Mix Tropical Punch - 1.6oz/6ct\n$8.99 unit price\nQty 1\nSo Good So You Strawberry Mango Sparkling Organic Energy Drink - 8.4 fl oz\n$3.79 unit price\nQty 1\nWylie\n3440 W FM 544\nWylie, TX 75098-9408\nDetails\nOleander Dr\nALDI\nRosa's Café &\nTortilla Factory\nBojangles\nE Farm\nTarget\nTJ Maxx & HomeGood\nCityLine Automotive\n's Nature Preserve\nTimbers Nature\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

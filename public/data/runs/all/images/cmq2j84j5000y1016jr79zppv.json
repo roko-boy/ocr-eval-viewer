@@ -1,0 +1,270 @@
+{
+  "id": "cmq2j84j5000y1016jr79zppv",
+  "url": null,
+  "retailer": "ShopRite of Newton",
+  "brand": "Big Mozz",
+  "amount": 7.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "15.98",
+    "purchaseDate": "2026-06-06",
+    "time": null,
+    "zipCode": "07860",
+    "city": "Newton",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8027.006418000004,
+        "totalUsd": 0.016653,
+        "inputTokens": 6086,
+        "outputTokens": 836,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:48am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "NEWTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0852",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIG MOZZ GRMT MOZZ",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIG MOZZ BITE SZE",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWELCOME TO SHOPRITE\nOF NEWTON\n06/06/26 11:47am S213 R83 T36 C830\nStore Manager: BRIAN CRUMM\n***********************************\n* Regular Items *\n***********************************\nBIG MOZZ GRMT MOZZ 7.99 F\nBIG MOZZ BITE SZE 7.99 F\nValued Customer 47102693797\nTAX 0.00\n**** BALANCE 15.98\n***********************************\nShopRite Transaction Record\nStore # 213 of NEWTON , NJ\nTerminal: 83 Operator: 830 Trans: 36\nDate: 06/06/26 Time: 11:48am\nPurchase: $ 15.98\nAcct#: ************0852 SWIPED\nResponse : APPROVED\nApproval : 795959\nSNAP Bal : $ 1,152.06\n***********************************\nONLINE FOODSTAMPS 15.98\nFS CHG 0.00\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/06/26 11:48am 213 83 36 830\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\nStar-Spangled Savings\nSpend $250 on participating\nitems and receive a\n$75 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 7/4/2026\nREDEEM by 7/18/2026\nPlease view the front page of\nthe circular for item details.\nThank you for participating in our\nStar-Spangled Savings Program\nYour Points: 6.97\nSwing into Savi\nSpend $150",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11881.61795799999,
+        "totalUsd": 0.027858,
+        "inputTokens": 3692,
+        "outputTokens": 849,
+        "reasoningTokens": 1631
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:48am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "NEWTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0852",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIG MOZZ GRMT MOZZ",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIG MOZZ BITE SZE",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\n\nwe are here.\n\nWELCOME TO SHOPRITE\nOF NEWTON\n\n06/06/26 11:47am S213 R83 T36 C830\nStore Manager: BRIAN CRUMM\n\n*************************************\n*          Regular Items            *\n*************************************\n     BIG MOZZ GRMT MOZZ     7.99 F\n     BIG MOZZ BITE SZE      7.99 F\n   Valued Customer       47102693797\n     TAX                    0.00\n**** BALANCE               15.98\n*************************************\nShopRite Transaction Record\nStore # 213 of NEWTON , NJ\nTerminal: 83 Operator: 830 Trans: 36\nDate: 06/06/26 Time: 11:48am\n\n  Purchase: $ 15.98\nAcct#: ************0852   SWIPED\nResponse : APPROVED\nApproval : 795959\nSNAP Bal : $  1,152.06\n*************************************\n\n     ONLINE FOODSTAMPS     15.98\n     FS CHG                 0.00\n     CHANGE                 0.00\nTOTAL NUMBER OF ITEMS SOLD =    2\n06/06/26 11:48am 213 83 36 830\n\nPresent your card with every order\nand save with Price Plus discounts!\n\n     Questions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n\n   Star-Spangled Savings\n Spend $250 on participating\n    items and receive a\n  $75 ShopRite Gift Card\n Limit 1 offer per customer.\n   QUALIFY by 7/4/2026\n   REDEEM by 7/18/2026\nPlease view the front page of\nthe circular for item details.\nThank you for participating in our\nStar-Spangled Savings Program\n   Your Points:    6.97",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4999.475167000011,
+        "totalUsd": 0.012963,
+        "inputTokens": 3692,
+        "outputTokens": 825,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:47 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "NEWTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0852",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BIG MOZZ GRMT MOZZ",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIG MOZZ BITE SZE",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWELCOME TO SHOPRITE\nOF NEWTON\n06/06/26 11:47am S213 R83 T36 C830\nStore Manager: BRIAN CRUMM\n*************************************\n* Regular Items *\n*************************************\nBIG MOZZ GRMT MOZZ 7.99 F\nBIG MOZZ BITE SZE 7.99 F\nValued Customer 47102693797\nTAX 0.00\n**** BALANCE 15.98\n*************************************\nShopRite Transaction Record\nStore # 213 of NEWTON , NJ\nTerminal: 83 Operator: 830 Trans: 36\nDate: 06/06/26 Time: 11:48am\nPurchase: $ 15.98\nAcct#: ************0852 SWIPED\nResponse : APPROVED\nApproval : 795959\nSNAP Bal : $ 1,152.06\n*************************************\nONLINE FOODSTAMPS 15.98\nFS CHG 0.00\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/06/26 11:48am 213 83 36 830\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\nStar-Spangled Savings\nSpend $250 on participating\nitems and receive a\n$75 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 7/4/2026\nREDEEM by 7/18/2026\nPlease view the front page of\nthe circular for item details.\nThank you for participating in our\nStar-Spangled Savings Program\nYour Points: 6.97\nSwing into Savi\nSpend $150",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BIG MOZZ GRMT MOZZ",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "BIG MOZZ BITE SZE + Valued Customer 47102693797",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

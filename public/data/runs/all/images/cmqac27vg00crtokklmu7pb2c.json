@@ -1,0 +1,405 @@
+{
+  "id": "cmqac27vg00crtokklmu7pb2c",
+  "url": null,
+  "retailer": "World Market",
+  "brand": "Proper Wild",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "World Market",
+    "totalCost": "43.39",
+    "purchaseDate": "2023-09-11",
+    "time": null,
+    "zipCode": "94963",
+    "city": "San Geronimo",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17169.359749,
+        "totalUsd": 0.019641,
+        "inputTokens": 6086,
+        "outputTokens": 1168,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "World Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "43.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Daly City",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4651",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BHUJA NUT MIX + 000000441302",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BHUJA NUT MIX + 000000441302",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROPER WILD STRBRY + 000000662915",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CA CRV .05T + 000000005001",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MCVITIES MLK DIGES + 0000000379803",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MCVITIES MLK DIGES + 0000000379803",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TROT S'MORES TEA + 000000625424",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WORLD MARKET\nWORLDMARKET.COM\n634796 CKOT 8204 398 002\nBHUJA NUT MIX\n000000441302\n1 @ 5.99 N 5.99\nBHUJA NUT MIX\n000000441302\n1 @ 5.99 N 5.99\nPROPER WILD STRBRY\n000000662915\n1 @ 3.99 A 3.99\nCA CRV .05T\n000000005001\n1 @ .05 A .05\nMCVITIES MLK DIGES\n0000000379803\n1 @ 5.99 N 5.99\nMCVITIES MLK DIGES\n0000000379803\n1 @ 5.99 N 5.99\nTROT S'MORES TEA\n000000625424\n1 @ 14.99 N 14.99\nSUBTOTAL 42.99\n9.875%Tax .40\nTOTAL 43.39\nSALE - APPROVED\nUS DEBIT\nMERCH: 005160404991\nENTRY: Contactless\nACCT#: ************4651\nAID: A0000000980840\nCVMR: 2\nMODE: CARD\nAUTH#: 002731\nAMT: USD$ 43.39\nCHANGE .00\nCOUPON SAVINGS .00\nOTHER SAVINGS .00\nTOTAL SAVINGS .00\nWorld Market Explorer ID: XXXXXXX8083\nTHANK YOU FOR SHOPPING AT OUR\nDALY CITY STORE (415) 810-0585\nNeed to make a return?\nVisit www.worldmarket.com/returns\nfor our Return Policy",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 23428.064708,
+        "totalUsd": 0.047415,
+        "inputTokens": 3692,
+        "outputTokens": 1392,
+        "reasoningTokens": 3261
+      },
+      "fields": {
+        "storeName": {
+          "value": "World Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "43.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2023-10-19",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "12:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Daly City",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4651",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BHUJA NUT MIX + 000000441302",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BHUJA NUT MIX + 000000441302",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROPER WILD STRBRY + 000000662915",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CA CRV .05T + 000000005001",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MCVITIES MLK DIGES + 000000379803",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MCVITIES MLK DIGES + 000000379803",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TROT S'MORES TEA + 000000625424",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WORLD MARKET\nWORLDMARKET.COM\n\n634796      CKOT   8204  398    002\n\nBHUJA NUT MIX\n  000000441302\n  1 @  5.99      N     5.99\n\nBHUJA NUT MIX\n  000000441302\n  1 @  5.99      N     5.99\n\nPROPER WILD STRBRY\n  000000662915\n  1 @  3.99      A     3.99\n\nCA CRV .05T\n  000000005001\n  1 @   .05      A      .05\n\nMCVITIES MLK DIGES\n  000000379803\n  1 @  5.99      N     5.99\n\nMCVITIES MLK DIGES\n  000000379803\n  1 @  5.99      N     5.99\n\nTROT S'MORES TEA\n  000000625424\n  1 @ 14.99      N    14.99\n\n     SUBTOTAL         42.99\n\n     9.875%Tax          .40\n     TOTAL            43.39\n\n       SALE - APPROVED\n     US DEBIT\n     MERCH: 005160404991\n     ENTRY: Contactless\n     ACCT#: ************4651\n     AID:   A0000000980840\n     CVMR:  2\n     MODE:  CARD\n     AUTH#: 002731\n     AMT:   USD$ 43.39\n\n     CHANGE             .00\n\nCOUPON SAVINGS          .00\nOTHER SAVINGS           .00\nTOTAL SAVINGS           .00\n\nWorld Market Explorer ID: XXXXXXX8083\n\n   THANK YOU FOR SHOPPING AT OUR\n   DALY CITY STORE (415) 810-0586\n\n*********************************\n      Need to make a return?\n Visit www.worldmarket.com/returns\n      For our Return Policy\n*********************************\n63479600282042310191242\n10/19/23 12:42 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 14881.406709,
+        "totalUsd": 0.032592,
+        "inputTokens": 3692,
+        "outputTokens": 3006,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "World Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "43.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94015_ (implied Daly City, CA, but not fully printed on receipt except phone area code 415 and Daly City Store name, zip code not printed directly in text block, omitting to avoid guessing details not printed except city/state if known, but schema says only when printed. Let's omit zipCode/streetAddress as they are not printed.)\nLet's extract city and state from 'DALY CITY STORE':\ncity: Daly City\nstate: CA\nphoneNumbers: [\"415-810-0585\"], let's format as printed: \"(415) 810-0585\"\npaymentMethod: \"DEBIT\",\nlast4cc: \"4651\",\nregisterNum: \"002\" (from 002 at top right of header line or CKOT 8204 398 002, where 398 is likely trans/reg, 002 is reg). Let's keep it simple and omit registerNum if unsure, or use \"002\".\nLet's refine the JSON fields below based on exact printed text:\n- city: \"Daly City\"\n- state: \"CA\"\n- phoneNumbers: [\"(415) 810-0585\"]\n- paymentMethod: \"DEBIT\"\n- last4cc: \"4651\"\n- registerNum: \"002\"\n- storeNum: \"8204\"\n- transactionNum: \"634796\"\n- totalCost: 43.39\n- isReceipt: true\n- isDigital: false\n- isScreen: false\n- isEbt: false\n- rawText: ...\n- lineItems: ...\n- purchaseDate: null (not clearly printed in the visible portion of the receipt, bottom is cut off/blurry, so omit or null). Let's omit purchaseDate and time as they are cut off at the very bottom edge of the receipt and not readable.\n- barcode: null (barcode is visible at bottom but numbers are cut off/unreadable, so omit). \nLet's output the clean JSON now. \n\nNote: The prompt says \"Do not generate any comments inside the json block. Do not generate any control token (such as \\n and \\t) at any places. If a user requests multiple JSON, always return a single parseable JSON array. Do not include any extra text outside of the JSON string.\"\nSo I will output only the JSON block without any markdown or extra text if possible, or just the standard JSON block as requested by system prompt instructions. Let's output the JSON directly as a single parseable JSON object. \n\nLet's double check the JSON structure and fields before outputting. All fields are correct and match the schema requirements. \n\n```json\n{\n  \"isReceipt\": true,\n  \"isDigital\": false,\n  \"isScreen\": false,\n  \"isEbt\": false,\n  \"lineItems\": [\n    {\n      \"text\": \"BHUJA NUT MIX + 000000441302\",\n      \"quantity\": 1,\n      \"totalSpend\": 5.99,\n      \"discount\": null,\n      \"unitPrice\": 5.99\n    },\n    {\n      \"text\": \"BHUJA NUT MIX + 000000441302\",\n      \"quantity\": 1,\n      \"totalSpend\": 5.99,\n      \"discount\": null,\n      \"unitPrice\": 5.99\n    },\n    {\n      \"text\": \"PROPER WILD STRBRY + 000000662915\",\n      \"quantity\": 1,\n      \"totalSpend\": 3.99,\n      \"discount\": null,\n      \"unitPrice\": 3.99\n    },\n    {\n      \"text\": \"CA CRV .05T + 000000005001\",\n      \"quantity\": 1,\n      \"totalSpend\": 0.05,\n      \"discount\": null,\n      \"unitPrice\": 0.05\n    },\n    {\n      \"text\": \"MCVITIES MLK DIGES + 000000379803\",\n      \"quantity\": 1,\n      \"totalSpend\": 5.99,\n      \"discount\": null,\n      \"unitPrice\": 5.99\n    },\n    {\n      \"text\": \"MCVITIES MLK DIGES + 000000379803\",\n      \"quantity\": 1,\n      \"totalSpend\": 5.99,\n      \"discount\": null,\n      \"unitPrice\": 5.99\n    },\n    {\n      \"text\": \"TROT S'MORES TEA + 000000625424\",\n      \"quantity\": 1,\n      \"totalSpend\": 14.99,\n      \"discount\": null,\n      \"unitPrice\": 14.99\n    }\n  ],\n  \"rawText\": \"WORLD MARKET\\nWORLDMARKET.COM\\n634796 CKOT 8204 398 002\\nBHUJA NUT MIX\\n000000441302\\n1 @ 5.99 N 5.99\\nBHUJA NUT MIX\\n000000441302\\n1 @ 5.99 N 5.99\\nPROPER WILD STRBRY\\n000000662915\\n1 @ 3.99 A 3.99\\nCA CRV .05T\\n000000005001\\n1 @ .05 A .05\\nMCVITIES MLK DIGES\\n000000379803\\n1 @ 5.99 N 5.99\\nMCVITIES MLK DIGES\\n000000379803\\n1 @ 5.99 N 5.99\\nTROT S'MORES TEA\\n000000625424\\n1 @ 14.99 N 14.99\\nSUBTOTAL 42.99\\n9.875% Tax .40\\nTOTAL 43.39\\nSALE - APPROVED\\nUS DEBIT\\nMERCH: 005160404991\\nENTRY: Contactless\\nACCT#: ************4651\\nAID: A0000000980840\\nCVMR: 2\\nMODE: CARD\\nAUTH#: 002731\\nAMT: USD$ 43.39\\nCHANGE .00\\nCOUPON SAVINGS .00\\nOTHER SAVINGS .00\\nTOTAL SAVINGS .00\\nWorld Market Explorer ID: XXXXXXX8083\\nTHANK YOU FOR SHOPPING AT OUR\\nDALY CITY STORE (415) 810-0585\\nNeed to make a return?\\nVisit www.worldmarket.com/returns\\nfor our Return Policy\",\n  \"storeName\": \"World Market\",\n  \"storeNum\": \"8204\",\n  \"totalCost\": 43.39,\n  \"transactionNum\": \"634796\",\n  \"city\": \"Daly City\",\n  \"state\": \"CA\",\n  \"phoneNumbers\": [\n    \"(415) 810-0585\"\n  ],\n  \"paymentMethod\": \"DEBIT\",\n  \"last4cc\": \"4651\",\n  \"registerNum\": \"002\"\n}\n```",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BHUJA NUT MIX + 000000441302",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BHUJA NUT MIX + 000000441302",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROPER WILD STRBRY + 000000662915",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CA CRV .05T + 000000005001",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MCVITIES MLK DIGES + 000000379803",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MCVITIES MLK DIGES + 000000379803",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TROT S'MORES TEA + 000000625424",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WORLD MARKET\nWORLDMARKET.COM\n634796 CKOT 8204 398 002\nBHUJA NUT MIX\n000000441302\n1 @ 5.99 N 5.99\nBHUJA NUT MIX\n000000441302\n1 @ 5.99 N 5.99\nPROPER WILD STRBRY\n000000662915\n1 @ 3.99 A 3.99\nCA CRV .05T\n000000005001\n1 @ .05 A .05\nMCVITIES MLK DIGES\n000000379803\n1 @ 5.99 N 5.99\nMCVITIES MLK DIGES\n000000379803\n1 @ 5.99 N 5.99\nTROT S'MORES TEA\n000000625424\n1 @ 14.99 N 14.99\nSUBTOTAL 42.99\n9.875% Tax .40\nTOTAL 43.39\nSALE - APPROVED\nUS DEBIT\nMERCH: 005160404991\nENTRY: Contactless\nACCT#: ************4651\nAID: A0000000980840\nCVMR: 2\nMODE: CARD\nAUTH#: 002731\nAMT: USD$ 43.39\nCHANGE .00\nCOUPON SAVINGS .00\nOTHER SAVINGS .00\nTOTAL SAVINGS .00\nWorld Market Explorer ID: XXXXXXX8083\nTHANK YOU FOR SHOPPING AT OUR\nDALY CITY STORE (415) 810-0585\nNeed to make a return?\nVisit www.worldmarket.com/returns\nfor our Return Policy",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BHUJA NUT MIX + 000000441302",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "BHUJA NUT MIX + 000000441302",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "PROPER WILD STRBRY + 000000662915",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "CA CRV .05T + 000000005001",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "MCVITIES MLK DIGES + 000000379803",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "MCVITIES MLK DIGES + 000000379803",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "TROT S'MORES TEA + 000000625424",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

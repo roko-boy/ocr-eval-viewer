@@ -1,0 +1,270 @@
+{
+  "id": "cmqgz0g5b00rzk7x9marqehbf",
+  "url": null,
+  "retailer": "WEST BRANCH FOOD MART",
+  "brand": "Happy Dad",
+  "amount": 10,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "WEST BRANCH FOOD MART",
+    "totalCost": "43.38",
+    "purchaseDate": "2026-06-16",
+    "time": null,
+    "zipCode": "52358",
+    "city": "WEST BRANCH",
+    "state": "IA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11691.506458,
+        "totalUsd": 0.016851,
+        "inputTokens": 6086,
+        "outputTokens": 858,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "WEST BRANCH FOOD MART",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "43.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:58:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "WEST BRANCH",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "115 EEAST MAIN STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0360",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Beer + Age Confirmed - 12/20/1955 + HAPPY DAD",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Bottle Deposit + .60 POP DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.3,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WEST BRANCH FOOD MART\n115 EEAST MAIN STREET\nWEST BRANCH, IA\n319-643-2611\n\n06/16/2026 11:58:28\nUS Debit Entry Method: Chip\nCARD #: XXXXXXXXXXXX0360\nPURCHASE - APPROVED\nAUTH CODE:175031\n\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048000\nIAD: 01106010012208000000000000000000\n000FF\nTSI: 6800\nARC: 00\nTC: 96D649F356E99A50\nMID: 619482 TID: 001 SEQ: 020492\n\nTotal: USD$ 43.38\n\nPIN VERIFIED\n\nBeer\nAge Confirmed - 12/20/1955\nHAPPY DAD\n2 @ $19.99 EA $39.98 T\n\nBottle Deposit\n.60 POP DEPOSIT\n2 @ $0.30 EA $0.60 N\n\nBALANCE DUE $43.38\nDebit Card $43.38\n[S] ************0360\nAuth Code = 175031\n\nCHANGE $0.00\n\nTAX-CODE TAXABLE-VAL TAX-VALUE\nTAX $39.98 $2.80\n\nTotal number of items sold = 2\n\nSTORE:00000 REGISTER:002 CASHIER:0002\nTICKET#:2508 16JUN2026 11:58:29\nTHANKS FOR SHOPPING LOCAL",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8744.160292,
+        "totalUsd": 0.022593,
+        "inputTokens": 3692,
+        "outputTokens": 852,
+        "reasoningTokens": 1043
+      },
+      "fields": {
+        "storeName": {
+          "value": "WEST BRANCH FOOD MART",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "43.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:58:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "WEST BRANCH",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "115 EEAST MAIN STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0360",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Beer + Age Confirmed - 12/20/1955 + HAPPY DAD",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Bottle Deposit + .60 POP DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.3,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WEST BRANCH FOOD MART\n115 EEAST MAIN STREET\nWEST BRANCH, IA\n319-643-2611\n\n06/16/2026 11:58:28\nUS Debit Entry Method: Chip\nCARD #: XXXXXXXXXXXX0360\nPURCHASE - APPROVED\nAUTH CODE:175031\n\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048000\nIAD: 01106010012208000000000000000000\n000FF\nTSI: 6800\nARC: 00\nTC: 96D649F356E99A50\nMID: 619482 TID: 001 SEQ: 020492\n\nTotal: USD$ 43.38\n\nPIN VERIFIED\n\nBeer\nAge Confirmed - 12/20/1955\nHAPPY DAD\n2 @ $19.99 EA $39.98 T\n\nBottle Deposit\n.60 POP DEPOSIT\n2 @ $0.30 EA $0.60 N\n\nBALANCE DUE $43.38\nDebit Card $43.38\n[S] ************0360\nAuth Code = 175031\n\nCHANGE $0.00\n\nTAX-CODE TAXABLE-VAL TAX-VALUE\nTAX $39.98 $2.80\n\nTotal number of items sold = 2\n\nSTORE:00000 REGISTER:002 CASHIER:0002\nTICKET#:2508 16JUN2026 11:58:29\nTHANKS FOR SHOPPING LOCAL",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5190.994542,
+        "totalUsd": 0.013548,
+        "inputTokens": 3692,
+        "outputTokens": 890,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "WEST BRANCH FOOD MART",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "43.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:58:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "52358",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEST BRANCH",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "115 EEAST MAIN STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0360",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD + Beer + Age Confirmed - 12/20/1955",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": ".60 POP DEPOSIT + Bottle Deposit",
+          "quantity": 2,
+          "unitPrice": 0.3,
+          "totalSpend": 0.6,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "WEST BRANCH FOOD MART\n115 EEAST MAIN STREET\nWEST BRANCH, IA\n319-643-2611\n\n06/16/2026\n11:58:28\nUS Debit\nEntry Method: Chip\nCARD #:\nXXXXXXXXXXXX0360\nPURCHASE\n- APPROVED\nAUTH CODE:175031\n\nMode:\nIssuer\nAID:\nA0000000042203\nTVR:\n8000048000\nIAD:\n01106010012208000000000000000000\n000FF\nTSI:\n6800\nARC:\n00\nTC:\n96D649F356E99A50\nMID: 619482\nTID:\n001 SEQ: 020492\n\nTotal:\nUSD$ 43.38\n\nPIN VERIFIED\n\nBeer\nAge Confirmed - 12/20/1955\nHAPPY DAD\n2 @ $19.99 EA\n$39.98 T\n\nBottle Deposit\n.60 POP DEPOSIT\n2 @ $0.30 EA\n$0.60 N\n\nBALANCE DUE\n$43.38\nDebit Card\n$43.38\n[S] ************0360\nAuth Code = 175031\n\nCHANGE\n$0.00\n\nTAX-CODE\nTAXABLE-VAL\nTAX-VALUE\nTAX\n$39.98\n$2.80\n\nTotal number of items sold = 2\n\nSTORE:00000 REGISTER:002 CASHIER:0002\nTICKET#:2508\n16JUN2026 11:58:29\nTHANKS FOR SHOPPING LOCAL",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Beer + Age Confirmed - 12/20/1955 + HAPPY DAD",
+      "price": 19.99,
+      "quantity": 2,
+      "totalSpend": 39.98
+    },
+    {
+      "text": "Bottle Deposit + .60 POP DEPOSIT",
+      "price": 0.3,
+      "quantity": 2,
+      "totalSpend": 0.6
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

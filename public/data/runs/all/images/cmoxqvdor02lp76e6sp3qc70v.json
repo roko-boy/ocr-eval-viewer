@@ -1,0 +1,297 @@
+{
+  "id": "cmoxqvdor02lp76e6sp3qc70v",
+  "url": null,
+  "retailer": "Pet Food Express",
+  "brand": "JustFoodForDogs",
+  "amount": 11.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Pet Food Express",
+    "totalCost": "30.07",
+    "purchaseDate": "2026-05-08",
+    "time": null,
+    "zipCode": "94546",
+    "city": "Castro Valley",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9349.652499999997,
+        "totalUsd": 0.018942,
+        "inputTokens": 6118,
+        "outputTokens": 1085,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pet Food Express",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "30.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:10 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94546",
+          "status": "match"
+        },
+        "city": {
+          "value": "CASTRO VALLEY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3385 CASTRO VALLEY BLVD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8377",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JFFD DOG VEN/SQUASH 18Z + 799471557891 + Item Discount + Saved $4.80 off $15.99",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 11.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OTIS TRT JRKY VEN 4Z + 850047164025 + Item Discount + Saved $3.30 off $10.99",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HKI TRT M&C BLBRY/VAN 8Z + 850012047018 + Item Discount + Saved $3.60 off $11.99",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 8.39,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "pet food express\nExpress your love for pets!\nCASTRO VALLEY\n3385 CASTRO VALLEY BLVD.\nCASTRO VALLEY, CA 94546\n510-728-7788\nCustomer Name: ARISA GAGARIN\nCustomer Id: 972357\nJFFD DOG VEN/SQUASH 18Z 11.19 T\n799471557891\nItem Discount 4.80 -\nSaved $4.80 off $15.99\nOTIS TRT JRKY VEN 4Z 7.69 T\n850047164025\nItem Discount 3.30 -\nSaved $3.30 off $10.99\nHKI TRT M&C BLBRY/VAN 8Z 8.39 T\n850012047018\nItem Discount 3.60 -\nSaved $3.60 off $11.99\nITEMS SOLD: 3\nSubtotal 27.27\nTax 2.80\nTotal 30.07\nDEBIT CARD 30.07\nXXXXXXXXXXXX8377 PROXIMITY\nAPPR: 181605\nApplication Label: US DEBIT\nAC: E52DB5F17552050E\nTVR: 0000000000\nAID: A0000000980840\nTSI: 0000\nARC: 00\nCVM: PIN Verified\nYOUR TOTAL SAVINGS: $11.70\nThanks for visiting us in Castro Valley!\nTran Code: 3BB 1L8G 001 0330\nSTR 2003 05/08/26 5:10 PM R1 #75\n08923\nGet 20% off your next online order\nwhen you sign up for email\nwith Pet Food Express\nwww.petfood.express/new-email",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12161.166125,
+        "totalUsd": 0.02871,
+        "inputTokens": 3708,
+        "outputTokens": 1084,
+        "reasoningTokens": 1488
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pet Food Express",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "30.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:10 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94546",
+          "status": "match"
+        },
+        "city": {
+          "value": "CASTRO VALLEY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3385 CASTRO VALLEY BLVD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8377",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JFFD DOG VEN/SQUASH 18Z + 799471557891 + Item Discount Saved $4.80 off $15.99",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 11.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OTIS TRT JRKY VEN 4Z + 850047164025 + Item Discount Saved $3.30 off $10.99",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HKI TRT M&C BLBRY/VAN 8Z + 850012047018 + Item Discount Saved $3.60 off $11.99",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 8.39,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "pet food express\nExpress your love for pets!\nCASTRO VALLEY\n3385 CASTRO VALLEY BLVD.\nCASTRO VALLEY, CA 94546\n510-728-7788\n\nCustomer Name: ARISA GAGARIN\nCustomer Id: 972357\n\nJFFD DOG VEN/SQUASH 18Z\n799471557891\nItem Discount\nSaved $4.80 off $15.99\nOTIS TRT JRKY VEN 4Z\n850047164025\nItem Discount\nSaved $3.30 off $10.99\nHKI TRT M&C BLBRY/VAN 8Z\n850012047018\nItem Discount\nSaved $3.60 off $11.99\n\n11.19 T\n4.80 -\n7.69 T\n3.30 -\n8.39 T\n3.60 -\n\nITEMS SOLD: 3\nSubtotal 27.27\nTax 2.80\nTotal 30.07\nDEBIT CARD 30.07\n\nXXXXXXXXXXXX8377 PROXIMITY\nAPPR: 181605\nApplication Label: US DEBIT\nAC: E52DB5F17552050E\nTVR: 0000000000\nAID: A0000000980840\nTSI: 0000\nARC: 00\nCVM: PIN Verified\n\nYOUR TOTAL SAVINGS: $11.70\n\nThanks for visiting us in Castro Valley!\n\nTran Code: 3BB 1L8G 001 0330\nSTR 2003 05/08/26 5:10 PM R1 #75\n08923\n\nGet 20% off your next online order\nwhen you sign up for email\nwith Pet Food Express\nwww.petfood.express/new-email",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7302.451125,
+        "totalUsd": 0.015282,
+        "inputTokens": 3708,
+        "outputTokens": 1080,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pet Food Express",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "30.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:10 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94546",
+          "status": "match"
+        },
+        "city": {
+          "value": "CASTRO VALLEY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3385 CASTRO VALLEY BLVD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8377",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JFFD DOG VEN/SQUASH 18Z + 799471557891 + Item Discount Saved $4.80 off $15.99",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 11.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OTIS TRT JRKY VEN 4Z + 850047164025 + Item Discount Saved $3.30 off $10.99",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HKI TRT M&C BLBRY/VAN 8Z + 850012047018 + Item Discount Saved $3.60 off $11.99",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 8.39,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "pet food express\nExpress your love for pets!\nCASTRO VALLEY\n3385 CASTRO VALLEY BLVD.\nCASTRO VALLEY, CA 94546\n510-728-7788\nCustomer Name: ARISA GAGARIN\nCustomer Id: 972357\nJFFD DOG VEN/SQUASH 18Z 11.19 T\n799471557891\nItem Discount 4.80 -\nSaved $4.80 off $15.99\nOTIS TRT JRKY VEN 4Z 7.69 T\n850047164025\nItem Discount 3.30 -\nSaved $3.30 off $10.99\nHKI TRT M&C BLBRY/VAN 8Z 8.39 T\n850012047018\nItem Discount 3.60 -\nSaved $3.60 off $11.99\nITEMS SOLD: 3\nSubtotal 27.27\nTax 2.80\nTotal 30.07\nDEBIT CARD 30.07\nXXXXXXXXXXXX8377 PROXIMITY\nAPPR: 181605\nApplication Label: US DEBIT\nAC: E52DB5F17552050E\nTVR: 0000000000\nAID: A0000000980840\nTSI: 0000\nARC: 00\nCVM: PIN Verified\nYOUR TOTAL SAVINGS: $11.70\nThanks for visiting us in Castro Valley!\nTran Code: 3BB 1L8G 001 0330\nSTR 2003 05/08/26 5:10 PM R1 #75\n08923\nGet 20% off your next online order\nwhen you sign up for email\nwith Pet Food Express\nwww.petfood.express/new-email",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JFFD DOG VEN/SQUASH 18Z + 799471557891 + Item Discount 4.80 - + Saved $4.80 off $15.99",
+      "price": 11.19,
+      "quantity": 1,
+      "totalSpend": 11.19
+    },
+    {
+      "text": "OTIS TRT JRKY VEN 4Z + 850047164025 + Item Discount 3.30 - + Saved $3.30 off $10.99",
+      "price": 7.69,
+      "quantity": 1,
+      "totalSpend": 7.69
+    },
+    {
+      "text": "HKI TRT M&C BLBRY/VAN 8Z + 850012047018 + Item Discount 3.60 - + Saved $3.60 off $11.99",
+      "price": 8.39,
+      "quantity": 1,
+      "totalSpend": 8.39
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

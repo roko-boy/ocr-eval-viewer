@@ -1,0 +1,351 @@
+{
+  "id": "cmqedjn61002ak4ilxxzz06o5",
+  "url": null,
+  "retailer": "H-E-B",
+  "brand": "Perfect Bar",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "17.05",
+    "purchaseDate": "2026-06-14",
+    "time": null,
+    "zipCode": "78751",
+    "city": "Austin",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18767.79666600004,
+        "totalUsd": 0.022791,
+        "inputTokens": 6086,
+        "outputTokens": 1518,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78751",
+          "status": "match"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1000 East 41 St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7293",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PERFECT BAR DRK CHOC PNUT TF + FREE COUPON $0.61 orig 2.45 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 1.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR PEANUT BUTTER TF + FREE COUPON $0.61 orig 2.45 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 1.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR MINI DBL CHOC F + FREE COUPON $1.87 orig 7.47 Ea.",
+          "quantity": 1,
+          "unitPrice": 7.47,
+          "totalSpend": 5.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB UNSW GRAPEFRUIT SPARK TF + COUPON $0.50 orig 3.95 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.95,
+          "totalSpend": 3.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB UNSWT SPRK WT CLMT PS TF + COUPON $0.50 orig 3.95 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.95,
+          "totalSpend": 3.45,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1048 1629 0614 2617 4500 425\n1 PERFECT BAR DRK CHOC PNUT TF 1.84\nFREE COUPON $0.61 orig 2.45 Ea.\n2 PERFECT BAR PEANUT BUTTER TF 1.84\nFREE COUPON $0.61 orig 2.45 Ea.\n3 PERFECT BAR MINI DBL CHOC F 5.60\nFREE COUPON $1.87 orig 7.47 Ea.\n4 HEB UNSW GRAPEFRUIT SPARK TF 3.45\nCOUPON $0.50 orig 3.95 Ea.\n5 HEB UNSWT SPRK WT CLMT PS TF 3.45\nCOUPON $0.50 orig 3.95 Ea.\n*********** Sale Subtotal*** 16.18\nSales Tax 0.87\n************* Total Sale*** 17.05\n*** DEBIT 17.05\nITEMS PURCHASED: 5\nFREE/COUPON SAVINGS : $4.09\nYOU SAVED\n$4.09\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 6/30/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 6/30/26.\nCERTIFICATE CODE\n425061426481 629726\n****************************************\nUS DEBIT\n************7293\nContactless Chip USD$ 17.05\nAppr No : 639866 Ref No : 629375\nMode: Issuer Verified By Pin\nINTERLNK\nAID : A00000000980840\nTVR : 0000000000\nIAD : 06061203A00000\nTSI : ARC : 00\nRECEIPT EXPIRES ON 09-12-26\n1048 1629 0614 2617 4500 425\nH-E-B Food-Drugs #03/425\n1000 East 41 St, Austin, TX 78751\nPhone: (512) 459-6513\nPharmacy: (512) 459-8308\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier: SELF CHECKOUT 665\n481629 06-14-26 5:40P 065265265",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 28084.25908300001,
+        "totalUsd": 0.05052,
+        "inputTokens": 3692,
+        "outputTokens": 1531,
+        "reasoningTokens": 3467
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78751",
+          "status": "match"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1000 East 41 St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7293",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PERFECT BAR DRK CHOC PNUT TF + FREE COUPON $0.61 orig 2.45 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 1.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR PEANUT BUTTER TF + FREE COUPON $0.61 orig 2.45 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 1.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR MINI DBL CHOC F + FREE COUPON $1.87 orig 7.47 Ea.",
+          "quantity": 1,
+          "unitPrice": 7.47,
+          "totalSpend": 5.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB UNSW GRAPEFRUIT SPARK TF + COUPON $0.50 orig 3.95 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.95,
+          "totalSpend": 3.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB UNSWT SPRK WT CLMT PS TF + COUPON $0.50 orig 3.95 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.95,
+          "totalSpend": 3.45,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1048 1629 0614 2617 4500 425\n1 PERFECT BAR DRK CHOC PNUT TF 1.84\nFREE COUPON $0.61 orig 2.45 Ea.\n2 PERFECT BAR PEANUT BUTTER TF 1.84\nFREE COUPON $0.61 orig 2.45 Ea.\n3 PERFECT BAR MINI DBL CHOC F 5.60\nFREE COUPON $1.87 orig 7.47 Ea.\n4 HEB UNSW GRAPEFRUIT SPARK TF 3.45\nCOUPON $0.50 orig 3.95 Ea.\n5 HEB UNSWT SPRK WT CLMT PS TF 3.45\nCOUPON $0.50 orig 3.95 Ea.\n********** Sale Subtotal*** 16.18\nSales Tax 0.87\n************ Total Sale*** 17.05\n*** DEBIT 17.05\nITEMS PURCHASED: 5\nFREE/COUPON SAVINGS : $4.09\nYOU SAVED\n$4.09\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 6/30/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 6/30/26.\nCERTIFICATE CODE\n425061426481 629726\n***********************************\nUS DEBIT\n************7293\nContactless Chip USD$ 17.05\nAppr No : 639866 Ref No : 629375\nMode: Issuer Verified By Pin\nINTERLNK\nAID : A0000000980840\nTVR : 0000000000\nIAD : 06061203A00000\nTSI : ARC : 00\nRECEIPT EXPIRES ON 09-12-26\n1048 1629 0614 2617 4500 425\nH-E-B Food-Drugs #03/425\n1000 East 41 St, Austin, TX 78751\nPhone: (512) 459-6513\nPharmacy: (512) 459-8308\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier: SELF CHECKOUT 665\n481629 06-14-26 5:40PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7597.329125000018,
+        "totalUsd": 0.019497,
+        "inputTokens": 3692,
+        "outputTokens": 1551,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "17.05",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78751",
+          "status": "match"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1000 East 41 St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7293",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PERFECT BAR DRK CHOC PNUT TF + FREE COUPON $0.61 orig 2.45 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 1.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR PEANUT BUTTER TF + FREE COUPON $0.61 orig 2.45 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 1.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR MINI DBL CHOC F + FREE COUPON $1.87 orig 7.47 Ea.",
+          "quantity": 1,
+          "unitPrice": 7.47,
+          "totalSpend": 5.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB UNSW GRAPEFRUIT SPARK TF + COUPON $0.50 orig 3.95 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.95,
+          "totalSpend": 3.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB UNSWT SPRK WT CLMT PS TF + COUPON $0.50 orig 3.95 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.95,
+          "totalSpend": 3.45,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1048 1629 0614 2617 4500 425\n1 PERFECT BAR DRK CHOC PNUT TF 1.84\nFREE COUPON $0.61 orig 2.45 Ea.\n2 PERFECT BAR PEANUT BUTTER TF 1.84\nFREE COUPON $0.61 orig 2.45 Ea.\n3 PERFECT BAR MINI DBL CHOC F 5.60\nFREE COUPON $1.87 orig 7.47 Ea.\n4 HEB UNSW GRAPEFRUIT SPARK TF 3.45\nCOUPON $0.50 orig 3.95 Ea.\n5 HEB UNSWT SPRK WT CLMT PS TF 3.45\nCOUPON $0.50 orig 3.95 Ea.\n*********** Sale Subtotal*** 16.18\nSales Tax 0.87\n************* Total Sale*** 17.05\n*** DEBIT 17.05\nITEMS PURCHASED: 5\nFREE/COUPON SAVINGS : $4.09\nYOU SAVED\n$4.09\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 6/30/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 6/30/26.\nCERTIFICATE CODE\n425061426481 629726\n****************************************\nUS DEBIT\n************7293\nContactless Chip USD$ 17.05\nAppr No : 639866 Ref No : 629375\nMode: Issuer Verified By Pin\nINTERLNK\nAID : A0000000980840\nTVR : 0000000000\nIAD : 06061203A00000\nTSI : ARC : 00\nRECEIPT EXPIRES ON 09-12-26\n1048 1629 0614 2617 4500 425\nH-E-B Food-Drugs #03/425\n1000 East 41 St, Austin, TX 78751\nPhone: (512) 459-6513\nPharmacy: (512) 459-8308\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier: SELF CHECKOUT 666\n481629 06-14-26 5:40P",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PERFECT BAR DRK CHOC PNUT TF + FREE COUPON $0.61 orig 2.45 Ea.",
+      "price": 1.84,
+      "quantity": 1,
+      "totalSpend": 1.84
+    },
+    {
+      "text": "PERFECT BAR PEANUT BUTTER TF + FREE COUPON $0.61 orig 2.45 Ea.",
+      "price": 1.84,
+      "quantity": 1,
+      "totalSpend": 1.84
+    },
+    {
+      "text": "PERFECT BAR MINI DBL CHOC F + FREE COUPON $1.87 orig 7.47 Ea.",
+      "price": 5.6,
+      "quantity": 1,
+      "totalSpend": 5.6
+    },
+    {
+      "text": "HEB UNSW GRAPEFRUIT SPARK TF + COUPON $0.50 orig 3.95 Ea.",
+      "price": 3.45,
+      "quantity": 1,
+      "totalSpend": 3.45
+    },
+    {
+      "text": "HEB UNSWT SPRK WT CLMT PS TF + COUPON $0.50 orig 3.95 Ea.",
+      "price": 3.45,
+      "quantity": 1,
+      "totalSpend": 3.45
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

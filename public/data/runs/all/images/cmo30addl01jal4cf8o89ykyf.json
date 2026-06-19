@@ -1,0 +1,459 @@
+{
+  "id": "cmo30addl01jal4cf8o89ykyf",
+  "url": null,
+  "retailer": "King Soopers",
+  "brand": "South 40 Snacks",
+  "amount": 2.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "King Soopers",
+    "totalCost": "51.82",
+    "purchaseDate": "2026-04-17",
+    "time": null,
+    "zipCode": "80301",
+    "city": "Boulder",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13269.395667,
+        "totalUsd": 0.02271,
+        "inputTokens": 6086,
+        "outputTokens": 1509,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "51.82",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:28 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Boulder",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1650 30th St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8084",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY EGG EGGS + SOOPER SAVINGS + eCpn Happy Egg",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRO HYDRATION MIX",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TWININGS REFRESHRS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GO RAW PMP SNF SDS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK NUT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK NUT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEAPOINT EDAMAME",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO KOSHER DILL CO-S + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.31,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "STO SALAD BLEND",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "KING SOOPERS\nHometown Grocer. Hometown Team.\n1650 30th St.\n(303) 443-9622 Store\nYour cashier was CHEC 650\nValued Customer ******5562\nHAPPY EGG EGGS -$ 7.49 B\nSC SOOPER SAVINGS 1.00\nSC eCpn Happy Egg 1.50\nPRO HYDRATION MIX 10.99 B\nTWININGS REFRESHRS 6.99 B\nGO RAW PMP SNF SDS 8.99 B\nS40SNK NUT BAR 2.49 B\nS40SNK NUT BAR 2.49 B\nSEAPOINT EDAMAME 2.39 B\nKRO KOSHER DILL CO-$ 2.50 B\nSC SOOPER SAVINGS 0.19\nSTO SALAD BLEND 5.00 B\n***********************************\n* Coupons *\n***********************************\nSC eCpn 4x Pts Prod\nSC eCpn 4X Fuel\nTAX 2.49\n**** BALANCE 51.82\nDEBIT Purchase\n************8084 - C\nREF#: 017383 TOTAL: 51.82\nPURCHASE: 51.82 CASHBACK: 0.00\nAID: A0000000980840\nTC: 7ECE62F634F2CC9D\nVERIFIED BY PIN\nDEBIT 51.82\nCHANGE 0.00\n3.860% Tax A 1.90\n5.335% Tax B 0.59\nTOTAL TAX 2.49\nTOTAL NUMBER OF ITEMS SOLD = 9\nSooper Card Coupon Savings $2.69\nTotal Coupon Savings $2.69\nYou Saved 5% Off Your Order Today!\n04/17/26 08:29am 51 650 33 999999650\n***********************************\nAnnual Card Savings $144.67\n***********************************\n***********************************\nFuel Points Earned Today: 226\nTotal April Fuel Points: 684\n***********************************\nRemaining March Fuel Points: 1237\n***********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to kingsoopers.com/feedback\nDate: 04/17/26\nTime: 08:28AM\nEntry ID: 620-302-33-61-650-583\n***********************************\nWith Our Low Prices, You Saved\n$2.69\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 28284.35870800001,
+        "totalUsd": 0.062436,
+        "inputTokens": 3692,
+        "outputTokens": 1473,
+        "reasoningTokens": 4849
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "51.82",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:28 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "1650 30th St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8084",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY EGG EGGS + SOOPER SAVINGS + eCpn Happy Egg",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRQ HYDRATION MIX",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TWININGS REFRESHRS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GO RAW PMP SNF SDS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK NUT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK NUT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEAPOINT EDAMAME",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO KOSHER DILL CO- + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STO SALAD BLEND",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Hometown Grocer. Hometown Team.\n1650 30th St.\n(303) 443-9622 Store\nYour cashier was CHEC 650\nValued Customer ******5562\nHAPPY EGG EGGS 7.49 B\nSC SOOPER SAVINGS 1.00\nSC eCpn Happy Egg 1.50\nPRQ HYDRATION MIX 10.99 B\nTWININGS REFRESHRS 6.99 B\nGO RAW PMP SNF SDS 8.99 B\nS40SNK NUT BAR 2.49 B\nS40SNK NUT BAR 2.49 B\nSEAPOINT EDAMAME 2.39 B\nKRO KOSHER DILL CO- 2.50 B\nSC SOOPER SAVINGS 0.19\nSTO SALAD BLEND 5.00 B\n***********************************\n* Coupons *\n***********************************\nSC eCpn 4x Pts Prod\nSC eCpn 4X Fuel\nTAX 2.49\n**** BALANCE 51.82\nDEBIT Purchase\n************8084 - C\nREF#: 017383 TOTAL: 51.82\nPURCHASE: 51.82 CASHBACK: 0.00\nAID: A0000000980840\nTC: 7ECE62F634F2CC9D\nVERIFIED BY PIN\nDEBIT 51.82\nCHANGE 0.00\n3.860% Tax A 1.90\n5.335% Tax B 0.59\nTOTAL TAX 2.49\nTOTAL NUMBER OF ITEMS SOLD = 9\nSooper Card Coupon Savings $2.69\nTotal Coupon Savings $2.69\nYou Saved 5% Off Your Order Today!\n04/17/26 08:29am 51 650 33 999999650\n***********************************\nAnnual Card Savings $144.67\n***********************************\n***********************************\nFuel Points Earned Today: 226\nTotal April Fuel Points: 684\n***********************************\nRemaining March Fuel Points: 1237\n***********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to kingsoopers.com/feedback\nDate: 04/17/26\nTime: 08:28AM\nEntry ID: 620-302-33-61-650-583\n***********************************\nWith Our Low Prices, You Saved\n$2.69\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7293.083874999997,
+        "totalUsd": 0.019137,
+        "inputTokens": 3692,
+        "outputTokens": 1511,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "51.82",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:28 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Boulder",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1650 30th St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8084",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY EGG EGGS + SOOPER SAVINGS + eCpn Happy Egg",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRQ HYDRATION MIX",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TWININGS REFRESHRS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GO RAW PMP SNF SDS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK NUT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK NUT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEAPOINT EDAMAME",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO KOSHER DILL CO-S + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.31,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "STO SALAD BLEND",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "KING SOOPERS\nHometown Grocer. Hometown Team.\n1650 30th St.\n(303) 443-9622 Store\nYour cashier was CHEC 650\nValued Customer ******5562\nHAPPY EGG EGGS -$ 7.49 B\nSC SOOPER SAVINGS 1.00\nSC eCpn Happy Egg 1.50\nPRQ HYDRATION MIX 10.99 B\nTWININGS REFRESHRS 6.99 B\nGO RAW PMP SNF SDS 8.99 B\nS40SNK NUT BAR 2.49 B\nS40SNK NUT BAR 2.49 B\nSEAPOINT EDAMAME 2.39 B\nKRO KOSHER DILL CO-$ 2.50 B\nSC SOOPER SAVINGS 0.19\nSTO SALAD BLEND 5.00 B\n***********************************\n* Coupons *\n***********************************\nSC eCpn 4x Pts Prod\nSC eCpn 4X Fuel\nTAX 2.49\n**** BALANCE 51.82\nDEBIT Purchase\n************8084 - C\nREF#: 017383 TOTAL: 51.82\nPURCHASE: 51.82 CASHBACK: 0.00\nAID: A0000000980840\nTC: 7ECE62F634F2CC9D\nVERIFIED BY PIN\nDEBIT 51.82\nCHANGE 0.00\n3.860% Tax A 1.90\n5.335% Tax B 0.59\nTOTAL TAX 2.49\nTOTAL NUMBER OF ITEMS SOLD = 9\nSooper Card Coupon Savings $2.69\nTotal Coupon Savings $2.69\nYou Saved 5% Off Your Order Today!\n04/17/26 08:29am 51 650 33 999999650\n***********************************\nAnnual Card Savings $144.67\n***********************************\n***********************************\nFuel Points Earned Today: 226\nTotal April Fuel Points: 684\n***********************************\nRemaining March Fuel Points: 1237\n***********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to kingsoopers.com/feedback\nDate: 04/17/26\nTime: 08:28AM\nEntry ID: 620-302-33-61-650-683\n***********************************\nWith Our Low Prices, You Saved\n$2.69\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HAPPY EGG EGGS + SC SOOPER SAVINGS 1.00 + SC eCpn Happy Egg 1.50",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    },
+    {
+      "text": "PRQ HYDRATION MIX",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "TWININGS REFRESHRS",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "GO RAW PMP SNF SDS",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "S40SNK NUT BAR",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "S40SNK NUT BAR",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "SEAPOINT EDAMAME",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "KRO KOSHER DILL + SC SOOPER SAVINGS 0.19",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "STO SALAD BLEND",
+      "price": 5,
+      "quantity": 1,
+      "totalSpend": 5
+    }
+  ],
+  "disagreementCount": 3,
+  "nullCount": 0
+}

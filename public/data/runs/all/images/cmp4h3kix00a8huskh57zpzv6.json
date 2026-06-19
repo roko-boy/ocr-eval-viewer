@@ -1,0 +1,297 @@
+{
+  "id": "cmp4h3kix00a8huskh57zpzv6",
+  "url": null,
+  "retailer": "ALDI",
+  "brand": "Perfect Bar",
+  "amount": 0.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ALDI",
+    "totalCost": "5.97",
+    "purchaseDate": "2026-05-10",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7398.252542000002,
+        "totalUsd": 0.016473,
+        "inputTokens": 6086,
+        "outputTokens": 816,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:29PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Troy",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "NY",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "662 Hoosick Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0644",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "343735 Perfect Bar",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "385031 Chopped Walnuts",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "262747 Bananas LRW + (G) 1.10lb - (T) 0.011b + (N) 1.09 lb x 0.49/lb",
+          "quantity": 1,
+          "unitPrice": 0.53,
+          "totalSpend": 0.53,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #182\n662 Hoosick Road\nTroy\nhttps://help.aldi.us\n\n343735 Perfect Bar 2.45 FC\n385031 Chopped Walnuts 2.79 FA\n262747 Bananas LRW 0.53 FA\n(G) 1.10lb - (T) 0.011b\n(N) 1.09 lb x 0.49/lb\n\nSUBTOTAL 5.77\nC:Taxable @8.000% 0.20\nA:Taxable @0.00% 0.00\nAMOUNT DUE 5.97\nTOTAL 5.97\n3 ITEMS\nCredit Card $ 5.97\n\n*5687 FE49/006/802 05/10/26 02:29PM\n******************************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nhttp://www.aldi.us/signup\n\nVISA 5.97\n***************0644 ONLINE\n05/10/26 14:29 Ref/Seq # 0\nAuth # 07837D\nAID A0000000031010\nTVR 0000000000\nIAD 06021203A00000\nTSI 0000 ARC 00 EntryMode 07\n++APPROVED++",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16523.58504099998,
+        "totalUsd": 0.032736,
+        "inputTokens": 3692,
+        "outputTokens": 806,
+        "reasoningTokens": 2216
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Troy",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "662 Hoosick Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0644",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "343735 Perfect Bar",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "385031 Chopped Walnuts",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "262747 Bananas LRW + (G) 1.10lb - (T) 0.01lb + (N) 1.09 lb x 0.49/lb",
+          "quantity": 1,
+          "unitPrice": 0.53,
+          "totalSpend": 0.53,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #182\n662 Hoosick Road\nTroy\nhttps://help.aldi.us\n\n343735 Perfect Bar 2.45 FC\n385031 Chopped Walnuts 2.79 FA\n262747 Bananas LRW 0.53 FA\n(G) 1.10lb - (T) 0.01lb\n(N) 1.09 lb x 0.49/lb\n\nSUBTOTAL 5.77\nC:Taxable @8.000% 0.20\nA:Taxable @0.00% 0.00\nAMOUNT DUE 5.97\nTOTAL 5.97\n3 ITEMS\nCredit Card $ 5.97\n\n*5687 FE49/006/802 05/10/26 02:29PM\n******************************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nhttp://www.aldi.us/signup\n\nVISA 5.97\n****************0644 ONLINE\n05/10/26 14:29 Ref/Seq # 0\nAuth # 07837D\nAID A0000000031010\nTVR 0000000000\nIAD 06021203A00000\nTSI 0000 ARC 00 EntryMode 07\n++APPROVED++",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6579.788042,
+        "totalUsd": 0.012828,
+        "inputTokens": 3692,
+        "outputTokens": 810,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Troy",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "662 Hoosick Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0644",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "343735 Perfect Bar",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "385031 Chopped Walnuts",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "262747 Bananas LRW + (G) 1.10lb - (T) 0.011b + (N) 1.09 lb x 0.49/lb",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.53,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #182\n662 Hoosick Road\nTroy\nhttps://help.aldi.us\n\n343735 Perfect Bar\n2.45 FC\n385031 Chopped Walnuts\n2.79 FA\n262747 Bananas LRW\n0.53 FA\n(G) 1.10lb - (T) 0.011b\n(N) 1.09 lb x 0.49/lb\n\nSUBTOTAL\n5.77\nC:Taxable @8.000%\n0.20\nA:Taxable @0.00%\n0.00\nAMOUNT DUE\n5.97\nTOTAL\n5.97\n3 ITEMS\nCredit Card\n$ 5.97\n\n*5687 FE49/006/802 05/10/26 02:29PM\n******************************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nhttp://www.aldi.us/signup\n\nVISA\n5.97\n****************0644 ONLINE\n05/10/26 14:29 Ref/Seq # 0\nAuth # 07837D\nAID A0000000031010\nTVR 0000000000\nIAD 06021203A00000\nTSI 0000 ARC 00 EntryMode 07\n++APPROVED++",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Perfect Bar + 343735",
+      "price": 2.45,
+      "quantity": 1,
+      "totalSpend": 2.45
+    },
+    {
+      "text": "Chopped Walnuts + 385031",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "Bananas LRW + 262747 + (G) 1.10lb - (T) 0.01lb + (N) 1.09 lb x 0.49/lb",
+      "price": 0.49,
+      "quantity": 1,
+      "totalSpend": 0.53
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

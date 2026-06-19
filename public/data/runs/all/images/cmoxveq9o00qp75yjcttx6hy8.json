@@ -1,0 +1,561 @@
+{
+  "id": "cmoxveq9o00qp75yjcttx6hy8",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Jus-Rol ",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "103.49",
+    "purchaseDate": "2026-05-08",
+    "time": null,
+    "zipCode": "98498",
+    "city": "LAKEWOOD",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14123.292625,
+        "totalUsd": 0.029163,
+        "inputTokens": 6086,
+        "outputTokens": 2226,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "103.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98498",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKEWOOD",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8611 STEILACOOM BLVD. S.W.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6013",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "QLTD NORTHERN BATH + 4200094681 + Sale Savings -7.00 + forU Store Coupon -3.00",
+          "quantity": 1,
+          "unitPrice": 27.99,
+          "totalSpend": 17.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LUC CREAM CHEESE + 2113004380 + forU Personalized -0.93",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.56,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LACTAID CARML DC + 4410016540 + Sale Savings -2.00 + J4U Mfr Coupon -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "3@ JUS-ROL PUFF + 6211095550 + Sale Savings -6.00",
+          "quantity": 3,
+          "unitPrice": 4.99,
+          "totalSpend": 8.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLAND'S EGGS LRG + 71514151453 + Sale Savings -0.50 + forU Store Coupon -1.00",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILD MIKES PIZZA + 7864220500 + forU Store Coupon -3.00",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILD MIKES PIZZA + 7864220501 + forU Store Coupon -3.00",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2@ NATURE MADE + 3160404121 + Sale Savings -26.99",
+          "quantity": 2,
+          "unitPrice": 26.99,
+          "totalSpend": 26.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "THOMAS ENGLSH MFFN + 4812110802 + Sale Savings -5.49",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RAISIN MUFNS + 4812113806",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ NAAN GARLIC MINI + 87668100671 + Sale Savings -3.99",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EVERY THING SALAD + 3022304185 + Sale Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAREFOOT CLRS PINO + 8500001707 + Sale Savings -2.99",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 3411 Dir Linda Johnson\nMain: (253)582-5844 Rx: (253) 582-0648\n8611 STEILACOOM BLVD. S.W.\nLAKEWOOD WA 98498\n00341109501942605081921\nYOUR CASHIER TODAY WAS SELF\nGROC NONEDIBLE Price You Pay\n4200094681 QLTD NORTHERN BATH 27.99 17.99 T\nSale Savings -7.00\nforU Store Coupon -3.00\nREFRIG/FROZEN\n2113004380 LUC CREAM CHEESE 2.49 1.56 S\nforU Personalized -0.93\n4410016540 LACTAID CARML DC 5.99 2.99 S\nSale Savings -2.00\nJ4U Mfr Coupon -1.00\n6211095550 3@ JUS-ROL PUFF 14.97 8.97 S\nSale Savings -6.00\n71514151453 EGGLAND'S EGGS LRG 9.99 8.49 S\nSale Savings -0.50\nforU Store Coupon -1.00\n7864220500 WILD MIKES PIZZA 9.99 6.99 S\nforU Store Coupon -3.00\n7864220501 WILD MIKES PIZZA 9.99 6.99 S\nforU Store Coupon -3.00\nGEN MERCHANDISE\n3160404121 2@ NATURE MADE 53.98 26.99 X\nSale Savings -26.99\nBAKED GOODS\n4812110802 THOMAS ENGLSH MFFN 5.49 0.00 S\nSale Savings -5.49\n4812113806 RAISIN MUFNS 5.49 5.49 S\n87668100671 2@ NAAN GARLIC MINI 7.98 3.99 S\nSale Savings -3.99\nPRODUCE\n3022304185 EVERY THING SALAD 4.99 2.99 S\nSale Savings -2.00\nLIQUOR\n8500001707 BAREFOOT CLRS PINO 7.99 5.00 T\nSale Savings -2.99\nTAX 5.05\n**** BALANCE 103.49\nCredit Purchase 05/08/26 19:21\nCARD # ************6013\nREF: 832124460130 AUTH: 002QMOD8\nPAYMENT AMOUNT 103.49\nAL US DEBIT\nAID A0000000042203\nTVR 0000008001\nMastercard 103.49\nCHANGE 0.00\n***********************************\nNOW HIRING!\nSee Store Director or visit\nwww.Safeway.com/Careers to apply\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 23227.82445899997,
+        "totalUsd": 0.058647,
+        "inputTokens": 3692,
+        "outputTokens": 2271,
+        "reasoningTokens": 3630
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "103.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98498",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKEWOOD",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8611 STEILACOOM BLVD. S.W.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6013",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "QLTD NORTHERN BATH + 4200094681 + Sale Savings -7.00 + forU Store Coupon -3.00",
+          "quantity": 1,
+          "unitPrice": 27.99,
+          "totalSpend": 17.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LUC CREAM CHEESE + 2113004380 + forU Personalized -0.93",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.56,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LACTAID CARML DC + 4410016540 + Sale Savings -2.00 + J4U Mfr Coupon -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "3@ JUS-ROL PUFF + 6211095550 + Sale Savings -6.00",
+          "quantity": 3,
+          "unitPrice": 4.99,
+          "totalSpend": 8.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLAND'S EGGS LRG + 71514151453 + Sale Savings -0.50 + forU Store Coupon -1.00",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILD MIKES PIZZA + 7864220500 + forU Store Coupon -3.00",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILD MIKES PIZZA + 7864220501 + forU Store Coupon -3.00",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2@ NATURE MADE + 3160404121 + Sale Savings -26.99",
+          "quantity": 2,
+          "unitPrice": 26.99,
+          "totalSpend": 26.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "THOMAS ENGLSH MFFN + 4812110802 + Sale Savings -5.49",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RAISIN MUFNS + 4812113806",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ NAAN GARLIC MINI + 87668100671 + Sale Savings -3.99",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EVERY THING SALAD + 3022304185 + Sale Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAREFOOT CLRS PINO + 8500001707 + Sale Savings -2.99",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 3411 Dir Linda Johnson\nMain: (253)582-5844 Rx: (253) 582-0648\n8611 STEILACOOM BLVD. S.W.\nLAKEWOOD WA 98498\n00341109501942605081921\nYOUR CASHIER TODAY WAS SELF\nGROC NONEDIBLE\nPrice You Pay\n4200094681 QLTD NORTHERN BATH\n27.99 17.99 T\nSale Savings -7.00\nforU Store Coupon -3.00\nREFRIG/FROZEN\n2113004380 LUC CREAM CHEESE\n2.49 1.56 S\nforU Personalized -0.93\n4410016540 LACTAID CARML DC\n5.99 2.99 S\nSale Savings -2.00\nJ4U Mfr Coupon -1.00\n6211095550 3@ JUS-ROL PUFF\n14.97 8.97 S\nSale Savings -6.00\n71514151453 EGGLAND'S EGGS LRG\n9.99 8.49 S\nSale Savings -0.50\nforU Store Coupon -1.00\n7864220500 WILD MIKES PIZZA\n9.99 6.99 S\nforU Store Coupon -3.00\n7864220501 WILD MIKES PIZZA\n9.99 6.99 S\nforU Store Coupon -3.00\nGEN MERCHANDISE\n3160404121 2@ NATURE MADE\n53.98 26.99 X\nSale Savings -26.99\nBAKED GOODS\n4812110802 THOMAS ENGLSH MFFN\n5.49 0.00 S\nSale Savings -5.49\n4812113806 RAISIN MUFNS\n5.49 5.49 S\n87668100671 2@ NAAN GARLIC MINI\n7.98 3.99 S\nSale Savings -3.99\nPRODUCE\n3022304185 EVERY THING SALAD\n4.99 2.99 S\nSale Savings -2.00\nLIQUOR\n8500001707 BAREFOOT CLRS PINO\n7.99 5.00 T\nSale Savings -2.99\nTAX\n5.05\n**** BALANCE\n103.49\nCredit Purchase 05/08/26 19:21\nCARD # ************6013\nREF: 832124460130 AUTH: 002QMOD8\nPAYMENT AMOUNT\n103.49\nAL US DEBIT\nAID A0000000042203\nTVR 0000008001\nMastercard\n103.49\nCHANGE\n0.00\n*************************************\nNOW HIRING!\nSee Store Director or visit\nwww.Safeway.com/Careers to apply\n*************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9573.477958000003,
+        "totalUsd": 0.024717,
+        "inputTokens": 3692,
+        "outputTokens": 2131,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "103.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98498",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKEWOOD",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8611 STEILACOOM BLVD. S.W.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6013",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "QLTD NORTHERN BATH + 4200094681",
+          "quantity": 1,
+          "unitPrice": 27.99,
+          "totalSpend": 17.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LUC CREAM CHEESE + 2113004380",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.56,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LACTAID CARML DC + 4410016540",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUS-ROL PUFF + 6211095550",
+          "quantity": 3,
+          "unitPrice": 4.99,
+          "totalSpend": 8.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLAND'S EGGS LRG + 71514151453",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILD MIKES PIZZA + 7864220500",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILD MIKES PIZZA + 7864220501",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NATURE MADE + 3160404121",
+          "quantity": 2,
+          "unitPrice": 26.99,
+          "totalSpend": 26.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THOMAS ENGLSH MFFN + 4812110802",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RAISIN MUFNS + 4812113806",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NAAN GARLIC MINI + 87668100671",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERY THING SALAD + 3022304185",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAREFOOT CLRS PINO + 8500001707",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 3411 Dir Linda Johnson\nMain: (253)582-5844 Rx: (253) 582-0648\n8611 STEILACOOM BLVD. S.W.\nLAKEWOOD WA 98498\n00341109501942605081921\nYOUR CASHIER TODAY WAS SELF\nGROC NONEDIBLE\nPrice You Pay\n4200094681 QLTD NORTHERN BATH\n27.99 17.99 T\nSale Savings -7.00\nforU Store Coupon -3.00\nREFRIG/FROZEN\n2113004380 LUC CREAM CHEESE\n2.49 1.56 S\nforU Personalized -0.93\n4410016540 LACTAID CARML DC\n5.99 2.99 S\nSale Savings -2.00\nJ4U Mfr Coupon -1.00\n6211095550 3@ JUS-ROL PUFF\n14.97 8.97 S\nSale Savings -6.00\n71514151453 EGGLAND'S EGGS LRG\n9.99 8.49 S\nSale Savings -0.50\nforU Store Coupon -1.00\n7864220500 WILD MIKES PIZZA\n9.99 6.99 S\nforU Store Coupon -3.00\n7864220501 WILD MIKES PIZZA\n9.99 6.99 S\nforU Store Coupon -3.00\nGEN MERCHANDISE\n3160404121 2@ NATURE MADE\n53.98 26.99 X\nSale Savings -26.99\nBAKED GOODS\n4812110802 THOMAS ENGLSH MFFN\n5.49 0.00 S\nSale Savings -5.49\n4812113806 RAISIN MUFNS\n5.49 5.49 S\n87668100671 2@ NAAN GARLIC MINI\n7.98 3.99 S\nSale Savings -3.99\nPRODUCE\n3022304185 EVERY THING SALAD\n4.99 2.99 S\nSale Savings -2.00\nLIQUOR\n8500001707 BAREFOOT CLRS PINO\n7.99 5.00 T\nSale Savings -2.99\nTAX\n5.05\n**** BALANCE\n103.49\nCredit Purchase 05/08/26 19:21\nCARD # ************6013\nREF: 832124460130 AUTH: 002QMOD8\nPAYMENT AMOUNT\n103.49\nAL US DEBIT\nAID A0000000042203\nTVR 0000008001\nMastercard\n103.49\nCHANGE\n0.00\n***********************************\nNOW HIRING!\nSee Store Director or visit\nwww.Safeway.com/Careers to apply\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "QLTD NORTHERN BATH + 4200094681 + Sale Savings -7.00 + forU Store Coupon -3.00 + REFRIG/FROZEN",
+      "price": 17.99,
+      "quantity": 1,
+      "totalSpend": 17.99
+    },
+    {
+      "text": "LUC CREAM CHEESE + 2113004380 + forU Personalized -0.93",
+      "price": 1.56,
+      "quantity": 1,
+      "totalSpend": 1.56
+    },
+    {
+      "text": "LACTAID CARML DC + 4410016540 + Sale Savings -2.00 + J4U Mfr Coupon -1.00",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "JUS-ROL PUFF + 6211095550 + Sale Savings -6.00",
+      "price": 2.99,
+      "quantity": 3,
+      "totalSpend": 8.97
+    },
+    {
+      "text": "EGGLAND'S EGGS LRG + 71514151453 + Sale Savings -0.50 + forU Store Coupon -1.00",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "WILD MIKES PIZZA + 7864220500 + forU Store Coupon -3.00",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "WILD MIKES PIZZA + 7864220501 + forU Store Coupon -3.00 + GEN MERCHANDISE",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "NATURE MADE + 3160404121 + Sale Savings -26.99 + BAKED GO0DS",
+      "price": 13.49,
+      "quantity": 2,
+      "totalSpend": 26.99
+    },
+    {
+      "text": "RATSIN MUFNS + 4812113806",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "NAAN GARLIC MINI + 87668100671 + Sale Savings -3.99 + PRODUCE",
+      "price": 2,
+      "quantity": 2,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "EVERY THING SALAD + 3022304185 + Sale Savings -2.00 + LIQUOR",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "BAREFOOT CLRS PINO + 8500001707 + Sale Savings -2.99",
+      "price": 5,
+      "quantity": 1,
+      "totalSpend": 5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

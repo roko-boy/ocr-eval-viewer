@@ -1,0 +1,351 @@
+{
+  "id": "cmnxjpey400g3c9irig23aupj",
+  "url": null,
+  "retailer": "Meijer",
+  "brand": "Dr. Praeger's ",
+  "amount": 0.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "29.14",
+    "purchaseDate": "2026-04-13",
+    "time": null,
+    "zipCode": "43460",
+    "city": "Rossford",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9714.849708999915,
+        "totalUsd": 0.019596,
+        "inputTokens": 6086,
+        "outputTokens": 1163,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:40:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "43460",
+          "status": "match"
+        },
+        "city": {
+          "value": "Rossford",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10055 Olde US 20",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6734",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "*85593000190 CROUTONS + was 4.99 now 3.69 F",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*85501900035 PASTA SAUCE + 2 @ 4.49 + was 12.98 now 8.98 F",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 8.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*5250005005 MAYONNAISE + was 5.49 now 4.99 F",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*8086800010 VEGGIE BURGR + was 5.49 now 4.99 F",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*85002026041 MEATLESS BURGE + was 7.49 now 6.49 F",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n10055 Olde US 20\nRossford, OH 43460 - #211\n(419)873-4100 meijer.com\n04/13/26 Fastlane124\nMEIJER SAVINGS\nSPECIALS 7.30\nSAVINGS TOTAL 7.30\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n402.38\nGROCERY\n*85593000190 CROUTONS\nwas 4.99 now 3.69 F\n*85501900035 PASTA SAUCE\n2 @ 4.49\nwas 12.98 now 8.98 F\n*5250005005 MAYONNAISE\nwas 5.49 now 4.99 F\n*8086800010 VEGGIE BURGR\nwas 5.49 now 4.99 F\n*85002026041 MEATLESS BURGE\nwas 7.49 now 6.49 F\nmPerks # -- *********70\nTOTAL\nTOTAL TAX .00\nTOTAL 29.14\nPAYMENTS\nPrimary Account - Debit\nATM/DEBIT CARD TENDER 29.14\nXXXXXXXXXXXX6734 (X)\nAPPROVAL CODE A31596\nUS Debit\nAID A0000000042203\nTC 6A18369F063220C8\nNO CVM REQUIRED\nNUMBER OF ITEMS 6\nA02110QKUZ372SS\nTx:91 Op:575 Tm:124 St:211 13:40:15",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15302.18729199999,
+        "totalUsd": 0.038253,
+        "inputTokens": 3692,
+        "outputTokens": 1089,
+        "reasoningTokens": 2546
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:40:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "43460",
+          "status": "match"
+        },
+        "city": {
+          "value": "Rossford",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10055 Olde US 20",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6734",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CROUTONS + *85593000190",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PASTA SAUCE + *85501900035",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 8.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAYONNAISE + *5250005005",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VEGGIE BURGR + *8086800010",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEATLESS BURGE + *85002026041",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n10055 Olde US 20\nRossford, OH 43460 - #211\n(419)873-4100 meijer.com\n04/13/26 Fastlane124\nMEIJER SAVINGS\nSPECIALS 7.30\nSAVINGS TOTAL 7.30\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n402.38\nGROCERY\n*85593000190 CROUTONS\nwas 4.99 now 3.69 F\n*85501900035 PASTA SAUCE\n2 @ 4.49\nwas 12.98 now 8.98 F\n*5250005005 MAYONNAISE\nwas 5.49 now 4.99 F\n*8086800010 VEGGIE BURGR\nwas 5.49 now 4.99 F\n*85002026041 MEATLESS BURGE\nwas 7.49 now 6.49 F\nmPerks # -- *********70\nTOTAL\nTOTAL TAX .00\nTOTAL 29.14\nPAYMENTS\nPrimary Account - Debit\nATM/DEBIT CARD TENDER 29.14\nXXXXXXXXXXXX6734 (X)\nAPPROVAL CODE A31596\nUS Debit\nAID A0000000042203\nTC 6A18369F063220C8\nNO CVM REQUIRED\nNUMBER OF ITEMS 6\nA021100KUZ372SS\nTx:91 Op:575 Tm:124 St:211 13:40:15",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5879.87616699998,
+        "totalUsd": 0.015312,
+        "inputTokens": 3692,
+        "outputTokens": 1086,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:40:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "43460",
+          "status": "match"
+        },
+        "city": {
+          "value": "Rossford",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10055 Olde US 20",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6734",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CROUTONS + *85593000190",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PASTA SAUCE + *85501900035",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 8.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAYONNAISE + *5250005005",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VEGGIE BURGR + *8086800010",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEATLESS BURGE + *85002026041",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n10055 Olde US 20\nRossford, OH 43460 - #211\n(419)873-4100 meijer.com\n04/13/26 Fastlane124\nMEJER SAVINGS\nSPECIALS 7.30\nSAVINGS TOTAL 7.30\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n402.38\nGROCERY\n*85593000190 CROUTONS\nwas 4.99 now 3.69 F\n*85501900035 PASTA SAUCE\n2 @ 4.49\nwas 12.98 now 8.98 F\n*5250005005 MAYONNAISE\nwas 5.49 now 4.99 F\n*8086800010 VEGGIE BURGR\nwas 5.49 now 4.99 F\n*85002026041 MEATLESS BURGE\nwas 7.49 now 6.49 F\nmPerks # -- *********70\nTOTAL\nTOTAL TAX .00\nTOTAL 29.14\nPAYMENTS\nPrimary Account - Debit\nATM/DEBIT CARD TENDER 29.14\nXXXXXXXXXXXX6734 (X)\nAPPROVAL CODE A31596\nUS Debit\nAID A0000000042203\nTC 6A18369F063220C8\nNO CVM REQUIRED\nNUMBER OF ITEMS 6\nA02110QKUZ372SS\nTx:91 Op:575 Tm:124 St:211 13:40:15",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CROUTONS + 85593000190 + was 4.99 now 3.69 F",
+      "price": 3.69,
+      "quantity": 1,
+      "totalSpend": 3.69
+    },
+    {
+      "text": "PASTA SAUCE + 85501900035 + 2 @ 4.49",
+      "price": 4.49,
+      "quantity": 2,
+      "totalSpend": 8.98
+    },
+    {
+      "text": "MAYONNAISE + 5250005005 + was 5.49 now 4.99 F",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "VEGGIE BURGR + 8086800010 + was 5.49 now 4.99 F",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "MEATLESS BURGE + 85002026041 + was 7.49 now 6.49 F",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

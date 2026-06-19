@@ -1,0 +1,276 @@
+{
+  "id": "cmnkmtf9f0099kt0u780es7nj",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "milo's",
+  "amount": 4.48,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": null,
+    "totalCost": "40.94",
+    "purchaseDate": "2026-03-27",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11255.565791,
+        "totalUsd": 0.012861,
+        "inputTokens": 6114,
+        "outputTokens": 410,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "40.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Milo's Fruit Punch - 128 fl oz + 3.5¢/fl oz + SNAP EBT applied",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Banquet Family Size Meatloaf Slices Topped with Gravy, 7g Protein per Serving, Frozen Meal, 24 oz. + 16.1¢/oz + SNAP EBT applied",
+          "quantity": 1,
+          "unitPrice": 3.87,
+          "totalSpend": 3.87,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "1:53\nMar 27, 2026 order\n14\n$40.94\nMilo's Fruit Punch - 128 fl oz\n3.5¢/fl oz\nQty 1\nSNAP EBT applied\n$4.48\n+ Add\nReview item\nBanquet Family Size Meatloaf Slices Topped with Gravy, 7g Protein per Serving, Frozen Meal, 24 oz.\n16.1¢/oz\nQty 1\nSNAP EBT applied\n$3.87\n+ Add\nReview item",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8027.030291000003,
+        "totalUsd": 0.018114,
+        "inputTokens": 3706,
+        "outputTokens": 379,
+        "reasoningTokens": 1016
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "40.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Milo's Fruit Punch - 128 fl oz",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Banquet Family Size Meatloaf Slices Topped with Gravy, 7g Protein per Serving, Frozen Meal, 24 oz.",
+          "quantity": 1,
+          "unitPrice": 3.87,
+          "totalSpend": 3.87,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "1:53\nMar 27, 2026 order\n14\n$40.94\nMilo's Fruit Punch - 128 fl oz\n3.5¢/fl oz\nQty 1\nSNAP EBT applied\n$4.48\n+ Add\nReview item\nBanquet Family Size Meatloaf Slices Topped with Gravy, 7g Protein per Serving, Frozen Meal, 24 oz.\n16.1¢/oz\nQty 1\nSNAP EBT applied\n$3.87\n+ Add\nReview item",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3727.838875000001,
+        "totalUsd": 0.009212999999999999,
+        "inputTokens": 3706,
+        "outputTokens": 406,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "40.94",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "701-787-6177",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Milo's Fruit Punch - 128 fl oz",
+          "quantity": 1,
+          "unitPrice": 4.48,
+          "totalSpend": 4.48,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Banquet Family Size Meatloaf Slices Topped with Gravy, 7g Protein per Serving, Frozen Meal, 24 oz.",
+          "quantity": 1,
+          "unitPrice": 3.87,
+          "totalSpend": 3.87,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "1:53\nMar 27, 2026 order\n$40.94\nMilo's Fruit Punch - 128 fl oz\n3.5¢/fl oz\nQty 1\nSNAP EBT applied\n$4.48\n+ Add\nReview item\nBanquet Family Size Meatloaf Slices Topped with Gravy, 7g Protein per Serving, Frozen Meal, 24 oz.\n16.1¢/oz\nQty 1\nSNAP EBT applied\n$3.87\n+ Add\nReview item",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "$40.94",
+      "price": 40.94,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Milo's Fruit Punch - 128 $4.48",
+      "price": 4.48,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Banquet FAMILY SIZE Banquet Family $3.87",
+      "price": 3.87,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

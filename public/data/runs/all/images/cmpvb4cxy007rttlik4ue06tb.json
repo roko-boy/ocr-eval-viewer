@@ -1,0 +1,243 @@
+{
+  "id": "cmpvb4cxy007rttlik4ue06tb",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "FX Matt Brewery",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": null,
+    "totalCost": "39.22",
+    "purchaseDate": "2026-06-01",
+    "time": null,
+    "zipCode": "10024",
+    "city": "New York",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6787.887665999995,
+        "totalUsd": 0.014439,
+        "inputTokens": 6086,
+        "outputTokens": 590,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "BEST BEER WINE AND DELI",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "39.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:13:15 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20879",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "GAITHERSBURG",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MD",
+          "status": "mismatch"
+        },
+        "streetAddress": {
+          "value": "18749-A NORTH FREDERICK AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2 FLYING DOG DOUBLE DOG 6 + 786243560005",
+          "quantity": 2,
+          "unitPrice": 17.99,
+          "totalSpend": 35.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "BEST BEER WINE AND\nDELI\n18749-A NORTH FREDERICK AVE; GAITHERSBURG, MD-20879\nPhone 212-748-9329\nSales Receipt\nTransaction : 1060120260000\nDate: 06/01/2026\nTime: 10:13:15 AM\nCashier: 2\nRegister : 1\nItem\nQty Description\nAmount\n786243560005\n2 FLYING DOG DOUBLE DOG 6\n$35.98 T3\nSubTotal:\n$35.98\n$35.98 X T3=9.00% Tax:\n$3.24\nTotal:\n$39.22\nVISA Card Received Amount :\n$39.22\nChange:\n$0.00\nTotal Qty Sold:2\n*1060120260000*",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10279.73195799999,
+        "totalUsd": 0.02244,
+        "inputTokens": 3692,
+        "outputTokens": 572,
+        "reasoningTokens": 1306
+      },
+      "fields": {
+        "storeName": {
+          "value": "BEST BEER WINE AND DELI",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "39.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:13:15 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20879",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "GAITHERSBURG",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MD",
+          "status": "mismatch"
+        },
+        "streetAddress": {
+          "value": "18749-A NORTH FREDERICK AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FLYING DOG DOUBLE DOG 6 + 786243560005",
+          "quantity": 2,
+          "unitPrice": 17.99,
+          "totalSpend": 35.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "BEST BEER WINE AND\nDELI\n18749-A NORTH FREDERICK AVE; GAITHERSBURG, MD-20879\nPhone 212-748-9329\nSales Receipt\nTransaction : 1060120260000\nDate: 06/01/2026\nCashier: 2\nTime: 10:13:15 AM\nRegister : 1\nItem Qty Description Amount\n786243560005 2 FLYING DOG DOUBLE DOG 6 $35.98 T3\nSubTotal: $35.98\n$35.98 X T3=9.00% Tax: $3.24\nTotal: $39.22\nVISA Card Received Amount : $39.22\nChange: $0.00\nTotal Qty Sold:2\n*1060120260000*",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4177.360542000002,
+        "totalUsd": 0.010686,
+        "inputTokens": 3692,
+        "outputTokens": 572,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "BEST BEER WINE AND DELI",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "39.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:13:15 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20879",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "GAITHERSBURG",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MD",
+          "status": "mismatch"
+        },
+        "streetAddress": {
+          "value": "18749-A NORTH FREDERICK AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FLYING DOG DOUBLE DOG 6 + 786243560005",
+          "quantity": 2,
+          "unitPrice": 17.99,
+          "totalSpend": 35.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "BEST BEER WINE AND\nDELI\n18749-A NORTH FREDERICK AVE; GAITHERSBURG, MD-20879\nPhone 212-748-9329\nSales Receipt\nTransaction: 1060120260000\nDate: 06/01/2026\nCashier: 2\nTime: 10:13:15 AM\nRegister: 1\nItem Qty Description Amount\n786243560005 2 FLYING DOG DOUBLE DOG 6 $35.98 T3\nSubTotal: $35.98\n$35.98 X T3=9.00% Tax: $3.24\nTotal: $39.22\nVISA Card Received Amount: $39.22\nChange: $0.00\nTotal Qty Sold:2\n*1060120260000*",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FLYING DOG DOUBLE DOG 6 + 786243560005",
+      "price": 17.99,
+      "quantity": 2,
+      "totalSpend": 35.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

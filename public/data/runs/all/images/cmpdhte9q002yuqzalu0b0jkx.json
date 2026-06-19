@@ -1,0 +1,297 @@
+{
+  "id": "cmpdhte9q002yuqzalu0b0jkx",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "JustFoodForDogs",
+  "amount": 14.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "67",
+    "purchaseDate": "2026-05-18",
+    "time": null,
+    "zipCode": "90703",
+    "city": "Cerritos",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13065.49270900001,
+        "totalUsd": 0.018174,
+        "inputTokens": 6086,
+        "outputTokens": 1005,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:26 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90703",
+          "status": "match"
+        },
+        "city": {
+          "value": "CERRITOS",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12601 TOWNE CENTER DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2475",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936654 JFFD-DOG 18Z VEN/SQU + Reg Price: 2@ 15.99",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 31.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003130628 JFFD-DOG 18Z JNT/SKI + Reg Price: 2@ 14.49",
+          "quantity": 2,
+          "unitPrice": 14.49,
+          "totalSpend": 28.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002564037 PAPER BAG FEE-STATE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCERRITOS #01128\n12601 TOWNE CENTER DR\nCERRITOS, CA 90703\n562-924-3018\n05/18/26 4:26PM Reg 002 Trans 200345\nHelped by Natalia\n002936654 JFFD-DOG 18Z VEN/SQU 31.98 T\nReg Price: 2@ 15.99\n003130628 JFFD-DOG 18Z JNT/SKI 28.98 T\nReg Price: 2@ 14.49\n002564037 PAPER BAG FEE-STATE 0.10 N\nTaxable Total 60.96\nSubtotal 61.06\nTax CA 9.75% 5.94\nTOTAL 67.00\nVisa Credit Card 67.00\n2026-05-18 04:26:36 PM\nTotal: USD $67.00\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX2475\nPurchase - APPROVED\nAUTH CODE: 09213I\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 433181\n5 Items\nTransaction Barcode\n011128395002200345202605184214456520\nVital Care Number: 421445652\nN = Non-Taxable",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9093.433916999958,
+        "totalUsd": 0.023763,
+        "inputTokens": 3692,
+        "outputTokens": 997,
+        "reasoningTokens": 1028
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:26 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90703",
+          "status": "match"
+        },
+        "city": {
+          "value": "CERRITOS",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12601 TOWNE CENTER DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2475",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936654 JFFD-DOG 18Z VEN/SQU + Reg Price: 2@ 15.99",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 31.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "00310628 JFFD-DOG 18Z JNT/SKI + Reg Price: 2@ 14.49",
+          "quantity": 2,
+          "unitPrice": 14.49,
+          "totalSpend": 28.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002564037 PAPER BAG FEE-STATE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCERRITOS #01128\n12601 TOWNE CENTER DR\nCERRITOS, CA 90703\n562-924-3018\n05/18/26 4:26PM Reg 002 Trans 200345\nHelped by Natalia\n002936654 JFFD-DOG 18Z VEN/SQU 31.98 T\nReg Price: 2@ 15.99\n00310628 JFFD-DOG 18Z JNT/SKI 28.98 T\nReg Price: 2@ 14.49\n002564037 PAPER BAG FEE-STATE 0.10 N\nTaxable Total 60.96\nSubtotal 61.06\nTax CA 9.75% 5.94\nTOTAL 67.00\nVisa Credit Card 67.00\n2026-05-18 04:26:36 PM\nTotal: USD $67.00\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX2475\nPurchase - APPROVED\nAUTH CODE: 09213I\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 433181\n5 Items\nTransaction Barcode\n011128395002200345202605184214456520\nVital Care Number: 421445652\nN = Non-Taxable",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5271.287125000003,
+        "totalUsd": 0.014286,
+        "inputTokens": 3692,
+        "outputTokens": 972,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:26 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90703",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cerritos",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12601 TOWNE CENTER DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2475",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936654 JFFD-DOG 18Z VEN/SQU",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 31.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003130528 JFFD-DOG 18Z JNT/SKI",
+          "quantity": 2,
+          "unitPrice": 14.49,
+          "totalSpend": 28.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002564037 PAPER BAG FEE-STATE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCERRITOS #01128\n12601 TOWNE CENTER DR\nCERRITOS, CA 90703\n562-924-3018\n05/18/26 4:26PM Reg 002 Trans 200345\nHelped by Natalia\n002936654 JFFD-DOG 18Z VEN/SQU 31.98 T\nReg Price: 2@ 15.99\n003130528 JFFD-DOG 18Z JNT/SKI 28.98 T\nReg Price: 2@ 14.49\n002564037 PAPER BAG FEE-STATE 0.10 N\nTaxable Total 60.96\nSubtotal 61.06\nTax CA 9.75% 5.94\nTOTAL 67.00\nVisa Credit Card 67.00\n2026-05-18 04:26:36 PM\nTotal: USD $67.00\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX2475\nPurchase - APPROVED\nAUTH CODE: 09213I\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 433181\n5 Items\nTransaction Barcode\n011128395002200345202605184214456520\nVital Care Number: 421445652\nN = Non-Taxable",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JFFD-DOG 18Z VEN/SQU + 002936654 + Reg Price: 2@ 15.99",
+      "price": 15.99,
+      "quantity": 2,
+      "totalSpend": 31.98
+    },
+    {
+      "text": "JFFD-DOG 18Z JNT/SKI + 003130628 + Reg Price: 2@ 14.49",
+      "price": 14.49,
+      "quantity": 2,
+      "totalSpend": 28.98
+    },
+    {
+      "text": "PAPER BAG FEE-STATE + 002564037",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

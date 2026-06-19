@@ -1,0 +1,324 @@
+{
+  "id": "cmqe99ytj00fxvs41oxd86jjp",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Simek's",
+  "amount": 8.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "33.04",
+    "purchaseDate": "2026-06-14",
+    "time": null,
+    "zipCode": "55421-1240",
+    "city": "Fridley",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14854.240583,
+        "totalUsd": 0.0190635,
+        "inputTokens": 6163,
+        "outputTokens": 1091,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55421-1240",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fridley",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "755 53rd Ave NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 210020201 SIMEKS",
+          "quantity": 2,
+          "unitPrice": 8.99,
+          "totalSpend": 17.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STATIONERY & OFFICE SUPPLIES + 053050524 Spritz",
+          "quantity": 1,
+          "unitPrice": 1.75,
+          "totalSpend": 1.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STATIONERY & OFFICE SUPPLIES + 053026323 Spritz",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TOYS + 087090041 Scenic Puz",
+          "quantity": 1,
+          "unitPrice": 12.29,
+          "totalSpend": 12.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Fridley - 763-852-0003\n755 53rd Ave NE\nFridley, Minnesota 55421-1240\n06/14/2026 03:44 PM\n\nGROCERY\n210020201 SIMEKS NF $17.98\n2 @ $8.99 ea\nSTATIONERY & OFFICE SUPPLIES\n053050524 Spritz T $1.75\n053026323 Spritz T $1.50\nTOYS\n087090041 Scenic Puz T $12.29\n\nSUBTOTAL $33.52\nTarget Circle Card 5% $1.68 -\nT = MN TAX 8.12500 on $14.76 $1.20\nTOTAL $33.04\n\n*3003 TARGET DEBIT CARD $33.04\nAUTH CODE: 014162\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.68\n\nREC#2-6165-2200-0173-7344-9\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7383 4780 0982\nPassword: 626 551\n\nCUÉNTENOS EN ESPAÑOL\ntake this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10965.517833,
+        "totalUsd": 0.026148,
+        "inputTokens": 3692,
+        "outputTokens": 1064,
+        "reasoningTokens": 1226
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55421-1240",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fridley",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "755 53rd Ave NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 210020201 SIMEKS",
+          "quantity": 2,
+          "unitPrice": 8.99,
+          "totalSpend": 17.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STATIONERY & OFFICE SUPPLIES + 053050524 Spritz",
+          "quantity": 1,
+          "unitPrice": 1.75,
+          "totalSpend": 1.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STATIONERY & OFFICE SUPPLIES + 053026323 Spritz",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TOYS + 087090041 Scenic Puz",
+          "quantity": 1,
+          "unitPrice": 12.29,
+          "totalSpend": 12.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Fridley - 763-852-0003\n755 53rd Ave NE\nFridley, Minnesota 55421-1240\n06/14/2026 03:44 PM\nGROCERY\n210020201 SIMEKS NF $17.98\n2 @ $8.99 ea\nSTATIONERY & OFFICE SUPPLIES\n053050524 Spritz T $1.75\n053026323 Spritz T $1.50\nTOYS\n087090041 Scenic Puz T $12.29\nSUBTOTAL $33.52\nTarget Circle Card 5% $1.68 -\nT = MN TAX 8.12500% on $14.76 $1.20\nTOTAL $33.04\n*3003 TARGET DEBIT CARD $33.04\nAUTH CODE: 014162\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.68\nREC#2-6165-2200-0173-7344-9\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7383 4780 0982\nPassword: 626 551\nCUÉNTENOS EN ESPAÑOL\ntake this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6281.657083,
+        "totalUsd": 0.015105,
+        "inputTokens": 3692,
+        "outputTokens": 1063,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55421-1240",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fridley",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "755 53rd Ave NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 210020201 SIMEKS",
+          "quantity": 2,
+          "unitPrice": 8.99,
+          "totalSpend": 17.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STATIONERY & OFFICE SUPPLIES + 053050524 Spritz",
+          "quantity": 1,
+          "unitPrice": 1.75,
+          "totalSpend": 1.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STATIONERY & OFFICE SUPPLIES + 053026323 Spritz",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TOYS + 087090041 Scenic Puz",
+          "quantity": 1,
+          "unitPrice": 12.29,
+          "totalSpend": 12.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Fridley - 763-852-0003\n755 53rd Ave NE\nFridley, Minnesota 55421-1240\n06/14/2026 03:44 PM\nGROCERY\n210020201 SIMEKS NF $17.98\n2 @ $8.99 ea\nSTATIONERY & OFFICE SUPPLIES\n053050524 Spritz T $1.75\n053026323 Spritz T $1.50\nTOYS\n087090041 Scenic Puz T $12.29\nSUBTOTAL $33.52\nTarget Circle Card 5% $1.68 -\nT = MN TAX 8.12500 on $14.76 $1.20\nTOTAL $33.04\n*3003 TARGET DEBIT CARD $33.04\nAUTH CODE: 014162\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nQuestions about this\nTarget Debit Card transaction\nCall 1-888-729-7331 or write\nPO Box 673\nMinneapolis, MN 55440-0673\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$1.68\nREC#2-6165-2200-0173-7344-9\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7383 4780 0982\nPassword: 626 551\nCUÉNTENOS EN ESPAÑOL\ntake this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GROCERY + 210020201 SIMEKS",
+      "price": 8.99,
+      "quantity": 2,
+      "totalSpend": 17.98
+    },
+    {
+      "text": "STATIONERY & OFFICE SUPPLIES + 053050524 Spritz",
+      "price": 1.75,
+      "quantity": 1,
+      "totalSpend": 1.75
+    },
+    {
+      "text": "STATIONERY & OFFICE SUPPLIES + 053026323 Spritz",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "TOYS + 087090041 Scenic Puz",
+      "price": 12.29,
+      "quantity": 1,
+      "totalSpend": 12.29
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

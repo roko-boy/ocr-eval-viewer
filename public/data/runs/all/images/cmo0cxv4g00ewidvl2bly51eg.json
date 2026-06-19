@@ -1,0 +1,243 @@
+{
+  "id": "cmo0cxv4g00ewidvl2bly51eg",
+  "url": null,
+  "retailer": "Meijer",
+  "brand": "Like Air",
+  "amount": 3.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "3.19",
+    "purchaseDate": "2026-04-15",
+    "time": null,
+    "zipCode": "48146",
+    "city": "Lincoln Park",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11957.60766699997,
+        "totalUsd": 0.01443,
+        "inputTokens": 6086,
+        "outputTokens": 589,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:46:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48146",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lincoln Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3710 Dix Highway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2666",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 85001433501 + PUFFCORN",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n3710 Dix Highway\nLincoln Park, MI 48146 - #208\n(313)294-1700 meijer.com\n04/15/26 Fastlane99\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n60.72\nGROCERY\n85001433501 PUFFCORN 3.19 F\nmPerks # -- ********54\nTOTAL\nTOTAL TAX .00\nTOTAL 3.19\nPAYMENTS\nCREDIT CARDS TENDER 3.19\nXXXXXXXXXXXX2666 (X)\nAPPROVAL CODE 309649\nUS Debit\nAID A0000000042203\nTC 932F5F2358428837\nNO CVM REQUIRED\nNUMBER OF ITEMS 1\nA02080L7ZF39AYS\nTx:123 Op:550 Tm:99 St:208 13:46:21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8217.57154199999,
+        "totalUsd": 0.01965,
+        "inputTokens": 3692,
+        "outputTokens": 613,
+        "reasoningTokens": 955
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:46:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48146",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lincoln Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3710 Dix Highway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2666",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 85001433501 + PUFFCORN",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n3710 Dix Highway\nLincoln Park, MI 48146 - #208\n(313)294-1700          meijer.com\n04/15/26          Fastlane99\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n60.72\nGROCERY\n85001433501   PUFFCORN          3.19 F\nmPerks # -- ********54\nTOTAL\nTOTAL TAX          .00\nTOTAL          3.19\nPAYMENTS\nCREDIT CARDS          TENDER          3.19\nXXXXXXXXXXXX2666          (X)\nAPPROVAL CODE 309649\nUS Debit\nAID A0000000042203\nTC 932F5F2358428837\nNO CVM REQUIRED\nNUMBER OF ITEMS          1\nA02080L7ZF39AYS\nTx:123  Op:550          Tm:99  St:208  13:46:21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3950.811249999999,
+        "totalUsd": 0.010956,
+        "inputTokens": 3692,
+        "outputTokens": 602,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:46:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48146",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lincoln Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3710 Dix Highway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2666",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 85001433501 + PUFFCORN",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n3710 Dix Highway\nLincoln Park, MI 48146 - #208\n(313)294-1700 meijer.com\n04/15/26 Fastlane99\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n60.72\nGROCERY\n85001433501 PUFFCORN 3.19 F\nmPerks # -- ********54\nTOTAL\nTOTAL TAX .00\nTOTAL 3.19\nPAYMENTS\nCREDIT CARDS TENDER 3.19\nXXXXXXXXXXXX2666 (X)\nAPPROVAL CODE 309649\nUS Debit\nAID A0000000042203\nTC 932F5F2358428837\nNO CVM REQUIRED\nNUMBER OF ITEMS 1\nA02080L7ZF39AYS\nTx:123 Op:550 Tm:99 St:208 13:46:21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PUFFCORN + 85001433501",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

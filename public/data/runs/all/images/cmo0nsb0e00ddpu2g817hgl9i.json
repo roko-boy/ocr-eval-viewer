@@ -1,0 +1,243 @@
+{
+  "id": "cmo0nsb0e00ddpu2g817hgl9i",
+  "url": null,
+  "retailer": "CVS",
+  "brand": "gloves in a bottle",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "CVS",
+    "totalCost": "15.9",
+    "purchaseDate": "2026-04-15",
+    "time": null,
+    "zipCode": "11704",
+    "city": "West Babylon",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11526.27845800002,
+        "totalUsd": 0.016797,
+        "inputTokens": 6086,
+        "outputTokens": 852,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "CVS pharmacy",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11704",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEST BABYLON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "204 GREAT E.NECK RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7532",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 SKIN MD 8OZ + ORIGINAL PRICE + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 14.62,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "CVS pharmacy®\n204 GREAT E.NECK RD\nWEST BABYLON, NY 11704\n631.422.7282\nREG#17 TRN#9034 CSHR#0000097 STR#3015\nExtraCare Card #: *********8028\n1 SKIN MD 8OZ EA 14.62T\nORIGINAL PRICE 16.99\nCOUPON SAVINGS 2.37 -\n***********COUPONS APPLIED***********\n1 $1 OFF YOUR PURCHASE 1.00 - CVS\n1 $1 off your next purcha 1.00 - CVS\n2 2% BACK IN EXTRABUCKS R .37 - CVS\n2 .05 BAG FEE EACH .10N-VOID\nSUBTOTAL 14.62\nNY 8.75% TAX 1.28\nTOTAL 15.90\nCHARGE 15.90\n************7532 RF\nCHASE VISA ************7532\nAPPROVED# 03619D REF# 170345\nTRAN TYPE: SALE AID: A0000000031010\nTC: 593EDDCD43CA0FF TERMINAL#\nNO SIGNATURE REQUIRED CVM: 1E0000\nTVR(95): 0000000000 TSI(9B): 0000\nCHANGE .00\n3503 0155 1059 0391 77\nReturns with receipt, subject to\nCVS Return Policy, thru 06/14/2026\nRefund amount is based on price\nafter all coupons and discounts.\nAPRIL 15, 2026 7:05 PM\n14 no-cost vaccines\navailable with most insurance\nProtect yourself against RSV,\nshingles, Tdap & more.\nSubject to availability.\nRestrictions apply.\nScan the QR to schedule your vaccination.\nTRIP SUMMARY:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9775.58804199996,
+        "totalUsd": 0.022161,
+        "inputTokens": 3692,
+        "outputTokens": 846,
+        "reasoningTokens": 1001
+      },
+      "fields": {
+        "storeName": {
+          "value": "CVS pharmacy",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11704",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEST BABYLON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "204 GREAT E. NECK RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7532",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SKIN MD 8OZ + ORIGINAL PRICE + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 14.62,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "❤ CVS pharmacy®\n204 GREAT E. NECK RD.\nWEST BABYLON, NY 11704\n631.422.7282\nREG#17 TRN#9034 CSHR#0000097 STR#3015\nExtraCare Card #: *********8028\n1 SKIN MD 8OZ ER 14.62T\nORIGINAL PRICE 16.99\nCOUPON SAVINGS 2.37 -\n***********COUPONS APPLIED***********\n1 $1 OFF YOUR PURCHASE 1.00 - CVS\n1 $1 off your next purcha 1.00 - CVS\n2 2% BACK IN EXTRABUCKS R .37 - CVS\n2 .05 BAG FEE EACH .10N-VOID\nSUBTOTAL 14.62\nNY 8.75% TAX 1.28\nTOTAL 15.90\nCHARGE 15.90\n************7532 RF\nCHASE VISA ************7532\nAPPROVED# 03619D REF# 170345\nTRAN TYPE: SALE AID: A0000000031010\nTC: 593EDDDC43CA0FF TERMINAL#\nNO SIGNATURE REQUIRED CVM: 1E0000\nTVR(95): 0000000000 TSI(9B): 0000\nCHANGE .00\n3503 0155 1059 0391 77\nReturns with receipt, subject to\nCVS Return Policy, thru 06/14/2026\nRefund amount is based on price\nafter all coupons and discounts.\nAPRIL 15, 2026 7:05 PM\n14 no-cost vaccines\navailable with most insurance\nProtect yourself against RSV,\nshingles, Tdap & more.\nSubject to availability.\nRestrictions apply.\nScan the QR to schedule your vaccination.\nTRIP SUMMARY:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5828.498709000007,
+        "totalUsd": 0.013152,
+        "inputTokens": 3692,
+        "outputTokens": 846,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "CVS pharmacy",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11704",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEST BABYLON",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "204 GREAT E.NECK RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7532",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SKIN MD 8OZ + ORIGINAL PRICE + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 14.62,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "CVS pharmacy®\n204 GREAT E.NECK RD.\nWEST BABYLON, NY 11704\n631.422.7282\nREG#17 TRN#9034 CSHR#0000097 STR#3015\nExtraCare Card #: *********8028\n1 SKIN MD 8OZ EA 14.62T\nORIGINAL PRICE 16.99\nCOUPON SAVINGS 2.37 -\n***********COUPONS APPLIED***********\n1 $1 OFF YOUR PURCHASE 1.00 - CVS\n1 $1 off your next purcha 1.00 - CVS\n2 2% BACK IN EXTRABUCKS R .37 - CVS\n2 .05 BAG FEE EACH .10N-VOID\nSUBTOTAL 14.62\nNY 8.75% TAX 1.28\nTOTAL 15.90\nCHARGE 15.90\n************7532 RF\nCHASE VISA ************7532\nAPPROVED# 03619D REF# 170345\nTRAN TYPE: SALE AID: A0000000031010\nTC: 593EDDCD43CA0FF TERMINAL#\nNO SIGNATURE REQUIRED CVM: 1E0000\nTVR(95): 0000000000 TSI(9B): 0000\nCHANGE .00\n3503 0155 1059 0391 77\nReturns with receipt, subject to\nCVS Return Policy, thru 06/14/2026\nRefund amount is based on price\nafter all coupons and discounts.\nAPRIL 15, 2026 7:05 PM\n14 no-cost vaccines\navailable with most insurance\nProtect yourself against RSV,\nshingles, Tdap & more.\nSubject to availability.\nRestrictions apply.\nScan the QR to schedule your vaccination.\nTRIP SUMMARY:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SKIN MD 8OZ + ORIGINAL PRICE 16.99 + COUPON SAVINGS 2.37 -",
+      "price": 14.62,
+      "quantity": 1,
+      "totalSpend": 14.62
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

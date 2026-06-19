@@ -1,0 +1,486 @@
+{
+  "id": "cmnf0epug0001iyza2r3gbih4",
+  "url": null,
+  "retailer": "Dollar Tree",
+  "brand": "W",
+  "amount": 1.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Dollar Tree",
+    "totalCost": "14.27",
+    "purchaseDate": "2026-03-31",
+    "time": null,
+    "zipCode": "37055",
+    "city": "Dickson",
+    "state": "TN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17924.27129100001,
+        "totalUsd": 0.021846,
+        "inputTokens": 6086,
+        "outputTokens": 1413,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37055-2525",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Dickson",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "456 Hwy 46 South",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4162",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NOODLE EASTER 47IN FSD",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NOODLE EASTER 47IN FSD",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 1756\n(629) 837-0350\n456 Hwy 46 South\nDickson TN 37055-2525\n=========================================\nDESCRIPTION QTY PRICE TOTAL\n-----------------------------------------\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW MENS 2N1 SHMP/COND ASTD 16Z 1 1.25 1.25T\nW MENS 2N1 SHMP/COND ASTD 16Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW MENS 2N1 SHMP/COND ASTD 16Z 1 1.25 1.25T\nNOODLE EASTER 47IN FSD 1 1.50 1.50T\nNOODLE EASTER 47IN FSD 1 1.50 1.50T\nSub Total $13.00\nSALES TAX $1.27\nTotal $14.27\nDebit Card $14.27\n************4162 Approved\nPurchase Cntctless\nAuth/Trace Number: 032914/719983\n=========================================\nPlease provide your feedback at\nwww.dollartreefeedback.com\nGrow your career at Dollar Tree by visiting\nhttps://careers.dollartree.com\n3781 01756 71 171 7771 3/31/26 13:28\nSales Associate: Self-Checkout User",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16542.162625,
+        "totalUsd": 0.041772,
+        "inputTokens": 3692,
+        "outputTokens": 1417,
+        "reasoningTokens": 2609
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37055-2525",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Dickson",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "456 Hwy 46 South",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4162",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NOODLE EASTER 47IN FSD",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NOODLE EASTER 47IN FSD",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 1756 (629) 837-0350\n456 Hwy 46 South\nDickson TN 37055-2525\n========================================\nDESCRIPTION QTY PRICE TOTAL\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW MENS 2N1 SHMP/COND ASTD 16Z 1 1.25 1.25T\nW MENS 2N1 SHMP/COND ASTD 16Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW MENS 2N1 SHMP/COND ASTD 16Z 1 1.25 1.25T\nNOODLE EASTER 47IN FSD 1 1.50 1.50T\nNOODLE EASTER 47IN FSD 1 1.50 1.50T\nSub Total $13.00\nSALES TAX $1.27\nTotal $14.27\nDebit Card $14.27\n************4162 Approved\nPurchase Cntctless\nAuth/Trace Number: 032914/719983\n========================================\nPlease provide your feedback at\nwww.dollartreefeedback.com\nGrow your career at Dollar Tree by visiting\nhttps://careers.dollartree.com\n3781 01756 71 171 7771 3/31/26 13:28\nSales Associate:Self-Checkout User",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6864.523833000014,
+        "totalUsd": 0.018318,
+        "inputTokens": 3692,
+        "outputTokens": 1420,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37055-2525",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Dickson",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "456 Hwy 46 South",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4162",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NOODLE EASTER 47IN FSD",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NOODLE EASTER 47IN FSD",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 1756\n(629) 837-0350\n456 Hwy 46 South\nDickson TN 37055-2525\n=========================================\nDESCRIPTION QTY PRICE TOTAL\n=========================================\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW MENS 2N1 SHMP/COND ASTD 16Z 1 1.25 1.25T\nW MENS 2N1 SHMP/COND ASTD 16Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW EXFOLIATNG BDY WASH ASTD 18Z 1 1.25 1.25T\nW MENS 2N1 SHMP/COND ASTD 16Z 1 1.25 1.25T\nNOODLE EASTER 47IN FSD 1 1.50 1.50T\nNOODLE EASTER 47IN FSD 1 1.50 1.50T\nSub Total $13.00\nSALES TAX $1.27\nTotal $14.27\nDebit Card $14.27\n************4162 Approved\nPurchase Cntctless\nAuth/Trace Number: 032914/719983\n=========================================\nPlease provide your feedback at\nwww.dollartreefeedback.com\nGrow your career at Dollar Tree by visiting\nhttps://careers.dollartree.com\n3781 01756 71 171 7771 3/31/26 13:28\nSales Associate: Self-Checkout User",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "NOODLE EASTER 47IN FSD",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "W EXFOLIATNG BDY WASH ASTD 18Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "W MENS 2N1 SHMP/COND ASTD 16Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "NOODLE EASTER 47IN FSD",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

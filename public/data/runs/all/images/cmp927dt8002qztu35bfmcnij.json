@@ -1,0 +1,235 @@
+{
+  "id": "cmp927dt8002qztu35bfmcnij",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "phx hydration energy",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "3.19",
+    "purchaseDate": "2026-05-16",
+    "time": null,
+    "zipCode": "45255",
+    "city": "Cincinnati",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6927.290625000081,
+        "totalUsd": 0.014745,
+        "inputTokens": 6086,
+        "outputTokens": 624,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:49pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "CINCINNATI",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "450 OHIO PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3301",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PHX ORANGE DRNK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE\n450 OHIO PIKE\n513-528-6120\nYour cashier was CHEC 652\nPHX ORANGE DRNK 2.99 B\nKROGER PLUS CUSTOMER *******6321\nTAX 0.20\n**** BALANCE 3.19\nUS DEBIT Purchase\n************3301 - C\nREF#: 949745 TOTAL: 3.19\nPURCHASE: 3.19 CASHBACK: 0.00\nAID: A0000000980840\nTC: 94C58CF7B824D953\nVERIFIED BY PIN\nDEBIT 3.19\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n05/16/26 08:49pm 431 652 232 999999652\n****************************************\nAnnual Card Savings $1212.56\n****************************************\n****************************************\nFuel Points Earned Today: 3\nTotal May Fuel Points: 329\n****************************************\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kroger.com\nwww.kroger.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9393.128874999995,
+        "totalUsd": 0.021855,
+        "inputTokens": 3692,
+        "outputTokens": 563,
+        "reasoningTokens": 1250
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": "08:49pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "45255-3501 (implied, but not printed, so null per instructions - omitting fields not printed on receipt except as null/omitted. I will omit city, state, zipCode as they are not printed.)",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "450 OHIO PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PHX ORANGE DRNK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE TM\n450 OHIO PIKE\n513-528-6120\nYour cashier was CHEC 652\nPHX ORANGE DRNK 2.99 B\nKROGER PLUS CUSTOMER *******6321\nTAX 0.20\n**** BALANCE 3.19\nUS DEBIT Purchase\n************3301 - C\nREF#: 949745 TOTAL: 3.19\nPURCHASE: 3.19 CASHBACK: 0.00\nAID: A0000000980840\nTC: 94C58CF7B824D953\nVERIFIED BY PIN\nDEBIT 3.19\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n05/16/26 08:49pm 431 652 232 999999652\n*************************************\nAnnual Card Savings $1212.56\n*************************************\n*************************************\nFuel Points Earned Today: 3\nTotal May Fuel Points: 329\n*************************************\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kroger.com\nwww.kroger.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PHX ORANGE DRNK + 652 + KROGER PLUS CUSTOMER *******6321",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 5,
+  "nullCount": 1
+}

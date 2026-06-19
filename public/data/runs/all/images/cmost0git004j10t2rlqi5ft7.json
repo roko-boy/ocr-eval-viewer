@@ -1,0 +1,378 @@
+{
+  "id": "cmost0git004j10t2rlqi5ft7",
+  "url": null,
+  "retailer": "King Soopers",
+  "brand": "Seven Sundays",
+  "amount": 7.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "King Soopers",
+    "totalCost": "26.28",
+    "purchaseDate": "2026-05-04",
+    "time": null,
+    "zipCode": "80550",
+    "city": "Windsor",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7857.935082999989,
+        "totalUsd": 0.019659,
+        "inputTokens": 6086,
+        "outputTokens": 1170,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:03 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80550",
+          "status": "match"
+        },
+        "city": {
+          "value": "Windsor",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1520 Main St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7521",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MOUNTAIN DEW",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SVSN OAT PROTN",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORTG SHELLS + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.87,
+          "totalSpend": 0.95,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ORTEGA SKILLET SCE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEVEN SUNDAYS MAPL",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MMS MILK CHOC",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KING\nSOOPERS\nHometown Grocer. Hometown Team.\n1520 Main St.\n(970) 674-2830 Store\nYour cashier was CHEC 513\nMOUNTAIN DEW 2.89 B\nSVSN OAT PROTN 7.79 B\nORTG SHELLS 1.87 B\nSC SOOPER SAVINGS -0.92\nORTEGA SKILLET SCE 2.99 B\nSEVEN SUNDAYS MAPL 7.79 B\nValued Customer *******4898\nMMS MILK CHOC 1.89 B\nTAX 1.06\n**** BALANCE 26.28\nWindsor CO 80550\nCAPITAL ONE VISA Purchase\n************7521 - C\nREF#: 020130 TOTAL: 26.28\nAID: A0000000031010\nTC: 6D257A743AAFE5F7\nVISA 26.28\nCHANGE 0.00\n3.650% Tax A 0.92\n2.900% Tax D 0.14\nTOTAL TAX 1.06\nTOTAL NUMBER OF ITEMS SOLD = 6\nSooper Card Coupon Savings $0.92\nTotal Coupon Savings $0.92\n05/04/26 04:04pm 104 513 87 999999513\n****************************************\nAnnual Card Savings $0.92\n****************************************\n****************************************\nFuel Points Earned Today: 25\nTotal May Fuel Points: 25\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 05/04/26\nTime: 04:03PM\nEntry ID: 620-897-87-104-513-600\n****************************************\nWith Our Low Prices, You Saved\n$0.92\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16828.462833,
+        "totalUsd": 0.039441,
+        "inputTokens": 3692,
+        "outputTokens": 1171,
+        "reasoningTokens": 2596
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:03 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80550",
+          "status": "match"
+        },
+        "city": {
+          "value": "Windsor",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1520 Main St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7521",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MOUNTAIN DEW",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SVSN OAT PROTN",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORTG SHELLS + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.87,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORTEGA SKILLET SCE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEVEN SUNDAYS MAPL",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MMS MILK CHOC",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KING\nSOOPERS\nHometown Grocer. Hometown Team.\n1520 Main St.\n(970) 674-2830 Store\nYour cashier was CHEC 513\nMOUNTAIN DEW 2.89 B\nSVSN OAT PROTN 7.79 B\nORTG SHELLS -$ 1.87 B\nSC SOOPER SAVINGS 0.92\nORTEGA SKILLET SCE 2.99 B\nSEVEN SUNDAYS MAPL 7.79 B\nValued Customer *******4898\nMMS MILK CHOC 1.89 B\nTAX 1.06\n**** BALANCE 26.28\nWindsor CO 80550\nCAPITAL ONE VISA Purchase\n************7521 - C\nREF#: 020130 TOTAL: 26.28\nAID: A0000000031010\nTC: 6D257A743AAFE5F7\nVISA 26.28\nCHANGE 0.00\n3.650% Tax A 0.92\n2.900% Tax D 0.14\nTOTAL TAX 1.06\nTOTAL NUMBER OF ITEMS SOLD = 6\nSooper Card Coupon Savings $0.92\nTotal Coupon Savings $0.92\n05/04/26 04:04pm 104 513 87 99999513\n****************************************\nAnnual Card Savings $0.92\n****************************************\n****************************************\nFuel Points Earned Today: 25\nTotal May Fuel Points: 25\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 05/04/26\nTime: 04:03PM\nEntry ID: 620-897-87-104-513-600\n****************************************\nWith Our Low Prices, You Saved\n$0.92\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7006.993333000006,
+        "totalUsd": 0.015969,
+        "inputTokens": 3692,
+        "outputTokens": 1159,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:03 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80550",
+          "status": "match"
+        },
+        "city": {
+          "value": "Windsor",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1520 Main St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7521",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MOUNTAIN DEW",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SVSN OAT PROTN",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORTG SHELLS + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.87,
+          "totalSpend": 0.95,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ORTEGA SKILLET SCE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEVEN SUNDAYS MAPL",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MMS MILK CHOC",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KING\nSOOPERS\nHometown Grocer. Hometown Team.\n1520 Main St.\n(970) 674-2830 Store\nYour cashier was CHEC 513\nMOUNTAIN DEW 2.89 B\nSVSN OAT PROTN 7.79 B\nORTG SHELLS 1.87 B\nSC SOOPER SAVINGS -$. 0.92\nORTEGA SKILLET SCE 2.99 B\nSEVEN SUNDAYS MAPL 7.79 B\nValued Customer *******4898\nMMS MILK CHOC 1.89 B\nTAX 1.06\n**** BALANCE 26.28\nWindsor CO 80550\nCAPITAL ONE VISA Purchase\n************7521 - C\nREF#: 020130 TOTAL: 26.28\nAID: A0000000031010\nTC: 6D257A743AAFE5F7\nVISA 26.28\nCHANGE 0.00\n3.650% Tax A 0.92\n2.900% Tax D 0.14\nTOTAL TAX 1.06\nTOTAL NUMBER OF ITEMS SOLD = 6\nSooper Card Coupon Savings $0.92\nTotal Coupon Savings $0.92\n05/04/26 04:04pm 104 513 87 999999513\n****************************************\nAnnual Card Savings $0.92\n****************************************\n****************************************\nFuel Points Earned Today: 25\nTotal May Fuel Points: 25\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 05/04/26\nTime: 04:03PM\nEntry ID: 620-897-87-104-513-600\n****************************************\nWith Our Low Prices, You Saved\n$0.92\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MOUNTAIN DEW",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "SV N OAT PROTN",
+      "price": 7.79,
+      "quantity": 1,
+      "totalSpend": 7.79
+    },
+    {
+      "text": "ORTG SHELLS + SC SOOPER SAVINGS 0.92",
+      "price": 1.87,
+      "quantity": 1,
+      "totalSpend": 1.87
+    },
+    {
+      "text": "ORTEGA SKILLET SCE",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SEVEN SUNDAYS MAPL + Valued Customer *******4898",
+      "price": 7.79,
+      "quantity": 1,
+      "totalSpend": 7.79
+    },
+    {
+      "text": "MMS MILK CHOC",
+      "price": 1.89,
+      "quantity": 1,
+      "totalSpend": 1.89
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

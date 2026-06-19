@@ -1,0 +1,243 @@
+{
+  "id": "cmobvfhi3006hy7qmarj27bo3",
+  "url": null,
+  "retailer": "The Vitamin Shoppe",
+  "brand": "Update",
+  "amount": 3.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "The Vitamin Shoppe",
+    "totalCost": null,
+    "purchaseDate": "2026-04-23",
+    "time": null,
+    "zipCode": "76132",
+    "city": "Fort Worth",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6256.241375999991,
+        "totalUsd": 0.013863,
+        "inputTokens": 6086,
+        "outputTokens": 526,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Vitamin Shoppe",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.78",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:23PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76132",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ft Worth",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4801 S. Hulen St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2498517 UPDATE BERRY ENERGY",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "The Vitamin Shoppe 0301\n4801 S. Hulen St.\nFt Worth, TX 76132\n(817) 423-4326\n\n04/23/26 2:23PM Reg 001 Trans 74089\nHelped by 1453\n\nSALE\n\n2498517 UPDATE BERRY ENERGY - 3.49 T\n\nSubtotal 3.49\n\nTax S 6.25% 0.22\nTax Local Sales and Use Tax 2% 0.07\nTOTAL 3.78\n\nCash Tender in US Dollars 10.00\nCash Tender in USD Dollar 0.03\nCHANGE (CASH) -6.25\n\n1 Item",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 5866.968166000006,
+        "totalUsd": 0.012891,
+        "inputTokens": 3692,
+        "outputTokens": 502,
+        "reasoningTokens": 315
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Vitamin Shoppe",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.78",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:23PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76132",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ft Worth",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4801 S. Hulen St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2498517 UPDATE BERRY ENERGY",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "The Vitamin Shoppe 0301\n4801 S. Hulen St.\nFt Worth, TX 76132\n(817) 423-4326\n\n04/23/26 2:23PM Reg 001 Trans 74089\nHelped by 1453\n\nSALE\n\n2498517 UPDATE BERRY ENERGY - 3.49 T\n\nSubtotal 3.49\n\nTax S 6.25% 0.22\nTax Local Sales and Use Tax 2% 0.07\nTOTAL 3.78\n\nCash Tender in US Dollars 10.00\nCash Tender in USD Dollar 0.03\nCHANGE (CASH) -6.25\n\n1 Item",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5722.452250000002,
+        "totalUsd": 0.010038,
+        "inputTokens": 3692,
+        "outputTokens": 500,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Vitamin Shoppe",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.78",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:23PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76132",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ft Worth",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4801 S. Hulen St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2498517 UPDATE BERRY ENERGY",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "The Vitamin Shoppe 0301\n4801 S. Hulen St.\nFt Worth, TX 76132\n(817) 423-4326\n\n04/23/26 2:23PM Reg 001 Trans 74089\nHelped by 1453\n\nSALE\n\n2498517 UPDATE BERRY ENERGY - 3.49 T\n\nSubtotal 3.49\nTax S 6.25% 0.22\nTax Local Sales and Use Tax 2% 0.07\nTOTAL 3.78\n\nCash Tender in US Dollars 10.00\nCash Tender in USD Dollar 0.03\nCHANGE (CASH) -6.25\n\n1 Item",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "UPDATE BERRY ENERGY + 2498517",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

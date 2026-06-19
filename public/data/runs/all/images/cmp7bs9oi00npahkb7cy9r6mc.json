@@ -1,0 +1,399 @@
+{
+  "id": "cmp7bs9oi00npahkb7cy9r6mc",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "Yesly Water",
+  "amount": 2.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": null,
+    "totalCost": "8.4",
+    "purchaseDate": "2026-05-08",
+    "time": null,
+    "zipCode": "91706",
+    "city": "Baldwin Park",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 21850.55079199997,
+        "totalUsd": 0.0444075,
+        "inputTokens": 6169,
+        "outputTokens": 1096,
+        "reasoningTokens": 2810
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "8.4",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "21:56:45",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Hacienda Heights",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2060 S. Hacienda Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2006",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRK CHOC PB BAR + 1 @ 2 FOR 3.00 + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTR-SPRKLNG MINDFUL + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTR-SPRKLNG MINDFUL + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTR-SPRKLNG MINDFUL + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2060 S. Hacienda Blvd\nHacienda Heights, CA\n626-735-4149\nStore Hours MON-SUN 7AM-10PM\n05/08/2026 21:56:45\nAMERICAN EXPRESS Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX2006\nPURCHASE APPROVED\nAUTH CODE: 503360\nMode: Issuer\nAID: A000000025010801\nTVR: 0000008000\nIAD: 06640103A0A006\nTSI: A800 ARC: 00\nTC: 93B9FF621AD104BF\nMID: 298604 110 001 RRN: 334417\nTotal: USD$ 8.40\nGROCERY\nDRK CHOC PB BAR 1.50\n1 @ 2 FOR 3.00\nDGTL CPN Quantum E -1.50\nWTR-SPRKLNG MINDFUL 2.50 T\n1 @ 2 FOR 5.00\n*CRV FS/TX 05 0.05 T\nWTR-SPRKLNG MINDFUL 2.50 T\n1 @ 2 FOR 5.00\n*CRV FS/TX 05 0.05 T\nWTR-SPRKLNG MINDFUL 2.50 T\n1 @ 2 FOR 5.00\n*CRV FS/TX 05 0.05 T",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15492.77733299998,
+        "totalUsd": 0.037011,
+        "inputTokens": 3692,
+        "outputTokens": 1062,
+        "reasoningTokens": 2435
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "8.4",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "21:56:45",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Hacienda Heights",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2060 S. Hacienda Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2006",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRK CHOC PB BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WTR-SPRKLNG MINDFUL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTR-SPRKLNG-MINDFUL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTR-SPRKLNG MINDFUL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2060 S. Hacienda Blvd\nHacienda Heights, CA\n626-735-4149\nStore Hours MON-SUN 7AM-10PM\n\n05/08/2026 21:56:45\nAMERICAN EXPRESS Entry Method: Cntctless\nCARD #:\nXXXXXXXXXXX2006\nPURCHASE\nAPPROVED\nAUTH CODE: 503360\n\nMode:\nIssuer\nAID:\nA000000025010801\nTVR:\n0000008000\nIAD:\n06640103A0A006\nTSI: A800\nARC: 00\nTC:\n93B9FF621AD104BF\nMID: 298604 110 001\nRRN: 334417\n\nTotal:\nUSD$ 8.40\n\nGROCERY\nDRK CHOC PB BAR\n1.50\n1 @ 2 FOR 3.00\nDGTL CPN Quantum E\n-1.50\nWTR-SPRKLNG MINDFUL\n2.50 T\n1 @ 2 FOR 5.00\n*CRV FS/TX 05\n0.05 T\nWTR-SPRKLNG-MINDFUL\n2.50 T\n1 @ 2 FOR 5.00\n*CRV FS/TX 05\n0.05 T\nWTR-SPRKLNG MINDFUL\n2.50 T\n1 @ 2 FOR 5.00\n*CRV FS/TX 05\n0.05 T",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5043.819500000012,
+        "totalUsd": 0.015132,
+        "inputTokens": 3692,
+        "outputTokens": 1066,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "8.4",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "21:56:45",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91745",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Hacienda Heights",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2060 S. Hacienda Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2006",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRK CHOC PB BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WTR-SPRKLNG MINDFUL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTR-SPRKLNG MINDFUL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTR-SPRKLNG MINDFUL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2060 S. Hacienda Blvd\nHacienda Heights, CA\n626-735-4149\nStore Hours MON-SUN 7AM-10PM\n05/08/2026\n21:56:45\nAMERICAN EXPRESS Entry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX2006\nPURCHASE\nAPPROVED\nAUTH CODE: 503360\nMode:\nIssuer\nAID:\nA000000025010301\nTVR:\n0000008000\nIAD:\n06640103A0A006\nTSI: A800\nARC: 00\nTC:\n93B9FF621AD104BF\nMID: 298604\n110 001\nRRN: 334417\nTotal:\nUSD$ 8.40\nGROCERY\nDRK CHOC PB BAR\n1.50\n1 @ 2 FOR 3.00\nDGTL CPN Quantum E\n-1.50\nWTR-SPRKLNG MINDFUL\n2.50 T\n1 @ 2 FOR 5.00\n*CRV FS/TX 05\n0.05 T\nWTR-SPRKLNG MINDFUL\n2.50 T\n1 @ 2 FOR 5.00\n*CRV FS/TX 05\n0.05 T\nWTR-SPRKLNG MINDFUL\n2.50 T\n1 @ 2 FOR 5.00\n*CRV FS/TX 05\n0.05 T",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "DRK CHOC PB BAR + 1 @ 2 FOR 3.00",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "WTR-SPRKLNG MINDFUL + 1 @ 2 FOR 5.00",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "CRV FS/TX 05",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "WTR-SPRKLNG-MINDFUL + 1 @ 2 FOR 5.00",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "CRV FS/TX 05",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "WTR-SPRKLNG MINDFUL + 1 @ 2 FOR 5.00 + 0.05 T",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

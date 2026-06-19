@@ -1,0 +1,297 @@
+{
+  "id": "cmqhd5csz00qpxgdo2a0b9brx",
+  "url": null,
+  "retailer": "Vons",
+  "brand": "f'real",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Vons",
+    "totalCost": "12.97",
+    "purchaseDate": "2026-06-16",
+    "time": null,
+    "zipCode": "93010",
+    "city": "CAMARILLO",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8611.663834000006,
+        "totalUsd": 0.015726,
+        "inputTokens": 6086,
+        "outputTokens": 733,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:56",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93010",
+          "status": "match"
+        },
+        "city": {
+          "value": "CAMARILLO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "860 Arneill Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8979",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ICEE 16 OZ",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COLUMBUS SNACK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL CHOC CHILL",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Store 5836 Dir Joanna Carpenter\nMain: 805-322-6230 Rx:\n860 Arneill Rd\nCAMARILLO CA 93010\n\nDELI\n\nICEE 16 OZ 1.99 S\nCOLUMBUS SNACK 6.99 S\nFREAL CHOC CHILL 3.99 S\n\nTAX 0.00\n**** BALANCE 12.97\n\nCredit Purchase 06/16/26 17:56\nCARD # ************8979\nREF: 565650489790 AUTH: 00864963\n\nPAYMENT AMOUNT 12.97\n\nAL AMEX CREDIT\nAID A000000025010901\nTVR 0000008000\nAMEX 12.97\n\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n06/16/26 17:56 5836 46 315 8784\n\n' <RS\n\nday 12\nle 664",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7704.02695900001,
+        "totalUsd": 0.016446,
+        "inputTokens": 3692,
+        "outputTokens": 703,
+        "reasoningTokens": 509
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:56",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93010",
+          "status": "match"
+        },
+        "city": {
+          "value": "CAMARILLO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "860 Arneill Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8979",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ICEE 16 OZ",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COLUMBUS SNACK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL CHOC CHILL",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Store 5836 Dir Joanna Carpenter\nMain: 805-322-6230 Rx:\n860 Arneill Rd\nCAMARILLO CA 93010\nDELI\nICEE 16 OZ 1.99 S\nCOLUMBUS SNACK 6.99 S\nFREAL CHOC CHILL 3.99 S\nTAX 0.00\n**** BALANCE 12.97\nCredit Purchase 06/16/26 17:56\nCARD # ************8979\nREF: 565650489790 AUTH: 00864963\nPAYMENT AMOUNT 12.97\nAL AMEX CREDIT\nAID A000000025010901\nTVR 0000008000\nAMEX 12.97\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n06/16/26 17:56 5836 46 315 8784\n'<RS\nday 12\nle 664",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4719.874624999997,
+        "totalUsd": 0.011784,
+        "inputTokens": 3692,
+        "outputTokens": 694,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:56",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93010",
+          "status": "match"
+        },
+        "city": {
+          "value": "CAMARILLO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "860 Arneill Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8979",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ICEE 16 OZ",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COLUMBUS SNACK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL CHOC CHILL",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Store 5836 Dir Joanna Carpenter\nMain: 805-322-6230 Rx:\n860 Arneill Rd\nCAMARILLO CA 93010\nDELI\nICEE 16 OZ\n1.99 S\nCOLUMBUS SNACK\n6.99 S\nFREAL CHOC CHILL\n3.99 S\nTAX\n0.00\n**** BALANCE\n12.97\nCredit Purchase 06/16/26 17:56\nCARD # ************8979\nREF: 565650489790 AUTH: 00864963\nPAYMENT AMOUNT\n12.97\nAL AMEX CREDIT\nAID A000000025010901\nTVR 0000008000\nAMEX\n12.97\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n3\n06/16/26 17:56 5836 46 315 8784",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ICEE 16 OZ",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "COLUMBUS SNACK",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "FREAL CHOC CHILL",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

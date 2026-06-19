@@ -1,0 +1,513 @@
+{
+  "id": "cmp0auk1o00d7uimxbeq4g02u",
+  "url": null,
+  "retailer": "Raley's Supermarkets",
+  "brand": "Happy Dad",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Raley's Supermarkets",
+    "totalCost": "63.75",
+    "purchaseDate": "2026-05-10",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 20033.430167,
+        "totalUsd": 0.021837,
+        "inputTokens": 6086,
+        "outputTokens": 1412,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Bel Air",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "63.75",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:27:02",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "CA",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT CARDS",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1342",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KINDERS HCKRY BRWN + => 3.50 Member price",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MT OLV NO SUGAR BR + => 3.99 Member price",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PANDA BLACK LICORI",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFF KETCHUP + => 3.50 Member price",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ANGRY ORCHARD IMPE + => 11.99 Member price + Age Validated",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV 6PK LIQ TX",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FIRESTONE 805 + => 10.99 Member price",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV 6PK LIQ TX",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HAPPY DAD SELTZER + => 20.99 Member price",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 20.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV 12PK LIQ TX",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GROCERY BAG CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "BEL AIR\nGet Something Extra\nat Raleys.com\nTERM# 10  STORE# 502  OPERATOR# 724057\n05/10/26  14:27:02\nBEL AIR  (800)925-9989\nSOMETHING EXTRA ACCT. XXXXXXX0412\nGrocery Items\nKINDERS HCKRY BRWN  Q1  5.49 F\n=> 3.50 Member price  -1.99 F\nMT OLV NO SUGAR BR  Q1  4.49 F\n=> 3.99 Member price  -.50 F\nPANDA BLACK LICORI  Q1  3.99 F\nRFF KETCHUP  Q1  4.49 F\n=> 3.50 Member price  -.99 F\nLiquor Items\nANGRY ORCHARD IMPE  Q1  12.99 T\n=> 11.99 Member price  -1.00 T\nAge Validated\n+CRV 6PK LIQ TX  Q1  .30 T\nFIRESTONE 805  Q1  12.99 T\n=> 10.99 Member price  -2.00 T\n+CRV 6PK LIQ TX  Q1  .30 T\nHAPPY DAD SELTZER  Q1  21.99 T\n=> 20.99 Member price  -1.00 T\n+CRV 12PK LIQ TX  Q1  .60 T\nMiscellaneous Items\nGROCERY BAG CHARGE  Q1  .10\nSUBTOTAL  60.25\n7.75% TAX CA  3.50\nTOTAL  $ 63.75\nCREDIT CARDS  63.75\nXXXXXXXXXXXX1342\nCASH  CHANGE  .00\nNUMBER OF ITEMS  11",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19497.586584,
+        "totalUsd": 0.041709,
+        "inputTokens": 3692,
+        "outputTokens": 1360,
+        "reasoningTokens": 2659
+      },
+      "fields": {
+        "storeName": {
+          "value": "Bel Air",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "63.75",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:27:02",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "CA",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1342",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KINDERS HCKRY BRWN + => 3.50 Member price",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MT OLV NO SUGAR BR + => 3.99 Member price",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PANDA BLACK LICORI",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFF KETCHUP + => 3.50 Member price",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ANGRY ORCHARD IMPE + => 11.99 Member price + Age Validated",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV 6PK LIQ TX",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FIRESTONE 805 + => 10.99 Member price",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV 6PK LIQ TX",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HAPPY DAD SELTZER + => 20.99 Member price",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 20.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV 12PK LIQ TX",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GROCERY BAG CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "BEL AIR\nGet Something Extra\nat Raleys.com\nTERM# 10 STORE# 502 OPERATOR# 724057\n05/10/26 14:27:02\nBEL AIR (800)925-9989\n\nSOMETHING EXTRA ACCT. XXXXXXX0412\nGrocery Items\nKINDERS HCKRY BRWN Q1 5.49 F\n=> 3.50 Member price -1.99 F\nMT OLV NO SUGAR BR Q1 4.49 F\n=> 3.99 Member price -.50 F\nPANDA BLACK LICORI Q1 3.99 F\nRFF KETCHUP Q1 4.49 F\n=> 3.50 Member price -.99 F\nLiquor Items\nANGRY ORCHARD IMPE Q1 12.99 T\n=> 11.99 Member price -1.00 T\nAge Validated\n+CRV 6PK LIQ TX Q1 .30 T\nFIRESTONE 805 Q1 12.99 T\n=> 10.99 Member price -2.00 T\n+CRV 6PK LIQ TX Q1 .30 T\nHAPPY DAD SELTZER Q1 21.99 T\n=> 20.99 Member price -1.00 T\n+CRV 12PK LIQ TX Q1 .60 T\nMiscellaneous Items\nGROCERY BAG CHARGE Q1 .10\nSUBTOTAL 60.25\n7.75% TAX CA 3.50\nTOTAL $ 63.75\nCREDIT CARDS 63.75\nXXXXXXXXXXXX1342\nCASH CHANGE .00\nNUMBER OF ITEMS 11",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 66183.8445,
+        "totalUsd": 0.018099,
+        "inputTokens": 3786,
+        "outputTokens": 1380,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Bel Air",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "63.75",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:27:02",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95608",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KINDERS HCKRY BRWN + => 3.50 Member price",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MT OLV NO SUGAR BR + => 3.99 Member price",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PANDA BLACK LICORI",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RFF KETCHUP + => 3.50 Member price",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ANGRY ORCHARD IMPE + => 11.99 Member price + Age Validated",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV 6PK LIQ TX",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FIRESTONE 805 + => 10.99 Member price",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV 6PK LIQ TX",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HAPPY DAD SELTZER + => 20.99 Member price",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 20.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV 12PK LIQ TX",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GROCERY BAG CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "BEL AIR\nGet Something Extra\nat Raleys.com\nTERM# 10 STORE# 502 OPERATOR# 724057\n05/10/26 14:27:02\nBEL AIR (800)925-9989\nSOMETHING EXTRA ACCT. XXXXXXX0412\nGrocery Items\nKINDERS HCKRY BRWN Q1 5.49 F\n=> 3.50 Member price -1.99 F\nMT OLV NO SUGAR BR Q1 4.49 F\n=> 3.99 Member price -.50 F\nPANDA BLACK LICORI Q1 3.99 F\nRFF KETCHUP Q1 4.49 F\n=> 3.50 Member price -.99 F\nLiquor Items\nANGRY ORCHARD IMPE Q1 12.99 T\n=> 11.99 Member price -1.00 T\nAge Validated\n+CRV 6PK LIQ TX Q1 .30 T\nFIRESTONE 805 Q1 12.99 T\n=> 10.99 Member price -2.00 T\n+CRV 6PK LIQ TX Q1 .30 T\nHAPPY DAD SELTZER Q1 21.99 T\n=> 20.99 Member price -1.00 T\n+CRV 12PK LIQ TX Q1 .60 T\nMiscellaneous Items\nGROCERY BAG CHARGE Q1 .10\nSUBTOTAL 60.25\n7.75% TAX CA 3.50\nTOTAL $ 63.75\nCREDIT CARDS 63.75\nXXXXXXXXXXXX1342\nCASH CHANGE .00\nNUMBER OF ITEMS 11",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KINDERS HCKRY BRWN",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "MT OLV NO SUGAR BR",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "PANDA BLACK LICORI",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "RFF KETCHUP",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "ANGRY ORCHARD IMPE",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "CRV 6PK LIQ TX",
+      "price": 0.3,
+      "quantity": 1,
+      "totalSpend": 0.3
+    },
+    {
+      "text": "FIRESTONE 805",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "CRV 6PK LIQ TX",
+      "price": 0.3,
+      "quantity": 1,
+      "totalSpend": 0.3
+    },
+    {
+      "text": "HAPPY DAD SELTZER",
+      "price": 20.99,
+      "quantity": 1,
+      "totalSpend": 20.99
+    },
+    {
+      "text": "CRV 12PK LIQ TX + Mi scel l aneous Items-",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0.6
+    },
+    {
+      "text": "GROCERY BAG CHARGE",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

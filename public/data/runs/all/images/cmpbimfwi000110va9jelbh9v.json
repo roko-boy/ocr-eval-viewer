@@ -1,0 +1,243 @@
+{
+  "id": "cmpbimfwi000110va9jelbh9v",
+  "url": null,
+  "retailer": "7-Eleven",
+  "brand": "Wilde Brands Inc.",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "7-Eleven",
+    "totalCost": "3.59",
+    "purchaseDate": "2026-05-16",
+    "time": null,
+    "zipCode": "11725",
+    "city": "COMMACK",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10603.693499,
+        "totalUsd": 0.015168,
+        "inputTokens": 6086,
+        "outputTokens": 671,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "7-Eleven",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-18",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "2:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11725-4316",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "COMMACK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2 VETERAN'S MEMORIAL HW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1570",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 WILDE PrtnChpsChckn&Wffls1.34z",
+          "quantity": 1,
+          "unitPrice": 3.59,
+          "totalSpend": 3.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "7 ELEVEN\n2 VETERAN'S MEMORIAL HW\nCOMMACK NY 117254316\nPh: 6316707602\nSTORE#: 20480\nTHANKS\n\nSALE\n\n1 WILDE PrtnChpsChckn&Wffls1.34z  3.59 F\n\nSUBTOTAL  $3.59\nTOTAL DUE  $3.59\n\nVISA  $3.59\nACCT#: ************1570\nAPPROVAL#: 02669I  AUTH CODE: 0\nAPPROVAL TIME: 140421\nTERM#: 00072048011\nREF#: 72785155744\nAPP NAME: VISACREDIT\nAID: A0000000031010\nENTRY: CONTACTLESS\nAPPROVED\nPIN VERIFIED\nCRYPTO: ARQC EF2C1F2A9D4A2778\n\n# ITEMS SOLD 1\nCUSTOMER AGREES TO PAY THE ABOVE\nTOTAL AMOUNT ACCORDING TO THE CARD\nHOLDERS AGREEMENT\nMEMBER ID: ****************8895\nmemberTransaction\n\nDON'T FORGET THE ICE! DRIVE SAFE\n\n#01 OP12 TRN6966 05/18/2026 2:04 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12194.05695900001,
+        "totalUsd": 0.025005,
+        "inputTokens": 3692,
+        "outputTokens": 663,
+        "reasoningTokens": 1500
+      },
+      "fields": {
+        "storeName": {
+          "value": "7-Eleven",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-18",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "2:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "117254316",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "COMMACK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2 VETERAN'S MEMORIAL HW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1570",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WILDE PrtnChpsChckn&Wffls1.34z",
+          "quantity": 1,
+          "unitPrice": 3.59,
+          "totalSpend": 3.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "7 ELEVEN\n2 VETERAN'S MEMORIAL HW\nCOMMACK NY 117254316\nPh: 6316707602\nSTORE#: 2D480\nTHANKS\n\nSALE\n\n1 WILDE PrtnChpsChckn&Wffls1.34z  3.59 F\n\nSUBTOTAL  $3.59\nTOTAL DUE  $3.59\n\nVISA  $3.59\nACCT#: ************1570\nAPPROVAL#: 02669I  AUTH CODE: 0\nAPPROVAL TIME: 140421\nTERM#: 00072048011\nREF#: 72785155744\nAPP NAME: VISACREDIT\nAID: A0000000031010\nENTRY: CONTACTLESS\nAPPROVED\nPIN VERIFIED\nCRYPTO: ARQC EF2C1F2A9D4A2778\n\n# ITEMS SOLD 1\nCUSTOMER AGREES TO PAY THE ABOVE\nTOTAL AMOUNT ACCORDING TO THE CARD\nHOLDERS AGREEMENT\nMEMBER ID: ****************8895\nmemberTransaction\n\nDON'T FORGET THE ICE! DRIVE SAFE\n\n#01 OP12 TRN6966 05/18/2026 2:04 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4835.314541,
+        "totalUsd": 0.011415,
+        "inputTokens": 3692,
+        "outputTokens": 653,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "7-Eleven",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-18",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "2:04 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11725",
+          "status": "match"
+        },
+        "city": {
+          "value": "COMMACK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2 VETERAN'S MEMORIAL HW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1570",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WILDE PrtnChpsChckn&Wffls1.34z",
+          "quantity": 1,
+          "unitPrice": 3.59,
+          "totalSpend": 3.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "7 ELEVEN\n2 VETERAN'S MEMORIAL HW\nCOMMACK NY 117254316\nPh: 6316707602\nSTORE#: 20480\nTHANKS\n\nSALE\n1 WILDE PrtnChpsChckn&Wffls1.34z 3.59 F\n\nSUBTOTAL $3.59\nTOTAL DUE $3.59\n\nVISA $3.59\nACCT#: ************1570\nAPPROVAL#: 02669I AUTH CODE: 0\nAPPROVAL TIME: 140421\nTERM#: 00072048011\nREF#: 72785155744\nAPP NAME: VISACREDIT\nAID: A0000000031010\nENTRY: CONTACTLESS\nAPPROVED\nPIN VERIFIED\nCRYPTO: ARQC EF2C1F2A9D4A2778\n\n# ITEMS SOLD 1\nCUSTOMER AGREES TO PAY THE ABOVE\nTOTAL AMOUNT ACCORDING TO THE CARD\nHOLDERS AGREEMENT\nMEMBER ID: ****************8895\nmemberTransaction\n\nDON'T FORGET THE ICE! DRIVE SAFE\n\n#01 OP12 TRN6966 05/18/2026 2:04 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "WILDE PrtnChpsChckn&Wffls1.34z",
+      "price": 3.59,
+      "quantity": 1,
+      "totalSpend": 3.59
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

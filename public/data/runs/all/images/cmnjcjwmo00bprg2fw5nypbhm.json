@@ -1,0 +1,270 @@
+{
+  "id": "cmnjcjwmo00bprg2fw5nypbhm",
+  "url": null,
+  "retailer": "Farmers Market",
+  "brand": "BEAM Be Amazing",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Farmers Market",
+    "totalCost": "4.33",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "30253",
+    "city": "McDonough",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12218.642334,
+        "totalUsd": 0.0276705,
+        "inputTokens": 6225,
+        "outputTokens": 896,
+        "reasoningTokens": 1141
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:15:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30253",
+          "status": "match"
+        },
+        "city": {
+          "value": "McDonough",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1040 Chen Parkway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3508",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PINK LEM GREENS DRNK",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEY LME CCNTMLK YGRT + 1 @ 3 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 1.67,
+          "totalSpend": 1.67,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1040 Chen Parkway\nMcDonough, GA 30253\n678-470-0983\nStore Hours MON-SUN 7AM-10PM\n\n04/03/2026 16:15:01\nUS Debit Entry Method: Chip\nCARD #: XXXXXXXXXXXX3508\nPURCHASE - APPROVED\nAUTH CODE:820345\n\nMode: Issuer\nAID: A0000000042203\nTVR: 0000088000\nIAD: 0210A0400122000000000000000000000000\nTSI: E800 ARC: 00\nTC: B3091B145F58ECE0\nMID: 087854 TID: 001 RRN: 313099\n\nTotal: USD$ 4.33\n\nVITAMINS\nPINK LEM GREENS DRNK 2.49 M\n\nDAIRY\nKEY LME CCNTMLK YGRT 1.67 M\n1 @ 3 FOR 5.00\n\nTax Report\nCO Food Tax 4.16 0.17 TT\n\nBALANCE DUE 4.33\nDEBIT $4.33\n[ ] XXXXXXXXXXXX3508\nAuth# 820345 Ref# 313099\nCHANGE 0.00\n\nCard XXXXXXXXXX8701\nHave a Healthy Day Russ!\n****************************************\nSprouts Rewards\nPrevious Points Balance: 500\nTotal Points earned today: 20\nNew points balance: 520\n****************************************\n99053203134520931614",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12419.14841700002,
+        "totalUsd": 0.028305,
+        "inputTokens": 3720,
+        "outputTokens": 877,
+        "reasoningTokens": 1648
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:15:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30253",
+          "status": "match"
+        },
+        "city": {
+          "value": "McDonough",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1040 Chen Parkway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3508",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PINK LEM GREENS DRNK",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEY LME CCNTMLK YGRT + 1 @ 3 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 1.67,
+          "totalSpend": 1.67,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1040 Chen Parkway\nMcDonough, GA 30253\n678-470-0983\nStore Hours MON-SUN 7AM-10PM\n\n04/03/2026 16:15:01\nUS Debit Entry Method: Chip\nCARD #:\nXXXXXXXXXXXX3508\nPURCHASE - APPROVED\nAUTH CODE:820345\n\nMode: Issuer\nAID: A0000000042203\nTVR: 0000088000\nIAD: 0210A0400122000000000000000000000000\nTSI: E800 ARC: 00\nTC: B3091B145F58ECE0\nMID: 087854 TID: 001 RRN: 313099\n\nTotal: USD$ 4.33\n\nVITAMINS\nPINK LEM GREENS DRNK 2.49 M\n\nDAIRY\nKEY LME CCNTMLK YGRT 1.67 M\n1 @ 3 FOR 5.00\n\nTax Report\nCO Food Tax 4.16 0.17 TT\n\nBALANCE DUE 4.33\nDEBIT $4.33\n[ ] XXXXXXXXXXXX3508\nAuth# 820345 Ref# 313099\nCHANGE 0.00\n\nCard XXXXXXXXXX8701\n\nHave a Healthy Day Russ!\n***********************************\nSprouts Rewards\n\nPrevious Points Balance: 500\nTotal Points earned today: 20\nNew points balance: 520\n***********************************\n99053203134520931614",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5866.160833000002,
+        "totalUsd": 0.013509,
+        "inputTokens": 3720,
+        "outputTokens": 881,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:15:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30253",
+          "status": "match"
+        },
+        "city": {
+          "value": "McDonough",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1040 Chen Parkway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3508",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VITAMINS + PINK LEM GREENS DRNK",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAIRY + KEY LME CCNTMLK YGRT + 1 @ 3 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 1.67,
+          "totalSpend": 1.67,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1040 Chen Parkway\nMcDonough, GA 30253\n678-470-0983\nStore Hours MON-SUN 7AM-10PM\n04/03/2026\n16:15:01\nUS Debit\nEntry Method: Chip\nCARD #:\nXXXXXXXXXXXX3508\nPURCHASE\n- APPROVED\nAUTH CODE:820345\nMode:\nIssuer\nAID:\nA0000000042203\nTVR:\n0000088000\nIAD:\n0210A040012200000000000000000000\n000FF\nTSI: E800\nARC: 00\nTC:\nB3091B145F58ECE0\nMID: 087854 TID: 001 RRN: 313099\nTotal:\nUSD$ 4.33\nVITAMINS\nPINK LEM GREENS DRNK\n2.49 M\nDAIRY\nKEY LME CCNTMLK YGRT\n1.67 M\n1 @ 3 FOR 5.00\nTax Report\nCO Food Tax\n4.16\n0.17 TT\nBALANCE DUE\n4.33\nDEBIT\n$4.33\n[ ] XXXXXXXXXXXX3508\nAuth# 820345 Ref# 313099\nCHANGE\n0.00\nCard XXXXXXXXXX8701\nHave a Healthy Day Russ!\n***********************************\nSprouts Rewards\nPrevious Points Balance:\n500\nTotal Points earned today:\n20\nNew points balance:\n520\n***********************************\n99053203134520931614",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PINK LEM GREENS DRNK",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "KEY LME CCNTMLK YGRT + 1 @ 3 FOR 5.00",
+      "price": 1.67,
+      "quantity": 1,
+      "totalSpend": 1.67
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,513 @@
+{
+  "id": "cmo1s6v03007lxntml48eydfu",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "South 40 Snacks",
+  "amount": 2.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "25.88",
+    "purchaseDate": "2026-04-16",
+    "time": null,
+    "zipCode": "72212",
+    "city": "Little Rock",
+    "state": "AR",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10084.41179200006,
+        "totalUsd": 0.025404,
+        "inputTokens": 6136,
+        "outputTokens": 1800,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "25.88",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "72223-1600-ish (not printed, omitting zipCode/city/state as not fully printed on receipt except streetAddress and phone number area code 501 which is Little Rock, AR but not explicitly printed as text block, so omitting city/state/zip to follow strict transcription rule of scalar fields). Only streetAddress is printed: 14000 CANTRELL. Phone is (501)228-2100. Date is 04/16/26. Time is 12:29pm. RegisterNum is 501. StoreName is Kroger. PaymentMethod is DEBIT. Last4cc is 4185. TotalCost is 25.88. PurchaseDate is 2026-04-16. Time is 12:29pm. RegisterNum is 501. StoreNum is 622. TransactionNum is 185814. PhoneNumbers is [\"(501)228-2100\"]. Let's format properly below.",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "14000 CANTRELL",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SILK ALMOND MILK PC + KROGER SAVINGS + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STACYS BAKED PITA + eCpn Stacys Pita C1.00",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO TNDR SPINACH",
+          "quantity": 1,
+          "unitPrice": 1.03,
+          "totalSpend": 1.03,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRKST JALAPENO PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRKST JALAPENO PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRKST JALAPENO PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GRND BEEF/PORK",
+          "quantity": 1,
+          "unitPrice": 4.02,
+          "totalSpend": 4.02,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KROGER COTTAGE CHSPC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ALARM CLOCK",
+          "quantity": 1,
+          "unitPrice": 5.95,
+          "totalSpend": 5.95,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK FRUIT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK FRUIT BAR + eCpn 4x Pts Prod",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE\n14000 CANTRELL\n(501)228-2100\nYour cashier was CHEC 501\nKROGER PLUS CUSTOMER *******8074\nSILK ALMOND MILK PC 1.99 B\nSC KROGER SAVINGS 0.70\nSC eCpn Silk 1.00\nSTACYS BAKED PITA 1.25 B\nSC eCpn Stacys Pita C1.00\nKRO TNDR SPINACH 1.03 B\n1 @ 2/3.00\nSTRKST JALAPENO PC 1.25 B\nSC KROGER SAVINGS 0.25\n1 @ 2/3.00\nSTRKST JALAPENO PC 1.25 B\nSC KROGER SAVINGS 0.25\n1 @ 2/3.00\nSTRKST JALAPENO PC 1.25 B\nSC KROGER SAVINGS 0.25\nGRND BEEF/PORK 4.02 B\nKROGER COTTAGE CHSPC 1.99 B\nSC KROGER SAVINGS 0.50\nALARM CLOCK 5.95 T\nS40SNK FRUIT BAR 2.49 B\nS40SNK FRUIT BAR 2.49 B\nSC eCpn 4x Pts Prod\nTAX 0.92\n**** BALANCE 25.88\nUS DEBIT Purchase\n************4185 - C\nREF#: 185814 TOTAL: 25.88\nPURCHASE: 25.88 CASHBACK: 0.00\nAID: A0000000980840\nTC: 8E913568382F8419\nVERIFIED BY PIN\nDEBIT 25.88\nCHANGE 0.00\n2.125% Tax A 0.53\n6.500% Tax D 0.39\nTOTAL TAX 0.92\nTOTAL NUMBER OF ITEMS SOLD = 11\nKROGER SAVINGS $ 3.95\nTOTAL COUPONS $ 3.95\nTOTAL SAVINGS (13 %) $ 3.95\n04/16/26 12:29pm 622 501 7 999999501\n****************************************\nAnnual Card Savings $165.27\n****************************************\n****************************************\nFuel Points Earned Today: 43\nTotal April Fuel Points: 331\n****************************************\nRemaining March Fuel Points: 206\n****************************************\nWith Our Low Prices, You Saved\n$3.95\nFresh opportunity awaits\nJoin our team today!\n#ER#",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 183693.7977080001,
+        "totalUsd": 0.1050855,
+        "inputTokens": 3811,
+        "outputTokens": 1726,
+        "reasoningTokens": 9315
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "25.88",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:29pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Little Rock",
+          "status": "match"
+        },
+        "state": {
+          "value": "AR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14000 Cantrell",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4185",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SILK ALMOND MILK PC + KROGER SAVINGS 0.70 + eCpn Silk 1.00",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STACYS BAKED PITA + eCpn Stacys Pita C1.00",
+          "quantity": 1,
+          "unitPrice": 2.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO TNDR SPINACH",
+          "quantity": 1,
+          "unitPrice": 1.03,
+          "totalSpend": 1.03,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRKST JALAPENO PC + 1 @ 2/3.00 + KROGER SAVINGS 0.25",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRKST JALAPENO PC + 1 @ 2/3.00 + KROGER SAVINGS 0.25",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRKST JALAPENO PC + 1 @ 2/3.00 + KROGER SAVINGS 0.25",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GRND BEEF/PORK",
+          "quantity": 1,
+          "unitPrice": 4.02,
+          "totalSpend": 4.02,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KROGER COTTAGE CHSPC + KROGER SAVINGS 0.50",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ALARM CLOCK",
+          "quantity": 1,
+          "unitPrice": 5.95,
+          "totalSpend": 5.95,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK FRUIT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK FRUIT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE\n14000 CANTRELL\n(501)228-2100\nYour cashier was CHEC 501\nKROGER PLUS CUSTOMER *******8074\nSILK ALMOND MILK PC 1.99 B\nSC KROGER SAVINGS 0.70\nSC eCpn Silk 1.00\nSTACYS BAKED PITA 1.25 B\nSC eCpn Stacys Pita C1.00\nKRO TNDR SPINACH 1.03 B\n1 @ 2/3.00\nSTRKST JALAPENO PC 1.25 B\nSC KROGER SAVINGS 0.25\n1 @ 2/3.00\nSTRKST JALAPENO PC 1.25 B\nSC KROGER SAVINGS 0.25\n1 @ 2/3.00\nSTRKST JALAPENO PC 1.25 B\nSC KROGER SAVINGS 0.25\nGRND BEEF/PORK 4.02 B\nKROGER COTTAGE CHSPC 1.99 B\nSC KROGER SAVINGS 0.50\nALARM CLOCK 5.95 T\nS40SNK FRUIT BAR 2.49 B\nS40SNK FRUIT BAR 2.49 B\nSC eCpn 4x Pts Prod\nTAX 0.92\n**** BALANCE 25.88\nUS DEBIT Purchase\n************4185 - C\nREF#: 185814 TOTAL: 25.88\nPURCHASE: 25.88 CASHBACK: 0.00\nAID: A0000000980840\nTC: 8E913568382F8419\nVERIFIED BY PIN\nDEBIT 25.88\nCHANGE 0.00\n2.125% Tax A 0.53\n6.500% Tax D 0.39\nTOTAL TAX 0.92\nTOTAL NUMBER OF ITEMS SOLD = 11\nKROGER SAVINGS $ 3.95\nTOTAL COUPONS $ 3.95\nTOTAL SAVINGS (13 %) $ 3.95\n04/16/26 12:29pm 622 501 7 999999501\n***********************************\nAnnual Card Savings $165.27\n***********************************\n***********************************\nFuel Points Earned Today: 43\nTotal April Fuel Points: 331\n***********************************\nRemaining March Fuel Points: 206\n***********************************\nWith Our Low Prices, You Saved\n$3.95\nFresh opportunity awaits\nJoin our team today!\n#ER#",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7386.353625000018,
+        "totalUsd": 0.0204255,
+        "inputTokens": 3717,
+        "outputTokens": 1650,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "25.88",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:29pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Little Rock",
+          "status": "match"
+        },
+        "state": {
+          "value": "AR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14000 CANTRELL",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4185",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SILK ALMOND MILK PC + KROGER SAVINGS + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "STACYS BAKED PITA + eCpn Stacys Pita C1.00",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 0.25,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO TNDR SPINACH",
+          "quantity": 1,
+          "unitPrice": 1.03,
+          "totalSpend": 1.03,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRKST JALAPENO PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "STRKST JALAPENO PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "STRKST JALAPENO PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GRND BEEF/PORK",
+          "quantity": 1,
+          "unitPrice": 4.02,
+          "totalSpend": 4.02,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KROGER COTTAGE CHSPC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ALARM CLOCK",
+          "quantity": 1,
+          "unitPrice": 5.95,
+          "totalSpend": 5.95,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK FRUIT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "S40SNK FRUIT BAR",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE\n14000 CANTRELL\n(501)228-2100\nYour cashier was CHEC 501\nKROGER PLUS CUSTOMER *******8074\nSILK ALMOND MILK PC 1.99 B\nSC KROGER SAVINGS 0.70\nSC eCpn Silk 1.00\nSTACYS BAKED PITA 1.25 B\nSC eCpn Stacys Pita C1.00\nKRO TNDR SPINACH 1.03 B\n1 @ 2/3.00\nSTRKST JALAPENO PC 1.25 B\nSC KROGER SAVINGS 0.25\n1 @ 2/3.00\nSTRKST JALAPENO PC 1.25 B\nSC KROGER SAVINGS 0.25\n1 @ 2/3.00\nSTRKST JALAPENO PC 1.25 B\nSC KROGER SAVINGS 0.25\nGRND BEEF/PORK 4.02 B\nKROGER COTTAGE CHSPC 1.99 B\nSC KROGER SAVINGS 0.50\nALARM CLOCK 5.95 T\nS40SNK FRUIT BAR 2.49 B\nS40SNK FRUIT BAR 2.49 B\nSC eCpn 4x Pts Prod\nTAX 0.92\n**** BALANCE 25.88\nUS DEBIT Purchase\n************4185 - C\nREF#: 185814 TOTAL: 25.88\nPURCHASE: 25.88 CASHBACK: 0.00\nAID: A00000000980840\nTC: 8E913568382F8419\nVERIFIED BY PIN\nDEBIT 25.88\nCHANGE 0.00\n2.125% Tax A 0.53\n6.500% Tax D 0.39\nTOTAL TAX 0.92\nTOTAL NUMBER OF ITEMS SOLD = 11\nKROGER SAVINGS $ 3.95\nTOTAL COUPONS $ 3.95\nTOTAL SAVINGS (13 %) $ 3.95\n04/16/26 12:29pm 622 501 7 999999501\n***********************************\nAnnual Card Savings $165.27\n***********************************\n***********************************\nFuel Points Earned Today: 43\nTotal April Fuel Points: 331\n***********************************\nRemaining March Fuel Points: 206\n***********************************\nWith Our Low Prices, You Saved\n$3.95\nFresh opportunity awaits\nJoin our team today!\n#ER#",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SILK ALMOND MILK + SC KROGER SAVINGS 0.70 + SC eCpn Silk 1.00",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "STACYS BAKED PITA + SC eCpn Stacys Pita 01.00",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "KRO TNDR SPINACH + 1 @ 2/3.00",
+      "price": 1.03,
+      "quantity": 1,
+      "totalSpend": 1.03
+    },
+    {
+      "text": "STRKST JALAPENO + SC KROGER SAVINGS 0.25 + 1 @ 2/3.00",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "STRKST JALAPENO + SC KROGER SAVINGS 0.25 + 1 @ 2/3.00",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "STRKST JALAPENO + SC KROGER SAVINGS 0.25",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "GRND BEEF/PORK",
+      "price": 4.02,
+      "quantity": 1,
+      "totalSpend": 4.02
+    },
+    {
+      "text": "KROGER COTTAGE CHS + SC KROGER SAVINGS 0.50",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "ALARM CLOCK",
+      "price": 5.95,
+      "quantity": 1,
+      "totalSpend": 5.95
+    },
+    {
+      "text": "S40SNK FRUIT BAR",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "S40SNK FRUIT BAR + SC eCpn 4x Pts Prod",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    }
+  ],
+  "disagreementCount": 4,
+  "nullCount": 0
+}

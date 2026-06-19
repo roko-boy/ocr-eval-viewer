@@ -1,0 +1,297 @@
+{
+  "id": "cmoipxilc00ufaiwwae4gt1oi",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Beekeeper Coffee",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": null,
+    "purchaseDate": "2026-04-28",
+    "time": null,
+    "zipCode": "14580",
+    "city": "Webster",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5635.844666999998,
+        "totalUsd": 0.013449,
+        "inputTokens": 6086,
+        "outputTokens": 480,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-28",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14580",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEBSTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1955 EMPIRE BLVD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BEEKP CRML CLD BRW",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BEEKP BLCK CLD BRW",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB PNAPPLE CRUSHED",
+          "quantity": 2,
+          "unitPrice": 1.39,
+          "totalSpend": 2.78,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n\n1955 EMPIRE BLVD.\nWEBSTER, NY 14580\n(585) 671-8290\n\n04/28/26 OP# 82\n\nBEEKP CRML CLD BRW   3.99 F\nBEEKP BLCK CLD BRW   3.99 F\n2 @ 1.39\nWB PNAPPLE CRUSHED   2.78 F\nTAX                  0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9404.496374999988,
+        "totalUsd": 0.021837,
+        "inputTokens": 3692,
+        "outputTokens": 487,
+        "reasoningTokens": 1324
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "10.76",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-28",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14580",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEBSTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1955 EMPIRE BLVD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BEEKP CRML CLD BRW",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BEEKP BLCK CLD BRW",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB PNAPPLE CRUSHED",
+          "quantity": 2,
+          "unitPrice": 1.39,
+          "totalSpend": 2.78,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1955 EMPIRE BLVD.\nWEBSTER, NY 14580\n(585) 671-8290\n04/28/26 OP# 82\nBEEKP CRML CLD BRW 3.99 F\nBEEKP BLCK CLD BRW 3.99 F\n2 @ 1.39\nWB PNAPPLE CRUSHED 2.78 F\nTAX 0.00\nXXXX BALANCE 10.76",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3363.413166000013,
+        "totalUsd": 0.009704999999999998,
+        "inputTokens": 3692,
+        "outputTokens": 463,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-28",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14580",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEBSTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1955 EMPIRE BLVD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BEEKP CRML CLD BRW",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BEEKP BLCK CLD BRW",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB PNAPPLE CRUSHED",
+          "quantity": 2,
+          "unitPrice": 1.39,
+          "totalSpend": 2.78,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1955 EMPIRE BLVD.\nWEBSTER, NY 14580\n(585) 671-8290\n04/28/26 OP# 82\nBEEKP CRML CLD BRW 3.99 F\nBEEKP BLCK CLD BRW 3.99 F\n2 @ 1.39\nWB PNAPPLE CRUSHED 2.78 F\nTAX 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BEEKP CRML CLD BRW",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BEEKP BLCK CLD BRW + 2 @ 1.39",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "WB PNAPPLE CRUSHED + 2 @ 1.39 + TAX 0.00",
+      "price": 1.39,
+      "quantity": 2,
+      "totalSpend": 2.78
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

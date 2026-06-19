@@ -1,0 +1,243 @@
+{
+  "id": "cmq1c1rez0003v4ki80ugwrh7",
+  "url": null,
+  "retailer": "Albertsons",
+  "brand": "Churn",
+  "amount": 11.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Albertsons",
+    "totalCost": "12.77",
+    "purchaseDate": "2026-06-02",
+    "time": null,
+    "zipCode": "81301",
+    "city": "Durango",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7118.851541999989,
+        "totalUsd": 0.016101,
+        "inputTokens": 6114,
+        "outputTokens": 770,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "81301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Durango",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "311 W. College Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8575",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "85769000824 PIRQ PLANT PROTEIN",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Albertsons\nStore 801 Dir Tamra O'Toole\nMain: 970-382-2224 Rx: (970) 382-2228\n311 W. College Dr\nDurango co 81301\n00080105400452606021015\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85769000824 PIRQ PLANT PROTEIN\n11.99 11.99 B\nTAX\n0.78\n**** BALANCE\n12.77\nCredit Purchase 06/02/26 10:15\nCARD # ************8575\nREF: 551506485750 AUTH: 0005239D\nPAYMENT AMOUNT\n12.77\nAL CHASE VISA\nAID A0000000031010\nTVR 0000000000\nVisa\n12.77\nCHANGE\n0.00\nYOUR POINTS\nPoints Earned Today 11\nPoints Available 77\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/02/26 10:15 801 54 45 8854\nThank you for shopping Albertsons!\nFor ALBERTSONS FOR U questions call\n877-276-9637 or Albertsons.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11987.67533300002,
+        "totalUsd": 0.026412,
+        "inputTokens": 3706,
+        "outputTokens": 764,
+        "reasoningTokens": 1553
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "81301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Durango",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "311 W. College Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8575",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "85769000824 PIRQ PLANT PROTEIN",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Albertsons\nStore 801 Dir Tamra O'Toole\nMain: 970-382-2224 Rx: (970) 382-2228\n311 W. College Dr\nDurango co 81301\n00080105400452606021015\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85769000824 PIRQ PLANT PROTEIN\n11.99 11.99 B\nTAX\n0.78\n**** BALANCE\n12.77\nCredit Purchase 06/02/26 10:15\nCARD # ************8575\nREF: 551506485750 AUTH: 0005239D\nPAYMENT AMOUNT\n12.77\nAL CHASE VISA\nAID A0000000031010\nTVR 0000000000\nVisa\n12.77\nCHANGE\n0.00\nYOUR POINTS\nPoints Earned Today 11\nPoints Available 77\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/02/26 10:15 801 54 45 8854\nThank you for shopping Albertsons!\nFor ALBERTSONS FOR U questions call\n877-276-9637 or Albertsons.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4759.83312499999,
+        "totalUsd": 0.01248,
+        "inputTokens": 3706,
+        "outputTokens": 769,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:15 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "81301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Durango",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "311 W. College Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8575",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PIRQ PLANT PROTEIN + 85769000824",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Albertsons\nStore 801 Dir Tamra O'Toole\nMain: 970-382-2224 Rx: (970) 382-2228\n311 W. College Dr\nDurango co 81301\n00080105400452606021015\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85769000824 PIRQ PLANT PROTEIN\n11.99 11.99 B\nTAX\n0.78\n**** BALANCE\n12.77\nCredit Purchase 06/02/26 10:15\nCARD # ************8575\nREF: 551506485750 AUTH: 0005239D\nPAYMENT AMOUNT\n12.77\nAL CHASE VISA\nAID A0000000031010\nTVR 0000000000\nVisa\n12.77\nCHANGE\n0.00\nYOUR POINTS\nPoints Earned Today 11\nPoints Available 77\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/02/26 10:15 801 54 45\n8854\nThank you for shopping Albertsons!\nFor ALBERTSONS FOR U questions call\n877-276-9637 or Albertsons.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PIRQ PLANT PROTEIN + 85769000824",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

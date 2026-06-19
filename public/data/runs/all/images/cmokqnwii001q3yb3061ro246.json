@@ -1,0 +1,447 @@
+{
+  "id": "cmokqnwii001q3yb3061ro246",
+  "url": null,
+  "retailer": "WinCo Foods",
+  "brand": "Cleveland Kitchen",
+  "amount": 4.98,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "WinCo Foods",
+    "totalCost": "14.11",
+    "purchaseDate": "2026-04-29",
+    "time": null,
+    "zipCode": "95503",
+    "city": "Eureka",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12586.621167,
+        "totalUsd": 0.020559,
+        "inputTokens": 6086,
+        "outputTokens": 1270,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "WinCo Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:10",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95503-3097",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Eureka",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "636 W. Harris",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4453",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GOLD STAR JSMNE RI + 8596800120",
+          "quantity": 1,
+          "unitPrice": 3.18,
+          "totalSpend": 3.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MCCORMK SSNG MX + 5210003493",
+          "quantity": 1,
+          "unitPrice": 0.88,
+          "totalSpend": 0.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI CREAMER + 81829001568",
+          "quantity": 1,
+          "unitPrice": 1.78,
+          "totalSpend": 1.78,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLVLND KIMCHI + 85977400727",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADO, MED + 4046 + 3 @ 0.68 EACH",
+          "quantity": 3,
+          "unitPrice": 0.68,
+          "totalSpend": 2.04,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SQUASH, ZUCCHINI + 4067 + 0.57 lb @ 1.48/ lb",
+          "quantity": 1,
+          "unitPrice": 1.48,
+          "totalSpend": 0.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONIONS, YELLOW + 4093 + 0.60 lb @ 0.68/ lb",
+          "quantity": 1,
+          "unitPrice": 0.68,
+          "totalSpend": 0.41,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WinCo\nFOODS\nThe Supermarket Low Price Leader®\nwww.wincofoods.com\n636 W. Harris\nEureka, CA, 95503-3097\nStore# 007\nCashier:\nDate:04/29/2026\nTime:17:10\nGOLD STAR JSMNE RI 8596800120\n3.18F\nMCCORMK SSNG MX 5210003493\n0.88F\nCHOBANI CREAMER 81829001568\n1.78F\nCLVLND KIMCHI 85977400727\n4.98F\n3 @ 0.68 EACH\nAVOCADO, MED 4046\n2.04F\n0.57 lb @ 1.48/ lb\nSQUASH, ZUCCHINI 4067\n0.84F\n0.60 lb @ 0.68/ lb\nONIONS, YELLOW 4093\n0.41F\nSubtotal:\n14.11\nTax:\n0.00\nTotal:\n14.11\nSold Items:\n9\nNon-EFT Tenders Paid:\nEFT Tenders Paid:\nDebit\n14.11\nVISA\nSale\nCard Num : XXXXXXXXXXXX4453\nChip Read\nAID: A0000000980840\nResponse : APPROVED\nI agree to pay the above Total Amount\naccording to Card Issuer Agreement.\nVerified by PIN\nMember ID: ********57\n04/29/2026 Oper#\nTrx#2531\n17:10\nTerm#94\nStore#007\nTHANK YOU FOR SHOPPING AT WINCO\n707-442-4040\n6200007094253104292026",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17238.098208,
+        "totalUsd": 0.03396,
+        "inputTokens": 3692,
+        "outputTokens": 1245,
+        "reasoningTokens": 1913
+      },
+      "fields": {
+        "storeName": {
+          "value": "WinCo Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:10",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95503-3007",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Eureka",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "636 W. Harris",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4453",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GOLD STAR JSMNE RI + 8596800120",
+          "quantity": 1,
+          "unitPrice": 3.18,
+          "totalSpend": 3.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MCCORMK SSNG MX + 5210003493",
+          "quantity": 1,
+          "unitPrice": 0.88,
+          "totalSpend": 0.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI CREAMER + 81829001568",
+          "quantity": 1,
+          "unitPrice": 1.78,
+          "totalSpend": 1.78,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLVLND KIMCHI + 85977400727",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADO, MED + 4046",
+          "quantity": 3,
+          "unitPrice": 0.68,
+          "totalSpend": 2.04,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SQUASH, ZUCCHINI + 4067",
+          "quantity": 1,
+          "unitPrice": 1.48,
+          "totalSpend": 0.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONIONS, YELLOW + 4093",
+          "quantity": 1,
+          "unitPrice": 0.68,
+          "totalSpend": 0.41,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WinCo\nFOODS\nThe Supermarket Low Price Leader®\nwww.wincofoods.com\n636 W. Harris\nEureka, CA, 95503-3007\nStore# 007\nCashier:\nDate:04/29/2026 Time:17:10\n\nGOLD STAR JSMNE RI 8596800120 3.18F\nMCCORMK SSNG MX 5210003493 0.88F\nCHOBANI CREAMER 81829001568 1.78F\nCLVLND KIMCHI 85977400727 4.98F\n3 @ 0.68 EACH\nAVOCADO, MED 4046 2.04F\n0.57 lb @ 1.48/ lb\nSQUASH, ZUCCHINI 4067 0.84F\n0.60 lb @ 0.68/ lb\nONIONS, YELLOW 4093 0.41F\nSubtotal: 14.11\nTax: 0.00\nTotal: 14.11\n\nSold Items: 9\nNon-EFT Tenders Paid:\n\nEFT Tenders Paid:\n----------------------------------------\nDebit 14.11\nVISA\nSale\nCard Num : XXXXXXXXXXXX4453\nChip Read\nAID: A0000000980840\nResponse : APPROVED\nI agree to pay the above Total Amount\naccording to Card Issuer Agreement.\nVerified by PIN\nMember ID: ********57\n04/29/2026 Oper# Trx#2531\n17:10 Term#94 Store#007\n\nTHANK YOU FOR SHOPPING AT WINCO\n707-442-4040\n6290007094253104292026",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6886.078666999998,
+        "totalUsd": 0.016572,
+        "inputTokens": 3692,
+        "outputTokens": 1226,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "WinCo Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:10",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95503-3907",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Eureka",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "636 W. Harris",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4453",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GOLD STAR JSMNE RI + 8596800120",
+          "quantity": 1,
+          "unitPrice": 3.18,
+          "totalSpend": 3.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MCCORMK SSNG MX + 5210003493",
+          "quantity": 1,
+          "unitPrice": 0.88,
+          "totalSpend": 0.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI CREAMER + 81829001568",
+          "quantity": 1,
+          "unitPrice": 1.78,
+          "totalSpend": 1.78,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLVLND KIMCHI + 85977400727",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADO, MED + 4046",
+          "quantity": 3,
+          "unitPrice": 0.68,
+          "totalSpend": 2.04,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SQUASH, ZUCCHINI + 4067",
+          "quantity": 1,
+          "unitPrice": 1.48,
+          "totalSpend": 0.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONIONS, YELLOW + 4093",
+          "quantity": 1,
+          "unitPrice": 0.68,
+          "totalSpend": 0.41,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WinCo\nFOODS\nThe Supermarket Low Price Leader®\nwww.wincofoods.com\n636 W. Harris\nEureka, CA, 95503-3907\nStore# 007\nCashier:\nDate:04/29/2026\nTime:17:10\nGOLD STAR JSMNE RI 8596800120\n3.18F\nMCCORMK SSNG MX 5210003493\n0.88F\nCHOBANI CREAMER 81829001568\n1.78F\nCLVLND KIMCHI 85977400727\n4.98F\n3 @ 0.68 EACH\nAVOCADO, MED 4046\n2.04F\n0.57 lb @ 1.48/ lb\nSQUASH, ZUCCHINI 4067\n0.84F\n0.60 lb @ 0.68/ lb\nONIONS, YELLOW 4093\n0.41F\nSubtotal:\n14.11\nTax:\n0.00\nTotal:\n14.11\nSold Items:\n9\nNon-EFT Tenders Paid:\nEFT Tenders Paid:\nDebit\n14.11\nVISA\nSale\nCard Num : XXXXXXXXXXXX4453\nChip Read\nAID: A0000000980840\nResponse : APPROVED\nI agree to pay the above Total Amount\naccording to Card Issuer Agreement.\nVerified by PIN\nMember ID:\n********57\n04/29/2026\nOper#\nTrx#2531\n17:10\nTerm#94\nStore#007\nTHANK YOU FOR SHOPPING AT WINCO\n707-442-4040",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GOLD STAR JSMNE RI + 8596800120",
+      "price": 3.18,
+      "quantity": 1,
+      "totalSpend": 3.18
+    },
+    {
+      "text": "MCCORMK SSNG MX + 5210003493",
+      "price": 0.88,
+      "quantity": 1,
+      "totalSpend": 0.88
+    },
+    {
+      "text": "CHOBANI CREAMER + 81829001568",
+      "price": 1.78,
+      "quantity": 1,
+      "totalSpend": 1.78
+    },
+    {
+      "text": "AVOCADO,MED + 4046 + 3 @ 0.68 EACH + 0.57 lb @ 1.48/lb",
+      "price": 0.68,
+      "quantity": 3,
+      "totalSpend": 2.04
+    },
+    {
+      "text": "SQUASH,ZUCCHINI + 4067 + 0.57 lb @ 1.48/lb + 0.60 lb @ 0.68/ lb",
+      "price": 1.48,
+      "quantity": 1,
+      "totalSpend": 0.84
+    },
+    {
+      "text": "ONIONS,YELLOW + 4093 + 0.60 lb @ 0.68/ lb",
+      "price": 0.68,
+      "quantity": 1,
+      "totalSpend": 0.41
+    },
+    {
+      "text": "CLVLND KIMCHI + 85977400727 + 3 @ 0.68 EACH",
+      "price": 4.98,
+      "quantity": 1,
+      "totalSpend": 4.98
+    },
+    {
+      "text": "GOLD STAR JSMNE RI + 8596800120",
+      "price": 3.18,
+      "quantity": 1,
+      "totalSpend": 3.18
+    },
+    {
+      "text": "MCCORMK SSNG MX + 5210003493",
+      "price": 0.88,
+      "quantity": 1,
+      "totalSpend": 0.88
+    },
+    {
+      "text": "CHOBANI CREAMER + 81829001568",
+      "price": 1.78,
+      "quantity": 1,
+      "totalSpend": 1.78
+    },
+    {
+      "text": "AVOCADO,MED + 4046 + 3 @ 0.68 EACH + 0.57 lb @ 1.48/lb",
+      "price": 0.68,
+      "quantity": 3,
+      "totalSpend": 2.04
+    },
+    {
+      "text": "SQUASH,ZUCCHINI + 4067 + 0.57 lb @ 1.48/lb + 0.60 lb @ 0.68/ lb",
+      "price": 1.48,
+      "quantity": 1,
+      "totalSpend": 0.84
+    },
+    {
+      "text": "ONIONS,YELLOW + 4093 + 0.60 lb @ 0.68/ lb",
+      "price": 0.68,
+      "quantity": 1,
+      "totalSpend": 0.41
+    },
+    {
+      "text": "CLVLND KIMCHI + 85977400727 + 3 @ 0.68 EACH",
+      "price": 4.98,
+      "quantity": 1,
+      "totalSpend": 4.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

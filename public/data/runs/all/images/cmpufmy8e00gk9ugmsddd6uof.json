@@ -1,0 +1,243 @@
+{
+  "id": "cmpufmy8e00gk9ugmsddd6uof",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "PBV Food Service",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "6.42",
+    "purchaseDate": "2026-05-31",
+    "time": null,
+    "zipCode": "27560",
+    "city": "MORRISVILLE",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7097.734708000033,
+        "totalUsd": 0.015906,
+        "inputTokens": 6086,
+        "outputTokens": 753,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Brightleaf News and Gift",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27560",
+          "status": "match"
+        },
+        "city": {
+          "value": "Morrisville",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1025 Cargo Ave Suite 2301",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1516",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "D 23.7OZ GATORADE WA + SKU:284692600005 + UPC:052000054903",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MRG\nBRIGHTLEAF NEWS AND GIFT-RDU A\n1025 CARGO AVE SUITE 2301\nMORRISVILLE, NC 27560\nUnited States\n919-840-9164\nStore: 603\nRegister: 1\nDate: 5/31/26\nTime: 7:49 PM\nTicket: 406591\nSalesperson:\n24937 (Angela)\nCashier: 24937\nWelcome to our store!\nItem Qty Price Amount\nD 23.7OZ GATORADE WA\nSKU:284692600005 1 6.29 6.29\nUPC:052000054903\nSubtotal 6.29\nTax 2% 0.13\nTotal 6.42\nAmerican Express Credit Card 6.42\n************1516\nAuth #: 882403\nTransaction Type: Sale\nEntry Method: Contactless\nVerification:\nAuth Time: 19:49:44\nTrace Number: 170313\nMID: 373013744991\nTID: 01174475\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06030103A20102\nTSI: A800\nARC: 00\nChange 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11066.219125,
+        "totalUsd": 0.026787,
+        "inputTokens": 3692,
+        "outputTokens": 749,
+        "reasoningTokens": 1612
+      },
+      "fields": {
+        "storeName": {
+          "value": "Brightleaf News and Gift",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27560",
+          "status": "match"
+        },
+        "city": {
+          "value": "MORRISVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1025 CARGO AVE SUITE 2301",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1516",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "D 23.7OZ GATORADE WA + SKU:284692600005 + UPC:052000054903",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MRG\nBRIGHTLEAF NEWS AND GIFT-RDU A\n1025 CARGO AVE SUITE 2301\nMORRISVILLE, NC 27560\nUnited States\n919-840-9164\nStore: 603\nRegister: 1\nDate: 5/31/26\nTime: 7:49 PM\nTicket: 406591\nSalesperson:\n24937 (Angela)\nCashier: 24937\nWelcome to our store!\nItem Qty Price Amount\nD 23.7OZ GATORADE WA\nSKU:284692600005 1 6.29 6.29\nUPC:052000054903\nSubtotal 6.29\nTax 2% 0.13\nTotal 6.42\nAmerican Express Credit Card 6.42\n************1516\nAuth #: 882403\nTransaction Type: Sale\nEntry Method: Contactless\nVerification:\nAuth Time: 19:49:44\nTrace Number: 170313\nMID: 373013744991\nTID: 01174475\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06030103A20102\nTSI: A800\nARC: 00\nChange 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4720.320749999984,
+        "totalUsd": 0.012324,
+        "inputTokens": 3692,
+        "outputTokens": 754,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Brightleaf News and Gift",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27560",
+          "status": "match"
+        },
+        "city": {
+          "value": "Morrisville",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1025 Cargo Ave Suite 2301",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1516",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "D 23.7OZ GATORADE WA + SKU:284692600005 + UPC:052000054903",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MRG\nBRIGHTLEAF NEWS AND GIFT-RDU A\n1025 CARGO AVE SUITE 2301\nMORRISVILLE, NC 27560\nUnited States\n919-840-9164\nStore: 603\nRegister: 1\nDate: 5/31/26\nTime: 7:49 PM\nTicket: 406591\nSalesperson:\n24937 (Angela)\nCashier: 24937\nWelcome to our store!\nItem\nQty Price\nAmount\nD 23.7OZ GATORADE WA\nSKU:284692600005 1 6.29\n6.29\nUPC:052000054903\nSubtotal\n6.29\nTax 2%\n0.13\nTotal\n6.42\nAmerican Express Credit Card\n6.42\n***********1516\nAuth #: 882403\nTransaction Type: Sale\nEntry Method: Contactless\nVerification:\nAuth Time: 19:49:44\nTrace Number: 170313\nMID: 373013744991\nTID: 01174475\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06030103A20102\nTSI: A800\nARC: 00\nChange\n0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "D 23.7OZ GATORADE WA + 284692600005 + UPC:052000054903",
+      "price": 6.29,
+      "quantity": 1,
+      "totalSpend": 6.29
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

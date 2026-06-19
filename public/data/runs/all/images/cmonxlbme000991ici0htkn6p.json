@@ -1,0 +1,553 @@
+{
+  "id": "cmonxlbme000991ici0htkn6p",
+  "url": null,
+  "retailer": "Grocery Outlet",
+  "brand": "Taste Republic",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Grocery Outlet Bargain Market",
+    "totalCost": "46.19",
+    "purchaseDate": "2026-05-01",
+    "time": null,
+    "zipCode": "94591",
+    "city": "Vallejo",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17528.801375,
+        "totalUsd": 0.024663,
+        "inputTokens": 6086,
+        "outputTokens": 1726,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Grocery Outlet",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "46.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94591",
+          "status": "match"
+        },
+        "city": {
+          "value": "Vallejo",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2377",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Grocery + BLUEBERRY MELTS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Grocery + mexican choc conki",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NV SMORES BAR + 2 @ 2.99",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "pb choc PROTEIN BA + 2 @ 1.99",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RS SLTD CRML BAR + 2 @ 2.99",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Produce + Baby Watermelon",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BANANAS (Organic) + 2.62Lb @ Lb/ 0.99",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 2.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BROCCOLI CROWNS + 1.22Lb @ Lb/ 2.69",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 3.28,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MANDARINS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Strawberries",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Frozen + ULT CHEESE PIZZA + 6 @ 0.99",
+          "quantity": 6,
+          "unitPrice": 0.99,
+          "totalSpend": 5.94,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Deli + TSTEREP GF FUSILLI",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "***********************************\nCONNECT WITH US\nSign up for GO Mobile App, get a $5 coupon\n-OR-\nTake our survey & share your feedback.\nSCAN THIS QR CODE TO START\nor visit www.groceryoutlet.com/connect\n***********************************\nGrocery\nBLUEBERRY MELTS 0.99 F\nGrocery\nmexican choc conki 1.00 F\n2 @ 2.99\nNV SMORES BAR 5.98 F\n2 @ 1.99\npb choc PROTEIN BA 3.98 F\n2 @ 2.99\nRS SLTD CRML BAR 5.98 F\nProduce\nBaby Watermelon 1.99 F\nBANANAS (Organic) 2.59 F\n2.62Lb @ Lb/ 0.99\nBROCCOLI CROWNS 3.28 F\n1.22Lb @ Lb/ 2.69\nMANDARINS 2.99 F\nStrawberries 4.99 F\nFrozen\nULT CHEESE PIZZA 5.94 F\n6 @ 0.99\nDeli\nTSTEREP GF FUSILLI 3.49 F\nSUB TOTAL 45.19\nTOTAL TAX 0.00\nTOTAL 46.19\nCredit Type :Discover $46.19\nRef# 4961043850\n05/01/2026 16:35:08\nDISCOVER Entry Method:CntctLess\nCARD #: XXXX-XXXXXXXX-2377\nPURCHASE - APPROVED\nAUTH CODE:05259P\nMode: Issuer\nAID: A00000015230100100000001\nTVR: 8000008000\nIAD: 01152092400000008000\nTSI: 0800 ARC: 00\nTC: 5C929EDE3EBFE7AD\nMID: 670375 TID: 001 RRN: 080773\nUSD$ 46.19\nCHANGE 0.00\nCashier Name: JESSICA\nCashier 0173 Store 0169\nPOS:004 Transaction 0111\nFriday, 01 May, 2026 4:32 PM\nTHANK YOU FOR SHOPPING WITH US!\nQuestions please call 07-644-6581\nVallejo, CA 94591\nReturns are gladly accepted with a\nreceipt within 30 days of purchase for\na full cash refund (or credit to the\napplicable credit or EBT card)\nThank You and Stay Safe\nYour Savings Today!\nCoupon Savings\nAdvertised Savings 54.96\nPromotion Savings\nTODAY YOU SAVED\n$54.96",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 30834.94733300002,
+        "totalUsd": 0.060132,
+        "inputTokens": 3692,
+        "outputTokens": 1786,
+        "reasoningTokens": 4280
+      },
+      "fields": {
+        "storeName": {
+          "value": "Grocery Outlet",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "46.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:35:08",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94591",
+          "status": "match"
+        },
+        "city": {
+          "value": "Vallejo",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2377",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BLUEBERRY MELTS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Grocery",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "mexican choc conki + 2 @ 2.99",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NV SMORES BAR + 2 @ 1.99",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "pb choc PROTEIN BA + 2 @ 2.99",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RS SLTD CRML BAR",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Baby Watermelon",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANAS (Organic) + 2.62lb @ Lb/ 0.99",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 2.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BROCCOLI CROWNS + 1.22lb @ Lb/ 2.69",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 3.28,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MANDARINS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Strawberries",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ULT CHEESE PIZZA + 6 @ 0.99",
+          "quantity": 6,
+          "unitPrice": 0.99,
+          "totalSpend": 5.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TSTEREP GF FUSILLI",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "***********************************\nCONNECT WITH US\nSign up for GO Mobile App, get a $5 coupon\n-OR-\nTake our survey & share your feedback.\n\nSCAN THIS QR CODE TO START\nor visit www.groceryoutlet.com/connect\n***********************************\nGrocery\nBLUEBERRY MELTS 0.99 F\nGrocery 1.00 F\nmexican choc conki 5.98 F\n2 @ 2.99\nNV SMORES BAR 3.98 F\n2 @ 1.99\npb choc PROTEIN BA 5.98 F\n2 @ 2.99\nRS SLTD CRML BAR 1.99 F\nProduce\nBaby Watermelon 2.99 F\nBANANAS (Organic) 2.59 F\n2.62lb @ Lb/ 0.99\nBROCCOLI CROWNS 3.28 F\n1.22lb @ Lb/ 2.69\nMANDARINS 2.99 F\nStrawberries 4.99 F\nFrozen\nULT CHEESE PIZZA 5.94 F\n6 @ 0.99\nDeli\nTSTEREP GF FUSILLI 3.49 F\n\nSUB TOTAL 46.19\nTOTAL TAX 0.00\nTOTAL 46.19\n\nCredit Type :Discover\nRef# 4961043850\n05/01/2026 16:35:08\nDISCOVER Entry Method:Cntctless\nCARD #: XXXX-XXXXXXXX-2377\nPURCHASE - APPROVED\nAUTH CODE:05259P\n\nMode: Issuer\nAID: A00000015230100100000001\nTVR: 8000008000\nIAD: 01152092400000008000\nTSI: 0800 ARC: 00\nTC: 5C929EDE3EBFE7AD\nMID: 670375 TID: 001 RRN: 080773\n\nUSD$ 46.19\n\nCHANGE 0.00\n\nCashier Name: JESSICA\nCashier :0173 Store 0169\nPOS:004 Transaction 0111\nFriday, 01 May, 2026 4:32 PM\n\nTHANK YOU FOR SHOPPING WITH US!\nQuestions please call 707-644-8581\nVallejo, CA 94591\n\nReturns are gladly accepted with a\nreceipt within 30 days of purchase for\na full cash refund (or credit to the\napplicable credit or EBT card)\n\nThank You and Stay Safe\n\nYour Savings Today!\n\nCoupon Savings\nAdvertised Savings 54.96\nPromotion Savings\n\nTODAY YOU SAVED\n$54.96",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8968.843500000003,
+        "totalUsd": 0.021054,
+        "inputTokens": 3692,
+        "outputTokens": 1724,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Grocery Outlet",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "45.19",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:35:08",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94591",
+          "status": "match"
+        },
+        "city": {
+          "value": "Vallejo",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2377",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Grocery + BLUEBERRY MELTS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Grocery + mexican choc conki",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NV SMORES BAR",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "pb choc PROTEIN BA",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RS SLTD CRML BAR",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Produce + Baby Watermelon",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BANANAS (Organic) + 2.62Lb @ Lb/ 0.99",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 2.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BROCCOLI CROWNS + 1.22Lb @ Lb/ 2.69",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 3.28,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MANDARINS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Strawberries",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Frozen + ULT CHEESE PIZZA + 6 @ 0.99",
+          "quantity": 6,
+          "unitPrice": 0.99,
+          "totalSpend": 5.94,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Deli + TSTEREP GF FUSILLI",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "***********************************\nCONNECT WITH US\nSign up for GO Mobile App, get a $5 coupon\n-OR-\nTake our survey & share your feedback.\nSCAN THIS QR CODE TO START\nor visit www.groceryoutlet.com/connect\n***********************************\nGrocery\nBLUEBERRY MELTS\n0.99 F\nGrocery\n1.00 F\nmexican choc conki\n5.98 F\n2 @ 2.99\nNV SMORES BAR\n3.98 F\n2 @ 1.99\npb choc PROTEIN BA\n5.98 F\n2 @ 2.99\nRS SLTD CRML BAR\n1.99 F\nProduce\nBaby Watermelon\n2.99 F\nBANANAS (Organic)\n2.59 F\n2.62Lb @ Lb/ 0.99\nBROCCOLI CROWNS\n3.28 F\n1.22Lb @ Lb/ 2.69\nMANDARINS\n2.99 F\nStrawberries\n4.99 F\nFrozen\nULT CHEESE PIZZA\n5.94 F\n6 @ 0.99\nDeli\nTSTEREP GF FUSILLI\n3.49 F\nSUB TOTAL\n45.19\nTOTAL TAX\n0.00\nTOTAL\n45.19\nCredit Type : Discover\n$45.19\nRef# 4961043850\n05/01/2026\n16:35:08\nDISCOVER\nEntry Method: Contactless\nCARD #:\nXXXXXXXXXXXX2377\nPURCHASE\n- APPROVED\nAUTH CODE:05259P\nMode:\nIssuer\nAID:\nA0000001523100100000001\nTVR:\n8000008000\nIAD:\n01152092400000080000\nTSI: 0800\nARC: 00\nTC:\n5C929EDE3EBFE7AD\nMID: 670375\nTID: 001\nRRN: 080773\nUSD$ 45.19\nCHANGE\n0.00\nCashier Name: JESSICA\nCashier :0173 Store 0169\nPOS:004 Transaction 0111\nFriday, 01 May, 2026 4:32 PM\nTHANK YOU FOR SHOPPING WITH US!\nQuestions please call 07-644-6581\nVallejo, CA 94591\nReturns are gladly accepted with a\nreceipt within 30 days of purchase for\na full cash refund (or credit to the\napplicable credit or EBT card)\nThank You and Stay Safe\nYour Savings Today!\nCoupon Savings\nAdvertised Savings\n54.96\nPromotion Savings\nTODAY YOU SAVED\n$54.96",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BLUEBERRY MELTS",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "Grocery",
+      "price": 1,
+      "quantity": 1,
+      "totalSpend": 1
+    },
+    {
+      "text": "mexican choc cooki + 2 @ 2.99",
+      "price": 2.99,
+      "quantity": 2,
+      "totalSpend": 5.98
+    },
+    {
+      "text": "NV SMORES BAR + 2 @ 1.99",
+      "price": 1.99,
+      "quantity": 2,
+      "totalSpend": 3.98
+    },
+    {
+      "text": "pb choc PROTEIN BA + 2 @ 2.99",
+      "price": 2.99,
+      "quantity": 2,
+      "totalSpend": 5.98
+    },
+    {
+      "text": "RS SLTD CRML BAR + Produce",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "Baby Watermelon",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "BANANAS (Organic) + 2.62Lb @ Lb/ 0.99",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 2.59
+    },
+    {
+      "text": "BROCCOLI CROWNS + 1.22Lb @ Lb/ 2.69",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 3.28
+    },
+    {
+      "text": "MANDARINS",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "Strawberries + Frozen",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "ULT CHEESE PIZZA + 6 @ 0.99 + Deli",
+      "price": 0.99,
+      "quantity": 6,
+      "totalSpend": 5.94
+    },
+    {
+      "text": "TSTEREP GF FUSILLI",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

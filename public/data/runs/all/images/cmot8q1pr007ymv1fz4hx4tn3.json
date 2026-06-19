@@ -1,0 +1,567 @@
+{
+  "id": "cmot8q1pr007ymv1fz4hx4tn3",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "sweeter collective",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "65.74",
+    "purchaseDate": "2026-05-05",
+    "time": null,
+    "zipCode": "33133",
+    "city": "Miami",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 33630.18754200003,
+        "totalUsd": 0.0566925,
+        "inputTokens": 6169,
+        "outputTokens": 1771,
+        "reasoningTokens": 3500
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "65.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:56:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33133",
+          "status": "match"
+        },
+        "city": {
+          "value": "Miami",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2750 SW 27th Ave, Suite #102",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7551",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MILD FRESH SALSA",
+          "quantity": 1,
+          "unitPrice": 6.98,
+          "totalSpend": 6.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEASONAL BLEND SALSA",
+          "quantity": 1,
+          "unitPrice": 6.98,
+          "totalSpend": 6.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ISLAND SPRITZ CANDY",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG MILD SALSA",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEA SALT LIME CHIPS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEA SALT LIME CHIPS + BOGO 50% OFF CHIPS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHIRLEY TEMPLE CANDY",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEXICAN STYLE CHEESE",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 5.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEXICAN STYLE CHEESE",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 5.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FLOUR TORTILLAS",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG CORN TORTILLAS + BOGO 50% OFF TORT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2750 SW 27th Ave, Suite #102\nMiami, FL 33133\n561-765-2216\nStore Hours MON-SUN 7AM-10PM\n05/05/2026 18:56:26\nAMEX CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX7551\nPURCHASE - APPROVED\nAUTH CODE:823202\nMode: Issuer\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: A800 ARC: 00\nTC: 4E9A4034B2AF27DF\nMID: 831672 TID: 001 RRN: 317500\nTotal: USD$ 65.74\nPRODUCE\nMILD FRESH SALSA 6.98\nSEASONAL BLEND SALSA 6.98\nGROCERY\nISLAND SPRITZ CANDY 8.99 T\nORG MILD SALSA 3.99\nSEA SALT LIME CHIPS 4.99\nSEA SALT LIME CHIPS 4.99\nBOGO 50% OFF CHIPS -2.50\nSHIRLEY TEMPLE CANDY 8.99 T\nDELI\nMEXICAN STYLE CHEESE 5.19\nMEXICAN STYLE CHEESE 5.19\nBAKERY\nFLOUR TORTILLAS 7.49\nORG CORN TORTILLAS 5.99\nBAG PROMPT CHARGE 0.10 T\nBAG PROMPT CHARGE 0.10 T\nBOGO 50% OFF TORT -3.00\nTax Report\nSales Tax 18.18 1.27 TT\nBALANCE DUE 65.74\nCREDIT 65.74\n[ ] XXXXXXXXXXXX7551\nAuth# 823202 Ref# 317500\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 2 5.50\nCard XXXXXXXXXX7653\nHave a Healthy Day Marlene!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 0\nTotal Points earned today: 320\nNew points balance: 320\n***********************************\nCashier:SSCO 31 Store: 656\nPOS:031 Transaction:9149\nTuesday, May 5, 2026 06:54 PM\n- Save money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your oringal receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\neceipt. Limits apply to returns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13504.55420799996,
+        "totalUsd": 0.033177,
+        "inputTokens": 3692,
+        "outputTokens": 1799,
+        "reasoningTokens": 1272
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "65.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33133",
+          "status": "match"
+        },
+        "city": {
+          "value": "Miami",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2750 SW 27th Ave, Suite #102",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7551",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MILD FRESH SALSA",
+          "quantity": 1,
+          "unitPrice": 6.98,
+          "totalSpend": 6.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEASONAL BLEND SALSA",
+          "quantity": 1,
+          "unitPrice": 6.98,
+          "totalSpend": 6.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ISLAND SPRITZ CANDY",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG MILD SALSA",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEA SALT LIME CHIPS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEA SALT LIME CHIPS + BOGO 50% OFF CHIPS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHIRLEY TEMPLE CANDY",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEXICAN STYLE CHEESE",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 5.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEXICAN STYLE CHEESE",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 5.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FLOUR TORTILLAS",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG CORN TORTILLAS + BOGO 50% OFF TORT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2750 SW 27th Ave, Suite #102\nMiami, FL 33133\n561-765-2216\nStore Hours MON-SUN 7AM-10PM\n05/05/2026\n18:56:26\nAMEX CREDIT\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX7551\nPURCHASE\n- APPROVED\nAUTH CODE:823202\nMode:\nIssuer\nAID:\nA000000025010901\nTVR:\n0000008000\nIAD:\n06040103A20102\nTSI: A800\nARC: 00\nTC:\n4E9A4034B2AF27DF\nMID: 831672\nTID: 001\nRRN: 317500\nTotal:\nUSD$ 65.74\nPRODUCE\nMILD FRESH SALSA\n6.98\nSEASONAL BLEND SALSA\n6.98\nGROCERY\nISLAND SPRITZ CANDY\n8.99 T\nORG MILD SALSA\n3.99\nSEA SALT LIME CHIPS\n4.99\nSEA SALT LIME CHIPS\n4.99\nBOGO 50% OFF CHIPS\n-2.50\nSHIRLEY TEMPLE CANDY\n8.99 T\nDELI\nMEXICAN STYLE CHEESE\n5.19\nMEXICAN STYLE CHEESE\n5.19\nBAKERY\nFLOUR TORTILLAS\n7.49\nORG CORN TORTILLAS\n5.99\nBAG PROMPT CHARGE\n0.10 T\nBAG PROMPT CHARGE\n0.10 T\nBOGO 50% OFF TORT\n-3.00\nTax Report\nSales Tax\n18.18\n1.27 TT\nBALANCE DUE\n65.74\nCREDIT\n$65.74\n[ ] XXXXXXXXXXXX7551\nAuth# 823202\nRef# 317500\nCHANGE\n0.00\nYou Saved!\nTOTAL DISCOUNTS\n2\n5.50\nCard XXXXXXXXXX7653\nHave a Healthy Day Marlene!\n*************************************\nSprouts Rewards\nPrevious Points Balance:\n0\nTotal Points earned today:\n320\nNew points balance:\n320\n*************************************\nCashier:SSCO 31 Store: 656\nPOS:031 Transaction:9149\nTuesday, May 5, 2026 06:54 PM\n- Save money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your oringal receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\neceipt. Limits apply to returns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 11885.679125,
+        "totalUsd": 0.021324,
+        "inputTokens": 3692,
+        "outputTokens": 1754,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "65.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:54 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33133",
+          "status": "match"
+        },
+        "city": {
+          "value": "Miami",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2750 SW 27th Ave, Suite #102",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7551",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MILD FRESH SALSA",
+          "quantity": 1,
+          "unitPrice": 6.98,
+          "totalSpend": 6.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEASONAL BLEND SALSA",
+          "quantity": 1,
+          "unitPrice": 6.98,
+          "totalSpend": 6.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ISLAND SPRITZ CANDY",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG MILD SALSA",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEA SALT LIME CHIPS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEA SALT LIME CHIPS + BOGO 50% OFF CHIPS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHIRLEY TEMPLE CANDY",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEXICAN STYLE CHEESE",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 5.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEXICAN STYLE CHEESE",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 5.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FLOUR TORTILLAS + BOGO 50% OFF TORT",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ORG CORN TORTILLAS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2750 SW 27th Ave, Suite #102\nMiami, FL 33133\n561-765-2216\nStore Hours MON-SUN 7AM-10PM\n05/05/2026 18:56:26\nAMEX CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX7551\nPURCHASE - APPROVED\nAUTH CODE:823202\nMode: Issuer\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: A800 ARC: 00\nTC: 4E9A4034B2AF27DF\nMID: 831672 TID: 001 RRN: 317500\nTotal: USD$ 65.74\nPRODUCE\nMILD FRESH SALSA 6.98\nSEASONAL BLEND SALSA 6.98\nGROCERY\nISLAND SPRITZ CANDY 8.99 T\nORG MILD SALSA 3.99\nSEA SALT LIME CHIPS 4.99\nSEA SALT LIME CHIPS 4.99\nBOGO 50% OFF CHIPS -2.50\nSHIRLEY TEMPLE CANDY 8.99 T\nDELI\nMEXICAN STYLE CHEESE 5.19\nMEXICAN STYLE CHEESE 5.19\nBAKERY\nFLOUR TORTILLAS 7.49\nORG CORN TORTILLAS 5.99\nBAG PROMPT CHARGE 0.10 T\nBAG PROMPT CHARGE 0.10 T\nBOGO 50% OFF TORT -3.00\nTax Report\nSales Tax 18.18 1.27 TT\nBALANCE DUE 65.74\nCREDIT $65.74\n[ ] XXXXXXXXXXXX7551\nAuth# 823202 Ref# 317500\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 2 5.50\nCard XXXXXXXXXX7653\nHave a Healthy Day Marlene!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 0\nTotal Points earned today: 320\nNew points balance: 320\n***********************************\nCashier:SSCO 31 Store: 656\nPOS:031 Transaction:9149\nTuesday, May 5, 2026 06:54 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MILD FRESH SALSA",
+      "price": 6.98,
+      "quantity": 1,
+      "totalSpend": 6.98
+    },
+    {
+      "text": "SEASONAL BLEND SALSA",
+      "price": 6.98,
+      "quantity": 1,
+      "totalSpend": 6.98
+    },
+    {
+      "text": "ISLAND SPRITZ CANDY",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "ORG MILD SALSA",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SEA SALT LIME CHIPS",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "SEA SALT LIME CHIPS",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "SHIRLEY TEMPLE CANDY",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "MEXICAN STYLE CHEESE",
+      "price": 5.19,
+      "quantity": 1,
+      "totalSpend": 5.19
+    },
+    {
+      "text": "MEXICAN STYLE CHEESE",
+      "price": 5.19,
+      "quantity": 1,
+      "totalSpend": 5.19
+    },
+    {
+      "text": "FLOUR TORTILLAS",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    },
+    {
+      "text": "ORG CORN TORTILLAS",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "BAG PROMPT CHARGE",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "BAG PROMPT CHARGE",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

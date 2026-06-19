@@ -1,0 +1,687 @@
+{
+  "id": "cmndjb4ku00byvndf0wrv2wp9",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "Protein Pints",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "54.67",
+    "purchaseDate": "2026-03-30",
+    "time": null,
+    "zipCode": "87505",
+    "city": "Santa Fe",
+    "state": "NM",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 23959.27425000002,
+        "totalUsd": 0.026823,
+        "inputTokens": 6206,
+        "outputTokens": 1946,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "54.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:59 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "87505",
+          "status": "match"
+        },
+        "city": {
+          "value": "Santa Fe",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2110 S. Pacheco",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0541",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TILLAMOOK CHEESE FV + YOU SAVED 4.59",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TLMK CHEESE FV",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TLMK CHEESE FV + YOU SAVED 4.59",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TLMK 2 CHEESE FV",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STO TOP SRLN STEAK",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRSI OVEN RST TRKYFV + YOU SAVED 1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PROTEIN PINTS CHOCFV + YOU SAVED 1.30",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PROTEIN PINTS PB FV + YOU SAVED 1.30",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GD CLTR CTGE CHS + 1.62 lb @ 0.59 /lb",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BANANAS",
+          "quantity": 1,
+          "unitPrice": 0.96,
+          "totalSpend": 0.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TYSN THIGHS",
+          "quantity": 1,
+          "unitPrice": 3.09,
+          "totalSpend": 3.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHK BRST THIN BLSL + 1 @ 2/3.00",
+          "quantity": 1,
+          "unitPrice": 2.7,
+          "totalSpend": 2.7,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBERS",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RPC PEPPERS BELL + 1.01 lb @ 1.19 /lb",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SQUASH YELLOW",
+          "quantity": 1,
+          "unitPrice": 1.2,
+          "totalSpend": 1.2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n2110 S. Pacheco\n505-473-5560\nYour cashier was CHEC 504\nTILLAMOOK CHEESE FV 0.00 F\nSC YOU SAVED 4.59\nTLMK CHEESE FV 4.59 F\nTLMK CHEESE FV 0.00 F\nSC YOU SAVED 4.59\nTLMK 2 CHEESE FV 4.59 F\nSTO TOP SRLN STEAK 9.99 F\nPRSI OVEN RST TRKYFV 5.99 F\nSC YOU SAVED 1.00\nPROTEIN PINTS CHOCFV 7.49 F\nSC YOU SAVED 1.30\nPROTEIN PINTS PB FV 7.49 F\nSC YOU SAVED 1.30\nGD CLTR CTGE CHS 4.29 F\n1.62 lb @ 0.59 /lb\nWT BANANAS 0.96 F\nTYSN THIGHS 3.09 F\nCHK BRST THIN BLSL 2.70 F\n1 @ 2/3.00\nCUCUMBERS 1.50 F\nRPC PEPPERS BELL 0.79 F\n1.01 lb @ 1.19 /lb\nWT SQUASH YELLOW 1.20 F\nFRESH VALUE CUSTOMER *******9321\nTAX 0.00\n**** BALANCE 54.67\nSanta Fe NM 87505\nVISA CREDIT PURCHASE\n************0541 - C\nREF#: 030957 TOTAL: 54.67\nAID: A0000000031010\nTC: 21582811CCFDA132\nVISA 54.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 15\nFreshValues Savings $ 12.78\nTotal Savings (18 Percent) $ 12.78\n03/30/26 08:59am 491 504 9 999999504\nAnnual Card Savings $77.04\nFuel Points Earned Today: 55\nTotal Mar Fuel Points: 164\nRemaining Feb Fuel Points: 112\nSmith's Inspiring Donations\nOn your behalf, we are contributing to\nATLANTA HUMANE SOCIETY\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 03/30/26\nTime: 08:59AM\nEntry ID: 706-897-9-491-504-513\nToday, You Saved\n$12.78\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 37420.844667,
+        "totalUsd": 0.08706,
+        "inputTokens": 3692,
+        "outputTokens": 1988,
+        "reasoningTokens": 7070
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "54.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:59 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "87505",
+          "status": "match"
+        },
+        "city": {
+          "value": "Santa Fe",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2110 S. Pacheco",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0541",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TILLAMOOK CHEESE FV + YOU SAVED 4.59",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TLMK CHEESE FV",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TLMK CHEESE FV + YOU SAVED 4.59",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TLMK 2 CHEESE FV",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STO TOP SRLN STEAK",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRSI OVEN RST TRKYFV + YOU SAVED 1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PROTEIN PINTS CHOCFV + YOU SAVED 1.30",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PROTEIN PINTS PB FV + YOU SAVED 1.30",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GD CLTR COTTGE CHS",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BANANAS + 1.62 (1.63) lb @ 0.59 /lb",
+          "quantity": 1,
+          "unitPrice": 0.96,
+          "totalSpend": 0.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TYSN THIGHS",
+          "quantity": 1,
+          "unitPrice": 3.09,
+          "totalSpend": 3.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHK BRST THIN BLSL",
+          "quantity": 1,
+          "unitPrice": 2.7,
+          "totalSpend": 2.7,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CUCUMBERS + 1 @ 2/3.00",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RPC PEPPERS BELL",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SQUASH YELLOW + 1.01 (1.02) lb @ 1.19 /lb",
+          "quantity": 1,
+          "unitPrice": 1.2,
+          "totalSpend": 1.2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n2110 S. Pacheco\n505-473-5560\nYour cashier was CHEC 504\nTILLAMOOK CHEESE FV 0.00 F\nSC YOU SAVED 4.59\nTLMK CHEESE FV 4.59 F\nTLMK CHEESE FV 0.00 F\nSC YOU SAVED 4.59\nTLMK 2 CHEESE FV 4.59 F\nSTO TOP SRLN STEAK 9.99 F\nPRSI OVEN RST TRKYFV 5.99 F\nSC YOU SAVED 1.00\nPROTEIN PINTS CHOCFV 7.49 F\nSC YOU SAVED 1.30\nPROTEIN PINTS PB FV 7.49 F\nSC YOU SAVED 1.30\nGD CLTR COTTGE CHS 4.29 F\n1.62 (1.63) lb @ 0.59 /lb\nWT BANANAS 0.96 F\nTYSN THIGHS 3.09 F\nCHK BRST THIN BLSL 2.70 F\n1 @ 2/3.00\nCUCUMBERS 1.50 F\nRPC PEPPERS BELL 0.79 F\n1.01 (1.02) lb @ 1.19 /lb\nWT SQUASH YELLOW 1.20 F\nFRESH VALUE CUSTOMER *******9321\nTAX 0.00\n**** BALANCE 54.67\nSanta Fe NM 87505\nVISA CREDIT PURCHASE\n************0541 - C\nREF#: 030957 TOTAL: 54.67\nAID: A0000000031010\nTC: 21582811CCFDA132\nVISA 54.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 15\nFreshValues Savings $ 12.78\nTotal Savings (18 Percent) $ 12.78\n03/30/26 08:59am 491 504 9 999999504\n****************************************\nAnnual Card Savings $77.04\n****************************************\n****************************************\nFuel Points Earned Today: 55\nTotal Mar Fuel Points: 164\n****************************************\nRemaining Feb Fuel Points: 112\n****************************************\nSmith's Community Rewards\nOn your behalf, we are contributing to\nATLANTA HUMANE SOCIETY\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 03/30/26\nTime: 08:59AM\nEntry ID: 706-897-9-491-504-513\n****************************************\nToday, You Saved\n$12.78\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9488.911790999991,
+        "totalUsd": 0.023367,
+        "inputTokens": 3692,
+        "outputTokens": 1981,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "54.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:59 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "87505",
+          "status": "match"
+        },
+        "city": {
+          "value": "Santa Fe",
+          "status": "match"
+        },
+        "state": {
+          "value": "NM",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2110 S. Pacheco",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0541",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TILLAMOOK CHEESE + YOU SAVED 4.59",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TLMK CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TLMK CHEESE + YOU SAVED 4.59",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TLMK 2 CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STO TOP SRLN STEAK",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRSL OVEN RST TRKYFV + YOU SAVED 1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PROTEIN PINTS CHOCFV + YOU SAVED 1.30",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PROTEIN PINTS PB FV + YOU SAVED 1.30",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GD CLTR CTTGE CHS + 1.62 (1.63) lb @ 0.59 /lb",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BANANAS",
+          "quantity": 1,
+          "unitPrice": 0.96,
+          "totalSpend": 0.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TYSN THIGHS",
+          "quantity": 1,
+          "unitPrice": 3.09,
+          "totalSpend": 3.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHK BRST THIN BLSL + 1 @ 2/3.00",
+          "quantity": 1,
+          "unitPrice": 2.7,
+          "totalSpend": 2.7,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBERS",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RPC PEPPERS BELL + 1.01 (1.02) lb @ 1.19 /lb",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SQUASH YELLOW",
+          "quantity": 1,
+          "unitPrice": 1.2,
+          "totalSpend": 1.2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n2110 S. Pacheco\n505-473-5560\nYour cashier was CHEC 504\nTILLAMOOK CHEESE FV 0.00 F\nSC YOU SAVED 4.59\nTLMK CHEESE FV 4.59 F\nTLMK CHEESE FV 0.00 F\nSC YOU SAVED 4.59\nTLMK 2 CHEESE FV 4.59 F\nSTO TOP SRLN STEAK 9.99 F\nPRSL OVEN RST TRKYFV 5.99 F\nSC YOU SAVED 1.00\nPROTEIN PINTS CHOCFV 7.49 F\nSC YOU SAVED 1.30\nPROTEIN PINTS PB FV 7.49 F\nSC YOU SAVED 1.30\nGD CLTR CTTGE CHS 4.29 F\n1.62 (1.63) lb @ 0.59 /lb\nWT BANANAS 0.96 F\nTYSN THIGHS 3.09 F\nCHK BRST THIN BLSL 2.70 F\n1 @ 2/3.00\nCUCUMBERS 1.50 F\nRPC PEPPERS BELL 0.79 F\n1.01 (1.02) lb @ 1.19 /lb\nWT SQUASH YELLOW 1.20 F\nFRESH VALUE CUSTOMER *******9321\nTAX 0.00\n**** BALANCE 54.67\nSanta Fe NM 87505\nVISA CREDIT PURCHASE\n************0541 - C\nREF#: 030957 TOTAL: 54.67\nAID: A0000000031010\nTC: 21582811CCFDA132\nVISA 54.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 15\nFreshValues Savings $ 12.78\nTotal Savings (18 Percent) $ 12.78\n03/30/26 08:59am 491 504 9 999999504\n****************************************\nAnnual Card Savings $77.04\n****************************************\n****************************************\nFuel Points Earned Today: 55\nTotal Mar Fuel Points: 164\n****************************************\nRemaining Feb Fuel Points: 112\n****************************************\nSmith's Inspiring Donations\nOn your behalf, we are contributing to\nATLANTA HUMANE SOCIETY\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 03/30/26\nTime: 08:59AM\nEntry ID: 706-897-9-491-504-513\n****************************************\nToday, You Saved\n$12.78\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SC YOU SAVED .59",
+      "price": 0.59,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "TLMK CHEESE FV 4.59 F",
+      "price": 4.59,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SC YOU SAVED 4.59",
+      "price": 4.59,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "TEMK 2 CHEESE FV 4.59 F",
+      "price": 4.59,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "STO TOP SRLN STEAK 9.99 F",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "PRSI OVEN RST TRKYFV 5.99 F",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SC YOU SAVED 1.00",
+      "price": 1,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "PROTEIN PINTS CHOCFV 7.49 F",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SC YOU SAVED 1.30",
+      "price": 1.3,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "PROTEIN PINTS PB FV 7.49 F",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SC YOU SAVED .30",
+      "price": 0.3,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "GD CLTR CTTGE CHS 4.29 F",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "1.62  1.63  1b @ 0.59 /1b",
+      "price": 0.59,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "WI BANANAS 1.96 F",
+      "price": 1.96,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "TYSN THIGHS 3.09 F",
+      "price": 3.09,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "CHK BRST THIN BLSL 2.70 F",
+      "price": 2.7,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "RPC PEPPERS BELL 0.79",
+      "price": 0.79,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "1.01  1.02  1b @ 1.19 /1b",
+      "price": 1.19,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "WT SQUASH YELLOW 1.20 F",
+      "price": 1.2,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "**** BALANCE 54.67",
+      "price": 54.67,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "REF#  030957 TOTAL  54.67",
+      "price": 54.67,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "VISA 54.67",
+      "price": 54.67,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "FreshValues Savings $ 12.78",
+      "price": 12.78,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Total Savings (18 Percent ) $ 12.78",
+      "price": 12.78,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Annual Card Savings $77.04",
+      "price": 77.04,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$12.78",
+      "price": 12.78,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

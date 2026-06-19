@@ -1,0 +1,351 @@
+{
+  "id": "cmnhnmvve007k12tlthmc72s6",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Sunsweet Growers Inc",
+  "amount": 5.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "7.48",
+    "purchaseDate": "2026-04-02",
+    "time": null,
+    "zipCode": "14450",
+    "city": "Fairport",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13147.43808299996,
+        "totalUsd": 0.017481,
+        "inputTokens": 6086,
+        "outputTokens": 928,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "7.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:45am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14450",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fairport",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6600 PITTSFORD PALMYRA ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1577",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SUNSWEET GOOD PLM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BFREE GF SRDGH BRD + MC OP FREE COUPON",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "QUANTUM BAR + MC Buy ONE 1 Quantu",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "QUANTUM BAR",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG REUSABLE BAG + WC DIG CPN BAG",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n6600 PITTSFORD PALMYRA ROAD\nFairport, NY 14450\n(585) 223-4092\n04/02/26 OP# 99516\nSUNSWEET GOOD PLM 5.49 F\nBFREE GF SRDGH BRD 6.49 F\nQUANTUM BAR 1.99 F\nQUANTUM BAR 1.99 F\nWEG REUSABLE BAG 0.99 T\n---------- COUPONS ----------\nMC Buy ONE 1 Quantu 1.99-F\nWC DIG CPN BAG 0.99-T\nMC OP FREE COUPON 6.49-\nTAX 0.00\n**** BALANCE 7.48\nVISA PURCHASE\nCARD NUMBER: ************1577 H\nVISA CREDIT 07\nAUTH: 06028C RCPT: 45779\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 7.48\nCHANGE 0.00\n---------- SAVINGS SUMMARY ----------\nMFR COUPON SAVINGS $ 8.48\nWEG COUPON SAVINGS $ 0.99\nTOTAL $ 9.47\n04/02/26 08:45am 24 45 10 99516\nsave $500+\nevery year\nwith digital coupons\ndownload the\napp today",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13719.07887500001,
+        "totalUsd": 0.033519,
+        "inputTokens": 3692,
+        "outputTokens": 965,
+        "reasoningTokens": 2144
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "7.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:45am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14450",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fairport",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6600 PITTSFORD PALMYRA ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1577",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SUNSWEET GOOD PLM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BFREE GF SRDGH BRD + MC OP FREE COUPON",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "QUANTUM BAR + MC Buy ONE 1 Quantu",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "QUANTUM BAR",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG REUSABLE BAG + WC DIG CPN BAG",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n\n6600 PITTSFORD PALMYRA ROAD\nFairport, NY 14450\n(585) 223-4092\n\n04/02/26 DP# 99516\n\nSUNSWEET GOOD PLM      5.49 F\nBFREE GF SRDGH BRD     6.49 F\nQUANTUM BAR            1.99 F\nQUANTUM BAR            1.99 F\nWEG REUSABLE BAG       0.99 T\n\n-------------- COUPONS --------------\nMC      Buy ONE 1 Quantu   1.99-F\nWC      DIG CPN BAG        0.99-T\nMC OP   FREE COUPON        6.49-\n        TAX                0.00\n\n**** BALANCE               7.48\n\nVISA PURCHASE\nCARD NUMBER: ************1577 H\nVISA CREDIT 07\nAUTH: 06028C RCPT: 45779\nCODE: 0000 Approved\nAID: A0000000031010\n\nCREDIT CARD                7.48\nCHANGE                     0.00\n\n---------- SAVINGS SUMMARY ----------\nMFR COUPON SAVINGS      $  8.48\nWEG COUPON SAVINGS      $  0.99\nTOTAL                   $  9.47\n\n04/02/26 08:45am 24 45 10 99516\n\nsave $500+\nevery year\nwith digital coupons\ndownload the\napp today",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5427.222750000015,
+        "totalUsd": 0.013845,
+        "inputTokens": 3692,
+        "outputTokens": 923,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "7.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:45 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14450",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fairport",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6600 PITTSFORD PALMYRA ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1577",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SUNSWEET GOOD PLM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BFREE GF SRDGH BRD + FREE COUPON",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "QUANTUM BAR + Buy ONE 1 Quantu",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "QUANTUM BAR",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG REUSABLE BAG + DIG CPN BAG",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n6600 PITTSFORD PALMYRA ROAD\nFairport, NY 14450\n(585) 223-4092\n04/02/26 OP# 99516\nSUNSWEET GOOD PLM 5.49 F\nBFREE GF SRDGH BRD 6.49 F\nQUANTUM BAR 1.99 F\nQUANTUM BAR 1.99 F\nWEG REUSABLE BAG 0.99 T\n---------- COUPONS ----------\nMC Buy ONE 1 Quantu 1.99-F\nWC DIG CPN BAG 0.99-T\nMC OP FREE COUPON 6.49-\nTAX 0.00\n**** BALANCE 7.48\nVISA PURCHASE\nCARD NUMBER: ************1577 H\nVISA CREDIT 07\nAUTH: 06028C RCPT: 45779\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 7.48\nCHANGE 0.00\n---------- SAVINGS SUMMARY ----------\nMFR COUPON SAVINGS $ 8.48\nWEG COUPON SAVINGS $ 0.99\nTOTAL $ 9.47\n04/02/26 08:45am 24 45 10 99516\nsave $500+\nevery year\nwith digital coupons\ndownload the\napp today",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SUNSWEET GOOD PLM",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "BFREE GF SRDGH BRD",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "QUANTUM BAR",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "QUANTUM BAR",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "WEG REUSABLE BAG",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,291 @@
+{
+  "id": "cmnow0po3000yroiouemkfpky",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "Bundle x Joy",
+  "amount": 19.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "65.29",
+    "purchaseDate": "2026-04-07",
+    "time": null,
+    "zipCode": "10710",
+    "city": "Yonkers",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9722.63054199994,
+        "totalUsd": 0.019209,
+        "inputTokens": 6086,
+        "outputTokens": 1120,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "65.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:15:41 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10710",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yonkers",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2458 Central Park Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* BUNDLEXJOY D BRAVE LMB 4 L + 850035258040 + Return Amount $19.99 + Send01",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AS* BUNDLEXJOY D BRAVE LMB 4 L + 850035258040 + Return Amount $19.99 + Send01",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Autoship + 5378126 + FULFILLMENT METHOD: Confirm Autoship + Send01 + Item is not returnable.",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #1558\n2458 Central Park Rd\nYonkers, NY 10710\n914-771-5756\nS-1558 R-101 BUS.DATE-04/07/2026\nT-2604 A-813353\nSALE\nAS* BUNDLEXJOY D BRAVE LMB 4 L $39.98\n850035258040 StSpCi\nQTY: 2 @ $19.99\nReturn Amount $19.99\nSend01\nAS* BUNDLEXJOY D BRAVE LMB 4 L $19.99\n850035258040 StSpCi\nReturn Amount $19.99\nSend01\nAutoship $0.00\n5378126 N\nFULFILLMENT METHOD: Confirm Autoship\nSend01\nItem is not returnable.\n3 Sale item(s)\nSUBTOTAL $59.97\nSend01\nTAX State 4.00% ON $59.97 $2.40\nTAX City 4.50% ON $59.97 $2.70\nTAX Special 0.375% ON $59.97 $0.22\nTAX TOTAL: $5.32\nTOTAL $65.29\nCash $66.00\nCHANGE DUE $0.71\nNON-MEMBER\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 06/06/2026\nSave with Treats Rewards!\nMembers earn 10 points for every $1 spent &\nsave more with member pricing & deals.\nDownload the PetSmart app & join our\nFREE rewards program to start saving today!\nPetSmart Charities is a 501(c)(3) Non-Profit\nOrganization.\nRetain receipt for your records.\n000015580000101000026040407260107\n04/07/2026 1:15:41 PM\nCheck your email to finish enrolling in\nAutoship and receive your discount.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15555.003042,
+        "totalUsd": 0.027057,
+        "inputTokens": 3692,
+        "outputTokens": 1111,
+        "reasoningTokens": 1280
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "65.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:15:41 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10710",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yonkers",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2458 Central Park Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* BUNDLEYJOY D BRAVE LMB 4 L + 850035258040 + Return Amount $19.99 + Send01",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AS* BUNDLEYJOY D BRAVE LMB 4 L + 850035258040 + Return Amount $19.99 + Send01",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Autoship + 5378126 + FULFILLMENT METHOD: Confirm Autoship + Send01 + Item is not returnable.",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING FOR PETS\nPETSMART #1558\n2458 Central Park Rd\nYonkers, NY 10710\n914-771-5756\nS-1558 R-101 BUS.DATE-04/07/2026\nT-2604 A-813353\nSALE\nAS* BUNDLEYJOY D BRAVE LMB 4 L $39.98\n850035258040 StSpCi\nQTY: 2 @ $19.99\nReturn Amount $19.99\nSend01\nAS* BUNDLEYJOY D BRAVE LMB 4 L $19.99\n850035258040 StSpCi\nReturn Amount $19.99\nSend01\nAutoship $0.00\n5378126 N\nFULFILLMENT METHOD: Confirm Autoship\nSend01\nItem is not returnable.\n3 Sale item(s)\nSUBTOTAL $59.97\nSend01\nTAX State 4.00% ON $59.97 $2.40\nTAX City 4.50% ON $59.97 $2.70\nTAX Special 0.375% ON $59.97 $0.22\nTAX TOTAL: $5.32\nTOTAL $65.29\nCash $66.00\nCHANGE DUE $0.71\nNON-MEMBER\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 06/06/2026\nSave with Treats Rewards!\nMembers earn 10 points for every $1 spent &\nsave more with member pricing & deals.\nDownload the PetSmart app & join our\nFREE rewards program to start saving today!\nPetSmart Charities is a 501(c)(3) Non-Profit\nOrganization.\nRetain receipt for your records.\n000015580000101000026040407260107\n04/07/2026 1:15:41 PM\nCheck your email to finish enrolling in\nAutoship and receive your discount.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5807.999542000005,
+        "totalUsd": 0.015285,
+        "inputTokens": 3692,
+        "outputTokens": 1083,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "65.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:15:41 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10710",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yonkers",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2458 Central Park Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* BUNDLEXJOY D BRAVE LMB 4 L + 850035258040",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BUNDLEXJOY D BRAVE LMB 4 L + 850035258040",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Autoship + 5378126 + FULFILLMENT METHOD: Confirm Autoship + Item is not returnable.",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING FOR PETS\nPETSMART #1558\n2458 Central Park Rd\nYonkers, NY 10710\n914-771-5756\nS-1558 R-101 BUS.DATE-04/07/2026\nT-2604 A-813353\nSALE\nAS* BUNDLEXJOY D BRAVE LMB 4 L $39.98\n850035258040 StSpCi\nQTY: 2 @ $19.99\nReturn Amount $19.99\nSend01\nAS* BUNDLEXJOY D BRAVE LMB 4 L $19.99\n850035258040 StSpCi\nReturn Amount $19.99\nSend01\nAutoship $0.00\n5378126 N\nFULFILLMENT METHOD: Confirm Autoship\nSend01\nItem is not returnable.\n3 Sale item(s)\nSUBTOTAL $59.97\nSend01\nTAX State 4.00% ON $59.97 $2.40\nTAX City 4.50% ON $59.97 $2.70\nTAX Special 0.375% ON $59.97 $0.22\nTAX TOTAL: $5.32\nTOTAL $65.29\nCash $66.00\nCHANGE DUE $0.71\nNON-MEMBER\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 06/06/2026\nSave with Treats Rewards!\nMembers earn 10 points for every $1 spent &\nsave more with member pricing & deals.\nDownload the PetSmart app & join our\nFREE rewards program to start saving today!\nPetSmart Charities is a 501(c)(3) Non-Profit\nOrganization.\nRetain receipt for your records.\n0000155800000101000026040407260107\n04/07/2026 1:15:41 PM\nCheck your email to finish enrolling in\nAutoship and receive your discount.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "AS* BUNDLEXJOY D BRAVE LMB 4 L + 850035258040 + QTY: 2 @ $19.99 + Return Amount $19.99 + Send01",
+      "price": 19.99,
+      "quantity": 2,
+      "totalSpend": 39.98
+    },
+    {
+      "text": "AS* BUNDLEXJOY D BRAVE LMB 4 L + 850035258040 + Return Amount $19.99 + Send01",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

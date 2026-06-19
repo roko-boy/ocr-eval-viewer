@@ -1,0 +1,432 @@
+{
+  "id": "cmn13kotp00hrt0wrn2eahseb",
+  "url": null,
+  "retailer": "Walmart Neighborhood Market",
+  "brand": "Nguyen Coffee Supply",
+  "amount": 1.44,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "24.31",
+    "purchaseDate": "2026-03-21",
+    "time": null,
+    "zipCode": "85302",
+    "city": "Glendale",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 25710.799125,
+        "totalUsd": 0.021666,
+        "inputTokens": 6086,
+        "outputTokens": 1393,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:46:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85302",
+          "status": "match"
+        },
+        "city": {
+          "value": "GLENDALE",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6645 W PEORIA AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9871",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "UDON BOWL + 194346198920 F",
+          "quantity": 1,
+          "unitPrice": 6.92,
+          "totalSpend": 6.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNOW PEAS + 681131328780 F",
+          "quantity": 1,
+          "unitPrice": 2.53,
+          "totalSpend": 2.53,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNACK TRAY + 030223032040 F + WAS 4.97 ea YOU SAVED 2.09",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 2.88,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "VIET COFF CM + 850038442090 F",
+          "quantity": 1,
+          "unitPrice": 2.87,
+          "totalSpend": 2.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VIET COFF CO + 850038442110 F",
+          "quantity": 1,
+          "unitPrice": 2.87,
+          "totalSpend": 2.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBUX DSE + 098100101290 F",
+          "quantity": 1,
+          "unitPrice": 2.94,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MINI POP CHK + 194346268610",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADO + 750302884203 F + 2 AT 1 FOR 0.55",
+          "quantity": 2,
+          "unitPrice": 0.55,
+          "totalSpend": 1.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Walmart *:\nNeighborhood Market\n623-773-2947 Mgr. JEREMY\n6645 W PEORIA AVE\nGLENDALE AZ 85302\nST# 03845 OP# 009012 TE# 12 TR# 00475\n# ITEMS SOLD 8\nTC# 6396 9208 3356 4587 9780\nUDON BOWL 194346198920 F 6.92 R\nSNOW PEAS 681131328780 F 2.53 R\nSNACK TRAY 030223032040 F 2.88 Y\nWAS 4.97 ea YOU SAVED 2.09\nVIET COFF CM 850038442090 F 2.87 R\nVIET COFF CO 850038442110 F 2.87 R\nSBUX DSE 098100101290 F 2.94 R\nMINI POP CHK 194346268610 1.50 P\nAVOCADO 750302884203 F\n2 AT 1 FOR 0.55 1.10 R\nSUBTOTAL 23.61\nTAX4 10.2000 % 0.15\nTAX2 2.5000 % 0.55\nTOTAL 24.31\nMCARD TEND 24.31\nCHANGE DUE 0.00\nCAPITAL ONE- 9871 I 3 APPR#08039P\n24.31 TOTAL PURCHASE\nREF # UDKY8V212260\nAID A0000000041010\nTERMINAL # 28508017\n*No Signature Required\n03/21/26 18:46:00\nGet free delivery\nfrom this store\nwith Walmart+",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11851.177416,
+        "totalUsd": 0.028047,
+        "inputTokens": 3692,
+        "outputTokens": 1389,
+        "reasoningTokens": 1112
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:46:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85302",
+          "status": "match"
+        },
+        "city": {
+          "value": "GLENDALE",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6645 W PEORIA AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9871",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "UDON BOWL + 194346198920 F",
+          "quantity": 1,
+          "unitPrice": 6.92,
+          "totalSpend": 6.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNOW PEAS + 681131328780 F",
+          "quantity": 1,
+          "unitPrice": 2.53,
+          "totalSpend": 2.53,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNACK TRAY + 030223032040 F + WAS 4.97 ea YOU SAVED 2.09",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 2.88,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "VIET COFF CM + 850038442090 F",
+          "quantity": 1,
+          "unitPrice": 2.87,
+          "totalSpend": 2.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VIET COFF CO + 850038442110 F",
+          "quantity": 1,
+          "unitPrice": 2.87,
+          "totalSpend": 2.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBUX DSE + 098100101290 F",
+          "quantity": 1,
+          "unitPrice": 2.94,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MINI POP CHK + 194346268610",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADO + 750302884203 F + 2 AT 1 FOR 0.55",
+          "quantity": 2,
+          "unitPrice": 0.55,
+          "totalSpend": 1.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Thank you! ID #:\nWalmart *:\nNeighborhood Market\n623-773-2947 Mgr. JEREMY\n6645 W PEORIA AVE\nGLENDALE AZ 85302\nST# 03845 OP# 009012 TE# 12 TR# 00475\n# ITEMS SOLD 8\nTC# 6396 9208 3356 4587 9780\nUDON BOWL 194346198920 F 6.92 R\nSNOW PEAS 681131328780 F 2.53 R\nSNACK TRAY 030223032040 F 2.88 Y\nWAS 4.97 ea YOU SAVED 2.09\nVIET COFF CM 850038442090 F 2.87 R\nVIET COFF CO 850038442110 F 2.87 R\nSBUX DSE 098100101290 F 2.94 R\nMINI POP CHK 194346268610 1.50 P\nAVOCADO 750302884203 F\n2 AT 1 FOR 0.55 1.10 R\nSUBTOTAL 23.61\nTAX4 10.2000 % 0.15\nTAX2 2.5000 % 0.55\nTOTAL 24.31\nMCARD TEND 24.31\nCHANGE DUE 0.00\nCAPITAL ONE- 9871 I 3 APPR#08039P\n24.31 TOTAL PURCHASE\nREF # UDKY8V212260\nAID A0000000041010\nTERMINAL # 28508017\n*No Signature Required\n03/21/26 18:46:00\nGet free delivery\nfrom this store\nwith Walmart+",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7542.633834,
+        "totalUsd": 0.018039,
+        "inputTokens": 3692,
+        "outputTokens": 1389,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:46:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85302",
+          "status": "match"
+        },
+        "city": {
+          "value": "GLENDALE",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6645 W PEORIA AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9871",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "UDON BOWL + 194346198920 F",
+          "quantity": 1,
+          "unitPrice": 6.92,
+          "totalSpend": 6.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNOW PEAS + 681131328780 F",
+          "quantity": 1,
+          "unitPrice": 2.53,
+          "totalSpend": 2.53,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNACK TRAY + 030223032040 F + WAS 4.97 ea YOU SAVED 2.09",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 2.88,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "VIET COFF CM + 850038442090 F",
+          "quantity": 1,
+          "unitPrice": 2.87,
+          "totalSpend": 2.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VIET COFF CO + 850038442110 F",
+          "quantity": 1,
+          "unitPrice": 2.87,
+          "totalSpend": 2.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SBUX DSE + 098100101290 F",
+          "quantity": 1,
+          "unitPrice": 2.94,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MINI POP CHK + 194346268610",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADO + 750302884203 F + 2 AT 1 FOR 0.55",
+          "quantity": 2,
+          "unitPrice": 0.55,
+          "totalSpend": 1.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Thank you! ID #:\nWalmart *:\nNeighborhood Market\n623-773-2947 Mgr. JEREMY\n6645 W PEORIA AVE\nGLENDALE AZ 85302\nST# 03845 OP# 009012 TE# 12 TR# 00475\n# ITEMS SOLD 8\nTC# 6396 9208 3356 4587 9780\nUDON BOWL 194346198920 F 6.92 R\nSNOW PEAS 681131328780 F 2.53 R\nSNACK TRAY 030223032040 F 2.88 Y\nWAS 4.97 ea YOU SAVED 2.09\nVIET COFF CM 850038442090 F 2.87 R\nVIET COFF CO 850038442110 F 2.87 R\nSBUX DSE 098100101290 F 2.94 R\nMINI POP CHK 194346268610 1.50 P\nAVOCADO 750302884203 F\n2 AT 1 FOR 0.55 1.10 R\nSUBTOTAL 23.61\nTAX4 10.2000 % 0.15\nTAX2 2.5000 % 0.55\nTOTAL 24.31\nMCARD TEND 24.31\nCHANGE DUE 0.00\nCAPITAL ONE- 9871 I 3 APPR#08039P\n24.31 TOTAL PURCHASE\nREF # UDKY8V212260\nAID A0000000041010\nTERMINAL # 28508017\n*No Signature Required\n03/21/26 18:46:00\nGet free delivery\nfrom this store\nwith Walmart+",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "UDON BOWL + 194346198920",
+      "price": 6.92,
+      "quantity": 1,
+      "totalSpend": 6.92
+    },
+    {
+      "text": "SNOW PEAS + 681131328780",
+      "price": 2.53,
+      "quantity": 1,
+      "totalSpend": 2.53
+    },
+    {
+      "text": "SNACK TRAY + 030223032040 + WAS 4.97 ea YOU SAVED 2.09",
+      "price": 2.88,
+      "quantity": 1,
+      "totalSpend": 2.88
+    },
+    {
+      "text": "VIET COFF CM + 850038442090",
+      "price": 2.87,
+      "quantity": 1,
+      "totalSpend": 2.87
+    },
+    {
+      "text": "VIET COFF CO + 850038442110",
+      "price": 2.87,
+      "quantity": 1,
+      "totalSpend": 2.87
+    },
+    {
+      "text": "SBUX DSE + 098100101290",
+      "price": 2.94,
+      "quantity": 1,
+      "totalSpend": 2.94
+    },
+    {
+      "text": "MINI POP CHK + 194346268610",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "AVOCADO + 750302884203 + 2 AT 1 FOR 0.55 1.10R",
+      "price": 0.55,
+      "quantity": 2,
+      "totalSpend": 1.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,277 @@
+{
+  "id": "cmqb6iz7z010z10jjh9libcdd",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "Wilde Brands Inc.",
+  "amount": 3.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "4.68",
+    "purchaseDate": "2026-06-12",
+    "time": null,
+    "zipCode": "20111",
+    "city": "Manassas Park",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9337.209249999956,
+        "totalUsd": 0.016374,
+        "inputTokens": 6086,
+        "outputTokens": 805,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.68",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:03:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Manassas Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8504 Centerville Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8725",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Wilde Ckn&Waffle Protein Chi",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Regular Drink + LOY REGULAR SIZE FOUNT 1.29",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #270\n8504 Centerville Rd\nManassas Park\nVA 20111\n(571) 364-6610\n6/12/2026 1:03:40 PM\nPOS Terminal\nOrder Number: 913\nRegister:21\nMy Sheetz Rewardz $0.00\nWilde Ckn&Waffle Protein Chi $3.29\nRegular Drink $1.49\nLOY REGULAR SIZE FOUNT 1.29 -$0.20\nSub. Total: $4.58\nTax: $0.10\nTotal: $4.68\nDiscount Total: -$0.20\nVisa: $4.68\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX8725\nContactless\nTerminal : XXXXXXXXXX3002\nApproval : 600533\nSequence : 038932\nUSD$ 4.68\nUS Common Debit\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: B458E4A0FD5FCF1A\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0222\nTerminal : 20270\nApproval : 22065748\nYou earned 22 Points today!\nSpendable Points: 215\nYearly Points: 316\nLEVEL:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8642.34600000002,
+        "totalUsd": 0.020622,
+        "inputTokens": 3692,
+        "outputTokens": 794,
+        "reasoningTokens": 882
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.68",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:03:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Manassas Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8504 Centerville Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8725",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Wilde Ckn&Waffle Protein Chi",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Regular Drink + LOY REGULAR SIZE FOUNT 1.29",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #270\n8504 Centerville Rd\nManassas Park\nVA 20111\n(571) 364-6610\n6/12/2026 1:03:40 PM\nPOS Terminal\nOrder Number: 913\nRegister:21\nMy Sheetz Rewardz $0.00\nWilde Ckn&Waffle Protein Chi $3.29\nRegular Drink $1.49\nLOY REGULAR SIZE FOUNT 1.29 -$0.20\nSub. Total: $4.58\nTax: $0.10\nTotal: $4.68\nDiscount Total: -$0.20\nVisa: $4.68\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX8725\nContactless\nTerminal : XXXXXXXXXX3002\nApproval : 600533\nSequence : 038932\nUSD$ 4.68\nUS Common Debit\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: B458E4A0FD5FCF1A\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0222\nTerminal : 20270\nApproval : 220657482\nYou earned 22 Points today!\nSpendable Points: 215\nYearly Points: 316\nLEVEL:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4926.850957999995,
+        "totalUsd": 0.013179,
+        "inputTokens": 3692,
+        "outputTokens": 849,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.68",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:03:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Manassas Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8504 Centerville Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8725",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Wilde Ckn&Waffle Protein Chi",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Regular Drink + LOY REGULAR SIZE FOUNT 1.29",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #270\n8504 Centerville Rd\nManassas Park\nVA 20111\n(571) 364-6610\n6/12/2026 1:03:40 PM\nPOS Terminal\nOrder Number: 913\nRegister:21\nMy Sheetz Rewardz $0.00\nWilde Ckn&Waffle Protein Chi $3.29\nRegular Drink $1.49\nLOY REGULAR SIZE FOUNT 1.29 -$0.20\nSub. Total: $4.58\nTax: $0.10\nTotal: $4.68\nDiscount Total: -$0.20\nVisa: $4.68\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX8725\nContactless\nTerminal : XXXXXXXXXX3002\nApproval : 600533\nSequence : 038932\nUSD$ 4.68\nUS Common Debit\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: B458E4A0FD5FCF1A\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0222\nTerminal : 20270\nApproval : 220657482\nYou earned 22 Points today!\nSpendable Points: 215\nYearly Points: 316\nLEVEL:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Wilde Ckn&Waffle Protein Chi",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "Regular Drink + LOY REGULAR SIZE FOUNT 1.29",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

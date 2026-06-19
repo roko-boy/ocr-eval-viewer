@@ -1,0 +1,378 @@
+{
+  "id": "cmq2gjemb006xvznfnw2egc3u",
+  "url": null,
+  "retailer": "Market Basket",
+  "brand": "Big Mozz",
+  "amount": 7.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "DeMoulas Market Basket",
+    "totalCost": "25.95",
+    "purchaseDate": "2026-06-06",
+    "time": null,
+    "zipCode": "02919",
+    "city": "Johnston",
+    "state": "RI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9877.879249999998,
+        "totalUsd": 0.018984,
+        "inputTokens": 6086,
+        "outputTokens": 1095,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market Basket",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.95",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:09 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "02919",
+          "status": "match"
+        },
+        "city": {
+          "value": "Johnston",
+          "status": "match"
+        },
+        "state": {
+          "value": "RI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1300 Hartford Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "208894000000 REDUCED FLORAL",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "208894000000 REDUCED FLORAL",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "208894000000 REDUCED FLORAL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "208894000000 REDUCED FLORAL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "058449410225 NATPTH TSTR",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "850039394027 BIG MOZZ + 2 @ 7.49",
+          "quantity": 2,
+          "unitPrice": 7.49,
+          "totalSpend": 14.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n1300 Hartford Ave.\nJohnston, RI 02919\n(401) 291-1313\nManager: Chris Smart\nStore: 090\nCashier:\n0900714-Katie-V\n6/06/26\n10:09 AM\nSale\nFLORAL DEPT\n208894000000 REDUCED FLORAL\n0.99\n208894000000 REDUCED FLORAL\n0.99\n208894000000 REDUCED FLORAL\n2.50\n208894000000 REDUCED FLORAL\n2.50\nGROCERY\n058449410225 NATPTH TSTR\n3.99 F\nSNACKS\n850039394027 BIG MOZZ\n14.98 F\n2 @ 7.49\nSUBTOTAL\n25.95\nTOTAL\n25.95\nCash\n40.00\nTOTAL TENDERED\n40.00\nChange\n14.05\nNumber of Items\n7\n>JH03Y4EDG6K31D\nTrx:333408\nTerm:06\nStore: 090\n10:09 AM\nSTORE HOURS MON-SAT 7AM-9PM SUN 7AM-8PM\nTo sign up for the weekly flyer email\nvisit www.shopmarketbasket.com\nThank you for shopping Market Basket",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14573.26316599999,
+        "totalUsd": 0.034545,
+        "inputTokens": 3692,
+        "outputTokens": 1071,
+        "reasoningTokens": 2152
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market Basket",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.95",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:09 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "02919",
+          "status": "match"
+        },
+        "city": {
+          "value": "Johnston",
+          "status": "match"
+        },
+        "state": {
+          "value": "RI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1300 Hartford Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2088940000000 REDUCED FLORAL",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2088940000000 REDUCED FLORAL",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2088940000000 REDUCED FLORAL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2088940000000 REDUCED FLORAL",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "058449410225 NATPTH TSTR",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "850039394027 BIG MOZZ",
+          "quantity": 2,
+          "unitPrice": 7.49,
+          "totalSpend": 14.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n1300 Hartford Ave.\nJohnston, RI 02919\n(401) 291-1313\nManager: Chris Smart\nStore: 090\nCashier: 0900714-Katie-V\n6/06/26 10:09 AM\nSale\nFLORAL DEPT\n2088940000000 REDUCED FLORAL 0.99\n2088940000000 REDUCED FLORAL 0.99\n2088940000000 REDUCED FLORAL 2.50\n2088940000000 REDUCED FLORAL 2.50\nGROCERY\n058449410225 NATPTH TSTR 3.99 F\nSNACKS\n850039394027 BIG MOZZ 14.98 F\n2 @ 7.49\nSUBTOTAL 25.95\nTOTAL 25.95\nCash 40.00\nTOTAL TENDERED 40.00\nChange 14.05\nNumber of Items 7\n>JH03Y4EDG6K31D\nTrx:333408 Term:06 Store: 090 10:09 AM\nSTORE HOURS MON-SAT 7AM-9PM SUN 7AM-8PM\nTo sign up for the weekly flyer email\nvisit www.shopmarketbasket.com\nThank you for shopping Market Basket",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6443.614874999999,
+        "totalUsd": 0.015339,
+        "inputTokens": 3692,
+        "outputTokens": 1089,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market Basket",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.95",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:09 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "02919",
+          "status": "match"
+        },
+        "city": {
+          "value": "Johnston",
+          "status": "match"
+        },
+        "state": {
+          "value": "RI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1300 Hartford Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "REDUCED FLORAL + 208894000000",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REDUCED FLORAL + 208894000000",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REDUCED FLORAL + 208894000000",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REDUCED FLORAL + 208894000000",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NATPTH TSTR + 058449410225",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIG MOZZ + 850039394027",
+          "quantity": 2,
+          "unitPrice": 7.49,
+          "totalSpend": 14.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n1300 Hartford Ave.\nJohnston, RI 02919\n(401) 291-1313\nManager: Chris Smart\nStore: 090\nCashier:\n0900714-Katie-V\n6/06/26\n10:09 AM\nSale\nFLORAL DEPT\n208894000000 REDUCED FLORAL\n0.99\n208894000000 REDUCED FLORAL\n0.99\n208894000000 REDUCED FLORAL\n2.50\n208894000000 REDUCED FLORAL\n2.50\nGROCERY\n058449410225 NATPTH TSTR\n3.99 F\nSNACKS\n850039394027 BIG MOZZ\n14.98 F\n2 @ 7.49\nSUBTOTAL\n25.95\nTOTAL\n25.95\nCash\n40.00\nTOTAL TENDERED\n40.00\nChange\n14.05\nNumber of Items\n7\n*JH03Y4EDG6K31D\nTrx:333408\nTerm:06\nStore: 090\n10:09 AM\nSTORE HOURS MON-SAT 7AM-9PM SUN 7AM-8PM\nTo sign up for the weekly flyer email\nvisit www.shopmarketbasket.com\nThank you for shopping Market Basket",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "REDUCED FLORAL + 2088940000000",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "REDUCED FLORAL + 2088940000000",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "REDUCED FLORAL + 2088940000000",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "REDUCED FLORAL + 2088940000000 + GROCERY",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "NATPTH TSTR + 058449410225 + SNACKS",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BIG MOZZ + 850039394027 + 2 @ 7.49",
+      "price": 7.49,
+      "quantity": 2,
+      "totalSpend": 14.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

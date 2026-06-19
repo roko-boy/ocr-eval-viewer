@@ -1,0 +1,270 @@
+{
+  "id": "cmqbk404b00cxwr0lzk2yixtw",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Croots",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Wegmans",
+    "totalCost": "13.98",
+    "purchaseDate": "2026-06-12",
+    "time": null,
+    "zipCode": "14526",
+    "city": "PENFIELD",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5449.611709000019,
+        "totalUsd": 0.014484,
+        "inputTokens": 6086,
+        "outputTokens": 595,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14526",
+          "status": "match"
+        },
+        "city": {
+          "value": "PENFIELD",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2157 PENFIELD ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4548",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CROOT CROUTONS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ PROTEIN CHOC",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n2157 PENFIELD ROAD\nPENFIELD, NY 14526\n(585) 388-5300\n06/12/26 OP# 93\nCROOT CROUTONS 5.99 F\nPIRQ PROTEIN CHOC 7.99 F\nTAX 0.00\n**** BALANCE 13.98\nMASTERCARD PURCHASE\nCARD NUMBER: ************4548 H\nMastercard Debit 07\nAUTH: ZA6Z70 RCPT: 393621\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 13.98\nCHANGE 0.00\n06/12/26 19:25 63 393 154 93\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12505.71641700005,
+        "totalUsd": 0.01929,
+        "inputTokens": 3692,
+        "outputTokens": 584,
+        "reasoningTokens": 944
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14526",
+          "status": "match"
+        },
+        "city": {
+          "value": "PENFIELD",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2157 PENFIELD ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4548",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CROOT CROUTONS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ PROTEIN CHOC",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n2157 PENFIELD ROAD\nPENFIELD, NY 14526\n(585) 388-5300\n06/12/26 OP# 93\nCROOT CROUTONS 5.99 F\nPIRQ PROTEIN CHOC 7.99 F\nTAX 0.00\n**** BALANCE 13.98\nMASTERCARD PURCHASE\nCARD NUMBER: ************4548 H\nMastercard Debit 07\nAUTH: ZA6Z70 RCPT: 393621\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 13.98\nCHANGE 0.00\n06/12/26 19:25 63 393 154 93\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4353.533332999999,
+        "totalUsd": 0.010794,
+        "inputTokens": 3692,
+        "outputTokens": 584,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:25",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14526",
+          "status": "match"
+        },
+        "city": {
+          "value": "PENFIELD",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2157 PENFIELD ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4548",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CROOT CROUTONS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ PROTEIN CHOC",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n2157 PENFIELD ROAD\nPENFIELD, NY 14526\n(585) 388-5300\n06/12/26 OP# 93\nCROOT CROUTONS 5.99 F\nPIRQ PROTEIN CHOC 7.99 F\nTAX 0.00\n**** BALANCE 13.98\nMASTERCARD PURCHASE\nCARD NUMBER: ************4548 H\nMastercard Debit 07\nAUTH: ZA6Z70 RCPT: 393621\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 13.98\nCHANGE 0.00\n06/12/26 19:25 63 393 154 93\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CROOT CROUTONS",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "PIRQ PROTEIN CHOC",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

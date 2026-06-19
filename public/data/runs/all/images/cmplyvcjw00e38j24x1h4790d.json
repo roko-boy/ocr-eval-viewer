@@ -1,0 +1,561 @@
+{
+  "id": "cmplyvcjw00e38j24x1h4790d",
+  "url": null,
+  "retailer": "Vons",
+  "brand": "1st Phorm",
+  "amount": 2.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Vons",
+    "totalCost": "63",
+    "purchaseDate": "2026-05-25",
+    "time": null,
+    "zipCode": "91016",
+    "city": "Monrovia",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16628.14304200001,
+        "totalUsd": 0.030387,
+        "inputTokens": 6086,
+        "outputTokens": 2362,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91016",
+          "status": "match"
+        },
+        "city": {
+          "value": "Monrovia",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "130 W. Foothill Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9241",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1820026483 PHORM ENERGY + Member Savings -0.78 + Basket Savings -0.24",
+          "quantity": 1,
+          "unitPrice": 3.28,
+          "totalSpend": 2.26,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9401 CRV SFTOK SNGL NTX",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1820026489 PHORM ENERGY SLVR + Member Savings -0.78 + Basket Savings -0.24",
+          "quantity": 1,
+          "unitPrice": 3.28,
+          "totalSpend": 2.26,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9401 CRV SFTOK SNGL NTX",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2733103319 20 LB CARB COUNTER + Basket Savings -1.30",
+          "quantity": 1,
+          "unitPrice": 12.98,
+          "totalSpend": 11.68,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "92379 COUPON + Member Savings -0.01",
+          "quantity": 1,
+          "unitPrice": 0.01,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "3663201944 DANNON OIKOZ TRIPL + Member Savings -0.50 + Basket Savings -0.70",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3663202432 DANNON OIKOS TRPL + Member Savings -0.50 + Basket Savings -0.71",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.28,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7347200119 FFL SPRTD ENG MUFF + Basket Savings -0.75",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.74,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "89470001013 CHOBANI YOGURT GRE + Basket Savings -0.70",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "4222213008 JNO 93/7 LEAN + Member Savings -2.00 + Basket Savings -1.82",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 16.17,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "67170400019 BLUEBERRIES 6OZ + Member Savings -2.00 + Basket Savings -0.29",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.7,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "89846000224 BLACK PLUMS + WT 0.62 lb @ $3.99 /lb + Basket Savings -0.24",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 2.23,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "VONS\nTRANSACTION RETRIEVED\nRETRIEVAL NUMBER: 93/32\nStore 2200 Dir Yessica Axume\nMain: (626) 303-4547 Rx: (626) 358-754\n130 W. Foothill Blvd.\nMonrovia CA 91016\n00220005000122605251008\nYOUR CASHIER TODAY WAS Ariel\nGROCERY\nPrice You Pay\n1820026483 PHORM ENERGY 3.28 2.26 S\n9401 CRV SFTOK SNGL NTX 0.05 0.05 S\nMember Savings -0.78\nBasket Savings -0.24\n1820026489 PHORM ENERGY SLVR 3.28 2.26 S\n9401 CRV SFTOK SNGL NTX 0.05 0.05 S\nMember Savings -0.78\nBasket Savings -0.24\n2733103319 20 LB CARB COUNTER 12.98 11.68 S\nBasket Savings -1.30\n92379 COUPON 0.01 0.00 S\nMember Savings -0.01\nREFRIG/FROZEN\n3663201944 DANNON OIKOZ TRIPL 7.49 6.29 S\nMember Savings -0.50\nBasket Savings -0.70\n3663202432 DANNON OIKOS TRPL 7.49 6.28 S\nMember Savings -0.50\nBasket Savings -0.71\n7347200119 FFL SPRTD ENG MUFF 7.49 6.74 S\nBasket Savings -0.75\n89470001013 CHOBANI YOGURT GRE 6.99 6.29 S\nBasket Savings -0.70\nMEAT\n4222213008 JNO 93/7 LEAN 19.99 16.17 S\nMember Savings -2.00\nBasket Savings -1.82\nPRODUCE\n67170400019 BLUEBERRIES 6OZ 4.99 2.70 S\nMember Savings -2.00\nBasket Savings -0.29\n89846000224 BLACK PLUMS 2.47 2.23 S\nWT 0.62 lb @ $3.99 /lb\nBasket Savings -0.24\nTAX 0.00\n**** BALANCE 63.00\nCredit Purchase 05/25/26 10:08\nCARD # ************9241\nREF: 100853492410 AUTH: 0083281G\nPAYMENT AMOUNT 63.00\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 63.00\nCHANGE 0.00\nPoints expiring 05/31/26 46\nYOUR SAVINGS\nMember Savings 6.59\nBasket Savings 6.99\nTotal 13.58\nTotal Savings Value 18%\nYOUR POINTS\nPoints Earned Today 62\nPoints Available 132\nTOTAL NUMBER OF ITEMS SOLD = 14\n05/25/26 10:08 2200 50 12 8247\nThank you for shopping Vons!\nFor VONS FOR U questions call\n877-276-9637 or Vons.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 33392.38108300001,
+        "totalUsd": 0.080544,
+        "inputTokens": 3692,
+        "outputTokens": 2267,
+        "reasoningTokens": 6067
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:08",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91016",
+          "status": "match"
+        },
+        "city": {
+          "value": "Monrovia",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "130 W. Foothill Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9241",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PHORM ENERGY + 1820026483",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV SFTOK SNGL NTX + 9401",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PHORM ENERGY SLVR + 1820026489",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV SFTOK SNGL NTX + 9401",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "20 LB CARB COUNTER + 2733103319",
+          "quantity": 1,
+          "unitPrice": 12.98,
+          "totalSpend": 11.68,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "COUPON + 92379",
+          "quantity": 1,
+          "unitPrice": 0.01,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DANNON OIKOZ TRIPL + 3663201944",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DANNON OIKOS TRPL + 3663202432",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.28,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FFL SPRTD ENG MUFF + 7347200119",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI YOGURT GRE + 89470001013",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JNO 93/7 LEAN + 4222213008",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 16.17,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUEBERRIES 6OZ + 67170400019",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.7,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLACK PLUMS + 89846000224 + WT 0.62 lb @ $3.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 2.23,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "VONS\n\nTRANSACTION RETRIEVED\nRETRIEVAL NUMBER: 93/32\nStore 2200 Dir Yessica Axume\nMain: (626) 303-4547 Rx: (626) 358-754\n130 W. Foothill Blvd.\nMonrovia CA 91016\n\n00220005000122605251008\n\nYOUR CASHIER TODAY WAS Ariel\n\nGROCERY Price You Pay\n1820026483 PHORM ENERGY 3.29 2.26 S\n9401 CRV SFTOK SNGL NTX 0.05 0.05 S\nMember Savings -0.79\nBasket Savings -0.24\n1820026489 PHORM ENERGY SLVR 3.29 2.26 S\n9401 CRV SFTOK SNGL NTX 0.05 0.05 S\nMember Savings -0.79\nBasket Savings -0.24\n2733103319 20 LB CARB COUNTER 12.98 11.68 S\nBasket Savings -1.30\n92379 COUPON 0.01 0.00 S\nMember Savings -0.01\nREFRIG/FROZEN\n3663201944 DANNON OIKOZ TRIPL 7.49 6.29 S\nMember Savings -0.50\nBasket Savings -0.70\n3663202432 DANNON OIKOS TRPL 7.49 6.28 S\nMember Savings -0.50\nBasket Savings -0.71\n7347200119 FFL SPRTD ENG MUFF 7.49 6.74 S\nBasket Savings -0.75\n89470001013 CHOBANI YOGURT GRE 6.99 6.29 S\nBasket Savings -0.70\nMEAT\n4222213008 JNO 93/7 LEAN 19.99 16.17 S\nMember Savings -2.00\nBasket Savings -1.82\nPRODUCE\n67170400019 BLUEBERRIES 6OZ 4.99 2.70 S\nMember Savings -2.00\nBasket Savings -0.29\n89846000224 BLACK PLUMS 2.47 2.23 S\nWT 0.62 lb @ $3.99 /lb\nBasket Savings -0.24\nTAX 0.00\n**** BALANCE 63.00\n\nCredit Purchase 05/25/26 10:08\nCARD # ************9241\nREF: 100853492410 AUTH: 0083281G\nPAYMENT AMOUNT 63.00\n\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 63.00\nCHANGE 0.00\n\nPoints expiring 05/31/26 46\n\nYOUR SAVINGS\nMember Savings 6.59\nBasket Savings 6.99\nTotal 13.58\nTotal Savings Value 18%\n\nYOUR POINTS\nPoints Earned Today 62\nPoints Available 132\n\nTOTAL NUMBER OF ITEMS SOLD = 14\n05/25/26 10:08 2200 50 12 8247\n\nThank you for shopping Vons!\nFor VONS FOR U questions call\n877-276-9637 or Vons.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9990.494082999998,
+        "totalUsd": 0.025662,
+        "inputTokens": 3692,
+        "outputTokens": 2236,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91016",
+          "status": "match"
+        },
+        "city": {
+          "value": "Monrovia",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "130 W. Foothill Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9241",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PHORM ENERGY + 1820026483",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV SFTDK SNGL NTX + 9401",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PHORM ENERGY SLVR + 1820026489",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV SFTDK SNGL NTX + 9401",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "20 LB CARB COUNTER + 2733103319",
+          "quantity": 1,
+          "unitPrice": 12.98,
+          "totalSpend": 11.68,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "COUPON + 92379",
+          "quantity": 1,
+          "unitPrice": 0.01,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DANNON OIKOZ TRIPL + 3663201944",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DANNON OIKOS TRPL + 3663202432",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.28,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FFL SPRTD ENG MUFF + 7347200119",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI YOGURT GRE + 89470001013",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JNO 93/7 LEAN + 4222213008",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 16.17,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUEBERRIES 6OZ + 67170400019",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.7,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLACK PLUMS + 89846000224",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 2.23,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "VONS\nTRANSACTION RETRIEVED\nRETRIEVAL NUMBER: 93/32\nStore 2200 Dir Yessica Axume\nMain: (626) 303-4547 Rx: (626) 358-754\n130 W. Foothill Blvd.\nMonrovia CA 91016\n00220005000122605251008\nYOUR CASHIER TODAY WAS Ariel\nGROCERY\nPrice You Pay\n1820026483 PHORM ENERGY 3.29 2.26 S\n9401 CRV SFTDK SNGL NTX 0.05 0.05 S\nMember Savings -0.79\nBasket Savings -0.24\n1820026489 PHORM ENERGY SLVR 3.29 2.26 S\n9401 CRV SFTDK SNGL NTX 0.05 0.05 S\nMember Savings -0.78\nBasket Savings -0.24\n2733103319 20 LB CARB COUNTER 12.98 11.68 S\nBasket Savings -1.30\n92379 COUPON 0.01 0.00 S\nMember Savings -0.01\nREFRIG/FROZEN\n3663201944 DANNON OIKOZ TRIPL 7.49 6.29 S\nMember Savings -0.50\nBasket Savings -0.70\n3663202432 DANNON OIKOS TRPL 7.49 6.28 S\nMember Savings -0.50\nBasket Savings -0.71\n7347200119 FFL SPRTD ENG MUFF 7.49 6.74 S\nBasket Savings -0.75\n89470001013 CHOBANI YOGURT GRE 6.99 6.29 S\nBasket Savings -0.70\nMEAT\n4222213008 JNO 93/7 LEAN 19.99 16.17 S\nMember Savings -2.00\nBasket Savings -1.82\nPRODUCE\n67170400019 BLUEBERRIES 6OZ 4.99 2.70 S\nMember Savings -2.00\nBasket Savings -0.28\n89846000224 BLACK PLUMS 2.47 2.23 S\nWT 0.62 lb @ $3.99 /lb\nBasket Savings -0.24\nTAX 0.00\n**** BALANCE 63.00\nCredit Purchase 05/25/26 10:08\nCARD # ************9241\nREF: 100853492410 AUTH: 0083281G\nPAYMENT AMOUNT 63.00\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 63.00\nCHANGE 0.00\nPoints expiring 05/31/26 46\nYOUR SAVINGS\nMember Savings 6.59\nBasket Savings 6.99\nTotal 13.58\nTotal Savings Value 18%\nYOUR POINTS\nPoints Earned Today 62\nPoints Available 132\nTOTAL NUMBER OF ITEMS SOLD = 14\n05/25/26 10:08 2200 50 12 8247\nThank you for shopping Vons!\nFor VONS FOR U questions call\n877-276-9637 or Vons.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PHORM ENERGY + 1820026483",
+      "price": 2.26,
+      "quantity": 1,
+      "totalSpend": 2.26
+    },
+    {
+      "text": "CRV SFTOK SNGL NTX + 9401 + Mombar Savings -0.79 + Basket Savings -0.24",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "PHORM ENERGY SLVR + 1820026489",
+      "price": 2.26,
+      "quantity": 1,
+      "totalSpend": 2.26
+    },
+    {
+      "text": "CRV SFTOK SNGL NTX + 9401 + Membar Savings -0.79 + Baskat Savings -0.24",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "LB CARB COUNTER + 2733103319 + Baskat Savings -1.30",
+      "price": 5.84,
+      "quantity": 2,
+      "totalSpend": 11.68
+    },
+    {
+      "text": "DANNON OIKOZ TRIPL + 3663201944 + Member Savings -0.50 + Basket Savings -0.70",
+      "price": 6.29,
+      "quantity": 1,
+      "totalSpend": 6.29
+    },
+    {
+      "text": "DANNON OIKOS TRPL + 3663202432 + Mambar Savings -0.50 + Basket Savings -0.71",
+      "price": 6.28,
+      "quantity": 1,
+      "totalSpend": 6.28
+    },
+    {
+      "text": "FFL SPRTD ENG MUFF + 7347200119 + Basket Savings -0.75",
+      "price": 6.74,
+      "quantity": 1,
+      "totalSpend": 6.74
+    },
+    {
+      "text": "CHOBANT VOGURT GRE + 89470001013 + Basket Savings -0.70 + MEAT",
+      "price": 5.29,
+      "quantity": 1,
+      "totalSpend": 5.29
+    },
+    {
+      "text": "JNO 93/7 LEAN + 4222213008 + Mamber Savings -2.00 + Baskat Savings -1.82 + PRODUCE",
+      "price": 16.17,
+      "quantity": 1,
+      "totalSpend": 16.17
+    },
+    {
+      "text": "BLUEBERRIES 6OZ + 67170400019 + Member Savings -2.00 + Basket Savings -0.29",
+      "price": 2.7,
+      "quantity": 1,
+      "totalSpend": 2.7
+    },
+    {
+      "text": "BLACK PLUMS + 89646000224 + WT 0.62 lb @ $3.99 /lb + Baskat Savings -0.24",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 2.23
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,480 @@
+{
+  "id": "cmn0p283m00aqu5xym2w5l2bz",
+  "url": null,
+  "retailer": "Whole Foods Bakery",
+  "brand": "Urban Remedy",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "52.81",
+    "purchaseDate": "2026-03-21",
+    "time": null,
+    "zipCode": "75093",
+    "city": "Plano",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18353.94374899997,
+        "totalUsd": 0.022584,
+        "inputTokens": 6086,
+        "outputTokens": 1495,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "52.81",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75093",
+          "status": "match"
+        },
+        "city": {
+          "value": "Plano",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2201 Preston Rd Ste C",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5152",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BELL OG CHICKEN TENDERS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRYLV OG GNGR SCE NOODLES",
+          "quantity": 1,
+          "unitPrice": 3.15,
+          "totalSpend": 3.15,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRIMKT PLYNSN DPPNG SCE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ELTRU MPLE TOF CHOC BAR + Reg $6.49 + Savings with Prime ($1.55)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG OATMEAL CHIP BAR",
+          "quantity": 1,
+          "unitPrice": 1.65,
+          "totalSpend": 1.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG CINN GRHM CRKR BAR",
+          "quantity": 1,
+          "unitPrice": 1.65,
+          "totalSpend": 1.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG PB BANANA BAR",
+          "quantity": 1,
+          "unitPrice": 1.65,
+          "totalSpend": 1.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CILANTRO BUNCH",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "URRMDY OG SW CHKN SALAD",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TYLFRM APPL CHS SNCK PACK + Reg $3.99 + Savings with Prime ($2.00)",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nPlano PLN 972-612-6729\n2201 Preston Rd Ste C\nPlano, TX 75093 2306\nBELL OG CHICKEN TENDERS $8.99 F\nCRYLV OG GNGR SCE NOODLES $3.15 F\nPRIMKT PLYNSN DPPNG SCE $9.99 F\nELTRU MPLE TOF CHOC BAR $4.94 FT\nReg $6.49\nSavings with Prime ($1.55)\nBALTIG OATMEAL CHIP BAR $1.65 FT\nBALTIG CINN GRHM CRKR BAR $1.65 FT\nBALTIG PB BANANA BAR $1.65 FT\nCILANTRO BUNCH $0.99 F\nURRMDY OG SW CHKN SALAD $16.99 F\nTYLFRM APPL CHS SNCK PACK $1.99 F\nReg $3.99\nSavings with Prime ($2.00)\nSubtotal: $55.54\nTotal Savings: -$3.55\nNet Sales: $51.99\nTax: 8.25% $0.82\nTotal: $52.81\nSold Items: 10\nPaid:\nManufacturer Coupon $2.00\nVISA *5152 $50.81\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$3.55\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n908 24001 03/21/2026 01:55 PM\n63011003090824001032120260\nGOKOIANMXV",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 23797.66404200008,
+        "totalUsd": 0.052734,
+        "inputTokens": 3692,
+        "outputTokens": 1532,
+        "reasoningTokens": 3712
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.81",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75093",
+          "status": "match"
+        },
+        "city": {
+          "value": "Plano",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2201 Preston Rd Ste C",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5152",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BELL OG CHICKEN TENDERS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRYLV OG GNGR SCE NOODLES",
+          "quantity": 1,
+          "unitPrice": 3.15,
+          "totalSpend": 3.15,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRIMKT PLYNSN DPPNG SCE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ELTRU MPLE TOF CHOC BAR + Reg $6.49 + Savings with Prime ($1.55)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG OATMEAL CHIP BAR",
+          "quantity": 1,
+          "unitPrice": 1.65,
+          "totalSpend": 1.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG CINN GRHM CRKR BAR",
+          "quantity": 1,
+          "unitPrice": 1.65,
+          "totalSpend": 1.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG PB BANANA BAR",
+          "quantity": 1,
+          "unitPrice": 1.65,
+          "totalSpend": 1.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CILANTRO BUNCH",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "URRMDY OG SW CHKN SALAD",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TYLFRM APPL CHS SNCK PACK + Reg $3.99 + Savings with Prime ($2.00)",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nPlano PLN 972-612-6729\n2201 Preston Rd Ste C\nPlano, TX 75093 2306\nBELL OG CHICKEN TENDERS      $8.99 F\nCRYLV OG GNGR SCE NOODLES    $3.15 F\nPRIMKT PLYNSN DPPNG SCE      $9.99 F\nELTRU MPLE TOF CHOC BAR      $4.94 FT\n  Reg $6.49\n  Savings with Prime ($1.55)\nBALTIG OATMEAL CHIP BAR      $1.65 FT\nBALTIG CINN GRHM CRKR BAR    $1.65 FT\nBALTIG PB BANANA BAR         $1.65 FT\nCILANTRO BUNCH               $0.99 F\nURRMDY OG SW CHKN SALAD     $16.99 F\nTYLFRM APPL CHS SNCK PACK    $1.99 F\n  Reg $3.99\n  Savings with Prime ($2.00)\n          Subtotal:         $55.54\n          Total Savings:    -$3.55\n          Net Sales:        $51.99\n          Tax:       8.25%   $0.82\n          Total:            $52.81\n          Sold Items:           10\nPaid:\nManufacturer Coupon          $2.00\nVISA             *5152      $50.81\n  Chip Card:VISA CREDIT\n  Chip Card AID:A0000000031010\n\n****************************************\nYour Total Savings\n$3.55\n****************************************\n\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\n\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n\n908 24001 03/21/2026 01:55 PM\n\n63011003090824001032120260\nGOKOIANMXV",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7264.000166999991,
+        "totalUsd": 0.019128,
+        "inputTokens": 3692,
+        "outputTokens": 1510,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.81",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75093",
+          "status": "match"
+        },
+        "city": {
+          "value": "Plano",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2201 Preston Rd Ste C",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5152",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BELL OG CHICKEN TENDERS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRYLV OG GNGR SCE NOODLES",
+          "quantity": 1,
+          "unitPrice": 3.15,
+          "totalSpend": 3.15,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRIMKT PLYNSN DPPNG SCE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ELTRU MPLE TOF CHOC BAR + Savings with Prime ($1.55)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.94,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BALTIG OATMEAL CHIP BAR",
+          "quantity": 1,
+          "unitPrice": 1.65,
+          "totalSpend": 1.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG CINN GRHM CRKR BAR",
+          "quantity": 1,
+          "unitPrice": 1.65,
+          "totalSpend": 1.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BALTIG PB BANANA BAR",
+          "quantity": 1,
+          "unitPrice": 1.65,
+          "totalSpend": 1.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CILANTRO BUNCH",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "URRMDY OG SW CHKN SALAD",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TYLFRM APPL CHS SNCK PACK + Savings with Prime ($2.00)",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nPlano PLN 972-612-6729\n2201 Preston Rd Ste C\nPlano, TX 75093 2306\nBELL OG CHICKEN TENDERS $8.99 F\nCRYLV OG GNGR SCE NOODLES $3.15 F\nPRIMKT PLYNSN DPPNG SCE $9.99 F\nELTRU MPLE TOF CHOC BAR $4.94 FT\nReg $6.49\nSavings with Prime ($1.55)\nBALTIG OATMEAL CHIP BAR $1.65 FT\nBALTIG CINN GRHM CRKR BAR $1.65 FT\nBALTIG PB BANANA BAR $1.65 FT\nCILANTRO BUNCH $0.99 F\nURRMDY OG SW CHKN SALAD $16.99 F\nTYLFRM APPL CHS SNCK PACK $1.99 F\nReg $3.99\nSavings with Prime ($2.00)\nSubtotal: $55.54\nTotal Savings: -$3.55\nNet Sales: $51.99\nTax: 8.25% $0.82\nTotal: $52.81\nSold Items: 10\nPaid:\nManufacturer Coupon $2.00\nVISA *5152 $50.81\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$3.55\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n908 24001 03/21/2026 01:55 PM\n63011003090824001032120260\nGOKOIANMXV",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BELL OG CHICKEN TENDERS",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "CRYLV OG GNGR SCE NOODLES",
+      "price": 3.15,
+      "quantity": 1,
+      "totalSpend": 3.15
+    },
+    {
+      "text": "PRIMKT PLYNSN DPPNG SCE",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "ELTRU MPLE TOF CHOC BAR + Reg $6.49 + Savings with Prime ($1.55)",
+      "price": 4.94,
+      "quantity": 1,
+      "totalSpend": 4.94
+    },
+    {
+      "text": "BALTIG OATMEAL CHIP BAR",
+      "price": 1.65,
+      "quantity": 1,
+      "totalSpend": 1.65
+    },
+    {
+      "text": "BALTIG CINN GRHM CRKR BAR",
+      "price": 1.65,
+      "quantity": 1,
+      "totalSpend": 1.65
+    },
+    {
+      "text": "BALTIG PB BANANA BAR",
+      "price": 1.65,
+      "quantity": 1,
+      "totalSpend": 1.65
+    },
+    {
+      "text": "CILANTRO BUNCH",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "URRMDY OG SW CHKN SALAD",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

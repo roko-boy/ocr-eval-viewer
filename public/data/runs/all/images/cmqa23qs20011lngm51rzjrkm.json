@@ -1,0 +1,243 @@
+{
+  "id": "cmqa23qs20011lngm51rzjrkm",
+  "url": null,
+  "retailer": "Shell",
+  "brand": "Happy Dad",
+  "amount": 10,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Shell",
+    "totalCost": "52.92",
+    "purchaseDate": "2026-06-11",
+    "time": null,
+    "zipCode": "98053",
+    "city": "REDMOND",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8835.741542000003,
+        "totalUsd": 0.014745,
+        "inputTokens": 6086,
+        "outputTokens": 624,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Shell",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:12:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98053",
+          "status": "match"
+        },
+        "city": {
+          "value": "REDMOND",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "24821 NE REDMOND FALL R",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9212",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Happy Dad Fruit Punch 12",
+          "quantity": 2,
+          "unitPrice": 23.99,
+          "totalSpend": 47.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Welcome to Shell\n\nSHELL\n24821 NE REDMOND FALL R\nREDMOND, WA 98053\n10006031016\n\n06/11/2026 3:12:02 PM\nRegister: 2 Trans #: 4546 Op ID: 5\nYour cashier: vickey\n\nHappy Dad Fruit Punch 12\n2 @ $23.99\n$47.98 101\n\nSubtotal = $47.98\nTax = $4.94\nTotal = $52.92\nChange Due = $0.00\n\nCredit $52.92\n\nUS DEBIT USD$52.92\nXXXX XXXX XXXX 9212\nContactless\nAPPROVED\nAUTH # 059293 INV # 696526\n\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06061203A00000\nTSI: 0000\nARC: 00\n\nCustomer Copy\n\nTHANK YOU!\nPLEASE COME AGAIN!\n\nPlease come again",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10525.92170799998,
+        "totalUsd": 0.023259,
+        "inputTokens": 3692,
+        "outputTokens": 648,
+        "reasoningTokens": 1321
+      },
+      "fields": {
+        "storeName": {
+          "value": "Shell",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:12:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98053",
+          "status": "match"
+        },
+        "city": {
+          "value": "REDMOND",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "24821 NE REDMOND FALL R",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9212",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Happy Dad Fruit Punch 12",
+          "quantity": 2,
+          "unitPrice": 23.99,
+          "totalSpend": 47.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Welcome to Shell\n\nSHELL\n24821 NE REDMOND FALL R\nREDMOND, WA 98053\n10006031016\n\n\n06/11/2026 3:12:02 PM\nRegister: 2 Trans #: 4546 Op ID: 5\nYour cashier: vickey\n\nHappy Dad Fruit Punch 12\n2 @ $23.99                      $47.98 101\n\n                    Subtotal =  $47.98\n                         Tax =   $4.94\n\n                       Total =  $52.92\n\n                  Change Due =   $0.00\n\nCredit                          $52.92\n--------------------------------------\nUS DEBIT               USD$52.92\nXXXX XXXX XXXX 9212\nContactless\nAPPROVED\nAUTH # 059293          INV # 696526\n\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06061203A00000\nTSI: 0000\nARC: 00\n\n                 Customer Copy\n\n\n\n                   THANK YOU!\n               PLEASE COME AGAIN!\n\n                Please come again",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4846.993209000007,
+        "totalUsd": 0.011064,
+        "inputTokens": 3692,
+        "outputTokens": 614,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Shell",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.92",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:12:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98053",
+          "status": "match"
+        },
+        "city": {
+          "value": "REDMOND",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "24821 NE REDMOND FALL R",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9212",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Happy Dad Fruit Punch 12",
+          "quantity": 2,
+          "unitPrice": 23.99,
+          "totalSpend": 47.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Welcome to Shell\n\nSHELL\n24821 NE REDMOND FALL R\nREDMOND, WA 98053\n10006031016\n\n06/11/2026 3:12:02 PM\nRegister: 2 Trans #: 4546 Op ID: 5\nYour cashier: vickey\n\nHappy Dad Fruit Punch 12\n2 @ $23.99\n$47.98 101\nSubtotal = $47.98\nTax = $4.94\nTotal = $52.92\nChange Due = $0.00\nCredit\n$52.92\nUS DEBIT\nUSD$52.92\nXXXX XXXX XXXX 9212\nContactless\nAPPROVED\nAUTH # 059293\nINV # 696526\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06061203A00000\nTSI: 0000\nARC: 00\nCustomer Copy\n\nTHANK YOU!\nPLEASE COME AGAIN!\nPlease come again",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Happy Dad Fruit Punch 12",
+      "price": 23.99,
+      "quantity": 2,
+      "totalSpend": 47.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

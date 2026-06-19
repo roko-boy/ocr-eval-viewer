@@ -1,0 +1,243 @@
+{
+  "id": "cmpmtt270001k8h7eskoxelfl",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "Instinct - Fresh Raw Meals",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "7.57",
+    "purchaseDate": "2026-05-26",
+    "time": null,
+    "zipCode": "78411",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11838.50458399998,
+        "totalUsd": 0.015807,
+        "inputTokens": 6086,
+        "outputTokens": 742,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78411",
+          "status": "match"
+        },
+        "city": {
+          "value": "Corpus Christi",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5214 Blanche Moore",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0431",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "INSTINCT FRESHRAW MEALS BEEF 8 + 769949641001",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #196\n5214 Blanche Moore\nCorpus Christi, TX 78411\n361-993-8882\nS-196 R-103 BUS.DATE-05/26/2026\nT-73231 A-525027\nSALE\nINSTINCT FRESHRAW MEALS BEEF 8 $6.99\n769949641001 StSpSpCi\nReturn Amount $6.99\n1 Sale item(s)\nSUBTOTAL $6.99\nSALE\nTAX City 1.375% ON $6.99 $0.10\nTAX Special 0.50% ON $6.99 $0.03\nTAX Special 0.125% ON $6.99 $0.01\nTAX State 6.25% ON $6.99 $0.44\nTAX TOTAL: $0.58\nTOTAL $7.57\nDebit\nACCOUNT#:************0431 $7.57\nAUTH#:002814\nCHANGE DUE $0.00\n----------TRANSACTION RECORD----------\nINVOICE # 17323110301\nMERCHANT # ********0881\nTERMINAL # ***4173\n** DIRECT PAYMENT **\nTYPE: Sale\nDEBIT: MAESTRO INSERTED\nUS DEBIT\nAID: A0000000042203\nNETWORKNAME: PULSE\nTotal USD$ 7.57\nMODE : ISSUER\nApproved\nVerified by PIN\nCUSTOMER COPY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7221.34045899997,
+        "totalUsd": 0.018804,
+        "inputTokens": 3692,
+        "outputTokens": 725,
+        "reasoningTokens": 749
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78411",
+          "status": "match"
+        },
+        "city": {
+          "value": "Corpus Christi",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5214 Blanche Moore",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0431",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "INSTINCT FRESHRAW MEALS BEEF 8 + 769949641001",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #196\n5214 Blanche Moore\nCorpus Christi, TX 78411\n361-993-8882\nS-196 R-103 BUS.DATE-05/26/2026\nT-73231 A-525027\nSALE\nINSTINCT FRESHRAW MEALS BEEF 8 $6.99\n769949641001 StSpSpCi\nReturn Amount $6.99\n1 Sale item(s)\nSUBTOTAL $6.99\nSALE\nTAX City 1.375% ON $6.99 $0.10\nTAX Special 0.50% ON $6.99 $0.03\nTAX Special 0.125% ON $6.99 $0.01\nTAX State 6.25% ON $6.99 $0.44\nTAX TOTAL: $0.58\nTOTAL $7.57\nDebit $7.57\nACCOUNT#:************0431\nAUTH#:002814\nCHANGE DUE $0.00\n----------TRANSACTION RECORD----------\nINVOICE # 17323110301\nMERCHANT # ********0881\nTERMINAL # ***4173\n** DIRECT PAYMENT **\nTYPE: Sale\nDEBIT: MAESTRO INSERTED\nUS DEBIT\nAID: A0000000042203\nNETWORKNAME: PULSE\nTotal USD$ 7.57\nMODE : ISSUER\nApproved\nVerified by PIN\nCUSTOMER COPY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4933.839542000002,
+        "totalUsd": 0.012063,
+        "inputTokens": 3692,
+        "outputTokens": 725,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-26",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78411",
+          "status": "match"
+        },
+        "city": {
+          "value": "Corpus Christi",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5214 Blanche Moore",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0431",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "INSTINCT FRESHRAW MEALS BEEF 8 + 769949641001",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #196\n5214 Blanche Moore\nCorpus Christi, TX 78411\n361-993-8882\nS-196 R-103 BUS.DATE-05/26/2026\nT-73231 A-525027\nSALE\nINSTINCT FRESHRAW MEALS BEEF 8 $6.99\n769949641001 StSpSpCi\nReturn Amount $6.99\n1 Sale item(s)\nSUBTOTAL $6.99\nSALE\nTAX City 1.375% ON $6.99 $0.10\nTAX Special 0.50% ON $6.99 $0.03\nTAX Special 0.125% ON $6.99 $0.01\nTAX State 6.25% ON $6.99 $0.44\nTAX TOTAL: $0.58\nTOTAL $7.57\nDebit\nACCOUNT#:************0431 $7.57\nAUTH#:002814\nCHANGE DUE $0.00\n----------TRANSACTION RECORD----------\nINVOICE # 17323110301\nMERCHANT # ********0881\nTERMINAL # ***4173\n** DIRECT PAYMENT **\nTYPE: Sale\nDEBIT: MAESTRO INSERTED\nUS DEBIT\nAID: A0000000042203\nNETWORKNAME: PULSE\nTotal USD$ 7.57\nMODE : ISSUER\nApproved\nVerified by PIN\nCUSTOMER COPY",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "INSTINCT FRESHRAW MEALS BEEF 8 + 769949641001",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

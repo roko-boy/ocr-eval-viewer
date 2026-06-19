@@ -1,0 +1,243 @@
+{
+  "id": "cmqa0uc2j009k42343hxha0fx",
+  "url": null,
+  "retailer": "The Fresh Market",
+  "brand": "poshi",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "The Fresh Market",
+    "totalCost": "7",
+    "purchaseDate": "2026-06-11",
+    "time": null,
+    "zipCode": "45241",
+    "city": "Cincinnati",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5786.130582999991,
+        "totalUsd": 0.014979,
+        "inputTokens": 6086,
+        "outputTokens": 650,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:38pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "WEST CHESTER",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7720 VOICE OF AMER CENTRE DR.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5866",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "POSHI ARTCHOKE",
+          "quantity": 2,
+          "unitPrice": 3.5,
+          "totalSpend": 7,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "THE\nFRESH\nMARKET\nStephanie M., Store Director\n(513) 755-6111\n2 @ 2/7.00\nPOSHI ARTCHOKE 7.00 F\nTAX 0.00\n**** BALANCE 7.00\n****************************************\nCard Number: ************5866\nTYPE: Purchase\n(Signature Not Required)\nPOS Entry Mode: 07\nHost Return Code: 000\nMASTER CARD 7.00\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/11/26 05:38pm 150 5 238 10087871\n7720 VOICE OF AMER CENTRE DR., WE\nYour Cashier: LORRI\nHOW TO JOIN OR QUESTIONS ABOUT THE\nTFM Rewards\nCONTACT US AT 866-817-4367\nOR Scan the QR Code to Signup\n****************************************\nShare Your Thoughts!\nHelp us improve your store experience\nPlease visit the following website\nto complete a brief\nonline survey at\nwww.thefreshmarketsurvey.com\nENTER CODE: \"16217 15005 238010\"\nThank you for sharing your feedback!\nSurvey expires 4 days from date\n****************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11649.93479100001,
+        "totalUsd": 0.023232,
+        "inputTokens": 3692,
+        "outputTokens": 630,
+        "reasoningTokens": 1336
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:38pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "WE",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "7720 VOICE OF AMER CENTRE DR.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5866",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "POSHI ARTCHOKE",
+          "quantity": 2,
+          "unitPrice": 3.5,
+          "totalSpend": 7,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "THE\nFRESH\nMARKET\nStephanie M., Store Director\n(513) 755-6111\n2 @ 2/7.00\nPOSHI ARTCHOKE\n7.00 F\nTAX\n0.00\n**** BALANCE\n7.00\n****************************************\nCard Number: ************5866\nTYPE: Purchase\n(Signature Not Required)\nPOS Entry Mode: 07\nHost Return Code: 000\nMASTER CARD\n7.00\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n2\n06/11/26 05:38pm 150 5 238 10087871\n7720 VOICE OF AMER CENTRE DR., WE\nYour Cashier: LORRI\nHOW TO JOIN OR QUESTIONS ABOUT THE\nTFM Rewards\nCONTACT US AT 866-817-4367\nOR Scan the QR Code to Signup\n****************************************\nShare Your Thoughts!\nHelp us improve your store experience\nPlease visit the following website\nto complete a brief\nonline survey at\nwww.thefreshmarketsurvey.com\nENTER CODE: 16217 15005 238010\nThank you for sharing your feedback!\nSurvey expires 4 days from date\n****************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4435.829291999995,
+        "totalUsd": 0.011352,
+        "inputTokens": 3692,
+        "outputTokens": 646,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:38pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "West Chester",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7720 VOICE OF AMER.CENTRE DR.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5866",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "POSHI ARTCHOKE",
+          "quantity": 2,
+          "unitPrice": 3.5,
+          "totalSpend": 7,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "THE\nFRESH\nMARKET\nStephanie M., Store Director\n(513) 755-6111\n2 @ 2/7.00\nPOSHI ARTCHOKE\n7.00 F\nTAX\n0.00\n**** BALANCE\n7.00\n***********************************\nCard Number: ************5866\nTYPE: Purchase\n(Signature Not Required)\nPOS Entry Mode: 07\nHost Return Code: 000\nMASTER CARD\n7.00\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n2\n06/11/26 05:38pm 150 5 238 10087871\n7720 VOICE OF AMER.CENTRE DR., WE\nYour Cashier: LORRI\nHOW TO JOIN OR QUESTIONS ABOUT THE\nTFM Rewards\nCONTACT US AT 866-817-4367\nOR Scan the QR Code to Signup\n***********************************\nShare Your Thoughts!\nHelp us improve your store experience\nPlease visit the following website\nto complete a brief\nonline survey at\nwww.thefreshmarketsurvey.com\nENTER CODE: \"16217 15005 238010\"\nThank you for sharing your feedback!\nSurvey expires 4 days from date\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "POSHI ARTCHOKE",
+      "price": 3.5,
+      "quantity": 2,
+      "totalSpend": 7
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

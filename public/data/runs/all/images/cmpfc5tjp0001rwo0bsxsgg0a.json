@@ -1,0 +1,378 @@
+{
+  "id": "cmpfc5tjp0001rwo0bsxsgg0a",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Bing Energizing Juice Beverage",
+  "amount": 1.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "18.77",
+    "purchaseDate": "2026-05-19",
+    "time": null,
+    "zipCode": "94103",
+    "city": "San Francisco",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16212.71545899997,
+        "totalUsd": 0.020025,
+        "inputTokens": 6114,
+        "outputTokens": 1206,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:48",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94103",
+          "status": "match"
+        },
+        "city": {
+          "value": "SAN FRANCISCO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2300 16TH STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3128",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "5000000261 + 2@ FANCY FEAST PETITE + Member Savings -0.48",
+          "quantity": 2,
+          "unitPrice": 1.49,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5000018072 + 2@ FANCY FEAST GRAVY",
+          "quantity": 2,
+          "unitPrice": 1.29,
+          "totalSpend": 2.58,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5000042974 + FF BEEF/CHKN",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "86122600000 + DAVIDS TPSTE",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "89081700100 + PETEYS BING BLACK + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9812 + CRV PRODUCE SINGL",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1490 Dir Larissa\nMain: (415) 575-1120 Rx: (415) 575-113\n2300 16TH STREET\nSAN FRANCISCO CA 94103\n0014900301062605191948\nYOUR CASHIER TODAY WAS ANA\nGROCERY Price You Pay\n5000000261 2@ FANCY FEAST PETITE 2.98 2.50 T\nMember Savings -0.48\n5000018072 2@ FANCY FEAST GRAVY 2.58 2.58 T\n5000042974 FF BEEF/CHKN 1.29 1.29 T\nGEN MERCHANDISE\n86122600000 DAVIDS TPSTE 9.49 9.49 T\nPRODUCE\n89081700100 PETEYS BING BLACK 2.99 1.49 B\n9812 CRV PRODUCE SINGL 0.05 0.05 B\nMember Savings -1.50\nTAX 1.37\n**** BALANCE 18.77\nSNAP BAL DUE 1.54\nSNAP Purchase 05/19/26 19:48\nCARD # ************4941\nSNAP Purchase 1.54\nSNAP BALANCE 84.20\nCASH BALANCE 0.01\nTRACE: 864811149410 AUTH: 00584662\nSNAP 1.54\nCredit Purchase 05/19/26 19:48\nCARD # ************3128\nREF: 874821431280 AUTH: 0004633Z\nPAYMENT AMOUNT 17.23\nAL CAPITAL ONE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18497.54462499998,
+        "totalUsd": 0.048138,
+        "inputTokens": 3706,
+        "outputTokens": 1200,
+        "reasoningTokens": 3531
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:48",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94103",
+          "status": "match"
+        },
+        "city": {
+          "value": "SAN FRANCISCO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2300 16TH STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3128",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "5000000261 + 2@ FANCY FEAST PETITE + Member Savings -0.48",
+          "quantity": 2,
+          "unitPrice": 1.49,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5000018072 + 2@ FANCY FEAST GRAVY",
+          "quantity": 2,
+          "unitPrice": 1.29,
+          "totalSpend": 2.58,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5000042974 + FF BEEF/CHKN",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "86122600000 + DAVIDS TPSTE",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "89081700100 + PETEYS BING BLACK + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9812 + CRV PRODUCE SINGL",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 1490 Dir Larissa\nMain: (415) 575-1120 Rx: (415) 575-113\n2300 16TH STREET\nSAN FRANCISCO CA 94103\n0014900301062605191948\nYOUR CASHIER TODAY WAS ANA\nGROCERY Price You Pay\n5000000261 2@ FANCY FEAST PETITE 2.98 2.50 T\nMember Savings -0.48\n5000018072 2@ FANCY FEAST GRAVY 2.58 2.58 T\n5000042974 FF BEEF/CHKN 1.29 1.29 T\nGEN MERCHANDISE\n86122600000 DAVIDS TPSTE 9.49 9.49 T\nPRODUCE\n89081700100 PETEYS BING BLACK 2.99 1.49 B\n9812 CRV PRODUCE SINGL 0.05 0.05 B\nMember Savings -1.50\nTAX 1.37\n**** BALANCE 18.77\nSNAP BAL DUE 1.54\nSNAP Purchase 05/19/26 19:48\nCARD # ************4941\nSNAP Purchase 1.54\nSNAP BALANCE 84.20\nCASH BALANCE 0.01\nTRACE: 864811149410 AUTH: 00584662\nSNAP 1.54\nCredit Purchase 05/19/26 19:48\nCARD # ************3128\nREF: 874821431280 AUTH: 0004633Z\nPAYMENT AMOUNT 17.23\nAL CAPITAL ONE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6351.931165999995,
+        "totalUsd": 0.016521,
+        "inputTokens": 3706,
+        "outputTokens": 1218,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:48",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94103",
+          "status": "match"
+        },
+        "city": {
+          "value": "SAN FRANCISCO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2300 16TH STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3128",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2@ FANCY FEAST PETITE + 5000000261 + Member Savings -0.48",
+          "quantity": 2,
+          "unitPrice": 1.49,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ FANCY FEAST GRAVY + 5000018072",
+          "quantity": 2,
+          "unitPrice": 1.29,
+          "totalSpend": 2.58,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FF BEEF/CHKN + 5000042974",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAVIDS TPSTE + 86122600000",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PETEYS BING BLACK + 89081700100 + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV PRODUCE SINGL + 9812",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 1490 Dir Larissa\nMain: (415) 575-1120 Rx: (415) 575-113\n2300 16TH STREET\nSAN FRANCISCO CA 94103\n0014900301062605191948\nYOUR CASHIER TODAY WAS ANA\nGROCERY\nPrice You Pay\n5000000261 2@ FANCY FEAST PETITE\n2.98 2.50 T\nMember Savings -0.48\n5000018072 2@ FANCY FEAST GRAVY\n2.58 2.58 T\n5000042974 FF BEEF/CHKN\n1.29 1.29 T\nGEN MERCHANDISE\n86122600000 DAVIDS TPSTE\n9.49 9.49 T\nPRODUCE\n89081700100 PETEYS BING BLACK\n2.99 1.49 B\n9812 CRV PRODUCE SINGL\n0.05 0.05 B\nMember Savings -1.50\nTAX\n1.37\n**** BALANCE\n18.77\nSNAP BAL DUE\n1.54\nSNAP Purchase 05/19/26 19:48\nCARD # ************4941\nSNAP Purchase\n1.54\nSNAP BALANCE\n84.20\nCASH BALANCE\n0.01\nTRACE: 864811149410 AUTH: 00584662\nSNAP\n1.54\nCredit Purchase 05/19/26 19:48\nCARD # ************3128\nREF: 874821431280 AUTH: 0004633Z\nPAYMENT AMOUNT\n17.23\nAL CAPITAL ONE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FANCY FEAST PETITE + 5000000261 + Member Savings -0 48",
+      "price": 1.25,
+      "quantity": 2,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "FANCY FEAST GEAVY + 5000018072",
+      "price": 1.29,
+      "quantity": 2,
+      "totalSpend": 2.58
+    },
+    {
+      "text": "FF BEEF/CHKN + 5000042974 + GEN MERCHANDISE",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "DAVIDS TPSTE + 86122600000 + PRODUCE",
+      "price": 9.49,
+      "quantity": 1,
+      "totalSpend": 9.49
+    },
+    {
+      "text": "PETEYS BING BLACK + 89081700100",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "CRV PRODUCE SINGL + 9812 + Mamber Savings -1.50",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

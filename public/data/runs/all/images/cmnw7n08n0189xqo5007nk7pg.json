@@ -1,0 +1,480 @@
+{
+  "id": "cmnw7n08n0189xqo5007nk7pg",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "smashkitchen ",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "26.44",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "27526",
+    "city": "Fuquay Varina",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9806.072000000044,
+        "totalUsd": 0.022233,
+        "inputTokens": 6086,
+        "outputTokens": 1456,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Harris Teeter",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27526",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fuquay-Varina",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1371 E Broad St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1052",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SEABREEZE SALAD 4",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SELLO ROJO ESPR",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA + B2G2 HT CAN BEANS + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA + B2G2 HT CAN BEANS + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HT JALAENO BLAC",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SMASH KITCHEN ORG",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GALA APPLES + 0.56 (0.57) lb @ 3.29 /lb",
+          "quantity": 1,
+          "unitPrice": 1.84,
+          "totalSpend": 1.84,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GALA APPLES + 0.56 lb @ 1.99 /lb = 1.11 + SC 0510 GALA APPLES + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 1.84,
+          "totalSpend": 1.11,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGO HMESTYLE M + SC 2321 EGGO HMESTYLE M + PRICE YOU PAY + VIC CUSTOMER",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 1.19,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Harris Teeter\nYOUR NEIGHBORHOOD MARKET\nSTORE # 498\n1371 E Broad St - Fuquay-Varina, NC\n919-567-7423\nSTORE MANAGER: Robert N\nYOUR CASHIER: CHEC 501\nSEABREEZE SALAD 4 5.99 B\nSELLO ROJO ESPR 6.89 B\nHT PINTO BN NSA 1.29 B\nB2G2 HT CAN BEANS FREE\nSC PRICE YOU PAY\nHT PINTO BN NSA 1.29 B\nB2G2 HT CAN BEANS FREE\nSC PRICE YOU PAY\nHT PINTO BN NSA 1.29 B\nHT PINTO BN NSA 1.29 B\nHT JALAENO BLAC 1.29 B\nSMASH KITCHEN ORG 5.99 B\nGALA APPLES 1.84 B\n0.56 (0.57) lb @ 3.29 /lb\nWT GALA APPLES\n0.56 lb @ 1.99 /lb = 1.11\nSC 0510 GALA APPLES 0.73-B\nPRICE YOU PAY 1.11\nEGGO HMESTYLE M 4.19 B\nSC 2321 EGGO HMESTYLE M 1.19-B\nPRICE YOU PAY 1.19\nVIC CUSTOMER 3.00\n40905441331\neCpn 4X Fuel\nFUEL POINTS\n**** BALANCE ****\nFuquay-Varina NC 27526-\nAMERICAN EXPRESS Purchase\n************1052 - H\nREF: 885458 TOTAL: 26.44\nAID: A000000025010801\nTC: 645464D46D32616EB\nTAX 0.88\n26.44\nAmex 26.44\nCHANGE 0.00\n7.25% NC SALES TAX",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 22276.02291699999,
+        "totalUsd": 0.05293200000000001,
+        "inputTokens": 3692,
+        "outputTokens": 1360,
+        "reasoningTokens": 3906
+      },
+      "fields": {
+        "storeName": {
+          "value": "Harris Teeter",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27526",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fuquay-Varina",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1371 E Broad St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1052",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SEABREEZE SALAD 4",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SELLO ROJO ESPR",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA + B2G2 HT CAN BEANS + PRICE YOU PAY FREE",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA + B2G2 HT CAN BEANS + PRICE YOU PAY FREE",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT JALAENO BLAC",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMASH KITCHEN ORG",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GALA APPLES + 0.56 (0.57) lb @ 3.29 /lb + SC 0510 GALA APPLES + 0.56 lb @ 1.99 /lb = 1.11 PC + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 1.84,
+          "totalSpend": 1.11,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGO HMESTYLE M + SC 2321 EGGO HMESTYLE M + VIC CUSTOMER + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Harris Teeter\nYOUR NEIGHBORHOOD MARKET\nSTORE # 498\n1371 E Broad St - Fuquay-Varina, NC\n919-567-7423\nSTORE MANAGER: Robert N\nYOUR CASHIER : CHEC 501\nSEABREEZE SALAD 4\n5.99 B\nSELLO ROJO ESPR\n6.89 B\nHT PINTO BN NSA\n1.29 B\nB2G2 HT CAN BEANS\n1.29-B\nPRICE YOU PAY\nFREE\nHT PINTO BN NSA\n1.29 B\nB2G2 HT CAN BEANS\n1.29-B\nPRICE YOU PAY\nFREE\nHT PINTO BN NSA\n1.29 B\nHT JALAENO BLAC\n1.29 B\nSMASH KITCHEN ORG\n5.99 B\nGALA APPLES\n1.84 B\n0.56 (0.57) lb @ 3.29 /lb\nSC 0510 GALA APPLES\n0.73-B\n0.56 lb @ 1.99 /lb = 1.11 PC\nPRICE YOU PAY\n1.11\nEGGO HMESTYLE M\n4.19 B\nSC 2321 EGGO HMESTYLE M\n1.19-B\nVIC CUSTOMER\nPRICE YOU PAY\n3.00\neCpn 4X Fuel\nFUEL POINTS\n40905441331\n**** BALANCE\nTAX\n0.88\nFuquay-Varina NC 27526-\n26.44\nAMERICAN EXPRESS Purchase\n************1052 - H\nREF#: 885458 TOTAL : 26.44\nAID: A000000025010801\nTC: 645464D6D32616EB\nAMEX\n26.44\nCHANGE\n0.00\n7.25% NC SALES TAX",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6482.620084000024,
+        "totalUsd": 0.017706,
+        "inputTokens": 3692,
+        "outputTokens": 1352,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Harris Teeter",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27526",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fuquay-Varina",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1371 E Broad St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1052",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SEABREEZE SALAD 4",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SELLO ROJO ESPR",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA + B2G2 HT CAN BEANS",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA + B2G2 HT CAN BEANS",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT PINTO BN NSA",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HT JALAENO BLAC",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMASH KITCHEN ORG",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GALA APPLES + 0.56 (0.57) lb @ 3.29 /lb",
+          "quantity": 1,
+          "unitPrice": 1.84,
+          "totalSpend": 1.84,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GALA APPLES + 0.56 lb @ 1.99 /lb + SC 0510 GALA APPLES",
+          "quantity": 1,
+          "unitPrice": 1.84,
+          "totalSpend": 1.11,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGO HMESTYLE M + SC 2321 EGGO HMESTYLE M + VIC CUSTOMER",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 1.19,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Harris Teeter\nYOUR NEIGHBORHOOD MARKET\nSTORE # 498\n1371 E Broad St - Fuquay-Varina, NC\n919-567-7423\nSTORE MANAGER: Robert N\nYOUR CASHIER: CHEC 501\nSEABREEZE SALAD 4 5.99 B\nSELLO ROJO ESPR 6.89 B\nHT PINTO BN NSA 1.29 B\nB2G2 HT CAN BEANS FREE\nPRICE YOU PAY\nHT PINTO BN NSA 1.29 B\nB2G2 HT CAN BEANS FREE\nPRICE YOU PAY\nHT PINTO BN NSA 1.29 B\nHT JALAENO BLAC 1.29 B\nSMASH KITCHEN ORG 5.99 B\nGALA APPLES 1.84 B\n0.56 (0.57) lb @ 3.29 /lb\nWT GALA APPLES\n0.56 lb @ 1.99 /lb = 1.11 PC\nSC 0510 GALA APPLES 0.73-B\nPRICE YOU PAY 1.11\nEGGO HMESTYLE M 4.19 B\nSC 2321 EGGO HMESTYLE M 1.19-B\nVIC CUSTOMER 3.00\nPRICE YOU PAY 1.19\nSC eCpn 4X Fuel 40905441331\nSC FUEL POINTS\nTAX 0.88\n**** BALANCE 26.44\nFuquay-Varina NC 27526-\nAMERICAN EXPRESS Purchase\n************1052 - H\nREF#: 885458 TOTAL: 26.44\nAID: A000000025010801\nTC: 64546D46D32616EB\nAmex 26.44\nCHANGE 0.00\n7.25% NC SALES TAX",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SEABREEZE SALAD 4",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "SELLO ROJO ESPR",
+      "price": 6.89,
+      "quantity": 1,
+      "totalSpend": 6.89
+    },
+    {
+      "text": "HT PINTO BN NSA",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "HT PINTO BN NSA",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "HT PINTO BN NSA",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "HT JALAENO BLAC",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "SMASH KITCHEN ORG + 0.56 (0.57) lb @ 3.29 /lb",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "GALA APPLES + 0.56 lb @ 1.99 /lb = 1.11",
+      "price": 1.11,
+      "quantity": 1,
+      "totalSpend": 1.11
+    },
+    {
+      "text": "EGGO HMESTYLE M",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

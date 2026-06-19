@@ -1,0 +1,297 @@
+{
+  "id": "cmntxlmlu000v14mlrea1mr69",
+  "url": null,
+  "retailer": "Maverik",
+  "brand": "Happy Dad",
+  "amount": 10,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "44.28",
+    "purchaseDate": "2026-04-11",
+    "time": null,
+    "zipCode": "50266",
+    "city": "Des Moines",
+    "state": "IA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10370.776208,
+        "totalUsd": 0.016896,
+        "inputTokens": 6086,
+        "outputTokens": 863,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:59 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50266",
+          "status": "match"
+        },
+        "city": {
+          "value": "Des Moines",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5969 Ashworth Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1198",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD 12/12z VAR CAN",
+          "quantity": 2,
+          "unitPrice": 18.99,
+          "totalSpend": 37.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.6,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CORN NUTS MEX ST CRN 4z + PROMO CORN NUT 4OZ 2/FOR",
+          "quantity": 2,
+          "unitPrice": 2.19,
+          "totalSpend": 2.44,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nW Des Moines | #5015\n5969 Ashworth Rd\nDes Moines, IA 50266\n04-11-2026 12:59 AM Invoice # 501500362251\nPURCHASE\nDESC QTY AMNT\nHAPPY DAD 12/12z VAR CAN 2 $37.98 A\nCONTAINER DEPOSIT 2 $1.20 N\nCORN NUTS MEX ST CRN 4z 2 $4.38 N\nPROMO CORN NUT 4OZ 2/FOR $1.94- N\nSUB-TOTAL $41.62\nSALES TAX 7.0% (A) $2.66\nTOTAL PURCHASES $44.28\nVISA CREDIT XXXXXXXXXXXX1198\nContactless\nAmount Tendered $44.28\nPayment Network:02\nAID: A0000000031010\nAUTH # 011849\nNo CVM\nMode: Issuer\nSequence # 191579\nLog # 191579\nItems Sold = 4\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202610103622510000005015\n5015 1 jacepor",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11532.24495900003,
+        "totalUsd": 0.024429,
+        "inputTokens": 3692,
+        "outputTokens": 852,
+        "reasoningTokens": 1247
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:59 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50266",
+          "status": "match"
+        },
+        "city": {
+          "value": "Des Moines",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5969 Ashworth Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1198",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD 12/12z VAR CAN",
+          "quantity": 2,
+          "unitPrice": 18.99,
+          "totalSpend": 37.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.6,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CORN NUTS MEX ST CRN 4z + PROMO CORN NUT 4OZ 2/FOR",
+          "quantity": 2,
+          "unitPrice": 2.19,
+          "totalSpend": 2.44,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nW Des Moines | #5015\n5969 Ashworth Rd\nDes Moines, IA 50266\n04-11-2026 12:59 AM Invoice # 501500362251\nPURCHASE\nDESC QTY AMNT\nHAPPY DAD 12/12z VAR CAN 2 $37.98 A\nCONTAINER DEPOSIT 2 $1.20 N\nCORN NUTS MEX ST CRN 4z 2 $4.38 N\nPROMO CORN NUT 4OZ 2/FOR $1.94- N\nSUB-TOTAL $41.62\nSALES TAX 7.0% (A) $2.66\nTOTAL PURCHASES $44.28\nVISA CREDIT XXXXXXXXXXXX1198\nContactless\nAmount Tendered $44.28\nPayment Network:02\nAID: A0000000031010\nAUTH # 011849\nNo CVM\nMode: Issuer\nSequence # 191579\nLog # 191579\nItems Sold = 4\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202610103622510000005015\n5015 1 jacepor",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7039.372499999998,
+        "totalUsd": 0.013188,
+        "inputTokens": 3692,
+        "outputTokens": 850,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:59 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50266",
+          "status": "match"
+        },
+        "city": {
+          "value": "Des Moines",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5969 Ashworth Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1198",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD 12/12z VAR CAN",
+          "quantity": 2,
+          "unitPrice": 18.99,
+          "totalSpend": 37.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.6,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CORN NUTS MEX ST CRN 4z + PROMO CORN NUT 4OZ 2/FOR",
+          "quantity": 2,
+          "unitPrice": 2.19,
+          "totalSpend": 2.44,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nW Des Moines | #5015\n5969 Ashworth Rd\nDes Moines, IA 50266\n04-11-2026 12:59 AM Invoice # 501500362251\nPURCHASE\nDESC QTY AMNT\nHAPPY DAD 12/12z VAR CAN 2 $37.98 A\nCONTAINER DEPOSIT 2 $1.20 N\nCORN NUTS MEX ST CRN 4z 2 $4.38 N\nPROMO CORN NUT 4OZ 2/FOR $1.94- N\nSUB-TOTAL $41.62\nSALES TAX 7.0% (A) $2.66\nTOTAL PURCHASES $44.28\nVISA CREDIT XXXXXXXXXXXX1198\nContactless\nAmount Tendered $44.28\nPayment Network:02\nAID: A0000000031010\nAUTH # 011849\nNo CVM\nMode: Issuer\nSequence # 191579\nLog # 191579\nItems Sold = 4\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202610103622510000005015\n5015 1 jacepor",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HAPPY DAD 12/12z VAR CAN",
+      "price": 37.98,
+      "quantity": 1,
+      "totalSpend": 37.98
+    },
+    {
+      "text": "CONTAINER DEPOSIT",
+      "price": 1.2,
+      "quantity": 1,
+      "totalSpend": 1.2
+    },
+    {
+      "text": "CORN NUTS MEX ST CRN 4z",
+      "price": 2.44,
+      "quantity": 1,
+      "totalSpend": 2.44
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

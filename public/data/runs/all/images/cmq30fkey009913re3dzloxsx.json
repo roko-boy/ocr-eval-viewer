@@ -1,0 +1,378 @@
+{
+  "id": "cmq30fkey009913re3dzloxsx",
+  "url": null,
+  "retailer": "Fry's Marketplace",
+  "brand": "The Lagunitas Brewing Company",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fry's Food and Drug",
+    "totalCost": "75.29",
+    "purchaseDate": "2026-06-06",
+    "time": null,
+    "zipCode": "85205",
+    "city": "Mesa",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15783.61604200001,
+        "totalUsd": 0.02172,
+        "inputTokens": 6086,
+        "outputTokens": 1399,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fry's Food Stores",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "75.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:47PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85205",
+          "status": "match"
+        },
+        "city": {
+          "value": "MESA",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4440 E. MAIN ST.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9272",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRO IC NSA 83 VAN",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYAN CORDIAL",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LAGUNITAS IPA + YOUR SAVINGS 6.00",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CAZA TEQJILA",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BFFALO WHSKY",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 23.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ASPARAGUS + 0.98 (0.99) lb @ 1.99 /lb + YOUR SAVINGS 1.96",
+          "quantity": 1,
+          "unitPrice": 3.91,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "      FRESH\n    fry's FOR\n          EVERYONE\n\n    4440 E. MAIN ST.\n    (480-218-8540)\n    Your cashier was CHEC 653\n                  ******1370\n    VIP Customer\n      KRO IC NSA 83 VAN     2.99 F\n      RYAN CORDIAL          8.99 T\n    Age Restricted: 21\n      LAGUNITAS IPA     V  14.99 T\n    Age Restricted: 21\n    SC  YOUR SAVINGS    6.00\n      CAZA TEQJILA         16.99 T\n    Age Restricted: 21\n      BFFALO WHSKY         23.99 T\n    Age Restricted: 21\n    0.98 (0.99) lb @ 1.99 /lb\n    WT  ASPARAGUS       V   1.95 F\n    SC  YOUR SAVINGS    1.96\n      TAX                   5.39\n    **** BALANCE           75.29\n    MESA AZ 85205\n    MASTERCARD PURCHASE\n    ************9272 - H\n    REF#: 43108Z TOTAL: 75.29\n    AID: A0000000041010\n    TC: 35F36C0E131D903E\n    VERIFIED BY PIN\n      MASTERCARD           75.29\n      CHANGE                0.00\n    TOTAL NUMBER OF ITEMS SOLD = 6\n    VIP CARD SAVINGS       $  7.96\n    TOTAL COUPONS          $  7.96\n    TOTAL SAVINGS (10 %)   $  7.96\n    06/06/26 12:47pm 611 653 107 999999653\n    **************************************\n      Annual Card Savings $34.01\n    **************************************\n    **************************************\n    Fuel Points Earned Today: 70\n    Total June Fuel Points: 74\n    **************************************\n          D-BACKS REWARDS\n      Points earned this order: 3\n      Total points earned*:14\n    *May not reflect recent redemptions\n      Visit www.frysfood.com/dbacks\n      or customer service for details.\n    **************************************\n          EARN 50 FUEL POINTS\n          BY GIVING US FEEDBACK\n      Go to www.kroger.com/feedback\n    Date: 06/06/26\n    Time: 12:45PM\n    Entry ID: 660-897-107-611-653-760\n    **************************************\n      With Our Low Prices, You Saved\n                $7.96\n      Fresh opportunity awaits\n       Join our team today!\n               #ER#\n       www.frysfood.com/careers\n         www.frysfood.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19551.32279200002,
+        "totalUsd": 0.044436,
+        "inputTokens": 3692,
+        "outputTokens": 1345,
+        "reasoningTokens": 2977
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fry's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "75.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:47 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85205",
+          "status": "match"
+        },
+        "city": {
+          "value": "MESA",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4440 E. MAIN ST.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9272",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRO IC NSA 83 VAN",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYAN CORDIAL + Age Restricted: 21",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LAGUNITAS IPA + Age Restricted: 21 + YOUR SAVINGS 6.00",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CAZA TEQJILA + Age Restricted: 21",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BFFALO WHSKY + Age Restricted: 21",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 23.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ASPARAGUS + 0.98 (0.99) lb @ 1.99 /lb + YOUR SAVINGS 1.96",
+          "quantity": 1,
+          "unitPrice": 3.91,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "frys FOOD STORES\nFRESH FOR EVERYONE\n4440 E. MAIN ST.\n(480-218-8540)\nYour cashier was CHEC 653\nVIP Customer *******1370\nKRO IC NSA 83 VAN 2.99 F\nRYAN CORDIAL 8.99 T\nAge Restricted: 21\nLAGUNITAS IPA V 14.99 T\nAge Restricted: 21\nS YOUR SAVINGS 6.00\nCAZA TEQJILA 16.99 T\nAge Restricted: 21\nBFFALO WHSKY 23.99 T\nAge Restricted: 21\n0.98 (0.99) lb @ 1.99 /lb\nASPARAGUS V 1.95 F\nSC YOUR SAVINGS 1.96\nTAX 5.39\n**** BALANCE 75.29\nMESA AZ 85205\nMASTERCARD Purchase\n************9272 - H\nREF#: 431082 TOTAL: 75.29\nAID: A0000000041010\nTC: 35F36C0E131D903E\nVERIFIED BY PIN\nMASTERCARD 75.29\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nVIP CARD SAVINGS $ 7.96\nTOTAL COUPONS $ 7.96\nTOTAL SAVINGS (10 %) $ 7.96\n06/06/26 12:47pm 611 653 107 999999653\n****************************************\nAnnual Card Savings $34.01\n****************************************\n****************************************\nFuel Points Earned Today: 70\nTotal June Fuel Points: 74\n****************************************\nD-BACKS REWARDS\nPoints earned this order: 3\nTotal points earned*:14\n*May not reflect recent redemptions\nVisit www.frysfood.com/dbacks\nor customer service for details.\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 06/06/26\nTime: 12:45PM\nEntry ID: 660-897-107-611-653-760\n****************************************\nWith Our Low Prices, You Saved\n$7.96\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.frysfood.com/careers\nwww.frysfood.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7115.435916999995,
+        "totalUsd": 0.017139,
+        "inputTokens": 3692,
+        "outputTokens": 1289,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fry's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "75.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:45PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85205",
+          "status": "match"
+        },
+        "city": {
+          "value": "MESA",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4440 E. MAIN ST.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9272",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRO IC NSA 83 VAN",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYAN CORDIAL",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LAGUNITAS IPA + YOUR SAVINGS 6.00",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CAZA TEQJILA",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BFFALO WHSKY",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 23.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ASPARAGUS + YOUR SAVINGS 1.96",
+          "quantity": 1,
+          "unitPrice": 3.91,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "FRESH\nFOOD STORES FOR\nfry's EVERYONE\n4440 E. MAIN ST.\n(480-218-8540)\nYour cashier was CHEC 653\nVIP Customer *******1370\nKRO IC NSA 83 VAN 2.99 F\nRYAN CORDIAL 8.99 T\nAge Restricted: 21\nLAGUNITAS IPA V 14.99 T\nAge Restricted: 21\nS YOUR SAVINGS 6.00\nCAZA TEQJILA 16.99 T\nAge Restricted: 21\nBFFALO WHSKY 23.99 T\nAge Restricted: 21\n0.98 (0.99) lb @ 1.99 /lb\nWT ASPARAGUS V 1.95 F\nSC YOUR SAVINGS 1.96\nTAX 5.39\n**** BALANCE 75.29\nMESA AZ 85205\nMASTERCARD Purchase\n************9272 - H\nREF#: 43108Z TOTAL: 75.29\nAID: A0000000041010\nTC: 35F36C0E131D903E\nVERIFIED BY PIN\nMASTERCARD 75.29\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nVIP CARD SAVINGS $ 7.96\nTOTAL COUPONS $ 7.96\nTOTAL SAVINGS (10 %) $ 7.96\n06/06/26 12:47pm 611 653 107 999999653\n****************************************\nAnnual Card Savings $34.01\n****************************************\n****************************************\nFuel Points Earned Today: 70\nTotal June Fuel Points: 74\n****************************************\nD-BACKS REWARDS\nPoints earned this order: 3\nTotal points earned*:14\n*May not reflect recent redemptions\nVisit www.frysfood.com/dbacks\nor customer service for details.\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 06/06/26\nTime: 12:45PM\nEntry ID: 660-897-107-611-653-760\n****************************************\nWith Our Low Prices, You Saved\n$7.96\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.frysfood.com/careers\nwww.frysfood.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KRO IC NSA 83 VAN",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "RYAN CORDIAL + Age Restricted: 21",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "LAGUNITAS IPA + Agp Restricted: 21 + S YOUR SAVINGS 6.00",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "CAZA TEQUILA + Age Restricted: 21",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    },
+    {
+      "text": "BFFALO WHSKY + Age Restricted: 21 + 0.98 (0.99) lb @ 1.99 /lb",
+      "price": 23.99,
+      "quantity": 1,
+      "totalSpend": 23.99
+    },
+    {
+      "text": "ASPARAGUS + 0.98 (0.99) lb @ 1.99 /lb + SC YOUR SAVINGS 1.96",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.95
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

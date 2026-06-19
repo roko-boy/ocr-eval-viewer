@@ -1,0 +1,270 @@
+{
+  "id": "cmnb50k7n0001kmmixpeax375",
+  "url": null,
+  "retailer": "ACME Markets",
+  "brand": "cuso cuts",
+  "amount": 9.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Acme Markets",
+    "totalCost": "44.98",
+    "purchaseDate": "2026-03-28",
+    "time": null,
+    "zipCode": "07432",
+    "city": "Midland Park",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9367.654834,
+        "totalUsd": 0.017796,
+        "inputTokens": 6086,
+        "outputTokens": 963,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "44.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "22:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07432",
+          "status": "match"
+        },
+        "city": {
+          "value": "Midland Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "136 Lake Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1006",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 19764447803 + 2g CUSO CUTS SEASONNG + Sale Savings -6.00",
+          "quantity": 1,
+          "unitPrice": 25.98,
+          "totalSpend": 19.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MISCELLANEOUS + 19674207992 + AMAZON 2024 + G5 0068842628657",
+          "quantity": 1,
+          "unitPrice": 25,
+          "totalSpend": 25,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ACME\nOUR Favorite Local Supermarket\nStore 1054 Dir Maryann Holton\nMain: (201)493-7050 Rx:\n136 Lake Avenue\nMidland Park NJ 07432\n00105405301942603282223\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n19764447803 2g CUSO CUTS SEASONNG\n25.98 19.98 S\nSale Savings -6.00\nMISCELLANEOUS\n19674207992 AMAZON 2024\n25.00 25.00\nG5 0068842628657\nAPPROVED\nTAX\n0.00\n**** BALANCE\n44.98\nCredit Purchase 03/28/26 22:23\nCARD # ************1006\nREF: 702341410060 AUTH: 00863464\nPAYMENT AMOUNT\n44.98\nAL AMERICAN EXPRESS\nAID A000000025010801\nTVR 0000008000\nAMEX\n44.98\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n6.00\nTotal\n6.00\nTotal Savings Value\n12%\nYOUR POINTS\nPoints Earned Today 138\nPoints Available 430\nTOTAL NUMBER OF ITEMS SOLD = 2\n03/28/26 22:23 1054 53 194 8853\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19902.65104200001,
+        "totalUsd": 0.037452,
+        "inputTokens": 3692,
+        "outputTokens": 948,
+        "reasoningTokens": 2598
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "44.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "22:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07432",
+          "status": "match"
+        },
+        "city": {
+          "value": "Midland Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "136 Lake Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1006",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "19764447803 2g CUSO CUTS SEASONNG + Sale Savings -6.00",
+          "quantity": 1,
+          "unitPrice": 25.98,
+          "totalSpend": 19.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "197644207992 AMAZON 2024 + G5 0068842628657",
+          "quantity": 1,
+          "unitPrice": 25,
+          "totalSpend": 25,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ACME\nOUR Favorite Local Supermarket\nStore 1054 Dir Maryann Holton\nMain: (201)493-7050 Rx:\n136 Lake Avenue\nMidland Park NJ 07432\n00105405301942603282223\nYOUR CASHIER TODAY WAS SELF\nGROCERY\n19764447803 2g CUSO CUTS SEASONNG\nPrice You Pay\n25.98 19.98 S\nSale Savings -6.00\nMISCELLANEOUS\n197644207992 AMAZON 2024\n25.00 25.00\nG5 0068842628657\nAPPROVED\nTAX\n0.00\n**** BALANCE\n44.98\nCredit Purchase 03/28/26 22:23\nCARD # ************1006\nREF: 702341410060 AUTH: 00863464\nPAYMENT AMOUNT\n44.98\nAL AMERICAN EXPRESS\nAID A000000025010801\nTVR 0000008000\nAMEX\n44.98\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n6.00\nTotal\n6.00\nTotal Savings Value\n12%\nYOUR POINTS\nPoints Earned Today 138\nPoints Available 430\nTOTAL NUMBER OF ITEMS SOLD = 2\n03/28/26 22:23 1054 53 194 8853\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5738.176209000005,
+        "totalUsd": 0.014178,
+        "inputTokens": 3692,
+        "outputTokens": 960,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "44.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "22:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07432",
+          "status": "match"
+        },
+        "city": {
+          "value": "Midland Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "136 Lake Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1006",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 19764447803 + 2@ CUSD CUTS SEASONNG + Sale Savings -6.00",
+          "quantity": 2,
+          "unitPrice": 12.99,
+          "totalSpend": 19.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MISCELLANEOUS + 19674207992 + AMAZON 2024 + G5 0068842628657",
+          "quantity": 1,
+          "unitPrice": 25,
+          "totalSpend": 25,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ACME\nOUR Favorite Local Supermarke\nStore 1054 Dir Maryann Holton\nMain: (201)493-7050 Rx:\n136 Lake Avenue\nMidland Park NJ 07432\n00105405301942603282223\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n19764447803 2@ CUSD CUTS SEASONNG\n25.98 19.98 S\nSale Savings -6.00\nMISCELLANEOUS\n19674207992 AMAZON 2024\n25.00 25.00\nG5 0068842628657\nAPPROVED\nTAX\n0.00\n**** BALANCE\n44.98\nCredit Purchase 03/28/26 22:23\nCARD # ************1006\nREF: 702341410060 AUTH: 00863464\nPAYMENT AMOUNT\n44.98\nAL AMERICAN EXPRESS\nAID A000000025010801\nTVR 0000008000\nAMEX\n44.98\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n6.00\nTotal\n6.00\nTotal Savings Value\n12%\nYOUR POINTS\nPoints Earned Today 138\nPoints Available 430\nTOTAL NUMBER OF ITEMS SOLD = 2\n03/28/26 22:23 1054 53 194\n8853\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CUSO CUTS SEASONNG + 19764447803 + Sale Savings -6.00 + MISCELLANEOUS",
+      "price": 9.99,
+      "quantity": 2,
+      "totalSpend": 19.98
+    },
+    {
+      "text": "AMAZON 2024 + 19674207992 + G5 0068842628657 APPROVED",
+      "price": 25,
+      "quantity": 1,
+      "totalSpend": 25
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

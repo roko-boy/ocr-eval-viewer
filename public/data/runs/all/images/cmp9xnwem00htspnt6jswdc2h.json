@@ -1,0 +1,885 @@
+{
+  "id": "cmp9xnwem00htspnt6jswdc2h",
+  "url": null,
+  "retailer": "Giant Food Store",
+  "brand": "Steaz Tea",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Giant Food Store",
+    "totalCost": "41.6",
+    "purchaseDate": "2026-05-17",
+    "time": null,
+    "zipCode": "19380",
+    "city": "West Chester",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 22058.58229200001,
+        "totalUsd": 0.038901,
+        "inputTokens": 6086,
+        "outputTokens": 3308,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "41.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:21am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19380",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEST CHESTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "698 DOWNINGTOWN PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1833",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SB LTE ENG MFN 6 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SL 9 GRN HLF LF",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LCT FV LF CR32Z + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB WHT AMRCN CHS + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 4.51,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HERR SCO CHP + BONUS BUY SAVINGS + HERSS CPN",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MUSS NAT APLESCE + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KENS LT THOSND I + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEN LT RANCH DRS + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEN CRM PARM PC + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BD JASMINE CUP + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BD JASMINE CUP + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SBSLCDWTRCHSNT8Z",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GRN TEA ICD MNT + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HERR'S PRETZELS + BONUS BUY SAVINGS + HERSS CPN",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MZ ITL N PSTCH + BONUS BUY SAVINGS + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MZ ITL N PSTCH + BONUS BUY SAVINGS + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NP FREFRM WTR12Z",
+          "quantity": 1,
+          "unitPrice": 1.39,
+          "totalSpend": 1.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NPR 93% GRD TRY + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 3.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NPR 93% GRD TRY + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 3.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUEBERRY PINT + BLUEBERRY CPN",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 1.77,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NP GG CRGL4Z + B1G1 $1 SALAD TOM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NP GG CRGL4Z",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRESH BANANAS",
+          "quantity": 1,
+          "unitPrice": 1.22,
+          "totalSpend": 1.22,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POTATO SWEET",
+          "quantity": 1,
+          "unitPrice": 1.09,
+          "totalSpend": 1.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MUSS NAT APLESCE + DOUBLED COUPON",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": -0.6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DAIRY MI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "GIANT\n698 DOWNINGTOWN PIKE\nWEST CHESTER, PA 19380\nStore Telephone: (610) 430-7150\nPharmacy Telephone: (610) 430-6180\nStore #6291 05/17/26 11:21am\nSTART SCAN IT ORDER\nBAKERY - COMMERCIAL\nSB LTE ENG MFN 6 2.69 F\nSL 9 GRN HLF LF 2.69 F\nBONUS BUY SAVINGS 0.70-F\nPRICE YOU PAY 1.99\nDAIRY\nLCT FV LF CR32Z 4.99 F\nBONUS BUY SAVINGS 1.00-F\nPRICE YOU PAY 3.99\nDELI\nSB WHT AMRCN CHS 4.51 F\nSC PERSONAL DISC 1.92-F\nPRICE YOU PAY 2.59\nGROCERY\nHERR SCO CHP 4.99 F\nBONUS BUY SAVINGS 1.49-F\nSC HERSS CPN 1.50-F\nPRICE YOU PAY 2.00\nMUSS NAT APLESCE 3.29 F\nBONUS BUY SAVINGS 1.29-F\nPRICE YOU PAY 2.00\nKENS LT THOSND I 3.49 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 2.50\nKEN LT RANCH DRS 3.49 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 2.50\nKEN CRM PARM PC 3.49 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 2.50\nBD JASMINE CUP 1.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 0.50\nBD JASMINE CUP 1.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 0.50\nSBSLCDWTRCHSNT8Z 1.29 F\nGRN TEA ICD MNT 2.49 F\nBONUS BUY SAVINGS 0.50-F\nPRICE YOU PAY 1.99\nHERR'S PRETZELS 4.99 F\nBONUS BUY SAVINGS 1.49-F\nSC HERSS CPN 1.50-F\nPRICE YOU PAY 2.00\nMZ ITL N PSTCH 2.59 F\nBONUS BUY SAVINGS 1.09-F\nSC PERSONAL DISC 0.50-F\nPRICE YOU PAY 1.00\nMZ ITL N PSTCH 2.59 F\nBONUS BUY SAVINGS 1.09-F\nSC PERSONAL DISC 0.50-F\nPRICE YOU PAY 1.00\nNP FREFRM WTR12Z 1.39 B\nMEAT\nNPR 93% GRD TRY 5.29 F\nBONUS BUY SAVINGS 1.79-F\nPRICE YOU PAY 3.50\nNPR 93% GRD TRY 5.29 F\nBONUS BUY SAVINGS 1.79-F\nPRICE YOU PAY 3.50\nPRODUCE\nBLUEBERRY PINT 5.99 F\nSC BLUEBERRY CPN 4.22-F\nPRICE YOU PAY 1.77\nNP GG CRGL4Z 2.99 F\nSC B1G1 $1 SALAD TOM 1.99-F\nPRICE YOU PAY 1.00\nNP GG CRGL4Z 2.99 F\nFRESH BANANAS 1.22 F\nPOTATO SWEET 1.09 F\nMC MUSS NAT APLESCE 0.60-F\nDOUBLED COUPON 0.60-F\nMC DAIRY MI 4.99-F\nTAX 0.09\n**** BALANCE 41.60\n***********************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************1833\nPayment Amt: $41.60\nBALANCE: $\nAID: A0000000031010\nAUTH#017075 RC#00 05/17/26 11:23am\nSUBTOTAL 41.51\nTAX 0.09\nVISA 41.60\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 24\n********* SAVINGS SUMMARY *********\nManuf Coupons: 6.49\nDouble Coupons: 0.60\nCard Savings: 30.31\nYour Total Savings: 37.40\n05/17/26 11:23am 6291 405 15 880005\n2026 CARD SAVINGS\n$969.20\n*****MY CHOICE REWARDS *****\nEarned This Visit: 41\nCurrent Points: 393\n$0.30/GAL Available\n$3.00 Grocery Dollars\nPoints expiring on 05/31:\n100 Points = $1.00 Grocery Dollar\nor $0.10/gallon discount\nPoints apply to 1 vehicle\nup to 25 gallons\nmore details",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 58222.48645899998,
+        "totalUsd": 0.132717,
+        "inputTokens": 3692,
+        "outputTokens": 3045,
+        "reasoningTokens": 11086
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "41.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:23 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19380",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEST CHESTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "698 DOWNINGTOWN PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1833",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SB LTE ENG MFN 6",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SL 9 GRN HLF LF + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LCT FV LF CR32Z + BONUS BUY SAVINGS + MC DAIRY MI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SB WHT AMRCN CHS + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 4.51,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HERR SCO CHP + BONUS BUY SAVINGS + HERSS CPN",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MUSS NAT APLESCE + BONUS BUY SAVINGS + MC MUSS NAT APLESCE + DOUBLE COUPON",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KENS LT THOSND I + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEN LT RANCH DRS + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEN CRM PARM PC + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BD JASMINE CUP + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BD JASMINE CUP + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SBSLCDWTRCHSNT8Z",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GRN TEA ICD MNT + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HERR'S PRETZELS + BONUS BUY SAVINGS + HERSS CPN",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MZ ITL N PSTCH + BONUS BUY SAVINGS + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MZ ITL N PSTCH + BONUS BUY SAVINGS + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NP FREFRM WTR12Z",
+          "quantity": 1,
+          "unitPrice": 1.39,
+          "totalSpend": 1.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NPR 93% GRD TRY + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 3.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NPR 93% GRD TRY + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 3.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUEBERRY PINT + BLUEBERRY CPN",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 1.77,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NP GG CRGL4Z + B1G1 $1 SALAD TOM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NP GG CRGL4Z",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRESH BANANAS",
+          "quantity": 1,
+          "unitPrice": 1.22,
+          "totalSpend": 1.22,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POTATO SWEET",
+          "quantity": 1,
+          "unitPrice": 1.09,
+          "totalSpend": 1.09,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n698 DOWNINGTOWN PIKE\nWEST CHESTER, PA 19380\nStore Telephone: (610) 430-7150\nPharmacy Telephone: (610) 430-6180\nStore #6291   05/17/26   11:21am\n\nSTART SCAN IT ORDER\nBAKERY - COMMERCIAL\n   SB LTE ENG MFN 6       2.69 F\n   SL 9 GRN HLF LF        2.69 F\n   BONUS BUY SAVINGS      0.70-F\n   PRICE YOU PAY       1.99\nDAIRY\n   LCT FV LF CR32Z        4.99 F\n   BONUS BUY SAVINGS      1.00-F\n   PRICE YOU PAY       3.99\nDELI\n   SB WHT AMRCN CHS       4.51 F\nSC PERSONAL DISC          1.92-F\n   PRICE YOU PAY       2.59\nGROCERY\n   HERR SCO CHP           4.99 F\n   BONUS BUY SAVINGS      1.49-F\nSC HERSS CPN              1.50-F\n   PRICE YOU PAY       2.00\n   MUSS NAT APLESCE       3.29 F\n   BONUS BUY SAVINGS      1.29-F\n   PRICE YOU PAY       2.00\n   KENS LT THOSND I       3.49 F\n   BONUS BUY SAVINGS      0.99-F\n   PRICE YOU PAY       2.50\n   KEN LT RANCH DRS       3.49 F\n   BONUS BUY SAVINGS      0.99-F\n   PRICE YOU PAY       2.50\n   KEN CRM PARM PC        3.49 F\n   BONUS BUY SAVINGS      0.99-F\n   PRICE YOU PAY       2.50\n   BD JASMINE CUP         1.99 F\n   BONUS BUY SAVINGS      1.49-F\n   PRICE YOU PAY       0.50\n   BD JASMINE CUP         1.99 F\n   BONUS BUY SAVINGS      1.49-F\n   PRICE YOU PAY       0.50\n   SBSLCDWTRCHSNT8Z       1.29 F\n   GRN TEA ICD MNT        2.49 F\n   BONUS BUY SAVINGS      0.50-F\n   PRICE YOU PAY       1.99\n   HERR'S PRETZELS        4.99 F\n   BONUS BUY SAVINGS      1.49-F\nSC HERSS CPN              1.50-F\n   PRICE YOU PAY       2.00\n   MZ ITL N PSTCH         2.59 F\n   BONUS BUY SAVINGS      1.09-F\nSC PERSONAL DISC          0.50-F\n   PRICE YOU PAY       1.00\n   MZ ITL N PSTCH         2.59 F\n   BONUS BUY SAVINGS      1.09-F\nSC PERSONAL DISC          0.50-F\n   PRICE YOU PAY       1.00\n   NP FREFRM WTR12Z       1.39 B\nMEAT\n   NPR 93% GRD TRY        5.29 F\n   BONUS BUY SAVINGS      1.79-F\n   PRICE YOU PAY       3.50\n   NPR 93% GRD TRY        5.29 F\n   BONUS BUY SAVINGS      1.79-F\n   PRICE YOU PAY       3.50\nPRODUCE\n   BLUEBERRY PINT         5.99 F\nSC BLUEBERRY CPN          4.22-F\n   PRICE YOU PAY       1.77\n   NP GG CRGL4Z           2.99 F\nSC B1G1 $1 SALAD TOM      1.99-F\n   PRICE YOU PAY       1.00\n   NP GG CRGL4Z           2.99 F\n   FRESH BANANAS          1.22 F\n   POTATO SWEET           1.09 F\n\nMC MUSS NAT APLESCE       0.50-F\n   DOUBLED COUPON         0.50-F\nMC DAIRY MI               4.99-F\n   TAX                    0.09\n**** BALANCE             41.60\n\n****************************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************1833\nPayment Amt: $41.60\nBALANCE: $\nAID: A0000000031010\nAUTH#017075 RC#00 05/17/26 11:23am\nTOTAL PAID               41.60\nVISA                     41.60\nCHANGE                    0.00\nTOTAL NUMBER OF ITEMS SOLD = 24",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 13256.25275000001,
+        "totalUsd": 0.033942,
+        "inputTokens": 3692,
+        "outputTokens": 3156,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "41.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:21 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19380",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEST CHESTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "698 DOWNINGTOWN PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1833",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SB LTE ENG MFN 6 + SL 9 GRN HLF LF",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LCT FV LF CR32Z",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB WHT AMRCN CHS + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 4.51,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HERR SCO CHP + HERSS CPN",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MUSS NAT APLESCE",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KENS LT THOSND I",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEN LT RANCH DRS",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEN CRM PARM PC",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BD JASMINE CUP",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BD JASMINE CUP",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SBSLCDWTRCHSNT8Z",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GRN TEA ICD MNT",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HERR'S PRETZELS + HERSS CPN",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MZ ITL N PSTCH + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MZ ITL N PSTCH + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NP FREFRM WTR12Z",
+          "quantity": 1,
+          "unitPrice": 1.39,
+          "totalSpend": 1.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NPR 93% GRD TRY",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 3.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NPR 93% GRD TRY",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 3.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUEBERRY PINT + BLUEBERRY CPN",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 1.77,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NP GG CRGL4Z + B1G1 $1 SALAD TOM",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NP GG CRGL4Z",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRESH BANANAS",
+          "quantity": 1,
+          "unitPrice": 1.22,
+          "totalSpend": 1.22,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POTATO SWEET",
+          "quantity": 1,
+          "unitPrice": 1.09,
+          "totalSpend": 1.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MUSS NAT APLESCE + DOUBLED COUPON",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": -1.2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DAIRY MI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "GIANT\n698 DOWNINGTOWN PIKE\nWEST CHESTER, PA 19380\nStore Telephone: (610) 430-7150\nPharmacy Telephone: (610) 430-6180\nStore #6291 05/17/26 11:21am\nSTART SCAN IT ORDER\nBAKERY - COMMERCIAL\nSB LTE ENG MFN 6 2.69 F\nSL 9 GRN HLF LF 2.69 F\nBONUS BUY SAVINGS 0.70-F\nPRICE YOU PAY 1.99\nDAIRY\nLCT FV LF CR32Z 4.99 F\nBONUS BUY SAVINGS 1.00-F\nPRICE YOU PAY 3.99\nDELI\nSB WHT AMRCN CHS 4.51 F\nSC PERSONAL DISC 1.92-F\nPRICE YOU PAY 2.59\nGROCERY\nHERR SCO CHP 4.99 F\nBONUS BUY SAVINGS 1.49-F\nSC HERSS CPN 1.50-F\nPRICE YOU PAY 2.00\nMUSS NAT APLESCE 3.29 F\nBONUS BUY SAVINGS 1.29-F\nPRICE YOU PAY 2.00\nKENS LT THOSND I 3.49 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 2.50\nKEN LT RANCH DRS 3.49 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 2.50\nKEN CRM PARM PC 3.49 F\nBONUS BUY SAVINGS 0.99-F\nPRICE YOU PAY 2.50\nBD JASMINE CUP 1.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 0.50\nBD JASMINE CUP 1.99 F\nBONUS BUY SAVINGS 1.49-F\nPRICE YOU PAY 0.50\nSBSLCDWTRCHSNT8Z 1.29 F\nGRN TEA ICD MNT 2.49 F\nBONUS BUY SAVINGS 0.50-F\nPRICE YOU PAY 1.99\nHERR'S PRETZELS 4.99 F\nBONUS BUY SAVINGS 1.49-F\nSC HERSS CPN 1.50-F\nPRICE YOU PAY 2.00\nMZ ITL N PSTCH 2.59 F\nBONUS BUY SAVINGS 1.09-F\nSC PERSONAL DISC 0.50-F\nPRICE YOU PAY 1.00\nMZ ITL N PSTCH 2.59 F\nBONUS BUY SAVINGS 1.09-F\nSC PERSONAL DISC 0.50-F\nPRICE YOU PAY 1.00\nNP FREFRM WTR12Z 1.39 B\nMEAT\nNPR 93% GRD TRY 5.29 F\nBONUS BUY SAVINGS 1.79-F\nPRICE YOU PAY 3.50\nNPR 93% GRD TRY 5.29 F\nBONUS BUY SAVINGS 1.79-F\nPRICE YOU PAY 3.50\nPRODUCE\nBLUEBERRY PINT 5.99 F\nSC BLUEBERRY CPN 4.22-F\nPRICE YOU PAY 1.77\nNP GG CRGL4Z 2.99 F\nSC B1G1 $1 SALAD TOM 1.99-F\nPRICE YOU PAY 1.00\nNP GG CRGL4Z 2.99 F\nFRESH BANANAS 1.22 F\nPOTATO SWEET 1.09 F\nMC MUSS NAT APLESCE 0.60-F\nDOUBLED COUPON 0.60-F\nMC DAIRY MI 4.99-F\nTAX 0.09\n**** BALANCE 41.60\n***********************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************1833\nPayment Amt: $41.60\nBALANCE: $\nAID: A0000000031010\nAUTH#017075 RC#00 05/17/26 11:23am\nSUBTOTAL 41.51\nTAX 0.09\nVISA 41.60\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 24\n********* SAVINGS SUMMARY *********\nManuf Coupons: 6.49\nDouble Coupons: 0.50\nCard Savings: 30.31\nYour Total Savings: 36.30\n05/17/26 11:23am 6291 405 15 880005\n2026 CARD SAVINGS\n$969.20\n*****MYCHOICE REWARDS *****\nEarned This Visit 43\nCurrent Total: 393\n$0.30/GAL Available\n$3.00 Grocery Dollars\nPoints expiring on 05/31\n$0.10/gallon discount\nPoints to next reward\nup to 25 gallons\nmore details",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SB LTE ENG MFN 6",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    },
+    {
+      "text": "SL 9 GRN HLF LF",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "LCT FV LF CR32Z + DAIRY",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SB WHT AMRCN CHS + DELI",
+      "price": 2.59,
+      "quantity": 1,
+      "totalSpend": 2.59
+    },
+    {
+      "text": "HERR SCO CHP + GROCERY",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "MUSS NAT APLESCE + MUSS NAT APLESCE",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "KENS LT THOSND I",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "KEN LT RANCH DRS",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "KEN CRM PARM PC",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "BO JASMINE CUP",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    },
+    {
+      "text": "BO JASMINE CUP",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    },
+    {
+      "text": "SBSLCDWTRCHSNT8Z",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "GRN TEA ICD MNT",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "HERR'S PRETZELS",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "MZ ITL N PSTCH",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "MZ ITL N PSTCH",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "NP FREFRM WTR12Z + MEAT",
+      "price": 1.39,
+      "quantity": 1,
+      "totalSpend": 1.39
+    },
+    {
+      "text": "NPR 93% GRD TRY + MEAT",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "NPR 93% GRD TRY",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "BLUEBERRY PINT + PRODUCE",
+      "price": 1.77,
+      "quantity": 1,
+      "totalSpend": 1.77
+    },
+    {
+      "text": "NP GG CRGL4Z",
+      "price": 1,
+      "quantity": 1,
+      "totalSpend": 1
+    },
+    {
+      "text": "NP GG CRGL4Z",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "FRESH BANANAS",
+      "price": 1.22,
+      "quantity": 1,
+      "totalSpend": 1.22
+    },
+    {
+      "text": "POTATO SWEET",
+      "price": 1.09,
+      "quantity": 1,
+      "totalSpend": 1.09
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

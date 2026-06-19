@@ -1,0 +1,351 @@
+{
+  "id": "cmnnll7as00nzxwutzr8xbibd",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "GT's Living Foods",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "70.15",
+    "purchaseDate": "2026-03-25",
+    "time": null,
+    "zipCode": "84107",
+    "city": "Murray",
+    "state": "UT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 25725.08629300003,
+        "totalUsd": 0.03507449999999999,
+        "inputTokens": 6169,
+        "outputTokens": 1184,
+        "reasoningTokens": 1685
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "70.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:51:17",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "MURRAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6284 S. STATE STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7938",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG WHT MUSHROOMS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VANILLA COCOYO YGURT",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AMBER WDS BODY OIL",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DESERT BLM BODY OIL",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REG/SUP PADS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n6284 S. STATE STREET\nMURRAY, UT\n(801) 266-3566\nStore Hours MON-SUN 7AM-10PM\n03/25/2026\n20:51:17\n010423\nCREDIT CARD\nPURCHASE\nCARD #:\nXXXXXXXXXXXX7938\nChip Card:\nCAPITAL ONE\nAID:\nA0000000041010\nATC:\n0069\nTSI: E800\nARC: 03665P\nTC:\n2FDDCB1F83F99B07\nINVOICE:\n010423\nApproval Code:\n03665P\nEntry Method:\nChip Read\nMode:\nIssuer\nTotal:\nUSD$ 70.15\nAPPROVED BY ISSUER\nPRODUCE\nORG WHT MUSHROOMS\n2.99 T F\nDAIRY\nVANILLA COCOYO YGURT\n3.49 T F\nHBA\nAMBER WDS BODY OIL\n24.99 T\nDESERT BLM BODY OIL\n24.99 T\nREG/SUP PADS\n8.99 T\nTax Report\nSales Tax\n58.97\n4.51 TT\nFood Tax\n6.48\n0.19 TT\nBALANCE DUE\n70.15\nCREDIT\n$70.15\n[ I XXXXXXXXXXXX7938\nAuth# 03665P\nRef# 010423\nCHANGE\n0.00\n99060100159150842050\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR code below:\nHow was your visit?\nLet us know at SproutsFeedback.com\nso we can grow and improve!\nCashier:Karina Store: 601\nPOS:001 Transaction:5915\nWednesday, March 25, 2026 08:50 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12403.70833300008,
+        "totalUsd": 0.031305,
+        "inputTokens": 3692,
+        "outputTokens": 1172,
+        "reasoningTokens": 1691
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "70.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:51:17",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "MURRAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6284 S. STATE STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7938",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG WHT MUSHROOMS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VANILLA COCOYO YGURT",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AMBER WDS BODY OIL",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DESERT BLM BODY OIL",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REG/SUP PADS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n6284 S. STATE STREET\nMURRAY, UT\n(801) 266-3566\nStore Hours MON-SUN 7AM-10PM\n03/25/2026\n20:51:17\n010423\nCREDIT CARD\nPURCHASE\nCARD #:\nXXXXXXXXXXXX7938\nChip Card:\nCAPITAL ONE\nAID:\nA0000000041010\nATC:\n0069\nTSI: E800\nARC: 03665P\nTC:\n2FDDCB1F83F99B07\nINVOICE:\n010423\nApproval Code:\n03665P\nEntry Method:\nChip Read\nMode:\nIssuer\nTotal:\nUSD$ 70.15\nAPPROVED BY ISSUER\nPRODUCE\nORG WHT MUSHROOMS\n2.99 T F\nDAIRY\nVANILLA COCOYO YGURT\n3.49 T F\nHBA\nAMBER WDS BODY OIL\n24.99 T\nDESERT BLM BODY OIL\n24.99 T\nREG/SUP PADS\n8.99 T\nTax Report\nSales Tax\n58.97\n4.51 TT\nFood Tax\n6.48\n0.19 TT\nBALANCE DUE\n70.15\nCREDIT\n$70.15\n[ ] XXXXXXXXXXXX7938\nAuth# 03665P\nRef# 010423\nCHANGE\n0.00\n99060100159150842050\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR code below:\nHow was your visit?\nLet us know at SproutsFeedback.com\nso we can grow and improve!\nCashier:Karina Store: 601\nPOS:001 Transaction:5915\nWednesday, March 25, 2026 08:50 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6404.375999999989,
+        "totalUsd": 0.016077,
+        "inputTokens": 3692,
+        "outputTokens": 1171,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "70.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:51:17",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "MURRAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6284 S. STATE STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7938",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG WHT MUSHROOMS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VANILLA COCOYO YGURT",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AMBER WDS BODY OIL",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DESERT BLM BODY OIL",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REG/SUP PADS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n6284 S. STATE STREET\nMURRAY, UT\n(801) 266-3566\nStore Hours MON-SUN 7AM-10PM\n03/25/2026\n20:51:17\n010423\nCREDIT CARD\nPURCHASE\nCARD #:\nXXXXXXXXXXXX7938\nChip Card:\nCAPITAL ONE\nAID:\nA0000000041010\nATC:\n0069\nTSI: E800\nARC: 03665P\nTC:\n2FDDCB1F83F99B07\nINVOICE:\n010423\nApproval Code:\n03665P\nEntry Method:\nChip Read\nMode:\nIssuer\nTotal:\nUSD$ 70.15\nAPPROVED BY ISSUER\nPRODUCE\nORG WHT MUSHROOMS\n2.99 T F\nDAIRY\nVANILLA COCOYO YGURT\n3.49 T F\nHBA\nAMBER WDS BODY OIL\n24.99 T\nDESERT BLM BODY OIL\n24.99 T\nREG/SUP PADS\n8.99 T\nTax Report\nSales Tax\n58.97\n4.51 TT\nFood Tax\n6.48\n0.19 TT\nBALANCE DUE\n70.15\nCREDIT\n$70.15\n[ ] XXXXXXXXXXXX7938\nAuth# 03665P\nRef# 010423\nCHANGE\n0.00\n99060100159150842050\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR code below:\nHow was your visit?\nLet us know at SproutsFeedback.com\nso we can grow and improve!\nCashier: Karina Store: 601\nPOS:001 Transaction:5915\nWednesday, March 25, 2026 08:50 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ORG WHT MUSHROOMS",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "VANILLA COCOYO YGURT",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "AMBER WDS BODY OIL",
+      "price": 24.99,
+      "quantity": 1,
+      "totalSpend": 24.99
+    },
+    {
+      "text": "DESERT BLM BODY OIL",
+      "price": 24.99,
+      "quantity": 1,
+      "totalSpend": 24.99
+    },
+    {
+      "text": "REG/SUP PADS",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

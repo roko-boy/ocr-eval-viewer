@@ -1,0 +1,270 @@
+{
+  "id": "cmnj4oqt1009s8izqy8lhxys2",
+  "url": null,
+  "retailer": "Maverik",
+  "brand": "Pepsi Food Service",
+  "amount": 3.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "3.82",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "72956",
+    "city": "Van Buren",
+    "state": "AR",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8263.822375999996,
+        "totalUsd": 0.017688,
+        "inputTokens": 6134,
+        "outputTokens": 943,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.82",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:35 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "72956",
+          "status": "match"
+        },
+        "city": {
+          "value": "Van Buren",
+          "status": "match"
+        },
+        "state": {
+          "value": "AR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2720 Alma Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4068",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COLD MED + FREE FRIDAY MED FOUNTAIN",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PEPSI 20z ZERO CHRRY + PEPSI 20Z 2/ + 2026 GAME PEPSI",
+          "quantity": 2,
+          "unitPrice": 3.19,
+          "totalSpend": 3.5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nVan Buren | #5045\n2720 Alma Hwy\nVan Buren, AR 72956\n\n04-03-2026 11:35 AM Invoice # 504500247126\nPURCHASE\nAdventure Club XXXXXXXXXXXX5773\n\nDESC QTY AMNT\nCOLD MED 1 $1.49 A\nPEPSI 20z ZERO CHRRY 2 $6.38 A\nPEPSI 20Z 2/ $1.88-\nFREE FRIDAY MED FOUNTAIN $1.49-\n2026 GAME PEPSI $1.00-\n\nSUB-TOTAL $3.50\nSALES TAX 9.25% (A) $0.32\nTOTAL PURCHASES $3.82\n\nMASTERCARD XXXXXXXXXXXX4068\nChip Read\nAmount Tendered $3.82\nPayment Network:03\nAID: A0000000041010\nAUTH # 03779Z\nNo CVM\nMode: Issuer\nMID **7146 TID 001\nSequence # 092831\nIAD: 0110A04001220000000000000000000000FF\nTVR: 0000008000\nTSI: E800\nARC: Z3\n\nItems Sold = 3\nCard #: **725773\nAdventure Club\nPoints Earned 7\nPoints Balance 34\n\nSee App for Additional Rewards Details\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202609302471260000005045\n5045 1 self2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13505.60712499998,
+        "totalUsd": 0.032889,
+        "inputTokens": 3716,
+        "outputTokens": 935,
+        "reasoningTokens": 2100
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.82",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:35 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "72956",
+          "status": "match"
+        },
+        "city": {
+          "value": "Van Buren",
+          "status": "match"
+        },
+        "state": {
+          "value": "AR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2720 Alma Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4068",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COLD MED + FREE FRIDAY MED FOUNTAIN",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PEPSI 20z ZERO CHRRY + PEPSI 20Z 2/ + 2026 GAME PEPSI",
+          "quantity": 2,
+          "unitPrice": 3.19,
+          "totalSpend": 3.5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\n\nADVENTURE'S FIRST STOP\nVan Buren | #5045\n2720 Alma Hwy\nVan Buren, AR 72956\n\n04-03-2026 11:35 AM Invoice # 504500247126\nPURCHASE\n\nAdventure Club XXXXXXXXXXXX5773\n\nDESC QTY AMNT\nCOLD MED 1 $1.49 A\nPEPSI 20z ZERO CHRRY 2 $6.38 A\nPEPSI 20Z 2/ $1.88-\nFREE FRIDAY MED FOUNTAIN $1.49-\n2026 GAME PEPSI $1.00-\n\nSUB-TOTAL $3.50\nSALES TAX 9.25% (A) $0.32\nTOTAL PURCHASES $3.82\n\nMASTERCARD XXXXXXXXXXXX4068\nChip Read\nAmount Tendered $3.82\nPayment Network:03\nAID: A0000000041010\nAUTH # 03779Z\nNo CVM\nMode: Issuer\nMID **7146 TID 001\nSequence # 092831\nIAD: 0110A0400122000000000000000000FF\nTVR: 0000008000\nTSI: E800\nARC: Z3\n\nItems Sold = 3\n\nCard #: **725773\nAdventure Club\n----------------------------------------\nPoints Earned 7\nPoints Balance 34\n\nSee App for Additional Rewards Details\n\nThanks for fueling your\nadventure at Maverik\n\nCustomer Service 1-800-789-4455\n\n202609302471260000005045",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5513.673500000004,
+        "totalUsd": 0.013836,
+        "inputTokens": 3716,
+        "outputTokens": 918,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.82",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:35 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "72956",
+          "status": "match"
+        },
+        "city": {
+          "value": "Van Buren",
+          "status": "match"
+        },
+        "state": {
+          "value": "AR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2720 Alma Hwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4068",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COLD MED + FREE FRIDAY MED FOUNTAIN",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PEPSI 20z ZERO CHRRY + PEPSI 20Z 2/ + 2026 GAME PEPSI",
+          "quantity": 2,
+          "unitPrice": 3.19,
+          "totalSpend": 3.5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nVan Buren | #5045\n2720 Alma Hwy\nVan Buren, AR 72956\n04-03-2026 11:35 AM Invoice # 504500247126\nPURCHASE\nAdventure Club XXXXXXXXXXXX5773\nDESC QTY AMNT\nCOLD MED 1 $1.49 A\nPEPSI 20z ZERO CHRRY 2 $6.38 A\nPEPSI 20Z 2/ $1.88-\nFREE FRIDAY MED FOUNTAIN $1.49-\n2026 GAME PEPSI $1.00-\nSUB-TOTAL $3.50\nSALES TAX 9.25% (A) $0.32\nTOTAL PURCHASES $3.82\nMASTERCARD XXXXXXXXXXXX4068\nChip Read\nAmount Tendered $3.82\nPayment Network:03\nAID: A0000000041010\nAUTH # 03779Z\nNo CVM\nMode: Issuer\nMID **7146 TID 001\nSequence # 092831\nIAD: 0110A04001220000000000000000000000FF\nTVR: 0000008000\nTSI: E800\nARC: Z3\nItems Sold = 3\nCard #: **725773\nAdventure Club\nPoints Earned 7\nPoints Balance 34\nSee App for Additional Rewards Details\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n20260930247126000005045\n5045 1 self2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "COLD MED",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "PEPSI 20z ZERO CHRRY",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,324 @@
+{
+  "id": "cmnhs2r2e016nag27vy6yfs7k",
+  "url": null,
+  "retailer": "ALDI",
+  "brand": "Ocean's Halo",
+  "amount": 1.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ALDI",
+    "totalCost": "10.2",
+    "purchaseDate": "2026-04-02",
+    "time": null,
+    "zipCode": "56001",
+    "city": "Mankato",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7706.610334000026,
+        "totalUsd": 0.016068,
+        "inputTokens": 6086,
+        "outputTokens": 771,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Mankato",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "1621 E. Madison Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8585",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "385412 Seaweed Snacks",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "722839 Angels Hair",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "342623 Delice Truffles",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "335344 Small Eco-Bags",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #080\n1621 E. Madison Avenue\nMankato\nhttps://help.aldi.us\n\n385412 Seaweed Snacks 1.99 FA\n722839 Angels Hair 4.49 FA\n342623 Delice Truffles 3.19 FA\n335344 Small Eco-Bags 0.49 NC\n\nSUBTOTAL 10.16\nC:Taxable @7.875% 0.04\nA:Taxable @0.00% 0.00\nAMOUNT DUE 10.20\nTOTAL 10.20\n4 ITEMS\nDebit Card $ 10.20\n\n*0569 L507/007/803 04/02/26 12:27PM\n****************************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nhttp://www.aldi.us/signup\n\nDebit 10.20\n****************8585\n04/02/26 12:27 Ref/Seq # 267691\nTrace # 267691\nAuth # 499338 EntryMode 90\n++APPROVED++",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12383.91333300003,
+        "totalUsd": 0.029298,
+        "inputTokens": 3692,
+        "outputTokens": 771,
+        "reasoningTokens": 1869
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Mankato",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "1621 E. Madison Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8585",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "385412 Seaweed Snacks",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "722839 Angels Hair",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "342623 Delice Truffles",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "335344 Small Eco-Bags",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #080\n1621 E. Madison Avenue\nMankato\nhttps://help.aldi.us\n\n385412 Seaweed Snacks 1.99 FA\n722839 Angels Hair 4.49 FA\n342623 Delice Truffles 3.19 FA\n335344 Small Eco-Bags 0.49 NC\n\nSUBTOTAL 10.16\nC:Taxable @7.875% 0.04\nA:Taxable @0.00% 0.00\nAMOUNT DUE 10.20\nTOTAL 10.20\n4 ITEMS\nDebit Card $ 10.20\n\n*0569 L507/007/803 04/02/26 12:27PM\n******************************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nhttp://www.aldi.us/signup\n\nDebit 10.20\n****************8585\n04/02/26 12:27 Ref/Seq # 267691\nTrace # 267691\nAuth # 499338 EntryMode 90\n++APPROVED++",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4725.833749999991,
+        "totalUsd": 0.012477,
+        "inputTokens": 3692,
+        "outputTokens": 771,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Mankato",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "1621 E. Madison Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8585",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "385412 Seaweed Snacks",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "722839 Angels Hair",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "342623 Delice Truffles",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "335344 Small Eco-Bags",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 0.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #080\n1621 E. Madison Avenue\nMankato\nhttps://help.aldi.us\n\n385412 Seaweed Snacks 1.99 FA\n722839 Angels Hair 4.49 FA\n342623 Delice Truffles 3.19 FA\n335344 Small Eco-Bags 0.49 NC\n\nSUBTOTAL 10.16\nC:Taxable @7.875% 0.04\nA:Taxable @0.00% 0.00\nAMOUNT DUE 10.20\nTOTAL 10.20\n4 ITEMS\nDebit Card $ 10.20\n\n*0569 L507/007/803 04/02/26 12:27PM\n****************************************\n\nSign up for ALDI emails\nfor a sneak peek on the weekly ad!\nhttp://www.aldi.us/signup\n\nDebit 10.20\n****************8585\n04/02/26 12:27 Ref/Seq # 267691\nTrace # 267691\nAuth # 499338 EntryMode 90\n++APPROVED++",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Seaweed Snacks + 385412",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "Ahgels Hair + 722839",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "Delice Truffles + 342623",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    },
+    {
+      "text": "Small Eco-Bags + 335344",
+      "price": 0.49,
+      "quantity": 1,
+      "totalSpend": 0.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

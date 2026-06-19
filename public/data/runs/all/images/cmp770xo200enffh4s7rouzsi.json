@@ -1,0 +1,267 @@
+{
+  "id": "cmp770xo200enffh4s7rouzsi",
+  "url": null,
+  "retailer": "Target",
+  "brand": "cadence",
+  "amount": 2.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "5.83",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "60487",
+    "city": "Tinley Park",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10352.296333,
+        "totalUsd": 0.0134265,
+        "inputTokens": 6191,
+        "outputTokens": 460,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2023-11-30",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60487-6072",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Orland Hills",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16731 92nd Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5445",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cadence Performance Hydration Citrus Soda - 12 fl oz",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "11:30\nReceipt\n2 of 3\nDelivered to\n16731 92nd Ave, Orland Hills, IL 60487-6072\n$5.83\nReceipt total\n2-6119-3991-3528-2276-0\nShow detail\nCadence Performance Hydration Citrus Soda\n- 12 fl oz\nQty 2 • $2.79 unit price\nAmount\n$5.58\nItem total\n$5.83\nReceipt total\n$5.83\nTarget Mastercard *5445\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9945.616790999999,
+        "totalUsd": 0.019293,
+        "inputTokens": 3706,
+        "outputTokens": 407,
+        "reasoningTokens": 1119
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60487-6072",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Orland Hills",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16731 92nd Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5445",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cadence Performance Hydration Citrus Soda - 12 fl oz",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "11:30\nReceipt\n2 of 3\nDelivered to\n16731 92nd Ave, Orland Hills, IL 60487-6072\n$5.83\nReceipt total\n2-6119-3991-3528-2276-0\nShow detail\nCadence Performance Hydration Citrus Soda\n- 12 fl oz\nQty 2 • $2.79 unit price\nAmount\n$5.58\nItem total\n$5.83\nReceipt total\n$5.83\nTarget Mastercard *5445",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3484.096791,
+        "totalUsd": 0.009222000000000001,
+        "inputTokens": 3706,
+        "outputTokens": 407,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60487-6072",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Orland Hills",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16731 92nd Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5445",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cadence Performance Hydration Citrus Soda - 12 fl oz",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "11:30\nReceipt\n2 of 3\nDelivered to\n16731 92nd Ave, Orland Hills, IL 60487-6072\n$5.83\nReceipt total\n2-6119-3991-3528-2276-0\nShow detail\nCadence Performance Hydration Citrus Soda\n- 12 fl oz\nQty 2 • $2.79 unit price\nAmount\n$5.58\nItem total\n$5.83\nReceipt total\n$5.83\nTarget Mastercard *5445",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "$5.83",
+      "price": 5.83,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Qty 2 . $2.79 unit price",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Amount $5.58",
+      "price": 5.58,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Item total $5.83",
+      "price": 5.83,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Receipt total $5.83",
+      "price": 5.83,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

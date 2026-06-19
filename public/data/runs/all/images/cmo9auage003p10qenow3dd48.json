@@ -1,0 +1,513 @@
+{
+  "id": "cmo9auage003p10qenow3dd48",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Once Upon a Farm",
+  "amount": 3.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "50.64",
+    "purchaseDate": "2026-04-21",
+    "time": null,
+    "zipCode": "21014",
+    "city": "Bel Air",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 24836.29941700003,
+        "totalUsd": 0.0356325,
+        "inputTokens": 6169,
+        "outputTokens": 1556,
+        "reasoningTokens": 1375
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2020-04-21",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "20:10:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "21014",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bel Air",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "680 Marketplace Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9385",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "APP BAN DRG SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MIXED BERRY SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SHELLA GOOD MAC CHS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRY JAM BITES",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRWBR TRACTOR WHEEL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KALE APPLE VEG BLEND",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GREENS SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GREENS SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTRMLN LIME TONIC + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PB & BANANA WAFFLES",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n680 Marketplace Drive\nBel Air, MD 21014\n(443) 567-7788\nStore Hours MON-SUN 7AM-10PM\n\n04/21/2020\n20:10:00\nVISA CREDIT\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX9385\nPURCHASE\nAPPROVED\nAUTH CODE:00154D\n\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n1F420132A0000000001003027300000\n00040000000000000000000000000000\nTSI:\n0000\nARC:\n00\nTC:\n4C744253461D647C\nMID: 518495\nTID: 001\nRRN: 012041\n\nTotal:\nUSD$ 50.64\n\nGROCERY\nAPP BAN DRG SMOOTHIE\n4.49 F\nMIXED BERRY SMOOTHIE\n4.49 F\nSHELLA GOOD MAC CHS\n3.99 F\nSTRAWBERRY JAM BITES\n10.99 F\nSTRWBR TRACTOR WHEEL\n6.99 F\n\nDAIRY\nKALE APPLE VEG BLEND\n3.49 F\nORG GREENS SMOOTHIE\n3.49 F\nORG GREENS SMOOTHIE\n3.49 F\nWTRMLN LIME TONIC\n2.00 T F\n1 @ 3 FOR 6.00\n\nFROZEN\nPB & BANANA WAFFLES\n6.99 F\n\nCRV\nBAG PROMPT CHARGE\n0.10 T\n\nTax Report\nTAX 1\n2.10\n0.13 TT\n\nBALANCE DUE\n50.64\nCREDIT\n$50.64\n[ ] XXXXXXXXXXXX9385\nAuth# 00154D\nRef# 012041\nCHANGE\n0.00\n\n****************************************\n99091330104011112009\n****************************************\nTo join our rewards program please go to",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15558.49858300004,
+        "totalUsd": 0.037659,
+        "inputTokens": 3692,
+        "outputTokens": 1529,
+        "reasoningTokens": 2040
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2020-04-21",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "20:10:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "21014",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bel Air",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "680 Marketplace Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9385",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "APP BAN DRG SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MIXED BERRY SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SHELLA GOOD MAC CHS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRY JAM BITES",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRWBR TRACTOR WHEEL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KALE APPLE VEG BLEND",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GREENS SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GREENS SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTRMLN LIME TONIC + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PB & BANANA WAFFLES",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n680 Marketplace Drive\nBel Air, MD 21014\n(443) 567-7788\nStore Hours MON-SUN 7AM-10PM\n\n04/21/2020 20:10:00\nVISA CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX9385\nPURCHASE APPROVED\nAUTH CODE:00154D\n\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 1F420132A0000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: 4C744253461D647C\nMID: 518495 TID: 001 RRN: 012041\n\nTotal: USD$ 50.64\n\nGROCERY\nAPP BAN DRG SMOOTHIE 4.49 F\nMIXED BERRY SMOOTHIE 4.49 F\nSHELLA GOOD MAC CHS 3.99 F\nSTRAWBERRY JAM BITES 10.99 F\nSTRWBR TRACTOR WHEEL 6.99 F\n\nDAIRY\nKALE APPLE VEG BLEND 3.49 F\nORG GREENS SMOOTHIE 3.49 F\nORG GREENS SMOOTHIE 3.49 F\nWTRMLN LIME TONIC 2.00 T F\n1 @ 3 FOR 6.00\n\nFROZEN\nPB & BANANA WAFFLES 6.99 F\n\nCRV\nBAG PROMPT CHARGE 0.10 T\n\nTax Report\nTAX 1 2.10 0.13 TT\n\nBALANCE DUE 50.64\nCREDIT $50.64\n[ ] XXXXXXXXXXXX9385\nAuth# 00154D Ref# 012041\nCHANGE 0.00\n\n****************************************\n99091330104011112000\n****************************************\nTo join our rewards program please go to",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9364.359125000017,
+        "totalUsd": 0.019182,
+        "inputTokens": 3692,
+        "outputTokens": 1516,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2020-04-21",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "20:10:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "21014",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bel Air",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "680 Marketplace Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9385",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "APP BAN DRG SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MIXED BERRY SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STELLA GOOD MAC CHS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRAWBERRY JAM BITES",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRWBR TRACTOR WHEEL",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KALE APPLE VEG BLEND",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GREENS SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GREENS SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTRMLN LIME TONIC + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PB & BANANA WAFFLES",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BAG PROMPT CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n680 Marketplace Drive\nBel Air, MD 21014\n(443) 567-7788\nStore Hours MON-SUN 7AM-10PM\n\n04/21/2020 20:10:00\nVISA CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX9385\nPURCHASE APPROVED\nAUTH CODE:00154D\n\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 1F420132A0000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: 4C744253461D647C\nMID: 518495 TID: 001 RRN: 012041\n\nTotal: USD$ 50.64\n\nGROCERY\nAPP BAN DRG SMOOTHIE 4.49 F\nMIXED BERRY SMOOTHIE 4.49 F\nSTELLA GOOD MAC CHS 3.99 F\nSTRAWBERRY JAM BITES 10.99 F\nSTRWBR TRACTOR WHEEL 6.99 F\n\nDAIRY\nKALE APPLE VEG BLEND 3.49 F\nORG GREENS SMOOTHIE 3.49 F\nORG GREENS SMOOTHIE 3.49 F\nWTRMLN LIME TONIC 2.00 T F\n1 @ 3 FOR 6.00\n\nFROZEN\nPB & BANANA WAFFLES 6.99 F\n\nCRV\nBAG PROMPT CHARGE 0.10 T\n\nTax Report\nTAX 1 2.10 0.13 TT\n\nBALANCE DUE 50.64\nCREDIT $50.64\n[ ] XXXXXXXXXXXX9385\nAuth# 00154D Ref# 012041\nCHANGE 0.00\n\n****************************************\n99091330104011112009\n****************************************\nTo join our rewards program please go to",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PB & BANANA WAFFLES",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "STRWBR TRACTOR WHEEL",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "WTRMLN LIME TONIC + 1 @ 3 FOR 6.00",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "BAG PROMPT CHARGE",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "MIXED BERRY SMOOTHIE",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "KALE APPLE VEG BLEND",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "SHELLA GOOD MAC CHS",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "APP BAN DRG SMOOTHIE",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "ORG GREENS SMOOTHIE",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "ORG GREENS SMOOTHIE",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "STRAWBERRY JAM BITES",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

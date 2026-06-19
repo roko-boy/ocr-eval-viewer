@@ -1,0 +1,864 @@
+{
+  "id": "cmn4yav3q005q4v41orn6iqrn",
+  "url": null,
+  "retailer": "Hy-Vee Pharmacy",
+  "brand": "Taste Republic",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Hy-Vee",
+    "totalCost": "120.11",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "50265",
+    "city": "West Des Moines",
+    "state": "IA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 20330.14004200001,
+        "totalUsd": 0.038667,
+        "inputTokens": 6086,
+        "outputTokens": 3282,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "120.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50265",
+          "status": "match"
+        },
+        "city": {
+          "value": "West Des Moines",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "555 S 51st St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5138",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HYV TOMATO KETCHU 7545003593 + 1393539 $5 HV Gift Card + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HYV SEL EVOO 7545004818 + 1393539 $5 HV Gift Card + 1242016 Fuel Saver .02 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 8.48,
+          "totalSpend": 7.1,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RENFROS MNGO HABA 4123500077 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.76,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DET FRAT PIZZA SC 7090050126 + 1242016 Fuel Saver .02 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.45,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RGF CKN NUGGETS L 5003616803 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.94,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CAULIPOWER PIZZA 9641100008 + 1392873 Spend $30 - .20FS",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.88,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SAUSAGE UNCURED P 9641100033 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.95,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MULAY NANA ITALIA 9500100109 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.94,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TR GF 4 CHS TORTL 0302879901 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.45,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "HOLMES ORIG SLICE 5648800530 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.95,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JD FC PORK LINKS 7790019206 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JV GRND HOT ITAL 7778200868 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "HYV BNLS SKNLS CK 3082900000 + 1.355 LB @ 4.99 USD/LB + 1393539 $5 HV Gift Card + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 6.76,
+          "totalSpend": 5.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SWT LORENS GF PUF 5001027229",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ANGUS BNLS PETITE 3111800000 + 1.245 LB @ 11.99 USD/LB + 1393539 $5 HV Gift Card",
+          "quantity": 1,
+          "unitPrice": 14.93,
+          "totalSpend": 13.8,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HYV GIFTCRD LRG L + 1393539 $5 HV Gift Card",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 4.17,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NBTT HONEY BBQ CH 7545081900 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BOULDER T&C CHEDR 0816311837 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BAR S CLASSIC FRA 1590013401 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 1.28,
+          "totalSpend": 1.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "K ARTHUR GF BRWNI 7101207528 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.97,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "EMPLOYEE OWNED\n555 S 51st St\nWest Des Moines, IA 50265\n515-225-1193\n1890StoreManagementMailGroup@Hy-Vee.com\nHYV TOMATO KETCHU 7545003593 2.98 F\n1393539 $5 HV Gift Card -0.50\n1392873 Spend $30 - .20FS 0.02\nHYV SEL EVOO 7545004818 8.48 F\n1393539 $5 HV Gift Card -1.41\n1242016 Fuel Saver .02 0.02\n1392873 Spend $30 - .20FS 0.05\nRENFROS MNGO HABA 4123500077 4.79 F\n1392873 Spend $30 - .20FS 0.03\nDET FRAT PIZZA SC 7090050126 2.49 F\n1242016 Fuel Saver .02 0.02\n1392873 Spend $30 - .20FS 0.02\nRGF CKN NUGGETS L 5003616803 7.99 F\n1392873 Spend $30 - .20FS 0.05\nCAULIPOWER PIZZA 9641100008 13.98 F\n2 @ 6.99\n1392873 Spend $30 - .20FS 0.10\nSAUSAGE UNCURED P 9641100033 7.99 F\n1392873 Spend $30 - .20FS 0.04\nMULAY NANA ITALIA 9500100109 7.99 F\n1392873 Spend $30 - .20FS 0.05\nTR GF 4 CHS TORTL 0302879901 5.49 F\n1392873 Spend $30 - .20FS 0.04\nHOLMES ORIG SLICE 5648800530 5.99 F\n1392873 Spend $30 - .20FS 0.04\nJD FC PORK LINKS 7790019206 4.49 F\n1392873 Spend $30 - .20FS 0.01\nJV GRND HOT ITAL 7778200868 3.99 F\n1392873 Spend $30 - .20FS 0.03\nHYV BNLS SKNLS CK 3082900000 6.76 F\n1.355 LB @ 4.99 USD/LB\n1393539 $5 HV Gift Card -1.13\n1392873 Spend $30 - .20FS 0.04\nSWT LORENS GF PUF 5001027229 9.99 F\nANGUS BNLS PETITE 3111800000 14.93 F\n1.245 LB @ 11.99 USD/LB\n1393539 $5 HV Gift Card -1.13\nHYV GIFTCRD LRG L 5.00\nNumber: ****************5518\n1393539 $5 HV Gift Card -0.83\nNBTT HONEY BBQ CH 7545081900 3.29 T\n1392873 Spend $30 - .20FS 0.02\nBOULDER T&C CHEDR 0816311837 3.99 F\n1392873 Spend $30 - .20FS 0.03\nBAR S CLASSIC FRA 1590013401 1.28 F\n1392873 Spend $30 - .20FS 0.01\nK ARTHUR GF BRWNI 7101207528 2.99 F\n1392873 Spend $30 - .20FS 0.02\nSUBTOTAL [20] 119.88\nT 3.29 @ 7.000% = 0.23\nTOTAL 120.11\nMastercard 120.11\nPURCHASE $120.11\n************5138 MC CHIP CONTACTLESS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 51871.46366699997,
+        "totalUsd": 0.126777,
+        "inputTokens": 3692,
+        "outputTokens": 3267,
+        "reasoningTokens": 10204
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "120.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50265",
+          "status": "match"
+        },
+        "city": {
+          "value": "West Des Moines",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "555 S 51st St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5138",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HYV TOMATO KETCHU 7545003593 + 1393539 $5 HV Gift Card + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV SEL EVOO 7545004818 + 1393539 $5 HV Gift Card + 1242016 Fuel Saver .02 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 8.48,
+          "totalSpend": 7.07,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RENFROS MNGO HABA 4123500077 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DET FRAT PIZZA SC 7090050126 + 1242016 Fuel Saver .02 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RGF CKN NUGGETS L 5003616803 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CAULIPOWER PIZZA 9641100008 + 2 @ 6.99 + 1392873 Spend $30 - .20FS",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SAUSAGE UNCURED P 9641100033 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MULAY NANA ITALIA 9500100109 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TR GF 4 CHS TORTL 0302879901 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOLMES ORIG SLICE 5648800530 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JD FC PORK LINKS 7790019206 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JV GRND HOT ITAL 7778200868 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYV BNLS SKNLS CK 3082900000 + 1.355 LB @ 4.99 USD/LB + 1393539 $5 HV Gift Card + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 6.76,
+          "totalSpend": 5.63,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWT LORENS GF PUF 5001027229",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ANGUS BNLS PETITE 3111800000 + 1.245 LB @ 11.99 USD/LB + 1393539 $5 HV Gift Card",
+          "quantity": 1,
+          "unitPrice": 14.93,
+          "totalSpend": 13.8,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HYV GIFTCRD LRG L + Number: ****************5518 + 1393539 $5 HV Gift Card",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 4.17,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NBTT HONEY BBQ CH 7545081900 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOULDER T&C CHEDR 0816311837 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAR S CLASSIC FRA 1590013401 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 1.28,
+          "totalSpend": 1.28,
+          "matchStatus": "match"
+        },
+        {
+          "text": "K ARTHUR GF BRWNI 7101207528 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "EMPLOYEE OWNED\n555 S 51st St\nWest Des Moines, IA 50265\n515-225-1193\n1890StoreManagementMailGroup@Hy-Vee.com\n\nHYV TOMATO KETCHU 7545003593      2.98 F\n1393539 $5 HV Gift Card          -0.50\n1392873 Spend $30 - .20FS         0.02\nHYV SEL EVOO      7545004818      8.48 F\n1393539 $5 HV Gift Card          -1.41\n1242016 Fuel Saver .02            0.02\n1392873 Spend $30 - .20FS         0.05\nRENFROS MNGO HABA 4123500077      4.79 F\n1392873 Spend $30 - .20FS         0.03\nDET FRAT PIZZA SC 7090050126      2.49 F\n1242016 Fuel Saver .02            0.02\n1392873 Spend $30 - .20FS         0.02\nRGF CKN NUGGETS L 5003616803      7.99 F\n1392873 Spend $30 - .20FS         0.05\nCAULIPOWER PIZZA  9641100008     13.98 F\n      2 @         6.99\n1392873 Spend $30 - .20FS         0.10\nSAUSAGE UNCURED P 9641100033      7.99 F\n1392873 Spend $30 - .20FS         0.04\nMULAY NANA ITALIA 9500100109      7.99 F\n1392873 Spend $30 - .20FS         0.05\nTR GF 4 CHS TORTL 0302879901      5.49 F\n1392873 Spend $30 - .20FS         0.04\nHOLMES ORIG SLICE 5648800530      5.99 F\n1392873 Spend $30 - .20FS         0.04\nJD FC PORK LINKS  7790019206      4.49 F\n1392873 Spend $30 - .20FS         0.01\nJV GRND HOT ITAL  7778200868      3.99 F\n1392873 Spend $30 - .20FS         0.03\nHYV BNLS SKNLS CK 3082900000      6.76 F\n      1.355 LB @      4.99 USD/LB\n1393539 $5 HV Gift Card          -1.13\n1392873 Spend $30 - .20FS         0.04\nSWT LORENS GF PUF 5001027229      9.99 F\nANGUS BNLS PETITE 3111800000     14.93 F\n      1.245 LB @     11.99 USD/LB\n1393539 $5 HV Gift Card          -1.13\nHYV GIFTCRD LRG L                 5.00\nNumber: ****************5518\n1393539 $5 HV Gift Card          -0.83\nNBTT HONEY BBQ CH 7545081900      3.29 T\n1392873 Spend $30 - .20FS         0.02\nBOULDER T&C CHEDR 0816311837      3.99 F\n1392873 Spend $30 - .20FS         0.03\nBAR S CLASSIC FRA 1590013401      1.28 F\n1392873 Spend $30 - .20FS         0.01\nK ARTHUR GF BRWNI 7101207528      2.99 F\n1392873 Spend $30 - .20FS         0.02\n\nSUBTOTAL [20]                   119.88\nT         3.29 @ 7.000% =         0.23\n\nTOTAL                           120.11\nMastercard                      120.11\n\nPURCHASE $120.11\n************5138 MC CHIP CONTACTLESS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 14325.868625,
+        "totalUsd": 0.034662,
+        "inputTokens": 3692,
+        "outputTokens": 3236,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "120.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50265",
+          "status": "match"
+        },
+        "city": {
+          "value": "West Des Moines",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "555 S 51st St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5138",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HYV TOMATO KETCHU 7545003593 + 1393539 $5 HV Gift Card + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 2.98,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HYV SEL EVOO 7545004818 + 1393539 $5 HV Gift Card + 1242016 Fuel Saver .02 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 8.48,
+          "totalSpend": 7.14,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RENFROS MNGO HABA 4123500077 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.76,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DET FRAT PIZZA SC 7090050126 + 1242016 Fuel Saver .02 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.45,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RGF CKN NUGGETS L 5003616803 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.94,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CAULIPOWER PIZZA 9641100008 + 1392873 Spend $30 - .20FS",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.88,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SAUSAGE UNCURED P 9641100033 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.95,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MULAY NANA ITALIA 9500100109 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.94,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TR GF 4 CHS TORTL 0302879901 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.45,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "HOLMES ORIG SLICE 5648800530 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.95,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JD FC PORK LINKS 7790019206 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JV GRND HOT ITAL 7778200868 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "HYV BNLS SKNLS CK 3082900000 + 1393539 $5 HV Gift Card + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 6.76,
+          "totalSpend": 5.67,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SWT LORENS GF PUF 5001027229",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ANGUS BNLS PETITE 3111800000 + 1393539 $5 HV Gift Card",
+          "quantity": 1,
+          "unitPrice": 14.93,
+          "totalSpend": 13.8,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HYV GIFTCRD LRG L + 1393539 $5 HV Gift Card",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 4.17,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NBTT HONEY BBQ CH 7545081900 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BOULDER T&C CHEDR 0816311837 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BAR S CLASSIC FRA 1590013401 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 1.28,
+          "totalSpend": 1.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "K ARTHUR GF BRWNI 7101207528 + 1392873 Spend $30 - .20FS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.97,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "EMPLOYEE OWNED\n555 S 51st St\nWest Des Moines, IA 50265\n515-225-1193\n1890StoreManagementMailGroup@Hy-Vee.com\nHYV TOMATO KETCHU 7545003593 2.98 F\n1393539 $5 HV Gift Card -0.50\n1392873 Spend $30 - .20FS 0.02\nHYV SEL EVOO 7545004818 8.48 F\n1393539 $5 HV Gift Card -1.41\n1242016 Fuel Saver .02 0.02\n1392873 Spend $30 - .20FS 0.05\nRENFROS MNGO HABA 4123500077 4.79 F\n1392873 Spend $30 - .20FS 0.03\nDET FRAT PIZZA SC 7090050126 2.49 F\n1242016 Fuel Saver .02 0.02\n1392873 Spend $30 - .20FS 0.02\nRGF CKN NUGGETS L 5003616803 7.99 F\n1392873 Spend $30 - .20FS 0.05\nCAULIPOWER PIZZA 9641100008 13.98 F\n2 @ 6.99\n1392873 Spend $30 - .20FS 0.10\nSAUSAGE UNCURED P 9641100033 7.99 F\n1392873 Spend $30 - .20FS 0.04\nMULAY NANA ITALIA 9500100109 7.99 F\n1392873 Spend $30 - .20FS 0.05\nTR GF 4 CHS TORTL 0302879901 5.49 F\n1392873 Spend $30 - .20FS 0.04\nHOLMES ORIG SLICE 5648800530 5.99 F\n1392873 Spend $30 - .20FS 0.04\nJD FC PORK LINKS 7790019206 4.49 F\n1392873 Spend $30 - .20FS 0.01\nJV GRND HOT ITAL 7778200868 3.99 F\n1392873 Spend $30 - .20FS 0.03\nHYV BNLS SKNLS CK 3082900000 6.76 F\n1.355 LB @ 4.99 USD/LB\n1393539 $5 HV Gift Card -1.13\n1392873 Spend $30 - .20FS 0.04\nSWT LORENS GF PUF 5001027229 9.99 F\nANGUS BNLS PETITE 3111800000 14.93 F\n1.245 LB @ 11.99 USD/LB\n1393539 $5 HV Gift Card -1.13\nHYV GIFTCRD LRG L 5.00\nNumber: ****************5518\n1393539 $5 HV Gift Card -0.83\nNBTT HONEY BBQ CH 7545081900 3.29 T\n1392873 Spend $30 - .20FS 0.02\nBOULDER T&C CHEDR 0816311837 3.99 F\n1392873 Spend $30 - .20FS 0.03\nBAR S CLASSIC FRA 1590013401 1.28 F\n1392873 Spend $30 - .20FS 0.01\nK ARTHUR GF BRWNI 7101207528 2.99 F\n1392873 Spend $30 - .20FS 0.02\nSUBTOTAL [20] 119.88\nT 3.29 @ 7.000% = 0.23\nTOTAL 120.11\nMastercard 120.11\nPURCHASE $120.11\n************5138 MC CHIP CONTACTLESS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HYV TOMATO KETCHU + 7545003593",
+      "price": 2.48,
+      "quantity": 1,
+      "totalSpend": 2.48
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.02,
+      "quantity": 1,
+      "totalSpend": 0.02
+    },
+    {
+      "text": "HYV SEL EVOO + 7545004818",
+      "price": 7.07,
+      "quantity": 1,
+      "totalSpend": 7.07
+    },
+    {
+      "text": "Fuel Saver.02 + 1242016",
+      "price": 0.02,
+      "quantity": 1,
+      "totalSpend": 0.02
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "RENFROS MNGO HABA + 4123500077",
+      "price": 4.79,
+      "quantity": 1,
+      "totalSpend": 4.79
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.03,
+      "quantity": 1,
+      "totalSpend": 0.03
+    },
+    {
+      "text": "DEI FRAT PIZZA SC + 7090050126",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "Fuel Saver.02 + 1242016",
+      "price": 0.02,
+      "quantity": 1,
+      "totalSpend": 0.02
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.02,
+      "quantity": 1,
+      "totalSpend": 0.02
+    },
+    {
+      "text": "RGF CKN NUGGETS L + 5003616803",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "CAULIPOWER PIZZA + 9641100008 + 2 @ 6.99",
+      "price": 6.99,
+      "quantity": 2,
+      "totalSpend": 13.98
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "SAUSAGE UNCURED P + 9641100033",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.04,
+      "quantity": 1,
+      "totalSpend": 0.04
+    },
+    {
+      "text": "MULAY NANA ITALIA + 9500100109",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "TR GF 4 CHS TORTL + 0302879901",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.04,
+      "quantity": 1,
+      "totalSpend": 0.04
+    },
+    {
+      "text": "HOLMES ORIG SLICE + 5648800530",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.04,
+      "quantity": 1,
+      "totalSpend": 0.04
+    },
+    {
+      "text": "JD FC PORK LINKS + 7790019206",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.01,
+      "quantity": 1,
+      "totalSpend": 0.01
+    },
+    {
+      "text": "JV GRND HOT ITAL + 7778200868",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.03,
+      "quantity": 1,
+      "totalSpend": 0.03
+    },
+    {
+      "text": "HYV BNLS SKNLS CK + 3082900000 + 1.355 LB @ 4.99 USD/LB",
+      "price": 5.63,
+      "quantity": 1,
+      "totalSpend": 5.63
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.04,
+      "quantity": 1,
+      "totalSpend": 0.04
+    },
+    {
+      "text": "SWT LORENS GF PUF + 5001027229",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "ANGUS BNLS PETITE + 3111800000 + 1 245 LB @ 11.99 USD/LB",
+      "price": 13.8,
+      "quantity": 1,
+      "totalSpend": 13.8
+    },
+    {
+      "text": "NBTT HONEY BBQ CH + 7545081900",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.02,
+      "quantity": 1,
+      "totalSpend": 0.02
+    },
+    {
+      "text": "BOULDER T&C CHEDR + 0816311837",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.03,
+      "quantity": 1,
+      "totalSpend": 0.03
+    },
+    {
+      "text": "BAR S CLASSIC FRA + 1590013401",
+      "price": 1.28,
+      "quantity": 1,
+      "totalSpend": 1.28
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.01,
+      "quantity": 1,
+      "totalSpend": 0.01
+    },
+    {
+      "text": "K ARTHUR GF BRWNI + 7101207528",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "Spend $30 + 1392873",
+      "price": 0.02,
+      "quantity": 1,
+      "totalSpend": 0.02
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmoam8p6r018ihf051aoy6rgw",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Avocados From Mexico",
+  "amount": 7.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "8.34",
+    "purchaseDate": "2026-04-17",
+    "time": null,
+    "zipCode": "96161",
+    "city": "Truckee",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 27047.39187499997,
+        "totalUsd": 0.016302,
+        "inputTokens": 6086,
+        "outputTokens": 797,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.34",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:59",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "96161",
+          "status": "match"
+        },
+        "city": {
+          "value": "TRUCKEE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11290 DONNER PASS RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1533",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MED HASS AVOCADOS + Member Savings -1.66",
+          "quantity": 5,
+          "unitPrice": 2,
+          "totalSpend": 8.34,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1266 Dir Andrea McHone\nMain: (530) 582-7950 Rx: (530) 582-795\n11290 DONNER PASS RD.\nTRUCKEE CA 96161\n00126602001032604171659\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n4046 5@ MED HASS AVOCADOS 10.00 8.34 S\nMember Savings -1.66\nTAX 0.00\n**** BALANCE 8.34\nCredit Purchase 04/17/26 16:59\nCARD # ************1533\nREF: 595914415330 AUTH: 0007465I\nPAYMENT AMOUNT 8.34\nAL CHASE VISA\nAID A0000000031010\nTVR 0000000000\nVisa 8.34\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 1.66\nTotal 1.66\nTotal Savings Value 17%\nYOUR POINTS\nPoints Earned Today 8\nPoints Available 471\nTOTAL NUMBER OF ITEMS SOLD = 5\n04/17/26 16:59 1266 20 103 8820\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13423.42587499996,
+        "totalUsd": 0.031881,
+        "inputTokens": 3692,
+        "outputTokens": 820,
+        "reasoningTokens": 2107
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.34",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:59",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "96161",
+          "status": "match"
+        },
+        "city": {
+          "value": "TRUCKEE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11290 DONNER PASS RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1533",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "5@ MED HASS AVOCADOS + 4046 + Member Savings -1.66",
+          "quantity": 5,
+          "unitPrice": 2,
+          "totalSpend": 8.34,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1266 Dir Andrea McHone\nMain: (530) 582-7950 Rx: (530) 582-795\n11290 DONNER PASS RD.\nTRUCKEE CA 96161\n\n00126602001032604171659\n\nYOUR CASHIER TODAY WAS SELF\n\nPRODUCE Price You Pay\n4046 5@ MED HASS AVOCADOS 10.00 8.34 S\nMember Savings -1.66\n\nTAX 0.00\n**** BALANCE 8.34\n\nCredit Purchase 04/17/26 16:59\nCARD # ************1533\nREF: 595914415330 AUTH: 0007465I\n\nPAYMENT AMOUNT 8.34\n\nAL CHASE VISA\nAID A0000000031010\nTVR 0000000000\nVisa 8.34\nCHANGE 0.00\n\nYOUR SAVINGS\nMember Savings 1.66\nTotal 1.66\nTotal Savings Value 17%\n\nYOUR POINTS\nPoints Earned Today 8\nPoints Available 471\n\nTOTAL NUMBER OF ITEMS SOLD = 5\n04/17/26 16:59 1266 20 103 8820\n\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4857.74554199999,
+        "totalUsd": 0.012711,
+        "inputTokens": 3692,
+        "outputTokens": 797,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.34",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:59",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "96161",
+          "status": "match"
+        },
+        "city": {
+          "value": "TRUCKEE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11290 DONNER PASS RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1533",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MED HASS AVOCADOS + 4046",
+          "quantity": 5,
+          "unitPrice": 2,
+          "totalSpend": 8.34,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 1266 Dir Andrea McHone\nMain: (530) 582-7950 Rx: (530) 582-795\n11290 DONNER PASS RD.\nTRUCKEE CA 96161\n00126602001032604171659\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n4046 5@ MED HASS AVOCADOS 10.00 8.34 S\nMember Savings -1.66\nTAX 0.00\n**** BALANCE 8.34\nCredit Purchase 04/17/26 16:59\nCARD # ************1533\nREF: 595914415330 AUTH: 0007465I\nPAYMENT AMOUNT 8.34\nAL CHASE VISA\nAID A0000000031010\nTVR 0000000000\nVisa 8.34\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 1.66\nTotal 1.66\nTotal Savings Value 17%\nYOUR POINTS\nPoints Earned Today 8\nPoints Available 471\nTOTAL NUMBER OF ITEMS SOLD = 5\n04/17/26 16:59 1266 20 103 8820\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MED HASS AVOCADOS + 4046 + Member Savings -1.66",
+      "price": 1.67,
+      "quantity": 5,
+      "totalSpend": 8.34
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

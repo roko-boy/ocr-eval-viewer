@@ -1,0 +1,257 @@
+{
+  "id": "cmpzuwtqj00ddr1w47i2ubog3",
+  "url": null,
+  "retailer": "Target",
+  "brand": "kudos",
+  "amount": 15,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "77.19",
+    "purchaseDate": "2026-05-29",
+    "time": null,
+    "zipCode": "65619",
+    "city": "Brookline",
+    "state": "MO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 24783.174416,
+        "totalUsd": 0.0150735,
+        "inputTokens": 6191,
+        "outputTokens": 643,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.19",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1421",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Kudos Chlorine Free Cotton-Lined Disposable Diapers - Size 4 - 52ct + Target Circle Card 5% + $20 GiftCard with $80 select diapers & wipes purchase",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "totalSpend": 22.23,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Huggies Little Movers Diapers - Size 4 - 120ct + Target Circle Card 5% + $20 GiftCard with $80 select diapers & wipes purchase + Save 20% on one large pack of Diapers",
+          "quantity": 1,
+          "unitPrice": 44.99,
+          "totalSpend": 26.93,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "1:56 1\nReceipt\n1 of 2\nTaxes & fees\nSales tax\n$1.18\nItem total\n$13.03\nKudos Chlorine Free Cotton-Lined Disposable\nDiapers - Size 4 - 52ct\nQty 1 • $29.99 unit price\nAmount\n$29.99\nDiscounts\nTarget Circle Card 5%\n-$1.17\n$20 GiftCard with $80 select diapers &\nwipes purchase\n-$6.59\nItem total\n$22.23\nHuggies Little Movers Diapers - Size 4 - 120ct\nQty 1 • $44.99 unit price\nAmount\n$44.99\nDiscounts\nTarget Circle Card 5%\n-$1.15\n$20 GiftCard with $80 select diapers &\nwipes purchase\n-$9.89\nSave 20% on one large pack of Diapers\n-$7.02\nItem total\n$26.93\nReceipt total\n$62.19\nDigital MFR Coupon *\n$5.00\nTarget Circle Credit Card *1421\n$57.19\nDiscover\nBuy again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15292.128667,
+        "totalUsd": 0.025449,
+        "inputTokens": 3706,
+        "outputTokens": 565,
+        "reasoningTokens": 1645
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.19",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "TARGET CIRCLE CREDIT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1421",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Kudos Chlorine Free Cotton-Lined Disposable Diapers - Size 4 - 52ct",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "totalSpend": 22.23,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Huggies Little Movers Diapers - Size 4 - 120ct",
+          "quantity": 1,
+          "unitPrice": 44.99,
+          "totalSpend": 26.93,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "1:56 1\nReceipt\n1 of 2\nTaxes & fees\nSales tax\n$1.18\nItem total\n$13.03\n\nKudos Chlorine Free Cotton-Lined Disposable Diapers - Size 4 - 52ct\nQty 1 • $29.99 unit price\nAmount\n$29.99\nDiscounts\nTarget Circle Card 5%\n-$1.17\n$20 GiftCard with $80 select diapers &\nwipes purchase\n-$6.59\nItem total\n$22.23\n\nHuggies Little Movers Diapers - Size 4 - 120ct\nQty 1 • $44.99 unit price\nAmount\n$44.99\nDiscounts\nTarget Circle Card 5%\n-$1.15\n$20 GiftCard with $80 select diapers &\nwipes purchase\n-$9.89\nSave 20% on one large pack of Diapers\n-$7.02\nItem total\n$26.93\n\nReceipt total\n$62.19\nDigital MFR Coupon *\n$5.00\nTarget Circle Credit Card *1421\n$57.19",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5681.621792,
+        "totalUsd": 0.010752,
+        "inputTokens": 3706,
+        "outputTokens": 577,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.19",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "Target Circle Credit Card",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1421",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Kudos Chlorine Free Cotton-Lined Disposable Diapers - Size 4 - 52ct",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "totalSpend": 22.23,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Huggies Little Movers Diapers - Size 4 - 120ct",
+          "quantity": 1,
+          "unitPrice": 44.99,
+          "totalSpend": 26.93,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "1:56 1\nReceipt\n1 of 2\nTaxes & fees\nSales tax\n$1.18\nItem total\n$13.03\nKudos Chlorine Free Cotton-Lined Disposable\nDiapers - Size 4 - 52ct\nQty 1 • $29.99 unit price\nAmount\n$29.99\nDiscounts\nTarget Circle Card 5%\n-$1.17\n$20 GiftCard with $80 select diapers &\nwipes purchase\n-$6.59\nItem total\n$22.23\nHuggies Little Movers Diapers - Size 4 - 120ct\nQty 1 • $44.99 unit price\nAmount\n$44.99\nDiscounts\nTarget Circle Card 5%\n-$1.15\n$20 GiftCard with $80 select diapers &\nwipes purchase\n-$9.89\nSave 20% on one large pack of Diapers\n-$7.02\nItem total\n$26.93\nReceipt total\n$62.19\nDigital MFR Coupon *\n$5.00\nTarget Circle Credit Card *1421\n$57.19\nDiscover\nBuy again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

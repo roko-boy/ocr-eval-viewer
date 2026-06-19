@@ -1,0 +1,345 @@
+{
+  "id": "cmplh9teh000nsb2qbq7w3ksw",
+  "url": null,
+  "retailer": "Publix Super Market at Twickenham Square",
+  "brand": "Bob's Red Mill ",
+  "amount": 1.75,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "18.29",
+    "purchaseDate": "2026-05-24",
+    "time": null,
+    "zipCode": "35801",
+    "city": "Huntsville",
+    "state": "AL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 24653.46074999997,
+        "totalUsd": 0.018687,
+        "inputTokens": 6086,
+        "outputTokens": 1062,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "18.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:46",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "35801",
+          "status": "match"
+        },
+        "city": {
+          "value": "Huntsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "310 Pelham Ave SW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9120",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BRM BRWN MIX",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOLD KIWI + Promotion",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BRM BRWN MIX",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WTRMLN CHKS SDLS + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTRMLN CHKS SDLS + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.11,
+          "totalSpend": 2.06,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nTwickenham Square\n310 Pelham Ave SW\nHuntsville, AL 35801\nStore Manager: Kristie Aliff\n256-534-2330\n\n1451 5PR 071 382\n\nBRM BRWN MIX 4.79 t F\nGOLD KIWI 6.99 t F\nPromotion -3.50 t F\nBRM BRWN MIX 4.79 t F\nWTRMLN CHKS SDLS 4.59 t F\nPromotion -2.30 t F\nWTRMLN CHKS SDLS 4.11 t F\nPromotion -2.05 t F\n\nOrder Total 17.42\nSales Tax 0.00\nFood Tax 0.87\nGrand Total 18.29\nDebit Payment 68.29\nChange 50.00\n\nSavings Summary\nSpecial Price Savings 7.85\n****************************************\n* Your Savings at Publix *\n* 7.85 *\n****************************************\n\nReceipt ID: 1451 5PR 071 382\n\nPRESTO!\nTrace #: 070238\nReference #: 1556063829\nAcct #: XXXXXXXXXXXX9120\nDebit Purchase FROM CHECKING\nAmount: $68.29\nCash Back: $50.00\nAuth #: 022864\n\nDEBIT CARD PURCHASE\nA0000000980840 US DEBIT\nEntry Method: Chip Read\nMode: Issuer-PIN Verified\n\nYour cashier was Wendy J.\n\n05/24/2026 17:46 S1451 R107 1382 C0256\n\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\n\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14845.07216599997,
+        "totalUsd": 0.037479,
+        "inputTokens": 3692,
+        "outputTokens": 1075,
+        "reasoningTokens": 2474
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "18.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:46",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "35801",
+          "status": "match"
+        },
+        "city": {
+          "value": "Huntsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "310 Pelham Ave SW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9120",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BRM BRWN MIX",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOLD KIWI + Promotion",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BRM BRWN MIX",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WTRMLN CHKS SDLS + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTRMLN CHKS SDLS + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.11,
+          "totalSpend": 2.06,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nTwickenham Square\n310 Pelham Ave SW\nHuntsville, AL 35801\nStore Manager: Kristie Aliff\n256-534-2330\n\n1451 5PR 071 382\n\nBRM BRWN MIX 4.79 t F\nGOLD KIWI 6.99 t F\nPromotion -3.50 t F\nBRM BRWN MIX 4.79 t F\nWTRMLN CHKS SDLS 4.59 t F\nPromotion -2.30 t F\nWTRMLN CHKS SDLS 4.11 t F\nPromotion -2.05 t F\n\nOrder Total 17.42\nSales Tax 0.00\nFood Tax 0.87\nGrand Total 18.29\nDebit Payment 68.29\n\nChange 50.00\n\nSavings Summary\nSpecial Price Savings 7.85\n****************************************\n* Your Savings at Publix *\n* 7.85 *\n****************************************\n\nReceipt ID: 1451 5PR 071 382\n\nPRESTO!\nTrace #: 070238\nReference #: 1556063829\nAcct #: XXXXXXXXXXXX9120\nDebit Purchase FROM CHECKING\nAmount: $68.29\nCash Back: $50.00\nAuth #: 022864\n\nDEBIT CARD PURCHASE\nA0000000980840 US DEBIT\nEntry Method: Chip Read\nMode: Issuer-PIN Verified\n\nYour cashier was Wendy J.\n\n05/24/2026 17:46 S1451 R107 1382 C0256\n\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\n\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6095.954832999996,
+        "totalUsd": 0.014997,
+        "inputTokens": 3692,
+        "outputTokens": 1051,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "18.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:46",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "35801",
+          "status": "match"
+        },
+        "city": {
+          "value": "Huntsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "310 Pelham Ave SW",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9120",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BRM BRWN MIX",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOLD KIWI + Promotion",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BRM BRWN MIX",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WTRMLN CHKS SDLS + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTRMLN CHKS SDLS + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.11,
+          "totalSpend": 2.06,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nTwickenham Square\n310 Pelham Ave SW\nHuntsville, AL 35801\nStore Manager: Kristie Aliff\n256-534-2330\n1451 5PR 071 382\nBRM BRWN MIX 4.79 t F\nGOLD KIWI 6.99 t F\nPromotion -3.50 t F\nBRM BRWN MIX 4.79 t F\nWTRMLN CHKS SDLS 4.59 t F\nPromotion -2.30 t F\nWTRMLN CHKS SDLS 4.11 t F\nPromotion -2.05 t F\nOrder Total 17.42\nSales Tax 0.00\nFood Tax 0.87\nGrand Total 18.29\nDebit Payment 68.29\nChange 50.00\nSavings Summary\nSpecial Price Savings 7.85\n****************************************\n* Your Savings at Publix *\n* 7.85 *\n****************************************\nReceipt ID: 1451 5PR 071 382\nPRESTO!\nTrace #: 070238\nReference #: 1556063829\nAcct #: XXXXXXXXXXXX9120\nDebit Purchase FROM CHECKING\nAmount: $68.29\nCash Back: $50.00\nAuth #: 022864\nDEBIT CARD PURCHASE\nA0000000980840 US DEBIT\nEntry Method: Chip Read\nMode: Issuer-PIN Verified\nYour cashier was Wendy J.\n05/24/2026 17:46 S1451 R107 1382 C0256\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BRM BRWN MIX",
+      "price": 4.73,
+      "quantity": 1,
+      "totalSpend": 4.73
+    },
+    {
+      "text": "GOLD KIWI",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "WTRMLN CHKS SDLS",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "WTRMLN CHKS SDLS",
+      "price": 2.06,
+      "quantity": 1,
+      "totalSpend": 2.06
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

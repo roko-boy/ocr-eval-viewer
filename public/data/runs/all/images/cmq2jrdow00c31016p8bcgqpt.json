@@ -1,0 +1,432 @@
+{
+  "id": "cmq2jrdow00c31016p8bcgqpt",
+  "url": null,
+  "retailer": "Meijer",
+  "brand": "Big Mozz",
+  "amount": 7.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "45.64",
+    "purchaseDate": "2026-06-06",
+    "time": null,
+    "zipCode": "48051",
+    "city": "Chesterfield",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8493.721666999976,
+        "totalUsd": 0.021171,
+        "inputTokens": 6086,
+        "outputTokens": 1338,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "45.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:53:30",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48051",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chesterfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "27255 23 Mile Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9464",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRUGSTORE + *87863901645 + BODY WASH + was 8.39 now 6.71",
+          "quantity": 1,
+          "unitPrice": 8.39,
+          "totalSpend": 6.71,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 81515402732 + FLRT 12OZ",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 99980 + DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 3120002785 + OCEAN SPRAY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 85790000516 + RICE CAKES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 85001797301 + SNACK NUTS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 86000215198 + SNACK NUTS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 85003939402 + APPETIZER + 2 @ 7.99",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n27255 23 Mile Rd.\nChesterfield, MI 48051 - #105\n(586)598-0600 meijer.com\n06/06/26 Fastlane190\nMEIJER SAVINGS\nSPECIALS 1.68\nSAVINGS TOTAL 1.68\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n568.97\nDRUGSTORE\n*87863901645 BODY WASH\nwas 8.39 now 6.71 T\nGROCERY\n81515402732 FLRT 12OZ 2.69 F\n99980 DEPOSIT .10 F\n3120002785 OCEAN SPRAY 3.79 F\n85790000516 RICE CAKES 3.99 F\n85001797301 SNACK NUTS 5.99 F\n86000215198 SNACK NUTS 5.99 F\n85003939402 APPETIZER\n2 @ 7.99 15.98 F\nmPerks # -- ********39\nTOTAL\nMI 6% Sales Tax .40\nTOTAL TAX .40\nTOTAL 45.64\nPAYMENTS\nDISCOVER CREDIT CARD TENDER 45.64\nXXXXXXXXXXXX9464 (X)\nAPPROVAL CODE 005336\nDISCOVER\nAID A000000152301001\nTC 744F652A260C809E\nNO CVM REQUIRED\nNUMBER OF ITEMS 9\nA010514030402TS\nTx:44 Op:590 Tm:190 St:105 11:53:30",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12867.09983299999,
+        "totalUsd": 0.035733,
+        "inputTokens": 3692,
+        "outputTokens": 1299,
+        "reasoningTokens": 2056
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "45.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:53:30",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48051",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chesterfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "27255 23 Mile Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9464",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRUGSTORE + 87863901645 + BODY WASH",
+          "quantity": 1,
+          "unitPrice": 8.39,
+          "totalSpend": 6.71,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 81515402732 + FLRT 12OZ",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "99980 + DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3120002785 + OCEAN SPRAY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85790000516 + RICE CAKES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85001797301 + SNACK NUTS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "86000215198 + SNACK NUTS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85003939402 + APPETIZER",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n27255 23 Mile Rd.\nChesterfield, MI 48051 - #105\n(586)598-0600 meijer.com\n06/06/26 Fastlane190\nMEIJER SAVINGS\nSPECIALS 1.68\nSAVINGS TOTAL 1.68\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n568.97\nDRUGSTORE\n*87863901645 BODY WASH\nwas 8.39 now 6.71 T\nGROCERY\n81515402732 FLRT 12OZ 2.69 F\n99980 DEPOSIT .10 F\n3120002785 OCEAN SPRAY 3.79 F\n85790000516 RICE CAKES 3.99 F\n85001797301 SNACK NUTS 5.99 F\n86000215198 SNACK NUTS 5.99 F\n85003939402 APPETIZER\n2 @ 7.99 15.98 F\nmPerks # - ********39\nTOTAL\nMI 6% Sales Tax .40\nTOTAL TAX .40\nTOTAL 45.64\nPAYMENTS\nDISCOVER CREDIT CARD TENDER 45.64\nXXXXXXXXXXXX9464 (X)\nAPPROVAL CODE 005336\nDISCOVER\nAID A000000152301001\nTC 744F652A260C809E\nNO CVM REQUIRED\nNUMBER OF ITEMS 9\nA010514030402TS\nTx:44 Op:590 Tm:190 St:105 11:53:30",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6930.191332999995,
+        "totalUsd": 0.017292,
+        "inputTokens": 3692,
+        "outputTokens": 1306,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "45.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:53:30",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48051",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chesterfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "27255 23 Mile Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9464",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DRUGSTORE + BODY WASH + *87863901645",
+          "quantity": 1,
+          "unitPrice": 8.39,
+          "totalSpend": 6.71,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + FLRT 12OZ + 81515402732",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT + 99980",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OCEAN SPRAY + 3120002785",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RICE CAKES + 85790000516",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNACK NUTS + 85001797301",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SNACK NUTS + 86000215198",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "APPETIZER + 85003939402",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalSpend": 15.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n27255 23 Mile Rd.\nChesterfield, MI 48051 - #105\n(586)598-0600 meijer.com\n06/06/26 Fastlane190\nMEIJER SAVINGS\nSPECIALS 1.68\nSAVINGS TOTAL 1.68\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n568.97\nDRUGSTORE\n*87863901645 BODY WASH\nwas 8.39 now 6.71 T\nGROCERY\n81515402732 FLRT 12OZ 2.69 F\n99980 DEPOSIT .10 F\n3120002785 OCEAN SPRAY 3.79 F\n85790000516 RICE CAKES 3.99 F\n85001797301 SNACK NUTS 5.99 F\n86000215198 SNACK NUTS 5.99 F\n85003939402 APPETIZER\n2 @ 7.99 15.98 F\nmPerks # -- ********39\nTOTAL\nMI 6% Sales Tax .40\nTOTAL TAX .40\nTOTAL 45.64\nPAYMENTS\nDISCOVER CREDIT CARD TENDER 45.64\nXXXXXXXXXXXX9464 (X)\nAPPROVAL CODE 005336\nDISCOVER\nAID A000000152301001\nTC 744F652A260C809E\nNO CVM REQUIRED\nNUMBER OF ITEMS 9\nA010514030402TS\nTx:44 Op:590 Tm:190 St:105 11:53:30",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BODY WASH + 87863901645 + was 8.39 now 6.71 T",
+      "price": 6.71,
+      "quantity": 1,
+      "totalSpend": 6.71
+    },
+    {
+      "text": "FLRT 12OZ + 81515402732",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    },
+    {
+      "text": "DEPOSIT + 99980",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "OCEAN SPRAY + 3120002785",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "RICE CAKES + 85790000516",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SNACK NUTS + 85001797301",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "SNACK NUTS + 86000215198",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "APPETIZER + 85003939402 + 2 @ 7.99 15.98 F",
+      "price": 7.99,
+      "quantity": 2,
+      "totalSpend": 15.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

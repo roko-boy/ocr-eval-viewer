@@ -1,0 +1,486 @@
+{
+  "id": "cmprcbyat004fs2fiigssbswi",
+  "url": null,
+  "retailer": "Costco Wholesale Corp.",
+  "brand": "MALK",
+  "amount": 7.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "247.7",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "76087",
+    "city": "WEATHERFORD",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9096.688040999987,
+        "totalUsd": 0.019407,
+        "inputTokens": 6134,
+        "outputTokens": 1134,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "247.7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76087",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEATHERFORD",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "310 CENTER POINT ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1919326 ***BOUNTY***",
+          "quantity": 1,
+          "unitPrice": 27.99,
+          "totalSpend": 27.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2010914 WILDECRACKER",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "559608 MATEOS SALSA",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1957628 ZESTPAWSCALM",
+          "quantity": 1,
+          "unitPrice": 28.79,
+          "totalSpend": 28.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9852 OZARKA 40 PK",
+          "quantity": 1,
+          "unitPrice": 17.97,
+          "totalSpend": 17.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1726908 COSEQUIN",
+          "quantity": 1,
+          "unitPrice": 33.99,
+          "totalSpend": 33.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1957649 ZESTPAWPROB",
+          "quantity": 1,
+          "unitPrice": 28.79,
+          "totalSpend": 28.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "477403 DM GRN BEAN",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "18695 CHINET LUNCH",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1968989 MALK MILK",
+          "quantity": 1,
+          "unitPrice": 51.96,
+          "totalSpend": 51.96,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nWEATHERFORD #1735\n310 CENTER POINT ROAD\nWEATHERFORD, TX 76087\n21173500601312605281334\n1919326 ***BOUNTY*** 27.99 Y\nE 2010914 WILDECRACKER 9.89 N\nE 559608 MATEOS SALSA 6.99 N\n1957628 ZESTPAWSCALM 28.79 Y\nE 9852 OZARKA 40 PK 17.97 N\n1726908 COSEQUIN 33.99 Y\n1957649 ZESTPAWPROB 28.79 Y\nE 477403 DM GRN BEAN 11.99 N\n18695 CHINET LUNCH 17.99 Y\nE 1968989 MALK MILK 51.96 N\nSUBTOTAL 236.35\nTAX 11.35\n**** TOTAL 247.70",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15650.62675,
+        "totalUsd": 0.036651,
+        "inputTokens": 3716,
+        "outputTokens": 1198,
+        "reasoningTokens": 2255
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "247.7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "null",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76087",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEATHERFORD",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "310 CENTER POINT ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "null",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "null",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1919326 ***BOUNTY***",
+          "quantity": 1,
+          "unitPrice": 27.99,
+          "totalSpend": 27.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2010914 WILDECRACKER",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "559608 MATEOS SALSA",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1957628 ZESTPAWSCALM",
+          "quantity": 1,
+          "unitPrice": 28.79,
+          "totalSpend": 28.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9852 OZARKA 40 PK",
+          "quantity": 1,
+          "unitPrice": 17.97,
+          "totalSpend": 17.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1726908 COSEQUIN",
+          "quantity": 1,
+          "unitPrice": 33.99,
+          "totalSpend": 33.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1957649 ZESTPAWPROB",
+          "quantity": 1,
+          "unitPrice": 28.79,
+          "totalSpend": 28.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "477403 DM GRN BEAN",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "18695 CHINET LUNCH",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1968989 MALK MILK",
+          "quantity": 1,
+          "unitPrice": 51.96,
+          "totalSpend": 51.96,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Orders & Purchases\nat Weatherford | Delivering to 76008\nCOSTCO\nWHOLESALE\nWEATHERFORD #1735\n310 CENTER POINT ROAD\nWEATHERFORD, TX 76087\n21173500601312605281334\n1919326 ***BOUNTY*** 27.99 Y\nE 2010914 WILDECRACKER 9.89 N\nE 559608 MATEOS SALSA 6.99 N\n1957628 ZESTPAWSCALM 28.79 Y\nE 9852 OZARKA 40 PK 17.97 N\n1726908 COSEQUIN 33.99 Y\n1957649 ZESTPAWPROB 28.79 Y\nE 477403 DM GRN BEAN 11.99 N\n18695 CHINET LUNCH 17.99 Y\nE 1968989 MALK MILK 51.96 N\nSUBTOTAL 236.35\nTAX 11.35\n**** TOTAL 247.70",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6527.642749999999,
+        "totalUsd": 0.015771,
+        "inputTokens": 3716,
+        "outputTokens": 1133,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "247.7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76087",
+          "status": "match"
+        },
+        "city": {
+          "value": "WEATHERFORD",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "310 CENTER POINT ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1919326 + ***BOUNTY***",
+          "quantity": 1,
+          "unitPrice": 27.99,
+          "totalSpend": 27.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2010914 + WILDECRACKER",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "559608 + MATEOS SALSA",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1957628 + ZESTPAWSCALM",
+          "quantity": 1,
+          "unitPrice": 28.79,
+          "totalSpend": 28.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9852 + OZARKA 40 PK",
+          "quantity": 1,
+          "unitPrice": 17.97,
+          "totalSpend": 17.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1726908 + COSEQUIN",
+          "quantity": 1,
+          "unitPrice": 33.99,
+          "totalSpend": 33.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1957649 + ZESTPAWPROB",
+          "quantity": 1,
+          "unitPrice": 28.79,
+          "totalSpend": 28.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "477403 + DM GRN BEAN",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "18695 + CHINET LUNCH",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1968989 + MALK MILK",
+          "quantity": 1,
+          "unitPrice": 51.96,
+          "totalSpend": 51.96,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nWEATHERFORD #1735\n310 CENTER POINT ROAD\nWEATHERFORD, TX 76087\n21173500601312605281334\n1919326 ***BOUNTY*** 27.99 Y\nE 2010914 WILDECRACKER 9.89 N\nE 559608 MATEOS SALSA 6.99 N\n1957628 ZESTPAWSCALM 28.79 Y\nE 9852 OZARKA 40 PK 17.97 N\n1726908 COSEQUIN 33.99 Y\n1957649 ZESTPAWPROB 28.79 Y\nE 477403 DM GRN BEAN 11.99 N\n18695 CHINET LUNCH 17.99 Y\nE 1968989 MALK MILK 51.96 N\nSUBTOTAL 236.35\nTAX 11.35\n**** TOTAL 247.70",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOUNTY + 1919326",
+      "price": 27.99,
+      "quantity": 1,
+      "totalSpend": 27.99
+    },
+    {
+      "text": "WILDECRACKER + 2010914",
+      "price": 9.89,
+      "quantity": 1,
+      "totalSpend": 9.89
+    },
+    {
+      "text": "MATEOSSALSA + 559608",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "ZESTPAWSCALM + 1957628",
+      "price": 28.79,
+      "quantity": 1,
+      "totalSpend": 28.79
+    },
+    {
+      "text": "OZARKA40PK + 9852",
+      "price": 17.97,
+      "quantity": 1,
+      "totalSpend": 17.97
+    },
+    {
+      "text": "COSEQUIN + 1726908",
+      "price": 33.99,
+      "quantity": 1,
+      "totalSpend": 33.99
+    },
+    {
+      "text": "ZESTPAWPROB + 1957649",
+      "price": 28.79,
+      "quantity": 1,
+      "totalSpend": 28.79
+    },
+    {
+      "text": "DMGRNBEAN + 477403",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "CHINETLUNCH + 18695",
+      "price": 17.99,
+      "quantity": 1,
+      "totalSpend": 17.99
+    },
+    {
+      "text": "MALKMILK + 1968989",
+      "price": 51.96,
+      "quantity": 1,
+      "totalSpend": 51.96
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,324 @@
+{
+  "id": "cmplsk3rq008hjfgfjn8vc653",
+  "url": null,
+  "retailer": "Kwik Trip",
+  "brand": "Pepsi Food Service",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kwik Trip",
+    "totalCost": "8.57",
+    "purchaseDate": "2026-05-25",
+    "time": null,
+    "zipCode": "53965",
+    "city": "Wisconsin Dells",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6773.351666999981,
+        "totalUsd": 0.01731,
+        "inputTokens": 6086,
+        "outputTokens": 909,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:38:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53965",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wisconsin Dells",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1013 Broadway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0526",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MILK WHOLE HLFGAL",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL CHEETOS CRUNCHY 3.250",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI WLD CHRY ZERO 20OZ + L-FritoPepsiCoup",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RG BRAT",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Trip\n1013 Broadway\nWisconsin Dells, WI 53965\n(608)253-2704\nStore #1118 5/25/2026 5:38:59 PM\nRegister # 1 Trans # 5956722\nTax Description Qty Amount\nMILK WHOLE HLFGAL $2.49\nFL CHEETOS CRUNCHY 3.250 $2.69\nT PEPSI WLD CHRY ZERO 20OZ $2.79\nT RG BRAT $1.79\nL-FritoPepsiCoup 1 -$1.50\nSub Total $8.26\nTax $0.31\nTotal $8.57\nDebit: $8.57\nChange $0.00\nDebit\nCard Num : (C) XXXXXXXXXXXX0526\nChip Read\nTerminal : RA1094001118106\nApproval : 844075\nTrace Number: 747503\nSale\nUSD$ 8.57\nUS DEBIT\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 6800\nARC: 00\nARQC: 3B7CDCA792ACB4FB\nVerified by PIN\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nAlternate ID\nCard Num : (*) XXXXXX5273",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13509.18120799999,
+        "totalUsd": 0.030351,
+        "inputTokens": 3692,
+        "outputTokens": 914,
+        "reasoningTokens": 1843
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:38:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53965",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wisconsin Dells",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1013 Broadway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0526",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MILK WHOLE HLFGAL",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL CHEETOS CRUNCHY 3.25O",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PEPSI WLD CHRY ZERO 20OZ + L-FritoPepsiCoup",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RG BRAT",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Trip\n1013 Broadway\nWisconsin Dells, WI 53965\n(608)253-2704\nStore #1118  5/25/2026  5:38:59 PM\nRegister # 1  Trans # 5956772\nTax Description  Qty  Amount\nMILK WHOLE HLFGAL  $2.49\nFL CHEETOS CRUNCHY 3.25O  $2.69\nT PEPSI WLD CHRY ZERO 20OZ  $2.79\nT RG BRAT  $1.79\nL-FritoPepsiCoup  1 -$1.50\nSub Total  $8.26\nTax  $0.31\nTotal  $8.57\nDebit:  $8.57\nChange  $0.00\nDebit\nCard Num : (C) XXXXXXXXXXXX0526\nChip Read\nTerminal : RA1094001118106\nApproval : 844075\nTrace Number: 747503\nSale\nUSD$ 8.57\nUS DEBIT\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 6800\nARC: 00\nARQC: 3B7CDCA792ACB4FB\nVerified by PIN\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nAlternate ID\nCard Num : (*) XXXXXX5273",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5767.839708,
+        "totalUsd": 0.013665,
+        "inputTokens": 3692,
+        "outputTokens": 903,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Trip",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:38:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53965",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wisconsin Dells",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1013 Broadway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0526",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MILK WHOLE HLFGAL",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL CHEETOS CRUNCHY 3.250",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI WLD CHRY ZERO 20OZ + L-FritoPepsiCoup",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RG BRAT",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Trip\n1013 Broadway\nWisconsin Dells, WI 53965\n(608)253-2704\nStore #1118 5/25/2026 5:38:59 PM\nRegister # 1 Trans # 5956772\nTax Description Qty Amount\nMILK WHOLE HLFGAL $2.49\nFL CHEETOS CRUNCHY 3.250 $2.69\nT PEPSI WLD CHRY ZERO 20OZ $2.79\nT RG BRAT $1.79\nL-FritoPepsiCoup 1 -$1.50\nSub Total $8.26\nTax $0.31\nTotal $8.57\nDebit: $8.57\nChange $0.00\nDebit\nCard Num : (C) XXXXXXXXXXXX0526\nChip Read\nTerminal : RA1094001118106\nApproval : 844075\nTrace Number: 747503\nSale\nUSD$ 8.57\nUS DEBIT\nMode: Issuer\nAID: A0000000042203\nTVR: 8000048000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 6800\nARC: 00\nARQC: 3B7CDCA792ACB4FB\nVerified by PIN\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nAlternate ID\nCard Num : (*) XXXXXX5273",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MILK WHOLE HLFGAL",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "FL CHEETOS CRUNCHY 3.250",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    },
+    {
+      "text": "PEPSI WLD CHRY ZERO 20OZ",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "RG BRAT",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

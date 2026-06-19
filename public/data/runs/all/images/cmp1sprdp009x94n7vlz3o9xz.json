@@ -1,0 +1,351 @@
+{
+  "id": "cmp1sprdp009x94n7vlz3o9xz",
+  "url": null,
+  "retailer": "Meijer",
+  "brand": "Olipop",
+  "amount": 2.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "15.11",
+    "purchaseDate": "2026-05-11",
+    "time": null,
+    "zipCode": "48059",
+    "city": "Fort Gratiot Twp",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11717.82037500001,
+        "totalUsd": 0.01767,
+        "inputTokens": 6086,
+        "outputTokens": 949,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-11",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48059",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Gratiot",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4775 24th Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4190",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GENERAL MERCHANDISE + 19621413694 + POKEMON CARDS",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 85002770226 + OLIPOP TONIC",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "99980 + DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.1,
+          "totalSpend": 0.2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "86000322334 + OLIPOP TONIC",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*70882000259 + PRETZELS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n4775 24th Ave.\nFort Gratiot, MI 48059 - #163\n(810)385-2100 meijer.com\n05/11/26 Fastlane115\nMEIJER SAVINGS\nSPECIALS .20\nSAVINGS TOTAL .20\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n132.37\nGENERAL MERCHANDISE\n19621413694 POKEMON CARDS 5.79 CT\nGROCERY\n85002770226 OLIPOP TONIC 2.49 F\n99980 DEPOSIT\n2 @ .10 .20 F\n86000322334 OLIPOP TONIC 2.49 F\n*70882000259 PRETZELS\nwas 3.99 now 3.79 F\nmPerks # -- ********66\nTOTAL\nMI 6% Sales Tax .35\nTOTAL TAX .35\nTOTAL 15.11\nPAYMENTS\nCREDIT CARDS TENDER 15.11\nXXXXXXXXXXXX4190 (X)\nAPPROVAL CODE 011026\nUS Debit\nAID A0000000042203\nTC F3E5B786BB889897\nNO CVM REQUIRED\nNUMBER OF ITEMS 6",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11310.49133300001,
+        "totalUsd": 0.028398,
+        "inputTokens": 3692,
+        "outputTokens": 853,
+        "reasoningTokens": 1687
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48059",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "4775 24th Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GENERAL MERCHANDISE + 19621413694 + POKEMON CARDS",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 85002770226 + OLIPOP TONIC",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DEPOSIT + 99980",
+          "quantity": 2,
+          "unitPrice": 0.1,
+          "totalSpend": 0.2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GROCERY + 86000322334 + OLIPOP TONIC",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRETZELS + *70882000259 + was 3.99 now 3.79",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n4775 24th Ave.\nFort Gratiot, MI 48059 - #163\n(810)385-2100\nmeijer.com\n05/11/26 Fastlane115\nMEIJER SAVINGS\nSPECIALS .20\nSAVINGS TOTAL .20\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n132.37\nGENERAL MERCHANDISE\n19621413694 POKEMON CARDS 5.79 CT\nGROCERY\n85002770226 OLIPOP TONIC 2.49 F\n99980 DEPOSIT .20 F\n2 @ .10\n86000322334 OLIPOP TONIC 2.49 F\n*70882000259 PRETZELS 3.79 F\nwas 3.99 now\nmPerks # -- *********66\nTOTAL\nMI 6% Sales Tax .35\nTOTAL TAX .35\nTOTAL 15.11\nPAYMENTS\nCREDIT CARDS TENDER 15.11\nXXXXXXXXXXXX4190 (X)\nAPPROVAL CODE 011026\nUS Debit\nAID A0000000042203\nTC F3E5B786BB889897\nNO CVM REQUIRED\nNUMBER OF ITEMS 6",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4963.881458999997,
+        "totalUsd": 0.014313,
+        "inputTokens": 3692,
+        "outputTokens": 975,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-11",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48059",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Gratiot",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4775 24th Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4190",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GENERAL MERCHANDISE + 19621413694 + POKEMON CARDS",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 85002770226 + OLIPOP TONIC",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.1,
+          "totalSpend": 0.2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GROCERY + 86000322334 + OLIPOP TONIC",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRETZELS + *70882000259",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n4775 24th Ave.\nFort Gratiot, MI 48059 - #163\n(810)385-2100\nmeijer.com\n05/11/26\nFastlane115\nMEIJER SAVINGS\nSPECIALS\n.20\nSAVINGS TOTAL\n.20\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n132.37\nGENERAL MERCHANDISE\n19621413694\nPOKEMON CARDS\n5.79 CT\nGROCERY\n85002770226\nOLIPOP TONIC\n2.49 F\n99980\nDEPOSIT\n2 @ .10\n.20 F\n86000322334\nOLIPOP TONIC\n2.49 F\n*70882000259\nPRETZELS\nwas\n3.99\nnow\n3.79 F\nmPerks # -- ********66\nTOTAL\nMI 6% Sales Tax\n.35\nTOTAL TAX\n.35\nTOTAL\n15.11\nPAYMENTS\nCREDIT CARDS\nTENDER\n15.11\nXXXXXXXXXXXX4190\n(X)\nAPPROVAL CODE 011026\nUS Debit\nAID A0000000042203\nTC F3E5B786BB889897\nNO CVM REQUIRED\nNUMBER OF ITEMS\n6",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "POKEMON CARDS + 19621413694",
+      "price": 5.79,
+      "quantity": 1,
+      "totalSpend": 5.79
+    },
+    {
+      "text": "OLIPOP TONIC + 85002770226",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "DEPOSIT + 99980 + 2 @ 0.10 0.20 F",
+      "price": 0.1,
+      "quantity": 2,
+      "totalSpend": 0.2
+    },
+    {
+      "text": "OLIPOP TONIC + 86000322334",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "PRETZELS + 70882000259 + was 3.99 now 3.79 F",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

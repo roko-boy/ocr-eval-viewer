@@ -1,0 +1,270 @@
+{
+  "id": "cmpirnk6600wdepn6numkt046",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Sokē",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "52.35",
+    "purchaseDate": "2026-05-23",
+    "time": null,
+    "zipCode": "85020",
+    "city": "Phoenix",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10888.32024900004,
+        "totalUsd": 0.016752,
+        "inputTokens": 6086,
+        "outputTokens": 847,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.35",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85020",
+          "status": "match"
+        },
+        "city": {
+          "value": "Phoenix",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "810 E. Glendale",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5878",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "81675102353 CUTWATER MARGARITA + Member Savings -7.00",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 27.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "86001072999 SOKE SAKE SODA VRT + Member Savings -6.00",
+          "quantity": 1,
+          "unitPrice": 25.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY (S)\nStore 1515 Dir Josh Millan\nMain: (602) 331-0134 Rx: (602) 331-044\n810 E. Glendale\nPhoenix AZ 85020\n00151517500762605231250\nYOUR CASHIER TODAY WAS SELF\nLIQUOR Price You Pay\n81675102353 CUTWATER MARGARITA 34.99 27.99 T\nMember Savings -7.00\n86001072999 SOKE SAKE SODA VRT 25.99 19.99 T\nMember Savings -6.00\nTAX 4.37\n**** BALANCE 52.35\nCredit Purchase 05/23/26 12:50\nCARD # ************5878\nREF: 655027458780 AUTH: 00154272\nPAYMENT AMOUNT 52.35\nAL US DEBIT\nAID A0000000980840\nTVR 0000000000\nVisa 52.35\nCHANGE 0.00\nPoints expiring 05/31/26 241\nYOUR SAVINGS\nMember Savings 13.00\nTotal 13.00\nTotal Savings Value 21%\nYOUR POINTS\nPoints Available 467\nDate of Birth = xx/xx/xx\nTOTAL NUMBER OF ITEMS SOLD = 2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11565.61441699998,
+        "totalUsd": 0.025689,
+        "inputTokens": 3692,
+        "outputTokens": 872,
+        "reasoningTokens": 1367
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.35",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85020",
+          "status": "match"
+        },
+        "city": {
+          "value": "Phoenix",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "810 E. Glendale",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5878",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CUTWATER MARGARITA + 81675102353 + Member Savings -7.00",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 27.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SOKE SAKE SODA VRT + 86001072999 + Member Savings -6.00",
+          "quantity": 1,
+          "unitPrice": 25.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1515 Dir Josh Millan\nMain: (602) 331-0134 Rx: (602) 331-044\n810 E. Glendale\nPhoenix AZ 85020\n00151517500762605231250\nYOUR CASHIER TODAY WAS SELF\nLIQUOR\nPrice You Pay\n81675102353 CUTWATER MARGARITA\n34.99 27.99 T\nMember Savings -7.00\n86001072999 SOKE SAKE SODA VRT\n25.99 19.99 T\nMember Savings -6.00\nTAX\n4.37\n**** BALANCE\n52.35\nCredit Purchase 05/23/26 12:50\nCARD # ************5878\nREF: 655027458780 AUTH: 00154272\nPAYMENT AMOUNT\n52.35\nAL US DEBIT\nAID A0000000980840\nTVR 0000000000\nVisa\n52.35\nCHANGE\n0.00\nPoints expiring 05/31/26 241\nYOUR SAVINGS\nMember Savings\n13.00\nTotal\n13.00\nTotal Savings Value\n21%\nYOUR POINTS\nPoints Available 467\nDate of Birth = xx/xx/xx\nTOTAL NUMBER OF ITEMS SOLD = 2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6979.766833000001,
+        "totalUsd": 0.013449,
+        "inputTokens": 3692,
+        "outputTokens": 879,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "52.35",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85020",
+          "status": "match"
+        },
+        "city": {
+          "value": "Phoenix",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "810 E. Glendale",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5878",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CUTWATER MARGARITA + 81675102353 + Member Savings -7.00",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 27.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SOKE SAKE SODA VRT + 86001072999 + Member Savings -6.00",
+          "quantity": 1,
+          "unitPrice": 25.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1515 Dir Josh Millan\nMain: (602) 331-0134 Rx: (602) 331-044\n810 E. Glendale\nPhoenix AZ 85020\n00151517500762605231250\nYOUR CASHIER TODAY WAS SELF\nLIQUOR\nPrice You Pay\n81675102353 CUTWATER MARGARITA\n34.99 27.99 T\nMember Savings -7.00\n86001072999 SOKE SAKE SODA VRT\n25.99 19.99 T\nMember Savings -6.00\nTAX\n4.37\n**** BALANCE\n52.35\nCredit Purchase 05/23/26 12:50\nCARD # ************5878\nREF: 655027458780 AUTH: 00154272\nPAYMENT AMOUNT\n52.35\nAL US DEBIT\nAID A0000000980840\nTVR 0000000000\nVisa\n52.35\nCHANGE\n0.00\nPoints expiring 05/31/26 241\nYOUR SAVINGS\nMember Savings\n13.00\nTotal\n13.00\nTotal Savings Value\n21%\nYOUR POINTS\nPoints Available 467\nDate of Birth = xx/xx/xx\nTOTAL NUMBER OF ITEMS SOLD = 2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CUTWATER MARGARITA + 81675102353 + Membar Savings -7.00",
+      "price": 27.99,
+      "quantity": 1,
+      "totalSpend": 27.99
+    },
+    {
+      "text": "SOKE SAKE SODA VRT + 86001072999 + Member Savings -6.00",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

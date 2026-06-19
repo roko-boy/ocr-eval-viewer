@@ -1,0 +1,405 @@
+{
+  "id": "cmpq02kk30167rniy7fkqr97z",
+  "url": null,
+  "retailer": "Farmers Market",
+  "brand": "pecana milk",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Farmers Market",
+    "totalCost": "37.37",
+    "purchaseDate": "2026-05-28",
+    "time": null,
+    "zipCode": "95133",
+    "city": "San Jose",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 29152.94008300001,
+        "totalUsd": 0.0496575,
+        "inputTokens": 6207,
+        "outputTokens": 1348,
+        "reasoningTokens": 3135
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:19:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95133",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "375 N. Capitol Ave. Ste. 10",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5268",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "INFUSION-COCO WTR-PA",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "INFUSION-COCO WTR-WA + BOGO STEAZ/C20",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UNSWT ORIG PECAN MLK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT + BOGO MOLYYS SUDS",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n375 N. Capitol Ave. Ste. 10\nSan Jose, CA 95133\n(408) 503-3250\nStore Hours MON-SUN 7AM-10PM\n\n05/28/2026 14:19:26\nAMEX CREDIT Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX5268\nPURCHASE\n- APPROVED\nAUTH CODE:825227\n\nMode:\nIssuer\nAID:\nA000000025010901\nTVR:\n0000008000\nIAD:\n06030103A20102\nTSI: A800\nARC:\n00\nTC:\n627643D03831EC3D\nMID: 087842\nTID: 001\nRRN: 310012\n\nTotal:\nUSD$ 37.37\n\nGROCERY\nINFUSION-COCO WTR-PA\n2.79\n*CRV FS 05\n0.05\nINFUSION-COCO WTR-WA\n2.79\n*CRV FS 05\n0.05\nUNSWT ORIG PECAN MLK\n6.99\n\nTAXABLE GROCERY\nLIQUID LNDRY DTRGENT\n24.99 T\nLIQUID LNDRY DTRGENT\n24.99 T\nBOGO MOLYYS SUDS\n-24.99\n\nBOGO STEAZ/C20\n-2.79\n\nTax Report\nSales Tax\n24.99\n2.50 TT\n\nBALANCE DUE\n37.37\nCREDIT\n$37.37\n[ ] XXXXXXXXXXXX5268\nAuth# 825227\nRef# 310012\nCHANGE\n0.00\n\nYou Saved!\nTOTAL DISCOUNTS\n2\n27.78\n\nCard XXXXXXXXXX3021\n----------------------------------------\nHave a Healthy Day Devita!\n****************************************\nSprouts Rewards\n----------------------------------------\nPrevious Points Balance:\n1675\nTotal Points earned today:\n175\nNew points balance:\n1850\n****************************************\n99047503120811481418",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15836.33891599999,
+        "totalUsd": 0.0338355,
+        "inputTokens": 3711,
+        "outputTokens": 1292,
+        "reasoningTokens": 1849
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:19:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95133",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "375 N. Capitol Ave. Ste. 10",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5268",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "INFUSION-COCO WTR-PA",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "INFUSION-COCO WTR-WA + BOGO STEAZ/C20",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UNSWT ORIG PECAN MLK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT + BOGO MOLYYS SUDS",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n375 N. Capitol Ave. Ste. 10\nSan Jose, CA 95133\n(408) 503-3250\nStore Hours MON-SUN 7AM-10PM\n05/28/2026 14:19:26\nAMEX CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX5268\nPURCHASE - APPROVED\nAUTH CODE:825227\nMode: Issuer\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06030103A20102\nTSI: A800 ARC: 00\nTC: 627643D03831EC3D\nMID: 087842 TID: 001 RRN: 310012\nTotal: USD$ 37.37\nGROCERY\nINFUSION-COCO WTR-PA 2.79\n*CRV FS 05 0.05\nINFUSION-COCO WTR-WA 2.79\n*CRV FS 05 0.05\nUNSWT ORIG PECAN MLK 6.99\nTAXABLE GROCERY\nLIQUID LNDRY DTRGENT 24.99 T\nLIQUID LNDRY DTRGENT 24.99 T\nBOGO MOLYYS SUDS -24.99\nBOGO STEAZ/C20 -2.79\nTax Report\nSales Tax 24.99 2.50 TT\nBALANCE DUE 37.37\nCREDIT $37.37\n[ ] XXXXXXXXXXXX5268\nAuth# 825227 Ref# 310012\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 2 27.78\nCard XXXXXXXXXX3021\nHave a Healthy Day Devita!\n****************************************\nSprouts Rewards\nPrevious Points Balance: 1675\nTotal Points earned today: 175\nNew points balance: 1850\n****************************************\n99047503120811481418",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6493.777083000001,
+        "totalUsd": 0.0173475,
+        "inputTokens": 3711,
+        "outputTokens": 1309,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:19:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95133",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "375 N. Capitol Ave. Ste. 10",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5268",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "INFUSION-COCO WTR-PA",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "INFUSION-COCO WTR-WA + BOGO STEAZ/C20",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UNSWT ORIG PECAN MLK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIQUID LNDRY DTRGENT + BOGO MOLYYS SUDS",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n375 N. Capitol Ave. Ste. 10\nSan Jose, CA 95133\n(408) 503-3250\nStore Hours MON-SUN 7AM-10PM\n05/28/2026\n14:19:26\nAMEX CREDIT\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX5268\nPURCHASE\n- APPROVED\nAUTH CODE:825227\nMode:\nIssuer\nAID:\nA000000025010901\nTVR:\n0000008000\nIAD:\n06030103A20102\nTSI: A800\nARC:\n00\nTC:\n627643D03831EC3D\nMID: 087842\nTID: 001\nRRN: 310012\nTotal:\nUSD$ 37.37\nGROCERY\nINFUSION-COCO WTR-PA\n2.79\n*CRV FS 05\n0.05\nINFUSION-COCO WTR-WA\n2.79\n*CRV FS 05\n0.05\nUNSWT ORIG PECAN MLK\n6.99\nTAXABLE GROCERY\nLIQUID LNDRY DTRGENT\n24.99 T\nLIQUID LNDRY DTRGENT\n24.99 T\nBOGO MOLYYS SUDS\n-24.99\nBOGO STEAZ/C20\n-2.79\nTax Report\nSales Tax\n24.99\n2.50 TT\nBALANCE DUE\n37.37\nCREDIT\n$37.37\n[ ] XXXXXXXXXXXX5268\nAuth# 825227\nRef# 310012\nCHANGE\n0.00\nYou Saved!\nTOTAL DISCOUNTS\n2\n27.78\nCard XXXXXXXXXX3021\nHave a Healthy Day Devita!\n****************************************\nSprouts Rewards\nPrevious Points Balance:\n1675\nTotal Points earned today:\n175\nNew points balance:\n1850\n****************************************\n99047503120811481418",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "INFUSION-COCO WTR-PA",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "CRV FS 05",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "INFUSION-COCO WTR-WA",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "CRV FS 05",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "UNSWT ORIG PECAN MLK",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "LIQUID LNDRY DTRGENT",
+      "price": 24.99,
+      "quantity": 1,
+      "totalSpend": 24.99
+    },
+    {
+      "text": "LIQUID LNDRY DTRGENT",
+      "price": 24.99,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,297 @@
+{
+  "id": "cmpizgrz103f5cldwcp8rwwz3",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Ruby Jewel ",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "19.01",
+    "purchaseDate": "2026-05-23",
+    "time": null,
+    "zipCode": "34243",
+    "city": "Sarasota",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 28399.67570899997,
+        "totalUsd": 0.017562,
+        "inputTokens": 6086,
+        "outputTokens": 937,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "19.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34243",
+          "status": "match"
+        },
+        "city": {
+          "value": "Sarasota",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5298 University Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1002",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RUBYJW ICE CRM SANDWCH + Qty 2 Reg $5.19 ea + Savings ($1.50)",
+          "quantity": 2,
+          "unitPrice": 5.19,
+          "totalSpend": 8.88,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RUBYJW LM CKIE IC CRM + Reg $5.19 + Savings ($0.75)",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.44,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUBYJW VAN IC CRM SNDWCH + Reg $5.19 + Savings ($0.75)",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.44,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nUniversity Station UTC 941-806-6130\n5298 University Pkwy\nSarasota, FL 34243 5801\nRUBYJW ICE CRM SANDWCH $8.88 FT\nQty 2 Reg $5.19 ea\nSavings ($1.50)\nRUBYJW LM CKIE IC CRM $4.44 FT\nReg $5.19\nSavings ($0.75)\nRUBYJW VAN IC CRM SNDWCH $4.44 FT\nReg $5.19\nSavings ($0.75)\nSubtotal: $20.76\nTotal Savings: -$3.00\nNet Sales: $17.76\nTax: 7.00% $1.25\nTotal: $19.01\nSold Items: 4\nPaid:\nAmerican Exp *1002 $19.01\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$3.00\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n203 94002 05/23/2026 06:51 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13949.371958,
+        "totalUsd": 0.033096,
+        "inputTokens": 3692,
+        "outputTokens": 856,
+        "reasoningTokens": 2206
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34243",
+          "status": "match"
+        },
+        "city": {
+          "value": "Sarasota",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5298 University Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1002",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RUBYJW ICE CRM SANDWCH",
+          "quantity": 2,
+          "unitPrice": 5.19,
+          "totalSpend": 8.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUBYJW LM CKIE IC CRM",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.44,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUBYJW VAN IC CRM SNDWCH",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.44,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nUniversity Station UTC 941-806-6130\n5298 University Pkwy\nSarasota, FL 34243 5801\nRUBYJW ICE CRM SANDWCH $8.88 FT\nQty 2 Reg $5.19 ea\nSavings ($1.50)\nRUBYJW LM CKIE IC CRM $4.44 FT\nReg $5.19\nSavings ($0.75)\nRUBYJW VAN IC CRM SNDWCH $4.44 FT\nReg $5.19\nSavings ($0.75)\nSubtotal: $20.76\nTotal Savings: -$3.00\nNet Sales: $17.76\nTax: 7.00% $1.25\nTotal: $19.01\nSold Items: 4\nPaid:\nAmerican Exp *1002 $19.01\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$3.00\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n203 94002 05/23/2026 06:51 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5020.188584000018,
+        "totalUsd": 0.013728,
+        "inputTokens": 3692,
+        "outputTokens": 910,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34243",
+          "status": "match"
+        },
+        "city": {
+          "value": "Sarasota",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5298 University Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1002",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RUBYJW ICE CRM SANDWCH",
+          "quantity": 2,
+          "unitPrice": 5.19,
+          "totalSpend": 8.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUBYJW LM CKIE IC CRM",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.44,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUBYJW VAN IC CRM SNDWCH",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.44,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nUniversity Station UTC 941-806-6130\n5298 University Pkwy\nSarasota, FL 34243 5801\nRUBYJW ICE CRM SANDWCH\n$8.88 FT\nQty 2 Reg $5.19 ea\nSavings ($1.50)\nRUBYJW LM CKIE IC CRM\n$4.44 FT\nReg $5.19\nSavings ($0.75)\nRUBYJW VAN IC CRM SNDWCH\n$4.44 FT\nReg $5.19\nSavings ($0.75)\nSubtotal:\n$20.76\nTotal Savings:\n-$3.00\nNet Sales:\n$17.76\nTax:\n7.00%\n$1.25\nTotal:\n$19.01\nSold Items:\n4\nPaid:\nAmerican Exp *1002\n$19.01\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$3.00\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n203 94002 05/23/2026 06:51 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "RUBYJW ICE CRM SANDWCH + Qty 2 Reg $5.19 ea + Savings (51.50)",
+      "price": 4.44,
+      "quantity": 2,
+      "totalSpend": 8.88
+    },
+    {
+      "text": "RUBYJW LM CKIE IC CRM + Reg $5.19 + Savings ($0.75)",
+      "price": 4.44,
+      "quantity": 1,
+      "totalSpend": 4.44
+    },
+    {
+      "text": "RUBYJW VAN IC CRN SNDNCH + Reg $5.19 + Savings ($0.75)",
+      "price": 4.44,
+      "quantity": 1,
+      "totalSpend": 4.44
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

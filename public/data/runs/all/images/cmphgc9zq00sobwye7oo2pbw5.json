@@ -1,0 +1,270 @@
+{
+  "id": "cmphgc9zq00sobwye7oo2pbw5",
+  "url": null,
+  "retailer": "ALDI",
+  "brand": "1st Phorm",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ALDI",
+    "totalCost": "26.6",
+    "purchaseDate": "2026-05-22",
+    "time": null,
+    "zipCode": null,
+    "city": "San Jose",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7493.730707999988,
+        "totalUsd": 0.015297,
+        "inputTokens": 6118,
+        "outputTokens": 680,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Chevron",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:21:06 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1111 N. Capitol Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0357",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PHORM NRG PARA PUNCH 160",
+          "quantity": 8,
+          "unitPrice": 2.99,
+          "totalSpend": 23.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "$0.05 DEP T",
+          "quantity": 8,
+          "unitPrice": 0.05,
+          "totalSpend": 0.4,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Capital Chevron\n1111 N. Capitol Ave.\nSan Jose CA\n00378941\n\n05/22/2026 2:21:06 PM\nRegister: 2 Trans #: 9599 Op ID: 33\nYour cashier: ALDI\n\nPHORM NRG PARA PUNCH 160\n8 @ $2.99\n$23.92 101\n$0.05 DEP T\n8 @ $0.05\n$0.40 101\n------------------------\nSubtotal = $24.32\nTax = $2.28\n------------------------\nTotal = $26.60\nChange Due = $0.00\nCredit\n$26.60\n------------------------\nXXXXXXXXXXXX0357 DISCOVER\nINVOICE: E/4114876\nAUTH 062257\nSALE TRANSACTION\nContactless\nDISCOVER\nMode: Issuer\nAID: A0000001523010010000001\n\nGet rewarded on\nevery fill-up at\nChevron with a\nTechron Advantage\ncard. See app\nfor details.\n\nI agree to pay the above total amount\naccording to card issuer agreement.\n------------------------\nTHANK YOU FOR BEING A REWARDS MEMBER\nThank You!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10674.65016600001,
+        "totalUsd": 0.025263,
+        "inputTokens": 3708,
+        "outputTokens": 673,
+        "reasoningTokens": 1516
+      },
+      "fields": {
+        "storeName": {
+          "value": "Chevron",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:21:06 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1111 N. Capitol Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0357",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PHORM NRG PARA PUNCH 160",
+          "quantity": 8,
+          "unitPrice": 2.99,
+          "totalSpend": 23.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "$0.05 DEP T",
+          "quantity": 8,
+          "unitPrice": 0.05,
+          "totalSpend": 0.4,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Capital Chevron\n1111 N. Capitol Ave.\nSan Jose CA\n00378941\n\n05/22/2026 2:21:06 PM\nRegister: 2 Trans #: 9599 Op ID: 33\nYour cashier: ALDI\n\nPHORM NRG PARA PUNCH 160\n8 @ $2.99\n$23.92 101\n$0.05 DEP T\n8 @ $0.05\n$0.40 101\n-------------------------\nSubtotal = $24.32\nTax = $2.28\n-------------------------\nTotal = $26.60\nChange Due = $0.00\nCredit\n$26.60\n-------------------------\nXXXXXXXXXXXX0357 DISCOVER\nINVOICE: E/4114876\nAUTH 062257\nSALE TRANSACTION\nContactless\nDISCOVER\nMode: Issuer\nAID: A00000015230100100000001\n\nGet rewarded on\nevery fill-up at\nChevron with a\nTechron Advantage\ncard. See app\nfor details.\n\nI agree to pay the above total amount\naccording to card issuer agreement.\n-------------------------\nTHANK YOU FOR BEING A REWARDS MEMBER\nThank You!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4240.267499999987,
+        "totalUsd": 0.011484,
+        "inputTokens": 3708,
+        "outputTokens": 658,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Chevron",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:21:06 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1111 N. Capitol Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0357",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PHORM NRG PARA PUNCH 160",
+          "quantity": 8,
+          "unitPrice": 2.99,
+          "totalSpend": 23.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "$0.05 DEP T",
+          "quantity": 8,
+          "unitPrice": 0.05,
+          "totalSpend": 0.4,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Capital Chevron\n1111 N. Capitol Ave.\nSan Jose CA\n00378941\n\n05/22/2026 2:21:06 PM\nRegister: 2 Trans #: 9599 Op ID: 33\nYour cashier: ALDI\n\nPHORM NRG PARA PUNCH 160\n8 @ $2.99\n$23.92 101\n$0.05 DEP T\n8 @ $0.05\n$0.40 101\n-------------------------\nSubtotal = $24.32\nTax = $2.28\n-------------------------\nTotal = $26.60\nChange Due = $0.00\nCredit\n$26.60\n-------------------------\nXXXXXXXXXXXX0357 DISCOVER\nINVOICE: E/4114876\nAUTH 062257\nSALE TRANSACTION\nContactless\nDISCOVER\nMode: Issuer\nAID: A0000001523010010000001\n\nGet rewarded on\nevery fill-up at\nChevron with a\nTechron Advantage\ncard. See app\nfor details.\n\nI agree to pay the above total amount\naccording to card issuer agreement.\n-------------------------\nTHANK YOU FOR BEING A REWARDS MEMBER\nThank You!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PHORM NRG PARA PUNCH 160 + 8 @ $2.99 $23.92 101",
+      "price": 2.99,
+      "quantity": 8,
+      "totalSpend": 23.92
+    },
+    {
+      "text": "$0.05 DEP T + 8 @ $0.05 $0.40 101",
+      "price": 0.05,
+      "quantity": 8,
+      "totalSpend": 0.4
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

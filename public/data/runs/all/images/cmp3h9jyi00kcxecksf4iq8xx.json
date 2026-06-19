@@ -1,0 +1,351 @@
+{
+  "id": "cmp3h9jyi00kcxecksf4iq8xx",
+  "url": null,
+  "retailer": "Gelson's Manhattan Beach",
+  "brand": "Alec's Ice Cream",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Gelson's",
+    "totalCost": "31.04",
+    "purchaseDate": "2026-05-12",
+    "time": null,
+    "zipCode": "90266",
+    "city": "Manhattan Beach",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11273.978958,
+        "totalUsd": 0.018453,
+        "inputTokens": 6086,
+        "outputTokens": 1036,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Gelson's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "31.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:47:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90266",
+          "status": "match"
+        },
+        "city": {
+          "value": "Manhattan Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "707 N. SEPULVEDA BLVD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5675",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BRAWNY TOWEL S/D + 00004200044576 + FREE Brawny Towels",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG SALE PAPER EA + 00000000005555",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WYMAN MIXED BERRIE + 00007990000199",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALEC'S ICE CREAM + 00085001509609",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANA + 00000000004011 + 1.99 lb @ $0.99 / lb",
+          "quantity": 1,
+          "unitPrice": 1.97,
+          "totalSpend": 1.97,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Gelson's\n707 N. SEPULVEDA BLVD.\nMANHATTAN BEACH, CA 90266\n(424) 452-0412\n05/12/2026 16:47:50\nCHASE VISA Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX5675\nPURCHASE - APPROVED\nAUTH CODE: 02583D\nIssuer\nMode: A0000000031010\nAID: 0000000000\nTVR: 06021203A00000\nIAD: ARC: 00\nTSI: 0000 F4FC3AF814C3E5B3\nTC: RRN: 071139\nMID: 484630 TID: 001\nTotal: USD$ 31.04\nGROC TAXABLE\n00004200044576\nBRAWNY TOWEL S/D 8.99 T\nFREE Brawny Towels -8.99\nMISC\n00000000005555\nBAG SALE PAPER EA 0.10\nFROZEN\n00007990000199\nWYMAN MIXED BERRIE 6.99 F\n00085001509609\nALEC'S ICE CREAM 8.99 F\nPRODUCE\n00000000004011\nBANANA 1.97 F\n1.99 lb @ $0.99 / lb",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13647.34420800001,
+        "totalUsd": 0.02946,
+        "inputTokens": 3692,
+        "outputTokens": 1027,
+        "reasoningTokens": 1631
+      },
+      "fields": {
+        "storeName": {
+          "value": "Gelson's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "31.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:47:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90266",
+          "status": "match"
+        },
+        "city": {
+          "value": "MANHATTAN BEACH",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "707 N. SEPULVEDA BLVD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5675",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BRAWNY TOWEL S/D + 00004200044576 + FREE Brawny Towels",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG SALE PAPER EA + 0000000005555",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WYMAN MIXED BERRIE + 00007990000199",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALEC'S ICE CREAM + 00085001509609",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANA + 0000000004011 + 1.99 lb @ $0.99 / lb",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 1.97,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Gelson's\n707 N. SEPULVEDA BLVD.\nMANHATTAN BEACH, CA 90266\n(424) 452-0412\n05/12/2026 16:47:50\nCHASE VISA Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX5675\nPURCHASE - APPROVED\nAUTH CODE:02583D\nIssuer\nMode: A0000000031010\nAID: 0000000000\nTVR: 06021203A00000\nIAD: ARC: 00\nTSI: 0000 F4FC3AF814C3E5B3\nTC: RRN: 071139\nMID: 484630 TID: 001\nTotal: USD$ 31.04\nGROC TAXABLE\n00004200044576\nBRAWNY TOWEL S/D 8.99 T\nFREE Brawny Towels -8.99\nMISC\n0000000005555\nBAG SALE PAPER EA 0.10\nFROZEN\n00007990000199\nWYMAN MIXED BERRIE 6.99 F\n00085001509609\nALEC'S ICE CREAM 8.99 F\nPRODUCE\n0000000004011\nBANANA 1.97 F\n1.99 lb @ $0.99 / lb",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5734.578125,
+        "totalUsd": 0.014754,
+        "inputTokens": 3692,
+        "outputTokens": 1024,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Gelson's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "31.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:47:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90266",
+          "status": "match"
+        },
+        "city": {
+          "value": "Manhattan Beach",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "707 N. SEPULVEDA BLVD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5675",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BRAWNY TOWEL S/D + 00004200044576 + FREE Brawny Towels",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG SALE PAPER EA + 0000000005555",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WYMAN MIXED BERRIE + 00007990000199",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALEC'S ICE CREAM + 00085001509609",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANA + 0000000004011 + 1.99 lb @ $0.99 / lb",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 1.97,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Gelson's\n707 N. SEPULVEDA BLVD.\nMANHATTAN BEACH, CA 90266\n(424) 452-0412\n05/12/2026 16:47:50\nCHASE VISA Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX5675\nPURCHASE - APPROVED\nAUTH CODE: 02583D\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06021203A00000\nTSI: 0000 ARC: 00\nTC: F4FC3AF814C3E5B3\nMID: 484630 TID: 001 RRN: 071139\nTotal: USD$ 31.04\nGROC TAXABLE\n00004200044576\nBRAWNY TOWEL S/D 8.99 T\nFREE Brawny Towels -8.99\nMISC\n0000000005555\nBAG SALE PAPER EA 0.10\nFROZEN\n00007990000199\nWYMAN MIXED BERRIE 6.99 F\n00085001509609\nALEC'S ICE CREAM 8.99 F\nPRODUCE\n0000000004011\nBANANA 1.97 F\n1.99 lb @ $0.99 / lb",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BRAWNY TOWEL S/D + 00004200044576",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "BAG SALE PAPER EA + 00000000005555",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "WYMAN MIXED BERRIE + 00007990000199 + 00085001509609",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "ALEC'S ICE CREAM + 00085001509609",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "BANANA + 00000000004011 + 1.99 lb @ $0.99 / lb",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 1.97
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

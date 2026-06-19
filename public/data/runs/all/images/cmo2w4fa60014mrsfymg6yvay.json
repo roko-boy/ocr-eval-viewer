@@ -1,0 +1,648 @@
+{
+  "id": "cmo2w4fa60014mrsfymg6yvay",
+  "url": null,
+  "retailer": "Heinen's Grocery Store",
+  "brand": "Kevin's Natural Foods",
+  "amount": 3.2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Heinen's Grocery Stores",
+    "totalCost": "75.45",
+    "purchaseDate": "2026-04-17",
+    "time": null,
+    "zipCode": "44141",
+    "city": "Brecksville",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 29833.680166,
+        "totalUsd": 0.03117,
+        "inputTokens": 6086,
+        "outputTokens": 2449,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Heinen's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "75.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:30:42",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44141",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brecksville",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8383 Chippewa Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8666",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HARTZ WHOLE MILK + 64512512345",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Bottle Deposit",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MITCH CHOC PB CUP + 85028600119",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEVIN ORANGE CHICK + 81026402715",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 6.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHWTR TROP LEMONA + 85003644413 + Sale 3 for $5.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OH SEAWD SNK WASAB + 81167C03183",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHICA TORT CHP ORI + 85442000349 + Sale 2 for $4.79",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHICA TORT CHP ORI + 85442000349 + Sale 2 for $4.79",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "APPLES-SUGAR BEE + 3486 + Sale 1.89 lb. @ $1.99/lb.",
+          "quantity": 1,
+          "unitPrice": 6.6,
+          "totalSpend": 3.76,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOT-GARDEN ROSE + 3338326987",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BELGIOS MOZZ 4 OZ + 3114200475 + Sale 2 for $2.79",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BELGIOS MOZZ 4 OZ + 3114200475 + Sale 2 for $2.79",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MARGHRITA SL PEPRO + 20136400000",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2BGO UNC SMKD TUR + 20895600000",
+          "quantity": 1,
+          "unitPrice": 14.13,
+          "totalSpend": 14.13,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MICELIS PROVOLONE + 20947300000",
+          "quantity": 1,
+          "unitPrice": 4.07,
+          "totalSpend": 4.07,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAPLE HONEY HA + 20190300000 + Sale 0.53 lb. @ $9.99/lb.",
+          "quantity": 1,
+          "unitPrice": 5.82,
+          "totalSpend": 5.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "heinen's\nHeinen's of Brecksville\n8383 Chippewa Rd\nBrecksville, OH\n440-740-0535\nStore: 017 Cashier: Monica\nDAIRY DEPARTMENT\nHARTZ WHOLE MILK 64512512345 $5.99 F\nBottle Deposit $2.50\nMITCH CHOC PB CUP 85028600119 $7.79 F\nKEVIN ORANGE CHICK 81026402715 $6.39 F\nGROCERY DEPARTMENT\nSHWTR TROP LEMONA 85003644413 $1.99 F\n1 @ Sale 3 for $5.00 -$0.32\nOH SEAWD SNK WASAB 81167C03183 $1.99 F\nCHICA TORT CHP ORI 85442000349 $4.79 F\n1 @ Sale 2 for $4.79 -$2.40\nCHICA TORT CHP ORI 85442000349 $4.79 F\n1 @ Sale 2 for $4.79 -$2.40\nPRODUCE DEPARTMENT\nAPPLES-SUGAR BEE 3486 $6.60 F\nSale 1.89 lb. @ $1.99/lb. -$2.84\nBOT-GARDEN ROSE 3338326987 $9.99 T1\nFOOD SERVICE DEPARTMENT\nBELGIOS MOZZ 4 OZ 3114200475 $2.79 F\n1 @ Sale 2 for $2.79 -$1.40\nBELGIOS MOZZ 4 OZ 3114200475 $2.79 F\n1 @ Sale 2 for $2.79 -$1.40\nMARGHRITA SL PEPRO 20136400000 $3.50 F\n2BGO UNC SMKD TUR 20895600000 $14.13 F\nMICELIS PROVOLONE 20947300000 $4.07 F\nMAPLE HONEY HA 20190300000 $5.82 F\nSale 0.53 lb. @ $9.99/lb. -$0.53\nSale Total -$11.29\nSUBTOTAL $72.15\nTax 1 @ 8% [$9.99] $0.80\nBottle Deposit Total $2.50\nTOTAL $75.45\nDiscover $75.45\n# ************8666\nTOTAL SAVINGS\n$11.29\nTrs#: 311754 Reg:4 04/17/26 08:30:42\n04/17/2026 08:30:39\nDiscover Entry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX8666\nPURCHASE - APPROVED\nAUTH CODE:01767P\nMode Issuer\nAID: A0000001523010\nTVR: 8000008000\nIAD: 01152090000003500B00001000000005\nTOC\nTSI: 0800 ARC: 00\nTC: D7545B6347F4C1DF\nMID: 577024 TID: 001 RRN: 400176\nTotal: USD$ 75.45\nGeneral Manager\nJosh Carter\nThank You!\nMonday to Friday 8 am - 8 pm\nSaturday and Sunday 8 am - 7 pm\nVisit us at heinens.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 36132.842791,
+        "totalUsd": 0.075549,
+        "inputTokens": 3692,
+        "outputTokens": 2510,
+        "reasoningTokens": 5269
+      },
+      "fields": {
+        "storeName": {
+          "value": "Heinen's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "75.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:30:42",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Brecksville",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8383 Chippewa Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8666",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HARTZ WHOLE MILK + 64512512345",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Bottle Deposit",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MITCH CHOC PB CUP + 85028600119",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEVIN ORANGE CHICK + 81026402715",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 6.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHNWR TROP LEMONA + 85003644413 + 1 @ Sale 3 for $5.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.67,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OH SEAWD SNK WASAB + 81167003183",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHICA TORT CHP ORI + 85442000349 + 1 @ Sale 2 for $4.79",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHICA TORT CHP ORI + 85442000349 + 1 @ Sale 2 for $4.79",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "APPLES-SUGAR BEE + 3486 + Sale 1.89 lb. @ $1.99/lb.",
+          "quantity": 1,
+          "unitPrice": 6.6,
+          "totalSpend": 3.76,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BQT-GARDEN ROSE + 3338326987",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BELGIOS MOZZ 4 OZ + 3114200475 + 1 @ Sale 2 for $2.79",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BELGIOS MOZZ 4 OZ + 3114200475 + 1 @ Sale 2 for $2.79",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MARGHRITA SL PEPRO + 20136400000",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2B60 UNC SMKD TUR + 20895600000",
+          "quantity": 1,
+          "unitPrice": 14.13,
+          "totalSpend": 14.13,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MICELIS PROVOLONE + 20947300000",
+          "quantity": 1,
+          "unitPrice": 4.07,
+          "totalSpend": 4.07,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAPLE HONEY HA, + 20190300000 + Sale 0.53 lb. @ $9.99/lb.",
+          "quantity": 1,
+          "unitPrice": 5.82,
+          "totalSpend": 5.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "heinen's\nHeinen's of Brecksville\n8383 Chippewa Rd\nBrecksville, OH\n440-740-0535\n\nStore: 017          Cashier: Monica\n\nDAIRY DEPARTMENT\nHARTZ WHOLE MILK      64512512345 $5.99 F\nBottle Deposit                    $2.50\nMITCH CHOC PB CUP     85028600119 $7.79 F\nKEVIN ORANGE CHICK    81026402715 $6.39 F\nGROCERY DEPARTMENT\nSHNWR TROP LEMONA     85003644413 $1.99 F\n 1 @ Sale 3 for $5.00             -$0.32\nOH SEAWD SNK WASAB    81167003183 $1.99 F\nCHICA TORT CHP ORI    85442000349 $4.79 F\n 1 @ Sale 2 for $4.79             -$2.40\nCHICA TORT CHP ORI    85442000349 $4.79 F\n 1 @ Sale 2 for $4.79             -$2.40\nPRODUCE DEPARTMENT\nAPPLES-SUGAR BEE             3486 $6.60 F\n Sale 1.89 lb. @ $1.99/lb.        -$2.84\nBQT-GARDEN ROSE        3338326987 $9.99 T1\nFOOD SERVICE DEPARTMENT\nBELGIOS MOZZ 4 OZ     3114200475 $2.79 F\n 1 @ Sale 2 for $2.79             -$1.40\nBELGIOS MOZZ 4 OZ     3114200475 $2.79 F\n 1 @ Sale 2 for $2.79             -$1.40\nMARGHRITA SL PEPRO    20136400000 $3.50 F\n2B60 UNC SMKD TUR    20895600000 $14.13 F\nMICELIS PROVOLONE    20947300000 $4.07 F\nMAPLE HONEY HA,      20190300000 $5.82 F\n Sale 0.53 lb. @ $9.99/lb.        -$0.53\n\nSale Total                        -$11.29\nSUBTOTAL                           $72.15\nTax 1 @ 8% [$9.99]                  $0.80\nBottle Deposit Total                $2.50\n\nTOTAL                              $75.45\nDiscover                           $75.45\n# ************8666\n\n               TOTAL SAVINGS\n                  $11.29\n\nTrs#: 311754   Reg:4   04/17/26 08:30:42\n\n04/17/2026                       08:30:39\nDiscover             Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX8666\nPURCHASE             - APPROVED\nAUTH CODE:01767P\n\nMode                               Issuer\nAID:                       A0000001523010\nTVR:                           8000008000\nIAD:     01152090000003500B00001000000005\nTSI:  0800                 ARC:        00\nTC:                      D7545B6347F4C1DF\nMID: 577024    TID: 001       RRN: 400176\n\nTotal:                          USD$ 75.45\n\n               General Manager\n                 Josh Carter\n\n                 Thank You!\n\n          Monday to Friday 8 am - 8 pm\n         Saturday and Sunday 8 am - 7 pm\n             Visit us at heinens.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 11953.373459,
+        "totalUsd": 0.027561,
+        "inputTokens": 3692,
+        "outputTokens": 2447,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Heinen's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "75.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:30:42",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44141",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brecksville",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8383 Chippewa Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8666",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HARTZ WHOLE MILK + 64512512345",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Bottle Deposit",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MITCH CHOC PB CUP + 85028600119",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KEVIN ORANGE CHICK + 81026402715",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 6.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHWTR TROP LEMONA + 85003644413 + Sale 3 for $5.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OH SEAWD SNK WASAB + 81167003183",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHICA TORT CHP ORI + 85442000349 + Sale 2 for $4.79",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHICA TORT CHP ORI + 85442000349 + Sale 2 for $4.79",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "APPLES-SUGAR BEE + 3486 + Sale 1.89 lb. @ $1.99/lb.",
+          "quantity": 1,
+          "unitPrice": 6.6,
+          "totalSpend": 3.76,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BQT-GARDEN ROSE + 3338326987",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BELGIOS MOZZ 4 OZ + 3114200475 + Sale 2 for $2.79",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BELGIOS MOZZ 4 OZ + 3114200475 + Sale 2 for $2.79",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MARGHRITA SL PEPRO + 20136400000",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2B&G UNC SMKD TUR + 20895600000",
+          "quantity": 1,
+          "unitPrice": 14.13,
+          "totalSpend": 14.13,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MICELIS PROVOLONE + 20947300000",
+          "quantity": 1,
+          "unitPrice": 4.07,
+          "totalSpend": 4.07,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAPLE HONEY HA + 20190300000 + Sale 0.53 lb. @ $9.99/lb.",
+          "quantity": 1,
+          "unitPrice": 5.82,
+          "totalSpend": 5.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "heinen's\nHeinen's of Brecksville\n8383 Chippewa Rd\nBrecksville, OH\n440-740-0535\nStore: 017\nCashier: Monica\nDAIRY DEPARTMENT\nHARTZ WHOLE MILK 64512512345 $5.99 F\nBottle Deposit $2.50\nMITCH CHOC PB CUP 85028600119 $7.79 F\nKEVIN ORANGE CHICK 81026402715 $6.39 F\nGROCERY DEPARTMENT\nSHWTR TROP LEMONA 85003644413 $1.99 F\n1 @ Sale 3 for $5.00 -$0.32\nOH SEAWD SNK WASAB 81167003183 $1.99 F\nCHICA TORT CHP ORI 85442000349 $4.79 F\n1 @ Sale 2 for $4.79 -$2.40\nCHICA TORT CHP ORI 85442000349 $4.79 F\n1 @ Sale 2 for $4.79 -$2.40\nPRODUCE DEPARTMENT\nAPPLES-SUGAR BEE 3486 $6.60 F\nSale 1.89 lb. @ $1.99/lb. -$2.84\nBQT-GARDEN ROSE 3338326987 $9.99 T1\nFOOD SERVICE DEPARTMENT\nBELGIOS MOZZ 4 OZ 3114200475 $2.79 F\n1 @ Sale 2 for $2.79 -$1.40\nBELGIOS MOZZ 4 OZ 3114200475 $2.79 F\n1 @ Sale 2 for $2.79 -$1.40\nMARGHRITA SL PEPRO 20136400000 $3.50 F\n2B&G UNC SMKD TUR 20895600000 $14.13 F\nMICELIS PROVOLONE 20947300000 $4.07 F\nMAPLE HONEY HA 20190300000 $5.82 F\nSale 0.53 lb. @ $9.99/lb. -$0.53\nSale Total -$11.29\nSUBTOTAL $72.15\nTax 1 @ 8% [$9.99] $0.80\nBottle Deposit Total $2.50\nTOTAL $75.45\nDiscover $75.45\n# ************8666\nTOTAL SAVINGS\n$11.29\nTrs#: 311754 Reg:4 04/17/26 08:30:42\n04/17/2026 08:30:39\nDiscover Entry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX8666\nPURCHASE - APPROVED\nAUTH CODE: 01767P\nMode Issuer\nAID: A0000001523010\nTVR: 8000008000\nIAD: 01152090000003500B00001000000005\nTSI: 0800 ARC: 00\nTC: D7545B6347F4C1DF\nMID: 577024 TID: 001 RRN: 400176\nTotal: USD$ 75.45\nGeneral Manager\nJosh Carter\nThank You!\nMonday to Friday 8 am - 8 pm\nSaturday and Sunday 8 am - 7 pm\nVisit us at heinens.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HARTZ WHOLE MILK + 64512512345",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "Bott e Deoosit",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "MITCH CHOC PB CUP + 85028600119",
+      "price": 7.79,
+      "quantity": 1,
+      "totalSpend": 7.79
+    },
+    {
+      "text": "KEVIN ORANGE CHICK + 81026402715 + GROCERY DEPARTMENT",
+      "price": 6.39,
+      "quantity": 1,
+      "totalSpend": 6.39
+    },
+    {
+      "text": "SHNW R TROP LEMONA + 85003644413",
+      "price": 1.67,
+      "quantity": 1,
+      "totalSpend": 1.67
+    },
+    {
+      "text": "OH SEAWD SNK WASAB + 81167003188",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "CHICA TORT CHP ORI + 85442000349",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "CHICA TORT CHP ORI + 85442000349",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "APPLES-SUGAR BEE + 3486",
+      "price": 3.76,
+      "quantity": 1,
+      "totalSpend": 3.76
+    },
+    {
+      "text": "BQT-GARDEN ROSE + 3338326987 + FOOD SERVICE DEPARTMENT",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "BEL GIOS MOZZ 4 OZ + 3114200475",
+      "price": 1.39,
+      "quantity": 1,
+      "totalSpend": 1.39
+    },
+    {
+      "text": "BEL GIOS MOZZ 4 OZ + 3114200475",
+      "price": 1.39,
+      "quantity": 1,
+      "totalSpend": 1.39
+    },
+    {
+      "text": "MARGHRITA SL PEPRO + 20136400000",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "2BRO UNC SMKD TUR + 20895600000",
+      "price": 14.13,
+      "quantity": 1,
+      "totalSpend": 14.13
+    },
+    {
+      "text": "MICELIS PROVOLONE + 20947300000",
+      "price": 4.07,
+      "quantity": 1,
+      "totalSpend": 4.07
+    },
+    {
+      "text": "MAPLE HONEY HA + 20190300000",
+      "price": 5.29,
+      "quantity": 1,
+      "totalSpend": 5.29
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

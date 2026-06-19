@@ -1,0 +1,282 @@
+{
+  "id": "cmpdiaur40063uqza0g1qdedj",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "NuTrail",
+  "amount": 8.82,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "15.91",
+    "purchaseDate": "2026-05-13",
+    "time": null,
+    "zipCode": "77019",
+    "city": "Houston",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10626.34750000003,
+        "totalUsd": 0.014013,
+        "inputTokens": 6114,
+        "outputTokens": 538,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:14pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ozarka Texas Spring Water, 1 Gal, Single Plastic Jug + 0.9¢/fl oz + $0.30 from savings",
+          "quantity": 1,
+          "unitPrice": 1.43,
+          "totalSpend": 1.13,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CitriStrip Paint & Varnish Stripping Gel, Citrus Scent, 1 Quart + 42.1¢/fl oz + Multipack Quantity: 1",
+          "quantity": 1,
+          "unitPrice": 13.48,
+          "totalSpend": 13.48,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "8:00\nMay 13, 2026 order\n0\n$0.00\nOrder# 2000147-01606583\nWILFREDO delivered your order.\nWant to say thanks?\nAdd tip\nDelivery from store\nDelivered today at 5:14pm\nReturn eligible until Tue, Aug 11\nPlaced\nPreparing\nOn the way\nDelivered\nView delivery details\nDelivery dropped off today\nView delivery photo\n10 items received\nOzarka Texas Spring Water, 1 Gal, Single Plastic Jug\n0.9¢/fl oz\nQty 1\n$0.30 from savings\n$1.13\n$1.43\nReview item\n+ Add\nCitriStrip Paint & Varnish Stripping Gel, Citrus Scent, 1 Quart\n42.1¢/fl oz\nMultipack Quantity: 1\nQty 1\n$13.48",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8211.123499999987,
+        "totalUsd": 0.018906,
+        "inputTokens": 3706,
+        "outputTokens": 495,
+        "reasoningTokens": 988
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:14pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ozarka Texas Spring Water, 1 Gal, Single Plastic Jug",
+          "quantity": 1,
+          "unitPrice": 1.43,
+          "totalSpend": 1.13,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CitriStrip Paint & Varnish Stripping Gel, Citrus Scent, 1 Quart",
+          "quantity": 1,
+          "unitPrice": 13.48,
+          "totalSpend": 13.48,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "8:00\nMay 13, 2026 order\n$0.00\nOrder# 2000147-01606583\nWILFREDO delivered your order.\nWant to say thanks?\nAdd tip\nDelivery from store\nDelivered today at 5:14pm\nReturn eligible until Tue, Aug 11\nPlaced\nPreparing\nOn the way\nDelivered\nView delivery details\nDelivery dropped off today\nView delivery photo\n10 items received\nOzarka Texas Spring Water, 1 Gal, Single Plastic Jug\n$1.13\n$1.43\n0.9¢/fl oz\nQty 1\n$0.30 from savings\nReview item\n+ Add\nCitriStrip Paint & Varnish Stripping Gel, Citrus Scent, 1 Quart\n$13.48\n42.1¢/fl oz\nMultipack Quantity: 1\nQty 1",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3786.868291999999,
+        "totalUsd": 0.009951,
+        "inputTokens": 3706,
+        "outputTokens": 488,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:14 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ozarka Texas Spring Water, 1 Gal, Single Plastic Jug",
+          "quantity": 1,
+          "unitPrice": 1.43,
+          "totalSpend": 1.13,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CitriStrip Paint & Varnish Stripping Gel, Citrus Scent, 1 Quart",
+          "quantity": 1,
+          "unitPrice": 13.48,
+          "totalSpend": 13.48,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "8:00\nMay 13, 2026 order\nOrder# 2000147-01606583\nWILFREDO delivered your order.\nWant to say thanks?\nAdd tip\nDelivery from store\nDelivered today at 5:14pm\nReturn eligible until Tue, Aug 11\nPlaced\nPreparing\nOn the way\nDelivered\nView delivery details\nDelivery dropped off today\nView delivery photo\n10 items received\nOzarka Texas Spring Water, 1 Gal, Single Plastic Jug\n0.9¢/fl oz\nQty 1\n$0.30 from savings\n$1.13\n$1.43\nReview item\n+ Add\nCitriStrip Paint & Varnish Stripping Gel, Citrus Scent, 1 Quart\n42.1¢/fl oz\nMultipack Quantity: 1\nQty 1\n$13.48",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Ozarka Texas Spring Water, 1 Gal, Single $1.13",
+      "price": 1.13,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Plastic Jug $1.43",
+      "price": 1.43,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$0.30 from savings",
+      "price": 0.3,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "CitriStrip Paint & Varnish Stripping Gel, $13.48",
+      "price": 13.48,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

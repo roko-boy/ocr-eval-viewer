@@ -1,0 +1,243 @@
+{
+  "id": "cmoou0lfh00rtmuyjtlbki0uj",
+  "url": null,
+  "retailer": "Dierbergs Markets - Edwardsville Crossing",
+  "brand": "Perfect Bar",
+  "amount": 0.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Dierbergs Markets",
+    "totalCost": "3.11",
+    "purchaseDate": "2026-05-02",
+    "time": null,
+    "zipCode": "62025",
+    "city": "Edwardsville",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6773.132833999996,
+        "totalUsd": 0.014448,
+        "inputTokens": 6086,
+        "outputTokens": 591,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dierbergs",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:00:17",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "62025",
+          "status": "match"
+        },
+        "city": {
+          "value": "Edwardsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6671 Edwardsville Crossing Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PERFCT BAR",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Dierbergs\n6671 Edwardsville Crossing Dr\nEdwardsville, IL 62025\n618-307-3800\nStore Director: Michelle Anderson\nGROCERY\nPERFCT BAR $2.89 T F\nSUBTOTAL $2.89\nTax 2 HI $0.22\nORDER TOTAL $3.11\nCASH $5.11\nCHANGE $2.00\n****************************************\nDIERBERGS REWARDS\nPoints Earned Today: 43\nCurrent Points Balance: 73\nPoints Until Next Reward: 1427\nMember XXX-XXX- 6571\n****************************************\n000-24037-64872-02605-02160-016\nC0437 #6487 16:00:17 2MAY2026\nS00024 R037\nPlan, shop & save. All in one place.\nDownload the Dierbergs app today.\nThanks for shopping at Dierbergs!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9777.435665999998,
+        "totalUsd": 0.024069,
+        "inputTokens": 3692,
+        "outputTokens": 620,
+        "reasoningTokens": 1439
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dierbergs",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:00:17",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "62025",
+          "status": "match"
+        },
+        "city": {
+          "value": "Edwardsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6671 Edwardsville Crossing Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6571",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PERFCT BAR",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Dierbergs\n6671 Edwardsville Crossing Dr\nEdwardsville, IL 62025\n618-307-3800\nStore Director: Michelle Anderson\n\nGROCERY\nPERFCT BAR $2.89 T F\n\nSUBTOTAL $2.89\nTax 2 HI $0.22\nORDER TOTAL $3.11\nCASH $5.11\n\nCHANGE $2.00\n******************************************\nDIERBERGS REWARDS\nPoints Earned Today: 43\nCurrent Points Balance: 73\nPoints Until Next Reward: 1427\nMember XXX-XXX- 6571\n******************************************\n\n000-24037-64872-02605-02160-016\n\nC0437 #6487 16:00:17 2MAY2026\nS00024 R037\n\nPlan, shop & save. All in one place.\nDownload the Dierbergs app today.\n\nThanks for shopping at Dierbergs!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4250.754500000003,
+        "totalUsd": 0.011001,
+        "inputTokens": 3692,
+        "outputTokens": 607,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dierbergs",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:00:17",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "62025",
+          "status": "match"
+        },
+        "city": {
+          "value": "Edwardsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6671 Edwardsville Crossing Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PERFCT BAR",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Dierbergs\n6671 Edwardsville Crossing Dr\nEdwardsville, IL 62025\n618-307-3800\nStore Director: Michelle Anderson\nGROCERY\nPERFCT BAR\n$2.89 T F\nSUBTOTAL\n$2.89\nTax 2 HI\n$0.22\nORDER TOTAL\n$3.11\nCASH\n$5.11\nCHANGE\n$2.00\n****************************************\nDIERBERGS REWARDS\nPoints Earned Today: 43\nCurrent Points Balance: 73\nPoints Until Next Reward: 1427\nMember XXX-XXX- 6571\n****************************************\n000-24037-64872-02605-02160-016\nC0437 #6487 16:00:17\nS00024 R037\n2MAY2026\nPlan, shop & save. All in one place.\nDownload the Dierbergs app today.\nThanks for shopping at Dierbergs!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PERFCT BAR",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

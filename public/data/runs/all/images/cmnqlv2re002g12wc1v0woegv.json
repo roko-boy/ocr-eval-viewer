@@ -1,0 +1,459 @@
+{
+  "id": "cmnqlv2re002g12wc1v0woegv",
+  "url": null,
+  "retailer": "Stop & Shop",
+  "brand": "Wow Bao",
+  "amount": 7.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Stop & Shop",
+    "totalCost": "47.1",
+    "purchaseDate": "2026-04-08",
+    "time": null,
+    "zipCode": "11779",
+    "city": "Lake Ronkonkoma",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9096.543375000008,
+        "totalUsd": 0.024078,
+        "inputTokens": 6086,
+        "outputTokens": 1661,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "STOP & SHOP",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "47.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:57pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11779",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKE RONKONKOMA",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "449 PORTION ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9735",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIGGIS 0% PLN 24",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WOWB TRKI CKN + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 6.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WOWB CHN BBQ + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YASSO STRW CRM + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TSC LEMON JUICE + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORG SILKEN TOFU",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG SILKEN TOFU",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB SUMO ORANGES + 3.72 lb @ 3.99 /lb + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 14.84,
+          "totalSpend": 10.3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RED CABBAGE + 1.87 lb @ 1.69 /lb",
+          "quantity": 1,
+          "unitPrice": 3.16,
+          "totalSpend": 3.16,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n449 PORTION ROAD\nLAKE RONKONKOMA, NY 11779\nStore Telephone: (631) 737-1576\nPharmacy Telephone: (631) 737-1736\nStore #544 04/08/26 05:57pm\nDAIRY\nSIGGIS 0% PLN 24 6.99 F\nFROZEN FOOD\nWOWB TRKI CKN 7.79 F\nSAVINGS 1.00-F\nPRICE YOU PAY 6.79\nWOWB CHN BBQ 7.79 F\nSAVINGS 1.00-F\nPRICE YOU PAY 6.79\nYASSO STRW CRM 6.99 F\nSAVINGS 2.00-F\nPRICE YOU PAY 4.99\nGROCERY\nTSC LEMON JUICE 2.19 F\nSAVINGS 0.69-F\nPRICE YOU PAY 1.50\nPRODUCE\nORG SILKEN TOFU 3.29 F\nORG SILKEN TOFU 3.29 F\n3.72 lb @ 3.99 /lb\nWT SB SUMO ORANGES 14.84 F\n3.72 lb @ 2.77 /lb = 10.30\nSAVINGS 4.54-F\nPRICE YOU PAY 10.30\n1.87 lb @ 1.69 /lb\nWT RED CABBAGE 3.16 F\nTotal After Savings 47.10\nTAX 0.00\n**** BALANCE 47.10\n*************************************\nPayment Type: Mastercard\nEMV CONTACTLESS Purchase\nCard: ************9735\nPayment Amt: $47.10\nBALANCE: $\nAID: A0000000041010\nAUTH#00896B RC#00 04/08/26 05:58pm\n*************************************\nMASTERCARD 47.10\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\n********* SAVINGS SUMMARY *********\nCard Savings: 9.23\nYour Total Savings: 9.23\n04/08/26 05:58pm 544 402 115 880002\n*************************************\n******* GO POINTS *******\nGO Points Today 47\nTotal GO Points 294\n100 GO Points = $1 off your next in-\nstore or online grocery order, or\n$.10 off each gallon of gas at\nparticipating fuel sites. Open our\napp or website to redeem your points.\nChoose your rewards by the end of\nnext month, or points will expire.\nMembers will have until the end of\nthe following month to redeem their\nchosen savings. Restrictions apply.\nVisit StopandShop.com/Rewards for\ndetails.\n*************************************\n2026 CARD SAVINGS\n$35.56\n*************************************\nCustomer 22******9835\nwww.StopAndShop.com\nThank you for shopping STOP & SHOP\nJennifer Lodico, Store Manager\nSELF-CHECKOUT, Your Cashier",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14602.73174999998,
+        "totalUsd": 0.037146,
+        "inputTokens": 3692,
+        "outputTokens": 1661,
+        "reasoningTokens": 1851
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "47.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:57pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11779",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKE RONKONKOMA",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "449 PORTION ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9735",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIGGIS 0% PLN 24",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WOWB TRKI CKN + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 6.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WOWB CHN BBQ + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YASSO STRW CRM + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TSC LEMON JUICE + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORG SILKEN TOFU",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG SILKEN TOFU",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB SUMO ORANGES + 3.72 lb @ 2.77 /lb + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 14.84,
+          "totalSpend": 10.3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RED CABBAGE + 1.87 lb @ 1.69 /lb",
+          "quantity": 1,
+          "unitPrice": 3.16,
+          "totalSpend": 3.16,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n449 PORTION ROAD\nLAKE RONKONKOMA, NY 11779\nStore Telephone: (631) 737-1576\nPharmacy Telephone: (631) 737-1736\nStore #544 04/08/26 05:57pm\nDAIRY\nSIGGIS 0% PLN 24 6.99 F\nFROZEN FOOD\nWOWB TRKI CKN 7.79 F\nSAVINGS 1.00-F\nPRICE YOU PAY 6.79\nWOWB CHN BBQ 7.79 F\nSAVINGS 1.00-F\nPRICE YOU PAY 6.79\nYASSO STRW CRM 6.99 F\nSAVINGS 2.00-F\nPRICE YOU PAY 4.99\nGROCERY\nTSC LEMON JUICE 2.19 F\nSAVINGS 0.69-F\nPRICE YOU PAY 1.50\nPRODUCE\nORG SILKEN TOFU 3.29 F\nORG SILKEN TOFU 3.29 F\n3.72 lb @ 3.99 /lb\nWT SB SUMO ORANGES 14.84 F\n3.72 lb @ 2.77 /lb = 10.30\nSAVINGS 4.54-F\nPRICE YOU PAY 10.30\n1.87 lb @ 1.69 /lb\nWT RED CABBAGE 3.16 F\nTotal After Savings 47.10\nTAX 0.00\n**** BALANCE 47.10\n*************************************\nPayment Type: Mastercard\nEMV CONTACTLESS Purchase\nCard: ************9735\nPayment Amt: $47.10\nBALANCE: $\nAID: A0000000041010\nAUTH#00896B RC#00 04/08/26 05:58pm\n*************************************\nMASTERCARD 47.10\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\n********* SAVINGS SUMMARY *********\nCard Savings: 9.23\nYour Total Savings: 9.23\n04/08/26 05:58pm 544 402 115 880002\n*************************************\n******* GO POINTS *******\nGO Points Today 47\nTotal GO Points 294\n100 GO Points = $1 off your next in-\nstore or online grocery order, or\n$.10 off each gallon of gas at\nparticipating fuel sites. Open our\napp or website to redeem your points.\nChoose your rewards by the end of\nnext month, or points will expire.\nMembers will have until the end of\nthe following month to redeem their\nchosen savings. Restrictions apply.\nVisit StopandShop.com/Rewards for\ndetails.\n*************************************\n2026 CARD SAVINGS\n$35.56\n*************************************\nCustomer 22******9835\nwww.StopandShop.com\nThank you for shopping STOP & SHOP\nJennifer Lodico, Store Manager\nSELF-CHECKOUT, Your Cashier",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7927.016333000007,
+        "totalUsd": 0.020388,
+        "inputTokens": 3692,
+        "outputTokens": 1650,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "STOP & SHOP",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "47.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:57pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11779",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAKE RONKONKOMA",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "449 PORTION ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9735",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIGGIS 0% PLN 24",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WOWB TRKI CKN + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 6.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WOWB CHN BBQ + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YASSO STRW CRM + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TSC LEMON JUICE + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORG SILKEN TOFU",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG SILKEN TOFU",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB SUMO ORANGES + 3.72 lb @ 3.99 /lb + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 14.84,
+          "totalSpend": 10.3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RED CABBAGE + 1.87 lb @ 1.69 /lb",
+          "quantity": 1,
+          "unitPrice": 3.16,
+          "totalSpend": 3.16,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n449 PORTION ROAD\nLAKE RONKONKOMA, NY 11779\nStore Telephone: (631) 737-1576\nPharmacy Telephone: (631) 737-1736\nStore #544 04/08/26 05:57pm\nDAIRY\nSIGGIS 0% PLN 24 6.99 F\nFROZEN FOOD\nWOWB TRKI CKN 7.79 F\nSAVINGS 1.00-F\nPRICE YOU PAY 6.79\nWOWB CHN BBQ 7.79 F\nSAVINGS 1.00-F\nPRICE YOU PAY 6.79\nYASSO STRW CRM 6.99 F\nSAVINGS 2.00-F\nPRICE YOU PAY 4.99\nGROCERY\nTSC LEMON JUICE 2.19 F\nSAVINGS 0.69-F\nPRICE YOU PAY 1.50\nPRODUCE\nORG SILKEN TOFU 3.29 F\nORG SILKEN TOFU 3.29 F\n3.72 lb @ 3.99 /lb\nWT SB SUMO ORANGES 14.84 F\n3.72 lb @ 2.77 /lb = 10.30\nSAVINGS 4.54-F\nPRICE YOU PAY 10.30\n1.87 lb @ 1.69 /lb\nWT RED CABBAGE 3.16 F\nTotal After Savings 47.10\nTAX 0.00\n**** BALANCE 47.10\n***********************************\nPayment Type: Mastercard\nEMV CONTACTLESS Purchase\nCard: ************9735\nPayment Amt: $47.10\nBALANCE: $\nAID: A0000000041010\nAUTH#00896B RC#00 04/08/26 05:58pm\n***********************************\nMASTERCARD 47.10\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\n********* SAVINGS SUMMARY *********\nCard Savings: 9.23\nYour Total Savings: 9.23\n04/08/26 05:58pm 544 402 115 880002\n***********************************\n******* GO POINTS *******\nGO Points Today 47\nTotal GO Points 294\n100 GO Points = $1 off your next in-\nstore or online grocery order, or\n$.10 off each gallon of gas at\nparticipating fuel sites. Open our\napp or website to redeem your points.\nChoose your rewards by the end of\nnext month, or points will expire.\nMembers will have until the end of\nthe following month to redeem their\nchosen savings. Restrictions apply.\nVisit StopandShop.com/Rewards for\ndetails.\n***********************************\n2026 CARD SAVINGS\n$35.56\n***********************************\nCustomer 22******9835\nwww.StopAndShop.com\nThank you for shopping STOP & SHOP\nJennifer Lodico, Store Manager\nSELF-CHECKOUT, Your Cashier",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SIGGIS 0% PLN 24 + DAIRY + FROZEN FOOD",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "WOWB TRKI CKN + FROZEN FOOD",
+      "price": 6.79,
+      "quantity": 1,
+      "totalSpend": 6.79
+    },
+    {
+      "text": "WOWB CHN BBQ",
+      "price": 6.79,
+      "quantity": 1,
+      "totalSpend": 6.79
+    },
+    {
+      "text": "YASSO STRW CRM",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "TSC LEMON JUICE + GROCERY",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "ORG SILKEN TOFU + PRODUCE",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "ORG SILKEN TOFU + 3.72 lb @ 3.99 /lb",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "SB SUMO ORANGES + 3.72 lb @ 2.77 /lb = 10.30",
+      "price": 10.3,
+      "quantity": 1,
+      "totalSpend": 10.3
+    },
+    {
+      "text": "RED CABBAGE + 1.87 lb @ 1.69 /lb",
+      "price": 1.69,
+      "quantity": 1,
+      "totalSpend": 3.16
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,270 @@
+{
+  "id": "cmnjf0mkg00fc9u4aukifqm3b",
+  "url": null,
+  "retailer": "Tom Thumb",
+  "brand": "nutpods",
+  "amount": 6.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Tom Thumb",
+    "totalCost": "10.48",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "75034",
+    "city": "FRISCO",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13365.578917,
+        "totalUsd": 0.016788,
+        "inputTokens": 6086,
+        "outputTokens": 851,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tom Thumb",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:22",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75034",
+          "status": "match"
+        },
+        "city": {
+          "value": "FRISCO",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5550 FM 423",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6768",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "85001433501 LIKE AIR PUFFCORN",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85992200758 NUTPODS ALMND CCNT",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Tom Thumb\nStore 2963 Dir Rich Koch\nMain: (214) 494-6213 Rx:\n5550 FM 423\nFRISCO TX 75034\n00296305201432604031622\nYOUR CASHIER TODAY WAS SELF\nGROCERY Price You Pay\n85001433501 LIKE AIR PUFFCORN 3.99 3.99 S\nREFRIG/FROZEN\n85992200758 NUTPODS ALMND CCNT 6.49 6.49 S\nTAX 0.00\n**** BALANCE 10.48\nCredit Purchase 04/03/26 16:22\nCARD # ************6768\nREF: 492231467680 AUTH: 0006981B\nPAYMENT AMOUNT 10.48\nAL MASTERCARD\nAID A0000000041010\nTVR 0000008000\nMastercard 10.48\nCHANGE 0.00\nYOUR POINTS\nPoints Earned Today 10\nPoints Available 10\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/03/26 16:22 2963 52 143 8852\nThank you for shopping Tom Thumb!\nFor TOMTHUMB FOR U questions call\n877-276-9637 or Tomthumb.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8647.605333,
+        "totalUsd": 0.019263,
+        "inputTokens": 3692,
+        "outputTokens": 853,
+        "reasoningTokens": 672
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tom Thumb",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:22",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75034",
+          "status": "match"
+        },
+        "city": {
+          "value": "FRISCO",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5550 FM 423",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6768",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIKE AIR PUFFCORN + 85001433501",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NUTPODS ALMND CCNT + 85992200758",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Tom Thumb\nStore 2963 Dir Rich Koch\nMain: (214) 494-6213 Rx:\n5550 FM 423\nFRISCO TX 75034\n00296305201432604031622\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85001433501 LIKE AIR PUFFCORN\n3.99 3.99 S\nREFRIG/FROZEN\n85992200758 NUTPODS ALMND CCNT\n6.49 6.49 S\nTAX\n0.00\n**** BALANCE\n10.48\nCredit Purchase 04/03/26 16:22\nCARD # ************6768\nREF: 492231467680 AUTH: 0006981B\nPAYMENT AMOUNT\n10.48\nAL MASTERCARD\nAID A0000000041010\nTVR 0000008000\nMastercard\n10.48\nCHANGE\n0.00\nYOUR POINTS\nPoints Earned Today 10\nPoints Available 10\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/03/26 16:22 2963 52 143 8852\nThank you for shopping Tom Thumb!\nFor TOMTHUMB FOR U questions call\n877-276-9637 or Tomthumb.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4991.108166999999,
+        "totalUsd": 0.013242,
+        "inputTokens": 3692,
+        "outputTokens": 856,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tom Thumb",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:22",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75034",
+          "status": "match"
+        },
+        "city": {
+          "value": "FRISCO",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5550 FM 423",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6768",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIKE AIR PUFFCORN + 85001433501",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NUTPODS ALMND CCNT + 85992200758",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Tom Thumb\nStore 2963 Dir Rich Koch\nMain: (214) 494-6213 Rx:\n5550 FM 423\nFRISCO TX 75034\n00296305201432604031622\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85001433501 LIKE AIR PUFFCORN\n3.99 3.99 S\nREFRIG/FROZEN\n85992200758 NUTPODS ALMND CCNT\n6.49 6.49 S\nTAX\n0.00\n**** BALANCE\n10.48\nCredit Purchase 04/03/26 16:22\nCARD # ************6768\nREF: 492231467680 AUTH: 0006981B\nPAYMENT AMOUNT\n10.48\nAL MASTERCARD\nAID A0000000041010\nTVR 0000008000\nMastercard\n10.48\nCHANGE\n0.00\nYOUR POINTS\nPoints Earned Today 10\nPoints Available 10\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/03/26 16:22 2963 52 143 8852\nThank you for shopping Tom Thumb!\nFor TOMTHUMB for U questions call\n877-276-9637 or Tomthumb.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "LIKE AIR PUFFCORN + 85001433501 + REFRIG/FROZEN",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "NUTPODS ALMND CCNT + 85992200758",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

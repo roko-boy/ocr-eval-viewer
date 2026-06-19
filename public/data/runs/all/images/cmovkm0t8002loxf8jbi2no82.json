@@ -1,0 +1,547 @@
+{
+  "id": "cmovkm0t8002loxf8jbi2no82",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "80 Acres Farms",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "31.93",
+    "purchaseDate": "2026-05-07",
+    "time": null,
+    "zipCode": "30101",
+    "city": "Acworth",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16780.358167,
+        "totalUsd": 0.024789,
+        "inputTokens": 6086,
+        "outputTokens": 1740,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30152-3841 (implied from location, not printed, omitting zipCode as not printed on receipt to follow strict transcription rules - wait, zip is not printed, so omit zipCode field or leave null if not visible. I will omit it.)\nWait, let's look at the address block: 3330 NORTH COBB PKWY. No city, state, zip printed. I will omit city, state, zipCode as they are not printed on the receipt.\nLet's check phone numbers:\n770-975-8652\nLet's check purchaseDate:\n2026-05-07\nLet's check time:\n10:12am\nLet's check totalCost:\n31.93\nLet's check paymentMethod:\nDEBIT\nLet's check last4cc:\n3112\nLet's check storeName:\nKroger\nLet's check transactionNum:\n585393\nLet's check registerNum:\n9\nLet's check storeNum:\n397\nLet's check barcode:\nnull\nLet's check isEbt:\nfalse\nLet's check isScreen:\nfalse\nLet's check isDigital:\nfalse\nLet's check isReceipt:\ntrue\nLet's check phoneNumbers:\n[\"770-975-8652\"]",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "3330 NORTH COBB PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BLUEBERRIES PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "OXYCLEAN + eCpn OxiClean",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OXCLN STAIN RMVR PC + KROGER SAVINGS + eCpn OxiClean",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHIQ BANANAS + 3.61 lb @ 0.49 /lb",
+          "quantity": 1,
+          "unitPrice": 1.77,
+          "totalSpend": 1.77,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "80ACRES SALAD PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "HORMEL PEPPERONI PC",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HORMEL PEPPERONI PC",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HORMEL PEPPERONI PC",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP + $10 Off Sale",
+          "quantity": 1,
+          "unitPrice": 11.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE\n3330 NORTH COBB PKWY\n770-975-8652\nYour cashier was CARINA\nKROGER PLUS CUSTOMER *******9505\nBLUEBERRIES PC 4.99 B\nSC KROGER SAVINGS 4.00\nOXYCLEAN 6.99 T\nMC eCpn OxiClean 2.00\nOXCLN STAIN RMVR PC 7.99 T\nSC KROGER SAVINGS 1.00\nMC eCpn OxiClean 2.00\n3.61 (3.62) lb @ 0.49 /lb\nWT CHIQ BANANAS 1.77 B\nPROGRESSO SOUP 1.35 B\nPROGRESSO SOUP 1.35 B\n80ACRES SALAD PC 5.99 B\nSC KROGER SAVINGS 1.00\nHORMEL PEPPERONI PC 2.58 B\nHORMEL PEPPERONI PC 2.58 B\nHORMEL PEPPERONI PC 2.58 B\nPROGRESSO SOUP 1.35 B\nPROGRESSO SOUP 1.35 B\nSC $10 Off Sale 10.00-T\nTAX 1.06\n**** BALANCE 31.93\nDEBIT Purchase\n************3112 - H\nREF#: 585393 TOTAL: 31.93\nPURCHASE: 31.93 CASHBACK: 0.00\nAID: A0000000042203\nTC: E8F10164C7336ED0\nVERIFIED BY PIN\nDEBIT 31.93\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nMFG CPN SAVINGS $ 4.00\nSTR CPN & KROGER SAVINGS $ 16.00\nTOTAL COUPONS $ 20.00\nTOTAL SAVINGS (39 pct.) $ 20.00\n05/07/26 10:12am 397 9 11 15\n*********************************\nAnnual Card Savings $110.31\n*********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 35377.40512500005,
+        "totalUsd": 0.080274,
+        "inputTokens": 3692,
+        "outputTokens": 1512,
+        "reasoningTokens": 6792
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "31.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:12am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "3330 NORTH COBB PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3112",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BLUEBERRIES PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "OXYCLEAN + eCpn OxiClean",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OXCLN STAIN RMVR PC + KROGER SAVINGS + eCpn OxiClean",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHIQ BANANAS + 3.61 (3.62) lb @ 0.49 /lb",
+          "quantity": 1,
+          "unitPrice": 1.77,
+          "totalSpend": 1.77,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "80ACRES SALAD PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "HORMEL PEPPERONI PC",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HORMEL PEPPERONI PC",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HORMEL PEPPERONI PC",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE\n3330 NORTH COBB PKWY\n770-975-8652\nYour cashier was CARINA\nKROGER PLUS CUSTOMER *******9505\nBLUEBERRIES PC 4.99 B\nSC KROGER SAVINGS 4.00\nOXYCLEAN 6.99 T\nMC eCpn OxiClean 2.00\nOXCLN STAIN RMVR PC 7.99 T\nSC KROGER SAVINGS 1.00\nMC eCpn OxiClean 2.00\n3.61 (3.62) lb @ 0.49 /lb\nWT CHIQ BANANAS 1.77 B\nPROGRESSO SOUP 1.35 B\nPROGRESSO SOUP 1.35 B\n80ACRES SALAD PC 5.99 B\nSC KROGER SAVINGS 1.00\nHORMEL PEPPERONI PC 2.58 B\nHORMEL PEPPERONI PC 2.58 B\nHORMEL PEPPERONI PC 2.58 B\nPROGRESSO SOUP 1.35 B\nPROGRESSO SOUP 1.35 B\nSC $10 Off Sale 10.00-T\nTAX 1.06\n**** BALANCE 31.93\nDEBIT Purchase\n************3112 - H\nREF#: 585393 TOTAL: 31.93\nPURCHASE: 31.93 CASHBACK: 0.00\nAID: A0000000042203\nTC: E8F10164C7336ED0\nVERIFIED BY PIN\nDEBIT 31.93\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nMFG CPN SAVINGS $ 4.00\nSTR CPN & KROGER SAVINGS $ 16.00\nTOTAL COUPONS $ 20.00\nTOTAL SAVINGS (39 pct.) $ 20.00\n05/07/26 10:12am 397 9 11 15\n*********************************\nAnnual Card Savings $110.31",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8110.734124999988,
+        "totalUsd": 0.019479,
+        "inputTokens": 3692,
+        "outputTokens": 1549,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "31.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:12 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "ACWORTH",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3330 NORTH COBB PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3112",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BLUEBERRIES + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "OXYCLEAN + eCpn OxiClean",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OXCLN STAIN RMVR + KROGER SAVINGS + eCpn OxiClean",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHIQ BANANAS",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 1.77,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "80ACRES SALAD + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "HORMEL PEPPERONI",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HORMEL PEPPERONI",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HORMEL PEPPERONI",
+          "quantity": 1,
+          "unitPrice": 2.58,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROGRESSO SOUP",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "$10 Off Sale",
+          "quantity": 1,
+          "unitPrice": -10,
+          "totalSpend": -10,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE\n3330 NORTH COBB PKWY\n770-975-8652\nYour cashier was CARINA\nKROGER PLUS CUSTOMER *******9505\nBLUEBERRIES PC 4.99 B\nSC KROGER SAVINGS 4.00\nOXYCLEAN 6.99 T\nMC eCpn OxiClean 2.00\nOXCLN STAIN RMVR PC 7.99 T\nSC KROGER SAVINGS 1.00\nMC eCpn OxiClean 2.00\n3.61 (3.62) lb @ 0.49 /lb\nWT CHIQ BANANAS 1.77 B\nPROGRESSO SOUP 1.35 B\nPROGRESSO SOUP 1.35 B\n80ACRES SALAD PC 5.99 B\nSC KROGER SAVINGS 1.00\nHORMEL PEPPERONI PC 2.58 B\nHORMEL PEPPERONI PC 2.58 B\nHORMEL PEPPERONI PC 2.58 B\nPROGRESSO SOUP 1.35 B\nPROGRESSO SOUP 1.35 B\nSC $10 Off Sale 10.00-T\nTAX 1.06\n**** BALANCE 31.93\nDEBIT Purchase\n************3112 - H\nREF#: 585393 TOTAL: 31.93\nPURCHASE: 31.93 CASHBACK: 0.00\nAID: A0000000042203\nTC: E8F10164C7336ED0\nVERIFIED BY PIN\nDEBIT 31.93\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nMFG CPN SAVINGS $ 4.00\nSTR CPN & KROGER SAVINGS $ 16.00\nTOTAL COUPONS $ 20.00\nTOTAL SAVINGS (39 pct.) $ 20.00\n05/07/26 10:12am 397 9 11 15\n*********************************\nAnnual Card Savings $110.31",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BLUEBERRIES + SC KROGER SAVINGS 4.00",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "OXYCLEAN + MC eCpn OxiClean 2.00",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "OXCLN STAIN RMVR + SC KROGER SAVINGS 1.00 + MC eCpn OxiClean 2.00 + 3.61 (3.62) lb @ 0.49 /lb",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "CHIQ BANANAS + 3.61 (3.62) lb @ 0.49 /lb",
+      "price": 0.49,
+      "quantity": 1,
+      "totalSpend": 1.77
+    },
+    {
+      "text": "PROGRESSO SOUP",
+      "price": 1.35,
+      "quantity": 1,
+      "totalSpend": 1.35
+    },
+    {
+      "text": "PROGRESSO SOUP",
+      "price": 1.35,
+      "quantity": 1,
+      "totalSpend": 1.35
+    },
+    {
+      "text": "80ACRES SALAD + SC KROGER SAVINGS 1.00",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "HORMEL PEPPERONI",
+      "price": 2.58,
+      "quantity": 1,
+      "totalSpend": 2.58
+    },
+    {
+      "text": "HORMEL PEPPERONI",
+      "price": 2.58,
+      "quantity": 1,
+      "totalSpend": 2.58
+    },
+    {
+      "text": "HORMEL PEPPERONI",
+      "price": 2.58,
+      "quantity": 1,
+      "totalSpend": 2.58
+    },
+    {
+      "text": "PROGRESSO SOUP",
+      "price": 1.35,
+      "quantity": 1,
+      "totalSpend": 1.35
+    },
+    {
+      "text": "PROGRESSO SOUP",
+      "price": 1.35,
+      "quantity": 1,
+      "totalSpend": 1.35
+    }
+  ],
+  "disagreementCount": 5,
+  "nullCount": 0
+}

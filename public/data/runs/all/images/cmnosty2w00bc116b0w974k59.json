@@ -1,0 +1,513 @@
+{
+  "id": "cmnosty2w00bc116b0w974k59",
+  "url": null,
+  "retailer": "H-E-B plus!",
+  "brand": "PKN",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "62.99",
+    "purchaseDate": "2026-04-07",
+    "time": null,
+    "zipCode": "78130",
+    "city": "New Braunfels",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15863.48366599996,
+        "totalUsd": 0.02937,
+        "inputTokens": 6086,
+        "outputTokens": 2249,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:25 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78130",
+          "status": "match"
+        },
+        "city": {
+          "value": "New Braunfels",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2965 IH 35 N",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8988",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1LB STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 2.57,
+          "totalSpend": 2.57,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUEBERRIES PINT",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RASPBERRIES 6OZ",
+          "quantity": 1,
+          "unitPrice": 2.67,
+          "totalSpend": 2.67,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB BAG AVOCADOS 5CT + 10% VPP DISCOUN $0.60 orig 5.97 Ea.",
+          "quantity": 1,
+          "unitPrice": 5.97,
+          "totalSpend": 5.37,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB SI SUNRISE PEPPERS + 10% VPP DISCOUN $0.37 orig 3.68 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.68,
+          "totalSpend": 3.31,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KLEENEX FLAT LOTION 120CT + 3 Ea. @ 1/ 1.64 T + DC KLEENEX $0.34 orig 1.98 Ea.",
+          "quantity": 3,
+          "unitPrice": 1.98,
+          "totalSpend": 4.92,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "THIS PKN ORIG PECAN MILK + 2 Ea. @ 1/ 2.99 F + DC PKN MILK $3.00 orig 5.99 Ea.",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 5.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MOLLY SUDS DTRGNT UNSCNT T",
+          "quantity": 1,
+          "unitPrice": 23.48,
+          "totalSpend": 23.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUNI SPARKLING TEA PEACH + 2 Ea. @ 1/ 1.48 TF + DC JUNI TEA $1.00 orig 2.48 Ea.",
+          "quantity": 2,
+          "unitPrice": 2.48,
+          "totalSpend": 2.96,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "JUNI SPARKLING TEA RASPB + 2 Ea. @ 1/ 1.48 TF + DC JUNI TEA $1.00 orig 2.48 Ea.",
+          "quantity": 2,
+          "unitPrice": 2.48,
+          "totalSpend": 2.96,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SEEDLESS CUCUMBERS",
+          "quantity": 1,
+          "unitPrice": 0.97,
+          "totalSpend": 0.97,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1091 8612 0407 2610 2500 694\n1 1LB STRAWBERRIES FW 2.57 W\n2 BLUEBERRIES PINT FW 4.97 W\n3 RASPBERRIES 6OZ FW 2.67 W\n4 HEB BAG AVOCADOS 5CT FW 5.37W\n10% VPP DISCOUN $0.60 orig 5.97 Ea.\n5 HEB SI SUNRISE PEPPERS FW 3.31W\n10% VPP DISCOUN $0.37 orig 3.68 Ea.\n6 KLEENEX FLAT LOTION 120CT\n3 Ea. @ 1/ 1.64 T 4.92\nDC KLEENEX $0.34 orig 1.98 Ea.\n7 THIS PKN ORIG PECAN MILK\n2 Ea. @ 1/ 2.99 F 5.98\nDC PKN MILK $3.00 orig 5.99 Ea.\n8 MOLLY SUDS DTRGNT UNSCNT T 23.48\n9 JUNI SPARKLING TEA PEACH\n2 Ea. @ 1/ 1.48 TF 2.96\nDC JUNI TEA $1.00 orig 2.48 Ea.\n10 JUNI SPARKLING TEA RASPB\n2 Ea. @ 1/ 1.48 TF 2.96\nDC JUNI TEA $1.00 orig 2.48 Ea.\n11 SEEDLESS CUCUMBERS FW 0.97 W\n********** Sale Subtotal*** 60.16\nSales Tax 2.83\n************ Total Sale*** 62.99\n*** WIC EBT 19.86\n*** MASTRCRD EPS 43.13\nITEMS PURCHASED: 16\nDIGITAL COUPONS $11.02\n10% VPP DISCOUNT $0.97\nYOU SAVED\n$11.99\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n694040726918 612122\n****************************************\nMASTERCARD\n************8988\nContactless Chip USD$ 43.13\nAppr No : 05769Z Ref No : 233772\nMode: Issuer\nMASTERCD\nAID : A0000000041010\nTVR : 0000008001\nIAD : 0110A04001220000000000000000000000FF\nTSI : ARC : 00\nRECEIPT EXPIRES ON 07-06-26\n1091 8612 0407 2610 2500 694\nH-E-B Food-Drugs #03/694\n2965 IH 35 N, New Braunfels, TX 78130\nPhone: (830) 312-5700\nPharmacy: (830) 620-5100\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:ASA N\n918612 04-07-26 10:25A 118/69/00694",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 28247.05525000003,
+        "totalUsd": 0.07077900000000001,
+        "inputTokens": 3692,
+        "outputTokens": 2250,
+        "reasoningTokens": 4999
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:25 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78130",
+          "status": "match"
+        },
+        "city": {
+          "value": "New Braunfels",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2965 IH 35 N",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8988",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1LB STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 2.57,
+          "totalSpend": 2.57,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUEBERRIES PINT",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RASPBERRIES 6OZ",
+          "quantity": 1,
+          "unitPrice": 2.67,
+          "totalSpend": 2.67,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB BAG AVOCADOS 5CT + 10% VPP DISCOUN $0.60 orig 5.97 Ea.",
+          "quantity": 1,
+          "unitPrice": 5.97,
+          "totalSpend": 5.37,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB SI SUNRISE PEPPERS + 10% VPP DISCOUN $0.37 orig 3.68 Ea.",
+          "quantity": 1,
+          "unitPrice": 3.68,
+          "totalSpend": 3.31,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KLEENEX FLAT LOTION 120CT + 3 Ea. @ 1/ 1.64 T 4.92 + DC KLEENEX $0.34 orig 1.98 Ea.",
+          "quantity": 3,
+          "unitPrice": 1.98,
+          "totalSpend": 4.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THIS PKN ORIG PECAN MILK + 2 Ea. @ 1/ 2.99 F 5.98 + DC PKN MILK $3.00 orig 5.99 Ea.",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MOLLY SUDS DTRGNT UNSCNT",
+          "quantity": 1,
+          "unitPrice": 23.48,
+          "totalSpend": 23.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUNI SPARKLING TEA PEACH + 2 Ea. @ 1/ 1.48 TF 2.96 + DC JUNI TEA $1.00 orig 2.48 Ea.",
+          "quantity": 2,
+          "unitPrice": 2.48,
+          "totalSpend": 2.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUNI SPARKLING TEA RASPB + 2 Ea. @ 1/ 1.48 TF 2.96 + DC JUNI TEA $1.00 orig 2.48 Ea.",
+          "quantity": 2,
+          "unitPrice": 2.48,
+          "totalSpend": 2.96,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SEEDLESS CUCUMBERS",
+          "quantity": 1,
+          "unitPrice": 0.97,
+          "totalSpend": 0.97,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1091 8612 0407 2610 2500 694\n1 1LB STRAWBERRIES FW 2.57 W\n2 BLUEBERRIES PINT FW 4.97 W\n3 RASPBERRIES 6OZ FW 2.67 W\n4 HEB BAG AVOCADOS 5CT FW 5.37W\n10% VPP DISCOUN $0.60 orig 5.97 Ea.\n5 HEB SI SUNRISE PEPPERS FW 3.31W\n10% VPP DISCOUN $0.37 orig 3.68 Ea.\n6 KLEENEX FLAT LOTION 120CT\n3 Ea. @ 1/ 1.64 T 4.92\nDC KLEENEX $0.34 orig 1.98 Ea.\n7 THIS PKN ORIG PECAN MILK\n2 Ea. @ 1/ 2.99 F 5.98\nDC PKN MILK $3.00 orig 5.99 Ea.\n8 MOLLY SUDS DTRGNT UNSCNT T 23.48\n9 JUNI SPARKLING TEA PEACH\n2 Ea. @ 1/ 1.48 TF 2.96\nDC JUNI TEA $1.00 orig 2.48 Ea.\n10 JUNI SPARKLING TEA RASPB\n2 Ea. @ 1/ 1.48 TF 2.96\nDC JUNI TEA $1.00 orig 2.48 Ea.\n11 SEEDLESS CUCUMBERS FW 0.97 W\n*********** Sale Subtotal*** 60.16\nSales Tax 2.83\n************* Total Sale*** 62.99\n*** WIC EBT 19.86\n*** MASTRCRD EPS 43.13\nITEMS PURCHASED: 16\nDIGITAL COUPONS : $11.02\n10% VPP DISCOUNT : $0.97\nYOU SAVED\n$11.99\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n694040726918 612122\n*************************************\nMASTERCARD\n************8988\nContactless Chip USD$ 43.13\nAppr No : 05769Z Ref No : 233772\nMode: Issuer\nMASTERCD\nAID : A0000000041010\nTVR : 0000008001\nIAD : 0110A04001220000000000000000000000FF\nTSI : ARC : 00\nRECEIPT EXPIRES ON 07-06-26\n1091 8612 0407 2610 2500 694\nH-E-B Food-Drugs #03/694\n2965 IH 35 N, New Braunfels, TX 78130\nPhone: (830) 312-5700\nPharmacy: (830) 620-5100\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:ASA N\n918612 04-07-26 10:25A 118/69/00694",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 12482.70212500001,
+        "totalUsd": 0.024825,
+        "inputTokens": 3692,
+        "outputTokens": 2143,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:25 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78130",
+          "status": "match"
+        },
+        "city": {
+          "value": "New Braunfels",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2965 IH 35 N",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8988",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1LB STRAWBERRIES",
+          "quantity": 1,
+          "unitPrice": 2.57,
+          "totalSpend": 2.57,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUEBERRIES PINT",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RASPBERRIES 6OZ",
+          "quantity": 1,
+          "unitPrice": 2.67,
+          "totalSpend": 2.67,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB BAG AVOCADOS 5CT + 10% VPP DISCOUN $0.60",
+          "quantity": 1,
+          "unitPrice": 5.97,
+          "totalSpend": 5.37,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEB SI SUNRISE PEPPERS + 10% VPP DISCOUN $0.37",
+          "quantity": 1,
+          "unitPrice": 3.68,
+          "totalSpend": 3.31,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KLEENEX FLAT LOTION 120CT + DC KLEENEX $0.34",
+          "quantity": 3,
+          "unitPrice": 1.64,
+          "totalSpend": 4.58,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "THIS PKN ORIG PECAN MILK + DC PKN MILK $3.00",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 2.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MOLLY SUDS DTRGNT UNSCNT",
+          "quantity": 1,
+          "unitPrice": 23.48,
+          "totalSpend": 23.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUNI SPARKLING TEA PEACH + DC JUNI TEA $1.00",
+          "quantity": 2,
+          "unitPrice": 1.48,
+          "totalSpend": 1.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JUNI SPARKLING TEA RASPB + DC JUNI TEA $1.00",
+          "quantity": 2,
+          "unitPrice": 1.48,
+          "totalSpend": 1.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SEEDLESS CUCUMBERS",
+          "quantity": 1,
+          "unitPrice": 0.97,
+          "totalSpend": 0.97,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1091 8612 0407 2610 2500 694\n1 1LB STRAWBERRIES FW 2.57 W\n2 BLUEBERRIES PINT FW 4.97 W\n3 RASPBERRIES 6OZ FW 2.67 W\n4 HEB BAG AVOCADOS 5CT FW 5.37W\n10% VPP DISCOUN $0.60 orig 5.97 Ea.\n5 HEB SI SUNRISE PEPPERS FW 3.31W\n10% VPP DISCOUN $0.37 orig 3.68 Ea.\n6 KLEENEX FLAT LOTION 120CT\n3 Ea. @ 1/ 1.64 T 4.92\nDC KLEENEX $0.34 orig 1.98 Ea.\n7 THIS PKN ORIG PECAN MILK\n2 Ea. @ 1/ 2.99 F 5.98\nDC PKN MILK $3.00 orig 5.99 Ea.\n8 MOLLY SUDS DTRGNT UNSCNT T 23.48\n9 JUNI SPARKLING TEA PEACH\n2 Ea. @ 1/ 1.48 TF 2.96\nDC JUNI TEA $1.00 orig 2.48 Ea.\n10 JUNI SPARKLING TEA RASPB\n2 Ea. @ 1/ 1.48 TF 2.96\nDC JUNI TEA $1.00 orig 2.48 Ea.\n11 SEEDLESS CUCUMBERS FW 0.97 W\n********** Sale Subtotal*** 60.16\nSales Tax 2.83\n************ Total Sale*** 62.99\n*** WIC EBT 19.86\n*** MASTRCRD EPS 43.13\nITEMS PURCHASED: 16\nDIGITAL COUPONS : $11.02\n10% VPP DISCOUNT : $0.97\nYOU SAVED\n$11.99\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n694040726918 612122\n****************************************\nMASTERCARD\n************8988\nContactless Chip USD$ 43.13\nAppr No : 05769Z Ref No : 233772\nMode: Issuer\nMASTERCD\nAID : A0000000041010\nTVR : 0000008001\nIAD : 0110A04001220000000000000000000000FF\nTSI : ARC : 00\nRECEIPT EXPIRES ON 07-06-26\n1091 8612 0407 2610 2500 694\nH-E-B Food-Drugs #03/694\n2965 IH 35 N, New Braunfels, TX 78130\nPhone: (830) 312-5700\nPharmacy: (830) 620-5100\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:ASA N\n918612 04-07-26 10:25A 118/69/00694",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "1LB STRAWBERRIES",
+      "price": 2.57,
+      "quantity": 1,
+      "totalSpend": 2.57
+    },
+    {
+      "text": "BLUEBERRIES PINT",
+      "price": 4.97,
+      "quantity": 1,
+      "totalSpend": 4.97
+    },
+    {
+      "text": "RASPBERRIES 6OZ",
+      "price": 2.67,
+      "quantity": 1,
+      "totalSpend": 2.67
+    },
+    {
+      "text": "HEB BAG AVOCADOS 5CT + 10% VPP DISCOUN $0.60 orig 5.97 Ea",
+      "price": 5.37,
+      "quantity": 1,
+      "totalSpend": 5.37
+    },
+    {
+      "text": "HEB SI SUNRISE PEPPERS + 10% VPP DISCOUN $0.37 orig 3.68 Ea",
+      "price": 3.31,
+      "quantity": 1,
+      "totalSpend": 3.31
+    },
+    {
+      "text": "KLEENEX FLAT LOTION 120CT + 3 Ea. @ 1/ 1.64 T 4.92 + DC KLEENEX $0.34 orig 1.98 Ea",
+      "price": 1.64,
+      "quantity": 3,
+      "totalSpend": 4.92
+    },
+    {
+      "text": "THIS PKN ORIG PECAN MILK + 2 Ea. @ 1/ 2.99 F 5.98 + DC PKN MILK $3.00 orig 5.99 Ea",
+      "price": 2.99,
+      "quantity": 2,
+      "totalSpend": 5.98
+    },
+    {
+      "text": "MOLLY SUDS DTRGNT UNSCNT",
+      "price": 23.48,
+      "quantity": 1,
+      "totalSpend": 23.48
+    },
+    {
+      "text": "JUNI SPARKLING TEA PEACH + 2 Ea. @ 1/ 1.48 TF 2.96 + DC JUNI TEA $1.00 orig 2.48 Ea",
+      "price": 1.48,
+      "quantity": 2,
+      "totalSpend": 2.96
+    },
+    {
+      "text": "JUNI SPARKLING TEA RASPBE + 2 Ea. @ 1/ 1.48 TF 2.96 + DC JUNI TEA $1.00 orig 2.48 Ea",
+      "price": 1.48,
+      "quantity": 2,
+      "totalSpend": 2.96
+    },
+    {
+      "text": "SEEDLESS CUCUMBERS",
+      "price": 0.97,
+      "quantity": 1,
+      "totalSpend": 0.97
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

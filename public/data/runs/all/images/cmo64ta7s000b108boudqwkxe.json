@@ -1,0 +1,432 @@
+{
+  "id": "cmo64ta7s000b108boudqwkxe",
+  "url": null,
+  "retailer": "Giant Food Store",
+  "brand": "Daily Crunch",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Giant Food Store",
+    "totalCost": "40.42",
+    "purchaseDate": "2026-04-19",
+    "time": null,
+    "zipCode": "19047",
+    "city": "Langhorne",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12124.776875,
+        "totalUsd": 0.017751,
+        "inputTokens": 6086,
+        "outputTokens": 958,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "40.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:57pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19047",
+          "status": "match"
+        },
+        "city": {
+          "value": "Langhorne",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3 DOUBLEWOODS ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DYCRN SCH SS ALM + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DYCRN SPR HT NSH + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DLYCRNC TRMERIC + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS LMN BRRY16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCH PINE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCHA 16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCHA 16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCHA 16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n3 DOUBLEWOODS ROAD\nLANGHORNE, PA 19047\nStore Telephone: (215) 968-0676\nStore #6480 04/19/26 02:57pm\nGROCERY\nDYCRN SCH SS ALM 6.39 F\nBONUS BUY SAVINGS 0.40-F\nDYCRN SPR HT NSH 6.39 F\nBONUS BUY SAVINGS 0.40-F\nDLYCRNC TRMERIC 6.39 F\nBONUS BUY SAVINGS 0.40-F\nPRODUCE\nGTS LMN BRRY16Z 4.49 F\nGTS KMBCH PINE 4.49 F\nGTS KMBCHA 16Z 4.49 F\nGTS KMBCHA 16Z 4.49 F\nGTS KMBCHA 16Z 4.49 F\nte Receipt Refund Not Allowed*\nTAX 0.00\n**** BALANCE 40.42",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10650.36474999998,
+        "totalUsd": 0.025923,
+        "inputTokens": 3692,
+        "outputTokens": 1004,
+        "reasoningTokens": 1261
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "40.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:57pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19047",
+          "status": "match"
+        },
+        "city": {
+          "value": "Langhorne",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3 DOUBLEWOODS ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "null",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "null",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DYCRN SCH SS ALM + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DYCRN SPR HT NSH + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DLYCRNC TRMERIC + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS LMN BRRY16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCH PINE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCHA 16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCHA 16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCHA 16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n3 DOUBLEWOODS ROAD\nLanghorne, PA 19047\nStore Telephone: (215) 968-0676\nStore #6480 04/19/26 02:57pm\nGROCERY\nDYCRN SCH SS ALM 6.39 F\nBONUS BUY SAVINGS 0.40-F\nDYCRN SPR HT NSH 6.39 F\nBONUS BUY SAVINGS 0.40-F\nDLYCRNC TRMERIC 6.39 F\nBONUS BUY SAVINGS 0.40-F\nPRODUCE\nGTS LMN BRRY16Z 4.49 F\nGTS KMBCH PINE 4.49 F\nGTS KMBCHA 16Z 4.49 F\nGTS KMBCHA 16Z 4.49 F\nGTS KMBCHA 16Z 4.49 F\nte Receipt Refund Not Allowed*\nTAX 0.00\n**** BALANCE 40.42",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6740.69975,
+        "totalUsd": 0.014088,
+        "inputTokens": 3692,
+        "outputTokens": 950,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "40.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:57PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19047",
+          "status": "match"
+        },
+        "city": {
+          "value": "Langhorne",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3 Doublewoods Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DYCRN SCH SS ALM + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DYCRN SPR HT NSH + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DLYCRNC TRMERIC + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS LMN BRRY16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCH PINE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCHA 16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCHA 16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KMBCHA 16Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n3 DOUBLEWOODS ROAD\nLANGHORNE, PA 19047\nStore Telephone: (215) 968-0676\nStore #6480 04/19/26 02:57PM\nGROCERY\nDYCRN SCH SS ALM 6.39 F\nBONUS BUY SAVINGS 0.40-F\nDYCRN SPR HT NSH 6.39 F\nBONUS BUY SAVINGS 0.40-F\nDLYCRNC TRMERIC 6.39 F\nBONUS BUY SAVINGS 0.40-F\nPRODUCE\nGTS LMN BRRY16Z 4.49 F\nGTS KMBCH PINE 4.49 F\nGTS KMBCHA 16Z 4.49 F\nGTS KMBCHA 16Z 4.49 F\nGTS KMBCHA 16Z 4.49 F\n*Duplicate Receipt Refund Not Allowed*\nTAX 0.00\n**** BALANCE 40.42",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "DYCRN SCH SS ALM + GROCERY",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "DYCRN SPR HT NSH",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "DLYCRNC TRMERIC",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "GTS LMN BRRY16Z + PRODUCE",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "GTS KMBCH PINE",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "GTS KMBCHA 16Z",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "GTS KMBCHA 16Z",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "GTS KMBCHA 16Z",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,432 @@
+{
+  "id": "cmojaogkt00wkrxd6pc2jm03d",
+  "url": null,
+  "retailer": "Meijer Express Gas Station",
+  "brand": "Sweet Loren's",
+  "amount": 7.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "22.39",
+    "purchaseDate": "2026-04-28",
+    "time": null,
+    "zipCode": "49512",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18661.8075,
+        "totalUsd": 0.020991,
+        "inputTokens": 6086,
+        "outputTokens": 1318,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:04:06",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "49512",
+          "status": "match"
+        },
+        "city": {
+          "value": "Grand Rapids",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5531 28th St. SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7836",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CUCUMBERS + 4062",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YOGURT + 70882030442",
+          "quantity": 3,
+          "unitPrice": 1.29,
+          "totalSpend": 3.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YOGURT + 71373303843",
+          "quantity": 3,
+          "unitPrice": 1.29,
+          "totalSpend": 3.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PURE LEAF + 9800010138",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COOKIE DOUGH + 71373381042",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MJR PEPPERONI + 71928348142",
+          "quantity": 1,
+          "unitPrice": 3.09,
+          "totalSpend": 3.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RASPBERRIES + 81363501307 + mPerks Offer => FREE item",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COOKIE DOUGH + 86048500018 + mPerks Offer => 2.00 off",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "meijer\n5531 28th St. SE\nGrand Rapids, MI 49512 - #50\n(616)949-7200 meijer.com\n04/28/26 Fastlane99\nMEIJER SAVINGS\nmPerks 5.79\nSAVINGS TOTAL 5.79\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n59.27\nGROCERY\n4062 CUCUMBERS .79 F\n70882030442 YOGURT\n3 @ 1.29 3.87 F\n71373303843 YOGURT\n3 @ 1.29 3.87 F\n9800010138 PURE LEAF 2.29 F\n71373381042 COOKIE DOUGH 2.99 F\n71928348142 MJR PEPPERONI 3.09 F\n81363501307 RASPBERRIES 3.79 F\nmPerks Offer\n=> FREE item -3.79 F\n86048500018 COOKIE DOUGH 7.49 F\nmPerks Offer\n=> 2.00 off -2.00\nmPerks # -- ********95\nTOTAL\nTOTAL TAX .00\nTOTAL 22.39\nPAYMENTS\nVISA Payment TENDER 22.39\nXXXXXXXXXXXX7836 (X)\nAPPROVAL CODE 02196I\nVISA CREDIT\nAID A0000000031010\nTC 251DB6916E148325\nNO CVM REQUIRED\nNUMBER OF ITEMS 12\nA00500L840301GS\nTx:288 Op:550 Tm:99 St:50 20:04:06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16444.99820799998,
+        "totalUsd": 0.041925,
+        "inputTokens": 3692,
+        "outputTokens": 1346,
+        "reasoningTokens": 2697
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:04:06",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "49512",
+          "status": "match"
+        },
+        "city": {
+          "value": "Grand Rapids",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5531 28th St. SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7836",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CUCUMBERS + 4062",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YOGURT + 70882030442",
+          "quantity": 3,
+          "unitPrice": 1.29,
+          "totalSpend": 3.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YOGURT + 71373303843",
+          "quantity": 3,
+          "unitPrice": 1.29,
+          "totalSpend": 3.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PURE LEAF + 9800010138",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COOKIE DOUGH + 71373381042",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MJR PEPPERONI + 71928348142",
+          "quantity": 1,
+          "unitPrice": 3.09,
+          "totalSpend": 3.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RASPBERRIES + 81363501307 + mPerks Offer => FREE item",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COOKIE DOUGH + 86048500018 + mPerks Offer => 2.00 off",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "meijer\n5531 28th St. SE\nGrand Rapids, MI 49512 - #50\n(616)949-7200 meijer.com\n04/28/26 Fastlane99\n\nMEIJER SAVINGS\nmPerks 5.79\nSAVINGS TOTAL 5.79\n\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n59.27\nGROCERY\n4062 CUCUMBERS .79 F\n70882030442 YOGURT 3.87 F\n3 @ 1.29\n71373303843 YOGURT 3.87 F\n3 @ 1.29\n9800010138 PURE LEAF 2.29 F\n71373381042 COOKIE DOUGH 2.99 F\n71928348142 MJR PEPPERONI 3.09 F\n81363501307 RASPBERRIES 3.79 F\nmPerks Offer\n=> FREE item -3.79 F\n86048500018 COOKIE DOUGH 7.49 F\nmPerks Offer\n=> 2.00 off -2.00\n\nmPerks # -- ********95\n\nTOTAL\nTOTAL TAX .00\nTOTAL 22.39\n\nPAYMENTS\nVISA Payment TENDER 22.39\nXXXXXXXXXXXX7836 (X)\nAPPROVAL CODE 02196I\nVISA CREDIT\nAID A0000000031010\nTC 251DB6916E148325\nNO CVM REQUIRED\n\nNUMBER OF ITEMS 12\n\nA00500L840301GS\nTx:288 Op:550 Tm:99 St:50 20:04:06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6585.253958000016,
+        "totalUsd": 0.017526,
+        "inputTokens": 3692,
+        "outputTokens": 1332,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:04:06",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "49512",
+          "status": "match"
+        },
+        "city": {
+          "value": "Grand Rapids",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5531 28th St. SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7836",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CUCUMBERS + 4062",
+          "quantity": 1,
+          "unitPrice": 0.79,
+          "totalSpend": 0.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YOGURT + 70882030442",
+          "quantity": 3,
+          "unitPrice": 1.29,
+          "totalSpend": 3.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YOGURT + 71373303843",
+          "quantity": 3,
+          "unitPrice": 1.29,
+          "totalSpend": 3.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PURE LEAF + 9800010138",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COOKIE DOUGH + 71373381042",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MJR PEPPERONI + 71928348142",
+          "quantity": 1,
+          "unitPrice": 3.09,
+          "totalSpend": 3.09,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RASPBERRIES + 81363501307 + mPerks Offer => FREE item",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COOKIE DOUGH + 86048500018 + mPerks Offer => 2.00 off",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "meijer\n5531 28th St. SE\nGrand Rapids, MI 49512 - #50\n(616)949-7200 meijer.com\n04/28/26 Fastlane99\nMEIJER SAVINGS\nmPerks 5.79\nSAVINGS TOTAL 5.79\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n59.27\nGROCERY\n4062 CUCUMBERS .79 F\n70882030442 YOGURT 3.87 F\n3 @ 1.29\n71373303843 YOGURT 3.87 F\n3 @ 1.29\n9800010138 PURE LEAF 2.29 F\n71373381042 COOKIE DOUGH 2.99 F\n71928348142 MJR PEPPERONI 3.09 F\n81363501307 RASPBERRIES 3.79 F\nmPerks Offer\n=> FREE item -3.79 F\n86048500018 COOKIE DOUGH 7.49 F\nmPerks Offer\n=> 2.00 off -2.00\nmPerks # -- ********95\nTOTAL\nTOTAL TAX .00\nTOTAL 22.39\nPAYMENTS\nVISA Payment TENDER 22.39\nXXXXXXXXXXXX7836 (X)\nAPPROVAL CODE 02196I\nVISA CREDIT\nAID A0000000031010\nTC 251DB6916E148325\nNO CVM REQUIRED\nNUMBER OF ITEMS 12\nA00500L840301GS\nTx:288 Op:550 Tm:99 St:50 20:04:06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CUCUMBERS + 4062",
+      "price": 0.79,
+      "quantity": 1,
+      "totalSpend": 0.79
+    },
+    {
+      "text": "YOGURT + 70882030442 + 3 @ 1.29 3.87 F",
+      "price": 1.29,
+      "quantity": 3,
+      "totalSpend": 3.87
+    },
+    {
+      "text": "YOGURT + 71373303843 + 3 @ 1.29 3.87 F",
+      "price": 1.29,
+      "quantity": 3,
+      "totalSpend": 3.87
+    },
+    {
+      "text": "PURE LEAF + 9800010138",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "COOKIE DOUGH + 71373381042",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "MJR PEPPERONI + 71928348142",
+      "price": 3.09,
+      "quantity": 1,
+      "totalSpend": 3.09
+    },
+    {
+      "text": "RASPBERRIES + 81363501307 + mPerks Offer",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "COOKIE DOUGH + 86048500018",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

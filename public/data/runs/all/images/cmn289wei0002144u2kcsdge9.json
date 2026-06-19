@@ -1,0 +1,285 @@
+{
+  "id": "cmn289wei0002144u2kcsdge9",
+  "url": null,
+  "retailer": "CVS",
+  "brand": "Popadelics",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "CVS",
+    "totalCost": "3.19",
+    "purchaseDate": "2026-03-22",
+    "time": null,
+    "zipCode": "37203",
+    "city": "Nashville",
+    "state": "TN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7620.142417000025,
+        "totalUsd": 0.019938,
+        "inputTokens": 6086,
+        "outputTokens": 1201,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "CVS pharmacy",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37203",
+          "status": "match"
+        },
+        "city": {
+          "value": "NASHVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "426 21ST AVE SOUTH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6455",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 CTNLE ULT CMF 9MR 299S + ORIGINAL PRICE 16.49 + 9.99 EACH + COUPON SAVINGS 9.99 -",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1 POP MUSH CHIP PARM 1 + ORIGINAL PRICE 5.99 + COUPON SAVINGS 5.99 -",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1 PRAIRIE FARMS 2% M 64Z",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "❤ CVS pharmacy®\n426 21ST AVE SOUTH, NASHVILLE, TN\nPHARMACY: 321-2590 STORE: 321-3981\nREG#08 TRN#2919 CSHR#0000093 STR#7608\nExtraCare Card #: ********1296\n1 CTNLE ULT CMF 9MR 299S .00T\nORIGINAL PRICE 16.49\n9.99 EACH 6.50 -\nCOUPON SAVINGS 9.99 -\n1 POP MUSH CHIP PARM 1 .00B\nORIGINAL PRICE 5.99\nCOUPON SAVINGS 5.99 -\n1 PRAIRIE FARMS 2% M 64Z 2.99B\n**********COUPONS APPLIED**********\n1 ExtraCare Plus $10Bonus 10.00 - CVS\n1 EXTRACARE BIRTHDAY REWR 3.00 - CVS\n1 Rewards at the pharmacy 2.00 - CVS\n1 Rewards at the pharmacy .98 - CVS\n3 ITEMS\nSURVEY ID #\n9284 3752 6322 062 00\nSUBTOTAL 2.99\nTN 6.75% TAX .20\nTOTAL 3.19\nDEBIT 3.19\n************6455 RF\nDebit Mastercard ************6455\nAPPROVED# 114958 REF# 089198\nTRAN TYPE: SALE AID: A0000000041010\nTC: 26C5FC4FF555F3CB TERMINAL#\nNO SIGNATURE REQUIRED CVM: 1E0300\nTVR(95): 0000008000 TSI(9B): E800\nCHANGE .00\n3507 6086 0812 9190 89\nReturns with receipt, subject to\nCVS Return Policy, thru 05/21/2026\nRefund amount is based on price\nafter all coupons and discounts.\nMARCH 22, 2026 3:45 PM\n14 no-cost vaccines\navailable with most insurance\nProtect yourself against RSV,\nshingles, tdap & more.\nSubject to availability.\nRestrictions apply.\nScan the QR to schedule your vaccination\nTRIP SUMMARY:\nToday You Saved 22.48\nSavings Value 88%\n****************************************\nWe would love to hear your feedback\non your recent experience with us\nThis survey will take only\n1 minute to complete\nShare Your Feedback",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 22173.25675,
+        "totalUsd": 0.05025,
+        "inputTokens": 3692,
+        "outputTokens": 1194,
+        "reasoningTokens": 3774
+      },
+      "fields": {
+        "storeName": {
+          "value": "CVS",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "37212",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "NASHVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "426 21ST AVE SOUTH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6455",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 CTNLE ULT CMF 9MR 299S + ORIGINAL PRICE 16.49 + 9.99 EACH + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1 POP MUSH CHIP PARM 1 + ORIGINAL PRICE 5.99 + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1 PRAIRIE FARMS 2% M 64Z",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "❤ CVS pharmacy®\n426 21ST AVE SOUTH, NASHVILLE, TN\nPHARMACY: 321-2590 STORE: 321-3981\nREG#08 TRN#2919 CSHR#0000093 STR#7608\nExtraCare Card #: ********1296\n1 CTNLE ULT CMF 9MR 299S .00T\n  ORIGINAL PRICE 16.49\n  9.99 EACH 6.50 -\n  COUPON SAVINGS 9.99 -\n1 POP MUSH CHIP PARM 1 .00B\n  ORIGINAL PRICE 5.99\n  COUPON SAVINGS 5.99 -\n1 PRAIRIE FARMS 2% M 64Z 2.99B\n\n**********COUPONS APPLIED************\n1 ExtraCare Plus $10Bonus 10.00 - CVS\n1 EXTRACARE BIRTHDAY REWR 3.00 - CVS\n1 Rewards at the pharmacy 2.00 - CVS\n1 Rewards at the pharmacy .98 - CVS\n\n3 ITEMS\nSURVEY ID #\n9284 3752 6322 062 00\n\nSUBTOTAL 2.99\nTN 6.75% TAX .20\nTOTAL 3.19\nDEBIT 3.19\n************6455 RF\nDebit Mastercard ************6455\nAPPROVED# 114958 REF# 089198\nTRAN TYPE: SALE AID: A0000000041010\nTC: 26C5FC4FF555F3CB TERMINAL#\nNO SIGNATURE REQUIRED CVM: 1E0300\nTVR(95): 0000008000 TSI(9B): E800\nCHANGE .00\n\n3507 6086 0812 9190 89\nReturns with receipt, subject to\nCVS Return Policy, thru 05/21/2026\nRefund amount is based on price\nafter all coupons and discounts.\nMARCH 22, 2026 3:45 PM\n\n14 no-cost vaccines\navailable with most insurance\nProtect yourself against RSV,\nshingles, tdap & more.\nSubject to availability.\nRestrictions apply.\nScan the QR to schedule your vaccination\n\nTRIP SUMMARY:\nToday You Saved 22.48\nSavings Value 88%\n*************************************\nWe would love to hear your feedback\non your recent experience with us\nThis survey will take only\n1 minute to complete\nShare Your Feedback",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6550.575207999995,
+        "totalUsd": 0.015915,
+        "inputTokens": 3692,
+        "outputTokens": 1153,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "CVS pharmacy",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "NASHVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "TN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "426 21ST AVE SOUTH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6455",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CTNLE ULT CMF 9MR 299S + ORIGINAL PRICE 9.99 EACH + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 6.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "POP MUSH CHIP PARM 1 + ORIGINAL PRICE + COUPON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PRAIRIE FARMS 2% M 64Z",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "❤CVS pharmacy®\n426 21ST AVE SOUTH, NASHVILLE, TN\nPHARMACY: 321-2590 STORE: 321-3981\nREG#08 TRN#2919 CSHR#0000093 STR#7608\nExtraCare Card #: ********1296\n1 CTNLE ULT CMF 9MR 299S .00T\nORIGINAL PRICE 16.49\n9.99 EACH 6.50 -\nCOUPON SAVINGS 9.99 -\n1 POP MUSH CHIP PARM 1 .00B\nORIGINAL PRICE 5.99\nCOUPON SAVINGS 5.99 -\n1 PRAIRIE FARMS 2% M 64Z 2.99B\n**********COUPONS APPLIED**********\n1 ExtraCare Plus $10Bonus 10.00 - CVS\n1 EXTRACARE BIRTHDAY REWR 3.00 - CVS\n1 Rewards at the pharmacy 2.00 - CVS\n1 Rewards at the pharmacy .98 - CVS\n3 ITEMS\nSURVEY ID #\n9284 3752 6322 062 00\nSUBTOTAL 2.99\nTN 6.75% TAX .20\nTOTAL 3.19\nDEBIT 3.19\n************6455 RF\nDebit Mastercard ************6455\nAPPROVED# 114958 REF# 089198\nTRAN TYPE: SALE AID: A0000000041010\nTC: 26C5FC4FF555F3CB TERMINAL#\nNO SIGNATURE REQUIRED CVM: 1E0300\nTVR(95): 0000008000 TSI(9B): E800\nCHANGE .00\n3507 6086 0812 9190 89\nReturns with receipt, subject to\nCVS Return Policy, thru 05/21/2026\nRefund amount is based on price\nafter all coupons and discounts.\nMARCH 22, 2026 3:45 PM\n14 no-cost vaccines\navailable with most insurance\nProtect yourself against RSV,\nshingles, Tdap & more.\nSubject to availability.\nRestrictions apply.\nScan the QR to schedule your vaccination\nTRIP SUMMARY:\nToday You Saved 22.48\nSavings Value 88%\n***********************************\nWe would love to hear your feedback\non your recent experience with us\nThis survey will take only\n1 minute to complete\nShare Your Feedback",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PRAIRIE FRRMS 2% M 64Z",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

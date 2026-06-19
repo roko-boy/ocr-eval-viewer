@@ -1,0 +1,243 @@
+{
+  "id": "cmon4i13p000q9c59pdp303xh",
+  "url": null,
+  "retailer": "Corner Market",
+  "brand": "Hop Wtr",
+  "amount": 1.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Corner Market",
+    "totalCost": "2.2",
+    "purchaseDate": "2026-05-01",
+    "time": null,
+    "zipCode": "98101",
+    "city": "Seattle",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17287.786999,
+        "totalUsd": 0.016653,
+        "inputTokens": 6086,
+        "outputTokens": 836,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PCC Corner Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "2.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:23:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98101",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1320 4th Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9978",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HOP WTR SPKLG HOP WTR MANGO + Savings:",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.69,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "PCC CORNER\nMARKET\nPCC Corner Market\n1320 4th Ave\nSeattle, WA, 98101\n(206) 408-4260\n#021-014 5/1/2026 09:23:15 Terminal 1\nInv#:00175760 Trs#:177956\nGROCERY GROUP\nHOP WTR SPKLG HOP WTR MANGO $1.99 T1F\nSavings: -$0.30\nItems Subtotal $1.99\nSubtotal $1.99\nTax 1 @ 10.55% [$1.99] $0.21\nTOTAL $2.20\nVisa $2.20\n# ************9978\nBalance $0.00\nItem count 1\nSAVING GRAND TOTAL $0.30\n05/01/2026 09:23:13\nVISA CREDIT Entry Method: Chip\nCARD #: XXXXXXXXXXXX9978\nPURCHASE - APPROVED\nAUTH CODE:02958D\nMode: Issuer\nAID: A0000000031010\nTVR: 8000008000\nIAD: 06011203A0A000\nTSI: 6800 ARC: 00\nTC: 11652081EC5C8333\nMID: **0000 TID: **1 RRN: 147352\nTotal: USD$ 2.20\nKeep food cooperative u\nbecome a PCC co-op member at\npccmarkets.com/membership\nReturn Policy Update:\nItems purchased at PCC may be returned\nwithin 30 days for a refund or exchange.\nPlease save your receipt, which may be\nrequired. Some rules or exceptions may\napply. Perishable and bulk items will\nnot be accepted with the exception of\nquality concerns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14213.147541,
+        "totalUsd": 0.032889,
+        "inputTokens": 3692,
+        "outputTokens": 721,
+        "reasoningTokens": 2318
+      },
+      "fields": {
+        "storeName": {
+          "value": "PCC Corner Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "2.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98101",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "1320 4th Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HOP WTR SPKLG HOP WTR MANGO",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PCC CORNER MARKET\n\nPCC Corner Market\n1320 4th Ave\nSeattle, WA, 98101\n(206) 408-4260\n\n#021-014 5/1/2026 09:23:15 Terminal 1\nInv#:00175760 Trs#:177956\n----------------------------------------\nGROCERY GROUP\nHOP WTR SPKLG HOP WTR MANGO $1.99 T1F\n Savings: -$0.30\n----------------------------------------\nItems Subtotal $1.99\nSubtotal $1.99\nTax 1 @ 10.55% [$1.99] $0.21\nTOTAL $2.20\nVisa $2.20\n # ************9978\nBalance $0.00\n----------------------------------------\nItem count 1\nSAVING GRAND TOTAL $0.30\n----------------------------------------\n05/01/2026 09:23:13\nVISA CREDIT Entry Method: Chip\nCARD #: XXXXXXXXXXXX9978\nPURCHASE - APPROVED\nAUTH CODE:02958D\nMode: Issuer\nAID: A0000000031010\nTVR: 8000008000\nIAD: 06011203A0A000\nTSI: 6800 ARC: 00\nTC: 11652081EC5C8333\nMID: **0000 TID: **1 RRN: 147352\nTotal: USD$ 2.20\nKeep food cooperative u\nbecome a PCC co-op member at\npccmarkets.com/membership\n\nReturn Policy Update:\nItems purchased at PCC may be returned\nwithin 30 days for a refund or exchange.\nPlease save your receipt, which may be\nrequired. Some rules or exceptions may\napply. Perishable and bulk items will\nnot be accepted with the exception of\nquality concerns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5448.825332999999,
+        "totalUsd": 0.012963,
+        "inputTokens": 3692,
+        "outputTokens": 825,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PCC Corner Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "2.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:23:15",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98101",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1320 4th Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9978",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HOP WTR SPKLG HOP WTR MANGO + Savings: -$0.30",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.69,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "PCC CORNER\nMARKET\nPCC Corner Market\n1320 4th Ave\nSeattle, WA, 98101\n(206) 408-4260\n#021-014 5/1/2026 09:23:15 Terminal 1\nInv#:00175760 Trs#:177956\nGROCERY GROUP\nHOP WTR SPKLG HOP WTR MANGO $1.99 T1F\nSavings: -$0.30\nItems Subtotal $1.99\nSubtotal $1.99\nTax 1 @ 10.55% [$1.99] $0.21\nTOTAL $2.20\nVisa $2.20\n# ************9978\nBalance $0.00\nItem count 1\nSAVING GRAND TOTAL $0.30\n05/01/2026 09:23:13\nVISA CREDIT Entry Method: Chip\nCARD #: XXXXXXXXXXXX9978\nPURCHASE - APPROVED\nAUTH CODE:02958D\nMode: Issuer\nAID: A0000000031010\nTVR: 8000008000\nIAD: 06011203A0A000\nTSI: 6800 ARC: 00\nTC: 11652081EC5C8333\nMID: **0000 TID: **1 RRN: 147352\nTotal: USD$ 2.20\nKeep food cooperative u\nbecome a PCC co-op member at\npccmarkets.com/membership\nReturn Policy Update:\nItems purchased at PCC may be returned\nwithin 30 days for a refund or exchange.\nPlease save your receipt, which may be\nrequired. Some rules or exceptions may\napply. Perishable and bulk items will\nnot be accepted with the exception of\nquality concerns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HOP WTR SPKLG HOP WTR MANGO + Savings: -$0.30",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    }
+  ],
+  "disagreementCount": 3,
+  "nullCount": 0
+}

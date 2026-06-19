@@ -1,0 +1,378 @@
+{
+  "id": "cmq3tbuz900m4xdyl7sqmayzd",
+  "url": null,
+  "retailer": "Albertsons",
+  "brand": "Melinda's Hot Sauce",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Albertsons",
+    "totalCost": "18.45",
+    "purchaseDate": "2026-06-07",
+    "time": null,
+    "zipCode": "75218",
+    "city": "Dallas",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9712.817291000014,
+        "totalUsd": 0.0192,
+        "inputTokens": 6086,
+        "outputTokens": 1119,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:09",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75218",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dallas",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "320 Casa Linda Plaza",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9344",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "73692418284 MELINDA RESERVE",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "999200 GROCERY",
+          "quantity": 1,
+          "unitPrice": 0.2,
+          "totalSpend": 0.2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "999200 GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3077201158 DAWN ULTRA ORGNL + Sale Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2113004688 LUCERNE CREAM CHEE + Sale Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "81884902001 KIWIFRUIT GOLD + Sale Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Albertsons\nStore 4289 Dir Dinah Jackson\nMain: (214) 319-7919 Rx: (214) 319-822\n320 Casa Linda Plaza\nDallas TX 75218\n00428905200142606070809\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n73692418284 MELINDA RESERVE 3.29 3.29 S\n999200 GROCERY 0.20 0.20 S\n999200 GROCERY 2.50 2.50 S\nGROC NONEDIBLE\n3077201158 DAWN ULTRA ORGNL 7.49 5.99 T\nSale Savings -1.50\nREFRIG/FROZEN\n2113004688 LUCERNE CREAM CHEE 2.99 1.99 S\nSale Savings -1.00\nPRODUCE\n81884902001 KIWIFRUIT GOLD 5.99 3.99 S\nSale Savings -2.00\nTAX 0.49\n**** BALANCE 18.45\nCredit Purchase 06/07/26 08:09\nCARD # ************9344\nREF: 290925493440 AUTH: 0007806I\nPAYMENT AMOUNT 18.45\nAL VISA CREDIT",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14402.81895799999,
+        "totalUsd": 0.026418,
+        "inputTokens": 3692,
+        "outputTokens": 1135,
+        "reasoningTokens": 1185
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:09",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75218",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dallas",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "320 Casa Linda Plaza",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9344",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MELINDA RESERVE + 73692418284",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GROCERY + 999200",
+          "quantity": 1,
+          "unitPrice": 0.2,
+          "totalSpend": 0.2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GROCERY + 999200",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAWN ULTRA ORGNL + Sale Savings -1.50 + 3077201158",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LUCERNE CREAM CHEE + Sale Savings -1.00 + 2113004688",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KIWIFRUIT GOLD + Sale Savings -2.00 + 81884902001",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Albertsons\nStore 4289 Dir Dinah Jackson\nMain: (214) 319-7919 Rx: (214) 319-822\n320 Casa Linda Plaza\nDallas TX 75218\n00428905200142606070809\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n73692418284 MELINDA RESERVE\n3.29 3.29 S\n999200 GROCERY\n0.20 0.20 S\n999200 GROCERY\n2.50 2.50 S\nGROC NONEDIBLE\n3077201158 DAWN ULTRA ORGNL\n7.49 5.99 T\nSale Savings -1.50\nREFRIG/FROZEN\n2113004688 LUCERNE CREAM CHEE\n2.99 1.99 S\nSale Savings -1.00\nPRODUCE\n81884902001 KIWIFRUIT GOLD\n5.99 3.99 S\nSale Savings -2.00\nTAX\n0.49\n**** BALANCE\n18.45\nCredit Purchase 06/07/26 08:09\nCARD # ************9344\nREF: 290925493440 AUTH: 0007806I\nPAYMENT AMOUNT\n18.45\nAL VISA CREDIT",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5918.88070899999,
+        "totalUsd": 0.015735,
+        "inputTokens": 3692,
+        "outputTokens": 1133,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.45",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:09 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75218",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dallas",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "320 Casa Linda Plaza",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9344",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MELINDA RESERVE + 73692418284",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GROCERY + 999200",
+          "quantity": 1,
+          "unitPrice": 0.2,
+          "totalSpend": 0.2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GROCERY + 999200",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAWN ULTRA ORGNL + 3077201158 + Sale Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LUCERNE CREAM CHEE + 2113004688 + Sale Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KIWIFRUIT GOLD + 81884902001 + Sale Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Albertsons\nStore 4289 Dir Dinah Jackson\nMain: (214) 319-7919 Rx: (214) 319-822\n320 Casa Linda Plaza\nDallas TX 75218\n00428905200142606070809\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n73692418284 MELINDA RESERVE\n3.29 3.29 S\n999200 GROCERY\n0.20 0.20 S\n999200 GROCERY\n2.50 2.50 S\nGROC NONEDIBLE\n3077201158 DAWN ULTRA ORGNL\n7.49 5.99 T\nSale Savings -1.50\nREFRIG/FROZEN\n2113004688 LUCERNE CREAM CHEE\n2.99 1.99 S\nSale Savings -1.00\nPRODUCE\n81884902001 KIWIFRUIT GOLD\n5.99 3.99 S\nSale Savings -2.00\nTAX\n0.49\n**** BALANCE\n18.45\nCredit Purchase 06/07/26 08:09\nCARD # ************9344\nREF: 290925493440 AUTH: 0007806I\nPAYMENT AMOUNT\n18.45\nAL VISA CREDIT",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MELINDA RESERVE + 73692418284",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "GROCERY + 999200",
+      "price": 0.2,
+      "quantity": 1,
+      "totalSpend": 0.2
+    },
+    {
+      "text": "GROCERY + 999200 + GROC NONEDIBLE",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "DAWN ULTRA ORGNL + 3077201158 + Sale Savings -1.50 + REFRIG/FROZEN",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "LUCERNE CREAM CHEE + 2113004688 + Sale Savings -1.00 + PRODUCE",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "KIWIFRUIT GOLD + 81884902001 + Sale Savings -2.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

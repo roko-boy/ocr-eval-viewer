@@ -1,0 +1,324 @@
+{
+  "id": "cmpvxoc30001vd52jyc2uxjol",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "Brutus Bone Broth",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "42",
+    "purchaseDate": "2026-06-01",
+    "time": null,
+    "zipCode": "89117",
+    "city": "Las Vegas",
+    "state": "NV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9435.70541600004,
+        "totalUsd": 0.018687,
+        "inputTokens": 6086,
+        "outputTokens": 1062,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:57 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89117",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAS VEGAS",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10000 W SAHARA AVE STE 120",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3137",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153133 BTH-DOG 32Z CHICKEN",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004777327 NAV-DOG 3Z FRESHDRIE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622561 NAV-DOG 8Z FRESHRAW + Reg Price: 2@ 6.99",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622536 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nLAS VEGAS-SUMMERLIN SAHARA #02128\n10000 W SAHARA AVE STE 120\nLAS VEGAS, NV 89117\n702-341-0142\n06/01/26 5:57PM Reg 002 Trans 145878\nHelped by Jeffrey\n003153133 BTH-DOG 32Z CHICKEN 7.79 T\n004777327 NAV-DOG 3Z FRESHDRIE 9.99 T\n004622561 NAV-DOG 8Z FRESHRAW 13.98 T\nReg Price: 2@ 6.99\n004622536 NAV-DOG 8Z FRESHRAW 6.99 T\nTaxable Total 38.75\nSubtotal 38.75\nTax NV 8.375% 3.25\nTOTAL 42.00\nVisa Credit Card 42.00\n2026-06-01 05:56:51 PM\nTotal: USD $42.00\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX3137\nPurchase - APPROVED\nAUTH CODE: 05371D\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 425982\n5 Items\nTransaction Barcode\n012128345002145878202606015371424490",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11276.12562499999,
+        "totalUsd": 0.030945,
+        "inputTokens": 3692,
+        "outputTokens": 1056,
+        "reasoningTokens": 1767
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:57 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89117",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAS VEGAS",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10000 W SAHARA AVE STE 120",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3137",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153133 BTH-DOG 32Z CHICKEN",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004777327 NAV-DOG 3Z FRESHDRIE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622561 NAV-DOG 8Z FRESHRAW + Reg Price: 2@ 6.99",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622536 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nLAS VEGAS-SUMMERLIN SAHARA #02128\n10000 W SAHARA AVE STE 120\nLAS VEGAS, NV 89117\n702-341-0142\n06/01/26 5:57PM Reg 002 Trans 145878\nHelped by Jeffrey\n003153133 BTH-DOG 32Z CHICKEN 7.79 T\n004777327 NAV-DOG 3Z FRESHDRIE 9.99 T\n004622561 NAV-DOG 8Z FRESHRAW 13.98 T\nReg Price: 2@ 6.99\n004622536 NAV-DOG 8Z FRESHRAW 6.99 T\nTaxable Total 38.75\nSubtotal 38.75\nTax NV 8.375% 3.25\nTOTAL 42.00\nVisa Credit Card 42.00\n2026-06-01 05:56:51 PM\nTotal: USD $42.00\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX3137\nPurchase - APPROVED\nAUTH CODE: 05371D\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 425982\n5 Items\nTransaction Barcode\n012128345002145878202606015371424490",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6286.438332999998,
+        "totalUsd": 0.015042,
+        "inputTokens": 3692,
+        "outputTokens": 1056,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:57 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89117",
+          "status": "match"
+        },
+        "city": {
+          "value": "LAS VEGAS",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10000 W SAHARA AVE STE 120",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3137",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153133 BTH-DOG 32Z CHICKEN",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004777327 NAV-DOG 3Z FRESHDRIE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622561 NAV-DOG 8Z FRESHRAW + Reg Price: 2@ 6.99",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622536 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nLAS VEGAS-SUMMERLIN SAHARA #02128\n10000 W SAHARA AVE STE 120\nLAS VEGAS, NV 89117\n702-341-0142\n06/01/26 5:57PM Reg 002 Trans 145878\nHelped by Jeffrey\n003153133 BTH-DOG 32Z CHICKEN 7.79 T\n004777327 NAV-DOG 3Z FRESHDRIE 9.99 T\n004622561 NAV-DOG 8Z FRESHRAW 13.98 T\nReg Price: 2@ 6.99\n004622536 NAV-DOG 8Z FRESHRAW 6.99 T\nTaxable Total 38.75\nSubtotal 38.75\nTax NV 8.375% 3.25\nTOTAL 42.00\nVisa Credit Card 42.00\n2026-06-01 05:56:51 PM\nTotal: USD $42.00\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX3137\nPurchase - APPROVED\nAUTH CODE: 05371D\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 425982\n5 Items\nTransaction Barcode\n012128345002145878202606015371424490",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BTH-DOG 32Z CHICKEN + 003153133",
+      "price": 7.79,
+      "quantity": 1,
+      "totalSpend": 7.79
+    },
+    {
+      "text": "NAV-DOG 3Z FRESHDRIE + 004777327",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "NAV-DOG 8Z FRESHRAW + 004622561 + Reg Price: 2@ 6.99",
+      "price": 6.99,
+      "quantity": 2,
+      "totalSpend": 13.98
+    },
+    {
+      "text": "NAV-DOG 8Z FRESHRAW + 004622536",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,270 @@
+{
+  "id": "cmoyvk23k00dxpa2786g4eqwo",
+  "url": null,
+  "retailer": "Stew Leonard's Wines & Spirits of Newington",
+  "brand": "LesserEvil",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Stew Leonard's",
+    "totalCost": "5.97",
+    "purchaseDate": "2026-05-09",
+    "time": null,
+    "zipCode": "06111",
+    "city": "Newington",
+    "state": "CT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8062.038709000004,
+        "totalUsd": 0.014787,
+        "inputTokens": 6114,
+        "outputTokens": 624,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stew Leonard's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:32am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Newington",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3475 Berlin Turnpike",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0612",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LSR EVL HIMAL PINK",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAGELS",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Stew Leonard's\n3475 Berlin Turnpike\nNewington, CT 06111\n(860)760-8100\n\nLSR EVL HIMAL PINK  3.99 F\n2 @ 0.99\nBAGELS              1.98 F\nTAX                 0.00\n\n**** BALANCE        5.97\n\nCARD NUMBER: ************0612\nDATE: 05/09/26 TIME: 10:32am\nREFERENCE #: 89100013 H\nTERMINAL 91\nMasterCard          5.97\n\nCHANGE              0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n05/09/26 10:32  5 91 14 91\n\nYour Cashier SCO 91\n\nHelp Us WOW Even More Customers!\nYour opinion matters. When you leave\nus a Google review, you're helping\nfriends and neighbors discover the\nfresh and fun Stew's experience.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9068.107083999996,
+        "totalUsd": 0.019113,
+        "inputTokens": 3706,
+        "outputTokens": 620,
+        "reasoningTokens": 886
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stew Leonard's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:32am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Newington",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3475 Berlin Turnpike",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0612",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LSR EVL HIMAL PINK",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAGELS + 2 @ 0.99",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Stew Leonard's\n\n3475 Berlin Turnpike\nNewington, CT 06111\n(860)760-8100\n\nLSR EVL HIMAL PINK\t3.99 F\n2 @ 0.99\nBAGELS\t1.98 F\nTAX\t0.00\n\n**** BALANCE\t5.97\n\nCARD NUMBER: ************0612\nDATE: 05/09/26 TIME: 10:32am\nREFERENCE #: 89100013 H\nTERMINAL 91\nMasterCard\t5.97\n\nCHANGE\t0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n05/09/26 10 32 5 91 14 91\n\nYour Cashier SCO 91\n\nHelp Us WOW Even More Customers!\nYour opinion matters. When you leave\nus a Google review, you're helping\nfriends and neighbors discover the\nfresh and fun Stew's experience.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4374.468334000001,
+        "totalUsd": 0.010878,
+        "inputTokens": 3706,
+        "outputTokens": 591,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stew Leonard's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:32am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Newington",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3475 Berlin Turnpike",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0612",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LSR EVL HIMAL PINK",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAGELS",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Stew Leonard's\n3475 Berlin Turnpike\nNewington, CT 06111\n(860)760-8100\nLSR EVL HIMAL PINK 3.99 F\n2 @ 0.99\nBAGELS 1.98 F\nTAX 0.00\n**** BALANCE 5.97\nCARD NUMBER: ************0612\nDATE: 05/09/26 TIME: 10:32am\nREFERENCE #: 39100013 H\nTERMINAL 91\nMasterCard 5.97\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n05/09/26 10 32 5 91 14 91\nYour Cashier SCO 91\nHelp Us WOW Even More Customers!\nYour opinion matters. When you leave\nus a Google review, you're helping\nfriends and neighbors discover the\nfresh and fun Stew's experience.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "LSR EVL HIMAL PINK + 2 @ 0.99",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BAGELS + 2 @ 0.99",
+      "price": 0.99,
+      "quantity": 2,
+      "totalSpend": 1.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

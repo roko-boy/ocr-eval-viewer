@@ -1,0 +1,324 @@
+{
+  "id": "cmop76ofc00489ci99dkf4pu4",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "Bundle x Joy",
+  "amount": 19.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "118.12",
+    "purchaseDate": "2026-05-02",
+    "time": null,
+    "zipCode": "84109",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16507.60212500003,
+        "totalUsd": 0.020739,
+        "inputTokens": 6086,
+        "outputTokens": 1290,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "118.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84109",
+          "status": "match"
+        },
+        "city": {
+          "value": "Salt Lake City",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3191 E 3300 S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3470",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* BUNDLEYJOY D BEEF JERKY BA + 850035258064 + QTY: 2 @ $9.99 + Return Amount $9.99",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 19.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AS* BUNDLEYJOY D BRAVE LMB 4 L + 850035258040 + QTY: 2 @ $19.99 + Return Amount $19.99",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AS* BUNDLEYJOY D FIBER BOOST 4 + 850035258651 + Return Amount $24.99",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AS* BUNDLEYJOY PRO/PREBIO BOOS + 850035258668 + Return Amount $24.99",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #169\n3191 E 3300 S\nSalt Lake City, UT 84109\n801-487-9290\nS-169 R-101 BUS.DATE-05/02/2026\nT-97902 A-852595\nSALE\nAS* BUNDLEYJOY D BEEF JERKY BA $19.98\n850035258064 StSpCiCo\nQTY: 2 @ $9.99\nReturn Amount $9.99\nAS* BUNDLEYJOY D BRAVE LMB 4 L $39.98\n850035258040 StSpCiCo\nQTY: 2 @ $19.99\nReturn Amount $19.99\nAS* BUNDLEYJOY D FIBER BOOST 4 $24.99\n850035258651 StSpCiCo\nReturn Amount $24.99\nAS* BUNDLEYJOY PRO/PREBIO BOOS $24.99\n850035258668 StSpCiCo\nReturn Amount $24.99\n6 Sale item(s)\nSUBTOTAL $109.94\nSALE\nTAX State 4.85% ON $109.94 $5.33\nTAX Special 1.05% ON $109.94 $1.15\nTAX County 0.35% ON $109.94 $0.38\nTAX City 1.20% ON $109.94 $1.32\nTAX TOTAL: $8.18\nTOTAL $118.12\nDebit\nACCOUNT#:************3470 $118.12\nAUTH#:002990\nCHANGE DUE $0.00\n---------TRANSACTION RECORD---------\nINVOICE # 19790210101\nMERCHANT # *********3887\nTERMINAL # ***5198\n** DIRECT PAYMENT **\nTYPE: Sale\nDEBIT: VISA TAPPED\nUS DEBIT\nAID: A0000000980840\nNETWORKNAME: PAVD\nTotal USD$ 118.12\nMODE : ISSUER\nApproved\nVerified by PIN\nCUSTOMER COPY\nIMPORTANT:\nretain this copy for your records\nNON-MEMBER\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 07/01/2026\nSave with Treats Rewards!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8803.972750000015,
+        "totalUsd": 0.024321,
+        "inputTokens": 3692,
+        "outputTokens": 1226,
+        "reasoningTokens": 861
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "118.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84109",
+          "status": "match"
+        },
+        "city": {
+          "value": "Salt Lake City",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3191 E 3300 S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3470",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* BUNDLEXJOY D BEEF JERKY BA + 850035258064",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 19.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BUNDLEXJOY D BRAVE LMB 4 L + 850035258040",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BUNDLEXJOY D FIBER BOOST 4 + 850035258651",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BUNDLEXJOY PRO/PREBIO BOOS + 850035258668",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #169\n3191 E 3300 S\nSalt Lake City, UT 84109\n801-487-9290\nS-169 R-101 BUS.DATE-05/02/2026\nT-97902 A-852595\nSALE\nAS* BUNDLEXJOY D BEEF JERKY BA $19.98\n850035258064 StSpCiCo\nQTY: 2 @ $9.99\nReturn Amount $9.99\nAS* BUNDLEXJOY D BRAVE LMB 4 L $39.98\n850035258040 StSpCiCo\nQTY: 2 @ $19.99\nReturn Amount $19.99\nAS* BUNDLEXJOY D FIBER BOOST 4 $24.99\n850035258651 StSpCiCo\nReturn Amount $24.99\nAS* BUNDLEXJOY PRO/PREBIO BOOS $24.99\n850035258668 StSpCiCo\nReturn Amount $24.99\n6 Sale item(s)\nSUBTOTAL $109.94\nSALE\nTAX State 4.85% ON $109.94 $5.33\nTAX Special 1.05% ON $109.94 $1.15\nTAX County 0.35% ON $109.94 $0.38\nTAX City 1.20% ON $109.94 $1.32\nTAX TOTAL: $8.18\nTOTAL $118.12\nDebit\nACCOUNT#:************3470 $118.12\nAUTH#:002990\nCHANGE DUE $0.00\n----------TRANSACTION RECORD----------\nINVOICE # 19790210101\nMERCHANT # *********3887\nTERMINAL # ***5198\n** DIRECT PAYMENT **\nTYPE: Sale\nDEBIT: VISA TAPPED\nUS DEBIT\nAID: A0000000980840\nNETWORKNAME: PAVD\nTotal USD$ 118.12\nMODE : ISSUER\nApproved\nVerified by PIN\nCUSTOMER COPY\nIMPORTANT:\nretain this copy for your records\nNON-MEMBER\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 07/01/2026\nSave with Treats Rewards!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6101.124666999996,
+        "totalUsd": 0.016554,
+        "inputTokens": 3692,
+        "outputTokens": 1224,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "118.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84109",
+          "status": "match"
+        },
+        "city": {
+          "value": "Salt Lake City",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3191 E 3300 S",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3470",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* BUNDLEXJOY D BEEF JERKY BA + 850035258064",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 19.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BUNDLEXJOY D BRAVE LMB 4 L + 850035258040",
+          "quantity": 2,
+          "unitPrice": 19.99,
+          "totalSpend": 39.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BUNDLEXJOY D FIBER BOOST 4 + 850035258651",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BUNDLEXJOY PRO/PREBIO BOOS + 850035258668",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #169\n3191 E 3300 S\nSalt Lake City, UT 84109\n801-487-9290\nS-169 R-101 BUS.DATE-05/02/2026\nT-97902 A-852595\nSALE\nAS* BUNDLEXJOY D BEEF JERKY BA $19.98\n850035258064 StSpCiCo\nQTY: 2 @ $9.99\nReturn Amount $9.99\nAS* BUNDLEXJOY D BRAVE LMB 4 L $39.98\n850035258040 StSpCiCo\nQTY: 2 @ $19.99\nReturn Amount $19.99\nAS* BUNDLEXJOY D FIBER BOOST 4 $24.99\n850035258651 StSpCiCo\nReturn Amount $24.99\nAS* BUNDLEXJOY PRO/PREBIO BOOS $24.99\n850035258668 StSpCiCo\nReturn Amount $24.99\n6 Sale item(s)\nSUBTOTAL $109.94\nSALE\nTAX State 4.85% ON $109.94 $5.33\nTAX Special 1.05% ON $109.94 $1.15\nTAX County 0.35% ON $109.94 $0.38\nTAX City 1.20% ON $109.94 $1.32\nTAX TOTAL: $8.18\nTOTAL $118.12\nDebit\nACCOUNT#:************3470 $118.12\nAUTH#:002990\nCHANGE DUE $0.00\n----------TRANSACTION RECORD----------\nINVOICE # 19790210101\nMERCHANT # *********3887\nTERMINAL # ***5198\n** DIRECT PAYMENT **\nTYPE: Sale\nDEBIT: VISA TAPPED\nUS DEBIT\nAID: A0000000980840\nNETWORKNAME: PAVD\nTotal USD$ 118.12\nMODE : ISSUER\nApproved\nVerified by PIN\nCUSTOMER COPY\nIMPORTANT:\nretain this copy for your records\nNON-MEMBER\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 07/01/2026\nSave with Treats Rewards!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "AS* BUNDLEXJOY D BEEF JERKY BA + 850035258064 + QTY: 2 @ $9.99 + Return Amount $9.99",
+      "price": 9.99,
+      "quantity": 2,
+      "totalSpend": 19.98
+    },
+    {
+      "text": "AS* BUNDLEXJOY D BRAVE LMB 4 L + 850035258040 + QTY: 2 @ $19.99 + Return Amount $19.99",
+      "price": 19.99,
+      "quantity": 2,
+      "totalSpend": 39.98
+    },
+    {
+      "text": "AS* BUNDLEXJOY D FIBER BOOST 4 + 850035258651 + Return Amount $24.99",
+      "price": 24.99,
+      "quantity": 1,
+      "totalSpend": 24.99
+    },
+    {
+      "text": "AS* BUNDLEXJOY PRO/PREBIO BOOS + 850035258668 + Return Amount $24.99",
+      "price": 24.99,
+      "quantity": 1,
+      "totalSpend": 24.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

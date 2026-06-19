@@ -1,0 +1,291 @@
+{
+  "id": "cmo48uexg001ozzhctbgsogvn",
+  "url": null,
+  "retailer": "Jewel-Osco",
+  "brand": "smashkitchen ",
+  "amount": 4.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Jewel Osco",
+    "totalCost": "6.33",
+    "purchaseDate": "2026-04-18",
+    "time": null,
+    "zipCode": "60618",
+    "city": "Chicago",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 23456.45929199998,
+        "totalUsd": 0.0192,
+        "inputTokens": 6086,
+        "outputTokens": 1119,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "6.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:08",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60618",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3400 N Western",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0670",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LA COLOMBE TRIPLE + 60491300488 + Sale Savings -0.30 + forU Store Coupon -2.99",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SMASH KITCHEN KETC + 85006817401",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JEWEL LRG EGGS12 + 2113004941 + Sale Savings -4.00 + forU Store Coupon -6.22",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 1.76,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Jewel\nOsco\nStore 901 Dir Omar Arroyo\nMain: (773)327-1204 Rx: (773)327-2723\n3400 N Western\nChicago IL 60618\n00090105100022604180608\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n60491300488 LA COLOMBE TRIPLE\n3.29 0.00 B\nSale Savings -0.30\nforU Store Coupon -2.99\n85006817401 SMASH KITCHEN KETC\n4.49 4.49 B\nREFRIG/FROZEN\n2113004941 2@ JEWEL LRG EGGS12\n11.98 1.76 B\nSale Savings -4.00\nforU Store Coupon -6.22\nTAX\n0.08\n**** BALANCE\n6.33\nCredit Purchase 04/18/26 06:08\nCARD # ************0670\nREF: 990811406700 AUTH: 00018236\nPAYMENT AMOUNT\n6.33\nAL VISA CREDIT\nAID A0000000031010\nTVR 8000008000\nVisa\n6.33\nCHANGE\n0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nYOUR SAVINGS\nStore Savings\n4.30\nfor U Savings\n9.21\nTotal\n13.51\nTotal Savings Value\n68%\nYOUR POINTS\nPoints Earned Today 6\nPoints Available 710\nTOTAL NUMBER OF ITEMS SOLD = 4\n04/18/26 06:08 901 51 2 8851\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO FOR U questions",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 23337.85029100004,
+        "totalUsd": 0.025734,
+        "inputTokens": 3692,
+        "outputTokens": 1153,
+        "reasoningTokens": 1091
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "6.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:08",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60618",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3400 N Western",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0670",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LA COLOMBE TRIPLE + 60491300488 + Sale Savings -0.30 + forU Store Coupon -2.99",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SMASH KITCHEN KETC + 85006817401",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JEWEL LRG EGGS12 + 2113004941 + Sale Savings -4.00 + forU Store Coupon -6.22",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 1.76,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "      Jewel\n      Osco\n\n    Store 901 Dir Omar Arroyo\nMain: (773)327-1204 Rx: (773)327-2723\n        3400 N Western\n       Chicago IL 60618\n\n     00090105100022604180608\n-------------------------------------\n     YOUR CASHIER TODAY WAS SELF\n\nGROCERY                         Price  You Pay\n60491300488 LA COLOMBE TRIPLE    3.29   0.00 B\n            Sale Savings -0.30\n            forU Store Coupon -2.89\n85006817401 SMASH KITCHEN KETC   4.49   4.49 B\nREFRIG/FROZEN\n2113004941  2@ JEWEL LRG EGGS12 11.98   1.76 B\n            Sale Savings -4.00\n            forU Store Coupon -6.22\n\n            TAX                         0.08\n        **** BALANCE                    6.33\n-------------------------------------\nCredit Purchase   04/18/26 06:08\nCARD # ************0670\nREF: 990811406700  AUTH: 00018236\n\nPAYMENT AMOUNT                  6.33\n-------------------------------------\nAL VISA CREDIT\nAID A0000000031010\nTVR 8000008000\n            Visa                        6.33\n            CHANGE                      0.00\n\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\n\n             YOUR SAVINGS\nStore Savings                    4.30\nfor U Savings                    9.21\nTotal                           13.51\nTotal Savings Value               68%\n-------------------------------------\n              YOUR POINTS\nPoints Earned Today 6\nPoints Available 710\n\nTOTAL NUMBER OF ITEMS SOLD =    4\n04/18/26 06:08 901 51  2      8851\n\n  Thank you for shopping Jewel-Osco!\n  For JEWEL-OSCO FOR U questions",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6268.617708999998,
+        "totalUsd": 0.015519,
+        "inputTokens": 3692,
+        "outputTokens": 1109,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "6.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60618",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3400 N Western",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0670",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LA COLOMBE TRIPLE + 60491300488 + Sale Savings -0.30 + forU Store Coupon -2.99",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SMASH KITCHEN KETC + 85006817401",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JEWEL LRG EGGS12 + 2113004941 + Sale Savings -4.00 + forU Store Coupon -6.22",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 1.76,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Jewel\nOsco\nStore 901 Dir Omar Arroyo\nMain: (773)327-1204 Rx: (773)327-2723\n3400 N Western\nChicago IL 60618\n00090105100022604180608\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n60491300488 LA COLOMBE TRIPLE\n3.29 0.00 B\nSale Savings -0.30\nforU Store Coupon -2.99\n85006817401 SMASH KITCHEN KETC\n4.49 4.49 B\nREFRIG/FROZEN\n2113004941 2@ JEWEL LRG EGGS12\n11.98 1.76 B\nSale Savings -4.00\nforU Store Coupon -6.22\nTAX\n0.08\n**** BALANCE\n6.33\nCredit Purchase 04/18/26 06:08\nCARD # ************0670\nREF: 990811406700 AUTH: 00018236\nPAYMENT AMOUNT\n6.33\nAL VISA CREDIT\nAID A0000000031010\nTVR 8000008000\nVisa\n6.33\nCHANGE\n0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nYOUR SAVINGS\nStore Savings\n4.30\nfor U Savings\n9.21\nTotal\n13.51\nTotal Savings Value\n68%\nYOUR POINTS\nPoints Earned Today 6\nPoints Available 710\nTOTAL NUMBER OF ITEMS SOLD = 4\n04/18/26 06:08 901 51 2 8851\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO FOR U questions",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SMASH KITCHEN KETC + 85006817401 + REFRIG/FROZEN",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "JEWEL LRG EGGS12 + 2113004941 + Sale Savings -4.00 + forU Store Coupon -6.22",
+      "price": 0.89,
+      "quantity": 2,
+      "totalSpend": 1.78
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,297 @@
+{
+  "id": "cmpep4u6e0058zerwerghn4wh",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Dr. Praeger's ",
+  "amount": 6.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "14.14",
+    "purchaseDate": "2026-05-20",
+    "time": null,
+    "zipCode": "76034",
+    "city": "Colleyville",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13251.94749999995,
+        "totalUsd": 0.017454,
+        "inputTokens": 6086,
+        "outputTokens": 925,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "14.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76034",
+          "status": "match"
+        },
+        "city": {
+          "value": "Colleyville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4801 Colleyville Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "365WFM FRSTD WHT CEREAL",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRAEG BROCCOLI LITTLE + Qty 2 Reg $6.19 ea + Savings ($2.08)",
+          "quantity": 2,
+          "unitPrice": 6.19,
+          "totalSpend": 10.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANA + Qty 1.78 lb @ $0.59/lb",
+          "quantity": 1,
+          "unitPrice": 0.59,
+          "totalSpend": 1.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nColleyville CLV 817-918-3821\n4801 Colleyville Blvd\nColleyville, TX 76034\n365WFM FRSTD WHT CEREAL $2.79 F\nPRAEG BROCCOLI LITTLE $10.30 F\nQty 2 Reg $6.19 ea\nSavings ($2.08)\nBANANA $1.05 F\nQty 1.78 lb @ $0.59/lb\nSubtotal: $16.22\nTotal Savings: -$2.08\nNet Sales: $14.14\nTotal: $14.14\nSold Items: 4\nPaid:\nAmerican Exp *4003 $14.14\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$2.08\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n953 22009 05/20/2026 06:29 PM\n63011052395322009052020260\nC67LPUS8UM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15557.70900000003,
+        "totalUsd": 0.037272,
+        "inputTokens": 3692,
+        "outputTokens": 915,
+        "reasoningTokens": 2611
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76034",
+          "status": "match"
+        },
+        "city": {
+          "value": "Colleyville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4801 Colleyville Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "365WFM FRSTD WHT CEREAL",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRAEG BROCCOLI LITTLE + Qty 2 Reg $6.19 ea + Savings ($2.08)",
+          "quantity": 2,
+          "unitPrice": 6.19,
+          "totalSpend": 10.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANA + Qty 1.78 lb @ $0.59/lb",
+          "quantity": 1,
+          "unitPrice": 1.05,
+          "totalSpend": 1.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nColleyville CLV 817-918-3281\n4801 Colleyville Blvd\nColleyville, TX 76034\n365WFM FRSTD WHT CEREAL $2.79 F\nPRAEG BROCCOLI LITTLE $10.30 F\nQty 2 Reg $6.19 ea\nSavings ($2.08)\nBANANA $1.05 F\nQty 1.78 lb @ $0.59/lb\nSubtotal: $16.22\nTotal Savings: -$2.08\nNet Sales: $14.14\nTotal: $14.14\nSold Items: 4\nPaid:\nAmerican Exp *4003 $14.14\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$2.08\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n953 22009 05/20/2026 06:29 PM\n63011052395322009052020260\nC67LPUS8UM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5135.341875000013,
+        "totalUsd": 0.013872,
+        "inputTokens": 3692,
+        "outputTokens": 926,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76034",
+          "status": "match"
+        },
+        "city": {
+          "value": "Colleyville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4801 Colleyville Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "365WFM FRSTD WHT CEREAL",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRAEG BROCCOLI LITTLE + Qty 2 Reg $6.19 ea + Savings ($2.08)",
+          "quantity": 2,
+          "unitPrice": 6.19,
+          "totalSpend": 10.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANA + Qty 1.78 lb @ $0.59/lb",
+          "quantity": 1,
+          "unitPrice": 0.59,
+          "totalSpend": 1.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nColleyville CLV 817-918-3821\n4801 Colleyville Blvd\nColleyville, TX 76034\n365WFM FRSTD WHT CEREAL $2.79 F\nPRAEG BROCCOLI LITTLE $10.30 F\nQty 2 Reg $6.19 ea\nSavings ($2.08)\nBANANA $1.05 F\nQty 1.78 lb @ $0.59/lb\nSubtotal: $16.22\nTotal Savings: -$2.08\nNet Sales: $14.14\nTotal: $14.14\nSold Items: 4\nPaid:\nAmerican Exp *4003 $14.14\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$2.08\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n*********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n*********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n953 22009 05/20/2026 06:29 PM\n63011052395322009052020260\nC67LPUS8UM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "365WFM FRSTD WHT CEREAL",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "PRAEG BROCCOLI LITTLE + Qty 2 Reg $6.19 ea + Savings ($2.08)",
+      "price": 5.15,
+      "quantity": 2,
+      "totalSpend": 10.3
+    },
+    {
+      "text": "BANANA + Qty 1.78 lb @ $0.59/lb",
+      "price": 0.59,
+      "quantity": 1,
+      "totalSpend": 1.05
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

@@ -1,0 +1,297 @@
+{
+  "id": "cmppu8jtj006dugi2tplddyr3",
+  "url": null,
+  "retailer": "Total Wine & More",
+  "brand": "spikedade",
+  "amount": 4.6,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Total Wine & More",
+    "totalCost": "238.61",
+    "purchaseDate": "2026-05-28",
+    "time": null,
+    "zipCode": "32246",
+    "city": "Jacksonville",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10767.14554100001,
+        "totalUsd": 0.016788,
+        "inputTokens": 6158,
+        "outputTokens": 839,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine & More",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "238.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:55 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32246",
+          "status": "match"
+        },
+        "city": {
+          "value": "Jacksonville",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4413 Town Center Parkway 300",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2008",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Bardstown Bourbon Collab Amrut-750ml + 85755200870",
+          "quantity": 1,
+          "unitPrice": 179.99,
+          "totalSpend": 179.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Kostritzer Schwarzbier-11nr-6p + 78695111868 + PK",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Spiked Ade Variety Pack-12c-8p + 85006978306 + PK",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n907-Total Wine-Jacksonville\n4413 Town Center Parkway 300\nJacksonville, FL 32246\n904-998-1740\nTicket: 1202556 11:55 AM 05/28/2026\nStore: 907 Register: 3\nCashier: 113944 (Tanisha)\nItem Qty Price Amount\nBardstown Bourbon Collab Amrut-750ml\n85755200870 1 179.99 179.99\nKostritzer Schwarzbier-11nr-6p\n78695111868 PK 1 18.99 18.99\nSpiked Ade Variety Pack-12c-8p\n85006978306 PK 1 22.99 22.99\nSubtotal 221.97\nTax1 16.64\nTotal 238.61\n05/28/2026 11:55:05\nAMERICAN EXPRESS Entry Method: Chip\nCARD #: XXXXXXXXXXXX2008\nPURCHASE - APPROVED",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8175.287624999997,
+        "totalUsd": 0.020937,
+        "inputTokens": 3728,
+        "outputTokens": 806,
+        "reasoningTokens": 899
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "238.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:55 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32246",
+          "status": "match"
+        },
+        "city": {
+          "value": "Jacksonville",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4413 Town Center Parkway 300",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2008",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Bardstown Bourbon Collab Amrut-750ml + 85755200870",
+          "quantity": 1,
+          "unitPrice": 179.99,
+          "totalSpend": 179.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Kostritzer Schwarzbier-11nr-6p + 78695111868 PK",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Spiked Ade Variety Pack-12c-8p + 85006978306 PK",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n907-Total Wine-Jacksonville\n4413 Town Center Parkway 300\nJacksonville, FL 32246\n904-998-1740\nTicket: 1202556 11:55 AM 05/28/2026\nStore: 907 Register: 3\nCashier: 113944 (Tanisha)\nItem Qty Price Amount\nBardstown Bourbon Collab Amrut-750ml\n85755200870 1 179.99 179.99\nKostritzer Schwarzbier-11nr-6p\n78695111868 PK 1 18.99 18.99\nSpiked Ade Variety Pack-12c-8p\n85006978306 PK 1 22.99 22.99\nSubtotal 221.97\nTax1 16.64\nTotal 238.61\n05/28/2026 11:55:05\nAMERICAN EXPRESS Entry Method: Chip\nCARD #: XXXXXXXXXXXX2008\nPURCHASE - APPROVED",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5140.588707999996,
+        "totalUsd": 0.012846,
+        "inputTokens": 3728,
+        "outputTokens": 806,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine & More",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "238.61",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:55 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32246",
+          "status": "match"
+        },
+        "city": {
+          "value": "Jacksonville",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4413 Town Center Parkway 300",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2008",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Bardstown Bourbon Collab Amrut-750ml + 85755200870",
+          "quantity": 1,
+          "unitPrice": 179.99,
+          "totalSpend": 179.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Kostritzer Schwarzbier-11nr-6p + 78695111868",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Spiked Ade Variety Pack-12c-8p + 85006978306",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n907-Total Wine-Jacksonville\n4413 Town Center Parkway 300\nJacksonville, FL 32246\n904-998-1740\nTicket: 1202556 11:55 AM 05/28/2026\nStore: 907 Register: 3\nCashier: 113944 (Tanisha)\nItem Qty Price Amount\nBardstown Bourbon Collab Amrut-750ml\n85755200870 1 179.99 179.99\nKostritzer Schwarzbier-11nr-6p\n78695111868 PK 1 18.99 18.99\nSpiked Ade Variety Pack-12c-8p\n85006978306 PK 1 22.99 22.99\nSubtotal 221.97\nTax1 16.64\nTotal 238.61\n05/28/2026 11:55:05\nAMERICAN EXPRESS Entry Method: Chip\nCARD #: XXXXXXXXXXX2008\nPURCHASE - APPROVED",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Bardstown Bourbon Collab Amrut-750ml + 35755200870",
+      "price": 179.99,
+      "quantity": 1,
+      "totalSpend": 179.99
+    },
+    {
+      "text": "Costritzer Schwarzbier-11nr-6p + 18695111868",
+      "price": 18.99,
+      "quantity": 1,
+      "totalSpend": 18.99
+    },
+    {
+      "text": "piked Ade Variety Pack-12c-8p + 5006978306",
+      "price": 22.99,
+      "quantity": 1,
+      "totalSpend": 22.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

@@ -1,0 +1,331 @@
+{
+  "id": "cmpk8y96900ehjqvl5dy47ef8",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "1st Phorm",
+  "amount": 3.39,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "8.93",
+    "purchaseDate": "2026-05-17",
+    "time": null,
+    "zipCode": "27055",
+    "city": "Yadkinville",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10009.93245799997,
+        "totalUsd": 0.017922,
+        "inputTokens": 6086,
+        "outputTokens": 977,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:05:05 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27055",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yadkinville",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "805 South State St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9502",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Dazzling Dragon Protein",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1stPhorm Cheddr MeatStick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1stPhorm Cheddr MeatStick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Extra Large Drink + Free Speciality",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": -6.1,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #510\n805 South State St.\nYadkinville, NC 27055\n(336) 679-2400\n5/17/2026 10:05:05 AM\nPOS Terminal\nOrder Number: 137, 099\nRegister:21\nOrder #099\nDazzling Dragon Protein $7.99\nMaster Tran:\nMy Sheetz Rewardz $0.00\n1stPhorm Cheddr MeatStick 2o $3.39\n1stPhorm Cheddr MeatStick 2o $3.39\nExtra Large Drink $1.89\nFree Speciality -$7.99\nSub. Total: $8.67\nTax: $0.26\nTotal: $8.93\nDiscount Total: -$7.99\nVisa: $8.93\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9502\nContactless\nTerminal : XXXXXXXXXX6002\nApproval : 755398\nSequence : 021635\nUSD$ 8.93\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 6D2835EBAB8341C7\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0133\nTerminal : 20510\nApproval : 200295031\nYou earned 43 Points today!\nSpendable Points: 2877\nYearly Points: 595\nLEVEL:\n** Redeem pointz on the Sheetz app! **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9008.057458999974,
+        "totalUsd": 0.022062,
+        "inputTokens": 3692,
+        "outputTokens": 1009,
+        "reasoningTokens": 827
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:05:05 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27055",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yadkinville",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "805 South State St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9502",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Dazzling Dragon Protein + Free Speciality",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Master Tran",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1stPhorm Cheddr MeatStick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1stPhorm Cheddr MeatStick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Extra Large Drink",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #510\n805 South State St.\nYadkinville, NC 27055\n(336) 679-2400\n5/17/2026 10:05:05 AM\nPOS Terminal\nOrder Number: 137, 099\nRegister:21\nOrder #099\nDazzling Dragon Protein $7.99\nMaster Tran:\nMy Sheetz Rewardz $0.00\n1stPhorm Cheddr MeatStick 2o $3.39\n1stPhorm Cheddr MeatStick 2o $3.39\nExtra Large Drink $1.89\nFree Speciality -$7.99\nSub. Total: $8.67\nTax: $0.26\nTotal: $8.93\nDiscount Total: -$7.99\nVisa: $8.93\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9502\nContactless\nTerminal : XXXXXXXXXX6002\nApproval : 755398\nSequence : 021635\nUSD$ 8.93\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 6D2835EBAB8341C7\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0133\nTerminal : 20510\nApproval : 200295031\nYou earned 43 Points today!\nSpendable Points: 2877\nYearly Points: 595\nLEVEL:\n** Redeem pointz on the Sheetz app! **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5120.901083000004,
+        "totalUsd": 0.01416,
+        "inputTokens": 3692,
+        "outputTokens": 958,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:05:05 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27055",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yadkinville",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "805 South State St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9502",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Dazzling Dragon Protein + Free Speciality",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1stPhorm Cheddr MeatStick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1stPhorm Cheddr MeatStick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Extra Large Drink",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #510\n805 South State St.\nYadkinville, NC 27055\n(336) 679-2400\n5/17/2026 10:05:05 AM\nPOS Terminal\nOrder Number: 137, 099\nRegister:21\nOrder #099\nDazzling Dragon Protein $7.99\nMaster Tran:\nMy Sheetz Rewardz $0.00\n1stPhorm Cheddr MeatStick 2o $3.39\n1stPhorm Cheddr MeatStick 2o $3.39\nExtra Large Drink $1.89\nFree Speciality -$7.99\nSub. Total: $8.67\nTax: $0.26\nTotal: $8.93\nDiscount Total: -$7.99\nVisa: $8.93\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9502\nContactless\nTerminal : XXXXXXXXXX6002\nApproval : 755398\nSequence : 021635\nUSD$ 8.93\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 6D2835EBAB8341C7\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0133\nTerminal : 20510\nApproval : 200295031\nYou earned 43 Points today!\nSpendable Points: 2877\nYearly Points: 595\nLEVEL:\n** Redeem pointz on the Sheetz app! **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Dazzling Dragon Protein + My Sheetz Rewardz $0.00",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "1stPhorm Cheddr MeatStick 2o",
+      "price": 3.39,
+      "quantity": 1,
+      "totalSpend": 3.39
+    },
+    {
+      "text": "1stPhorm Cheddr MeatStick 2o",
+      "price": 3.39,
+      "quantity": 1,
+      "totalSpend": 3.39
+    },
+    {
+      "text": "Extra Large Drink",
+      "price": 1.89,
+      "quantity": 1,
+      "totalSpend": 1.89
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

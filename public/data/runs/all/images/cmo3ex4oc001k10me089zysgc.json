@@ -1,0 +1,297 @@
+{
+  "id": "cmo3ex4oc001k10me089zysgc",
+  "url": null,
+  "retailer": "VETCO Clinics",
+  "brand": "JustFoodForDogs",
+  "amount": 11.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "VETCO Clinics",
+    "totalCost": "39.03",
+    "purchaseDate": "2026-04-17",
+    "time": null,
+    "zipCode": "95405",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9567.287083000003,
+        "totalUsd": 0.016815,
+        "inputTokens": 6086,
+        "outputTokens": 854,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "39.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:18 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95405",
+          "status": "match"
+        },
+        "city": {
+          "value": "SANTA ROSA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1175 YULUPA AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3056",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "000729388 HEDGEHOG II GIANT",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002936179 JFFD-DOG 18Z C/WH RI",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003956366 LPNB-ORG T REX PLSH",
+          "quantity": 1,
+          "unitPrice": 8,
+          "totalSpend": 8,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SANTA ROSA-YULUPA (CA) #05314\n1175 YULUPA AVE\nSANTA ROSA, CA 95405\n707-579-9358\n04/17/26 2:18PM Reg 002 Trans 100474\nHelped by Hyde\n\n000729388 HEDGEHOG II GIANT 15.99 T\n002936179 JFFD-DOG 18Z C/WH RI 11.49 T\n003956366 LPNB-ORG T REX PLSH 8.00 T\n\nTaxable Total 35.48\nSubtotal 35.48\nTax CA 10% 3.55\nTOTAL 39.03\n\nVisa Credit Card 39.03\n2026-04-17 02:18:18 PM\nTotal: USD $39.03\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX3056\nPurchase - APPROVED\nAUTH CODE: 04702I\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 228547\n\n3 Items\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8388.846625000006,
+        "totalUsd": 0.020028,
+        "inputTokens": 3692,
+        "outputTokens": 836,
+        "reasoningTokens": 774
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "39.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:18 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95405",
+          "status": "match"
+        },
+        "city": {
+          "value": "SANTA ROSA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1175 YULUPA AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3056",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "000729388 HEDGEHOG II GIANT",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002936179 JFFD-DOG 18Z C/WH RI",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003956366 LPNB-ORG T REX PLSH",
+          "quantity": 1,
+          "unitPrice": 8,
+          "totalSpend": 8,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SANTA ROSA-YULUPA (CA) #05314\n1175 YULUPA AVE\nSANTA ROSA, CA 95405\n707-579-9358\n04/17/26 2:18PM Reg 002 Trans 100474\nHelped by Hyde\n000729388 HEDGEHOG II GIANT 15.99 T\n002936179 JFFD-DOG 18Z C/WH RI 11.49 T\n003956366 LPNB-ORG T REX PLSH 8.00 T\nTaxable Total 35.48\nSubtotal 35.48\nTax CA 10% 3.55\nTOTAL 39.03\nVisa Credit Card 39.03\n2026-04-17 02:18:18 PM\nTotal: USD $39.03\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX3056\nPurchase - APPROVED\nAUTH CODE: 04702I\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A000000\nARC: 00\nRRN: 228547\n3 Items\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5205.745499999997,
+        "totalUsd": 0.013107,
+        "inputTokens": 3692,
+        "outputTokens": 841,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "39.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:18 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95405",
+          "status": "match"
+        },
+        "city": {
+          "value": "SANTA ROSA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1175 YULUPA AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3056",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEDGEHOG II GIANT + 000729388",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JFFD-DOG 18Z C/WH RI + 002936179",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LPNB-ORG T REX PLSH + 003956366",
+          "quantity": 1,
+          "unitPrice": 8,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SANTA ROSA-YULUPA (CA) #05314\n1175 YULUPA AVE\nSANTA ROSA, CA 95405\n707-579-9358\n04/17/26 2:18PM Reg 002 Trans 100474\nHelped by Hyde\n000729388 HEDGEHOG II GIANT 15.99 T\n002936179 JFFD-DOG 18Z C/WH RI 11.49 T\n003956366 LPNB-ORG T REX PLSH 8.00 T\nTaxable Total 35.48\nSubtotal 35.48\nTax CA 10% 3.55\nTOTAL 39.03\nVisa Credit Card 39.03\n2026-04-17 02:18:18 PM\nTotal: USD $39.03\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX3056\nPurchase - APPROVED\nAUTH CODE: 04702I\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nRRN: 228547\n3 Items\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HEDGEHOG II GIANT + 000729388",
+      "price": 15.99,
+      "quantity": 1,
+      "totalSpend": 15.99
+    },
+    {
+      "text": "JFFD-DOG 18Z C/WH RI + 002936179",
+      "price": 11.49,
+      "quantity": 1,
+      "totalSpend": 11.49
+    },
+    {
+      "text": "LPNB-ORG T REX PLSH + 003956366",
+      "price": 8,
+      "quantity": 1,
+      "totalSpend": 8
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

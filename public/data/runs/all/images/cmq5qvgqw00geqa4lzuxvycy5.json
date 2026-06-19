@@ -1,0 +1,696 @@
+{
+  "id": "cmq5qvgqw00geqa4lzuxvycy5",
+  "url": null,
+  "retailer": "Natural Grocers",
+  "brand": "organicgirl",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Natural Grocers",
+    "totalCost": "143.35",
+    "purchaseDate": "2026-06-08",
+    "time": null,
+    "zipCode": "75605",
+    "city": "Longview",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14973.74375000001,
+        "totalUsd": 0.032061,
+        "inputTokens": 6086,
+        "outputTokens": 2548,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Natural Grocers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "143.36",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:34 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75603",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Longview",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "406 W Loop 281",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4100",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "70128 CBRM EV Olive 25.4 o + Promotion",
+          "quantity": 2,
+          "unitPrice": 19.85,
+          "totalSpend": 31.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "19002 Bag Credit (.05 DON",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "03646 KLNA Milk Whole 64 o",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 12.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "39818 PK Mayo Avocado 24 o",
+          "quantity": 1,
+          "unitPrice": 15.79,
+          "totalSpend": 15.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "20172 NVL Sandwich Ba 40 c",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "94062 Cucumbers + 0.70 lb @ 2.29 USD/lb",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "94664 Vine-Ripe Tomatoes + 0.65 lb @ 6.19 USD/lb",
+          "quantity": 1,
+          "unitPrice": 6.19,
+          "totalSpend": 4.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "11490 AMY Entree Enc 9.1 o",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "96326 MHSW Sugar Rege 26 o",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "01871 MRT Tortilla 9.37 oz",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "01158 Salads",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "33119 CAS Granola Fru 11 o + Promotion",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 9,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "20091 SEGG Pasta Sp 13.2 o",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 7.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "04000 SF Org Greek Yo 32 o",
+          "quantity": 1,
+          "unitPrice": 8.35,
+          "totalSpend": 8.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "06131 NGBP Cheese Parm 4 o",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "05064 GCT Org Classic 16 o",
+          "quantity": 1,
+          "unitPrice": 6.35,
+          "totalSpend": 6.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "46505 BFCY Mozzarella 10 o",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 8.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "82383 THHL G BEEF GFD 16 o + NPWR TH Beef",
+          "quantity": 2,
+          "unitPrice": 8.49,
+          "totalSpend": 15.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "NATURAL\nGROCERS\nNatural Grocers by Vitamin Cottage\n406 W Loop 281\nLongview, TX 75603\nPhone: 903-331-0733\nDate Time Store Reg Emp Txn\n06/08/26 11:34 AM U133 2 40006 44\nUSD\n70128 CBRM EV Olive 25.4 o 39.70 BF\n2 @ 19.85 USD\nPromotion -7.72\n19002 Bag Credit (.05 DON 0.00 X\n03646 KLNA Milk Whole 64 o 12.98 BF\n2 @ 6.49 USD\n39818 PK Mayo Avocado 24 o 15.79 BF\n20172 NVL Sandwich Ba 40 c 3.69 A\n94062 Cucumbers 1.60 BF\n0.70 lb @ 2.29 USD/lb\n94664 Vine-Ripe Tomatoes 4.02 BF\n0.65 lb @ 6.19 USD/lb\n11490 AMY Entree Enc 9.1 o 6.29 BF\n96326 MHSW Sugar Rege 26 o 6.49 BF\n01871 MRT Tortilla 9.37 oz 3.19 BF\n01158 Salads 4.29 BF\n33119 CAS Granola Fru 11 o 11.98 BF\n2 @ 5.99 USD\nPromotion -2.98\n20091 SEGG Pasta Sp 13.2 o 7.29 BF\n04000 SF Org Greek Yo 32 o 8.35 BF\n06131 NGBP Cheese Parm 4 o 3.99 BF\n05064 GCT Org Classic 16 o 6.35 BF\n46505 BFCY Mozzarella 10 o 8.79 BF\n82383 THHL G BEEF GFD 16 o 16.98 BF\n2 @ 8.49 USD\nNPWR TH Beef -1.00\nSUBTOTAL [22] USD 150.07\nDC $5 off $70 -5.00\nDC 1000 Point Reward -2.00\nSUBTOTAL USD 143.07\nB 139.55 @ 0.000% = 0.00\nX 0.00 @ 0.000% = 0.00\nA 3.52 @ 8.250% = 0.29\nTOTAL USD 143.36\nVisa USD 143.36\nPURCHASE $143.36\n************4100 Visa\nCHIP READ\nREF#: 00794D Approved\nCAPITAL ONE VISA\nAAC - 5E55DA1CD2CC77B2\nMode: Issuer\nAID: A0000000031010\nTVR: 0000008000\nIAD: 0601120321A006\nTSI: E800 ARC: 00\nLoyalty Card: 000000047201297181\nNpower Member\n*001U133080626002000044*\nYou were served by:\nJaidah\nPlease review posted return policy.\nAll returns must be within 30-days of\npurchase. Two items per receipt.\nExclusions apply.\nAll clearance items are non-refundable.\nNo refunds without receipt. Please\ncontact store for details.\nVisit us at NaturalGrocers.com\nThank You for Shopping\nNatural Grocers - Longview, TX\nStore opening hours\nMon-Sat: 8:27am - 8:35pm\nSun: 8:57am - 7:35pm\nYou just saved $7.00 with {N}power!\ners.com/npower to view your current Point",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 46367.21020799999,
+        "totalUsd": 0.07474800000000001,
+        "inputTokens": 3692,
+        "outputTokens": 2548,
+        "reasoningTokens": 5142
+      },
+      "fields": {
+        "storeName": {
+          "value": "Natural Grocers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "143.36",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:34 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75605",
+          "status": "match"
+        },
+        "city": {
+          "value": "Longview",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "406 W Loop 281",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4100",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "70128 CBRM EV Olive 25.4 o + Promotion",
+          "quantity": 2,
+          "unitPrice": 19.85,
+          "totalSpend": 31.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "19002 Bag Credit (.05 DON",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "03646 KLNA Milk Whole 64 o",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 12.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "39818 PK Mayo Avocado 24 o",
+          "quantity": 1,
+          "unitPrice": 15.79,
+          "totalSpend": 15.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "20172 NVL Sandwich Ba 40 c",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "94062 Cucumbers + 0.70 lb @ 2.29 USD/lb",
+          "quantity": 1,
+          "unitPrice": 1.6,
+          "totalSpend": 1.6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "94664 Vine-Ripe Tomatoes + 0.65 lb @ 6.19 USD/lb",
+          "quantity": 1,
+          "unitPrice": 4.02,
+          "totalSpend": 4.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "11490 AMY Entree Enc 9.1 o",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "96326 MHSW Sugar Rege 26 o",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "01871 MRT Tortilla 9.37 oz",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "01158 Salads",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "33119 CAS Granola Fru 11 o + Promotion",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 9,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "20091 SEGG Pasta Sp 13.2 o",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 7.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "04000 SF Org Greek Yo 32 o",
+          "quantity": 1,
+          "unitPrice": 8.35,
+          "totalSpend": 8.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "06131 NGBP Cheese Parm 4 o",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "05064 GCT Org Classic 16 o",
+          "quantity": 1,
+          "unitPrice": 6.35,
+          "totalSpend": 6.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "46505 BFCY Mozzarella 10 o",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 8.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "82383 THHL G BEEF GFD 16 o + NPWR TH Beef",
+          "quantity": 2,
+          "unitPrice": 8.49,
+          "totalSpend": 15.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "NATURAL\nGROCERS\nNatural Grocers by Vitamin Cottage\n406 W Loop 281\nLongview, TX 75605\nPhone: 903-331-0733\n\nDate Time Store Reg Emp Txn\n06/08/26 11:34 AM U133 2 40006 44\n\nUSD\n70128 CBRM EV Olive 25.4 o 39.70 BF\n2 @ 19.85 USD\nPromotion -7.72\n19002 Bag Credit (.05 DON 0.00 X\n03646 KLNA Milk Whole 64 o 12.98 BF\n2 @ 6.49 USD\n39818 PK Mayo Avocado 24 o 15.79 BF\n20172 NVL Sandwich Ba 40 c 3.69 A\n94062 Cucumbers 1.60 BF\n0.70 lb @ 2.29 USD/lb\n94664 Vine-Ripe Tomatoes 4.02 BF\n0.65 lb @ 6.19 USD/lb\n11490 AMY Entree Enc 9.1 o 6.29 BF\n96326 MHSW Sugar Rege 26 o 6.49 BF\n01871 MRT Tortilla 9.37 oz 3.19 BF\n01158 Salads 4.29 BF\n33119 CAS Granola Fru 11 o 11.98 BF\n2 @ 5.99 USD\nPromotion -2.98\n20091 SEGG Pasta Sp 13.2 o 7.29 BF\n04000 SF Org Greek Yo 32 o 8.35 BF\n06131 NGBP Cheese Parm 4 o 3.99 BF\n05064 GCT Org Classic 16 o 6.35 BF\n46505 BFCY Mozzarella 10 o 8.79 BF\n82383 THHL G BEEF GFD 16 o 16.98 BF\n2 @ 8.49 USD\nNPWR TH Beef -1.00\n\nSUBTOTAL [22] USD 150.07\nDC $5 off $70 -5.00\nDC 1000 Point Reward -2.00\n\nSUBTOTAL USD 143.07\nB 139.55 @ 0.000% = 0.00\nX 0.00 @ 0.000% = 0.00\nA 3.52 @ 8.250% = 0.29\n\nTOTAL USD 143.36\nVisa USD 143.36\n\nPURCHASE $143.36\n************4100 Visa\nCHIP READ\nREF#: 00794D Approved\nCAPITAL ONE VISA\nAAC - 5E55DA1CD2CC77B2\nMode: Issuer\nAID: A0000000031010\nTVR: 0000008000\nIAD: 0601120321A006\nTSI: E800 ARC: 00\n\nLoyalty Card: 000000047201297181\nNpower Member\n\n001U133080626002000044\n\nYou were served by:\nJaidah\nPlease review posted return policy.\nAll returns must be within 30-days of\npurchase. Two items per receipt.\nExclusions apply.\nAll clearance items are non-refundable.\nNo refunds without receipt. Please\ncontact store for details.\nVisit us at NaturalGrocers.com\nThank You for Shopping\nNatural Grocers - Longview, TX\nStore opening hours\nMon-Sat: 8:27am - 8:35pm\nSun: 8:57am - 7:35pm\nYou just saved $7.00 with {N}power!\ners.com/npower to view your current Point",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10951.771708,
+        "totalUsd": 0.028038,
+        "inputTokens": 3692,
+        "outputTokens": 2500,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Natural Grocers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "143.36",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:34 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75603",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Longview",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "406 W Loop 281",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4100",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "70128 CBRM EV Olive 25.4 o + Promotion",
+          "quantity": 2,
+          "unitPrice": 19.85,
+          "totalSpend": 31.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "19002 Bag Credit (.05 DON",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "03646 KLNA Milk Whole 64 o",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 12.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "39818 PK Mayo Avocado 24 o",
+          "quantity": 1,
+          "unitPrice": 15.79,
+          "totalSpend": 15.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "20172 NVL Sandwich Ba 40 c",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "94062 Cucumbers",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "94664 Vine-Ripe Tomatoes",
+          "quantity": 1,
+          "unitPrice": 6.19,
+          "totalSpend": 4.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "11490 AMY Entree Enc 9.1 o",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "96326 MHSW Sugar Rege 26 o",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "01871 MRT Tortilla 9.37 oz",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "01158 Salads",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "33119 CAS Granola Fru 11 o + Promotion",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 9,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "20091 SEGG Pasta Sp 13.2 o",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 7.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "04000 SF Org Greek Yo 32 o",
+          "quantity": 1,
+          "unitPrice": 8.35,
+          "totalSpend": 8.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "06131 NGBP Cheese Parm 4 o",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "05064 GCT Org Classic 16 o",
+          "quantity": 1,
+          "unitPrice": 6.35,
+          "totalSpend": 6.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "46505 BFCY Mozzarella 10 o",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 8.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "82383 THHL G BEEF GFD 16 o + NPWR TH Beef",
+          "quantity": 2,
+          "unitPrice": 8.49,
+          "totalSpend": 15.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "NATURAL\nGROCERS\nNatural Grocers by Vitamin Cottage\n406 W Loop 281\nLongview, TX 75603\nPhone: 903-331-0733\nDate Time Store Reg Emp Txn\n06/08/26 11:34 AM U133 2 40006 44\nUSD\n70128 CBRM EV Olive 25.4 o 39.70 BF\n2 @ 19.85 USD\nPromotion -7.72\n19002 Bag Credit (.05 DON 0.00 X\n03646 KLNA Milk Whole 64 o 12.98 BF\n2 @ 6.49 USD\n39818 PK Mayo Avocado 24 o 15.79 BF\n20172 NVL Sandwich Ba 40 c 3.69 A\n94062 Cucumbers 1.60 BF\n0.70 lb @ 2.29 USD/lb\n94664 Vine-Ripe Tomatoes 4.02 BF\n0.65 lb @ 6.19 USD/lb\n11490 AMY Entree Enc 9.1 o 6.29 BF\n96326 MHSW Sugar Rege 26 o 6.49 BF\n01871 MRT Tortilla 9.37 oz 3.19 BF\n01158 Salads 4.29 BF\n33119 CAS Granola Fru 11 o 11.98 BF\n2 @ 5.99 USD\nPromotion -2.98\n20091 SEGG Pasta Sp 13.2 o 7.29 BF\n04000 SF Org Greek Yo 32 o 8.35 BF\n06131 NGBP Cheese Parm 4 o 3.99 BF\n05064 GCT Org Classic 16 o 6.35 BF\n46505 BFCY Mozzarella 10 o 8.79 BF\n82383 THHL G BEEF GFD 16 o 16.98 BF\n2 @ 8.49 USD\nNPWR TH Beef -1.00\nSUBTOTAL [22] USD 150.07\nDC $5 off $70 -5.00\nDC 1000 Point Reward -2.00\nSUBTOTAL USD 143.07\nB 139.55 @ 0.000% = 0.00\nX 0.00 @ 0.000% = 0.00\nA 3.52 @ 8.250% = 0.29\nTOTAL USD 143.36\nVisa USD 143.36\nPURCHASE $143.36\n************4100 Visa\nCHIP READ\nREF#: 00794D Approved\nCAPITAL ONE VISA\nAAC - 5E55DA1CD2CC77B2\nMode: Issuer\nAID: A0000000031010\nTVR: 0000008000\nIAD: 0601120321A006\nTSI: E800 ARC: 00\nLoyalty Card: 000000047201297181\nNpower Member\n001U133080626002000044\nYou were served by:\nJaidah\nPlease review posted return policy.\nAll returns must be within 30-days of\npurchase. Two items per receipt.\nExclusions apply.\nAll clearance items are non-refundable.\nNo refunds without receipt. Please\ncontact store for details.\nVisit us at NaturalGrocers.com\nThank You for Shopping\nNatural Grocers - Longview, TX\nStore opening hours\nMon-Sat: 8:27am - 8:35pm\nSun: 8:57am - 7:35pm\nYou just saved $7.00 with {N}power!\ners.com/npower to view your current Point",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CBRM EV Olive 25.4 o + 70128 + 2@ 19.85 USO",
+      "price": 15.99,
+      "quantity": 2,
+      "totalSpend": 31.98
+    },
+    {
+      "text": "KLNA Milk Whole 64 o + 03646 + 2@ 6.49 USD",
+      "price": 6.49,
+      "quantity": 2,
+      "totalSpend": 12.98
+    },
+    {
+      "text": "PK Mayo Avocado 24 o + 39818",
+      "price": 15.79,
+      "quantity": 1,
+      "totalSpend": 15.79
+    },
+    {
+      "text": "NVL Sandwich Ba 40 c + 20172",
+      "price": 3.69,
+      "quantity": 1,
+      "totalSpend": 3.69
+    },
+    {
+      "text": "Cucumbers + 94062 + 0.70 lb @ 2.29 USD/lb",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 1.6
+    },
+    {
+      "text": "Vine-Ripe Tomatoes + 94664 + 0.65 lb @ 6.19 USO/lb",
+      "price": 6.19,
+      "quantity": 1,
+      "totalSpend": 4.02
+    },
+    {
+      "text": "AMY Entree Enc 9.1 o + 11490",
+      "price": 6.29,
+      "quantity": 1,
+      "totalSpend": 6.29
+    },
+    {
+      "text": "WHSW Sugar Rege 26 o + 96326",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "MRT Tortilla 9.37 oz + 01871",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    },
+    {
+      "text": "Salads + 01158",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 4.29
+    },
+    {
+      "text": "CAS Granola Fru 11 o + 33119 + 2@ 5.99 USD",
+      "price": 4.5,
+      "quantity": 2,
+      "totalSpend": 9
+    },
+    {
+      "text": "SEGG Pasta Sp 13.2 o + 20091",
+      "price": 7.29,
+      "quantity": 1,
+      "totalSpend": 7.29
+    },
+    {
+      "text": "SF Org Greek Yo 32 o + 04000",
+      "price": 8.35,
+      "quantity": 1,
+      "totalSpend": 8.35
+    },
+    {
+      "text": "NGBP Cheese Parm 4 o + 06131",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "GCT Org Classic 16 o + 05064",
+      "price": 6.35,
+      "quantity": 1,
+      "totalSpend": 6.35
+    },
+    {
+      "text": "BFCY Mozzarella 10 o + 46505",
+      "price": 8.79,
+      "quantity": 1,
+      "totalSpend": 8.79
+    },
+    {
+      "text": "THHL G BEEF GFD 16 o + 82383 + 2 @ 8.49 USD",
+      "price": 7.99,
+      "quantity": 2,
+      "totalSpend": 15.98
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

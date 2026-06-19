@@ -1,0 +1,243 @@
+{
+  "id": "cmns8y6ql004pbapjfbrudvcw",
+  "url": null,
+  "retailer": "Maverik Adventure's First Stop",
+  "brand": "Welch's Craft Cocktails",
+  "amount": 21.57,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "22.87",
+    "purchaseDate": "2026-04-09",
+    "time": null,
+    "zipCode": "83687",
+    "city": "Nampa",
+    "state": "ID",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11877.31754100003,
+        "totalUsd": 0.01515,
+        "inputTokens": 6086,
+        "outputTokens": 669,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.87",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:56 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "83687",
+          "status": "match"
+        },
+        "city": {
+          "value": "Nampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "ID",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2211 North Franklin Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4437",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WELCHES VDKA CKTL 4/12z",
+          "quantity": 2,
+          "unitPrice": 10.79,
+          "totalSpend": 21.58,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nNampa | 287\n2211 North Franklin Blvd.\nNampa, ID, 83687\n04-09-2026 01:56 PM  Invoice # 287009218503\nPURCHASE\nDESC QTY AMNT\nWELCHES VDKA CKTL 4/12z 2 $21.58 A\nSUB-TOTAL $21.58\nSTATE 6.0% (A) $1.29\nTOTAL PURCHASES $22.87\nVISA CREDIT XXXXXXXXXXXX4437\nContactless\nAmount Tendered $22.87\nPayment Network:02\nAID: A0000000031010\nAUTH # 905690\nNo CVM\nMode: Issuer\nSequence # 896842\nLog # 896842\nItems Sold = 2\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n20260999218503000000287\n287 1 ashbra",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15308.93495899998,
+        "totalUsd": 0.022908,
+        "inputTokens": 3692,
+        "outputTokens": 681,
+        "reasoningTokens": 1249
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.87",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:56 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "83687",
+          "status": "match"
+        },
+        "city": {
+          "value": "Nampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "ID",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2211 North Franklin Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4437",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WELCHES VDKA CKTL 4/12z",
+          "quantity": 2,
+          "unitPrice": 10.79,
+          "totalSpend": 21.58,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\n\nADVENTURE'S FIRST STOP\nNampa | 287\n2211 North Franklin Blvd.\nNampa, ID, 83687\n\n04-09-2026 01:56 PM  Invoice #  287009218503\nPURCHASE\n\nDESC  QTY  AMNT\nWELCHES VDKA CKTL 4/12z  2  $21.58 A\n\nSUB-TOTAL  $21.58\nSTATE 6.0% (A)  $1.29\nTOTAL PURCHASES  $22.87\n\nVISA CREDIT XXXXXXXXXXXX4437\nContactless\nAmount Tendered  $22.87\nPayment Network:02\nAID: A0000000031010\nAUTH # 905690\nNo CVM\nMode: Issuer\nSequence # 896842\nLog # 896842\n\nItems Sold = 2\n\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n\n20260999218503000000287\n287  1  ashbra",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4372.031665999995,
+        "totalUsd": 0.01155,
+        "inputTokens": 3692,
+        "outputTokens": 668,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "22.87",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:56 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "83687",
+          "status": "match"
+        },
+        "city": {
+          "value": "Nampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "ID",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2211 North Franklin Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4437",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WELCHES VDKA CKTL 4/12z",
+          "quantity": 2,
+          "unitPrice": 10.79,
+          "totalSpend": 21.58,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nNampa | 287\n2211 North Franklin Blvd.\nNampa, ID, 83687\n04-09-2026 01:56 PM Invoice # 287009218503\nPURCHASE\nDESC\nQTY AMNT\nWELCHES VDKA CKTL 4/12z\n2 $21.58 A\nSUB-TOTAL\n$21.58\nSTATE 6.0% (A)\n$1.29\nTOTAL PURCHASES\n$22.87\nVISA CREDIT XXXXXXXXXXXX4437\nContactless\nAmount Tendered\n$22.87\nPayment Network:02\nAID: A0000000031010\nAUTH # 905690\nNo CVM\nMode: Issuer\nSequence # 896842\nLog # 896842\nItems Sold = 2\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n20260999218503000000287\n287\n1\nashbra",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "WELCHES VDKA CKTL 4/12z",
+      "price": 21.58,
+      "quantity": 1,
+      "totalSpend": 21.58
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmpuhxj8w01zc1jmr46hu7jv5",
+  "url": null,
+  "retailer": "ACME Markets Pharmacy",
+  "brand": "roli roti",
+  "amount": 2.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Acme Markets",
+    "totalCost": "4.49",
+    "purchaseDate": "2026-05-29",
+    "time": null,
+    "zipCode": "19342",
+    "city": "Glen Mills",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10035.127291,
+        "totalUsd": 0.018066,
+        "inputTokens": 6086,
+        "outputTokens": 993,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:35",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19342",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glen Mills",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "101 Byers Dr.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1519",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ROLI ROTI ORGANIC + Markdown Coupon -4.50",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ACME\nOUR Favorite Local Supermarket\nStore 3735 Dir Liam Crosby\nMain: (610)459-2759 Rx: (610) 361-9523\n101 Byers Dr.\nGlen Mills PA 19342\n00373500301192605291935\nYOUR CASHIER TODAY WAS Mac\nMEAT\nPrice You Pay\n86066600031 ROLI ROTI ORGANIC\n8.99 4.49 S\nMarkdown Coupon -4.50\nTAX\n0.00\n**** BALANCE\n4.49\nCredit Purchase 05/29/26 19:35\nCARD # ************1519\nREF: 943514415190 AUTH: 0005541G\nPAYMENT AMOUNT\n4.49\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n4.49\nCHANGE\n0.00\nYOUR SAVINGS\nfor U Savings\n4.50\nTotal\n4.50\nTotal Savings Value\n50%\nYOUR POINTS\nPoints Earned Today 4\nPoints Available 4\nTOTAL NUMBER OF ITEMS SOLD = 1\n05/29/26 19:35 3735 3 119 8893\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n**\n**\nSave Up To $20\nOff Groceries!!\nWith Each Vaccine\nWalk-Ins Welcome!\n*Restrictions apply. Visit pharmacy for\ndetails. Scan QR code to schedule an\nappointment\n*Offer valid through 12/31/26. Qualifying items do not\ninclude immunizations received in AR, immunizations\nreceived by customers under 60 years old in NJ and\nimmunizations other than COVID-19 vaccines in NY. 10% off\non a single grocery purchase of qualifying items up to\n$200 (up to $20 total value). $40 minimum purchase\nrequired. Limit 1 coupon per transaction. In the event of\na return, coupon savings may be deducted from refund. Not\nvalid toward previous purchases. *Restrictions apply.\nVisit pharmacy for details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11319.87466599999,
+        "totalUsd": 0.023799,
+        "inputTokens": 3692,
+        "outputTokens": 995,
+        "reasoningTokens": 1034
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:35",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19342",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glen Mills",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "101 Byers Dr.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1519",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ROLI ROTI ORGANIC + 86066600031 + Markdown Coupon -4.50",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ACME\nOUR Favorite Local Supermarket\nStore 3735 Dir Liam Crosby\nMain: (610)459-2759 Rx: (610) 361-9523\n101 Byers Dr.\nGlen Mills PA 19342\n0037350031192605291935\nYOUR CASHIER TODAY WAS Mac\nMEAT\n86066600031 ROLI ROTI ORGANIC\nPrice You Pay\n8.99 4.49 S\nMarkdown Coupon -4.50\nTAX\n0.00\n**** BALANCE\n4.49\nCredit Purchase 05/29/26 19:35\nCARD # ************1519\nREF: 943514415190 AUTH: 0005541G\nPAYMENT AMOUNT\n4.49\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n4.49\nCHANGE\n0.00\nYOUR SAVINGS\nfor U Savings\n4.50\nTotal\n4.50\nTotal Savings Value\n50%\nYOUR POINTS\nPoints Earned Today 4\nPoints Available 4\nTOTAL NUMBER OF ITEMS SOLD = 1\n05/29/26 19:35 3735 3 119 8893\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n**\n**\nSave Up To $20\nOff Groceries!!\nWith Each Vaccine\nWalk-Ins Welcome!\n*Restrictions apply. Visit pharmacy for\ndetails. Scan QR code to schedule an\nappointment\n*Offer valid through 12/31/26. Qualifying items do not\ninclude immunizations received in AR, immunizations\nreceived by customers under 60 years old in NJ and\nimmunizations other than COVID-19 vaccines in NY. 10% off\non a single grocery purchase of qualifying items up to\n$200 (up to $20 total value). $40 minimum purchase\nrequired. Limit 1 coupon per transaction. In the event of\na return, coupon savings may be deducted from refund. Not\nvalid toward previous purchases. *Restrictions apply.\nVisit pharmacy for details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5586.934458000003,
+        "totalUsd": 0.014511,
+        "inputTokens": 3692,
+        "outputTokens": 997,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:35",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19342",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glen Mills",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "101 Byers Dr.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1519",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ROLI ROTI ORGANIC + 86066600031 + Markdown Coupon -4.50",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ACME\nOUR Favorite Local Supermarket\nStore 3735 Dir Liam Crosby\nMain: (610)459-2759 Rx: (610) 361-9523\n101 Byers Dr.\nGlen Mills PA 19342\n00373500301192605291935\nYOUR CASHIER TODAY WAS Mac\nMEAT\nPrice You Pay\n86066600031 ROLI ROTI ORGANIC\n8.99 4.49 S\nMarkdown Coupon -4.50\nTAX\n0.00\n**** BALANCE\n4.49\nCredit Purchase 05/29/26 19:35\nCARD # ************1519\nREF: 943514415190 AUTH: 0005541G\nPAYMENT AMOUNT\n4.49\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n4.49\nCHANGE\n0.00\nYOUR SAVINGS\nfor U Savings\n4.50\nTotal\n4.50\nTotal Savings Value\n50%\nYOUR POINTS\nPoints Earned Today 4\nPoints Available 4\nTOTAL NUMBER OF ITEMS SOLD = 1\n05/29/26 19:35 3735 3 119 8893\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n**\n**\nSave Up To $20\nOff Groceries!!\nWith Each Vaccine\nWalk-Ins Welcome!\n*Restrictions apply. Visit pharmacy for\ndetails. Scan QR code to schedule an\nappointment\n*Offer valid through 12/31/26. Qualifying items do not\ninclude immunizations received in AR, immunizations\nreceived by customers under 60 years old in NJ and\nimmunizations other than COVID-19 vaccines in NY. 10% off\non a single grocery purchase of qualifying items up to\n$200 (up to $20 total value). $40 minimum purchase\nrequired. Limit 1 coupon per transaction. In the event of\na return, coupon savings may be deducted from refund. Not\nvalid toward previous purchase. *Restrictions apply.\nVisit pharmacy for details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ROLI ROTI ORGANIC + 86066600031 + Markdown Coupon -4.50",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

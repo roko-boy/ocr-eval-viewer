@@ -1,0 +1,405 @@
+{
+  "id": "cmpq2jrdm003hg6k2zjp3hfrp",
+  "url": null,
+  "retailer": "Food Lion",
+  "brand": "Bachan's",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Food Lion",
+    "totalCost": "36.07",
+    "purchaseDate": "2026-05-28",
+    "time": null,
+    "zipCode": "27909",
+    "city": "Elizabeth City",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13153.85829200002,
+        "totalUsd": 0.020109,
+        "inputTokens": 6086,
+        "outputTokens": 1220,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Food Lion",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:53:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Elizabeth City",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "1805 Weeksville Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1079",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FL WHT AMERICAN CHSE",
+          "quantity": 1,
+          "unitPrice": 3.52,
+          "totalSpend": 3.08,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL HALF & HALF 32 OZ",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL SHD MAC&CHS BLEND",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRU FRU BAN PB DKCHC",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BACHANS SWT HNY BBQ",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BEEF LN TBONE STK",
+          "quantity": 1,
+          "unitPrice": 13.51,
+          "totalSpend": 11.43,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUSSET POTATOES BULK W + 1.25 lb @ 1.19/lb",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "FOOD LION\n\nFood Lion #2681   (252) 334-9516\n1805 Weeksville Rd.   Elizabeth City\n\nDELI\n  FL WHT AMERICAN CHSE M   3.52 A *\n\nFROZEN/DAIRY\n  FL HALF & HALF 32 OZ     2.89 A *\n  FL SHD MAC&CHS BLEND M   2.00 A *\n  TRU FRU BAN PB DKCHC     7.49 A *\n\nGROCERY\n  BACHANS SWT HNY BBQ M    8.49 A *\n\nMEAT\n  BEEF LN TBONE STK M     13.51 A *\n\nPRODUCE\n  RUSSET POTATOES BULK W\n  1.25 lb @ 1.19/lb        1.49 A *\n\nSavings\nYou saved:\n  FL SHD MAC&CHS BLEND    -0.51\n  BEEF LN TBONE STK       -2.08\n  FL WHT AMERICAN CHSE    -0.44\n  BACHANS SWT HNY BBQ     -1.00\n\nTax Paid\n2.00 Tx 1      35.36       0.71\n\n  7 BALANCE DUE           36.07\n    Debit Card           $36.07\n----------------------------------------\nMID:                     160000102733\nRRN:                           515104\n\n                 SALE\n\nXXXXXXXXXXXX1079\nDebit Card       Entry Method:Cntctless\n\n05/28/2026                   17:53:00\nINVOICE:                       515104\nTrace #: 00324778           Lane #: 51\nUS DEBIT\nAID:                   A0000000980840\nTVR:                       0000000000\nTSI:                             0000\nTotal:                     USD$ 36.07\nAPPROVED                       168134\n\n             PIN VERIFIED\n\n----------------------------------------\nCHANGE                           0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15052.39045799998,
+        "totalUsd": 0.028281,
+        "inputTokens": 3692,
+        "outputTokens": 1184,
+        "reasoningTokens": 1343
+      },
+      "fields": {
+        "storeName": {
+          "value": "Food Lion",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:53:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Elizabeth City",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1805 Weeksville Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1079",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FL WHT AMERICAN CHSE M",
+          "quantity": 1,
+          "unitPrice": 3.52,
+          "totalSpend": 3.08,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL HALF & HALF 32 OZ",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL SHD MAC&CHS BLEND M",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRU FRU BAN PB DKCHC",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BACHANS SWT HNY BBQ M",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BEEF LN TBONE STK M",
+          "quantity": 1,
+          "unitPrice": 13.51,
+          "totalSpend": 11.43,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUSSET POTATOES BULK W + 1.25 lb @ 1.19/lb",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "FOOD LION\n\nFood Lion #2681 (252) 334-9516\n1805 Weeksville Rd. Elizabeth City\n\nDELI\nFL WHT AMERICAN CHSE M 3.52 A *\n\nFROZEN/DAIRY\nFL HALF & HALF 32 OZ 2.89 A *\nFL SHD MAC&CHS BLEND M 2.00 A *\nTRU FRU BAN PB DKCHC 7.49 A *\n\nGROCERY\nBACHANS SWT HNY BBQ M 8.49 A *\n\nMEAT\nBEEF LN TBONE STK M 13.51 A *\n\nPRODUCE\nRUSSET POTATOES BULK W\n1.25 lb @ 1.19/lb 1.49 A *\n\nSavings\nYou saved:\nFL SHD MAC&CHS BLEND -0.51\nBEEF LN TBONE STK -2.08\nFL WHT AMERICAN CHSE -0.44\nBACHANS SWT HNY BBQ -1.00\n\nTax Paid\n2.00 Tx 1 35.36 0.71\n\n7 BALANCE DUE 36.07\nDebit Card $36.07\n\nMID: 160000102733\nRRN: 515104\n\nSALE\nXXXXXXXXXXXX1079\nDebit Card Entry Method:Cntctless\n\n05/28/2026 17:53:00\nINVOICE: 515104\nTrace #: 00324778 Lane #: 51\nUS DEBIT\nAID: A0000000980840\nTVR: 0000000000\nTSI: 0000\nTotal: USD$ 36.07\nAPPROVED 168134\n\nPIN VERIFIED\n\nCHANGE 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6742.564708000005,
+        "totalUsd": 0.016122,
+        "inputTokens": 3692,
+        "outputTokens": 1176,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Food Lion",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:53:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Elizabeth City",
+          "status": "match"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "1805 Weeksville Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1079",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FL WHT AMERICAN CHSE M",
+          "quantity": 1,
+          "unitPrice": 3.52,
+          "totalSpend": 3.08,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL HALF & HALF 32 OZ",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL SHD MAC&CHS BLEND M",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRU FRU BAN PB DKCHC",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BACHANS SWT HNY BBQ M",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BEEF LN TBONE STK M",
+          "quantity": 1,
+          "unitPrice": 13.51,
+          "totalSpend": 11.43,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RUSSET POTATOES BULK W + 1.25 lb @ 1.19/lb",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "FOOD LION\n\nFood Lion #2681 (252) 334-9516\n1805 Weeksville Rd. Elizabeth City\n\nDELI\nFL WHT AMERICAN CHSE M 3.52 A *\n\nFROZEN/DAIRY\nFL HALF & HALF 32 OZ 2.89 A *\nFL SHD MAC&CHS BLEND M 2.00 A *\nTRU FRU BAN PB DKCHC 7.49 A *\n\nGROCERY\nBACHANS SWT HNY BBQ M 8.49 A *\n\nMEAT\nBEEF LN TBONE STK M 13.51 A *\n\nPRODUCE\nRUSSET POTATOES BULK W\n1.25 lb @ 1.19/lb 1.49 A *\n\nSavings\nYou saved:\nFL SHD MAC&CHS BLEND -0.51\nBEEF LN TBONE STK -2.08\nFL WHT AMERICAN CHSE -0.44\nBACHANS SWT HNY BBQ -1.00\n\nTax Paid\n2.00 Tx 1 35.36 0.71\n\n7 BALANCE DUE 36.07\nDebit Card $36.07\n\nMID: 160000102733\nRRN: 515104\n\nSALE\nXXXXXXXXXXXX1079\nDebit Card Entry Method:Cntctless\n\n05/28/2026 17:53:00\nINVOICE: 515104\nTrace #: 00324778 Lane #: 51\nUS DEBIT\nAID: A0000000980840\nTVR: 0000000000\nTSI: 0000\nTotal: USD$ 36.07\nAPPROVED 168134\n\nPIN VERIFIED\n\nCHANGE 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FL WHT AMERICAN CHSE",
+      "price": 3.08,
+      "quantity": 1,
+      "totalSpend": 3.08
+    },
+    {
+      "text": "FL HALF & HALF 32 OZ",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "FL SHD MAC&CHS BLEND",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "TRU FRU BAN PB DKCHC",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    },
+    {
+      "text": "BACHANS SWT HNY BBQ",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    },
+    {
+      "text": "BEEF LN TBONE STK",
+      "price": 11.43,
+      "quantity": 1,
+      "totalSpend": 11.43
+    },
+    {
+      "text": "RUSSET POTATOES BULK + 1.25lb @ 1.19/lb 1.49 A *",
+      "price": 1.19,
+      "quantity": 1,
+      "totalSpend": 1.49
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

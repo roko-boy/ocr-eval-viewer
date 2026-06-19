@@ -1,0 +1,243 @@
+{
+  "id": "cmq49heww037ec9jg86zcqv0g",
+  "url": null,
+  "retailer": "Pete's Fresh Market",
+  "brand": "shinewater",
+  "amount": 1.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Pete's Fresh Market",
+    "totalCost": "1.42",
+    "purchaseDate": "2026-06-07",
+    "time": null,
+    "zipCode": "60455",
+    "city": "Bridgeview",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7089.472917000006,
+        "totalUsd": 0.018111,
+        "inputTokens": 6086,
+        "outputTokens": 998,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pete's Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:51:29",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60455",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bridgeview",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10280 S. Harlem Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3025",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SHINEWATER STRJ LMN 16Z + Code: 008500354412 + Markdown: $0.70",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Pete's\nMARKET\nThank you for shopping at\nPete's Fresh Market #11\n10280 S. Harlem Avenue\nBridgeview, IL 60455\n(708) 237-7800\nwww.petesfresh.com\n#011-003 6/7/2026 15:51:29 Thabat I.\nInv#:01043763 Trs#:047017\nGROCERY\nSHINEWATER STRJ LMN 16Z\n$1.29 T23=\nCode: 008500354412\nMarkdown: $0.70\nItems Subtotal\n$1.29\nSubtotal\n$1.29\nTax 2 @ 10.00% [$1.29]\n$0.13\nTOTAL\n$1.42\nDebit card\n$1.42\n# ************3025\nBalance\n$0.00\nItem count\n1\nSAVING GRAND TOTAL\n$0.70\nMerch Id: 542929806161402\nTerm Id: 00537038\nTYPE : Purchase\nTENDER : Debit card\nCARD : ************3025\nContactless EMV\nENTRY METHOD: N\nAMOUNT : $1.42\nRESULT : 00 APPROVED 000\nDATE/TIME : JUN 07,2026 15:51\nSEQUENCE #: 000182\nAUTHOR. #: 393607000000207\nLabel: US Debit\nARC :\nAID : A0000000042203\nTVR : 8000048000\nIAD :\n0110A000002A00000000000000000000FF\nTSI : 6800\nAC : 53BA4C1B591E9408\nPIN verified online\nNO RETURNS OR EXCHANGE WITHOUT RECEIPT\nNO CASH REFUNDS; IN-STORE CREDIT ONLY\nPERISHABLES MUST BE RETURNED IN 24 HRS\nUNOPENED LIQUOR MUST BE RETURNED IN 48\nNON-PERISHABLES MUST BE RETURNED IN 72\nALL GIFT CARD SALES ARE FINAL\n9930030470171",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15288.065875,
+        "totalUsd": 0.025977,
+        "inputTokens": 3692,
+        "outputTokens": 987,
+        "reasoningTokens": 1284
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pete's Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:51:29",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60455",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bridgeview",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10280 S. Harlem Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3025",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SHINEWATER STRJ LMN 16Z + Code: 008500354412 + Markdown: $0.70",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Pete's\nMARKET\nThank you for shopping at\nPete's Fresh Market #11\n10280 S. Harlem Avenue\nBridgeview, IL 60455\n(708) 237-7800\nwww.petesfresh.com\n#011-003 6/7/2026 15:51:29 Thabat I.\nInv#:01043763 Trs#:047017\nGROCERY\nSHINEWATER STRJ LMN 16Z\n$1.29 T23=\nCode: 008500354412\nMarkdown: $0.70\nItems Subtotal\n$1.29\nSubtotal\n$1.29\nTax 2 @ 10.00% [$1.29]\n$0.13\nTOTAL\n$1.42\nDebit card\n$1.42\n# ************3025\nBalance\n$0.00\nItem count\n1\nSAVING GRAND TOTAL\n$0.70\nMerch Id: 542929806161402\nTerm Id: 00537038\nTYPE : Purchase\nTENDER : Debit card\nCARD : ************3025\nContactless EMV\nENTRY METHOD: V\nAMOUNT : $ 1.42\nRESULT : 00 APPROVED 000\nDATE/TIME : JUN 07,2026 15:51\nSEQUENCE #: 000182\nAUTHOR. # : 390607000000207\nLabel: US Debit\nARC :\nAID : A0000000042203\nTVR : 8000048000\nIAD :\n0110A000002A00000000000000000000FF\nTSI : 6800\nAC : 53BA4C1B591E9408\nPIN verified online\nNO RETURNS OR EXCHANGE WITHOUT RECEIPT\nNO CASH REFUNDS; IN-STORE CREDIT ONLY\nPERISHABLES MUST BE RETURNED IN 24 HRS\nUNOPENED LIQUOR MUST BE RETURNED IN 48\nNON-PERISHABLES MUST BE RETURNED IN 72\nALL GIFT CARD SALES ARE FINAL\n993003047017",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5754.073374999993,
+        "totalUsd": 0.014439,
+        "inputTokens": 3692,
+        "outputTokens": 989,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pete's Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60455",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bridgeview",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10280 S. Harlem Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3025",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SHINEWATER STRJ LMN 16Z + Code: 008500354412 + Markdown: $0.70",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Pete's\nMARKET\nThank you for shopping at\nPete's Fresh Market #11\n10280 S. Harlem Avenue\nBridgeview, IL 60455\n(708) 237-7800\nwww.petesfresh.com\n#011-003 6/7/2026 15:51:29 Thabat I.\nInv#:01043763 Trs#:047017\nGROCERY\nSHINEWATER STRJ LMN 16Z\n$1.29 T23F\nCode: 008500354412\nMarkdown: $0.70\nItems Subtotal\n$1.29\nSubtotal\n$1.29\nTax 2 @ 10.00% [$1.29]\n$0.13\nTOTAL\n$1.42\nDebit card\n$1.42\n# ************3025\nBalance\n$0.00\nItem count\n1\nSAVING GRAND TOTAL\n$0.70\nMerch Id: 542929806161402\nTerm Id: 00537038\nTYPE : Purchase\nTENDER : Debit card\nCARD : ************3025\nContactless EMV\nENTRY METHOD: V\nAMOUNT : $ 1.42\nRESULT : 00 APPROVED 000\nDATE/TIME : JUN 07,2026 15:51\nSEQUENCE #: 000182\nAUTHOR. # : 390607000000207\nLabel: US Debit\nARC :\nAID : A0000000042203\nTVR : 8000048000\nIAD :\n0110A000002A0000000000000000000000FF\nTSI : 6800\nAC : 53BA4C1B591E9408\nPIN verified online\nNO RETURNS OR EXCHANGE WITHOUT RECEIPT\nNO CASH REFUNDS; IN-STORE CREDIT ONLY\nPERISHABLES MUST BE RETURNED IN 24 HRS\nUNOPENED LIQUOR MUST BE RETURNED IN 48\nNON-PERISHABLES MUST BE RETURNED IN 72\nALL GIFT CARD SALES ARE FINAL\n9930030470171",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SHINEWATER STRW LMN 16Z + 0085003644412 + Merkdown: $0.70",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

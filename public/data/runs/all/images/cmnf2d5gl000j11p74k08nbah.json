@@ -1,0 +1,270 @@
+{
+  "id": "cmnf2d5gl000j11p74k08nbah",
+  "url": null,
+  "retailer": "ARCO",
+  "brand": "Proper Wild",
+  "amount": 4.59,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ARCO",
+    "totalCost": "14.24",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "95355",
+    "city": "MODESTO",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17525.479666,
+        "totalUsd": 0.015393,
+        "inputTokens": 6086,
+        "outputTokens": 696,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "arco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Modesto",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1400 Coffee Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5478",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EAGLE RED SHORT",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROPER WILD ENRG SH",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Thank you for shopping at\narco # 83665\n1400 Coffee Rd\nModesto,Ca\nSPECIAL PRICE PROPANE $3.69\n9725220\n209-409-8521\n\n<CUSTOMER COPY>\n\nDescription Qty Amount\n--- --- ---\nT EAGLE RED SHORT 1 8.49\nT PROPER WILD ENRG SH 1 4.59\n-----------\nSubtotal 13.08\nTax 1.16\nTOTAL 14.24\nDEBIT $ 14.24\n\nTax Type Purchase Rebate Taxable Tax\nT(8.875%) 13.08 0.00 13.08 1.16\n\nSALE Receipt\nUS Debit USD$14.24\nPayment from Primary Account\nAcct/Card #: *********5478\nEntry:Chip Read\nAuth #: 421439\nResp Code: 000\nStan: 04971691205\nInvoice #: 169272\n\nVerified By PIN\n\nAuthNet: ACL DIR\nMODE: Issuer\nAID: A0000000042203\nBP SITE ID: 9725220\nDEBIT\nCUSTOMER COPY\n\nLoyalty\nREWARD\nAcct/Card #: ************5478\nStan: 04971691205\n\nCustomer",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9953.961000000003,
+        "totalUsd": 0.023808,
+        "inputTokens": 3692,
+        "outputTokens": 700,
+        "reasoningTokens": 1330
+      },
+      "fields": {
+        "storeName": {
+          "value": "arco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2023-10-24",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Modesto",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1400 Coffee Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5478",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "T EAGLE RED SHORT",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "T PROPER WILD ENRG SH",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Thank you for shopping at\narco # 83665\n1400 Coffee Rd\nModesto, Ca\nSPECIAL PRICE PROPANE $3.69\n9725220\n209-409-8521\n\n<CUSTOMER COPY>\n\nDescription Qty Amount\n\nT EAGLE RED SHORT 1 8.49\nT PROPER WILD ENRG SH 1 4.59\n\nSubtotal 13.08\nTax 1.16\nTOTAL 14.24\nDEBIT $ 14.24\n\nTax Type Purchase Rebate Taxable Tax\nT(8.875%) 13.08 0.00 13.08 1.16\n\nSALE Receipt\nUS Debit USD$14.24\nPayment from Primary Account\nAcct/Card #: *********5478\nEntry: Chip Read\nAuth #: 421439\nResp Code: 000\nStan: 04971691205\nInvoice #: 169272\n\nVerified By PIN\n\nAuthNet: ACL DIR\nMODE: Issuer\nAID: A0000000042203\nBP SITE ID: 9725220\nDEBIT\nCUSTOMER COPY\n\nLoyalty\nREWARD\nAcct/Card #: ************5478\nStan: 04971691205\n\nCustomer",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4454.970584000002,
+        "totalUsd": 0.011622,
+        "inputTokens": 3692,
+        "outputTokens": 676,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "arco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Modesto",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1400 Coffee Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5478",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EAGLE RED SHORT",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROPER WILD ENRG SH",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Thank you for shopping at\narco # 83665\n1400 Coffee Rd\nModesto, Ca\nSPECIAL PRICE PROPANE $3.69\n9725220\n209-409-8521\n\n<CUSTOMER COPY>\n\nDescription Qty Amount\n\nT EAGLE RED SHORT 1 8.49\nT PROPER WILD ENRG SH 1 4.59\n\nSubtotal 13.08\nTax 1.16\nTOTAL 14.24\nDEBIT $ 14.24\n\nTax Type Purchase Rebate Taxable Tax\nT(8.875%) 13.08 0.00 13.08 1.16\n\nSALE Receipt\nUS Debit USD$14.24\nPayment from Primary Account\nAcct/Card #: *********5478\nEntry:Chip Read\nAuth #: 421439\nResp Code: 000\nStan: 04971691205\nInvoice #: 169272\n\nVerified By PIN\n\nAuthNet: ACL DIR\nMODE: Issuer\nAID: A0000000042203\nBP SITE ID: 9725220\nDEBIT\nCUSTOMER COPY\n\nLoyalty\nREWARD\nAcct/Card #: ************5478\nStan: 04971691205",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "EAGLE RED SHORT",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "PROPER WILD ENRG SH",
+      "price": 4.59,
+      "quantity": 1,
+      "totalSpend": 4.59
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

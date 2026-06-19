@@ -1,0 +1,270 @@
+{
+  "id": "cmo7ugzd80040oqyaegobb63j",
+  "url": null,
+  "retailer": "Maverik",
+  "brand": "Happy Dad",
+  "amount": 10,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "41.46",
+    "purchaseDate": "2026-04-18",
+    "time": null,
+    "zipCode": "50313",
+    "city": "Des Moines",
+    "state": "IA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5933.35708300001,
+        "totalUsd": 0.015474,
+        "inputTokens": 6086,
+        "outputTokens": 705,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:21 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50313",
+          "status": "match"
+        },
+        "city": {
+          "value": "Des Moines",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5050 NW 2nd St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1005",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD FRTPNCH 12/12z",
+          "quantity": 2,
+          "unitPrice": 18.99,
+          "totalSpend": 37.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.6,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nDes Moines | #5283\n5050 NW 2nd St\nDes Moines, IA 50313\n04-18-2026 05:21 PM Invoice # 528300499642\nPURCHASE\nDESC QTY AMNT\nHAPPY DAD FRTPNCH 12/12z 2 $37.98 A\nCONTAINER DEPOSIT 2 $1.20 N\nSUB-TOTAL $39.18\nSALES TAX 6.0% (A) $2.28\nTOTAL PURCHASES $41.46\nAMERICAN EXPRESS XXXXXXXXXXX1005\nChip Read\nAmount Tendered $41.46\nPayment Network:01\nAID: A000000025010801\nAUTH # 840635\nNo CVM\nMode: Issuer\nSequence # 256530\nLog # 256530\nItems Sold = 2\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202610804996420000005283\n5283 1 jaycor",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9052.074291999976,
+        "totalUsd": 0.025014,
+        "inputTokens": 3692,
+        "outputTokens": 757,
+        "reasoningTokens": 1407
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:21 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50313",
+          "status": "match"
+        },
+        "city": {
+          "value": "Des Moines",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5050 NW 2nd St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1005",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD FRTPNCH 12/12z",
+          "quantity": 2,
+          "unitPrice": 18.99,
+          "totalSpend": 37.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.6,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\n\nADVENTURE'S FIRST STOP\nDes Moines | #5283\n5050 NW 2nd St\nDes Moines, IA 50313\n\n04-18-2026 05:21 PM Invoice # 528300499642\nPURCHASE\n\nDESC QTY AMNT\n\nHAPPY DAD FRTPNCH 12/12z 2 $37.98 A\nCONTAINER DEPOSIT 2 $1.20 N\n\nSUB-TOTAL $39.18\nSALES TAX 6.0% (A) $2.28\nTOTAL PURCHASES $41.46\n\nAMERICAN EXPRESS XXXXXXXXXXXX1005\nChip Read\nAmount Tendered $41.46\nPayment Network:01\nAID: A000000025010801\nAUTH # 840635\nNo CVM\nMode: Issuer\nSequence # 256530\nLog # 256530\n\nItems Sold = 2\n\nThanks for fueling your\nadventure at Maverik\n\nCustomer Service 1-800-789-4455\n202610804996420000005283\n5283 1 jaycor",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6590.996417000017,
+        "totalUsd": 0.012171,
+        "inputTokens": 3692,
+        "outputTokens": 737,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:21 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50313",
+          "status": "match"
+        },
+        "city": {
+          "value": "Des Moines",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5050 NW 2nd St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1005",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD FRTPNCH 12/12z",
+          "quantity": 2,
+          "unitPrice": 18.99,
+          "totalSpend": 37.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.6,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nDes Moines | #5283\n5050 NW 2nd St\nDes Moines, IA 50313\n04-18-2026 05:21 PM Invoice # 528300499642\nPURCHASE\nDESC QTY AMNT\nHAPPY DAD FRTPNCH 12/12z 2 $37.98 A\nCONTAINER DEPOSIT 2 $1.20 N\nSUB-TOTAL $39.18\nSALES TAX 6.0% (A) $2.28\nTOTAL PURCHASES $41.46\nAMERICAN EXPRESS XXXXXXXXXXX1005\nChip Read\nAmount Tendered $41.46\nPayment Network:01\nAID: A000000025010801\nAUTH # 840635\nNo CVM\nMode: Issuer\nSequence # 256530\nLog # 256530\nItems Sold = 2\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202610804996420000005283\n5283 1 jaycor",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HAPPY DAD FRTPNCH 12/12z",
+      "price": 37.98,
+      "quantity": 1,
+      "totalSpend": 37.98
+    },
+    {
+      "text": "CONTAINER DEPOSIT",
+      "price": 1.2,
+      "quantity": 1,
+      "totalSpend": 1.2
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

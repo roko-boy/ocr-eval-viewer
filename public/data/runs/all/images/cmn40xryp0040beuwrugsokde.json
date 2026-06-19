@@ -1,0 +1,270 @@
+{
+  "id": "cmn40xryp0040beuwrugsokde",
+  "url": null,
+  "retailer": "Target",
+  "brand": "So Good So You",
+  "amount": 3.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "3.85",
+    "purchaseDate": "2026-03-23",
+    "time": null,
+    "zipCode": "92507",
+    "city": "Riverside",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6717.165457999999,
+        "totalUsd": 0.0164715,
+        "inputTokens": 6163,
+        "outputTokens": 803,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.85",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92507-0932",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Riverside",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2755 Canyon Springs Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5180",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "211080439 SGSY TFP",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Riverside SE - 951-697-6778\n2755 Canyon Springs Pkwy\nRiverside, California 92507-0932\n03/23/2026 07:53 PM\nGROCERY\n211080439 SGSY TFP $3.49\nBottle Deposit Fee $0.05\nSUBTOTAL $3.54\nT = CA TAX 8.75000 on $3.54 $0.31\nTOTAL $3.85\n*5180 VISA CHARGE $3.85\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 00593D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nNOTICE: Some furniture products can expose\nyou to chemicals known to the State of\nCalifornia to cause cancer, birth defects or\nother reproductive harm. Please check on-\nproduct label for warning information\nFee may not be refundable\nREC#2-6082-1843-0174-9494-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7391 7815 7982\nPassword: 505 057\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11236.864917,
+        "totalUsd": 0.024591,
+        "inputTokens": 3692,
+        "outputTokens": 794,
+        "reasoningTokens": 1323
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.85",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92507-0932",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Riverside",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2755 Canyon Springs Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5180",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY 211080439 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Riverside SE - 951-697-6778\n2755 Canyon Springs Pkwy\nRiverside, California 92507-0932\n03/23/2026 07:53 PM\nGROCERY\n211080439 SGSY TFP $3.49\nBottle Deposit Fee $0.05\nSUBTOTAL $3.54\nT = CA TAX 8.75000 on $3.54 $0.31\nTOTAL $3.85\n*5180 VISA CHARGE $3.85\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 00593D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nNOTICE: Some furniture products can expose\nyou to chemicals known to the State of\nCalifornia to cause cancer, birth defects or\nother reproductive harm. Please check on-\nproduct label for warning information.\nFee may not be refundable\nREC#2-6082-1843-0174-9494-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7391 7815 7982\nPassword: 505 057\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5490.206375,
+        "totalUsd": 0.012702,
+        "inputTokens": 3692,
+        "outputTokens": 796,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.85",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92507-0932",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Riverside",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2755 Canyon Springs Pkwy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5180",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 211080439 SGSY",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Riverside SE - 951-697-6778\n2755 Canyon Springs Pkwy\nRiverside, California 92507-0932\n03/23/2026 07:53 PM\nGROCERY\n211080439 SGSY TFP $3.49\nBottle Deposit Fee $0.05\nSUBTOTAL $3.54\nT = CA TAX 8.75000 on $3.54 $0.31\nTOTAL $3.85\n*5180 VISA CHARGE $3.85\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 00593D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nNOTICE: Some furniture products can expose\nyou to chemicals known to the State of\nCalifornia to cause cancer, birth defects or\nother reproductive harm. Please check on-\nproduct label for warning information.\nFee may not be refundable\nREC#2-6082-1843-0174-9494-3\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7391 7815 7982\nPassword: 505 057\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SGSY + 211080439",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "Bottle Deposit Fee",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

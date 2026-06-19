@@ -1,0 +1,336 @@
+{
+  "id": "cmo7j20k2005mthu21bpv6lnl",
+  "url": null,
+  "retailer": "Aldi",
+  "brand": "Daily Crunch",
+  "amount": 3.12,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Aldi",
+    "totalCost": "14.26",
+    "purchaseDate": "2026-04-14",
+    "time": null,
+    "zipCode": "19549",
+    "city": "Port Clinton",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6411.564667000028,
+        "totalUsd": 0.015246,
+        "inputTokens": 6114,
+        "outputTokens": 675,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "14.26",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "Credit/Debit/Ebt",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3595",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Daily Crunch Cacao Sea Salt Sprouted Almonds, 5 oz + Wt. 0.34LBS",
+          "quantity": 2,
+          "unitPrice": 1.56,
+          "totalSpend": 3.12,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Burt's Bees Reviving Sheet Mask with Pineapple + Wt. 0.05LBS",
+          "quantity": 2,
+          "unitPrice": 1.2,
+          "totalSpend": 2.4,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Tylenol Precise Pain Relieving Patch, 2CT, Large + Wt. 0.09LBS",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Coppertone Sport Lip Balm, SPF 30 + Wt. 0.04LBS",
+          "quantity": 1,
+          "unitPrice": 2.13,
+          "totalSpend": 2.13,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "2:26\n< Order Details\nDaily Crunch Cacao Sea Salt\nSprouted Almonds, 5 oz\nWt. 0.34LBS • Qty: 2\n$3.12\nBurt's Bees Reviving Sheet\nMask with Pineapple\nWt. 0.05LBS • Qty: 2\n$2.40\n$2.26\nTylenol Precise Pain Relieving\nPatch, 2CT, Large\nWt. 0.09LBS • Qty: 1\n$1.35\nCoppertone Sport Lip Balm,\nSPF 30\nWt. 0.04LBS • Qty: 1\n$2.13\n$2.01\nAdd all to list\nAdd all to cart\nPurchase summary\nSubtotal 6 items\n$66.27\nTotal savings\n$-52.41\nTax\n$0.40\nTotal\n$14.26\nPayment information\nCredit/Debit/Ebt **** 3595\n14.26\nNeed help?",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 50004.58620799996,
+        "totalUsd": 0.093192,
+        "inputTokens": 3706,
+        "outputTokens": 690,
+        "reasoningTokens": 9047
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "14.26",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3595",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Daily Crunch Cacao Sea Salt Sprouted Almonds, 5 oz + Wt. 0.34LBS • Qty: 2",
+          "quantity": 2,
+          "unitPrice": 3.12,
+          "totalSpend": 6.24,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Burt's Bees Reviving Sheet Mask with Pineapple + Wt. 0.05LBS • Qty: 2",
+          "quantity": 2,
+          "unitPrice": 2.4,
+          "totalSpend": 4.8,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Tylenol Precise Pain Relieving Patch, 2CT, Large + Wt. 0.09LBS • Qty: 1",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Coppertone Sport Lip Balm, SPF 30 + Wt. 0.04LBS • Qty: 1",
+          "quantity": 1,
+          "unitPrice": 2.13,
+          "totalSpend": 2.13,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "2:26\nOrder Details\nDaily Crunch Cacao Sea Salt Sprouted Almonds, 5 oz\nWt. 0.34LBS • Qty: 2\n$3.12\nBurt's Bees Reviving Sheet Mask with Pineapple\nWt. 0.05LBS • Qty: 2\n$2.40\n$2.26\nTylenol Precise Pain Relieving Patch, 2CT, Large\nWt. 0.09LBS • Qty: 1\n$1.35\nCoppertone Sport Lip Balm, SPF 30\nWt. 0.04LBS • Qty: 1\n$2.13\n$2.01\nAdd all to list\nAdd all to cart\nPurchase summary\nSubtotal 6 items\n$66.27\nTotal savings\n$-52.41\nTax\n$0.40\nTotal\n$14.26\nPayment information\nCredit/Debit/Ebt **** 3595\n14.26\nNeed help?",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5208.770250000001,
+        "totalUsd": 0.011679,
+        "inputTokens": 3706,
+        "outputTokens": 680,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "14.26",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "Credit/Debit/Ebt",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3595",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Daily Crunch Cacao Sea Salt Sprouted Almonds, 5 oz + Wt. 0.34LBS",
+          "quantity": 2,
+          "unitPrice": 1.56,
+          "totalSpend": 3.12,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Burt's Bees Reviving Sheet Mask with Pineapple + Wt. 0.05LBS",
+          "quantity": 2,
+          "unitPrice": 1.2,
+          "totalSpend": 2.26,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Tylenol Precise Pain Relieving Patch, 2CT, Large + Wt. 0.09LBS",
+          "quantity": 1,
+          "unitPrice": 1.35,
+          "totalSpend": 1.35,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Coppertone Sport Lip Balm, SPF 30 + Wt. 0.04LBS",
+          "quantity": 1,
+          "unitPrice": 2.13,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "2:26\n..ll\n53\n< Order Details\nDaily Crunch Cacao Sea Salt\nSprouted Almonds, 5 oz\nWt. 0.34LBS Qty: 2\n$3.12\nBurt's Bees Reviving Sheet\nMask with Pineapple\nWt. 0.05LBS Qty: 2\n$2.40\n$2.26\nTylenol Precise Pain Relieving\nPatch, 2CT, Large\nWt. 0.09LBS Qty: 1\n$1.35\nCoppertone Sport Lip Balm,\nSPF 30\nWt. 0.04LBS Qty: 1\n$2.13\n$2.01\nAdd all to list\nAdd all to cart\nPurchase summary\nSubtotal 6 items\nTotal savings\nTax\nTotal\nPayment information\nCredit/Debit/Ebt **** 3595\n$66.27\n$-52.41\n$0.40\n$14.26\n14.26\nNeed help?",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "o y Daily Crunch Cacao Sea Salt + c NCH + a Sprouted Almonds,5 oz + Wt.0.34LBS.Qty:2",
+      "price": 3.12,
+      "quantity": 1,
+      "totalSpend": 3.12
+    },
+    {
+      "text": "Burt's Bees Reviving Sheet",
+      "price": 2.4,
+      "quantity": 1,
+      "totalSpend": 2.4
+    },
+    {
+      "text": "Mask with Pineapple + Wt.0.05LBS.Qty:2",
+      "price": 2.26,
+      "quantity": 1,
+      "totalSpend": 2.26
+    },
+    {
+      "text": "Tylenol Precise Pain Relieving + Patch,2CT, Large + Wt.0.09LBS - Qty:1",
+      "price": 1.35,
+      "quantity": 1,
+      "totalSpend": 1.35
+    },
+    {
+      "text": "Coppertone Sport Lip Balm",
+      "price": 2.13,
+      "quantity": 1,
+      "totalSpend": 2.13
+    },
+    {
+      "text": "SPF30 + Wt.0.04LBS.Qty:1",
+      "price": 2.04,
+      "quantity": 1,
+      "totalSpend": 2.04
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

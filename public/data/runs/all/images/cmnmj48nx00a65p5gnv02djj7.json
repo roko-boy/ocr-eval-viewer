@@ -1,0 +1,459 @@
+{
+  "id": "cmnmj48nx00a65p5gnv02djj7",
+  "url": null,
+  "retailer": "Safeway Pharmacy",
+  "brand": "Best Day Brewing",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "49.78",
+    "purchaseDate": "2026-04-04",
+    "time": null,
+    "zipCode": "80461",
+    "city": "Leadville",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8991.668749999953,
+        "totalUsd": 0.023268,
+        "inputTokens": 6086,
+        "outputTokens": 1571,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80461",
+          "status": "match"
+        },
+        "city": {
+          "value": "LEADVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1900 HIGHWAY #24",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4031",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "22795600000 DONUTS ASTD 6 CT",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3967795841 CCF HMBRGR BNS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "24219400000 FRUIT & COLBY CHSE",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "72243019116 GTS POMELO PINK",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85413500864 RSTD GRLC HUMMUS + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "21978700000 PT P/S MED CHEDDAR",
+          "quantity": 1,
+          "unitPrice": 5.5,
+          "totalSpend": 5.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "29286400000 D&W BLK FOREST HAM + Member Savings -1.77",
+          "quantity": 1,
+          "unitPrice": 7.07,
+          "totalSpend": 5.3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7432912338 OH SNAP BITES",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "19589360515 BEST DAY KOLSCH + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 9.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SAFEWAY\nStore 2824 Dir Heather Kanski\nMain: (719) 486-0795 Rx:\n1900 HIGHWAY #24\nLEADVILLE CO 80461\n00282405201972604041826\nYOUR CASHIER TODAY WAS SELF\nBAKED GOODS\nPrice You Pay\n22795600000 DONUTS ASTD 6 CT 5.49 5.49 B\n3967795841 CCF HMBRGR BNS 5.99 5.99 B\nPRODUCE\n24219400000 FRUIT & COLBY CHSE 5.00 5.00 B\n72243019116 GTS POMELO PINK 4.29 4.29 B\n85413500864 RSTD GRLC HUMMUS 5.49 3.99 B\nMember Savings -1.50\nDELI\n21978700000 PT P/S MED CHEDDAR 5.50 5.50 B\n29286400000 D&W BLK FOREST HAM 7.07 5.30 B\nMember Savings -1.77\n7432912338 OH SNAP BITES 1.79 1.79 B\nLIQUOR\n19589360515 BEST DAY KOLSCH 10.99 9.99 T\nMember Savings -1.00\nTAX 2.44\n**** BALANCE 49.78\nCredit Purchase 04/04/26 18:26\nCARD # ************4031\nREF: 122631140310 AUTH: 0007520P\nPAYMENT AMOUNT 49.78\nAL Mastercard\nAID A0000000041010\nTVR 0000008001\nMastercard 49.78\nCHANGE 0.00\n4.00% SALES TAX 1.89\n2.90% SALES TAX 0.43\n2.90% SALES TAX 0.12\nTOTAL TAX 2.44\nYOUR SAVINGS\nMember Savings 4.27\nTotal 4.27\nTotal Savings Value 8%\nYOUR POINTS\nPoints Earned Today 47\nPoints Available 47\nDate of Birth = xx/xx/xx",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17901.28320800001,
+        "totalUsd": 0.044544,
+        "inputTokens": 3692,
+        "outputTokens": 1600,
+        "reasoningTokens": 2734
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80461",
+          "status": "match"
+        },
+        "city": {
+          "value": "LEADVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1900 HIGHWAY #24",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4031",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DONUTS ASTD 6 CT + 22795600000",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CCF HMBRGR BNS + 3967795841",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRUIT & COLBY CHSE + 24219400000",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS POMELO PINK + 72243019116",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RSTD GRLC HUMMUS + 85413500864 + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PT P/S MED CHEDDAR + 21978700000",
+          "quantity": 1,
+          "unitPrice": 5.5,
+          "totalSpend": 5.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "D&W BLK FOREST HAM + 29286400000 + Member Savings -1.77",
+          "quantity": 1,
+          "unitPrice": 7.07,
+          "totalSpend": 5.3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OH SNAP BITES + 7432912338",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BEST DAY KOLSCH + 19589360515 + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 9.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 2824 Dir Heather Kanski\nMain: (719) 486-0795 Rx:\n1900 HIGHWAY #24\nLEADVILLE CO 80461\n00282405201972604041826\nYOUR CASHIER TODAY WAS SELF\nBAKED GOODS Price You Pay\n22795600000 DONUTS ASTD 6 CT 5.49 5.49 B\n3967795841 CCF HMBRGR BNS 5.99 5.99 B\nPRODUCE\n24219400000 FRUIT & COLBY CHSE 5.00 5.00 B\n72243019116 GTS POMELO PINK 4.29 4.29 B\n85413500864 RSTD GRLC HUMMUS 5.49 3.99 B\nMember Savings -1.50\nDELI\n21978700000 PT P/S MED CHEDDAR 5.50 5.50 B\n29286400000 D&W BLK FOREST HAM 7.07 5.30 B\nMember Savings -1.77\n7432912338 OH SNAP BITES 1.79 1.79 B\nLIQUOR\n19589360515 BEST DAY KOLSCH 10.99 9.99 T\nMember Savings -1.00\nTAX 2.44\n**** BALANCE 49.78\nCredit Purchase 04/04/26 18:26\nCARD # ************4031\nREF: 122631140310 AUTH: 0007520P\nPAYMENT AMOUNT 49.78\nAL Mastercard\nAID A0000000041010\nTVR 0000008001\nMastercard 49.78\nCHANGE 0.00\n4.00% SALES TAX 1.89\n2.90% SALES TAX 0.43\n2.90% SALES TAX 0.12\nTOTAL TAX 2.44\nYOUR SAVINGS\nMember Savings 4.27\nTotal 4.27\nTotal Savings Value 8%\nYOUR POINTS\nPoints Earned Today 47\nPoints Available 47\nDate of Birth = xx/xx/xx",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7564.282624999993,
+        "totalUsd": 0.020019,
+        "inputTokens": 3692,
+        "outputTokens": 1609,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:26",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80461",
+          "status": "match"
+        },
+        "city": {
+          "value": "Leadville",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1900 HIGHWAY #24",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4031",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DONUTS ASTD 6 CT + 22795600000",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CCF HMBRGR BNS + 3967795841",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRUIT & COLBY CHSE + 24219400000",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS POMELO PINK + 72243019116",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RSTD GRLC HUMMUS + 85413500864 + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PT P/S MED CHEDDAR + 21978700000",
+          "quantity": 1,
+          "unitPrice": 5.5,
+          "totalSpend": 5.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "D&W BLK FOREST HAM + 29286400000 + Member Savings -1.77",
+          "quantity": 1,
+          "unitPrice": 7.07,
+          "totalSpend": 5.3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OH SNAP BITES + 7432912338",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BEST DAY KOLSCH + 19589360515 + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 9.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 2824 Dir Heather Kanski\nMain: (719) 486-0795 Rx:\n1900 HIGHWAY #24\nLEADVILLE CO 80461\n00282405201972604041826\nYOUR CASHIER TODAY WAS SELF\nBAKED GOODS\nPrice You Pay\n22795600000 DONUTS ASTD 6 CT 5.49 5.49 B\n3967795841 CCF HMBRGR BNS 5.99 5.99 B\nPRODUCE\n24219400000 FRUIT & COLBY CHSE 5.00 5.00 B\n72243019116 GTS POMELO PINK 4.29 4.29 B\n85413500864 RSTD GRLC HUMMUS 5.49 3.99 B\nMember Savings -1.50\nDELI\n21978700000 PT P/S MED CHEDDAR 5.50 5.50 B\n29286400000 D&W BLK FOREST HAM 7.07 5.30 B\nMember Savings -1.77\n7432912338 OH SNAP BITES 1.79 1.79 B\nLIQUOR\n19589360515 BEST DAY KOLSCH 10.99 9.99 T\nMember Savings -1.00\nTAX 2.44\n**** BALANCE 49.78\nCredit Purchase 04/04/26 18:26\nCARD # ************4031\nREF: 122631110310 AUTH: 0007520P\nPAYMENT AMOUNT 49.78\nAL Mastercard\nAID A0000000041010\nTVR 0000008001\nMastercard 49.78\nCHANGE 0.00\n4.00% SALES TAX 1.89\n2.90% SALES TAX 0.43\n2.90% SALES TAX 0.12\nTOTAL TAX 2.44\nYOUR SAVINGS\nMember Savings 4.27\nTotal 4.27\nTotal Savings Value 8%\nYOUR POINTS\nPoints Earned Today 47\nPoints Available 47\nDate of Birth = xx/xx/xx",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "DONUTS ASTD G CT + 22795600000",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "CCF HMBRGR BNS + 3967795841 + PRODUCE",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "FRUIT & COLBY CHSE + 24219400000",
+      "price": 5,
+      "quantity": 1,
+      "totalSpend": 5
+    },
+    {
+      "text": "GTS POMELO PINK + 72243019116",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 4.29
+    },
+    {
+      "text": "RSTD GRLC HUMMUS + 85413500864 + Nember Savings -1.50 + DELI",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "PT P/S MED CHEDDAR + 21978700000",
+      "price": 5.5,
+      "quantity": 1,
+      "totalSpend": 5.5
+    },
+    {
+      "text": "D&W BLK FOREST HAM + 29286400000 + Membar Savings -1.77",
+      "price": 5.3,
+      "quantity": 1,
+      "totalSpend": 5.3
+    },
+    {
+      "text": "OH SNAP BITES + 7432912338 + LIQUOR",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "BEST DAY KOLSCH + 19589360515 + MeRber SavIngs -1.00",
+      "price": 0.83,
+      "quantity": 1,
+      "totalSpend": 0.83
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

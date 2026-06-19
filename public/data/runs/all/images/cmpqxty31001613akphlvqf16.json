@@ -1,0 +1,243 @@
+{
+  "id": "cmpqxty31001613akphlvqf16",
+  "url": null,
+  "retailer": "CHEVRON",
+  "brand": "nic nac",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "CHEVRON",
+    "totalCost": "6.48",
+    "purchaseDate": "2026-05-28",
+    "time": null,
+    "zipCode": null,
+    "city": "Round Rock",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6517.188084000009,
+        "totalUsd": 0.014097,
+        "inputTokens": 6086,
+        "outputTokens": 552,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Texan Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:12:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Round Rock",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1100 Gattis School Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5852",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Spearmint 3mg Can",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Texan Market\n1100 Gattis School Road\nRound Rock TX\n00379948\n\n05/28/26 8:12:02 PM\nRegister: 1 Trans #: 4839 Op ID: 3\nYour cashier: Store\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nSpearmint 3mg Can\t$5.99 101\n----------------------------------------\nSubtotal =\t$5.99\nTax =\t$0.49\n----------------------------------------\nTotal =\t$6.48\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nChange Due =\t$0.00\n\nCredit\t$6.48\n----------------------------------------\nXXXXXXXXXXXX5852 VISA\nINVOICE: E/4864570\nAUTH 07717C\nSALE TRANSACTION\nChip Read\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\n\nGet rewarded on\nevery fill-up at\nChevron with a\nTechron Advantage\ncard. See app\nfor details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9364.271208999999,
+        "totalUsd": 0.019866,
+        "inputTokens": 3692,
+        "outputTokens": 553,
+        "reasoningTokens": 1039
+      },
+      "fields": {
+        "storeName": {
+          "value": "Texan Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:12:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Round Rock",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1100 Gattis School Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5852",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Spearmint 3mg Can",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Texan Market\n1100 Gattis School Road\nRound Rock TX\n00379948\n\n05/28/26 8:12:02 PM\nRegister: 1 Trans #: 4839 Op ID: 3\nYour cashier: Store\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nSpearmint 3mg Can\n$5.99 101\n----------------------------------------\nSubtotal = $5.99\nTax = $0.49\n----------------------------------------\nTotal = $6.48\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nChange Due = $0.00\n\nCredit\n$6.48\n----------------------------------------\nXXXXXXXXXXXX5852 VISA\nINVOICE: E/4864570\nAUTH 07717C\nSALE TRANSACTION\nChip Read\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\n\nGet rewarded on\nevery fill-up at\nChevron with a\nTechron Advantage\ncard. See app\nfor details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3708.396042,
+        "totalUsd": 0.010353,
+        "inputTokens": 3692,
+        "outputTokens": 535,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Texan Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:12:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Round Rock",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1100 Gattis School Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5852",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Spearmint 3mg Can",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Texan Market\n1100 Gattis School Road\nRound Rock TX\n00379948\n\n05/28/26 8:12:02 PM\nRegister: 1 Trans #: 4839 Op ID: 3\nYour cashier: Store\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nSpearmint 3mg Can\n$5.99 101\n-------------------\nSubtotal = $5.99\nTax = $0.49\n-------------------\nTotal = $6.48\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nChange Due = $0.00\n\nCredit\n$6.48\n----------------------------------------\nXXXXXXXXXXXX5852 VISA\nINVOICE: E/4864570\nAUTH 07717C\nSALE TRANSACTION\nChip Read\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\n\nGet rewarded on\nevery fill-up at\nChevron with a\nTechron Advantage\ncard. See app\nfor details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Spearmint 3mg Can",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

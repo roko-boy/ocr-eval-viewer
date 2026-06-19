@@ -1,0 +1,324 @@
+{
+  "id": "cmn8ywv88002miio8goda3npd",
+  "url": null,
+  "retailer": "Acme Markets",
+  "brand": "Momofuku Goods",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Acme Markets",
+    "totalCost": "26.24",
+    "purchaseDate": "2026-03-15",
+    "time": null,
+    "zipCode": "19104",
+    "city": "Philadelphia",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12362.13308299999,
+        "totalUsd": 0.01998,
+        "inputTokens": 6162,
+        "outputTokens": 1193,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Acme",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:45",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19104",
+          "status": "match"
+        },
+        "city": {
+          "value": "Philadelphia",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4001 Walnut Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8112",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "3000065040 PEARL MILLING CO + Basket Savings -0.27",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.22,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "61011189031 MOMOFUKU NOODLES S + Sale Savings -1.00 + Basket Savings -0.51",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 8.48,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "4138309073 LACTAID LACTOSE F + Sale Savings -0.30",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85281048812 LOL BROWN EGGS + Basket Savings -0.24",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.55,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ACME\nYOUR Favorite Local Supermarket\nStore 2397 Dir Robin Fuerneisen\nMain: (445)888-3634 Rx:\n4001 Walnut Street\nPhiladelphia PA 19104\n00239709402682603151845\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n3000065040 PEARL MILLING CO\n5.49 5.22 S\nBasket Savings -0.27\n61011189031 MOMOFUKU NOODLES S\n10.99 8.48 S\nSale Savings -1.00\nBasket Savings -0.51\nREFRIG/FROZEN\n4138309073 LACTAID LACTOSE F\n7.29 6.99 S\nSale Savings -0.30\n85281048812 LOL BROWN EGGS\n4.79 4.55 S\nBasket Savings -0.24\nTAX\n0.00\n**** BALANCE\n26.24\nCredit Purchase 03/15/26 18:45\nCARD # ************8112\nREF: 904527481120 AUTH: 00859537\nPAYMENT AMOUNT\n26.24\nAL AMEX CREDIT\nAID A000000025010901\nTVR 0000008000\nAMEX\n26.24\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n1.30\nBasket Savings\n1.02\nTotal\n2.32\nTotal Savings Value\n8%\nYOUR POINTS\nPoints Earned Today 26\nPoints Available 26\nTOTAL NUMBER OF ITEMS SOLD = 4\n03/15/26 18:46 2397 94 268 8894\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15043.714209,
+        "totalUsd": 0.034512,
+        "inputTokens": 3730,
+        "outputTokens": 1194,
+        "reasoningTokens": 2019
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:45",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19104",
+          "status": "match"
+        },
+        "city": {
+          "value": "Philadelphia",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4001 Walnut Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8112",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEARL MLLNG CO + 3000065040 + Basket Savings -0.27",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.22,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MOMOFUKU NOODLES S + 61011189031 + Sale Savings -1.00 + Basket Savings -0.51",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 9.48,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LACTAID LACTOSE F + 4138309073 + Sale Savings -0.30",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LOL BROWN EGGS + 85281048812 + Basket Savings -0.24",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.55,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ACME\nYOUR Favorite Local Supermarket\nStore 2397 Dir Robin Fuerneisen\nMain: (445)888-3634 Rx:\n4001 Walnut Street\nPhiladelphia PA 19104\n00239709402682603151845\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n3000065040 PEARL MLLNG CO\n5.49 5.22 S\nBasket Savings -0.27\n61011189031 MOMOFUKU NOODLES S\n10.99 9.48 S\nSale Savings -1.00\nBasket Savings -0.51\nREFRIG/FROZEN\n4138309073 LACTAID LACTOSE F\n7.29 6.99 S\nSale Savings -0.30\n85281048812 LOL BROWN EGGS\n4.79 4.55 S\nBasket Savings -0.24\nTAX\n0.00\n**** BALANCE\n26.24\nCredit Purchase 03/15/26 18:45\nCARD # ************8112\nREF: 904527481120 AUTH: 00859537\nPAYMENT AMOUNT\n26.24\nAL AMEX CREDIT\nAID A000000025010901\nTVR 0000008000\nAMEX\n26.24\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n1.30\nBasket Savings\n1.02\nTotal\n2.32\nTotal Savings Value\n8%\nYOUR POINTS\nPoints Earned Today 26\nPoints Available 26\nTOTAL NUMBER OF ITEMS SOLD = 4\n03/15/26 18:46 2397 94 268 8894\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6441.397750000004,
+        "totalUsd": 0.016359,
+        "inputTokens": 3730,
+        "outputTokens": 1196,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "26.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:45",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19104",
+          "status": "match"
+        },
+        "city": {
+          "value": "Philadelphia",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4001 Walnut Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8112",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEARL MLLNG CO + 3000065040 + Basket Savings -0.27",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.22,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MOMOFUKU NOODLES S + 61011189031 + Sale Savings -1.00 + Basket Savings -0.51",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 8.48,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "LACTAID LACTOSE F + 4138309073 + Sale Savings -0.30",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LOL BROWN EGGS + 85281048812 + Basket Savings -0.24",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.55,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ACME\nYOUR Favorite Local Supermarket\nStore 2397 Dir Robin Fuerneisen\nMain: (445)888-3634 Rx:\n4001 Walnut Street\nPhiladelphia PA 19104\n00239709402682603151845\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n3000065040 PEARL MLLNG CO\n5.49 5.22 S\nBasket Savings -0.27\n61011189031 MOMOFUKU NOODLES S\n10.99 8.48 S\nSale Savings -1.00\nBasket Savings -0.51\nREFRIG/FROZEN\n4138309073 LACTAID LACTOSE F\n7.29 6.99 S\nSale Savings -0.30\n85281048812 LOL BROWN EGGS\n4.79 4.55 S\nBasket Savings -0.24\nTAX\n0.00\n**** BALANCE\n26.24\nCredit Purchase 03/15/26 18:45\nCARD # ************8112\nREF: 904527481120 AUTH: 00859537\nPAYMENT AMOUNT\n26.24\nAL AMEX CREDIT\nAID A000000025010901\nTVR 0000008000\nAMEX\n26.24\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n1.30\nBasket Savings\n1.02\nTotal\n2.32\nTotal Savings Value\n8%\nYOUR POINTS\nPoints Earned Today 26\nPoints Available 26\nTOTAL NUMBER OF ITEMS SOLD = 4\n03/15/26 18:46 2397 94 268\n8894\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PEARL MLLNG CO + 000065040 + Basket Savings -0.27",
+      "price": 5.22,
+      "quantity": 1,
+      "totalSpend": 5.22
+    },
+    {
+      "text": "MOMOFUKU NOOOLES S + 1011189031 + Sale Savinas -1.00 + Basket Savings -0.51 + EFRIG/FROZEN",
+      "price": 9.48,
+      "quantity": 1,
+      "totalSpend": 9.48
+    },
+    {
+      "text": "LACTAID LACTOSE F + 138309073 + Sale Savinms -0.30",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "LOL BROWN EGGS + 5281048812 + Basket Savings -0.24",
+      "price": 4.55,
+      "quantity": 1,
+      "totalSpend": 4.55
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

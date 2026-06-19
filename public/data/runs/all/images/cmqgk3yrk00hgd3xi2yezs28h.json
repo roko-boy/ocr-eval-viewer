@@ -1,0 +1,212 @@
+{
+  "id": "cmqgk3yrk00hgd3xi2yezs28h",
+  "url": null,
+  "retailer": "BJ's Wholesale Club",
+  "brand": "UNREAL",
+  "amount": 11.78,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "BJ's Wholesale Club",
+    "totalCost": "129.27",
+    "purchaseDate": "2026-06-14",
+    "time": null,
+    "zipCode": null,
+    "city": "VIRGINIA BEACH",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 6616.724792000001,
+        "totalUsd": 0.014289,
+        "inputTokens": 3706,
+        "outputTokens": 315,
+        "reasoningTokens": 655
+      },
+      "fields": {
+        "storeName": {
+          "value": "BJ's Wholesale Club",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "129.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "VIRGINIA BEACH",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "7:25 1\nOrder #1467\n06/14/2026\nOrder Number\n#1467\nTotal\n$129.27\nClub Information\nClub Location: VIRGINIA BEACH,VA\nStore #: 36\nRegister #: 84\nSee Details\nPayment Method\nVisa Card\nOrder Summary\nSubtotal\n$126.52\nSavings\n-$2.99\nTax\n$5.74\nTotal\n$129.27\nItem purchased In-Club can only be\nreturned\nIn-Club View Our Return Policy",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 5,
+  "nullCount": 2
+}

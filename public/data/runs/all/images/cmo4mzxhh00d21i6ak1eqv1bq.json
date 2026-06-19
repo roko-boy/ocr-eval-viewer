@@ -1,0 +1,279 @@
+{
+  "id": "cmo4mzxhh00d21i6ak1eqv1bq",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "JustFoodForDogs",
+  "amount": 10.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": null,
+    "totalCost": "11.84",
+    "purchaseDate": "2026-04-18",
+    "time": null,
+    "zipCode": "90015",
+    "city": "Los Angeles",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8710.797290999995,
+        "totalUsd": 0.015816,
+        "inputTokens": 6086,
+        "outputTokens": 743,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "JustFood ForDogs",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "11.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:53 am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90015",
+          "status": "match"
+        },
+        "city": {
+          "value": "Costa Mesa",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "103 East 17th Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7756",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Chicken & Rice 18 oz",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "JustFood\nForDogs\n103 East 17th Street\nCosta Mesa, California, 90015\nUnited States\n949-662-1414\nSales Receipt\n04/18/2026 10:53 am\nTicket: 220005936767\nRegister: CM Register 1\nEmployee: Barbara\nCustomer: Christina Jenkins\nItems # Price\nChicken & Rice 18 oz 1 $10.99\nSubtotal $10.99\nTax ($10.99 @ 7.75%) $0.85\nTotal Tax $0.85\nTotal $11.84\nPAYMENTS\nCredit Card\nCard Num: 7756\nType: VISA\nEntry: PROXIMITY\nApproval: 00658I\nID: 6777838181\nAID: A0000000031010\nApplication Label: VISA CREDIT\n$11.84\nVisit us on the web at\nwww.justfoodfordogs.com\nHas JustFoodForDogs transformed your pet's\nhealth? We want to hear about it!\nSend your pet's testimonial and photo to\nmorelife@justfoodfordogs.com\nThank You Christina Jenkins!\n2 200059 367675\nTRANSACTION DETAILS\n00 $11.84\nDate: 04/18/2026 10:52 am\nAuth Code: 00658I\nAID: A0000000031010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12955.70737500001,
+        "totalUsd": 0.027138,
+        "inputTokens": 3692,
+        "outputTokens": 769,
+        "reasoningTokens": 1631
+      },
+      "fields": {
+        "storeName": {
+          "value": "JustFood ForDogs",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "11.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:53 am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90015",
+          "status": "match"
+        },
+        "city": {
+          "value": "Costa Mesa",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "103 East 17th Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7756",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Chicken & Rice 18 oz",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "JustFood\nForDogs\n\n103 East 17th Street\nCosta Mesa, California, 90015\nUnited States\n949-662-1414\n\nSales Receipt\n04/18/2026 10:53 am\n\nTicket: 220005936767\nRegister: CM Register 1\nEmployee: Barbara\nCustomer: Christina Jenkins\n\nItems # Price\nChicken & Rice 18 oz 1 $10.99\nSubtotal $10.99\nTax ($10.99 @ 7.75%) $0.85\nTotal Tax $0.85\nTotal $11.84\n\nPAYMENTS\nCredit Card\nCard Num: 7756\nType: VISA\nEntry: PROXIMITY\nApproval: 00658I\nID: 6777838181\nAID: A0000000031010\nApplication Label: VISA CREDIT\n$11.84\n\nVisit us on the web at\nwww.justfoodfordogs.com\n\nHas JustFoodForDogs transformed your pet's\nhealth? We want to hear about it!\nSend your pet's testimonial and photo to\nmorelife@justfoodfordogs.com\n\nThank You Christina Jenkins!\n\n2 200059 367675\n\nTRANSACTION DETAILS\n00 $11.84\nDate: 04/18/2026 10:52 am\nAuth Code: 00658I\nAID: A0000000031010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4551.255417,
+        "totalUsd": 0.012216,
+        "inputTokens": 3692,
+        "outputTokens": 742,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "JustFoodForDogs",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "11.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:53 am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90015",
+          "status": "match"
+        },
+        "city": {
+          "value": "Costa Mesa",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "103 East 17th Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7756",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Chicken & Rice 18 oz",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "JustFood\nForDogs\n103 East 17th Street\nCosta Mesa, California, 90015\nUnited States\n949-662-1414\nSales Receipt\n04/18/2026 10:53 am\nTicket: 220005936767\nRegister: CM Register 1\nEmployee: Barbara\nCustomer: Christina Jenkins\nItems\n# Price\nChicken & Rice 18 oz\n1 $10.99\nSubtotal $10.99\nTax ($10.99 @ 7.75%) $0.85\nTotal Tax $0.85\nTotal $11.84\nPAYMENTS\nCredit Card\nCard Num: 7756\nType: VISA\nEntry: PROXIMITY\nApproval: 00658I\nID: 6777838181\nAID: A0000000031010\nApplication Label: VISA CREDIT\n$11.84\nVisit us on the web at\nwww.justfoodfordogs.com\nHas JustFoodForDogs transformed your pet's\nhealth? We want to hear about it!\nSend your pet's testimonial and photo to\nmorelife@justfoodfordogs.com\nThank You Christina Jenkins!\n2 200059 367675\nTRANSACTION DETAILS\n00\nDate:\nAuth Code:\nAID:\n$11.84\n04/18/2026 10:52 am\n00658I\nA0000000031010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Chicken & Rice 18 oz 1 $10.99",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Subtotal $10.99",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Tax ($10.99 @ 7.75%) $0.85",
+      "price": 0.85,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Total Tax $0.85",
+      "price": 0.85,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Total $11.84",
+      "price": 11.84,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Entry  PROXIMITY $11.84",
+      "price": 11.84,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Date  $11.84",
+      "price": 11.84,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

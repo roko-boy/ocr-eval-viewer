@@ -1,0 +1,270 @@
+{
+  "id": "cmoon1ewx000n7pmyan6a0pie",
+  "url": null,
+  "retailer": "The City Tobacco & Beverage Center",
+  "brand": "Smuttynose",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "The City Tobacco & Beverage Center",
+    "totalCost": "61.96",
+    "purchaseDate": "2026-04-27",
+    "time": null,
+    "zipCode": "03874",
+    "city": "Seabrook",
+    "state": "NH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7014.328584000003,
+        "totalUsd": 0.015321,
+        "inputTokens": 6086,
+        "outputTokens": 688,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "The City Tob & Bev",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "61.96",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:08:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03874",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seabrook",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "621 Lafayette Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9938",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SAM ADAMS SEASONAL",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 31.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMUTTYNOSE IPA 12PK + SALE ITEM 1.00 OFF:YOU SAVED 2.00",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 29.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "The City\nThe City Tob & Bev #5 - Seabrook\n621 Lafayette Road\nSeabrook, NH 03874\n603-474-5337\nQTY DESCRIPTION UNIT TOTAL\n2.00 SAM ADAMS SEASONAL # 15.99 31.98\n2.00 SMUTTYNOSE IPA 12PK 14.99 29.98\nSALE ITEM 1.00 OFF:YOU SAVED 2.00\n4.00 ITEMS\nTOTAL SAVINGS = 2.00\nSUBTOTAL 61.96\nTOTAL 61.96\nDEBIT CARD 61.96\nCHANGE 0.00\nDATE: 04/27/2026\nTIME: 10:08:08 AM\nCASHIER: 104\nTRANS: 132660082\nID132660082\nBirthdate: 01/01/1920\nCLERK ID: 104 SALE\n************9938\nDEBIT CONTACTLESS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11989.01970899999,
+        "totalUsd": 0.02766,
+        "inputTokens": 3692,
+        "outputTokens": 684,
+        "reasoningTokens": 1774
+      },
+      "fields": {
+        "storeName": {
+          "value": "The City",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "61.96",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:08:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03874",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seabrook",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "621 Lafayette Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9938",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SAM ADAMS SEASONAL #",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 31.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMUTTYNOSE IPA 12PK + SALE ITEM 1.00 OFF:YOU SAVED 2.00",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 29.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "The City\nThe City Tob & Bev #5 - Seabrook\n621 Lafayette Road\nSeabrook, NH 03874\n603-474-5337\n\nQTY DESCRIPTION UNIT TOTAL\n2.00 SAM ADAMS SEASONAL # 15.99 31.98\n2.00 SMUTTYNOSE IPA 12PK 14.99 29.98\nSALE ITEM 1.00 OFF:YOU SAVED 2.00\n\n4.00 ITEMS\n\nTOTAL SAVINGS = 2.00\n\nSUBTOTAL 61.96\nTOTAL 61.96\nDEBIT CARD 61.96\nCHANGE 0.00\n\nDATE: 04/27/2026\nTIME: 10:08:08 AM\nCASHIER: 104\nTRANS: 132660082\n\nID132660082\n\nBirthdate: 01/01/1920\nCLERK ID: 104 SALE\n************9938",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5083.074791999999,
+        "totalUsd": 0.011694,
+        "inputTokens": 3692,
+        "outputTokens": 684,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "The City Tob & Bev",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "61.96",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:08:08 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03874",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seabrook",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "621 Lafayette Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9938",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SAM ADAMS SEASONAL #",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 31.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMUTTYNOSE IPA 12PK + SALE ITEM 1.00 OFF:YOU SAVED 2.00",
+          "quantity": 2,
+          "unitPrice": 15.99,
+          "totalSpend": 29.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "The City\nThe City Tob & Bev #5 - Seabrook\n621 Lafayette Road\nSeabrook, NH 03874\n603-474-5337\nQTY DESCRIPTION UNIT TOTAL\n2.00 SAM ADAMS SEASONAL # 15.99 31.98\n2.00 SMUTTYNOSE IPA 12PK 14.99 29.98\nSALE ITEM 1.00 OFF:YOU SAVED 2.00\n4.00 ITEMS\nTOTAL SAVINGS = 2.00\nSUBTOTAL 61.96\nTOTAL 61.96\nDEBIT CARD 61.96\nCHANGE 0.00\nDATE: 04/27/2026\nTIME: 10:08:08 AM\nCASHIER: 104\nTRANS: 132660082\nID132660082\nBirthdate: 01/01/1920\nCLERK ID: 104 SALE\n************9938",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SAM ADAMS SEASONAL",
+      "price": 15.99,
+      "quantity": 2,
+      "totalSpend": 31.98
+    },
+    {
+      "text": "SMUTTYNOSE IPA 12PK + SALE ITEM 1.00",
+      "price": 14.99,
+      "quantity": 2,
+      "totalSpend": 29.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

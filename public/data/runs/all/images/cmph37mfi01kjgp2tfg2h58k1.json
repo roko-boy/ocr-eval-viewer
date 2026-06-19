@@ -1,0 +1,236 @@
+{
+  "id": "cmph37mfi01kjgp2tfg2h58k1",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "Jubilee's",
+  "amount": 3.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "IHOP",
+    "totalCost": "3.49",
+    "purchaseDate": "2026-05-22",
+    "time": null,
+    "zipCode": "61108",
+    "city": "Rockford",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16811.03975000005,
+        "totalUsd": 0.0140025,
+        "inputTokens": 6191,
+        "outputTokens": 524,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "61108-2545",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Rockford",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6560 E State St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2262",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Jubilee's Chocolate Chip Flavored Milk - 8 fl oz",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "10:39 S\n5G 13\nMay 22, 2026\n#6142-0810-0172-9797\nHelp\n$3.49 total\nSNAP EBT *2262\nStart a return\nView your receipt\nPurchased\nat Rockford\nJubilee's Chocolate Chip\nFlavored Milk - 8 fl oz\n$3.49 unit price\nQty 1\nRockford\n6560 E State St\nRockford, IL 61108-2545\nDetails\nGarrett Ln\nGarrett Ln\nBienterra Trail\nTralee Dr\nTramore Ln\nWicklow Cl\nShay Dr\nBrett Pl\nKarls Ct\nJoyce Ave\nIHOP\nChick-fil-A\nPetSmart\nTarg\nALDI\nTroy Dr\nDeane Dr\nE State St\nDiscover\nBuy Again\nWallet\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 6559.180832999991,
+        "totalUsd": 0.016881,
+        "inputTokens": 3706,
+        "outputTokens": 417,
+        "reasoningTokens": 841
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "61108-2545",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Rockford",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6560 E State St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2262",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Jubilee's Chocolate Chip Flavored Milk - 8 fl oz",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "10:39 S\n5G 13\nMay 22, 2026\nHelp\n#6142-0810-0172-9797\n$3.49 total\nSNAP EBT *2262\nStart a return\nView your receipt\nPurchased\nat Rockford\nJubilee's Chocolate Chip Flavored Milk - 8 fl oz\n$3.49 unit price\nQty 1\nRockford\n6560 E State St\nDetails\nRockford, IL 61108-2545\nDiscover Buy Again Wallet Cart My Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3642.989249999984,
+        "totalUsd": 0.010104,
+        "inputTokens": 3706,
+        "outputTokens": 505,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "61108-2545",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Rockford",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6560 E State St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2262",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Jubilee's Chocolate Chip Flavored Milk - 8 fl oz",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "10:39 S\n5G 13\nMay 22, 2026\n#6142-0810-0172-9797\nHelp\n$3.49 total\nSNAP EBT *2262\nStart a return\nView your receipt\nPurchased\nat Rockford\nJubilee's Chocolate Chip Flavored Milk - 8 fl oz\n$3.49 unit price\nQty 1\nRockford\n6560 E State St\nRockford, IL 61108-2545\nDetails\nGarrett Ln\nGarrett Ln\nTramore Ln\nWicklow Cl\nShay Dr\nBrett Pl\nKarls Ct\nJoyce Ave\nIHOP\nChick-fil-A\nALDI\nTarg\nN Trainer Rd\nE State St\nDeane Dr\nTexa\nDiscover\nBuy Again\nWallet\n12\nCart\nMy Target",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

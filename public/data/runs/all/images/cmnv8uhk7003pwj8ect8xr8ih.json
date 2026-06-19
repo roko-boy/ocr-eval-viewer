@@ -1,0 +1,540 @@
+{
+  "id": "cmnv8uhk7003pwj8ect8xr8ih",
+  "url": null,
+  "retailer": "H-E-B",
+  "brand": "Dr. Praeger's ",
+  "amount": 0.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "33.23",
+    "purchaseDate": "2026-04-11",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8919.523958000063,
+        "totalUsd": 0.0228,
+        "inputTokens": 6086,
+        "outputTokens": 1519,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78204",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 RP BISTRO CHK QUESO FRESC F + Reduced Item - 50.00 % Off orig 2.47 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 1.23,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2 RP BISTRO BOWL CHEF SALAD F + Reduced Item - 50.00 % Off orig 2.47 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 1.23,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3 DOUGHLICIOUS CHOCOLATE CH F",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "4 G&R TX GMBO W SHRMP & CRW F",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "5 DR PRAEGERS SPINACH LITTL F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "6 UDIS SS ITAL SAU LASAGNA F",
+          "quantity": 1,
+          "unitPrice": 1.24,
+          "totalSpend": 1.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "9 LACTAID FRENCH VAN CREAMR + 2 Ea. @ 1/ 3.48 F + COUPON $1.50 orig 4.98 Ea.",
+          "quantity": 2,
+          "unitPrice": 4.98,
+          "totalSpend": 6.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "10 LACTAID SWEET CR CREAMER F + COUPON $1.50 orig 4.98 Ea.",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "11 LACTAID CARAMEL CREAMER 3 + 2 Ea. @ 1/ 3.48 F + COUPON $1.50 orig 4.98 Ea.",
+          "quantity": 2,
+          "unitPrice": 4.98,
+          "totalSpend": 6.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "12 ICEBERG LETTUCE FW",
+          "quantity": 1,
+          "unitPrice": 1.98,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "13 REG GRND CHUB 16 OZ. F",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "14 ROMA TOMATOES + 0.53 Lbs @ 1/ 0.82 FW",
+          "quantity": 1,
+          "unitPrice": 0.82,
+          "totalSpend": 0.43,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "H-E-B\n1097 8844 0411 2622 4000 742\n1 RP BISTRO CHK QUESO FRESC F 1.23\nReduced Item - 50.00 % Off orig 2.47 Ea.\n2 RP BISTRO BOWL CHEF SALAD F 1.23\nReduced Item - 50.00 % Off orig 2.47 Ea.\n3 DOUGHLICIOUS CHOCOLATE CH F 1.74\n4 G&R TX GMBO W SHRMP & CRW F 0.99\n5 DR PRAEGERS SPINACH LITTL F 1.50\n6 UDIS SS ITAL SAU LASAGNA F 1.24\n9 LACTAID FRENCH VAN CREAMR\n2 Ea. @ 1/ 3.48 F 6.96\nCOUPON $1.50 orig 4.98 Ea.\n10 LACTAID SWEET CR CREAMER F 3.48\nCOUPON $1.50 orig 4.98 Ea.\n11 LACTAID CARAMEL CREAMER 3\n2 Ea. @ 1/ 3.48 F 6.96\nCOUPON $1.50 orig 4.98 Ea.\n12 ICEBERG LETTUCE FW 1.98\n13 REG GRND CHUB 16 OZ. F 5.49\n14 ROMA TOMATOES\n0.53 Lbs @ 1/ 0.82 FW 0.43\n************** Total Sale*** 33.23\n*** VISA EPS 33.23\nITEMS PURCHASED: 14\nSALE & PRICE CUT SAVINGS : $3.48\nFREE/COUPON SAVINGS : $7.50\nYOU SAVED\n$10.98\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 23329.11441599997,
+        "totalUsd": 0.05466,
+        "inputTokens": 3692,
+        "outputTokens": 1572,
+        "reasoningTokens": 3886
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 RP BISTRO CHK QUESO FRESC F + Reduced Item - 50.00 % Off orig 2.47 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 1.23,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2 RP BISTRO BOWL CHEF SALAD F + Reduced Item - 50.00 % Off orig 2.47 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 1.23,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3 DOUGHLICIOUS CHOCOLATE CH F",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "4 G&R TX GMBO W SHRMP & CRW F",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "5 DR PRAEGERS SPINACH LITTL F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "6 UDIS SS ITAL SAU LASAGNA F",
+          "quantity": 1,
+          "unitPrice": 1.24,
+          "totalSpend": 1.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "9 LACTAID FRENCH VAN CREAMR + 2 Ea. @ 1/ 3.48 F 6.96 + COUPON $1.50 orig 4.98 Ea.",
+          "quantity": 2,
+          "unitPrice": 4.98,
+          "totalSpend": 6.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "10 LACTAID SWEET CR CREAMER F + COUPON $1.50 orig 4.98 Ea.",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "11 LACTAID CARAMEL CREAMER 3 + 2 Ea. @ 1/ 3.48 F 6.96 + COUPON $1.50 orig 4.98 Ea.",
+          "quantity": 2,
+          "unitPrice": 4.98,
+          "totalSpend": 6.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "12 ICEBERG LETTUCE FW 1.98",
+          "quantity": 1,
+          "unitPrice": 1.98,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "13 REG GRND CHUB 16 OZ. F 5.49",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "14 ROMA TOMATOES + 0.53 Lbs @ 1/ 0.82 FW 0.43",
+          "quantity": 1,
+          "unitPrice": 0.43,
+          "totalSpend": 0.43,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1097 8844 0411 2622 4000 742\n\n1 RP BISTRO CHK QUESO FRESC F 1.23\nReduced Item - 50.00 % Off orig 2.47 Ea.\n2 RP BISTRO BOWL CHEF SALAD F 1.23\nReduced Item - 50.00 % Off orig 2.47 Ea.\n3 DOUGHLICIOUS CHOCOLATE CH F 1.74\n4 G&R TX GMBO W SHRMP & CRW F 0.99\n5 DR PRAEGERS SPINACH LITTL F 1.50\n6 UDIS SS ITAL SAU LASAGNA F 1.24\n9 LACTAID FRENCH VAN CREAMR\n2 Ea. @ 1/ 3.48 F 6.96\nCOUPON $1.50 orig 4.98 Ea.\n10 LACTAID SWEET CR CREAMER F 3.48\nCOUPON $1.50 orig 4.98 Ea.\n11 LACTAID CARAMEL CREAMER 3\n2 Ea. @ 1/ 3.48 F 6.96\nCOUPON $1.50 orig 4.98 Ea.\n12 ICEBERG LETTUCE FW 1.98\n13 REG GRND CHUB 16 OZ. F 5.49\n14 ROMA TOMATOES\n0.53 Lbs @ 1/ 0.82 FW 0.43\n\n************* Total Sale*** 33.23\n*** VISA EPS 33.23\nITEMS PURCHASED: 14\nSALE & PRICE CUT SAVINGS : $3.48\nFREE/COUPON SAVINGS : $7.50\n\nYOU SAVED\n$10.98\n\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6708.466833000013,
+        "totalUsd": 0.01893,
+        "inputTokens": 3692,
+        "outputTokens": 1488,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78240",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RP BISTRO CHK QUESO FRESC F + Reduced Item - 50.00 % Off orig 2.47 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 1.23,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RP BISTRO BOWL CHEF SALAD F + Reduced Item - 50.00 % Off orig 2.47 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 1.23,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DOUGHLICIOUS CHOCOLATE CH F",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "G&R TX GMBO W SHRMP & CRW F",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR PRAEGERS SPINACH LITTL F",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "UDIS SS ITAL SAU LASAGNA F",
+          "quantity": 1,
+          "unitPrice": 1.24,
+          "totalSpend": 1.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LACTAID FRENCH VAN CREAMR + 2 Ea. @ 1/ 3.48 F + COUPON $1.50 orig 4.98 Ea.",
+          "quantity": 2,
+          "unitPrice": 4.98,
+          "totalSpend": 6.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "LACTAID SWEET CR CREAMER F + COUPON $1.50 orig 4.98 Ea.",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 3.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LACTAID CARAMEL CREAMER 3 + 2 Ea. @ 1/ 3.48 F + COUPON $1.50 orig 4.98 Ea.",
+          "quantity": 2,
+          "unitPrice": 4.98,
+          "totalSpend": 6.96,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ICEBERG LETTUCE",
+          "quantity": 1,
+          "unitPrice": 1.98,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REG GRND CHUB 16 OZ.",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ROMA TOMATOES + 0.53 Lbs @ 1/ 0.82 FW",
+          "quantity": 1,
+          "unitPrice": 0.82,
+          "totalSpend": 0.43,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1097 8844 0411 2622 4000 742\n1 RP BISTRO CHK QUESO FRESC F 1.23\nReduced Item - 50.00 % Off orig 2.47 Ea.\n2 RP BISTRO BOWL CHEF SALAD F 1.23\nReduced Item - 50.00 % Off orig 2.47 Ea.\n3 DOUGHLICIOUS CHOCOLATE CH F 1.74\n4 G&R TX GMBO W SHRMP & CRW F 0.99\n5 DR PRAEGERS SPINACH LITTL F 1.50\n6 UDIS SS ITAL SAU LASAGNA F 1.24\n9 LACTAID FRENCH VAN CREAMR\n2 Ea. @ 1/ 3.48 F 6.96\nCOUPON $1.50 orig 4.98 Ea.\n10 LACTAID SWEET CR CREAMER F 3.48\nCOUPON $1.50 orig 4.98 Ea.\n11 LACTAID CARAMEL CREAMER 3\n2 Ea. @ 1/ 3.48 F 6.96\nCOUPON $1.50 orig 4.98 Ea.\n12 ICEBERG LETTUCE FW 1.98\n13 REG GRND CHUB 16 OZ. F 5.49\n14 ROMA TOMATOES\n0.53 Lbs @ 1/ 0.82 FW 0.43\n************* Total Sale*** 33.23\n*** VISA EPS 33.23\nITEMS PURCHASED: 14\nSALE & PRICE CUT SAVINGS : $3.48\nFREE/COUPON SAVINGS : $7.50\nYOU SAVED\n$10.98\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "RP BISTRO CHK QUESO FRESC + Reduced Item - 50.00 % Off orig 2.47 Ea",
+      "price": 1.23,
+      "quantity": 1,
+      "totalSpend": 1.23
+    },
+    {
+      "text": "RP BISTRO BOWL CHEF SALAD + Reduced Item - 50.00 % Off orig 2.47 Ea",
+      "price": 1.23,
+      "quantity": 1,
+      "totalSpend": 1.23
+    },
+    {
+      "text": "DOUGHLICIOUS CHOCOLATE CH",
+      "price": 1.74,
+      "quantity": 1,
+      "totalSpend": 1.74
+    },
+    {
+      "text": "G&R TX GMBO W SHRMP & CRW",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "DR PRAEGERS SPINACH LITTL",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "UDIS SS ITAL SAU LASAGNA",
+      "price": 1.24,
+      "quantity": 1,
+      "totalSpend": 1.24
+    },
+    {
+      "text": "LACTAID FRENCH VAN CREAMR + 2 Ea. @ 1/ 3.48 F 6.96",
+      "price": 0.99,
+      "quantity": 2,
+      "totalSpend": 1.98
+    },
+    {
+      "text": "LACTAID SWEET CR CREAMER",
+      "price": 3.48,
+      "quantity": 1,
+      "totalSpend": 3.48
+    },
+    {
+      "text": "LACTAID CARAMEL CREAMER 3 + 2 Ea. @ 1/ 3.48 F 6.96",
+      "price": 0.99,
+      "quantity": 2,
+      "totalSpend": 1.98
+    },
+    {
+      "text": "ICEBERG LETTUCE",
+      "price": 1.98,
+      "quantity": 1,
+      "totalSpend": 1.98
+    },
+    {
+      "text": "REG GRND CHUB 16 OZ",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "ROMA TOMATOES + 0.53 Lbs @ 1/ 0.82 FW 0.43",
+      "price": 0.82,
+      "quantity": 1,
+      "totalSpend": 0.43
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

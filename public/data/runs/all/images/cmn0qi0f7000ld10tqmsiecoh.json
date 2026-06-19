@@ -1,0 +1,297 @@
+{
+  "id": "cmn0qi0f7000ld10tqmsiecoh",
+  "url": null,
+  "retailer": "Tom Thumb",
+  "brand": "NuTrail",
+  "amount": 7.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Tom Thumb",
+    "totalCost": "37.51",
+    "purchaseDate": "2026-03-21",
+    "time": null,
+    "zipCode": "76034",
+    "city": "Colleyville",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8633.995582999996,
+        "totalUsd": 0.01902,
+        "inputTokens": 6086,
+        "outputTokens": 1099,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tom Thumb",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:36",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76034",
+          "status": "match"
+        },
+        "city": {
+          "value": "Colleyville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4000 Glade Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6875",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 85004722001 + 2@ NUTRAIL GRANOLA KT + Sale Savings -4.00",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 15.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MEAT + 20787300000 + 2@ SIG CHICKEN THIGHS + forU Store Coupon -10.01",
+          "quantity": 2,
+          "unitPrice": 10.25,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MEAT + 20787300000 + SIG CHICKEN THIGHS",
+          "quantity": 1,
+          "unitPrice": 11.04,
+          "totalSpend": 11.04,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Tom Thumb\nStore 70 Dir Jon Mroz\nMain: (817) 354-0505 Rx:\n4000 Glade Rd.\nColleyville TX 76034\n00007009301232603211436\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85004722001 2@ NUTRAIL GRANOLA KT\n19.98 15.98 S\nSale Savings -4.00\nMEAT\n20787300000 2@ SIG CHICKEN THIGHS\n20.50 10.49 S\nforU Store Coupon -10.01\n20787300000 SIG CHICKEN THIGHS\n11.04 11.04 S\nTAX\n0.00\n**** BALANCE\n37.51\nCredit Purchase 03/21/26 14:36\nCARD # ************6875\nREF: 173619468750 AUTH: 00021567\nPAYMENT AMOUNT\n37.51\nAL VISA CREDIT\nAID A0000000031010\nTVR 8000008000\nVisa\n37.51\nCHANGE\n0.00\nPoints expiring 03/31/26 77\nBRIKCHYA SIGDEL\n491236\nYOUR SAVINGS\nCard Savings\n14.01\nTotal\n14.01\nTotal Savings Value\n27%\nYOUR POINTS\nPoints Earned Today 37\nPoints Available 225\nTOTAL NUMBER OF ITEMS SOLD = 5\n03/21/26 14:36 70 93 123 8893\nThank you for shopping Tom Thumb!\nFor TOMTHUMB FOR U questions call\n877-276-9637 or Tomthumb.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13280.92,
+        "totalUsd": 0.028686,
+        "inputTokens": 3692,
+        "outputTokens": 1087,
+        "reasoningTokens": 1485
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tom Thumb",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:36",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76034",
+          "status": "match"
+        },
+        "city": {
+          "value": "Colleyville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4000 Glade Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6875",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 85004722001 + 2@ NUTRAIL GRANOLA KT + Sale Savings -4.00",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 15.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MEAT + 20787300000 + 2@ SIG CHICKEN THIGHS + forU Store Coupon -10.01",
+          "quantity": 2,
+          "unitPrice": 10.25,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MEAT + 20787300000 + SIG CHICKEN THIGHS",
+          "quantity": 1,
+          "unitPrice": 11.04,
+          "totalSpend": 11.04,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Tom Thumb\nStore 70 Dir Jon Mroz\nMain: (817) 354-0505 Rx:\n4000 Glade Rd.\nColleyville TX 76034\n00007009301232603211436\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85004722001 2@ NUTRAIL GRANOLA KT\n19.98 15.98 S\nSale Savings -4.00\nMEAT\n20787300000 2@ SIG CHICKEN THIGHS\n20.50 10.49 S\nforU Store Coupon -10.01\n20787300000 SIG CHICKEN THIGHS\n11.04 11.04 S\nTAX\n0.00\n**** BALANCE\n37.51\nCredit Purchase 03/21/26 14:36\nCARD # ************6875\nREF: 173619468750 AUTH: 00021567\nPAYMENT AMOUNT\n37.51\nAL VISA CREDIT\nAID A0000000031010\nTVR 8000008000\nVisa\n37.51\nCHANGE\n0.00\nPoints expiring 03/31/26 77\nBRIKCHYA SIGDEL\n491236\nYOUR SAVINGS\nCard Savings\n14.01\nTotal\n14.01\nTotal Savings Value\n27%\nYOUR POINTS\nPoints Earned Today 37\nPoints Available 225\nTOTAL NUMBER OF ITEMS SOLD = 5\n03/21/26 14:36 70 93 123 8893\nThank you for shopping Tom Thumb!\nFor TOMTHUMB FOR U questions call\n877-276-9637 or Tomthumb.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5937.464999999997,
+        "totalUsd": 0.015105,
+        "inputTokens": 3692,
+        "outputTokens": 1063,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tom Thumb",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.51",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:36",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76034",
+          "status": "match"
+        },
+        "city": {
+          "value": "Colleyville",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4000 Glade Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6875",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTRAIL GRANOLA KT + 85004722001",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 15.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIG CHICKEN THIGHS + 20787300000 + forU Store Coupon -10.01",
+          "quantity": 2,
+          "unitPrice": 10.25,
+          "totalSpend": 10.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIG CHICKEN THIGHS + 20787300000",
+          "quantity": 1,
+          "unitPrice": 11.04,
+          "totalSpend": 11.04,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Tom Thumb\nStore 70 Dir Jon Mroz\nMain: (817) 354-0505 Rx:\n4000 Glade Rd.\nColleyville TX 76034\n00007009301232603211436\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85004722001 2@ NUTRAIL GRANOLA KT\n19.98 15.98 S\nSale Savings -4.00\nMEAT\n20787300000 2@ SIG CHICKEN THIGHS\n20.50 10.49 S\nforU Store Coupon -10.01\n20787300000 SIG CHICKEN THIGHS\n11.04 11.04 S\nTAX\n0.00\n**** BALANCE\n37.51\nCredit Purchase 03/21/26 14:36\nCARD # ************6875\nREF: 173619468750 AUTH: 00021567\nPAYMENT AMOUNT\n37.51\nAL VISA CREDIT\nAID A0000000031010\nTVR 8000008000\nVisa\n37.51\nCHANGE\n0.00\nPoints expiring 03/31/26 77\nBRIKCHYA SIGDEL\n491236\nYOUR SAVINGS\nCard Savings\n14.01\nTotal\n14.01\nTotal Savings Value\n27%\nYOUR POINTS\nPoints Earned Today 37\nPoints Available 225\nTOTAL NUMBER OF ITEMS SOLD = 5\n03/21/26 14:36 70 93 123 8893\nThank you for shopping Tom Thumb!\nFor TOMTHUMB FOR U questions call\n877-276-9637 or Tomthumb.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NUTRAIL GRANOLA KT + 85004722001 + Sale Savings -4.00 + MEAT",
+      "price": 7.99,
+      "quantity": 2,
+      "totalSpend": 15.98
+    },
+    {
+      "text": "SIG CHICKEN THIGHS + 20787300000 + forU Store Coupon -10.01",
+      "price": 5.24,
+      "quantity": 2,
+      "totalSpend": 10.49
+    },
+    {
+      "text": "SIG CHICKEN THIGHS + 20787300000",
+      "price": 11.04,
+      "quantity": 1,
+      "totalSpend": 11.04
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

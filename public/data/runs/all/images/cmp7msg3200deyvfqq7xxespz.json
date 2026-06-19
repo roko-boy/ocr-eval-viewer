@@ -1,0 +1,420 @@
+{
+  "id": "cmp7msg3200deyvfqq7xxespz",
+  "url": null,
+  "retailer": "H-E-B",
+  "brand": "shinewater",
+  "amount": 3.98,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "35.77",
+    "purchaseDate": "2026-05-15",
+    "time": null,
+    "zipCode": "77389",
+    "city": "Tomball",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12840.564166,
+        "totalUsd": 0.021999,
+        "inputTokens": 6086,
+        "outputTokens": 1430,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "35.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:33P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "77389",
+          "status": "match"
+        },
+        "city": {
+          "value": "Spring",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "26500 Kuykendahl Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6514",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KOOL AID JAMMERS CHERRY + FREE COUPON $2.97 orig 2.97 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PIRQ HYDRATION PUNCH",
+          "quantity": 2,
+          "unitPrice": 5.59,
+          "totalSpend": 11.18,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KOOL AID JAMMERS TROPICAL + FREE COUPON $2.97 orig 2.97 Ea.",
+          "quantity": 3,
+          "unitPrice": 2.97,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KOOL AID JAMMERS TROPICAL",
+          "quantity": 4,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "LK FUBBLES 4OZ BUBBLE WAN",
+          "quantity": 5,
+          "unitPrice": 1.2,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KOOL AID JAMMERS GRAPE",
+          "quantity": 6,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KOOL AID JAMMER SHARKLBRR + 2 Ea. @ 1/ 2.97",
+          "quantity": 7,
+          "unitPrice": 2.97,
+          "totalSpend": 5.94,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SHINE WATER KIDS GRAPE RA",
+          "quantity": 8,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "H-E-B\n1009 3857 0515 2618 3300 686\n1 KOOL AID JAMMERS CHERRY T -0.00\nFREE COUPON $2.97 orig 2.97 Ea.\n2 PIRQ HYDRATION PUNCH TF 11.18\n3 KOOL AID JAMMERS TROPICAL T -0.00\nFREE COUPON $2.97 orig 2.97 Ea.\n4 KOOL AID JAMMERS TROPICAL T 2.97\n5 LK FUBBLES 4OZ BUBBLE WAN T 6.00\n6 KOOL AID JAMMERS GRAPE T 2.97\n7 KOOL AID JAMMER SHARKLBRR\n2 Ea. @ 1/ 2.97 T 5.94\n8 SHINE WATER KIDS GRAPE RA TF 3.98\n************ Sale Subtotal*** 33.04\nSales Tax 2.73\n************ Total Sale*** 35.77\n*** VISA EPS 35.77\nITEMS PURCHASED: 9\nFREE/COUPON SAVINGS : $5.94\nYOU SAVED\n$5.94\nUS DEBIT\n************6514\nChip Read USD$ 35.77\nAppr No : 031759 Ref No : 96918\nMode: Issuer\nVISA\nAID : A0000000980840\nTVR : 8000088000\nIAD : 06061203A0A000\nTSI : 6800 ARC : 00\nRECEIPT EXPIRES ON 08-13-26\n1009 3857 0515 2618 3300 686\nH-E-B Food-Drugs #05/686\n26500 Kuykendahl Rd, Spring, TX 77389\nPhone: (281) 205-6500\nPharmacy: (281) 255-2248\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:ZAIN S\n093857 05-15-26 6:33P 224/07/00686",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 21393.31358299998,
+        "totalUsd": 0.052554,
+        "inputTokens": 3692,
+        "outputTokens": 1435,
+        "reasoningTokens": 3789
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "35.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:33P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "77389",
+          "status": "match"
+        },
+        "city": {
+          "value": "Spring",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "26500 Kuykendahl Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6514",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KOOL AID JAMMERS CHERRY + FREE COUPON $2.97 orig 2.97 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PIRQ HYDRATION PUNCH",
+          "quantity": 1,
+          "unitPrice": 11.18,
+          "totalSpend": 11.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOOL AID JAMMERS TROPICAL + FREE COUPON $2.97 orig 2.97 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KOOL AID JAMMERS TROPICAL",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LK FUBBLES 4OZ BUBBLE WAN",
+          "quantity": 1,
+          "unitPrice": 6,
+          "totalSpend": 6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOOL AID JAMMERS GRAPE",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOOL AID JAMMER SHARKLBRR + 2 Ea. @ 1/ 2.97",
+          "quantity": 2,
+          "unitPrice": 2.97,
+          "totalSpend": 5.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHINE WATER KIDS GRAPE RA",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1009 3857 0515 2618 3300 686\n1 KOOL AID JAMMERS CHERRY T -0.00\nFREE COUPON $2.97 orig 2.97 Ea.\n2 PIRQ HYDRATION PUNCH TF 11.18\n3 KOOL AID JAMMERS TROPICAL T -0.00\nFREE COUPON $2.97 orig 2.97 Ea.\n4 KOOL AID JAMMERS TROPICAL T 2.97\n5 LK FUBBLES 4OZ BUBBLE WAN T 6.00\n6 KOOL AID JAMMERS GRAPE T 2.97\n7 KOOL AID JAMMER SHARKLBRR\n2 Ea. @ 1/ 2.97 T 5.94\n8 SHINE WATER KIDS GRAPE RA TF 3.98\n************ Sale Subtotal*** 33.04\nSales Tax 2.73\n************ Total Sale*** 35.77\n*** VISA EPS 35.77\nITEMS PURCHASED: 9\nFREE/COUPON SAVINGS : $5.94\n\nYOU SAVED\n$5.94\n\nUS DEBIT\n************6514\nChip Read USD$ 35.77\nAppr No : 031759 Ref No : 96918\nMode: Issuer\nVISA\nAID : A0000000980840\nTVR : 8000088000\nIAD : 06061203A0A000\nTSI : 6800 ARC : 00\n\nRECEIPT EXPIRES ON 08-13-26\n\n1009 3857 0515 2618 3300 686\n\nH-E-B Food-Drugs #05/686\n26500 Kuykendahl Rd, Spring, TX 77389\nPhone: (281) 205-6500\nPharmacy: (281) 255-2248\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:ZAIN S\n093857 05-15-26 6:33P 224/07/00686",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7295.482458000013,
+        "totalUsd": 0.018237,
+        "inputTokens": 3692,
+        "outputTokens": 1411,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "35.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:33P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "77389",
+          "status": "match"
+        },
+        "city": {
+          "value": "Spring",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "26500 Kuykendahl Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6514",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KOOL AID JAMMERS CHERRY + FREE COUPON $2.97 orig 2.97 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PIRQ HYDRATION PUNCH",
+          "quantity": 1,
+          "unitPrice": 11.18,
+          "totalSpend": 11.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOOL AID JAMMERS TROPICAL + FREE COUPON $2.97 orig 2.97 Ea.",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KOOL AID JAMMERS TROPICAL",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LK FUBBLES 4OZ BUBBLE WAN",
+          "quantity": 1,
+          "unitPrice": 6,
+          "totalSpend": 6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOOL AID JAMMERS GRAPE",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KOOL AID JAMMER SHARKLBRR",
+          "quantity": 2,
+          "unitPrice": 2.97,
+          "totalSpend": 5.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHINE WATER KIDS GRAPE RA",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1009 3857 0515 2618 3300 686\n1 KOOL AID JAMMERS CHERRY T -0.00\nFREE COUPON $2.97 orig 2.97 Ea.\n2 PIRQ HYDRATION PUNCH TF 11.18\n3 KOOL AID JAMMERS TROPICAL T -0.00\nFREE COUPON $2.97 orig 2.97 Ea.\n4 KOOL AID JAMMERS TROPICAL T 2.97\n5 LK FUBBLES 4OZ BUBBLE WAN T 6.00\n6 KOOL AID JAMMERS GRAPE T 2.97\n7 KOOL AID JAMMER SHARKLBRR\n2 Ea. @ 1/ 2.97 T 5.94\n8 SHINE WATER KIDS GRAPE RA TF 3.98\n************ Sale Subtotal*** 33.04\nSales Tax 2.73\n************ Total Sale*** 35.77\n*** VISA EPS 35.77\nITEMS PURCHASED: 9\nFREE/COUPON SAVINGS : $5.94\nYOU SAVED\n$5.94\nUS DEBIT\n************6514\nChip Read USD$ 35.77\nAppr No : 031759 Ref No : 96918\nMode: Issuer\nVISA\nAID : A0000000980840\nTVR : 8000088000\nIAD : 06061203A0A000\nTSI : 6800 ARC : 00\nRECEIPT EXPIRES ON 08-13-26\n1009 3857 0515 2618 3300 686\nH-E-B Food-Drugs #05/686\n26500 Kuykendahl Rd, Spring, TX 77389\nPhone: (281) 205-6500\nPharmacy: (281) 255-2248\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:ZAIN S\n093857 05-15-26 6:33P 224/07/00686",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PIRQ HYDRATION PUNCH",
+      "price": 11.18,
+      "quantity": 1,
+      "totalSpend": 11.18
+    },
+    {
+      "text": "KOOL AID JAMMERS TROPICAL",
+      "price": 2.97,
+      "quantity": 1,
+      "totalSpend": 2.97
+    },
+    {
+      "text": "LK FUBBLES 4OZ BUBBLE WAN",
+      "price": 6,
+      "quantity": 1,
+      "totalSpend": 6
+    },
+    {
+      "text": "KOOL AID JAMMERS GRAPE",
+      "price": 2.97,
+      "quantity": 1,
+      "totalSpend": 2.97
+    },
+    {
+      "text": "KOOL AID JAMMER SHARKLBRR + 2 Ea. @ 1/ 2.97 T 5.94",
+      "price": 2.97,
+      "quantity": 2,
+      "totalSpend": 5.94
+    },
+    {
+      "text": "SHINE WATER KIDS GRAPE RA",
+      "price": 3.98,
+      "quantity": 1,
+      "totalSpend": 3.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

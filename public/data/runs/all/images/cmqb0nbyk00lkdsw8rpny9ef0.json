@@ -1,0 +1,297 @@
+{
+  "id": "cmqb0nbyk00lkdsw8rpny9ef0",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "killer brownie",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "8.31",
+    "purchaseDate": "2026-06-12",
+    "time": null,
+    "zipCode": "28697",
+    "city": "Wilkesboro",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11295.14670899999,
+        "totalUsd": 0.015834,
+        "inputTokens": 6086,
+        "outputTokens": 745,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:25:15 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "28697",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wilkesboro",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4112 W US Hwy 421",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8154",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Monster Ultra Blue Haw 16oz",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Rip Van Wafel Carm Van 1.16o",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Killer Brownie Chocolatier S",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #794\n4112 W US Hwy 421\nWilkesboro, NC 28697\n743-210-4026\n6/12/2026 6:25:15 AM\nPOS Terminal\nOrder Number: 144\nRegister:22\nMonster Ultra Blue Haw 16oz $3.49\nRip Van Wafel Carm Van 1.16o $1.69\nKiller Brownie Chocolatier S $2.79\nSub. Total: $7.97\nWireless Fee $0.00\nSales Tax $0.34\nTotal: $8.31\nDiscount Total: $0.00\nVisa: $8.31\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX8154\nContactless\nTerminal : XXXXXXXXXX1002\nApproval : 312741\nSequence : 015958\nUSD$ 8.31\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8739.42975000001,
+        "totalUsd": 0.022359,
+        "inputTokens": 3692,
+        "outputTokens": 738,
+        "reasoningTokens": 1131
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:25:15 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "28697",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wilkesboro",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4112 W US Hwy 421",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8154",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Monster Ultra Blue Haw 16oz",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Rip Van Wafel Carm Van 1.16o",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Killer Brownie Chocolatier S",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #794\n4112 W US Hwy 421\nWilkesboro, NC 28697\n743-210-4026\n6/12/2026 6:25:15 AM\nPOS Terminal\nOrder Number: 144\nRegister:22\nMonster Ultra Blue Haw 16oz $3.49\nRip Van Wafel Carm Van 1.16o $1.69\nKiller Brownie Chocolatier S $2.79\nSub. Total: $7.97\nWireless Fee $0.00\nSales Tax $0.34\nTotal: $8.31\nDiscount Total: $0.00\nVisa: $8.31\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX8154\nContactless\nTerminal : XXXXXXXXXX1002\nApproval : 312741\nSequence : 015958\nUSD$ 8.31\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXX",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4612.511832999997,
+        "totalUsd": 0.01218,
+        "inputTokens": 3692,
+        "outputTokens": 738,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:25:15 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "28697",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wilkesboro",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4112 W US Hwy 421",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8154",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Monster Ultra Blue Haw 16oz",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Rip Van Wafel Carm Van 1.16o",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Killer Brownie Chocolatier S",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #794\n4112 W US Hwy 421\nWilkesboro, NC 28697\n743-210-4026\n6/12/2026 6:25:15 AM\nPOS Terminal\nOrder Number: 144\nRegister:22\nMonster Ultra Blue Haw 16oz $3.49\nRip Van Wafel Carm Van 1.16o $1.69\nKiller Brownie Chocolatier S $2.79\nSub. Total: $7.97\nWireless Fee $0.00\nSales Tax $0.34\nTotal: $8.31\nDiscount Total: $0.00\nVisa: $8.31\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX8154\nContactless\nTerminal : XXXXXXXXXX1002\nApproval : 312741\nSequence : 015958\nUSD$ 8.31\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXX",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Monster Ultra Blue Haw 16oz",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "Rip Van Wafel Carm Van 1.16o",
+      "price": 1.69,
+      "quantity": 1,
+      "totalSpend": 1.69
+    },
+    {
+      "text": "Killer Brownie Chocolatier S",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

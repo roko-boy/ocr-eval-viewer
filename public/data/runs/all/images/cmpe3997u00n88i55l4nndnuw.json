@@ -1,0 +1,432 @@
+{
+  "id": "cmpe3997u00n88i55l4nndnuw",
+  "url": null,
+  "retailer": "Meijer",
+  "brand": "Molly's Suds",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "84.5",
+    "purchaseDate": "2026-05-20",
+    "time": null,
+    "zipCode": "46804",
+    "city": "Ft. Wayne",
+    "state": "IN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9323.32562499994,
+        "totalUsd": 0.020277,
+        "inputTokens": 6114,
+        "outputTokens": 1234,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "84.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "46804",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Wayne",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "IN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5909 Illinois Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "7490404011 BANANAS + 2.88 lb @ 1 lb / .49",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 1.41,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1732400269 LEMON PEEL",
+          "quantity": 1,
+          "unitPrice": 7.89,
+          "totalSpend": 7.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "70882045144 ORANGE JUICE",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85283500665 MOLLYS SUDS",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 23.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85283500666 MOLLYS SUDS",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 23.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*1800000501 CINNAMON ROLLS + was 3.19 now 2.89",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 2.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*3450015136 LOL BUTTER + 2 @ 3.99 + was 9.98 now 7.98",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*71575610001 RASPBERRIES + 4 @ 4 / 5.00 + was 12.76 now 5.00",
+          "quantity": 4,
+          "unitPrice": 3.19,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n5909 Illinois Road\nFort Wayne, IN 46804 - #125\n(260)434-3900 meijer.com\n05/20/26 Fastlane126\nMEIJER SAVINGS\nSPECIALS 10.06\nSAVINGS TOTAL 10.06\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n227.67\nGROCERY\n7490404011 BANANAS 1.41 F\n2.88 lb @ 1 lb / .49\n1732400269 LEMON PEEL 7.89 F\n70882045144 ORANGE JUICE 7.99 F\n85283500665 MOLLYS SUDS 23.99 T\n85283500666 MOLLYS SUDS 23.99 T\n*1800000501 CINNAMON ROLLS\nwas 3.19 now 2.89 F\n*3450015136 LOL BUTTER\n2 @ 3.99\nwas 9.98 now 7.98 F\n*71575610001 RASPBERRIES\n4 @ 4 / 5.00\nwas 12.76 now 5.00 F\nmPerks # -- ********68\nTOTAL\nIN 7% Sales Tax 3.36\nTOTAL TAX 3.36\nTOTAL 84.50\nPAYMENTS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15740.67620799999,
+        "totalUsd": 0.039354,
+        "inputTokens": 3706,
+        "outputTokens": 1236,
+        "reasoningTokens": 2519
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "84.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "46804",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Wayne",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "IN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5909 Illinois Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "mPerks",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "7490404011 BANANAS + 2.88 lb @ 1 lb / .49",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 1.41,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1732400269 LEMON PEEL",
+          "quantity": 1,
+          "unitPrice": 7.89,
+          "totalSpend": 7.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "70882045144 ORANGE JUICE",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85283500665 MOLLYS SUDS",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 23.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85283500666 MOLLYS SUDS",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 23.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*1800000501 CINNAMON ROLLS + was 3.19 now 2.89",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 2.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*3450015136 LOL BUTTER + 2 @ 3.99 + was 9.98 now 7.98",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*71575610001 RASPBERRIES + 4 @ 4 / 5.00 + was 12.76 now 5.00",
+          "quantity": 4,
+          "unitPrice": 3.19,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "meijer\n5909 Illinois Road\nFort Wayne, IN 46804 - #125\n(260)434-3900 meijer.com\n05/20/26 Fastlane126\nMEIJER SAVINGS\nSPECIALS 10.06\nSAVINGS TOTAL 10.06\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n227.67\nGROCERY\n7490404011 BANANAS 1.41 F\n2.88 lb @ 1 lb / .49\n1732400269 LEMON PEEL 7.89 F\n70882045144 ORANGE JUICE 7.99 F\n85283500665 MOLLYS SUDS 23.99 T\n85283500666 MOLLYS SUDS 23.99 T\n*1800000501 CINNAMON ROLLS\nwas 3.19 now 2.89 F\n*3450015136 LOL BUTTER\n2 @ 3.99\nwas 9.98 now 7.98 F\n*71575610001 RASPBERRIES\n4 @ 4 / 5.00\nwas 12.76 now 5.00 F\nmPerks # -- ********68\nTOTAL\nIN 7% Sales Tax 3.36\nTOTAL TAX 3.36\nTOTAL 84.50\nPAYMENTS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6380.306333000015,
+        "totalUsd": 0.016737,
+        "inputTokens": 3706,
+        "outputTokens": 1242,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "84.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "46804",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Wayne",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "IN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5909 Illinois Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BANANAS + 7490404011 + 2.88 lb @ 1 lb / .49",
+          "quantity": 1,
+          "unitPrice": 0.49,
+          "totalSpend": 1.41,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LEMON PEEL + 1732400269",
+          "quantity": 1,
+          "unitPrice": 7.89,
+          "totalSpend": 7.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORANGE JUICE + 70882045144",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MOLLYS SUDS + 85283500665",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 23.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MOLLYS SUDS + 85283500666",
+          "quantity": 1,
+          "unitPrice": 23.99,
+          "totalSpend": 23.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CINNAMON ROLLS + *1800000501 + was 3.19 now 2.89",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LOL BUTTER + *3450015136 + 2 @ 3.99 + was 9.98 now 7.98",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RASPBERRIES + *71575610001 + 4 @ 4 / 5.00 + was 12.76 now 5.00",
+          "quantity": 4,
+          "unitPrice": 3.19,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n5909 Illinois Road\nFort Wayne, IN 46804 - #125\n(260)434-3900 meijer.com\n05/20/26 Fastlane126\nMEIJER SAVINGS\nSPECIALS 10.06\nSAVINGS TOTAL 10.06\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n227.67\nGROCERY\n7490404011 BANANAS 1.41 F\n2.88 lb @ 1 lb / .49\n1732400269 LEMON PEEL 7.89 F\n70882045144 ORANGE JUICE 7.99 F\n85283500665 MOLLYS SUDS 23.99 T\n85283500666 MOLLYS SUDS 23.99 T\n*1800000501 CINNAMON ROLLS\nwas 3.19 now 2.89 F\n*3450015136 LOL BUTTER\n2 @ 3.99\nwas 9.98 now 7.98 F\n*71575610001 RASPBERRIES\n4 @ 4 / 5.00\nwas 12.76 now 5.00 F\nmPerks # -- ********68\nTOTAL\nIN 7% Sales Tax 3.36\nTOTAL TAX 3.36\nTOTAL 84.50\nPAYMENTS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BANANAS + 7490404011 + 2.88 lb @ 1 lb / 0.49",
+      "price": 0.49,
+      "quantity": 1,
+      "totalSpend": 1.41
+    },
+    {
+      "text": "LEMON PEEL + 1732400269",
+      "price": 7.89,
+      "quantity": 1,
+      "totalSpend": 7.89
+    },
+    {
+      "text": "ORANGE JUICE + 70882045144",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "MOLLYS SUDS + 85283500665",
+      "price": 23.99,
+      "quantity": 1,
+      "totalSpend": 23.99
+    },
+    {
+      "text": "MOLLYS SUDS + 85283500666",
+      "price": 23.99,
+      "quantity": 1,
+      "totalSpend": 23.99
+    },
+    {
+      "text": "CINNAMON ROLLS + 1800000501 + was 3.19 now 2.89 F",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "LOL BUTTER + 3450015136 + 2 @ 3.99",
+      "price": 3.99,
+      "quantity": 2,
+      "totalSpend": 7.98
+    },
+    {
+      "text": "RASPBERRIES + 71575610001 + 4 @ 4 / 5.00",
+      "price": 1.25,
+      "quantity": 4,
+      "totalSpend": 5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

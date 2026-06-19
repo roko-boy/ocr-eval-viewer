@@ -1,0 +1,345 @@
+{
+  "id": "cmnepseyr000osrrg1jnopjf5",
+  "url": null,
+  "retailer": "Publix Pharmacy at Five Forks Place",
+  "brand": "Icelandic Provisions ",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "6",
+    "purchaseDate": "2026-03-30",
+    "time": null,
+    "zipCode": "29681",
+    "city": "Simpsonville",
+    "state": "SC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7710.381915999984,
+        "totalUsd": 0.018849,
+        "inputTokens": 6158,
+        "outputTokens": 1068,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "29681",
+          "status": "match"
+        },
+        "city": {
+          "value": "Simpsonville",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2700 Woodruff Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1235",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Voided Item + ICELANDIC PRO SKYR + 1 @ 3 FOR -6.00",
+          "quantity": 1,
+          "unitPrice": -2,
+          "totalSpend": -2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\nFive Forks Place\n2700 Woodruff Road\nSimpsonville, SC 29681\nStore Manager: Greg Williams\n864-234-3860\n\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nVoided Item\nICELANDIC PRO SKYR\n1 @ 3 FOR -6.00\n-2.00 t F\n\nOrder Total 6.00\nSales Tax 0.00\nGrand Total 6.00\nCredit Payment 6.00\nChange 0.00\n\nReceipt ID: 0035 3VR 750 726\nPRESTO!\nTrace #: 751802\nReference #: 1514506490\nAcct #: XXXXXXXXXXXX1235\nPurchase Mastercard\nAmount: $6.00\nAuth #: 09632P\n\nCREDIT CARD PURCHASE\nA0000000041010 MASTERCARD\nEntry Method: Cntctless\nMode: Issuer\n\nYour cashier was Self-Checkout Lane 1\n03/30/2026 17:16 S0035 R175 0726 C0775\n\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11886.99070800003,
+        "totalUsd": 0.030117,
+        "inputTokens": 3728,
+        "outputTokens": 1056,
+        "reasoningTokens": 1669
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "29681",
+          "status": "match"
+        },
+        "city": {
+          "value": "Simpsonville",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2700 Woodruff Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1235",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Voided Item + ICELANDIC PRO SKYR + 1 @ 3 FOR -6.00",
+          "quantity": 1,
+          "unitPrice": -2,
+          "totalSpend": -2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\nFive Forks Place\n2700 Woodruff Road\nSimpsonville, SC 29681\nStore Manager: Greg Williams\n864-234-3860\n\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nVoided Item\nICELANDIC PRO SKYR\n1 @ 3 FOR -6.00\n-2.00 t F\n\nOrder Total 6.00\nSales Tax 0.00\nGrand Total 6.00\nCredit Payment 6.00\nChange 0.00\n\nReceipt ID: 0035 3VR 750 726\n----------------------------------\nPRESTO!\nTrace #: 751802\nReference #: 1514506490\nAcct #: XXXXXXXXXXXX1235\nPurchase Mastercard\nAmount: $6.00\nAuth #: 09632P\n----------------------------------\nCREDIT CARD PURCHASE\nA0000000041010 MASTERCARD\nEntry Method: Cntctless\nMode: Issuer\n----------------------------------\nYour cashier was Self-Checkout Lane 1\n03/30/2026 17:16 S0035 R175 0726 C0775\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7627.178165999998,
+        "totalUsd": 0.014691,
+        "inputTokens": 3728,
+        "outputTokens": 1011,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "29681",
+          "status": "match"
+        },
+        "city": {
+          "value": "Simpsonville",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2700 Woodruff Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1235",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ICELANDIC PRO SKYR",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICELANDIC PRO SKYR",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICELANDIC PRO SKYR",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICELANDIC PRO SKYR",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Voided Item + ICELANDIC PRO SKYR",
+          "quantity": 1,
+          "unitPrice": -2,
+          "totalSpend": -2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\nFive Forks Place\n2700 Woodruff Road\nSimpsonville, SC 29681\nStore Manager: Greg Williams\n864-234-3860\n\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nICELANDIC PRO SKYR\n1 @ 3 FOR 6.00\n2.00 t F\nVoided Item\nICELANDIC PRO SKYR\n1 @ 3 FOR -6.00\n-2.00 t F\n\nOrder Total 6.00\nSales Tax 0.00\nGrand Total 6.00\nCredit Payment 6.00\nChange 0.00\n\nReceipt ID: 0035 3VR 750 726\n\nPRESTO!\nTrace #: 751802\nReference #: 1514506490\nAcct #: XXXXXXXXXXXX1235\nPurchase Mastercard\nAmount: $6.00\nAuth #: 09632P\n\nCREDIT CARD PURCHASE\nA0000000041010 MASTERCARD\nEntry Method: Cntctless\nMode: Issuer\n\nYour cashier was Self-Checkout Lane 1\n03/30/2026 17:16 S0035 R175 0726 C0775\n\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00 2.00 t F",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00 2.00 t F",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00 2.00 t F",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "ICELANDIC PRO SKYR + 1 @ 3 FOR 6.00 2.00 t F + Voided Item + ICELANDIC PRO SKYR + 3 FOR -6.00 -2.00 1",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,324 @@
+{
+  "id": "cmmzk5pl3000s49szhmsoej2d",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Saint James Iced Tea",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "16.65",
+    "purchaseDate": "2026-03-20",
+    "time": null,
+    "zipCode": "98033",
+    "city": "Kirkland",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9204.688917000021,
+        "totalUsd": 0.019785,
+        "inputTokens": 6086,
+        "outputTokens": 1184,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98033",
+          "status": "match"
+        },
+        "city": {
+          "value": "Kirkland",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12519 NE 85th St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3108",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BUBBL'R SPARKLING + 2843560029",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC BREWED + 85003207205 + Member Savings -0.99",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC BREWED + 85003207209 + Member Savings -0.99",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRAWBERRIES 2 LB + 67170400004 + forU Store Coupon -5.02",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 3.97,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 1142 Dir Josh Gregory\nMain: (425) 822-8821 Rx:\n12519 NE 85th St.\nKirkland WA 98033\n00114217501372603201650\nYOUR CASHIER TODAY WAS SELF\nGROCERY Price You Pay\n2843560029 BUBBL'R SPARKLING 7.49 7.49 B\n85003207205 ORGANIC BREWED 2.99 2.00 B\nMember Savings -0.99\n85003207209 ORGANIC BREWED 2.99 2.00 B\nMember Savings -0.99\nPRODUCE\n67170400004 STRAWBERRIES 2 LB 8.99 3.97 S\nforU Store Coupon -5.02\nTAX 1.19\n**** BALANCE 16.65\nCredit Purchase 03/20/26 16:50\nCARD # ************3108\nREF: 815013431080 AUTH: 0000455D\nPAYMENT AMOUNT 16.65\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 16.65\nCHANGE 0.00\n***********************************\nNOW HIRING!\nSee Store Director or visit\nwww.Safeway.com/Careers to apply\n***********************************\nYOUR SAVINGS\nMember Savings 1.98\nfor U Savings 5.02\nTotal 7.00\nTotal Savings Value 31%\nYOUR POINTS\nPoints Earned Today 27\nPoints Available 112\nTOTAL NUMBER OF ITEMS SOLD = 4\n03/20/26 16:50 1142 175 137 8821\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12287.44858299999,
+        "totalUsd": 0.030504,
+        "inputTokens": 3692,
+        "outputTokens": 1173,
+        "reasoningTokens": 1601
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98033",
+          "status": "match"
+        },
+        "city": {
+          "value": "Kirkland",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12519 NE 85th St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3108",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BUBBL'R SPARKLING + 2843560029",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC BREWED + 85003207205 + Member Savings -0.99",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC BREWED + 85003207205 + Member Savings -0.99",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRAWBERRIES 2 LB + 67170400004 + forU Store Coupon -5.02",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 3.97,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY (S)\nStore 1142 Dir Josh Gregory\nMain: (425) 822-8821 Rx:\n12519 NE 85th St.\nKirkland WA 98033\n00114217501372603201650\nYOUR CASHIER TODAY WAS SELF\nGROCERY Price You Pay\n2843560029 BUBBL'R SPARKLING 7.49 7.49 B\n85003207205 ORGANIC BREWED 2.99 2.00 B\nMember Savings -0.99\n85003207205 ORGANIC BREWED 2.99 2.00 B\nMember Savings -0.99\nPRODUCE\n67170400004 STRAWBERRIES 2 LB 8.99 3.97 S\nforU Store Coupon -5.02\nTAX 1.19\n**** BALANCE 16.65\nCredit Purchase 03/20/26 16:50\nCARD # ************3108\nREF: 815013431080 AUTH: 000455D\nPAYMENT AMOUNT 16.65\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 16.65\nCHANGE 0.00\n***********************************\nNOW HIRING!\nSee Store Director or visit\nwww.Safeway.com/Careers to apply\n***********************************\nYOUR SAVINGS\nMember Savings 1.98\nfor U Savings 5.02\nTotal 7.00\nTotal Savings Value 31%\nYOUR POINTS\nPoints Earned Today 27\nPoints Available 112\nTOTAL NUMBER OF ITEMS SOLD = 4\n03/20/26 16:50 1142 175 137 8821\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5647.809458999982,
+        "totalUsd": 0.016077,
+        "inputTokens": 3692,
+        "outputTokens": 1171,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:50",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98033",
+          "status": "match"
+        },
+        "city": {
+          "value": "Kirkland",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12519 NE 85th St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3108",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BUBBL'R SPARKLING + 2843560029",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC BREWED + 85003207205 + Member Savings -0.99",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC BREWED + 85003207209 + Member Savings -0.99",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRAWBERRIES 2 LB + 67170400004 + forU Store Coupon -5.02",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 3.97,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 1142 Dir Josh Gregory\nMain: (425) 822-8821 Rx:\n12519 NE 85th St.\nKirkland WA 98033\n00114217501372603201650\nYOUR CASHIER TODAY WAS SELF\nGROCERY Price You Pay\n2843560029 BUBBL'R SPARKLING 7.49 7.49 B\n85003207205 ORGANIC BREWED 2.99 2.00 B\nMember Savings -0.99\n85003207209 ORGANIC BREWED 2.99 2.00 B\nMember Savings -0.99\nPRODUCE\n67170400004 STRAWBERRIES 2 LB 8.99 3.97 S\nforU Store Coupon -5.02\nTAX 1.19\n**** BALANCE 16.65\nCredit Purchase 03/20/26 16:50\nCARD # ************3108\nREF: 815013431080 AUTH: 0000455D\nPAYMENT AMOUNT 16.65\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 16.65\nCHANGE 0.00\n************************************\nNOW HIRING!\nSee Store Director or visit\nwww.Safeway.com/Careers to apply\n************************************\nYOUR SAVINGS\nMember Savings 1.98\nfor U Savings 5.02\nTotal 7.00\nTotal Savings Value 31%\nYOUR POINTS\nPoints Earned Today 27\nPoints Available 112\nTOTAL NUMBER OF ITEMS SOLD = 4\n03/20/26 16:50 1142 175 137 8821\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BUBBL R SPARKLING + 2843560029",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    },
+    {
+      "text": "ORGANIC BREWED + 85003207205 + Member Savings -0.99",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "ORGANIC BREWED + 85003207209 + Member Savings -0.89 + PRODUCE",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "STRAWBERRIES 2 LB + 67170400004 + forU Store Coupon -5.02",
+      "price": 3.97,
+      "quantity": 1,
+      "totalSpend": 3.97
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

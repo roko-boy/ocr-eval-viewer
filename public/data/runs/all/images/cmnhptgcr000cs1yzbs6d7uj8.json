@@ -1,0 +1,243 @@
+{
+  "id": "cmnhptgcr000cs1yzbs6d7uj8",
+  "url": null,
+  "retailer": "Jewel-Osco",
+  "brand": "Wow Bao",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Jewel Osco",
+    "totalCost": "12.13",
+    "purchaseDate": "2026-04-02",
+    "time": null,
+    "zipCode": "60614",
+    "city": "Chicago",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6259.431249999994,
+        "totalUsd": 0.016797,
+        "inputTokens": 6086,
+        "outputTokens": 852,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.13",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60614",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2550 N. Clybourn Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9663",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "REFRIG/FROZEN + 85071200783 2@ WOW BAO DUMPLING S",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 11.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Jewel\nOsco\nStore 202 Dir Elizabeth Boyas\nMain: (773)348-6426 Rx: (773)348-7421\n2550 N. Clybourn Ave\nChicago IL 60614\n00020200900352604020734\nYOUR CASHIER TODAY WAS PAULINE\nREFRIG/FROZEN\nPrice You Pay\n85071200783 2@ WOW BAO DUMPLING S\n11.98 11.98 B\nTAX\n0.15\n**** BALANCE\n12.13\nCredit Purchase 04/02/26 07:34\nCARD # ************9663\nREF: 613404496630 AUTH: 00821361\nPAYMENT AMOUNT\n12.13\nAL AMEX CREDIT\nAID A000000025010901\nTVR 0000008000\nAMEX\n12.13\nCHANGE\n0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nYOUR POINTS\nPoints Earned Today 11\nPoints Available 97\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/02/26 07:34 202 9 35 3923\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO FOR U questions call\n877-276-9637 or Jewelosco.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14104.01054199995,
+        "totalUsd": 0.032736,
+        "inputTokens": 3692,
+        "outputTokens": 825,
+        "reasoningTokens": 2197
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.13",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60614",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2550 N. Clybourn Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9663",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "85071200783 2@ WOW BAO DUMPLING S",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 11.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Jewel\nOsco\nStore 202 Dir Elizabeth Boyas\nMain: (773)348-6426 Rx: (773)348-7421\n2550 N. Clybourn Ave\nChicago IL 60614\n00020200900352604020734\nYOUR CASHIER TODAY WAS PAULINE\nREFRIG/FROZEN\n85071200783 2@ WOW BAO DUMPLING S Price 11.98 You Pay 11.98 B\nTAX 0.15\n**** BALANCE 12.13\nCredit Purchase 04/02/26 07:34\nCARD # ************9663\nREF: 613404496630 AUTH: 00821361\nPAYMENT AMOUNT 12.13\nAL AMEX CREDIT\nAID A000000025010901\nTVR 0000008000\nAMEX 12.13\nCHANGE 0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nYOUR POINTS\nPoints Earned Today 11\nPoints Available 97\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/02/26 07:34 202 9 35 3923\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO FOR U questions call\n877-276-9637 or Jewelosco.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4674.605500000005,
+        "totalUsd": 0.013206,
+        "inputTokens": 3692,
+        "outputTokens": 852,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.13",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:34 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60614",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2550 N. Clybourn Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9663",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "REFRIG/FROZEN + 85071200783 2@ WOW BAO DUMPLING S",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 11.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Jewel\nOsco\nStore 202 Dir Elizabeth Boyas\nMain: (773)348-6426 Rx: (773)348-7421\n2550 N. Clybourn Ave\nChicago IL 60614\n0002020200900352604020734\nYOUR CASHIER TODAY WAS PAULINE\nREFRIG/FROZEN\nPrice You Pay\n85071200783 2@ WOW BAO DUMPLING S\n11.98 11.98 B\nTAX\n0.15\n**** BALANCE\n12.13\nCredit Purchase 04/02/26 07:34\nCARD # ************9663\nREF: 613404496630 AUTH: 00821361\nPAYMENT AMOUNT\n12.13\nAL AMEX CREDIT\nAID A000000025010901\nTVR 0000008000\nAMEX\n12.13\nCHANGE\n0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nYOUR POINTS\nPoints Earned Today 11\nPoints Available 97\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/02/26 07:34 202 9 35 3923\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO FOR U questions call\n877-276-9637 or Jewelosco.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "WOW BAO DUMPLING S + 85071200783",
+      "price": 5.99,
+      "quantity": 2,
+      "totalSpend": 11.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

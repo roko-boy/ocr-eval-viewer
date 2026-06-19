@@ -1,0 +1,324 @@
+{
+  "id": "cmnd698q800014wrisdn60szq",
+  "url": null,
+  "retailer": "H-E-B",
+  "brand": "MegaFood",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "38.97",
+    "purchaseDate": "2026-03-30",
+    "time": null,
+    "zipCode": "78613",
+    "city": "Cedar Park",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13728.25225000002,
+        "totalUsd": 0.021171,
+        "inputTokens": 6086,
+        "outputTokens": 1338,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:31 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78613",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cedar Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2800 E. Whitestone Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6148",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PREMIUM BANANAS + 2.76 Lbs @ 1/ 0.50 FW",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 1.38,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLACKBERRIES 6OZ + FW",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MS SH FAJITA CHICKEN BOWL F",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEGAFOOD MEN OVER 55 1DAY",
+          "quantity": 1,
+          "unitPrice": 29.11,
+          "totalSpend": 29.11,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1040 6181 0330 2607 3100 580\n1 PREMIUM BANANAS\n2.76 Lbs @ 1/ 0.50 FW 1.38\n2 BLACKBERRIES 6OZ FW 1.99\n3 MS SH FAJITA CHICKEN BOWL F 6.49\n4 MEGAFOOD MEN OVER 55 1DAY 29.11\n************* Total Sale*** 38.97\n*** MASTRCRD EPS 38.97\nITEMS PURCHASED: 4\nSALE & PRICE CUT SAVINGS : $9.72\nYOU SAVED\n$9.72\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n580033026406 181726\n****************************************\nMASTERCARD\n************6148\nContactless Chip USD$ 38.97\nAppr No : 03787Z Ref No : 489353\nMode: Issuer\nMASTERCD\nAID : A0000000041010\nTVR : 0000008001\nIAD : 0110A040012200000000000000000000FF\nTSI : ARC : 00\nRECEIPT EXPIRES ON 06-28-26\n1040 6181 0330 2607 3100 580\nHEB Food-Drugs #26/580\n2800 E. Whitestone Blvd.\nCedar Park, TX 78613\nPhone: (512) 528-0027\nPharmacy: (512) 528-0150\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:SELF CHECKOUT 686\n406181 03-30-26 7:31A 686/86/00580",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16475.97837500001,
+        "totalUsd": 0.039945,
+        "inputTokens": 3692,
+        "outputTokens": 1349,
+        "reasoningTokens": 2474
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:31 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78613",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cedar Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2800 E. Whitestone Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6148",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PREMIUM BANANAS + 2.76 Lbs @ 1/ 0.50 FW",
+          "quantity": 1,
+          "unitPrice": 1.38,
+          "totalSpend": 1.38,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLACKBERRIES 6OZ + FW",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MS SH FAJITA CHICKEN BOWL F",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEGAFOOD MEN OVER 55 1DAY",
+          "quantity": 1,
+          "unitPrice": 38.83,
+          "totalSpend": 29.11,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1040 6181 0330 2607 3100 580\n\n1 PREMIUM BANANAS\n  2.76 Lbs @ 1/ 0.50 FW  1.38\n2 BLACKBERRIES 6OZ   FW  1.99\n3 MS SH FAJITA CHICKEN BOWL F  6.49\n4 MEGAFOOD MEN OVER 55 1DAY   29.11\n\n************** Total Sale***  38.97\n*** MASTRCRD EPS              38.97\nITEMS PURCHASED: 4\nSALE & PRICE CUT SAVINGS :    $9.72\n\nYOU SAVED\n$9.72\n\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\n\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\n\nCERTIFICATE CODE\n  580033026406 181726\n************************************\n\nMASTERCARD\n************6148\nContactless Chip   USD$ 38.97\nAppr No : 03787Z   Ref No : 489353\nMode: Issuer\nMASTERCD\nAID : A0000000041010\nTVR : 0000008001\nIAD : 0110A04001220000000000000000000000FF\nTSI :       ARC : 00\n\nRECEIPT EXPIRES ON 06-28-26\n\n1040 6181 0330 2607 3100 580\n\nHEB Food-Drugs #26/580\n2800 E. Whitestone Blvd.\nCedar Park, TX 78613\nPhone:        (512) 528-0027\nPharmacy:     (512) 528-0150\nStore Hours:  6 A.M. to 11 P.M.\nYour Cashier:SELF CHECKOUT 686\n  406181 03-30-26 7:31A 686/86/0580",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6821.095000000001,
+        "totalUsd": 0.017517,
+        "inputTokens": 3692,
+        "outputTokens": 1331,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:31 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78613",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cedar Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2800 E. Whitestone Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6148",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PREMIUM BANANAS + 2.76 Lbs @ 1/ 0.50 FW",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 1.38,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLACKBERRIES 6OZ + FW",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MS SH FAJITA CHICKEN BOWL F",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEGAFOOD MEN OVER 55 1DAY",
+          "quantity": 1,
+          "unitPrice": 29.11,
+          "totalSpend": 29.11,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1040 6181 0330 2607 3100 580\n1 PREMIUM BANANAS\n2.76 Lbs @ 1/ 0.50 FW 1.38\n2 BLACKBERRIES 6OZ FW 1.99\n3 MS SH FAJITA CHICKEN BOWL F 6.49\n4 MEGAFOOD MEN OVER 55 1DAY 29.11\n************** Total Sale*** 38.97\n*** MASTRCRD EPS 38.97\nITEMS PURCHASED: 4\nSALE & PRICE CUT SAVINGS : $9.72\nYOU SAVED\n$9.72\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n580033026406 181726\n************************************\nMASTERCARD\n************6148\nContactless Chip USD$ 38.97\nAppr No : 03787Z Ref No : 489353\nMode: Issuer\nMASTERCD\nAID : A0000000041010\nTVR : 0000008001\nIAD : 0110A040012200000000000000000000FF\nTSI : ARC : 00\nRECEIPT EXPIRES ON 06-28-26\n1040 6181 0330 2607 3100 580\nHEB Food-Drugs #26/580\n2800 E. Whitestone Blvd.\nCedar Park, TX 78613\nPhone: (512) 528-0027\nPharmacy: (512) 528-0150\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:SELF CHECKOUT 686\n406181 03-30-26 7:31A 686/86/00580",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PREMIUM BANANAS + 2.76 Lbs @ 1/ 0.50 FW 1.38",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 1.38
+    },
+    {
+      "text": "BLACKBERRIES 6OZ",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "MS SH FAJITA CHICKEN BOWL",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "MEGAFOOD MEN OVER 55 1DAY",
+      "price": 29.11,
+      "quantity": 1,
+      "totalSpend": 29.11
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

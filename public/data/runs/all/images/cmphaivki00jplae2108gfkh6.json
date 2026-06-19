@@ -1,0 +1,270 @@
+{
+  "id": "cmphaivki00jplae2108gfkh6",
+  "url": null,
+  "retailer": "Maverik",
+  "brand": "1st Phorm",
+  "amount": 3.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "5.97",
+    "purchaseDate": "2026-05-22",
+    "time": null,
+    "zipCode": "72401",
+    "city": "Jonesboro",
+    "state": "AR",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12993.44895899997,
+        "totalUsd": 0.014655,
+        "inputTokens": 6086,
+        "outputTokens": 614,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:47 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "72401",
+          "status": "match"
+        },
+        "city": {
+          "value": "Jonesboro",
+          "status": "match"
+        },
+        "state": {
+          "value": "AR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "680 Southwest Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3491",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1ST PHORM SCRMN FRDOM 16",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PHORM GRAPE SMSH 16z + PROMO PHORM 2/",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.21,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nJonesboro | #5126\n680 Southwest Drive\nJonesboro, AR 72401\n05-22-2026 01:47 PM Invoice # 512600877936\nPURCHASE\nDESC QTY AMNT\n1ST PHORM SCRMN FRDOM 16 1 $3.29 A\nPHORM GRAPE SMSH 16z 1 $3.29 A\nPROMO PHORM 2/ $1.08-\nSUB-TOTAL $5.50\nSALES TAX 8.5% (A) $0.47\nTOTAL PURCHASES $5.97\nDEBIT XXXXXXXXXXXX3491\nChip Read\nAmount Tendered $5.97\nPayment Network:40\nAUTH # 663582\nPIN Verified\nSequence # 438144\nLog # 438144\nItems Sold = 2\nThanks for fueling your\nadventure at Maverik",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7820.74770800001,
+        "totalUsd": 0.018228,
+        "inputTokens": 3692,
+        "outputTokens": 608,
+        "reasoningTokens": 802
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:47 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "72401",
+          "status": "match"
+        },
+        "city": {
+          "value": "Jonesboro",
+          "status": "match"
+        },
+        "state": {
+          "value": "AR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "680 Southwest Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3491",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1ST PHORM SCRMN FRDOM 16",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PHORM GRAPE SMSH 16z + PROMO PHORM 2/",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.21,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nJonesboro | #5126\n680 Southwest Drive\nJonesboro, AR 72401\n05-22-2026 01:47 PM Invoice # 512600877936\nPURCHASE\nDESC QTY AMNT\n1ST PHORM SCRMN FRDOM 16 1 $3.29 A\nPHORM GRAPE SMSH 16z 1 $3.29 A\nPROMO PHORM 2/ $1.08-\nSUB-TOTAL $5.50\nSALES TAX 8.5% (A) $0.47\nTOTAL PURCHASES $5.97\nDEBIT XXXXXXXXXXXX3491\nChip Read\nAmount Tendered $5.97\nPayment Network:40\nAUTH # 663582\nPIN Verified\nSequence # 438144\nLog # 438144\nItems Sold = 2\nThanks for fueling your\nadventure at Maverik",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4333.588292,
+        "totalUsd": 0.011163,
+        "inputTokens": 3692,
+        "outputTokens": 625,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:47 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "72401",
+          "status": "match"
+        },
+        "city": {
+          "value": "Jonesboro",
+          "status": "match"
+        },
+        "state": {
+          "value": "AR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "680 Southwest Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3491",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1ST PHORM SCRMN FRDOM 16",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PHORM GRAPE SMSH 16z + PROMO PHORM 2/",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.21,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nJonesboro | #5126\n680 Southwest Drive\nJonesboro, AR 72401\n05-22-2026 01:47 PM Invoice # 512600877936\nPURCHASE\nDESC\nQTY\nAMNT\n1ST PHORM SCRMN FRDOM 16\n1\n$3.29 A\nPHORM GRAPE SMSH 16z\n1\n$3.29 A\nPROMO PHORM 2/\n$1.08-\nSUB-TOTAL\n$5.50\nSALES TAX 8.5% (A)\n$0.47\nTOTAL PURCHASES\n$5.97\nDEBIT XXXXXXXXXXXX3491\nChip Read\nAmount Tendered\n$5.97\nPayment Network:40\nAUTH # 663582\nPIN Verified\nSequence # 438144\nLog # 438144\nItems Sold = 2\nThanks for fueling your\nadventure at Maverik",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "1ST PHORM SCRMN FRDOM 16",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "PHORM GRAPE SMSH 16z",
+      "price": 2.21,
+      "quantity": 1,
+      "totalSpend": 2.21
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

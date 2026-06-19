@@ -1,0 +1,554 @@
+{
+  "id": "cmqcl13xp00tjfyw4kdpk00b0",
+  "url": null,
+  "retailer": "ShopRite of Rochelle Park",
+  "brand": "PRETZELIZED",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "57.3",
+    "purchaseDate": "2026-06-13",
+    "time": null,
+    "zipCode": "07662",
+    "city": "Rochelle Park",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9691.670626000036,
+        "totalUsd": 0.02469,
+        "inputTokens": 6086,
+        "outputTokens": 1729,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "57.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:35pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "OAKLAND",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9197",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COKE DIET CONTOUR",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HDN VLY RANCH ORIG",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA BKD PFFCRN BTR/",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COLG OPTCWHT MW FR",
+          "quantity": 1,
+          "unitPrice": 1.98,
+          "totalSpend": 1.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "AVO HASS",
+          "quantity": 2,
+          "unitPrice": 1.29,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BD ALM BRZ UNSWT O",
+          "quantity": 2,
+          "unitPrice": 5.69,
+          "totalSpend": 11.38,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.54,
+          "totalSpend": 0.55,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.54,
+          "totalSpend": 0.55,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.54,
+          "totalSpend": 0.55,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SARG BB CRNCH MX CPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.54,
+          "totalSpend": 0.55,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PRETZ PC 14Z FS SE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COLG OPTCWHT MW FRPC + On Sale You Saved 0.80 + SC Colgate Optic Whit",
+          "quantity": 1,
+          "unitPrice": 6.19,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "COLG OPTCWHT MW FRPC + On Sale You Saved 0.80 + SC Colgate Optic Whit",
+          "quantity": 1,
+          "unitPrice": 6.19,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof OAKLAND\nStore Manager: JACK DELUCA\n**Store Phone Number (201) 337-3900 *\n06/13/26 12:32pm 256 75 51 Op1775\n****************************************\n* Regular Items *\n****************************************\n2 @ 2.99\nCOKE DIET CONTOUR 5.98 B\nHDN VLY RANCH ORIG 4.99 F\nLA BKD PFFCRN BTR/ 3.49 F\nSC COLG OPTCWHT MW FR 1.98-T\n2 @ 1.29\nAVO HASS 2.58 F\n2 @ 5.69\nBD ALM BRZ UNSWT O 11.38 F\nSARG BB MT JCK CHDPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nSARG BB MT JCK CHDPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nSARG BB MT JCK CHDPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nSARG BB CRNCH MX CPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nPRETZ PC 14Z FS SE 8.99 F\nCOLG OPTCWHT MW FRPC 6.19 T\nOn Sale You Saved 0.80\nSC Colgate Optic Whit 1.20-T\nCOLG OPTCWHT MW FRPC 6.19 T\nOn Sale You Saved 0.80\nSC Colgate Optic Whit 1.20-T\nValued Customer 48101453544\n****************************************\n* Coupons *\n****************************************\nMC BD ALM BRZ UNSWT O 1.00-F\nTAX 0.93\n**** BALANCE 57.30\n****************************************\nShopRite Credit Receipt\nStore # 256 of OAKLAND , NJ\nTerminal: 75 Operator: 1775 Trans: 51\nDate: 06/13/26 Time: 12:35pm\nPurchase: $ 57.30\nAcct#: ************9197 CONTACTLESS\nResponse : APPROVED",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 51868.78233300004,
+        "totalUsd": 0.112926,
+        "inputTokens": 3692,
+        "outputTokens": 1684,
+        "reasoningTokens": 10248
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "57.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:35pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Oakland",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9197",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COKE DIET CONTOUR",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HDN VLY RANCH ORIG",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA BKD PFFCRN BTR/",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVO HASS",
+          "quantity": 2,
+          "unitPrice": 1.29,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BD ALM BRZ UNSWT O + MC BD ALM BRZ UNSWT O",
+          "quantity": 2,
+          "unitPrice": 5.69,
+          "totalSpend": 10.38,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SARG BB CRNCH MX CPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRETZ PC 14Z FS SE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COLG OPTCWHT MW FRPC + On Sale You Saved 0.80 + SC Colgate Optic Whit + SC COLG OPTCWHT MW FR",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.01,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COLG OPTCWHT MW FRPC + On Sale You Saved 0.80 + SC Colgate Optic Whit",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\n\nWelcome to ShopRite\nof OAKLAND\nStore Manager: JACK DELUCA\n**Store Phone Number (201) 337-3900 *\n06/13/26 12:32pm 256 75 51 Op1775\n****************************************\n* Regular Items *\n****************************************\n2 @ 2.99\nCOKE DIET CONTOUR 5.98 B\nHDN VLY RANCH ORIG 4.99 F\nLA BKD PFFCRN BTR/ 3.49 F\nSC COLG OPTCWHT MW FR 1.98-T\n2 @ 1.29\nAVO HASS 2.58 F\n2 @ 5.69\nBD ALM BRZ UNSWT O 11.38 F\nSARG BB MT JCK CHDPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nSARG BB MT JCK CHDPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nSARG BB MT JCK CHDPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nSARG BB CRNCH MX CPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nPRETZ PC 14Z FS SE 8.99 F\nCOLG OPTCWHT MW FRPC 6.19 T\nOn Sale You Saved 0.80\nSC Colgate Optic Whit 1.20-T\nCOLG OPTCWHT MW FRPC 6.19 T\nOn Sale You Saved 0.80\nSC Colgate Optic Whit 1.20-T\nValued Customer 48101453544\n****************************************\n* Coupons *\n****************************************\nMC BD ALM BRZ UNSWT O 1.00-F\nTAX 0.93\n**** BALANCE 57.30\n****************************************\nShopRite Credit Receipt\nStore # 256 of OAKLAND , NJ\nTerminal: 75 Operator: 1775 Trans: 51\nDate: 06/13/26 Time: 12:35pm\nPurchase: $ 57.30\nAcct#: ************9197 CONTACTLESS\nResponse : APPROVED",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8403.255749999997,
+        "totalUsd": 0.020937,
+        "inputTokens": 3692,
+        "outputTokens": 1711,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "57.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:35pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "OAKLAND",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9197",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COKE DIET CONTOUR",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HDN VLY RANCH ORIG",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA BKD PFFCRN BTR/",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COLG OPTCWHT MW FR",
+          "quantity": 1,
+          "unitPrice": 1.98,
+          "totalSpend": 1.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "AVO HASS",
+          "quantity": 2,
+          "unitPrice": 1.29,
+          "totalSpend": 2.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BD ALM BRZ UNSWT O",
+          "quantity": 2,
+          "unitPrice": 5.69,
+          "totalSpend": 11.38,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.54,
+          "totalSpend": 0.55,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.54,
+          "totalSpend": 0.55,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.54,
+          "totalSpend": 0.55,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SARG BB CRNCH MX CPC + On Sale You Saved 0.45 + Sargento Balanced",
+          "quantity": 1,
+          "unitPrice": 3.54,
+          "totalSpend": 0.55,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PRETZ PC 14Z FS SE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COLG OPTCWHT MW FRPC + On Sale You Saved 0.80 + Colgate Optic Whit",
+          "quantity": 1,
+          "unitPrice": 6.19,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "COLG OPTCWHT MW FRPC + On Sale You Saved 0.80 + Colgate Optic Whit",
+          "quantity": 1,
+          "unitPrice": 6.19,
+          "totalSpend": 1.2,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof OAKLAND\nStore Manager: JACK DELUCA\n**Store Phone Number (201) 337-3900 *\n06/13/26 12:32pm 256 75 51 Op1775\n***********************************\n* Regular Items *\n***********************************\n2 @ 2.99\nCOKE DIET CONTOUR 5.98 B\nHDN VLY RANCH ORIG 4.99 F\nLA BKD PFFCRN BTR/ 3.49 F\nSC COLG OPTCWHT MW FR 1.98-T\n2 @ 1.29\nAVO HASS 2.58 F\n2 @ 5.69\nBD ALM BRZ UNSWT O 11.38 F\nSARG BB MT JCK CHDPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nSARG BB MT JCK CHDPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nSARG BB MT JCK CHDPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nSARG BB CRNCH MX CPC 3.54 F\nOn Sale You Saved 0.45\nSC Sargento Balanced 0.55-F\nPRETZ PC 14Z FS SE 8.99 F\nCOLG OPTCWHT MW FRPC 6.19 T\nOn Sale You Saved 0.80\nSC Colgate Optic Whit 1.20-T\nCOLG OPTCWHT MW FRPC 6.19 T\nOn Sale You Saved 0.80\nSC Colgate Optic Whit 1.20-T\nValued Customer 48101453544\n***********************************\n* Coupons *\n***********************************\nMC BD ALM BRZ UNSWT O 1.00-F\nTAX 0.93\n**** BALANCE 57.30\n***********************************\nShopRite Credit Receipt\nStore # 256 of OAKLAND , NJ\nTerminal: 75 Operator: 1775 Trans: 51\nDate: 06/13/26 Time: 12:35pm\nPurchase: $ 57.30\nAcct#: ************9197 CONTACTLESS\nResponse : APPROVED",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "COKE DIET CONTOUR",
+      "price": 2.99,
+      "quantity": 2,
+      "totalSpend": 5.98
+    },
+    {
+      "text": "HDN VLY RANCH ORIG",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "LA BKD PFFCRN BTR/",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "AVO HASS",
+      "price": 1.29,
+      "quantity": 2,
+      "totalSpend": 2.58
+    },
+    {
+      "text": "BD ALM BRZ UNSWT O + MC BD ALM BRZ UNSWT O",
+      "price": 5.19,
+      "quantity": 2,
+      "totalSpend": 10.38
+    },
+    {
+      "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SARG BB MT JCK CHDPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SARG BB CRNCH MX CPC + On Sale You Saved 0.45 + SC Sargento Balanced",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "PRETZ PC 14Z FS SE",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "COLG OPTCWHT MW FRPC + On Sale You Saved 0.80 + SC Colgate Optic Whit + SC COLG OPTCWHT MW FR",
+      "price": 3.01,
+      "quantity": 1,
+      "totalSpend": 3.01
+    },
+    {
+      "text": "COLG OPTCWHT MW FRPC + On Sale You Saved 0.80 + SC Colgate Optic Whit",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

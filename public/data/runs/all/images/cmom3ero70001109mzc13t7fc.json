@@ -1,0 +1,297 @@
+{
+  "id": "cmom3ero70001109mzc13t7fc",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "Brutus Bone Broth",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "60.59",
+    "purchaseDate": "2026-04-30",
+    "time": null,
+    "zipCode": "78664",
+    "city": "Round Rock",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9503.187166000018,
+        "totalUsd": 0.020343,
+        "inputTokens": 6086,
+        "outputTokens": 1246,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "60.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:57:36 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78664",
+          "status": "match"
+        },
+        "city": {
+          "value": "Round Rock",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2601 S IH35 Pad E",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6148",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* BOXIE PRO CLAY LITTER BAG + 855978006246 + Return Amount $35.99",
+          "quantity": 1,
+          "unitPrice": 35.99,
+          "totalSpend": 35.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BRUTUS BB BEEF BROTH 32 OZ + 869045000419 + Return Amount $9.99",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* INST D RAW FRSHD BF WBBLD + 769949620631 + Return Amount $9.99",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #195\n2601 S IH35 Pad E\nRound Rock, TX 78664\n512-218-1816\nS-195 R-102 BUS.DATE-04/30/2026\nT-60721 A-829164\nSALE\nAS* BOXIE PRO CLAY LITTER BAG $35.99\n855978006246 StCl\nReturn Amount $35.99\nAS* BRUTUS BB BEEF BROTH 32 OZ $9.99\n869045000419 StCl\nReturn Amount $9.99\nAS* INST D RAW FRSHD BF WBBLD $9.99\n769949620631 StCl\nReturn Amount $9.99\n3 Sale item(s)\nSUBTOTAL $55.97\nSALE\nTAX City 2.00% ON $55.97 $1.12\nTAX State 6.25% ON $55.97 $3.50\nTAX TOTAL: $4.62\nTOTAL $60.59\nMASTERCARD\nACCOUNT#: ************6148 $60.59\nAUTH#: 01925Z\nCHANGE DUE $0.00\n-----------TRANSACTION RECORD-----------\nINVOICE # 16072110201\nMERCHANT # *********9883\nTERMINAL # ***4164\nTYPE: Sale\nACCT: MASTERCARD TAPPED\nMASTERCARD\nAID: A0000000041010\nNETWORKNAME: MASTERCARD\nTotal USD$ 60.59\nApproved\nMODE : ISSUER\nNo Signature Required\nI agree to pay the above total amount\naccording to the card issuer agreement\n(merchant agreement if credit voucher)\nCUSTOMER COPY\nIMPORTANT:\nretain this copy for your records\nNON-MEMBER\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 06/29/2026\nSave with Treats Rewards!\nMembers earn 10 points for every $1 spent &\nsave more with member pricing & deals.\nDownload the PetSmart app & join our\nFREE rewards program to start saving today!\nPetSmart Charities is a 501(c)(3) Non-Profit\nOrganization.\nRetain receipt for your records.\n0000019500000102000607210430260108\n04/30/2026 5:57:36 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8427.309624999994,
+        "totalUsd": 0.022845,
+        "inputTokens": 3692,
+        "outputTokens": 1212,
+        "reasoningTokens": 711
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "60.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:57:36 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78664",
+          "status": "match"
+        },
+        "city": {
+          "value": "Round Rock",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2601 S IH35 Pad E",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6148",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* BOXIE PRO CLAY LITTER BAG + 855978006246",
+          "quantity": 1,
+          "unitPrice": 35.99,
+          "totalSpend": 35.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BRUTUS BB BEEF BROTH 32 OZ + 869045000419",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* INST D RAW FRSHD BF WBBLR + 769949620631",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #195\n2601 S IH35 Pad E\nRound Rock, TX 78664\n512-218-1816\nS-195 R-102 BUS.DATE-04/30/2026\nT-60721 A-829164\nSALE\nAS* BOXIE PRO CLAY LITTER BAG $35.99\n855978006246 StC1\nReturn Amount $35.99\nAS* BRUTUS BB BEEF BROTH 32 OZ $9.99\n869045000419 StC1\nReturn Amount $9.99\nAS* INST D RAW FRSHD BF WBBLR $9.99\n769949620631 StC1\nReturn Amount $9.99\n3 Sale item(s)\nSUBTOTAL $55.97\nSALE\nTAX City 2.00% ON $55.97 $1.12\nTAX State 6.25% ON $55.97 $3.50\nTAX TOTAL: $4.62\nTOTAL $60.59\nMASTERCARD\nACCOUNT#: ************6148 $60.59\nAUTH#: 01925Z\nCHANGE DUE $0.00\n------------TRANSACTION RECORD------------\nINVOICE # 16072110201\nMERCHANT # *********9883\nTERMINAL # ***4164\nTYPE: Sale\nACCT: MASTERCARD TAPPED\nMASTERCARD\nAID: A0000000041010\nNETWORKNAME: MASTERCARD\nTotal USD$ 60.59\nApproved\nMODE: ISSUER\nNo Signature Required\nI agree to pay the above total amount\naccording to the card issuer agreement\n(merchant agreement if credit voucher)\nCUSTOMER COPY\nIMPORTANT:\nretain this copy for your records\nNON-MEMBER\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 06/29/2026\nSave with Treats Rewards!\nMembers earn 10 points for every $1 spent &\nsave more with member pricing & deals.\nDownload the PetSmart app & join our\nFREE rewards program to start saving today!\nPetSmart Charities is a 501(c)(3) Non-Profit\nOrganization.\nRetain receipt for your records.\n0000019500000102000607210430260108\n04/30/2026 5:57:36 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6486.964084000007,
+        "totalUsd": 0.0165,
+        "inputTokens": 3692,
+        "outputTokens": 1218,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "60.59",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:57:36 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78664",
+          "status": "match"
+        },
+        "city": {
+          "value": "Round Rock",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2601 S IH35 Pad E",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6148",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* BOXIE PRO CLAY LITTER BAG + 855978006246",
+          "quantity": 1,
+          "unitPrice": 35.99,
+          "totalSpend": 35.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* BRUTUS BB BEEF BROTH 32 OZ + 869045000419",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AS* INST D RAW FRSHD BF WBBLB + 769949620631",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #195\n2601 S IH35 Pad E\nRound Rock, TX 78664\n512-218-1816\nS-195 R-102 BUS.DATE-04/30/2026\nT-60721 A-829164\nSALE\nAS* BOXIE PRO CLAY LITTER BAG $35.99\n855978006246 StC1\nReturn Amount $35.99\nAS* BRUTUS BB BEEF BROTH 32 OZ $9.99\n869045000419 StC1\nReturn Amount $9.99\nAS* INST D RAW FRSHD BF WBBLB $9.99\n769949620631 StC1\nReturn Amount $9.99\n3 Sale item(s)\nSUBTOTAL $55.97\nSALE\nTAX City 2.00% ON $55.97 $1.12\nTAX State 6.25% ON $55.97 $3.50\nTAX TOTAL: $4.62\nTOTAL $60.59\nMASTERCARD\nACCOUNT#: ************6148 $60.59\nAUTH#: 01925Z\nCHANGE DUE $0.00\n-----------TRANSACTION RECORD-----------\nINVOICE # 16072110201\nMERCHANT # *********9883\nTERMINAL # ***4164\nTYPE: Sale\nACCT: MASTERCARD TAPPED\nMASTERCARD\nAID: A0000000041010\nNETWORKNAME: MASTERCARD\nTotal USD$ 60.59\nApproved\nMODE : ISSUER\nNo Signature Required\nI agree to pay the above total amount\naccording to the card issuer agreement\n(merchant agreement if credit voucher)\nCUSTOMER COPY\nIMPORTANT:\nretain this copy for your records\nNON-MEMBER\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 06/29/2026\nSave with Treats Rewards!\nMembers earn 10 points for every $1 spent &\nsave more with member pricing & deals.\nDownload the PetSmart app & join our\nFREE rewards program to start saving today!\nPetSmart Charities is a 501(c)(3) Non-Profit\nOrganization.\nRetain receipt for your records.\n0000019500000102000607210430260108\n04/30/2026 5:57:36 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "AS* BOXIE PRO CLAY LITTER BAG + 855978006246 + Return Amount $35.99",
+      "price": 35.99,
+      "quantity": 1,
+      "totalSpend": 35.99
+    },
+    {
+      "text": "AS* BRUTUS BB BEEF BROTH 32 OZ + 869045000419 + Return Amount $9.99",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "AS* INST D RAW FRSHD BF WBBLD + 769949620631 + Return Amount $9 99",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,594 @@
+{
+  "id": "cmpogezna001vloll8q53h2py",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Olipop",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "196.43",
+    "purchaseDate": "2026-05-23",
+    "time": null,
+    "zipCode": "10710",
+    "city": "Yonkers",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 19133.93966599996,
+        "totalUsd": 0.028209,
+        "inputTokens": 6086,
+        "outputTokens": 2120,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "196.43",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:20",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10710",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yonkers",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "20 Stew Leonard Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0621",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "6995 GOLD KIWI",
+          "quantity": 1,
+          "unitPrice": 11.79,
+          "totalSpend": 11.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "56366 RASPBERRIES + 0000381363 / 56366",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1068080 PASTURE EGGS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1930184 LENSWIPE300C + 0000380625 / 1930184",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5001 WHITE PEACH",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1793017 KIMCHI",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5850 SWEETKALEDUO",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1761927 ORAL B TOOTH + 0000378829 / 1761927",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1392843 AVOCA SPRAY + 0000379139 / 1392843",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "22967 ORGNC BS THG",
+          "quantity": 1,
+          "unitPrice": 28.33,
+          "totalSpend": 28.33,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "6161149 MULTIGROOM + 0000378658 / 6161149",
+          "quantity": 1,
+          "unitPrice": 59.99,
+          "totalSpend": 44.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1337852 SHRIMP 31/40",
+          "quantity": 1,
+          "unitPrice": 14.59,
+          "totalSpend": 14.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "2024723 OLIPOP SPRN + 0000381104 / 2024723",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NY BOTTLE DE",
+          "quantity": 1,
+          "unitPrice": 0.75,
+          "totalSpend": 0.75,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nYonkers #321\n20 Stew Leonard Dr\nYonkers, NY 10710\nSELF-CHECKOUT\nGO Member 111870447547\nE 6995 GOLD KIWI 11.79\nE 56366 RASPBERRIES 3.99\nE 0000381363 / 56366 1.00-\nE 1068080 PASTURE EGGS 7.99\nF 1930184 LENSWIPE300C 13.99 A\n0000380625 / 1930184 3.00-\nE 5001 WHITE PEACH 10.99\nE 1793017 KIMCHI 9.89\nE 5850 SWEETKALEDUO 6.99\n1761927 ORAL B TOOTH 14.99 A\n0000378829 / 1761927 4.00-\nE 1392843 AVOCA SPRAY 14.99\nE 0000379139 / 1392843 4.50-\nE 22967 ORGNC BS THG 28.33\n6161149 MULTIGROOM 59.99 A\n0000378658 / 6161149 15.00-\nE 1337852 SHRIMP 31/40 14.59\nE 2024723 OLIPOP SPRN 19.99 A\nE 0000381104 / 2024723 5.00-\nE NY BOTTLE DE 0.75\nSUBTOTAL 186.76\nTAX 9.67\n**** TOTAL 196.43\nXXXXXXXXXXXX0621 H\nAID: A0000000031010\nSeq# 207598 App#: 00469I\nVisa Resp: APPROVED\nTran ID#: 614300207598....\nAPPROVED - Purchase\nAMOUNT: $196.43\n05/23/2026 10:20 321 207 25 707\nVisa 196.43\nCHANGE 0.00\nA 8.875% TAX 9.67\nTOTAL TAX 9.67\nTOTAL NUMBER OF ITEMS SOLD = 13\nINSTANT SAVINGS $ 32.50\n05/23/2026 10:20 321 207 25 707\nFSA N/TAX AMT(F) - 10.99\nFSA TAX - 1.24\nFSA TOTAL - 12.23\n21032120700252605231020\nOP#: 707 Name: SCO\nThank You!\nPlease Come Again\nWhse:321 Trm:207 Trn:25 OP:707\nItems Sold: 13\nGO 05/23/2026 10:20",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18589.28383299999,
+        "totalUsd": 0.04660499999999999,
+        "inputTokens": 3692,
+        "outputTokens": 2156,
+        "reasoningTokens": 2407
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "196.43",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:20",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10710",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yonkers",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "20 Stew Leonard Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0621",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "6995 GOLD KIWI",
+          "quantity": 1,
+          "unitPrice": 11.79,
+          "totalSpend": 11.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "56366 RASPBERRIES + 0000381363 / 56366",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1068080 PASTURE EGGS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1930184 LENSWIPE300C + 0000380625 / 1930184",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5001 WHITE PEACH",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1793017 KIMCHI",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5850 SWEETKALEDUO",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1761927 ORAL B TOOTH + 0000378829 / 1761927",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1392843 AVOCA SPRAY + 0000379139 / 1392843",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "22967 ORGNC BS THG",
+          "quantity": 1,
+          "unitPrice": 28.33,
+          "totalSpend": 28.33,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "6161149 MULTIGROOM + 0000378658 / 6161149",
+          "quantity": 1,
+          "unitPrice": 59.99,
+          "totalSpend": 44.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1337852 SHRIMP 31/40",
+          "quantity": 1,
+          "unitPrice": 14.59,
+          "totalSpend": 14.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "2024723 OLIPOP SPRN + 0000381104 / 2024723",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NY BOTTLE DE",
+          "quantity": 1,
+          "unitPrice": 0.75,
+          "totalSpend": 0.75,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nYonkers #321\n20 Stew Leonard Dr\nYonkers, NY 10710\nSELF-CHECKOUT\nGO Member 111870447547\nE 6995 GOLD KIWI 11.79\nE 56366 RASPBERRIES 3.99\nE 0000381363 / 56366 1.00-\nE 1068080 PASTURE EGGS 7.99\nF 1930184 LENSWIPE300C 13.99 A\n0000380625 / 1930184 3.00-\nE 5001 WHITE PEACH 10.99\nE 1793017 KIMCHI 9.89\nE 5850 SWEETKALEDUO 6.99\n1761927 ORAL B TOOTH 14.99 A\n0000378829 / 1761927 4.00-\nE 1392843 AVOCA SPRAY 14.99\nE 0000379139 / 1392843 4.50-\nE 22967 ORGNC BS THG 28.33\n6161149 MULTIGROOM 59.99 A\n0000378658 / 6161149 15.00-\nE 1337852 SHRIMP 31/40 14.59\nE 2024723 OLIPOP SPRN 19.99 A\nE 0000381104 / 2024723 5.00-\nE NY BOTTLE DE 0.75\nSUBTOTAL 186.76\nTAX 9.67\n**** TOTAL 196.43\nXXXXXXXXXXXX0621 H\nAID: A0000000031010\nSeq# 207598 App#: 00469I\nVisa Resp: APPROVED\nTran ID#: 614300207598....\nAPPROVED - Purchase\nAMOUNT: $196.43\n05/23/2026 10:20 321 207 25 707\nVisa 196.43\nCHANGE 0.00\nA 8.875% TAX 9.67\nTOTAL TAX 9.67\nTOTAL NUMBER OF ITEMS SOLD = 13\nINSTANT SAVINGS $ 32.50\n05/23/2026 10:20 321 207 25 707\nFSA N/TAX AMT(F) - 10.99\nFSA TAX - 1.24\nFSA TOTAL - 12.23\n21032120700252605231020\nOP#: 707 Name: SCO\nThank You!\nPlease Come Again\nWhse:321 Trn:207 Trn:25 OP:707\nItems Sold: 13\nGO 05/23/2026 10:20",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9958.47662500001,
+        "totalUsd": 0.024834,
+        "inputTokens": 3692,
+        "outputTokens": 2144,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "196.43",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:20 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10710",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yonkers",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "20 Stew Leonard Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0621",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "6995 GOLD KIWI",
+          "quantity": 1,
+          "unitPrice": 11.79,
+          "totalSpend": 11.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "56366 RASPBERRIES + 0000381363 / 56366",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1068080 PASTURE EGGS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1930184 LENSWIPE300C + 0000380625 / 1930184",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5001 WHITE PEACH",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1793017 KIMCHI",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5850 SWEETKALEDUO",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1761927 ORAL B TOOTH + 0000378829 / 1761927",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1392843 AVOCA SPRAY + 0000379139 / 1392843",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "22967 ORGNC BS THG",
+          "quantity": 1,
+          "unitPrice": 28.33,
+          "totalSpend": 28.33,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "6161149 MULTIGROOM + 0000378658 / 6161149",
+          "quantity": 1,
+          "unitPrice": 59.99,
+          "totalSpend": 44.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1337852 SHRIMP 31/40",
+          "quantity": 1,
+          "unitPrice": 14.59,
+          "totalSpend": 14.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "2024723 OLIPOP SPRN + 0000381104 / 2024723",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NY BOTTLE DE",
+          "quantity": 1,
+          "unitPrice": 0.75,
+          "totalSpend": 0.75,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nYonkers #321\n20 Stew Leonard Dr\nYonkers, NY 10710\nSELF-CHECKOUT\nGO Member 111870447547\nE 6995 GOLD KIWI 11.79\nE 56366 RASPBERRIES 3.99\nE 0000381363 / 56366 1.00-\nE 1068080 PASTURE EGGS 7.99\nF 1930184 LENSWIPE300C 13.99 A\n0000380625 / 1930184 3.00-\nE 5001 WHITE PEACH 10.99\nE 1793017 KIMCHI 9.89\nE 5850 SWEETKALEDUO 6.99\n1761927 ORAL B TOOTH 14.99 A\n0000378829 / 1761927 4.00-\nE 1392843 AVOCA SPRAY 14.99\nE 0000379139 / 1392843 4.50-\nE 22967 ORGNC BS THG 28.33\n6161149 MULTIGROOM 59.99 A\n0000378658 / 6161149 15.00-\nE 1337852 SHRIMP 31/40 14.59\nE 2024723 OLIPOP SPRN 19.99 A\nE 0000381104 / 2024723 5.00-\nE NY BOTTLE DE 0.75\nSUBTOTAL 186.76\nTAX 9.67\n**** TOTAL 196.43\nXXXXXXXXXXXX0621 H\nAID: A0000000031010\nSeq# 207598 App#: 00469I\nVisa Resp: APPROVED\nTran ID#: 614300207598....\nAPPROVED - Purchase\nAMOUNT: $196.43\n05/23/2026 10:20 321 207 25 707\nVisa 196.43\nCHANGE 0.00\nA 8.875% TAX 9.67\nTOTAL TAX 9.67\nTOTAL NUMBER OF ITEMS SOLD = 13\nINSTANT SAVINGS $ 32.50\n05/23/2026 10:20 321 207 25 707\nFSA N/TAX AMT(F) - 10.99\nFSA TAX - 1.24\nFSA TOTAL - 12.23\n21032120700252605231020\nOP#: 707 Name: SCO\nThank You!\nPlease Come Again\nWhse:321 Trn:207 Trn:25 OP:707\nItems Sold: 13\nGO 05/23/2026 10:20",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GOLD KIWI + 6995",
+      "price": 11.79,
+      "quantity": 1,
+      "totalSpend": 11.79
+    },
+    {
+      "text": "RASPBERRIES + 56366",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "PASTURE FGGS + 1068080",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "LENSWIPE3o C + 1930184",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "WHITE PEACH + 5001",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "KIMCHI + 1793017",
+      "price": 9.89,
+      "quantity": 1,
+      "totalSpend": 9.89
+    },
+    {
+      "text": "SWEETKALEDUO + 5850",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "ORAL B TOOTH + 1761927",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "AVOCA SPRAY + 1392843",
+      "price": 10.49,
+      "quantity": 1,
+      "totalSpend": 10.49
+    },
+    {
+      "text": "ORGNC BS THG + 22967",
+      "price": 28.33,
+      "quantity": 1,
+      "totalSpend": 28.33
+    },
+    {
+      "text": "MULTIGROOM + 6161149",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "6161i49 + 0000378658",
+      "price": 5.6,
+      "quantity": 1,
+      "totalSpend": 5.6
+    },
+    {
+      "text": "OLIPOP SPRN + 2024723",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "NY BOTTLE DE",
+      "price": 0.15,
+      "quantity": 1,
+      "totalSpend": 0.15
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

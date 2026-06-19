@@ -1,0 +1,486 @@
+{
+  "id": "cmn1yycy800a414783crvrsvv",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Caulipower",
+  "amount": 10.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "51.23",
+    "purchaseDate": "2026-03-22",
+    "time": null,
+    "zipCode": "80112",
+    "city": "Englewood",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 21232.10887499998,
+        "totalUsd": 0.023286,
+        "inputTokens": 6086,
+        "outputTokens": 1573,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "51.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80112",
+          "status": "match"
+        },
+        "city": {
+          "value": "Englewood",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7375 E. Arapahoe Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3816",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1330076120 + 3@ PLSBRY CRMY SUPRM + Member Savings -3.00",
+          "quantity": 3,
+          "unitPrice": 2.79,
+          "totalSpend": 5.37,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1629144197 + M&B TOASTED SESAME + Member Savings -2.47",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2113031407 + OVJ RAINBW SPRINKL",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2113033248 + OVERJOYED CANDLE 2",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "60069966144 + 2@ KRAFT JET PUFFED",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "64420940593 + 2@ D HINES FROSTING + Member Savings -0.60",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 4.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7116974004 + 2@ BC GEL WHITE",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "19641100017 + CAULIPOWER CHICKEN",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2113009030 + SIG GREEN PEAS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7127926112 + 2@ FRSH EXP ROMAINE + Member Savings -1.58",
+          "quantity": 2,
+          "unitPrice": 3.79,
+          "totalSpend": 6,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 8 Dir Brad Heister\nMain: (303) 771-8707 Rx:\n7375 E. Arapahoe Rd.\nEnglewood CO 80112\n00000805300402603221023\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n1330076120 3@ PLSBRY CRMY SUPRM 8.37 5.37 S\nMember Savings -3.00\n1629144197 M&B TOASTED SESAME 7.49 5.02 S\nMember Savings -2.47\n2113031407 OVJ RAINBW SPRINKL 3.79 3.79 B\n2113033248 OVERJOYED CANDLE 2 1.29 1.29 T\n60069966144 2@ KRAFT JET PUFFED 5.98 5.98 S\n64420940593 2@ D HINES FROSTING 5.58 4.98 S\nMember Savings -0.60\n7116974004 2@ BC GEL WHITE 5.58 5.58 S\nREFRIG/FROZEN\n19641100017 CAULIPOWER CHICKEN 10.99 10.99 S\n2113009030 SIG GREEN PEAS 1.99 1.99 S\nPRODUCE\n7127926112 2@ FRSH EXP ROMAINE 7.58 6.00 S\nMember Savings -1.58\nTAX 0.24\n**** BALANCE 51.23\nCredit Purchase 03/22/26 10:23\nCARD # ************3816\nREF: 912328438160 AUTH: 0083836P\nPAYMENT AMOUNT 51.23\nAL MASTERCARD\nAID A0000000041010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20100.09358400002,
+        "totalUsd": 0.048954,
+        "inputTokens": 3692,
+        "outputTokens": 1602,
+        "reasoningTokens": 3222
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "51.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80112",
+          "status": "match"
+        },
+        "city": {
+          "value": "Englewood",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7375 E. Arapahoe Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3816",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "3@ PLSBRY CRMY SUPRM + 1330076120 + Member Savings -3.00",
+          "quantity": 3,
+          "unitPrice": 2.79,
+          "totalSpend": 5.37,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "M&B TOASTED SESAME + 1629144197 + Member Savings -2.47",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.02,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OVJ RAINBW SPRINKL + 2113031407",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OVERJOYED CANDLE 2 + 2113033248",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2@ KRAFT JET PUFFED + 60069966144",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2@ D HINES FROSTING + 64420940593 + Member Savings -0.60",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 4.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ BC GEL WHITE + 7116974004",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CAULIPOWER CHICKEN + 19641100017",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIG GREEN PEAS + 2113009030",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ FRSH EXP ROMAINE + 7127926112 + Member Savings -1.58",
+          "quantity": 2,
+          "unitPrice": 3.79,
+          "totalSpend": 6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 8 Dir Brad Heister\nMain: (303) 771-8707 Rx:\n7375 E. Arapahoe Rd.\nEnglewood CO 80112\n00000805300402603221023\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n1330076120 3@ PLSBRY CRMY SUPRM\n8.37 5.37 S\nMember Savings -3.00\n1629144197 M&B TOASTED SESAME\n7.49 5.02 S\nMember Savings -2.47\n2113031407 OVJ RAINBW SPRINKL\n3.79 3.79 B\n2113033248 OVERJOYED CANDLE 2\n1.29 1.29 T\n60069966144 2@ KRAFT JET PUFFED\n5.98 5.98 S\n64420940593 2@ D HINES FROSTING\n5.58 4.98 S\nMember Savings -0.60\n7116974004 2@ BC GEL WHITE\n5.58 5.58 S\nREFRIG/FROZEN\n19641100017 CAULIPOWER CHICKEN\n10.99 10.99 S\n2113009030 SIG GREEN PEAS\n1.99 1.99 S\nPRODUCE\n7127926112 2@ FRSH EXP ROMAINE\n7.58 6.00 S\nMember Savings -1.58\nTAX\n0.24\n**** BALANCE\n51.23\nCredit Purchase 03/22/26 10:23\nCARD # ************3816\nREF: 912328438160 AUTH: 0083836P\nPAYMENT AMOUNT\n51.23\nAL MASTERCARD\nAID A0000000041010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7217.135000000009,
+        "totalUsd": 0.019812,
+        "inputTokens": 3692,
+        "outputTokens": 1586,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "51.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:23 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80112",
+          "status": "match"
+        },
+        "city": {
+          "value": "Englewood",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7375 E. Arapahoe Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3816",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "3@ PLSBRY CRMY SUPRM + 1330076120 + Member Savings -3.00",
+          "quantity": 3,
+          "unitPrice": 2.79,
+          "totalSpend": 5.37,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "M&B TOASTED SESAME + 1629144197 + Member Savings -2.47",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 5.02,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DYJ RAINBW SPRINKL + 2113031407",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OVERJOYED CANDLE 2 + 2113033248",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2@ KRAFT JET PUFFED + 60069966144",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2@ D HINES FROSTING + 64420940593 + Member Savings -0.60",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 4.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ BC GEL WHITE + 7116974004",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CAULIPOWER CHICKEN + 19641100017",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIG GREEN PEAS + 2113009030",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ FRSH EXP ROMAINE + 7127926112 + Member Savings -1.58",
+          "quantity": 2,
+          "unitPrice": 3.79,
+          "totalSpend": 6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 8 Dir Brad Heister\nMain: (303) 771-8707 Rx:\n7375 E. Arapahoe Rd.\nEnglewood CO 80112\n00000805300402603221023\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n1330076120 3@ PLSBRY CRMY SUPRM\n8.37 5.37 S\nMember Savings -3.00\n1629144197 M&B TOASTED SESAME\n7.49 5.02 S\nMember Savings -2.47\n2113031407 DYJ RAINBW SPRINKL\n3.79 3.79 B\n2113033248 OVERJOYED CANDLE 2\n1.29 1.29 T\n60069966144 2@ KRAFT JET PUFFED\n5.98 5.98 S\n64420940593 2@ D HINES FROSTING\n5.58 4.98 S\nMember Savings -0.60\n7116974004 2@ BC GEL WHITE\n5.58 5.58 S\nREFRIG/FROZEN\n19641100017 CAULIPOWER CHICKEN\n10.99 10.99 S\n2113009030 SIG GREEN PEAS\n1.99 1.99 S\nPRODUCE\n7127926112 2@ FRSH EXP ROMAINE\n7.58 6.00 S\nMember Savings -1.58\nTAX\n0.24\n**** BALANCE\n51.23\nCredit Purchase 03/22/26 10:23\nCARD # ************3816\nREF: 912328438160 AUTH: 0083836P\nPAYMENT AMOUNT\n51.23\nAL MASTERCARD\nAID A0000000041010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PLSBRY CRMY SUPRM + 1330076120 + Mamber Savings -3.00",
+      "price": 1.79,
+      "quantity": 3,
+      "totalSpend": 5.37
+    },
+    {
+      "text": "M&B TOASTED SESAME + 1629144197 + Member Savings -2.47",
+      "price": 5.02,
+      "quantity": 1,
+      "totalSpend": 5.02
+    },
+    {
+      "text": "OVJ RAINBW SPRINKL + 2113031407",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "OVERJOYED CANDLE 2 + 2113033248",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "KRAFT JET PUFFED + 60069966144",
+      "price": 2.99,
+      "quantity": 2,
+      "totalSpend": 5.98
+    },
+    {
+      "text": "D HINES FROSTING + 64420940593 + Member Savings -0.80",
+      "price": 2.49,
+      "quantity": 2,
+      "totalSpend": 4.98
+    },
+    {
+      "text": "BC GEL WHITE + 7116974004 + REFRIG/FROZEN",
+      "price": 2.79,
+      "quantity": 2,
+      "totalSpend": 5.58
+    },
+    {
+      "text": "CAULIPOWER CHICKEN + 19641100017",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "SIG GREEN PEAS + Z113009030 + PRODUCE",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "FRSH EXP ROMAINE + 7127926112 + Member Savings -1.58",
+      "price": 3,
+      "quantity": 2,
+      "totalSpend": 6
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

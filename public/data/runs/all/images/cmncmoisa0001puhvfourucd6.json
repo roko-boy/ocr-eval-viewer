@@ -1,0 +1,540 @@
+{
+  "id": "cmncmoisa0001puhvfourucd6",
+  "url": null,
+  "retailer": "Ralphs",
+  "brand": "Icelandic Provisions ",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Ralphs",
+    "totalCost": "37.58",
+    "purchaseDate": "2026-03-28",
+    "time": null,
+    "zipCode": "90505",
+    "city": "Torrance",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 19280.265916,
+        "totalUsd": 0.025734,
+        "inputTokens": 6086,
+        "outputTokens": 1845,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.58",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:39 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90505",
+          "status": "match"
+        },
+        "city": {
+          "value": "Torrance",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5035 Pacific Coast Hwy.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3079",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRO CANNELLINI BEANC + RALPHS SAVED YOU 0.11",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 0.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COUNTRY CROCK BTTRRC + RALPHS SAVED YOU 1.00",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BIRDSEYE FRZN VEG RC + RALPHS SAVED YOU 0.50",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRIS RASPBRY RC + RALPHS SAVED YOU 2.49",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRIS BLCKBRY RC + RALPHS SAVED YOU 1.49",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO AVOCADOS JUMBO + $5 3-Day",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "APPLES HONEYCRISP + 1.27 (1.31) lb @ 3.49 /lb",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 4.43,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHIQ BANANAS + 1.47 (1.48) lb @ 0.69 /lb",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 1.01,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOLE BABY SPINACH",
+          "quantity": 1,
+          "unitPrice": 1.75,
+          "totalSpend": 1.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SILK ORIGINAL",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CELANDIC PEACH CLD",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ICLNDC PRVSN SKYR + SCANNED COUPON",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.24,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n5035 Pacific Coast Hwy.\n(310) 378-0294\nYour cashier was CHEC 515\n1 @ 10/10.00\nKRO CANNELLINI BEANC 0.89 F\nSC RALPHS SAVED YOU 0.11\nCOUNTRY CROCK BTTRRC 4.29 F\nSC RALPHS SAVED YOU 1.00\nBIRDSEYE FRZN VEG RC 3.49 F\nSC RALPHS SAVED YOU 0.50\nDRIS RASPBRY RC 2.50 F\nSC RALPHS SAVED YOU 2.49\nDRIS BLCKBRY RC 2.50 F\nSC RALPHS SAVED YOU 1.49\nKRO AVOCADOS JUMBO 5.00 F\nSC $5 3-Day 4.99\n1.27 (1.31) lb @ 3.49 /lb\nWT APPLES HONEYCRISP 4.43 F\n1.47 (1.48) lb @ 0.69 /lb\nWT CHIQ BANANAS 1.01 F\nDOLE BABY SPINACH 1.75 F\nSILK ORIGINAL 6.49 F\nCELANDIC PEACH CLD 2.99 F\nICLNDC PRVSN SKYR 2.99 F\nMC SCANNED COUPON 0.75- F\nRALPHS rewards CUSTOMER ******9691\nTAX 0.00\n**** BALANCE 37.58\nTorrance CA 90505\nAMEX CREDIT Purchase\n************3079 - H\nREF#: 880831 TOTAL: 37.58\nAID: A000000025010901\nTC: 42C9337D2C1966B3\nVERIFIED BY PIN\nAMEX 37.58\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nMFG CPN SAVINGS $ 0.75\nRALPHS rewards SAVINGS $10.58\nTOTAL COUPONS $ 11.33\n03/28/26 10:39am 88 515 31 999999515\nAnnual Card Savings $88.03\nFuel Points Earned Today: 38\nTotal Mar Fuel Points: 97\nRalphs Community Rewards\nOn your behalf, we are contributing to\nGOLDEN RETRIEVER CL OF GRTR L.A RES\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 11.\nTRY OUR PHARMACY (310) 378-5214\nMGR: JACKIE ORELLANA (310) 378-0294\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\n#ER#",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 27872.53116700001,
+        "totalUsd": 0.06671099999999999,
+        "inputTokens": 3692,
+        "outputTokens": 1876,
+        "reasoningTokens": 4921
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.58",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:39 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90505",
+          "status": "match"
+        },
+        "city": {
+          "value": "Torrance",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5035 Pacific Coast Hwy.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3079",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRO CANNELLINI BEARC + RALPHS SAVED YOU 0.11",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 0.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COUNTRY CROCK BTTRRC + RALPHS SAVED YOU 1.00",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BIRDSEYE FRZN VEG RC + RALPHS SAVED YOU 0.50",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRIS RASPBRY RC + RALPHS SAVED YOU 2.49",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRIS BLCKBRY RC + RALPHS SAVED YOU 1.49",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO AVOCADOS JUMBO + $5 3-Day 4.99",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "APPLES HONEYCRISP + 1.27 (1.31) lb @ 3.49 /lb",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 4.43,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHIQ BANANAS + 1.47 (1.48) lb @ 0.69 /lb",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 1.01,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOLE BABY SPINACH",
+          "quantity": 1,
+          "unitPrice": 1.75,
+          "totalSpend": 1.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SILK ORIGINAL",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CELANDIC PEACH CLO",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICLNDC PRVSN SKYR + MC SCANNED COUPON 0.75-",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.24,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n5035 Pacific Coast Hwy.\n(310) 378-0294\nYour cashier was CHEC 515\n1 @ 10/10.00\nKRO CANNELLINI BEARC 0.89 F\nSC RALPHS SAVED YOU 0.11\nCOUNTRY CROCK BTTRRC 4.29 F\nSC RALPHS SAVED YOU 1.00\nBIRDSEYE FRZN VEG RC 3.49 F\nSC RALPHS SAVED YOU 0.50\nDRIS RASPBRY RC 2.50 F\nSC RALPHS SAVED YOU 2.49\nDRIS BLCKBRY RC 2.50 F\nSC RALPHS SAVED YOU 1.49\nKRO AVOCADOS JUMBO 5.00 F\nSC $5 3-Day 4.99\n1.27 (1.31) lb @ 3.49 /lb\nWT APPLES HONEYCRISP 4.43 F\n1.47 (1.48) lb @ 0.69 /lb\nWT CHIQ BANANAS 1.01 F\nDOLE BABY SPINACH 1.75 F\nSILK ORIGINAL 6.49 F\nCELANDIC PEACH CLO 2.99 F\nICLNDC PRVSN SKYR 2.99 F\nMC SCANNED COUPON 0.75- F\nRALPHS rewards CUSTOMER ******9691\nTAX 0.00\n**** BALANCE 37.58\nTorrance CA 90505\nAMEX Credit Purchase\n***********3079 - H\nREF#: 880831 TOTAL: 37.58\nAID: A000000025010901\nTC: 42C9337D2C1966B3\nVERIFIED BY PIN\nAMEX 37.58\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nMFG CPN SAVINGS $ 0.75\nRALPHS rewards SAVINGS $10.58\nTOTAL COUPONS $ 11.33\n03/28/26 10:39am 88 515 31 999999515\n*************************************\nAnnual Card Savings $88.03\n*************************************\n*************************************\nFuel Points Earned Today: 38\nTotal Mar Fuel Points: 97\n*************************************\nRalphs Community Rewards\nOn your behalf, we are contributing to\nGOLDEN RETRIEVER CL OF GRTR L.A RES\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 11.\nTRY OUR PHARMACY (310) 378-5214\nMGR: JACKIE ORELLANA (310) 378-0294\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\n#ERH\njobs.ralphs.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10465.004166,
+        "totalUsd": 0.027372,
+        "inputTokens": 3692,
+        "outputTokens": 2426,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "905055035 Pacific Coast Hwy.\n(310) 378-0294\nYour cashier was CHEC 515\n1 @ 10/10.00\nKRO CANNELLINI BEANC 0.89 F\nSC RALPHS SAVED YOU 0.11\nCOUNTRY CROCK BTTRRC 4.29 F\nSC RALPHS SAVED YOU 1.00\nBIRDSEYE FRZN VEG RC 3.49 F\nSC RALPHS SAVED YOU 0.50\nDRIS RASPBRY RC 2.50 F\nSC RALPHS SAVED YOU 2.49\nDRIS BLCKBRY RC 2.50 F\nSC RALPHS SAVED YOU 1.49\nKRO AVOCADOS JUMBO 5.00 F\nSC $5 3-Day 4.99\n1.27 (1.31) lb @ 3.49 /lb\nWT APPLES HONEYCRISP 4.43 F\n1.47 (1.48) lb @ 0.69 /lb\nWT CHIQ BANANAS 1.01 F\nDOLE BABY SPINACH 1.75 F\nSILK ORIGINAL 6.49 F\nCELANDIC PEACH CLD 2.99 F\nICLNDC PRVSN SKYR 2.99 F\nMC SCANNED COUPON 0.75- F\nRALPHS rewards CUSTOMER ******9691\nTAX 0.00\n**** BALANCE 37.58\nTorrance CA 90505\nAMEX CREDIT Purchase\n************3079 - H\nREF#: 880831 TOTAL: 37.58\nAID: A000000025010901\nTC: 42C9337D2C1966B3\nVERIFIED BY PIN\nAMEX 37.58\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nMFG CPN SAVINGS $ 0.75\nRALPHS rewards SAVINGS $10.58\nTOTAL COUPONS $ 11.33\n03/28/26 10:39am 88 515 31 999999515\n***********************************\nAnnual Card Savings $88.03\n***********************************\n***********************************\nFuel Points Earned Today: 38\nTotal Mar Fuel Points: 97\n***********************************\nRalphs Community Rewards\nOn your behalf, we are contributing to\nGOLDEN RETRIEVER CL OF GRTR L.A RES\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 11.\nTRY OUR PHARMACY (310) 378-5214\nMGR: JACKIE ORELLANA (310) 378-0294\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\n#ERH\njobs.ralphs.com",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Torrance",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRO CANNELLINI BEANC + RALPHS SAVED YOU 0.11",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 0.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COUNTRY CROCK BTTRRC + RALPHS SAVED YOU 1.00",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BIRDSEYE FRZN VEG RC + RALPHS SAVED YOU 0.50",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRIS RASPBRY RC + RALPHS SAVED YOU 2.49",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRIS BLCKBRY RC + RALPHS SAVED YOU 1.49",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO AVOCADOS JUMBO + $5 3-Day",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "APPLES HONEYCRISP",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 4.43,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHIQ BANANAS",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 1.01,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOLE BABY SPINACH",
+          "quantity": 1,
+          "unitPrice": 1.75,
+          "totalSpend": 1.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SILK ORIGINAL",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CELANDIC PEACH CLD",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ICLNDC PRVSN SKYR + SCANNED COUPON",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.24,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n5035 Pacific Coast Hwy.\n(310) 378-0294\nYour cashier was CHEC 515\n1 @ 10/10.00\nKRO CANNELLINI BEANC 0.89 F\nSC RALPHS SAVED YOU 0.11\nCOUNTRY CROCK BTTRRC 4.29 F\nSC RALPHS SAVED YOU 1.00\nBIRDSEYE FRZN VEG RC 3.49 F\nSC RALPHS SAVED YOU 0.50\nDRIS RASPBRY RC 2.50 F\nSC RALPHS SAVED YOU 2.49\nDRIS BLCKBRY RC 2.50 F\nSC RALPHS SAVED YOU 1.49\nKRO AVOCADOS JUMBO 5.00 F\nSC $5 3-Day 4.99\n1.27 (1.31) lb @ 3.49 /lb\nWT APPLES HONEYCRISP 4.43 F\n1.47 (1.48) lb @ 0.69 /lb\nWT CHIQ BANANAS 1.01 F\nDOLE BABY SPINACH 1.75 F\nSILK ORIGINAL 6.49 F\nCELANDIC PEACH CLD 2.99 F\nICLNDC PRVSN SKYR 2.99 F\nMC SCANNED COUPON 0.75- F\nRALPHS rewards CUSTOMER ******9691\nTAX 0.00\n**** BALANCE 37.58\nTorrance CA 90505\nAMEX CREDIT Purchase\n************3079 - H\nREF#: 880831 TOTAL: 37.58\nAID: A000000025010901\nTC: 42C9337D2C1966B3\nVERIFIED BY PIN\nAMEX 37.58\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nMFG CPN SAVINGS $ 0.75\nRALPHS rewards SAVINGS $10.58\nTOTAL COUPONS $ 11.33\n03/28/26 10:39am 88 515 31 999999515\n***********************************\nAnnual Card Savings $88.03\n***********************************\n***********************************\nFuel Points Earned Today: 38\nTotal Mar Fuel Points: 97\n***********************************\nRalphs Community Rewards\nOn your behalf, we are contributing to\nGOLDEN RETRIEVER CL OF GRTR L.A RES\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 11.\nTRY OUR PHARMACY (310) 378-5214\nMGR: JACKIE ORELLANA (310) 378-0294\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\n#ERH\njobs.ralphs.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KRO CANNELLINI BEA + SC RALPHS SAVED YOU 0.11",
+      "price": 0.89,
+      "quantity": 1,
+      "totalSpend": 0.89
+    },
+    {
+      "text": "COUNTRY CROCK BTTR + SC RALPHS SAVED YOU 1.00",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 4.29
+    },
+    {
+      "text": "BIRDSEYE FRZN VEG + SC RALPHS SAVED YOU 0.50",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "DRIS RASPBRY + SC RALPHS SAVED YOU 2.49",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "DRIS BLCKBRY + SC RALPHS SAVED YOU 1.49",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "KRO AVOCADOS JUMBO + SC $5 3-Day 4.99 + 1.27 (1.31) lb @ 3.49 /lb",
+      "price": 5,
+      "quantity": 1,
+      "totalSpend": 5
+    },
+    {
+      "text": "APPLES HONEYCRISP + 1.27 (1.31) lb @ 3.49 /lb + 1.47 (1.48) lb @ 0.69 /lb",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 4.43
+    },
+    {
+      "text": "CHIQ BANANAS + 1.47 (1.48) lb @ 0.69 /lb",
+      "price": 0.69,
+      "quantity": 1,
+      "totalSpend": 1.01
+    },
+    {
+      "text": "DOLE BABY SPINACH",
+      "price": 1.75,
+      "quantity": 1,
+      "totalSpend": 1.75
+    },
+    {
+      "text": "SILK ORIGINAL",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "CELANDIC PEACH CLO",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "ICLNDC PRVSN SKYR + MC SCANNED COUPON 0.75-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 4,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmn6iknxp002esjbbua67jvi9",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "Wilde Brands Inc.",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "10.65",
+    "purchaseDate": "2026-03-24",
+    "time": null,
+    "zipCode": "07726",
+    "city": "Manalapan",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17188.55416599999,
+        "totalUsd": 0.016221,
+        "inputTokens": 6086,
+        "outputTokens": 788,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-24",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07726",
+          "status": "match"
+        },
+        "city": {
+          "value": "Manalapan",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7 Route 9",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6869",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* INST D RAW FRSHD BF WBBLD + 769949620631",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #1146\n7 Route 9\nManalapan, NJ 07726\n732-683-1119\nS-1146 R-102 BUS.DATE-03/24/2026\nT-48523 A-639643\nSALE\nAS* INST D RAW FRSHD BF WBBLD $9.99\n769949620631 St\nReturn Amount $9.99\n1 Sale item(s)\nSUBTOTAL $9.99\nSALE\nTAX State 6.625% ON $9.99 $0.66\nTAX TOTAL: $0.66\nTOTAL $10.65\nAMEX $10.65\nACCOUNT#: ************6869\nAUTH#: 891795\nCHANGE DUE $0.00\n----------TRANSACTION RECORD----------\nINVOICE # 14852310201\nMERCHANT # *********1883\nTERMINAL # ***9449\nTYPE: Sale\nACCT: AMEX TAPPED\nAMEX CREDIT\nAID: A000000025010901\nNETWORKNAME: AMEX\nTotal USD$ 10.65\nApproved\nMODE : ISSUER\nNo Signature Required\nI agree to pay the above total amount\naccording to the card issuer agreement\n(merchant agreement if credit voucher)\nCUSTOMER COPY\nIMPORTANT:\nretain this copy for your records\nMember ID: 1379855508\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 05/23/2026\nThanks for being a Treats Rewards Member!\nActivate offers & save in the PetSmart app!\nTreats Rewards Activity\nMember",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10086.849667,
+        "totalUsd": 0.02487,
+        "inputTokens": 3692,
+        "outputTokens": 826,
+        "reasoningTokens": 1322
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-24",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07726",
+          "status": "match"
+        },
+        "city": {
+          "value": "Manalapan",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7 Route 9",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6869",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* INST D RAW FRSHD BF WBBLD + 769949620631",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\n\nPETSMART #1146\n7 Route 9\nManalapan, NJ 07726\n732-683-1119\n\nS-1146   R-102   BUS. DATE-03/24/2026\nT-48523  A-639643\n\nSALE\n\nAS* INST D RAW FRSHD BF WBBLD   $9.99\n769949620631                    St\n  Return Amount  $9.99\n\n1 Sale item(s)\n\nSUBTOTAL                        $9.99\n\nSALE\nTax State     6.625% ON $9.99   $0.66\nTAX TOTAL:                      $0.66\nTOTAL                          $10.65\n\nAMEX                           $10.65\nACCOUNT#: ************6869\nAUTH#: 891795\n\nCHANGE DUE                      $0.00\n---------TRANSACTION RECORD---------\n\nINVOICE # 14852310201\nMERCHANT # *********1883\nTERMINAL # ***9449\n\nTYPE: Sale\nACCT: AMEX             TAPPED\n      AMEX CREDIT\n\nAID: A000000025010901\nNETWORKNAME: AMEX\n\nTotal USD$                      10.65\n\nApproved\n\nMODE: ISSUER\nNo Signature Required\n\nI agree to pay the above total amount\naccording to the card issuer agreement\n(merchant agreement if credit voucher)\n\nCUSTOMER COPY\n\nIMPORTANT:\nretain this copy for your records\n\nMember ID: 1379855508\n\nReceipt is valid for 60 days from original\npurchase date.\n\nReturn By: 05/23/2026\n\nThanks for being a Treats Rewards Member!\nActivate offers & save in the PetSmart app!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4578.514332999999,
+        "totalUsd": 0.012585,
+        "inputTokens": 3692,
+        "outputTokens": 783,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-24",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07726",
+          "status": "match"
+        },
+        "city": {
+          "value": "Manalapan",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7 Route 9",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6869",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* INST D RAW FRSHD BF WBBLD + 769949620631",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #1146\n7 Route 9\nManalapan, NJ 07726\n732-683-1119\nS-1146 R-102 BUS.DATE-03/24/2026\nT-48523 A-639643\nSALE\nAS* INST D RAW FRSHD BF WBBLD $9.99\n769949620631 St\nReturn Amount $9.99\n1 Sale item(s)\nSUBTOTAL $9.99\nSALE\nTax State 6.625% ON $9.99 $0.66\nTAX TOTAL: $0.66\nTOTAL $10.65\nAMEX $10.65\nACCOUNT#: ************6869\nAUTH#: 891795\nCHANGE DUE $0.00\n---------TRANSACTION RECORD---------\nINVOICE # 14852310201\nMERCHANT # *********1883\nTERMINAL # ***9449\nTYPE: Sale\nACCT: AMEX TAPPED\nAMEX CREDIT\nAID: A000000025010901\nNETWORKNAME: AMEX\nTotal USD$ 10.65\nApproved\nMODE : ISSUER\nNo Signature Required\nI agree to pay the above total amount\naccording to the card issuer agreement\n(merchant agreement if credit voucher)\nCUSTOMER COPY\nIMPORTANT:\nretain this copy for your records\nMember ID: 1379855508\nReceipt is valid for 60 days from original\npurchase date.\nReturn By: 05/23/2026\nThanks for being a Treats Rewards Member!\nActivate offers & save in the PetSmart app!\nTreats Rewards Activity\nMember",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "AS* INST D RAW FRSHD BF WBBLD + 769949620631",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

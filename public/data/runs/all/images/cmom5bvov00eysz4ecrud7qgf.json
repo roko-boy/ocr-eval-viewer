@@ -1,0 +1,513 @@
+{
+  "id": "cmom5bvov00eysz4ecrud7qgf",
+  "url": null,
+  "retailer": "Meijer",
+  "brand": "smashkitchen ",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "34.57",
+    "purchaseDate": "2026-04-30",
+    "time": null,
+    "zipCode": "44060",
+    "city": "Mentor",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9990.352416000038,
+        "totalUsd": 0.02586,
+        "inputTokens": 6086,
+        "outputTokens": 1859,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:02:41",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44060",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mentor",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9200 Mentor Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7932",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WAX BEANS + 494158",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MUSTARD + 05537",
+          "quantity": 1,
+          "unitPrice": 1.09,
+          "totalSpend": 1.09,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MILK + 5010210 + 2 @ 2.76 + mPerks Offer => 1 @ FREE item",
+          "quantity": 2,
+          "unitPrice": 2.76,
+          "totalSpend": 2.76,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BANANA BREAD + 4140900247",
+          "quantity": 1,
+          "unitPrice": 2.85,
+          "totalSpend": 2.85,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLANDS EGGS + 71514150349",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BBQ SAUCE + 85006817410",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHREDDED CHEES + 4125067005 + 2 @ 3 / 6.00 + was 4.30 now 4.00",
+          "quantity": 2,
+          "unitPrice": 4.3,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHEESE + 2072971 + 1 @ 3 / 6.00 + was 2.19 now 2.00",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HELLMANNS + 4800101834 + 1 @ 2 / 8.00 + was 4.89 now 4.00",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAYONNAISE + 4800135366 + 1 @ 2 / 8.00 + was 4.89 now 4.00 + mPerks Offer 2.00 off",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ICE CREAM + 7340025 + 2 @ 2 / 8.00 + was 9.98 now 8.00 + mPerks Offer => 2 @ 1.00 off",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "meijer\n9200 Mentor Ave.\nMentor, OH 44060 - #309\n(440)266-4400 meijer.com\n04/30/26 Fastlane193\nMEIJER SAVINGS\nmPerks 6.76\nSPECIALS 4.33\nSAVINGS TOTAL 11.09\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n235.21\nGROCERY\n494158 WAX BEANS .99 F\n05537 MUSTARD 1.09 F\n5010210 MILK\n2 @ 2.76 5.52 F\nmPerks Offer\n=> 1 @ FREE item -2.76 N\n4140900247 BANANA BREAD 2.85 F\n71514150349 EGGLANDS EGGS 4.39 F\n85006817410 BBQ SAUCE 4.49 F\n4125067005 SHREDDED CHEES\n2 @ 3 / 6.00\nwas 4.30 now 4.00 F\n2072971 CHEESE\n1 @ 3 / 6.00\nwas 2.19 now 2.00 F\n4800101834 HELLMANNS\n1 @ 2 / 8.00\nwas 4.89 now 4.00 F\n4800135366 MAYONNAISE\n1 @ 2 / 8.00\nwas 4.89 now 4.00 F\nmPerks Offer\n2.00 off -2.00 F\n7340025 ICE CREAM\n2 @ 2 / 8.00\nwas 9.98 now 8.00 F\nmPerks Offer\n=> 2 @ 1.00 off -2.00 F\nmPerks # -- ********41\nTOTAL\nTOTAL TAX .00\nTOTAL 34.57\nPAYMENTS\nVISA Payment TENDER 34.57\nXXXXXXXXXXXX7932 (X)\nAPPROVAL CODE 07253D\nVISA CREDIT\nAID A0000000031010\nTC 7BBD4A723CC2189A\nNO CVM REQUIRED\nNUMBER OF ITEMS 14\nA030915D8M3Q7QS\nTx:54 Op:593 Tm:193 St:309 19:02:41",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19681.257125,
+        "totalUsd": 0.047667,
+        "inputTokens": 3692,
+        "outputTokens": 1759,
+        "reasoningTokens": 2922
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:02:41",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44060",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mentor",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9200 Mentor Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7932",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "494158 WAX BEANS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "05537 MUSTARD",
+          "quantity": 1,
+          "unitPrice": 1.09,
+          "totalSpend": 1.09,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "05010210 MILK + mPerks Offer => 1 @ FREE item",
+          "quantity": 2,
+          "unitPrice": 2.76,
+          "totalSpend": 2.76,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4140900247 BANANA BREAD",
+          "quantity": 1,
+          "unitPrice": 2.85,
+          "totalSpend": 2.85,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "71514150349 EGGLANDS EGGS",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85006817410 BBQ SAUCE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*4125067005 SHREDDED CHEES",
+          "quantity": 2,
+          "unitPrice": 2.15,
+          "totalSpend": 4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "052072971 CHEESE",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*4800101834 HELLMANNS",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*4800135366 MAYONNAISE + mPerks Offer 2.00 off",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "17340025 ICE CREAM + mPerks Offer => 2 @ 1.00 off",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "meijer\n9200 Mentor Ave.\nMentor, OH 44060 - #309\n(440)266-4400      meijer.com\n04/30/26      Fastlane193\nMEIJER SAVINGS\nmPerks             6.76\nSPECIALS           4.33\nSAVINGS TOTAL     11.09\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n235.21\nGROCERY\n494158      WAX BEANS             .99 F\n05537      MUSTARD              1.09 F\n05010210    MILK\n  2 @ 2.76                      5.52 F\n    mPerks Offer\n  => 1 @ FREE item             -2.76 N\n4140900247    BANANA BREAD         2.85 F\n71514150349   EGGLANDS EGGS        4.39 F\n85006817410   BBQ SAUCE            4.49 F\n*4125067005   SHREDDED CHEES\n  2 @ 3 / 6.00\n  was    4.30      now         4.00 F\n052072971    CHEESE\n  1 @ 3 / 6.00\n  was    2.19      now         2.00 F\n*4800101834   HELLMANNS\n  1 @ 2 / 8.00\n  was    4.89      now         4.00 F\n*4800135366   MAYONNAISE\n  1 @ 2 / 8.00\n  was    4.89      now         4.00 F\n    mPerks Offer\n    2.00 off                   -2.00 F\n17340025     ICE CREAM\n  2 @ 2 / 8.00\n  was    9.98      now         8.00 F\n    mPerks Offer\n  => 2 @ 1.00 off              -2.00 F\n\nmPerks # -- ********41\nTOTAL\n            TOTAL TAX              .00\n            TOTAL                34.57\nPAYMENTS\nVISA Payment        TENDER       34.57\nXXXXXXXXXXXX7932    (X)\nAPPROVAL CODE 07253D\nVISA CREDIT\nAID A0000000031010\nTC 7B8D4A723CC2189A\nNO CVM REQUIRED\n\nNUMBER OF ITEMS         14\n\nA030915D8M3Q7QS\nTx:54   Op:593   Tm:193 St:309  19:02:41",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9012.17291600001,
+        "totalUsd": 0.021045,
+        "inputTokens": 3692,
+        "outputTokens": 1723,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.57",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:02:41",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44060",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mentor",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9200 Mentor Ave.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7932",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WAX BEANS + 494158",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MUSTARD + 05537",
+          "quantity": 1,
+          "unitPrice": 1.09,
+          "totalSpend": 1.09,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MILK + 05010210 + mPerks Offer => 1 @ FREE item",
+          "quantity": 2,
+          "unitPrice": 2.76,
+          "totalSpend": 2.76,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BANANA BREAD + 4140900247",
+          "quantity": 1,
+          "unitPrice": 2.85,
+          "totalSpend": 2.85,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLANDS EGGS + 71514150349",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BBQ SAUCE + 85006817410",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHREDDED CHEES + 4125067005",
+          "quantity": 2,
+          "unitPrice": 4.3,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHEESE + 02072971",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HELLMANNS + 4800101834",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAYONNAISE + 4800135366 + mPerks Offer 2.00 off",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ICE CREAM + 17340025 + mPerks Offer => 2 @ 1.00 off",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "meijer\n9200 Mentor Ave.\nMentor, OH 44060 - #309\n(440)266-4400 meijer.com\n04/30/26 Fastlane193\nMEIJER SAVINGS\nmPerks 6.76\nSPECIALS 4.33\nSAVINGS TOTAL 11.09\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n235.21\nGROCERY\n494158 WAX BEANS .99 F\n05537 MUSTARD 1.09 F\n05010210 MILK\n2 @ 2.76 5.52 F\nmPerks Offer\n=> 1 @ FREE item -2.76 N\n4140900247 BANANA BREAD 2.85 F\n71514150349 EGGLANDS EGGS 4.39 F\n85006817410 BBQ SAUCE 4.49 F\n*4125067005 SHREDDED CHEES\n2 @ 3 / 6.00\nwas 4.30 now 4.00 F\n02072971 CHEESE\n1 @ 3 / 6.00\nwas 2.19 now 2.00 F\n*4800101834 HELLMANNS\n1 @ 2 / 8.00\nwas 4.89 now 4.00 F\n*4800135366 MAYONNAISE\n1 @ 2 / 8.00\nwas 4.89 now 4.00 F\nmPerks Offer\n2.00 off -2.00 F\n17340025 ICE CREAM\n2 @ 2 / 8.00\nwas 9.98 now 8.00 F\nmPerks Offer\n=> 2 @ 1.00 off -2.00 F\nmPerks # -- ********41\nTOTAL\nTOTAL TAX .00\nTOTAL 34.57\nPAYMENTS\nVISA Payment TENDER 34.57\nXXXXXXXXXXXX7932 (X)\nAPPROVAL CODE 07253D\nVISA CREDIT\nAID A0000000031010\nTC 7BBD4A723CC2189A\nNO CVM REQUIRED\nNUMBER OF ITEMS 14\nA030915D8M3Q7QS\nTx:54 Op:593 Tm:193 St:309 19:02:41",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "WAX BEANS + 094158",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "MUSTARD + 03537",
+      "price": 1.09,
+      "quantity": 1,
+      "totalSpend": 1.09
+    },
+    {
+      "text": "MILK + 5010210 + 2 @ 2.76 5.52 F + mPerks Offer",
+      "price": 1.38,
+      "quantity": 2,
+      "totalSpend": 2.76
+    },
+    {
+      "text": "BANANA BREAD + 4140900247",
+      "price": 2.85,
+      "quantity": 1,
+      "totalSpend": 2.85
+    },
+    {
+      "text": "EGGLANDS EGGS + 71514150349",
+      "price": 4.39,
+      "quantity": 1,
+      "totalSpend": 4.39
+    },
+    {
+      "text": "BBQ SAUCE + 85006817410",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "SHREDDED CHEES + 4125067005 + 2 @ 3 / 6.00",
+      "price": 2,
+      "quantity": 2,
+      "totalSpend": 4
+    },
+    {
+      "text": "CHEESE + 82072971 + 1 @ 3 / 6.00",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "HELLMANNS + 4800101834 + 1 @ 2 / 8.00",
+      "price": 4,
+      "quantity": 1,
+      "totalSpend": 4
+    },
+    {
+      "text": "MAYONNAISE + 4800135366 + 1 @ 2 / 8.00 + mPerks Offer",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "ICE CREAM + 17340025 + 2 @ 2 / 8.00 + mPerks Offer",
+      "price": 4,
+      "quantity": 2,
+      "totalSpend": 8
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

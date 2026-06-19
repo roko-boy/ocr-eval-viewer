@@ -1,0 +1,446 @@
+{
+  "id": "cmn6yvrrw00mmc4tukj0kkd0n",
+  "url": null,
+  "retailer": "Tops Friendly Market",
+  "brand": "Ocean's Halo",
+  "amount": 6.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Tops Friendly Markets",
+    "totalCost": "35.3",
+    "purchaseDate": "2026-03-25",
+    "time": null,
+    "zipCode": "13210",
+    "city": "Syracuse",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15349.91016699999,
+        "totalUsd": 0.024906,
+        "inputTokens": 6086,
+        "outputTokens": 1753,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tops Friendly Markets",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "35.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:06pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "13210",
+          "status": "match"
+        },
+        "city": {
+          "value": "Syracuse",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "620 Nottingham Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3625",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": ">ORV RED 17.98Z BP",
+          "quantity": 2,
+          "unitPrice": 5.79,
+          "totalSpend": 11.58,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VIRGIL 4PK BP + SC BONUSPLUS SVNGS + BO MOOLAHVILLE <T> + BO MOOLAHVILLE <T> + PRICE YOU PAY FOR 2 7.00",
+          "quantity": 2,
+          "unitPrice": 5.79,
+          "totalSpend": 7,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CLTPOP 12 FZ BP + SC BONUSPLUS SVNGS + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BTL/CAN DEPOSIT F NP + SC BONUSPLUS SVNGS + PRICE YOU PAY FOR 3 5.67",
+          "quantity": 3,
+          "unitPrice": 1.99,
+          "totalSpend": 5.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OCEANH .7 OZ",
+          "quantity": 3,
+          "unitPrice": 0.05,
+          "totalSpend": 0.15,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": ">TOPS CHIPS8.5Z BP",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": ">TOPS CHP7.750Z BP + SC BONUSPLUS SVNGS + BO MOOLAHVILLE <T> + BO MOOLAHVILLE <T> + BO MOOLAHVILLE <T> + BO GAS MULTI <T> + PRICE YOU PAY FOR 3 6.00",
+          "quantity": 3,
+          "unitPrice": 3.29,
+          "totalSpend": 6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": ">TOPS CHPS 8.5Z BP + SC BONUSPLUS SVNGS + BO MOOLAHVILLE <T> + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRICE YOU PAY + SC BONUSPLUS SVNGS + BO MOOLAHVILLE <T>",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "      TOPS\n    Friendly Markets\n\nStore #362, 620 Nottingham Road\n     Syracuse, NY 13210\nStore Phone: (315) 446-1652\n\nNow Hiring - Immediate Opening\nInquire at the Customer Service Desk\n2 @ 5.79\n     >ORV RED 17.98Z  BP   11.58 F\n2 @ 2.29\nSC      BONUSPLUS SVNGS        4.58-F\nBO      MOOLAHVILLE <T>           2\nBO      MOOLAHVILLE <T>           2\n     PRICE YOU PAY FOR  2   7.00\n        VIRGIL 4PK     BP    6.99 F\nSC      BONUSPLUS SVNGS        1.00-F\n     PRICE YOU PAY          5.99\n3 @ 1.99\n        CLTPOP 12 FZ   BP    5.97 F\n3 @ 0.10\nSC      BONUSPLUS SVNGS        0.30-F\n     PRICE YOU PAY FOR  3   5.67\n3 @ 0.05\nDP      BTL/CAN DEPOSIT F NP   0.15 F\n        OCEANH .7 OZ         6.49 F\n3 @ 3.29\n     >TOPS CHIPS8.5Z  BP    9.87 F\n3 @ 1.29\nSC      BONUSPLUS SVNGS        3.87-F\nBO      MOOLAHVILLE <T>           2\nBO      MOOLAHVILLE <T>           2\nBO      MOOLAHVILLE <T>           2\nBO      GAS MULTI <T>           100\n     PRICE YOU PAY FOR  3   6.00\n     >TOPS CHP7.750Z  BP    2.99 F\nSC      BONUSPLUS SVNGS        0.99-F\nBO      MOOLAHVILLE <T>           2\n     PRICE YOU PAY          2.00\n     >TOPS CHPS 8.5Z  BP    3.29 F\nSC      BONUSPLUS SVNGS        1.29-F\nBO      MOOLAHVILLE <T>           2\n     PRICE YOU PAY          2.00\n\n     TOTAL BEFORE SAVINGS   47.33\n     YOUR TOTAL SAVINGS     12.03\n     TOTAL AFTER SAVINGS    35.30\n     TAX                     0.00\n**** BALANCE                35.30\n\n*************************************\nPayment Type: DISCOVER\nCONTACTLESS      Purchase\nCard: ************3625\nPayment Amt: $35.30\nBalance: $\nAID: A00000015230100100000001\nAUTH#02530R RC#00 03/25/26 07:06pm\n*************************************\n          DISCOVER          35.30\n          CHANGE             0.00\n03/25/26 19:06  362 101  190  811155",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 27132.555625,
+        "totalUsd": 0.063336,
+        "inputTokens": 3692,
+        "outputTokens": 1622,
+        "reasoningTokens": 4800
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tops",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "35.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:06pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "13210",
+          "status": "match"
+        },
+        "city": {
+          "value": "Syracuse",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "620 Nottingham Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3625",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": ">ORV RED 17.98Z + BONUSPLUS SVNGS + MOOLAHVILLE <T> + MOOLAHVILLE <T>",
+          "quantity": 2,
+          "unitPrice": 5.79,
+          "totalSpend": 7,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "VIRGIL 4PK + BONUSPLUS SVNGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLTPOP 12 FZ + BONUSPLUS SVNGS",
+          "quantity": 3,
+          "unitPrice": 1.99,
+          "totalSpend": 5.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BTL/CAN DEPOSIT F NP",
+          "quantity": 3,
+          "unitPrice": 0.05,
+          "totalSpend": 0.15,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OCEANH .7 OZ",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": ">TOPS CHIPS8.5Z + BONUSPLUS SVNGS + MOOLAHVILLE <T> + MOOLAHVILLE <T> + MOOLAHVILLE <T> + GAS MULTI <T>",
+          "quantity": 3,
+          "unitPrice": 3.29,
+          "totalSpend": 6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": ">TOPS CHP7.750Z + BONUSPLUS SVNGS + MOOLAHVILLE <T>",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": ">TOPS CHPS 8.5Z + BONUSPLUS SVNGS + MOOLAHVILLE <T>",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "          TOPS\n    Friendly Markets\n\nStore #362, 620 Nottingham Road\n      Syracuse, NY 13210\nStore Phone: (315) 446-1652\n\n  Now Hiring - Immediate Opening\nInquire at the Customer Service Desk\n2 @ 5.79\n      >ORV RED 17.98Z   BP  11.58 F\n2 @ 2.29\nSC      BONUSPLUS SVNGS      4.58-F\nBO      MOOLAHVILLE <T>         2\nBO      MOOLAHVILLE <T>         2\n     PRICE YOU PAY FOR   2   7.00\n        VIRGIL 4PK      BP   6.99 F\nSC      BONUSPLUS SVNGS      1.00-F\n     PRICE YOU PAY           5.99\n3 @ 1.99\n        CLTPOP 12 FZ    BP   5.97 F\n3 @ 0.10\nSC      BONUSPLUS SVNGS      0.30-F\n     PRICE YOU PAY FOR   3   5.67\n3 @ 0.05\nDP      BTL/CAN DEPOSIT F NP 0.15 F\n        OCEANH .7 OZ         6.49 F\n3 @ 3.29\n        >TOPS CHIPS8.5Z BP   9.87 F\n3 @ 1.29\nSC      BONUSPLUS SVNGS      3.87-F\nBO      MOOLAHVILLE <T>         2\nBO      MOOLAHVILLE <T>         2\nBO      MOOLAHVILLE <T>         2\nBO      GAS MULTI <T>         100\n     PRICE YOU PAY FOR   3   6.00\n        >TOPS CHP7.750Z BP   2.99 F\nSC      BONUSPLUS SVNGS      0.99-F\nBO      MOOLAHVILLE <T>         2\n     PRICE YOU PAY           2.00\n        >TOPS CHIPS 8.5Z BP  3.29 F\nSC      BONUSPLUS SVNGS      1.29-F\nBO      MOOLAHVILLE <T>         2\n     PRICE YOU PAY           2.00\n\n        TOTAL BEFORE SAVINGS 47.33\n        YOUR TOTAL SAVINGS   12.03\n        TOTAL AFTER SAVINGS  35.30\n        TAX                   0.00\n**** BALANCE                 35.30\n\n************************************\nPayment Type: DISCOVER\nCONTACTLESS      Purchase\nCard: ************3625\nPayment Amt: $35.30\nBalance: $\nAID: A00000015230100100000001\nAUTH#02530R RC#00 03/25/26 07:06pm\n************************************\n          DISCOVER           35.30\n          CHANGE              0.00\n03/25/26 19:06  362 101 190  811155",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8272.609667000004,
+        "totalUsd": 0.020667,
+        "inputTokens": 3692,
+        "outputTokens": 1681,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Tops",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "35.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:06pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "13210",
+          "status": "match"
+        },
+        "city": {
+          "value": "Syracuse",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "620 Nottingham Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3625",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": ">ORV RED 17.98Z + 2 @ 5.79",
+          "quantity": 2,
+          "unitPrice": 5.79,
+          "totalSpend": 11.58,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VIRGIL 4PK + 2 @ 2.29 + SC BONUSPLUS SVNGS + BO MOOLAHVILLE <T> + BO MOOLAHVILLE <T>",
+          "quantity": 2,
+          "unitPrice": 5.79,
+          "totalSpend": 7,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CLTPOP 12 FZ + SC BONUSPLUS SVNGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BTL/CAN DEPOSIT F NP + 3 @ 0.10 + SC BONUSPLUS SVNGS + 3 @ 0.05",
+          "quantity": 3,
+          "unitPrice": 1.99,
+          "totalSpend": 5.67,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OCEANH .7 OZ",
+          "quantity": 1,
+          "unitPrice": 0.15,
+          "totalSpend": 0.15,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": ">TOPS CHIPS8.5Z + 3 @ 3.29",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": ">TOPS CHP7.750Z + 3 @ 1.29 + SC BONUSPLUS SVNGS + BO MOOLAHVILLE <T> + BO MOOLAHVILLE <T> + BO MOOLAHVILLE <T> + BO GAS MULTI <T>",
+          "quantity": 3,
+          "unitPrice": 3.29,
+          "totalSpend": 6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": ">TOPS CHPS 8.5Z + SC BONUSPLUS SVNGS + BO MOOLAHVILLE <T>",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRICE YOU PAY + SC BONUSPLUS SVNGS + BO MOOLAHVILLE <T>",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "TOPS\nFriendly Markets\nStore #362, 620 Nottingham Road\nSyracuse, NY 13210\nStore Phone: (315) 446-1652\nNow Hiring - Immediate Opening\nInquire at the Customer Service Desk\n2 @ 5.79\n>ORV RED 17.98Z BP 11.58 F\n2 @ 2.29\nSC BONUSPLUS SVNGS 4.58-F\nBO MOOLAHVILLE <T> 2\nBO MOOLAHVILLE <T> 2\nPRICE YOU PAY FOR 2 7.00\nVIRGIL 4PK BP 6.99 F\nSC BONUSPLUS SVNGS 1.00-F\nPRICE YOU PAY 5.99\n3 @ 1.99\nCLTPOP 12 FZ BP 5.97 F\n3 @ 0.10\nSC BONUSPLUS SVNGS 0.30-F\nPRICE YOU PAY FOR 3 5.67\n3 @ 0.05\nDP BTL/CAN DEPOSIT F NP 0.15 F\nOCEANH .7 OZ 6.49 F\n3 @ 3.29\n>TOPS CHIPS8.5Z BP 9.87 F\n3 @ 1.29\nSC BONUSPLUS SVNGS 3.87-F\nBO MOOLAHVILLE <T> 2\nBO MOOLAHVILLE <T> 2\nBO MOOLAHVILLE <T> 2\nBO GAS MULTI <T> 100\nPRICE YOU PAY FOR 3 6.00\n>TOPS CHP7.750Z BP 2.99 F\nSC BONUSPLUS SVNGS 0.99-F\nBO MOOLAHVILLE <T> 2\nPRICE YOU PAY 2.00\n>TOPS CHPS 8.5Z BP 3.29 F\nSC BONUSPLUS SVNGS 1.29-F\nBO MOOLAHVILLE <T> 2\nPRICE YOU PAY 2.00\nTOTAL BEFORE SAVINGS 47.33\nYOUR TOTAL SAVINGS 12.03\nTOTAL AFTER SAVINGS 35.30\nTAX 0.00\n**** BALANCE 35.30\n****************************************\nPayment Type: DISCOVER\nCONTACTLESS Purchase\nCard: ************3625\nPayment Amt: $35.30\nBalance: $\nAID: A00000015230100100000001\nAUTH#02530R RC#00 03/25/26 07:06pm\n****************************************\nDISCOVER 35.30\nCHANGE 0.00\n03/25/26 19:06 362 101 190 811155",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ORV RED 17.98Z + 2 @ 5.79 + 2 @ 2.29",
+      "price": 3.5,
+      "quantity": 2,
+      "totalSpend": 7
+    },
+    {
+      "text": "VIRGIL 4PK",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "CLTPOP 12 FZ + 3 @ 1.99 + 3 @ 0.10",
+      "price": 1.89,
+      "quantity": 3,
+      "totalSpend": 5.67
+    },
+    {
+      "text": "BTL/CAN DEPOSIT F + 3 @ 0.05",
+      "price": 0.05,
+      "quantity": 3,
+      "totalSpend": 0.15
+    },
+    {
+      "text": "OCEANH.7 OZ + 3 @ 3.29",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "TOPS CHIPS8.5Z + 3 @ 3.29 + 3 @ 1.29",
+      "price": 2,
+      "quantity": 3,
+      "totalSpend": 6
+    },
+    {
+      "text": "TOPS CHP7.75OZ",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "TOPS CHPS 8.5Z",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

@@ -1,0 +1,459 @@
+{
+  "id": "cmouj9xez00b8zwqfng436aap",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Reel Paper",
+  "amount": 9.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "118.78",
+    "purchaseDate": "2026-05-02",
+    "time": null,
+    "zipCode": "76092",
+    "city": "Southlake",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14101.87962599995,
+        "totalUsd": 0.022962,
+        "inputTokens": 6086,
+        "outputTokens": 1537,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "118.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76092",
+          "status": "match"
+        },
+        "city": {
+          "value": "Southlake",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2601 E State Hwy 114",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8608",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1919423 REELPAPER",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1919423 REELPAPER",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "607373 SAN PELL15PK + 0000376403 / 607373",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 18.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1292488 YELLOW TUNA",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1721554 JP RAINBOW + 0000376418 /1721554",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1243186 HEAVENLY HNK",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1518783 KS COCNT WTR",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "572377 PAC GLD VTY",
+          "quantity": 1,
+          "unitPrice": 20.39,
+          "totalSpend": 20.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1919468 REELPAPER",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSouthlake #669\n2601 E State Hwy 114\nSouthlake, TX 76092\nSELF-CHECKOUT\nQ1 Member 111989047259\n1919423 REELPAPER 9.99 A\n1919423 REELPAPER 9.99 A\nE 607373 SAN PELL15PK 24.99\nE 0000376403 / 607373 6.50-\nE 1292488 YELLOW TUNA 14.99\nE 1721554 JP RAINBOW 12.49\nE 0000376418 /1721554 3.50-\nE 1243186 HEAVENLY HNK 10.49\nE 1518783 KS COCNT WTR 12.99\nE 572377 PAC GLD VTY 20.39\n1919468 REELPAPER 9.99 A\nSUBTOTAL 116.31\nTAX 2.47\n**** TOTAL 118.78\nXXXXXXXXXXXX8608 H\nAID: A0000000980840 VERIFIED BY PIN\nSeq# 203540 App#: 997333\nEFT/Debit Resp: APPROVED\nTran ID#: 612200203540....\nAPPROVED - Purchase\nAMOUNT: $118.78\n05/02/2026 18:24 669 203 343 703\nEFT/Debit 118.78\nCHANGE 0.00\nA 8.25 % TAX RATE 2.47\nTOTAL TAX 2.47\nTOTAL NUMBER OF ITEMS SOLD = 9\nINSTANT SAVINGS $ 10.00\n05/02/2026 18:24 669 203 343 703\n21066920303432605021824\nOP#: 703 Name: SCO\nThank You!\nPlease Come Again\nWhse:669 Trm:203 Trn:343 OP:703\nItems Sold: 9\nQ1 05/02/2026 18:24",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16006.35962499998,
+        "totalUsd": 0.043338,
+        "inputTokens": 3692,
+        "outputTokens": 1560,
+        "reasoningTokens": 2640
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "118.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76092",
+          "status": "match"
+        },
+        "city": {
+          "value": "Southlake",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2601 E State Hwy 114",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8608",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1919423 REELPAPER",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1919423 REELPAPER",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "607373 SAN PELL15PK + 0000376403 / 607373",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 18.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1292488 YELLOW TUNA",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1721554 JP RAINBOW + 0000376418 / 1721554",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1243186 HEAVENLY HNK",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1518783 KS COCNT WTR",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "572377 PAC GLD VTY",
+          "quantity": 1,
+          "unitPrice": 20.39,
+          "totalSpend": 20.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1919468 REELPAPER",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSouthlake #669\n2601 E State Hwy 114\nSouthlake, TX 76092\n\nSELF-CHECKOUT\n\nQ1 Member 111989047259\n   1919423 REELPAPER          9.99 A\n   1919423 REELPAPER          9.99 A\nE  607373 SAN PELL15PK       24.99\nE 0000376403 / 607373         6.50-\nE  1292488 YELLOW TUNA       14.99\nE  1721554 JP RAINBOW        12.49\nE 0000376418 / 1721554        3.50-\nE  1243186 HEAVENLY HNK      10.49\nE  1518783 KS COCNT WTR      12.99\nE  572377 PAC GLD VTY        20.39\n   1919468 REELPAPER          9.99 A\n     SUBTOTAL               116.31\n     TAX                      2.47\n**** TOTAL                  118.78\n\nXXXXXXXXXXXX8608            H\nAID: A0000000980840 VERIFIED BY PIN\nSeq# 203540      App#: 997333\nEFT/Debit     Resp: APPROVED\nTran ID#: 612200203540....\n\nAPPROVED - Purchase\nAMOUNT: $118.78\n05/02/2026 18:24 669 203 343 703\n\n     EFT/Debit              118.78\n     CHANGE                   0.00\n\nA 8.25 % TAX RATE             2.47\nTOTAL TAX                     2.47\nTOTAL NUMBER OF ITEMS SOLD =     9\nINSTANT SAVINGS            $ 10.00\n05/02/2026 18:24 669 203 343 703\n\n     21066920303432605021824\nOP#: 703 Name: SCO\n       Thank You!\n    Please Come Again\nWhse:669 Trm:203 Trn:343 OP:703\n\nItems Sold: 9\nQ1 05/02/2026 18:24",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10219.30374999999,
+        "totalUsd": 0.019236,
+        "inputTokens": 3692,
+        "outputTokens": 1522,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "118.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76092",
+          "status": "match"
+        },
+        "city": {
+          "value": "Southlake",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2601 E State Hwy 114",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8608",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1919423 REELPAPER",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1919423 REELPAPER",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "607373 SAN PELL15PK + E 0000376403 / 607373",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 18.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1292488 YELLOW TUNA",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1721554 JP RAINBOW + E 0000376418 /1721554",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1243186 HEAVENLY HNK",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1518783 KS COCNT WTR",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "572377 PAC GLD VTY",
+          "quantity": 1,
+          "unitPrice": 20.39,
+          "totalSpend": 20.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1919468 REELPAPER",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nSouthlake #669\n2601 E State Hwy 114\nSouthlake, TX 76092\nSELF-CHECKOUT\nQ1 Member 111989047259\n1919423 REELPAPER 9.99 A\n1919423 REELPAPER 9.99 A\nE 607373 SAN PELL15PK 24.99\nE 0000376403 / 607373 6.50-\nE 1292488 YELLOW TUNA 14.99\nE 1721554 JP RAINBOW 12.49\nE 0000376418 /1721554 3.50-\nE 1243186 HEAVENLY HNK 10.49\nE 1518783 KS COCNT WTR 12.99\nE 572377 PAC GLD VTY 20.39\n1919468 REELPAPER 9.99 A\nSUBTOTAL 116.31\nTAX 2.47\n**** TOTAL 118.78\nXXXXXXXXXXXX8608 H\nAID: A0000000980840 VERIFIED BY PIN\nSeq# 203540 App#: 997333\nEFT/Debit Resp: APPROVED\nTran ID#: 612200203540....\nAPPROVED - Purchase\nAMOUNT: $118.78\n05/02/2026 18:24 669 203 343 703\nEFT/Debit 118.78\nCHANGE 0.00\nA 8.25 % TAX RATE 2.47\nTOTAL TAX 2.47\nTOTAL NUMBER OF ITEMS SOLD = 9\nINSTANT SAVINGS $ 10.00\n05/02/2026 18:24 669 203 343 703\n21066920303432605021824\nOP#: 703 Name: SCO\nThank You!\nPlease Come Again\nWhse:669 Trm:203 Trn:343 OP:703\nItems Sold: 9\nQ1 05/02/2026 18:24",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "REELPAPER + 1919423",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "REELPAPER + 1919423",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "SAN PELL15PK + 607373",
+      "price": 18.49,
+      "quantity": 1,
+      "totalSpend": 18.49
+    },
+    {
+      "text": "YELLOW TUNA + 1292488",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "JP RAINBOW + 1721554",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "HEAVENLY HNK + 1243186",
+      "price": 10.49,
+      "quantity": 1,
+      "totalSpend": 10.49
+    },
+    {
+      "text": "KS COCNT WTR + 1518783",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "PAC GLD VTY + 572377",
+      "price": 20.39,
+      "quantity": 1,
+      "totalSpend": 20.39
+    },
+    {
+      "text": "REELPAPER + 1919468",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,351 @@
+{
+  "id": "cmpimwq9u021bgr2gwss7rt8u",
+  "url": null,
+  "retailer": "Publix Super Market at The Village at Lee Branch",
+  "brand": "Mezcla ",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "17.1",
+    "purchaseDate": "2026-05-23",
+    "time": null,
+    "zipCode": "35242",
+    "city": "Birmingham",
+    "state": "AL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8844.466375000076,
+        "totalUsd": 0.019686,
+        "inputTokens": 6086,
+        "outputTokens": 1173,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "17.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "35242",
+          "status": "match"
+        },
+        "city": {
+          "value": "Birmingham",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "410 Doug Baker Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8316",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CABOT SHP WHT SHRD + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEZCLA MPL BLBRRY + Promotion",
+          "quantity": 1,
+          "unitPrice": 10.79,
+          "totalSpend": 5.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ENER MAX AAA 8PK + $3 OFF 8PK",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ENER MAX AAA 8PK + $3 OFF 8PK",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ENER MAX AAA 8PK + $3 OFF 8PK",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\nVillage at Lee Branch\n410 Doug Baker Blvd.\nBirmingham, AL 35242\nStore Manager: John Hall\n205-981-7415\n\n0882 5NR 032 203\n\nCABOT SHP WHT SHRD\nPromotion\nMEZCLA MPL BLBRRY\nPromotion\nENER MAX AAA 8PK\nENER MAX AAA 8PK\nENER MAX AAA 8PK\n$3 OFF 8PK\n$3 OFF 8PK\n$3 OFF 8PK\n\n4.99 t F\n-2.50 t F\n10.79 t F\n-5.40 t F\n5.49 T\n5.49 T\n5.49 T\n-3.00\n-3.00\n-3.00\n\nOrder Total\nSales Tax\nFood Tax\nGrand Total\nCredit Payment\n\n15.35\n1.40\n0.35\n17.10\n17.10\n\nChange\n0.00\n\nSavings Summary\nStore Coupon\nSpecial Price Savings\n\n9.00\n7.90\n\n****************************************\n* Your Savings at Publix *\n* 16.90 *\n****************************************\n\nReceipt ID: 0882 5NR 032 203\n\nPRESTO!\nTrace #: 037698\nReference #: 1311699326\nAcct #: XXXXXXXXXXXX8316\nPurchase VISA\nAmount: $17.10\nAuth #: 09852D\n\nCREDIT CARD\nA0000000031010\nEntry Method:\nMode:\n\nPURCHASE\nVISA CREDIT\nChip Read\nIssuer\n\nYour cashier was Jennifer\n05/23/2026 12:23 S0882 R103 C203 C0208\n\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\n\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 70286.39283299999,
+        "totalUsd": 0.029808,
+        "inputTokens": 3786,
+        "outputTokens": 1088,
+        "reasoningTokens": 1593
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "17.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "35242",
+          "status": "match"
+        },
+        "city": {
+          "value": "Birmingham",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "410 Doug Baker Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8316",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CABOT SHP WHT SHRD + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEZCLA MPL BLBRRY + Promotion",
+          "quantity": 1,
+          "unitPrice": 10.79,
+          "totalSpend": 5.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ENER MAX AAA 8PK + $3 OFF 8PK",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ENER MAX AAA 8PK + $3 OFF 8PK",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ENER MAX AAA 8PK + $3 OFF 8PK",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix\nVillage at Lee Branch\n410 Doug Baker Blvd.\nBirmingham, AL 35242\nStore Manager: John Hall\n205-981-7415\n0882 5NR 032 203\nCABOT SHP WHT SHRD 4.99 t F\nPromotion -2.50 t F\nMEZCLA MPL BLBRRY 10.79 t F\nPromotion -5.40 t F\nENER MAX AAA 8PK 5.49 T\nENER MAX AAA 8PK 5.49 T\nENER MAX AAA 8PK 5.49 T\n$3 OFF 8PK -3.00\n$3 OFF 8PK -3.00\n$3 OFF 8PK -3.00\nOrder Total 15.35\nSales Tax 1.40\nFood Tax 0.35\nGrand Total 17.10\nCredit Payment 17.10\nChange 0.00\nSavings Summary\nStore Coupon 9.00\nSpecial Price Savings 7.90\nYour Savings at Publix 16.90\nReceipt ID: 0882 5NR 032 203\nPRESTO!\nTrace #: 037698\nReference #: 1311699326\nAcct #: XXXXXXXXXXXX8316\nPurchase VISA\nAmount: $17.10\nAuth #: 09852D\nCREDIT CARD PURCHASE\nA0000000031010 VISA CREDIT\nEntry Method: Chip Read\nMode: Issuer\nYour cashier was Jennifer\n05/23/2026 12:23 S0882 R103 C2203 C0208\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6245.687999999995,
+        "totalUsd": 0.01578,
+        "inputTokens": 3692,
+        "outputTokens": 1138,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "17.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "35242",
+          "status": "match"
+        },
+        "city": {
+          "value": "Birmingham",
+          "status": "match"
+        },
+        "state": {
+          "value": "AL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "410 Doug Baker Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8316",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CABOT SHP WHT SHRD + Promotion",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEZCLA MPL BLBRRY + Promotion",
+          "quantity": 1,
+          "unitPrice": 10.79,
+          "totalSpend": 5.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ENER MAX AAA 8PK + $3 OFF 8PK",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ENER MAX AAA 8PK + $3 OFF 8PK",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ENER MAX AAA 8PK + $3 OFF 8PK",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\nVillage at Lee Branch\n410 Doug Baker Blvd.\nBirmingham, AL 35242\nStore Manager: John Hall\n205-981-7415\n0882 5NR 032 203\nCABOT SHP WHT SHRD\n4.99 t F\nPromotion\n-2.50 t F\nMEZCLA MPL BLBRRY\n10.79 t F\nPromotion\n-5.40 t F\nENER MAX AAA 8PK\n5.49 T\nENER MAX AAA 8PK\n5.49 T\nENER MAX AAA 8PK\n5.49 T\n$3 OFF 8PK\n-3.00\n$3 OFF 8PK\n-3.00\n$3 OFF 8PK\n-3.00\nOrder Total\n15.35\nSales Tax\n1.40\nFood Tax\n0.35\nGrand Total\n17.10\nCredit Payment\n17.10\nChange\n0.00\nSavings Summary\nStore Coupon\n9.00\nSpecial Price Savings\n7.90\n****************************************\n* Your Savings at Publix *\n* 16.90 *\n****************************************\nReceipt ID: 0882 5NR 032 203\nPRESTO!\nTrace #: 037698\nReference #: 1311699326\nAcct #: XXXXXXXXXXXX8316\nPurchase VISA\nAmount: $17.10\nAuth #: 09852D\nCREDIT CARD\nPURCHASE\nA0000000031010\nVISA CREDIT\nEntry Method:\nChip Read\nMode:\nIssuer\nYour cashier was Jennifer\n05/23/2026 12:23 S0882 R103 C203 C0208\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CABOT SHP WHT SHRD",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "MEZCLA MPL BLBRRY",
+      "price": 5.39,
+      "quantity": 1,
+      "totalSpend": 5.39
+    },
+    {
+      "text": "ENER MAX AAA 8PK",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "ENER MAX AAA 8PK",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "ENER MAX AAA 8PK",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,513 @@
+{
+  "id": "cmpvmv07600slecxj7o9257gg",
+  "url": null,
+  "retailer": "Ralphs Fresh Fare",
+  "brand": "MALK",
+  "amount": 1.4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Ralphs",
+    "totalCost": "49.07",
+    "purchaseDate": "2026-06-01",
+    "time": null,
+    "zipCode": "92629",
+    "city": "Dana Point",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12435.83812499998,
+        "totalUsd": 0.021243,
+        "inputTokens": 6086,
+        "outputTokens": 1346,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:29pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92629",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dana Point",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "32555 Golden Lantern",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9422",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEINZ SMPL TM KTCHRC + RALPHS SAVED YOU 1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRIS STRAWBERRY RC + RALPHS SAVED YOU 1.50",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GOOD CULTUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MALK MILK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI SWEET CRM",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI SWEET CRM",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JENO TRKY GRND RC + RALPHS SAVED YOU 2.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KGHW ROLLS",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIZZA CUTTER",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHECKOUT BAG TAX",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n32555 Golden Lantern\n(949) 661-6334\nYour cashier was CHEC 652\nHEINZ SMPL TM KTCHRC 3.99 F\nSC RALPHS SAVED YOU 1.00\nDRIS STRAWBERRY RC 2.49 F\nSC RALPHS SAVED YOU 1.50\nGOOD CULTUR CHEESE 4.49 F\nMALK MILK 6.99 F\nCRV 0.10 F\nCHOBANI SWEET CRM 6.49 F\nCHOBANI SWEET CRM 6.49 F\nJENO TRKY GRND RC 5.99 F\nSC RALPHS SAVED YOU 2.00\nKGHW ROLLS 5.49 F\nPIZZA CUTTER 5.99 T\nMR CHECKOUT BAG TAX 0.10\nRALPHS rewards CUSTOMER *******0809\nTAX 0.46\n**** BALANCE 49.07\nDana Point CA 92629\nUS DEBIT Purchase\n************9422 - H\nREF#: 435440 TOTAL: 49.07\nAID: A0000000980840\nTC: AED96345A61A091A\nVISA 49.07\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 10\nRALPHS rewards SAVINGS $4.50\nTOTAL COUPONS $ 4.50\n06/01/26 12:29pm 739 652 123 999999652",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17799.74495800002,
+        "totalUsd": 0.038748,
+        "inputTokens": 3692,
+        "outputTokens": 1348,
+        "reasoningTokens": 2342
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92629",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dana Point",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "32555 Golden Lantern",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9422",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEINZ SMPL TM KTCHRC + RALPHS SAVED YOU 1.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRIS STRAWBERRY RC + RALPHS SAVED YOU 1.50",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GOOD CULTUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MALK MILK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI SWEET CRM",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI SWEET CRM",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JENO TRKY GRND RC + RALPHS SAVED YOU 2.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KGHW ROLLS",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIZZA CUTTER",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHECKOUT BAG TAX",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE TM\n32555 Golden Lantern\n(949) 661-6334\nYour cashier was CHEC 652\nHEINZ SMPL TM KTCHRC 3.99 F\nSC RALPHS SAVED YOU 1.00\nDRIS STRAWBERRY RC 2.49 F\nSC RALPHS SAVED YOU 1.50\nGOOD CULTUR CHEESE 4.49 F\nMALK MILK 6.99 F\nCRV 0.10 F\nCHOBANI SWEET CRM 6.49 F\nCHOBANI SWEET CRM 6.49 F\nJENO TRKY GRND RC 5.99 F\nSC RALPHS SAVED YOU 2.00\nKGHW ROLLS 5.49 F\nPIZZA CUTTER 5.99 T\nMR CHECKOUT BAG TAX 0.10\nRALPHS rewards CUSTOMER *******0809\nTAX 0.46\n**** BALANCE 49.07\nDana Point CA 92629\nUS DEBIT Purchase\n************9422 - H\nREF#: 435440 TOTAL: 49.07\nAID: A0000000980840\nTC: AED96345A61A091A\nVISA 49.07\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 10\nRALPHS rewards SAVINGS $4.50\nTOTAL COUPONS $ 4.50\n06/01/26 12:29pm 739 652 123 999999652\n************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6058.866209,
+        "totalUsd": 0.017382,
+        "inputTokens": 3692,
+        "outputTokens": 1316,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:29pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92629",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dana Point",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "32555 Golden Lantern",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9422",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HEINZ SMPL TM KTCHRC + RALPHS SAVED YOU 1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DRIS STRAWBERRY RC + RALPHS SAVED YOU 1.50",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 0.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GOOD CULTUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MALK MILK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI SWEET CRM",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI SWEET CRM",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JENO TRKY GRND RC + RALPHS SAVED YOU 2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KGHW ROLLS",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIZZA CUTTER",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHECKOUT BAG TAX",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE TM\n32555 Golden Lantern\n(949) 661-6334\nYour cashier was CHEC 652\nHEINZ SMPL TM KTCHRC 3.99 F\nSC RALPHS SAVED YOU 1.00\nDRIS STRAWBERRY RC 2.49 F\nSC RALPHS SAVED YOU 1.50\nGOOD CULTUR CHEESE 4.49 F\nMALK MILK 6.99 F\nCRV 0.10 F\nCHOBANI SWEET CRM 6.49 F\nCHOBANI SWEET CRM 6.49 F\nJENO TRKY GRND RC 5.99 F\nSC RALPHS SAVED YOU 2.00\nKGHW ROLLS 5.49 F\nPIZZA CUTTER 5.99 T\nMR CHECKOUT BAG TAX 0.10\nRALPHS rewards CUSTOMER *******0809\nTAX 0.46\n**** BALANCE 49.07\nDana Point CA 92629\nUS DEBIT Purchase\n************9422 - H\nREF#: 435440 TOTAL: 49.07\nAID: A0000000980840\nTC: AED96345A61A091A\nVISA 49.07\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 10\nRALPHS rewards SAVINGS $4.50\nTOTAL COUPONS $ 4.50\n06/01/26 12:29pm 739 652 123 999999652\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HEINZ SMPL TM KTCH + SC RALPHS SAVED YOU 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "DRIS STRAWBERRY + SC RALPHS SAVED YOU 1.50",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "GOOD CULTUR CHEESE",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "MALK MILK",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "CRV",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "CHOBANI SWEET CRM",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "CHOBANI SWEET CRM",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "JENO TRKY GRND + SC RALPHS SAVED YOU 2.00",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "KGHW ROLLS",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "PIZZA CUTTER",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "CHECKOUT BAG TAX + RALPHS rewards CUSTOMER *******0809",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

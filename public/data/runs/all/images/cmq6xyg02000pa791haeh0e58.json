@@ -1,0 +1,243 @@
+{
+  "id": "cmq6xyg02000pa791haeh0e58",
+  "url": null,
+  "retailer": "PetSmart",
+  "brand": "pets table",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "PetSmart",
+    "totalCost": "21.44",
+    "purchaseDate": "2026-06-09",
+    "time": null,
+    "zipCode": "60061",
+    "city": "Vernon Hills",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12267.37729199999,
+        "totalUsd": 0.0156,
+        "inputTokens": 6086,
+        "outputTokens": 719,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-09",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60061",
+          "status": "match"
+        },
+        "city": {
+          "value": "Vernon Hills",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "700 N Milwaukee Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4226",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* PT D AIR DRIED SLM 1 LB + 850065363189",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nANYTHING for PETS\nPETSMART #2147\n700 N Milwaukee Ave\nVernon Hills, IL 60061\n847-816-6251\nS-2147 R-102 BUS.DATE-06/09/2026\nT-41311 A-741221\nSALE\nAS* PT D AIR DRIED SLM 1 LB $19.99\n850065363189 StSpCi\nReturn Amount $19.99\n1 Sale item(s)\nSUBTOTAL $19.99\nSALE\nTAX Special 0.75% ON $19.99 $0.15\nTAX City 0.25% ON $19.99 $0.05\nTAX State 6.25% ON $19.99 $1.25\nTAX TOTAL: $1.45\nTOTAL $21.44\nVISA\nACCOUNT#: ************4226 $21.44\nAUTH#: 05543D\nCHANGE DUE $0.00\n------TRANSACTION RECORD------\nINVOICE # 14131110201\nMERCHANT # *********0881\nTERMINAL # ***9115\nTYPE: Sale\nACCT: VISA INSERTED\nCHASE VISA\nAID: A0000000031010\nNETWORKNAME: VISA\nTotal USD$ 21.44\nApproved\nMODE : ISSUER\nNo Signature Required",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12031.90866699995,
+        "totalUsd": 0.024348,
+        "inputTokens": 3692,
+        "outputTokens": 769,
+        "reasoningTokens": 1321
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-09",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60061",
+          "status": "match"
+        },
+        "city": {
+          "value": "Vernon Hills",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "700 N Milwaukee Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4226",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* PT D AIR DRIED SLM 1 LB + 850065363189 + Return Amount $19.99",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nAnything for PETS\n\nPETSMART #2147\n700 N Milwaukee Ave\nVernon Hills, IL 60061\n847-816-6251\n\nS-2147      R-102      BUS.DATE-06/09/2026\nT-41311     A-741221\n\nSALE\n\nAS* PT D AIR DRIED SLM 1 LB          $19.99\n850065363189                         StSpCi\n  Return Amount  $19.99\n\n1 Sale item(s)\nSUBTOTAL                             $19.99\n\nSALE\nTAX Special  0.75%  ON $19.99         $0.15\nTAX City     0.25%  ON $19.99         $0.05\nTAX State    6.25%  ON $19.99         $1.25\nTAX TOTAL:                            $1.45\nTOTAL                                $21.44\n\nVISA\nACCOUNT#:    ************4226        $21.44\nAUTH#:  05543D\n\nCHANGE DUE                            $0.00\n----------TRANSACTION RECORD----------\n\nINVOICE # 14131110201\nMERCHANT # ********0881\nTERMINAL # ***9115\n\nTYPE: Sale\nACCT: VISA                 INSERTED\n      CHASE VISA\n\nAID: A0000000031010\nNETWORKNAME: VISA\n\nTotal USD$                            21.44\n\nApproved\n\nMODE : ISSUER\nNo Signature Required",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4664.95749999999,
+        "totalUsd": 0.012009,
+        "inputTokens": 3692,
+        "outputTokens": 719,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "PetSmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.44",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:13 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60061",
+          "status": "match"
+        },
+        "city": {
+          "value": "Vernon Hills",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "700 N Milwaukee Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4226",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "AS* PT D AIR DRIED SLM 1 LB + 850065363189",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "PETSMART\nAnything for PETS\nPETSMART #2147\n700 N Milwaukee Ave\nVernon Hills, IL 60061\n847-816-6251\nS-2147 R-102 BUS.DATE-06/09/2026\nT-41311 A-741221\nSALE\nAS* PT D AIR DRIED SLM 1 LB $19.99\n850065363189 StSpCi\nReturn Amount $19.99\n1 Sale item(s)\nSUBTOTAL $19.99\nSALE\nTAX Special 0.75% ON $19.99 $0.15\nTAX City 0.25% ON $19.99 $0.05\nTAX State 6.25% ON $19.99 $1.25\nTAX TOTAL: $1.45\nTOTAL $21.44\nVISA\nACCOUNT#: ************4226 $21.44\nAUTH#: 05543D\nCHANGE DUE $0.00\n------TRANSACTION RECORD------\nINVOICE # 14131110201\nMERCHANT # ********0881\nTERMINAL # ***9115\nTYPE: Sale\nACCT: VISA INSERTED\nCHASE VISA\nAID: A0000000031010\nNETWORKNAME: VISA\nTotal USD$ 21.44\nApproved\nMODE : ISSUER\nNo Signature Required",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "AS* PT D AIR DRIED SLM 1 LB + 850065363189",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

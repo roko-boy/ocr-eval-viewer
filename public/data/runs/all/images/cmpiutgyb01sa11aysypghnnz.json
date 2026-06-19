@@ -1,0 +1,257 @@
+{
+  "id": "cmpiutgyb01sa11aysypghnnz",
+  "url": null,
+  "retailer": "Justfood Fordogs",
+  "brand": "JustFoodForDogs",
+  "amount": 12.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Justfood Fordogs",
+    "totalCost": null,
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7121.152291999999,
+        "totalUsd": 0.015711,
+        "inputTokens": 6172,
+        "outputTokens": 717,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "JustFoodForDogs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42.96",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "12:27 pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60614",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "IL",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "1983 North Clybourn Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Work order #1236784, Item: 05/22 - WillCall/Paid Printed",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Fresh Beef & Russet Potato 18oz",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "totalSpend": 38.97,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "JustFood\nForDogs.\n1983 North Clybourn Avenue\nChicago, Illinois, 60614\nUnited States\n(312) 971-5724\nSales Receipt\n05/23/2026 12:27 pm\nTicket: 220006017600\nRegister: POS 1\nEmployee: Sydnie\nCustomer: Beckie Miller\nItems\n# Price\nWork order #1236784, Item: 05/22 - WillCall/Paid Printed\n1 $0.00\nFresh Beef & Russet Potato 18oz\n3 $38.97\nSubtotal $38.97\nTax ($38.97 @ 10.25%) $3.99\nTotal Tax $3.99\nTotal $42.96\nPAYMENTS\nAccount Charge $9.91\nCAYAN Terminal $33.05\nVisit us on the web at www.justfoodfordogs.com\nHas JustFoodForDogs transformed your pet's health? We want to hear about it!\nSend your pet's testimonial and photo to morelife@justfoodfordogs.com\nThank You Beckie Miller!\n2 200060 176006",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12558.97808299999,
+        "totalUsd": 0.0237915,
+        "inputTokens": 3735,
+        "outputTokens": 704,
+        "reasoningTokens": 1317
+      },
+      "fields": {
+        "storeName": {
+          "value": "JustFood For Dogs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42.96",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "12:27 pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60614",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "IL",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "1983 North Clybourn Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Work order #1236784, Item: 05/22 - WillCall/Paid Printed",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Fresh Beef & Russet Potato 18oz",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "totalSpend": 38.97,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "JustFood\nFor Dogs.\n1983 North Clybourn Avenue\nChicago, Illinois, 60614\nUnited States\n(312) 971-5724\nSales Receipt\n05/23/2026 12:27 pm\nTicket: 220006017600\nRegister: POS 1\nEmployee: Sydnie\nCustomer: Beckie Miller\nItems\n# Price\nWork order #1236784, Item: 05/22 - WillCall/Paid Printed\n1 $0.00\nFresh Beef & Russet Potato 18oz\n3 $38.97\nSubtotal $38.97\nTax ($38.97 @ 10.25%) $3.99\nTotal Tax $3.99\nTotal $42.96\nPAYMENTS\nAccount Charge $9.91\nCAYAN Terminal $33.05\nVisit us on the web at www.justfoodfordogs.com\nHas JustFoodForDogs transformed your pet's health? We want to hear about it!\nSend your pet's testimonial and photo to morelife@justfoodfordogs.com\nThank You Beckie Miller!\n2200060176006",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4170.544749999997,
+        "totalUsd": 0.0118845,
+        "inputTokens": 3735,
+        "outputTokens": 698,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "JustFoodForDogs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "42.96",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "12:27 pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60614",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "IL",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "1983 North Clybourn Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Work order #1236784, Item: 05/22 - WillCall/Paid Printed",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Fresh Beef & Russet Potato 18oz",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "totalSpend": 38.97,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "JustFood\nForDogs.\n1983 North Clybourn Avenue\nChicago, Illinois, 60614\nUnited States\n(312) 971-5724\nSales Receipt\n05/23/2026 12:27 pm\nTicket: 220006017600\nRegister: POS 1\nEmployee: Sydnie\nCustomer: Beckie Miller\nItems\n# Price\nWork order #1236784, Item: 05/22 - WillCall/Paid Printed\n1 $0.00\nFresh Beef & Russet Potato 18oz\n3 $38.97\nSubtotal $38.97\nTax ($38.97 @ 10.25%) $3.99\nTotal Tax $3.99\nTotal $42.96\nPAYMENTS\nAccount Charge $9.91\nCAYAN Terminal $33.05\nVisit us on the web at www.justfoodfordogs.com\nHas JustFoodForDogs transformed your pet's health? We want to hear about it!\nSend your pet's testimonial and photo to morelife@justfoodfordogs.com\nThank You Beckie Miller!\n2 200060 176006",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

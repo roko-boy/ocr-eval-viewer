@@ -1,0 +1,513 @@
+{
+  "id": "cmod6e72w00a7slqto3zaw0s3",
+  "url": null,
+  "retailer": "WinCo Foods",
+  "brand": "Perfect Bar",
+  "amount": 2.88,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "WinCo Foods",
+    "totalCost": "21.47",
+    "purchaseDate": "2026-04-24",
+    "time": null,
+    "zipCode": "83687",
+    "city": "Nampa",
+    "state": "ID",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9438.643916,
+        "totalUsd": 0.024627,
+        "inputTokens": 6086,
+        "outputTokens": 1722,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "WinCo Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:56",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "83687-8945",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Nampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "ID",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1175 N Happy Valley Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7711",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JIFFY MFN MIX + 7248600220",
+          "quantity": 1,
+          "unitPrice": 0.58,
+          "totalSpend": 0.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WINCO RFRD BEAN + 7055260601",
+          "quantity": 1,
+          "unitPrice": 0.88,
+          "totalSpend": 0.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHSE PPR JACK + 21718700000 + 0.65 lb @ 6.28/ lb",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BUTTER, ALMOND + 2047 + 0.24 lb @ 7.08/ lb",
+          "quantity": 1,
+          "unitPrice": 4.08,
+          "totalSpend": 4.08,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MEDJOOL DATE PITTED + 2468 + 0.30 lb @ 6.48/ lb",
+          "quantity": 1,
+          "unitPrice": 1.7,
+          "totalSpend": 1.7,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ALMND, CHOC + 1323",
+          "quantity": 1,
+          "unitPrice": 1.94,
+          "totalSpend": 1.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR + 85556911060 + 0.71 lb @ 0.68/ lb",
+          "quantity": 1,
+          "unitPrice": 2.88,
+          "totalSpend": 2.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WHEATBRY, KRNL R + 1740 + 2 @ 0.78 EACH",
+          "quantity": 2,
+          "unitPrice": 0.78,
+          "totalSpend": 0.48,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "IDAHOAN POTATO + 2970000146 + 0.53 lb @ 3.58/ lb",
+          "quantity": 1,
+          "unitPrice": 1.56,
+          "totalSpend": 1.56,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHIA SEED, BLCK + 1407 + 2.01 lb @ 0.48/ lb",
+          "quantity": 1,
+          "unitPrice": 1.9,
+          "totalSpend": 1.9,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ONIONS, YELLOW + 4093",
+          "quantity": 1,
+          "unitPrice": 0.96,
+          "totalSpend": 0.96,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WinCo\nFOODS\nThe Supermarket Low Price Leader®\nwww.wincofoods.com\n1175 N Happy Valley Rd\nNampa, ID, 83687-8945\nStore# 144\nCashier:\nDate:04/24/2026\nTime:09:56\nJIFFY MFN MIX 7248600220 0.58F\nWINCO RFRD BEAN 7055260601 0.88F\nCHSE PPR JACK 21718700000 3.29F\n0.65 lb @ 6.28/ lb\nBUTTER, ALMOND 2047 4.08F\n0.24 lb @ 7.08/ lb\nMEDJOOL DATE PITTED 2468 1.70F\n0.30 lb @ 6.48/ lb\nALMND, CHOC 1323 1.94\nPERFECT BAR 85556911060 2.88F\n0.71 lb @ 0.68/ lb\nWHEATBRY, KRNL R 1740 0.48F\n2 @ 0.78 EACH\nIDAHOAN POTATO 2970000146 1.56F\n0.53 lb @ 3.58/ lb\nCHIA SEED, BLCK 1407 1.90F\n2.01 lb @ 0.48/ lb\nONIONS, YELLOW 4093 0.96F\nSubtotal: 20.25\nTax: 1.22\nTotal: 21.47\nSold Items: 12\nNon-EFT Tenders Paid:\n------ Tax Summary ------\nName Rate Amount\nSales Tax 6.0000 1.22\nTax Total: 1.22\nEFT Tenders Paid:\nDebit 21.47\nVISA\nSale\nCard Num : XXXXXXXXXXXX7711\nChip Read\nAID: A0000000980840\nResponse : APPROVED\nI agree to pay the above Total Amount\naccording to Card Issuer Agreement.\nVerified by PIN\n04/24/2026 Oper# Trx#6332\n09:56 Term#94 Store#144\nTHANK YOU FOR SHOPPING AT WINCO\n208-482-3007",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 28933.92933299999,
+        "totalUsd": 0.06166199999999999,
+        "inputTokens": 3692,
+        "outputTokens": 1720,
+        "reasoningTokens": 4516
+      },
+      "fields": {
+        "storeName": {
+          "value": "WinCo Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:56",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "83687-8945",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Nampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "ID",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1175 N Happy Valley Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7711",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JIFFY MFN MIX + 7248600220",
+          "quantity": 1,
+          "unitPrice": 0.58,
+          "totalSpend": 0.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WINCO RFRD BEAN + 7055260601",
+          "quantity": 1,
+          "unitPrice": 0.88,
+          "totalSpend": 0.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHSE PPR JACK + 21718700000",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BUTTER, ALMOND + 2047 + 0.65 lb @ 6.28/ lb",
+          "quantity": 1,
+          "unitPrice": 4.08,
+          "totalSpend": 4.08,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEDJOOL DATE PITTED + 2468 + 0.24 lb @ 7.08/ lb",
+          "quantity": 1,
+          "unitPrice": 1.7,
+          "totalSpend": 1.7,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALMND, CHOC + 1323 + 0.30 lb @ 6.48/ lb",
+          "quantity": 1,
+          "unitPrice": 1.94,
+          "totalSpend": 1.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR + 85556911060",
+          "quantity": 1,
+          "unitPrice": 2.88,
+          "totalSpend": 2.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WHEATBRY, KRNL R + 1740 + 0.71 lb @ 0.68/ lb",
+          "quantity": 1,
+          "unitPrice": 0.48,
+          "totalSpend": 0.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "IDAHOAN POTATO + 2970000146 + 2 @ 0.78 EACH",
+          "quantity": 2,
+          "unitPrice": 0.78,
+          "totalSpend": 1.56,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHIA SEED, BLCK + 1407 + 0.53 lb @ 3.58/ lb",
+          "quantity": 1,
+          "unitPrice": 1.9,
+          "totalSpend": 1.9,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONIONS, YELLOW + 4093 + 2.01 lb @ 0.48/ lb",
+          "quantity": 1,
+          "unitPrice": 0.96,
+          "totalSpend": 0.96,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WinCo\nFOODS\nThe Supermarket Low Price Leader®\nwww.wincofoods.com\n1175 N Happy Valley Rd\nNampa, ID, 83687-8945\nStore# 144\nCashier:\nDate:04/24/2026 Time:09:56\nJIFFY MFN MIX 7248600220 0.58F\nWINCO RFRD BEAN 7055260601 0.88F\nCHSE PPR JACK 21718700000 3.29F\n0.65 lb @ 6.28/ lb\nBUTTER, ALMOND 2047 4.08F\n0.24 lb @ 7.08/ lb\nMEDJOOL DATE PITTED 2468 1.70F\n0.30 lb @ 6.48/ lb\nALMND, CHOC 1323 1.94\nPERFECT BAR 85556911060 2.88F\n0.71 lb @ 0.68/ lb\nWHEATBRY, KRNL R 1740 0.48F\n2 @ 0.78 EACH\nIDAHOAN POTATO 2970000146 1.56F\n0.53 lb @ 3.58/ lb\nCHIA SEED, BLCK 1407 1.90F\n2.01 lb @ 0.48/ lb\nONIONS, YELLOW 4093 0.96F\nSubtotal: 20.25\nTax: 1.22\nTotal: 21.47\nSold Items: 12\nNon-EFT Tenders Paid:\n----------- Tax Summary -----------\nName Rate Amount\nSales Tax 6.0000 1.22\nTax Total: 1.22\n-----------------------------------\nEFT Tenders Paid:\nDebit 21.47\nVISA\nSale\nCard Num : XXXXXXXXXXXX7711\nChip Read\nAID: A00000000980840\nResponse : APPROVED\nI agree to pay the above Total Amount\naccording to Card Issuer Agreement.\nVerified by PIN\n04/24/2026 Oper# Trx#6332\n09:56 Term#94 Store#144\nTHANK YOU FOR SHOPPING AT WINCO\n208-482-3007",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8486.012875,
+        "totalUsd": 0.021018,
+        "inputTokens": 3692,
+        "outputTokens": 1720,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "WinCo Foods",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:56 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "83687-8945",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Nampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "ID",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1175 N Happy Valley Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7711",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JIFFY MFN MIX + 7248600220",
+          "quantity": 1,
+          "unitPrice": 0.58,
+          "totalSpend": 0.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WINCO RFRD BEAN + 7055260601",
+          "quantity": 1,
+          "unitPrice": 0.88,
+          "totalSpend": 0.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHSE PPR JACK + 21718700000 + 0.65 lb @ 6.28/ lb",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BUTTER, ALMOND + 2047 + 0.24 lb @ 7.08/ lb",
+          "quantity": 1,
+          "unitPrice": 4.08,
+          "totalSpend": 4.08,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MEDJOOL DATE PITTED + 2468 + 0.30 lb @ 6.48/ lb",
+          "quantity": 1,
+          "unitPrice": 1.7,
+          "totalSpend": 1.7,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ALMND, CHOC + 1323",
+          "quantity": 1,
+          "unitPrice": 1.94,
+          "totalSpend": 1.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR + 85556911060 + 0.71 lb @ 0.68/ lb",
+          "quantity": 1,
+          "unitPrice": 2.88,
+          "totalSpend": 2.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WHEATBRY, KRNL R + 1740 + 2 @ 0.78 EACH",
+          "quantity": 2,
+          "unitPrice": 0.78,
+          "totalSpend": 0.48,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "IDAHOAN POTATO + 2970000146 + 0.53 lb @ 3.58/ lb",
+          "quantity": 1,
+          "unitPrice": 1.56,
+          "totalSpend": 1.56,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHIA SEED, BLCK + 1407 + 2.01 lb @ 0.48/ lb",
+          "quantity": 1,
+          "unitPrice": 1.9,
+          "totalSpend": 1.9,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ONIONS, YELLOW + 4093",
+          "quantity": 1,
+          "unitPrice": 0.96,
+          "totalSpend": 0.96,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WinCo\nFOODS\nThe Supermarket Low Price Leader®\nwww.wincofoods.com\n1175 N Happy Valley Rd\nNampa, ID, 83687-8945\nStore# 144\nCashier:\nDate:04/24/2026\nTime:09:56\nJIFFY MFN MIX 7248600220 0.58F\nWINCO RFRD BEAN 7055260601 0.88F\nCHSE PPR JACK 21718700000 3.29F\n0.65 lb @ 6.28/ lb\nBUTTER, ALMOND 2047 4.08F\n0.24 lb @ 7.08/ lb\nMEDJOOL DATE PITTED 2468 1.70F\n0.30 lb @ 6.48/ lb\nALMND, CHOC 1323 1.94\nPERFECT BAR 85556911060 2.88F\n0.71 lb @ 0.68/ lb\nWHEATBRY, KRNL R 1740 0.48F\n2 @ 0.78 EACH\nIDAHOAN POTATO 2970000146 1.56F\n0.53 lb @ 3.58/ lb\nCHIA SEED, BLCK 1407 1.90F\n2.01 lb @ 0.48/ lb\nONIONS, YELLOW 4093 0.96F\nSubtotal: 20.25\nTax: 1.22\nTotal: 21.47\nSold Items: 12\nNon-EFT Tenders Paid:\nTax Summary\nName Rate Amount\nSales Tax 6.0000 1.22\nTax Total: 1.22\nEFT Tenders Paid:\nDebit 21.47\nVISA\nSale\nCard Num : XXXXXXXXXXXX7711\nChip Read\nAID: A00000000980840\nResponse : APPROVED\nI agree to pay the above Total Amount\naccording to Card Issuer Agreement.\nVerified by PIN\n04/24/2026 Oper# Trx#6332\n09:56 Term#94 Store#144\nTHANK YOU FOR SHOPPING AT WINCO\n208-482-3007",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JIFFY MFN MIX + 7248600220",
+      "price": 0.58,
+      "quantity": 1,
+      "totalSpend": 0.58
+    },
+    {
+      "text": "WINCO RFRD BEAN + 7055260601",
+      "price": 0.88,
+      "quantity": 1,
+      "totalSpend": 0.88
+    },
+    {
+      "text": "CHSE PPR JACK + 21718700000 + 0.65 lb @ 6.28/ lb",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "BUTTER,ALMOND + 2047 + 0.65 lb @ 6.28/ lb + 0.24 lb @ 7.08/ lb",
+      "price": 6.28,
+      "quantity": 1,
+      "totalSpend": 4.08
+    },
+    {
+      "text": "MEDJOOL DATE PITTED + 2468 + 0.24 lb @ 7.08/ lb + 0.30 lb @ 6.48/ lb",
+      "price": 7.08,
+      "quantity": 1,
+      "totalSpend": 1.7
+    },
+    {
+      "text": "ALMND,CHOC + 1323 + 0.30 lb @ 6.48/ lb",
+      "price": 6.48,
+      "quantity": 1,
+      "totalSpend": 1.94
+    },
+    {
+      "text": "PERFECT BAR + 85556911060 + 0.71 lb @ 0.68/ lb",
+      "price": 2.88,
+      "quantity": 1,
+      "totalSpend": 2.88
+    },
+    {
+      "text": "WHEATBRY,KRNL R + 1740 + 0.71 lb @ 0.68/ lb + 2 @ 0.78 EACH",
+      "price": 0.68,
+      "quantity": 1,
+      "totalSpend": 0.48
+    },
+    {
+      "text": "IDAHOAN POTATO + 2970000146 + 2 @ 0.78 EACH + 0.53 lb @ 3.58/ lb",
+      "price": 0.78,
+      "quantity": 2,
+      "totalSpend": 1.56
+    },
+    {
+      "text": "CHIA SEED,BLCK + 1407 + 0.53 lb @ 3.58/ lb + 2.01 lb @ 0.48/ lb",
+      "price": 3.58,
+      "quantity": 1,
+      "totalSpend": 1.9
+    },
+    {
+      "text": "ONIONS,YELLOW + 4093 + 2.01 lb @ 0.48/ lb",
+      "price": 0.48,
+      "quantity": 1,
+      "totalSpend": 0.96
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

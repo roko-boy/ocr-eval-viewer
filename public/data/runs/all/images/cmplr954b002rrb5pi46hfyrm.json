@@ -1,0 +1,279 @@
+{
+  "id": "cmplr954b002rrb5pi46hfyrm",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "JustFoodForDogs",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": null,
+    "totalCost": "15.06",
+    "purchaseDate": "2026-05-25",
+    "time": null,
+    "zipCode": "92130",
+    "city": "San Diego",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10527.486334,
+        "totalUsd": 0.015699,
+        "inputTokens": 6086,
+        "outputTokens": 730,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "JustFoodForDogs",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "15.06",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:59 pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92130",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3485 Del Mar Heights Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5661",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JustFresh Turkey 12oz",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "JustFood\nForDogs\n3485 Del Mar Heights Rd\nSan Diego, California, 92130\nUnited States\n858-252-7222\nSales Receipt\n05/25/2026 1:59 pm\nTicket: 220006022094\nRegister: POS 2\nEmployee: Sophie\nCustomer: Mary Dredge\nItems # Price\nJustFresh Turkey 12oz 2 $13.98\nSubtotal $13.98\nTax ($13.98 @ 7.75%) $1.08\nTotal Tax $1.08\nTotal $15.06\nPAYMENTS\nCredit Card\nCard Num: 5661\nType: MASTERCARD\nEntry: PROXIMITY\nApproval: 83522Z\nID: 6852465469\nAID: A0000000041010\nApplication Label: MASTERCARD\n$15.06\nVisit us on the web at\nwww.justfoodfordogs.com\nHas JustFoodForDogs transformed your pet's\nhealth? We want to hear about it!\nSend your pet's testimonial and photo to\nmorelife@justfoodfordogs.com\nThank You Mary Dredge!\n2 200060 220945\nTRANSACTION DETAILS\n00\nDate: 05/25/2026 1:59 pm\nAuth Code: 83522Z\nAID: A0000000041010\n$15.06",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10340.004042,
+        "totalUsd": 0.02505,
+        "inputTokens": 3692,
+        "outputTokens": 761,
+        "reasoningTokens": 1407
+      },
+      "fields": {
+        "storeName": {
+          "value": "JustFood ForDogs",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "15.06",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:59 pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92130",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3485 Del Mar Heights Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5661",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JustFresh Turkey 12oz",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "JustFood\nForDogs\n\n3485 Del Mar Heights Rd\nSan Diego, California, 92130\nUnited States\n858-252-7222\n\nSales Receipt\n05/25/2026 1:59 pm\n\nTicket: 220006022094\nRegister: POS 2\nEmployee: Sophie\nCustomer: Mary Dredge\n\nItems # Price\nJustFresh Turkey 12oz 2 $13.98\nSubtotal $13.98\nTax ($13.98 @ 7.75%) $1.08\nTotal Tax $1.08\nTotal $15.06\n\nPAYMENTS\nCredit Card\nCard Num: 5661\nType: MASTERCARD\nEntry: PROXIMITY\nApproval: 83522Z\nID: 6852465469\nAID: A0000000041010\nApplication Label: MASTERCARD\n$15.06\n\nVisit us on the web at\nwww.justfoodfordogs.com\n\nHas JustFoodForDogs transformed your pet's\nhealth? We want to hear about it!\nSend your pet's testimonial and photo to\nmorelife@justfoodfordogs.com\n\nThank You Mary Dredge!\n\n2 200060 220945\n\nTRANSACTION DETAILS\n\n00\n$15.06\nDate: 05/25/2026 1:59 pm\nAuth Code: 83522Z\nAID: A0000000041010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5126.828874999999,
+        "totalUsd": 0.012216,
+        "inputTokens": 3692,
+        "outputTokens": 742,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "JustFoodForDogs",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "15.06",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:59 pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92130",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3485 Del Mar Heights Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5661",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JustFresh Turkey 12oz",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "JustFood\nForDogs\n3485 Del Mar Heights Rd\nSan Diego, California, 92130\nUnited States\n858-252-7222\nSales Receipt\n05/25/2026 1:59 pm\nTicket: 220006022094\nRegister: POS 2\nEmployee: Sophie\nCustomer: Mary Dredge\nItems\n# Price\nJustFresh Turkey 12oz\n2 $13.98\nSubtotal $13.98\nTax ($13.98 @ 7.75%) $1.08\nTotal Tax $1.08\nTotal $15.06\nPAYMENTS\nCredit Card\nCard Num: 5661\nType: MASTERCARD\nEntry: PROXIMITY\nApproval: 83522Z\nID: 6852465469\nAID: A0000000041010\nApplication Label: MASTERCARD\n$15.06\nVisit us on the web at\nwww.justfoodfordogs.com\nHas JustFoodForDogs transformed your pet's\nhealth? We want to hear about it!\nSend your pet's testimonial and photo to\nmorelife@justfoodfordogs.com\nThank You Mary Dredge!\n2 200060 220945\nTRANSACTION DETAILS\n00\nDate:\nAuth Code:\nAID:\n$15.06\n05/25/2026 1:59 pm\n83522Z\nA0000000041010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JustFresh Turkey 12oz 2 $13.98",
+      "price": 13.98,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Subtotal $13.98",
+      "price": 13.98,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Tax ($13.98 @ 7.75%) $1.08",
+      "price": 1.08,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Total Tax $1.08",
+      "price": 1.08,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Total $15.06",
+      "price": 15.06,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Entry  PROXIMITY $15.06",
+      "price": 15.06,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Date  $15.06",
+      "price": 15.06,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

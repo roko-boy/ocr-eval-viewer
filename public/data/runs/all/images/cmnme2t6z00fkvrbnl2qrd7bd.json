@@ -1,0 +1,270 @@
+{
+  "id": "cmnme2t6z00fkvrbnl2qrd7bd",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "f'real",
+  "amount": 2.3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "13.98",
+    "purchaseDate": "2026-04-05",
+    "time": null,
+    "zipCode": "44094",
+    "city": "Willoughby",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8789.848373999994,
+        "totalUsd": 0.015051,
+        "inputTokens": 6086,
+        "outputTokens": 658,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:13:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44094",
+          "status": "match"
+        },
+        "city": {
+          "value": "Willoughby",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6035 Som Center Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Curly Fryz Cup",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ULTIMATE Shtacked Burger + + Sh'tacked Burger Patty + + Sh'tacked Burger Patty + + Pretzel Roll + + TOASTED + + Add Onion Petals + + Pepper Jack Cheese + + Pepper Jack Cheese + + BBQ Sauce + + Mayonnaise + + Pickles",
+          "quantity": 1,
+          "unitPrice": 9.39,
+          "totalSpend": 9.39,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Please pay using SheetzGO! in the app\nor at the register\nbefore picking up your order\nSheetz #693\n6035 Som Center Road\nWilloughby, OH 44094\n(440) 833-4349\n4/5/2026 7:13:05 PM\nOrder Number: 288\n*****ORDER STORED*****\nCurly Fryz Cup $4.59\nULTIMATE Shtacked Burger $7.49\n+ Sh'tacked Burger Patty\n+ Sh'tacked Burger Patty\n+ Pretzel Roll $0.70\n+ TOASTED\n+ Add Onion Petals $1.20\n+ Pepper Jack Cheese\n+ Pepper Jack Cheese\n+ BBQ Sauce\n+ Mayonnaise\n+ Pickles\nBalance Due $13.98\n0010000056092889\n********************************\n* R U Friendly n Dependable? *\n* Apply at www.sheetz.com *\n********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8776.358458999995,
+        "totalUsd": 0.019713,
+        "inputTokens": 3692,
+        "outputTokens": 638,
+        "reasoningTokens": 937
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:13:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44094",
+          "status": "match"
+        },
+        "city": {
+          "value": "Willoughby",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6035 Som Center Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Curly Fryz Cup",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ULTIMATE Shtacked Burger + Sh'tacked Burger Patty + Sh'tacked Burger Patty + Pretzel Roll + TOASTED + Add Onion Petals + Pepper Jack Cheese + Pepper Jack Cheese + BBQ Sauce + Mayonnaise + Pickles",
+          "quantity": 1,
+          "unitPrice": 9.39,
+          "totalSpend": 9.39,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Please pay using SheetzGO! in the app\nor at the register\nbefore picking up your order\nSheetz #693\n6035 Som Center Road\nWilloughby, OH 44094\n(440) 833-4349\n4/5/2026 7:13:05 PM\nOrder Number: 288\n*****ORDER STORED*****\nCurly Fryz Cup $4.59\nULTIMATE Shtacked Burger $7.49\n+ Sh'tacked Burger Patty\n+ Sh'tacked Burger Patty\n+ Pretzel Roll $0.70\n+ TOASTED\n+ Add Onion Petals $1.20\n+ Pepper Jack Cheese\n+ Pepper Jack Cheese\n+ BBQ Sauce\n+ Mayonnaise\n+ Pickles\nBalance Due $13.98\n0010000056092889\n*********************************\n* R U Friendly n Dependable? *\n* Apply at www.sheetz.com *\n*********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4380.851333000002,
+        "totalUsd": 0.011271,
+        "inputTokens": 3692,
+        "outputTokens": 637,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:13:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44094",
+          "status": "match"
+        },
+        "city": {
+          "value": "Willoughby",
+          "status": "match"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6035 Som Center Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Curly Fryz Cup",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ULTIMATE Shtacked Burger + Sh'tacked Burger Patty + Sh'tacked Burger Patty + Pretzel Roll + TOASTED + Add Onion Petals + Pepper Jack Cheese + Pepper Jack Cheese + BBQ Sauce + Mayonnaise + Pickles",
+          "quantity": 1,
+          "unitPrice": 9.39,
+          "totalSpend": 9.39,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Please pay using SheetzGO! in the app\nor at the register\nbefore picking up your order\nSheetz #693\n6035 Som Center Road\nWilloughby, OH 44094\n(440) 833-4349\n4/5/2026 7:13:05 PM\nOrder Number: 288\n*****ORDER STORED*****\nCurly Fryz Cup $4.59\nULTIMATE Shtacked Burger $7.49\n+ Sh'tacked Burger Patty\n+ Sh'tacked Burger Patty\n+ Pretzel Roll $0.70\n+ TOASTED\n+ Add Onion Petals $1.20\n+ Pepper Jack Cheese\n+ Pepper Jack Cheese\n+ BBQ Sauce\n+ Mayonnaise\n+ Pickles\nBalance Due $13.98\n0010000056092889\n********************************\n* RU Friendly n Dependable? *\n* Apply at www.sheetz.com *\n********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Curly Fryz Cup",
+      "price": 4.59,
+      "quantity": 1,
+      "totalSpend": 4.59
+    },
+    {
+      "text": "ULTIMATE Shtacked Burger",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmphr8s8a0041dpxtnnhdb0fl",
+  "url": null,
+  "retailer": "Maverik Adventure's First Stop",
+  "brand": "f'real",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "4.29",
+    "purchaseDate": "2026-05-22",
+    "time": null,
+    "zipCode": "84601",
+    "city": "Provo",
+    "state": "UT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8439.647042000026,
+        "totalUsd": 0.015672,
+        "inputTokens": 6086,
+        "outputTokens": 727,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Provo",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1410 S University",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2055",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL MLKSHK CTN CNDY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nProvo | #321\n1410 S University\nProvo, UT 84601\n05-22-2026 08:44 PM Invoice # 321005987599\nPURCHASE\nDESC QTY AMNT\nFREAL MLKSHK CTN CNDY 1 $3.99 A\nSUB-TOTAL $3.99\nSALES TAX 7.45% (A) $0.30\nTOTAL PURCHASES $4.29\nMASTERCARD XXXXXXXXXXXX2055\nContactless\nAmount Tendered $4.29\nPayment Network:03\nAID: A0000000041010\nAUTH # 03251W\nNo CVM\nMode: Issuer\nMID **7188 TID 001\nSequence # 804058\nIAD: 0214A04303A20000000000000000000000FF\nTVR: 0000008001\nARC: Z3\nItems Sold = 1\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202614259875990000000321\n321 1 self2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 5931.990249999973,
+        "totalUsd": 0.014394,
+        "inputTokens": 3692,
+        "outputTokens": 726,
+        "reasoningTokens": 258
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Provo",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1410 S University",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2055",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL MLKSHK CTN CNDY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nProvo | #321\n1410 S University\nProvo, UT 84601\n05-22-2026 08:44 PM Invoice # 321005987599\nPURCHASE\nDESC\nQTY AMNT\nFREAL MLKSHK CTN CNDY\n1 $3.99 A\nSUB-TOTAL\n$3.99\nSALES TAX 7.45% (A)\n$0.30\nTOTAL PURCHASES\n$4.29\nMASTERCARD XXXXXXXXXXXX2055\nContactless\nAmount Tendered\n$4.29\nPayment Network:03\nAID: A0000000041010\nAUTH # 03251W\nNo CVM\nMode: Issuer\nMID **7188 TID 001\nSequence # 804058\nIAD: 0214A04303A200000000000000000000FF\nTVR: 0000008001\nARC: Z3\nItems Sold = 1\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202614259875990000000321\n321\n1\nself2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5179.840041999996,
+        "totalUsd": 0.011982,
+        "inputTokens": 3692,
+        "outputTokens": 716,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Provo",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1410 S University",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2055",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL MLKSHK CTN CNDY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nProvo | #321\n1410 S University\nProvo, UT 84601\n05-22-2026 08:44 PM Invoice # 321005987599\nPURCHASE\nDESC QTY AMNT\nFREAL MLKSHK CTN CNDY 1 $3.99 A\nSUB-TOTAL $3.99\nSALES TAX 7.45% (A) $0.30\nTOTAL PURCHASES $4.29\nMASTERCARD XXXXXXXXXXXX2055\nContactless\nAmount Tendered $4.29\nPayment Network:03\nAID: A0000000041010\nAUTH # 03251W\nNo CVM\nMode: Issuer\nMID **7188 TID 001\nSequence # 804058\nIAD: 0214A04303A20000000000000000000000FF\nTVR: 0000008001\nARC: Z3\nItems Sold = 1\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202614259875990000000321\n321 1 self2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FREAL MLKSHK CTN CNDY",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,325 @@
+{
+  "id": "cmnlhv0tl001cl2989desyxbl",
+  "url": null,
+  "retailer": "Minit Stop",
+  "brand": "f'real",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Minit Stop",
+    "totalCost": "15.09",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "96761",
+    "city": "Lahaina",
+    "state": "HI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6150.962791999998,
+        "totalUsd": 0.015708,
+        "inputTokens": 6086,
+        "outputTokens": 731,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Minit Stop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:23:10 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "96761",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lahaina",
+          "status": "match"
+        },
+        "state": {
+          "value": "HI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 Kupuohi Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9909",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Snack Attack Chic",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Spam Musubi",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FReal Ctn Candy 1",
+          "quantity": 1,
+          "unitPrice": 5.24,
+          "totalSpend": 5.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Minit Stop Alt ID",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Minit Stop Rewards",
+          "quantity": 1,
+          "unitPrice": -0.8,
+          "totalSpend": -0.8,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "minit stop\n10 Kupuohi Street\nLahaina, HI 96761\n(808) 667-0737\n4/3/2026 9:23:10 PM\nDescription Qty Price Amount\nSnack Attack Chic 1 4.39\nSpam Musubi 2 2.79 5.58\nFReal Ctn Candy 1 1 5.24\nMinit Stop Alt ID 1 0.00\nMinit Stop Rewards -$0.80\nSub Total 14.41\nTax 0.68\nTotal $15.09\nSALE\nVisa: $15.09\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9909\nContactless\nTerminal : XXXXXXXXXX0001\nApproval : 022309\nSequence : 018763",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11423.685375,
+        "totalUsd": 0.023547,
+        "inputTokens": 3692,
+        "outputTokens": 624,
+        "reasoningTokens": 1377
+      },
+      "fields": {
+        "storeName": {
+          "value": "Minit Stop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:23:10 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "96761",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lahaina",
+          "status": "match"
+        },
+        "state": {
+          "value": "HI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 Kupuohi Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9909",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Snack Attack Chic",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Spam Musubi",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FReal Ctn Candy 1",
+          "quantity": 1,
+          "unitPrice": 5.24,
+          "totalSpend": 5.24,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "minit stop\n10 Kupuohi Street\nLahaina, HI 96761\n(808) 667-0737\n4/3/2026 9:23:10 PM\nDescription Qty Price Amount\nSnack Attack Chic 1 4.39\nSpam Musubi 2 2.79 5.58\nFReal Ctn Candy 1 1 5.24\nMinit Stop Alt ID 1 0.00\nMinit Stop Rewards -$0.80\nSub Total 14.41\nTax 0.68\nTotal $15.09\nSALE\nVisa: $15.09\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9909\nContactless\nTerminal : XXXXXXXXXX0001\nApproval : 022309\nSequence : 018763",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4680.913416999998,
+        "totalUsd": 0.011973,
+        "inputTokens": 3692,
+        "outputTokens": 715,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Minit Stop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.09",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:23:10 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "96761",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lahaina",
+          "status": "match"
+        },
+        "state": {
+          "value": "HI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 Kupuohi Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9909",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Snack Attack Chic",
+          "quantity": 1,
+          "unitPrice": 4.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Spam Musubi",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 5.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FReal Ctn Candy 1",
+          "quantity": 1,
+          "unitPrice": 5.24,
+          "totalSpend": 5.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Minit Stop Alt ID",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Minit Stop Rewards",
+          "quantity": 1,
+          "unitPrice": -0.8,
+          "totalSpend": -0.8,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "minit stop\n10 Kupuohi Street\nLahaina, HI 96761\n(808) 667-0737\n4/3/2026\n9:23:10 PM\nDescription Qty Price Amount\nSnack Attack Chic 1 4.39\nSpam Musubi 2 2.79 5.58\nFReal Ctn Candy 1 5.24\nMinit Stop Alt ID 1 0.00\nMinit Stop Rewards -$0.80\nSub Total 14.41\nTax 0.68\nTotal $15.09\nSALE\nVisa: $15.09\nChange $0.00\nSale\nVisa\nCard Num: XXXXXXXXXXXX9909\nContactless\nTerminal: XXXXXXXXXX0001\nApproval: 022309\nSequence: 018763",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Snack Attack Chic",
+      "price": 4.39,
+      "quantity": 1,
+      "totalSpend": 4.39
+    },
+    {
+      "text": "Spam Musubi",
+      "price": 2.79,
+      "quantity": 2,
+      "totalSpend": 5.58
+    },
+    {
+      "text": "FReal Ctn Candy 1",
+      "price": 5.24,
+      "quantity": 1,
+      "totalSpend": 5.24
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

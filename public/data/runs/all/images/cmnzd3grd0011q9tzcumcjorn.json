@@ -1,0 +1,297 @@
+{
+  "id": "cmnzd3grd0011q9tzcumcjorn",
+  "url": null,
+  "retailer": "Maverik Adventure's First Stop",
+  "brand": "Pepsi Food Service",
+  "amount": 3.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "5.29",
+    "purchaseDate": "2026-04-14",
+    "time": null,
+    "zipCode": "99004",
+    "city": "Cheney",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9144.31925000003,
+        "totalUsd": 0.017466,
+        "inputTokens": 6124,
+        "outputTokens": 920,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "99004",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cheney",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2827 First St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9446",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI 20z DIET MAX",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOT DOG",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL LAYS CHDR SC 1.5z + $5 MEAL DEAL ROLLER GRIL",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": -1.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nCheney | #454\n2827 First St\nCheney, WA 99004\n04-14-2026 05:44 PM Invoice # 454007592423\nPURCHASE\nAdventure Club XXXXXXXXXX8443\nDESC QTY AMNT\nPEPSI 20z DIET MAX 1 $3.19 A\nHOT DOG 1 $3.79 A\nFL LAYS CHDR SC 1.5z 1 $1.79 N\n$5 MEAL DEAL ROLLER GRIL $3.77-\nSUB-TOTAL $5.00\nSALES TAX 8.9% (A) $0.29\nTOTAL PURCHASES $5.29\nUS DEBIT XXXXXXXXXXXX9446\nContactless\nAmount Tendered $5.29\nPayment Network:02\nAID: A0000000980840\nAUTH # 720059\nNo CVM\nMode: Issuer\nMID **3148 TID 001\nSequence # 265863\nIAD: 06011203A00000\nTVR: 0000000000\nARC: Z3\nItems Sold = 3\nCard #: **208443\nAdventure Club\nPoints Earned 10\nPoints Balance 169\nSee App for Additional Rewards Details\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202610475924230000000454\n454 1 self3",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17420.49691699998,
+        "totalUsd": 0.0377145,
+        "inputTokens": 3711,
+        "outputTokens": 966,
+        "reasoningTokens": 2606
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "99004",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cheney",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2827 First St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9446",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI 20z DIET MAX",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOT DOG",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL LAYS CHDR SC 1.5z + $5 MEAL DEAL ROLLER GRIL",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": -1.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "MAVERIK\n\nMaverik Inc.\nCheney | #454\n2827 First St\nCheney, WA 99004\n\n04-14-2026 05:44 PM  Invoice #  454007592423\n                     PURCHASE\n\nAdventure Club             XXXXXXXX8443\n\nDESC                         QTY    AMNT\n\nPEPSI 20z DIET MAX             1   $3.19 A\nHOT DOG                        1   $3.79 A\nFL LAYS CHDR SC 1.5z           1   $1.79 N\n  $5 MEAL DEAL ROLLER GRIL         $3.77-\n\n     SUB-TOTAL                     $5.00\n     SALES TAX 8.9% (A)            $0.29\n     TOTAL PURCHASES               $5.29\n\nUS DEBIT XXXXXXXXXXXX9446\nContactless\nAmount Tendered                    $5.29\nPayment Network:02\nAID: A00000000980840\nAUTH # 720059\nNo CVM\nMode: Issuer\nMID **3148 TID 001\nSequence # 265863\nIAD: 06011203A00000\nTVR: 0000000000\nARC: Z3\n\n           Items Sold = 3\n\nCard #: **208443\nAdventure Club\n----------------------------------------\nPoints Earned                         10\nPoints Balance                       169\n\n     See App for Additional Rewards Details\n\n         Thanks for fueling your\n          adventure at Maverik\n\nCustomer Service 1-800-789-4455\n\n202610475924230000000454\n454       1                    self3",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5693.142332999996,
+        "totalUsd": 0.0138015,
+        "inputTokens": 3711,
+        "outputTokens": 915,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "99004",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cheney",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2827 First St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9446",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI 20z DIET MAX",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOT DOG + $5 MEAL DEAL ROLLER GRIL",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0.02,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FL LAYS CHDR SC 1.5z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nMaverik Inc.\nCheney | #454\n2827 First St\nCheney, WA 99004\n04-14-2026 05:44 PM Invoice # 454007592423\nPURCHASE\nAdventure Club\nXXXXXXXXX8443\nDESC QTY AMNT\nPEPSI 20z DIET MAX 1 $3.19 A\nHOT DOG 1 $3.79 A\nFL LAYS CHDR SC 1.5z 1 $1.79 N\n$5 MEAL DEAL ROLLER GRIL $3.77-\nSUB-TOTAL $5.00\nSALES TAX 8.9% (A) $0.29\nTOTAL PURCHASES $5.29\nUS DEBIT XXXXXXXXXXXX9446\nContactless\nAmount Tendered $5.29\nPayment Network:02\nAID: A0000000980840\nAUTH # 720059\nNo CVM\nMode: Issuer\nMID **3148 TID 001\nSequence # 265863\nIAD: 06011203A00000\nTVR: 0000000000\nARC: Z3\nItems Sold = 3\nCard #: **208443\nAdventure Club\nPoints Earned 10\nPoints Balance 169\nSee App for Additional Rewards Details\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202610475924230000000454\n454 1 self3",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PEPSI 20z DIET MAX",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    },
+    {
+      "text": "HOT DOG",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "FL LAYS CHDR SC 1.5z",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

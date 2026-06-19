@@ -1,0 +1,729 @@
+{
+  "id": "cmouqjj6h00ihf7iwopgoo8dc",
+  "url": null,
+  "retailer": "Food Lion",
+  "brand": "Clearly Canadian",
+  "amount": 7.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Food Lion",
+    "totalCost": "79.63",
+    "purchaseDate": "2026-05-06",
+    "time": null,
+    "zipCode": "23970",
+    "city": "South Hill",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 24604.45666699999,
+        "totalUsd": 0.029469,
+        "inputTokens": 6086,
+        "outputTokens": 2260,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Food Lion",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "79.63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:13:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "South Hill",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "715 E. Atlantic Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FL TEXAS GARLC TOAST M",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL HALF & HALF 64 OZ",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL PARME FANCY SHRED + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL PARME FANCY SHRED + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL HEAVY WHIP CREAM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL BROCCOLI FLORETS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIGO SHAVED PARM CH",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAGU GRLC PRMSN SCE",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PREGO HS ALFREDO SCE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLRLY CAN WILD CHRRY M",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLRLY CAN ORCHRD PCH M",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLRY CAN SMR STRWBRY M",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRFT PARM GRATED",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HF ANDOUILL SMK SAUS M",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NP TENDERLOINS M",
+          "quantity": 1,
+          "unitPrice": 12.1,
+          "totalSpend": 6.46,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NP TENDERLOINS M",
+          "quantity": 1,
+          "unitPrice": 10.42,
+          "totalSpend": 10.42,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NPR GRLD CHKN STRIPS M",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FE CHOPPED KIT CEASR M + 1 @ 2 FOR 8.58",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 3.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FE CHOPPED KIT CEASR M + 1 @ 2 FOR 8.58",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 3.5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "FOOD LION\nFood Lion #2622 (434) 774-2931\n715 E. Atlantic Street South Hill, VA\nFROZEN/DAIRY\nFL TEXAS GARLC TOAST M 2.49 A *\nFL HALF & HALF 64 OZ 5.79 A *\nFL PARME FANCY SHRED\n1 @ 2 FOR 5.00 2.50 A *\nFL PARME FANCY SHRED\n1 @ 2 FOR 5.00 2.50 A *\nFL HEAVY WHIP CREAM 5.49 A *\nFL BROCCOLI FLORETS 5.99 A *\nFRIGO SHAVED PARM CH 3.99 A *\nGROCERY\nRAGU GRLC PRMSN SCE 2.49 A *\nPREGO HS ALFREDO SCE 3.49 A *\nCLRLY CAN WILD CHRRY M 7.99 A *\nCLRLY CAN ORCHRD PCH M 7.99 A *\nCLRY CAN SMR STRWBRY M 7.99 A *\nKRFT PARM GRATED 2.99 A *\nMEAT\nHF ANDOUILL SMK SAUS M 5.49 A *\nNP TENDERLOINS M 12.10 A *\nNP TENDERLOINS M 10.42 A *\nNPR GRLD CHKN STRIPS M 3.99 A *\nPRODUCE\nFE CHOPPED KIT CEASR M\n1 @ 2 FOR 8.58 4.29 A *\nFE CHOPPED KIT CEASR M\n1 @ 2 FOR 8.58 4.29 A *\nCOUPONS\nVendor Coupon -7.99 *\nCoupons 7.99\nSavings\nYou saved:\nFL TEXAS GARLC TOAST -0.30\nHF ANDOUILL SMK SAUS -1.00\nCLRLY CAN WILD CHRRY -2.00\nCLRLY CAN ORCHRD PCH -2.00\nCLRY CAN SMR STRWBRY -2.00\nFE CHOPPED KIT CEASR -1.58\nNP TENDERLOINS -5.64\nNPR GRLD CHKN STRIPS -1.00\nTax Paid\n1.00% Tax 1 86.75 0.87\n19 BALANCE DUE 79.63\nCash 80.00\nCHANGE 0.37\nYou saved $23.51!\n* Year to Date\n* Savings 642.60\n***********************************\nHow was your visit?\nTake our survey to help us improve.\nWithin the next 5 days please visit:\nwww.TalkToFoodLion.com\nTambién disponible en español.\nUse the PIN # below to start:\nPIN:0506262200040241\n***********************************\nLoyalty Customer 46156427390\nSTORE:02622 REGISTER:004 CASHIER:0210\nTICKET#:0241 6MAY2026 20:13:47\nwww.foodlion.com\nCUSTOMER SERVICE 1-800-210-9569",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 58308.38079199998,
+        "totalUsd": 0.115167,
+        "inputTokens": 3692,
+        "outputTokens": 2318,
+        "reasoningTokens": 9863
+      },
+      "fields": {
+        "storeName": {
+          "value": "Food Lion",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "79.63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "20:13:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "South Hill",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "715 E. Atlantic Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FL TEXAS GARLC TOAST M",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL HALF & HALF 64 OZ",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL PARME FANCY SHRED + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL PARME FANCY SHRED + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL HEAVY WHIP CREAM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL BROCCOLI FLORETS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIGO SHAVED PARM CH",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAGU GRLC PRMSN SCE",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PREGO HS ALFREDO SCE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLRLY CAN WILD CHRRY M",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLRLY CAN ORCHRD PCH M",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLRY CAN SMR STRWBRY M",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRFT PARM GRATED",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HF ANDOUILL SMK SAUS M",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NP TENDERLOINS M",
+          "quantity": 1,
+          "unitPrice": 12.1,
+          "totalSpend": 6.46,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NP TENDERLOINS M",
+          "quantity": 1,
+          "unitPrice": 10.42,
+          "totalSpend": 10.42,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NPR GRLD CHKN STRIPS M",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FE CHOPPED KIT CEASR M + 1 @ 2 FOR 8.58",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 2.71,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FE CHOPPED KIT CEASR M + 1 @ 2 FOR 8.58",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "FOOD LION\nFood Lion #2622 (434) 774-2931\n715 E. Atlantic Street South Hill, VA\n\nFROZEN/DAIRY\n  FL TEXAS GARLC TOAST M       2.49 A *\n  FL HALF & HALF 64 OZ         5.79 A *\n  FL PARME FANCY SHRED\n    1 @ 2 FOR     5.00         2.50 A *\n  FL PARME FANCY SHRED\n    1 @ 2 FOR     5.00         2.50 A *\n  FL HEAVY WHIP CREAM          5.49 A *\n  FL BROCCOLI FLORETS          5.99 A *\n  FRIGO SHAVED PARM CH         3.99 A *\nGROCERY\n  RAGU GRLC PRMSN SCE          2.49 A *\n  PREGO HS ALFREDO SCE         3.49 A *\n  CLRLY CAN WILD CHRRY M       7.99 A *\n  CLRLY CAN ORCHRD PCH M       7.99 A *\n  CLRY CAN SMR STRWBRY M       7.99 A *\n  KRFT PARM GRATED             2.99 A *\nMEAT\n  HF ANDOUILL SMK SAUS M       5.49 A *\n  NP TENDERLOINS       M      12.10 A *\n  NP TENDERLOINS       M      10.42 A *\n  NPR GRLD CHKN STRIPS M       3.99 A *\nPRODUCE\n  FE CHOPPED KIT CEASR M\n    1 @ 2 FOR     8.58         4.29 A *\n  FE CHOPPED KIT CEASR M\n    1 @ 2 FOR     8.58         4.29 A *\nCOUPONS\n  Vendor Coupon               -7.99   *\n\nCoupons                        7.99\n\nSavings\nYou saved:\n  FL TEXAS GARLC TOAST        -0.30\n  HF ANDOUILL SMK SAUS        -1.00\n  CLRLY CAN WILD CHRRY        -2.00\n  CLRLY CAN ORCHRD PCH        -2.00\n  CLRY CAN SMR STRWBRY        -2.00\n  FE CHOPPED KIT CEASR        -1.58\n  NP TENDERLOINS              -5.64\n  NPR GRLD CHKN STRIPS        -1.00\n\nTax Paid\n1.00% Tax 1          86.75     0.87\n 19 BALANCE DUE               79.63\n    Cash                      80.00\n    CHANGE                     0.37\n   You saved   $23.51!\n * Year to Date\n * Savings 642.60\n****************************************\n          How was your visit?\n     Take our survey to help us improve.\n     Within the next 5 days please visit:\n          www.TalkToFoodLion.com\n     También disponible en español.\n     Use the PIN # below to start:\n PIN:0506262200040241\n****************************************\nLoyalty Customer  46156427390\n\nSTORE:02622 REGISTER:004 CASHIER:0210\nTICKET#:0241      16MAY2026 20:13:47\n\n          www.foodlion.com\n    CUSTOMER SERVICE 1-800-210-9569",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10937.438542,
+        "totalUsd": 0.025662,
+        "inputTokens": 3692,
+        "outputTokens": 2236,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Food Lion",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "79.63",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-06",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:13:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "South Hill",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "715 E. Atlantic Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FL TEXAS GARLC TOAST",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL HALF & HALF 64 OZ",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL PARME FANCY SHRED + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL PARME FANCY SHRED + 1 @ 2 FOR 5.00",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL HEAVY WHIP CREAM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL BROCCOLI FLORETS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRIGO SHAVED PARM CH",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAGU GRLC PRMSN SCE",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PREGO HS ALFREDO SCE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLRLY CAN WILD CHRRY",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLRLY CAN ORCHRD PCH",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLRY CAN SMR STRWBRY",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRFT PARM GRATED",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HF ANDOUILL SMK SAUS",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NP TENDERLOINS",
+          "quantity": 1,
+          "unitPrice": 12.1,
+          "totalSpend": 6.46,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NP TENDERLOINS",
+          "quantity": 1,
+          "unitPrice": 10.42,
+          "totalSpend": 10.42,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NPR GRLD CHKN STRIPS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FE CHOPPED KIT CEASR + 1 @ 2 FOR 8.58",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 2.71,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FE CHOPPED KIT CEASR + 1 @ 2 FOR 8.58",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "FOOD LION\nFood Lion #2622 (434) 774-2931\n715 E. Atlantic Street South Hill, VA\nFROZEN/DAIRY\nFL TEXAS GARLC TOAST M 2.49 A *\nFL HALF & HALF 64 OZ 5.79 A *\nFL PARME FANCY SHRED\n1 @ 2 FOR 5.00 2.50 A *\nFL PARME FANCY SHRED\n1 @ 2 FOR 5.00 2.50 A *\nFL HEAVY WHIP CREAM 5.49 A *\nFL BROCCOLI FLORETS 5.99 A *\nFRIGO SHAVED PARM CH 3.99 A *\nGROCERY\nRAGU GRLC PRMSN SCE 2.49 A *\nPREGO HS ALFREDO SCE 3.49 A *\nCLRLY CAN WILD CHRRY M 7.99 A *\nCLRLY CAN ORCHRD PCH M 7.99 A *\nCLRY CAN SMR STRWBRY M 7.99 A *\nKRFT PARM GRATED 2.99 A *\nMEAT\nHF ANDOUILL SMK SAUS M 5.49 A *\nNP TENDERLOINS M 12.10 A *\nNP TENDERLOINS M 10.42 A *\nNPR GRLD CHKN STRIPS M 3.99 A *\nPRODUCE\nFE CHOPPED KIT CEASR M\n1 @ 2 FOR 8.58 4.29 A *\nFE CHOPPED KIT CEASR M\n1 @ 2 FOR 8.58 4.29 A *\nCOUPONS\nVendor Coupon -7.99 *\nCoupons 7.99\nSavings\nYou saved:\nFL TEXAS GARLC TOAST -0.30\nHF ANDOUILL SMK SAUS -1.00\nCLRLY CAN WILD CHRRY -2.00\nCLRLY CAN ORCHRD PCH -2.00\nCLRY CAN SMR STRWBRY -2.00\nFE CHOPPED KIT CEASR -1.58\nNP TENDERLOINS -5.64\nNPR GRLD CHKN STRIPS -1.00\nTax Paid\n1.00% Tax 1 86.75 0.87\n19 BALANCE DUE 79.63\nCash 80.00\nCHANGE 0.37\nYou saved $23.51!\n* Year to Date\n* Savings 642.60\n****************************************\nHow was your visit?\nTake our survey to help us improve.\nWithin the next 5 days please visit:\nwww.TalkToFoodLion.com\nTambién disponible en español.\nUse the PIN # below to start:\nPIN:0506262200040241\n****************************************\nLoyalty Customer 46156427390\nSTORE:02622 REGISTER:004 CASHIER:0210\nTICKET#:0241 6MAY2026 20:13:47\nwww.foodlion.com\nCUSTOMER SERVICE 1-800-210-9569",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FL TEXAS GARLC TOAST",
+      "price": 2.19,
+      "quantity": 1,
+      "totalSpend": 2.19
+    },
+    {
+      "text": "FL HALF & HALF 64 OZ",
+      "price": 5.79,
+      "quantity": 1,
+      "totalSpend": 5.79
+    },
+    {
+      "text": "FL PARME FANCY SHRED + 1 @ 2 FOR 5.00 2.50A*",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "FL PARME FANCY SHRED + 1 @ 2 FOR 5.00 2.50 A*",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "FL HEAVY WHIP CREAM",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "FL BROCCOLI FLORETS",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "FRIGO SHAVED PARM CH + GROCERY",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "RAGU GRLC PRMSN SCE",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "PREGO HS ALFREDO SCE",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "CLRLY CAN WILD CHRRY",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "CLRLY CAN ORCHRD PCH",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "CLRY CAN SMR STRWBRY",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "KRFT PARM GRATED + MEAT",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "HF ANDOUILL SMK SAUS",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "NP TENDERLOINS",
+      "price": 12.1,
+      "quantity": 1,
+      "totalSpend": 12.1
+    },
+    {
+      "text": "NP TENDERLOINS",
+      "price": 4.78,
+      "quantity": 1,
+      "totalSpend": 4.78
+    },
+    {
+      "text": "NPR GRLD CHKN STRIPS + PRODUCE",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "FE CHOPPED KIT CEASR + 1 @ 2 FOR 8.58 4.29 A *",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 4.29
+    },
+    {
+      "text": "FE CHOPPED KIT CEASR + 1 @ 2 FOR 8.58 4.29 A* + COUPONS",
+      "price": 2.71,
+      "quantity": 1,
+      "totalSpend": 2.71
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

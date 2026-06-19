@@ -1,0 +1,378 @@
+{
+  "id": "cmp8kjxfv01nkmo4ml9sejgj4",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "Brutus Bone Broth",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "47.83",
+    "purchaseDate": "2026-05-16",
+    "time": null,
+    "zipCode": "10941",
+    "city": "Middletown",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9316.34487500001,
+        "totalUsd": 0.01947,
+        "inputTokens": 6086,
+        "outputTokens": 1149,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "47.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10941",
+          "status": "match"
+        },
+        "city": {
+          "value": "MIDDLETOWN",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "600 N GALLERIA DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0516",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "004622587 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622579 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004777343 NAV-DOG 3Z FRESHDRIE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004556073 BTH-DOG 16.9FL OZ BF",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003838870 NYL-DOG 3.3Z 4CT BEE",
+          "quantity": 1,
+          "unitPrice": 8.29,
+          "totalSpend": 8.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003874862 MBN-DOG 24OZ MED ORI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nNY-MIDDLETOWN #00725\n600 N GALLERIA DR\nMIDDLETOWN, NY 10941\n845-692-6691\n05/16/26 12:32PM Reg 001 Trans 259630\nHelped by Paige\n004622587 NAV-DOG 8Z FRESHRAW 6.99 T\n004622579 NAV-DOG 8Z FRESHRAW 6.99 T\n004777343 NAV-DOG 3Z FRESHDRIE 9.99 T\n004556073 BTH-DOG 16.9FL OZ BF 6.99 T\n003838870 NYL-DOG 3.3Z 4CT BEE 8.29 T\n003874862 MBN-DOG 24OZ MED ORI 4.99 T\nTaxable Total 44.24\nSubtotal 44.24\nTax NY 8.125% 3.59\nTOTAL 47.83\nAmerican Express Credit Card 47.83\n2026-05-16 12:32:46 PM\nTotal: USD $47.83\nAmex\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX0516\nPurchase - APPROVED\nAUTH CODE: 803572\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: E800\nARC: 00\nRFN: 554829",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13184.50829100003,
+        "totalUsd": 0.032079,
+        "inputTokens": 3692,
+        "outputTokens": 1140,
+        "reasoningTokens": 1809
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "47.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10941",
+          "status": "match"
+        },
+        "city": {
+          "value": "MIDDLETOWN",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "600 N GALLERIA DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0516",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "004622587 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622579 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004777343 NAV-DOG 3Z FRESHDRIE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004556073 BTH-DOG 16.9FL OZ BF",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003838870 NYL-DOG 3.3Z 4CT BEE",
+          "quantity": 1,
+          "unitPrice": 8.29,
+          "totalSpend": 8.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003874862 MBN-DOG 240Z MED ORI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nNY-MIDDLETOWN #00725\n600 N GALLERIA DR\nMIDDLETOWN, NY 10941\n845-692-6691\n05/16/26 12:32PM Reg 001 Trans 259630\nHelped by Paige\n004622587 NAV-DOG 8Z FRESHRAW 6.99 T\n004622579 NAV-DOG 8Z FRESHRAW 6.99 T\n004777343 NAV-DOG 3Z FRESHDRIE 9.99 T\n004556073 BTH-DOG 16.9FL OZ BF 6.99 T\n003838870 NYL-DOG 3.3Z 4CT BEE 8.29 T\n003874862 MBN-DOG 240Z MED ORI 4.99 T\nTaxable Total 44.24\nSubtotal 44.24\nTax NY 8.125% 3.59\nTOTAL 47.83\nAmerican Express Credit Card 47.83\n2026-05-16 12:32:46 PM\nTotal: USD $47.83\nAmex\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX0516\nPurchase - APPROVED\nAUTH CODE: 803572\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: E800\nARC: 00\nRFN: 554829",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6481.198875000002,
+        "totalUsd": 0.015807,
+        "inputTokens": 3692,
+        "outputTokens": 1141,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "47.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10941",
+          "status": "match"
+        },
+        "city": {
+          "value": "MIDDLETOWN",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "600 N GALLERIA DR",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0516",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "004622587 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622579 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004777343 NAV-DOG 3Z FRESHDRIE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004556073 BTH-DOG 16.9FL OZ BF",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003838870 NYL-DOG 3.3Z 4CT BEE",
+          "quantity": 1,
+          "unitPrice": 8.29,
+          "totalSpend": 8.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003874862 MBN-DOG 240Z MED ORI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nNY-MIDDLETOWN #00725\n600 N GALLERIA DR\nMIDDLETOWN, NY 10941\n845-692-6691\n05/16/26 12:32PM Reg 001 Trans 259630\nHelped by Paige\n004622587 NAV-DOG 8Z FRESHRAW 6.99 T\n004622579 NAV-DOG 8Z FRESHRAW 6.99 T\n004777343 NAV-DOG 3Z FRESHDRIE 9.99 T\n004556073 BTH-DOG 16.9FL OZ BF 6.99 T\n003838870 NYL-DOG 3.3Z 4CT BEE 8.29 T\n003874862 MBN-DOG 240Z MED ORI 4.99 T\nTaxable Total 44.24\nSubtotal 44.24\nTax NY 8.125% 3.59\nTOTAL 47.83\nAmerican Express Credit Card 47.83\n2026-05-16 12:32:46 PM\nTotal: USD $47.83\nAmex\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX0516\nPurchase - APPROVED\nAUTH CODE: 803572\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: E800\nARC: 00\nRFN: 554829",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NAV-DOG 8Z FRESHRAW + 004622587",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "NAV-DOG 8Z FRESHRAW + 004622579",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "NAV-DOG 3Z FRESHDRIE + 004777343",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "BTH-DOG 16.9FL OZ BF + 004556073",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "NYL-DOG 3.3Z 4CT BEE + 003838870",
+      "price": 8.29,
+      "quantity": 1,
+      "totalSpend": 8.29
+    },
+    {
+      "text": "MBN-DOG 24OZ MED ORI + 003874862",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

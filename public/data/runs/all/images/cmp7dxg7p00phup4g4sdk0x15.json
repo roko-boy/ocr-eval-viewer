@@ -1,0 +1,405 @@
+{
+  "id": "cmp7dxg7p00phup4g4sdk0x15",
+  "url": null,
+  "retailer": "QFC",
+  "brand": "Botticelli",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "QFC (Quality Food Centers)",
+    "totalCost": "11.79",
+    "purchaseDate": "2026-05-15",
+    "time": null,
+    "zipCode": "98011",
+    "city": "Bothell",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14093.979333,
+        "totalUsd": 0.020532,
+        "inputTokens": 6086,
+        "outputTokens": 1267,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "QFC",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "11.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:38pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98011",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bothell",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "18921 Bothell Way N.E.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOTTICEILI PSTA SC",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BROCCOLI SPROUTS",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "QFC\nQuality Food Centers\n18921 Bothell Way N.E.\n425-485-7548\nYour cashier was CHEC 503\nQFC ADVANTAGE CUSTOMER *******7483\nBOTTICEILI PSTA SC 1.89 F\nBROCCOLI SPROUTS 2.45 F\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.15\nSC eCpn Cheese 0.85\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.16\nSC eCpn Cheese 0.84\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.16\nSC eCpn Cheese 0.84\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.15\nSC eCpn Cheese 0.85\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.15\nSC eCpn Cheese 0.85\nSC eCpn 4X Points\nSC Load Digital Cpns\nTAX 0.00\n**** BALANCE 11.79\nBothell WA 98011\nAMERICAN EXPRESS Purchase\n************2003 - H\nREF#: 887149 TOTAL: 11.79\nAID: A000000025010801\nTC: E9E9213505733A23\nAMEX 11.79\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nQFC ADVANTAGE SAVINGS $ 5.00\nTOTAL SAVINGS (29 Percent) $ 5.00\n05/15/26 12:38pm 819 503 52 99999503\n*************************************\nAnnual Card Savings $734.73\n*************************************\n*************************************\nFuel Points Earned Today: 48\nTotal May Fuel Points: 506\n*************************************\nRemaining April Fuel P...",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20815.942958,
+        "totalUsd": 0.04647,
+        "inputTokens": 3692,
+        "outputTokens": 1280,
+        "reasoningTokens": 3268
+      },
+      "fields": {
+        "storeName": {
+          "value": "QFC",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "11.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:38pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98011",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bothell",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "18921 Bothell Way N.E.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOTTICEILI PSTA SC",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BROCCOLI SPROUTS",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO CHEESE QA + SC QFC SAVINGS + SC eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO CHEESE QA + SC QFC SAVINGS + SC eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO CHEESE QA + SC QFC SAVINGS + SC eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO CHEESE QA + SC QFC SAVINGS + SC eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO CHEESE QA + SC QFC SAVINGS + SC eCpn Cheese + SC eCpn 4X Points + SC Load Digital Cpns",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "QFC\nQuality Food Centers\n18921 Bothell Way N.E.\n425-485-7548\nYour cashier was CHEC 503\nQFC ADVANTAGE CUSTOMER *******7483\nBOTTICEILI PSTA SC 1.89 F\nBROCCOLI SPROUTS 2.45 F\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.15\nSC eCpn Cheese 0.85\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.16\nSC eCpn Cheese 0.84\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.16\nSC eCpn Cheese 0.84\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.15\nSC eCpn Cheese 0.85\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.15\nSC eCpn Cheese 0.85\nSC eCpn 4X Points\nSC Load Digital Cpns\nTAX 0.00\n**** BALANCE 11.79\nBothell WA 98011\nAMERICAN EXPRESS Purchase\n************2003 - H\nREF#: 887149 TOTAL: 11.79\nAID: A000000025010801\nTC: E9E9213505733A23\nAMEX 11.79\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nQFC ADVANTAGE SAVINGS $ 5.00\nTOTAL SAVINGS (29 Percent) $ 5.00\n05/15/26 12:38pm 819 503 52 999999503\n*********************************\nAnnual Card Savings $734.73\n*********************************\nFuel Points Earned Today: 48\nTotal May Fuel Points: 506\n*********************************\nRemaining April Fuel Points",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6710.770334000001,
+        "totalUsd": 0.016635,
+        "inputTokens": 3692,
+        "outputTokens": 1233,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "QFC",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "11.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:38pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98011",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bothell",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "18921 Bothell Way N.E.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2003",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOTTICEILI PSTA SC",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BROCCOLI SPROUTS",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE + QFC SAVINGS + eCpn Cheese + eCpn 4X Points + Load Digital Cpns",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "QFC\nQuality Food Centers\n18921 Bothell Way N.E.\n425-485-7548\nYour cashier was CHEC 503\nQFC ADVANTAGE CUSTOMER *******7483\nBOTTICEILI PSTA SC 1.89 F\nBROCCOLI SPROUTS 2.45 F\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.15\nSC eCpn Cheese 0.85\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.16\nSC eCpn Cheese 0.84\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.16\nSC eCpn Cheese 0.84\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.15\nSC eCpn Cheese 0.85\nKRO CHEESE QA 1.49 F\nSC QFC SAVINGS 0.15\nSC eCpn Cheese 0.85\nSC eCpn 4X Points\nSC Load Digital Cpns\nTAX 0.00\n**** BALANCE 11.79\nBothell WA 98011\nAMERICAN EXPRESS Purchase\n************2003 - H\nREF#: 887149 TOTAL: 11.79\nAID: A000000025010801\nTC: E9E9213505733A23\nAMEX 11.79\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nQFC ADVANTAGE SAVINGS $ 5.00\nTOTAL SAVINGS (29 Percent) $ 5.00\n05/15/26 12:38pm 819 503 52 99999503\n*********************************\nAnnual Card Savings $734.73\n*********************************\nFuel Points Earned Today: 48\nTotal May Fuel Points: 506\n*********************************\nRemaining April Fuel",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOTTICEILI PSTA SC",
+      "price": 1.89,
+      "quantity": 1,
+      "totalSpend": 1.89
+    },
+    {
+      "text": "BROCCOLI SPROUTS",
+      "price": 2.45,
+      "quantity": 1,
+      "totalSpend": 2.45
+    },
+    {
+      "text": "KRO CHEESE + SC QFC SAVINGS 0.15 + SC eCpn Cheese 0.85 + SC eCpn Cheese",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "KRO CHEESE + SC QFC SAVINGS 0.16 + SC eCpn Cheese 0.84",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "KRO CHEESE + SC QFC SAVINGS 0.16 + SC eCpn Cheese 0.84",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "KRO CHEESE + SC QFC SAVINGS 0.15 + SC eCpn Cheese 0.85",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "KRO CHEESE + SC QFC SAVINGS 0.15 + SC eCpn Cheese 0.85 + SC eCpn 4X Points + SC Load Digital Cpns",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

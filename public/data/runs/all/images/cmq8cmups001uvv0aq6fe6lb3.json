@@ -1,0 +1,318 @@
+{
+  "id": "cmq8cmups001uvv0aq6fe6lb3",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "1st Phorm",
+  "amount": 3.39,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "13.86",
+    "purchaseDate": "2026-06-10",
+    "time": null,
+    "zipCode": "16066",
+    "city": "Cranberry Twp",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6450.276374999958,
+        "totalUsd": 0.01731,
+        "inputTokens": 6086,
+        "outputTokens": 909,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:21:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "16066",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cranberry Twp",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2000 Ehrman Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9050",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Steak Half + Pepper Jack Cheese + Double Steak",
+          "quantity": 1,
+          "unitPrice": 8.18,
+          "totalSpend": 8.18,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1stPhorm Level 1 Choc PB Pre",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Large Drink",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #521\n2000 Ehrman Road\nCranberry Twp, PA 16066\n(724) 452-3182\n6/10/2026 1:21:05 PM\nPOS Terminal\nOrder Number: 754, 761\nRegister:21\nOrder #761\nSteak Half $5.69\n+ Pepper Jack Cheese $1.00\n+ Double Steak $1.49\nMaster Tran:\nMy Sheetz Rewardz $0.00\n1stPhorm Level 1 Choc PB Pre $3.39\nLarge Drink $1.69\nSub. Total: $13.26\nTax: $0.60\nTotal: $13.86\nDiscount Total: $0.00\nVisa: $13.86\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9050\nContactless\nTerminal : XXXXXXXXXX6002\nApproval : 03114D\nSequence : 041534\nUSD$ 13.86\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: DE74496AC3A843FB\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX9378\nTerminal : 20521\nApproval : 219000396",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8846.294958000013,
+        "totalUsd": 0.021909,
+        "inputTokens": 3692,
+        "outputTokens": 891,
+        "reasoningTokens": 928
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:21:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "16066",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cranberry Twp",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2000 Ehrman Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9050",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Steak Half + Pepper Jack Cheese + Double Steak",
+          "quantity": 1,
+          "unitPrice": 8.18,
+          "totalSpend": 8.18,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1stPhorm Level 1 Choc PB Pre",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Large Drink",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #521\n2000 Ehrman Road\nCranberry Twp, PA 16066\n(724) 452-3182\n6/10/2026 1:21:05 PM\nPOS Terminal\nOrder Number: 754, 761\nRegister:21\nOrder #761\nSteak Half $5.69\n+ Pepper Jack Cheese $1.00\n+ Double Steak $1.49\nMaster Tran:\nMy Sheetz Rewardz $0.00\n1stPhorm Level 1 Choc PB Pre $3.39\nLarge Drink $1.69\nSub. Total: $13.26\nTax: $0.60\nTotal: $13.86\nDiscount Total: $0.00\nVisa: $13.86\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9050\nContactless\nTerminal : XXXXXXXXXX6002\nApproval : 03114D\nSequence : 041534\nUSD$ 13.86\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: DE74496AC3A843FB\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX9378\nTerminal : 20521\nApproval : 219000396",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5720.813541999989,
+        "totalUsd": 0.01362,
+        "inputTokens": 3692,
+        "outputTokens": 898,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:21:05 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "16066",
+          "status": "match"
+        },
+        "city": {
+          "value": "Cranberry Twp",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2000 Ehrman Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9050",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Steak Half + Pepper Jack Cheese + Double Steak",
+          "quantity": 1,
+          "unitPrice": 8.18,
+          "totalSpend": 8.18,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1stPhorm Level 1 Choc PB Pre",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Large Drink",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #521\n2000 Ehrman Road\nCranberry Twp, PA 16066\n(724) 452-3182\n6/10/2026 1:21:05 PM\nPOS Terminal\nOrder Number: 754, 761\nRegister:21\nOrder #761\nSteak Half $5.69\n+ Pepper Jack Cheese $1.00\n+ Double Steak $1.49\nMaster Tran:\nMy Sheetz Rewardz $0.00\n1stPhorm Level 1 Choc PB Pre $3.39\nLarge Drink $1.69\nSub. Total: $13.26\nTax: $0.60\nTotal: $13.86\nDiscount Total: $0.00\nVisa: $13.86\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX9050\nContactless\nTerminal : XXXXXXXXXX6002\nApproval : 03114D\nSequence : 041534\nUSD$ 13.86\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: DE74496AC3A843FB\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX9378\nTerminal : 20521\nApproval : 219000396",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Steak Half + Master Tran: + My Sheetz Rewardz $0.00",
+      "price": 5.69,
+      "quantity": 1,
+      "totalSpend": 5.69
+    },
+    {
+      "text": "1stPhorm Level 1 Choc PB Pre",
+      "price": 3.39,
+      "quantity": 1,
+      "totalSpend": 3.39
+    },
+    {
+      "text": "Large Drink",
+      "price": 1.69,
+      "quantity": 1,
+      "totalSpend": 1.69
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

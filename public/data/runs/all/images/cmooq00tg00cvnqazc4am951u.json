@@ -1,0 +1,243 @@
+{
+  "id": "cmooq00tg00cvnqazc4am951u",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "boxiecat ",
+  "amount": 10,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "36.11",
+    "purchaseDate": "2026-05-02",
+    "time": null,
+    "zipCode": "01801",
+    "city": "Woburn",
+    "state": "MA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7478.00891699997,
+        "totalUsd": 0.018804,
+        "inputTokens": 6086,
+        "outputTokens": 1075,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:08 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01801",
+          "status": "match"
+        },
+        "city": {
+          "value": "WOBURN",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "103 COMMERCE WAY STE A",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1236",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003120384 BOX-28# UNS PRO CLAY + Reg Price: 34.99 + Manual Item - Price Override: -1.00 (1) + Return Value: 33.99",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 33.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nWOBURN #01784\n103 COMMERCE WAY STE A\nWOBURN, MA 01801\n781-933-2193\n\n05/02/26 3:08PM Reg 001 Trans 100045\nHelped by Alexander\n\n003120384 BOX-28# UNS PRO CLAY\n33.99 T\nReg Price: 34.99\nManual Item - Price Override: -1.00 (1)\nReturn Value: 33.99\n\nTaxable Total 33.99\nSubtotal 33.99\nTax MA 6.25% 2.12\nTOTAL 36.11\n\nMastercard Debit Card 36.11\n2026-05-02 03:08:38 PM\nTotal: USD $36.11\nMastercard\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX1236\nPurchase - APPROVED\nAUTH CODE: 000011\nAID: A0000000042203\nTVR: 0000048001\nIAD: 0110A04001220000000000000000000000FF\nARC: 00\nRRN: 166265\n\n1 Item\nTransaction Barcode\n011784380001100045202605025471319750\nVital Care Number: 547131975\nFor being a valued member you saved:\nDiscounts 1.00\nTOTAL SAVINGS 1.00\nT = Taxable N = Non-Taxable\n(1)Discount not subject to sales tax\n(2)Manufacturer coupon subject to sales tax\nAs a Vital Care member, get rewarded for every purchase.\nYour Vital Care Rewards membership doesn't have a valid email address to send your earned Vital Care Rewards dollars notices.\nQuestions, details or account updates, call 888-824-7257 or see petco.com.\nsave time, save money\nrepeat delivery\ntry it today!\nSave time and money with repeat delivery!\nVital Care Premier Join and save on everything Petco offers with the wellness plan that pays for itself. Scan to learn more.\n1 in 3 pets will go missing. Protect your pet with PetcoLoveLost.org\nVisit petco.com/returns for details on Petco's return policy.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11697.67054199998,
+        "totalUsd": 0.031062,
+        "inputTokens": 3692,
+        "outputTokens": 1060,
+        "reasoningTokens": 1776
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:08 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01801",
+          "status": "match"
+        },
+        "city": {
+          "value": "WOBURN",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "103 COMMERCE WAY STE A",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1236",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003120384 BOX-28# UNS PRO CLAY + Reg Price: 34.99 + Manual Item - Price Override: -1.00 (1) + Return Value: 33.99",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 33.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nWOBURN #01784\n103 COMMERCE WAY STE A\nWOBURN, MA 01801\n781-933-2193\n05/02/26 3:08PM Reg 001 Trans 100045\nHelped by Alexander\n003120384 BOX-28# UNS PRO CLAY 33.99 T\nReg Price: 34.99\nManual Item - Price Override: -1.00 (1)\nReturn Value: 33.99\nTaxable Total 33.99\nSubtotal 33.99\nTax MA 6.25% 2.12\nTOTAL 36.11\nMastercard Debit Card 36.11\n2026-05-02 03:08:38 PM\nTotal: USD $36.11\nMastercard\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX1236\nPurchase - APPROVED\nAUTH CODE: 000011\nAID: A0000000042203\nTVR: 0000048001\nIAD: 0110A04001220000000000000000000000FF\nARC: 00\nRRN: 166265\n1 Item\nTransaction Barcode\n011784380001100045202605025471319750\nVital Care Number: 547131975\nFor being a valued member you saved:\nDiscounts 1.00\nTOTAL SAVINGS 1.00\nT = Taxable N = Non-Taxable\n(1)Discount not subject to sales tax\n(2)Manufacturer coupon subject to sales tax\nAs a Vital Care member, get rewarded for every purchase.\nYour Vital Care Rewards membership doesn't have a valid email address to send your earned Vital Care Rewards dollars notices.\nQuestions, details or account updates, call 888-824-7257 or see petco.com.\nsave time, save money\nrepeat delivery\ntry it today!\nSave time and money with repeat delivery!\nVital Care Premier Join and save on everything Petco offers with the wellness plan that pays for itself. Scan to learn more.\n1 in 3 pets will go missing. Protect your pet with PetcoLoveLost.org\nVisit petco.com/returns for details on Petco's return policy.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5958.177291,
+        "totalUsd": 0.015051,
+        "inputTokens": 3692,
+        "outputTokens": 1057,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:08 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01801",
+          "status": "match"
+        },
+        "city": {
+          "value": "WOBURN",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "103 COMMERCE WAY STE A",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1236",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003120384 BOX-28# UNS PRO CLAY + Manual Item - Price Override: -1.00 (1)",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 33.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nWOBURN #01784\n103 COMMERCE WAY STE A\nWOBURN, MA 01801\n781-933-2193\n05/02/26 3:08PM Reg 001 Trans 100045\nHelped by Alexander\n003120384 BOX-28# UNS PRO CLAY 33.99 T\nReg Price: 34.99\nManual Item - Price Override: -1.00 (1)\nReturn Value: 33.99\nTaxable Total 33.99\nSubtotal 33.99\nTax MA 6.25% 2.12\nTOTAL 36.11\nMastercard Debit Card 36.11\n2026-05-02 03:08:38 PM\nTotal: USD $36.11\nMastercard\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX1236\nPurchase - APPROVED\nAUTH CODE: 000011\nAID: A0000000042203\nTVR: 0000048001\nIAD: 0110A04001220000000000000000000000FF\nARC: 00\nRRN: 166265\n1 Item\nTransaction Barcode\n011784380001100045202605025471319750\nVital Care Number: 547131975\nFor being a valued member you saved:\nDiscounts 1.00\nTOTAL SAVINGS 1.00\nT = Taxable N = Non-Taxable\n(1)Discount not subject to sales tax\n(2)Manufacturer coupon subject to sales tax\nAs a Vital Care member, get rewarded for\nevery purchase.\nYour Vital Care Rewards membership doesn't\nhave a valid email address to send your\nearned Vital Care Rewards dollars notices.\nQuestions, details or account updates, call\n888-824-7257 or see petco.com.\nsave time, save money\nrepeat\ndelivery\ntry it today!\nSave time and money with repeat delivery!\nVital Care Premier Join and save on\neverything Petco offers with the wellness\nplan that pays for itself. Scan to learn\nmore.\n1 in 3 pets will go missing. Protect\nyour pet with PetcoLoveLost.org\nVisit petco.com/returns for details on\nPetco's return policy.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOX-28# UNS PRO CLAY + 003120884 + Reg Price: 34.99 + Manual Item - Price Override: -1.00 (1)",
+      "price": 33.99,
+      "quantity": 1,
+      "totalSpend": 33.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

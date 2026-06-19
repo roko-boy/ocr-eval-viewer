@@ -1,0 +1,1323 @@
+{
+  "id": "cmqbos1d700dbtlq8cwf1rp44",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Slate",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Wegmans",
+    "totalCost": "342.83",
+    "purchaseDate": "2026-06-11",
+    "time": null,
+    "zipCode": "14850",
+    "city": "ITHACA",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16859.22358300001,
+        "totalUsd": 0.04287,
+        "inputTokens": 6086,
+        "outputTokens": 3749,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "342.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14850",
+          "status": "match"
+        },
+        "city": {
+          "value": "ITHACA",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "500 S. MEADOW STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5413",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WB 1% COTT CHEESE",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GC LF COTTAGE CHSE",
+          "quantity": 1,
+          "unitPrice": 7.98,
+          "totalSpend": 7.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CR COTT CHEESE SML",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HORMEL MINI PPPRNI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB SLC LSHRP CHDR",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB IT SLICED PEPP",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BRIDGFORD SM SG",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC BALL PARK HOT DOGS + SC 22144 BALL PARK HOT DOGS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB WM MOZZ SHRED",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MARZ CHNK BLUE CHS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG CRMY PEANUT BU",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PB2 POWDERED PB",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 12.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB EVERYTHING BAGE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RD WB ALMOND FLOUR",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KASHI CINN HARVEST",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DIX ULT BWL 20OZ",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB CLEAR CUP 9FO",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB FP MEDJOOL DATE",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BG MASCARPONE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KING SLMN SASHIMI",
+          "quantity": 1,
+          "unitPrice": 19,
+          "totalSpend": 19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KING SLMN SASHIMI",
+          "quantity": 1,
+          "unitPrice": 16.5,
+          "totalSpend": 16.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KING SLMN SASHIMI",
+          "quantity": 1,
+          "unitPrice": 11.5,
+          "totalSpend": 11.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE ULTRA CHOC + SC 22163 SLATE",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "totalSpend": 7.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE ULTRA VAN + SC 22163 SLATE",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "totalSpend": 7.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE VANILLA LTTE + SC 22149 SLATE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE CLASSIC CHOC + SC 22149 SLATE",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 5.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE MOCHA LATTE + SC 22149 SLATE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CELSIUS PLAYA VIBE",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO MCT OIL 2",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ISOPURE PROTEIN",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 32.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WG RAW TAIL OFF 31",
+          "quantity": 1,
+          "unitPrice": 19.98,
+          "totalSpend": 19.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "4 PK LG CROISSANT",
+          "quantity": 1,
+          "unitPrice": 8,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC WB 6 PK EVERY BAG",
+          "quantity": 1,
+          "unitPrice": 7.75,
+          "totalSpend": 7.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERYTHING CRSSNT",
+          "quantity": 1,
+          "unitPrice": 8,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "9\" PAPER PLATE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "7\" PAPER PLATE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NATIONAL PARKS MAG",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOILER ONIONS 2#",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WT YAMS/SWEET POTATO",
+          "quantity": 1,
+          "unitPrice": 4.52,
+          "totalSpend": 4.52,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 4CT BAG AVOCADO",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n500 S. MEADOW STREET\nITHACA, NY 14850\n(607) 277-5800\n06/11/26 OP# 99525\nTRANSACTION RETRIEVED:\nRETRIEVAL NUMBER: 44/124\nWB 1% COTT CHEESE 3.99 F\n2 @ 3.99\nGC LF COTTAGE CHSE 7.98 F\nCR COTT CHEESE SML 6.49 F\nHORMEL MINI PPPRNI 4.99 F\nWB SLC LSHRP CHDR 2.29 F\nWB IT SLICED PEPP 3.49 F\nBRIDGFORD SM SG 6.49 F\nSC BALL PARK HOT DOGS 3.99 F\nSC 22144 BALL PARK HOT DOGS 1.50-F\nWB WM MOZZ SHRED 6.79 F\nMARZ CHNK BLUE CHS 4.49 F\nWEG CRMY PEANUT BU 3.99 F\nPB2 POWDERED PB 12.49 F\nWB EVERYTHING BAGE 3.99 F\nRD WB ALMOND FLOUR 12.99 F\nKASHI CINN HARVEST 5.49 F\nDIX ULT BWL 20OZ 6.49 T\nWB CLEAR CUP 9FO 6.99 T\nWB FP MEDJOOL DATE 11.99 F\nBG MASCARPONE 4.49 F\nKING SLMN SASHIMI 19.00 B\nKING SLMN SASHIMI 16.50 B\nKING SLMN SASHIMI 11.50 B\n2 @ 4.49\nSC SLATE ULTRA CHOC 8.98 F\n2 @ 0.74\nSC 22163 SLATE 1.48-F\n2 @ 4.49\nSC SLATE ULTRA VAN 8.98 F\n2 @ 0.74\nSC 22163 SLATE 1.48-F\nSC SLATE VANILLA LTTE 3.49 F\nSC 22149 SLATE 0.74-F\n2 @ 3.49\nSC SLATE CLASSIC CHOC 6.98 F\n2 @ 0.74\nSC 22149 SLATE 1.48-F\nSC SLATE MOCHA LATTE 3.49 F\nSC 22149 SLATE 0.74-F\nCELSIUS PLAYA VIBE 19.99 B\nWBO MCT OIL 2 14.99\nISOPURE PROTEIN 32.99 F\nWG RAW TAIL OFF 31 19.98 F\n4 PK LG CROISSANT 8.00 F\nSC WB 6 PK EVERY BAG 7.75 F\nEVERYTHING CRSSNT 8.00 F\n9\" PAPER PLATE 3.49 T\n7\" PAPER PLATE 2.99 T\nNATIONAL PARKS MAG 14.99 T\nBOILER ONIONS 2# 1.49 F\n4.57 lb @ 0.99 /lb\nWT YAMS/SWEET POTATO 4.52 F\nWB 4CT BAG AVOCADO 3.49 F\nDP CONTAINER DEPOSIT 0.60 F\nTAX 8.16\n**** BALANCE 342.83\nDIRECT DEBIT PURCHASE\nCARD NUMBER: ************5413 C\nUS DEBIT 05\nAUTH: 044747 RCPT: 44747\nCODE: 0000 Approved\nAID: A0000000980840\nVERIFIED BY PIN\nDIRECT DEBIT 342.83\nCHANGE 0.00\n--------- SAVINGS SUMMARY ---------\nSHOPPERS CLUB SAVINGS $ 7.42\nTOTAL $ 7.42\n06/11/26 04:44PM 71 44 125 99525",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 34988.39187500003,
+        "totalUsd": 0.086862,
+        "inputTokens": 3692,
+        "outputTokens": 3814,
+        "reasoningTokens": 5222
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "342.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14850",
+          "status": "match"
+        },
+        "city": {
+          "value": "ITHACA",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "500 S. MEADOW STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5413",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WB 1% COTT CHEESE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GC LF COTTAGE CHSE + 2 @ 3.99",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CR COTT CHEESE SML",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HORMEL MINI PPPRNI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB SLC LSHRP CHDR",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB IT SLICED PEPP",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BRIDGFORD SM SG",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC BALL PARK HOT DOGS + SC 22144 BALL PARK HOT DOGS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB WM MOZZ SHRED",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MARZ CHNK BLUE CHS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG CRMY PEANUT BU",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PB2 POWDERED PB",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 12.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB EVERYTHING BAGE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RD WB ALMOND FLOUR",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KASHI CINN HARVEST",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DIX ULT BWL 20OZ",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB CLEAR CUP 9FO",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB FP MEDJOOL DATE",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BG MASCARPONE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KING SLMN SASHIMI",
+          "quantity": 1,
+          "unitPrice": 19,
+          "totalSpend": 19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KING SLMN SASHIMI",
+          "quantity": 1,
+          "unitPrice": 16.5,
+          "totalSpend": 16.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KING SLMN SASHIMI",
+          "quantity": 1,
+          "unitPrice": 11.5,
+          "totalSpend": 11.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE ULTRA CHOC + SC 22163 SLATE + 2 @ 4.49 + 2 @ 0.74",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "totalSpend": 7.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE ULTRA VAN + SC 22163 SLATE + 2 @ 4.49 + 2 @ 0.74",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "totalSpend": 7.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE VANILLA LTTE + SC 22149 SLATE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE CLASSIC CHOC + SC 22149 SLATE + 2 @ 3.49 + 2 @ 0.74",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 5.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE MOCHA LATTE + SC 22149 SLATE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CELSIUS PLAYA VIBE",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO MCT OIL 2",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ISOPURE PROTEIN",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 32.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WG RAW TAIL OFF 31",
+          "quantity": 1,
+          "unitPrice": 19.98,
+          "totalSpend": 19.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "4 PK LG CROISSANT",
+          "quantity": 1,
+          "unitPrice": 8,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 6 PK EVERY BAG",
+          "quantity": 1,
+          "unitPrice": 7.75,
+          "totalSpend": 7.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERYTHING CRSSNT",
+          "quantity": 1,
+          "unitPrice": 8,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "9\" PAPER PLATE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "7\" PAPER PLATE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NATIONAL PARKS MAG",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOILER ONIONS 2#",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WT YAMS/SWEET POTATO + 4.57 lb @ 0.99 /lb",
+          "quantity": 1,
+          "unitPrice": 4.52,
+          "totalSpend": 4.52,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 4CT BAG AVOCADO",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n500 S. MEADOW STREET\nITHACA, NY 14850\n(607) 277-5800\n06/11/26 OP# 99525\nTRANSACTION RETRIEVED:\nRETRIEVAL NUMBER: 44/124\nWB 1% COTT CHEESE 3.99 F\n2 @ 3.99\nGC LF COTTAGE CHSE 7.98 F\nCR COTT CHEESE SML 6.49 F\nHORMEL MINI PPPRNI 4.99 F\nWB SLC LSHRP CHDR 2.29 F\nWB IT SLICED PEPP 3.49 F\nBRIDGFORD SM SG 6.49 F\nSC BALL PARK HOT DOGS 3.99 F\nSC 22144 BALL PARK HOT DOGS 1.50-F\nWB WM MOZZ SHRED 6.79 F\nMARZ CHNK BLUE CHS 4.49 F\nWEG CRMY PEANUT BU 3.99 F\nPB2 POWDERED PB 12.49 F\nWB EVERYTHING BAGE 3.99 F\nRD WB ALMOND FLOUR 12.99 F\nKASHI CINN HARVEST 5.49 F\nDIX ULT BWL 20OZ 6.49 T\nWB CLEAR CUP 9FO 6.99 T\nWB FP MEDJOOL DATE 11.99 F\nBG MASCARPONE 4.49 F\nKING SLMN SASHIMI 19.00 B\nKING SLMN SASHIMI 16.50 B\nKING SLMN SASHIMI 11.50 B\n2 @ 4.49\nSC SLATE ULTRA CHOC 8.98 F\n2 @ 0.74\nSC 22163 SLATE 1.48-F\n2 @ 4.49\nSC SLATE ULTRA VAN 8.98 F\n2 @ 0.74\nSC 22163 SLATE 1.48-F\nSC SLATE VANILLA LTTE 3.49 F\nSC 22149 SLATE 0.74-F\n2 @ 3.49\nSC SLATE CLASSIC CHOC 6.98 F\n2 @ 0.74\nSC 22149 SLATE 1.48-F\nSC SLATE MOCHA LATTE 3.49 F\nSC 22149 SLATE 0.74-F\nCELSIUS PLAYA VIBE 19.99 B\nWBO MCT OIL 2 14.99\nISOPURE PROTEIN 32.99 F\nWG RAW TAIL OFF 31 19.98 F\n4 PK LG CROISSANT 8.00 F\nSC WB 6 PK EVERY BAG 7.75 F\nEVERYTHING CRSSNT 8.00 F\n9\" PAPER PLATE 3.49 T\n7\" PAPER PLATE 2.99 T\nNATIONAL PARKS MAG 14.99 T\nBOILER ONIONS 2# 1.49 F\n4.57 lb @ 0.99 /lb\nWT YAMS/SWEET POTATO 4.52 F\nWB 4CT BAG AVOCADO 3.49 F\nDP CONTAINER DEPOSIT 0.60 F\nTAX 8.16\n**** BALANCE 342.83\nDIRECT DEBIT PURCHASE\nCARD NUMBER: ************5413 C\nUS DEBIT 05\nAUTH: 044747 RCPT: 44747\nCODE: 0000 Approved\nAID: A0000000980840\nVERIFIED BY PIN\nDIRECT DEBIT 342.83\nCHANGE 0.00\n-------- SAVINGS SUMMARY --------\nSHOPPERS CLUB SAVINGS $ 7.42\nTOTAL $ 7.42\n06/11/26 04:44PM 71 44 125 99525",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 14998.38791700001,
+        "totalUsd": 0.03918,
+        "inputTokens": 3692,
+        "outputTokens": 3738,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "342.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14850",
+          "status": "match"
+        },
+        "city": {
+          "value": "ITHACA",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "500 S. MEADOW STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5413",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WB 1% COTT CHEESE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GC LF COTTAGE CHSE",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CR COTT CHEESE SML",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HORMEL MINI PPPRNI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB SLC LSHRP CHDR",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB IT SLICED PEPP",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BRIDGFORD SM SG",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC BALL PARK HOT DOGS + SC 22144 BALL PARK HOT DOGS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB WM MOZZ SHRED",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MARZ CHNK BLUE CHS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG CRMY PEANUT BU",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PB2 POWDERED PB",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 12.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB EVERYTHING BAGE",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RD WB ALMOND FLOUR",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KASHI CINN HARVEST",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DIX ULT BWL 20OZ",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB CLEAR CUP 9FO",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB FP MEDJOOL DATE",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BG MASCARPONE",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KING SLMN SASHIMI",
+          "quantity": 1,
+          "unitPrice": 19,
+          "totalSpend": 19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KING SLMN SASHIMI",
+          "quantity": 1,
+          "unitPrice": 16.5,
+          "totalSpend": 16.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KING SLMN SASHIMI",
+          "quantity": 1,
+          "unitPrice": 11.5,
+          "totalSpend": 11.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE ULTRA CHOC + SC 22163 SLATE",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "totalSpend": 7.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE ULTRA VAN + SC 22163 SLATE",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "totalSpend": 7.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE VANILLA LTTE + SC 22149 SLATE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE CLASSIC CHOC + SC 22149 SLATE",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 5.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC SLATE MOCHA LATTE + SC 22149 SLATE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CELSIUS PLAYA VIBE",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO MCT OIL 2",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ISOPURE PROTEIN",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 32.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WG RAW TAIL OFF 31",
+          "quantity": 1,
+          "unitPrice": 19.98,
+          "totalSpend": 19.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "4 PK LG CROISSANT",
+          "quantity": 1,
+          "unitPrice": 8,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC WB 6 PK EVERY BAG",
+          "quantity": 1,
+          "unitPrice": 7.75,
+          "totalSpend": 7.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERYTHING CRSSNT",
+          "quantity": 1,
+          "unitPrice": 8,
+          "totalSpend": 8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "9\" PAPER PLATE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "7\" PAPER PLATE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NATIONAL PARKS MAG",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOILER ONIONS 2#",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WT YAMS/SWEET POTATO",
+          "quantity": 1,
+          "unitPrice": 4.52,
+          "totalSpend": 4.52,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB 4CT BAG AVOCADO",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n500 S. MEADOW STREET\nITHACA, NY 14850\n(607) 277-5800\n06/11/26 OP# 99525\nTRANSACTION RETRIEVED:\nRETRIEVAL NUMBER: 44/124\nWB 1% COTT CHEESE 3.99 F\n2 @ 3.99\nGC LF COTTAGE CHSE 7.98 F\nCR COTT CHEESE SML 6.49 F\nHORMEL MINI PPPRNI 4.99 F\nWB SLC LSHRP CHDR 2.29 F\nWB IT SLICED PEPP 3.49 F\nBRIDGFORD SM SG 6.49 F\nSC BALL PARK HOT DOGS 3.99 F\nSC 22144 BALL PARK HOT DOGS 1.50-F\nWB WM MOZZ SHRED 6.79 F\nMARZ CHNK BLUE CHS 4.49 F\nWEG CRMY PEANUT BU 3.99 F\nPB2 POWDERED PB 12.49 F\nWB EVERYTHING BAGE 3.99 F\nRD WB ALMOND FLOUR 12.99 F\nKASHI CINN HARVEST 5.49 F\nDIX ULT BWL 20OZ 6.49 T\nWB CLEAR CUP 9FO 6.99 T\nWB FP MEDJOOL DATE 11.99 F\nBG MASCARPONE 4.49 F\nKING SLMN SASHIMI 19.00 B\nKING SLMN SASHIMI 16.50 B\nKING SLMN SASHIMI 11.50 B\n2 @ 4.49\nSC SLATE ULTRA CHOC 8.98 F\n2 @ 0.74\nSC 22163 SLATE 1.48-F\n2 @ 4.49\nSC SLATE ULTRA VAN 8.98 F\n2 @ 0.74\nSC 22163 SLATE 1.48-F\nSC SLATE VANILLA LTTE 3.49 F\nSC 22149 SLATE 0.74-F\n2 @ 3.49\nSC SLATE CLASSIC CHOC 6.98 F\n2 @ 0.74\nSC 22149 SLATE 1.48-F\nSC SLATE MOCHA LATTE 3.49 F\nSC 22149 SLATE 0.74-F\nCELSIUS PLAYA VIBE 19.99 B\nWBO MCT OIL 2 14.99\nISOPURE PROTEIN 32.99 F\nWG RAW TAIL OFF 31 19.98 F\n4 PK LG CROISSANT 8.00 F\nSC WB 6 PK EVERY BAG 7.75 F\nEVERYTHING CRSSNT 8.00 F\n9\" PAPER PLATE 3.49 T\n7\" PAPER PLATE 2.99 T\nNATIONAL PARKS MAG 14.99 T\nBOILER ONIONS 2# 1.49 F\n4.57 lb @ 0.99 /lb\nWT YAMS/SWEET POTATO 4.52 F\nWB 4CT BAG AVOCADO 3.49 F\nDP CONTAINER DEPOSIT 0.60 F\nTAX 8.16\n**** BALANCE 342.83\nDIRECT DEBIT PURCHASE\nCARD NUMBER: ************5413 C\nUS DEBIT 05\nAUTH: 044747 RCPT: 44747\nCODE: 0000 Approved\nAID: A0000000980840\nVERIFIED BY PIN\nDIRECT DEBIT 342.83\nCHANGE 0.00\n-------- SAVINGS SUMMARY --------\nSHOPPERS CLUB SAVINGS $ 7.42\nTOTAL $ 7.42\n06/11/26 04:44PM 71 44 125 99525",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ISOPURE PROTEIN",
+      "price": 32.99,
+      "quantity": 1,
+      "totalSpend": 32.99
+    },
+    {
+      "text": "WB 1% COTT CHEESE",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "GC LF COTTAGE CHSE",
+      "price": 3.99,
+      "quantity": 2,
+      "totalSpend": 7.98
+    },
+    {
+      "text": "CR COTT CHEESE SML",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "HORMEL MINI PPPRNI",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "WB SLC LSHRP CHDR",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "WB IT SLICED PEPP",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "BRIDGFORD SM SG",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "SC BALL PARK HOT DOGS + SC 22144 BALL PARK HOT DOGS",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "WB WM MOZZ SHRED",
+      "price": 6.79,
+      "quantity": 1,
+      "totalSpend": 6.79
+    },
+    {
+      "text": "MARZ CHNK BLUE CHS",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "WEG CRMY PEANUT BU",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "PB2 POWDERED PB",
+      "price": 12.49,
+      "quantity": 1,
+      "totalSpend": 12.49
+    },
+    {
+      "text": "WB EVERYTHING BAGE",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "RD WB ALMOND FLOUR",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "KASHI CINN HARVEST",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "DIX ULT BWL 20OZ",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "WB CLEAR CUP 9FO",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "WB FP MEDJOOL DATE",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "BG MASCARPONE",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "KING SLMN SASHIMI",
+      "price": 19,
+      "quantity": 1,
+      "totalSpend": 19
+    },
+    {
+      "text": "KING SLMN SASHIMI",
+      "price": 16.5,
+      "quantity": 1,
+      "totalSpend": 16.5
+    },
+    {
+      "text": "KING SLMN SASHIMI",
+      "price": 11.5,
+      "quantity": 1,
+      "totalSpend": 11.5
+    },
+    {
+      "text": "SC SLATE ULTRA CHOC + SC 22163 SLATE",
+      "price": 3.75,
+      "quantity": 2,
+      "totalSpend": 7.5
+    },
+    {
+      "text": "SC SLATE ULTRA VAN + SC 22163 SLATE",
+      "price": 3.75,
+      "quantity": 2,
+      "totalSpend": 7.5
+    },
+    {
+      "text": "SC SLATE VANILLA LTTE + SC 22149 SLATE",
+      "price": 2.75,
+      "quantity": 1,
+      "totalSpend": 2.75
+    },
+    {
+      "text": "SC SLATE CLASSIC CHOC + SC 22149 SLATE",
+      "price": 2.75,
+      "quantity": 2,
+      "totalSpend": 5.5
+    },
+    {
+      "text": "SC SLATE MOCHA LATTE + SC 22149 SLATE",
+      "price": 2.75,
+      "quantity": 1,
+      "totalSpend": 2.75
+    },
+    {
+      "text": "CELSIUS PLAYA VIBE",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    },
+    {
+      "text": "WBO MCT OIL 2",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "WG RAW TAIL OFF 31",
+      "price": 19.98,
+      "quantity": 1,
+      "totalSpend": 19.98
+    },
+    {
+      "text": "4 PK LG CROISSANT",
+      "price": 8,
+      "quantity": 1,
+      "totalSpend": 8
+    },
+    {
+      "text": "SC WB 6 PK EVERY BAG",
+      "price": 7.75,
+      "quantity": 1,
+      "totalSpend": 7.75
+    },
+    {
+      "text": "EVERYTHING CRSSNT",
+      "price": 8,
+      "quantity": 1,
+      "totalSpend": 8
+    },
+    {
+      "text": "9\" PAPER PLATE",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "7\" PAPER PLATE",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "NATIONAL PARKS MAG",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "BOILER ONIONS 2#",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "WT YAMS/SWEET POTATO",
+      "price": 4.52,
+      "quantity": 1,
+      "totalSpend": 4.52
+    },
+    {
+      "text": "WB 4CT BAG AVOCADO",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "DP CONTAINER DEPOSIT",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0.6
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

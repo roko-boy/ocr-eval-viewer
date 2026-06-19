@@ -1,0 +1,513 @@
+{
+  "id": "cmo9johux00e0sji5mocpij4w",
+  "url": null,
+  "retailer": "Save Mart",
+  "brand": "shinewater",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Save Mart",
+    "totalCost": "36.3",
+    "purchaseDate": "2026-04-21",
+    "time": null,
+    "zipCode": "95828",
+    "city": "Sacramento",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12854.531292,
+        "totalUsd": 0.023205,
+        "inputTokens": 6086,
+        "outputTokens": 1564,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Save Mart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:59:40",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95328",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Sacramento",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7960 Gerber Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CRAFLVR TOR RES",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF + Buy 2 Get 2\" + * FREE item",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF + Buy 2 Get 2\" + * FREE item",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SHIN WATRMELN B_KB",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV BEV .05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WIC/EBT PAPER BAG + Bag Offset for WIC/EBT Shoppers + * 3 @ FREE item",
+          "quantity": 3,
+          "unitPrice": 0.15,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SS AN SOUR CREAM + Regular Price 3.29",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COUNTRY PRK RIB MP + Regular Price 13.18",
+          "quantity": 1,
+          "unitPrice": 13.18,
+          "totalSpend": 5.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RVNS THAI CCNT CKN + CB Engagement Points Earn + * RESERVED FOR CUSTOMER + RESERVED FOR CUSTOMER",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAVE MART\nSUPERMARKETS\nSave Mart\n7960 Gerber Rd.\n(916) 689-8300\nStore:619\nCashier: Jesus\n04/21/26\n20:59:40\nMember card number: XXXXXXX1726\nGROCERY\nCRAFLVR TOR RES\n3.49F\nFLAY CHTC JUMBO PF\n5.49F\nFLAY CHTC JUMBO PF\n5.49F\nFLAY CHTC JUMBO PF\n5.49F\nBuy 2 Get 2\"\n* FREE item\n-5.49F\nFLAY CHTC JUMBO PF\n5.49F\nBuy 2 Get 2\"\n* FREE item\n-5.49F\nSHIN WATRMELN B_KB\n.50F\nCRV BEV .05\n.05F\nGEN MDSE\n3 @ .15\nWIC/EBT PAPER BAG\n.45F\nBag Offset for WIC/EBT Shoppers\n* 3 @ FREE item\n-.45F\nDAIRY-DELI-FROZEN\nSS AN SOUR CREAM\n2.79F\nRegular Price\n3.29\nMEAT\nCOUNTRY PRK RIB MP\n5.50F\nRegular Price\n13.18\nRVNS THAI CCNT CKN\n12.99F\nCB Engagement Points Earn\n* RESERVED FOR CUSTOMER\nRESERVED FOR CUSTOMER\nSUBTOTAL\n36.30\nTOTAL TAX\n.00\nTOTAL\n36.30\nEBT FOOD TENDER\n36.30\nAcct:************0509\nAPPRVL CODE 747075\nCas Ref# 17989\nTENDER\n.00\nCASH\nCHANGE\n.00\nCASH\nNUMBER OF ITEMS\n13\nSpecial Purchase Discount\n11.43\nTotal Savings on Sale Items\n8.18\nYOU SAVED A TOTAL OF\n19.61\nTHAT IS A SAVINGS OF\n35%\nSave Mart #619\n7960 Gerber Road\nSacramento CA 95328\n(916)689-8300\nPIN Used",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 28144.59925,
+        "totalUsd": 0.059214,
+        "inputTokens": 3692,
+        "outputTokens": 1595,
+        "reasoningTokens": 4369
+      },
+      "fields": {
+        "storeName": {
+          "value": "Save Mart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "36.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:59:40",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95328",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Sacramento",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7960 Gerber Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0509",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CRAFLVR TOR RES",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF + Buy 2 Get 2 + * FREE item",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF + Buy 2 Get 2 + * FREE item",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SHIN WATRMELN B_KB",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+CRV BEV .05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WIC/EBT PAPER BAG + 3 @ 1/.15 + Bag Offset for WIC/EBT Shoppers + * 3 @ FREE item",
+          "quantity": 3,
+          "unitPrice": 0.15,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SS AN SOUR CREAM + Regular Price 3.29",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COUNTRY PRK RIB MP + Regular Price 13.18",
+          "quantity": 1,
+          "unitPrice": 13.18,
+          "totalSpend": 5.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RVNS THAI CCNT CKN + CB Engagement Points Earn + * RESERVED FOR CUSTOMER + RESERVED FOR CUSTOMER",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAVE MART\nSUPERMARKETS\nSave Mart\n7960 Gerber Rd.\n(916) 689-8300\nStore:619\n\nCashier: Jesus\n\n04/21/26            20:59:40\n\nMember card number: XXXXXXX1726\nGROCERY\nCRAFLVR TOR RES             3.49F\nFLAY CHTC JUMBO PF          5.49F\nFLAY CHTC JUMBO PF          5.49F\nFLAY CHTC JUMBO PF          5.49F\nBuy 2 Get 2\n* FREE item                -5.49F\nFLAY CHTC JUMBO PF          5.49F\nBuy 2 Get 2\n* FREE item                -5.49F\nSHIN WATRMELN B_KB           .50F\n+CRV BEV .05                 .05F\nGEN MDSE\n   3 @ 1/.15\nWIC/EBT PAPER BAG            .45F\nBag Offset for WIC/EBT Shoppers\n* 3 @ FREE item             -.45F\nDAIRY-DELI-FROZEN\nSS AN SOUR CREAM            2.79F\nRegular Price        3.29\nMEAT\nCOUNTRY PRK RIB MP          5.50F\nRegular Price       13.18\nRVNS THAI CCNT CKN         12.99F\nCB Engagement Points Earn\n* RESERVED FOR CUSTOMER\n  RESERVED FOR CUSTOMER\n          SUBTOTAL         36.30\n          TOTAL TAX          .00\n\n          TOTAL            36.30\nEBT FOOD        TENDER     36.30\nAcct:************0509\nAPPRVL CODE  747075\nSeq Ref#  17989\nCASH            TENDER       .00\nCASH            CHANGE       .00\n\n          NUMBER OF ITEMS     13\n\nSpecial Purchase Discount  11.43\nTotal Savings on Sale Items 8.18\n\nYOU SAVED A TOTAL OF       19.61\nTHAT IS A SAVINGS OF         35%\n\n\n           Save Mart #619\n          7960 Gerber Road\n        Sacramento CA 95328\n           (916)689-8300\n                         PIN Used",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7911.865457999998,
+        "totalUsd": 0.018039,
+        "inputTokens": 3692,
+        "outputTokens": 1389,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "9532828",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Sacramento",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CRAFLVR TORT RES",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF + Buy 2 Get 2 + FREE item",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FLAY CHTC JUMBO PF + Buy 2 Get 2 + FREE item",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SHIN WATRMELN B_KB",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV BEV .05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WIC/EBT PAPER BAG + Bag Offset for WIC/EBT Shoppers + 3 @ FREE item",
+          "quantity": 3,
+          "unitPrice": 0.15,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SS AN SOUR CREAM",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COUNTRY PRK RIB MP",
+          "quantity": 1,
+          "unitPrice": 13.18,
+          "totalSpend": 5.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RVNS THAI CCNT CKN",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAVE MART\nUPERMARKETS\nSave Mart\n7960 Gerber Rd.\n(916) 689-8300\nStore:619\nCashier: Jesus\n04/21/26\n20:59:40\nMember card number: XXXXXXX1726\nGROCERY\nCRAFLVR TORT RES\n3.49F\nFLAY CHTC JUMBO PF\n5.49F\nFLAY CHTC JUMBO PF\n5.49F\nFLAY CHTC JUMBO PF\n5.49F\nBuy 2 Get 2\n* FREE item\n-5.49F\nFLAY CHTC JUMBO PF\n5.49F\nBuy 2 Get 2\n* FREE item\n-5.49F\nSHIN WATRMELN B_KB\n.50F\nCRV BEV .05\n.05F\nGEN MDSE\n3 @ .15\nWIC/EBT PAPER BAG\n.45F\nBag Offset for WIC/EBT Shoppers\n* 3 @ FREE item\n-.45F\nDAIRY-DELI-FROZEN\nSS AN SOUR CREAM\n2.79F\nRegular Price\n3.29\nMEAT\nCOUNTRY PRK RIB MP\n5.50F\nRegular Price\n13.18\nRVNS THAI CCNT CKN\n12.99F\nCE Engagement Points Earn\n* RESERVED FOR CUSTOMER\nRESERVED FOR CUSTOMER\nSUBTOTAL\n36.30\nTOTAL TAX\n.00\nTOTAL\n36.30\nEBT FOOD TENDER\n36.30\nAcct:************0509\nAPPRVL CODE 747075\nCas Ref# 17989\nTENDER\n.00\nCASH\nCHANGE\n.00\nCASH\nNUMBER OF ITEMS\n13\nSpecial Purchase Discount\n11.43\nTotal Savings on Sale Items\n8.18\nYOU SAVED A TOTAL OF\n19.61\nTHAT IS A SAVINGS OF\n35%\nSave Mart #619\n7960 Gerber Road\nSacramento CA 95328\n(916)689-8300\nPIN Used",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CRAFLVR TORT REST",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "F AY CHTC JUMBO PF",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "F AY CHTC JUMBO PF",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "F AY CHTC JUMBO PF + Buy 2 Get 2",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "F.AY CHTC JUMBO PF + Buy 2 Get 2\"",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SHIN WATRMELN B KB",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    },
+    {
+      "text": "CRV BEV.05 + GEN MDSE + 3 @ 1/.15",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "WIO/EBT PAPER BAG + GEN MDSE + 3 @ 1/.15 + Bag Offset for wIC/EBT Shoppers",
+      "price": 0.15,
+      "quantity": 3,
+      "totalSpend": 0
+    },
+    {
+      "text": "SSF AN SOUR CREAM + Regular Price 3.29",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "COUNTRY PRK RIB MP + MEAT + Regular Price 13.18",
+      "price": 5.5,
+      "quantity": 1,
+      "totalSpend": 5.5
+    },
+    {
+      "text": "KVNS THAI CCNT CKN + CE Engagement Points Earn + => RESERVED FOR CUSTOMER + RESERVED FOR CUSTOMER",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    }
+  ],
+  "disagreementCount": 3,
+  "nullCount": 0
+}

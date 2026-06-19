@@ -1,0 +1,243 @@
+{
+  "id": "cmn0kk7te0001mh9itug5d2ua",
+  "url": null,
+  "retailer": "Jewel-Osco Pharmacy",
+  "brand": "Back to Nature",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Jewel Osco",
+    "totalCost": "6.12",
+    "purchaseDate": "2026-03-21",
+    "time": null,
+    "zipCode": "60467",
+    "city": "Orland Park",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12348.65141700002,
+        "totalUsd": 0.016536,
+        "inputTokens": 6086,
+        "outputTokens": 823,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "6.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60467",
+          "status": "match"
+        },
+        "city": {
+          "value": "Orland Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "17930 Wolf Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6513",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "81989801010 BACK TO NATURE CRA",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Jewel\nOsco\nStore 3192 Dir Jennifer Campbell\nMain: (708)479-1573 Rx: (708)479-1744\n17930 Wolf Road\nOrland Park IL 60467\n00319205200662603211151\nYOUR CASHIER TODAY WAS SELF\nGROCERY Price You Pay\n81989801010 BACK TO NATURE CRA 5.99 5.99 B\nTAX 0.13\n**** BALANCE 6.12\nCredit Purchase 03/21/26 11:51\nCARD # ************6513\nREF: 145129465130 AUTH: 0061714D\nPAYMENT AMOUNT 6.12\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 6.12\nCHANGE 0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nPoints expiring 03/31/26 252\nYOUR POINTS\nPoints Earned Today 5\nPoints Available 472\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/21/26 11:51 3192 52 66 8852\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO FOR U questions call\n877-276-9637 or Jewelosco.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10176.74666599999,
+        "totalUsd": 0.018462,
+        "inputTokens": 3692,
+        "outputTokens": 856,
+        "reasoningTokens": 580
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "6.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:51 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60467",
+          "status": "match"
+        },
+        "city": {
+          "value": "Orland Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "17930 Wolf Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6513",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BACK TO NATURE CRA + 81989801010",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "      Jewel\n      Osco\n\nStore 3192 Dir Jennifer Campbell\nMain: (708)479-1573 Rx: (708)479-1744\n17930 Wolf Road\nOrland Park IL 60467\n\n00319205200662603211151\n\nYOUR CASHIER TODAY WAS SELF\n\nGROCERY\nPrice You Pay\n81989801010 BACK TO NATURE CRA\n5.99 5.99 B\n\nTAX\n0.13\n**** BALANCE\n6.12\n\nCredit Purchase 03/21/26 11:51\nCARD # ************6513\nREF: 145129465130 AUTH: 0061714D\n\nPAYMENT AMOUNT\n6.12\n\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n6.12\nCHANGE\n0.00\n\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\n\nPoints expiring 03/31/26 252\n\nYOUR POINTS\nPoints Earned Today 5\nPoints Available 472\n\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/21/26 11:51 3192 52 66 8852\n\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO FOR U questions call\n877-276-9637 or Jewelosco.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5787.341833999992,
+        "totalUsd": 0.013026,
+        "inputTokens": 3692,
+        "outputTokens": 832,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "6.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:51 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60467",
+          "status": "match"
+        },
+        "city": {
+          "value": "Orland Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "17930 Wolf Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6513",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BACK TO NATURE CRA + 81989801010",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Jewel\nOsco\nStore 3192 Dir Jennifer Campbell\nMain: (708)479-1573 Rx: (708)479-1744\n17930 Wolf Road\nOrland Park IL 60467\n00319205200662603211151\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n81989801010 BACK TO NATURE CRA\n5.99 5.99 B\nTAX\n0.13\n**** BALANCE\n6.12\nCredit Purchase 03/21/26 11:51\nCARD # ************6513\nREF: 145129465130 AUTH: 0061714D\nPAYMENT AMOUNT\n6.12\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n6.12\nCHANGE\n0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nPoints expiring 03/31/26 252\nYOUR POINTS\nPoints Earned Today 5\nPoints Available 472\nTOTAL NUMBER OF ITEMS SOLD = 1\n03/21/26 11:51 3192 52 66\n8852\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO FOR U questions call\n877-276-9637 or Jewelosco.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BACK TO NATURE CRA + 81989801010",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

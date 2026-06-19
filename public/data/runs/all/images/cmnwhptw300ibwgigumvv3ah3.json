@@ -1,0 +1,351 @@
+{
+  "id": "cmnwhptw300ibwgigumvv3ah3",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "ZICO",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": null,
+    "purchaseDate": "2026-04-12",
+    "time": null,
+    "zipCode": "94538",
+    "city": "FREMONT",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 19763.300376,
+        "totalUsd": 0.020469,
+        "inputTokens": 6086,
+        "outputTokens": 1260,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.96",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94538",
+          "status": "match"
+        },
+        "city": {
+          "value": "FREMONT",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "39100 ARGONAUT WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0620",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 7279900861 + WERTHERS + Member Savings -1.49",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 7279949016 + WERTHERS + Member Savings -1.49",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "REFRIG/FROZEN + 4157016532 + BLUE D ALMOND MILK + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "REFRIG/FROZEN + 4157016533 + 2@ BLUE D ALMOND MILK + Member Savings -4.00",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRODUCE + 18012700025 + ZICO PNAPL MANGO + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 309 Dir Dave Hineline\nMain: (510) 794-1666 Rx:\n39100 ARGONAUT WAY\nFREMONT CA 94538\n00030909501132604121721\nYOUR CASHIER TODAY WAS SELF\nGROCERY Price You Pay\n7279900861 WERTHERS 3.49 2.00 S\nMember Savings -1.49\n7279949016 WERTHERS 3.49 2.00 S\nMember Savings -1.49\nREFRIG/FROZEN\n4157016532 BLUE D ALMOND MILK 5.99 3.99 S\nMember Savings -2.00\n4157016533 2@ BLUE D ALMOND MILK 11.98 7.98 S\nMember Savings -4.00\nPRODUCE\n18012700025 ZICO PNAPL MANGO 5.99 4.99 S\nMember Savings -1.00\nADDITIONAL DISCOUNTS\nMfr Coupon -8.00\nTAX 0.00\n**** BALANCE 14.96\nLtd Purchase Card Purchase 04/12/26\nCARD # ****************0620\nTOTAL TRANSACTION AMOUNT 14.96\nACCOUNT BALANCE 1.04\nLtd Purchase Card 14.96\nCHANGE 0.00\nYOUR SAVINGS\nCoupon Savings 6.00\nMember Savings 9.98\nTotal 15.98\nTotal Savings Value 52%\nYOUR POINTS\nPoints Earned Today 8\nPoints Available 887\nTOTAL NUMBER OF ITEMS SOLD = 6\n04/12/26 17:21 309 95 113 8895\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14963.66399999999,
+        "totalUsd": 0.03576,
+        "inputTokens": 3692,
+        "outputTokens": 1221,
+        "reasoningTokens": 2137
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.96",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94538",
+          "status": "match"
+        },
+        "city": {
+          "value": "FREMONT",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "39100 ARGONAUT WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0620",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "7279900861 WERTHERS + Member Savings -1.49",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7279949016 WERTHERS + Member Savings -1.49",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4157016532 BLUE D ALMOND MILK + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4157016533 2@ BLUE D ALMOND MILK + Member Savings -4.00",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "18012700025 ZICO PNAPL MANGO + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 309 Dir Dave Hineline\nMain: (510) 794-1666 Rx:\n39100 ARGONAUT WAY\nFREMONT CA 94538\n00030909501132604121721\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n7279900861 WERTHERS\n3.49 2.00 S\nMember Savings -1.49\n7279949016 WERTHERS\n3.49 2.00 S\nMember Savings -1.49\nREFRIG/FROZEN\n4157016532 BLUE D ALMOND MILK\n5.99 3.99 S\nMember Savings -2.00\n4157016533 2@ BLUE D ALMOND MILK\n11.98 7.98 S\nMember Savings -4.00\nPRODUCE\n18012700025 ZICO PNAPL MANGO\n5.99 4.99 S\nMember Savings -1.00\nADDITIONAL DISCOUNTS\nMfr Coupon\n-6.00\nTAX\n0.00\n**** BALANCE\n14.96\nLtd Purchase Card Purchase 04/12/26\nCARD # ************0620\nTOTAL TRANSACTION AMOUNT 14.96\nACCOUNT BALANCE 1.04\nLtd Purchase Card 14.96\nCHANGE 0.00\nYOUR SAVINGS\nCoupon Savings 6.00\nMember Savings 9.98\nTotal 15.98\nTotal Savings Value 52%\nYOUR POINTS\nPoints Earned Today 8\nPoints Available 887\nTOTAL NUMBER OF ITEMS SOLD = 6\n04/12/26 17:21 309 95 113 8895\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5940.043957999995,
+        "totalUsd": 0.016617,
+        "inputTokens": 3692,
+        "outputTokens": 1231,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.96",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94538",
+          "status": "match"
+        },
+        "city": {
+          "value": "FREMONT",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "39100 ARGONAUT WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0620",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WERTHERS + 7279900861 + Member Savings -1.49",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WERTHERS + 727994016 + Member Savings -1.49",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUE D ALMOND MILK + 4157016532 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUE D ALMOND MILK + 4157016533 + Member Savings -4.00",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZICO PNAPL MANGO + 18012700025 + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 309 Dir Dave Hineline\nMain: (510) 794-1666 Rx:\n39100 ARGONAUT WAY\nFREMONT CA 94538\n00030909501132604121721\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n7279900861 WERTHERS\n3.49 2.00 S\nMember Savings -1.49\n727994016 WERTHERS\n3.49 2.00 S\nMember Savings -1.49\nREFRIG/FROZEN\n4157016532 BLUE D ALMOND MILK\n5.99 3.99 S\nMember Savings -2.00\n4157016533 2@ BLUE D ALMOND MILK\n11.98 7.98 S\nMember Savings -4.00\nPRODUCE\n18012700025 ZICO PNAPL MANGO\n5.99 4.99 S\nMember Savings -1.00\nADDITIONAL DISCOUNTS\nMfr Coupon\n-6.00\nTAX\n0.00\n**** BALANCE\n14.96\nLtd Purchase Card Purchase 04/12/26\nCARD # ****************0620\nTOTAL TRANSACTION AMOUNT 14.96\nACCOUNT BALANCE 1.04\nLtd Purchase Card\n14.96\nCHANGE\n0.00\nYOUR SAVINGS\nCoupon Savings\n6.00\nMember Savings\n9.98\nTotal\n15.98\nTotal Savings Value\n52%\nYOUR POINTS\nPoints Earned Today 8\nPoints Available 887\nTOTAL NUMBER OF ITEMS SOLD = 6\n04/12/26 17:21 309 95 113\n8895\nThank you for shopping Safeway!\nFor SAFEWAY FOR U questions call\n877-276-9637 or Safeway.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "WERTHERS 3.49 + 7279900861 + Membar Savings -1.49",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "WERTHERS 3.49 + 7279949016 + Member Savings -1.49 + REFRIG/FROZEN",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "BLUE D ALMOND MILK 5.99 + 4157016532 + Member Savings -2.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BLUE D ALMOND MILK + 4157016533 + Member Savings -4.00 + PRODUCE",
+      "price": 3.99,
+      "quantity": 2,
+      "totalSpend": 7.98
+    },
+    {
+      "text": "ZICO PNAPL MANGO 5.99 + 18012700025 + Member Savings -1.00",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

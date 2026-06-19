@@ -1,0 +1,243 @@
+{
+  "id": "cmnm0vna9002ou8276a6avpll",
+  "url": null,
+  "retailer": "Woodman's Food Market",
+  "brand": "Kickstand Cocktails",
+  "amount": 6,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Woodman's Markets",
+    "totalCost": "18.98",
+    "purchaseDate": "2026-04-05",
+    "time": null,
+    "zipCode": "53142",
+    "city": "Kenosha",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10694.49062500001,
+        "totalUsd": 0.014574,
+        "inputTokens": 6086,
+        "outputTokens": 605,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Woodman's Markets",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:14pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Kenosha",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7145 118th Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9034",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KICKSTAND 8 PACK",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WOODMAN'S\n• MARKETS •\nEMPLOYEE OWNED\n\nKenosha - WI\n(262) 857-3801\n\nPURCHASES\nKICKSTAND 8 PACK 17.99T\nTAX 0.99\n**** BALANCE 18.98\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nWFM #27 Debit Receipt - C\n7145 118th Avenue\nKenosha WI\n************9034\n420085-83232-000-APPROVED\nPurchase Amount : 18.98\nCashback Amount : 0.00\nTotal Amount : 18.98\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nDebit 18.98\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n04/05/26 12:14pm 27 83 17 783\n000002708300172604051214\n- Thank You -\nSave Receipt: See Return\nPolicy Posted in Store",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14418.22620800001,
+        "totalUsd": 0.025716,
+        "inputTokens": 3692,
+        "outputTokens": 619,
+        "reasoningTokens": 1623
+      },
+      "fields": {
+        "storeName": {
+          "value": "Woodman's Markets",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:14pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53142",
+          "status": "match"
+        },
+        "city": {
+          "value": "Kenosha",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7145 118th Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9034",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KICKSTAND 8 PACK",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WOODMAN'S\n. MARKETS .\nEMPLOYEE OWNED\n\nKenosha - WI\n(262) 857-3801\n\nPURCHASES\n       KICKSTAND 8 PACK      17.99T\n       TAX                    0.99\n   **** BALANCE              18.98\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nWFM #27 Debit Receipt - C\n7145 118th Avenue\nKenosha WI\n************9034\n420085-83232-000-APPROVED\nPurchase Amount : 18.98\nCashback Amount : 0.00\nTotal Amount    : 18.98\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n       Debit                 18.98\n       CHANGE                 0.00\nTOTAL NUMBER OF ITEMS SOLD =     1\n04/05/26 12:14pm 27 83 17 783\n\n000002708300172604051214\n\n- Thank You -\nSave Receipt: See Return\nPolicy Posted in Store",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4033.717042000004,
+        "totalUsd": 0.01101,
+        "inputTokens": 3692,
+        "outputTokens": 608,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Woodman's Markets",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:14pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Kenosha",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7145 118th Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9034",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KICKSTAND 8 PACK",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WOODMAN'S\n• MARKETS •\nEMPLOYEE OWNED\nKenosha - WI\n(262) 857-3801\nPURCHASES\nKICKSTAND 8 PACK 17.99T\nTAX 0.99\n**** BALANCE 18.98\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nWFM #27 Debit Receipt - C\n7145 118th Avenue\nKenosha WI\n************9034\n420085-83232-000-APPROVED\nPurchase Amount : 18.98\nCashback Amount : 0.00\nTotal Amount : 18.98\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nDebit 18.98\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n04/05/26 12:14pm 27 83 17 783\n000002708300172604051214\n- Thank You -\nSave Receipt: See Return\nPolicy Posted in Store",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KICKSTAND 8 PACK + PURCHASES",
+      "price": 17.99,
+      "quantity": 1,
+      "totalSpend": 17.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

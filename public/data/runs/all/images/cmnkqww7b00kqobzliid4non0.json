@@ -1,0 +1,243 @@
+{
+  "id": "cmnkqww7b00kqobzliid4non0",
+  "url": null,
+  "retailer": "Coborn's Grocery Store Albertville",
+  "brand": "f'real",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Coborns",
+    "totalCost": "3.99",
+    "purchaseDate": "2026-04-04",
+    "time": null,
+    "zipCode": "55301",
+    "city": "Albertville",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17490.618041,
+        "totalUsd": 0.01659,
+        "inputTokens": 6086,
+        "outputTokens": 829,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Coborn's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Albertville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5698 LaCentre Av NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0938",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DELI + FREAL OREO + 00081399300215",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COBORN'S\nEmployee Owned\nREMARKABLY INCREDIBLY\nfresh. friendly.\n5698 LaCentre Av NE\nAlbertville, MN 55301\nFood: 763-497-0182 Pharmacy: 497-1139\nLiquor: 497-2831\nVISIT ONLINE: coborns.com\nCurb Side Pickup: shop.coborns.com\nDELI\nFREAL OREO\n00081399300215\n3.99 F\nSUB TOTAL\n$3.99\nDEBIT\n$3.99\n[ ] XXXXXXXXXXXX0938\nAuth# 318609\nTOTAL\n$3.99\nCHANGE\n$0.00\nTotal number of items sold = 1\nCashier:0332 Name:Emerson H\nStore:2029 POS:048 Transaction:0209\nSaturday, April 04, 2026 02:44 PM\n04/04/2026\n14:44:34\nUS DEBIT\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX0938\nPURCHASE\n- APPROVED\nAUTH CODE:318609\nMode:\nIssuer-PIN Verified\nAID:\nA0000000980840\nTVR:\n0000000000\nIAD:\n06061203A00000\nTSI: 0000\nARC: 00\nTC:\n08A4953BB92077AA\nMID: 535219\nTID: 001\nRRN: 487209\nTotal:\nUSD$ 3.99",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9205.36725,
+        "totalUsd": 0.02046,
+        "inputTokens": 3692,
+        "outputTokens": 816,
+        "reasoningTokens": 842
+      },
+      "fields": {
+        "storeName": {
+          "value": "Coborn's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Albertville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5698 LaCentre Av NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0938",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL OREO + 00081399300215",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COBORN'S\nEmployee Owned\nREMARKABLY INCREDIBLY\nfresh. friendly.\n5698 LaCentre Av NE\nAlbertville, MN 55301\nFood: 763-497-0182 Pharmacy: 497-1139\nLiquor: 497-2831\nVISIT ONLINE: coborns.com\nCurb Side Pickup: shop.coborns.com\nDELI\nFREAL OREO\n00081399300215\n3.99 F\nSUB TOTAL\n$3.99\nDEBIT\n$3.99\n[ ] XXXXXXXXXXXX0938\nAuth# 318609\nTOTAL\n$3.99\nCHANGE\n$0.00\nTotal number of items sold = 1\nCashier:0332 Name: Emerson H\nStore:2029 POS:048 Transaction:0209\nSaturday, April 04, 2026 02:44 PM\n04/04/2026\n14:44:34\nUS DEBIT\nEntry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX0938\nPURCHASE\n- APPROVED\nAUTH CODE:318609\nMode:\nIssuer-PIN Verified\nAID:\nA0000000980840\nTVR:\n0000000000\nIAD:\n06061203A00000\nTSI: 0000\nARC: 00\nTC:\n08A4953BB92077AA\nMID: 535219\nTID: 001\nRRN: 487209\nTotal:\nUSD$ 3.99",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5027.903166999999,
+        "totalUsd": 0.0129,
+        "inputTokens": 3692,
+        "outputTokens": 818,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Coborn's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "55301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Albertville",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5698 LaCentre Av NE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0938",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DELI + FREAL OREO + 00081399300215",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COBORN'S\nEmployee Owned\nREMARKABLY INCREDIBLY\nfresh. friendly.\n5698 LaCentre Av NE\nAlbertville, MN 55301\nFood: 763-497-0182 Pharmacy: 497-1139\nLiquor: 497-2831\nVISIT ONLINE: coborns.com\nCurb Side Pickup: shop.coborns.com\nDELI\nFREAL OREO\n00081399300215\n3.99 F\nSUB TOTAL\n$3.99\nDEBIT\n$3.99\n[ ] XXXXXXXXXXXX0938\nAuth# 318609\nTOTAL\n$3.99\nCHANGE\n$0.00\nTotal number of items sold = 1\nCashier:0332 Name:Emerson H\nStore:2029 POS:048 Transaction:0209\nSaturday, April 04, 2026 02:44 PM\n04/04/2026\n14:44:34\nUS DEBIT\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX0938\nPURCHASE\n- APPROVED\nAUTH CODE:318609\nMode:\nIssuer-PIN Verified\nAID:\nA0000000980840\nTVR:\n0000000000\nIAD:\n06061203A00000\nTSI: 0000\nARC: 00\nTC:\n08A4953BB92077AA\nMID: 535219\nTID: 001\nRRN: 487209\nTotal:\nUSD$ 3.99",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FREAL OREO + 00081399300215",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

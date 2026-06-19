@@ -1,0 +1,432 @@
+{
+  "id": "cmprmausw003jimynn97qo64h",
+  "url": null,
+  "retailer": "Fred Meyer Grocery Pickup and Delivery",
+  "brand": "yulu foods",
+  "amount": 0.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fred Meyer",
+    "totalCost": "35.89",
+    "purchaseDate": "2026-05-29",
+    "time": null,
+    "zipCode": "97232",
+    "city": "Portland",
+    "state": "OR",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8708.25112500001,
+        "totalUsd": 0.022242,
+        "inputTokens": 6086,
+        "outputTokens": 1457,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fred Meyer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "35.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:30",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97232-1857",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Portland",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3030 NE Weidler St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4169",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "3077219366 PC CHRM MEGA RO + FM SAVINGS + eCpn BntyChrmn",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4046 AVOCADOS",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "4093 ONIONS YELLO",
+          "quantity": 1,
+          "unitPrice": 0.71,
+          "totalSpend": 0.71,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1111004779 STO BBY ARUG",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4072 POTATOES RUS",
+          "quantity": 1,
+          "unitPrice": 2.72,
+          "totalSpend": 2.72,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3082 BROCCOLI CRO + eCpn or more Brocc",
+          "quantity": 1,
+          "unitPrice": 1.98,
+          "totalSpend": 1.58,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "85004721780 YULU BOBA T",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1111062625 BKRY RWB MM",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH FOR EVERYONE.\nNow Hiring!\nApply at jobs.fredmeyer.com\n3030 NE Weidler St.\n503-280-1300\nYOUR CASHIER WAS CHEC 500\nREWARDS CARD *******6586\n3077219366 PC CHRM MEGA RO 8.99\nSC FM SAVINGS 1.00\nSC eCpn BntyChrmn 5.00\n2 @ 5/5.00\n4046 AVOCADOS 2.00 F\n0.72 (0.73) lb @ 0.99 /lb\nWT 4093 ONIONS YELLO 0.71 F\n1111004779 STO BBY ARUG 5.00 F\n2.75 (2.76) lb @ 0.99 /lb\nWT 4072 POTATOES RUS 2.72 F\n0.92 (0.93) lb @ 2.59 /lb\nWT 3082 BROCCOLI CRO 1.98 F\nSC eCpn or more Brocc 0.40\n85004721780 YULU BOBA T 11.49 F\n1111062625 BKRY RWB MM 3.00 F\nSC 811099999998 eCpn 4X Fuel Pts\nREWARDS CARD *******6586\nTAX 0.00\n**** BALANCE 35.89\nPortland OR 97232-1857\nVISA CREDIT Purchase\n************4169 - H\nREF#: 08275D TOTAL: 35.89\nAID: A0000000031010\nTC: FEB06DF42819C871\nVISA 35.89\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\nFred Meyer Savings $ 6.40\nTotal Coupons $ 6.40\nTotal Savings (15 Percent) $ 6.40\n05/29/26 15:30 600 500 110 999999500\n****************************************\nAnnual Card Savings $419.32\n****************************************\n****************************************\nFuel Points Earned Today: 144\nTotal May Fuel Points: 207\n****************************************\nMARINERS REWARDS\nTotal points earned: 7\nMay not reflect recent redemptions\nVisit FredMeyer.com/Mariners\nor customer service for details",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 34370.34474999999,
+        "totalUsd": 0.079545,
+        "inputTokens": 3692,
+        "outputTokens": 1562,
+        "reasoningTokens": 6661
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fred Meyer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "35.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:30",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97232-1857",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Portland",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3030 NE Weidler St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4169",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PC CHRM MEGA RO + 3077219366 + FM SAVINGS 1.00 + eCpn BntyChrmn 5.00",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AVOCADOS + 4046 + 2 @ 5/5.00",
+          "quantity": 2,
+          "unitPrice": 1,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONIONS YELLO + 4093 + 0.72 (0.73) lb @ 0.99 /lb",
+          "quantity": 1,
+          "unitPrice": 0.71,
+          "totalSpend": 0.71,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STO BBY ARUG + 1111004779",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POTATOES RUS + 4072 + 2.75 (2.76) lb @ 0.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.72,
+          "totalSpend": 2.72,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BROCCOLI CRO + 3082 + 0.92 (0.93) lb @ 2.59 /lb + eCpn or more Brocc 0.40",
+          "quantity": 1,
+          "unitPrice": 2.38,
+          "totalSpend": 1.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YULU BOBA T + 85004721780",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BKRY RWB MM + 1111062625",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH FOR EVERYONE\nNow Hiring!\nApply at jobs.fredmeyer.com\n3030 NE Weidler St.\n503-280-1300\nYOUR CASHIER WAS CHEC 500\nREWARDS CARD *******6586\n3077219366 PC CHRM MEGA RO 8.99\nSC FM SAVINGS 1.00\nSC eCpn BntyChrmn 5.00\n2 @ 5/5.00\n4046 AVOCADOS 2.00 F\n0.72 (0.73) lb @ 0.99 /lb\nWT 4093 ONIONS YELLO 0.71 F\n1111004779 STO BBY ARUG 5.00 F\n2.75 (2.76) lb @ 0.99 /lb\nWT 4072 POTATOES RUS 2.72 F\n0.92 (0.93) lb @ 2.59 /lb\nWT 3082 BROCCOLI CRO 1.98 F\nSC eCpn or more Brocc 0.40\n85004721780 YULU BOBA T 11.49 F\n1111062625 BKRY RWB MM 3.00 F\nSC 811099999998 eCpn 4X Fuel Pts\nREWARDS CARD *******6586\nTAX 0.00\n**** BALANCE 35.89\nPortland OR 97232-1857\nVISA CREDIT Purchase\n************4169 - H\nREF#: 08275D TOTAL: 35.89\nAID: A0000000031010\nTC: FEB06DF42819C871\nVISA 35.89\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\nFred Meyer Savings $ 6.40\nTotal Coupons $ 6.40\nTotal Savings (15 Percent) $ 6.40\n05/29/26 15:30 600 500 110 999999500\n****************************************\nAnnual Card Savings $419.32\n****************************************\n****************************************\nFuel Points Earned Today: 144\nTotal May Fuel Points: 207\n****************************************\nMARINERS REWARDS\nTotal points earned: 7\nMay not reflect recent redemptions\nVisit FredMeyer.com/Mariners\nor customer service for details",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7090.660082999995,
+        "totalUsd": 0.01848,
+        "inputTokens": 3692,
+        "outputTokens": 1438,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fred Meyer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "35.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:30",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97232-1857",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Portland",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3030 NE Weidler St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4169",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "3077219366 PC CHRM MEGA RO + FM SAVINGS + eCpn BntyChrmn",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4046 AVOCADOS",
+          "quantity": 2,
+          "unitPrice": 1,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4093 ONIONS YELLO",
+          "quantity": 1,
+          "unitPrice": 0.71,
+          "totalSpend": 0.71,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1111004779 STO BBY ARUG",
+          "quantity": 1,
+          "unitPrice": 5,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4072 POTATOES RUS",
+          "quantity": 1,
+          "unitPrice": 2.72,
+          "totalSpend": 2.72,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3082 BROCCOLI CRO + eCpn or more Brocc",
+          "quantity": 1,
+          "unitPrice": 1.98,
+          "totalSpend": 1.58,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "85004721780 YULU BOBA T",
+          "quantity": 1,
+          "unitPrice": 11.49,
+          "totalSpend": 11.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1111062625 BKRY RWB MM",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH FOR EVERYONE\nNow Hiring!\nApply at jobs.fredmeyer.com\n3030 NE Weidler St.\n503-280-1300\nYOUR CASHIER WAS CHEC 500\nREWARDS CARD *******6586\n3077219366 PC CHRM MEGA RO 8.99\nSC FM SAVINGS 1.00\nSC eCpn BntyChrmn 5.00\n2 @ 5/5.00\n4046 AVOCADOS 2.00 F\n0.72 (0.73) lb @ 0.99 /lb\nWT 4093 ONIONS YELLO 0.71 F\n1111004779 STO BBY ARUG 5.00 F\n2.75 (2.76) lb @ 0.99 /lb\nWT 4072 POTATOES RUS 2.72 F\n0.92 (0.93) lb @ 2.59 /lb\nWT 3082 BROCCOLI CRO 1.98 F\nSC eCpn or more Brocc 0.40\n85004721780 YULU BOBA T 11.49 F\n1111062625 BKRY RWB MM 3.00 F\nSC 811099999998 eCpn 4X Fuel Pts\nREWARDS CARD *******6586\nTAX 0.00\n**** BALANCE 35.89\nPortland OR 97232-1857\nVISA CREDIT Purchase\n************4169 - H\nREF#: 08275D TOTAL: 35.89\nAID: A0000000031010\nTC: FEB06DF42819C871\nVISA 35.89\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\nFred Meyer Savings $ 6.40\nTotal Coupons $ 6.40\nTotal Savings (15 Percent) $ 6.40\n05/29/26 15:30 600 500 110 999999500\n****************************************\nAnnual Card Savings $419.32\n****************************************\n****************************************\nFuel Points Earned Today: 144\nTotal May Fuel Points: 207\n****************************************\nMARINERS REWARDS\nTotal points earned: 7\nMay not reflect recent redemptions\nVisit FredMeyer.com/Mariners\nor customer service for details",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CHRM MEGA + 3077219366 + SC FM SAVINGS 1.00 + SC eCpn BntyChrmn 5.00 + 2 @ 5/5.00",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "AVOCADOS + 4046 + 2 @ 5/5.00 + 0.72 (0.73) lb @ 0.99 /lb",
+      "price": 1,
+      "quantity": 2,
+      "totalSpend": 2
+    },
+    {
+      "text": "ONIONS YELLO + 4093 + 0.72 (0.73) lb @ 0.99 /lb",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.71
+    },
+    {
+      "text": "STO BBY ARUG + 1111004779 + 2.75 (2.76) lb @ 0.99 /lb",
+      "price": 5,
+      "quantity": 1,
+      "totalSpend": 5
+    },
+    {
+      "text": "POTATOES RUS + 4072 + 2.75 (2.76) lb @ 0.99 /lb + 0.92 (0.93) lb @ 2.59 /lb",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 2.72
+    },
+    {
+      "text": "BROCCOLI CRO + 3082 + 0.92 (0.93) lb @ 2.59 /lb + SC eCpn or more Brocc 0.40",
+      "price": 2.59,
+      "quantity": 1,
+      "totalSpend": 1.98
+    },
+    {
+      "text": "YULU BOBA T + 85004721780",
+      "price": 11.49,
+      "quantity": 1,
+      "totalSpend": 11.49
+    },
+    {
+      "text": "BKRY RWB MM + 1111062625 + SC 811099999998 eCpn 4X Fuel Pts + REWARDS CARD *******6586",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

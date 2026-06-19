@@ -1,0 +1,405 @@
+{
+  "id": "cmoyxekmn001l5c0bwajv6iz9",
+  "url": null,
+  "retailer": "Total Wine & More",
+  "brand": "mom water",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Total Wine & More",
+    "totalCost": "99.03",
+    "purchaseDate": "2026-05-09",
+    "time": null,
+    "zipCode": "19703",
+    "city": "Claymont",
+    "state": "DE",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17279.74466599998,
+        "totalUsd": 0.020604,
+        "inputTokens": 6086,
+        "outputTokens": 1275,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine & More",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "99.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:13 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19703",
+          "status": "match"
+        },
+        "city": {
+          "value": "Claymont",
+          "status": "match"
+        },
+        "state": {
+          "value": "DE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "691 Naamans Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9810",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Schweppes Tonic Diet-1L + 7800021945",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Schweppes Tonic Diet-1L + 7800021945",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Schweppes Tonic Diet-1L + 7800021945",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Schofferhofer Hefeweizn Grapefrui-11c-12p + 4257204412 + PK",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Leinenkugel's Lodge Variety Pack-12c-12p + 46243362122 + PK",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Mom Water Bes-Teas Variety Pack-12c-8p + 85006518010 + PK",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Surfside Lemonade Pack-12c-18p + 81017136110 + CS",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 32.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n101-DSW-Total Wine-Claymont\n691 Naamans Road\nClaymont, DE 19703\n302-792-1322\nTicket: 165279 6:13 PM 05/09/2026\nStore: 101 Register: 5\nCashier: 87795 (Shelby)\nItem Qty Price Amount\nSchweppes Tonic Diet-1L\n7800021945 1 1.69 1.69\nSchweppes Tonic Diet-1L\n7800021945 1 1.69 1.69\nSchweppes Tonic Diet-1L\n7800021945 1 1.69 1.69\nSchofferhofer Hefeweizn Grapefrui-11c-12p\n4257204412 PK 1 20.99 20.99\nLeinenkugel's Lodge Variety Pack-12c-12p\n46243362122 PK 1 19.99 19.99\nMom Water Bes-Teas Variety Pack-12c-8p\n85006518010 PK 1 19.99 19.99\nSurfside Lemonade Pack-12c-18p\n81017136110 CS 1 32.99 32.99\nSubtotal 99.03\nTax3 0.00\nTotal 99.03\n05/09/2026 18:13:15\nVISA CREDIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX9810\nPURCHASE - APPROVED\nAUTH CODE:33193D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10932.83424999999,
+        "totalUsd": 0.027561,
+        "inputTokens": 3692,
+        "outputTokens": 1254,
+        "reasoningTokens": 1193
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "99.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:13 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19703",
+          "status": "match"
+        },
+        "city": {
+          "value": "Claymont",
+          "status": "match"
+        },
+        "state": {
+          "value": "DE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "691 Naamans Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9810",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Schweppes Tonic Diet-1L + 7800021945",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Schweppes Tonic Diet-1L + 7800021945",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Schweppes Tonic Diet-1L + 7800021945",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Schofferhofer Hefeweizn Grapefrui-11c-12p + 4257204412",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Leinenkugel's Lodge Variety Pack-12c-12p + 46243362122",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Mom Water Bes-Teas Variety Pack-12c-8p + 85006518010",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Surfside Lemonade Pack-12c-18p + 81017136110",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 32.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n101-DSW-Total Wine-Claymont\n691 Naamans Road\nClaymont, DE 19703\n302-792-1322\nTicket: 165279 6:13 PM 05/09/2026\nStore: 101 Register: 5\nCashier: 87795 (Shelby)\nItem Qty Price Amount\nSchweppes Tonic Diet-1L\n7800021945 1 1.69 1.69\nSchweppes Tonic Diet-1L\n7800021945 1 1.69 1.69\nSchweppes Tonic Diet-1L\n7800021945 1 1.69 1.69\nSchofferhofer Hefeweizn Grapefrui-11c-12p\n4257204412 PK 1 20.99 20.99\nLeinenkugel's Lodge Variety Pack-12c-12p\n46243362122 PK 1 19.99 19.99\nMom Water Bes-Teas Variety Pack-12c-8p\n85006518010 PK 1 19.99 19.99\nSurfside Lemonade Pack-12c-18p\n81017136110 CS 1 32.99 32.99\nSubtotal 99.03\nTax3 0.00\nTotal 99.03\n05/09/2026 18:13:15\nVISA CREDIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX9810\nPURCHASE - APPROVED\nAUTH CODE:33193D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6233.773334000012,
+        "totalUsd": 0.016842,
+        "inputTokens": 3692,
+        "outputTokens": 1256,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine & More",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "99.03",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:13 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19703",
+          "status": "match"
+        },
+        "city": {
+          "value": "Claymont",
+          "status": "match"
+        },
+        "state": {
+          "value": "DE",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "691 Naamans Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9810",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Schweppes Tonic Diet-1L + 7800021945",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Schweppes Tonic Diet-1L + 7800021945",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Schweppes Tonic Diet-1L + 7800021945",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Schofferhofer Hefeweizn Grapefrui-11c-12p + 4257204412",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Leinenkugel's Lodge Variety Pack-12c-12p + 46243362122",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Mom Water Bes-Teas Variety Pack-12c-8p + 85006518010",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Surfside Lemonade Pack-12c-18p + 81017136110",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "totalSpend": 32.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n101-DSW-Total Wine-Claymont\n691 Naamans Road\nClaymont, DE 19703\n302-792-1322\nTicket: 165279 6:13 PM 05/09/2026\nStore: 101 Register: 5\nCashier: 87795 (Shelby)\nItem Qty Price Amount\nSchweppes Tonic Diet-1L\n7800021945 1 1.69 1.69\nSchweppes Tonic Diet-1L\n7800021945 1 1.69 1.69\nSchweppes Tonic Diet-1L\n7800021945 1 1.69 1.69\nSchofferhofer Hefeweizn Grapefrui-11c-12p\n4257204412 PK 1 20.99 20.99\nLeinenkugel's Lodge Variety Pack-12c-12p\n46243362122 PK 1 19.99 19.99\nMom Water Bes-Teas Variety Pack-12c-8p\n85006518010 PK 1 19.99 19.99\nSurfside Lemonade Pack-12c-18p\n81017136110 CS 1 32.99 32.99\nSubtotal 99.03\nTax3 0.00\nTotal 99.03\n05/09/2026 18:13:15\nVISA CREDIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX9810\nPURCHASE - APPROVED\nAUTH CODE:33193D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Schweppes Tonic Diet-1L + 7800021945",
+      "price": 1.69,
+      "quantity": 1,
+      "totalSpend": 1.69
+    },
+    {
+      "text": "Schweppes Tonic Diet-1L + 7800021945",
+      "price": 1.69,
+      "quantity": 1,
+      "totalSpend": 1.69
+    },
+    {
+      "text": "Schweppes Tonic Diet-1L + 7800021945",
+      "price": 1.69,
+      "quantity": 1,
+      "totalSpend": 1.69
+    },
+    {
+      "text": "Schofferhofer Hefeweizn Grapefrui-11c-12p + 4257204412",
+      "price": 20.99,
+      "quantity": 1,
+      "totalSpend": 20.99
+    },
+    {
+      "text": "Leinenkugel's Lodge Variety Pack-12c-12p + 46243362122",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    },
+    {
+      "text": "Mom Water Bes-Teas Variety Pack-12c-8p + 85006618010",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    },
+    {
+      "text": "Surfside Lemonade Pack-12c-18p + 81017136110",
+      "price": 32.99,
+      "quantity": 1,
+      "totalSpend": 32.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

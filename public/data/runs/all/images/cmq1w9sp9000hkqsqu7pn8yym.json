@@ -1,0 +1,722 @@
+{
+  "id": "cmq1w9sp9000hkqsqu7pn8yym",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Taste Republic",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts",
+    "totalCost": "72.46",
+    "purchaseDate": "2026-06-05",
+    "time": null,
+    "zipCode": "91604",
+    "city": "2IIudio City",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 26253.64379199996,
+        "totalUsd": 0.0608685,
+        "inputTokens": 6169,
+        "outputTokens": 2019,
+        "reasoningTokens": 3716
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "72.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:30:45",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91604",
+          "status": "match"
+        },
+        "city": {
+          "value": "Studio City",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11315 Ventura Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3475",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG BABY BOK CHOY + 0.64 lb @ $2.49 / lb + Tare: 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORG COLLARD GREENS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUICE-ORG-LEMON",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG ALMOND EXTRACT",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GARLIC GRANULES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GRND CUMIN SEED",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG TURMERIC POWDER",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEA SALT FLAKES",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YELLOW CAKE MIX",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEAVY WHIPPING CREAM",
+          "quantity": 1,
+          "unitPrice": 3.84,
+          "totalSpend": 3.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG LRG BRWN EGGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG LRG BRWN EGGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAW MILK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMOOTHIE-ORG-DEFENSE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "*CRV FS/TX 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOUR CHS TORTELLONI + SPROUTS REWARDS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": -1.01,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n11315 Ventura Blvd\nStudio City, CA 91604\n747-256-6517\nStore Hours MON-SUN 7AM-10PM\n\n06/05/2026 17:30:45\nUS DEBIT Entry Method: Contactless\nCARD #: XXXXXXXXXXXX3475\nPURCHASE APPROVED\nAUTH CODE:095278\n\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: 1F42FF6EA000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 TSI: 00\nTC: CE99AE3A39822675\nMID: 087842 TID: 001 RRN: 334739\n\nTotal: USD$ 72.46\n\nPRODUCE\nORG BABY BOK CHOY 1.59\n0.64 lb @ $2.49 / lb\nTare: 0.01 lb\nORG CAULIFLOWER 8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nORG CAULIFLOWER 8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nVoided Item\nORG CAULIFLOWER -8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nVoided Item\nORG CAULIFLOWER -8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nORG COLLARD GREENS 2.49\n\nGROCERY\nJUICE-ORG-LEMON 4.49\n*CRV FS 05 0.05\nORG ALMOND EXTRACT 6.99\nORG GARLIC GRANULES 3.99\nORG GRND CUMIN SEED 3.99\nORG TURMERIC POWDER 3.99\nSEA SALT FLAKES 8.99\nYELLOW CAKE MIX 4.99\n\nDAIRY\nHEAVY WHIPPING CREAM 3.84\nORG LRG BRWN EGGS 5.99\nORG LRG BRWN EGGS 5.99\nRAW MILK 6.99\nSMOOTHIE-ORG-DEFENSE 8.99\n*CRV FS/TX 10 0.10 T\n\nFROZEN\nFOUR CHS TORTELLONI 2.99\nSPROUTS REWARDS -4.00\n\nTax Report\nSales Tax 0.10 0.01 TT\n\nBALANCE DUE 72.46\nCREDIT $72.46\n[ ] XXXXXXXXXXXX3475",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 30417.79829099996,
+        "totalUsd": 0.074874,
+        "inputTokens": 3692,
+        "outputTokens": 2041,
+        "reasoningTokens": 5663
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "72.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2025-06-05",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "17:30:45",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91604",
+          "status": "match"
+        },
+        "city": {
+          "value": "Studio City",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11315 Ventura Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3475",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG BABY BOK CHOY + 0.64 lb @ $2.49 / lb + Tare: 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORG COLLARD GREENS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUICE-ORG-LEMON",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG ALMOND EXTRACT",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GARLIC GRANULES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GRND CUMIN SEED",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG TURMERIC POWDER",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEA SALT FLAKES",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YELLOW CAKE MIX",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEAVY WHIPPING CREAM",
+          "quantity": 1,
+          "unitPrice": 3.84,
+          "totalSpend": 3.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG LRG BRWN EGGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG LRG BRWN EGGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAW MILK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMOOTHIE-ORG-DEFENSE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "*CRV FS/TX 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOUR CHS TORTELLONI",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPROUTS REWARDS",
+          "quantity": 1,
+          "unitPrice": -4,
+          "totalSpend": -4,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n11315 Ventura Blvd\nStudio City, CA 91604\n747-256-6517\nStore Hours MON-SUN 7AM-10PM\n06/05/2025 17:30:45\nUS DEBIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX3475\nPURCHASE APPROVED\nAUTH CODE:095278\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: 1F42FF6EA000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: CE99AE3A39822675\nMID: 087842 TID: 001 RRN: 334739\nTotal: USD$ 72.46\nPRODUCE\nORG BABY BOK CHOY 1.59\n0.64 lb @ $2.49 / lb\nTare: 0.01 lb\nORG CAULIFLOWER 8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nORG CAULIFLOWER 8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nVoided Item\nORG CAULIFLOWER -8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nVoided Item\nORG CAULIFLOWER -8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nORG COLLARD GREENS 2.49\nGROCERY\nJUICE-ORG-LEMON 4.49\n*CRV FS 05 0.05\nORG ALMOND EXTRACT 6.99\nORG GARLIC GRANULES 3.99\nORG GRND CUMIN SEED 3.99\nORG TURMERIC POWDER 3.99\nSEA SALT FLAKES 8.99\nYELLOW CAKE MIX 4.99\nDAIRY\nHEAVY WHIPPING CREAM 3.84\nORG LRG BRWN EGGS 5.99\nORG LRG BRWN EGGS 5.99\nRAW MILK 6.99\nSMOOTHIE-ORG-DEFENSE 8.99\n*CRV FS/TX 10 0.10 T\nFROZEN\nFOUR CHS TORTELLONI 2.99\nSPROUTS REWARDS -4.00\nTax Report\nSales Tax 0.10 0.01 TT\nBALANCE DUE 72.46\nCREDIT $72.46\n[ ] XXXXXXXXXXXX3475",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9984.615833999997,
+        "totalUsd": 0.026499,
+        "inputTokens": 3692,
+        "outputTokens": 2329,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "72.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:30:45",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91604",
+          "status": "match"
+        },
+        "city": {
+          "value": "Studio City",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11315 Ventura Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3475",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORG BABY BOK CHOY + 0.64 lb @ $2.49 / lb + Tare: 0.01 lb",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORG CAULIFLOWER + 2.73 lb @ $2.99 / lb + Tare: 0.02 lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 8.16,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG CAULIFLOWER + 2.73 lb @ $2.99 / lb + Tare: 0.02 lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 8.16,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Voided Item + ORG CAULIFLOWER + 2.73 lb @ $2.99 / lb + Tare: 0.02 lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": -8.16,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Voided Item + ORG CAULIFLOWER + 2.73 lb @ $2.99 / lb + Tare: 0.02 lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": -8.16,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ORG COLLARD GREENS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUICE-ORG-LEMON",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG ALMOND EXTRACT",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GARLIC GRANULES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG GRND CUMIN SEED",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG TURMERIC POWDER",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEA SALT FLAKES",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YELLOW CAKE MIX",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HEAVY WHIPPING CREAM",
+          "quantity": 1,
+          "unitPrice": 3.84,
+          "totalSpend": 3.84,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG LRG BRWN EGGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG LRG BRWN EGGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAW MILK",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMOOTHIE-ORG-DEFENSE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "*CRV FS/TX 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOUR CHS TORTELLONI + SPROUTS REWARDS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": -1.01,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n11315 Ventura Blvd\nStudio City, CA 91604\n747-256-6517\nStore Hours MON-SUN 7AM-10PM\n06/05/2026 17:30:45\nUS DEBIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX3475\nPURCHASE APPROVED\nAUTH CODE:095278\nMode: Issuer\nAID: A0000000980840\nIVR: 0000000000\nIAD: 1F42FF6EA00000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: CE99AE3A39822675\nMID: 087842 TID: 001 RRN: 334739\nTotal: USD$ 72.46\nPRODUCE\nORG BABY BOK CHOY 1.59\n0.64 lb @ $2.49 / lb\nTare: 0.01 lb\nORG CAULIFLOWER 8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nORG CAULIFLOWER 8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nVoided Item\nORG CAULIFLOWER -8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nVoided Item\nORG CAULIFLOWER -8.16\n2.73 lb @ $2.99 / lb\nTare: 0.02 lb\nORG COLLARD GREENS 2.49\nGROCERY\nJUICE-ORG-LEMON 4.49\n*CRV FS 05 0.05\nORG ALMOND EXTRACT 6.99\nORG GARLIC GRANULES 3.99\nORG GRND CUMIN SEED 3.99\nORG TURMERIC POWDER 3.99\nSEA SALT FLAKES 8.99\nYELLOW CAKE MIX 4.99\nDAIRY\nHEAVY WHIPPING CREAM 3.84\nORG LRG BRWN EGGS 5.99\nORG LRG BRWN EGGS 5.99\nRAW MILK 6.99\nSMOOTHIE-ORG-DEFENSE 8.99\n*CRV FS/TX 10 0.10 T\nFROZEN\nFOUR CHS TORTELLONI 2.99\nSPROUTS REWARDS -4.00\nTax Report\nSales Tax 0.10 0.01 TT\nBALANCE DUE 72.46\nCREDIT $72.46\n[ ] XXXXXXXXXXXX3475",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ORG BABY BOK CHOY + 0.64 b @ $2.49 / lb + Tare: 0.01 Tb",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 1.59
+    },
+    {
+      "text": "ORG CAULIFLOWER + 2.73 lb @ $2.99 / lb + Tare: 0.02 lb",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 8.16
+    },
+    {
+      "text": "ORG CAULIFLOWER + 2.73 lb @ $2.99 / lb + Tare: 0.02 lb + Voided Item",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 8.16
+    },
+    {
+      "text": "ORG COLLARD GREENS",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "JUICE-ORG-LEMON",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "CRV FS 05",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "ORG ALMOND EXTRACT",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "ORG GARLIC GRANULES",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "ORG GRND CUMIN SEED",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "ORG TURMERIC POWDER",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SEA SALT FLAKES",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "YELLOW CAKE MIX",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "HEAVY WHIPPING CREAM",
+      "price": 3.84,
+      "quantity": 1,
+      "totalSpend": 3.84
+    },
+    {
+      "text": "ORG LRG BRWN EGGS",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "ORG LRG BRWN EGGS",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "RAW MILK",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "SMOOTHIE-ORG-DEFENSE",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "CRV FS/TX 10",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "FOUR CHS TORTELLONI",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

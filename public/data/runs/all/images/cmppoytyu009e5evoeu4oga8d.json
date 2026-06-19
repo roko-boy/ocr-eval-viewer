@@ -1,0 +1,270 @@
+{
+  "id": "cmppoytyu009e5evoeu4oga8d",
+  "url": null,
+  "retailer": "bp",
+  "brand": "Stella Blue Coffee",
+  "amount": 3.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "BP",
+    "totalCost": "6.98",
+    "purchaseDate": "2026-05-28",
+    "time": null,
+    "zipCode": "48309",
+    "city": "Rochester",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14212.80500000002,
+        "totalUsd": 0.015564,
+        "inputTokens": 6086,
+        "outputTokens": 715,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "BP",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "6.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:01:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48309",
+          "status": "match"
+        },
+        "city": {
+          "value": "ROCHESTER HILLS",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2021 AUBURN RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2856",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STELLA B ECM",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STELLA B ECM",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nBP\n\n9260605\nBP\n2021 AUBURN RD\nROCHESTER HILLS MI 48309\n\nDescription Qty Amount\n---------- --- ------\nSTELLA B ECM 1 3.49\nSTELLA B ECM 1 3.49\n----------\nSubtotal 6.98\nTax 0.00\nTOTAL 6.98\nCREDIT $ 6.98\n\nSALE Receipt\nAMEX CREDIT USD$6.98\nAcct/Card #: ************2856\nEntry:Contactless ICC\nAuth #: 867036\nResp Code: 000\nStan: 20704636417\nInvoice #: 87986\n\nAuthNet: AMEX\nMODE: Issuer\nAID: A000000025010901\nBP SITE ID: 9260605\nAMEX\nCUSTOMER COPY\n\nLoyalty\nREWARD\nAcct/Card #: ************2856\nTrace #: OEH1-188-662194150-106\nStan: 20704636417\n\nTHANKS,COME AGAIN\nST# 2021 TILL XXXX DR# 1 TRAN# 1011149\nCSH: 5 5/28/26 12:01:29 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7719.796958000006,
+        "totalUsd": 0.020424,
+        "inputTokens": 3692,
+        "outputTokens": 696,
+        "reasoningTokens": 958
+      },
+      "fields": {
+        "storeName": {
+          "value": "BP",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "6.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:01:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48309",
+          "status": "match"
+        },
+        "city": {
+          "value": "ROCHESTER HILLS",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2021 AUBURN RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2856",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STELLA B ECM",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STELLA B ECM",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nBP\n9260605\nBP\n2021 AUBURN RD\nROCHESTER HILLS MI 48309\nDescription Qty Amount\nSTELLA B ECM 1 3.49\nSTELLA B ECM 1 3.49\nSubtotal 6.98\nTax 0.00\nTOTAL 6.98\nCREDIT $ 6.98\nSALE Receipt\nAMEX CREDIT USD$6.98\nAcct/Card #: ************2856\nEntry:Contactless ICC\nAuth #: 867036\nResp Code: 000\nStan: 20704636417\nInvoice #: 87986\nAuthNet: AMEX\nMODE: Issuer\nAID: A000000025010901\nBP SITE ID: 9260605\nAMEX\nCUSTOMER COPY\nLoyalty\nREWARD\nAcct/Card #: ************2856\nTrace #: OEH1-188-662194150-106\nStan: 20704636417\nTHANKS, COME AGAIN\nST# 2021 TILL XXXX DR# 1 TRAN# 1011149\nCSH: 5 5/28/26 12:01:29 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4409.979916999997,
+        "totalUsd": 0.011838,
+        "inputTokens": 3692,
+        "outputTokens": 700,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "BP",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "6.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:01:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48309",
+          "status": "match"
+        },
+        "city": {
+          "value": "ROCHESTER HILLS",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2021 AUBURN RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2856",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STELLA B ECM",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STELLA B ECM",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nBP\n\n9260605\nBP\n2021 AUBURN RD\nROCHESTER HILLS MI 48309\n\nDescription Qty Amount\nSTELLA B ECM 1 3.49\nSTELLA B ECM 1 3.49\nSubtotal 6.98\nTax 0.00\nTOTAL 6.98\nCREDIT $ 6.98\n\nSALE Receipt\nAMEX CREDIT USD$6.98\nAcct/Card #: **********2856\nEntry:Contactless ICC\nAuth #: 867036\nResp Code: 000\nStan: 20704636417\nInvoice #: 87986\n\nAuthNet: AMEX\nMODE: Issuer\nAID: A00000025010901\nBP SITE ID: 9260605\nAMEX\nCUSTOMER COPY\n\nLoyalty\nREWARD\nAcct/Card #: **********2856\nTrace #: OEH1-188-662194150-106\nStan: 20704636417\n\nTHANKS, COME AGAIN\nST# 2021 TILL XXXX DR# 1 TRAN# 1011149\nCSH: 5 5/28/26 12:01:29 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "STELLA B ECM",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "STELLA B ECM",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

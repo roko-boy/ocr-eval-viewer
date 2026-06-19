@@ -1,0 +1,378 @@
+{
+  "id": "cmnw1f7px00cdgh7jdnvppuej",
+  "url": null,
+  "retailer": "Target",
+  "brand": "factor",
+  "amount": 13.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "44.69",
+    "purchaseDate": "2026-04-12",
+    "time": null,
+    "zipCode": "60657",
+    "city": "Chicago",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14903.799125,
+        "totalUsd": 0.0191985,
+        "inputTokens": 6163,
+        "outputTokens": 1106,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.69",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:18 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60657-2109",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3300 N. Ashland Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5748",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "071081236 Chomps",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "216340376 FACTOR",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "216340375 FACTOR",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "284110729 GG CHEESE",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "266010006 CITRUS",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "261010412 THERUSTIKOVN",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4.89,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Chicago Lakeview Ashland - 773-598-2532\n3300 N. Ashland Ave\nChicago, Illinois 60657-2109\n04/12/2026 12:18 PM\nGROCERY\n071081236 Chomps BF $3.19\n216340376 FACTOR BF $13.99\n216340375 FACTOR BF $13.99\n284110729 GG CHEESE BF $3.29\n266010006 CITRUS BF $4.79\n261010412 THERUSTIKOVN BF $4.89\nSUBTOTAL $44.14\nB = IL TAX 1.25000 on $44.14 $0.55\nTOTAL $44.69\n*5748 VISA CHARGE $44.69\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 04633D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6102-3214-0161-8848-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7389 7678 6983\nPassword: 811 514\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16432.509042,
+        "totalUsd": 0.028515,
+        "inputTokens": 3692,
+        "outputTokens": 1145,
+        "reasoningTokens": 1408
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.69",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:18 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60657-2109",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3300 N. Ashland Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5748",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "071081236 Chomps",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "216340376 FACTOR",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "216340375 FACTOR",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "284110729 GG CHEESE",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "266010006 CITRUS",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "261010412 THERUSTIKOVN",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4.89,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Chicago Lakeview Ashland - 773-598-2532\n3300 N. Ashland Ave\nChicago, Illinois 60657-2109\n04/12/2026 12:18 PM\n\nGROCERY\n071081236 Chomps\tBF\t$3.19\n216340376 FACTOR\tBF\t$13.99\n216340375 FACTOR\tBF\t$13.99\n284110729 GG CHEESE\tBF\t$3.29\n266010006 CITRUS\tBF\t$4.79\n261010412 THERUSTIKOVN\tBF\t$4.89\n\nSUBTOTAL\t$44.14\nB = IL TAX 1.25000 on $44.14\t$0.55\nTOTAL\t$44.69\n*5748 VISA CHARGE\t$44.69\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE:\t04633D\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nREC#2-6102-3214-0161-8848-6\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7389 7678 6983\nPassword: 811 514\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6323.122041999999,
+        "totalUsd": 0.015393,
+        "inputTokens": 3692,
+        "outputTokens": 1095,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "44.69",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:18 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60657-2109",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3300 N. Ashland Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5748",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "071081236 Chomps",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "216340376 FACTOR",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "216340375 FACTOR",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "284110729 GG CHEESE",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "266010006 CITRUS",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "261010412 THERUSTIKOVN",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4.89,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Chicago Lakeview Ashland - 773-598-2532\n3300 N. Ashland Ave\nChicago, Illinois 60657-2109\n04/12/2026 12:18 PM\nGROCERY\n071081236 Chomps BF $3.19\n216340376 FACTOR BF $13.99\n216340375 FACTOR BF $13.99\n284110729 GG CHEESE BF $3.29\n266010006 CITRUS BF $4.79\n261010412 THERUSTIKOVN BF $4.89\nSUBTOTAL $44.14\nB = IL TAX 1.25000 on $44.14 $0.55\nTOTAL $44.69\n*5748 VISA CHARGE $44.69\nAID: A0000000031010\nVISA CREDIT\nAUTH CODE: 04633D\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nREC#2-6102-3214-0161-8848-6\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7389 7678 6983\nPassword: 811 514\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Chomps + 071081236",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    },
+    {
+      "text": "FACTOR + 216340376",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "FACTOR + 216340375",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "GG CHEESE + 284110729",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "CITRUS + 266010006",
+      "price": 4.79,
+      "quantity": 1,
+      "totalSpend": 4.79
+    },
+    {
+      "text": "THERUSTIKOVN + 261010412",
+      "price": 4.89,
+      "quantity": 1,
+      "totalSpend": 4.89
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

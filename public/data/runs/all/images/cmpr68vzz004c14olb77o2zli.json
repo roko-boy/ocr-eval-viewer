@@ -1,0 +1,561 @@
+{
+  "id": "cmpr68vzz004c14olb77o2zli",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Harken Sweets",
+  "amount": 13.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "138.1",
+    "purchaseDate": "2026-05-29",
+    "time": null,
+    "zipCode": "98133",
+    "city": "Shoreline",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11582.94883399998,
+        "totalUsd": 0.028506,
+        "inputTokens": 6134,
+        "outputTokens": 2145,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "150.46",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:39 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98133",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1175 North 205th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0656",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1915364 PUMA HOODIE",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1991158 SWFFR PWRMOP + 0000379021 / 1991158",
+          "quantity": 1,
+          "unitPrice": 31.99,
+          "totalSpend": 25.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7609681 CASCADE GEL + 0000379043 / 7609681",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7609681 CASCADE GEL + 0000379043 / 7609681",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2044845 HARKENGOOEY",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2044845 HARKENGOOEY",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1886106 ORALB FLOSS + 0000378828 / 1886106",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1886106 ORALB FLOSS + 0000378828 / 1886106",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1536795 CHAR HOODIE",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "882773 KIDS HOODIE",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1594072 A2YOGURT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1659031 KS ORG A2 4G",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1459628 EM CARDIGAN",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nAurora Village #106\n1175 North 205th St\nSeattle, WA 98133\nSELF-CHECKOUT\nB4 Member 111997298354\n1915364 PUMA HOODIE 6.97 A\n1991158 SWFFR PWRMOP 31.99 A\n0000379021 / 1991158 6.50-A\n7609681 CASCADE GEL 12.49 A\n0000379043 / 7609681 2.50-A\n7609681 CASCADE GEL 12.49 A\n0000379043 / 7609681 2.50-A\n2044845 HARKENGOOEY 13.99\n2044845 HARKENGOOEY 13.99\n1886106 ORALB FLOSS 14.99 A\n0000378828 / 1886106 4.00-A\n1886106 ORALB FLOSS 14.99 A\n0000378828 / 1886106 4.00-A\n1536795 CHAR HOODIE 4.97 A\n882773 KIDS HOODIE 4.97 A\n1594072 A2YOGURT 8.99\n1659031 KS ORG A2 4G 16.99\n1459628 EM CARDIGAN 2.97 A\nSUBTOTAL 141.29\nTAX 9.17\n**** TOTAL 150.46\nFS BAL DUE 53.96\nXXXXXXXXXXXXX9313 SWIPED\nSeq#: 206198 APP#: 018778\nEBT-FS Resp: APPROVED\nTran ID#: 614900206197...\nAPPROVED - Purchase\nAMOUNT: $12.36\nAuth Amt End Bal\nEBT-FS 12.36 12.36\n05/29/2026 09:39 106 206 8 706\nEBT-FS 12.36\nSUBTOTAL 128.93\nTAX 9.17\n**** TOTAL 138.10\nXXXXXXXXXXXX0656 H\nAID: A0000000031010\nSeq#: 206199 APP#: 50250C\nCostco Visa Resp: APPROVED\nTran ID#: 614900206199...\nAPPROVED - Purchase\nAMOUNT: $138.10\n05/29/2026 09:39 106 206 8 706\nCostco Visa 138.10\nFS CHG 0.00\nCHANGE 0.00\nA 10.50% TAX 9.17\nTOTAL TAX 9.17\nTOTAL NUMBER OF ITEMS SOLD = 13\nINSTANT SAVINGS $ 19.50\n05/29/2026 09:39 106 206 8 706\n21010620600082605290939\nOP#: 706 Name: SCO\nThank You!\nPlease Come Again\nWhse:106 Trm:206 Trn:8 OP:706",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 28198.75483300001,
+        "totalUsd": 0.069285,
+        "inputTokens": 3716,
+        "outputTokens": 2186,
+        "reasoningTokens": 4893
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "150.46",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:39 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98133",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1175 North 205th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0656",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1915364 PUMA HOODIE",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1991158 SWFFR PWRMOP + 0000379021 / 1991158",
+          "quantity": 1,
+          "unitPrice": 31.99,
+          "totalSpend": 25.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7609681 CASCADE GEL + 0000379043 / 7609681",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7609681 CASCADE GEL + 0000379043 / 7609681",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "E 2044845 HARKENGOOEY",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "E 2044845 HARKENGOOEY",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1886106 ORALB FLOSS + 0000378828 / 1886106",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1886106 ORALB FLOSS + 0000378828 / 1886106",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1536795 CHAR HOODIE",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "882773 KIDS HOODIE",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "E 1594072 A2YOGURT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "E 1659031 KS ORG A2 4C",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1459628 EM CARDIGAN",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nAurora Village #106\n1175 North 205th St\nSeattle, WA 98133\nSELF-CHECKOUT\nB4 Member 111997298354\n1915364 PUMA HOODIE 6.97 A\n1991158 SWFFR PWRMOP 31.99 A\n0000379021 / 1991158 6.50-A\n7609681 CASCADE GEL 12.49 A\n0000379043 / 7609681 2.50-A\n7609681 CASCADE GEL 12.49 A\n0000379043 / 7609681 2.50-A\nE 2044845 HARKENGOOEY 13.99\nE 2044845 HARKENGOOEY 13.99\n1886106 ORALB FLOSS 14.99 A\n0000378828 / 1886106 4.00-A\n1886106 ORALB FLOSS 14.99 A\n0000378828 / 1886106 4.00-A\n1536795 CHAR HOODIE 4.97 A\n882773 KIDS HOODIE 4.97 A\nE 1594072 A2YOGURT 8.99\nE 1659031 KS ORG A2 4C 16.99\n1459628 EM CARDIGAN 2.97 A\nSUBTOTAL 141.29\nTAX 9.17\n**** TOTAL 150.46\nFS BAL DUE 53.96\nXXXXXXXXXXXX9313 SWIPED\nSeq#: 206198 APP#: 018778\nEBT-FS Resp: APPROVED\nTran ID#: 614900206197...\nAPPROVED - Purchase\nAMOUNT: $12.36\nAuth Amt End Bal\nEBT-FS 12.36 12.36\n05/29/2026 09:39 106 206 8 706\nEBT-FS 12.36\nSUBTOTAL 128.93\nTAX 9.17\n**** TOTAL 138.10\nXXXXXXXXXXXX0656 H\nAID: A0000000031010\nSeq#: 206199 App#: 50250C\nCostco Visa Resp: APPROVED\nTran ID#: 614900206199...\nAPPROVED - Purchase\nAMOUNT: $138.10\n05/29/2026 09:39 106 206 8 706\nCostco Visa 138.10\nFS CHG 0.00\nCHANGE 0.00\nA 10.50% TAX 9.17\nTOTAL TAX 9.17\nTOTAL NUMBER OF ITEMS SOLD = 13\nINSTANT SAVINGS $ 19.50\n05/29/2026 09:39 106 206 8 706\n21010620600082605290939\nOP#: 706 Name: SCO\nThank You!\nPlease Come Again\nWhse:106 Trm:206 Trn:8 OP:706",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9671.046875,
+        "totalUsd": 0.025122,
+        "inputTokens": 3716,
+        "outputTokens": 2172,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "138.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:39 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98133",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1175 North 205th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0656",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1915364 PUMA HOODIE",
+          "quantity": 1,
+          "unitPrice": 6.97,
+          "totalSpend": 6.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1991158 SWFFR PWRMOP + 0000379021 / 1991158",
+          "quantity": 1,
+          "unitPrice": 31.99,
+          "totalSpend": 25.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7609681 CASCADE GEL + 0000379043 / 7609681",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7609681 CASCADE GEL + 0000379043 / 7609681",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2044845 HARKENGOOEY",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2044845 HARKENGOOEY",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1886106 ORALB FLOSS + 0000378828 / 1886106",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1886106 ORALB FLOSS + 0000378828 / 1886106",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 10.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1536795 CHAR HOODIE",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "882773 KIDS HOODIE",
+          "quantity": 1,
+          "unitPrice": 4.97,
+          "totalSpend": 4.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1594072 A2YOGURT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1659031 KS ORG A2 4C",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1459628 EM CARDIGAN",
+          "quantity": 1,
+          "unitPrice": 2.97,
+          "totalSpend": 2.97,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nAurora Village #106\n1175 North 205th St\nSeattle, WA 98133\nSELF-CHECKOUT\nB4 Member 111997298354\n1915364 PUMA HOODIE 6.97 A\n1991158 SWFFR PWRMOP 31.99 A\n0000379021 / 1991158 6.50-A\n7609681 CASCADE GEL 12.49 A\n0000379043 / 7609681 2.50-A\n7609681 CASCADE GEL 12.49 A\n0000379043 / 7609681 2.50-A\nE 2044845 HARKENGOOEY 13.99\nE 2044845 HARKENGOOEY 13.99\n1886106 ORALB FLOSS 14.99 A\n0000378828 / 1886106 4.00-A\n1886106 ORALB FLOSS 14.99 A\n0000378828 / 1886106 4.00-A\n1536795 CHAR HOODIE 4.97 A\n882773 KIDS HOODIE 4.97 A\nE 1594072 A2YOGURT 8.99\nE 1659031 KS ORG A2 4C 16.99\n1459628 EM CARDIGAN 2.97 A\nSUBTOTAL 141.29\nTAX 9.17\n**** TOTAL 150.46\nFS BAL DUE 53.96\nXXXXXXXXXXXXX9313 SWIPED\nSeq#: 206198 APP#: 018778\nEBT-FS Resp: APPROVED\nTran ID#: 614900206197...\nAPPROVED - Purchase\nAMOUNT: $12.36\nAuth Amt End Bal\nEBT-FS 12.36 12.36\n05/29/2026 09:39 106 206 8 706\nEBT-FS 12.36\nSUBTOTAL 128.93\nTAX 9.17\n**** TOTAL 138.10\nXXXXXXXXXXXX0656 H\nAID: A0000000031010\nSeq#: 206199 App#: 50250C\nCostco Visa Resp: APPROVED\nTran ID#: 614900206199...\nAPPROVED - Purchase\nAMOUNT: $138.10\n05/29/2026 09:39 106 206 8 706\nCostco Visa 138.10\nFS CHG 0.00\nCHANGE 0.00\nA 10.50% TAX 9.17\nTOTAL TAX 9.17\nTOTAL NUMBER OF ITEMS SOLD = 13\nINSTANT SAVINGS $ 19.50\n05/29/2026 09:39 106 206 8 706\n21010620600082605290939\nOP#: 706 Name: SCO\nThank You!\nPlease Come Again\nWhse:106 Trm:206 Trn:8 OP:706",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PUMA HOODIE + 1915364",
+      "price": 6.97,
+      "quantity": 1,
+      "totalSpend": 6.97
+    },
+    {
+      "text": "SWFFR PWRMOp + 1991158",
+      "price": 25.49,
+      "quantity": 1,
+      "totalSpend": 25.49
+    },
+    {
+      "text": "CASCADE GEL + 7609681",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "LCAS an GE + 7609681",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "HARKENGQOEY + 2044845",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "HARKENGOOEY + 2044845 + l886 Os G AL s n T4.99 A",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "ORALB FLOSS + 1886106",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "CHAR HOODIE + 1536795",
+      "price": 4.97,
+      "quantity": 1,
+      "totalSpend": 4.97
+    },
+    {
+      "text": "KIDS HOODI + 882773",
+      "price": 4.97,
+      "quantity": 1,
+      "totalSpend": 4.97
+    },
+    {
+      "text": "A2YOGURT + 1594072",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "KS ORG A2 4G + 1659031",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    },
+    {
+      "text": "EM CARDIGAN + 1459628",
+      "price": 2.97,
+      "quantity": 1,
+      "totalSpend": 2.97
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

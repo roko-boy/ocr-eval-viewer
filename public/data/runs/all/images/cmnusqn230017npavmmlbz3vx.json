@@ -1,0 +1,297 @@
+{
+  "id": "cmnusqn230017npavmmlbz3vx",
+  "url": null,
+  "retailer": "Eugene",
+  "brand": "Ambacebador",
+  "amount": 10,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Eugene",
+    "totalCost": "33.78",
+    "purchaseDate": "2026-04-11",
+    "time": null,
+    "zipCode": "97408",
+    "city": "Eugene",
+    "state": "OR",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5246.841708000007,
+        "totalUsd": 0.01425,
+        "inputTokens": 6086,
+        "outputTokens": 569,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "974082828 Chad Drive\nEugene, OR 97408\nSELF-CHECKOUT\nMember 111999305748\n1025795 KS 5DZ EGGS 7.99\n1768610 GUAYAKI 24.59\nOR BOTTLE DE 1.20\nSUBTOTAL 33.78\nTAX 0.00\n*** TOTAL 33.78\nXXXXXXXXXX2070 H\nA0000000031010",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Eugene",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1025795 KS 5DZ EGGS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1768610 GUAYAKI",
+          "quantity": 1,
+          "unitPrice": 24.59,
+          "totalSpend": 24.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OR BOTTLE DE",
+          "quantity": 1,
+          "unitPrice": 1.2,
+          "totalSpend": 1.2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nEugene #17\n2828 Chad Drive\nEugene, OR 97408\nSELF-CHECKOUT\nMember 111999305748\n1025795 KS 5DZ EGGS 7.99\n1768610 GUAYAKI 24.59\nOR BOTTLE DE 1.20\nSUBTOTAL 33.78\nTAX 0.00\n*** TOTAL 33.78\nXXXXXXXXXX2070 H\nA0000000031010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 6303.194791999995,
+        "totalUsd": 0.016923,
+        "inputTokens": 3692,
+        "outputTokens": 498,
+        "reasoningTokens": 767
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "33.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97408",
+          "status": "match"
+        },
+        "city": {
+          "value": "Eugene",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2828 Chad Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2070",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1025795 KS 5DZ EGGS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1768610 GUAYAKI",
+          "quantity": 1,
+          "unitPrice": 24.59,
+          "totalSpend": 24.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OR BOTTLE DE",
+          "quantity": 1,
+          "unitPrice": 1.2,
+          "totalSpend": 1.2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nEugene #17\n2828 Chad Drive\nEugene, OR 97408\n\nSELF-CHECKOUT\n\nMember 111999305748\n1025795 KS 5DZ EGGS 7.99\n1768610 GUAYAKI 24.59\nOR BOTTLE DE 1.20\nSUBTOTAL 33.78\nTAX 0.00\n*** TOTAL 33.78\n------------\nXXXXXXXXXX2070 H\nA0000000031010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3589.793166999996,
+        "totalUsd": 0.009966,
+        "inputTokens": 3692,
+        "outputTokens": 492,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "33.78",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97408",
+          "status": "match"
+        },
+        "city": {
+          "value": "Eugene",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2828 Chad Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2070",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1025795 KS 5DZ EGGS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1768610 GUAYAKI",
+          "quantity": 1,
+          "unitPrice": 24.59,
+          "totalSpend": 24.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OR BOTTLE DE",
+          "quantity": 1,
+          "unitPrice": 1.2,
+          "totalSpend": 1.2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nEugene #17\n2828 Chad Drive\nEugene, OR 97408\nSELF-CHECKOUT\nMember 111999305748\n1025795 KS 5DZ EGGS 7.99\n1768610 GUAYAKI 24.59\nOR BOTTLE DE 1.20\nSUBTOTAL 33.78\nTAX 0.00\n*** TOTAL 33.78\nXXXXXXXXXX2070 H\nA0000000031010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KS 5DZ EGGS + 1025795",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "GUAYAKI + 1768610",
+      "price": 24.59,
+      "quantity": 1,
+      "totalSpend": 24.59
+    },
+    {
+      "text": "OR BOTTLE DE",
+      "price": 1.2,
+      "quantity": 1,
+      "totalSpend": 1.2
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

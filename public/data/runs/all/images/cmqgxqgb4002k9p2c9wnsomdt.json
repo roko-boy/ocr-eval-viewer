@@ -1,0 +1,243 @@
+{
+  "id": "cmqgxqgb4002k9p2c9wnsomdt",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "EBOOST",
+  "amount": 2.34,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "2.48",
+    "purchaseDate": "2026-06-16",
+    "time": null,
+    "zipCode": "48390",
+    "city": "Commerce Twp.",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6495.180792000028,
+        "totalUsd": 0.016725,
+        "inputTokens": 6086,
+        "outputTokens": 844,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:16PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48390",
+          "status": "match"
+        },
+        "city": {
+          "value": "Commerce Twp.",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "39950 West 14 Mile",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4419",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EBOOST ENRGY DRINKPC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.34,
+          "totalSpend": 1.69,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger | DETROIT PISTONS\nHometown Grocer. Hometown Team.\n\n39950 West 14 Mile\n248-313-6620\nYour cashier was CHEC 652\nEBOOST ENRGY DRINKPC 2.34 B\nSC KROGER SAVINGS 0.65\nKROGER PLUS CUSTOMER *******7068\nTAX 0.14\n**** BALANCE 2.48\nCommerce Twp. MI 48390\nMASTERCARD Purchase\n************4419 - H\nREF#: 04493Z TOTAL: 2.48\nAID: A0000000041010\nTC: 05D69B8F9CA0059E\nVERIFIED BY PIN\nMASTERCARD 2.48\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\nKROGER SAVINGS $ 0.65\nTOTAL COUPONS $ 0.65\nTOTAL SAVINGS (21 %) $ 0.65\n06/16/26 12:17pm 363 652 73 999999652\n****************************************\nAnnual Card Savings $216.34\n****************************************\n****************************************\nFuel Points Earned Today: 2\nTotal June Fuel Points: 53\n****************************************\nRemaining May Fuel Points: 191\n****************************************\nKroger Community Rewards\nOn your behalf, we are contributing to\nKettering-GMI Alumni Association\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 06/16/26\nTime: 12:16PM\nEntry ID: 018-302-73-363-652-725\n****************************************\nWith Our Low Prices, You Saved\n$0.65\nFresh opportunity awaits\nJoin our team today!\n#ER#",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10014.47516700003,
+        "totalUsd": 0.025986,
+        "inputTokens": 3692,
+        "outputTokens": 840,
+        "reasoningTokens": 1432
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:16 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48390",
+          "status": "match"
+        },
+        "city": {
+          "value": "Commerce Twp.",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "39950 West 14 Mile",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4119",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EBOOST ENRGY DRINKPC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.34,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Kroger | DETROIT PISTONS\nHometown Grocer. Hometown Team.\n39950 West 14 Mile\n248-313-6620\nYour cashier was CHEC 652\nEBOOST ENRGY DRINKPC 2.34 B\nSC KROGER SAVINGS 0.65\nKROGER PLUS CUSTOMER *******7068\nTAX 0.14\n**** BALANCE 2.48\nCommerce Twp. MI 48390\nMASTERCARD Purchase\n************4119 - H\nREF#: 04493Z TOTAL: 2.48\nAID: A0000000041010\nTC: 05D69B8F9CA0059E\nVERIFIED BY PIN\nMASTERCARD 2.48\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\nKROGER SAVINGS $ 0.65\nTOTAL COUPONS $ 0.65\nTOTAL SAVINGS (21 %) $ 0.65\n06/16/26 12:17pm 363 652 73 999999652\n****************************************\nAnnual Card Savings $216.34\n****************************************\n****************************************\nFuel Points Earned Today: 2\nTotal June Fuel Points: 53\n****************************************\nRemaining May Fuel Points: 191\n****************************************\nKroger Community Rewards\nOn your behalf, we are contributing to\nKettering-GMI Alumni Association\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 06/16/26\nTime: 12:16PM\nEntry ID: 018-302-73-363-652-725\n****************************************\nWith Our Low Prices, You Saved\n$0.65\nFresh opportunity awaits\nJoin our team today!\n#ER#",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4775.108917000005,
+        "totalUsd": 0.012963,
+        "inputTokens": 3692,
+        "outputTokens": 825,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "2.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:16 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48390",
+          "status": "match"
+        },
+        "city": {
+          "value": "Commerce Twp.",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "39950 West 14 Mile",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4419",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EBOOST ENRGY DRINKPC",
+          "quantity": 1,
+          "unitPrice": 2.34,
+          "totalSpend": 1.69,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger | DETROIT PISTONS\nHometown Grocer. Hometown Team.\n39950 West 14 Mile\n248-313-6620\nYour cashier was CHEC 652\nSC EBOOST ENRGY DRINKPC 2.34 B\nKROGER SAVINGS 0.65\nKROGER PLUS CUSTOMER *******7068\nTAX 0.14\n**** BALANCE 2.48\nCommerce Twp. MI 48390\nMASTERCARD Purchase\n************4419 - H\nREF#: 04493Z TOTAL: 2.48\nAID: A0000000041010\nTC: 05D69B8F9CA0059E\nVERIFIED BY PIN\nMASTERCARD 2.48\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\nKROGER SAVINGS $ 0.65\nTOTAL COUPONS $ 0.65\nTOTAL SAVINGS (21 %) $ 0.65\n06/16/26 12:17pm 363 652 73 999999652\n****************************************\nAnnual Card Savings $216.34\n****************************************\n****************************************\nFuel Points Earned Today: 2\nTotal June Fuel Points: 53\n****************************************\nRemaining May Fuel Points: 191\n****************************************\nKroger Community Rewards\nOn your behalf, we are contributing to\nKettering-GMI Alumni Association\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 06/16/26\nTime: 12:16PM\nEntry ID: 018-302-73-363-652-725\n****************************************\nWith Our Low Prices, You Saved\n$0.65\nFresh opportunity awaits\nJoin our team today!\n#ER#",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "EBOOST ENRGY DRINKPC + SC KROGER SAVINGS",
+      "price": 2.34,
+      "quantity": 1,
+      "totalSpend": 2.34
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

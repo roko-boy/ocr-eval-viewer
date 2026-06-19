@@ -1,0 +1,515 @@
+{
+  "id": "cmn0sboil0001lan0bwhfhc28",
+  "url": null,
+  "retailer": "Publix Super Markets",
+  "brand": "LesserEvil",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "48.62",
+    "purchaseDate": "2026-03-21",
+    "time": null,
+    "zipCode": "32765",
+    "city": "Oviedo",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 23769.71670900006,
+        "totalUsd": 0.022899,
+        "inputTokens": 6086,
+        "outputTokens": 1530,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "48.62",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:53PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32765-6235",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Oviedo",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "81 Alafaya Woods Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1703",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Card Anniversary",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Card Birthday",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Nixie Sprk Lime Ginger",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Nixie Sprk Lime Ginger",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Duke's Mayo 30Oz",
+          "quantity": 1,
+          "unitPrice": 6.71,
+          "totalSpend": 6.71,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Duke's Mayo 30Oz + You saved: $6.71",
+          "quantity": 1,
+          "unitPrice": 6.71,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lsr Evtl Avocado Oil Popcorn",
+          "quantity": 1,
+          "unitPrice": 4.09,
+          "totalSpend": 4.09,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Lsr Evtl Swt & Salty Popcorn + You saved: $4.09",
+          "quantity": 1,
+          "unitPrice": 4.09,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Brm Ovrnht Oat Blubry Crm",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 6.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Apples Red Delicious Lg + $2.49/lb x 2.66 lb",
+          "quantity": 1,
+          "unitPrice": 6.62,
+          "totalSpend": 6.62,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Potatoes Russet Ex Large + $1.79/lb x 3.75 lb",
+          "quantity": 1,
+          "unitPrice": 6.71,
+          "totalSpend": 6.71,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREE HALLMARK",
+          "quantity": 1,
+          "unitPrice": -3.99,
+          "totalSpend": -3.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\n\nAlafaya Square\n81 Alafaya Woods Blvd\nOviedo, FL 32765-6235\n(407) 603-4222\nStore Manager: Kayla Butts\n\nCard Anniversary T 3.99\nCard Birthday T 4.49\nNixie Sprk Lime Ginger FT 5.99\nNixie Sprk Lime Ginger FT 5.99\nDuke's Mayo 30Oz F 6.71\nDuke's Mayo 30Oz F 0.00\nYou saved: $6.71\nLsr Evtl Avocado Oil Popcorn F 4.09\nLsr Evtl Swt & Salty Popcorn F 0.00\nYou saved: $4.09\nBrm Ovrnht Oat Blubry Crm F 6.59\nApples Red Delicious Lg F\n$2.49/lb x 2.66 lb 6.62\nPotatoes Russet Ex Large F\n$1.79/lb x 3.75 lb 6.71\n\nFREE HALLMARK -3.99\nSubtotal 47.19\nSales Tax 7% - T 1.43\nTotal 48.62\nCredit 48.62\nChange 0.00\n\nVoided Items\nFREE HALLMARK -0.39\n\n****************************************\nSAVINGS: $14.79\n****************************************\n\nVisa: *1703 $48.62\nCredit Card Purchase\nAuth/Trace: 00000000/042110 Ctls\nReference: 001823285540\nA0000000980840\nUS DEBIT\n\n03/21/2026 12:53PM\nThank you for shopping at store 1889\nYour cashier today was Elleigh A..\n793, 0104, 271\n\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 31934.14654099999,
+        "totalUsd": 0.061041,
+        "inputTokens": 3692,
+        "outputTokens": 1485,
+        "reasoningTokens": 4682
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "48.62",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32765-6235",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Oviedo",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "81 Alafaya Woods Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1703",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Card Anniversary + FREE HALLMARK",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Card Birthday",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Nixie Sprk Lime Ginger",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Nixie Sprk Lime Ginger",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Duke's Mayo 30oz",
+          "quantity": 1,
+          "unitPrice": 6.71,
+          "totalSpend": 6.71,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Duke's Mayo 30oz + You saved: $6.71",
+          "quantity": 1,
+          "unitPrice": 6.71,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lsr Evll Avocado Oil Popn",
+          "quantity": 1,
+          "unitPrice": 4.09,
+          "totalSpend": 4.09,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Lsr Evll Swt & Salty Popn + You saved: $4.09",
+          "quantity": 1,
+          "unitPrice": 4.09,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Brm Ovrnht Oat Blubry Crm",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 6.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Apples Red Delicious Lg + $2.49/lb x 2.66 lb",
+          "quantity": 1,
+          "unitPrice": 6.62,
+          "totalSpend": 6.62,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Potatoes Russet Ex Large + $1.79/lb x 3.75 lb",
+          "quantity": 1,
+          "unitPrice": 6.71,
+          "totalSpend": 6.71,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nAlafaya Square\n81 Alafaya Woods Blvd\nOviedo, FL 32765-6235\n(407) 603-4222\nStore Manager: Kayla Butts\n\nCard Anniversary T 3.99\nCard Birthday T 4.49\nNixie Sprk Lime Ginger FT 5.99\nNixie Sprk Lime Ginger FT 5.99\nDuke's Mayo 30oz F 6.71\nDuke's Mayo 30oz F 0.00\nYou saved: $6.71\nLsr Evll Avocado Oil Popn F 4.09\nLsr Evll Swt & Salty Popn F 0.00\nYou saved: $4.09\nBrm Ovrnht Oat Blubry Crm F 6.59\nApples Red Delicious Lg F\n$2.49/lb x 2.66 lb 6.62\nPotatoes Russet Ex Large F\n$1.79/lb x 3.75 lb 6.71\n\nFREE HALLMARK -3.99\nSubtotal 47.19\nSales Tax 7% - T 1.43\nTotal 48.62\nCredit 48.62\nChange 0.00\n\nVoided Items\nFREE HALLMARK -0.39\n\n****************************************\nSAVINGS: $14.79\n****************************************\n\nVisa: *1703 $48.62\nCredit Card Purchase\nAuth/Trace: 00000000/042110 Ctls\nReference: 001823285540\nA0000000980840\nUS DEBIT\n\n03/21/2026 12:53PM\nThank you for shopping at store 1889\nYour cashier today was Elleigh A.\n793, 0104, 271\n\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7356.35162500001,
+        "totalUsd": 0.018993,
+        "inputTokens": 3692,
+        "outputTokens": 1495,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "48.62",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32765-6235",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Oviedo",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "81 Alafaya Woods Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1703",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Card Anniversary",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Card Birthday",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Nixie Sprk Lime Ginger",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Nixie Sprk Lime Ginger",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Duke's Mayo 30Oz",
+          "quantity": 1,
+          "unitPrice": 6.71,
+          "totalSpend": 6.71,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Duke's Mayo 30Oz + You saved: $6.71",
+          "quantity": 1,
+          "unitPrice": 6.71,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lsr Evll Avocado Oil Popn",
+          "quantity": 1,
+          "unitPrice": 4.09,
+          "totalSpend": 4.09,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Lsr Evll Swt & Salty Popn + You saved: $4.09",
+          "quantity": 1,
+          "unitPrice": 4.09,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Brm Ovrnht Oat Blubry Crm",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 6.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Apples Red Delicious Lg + $2.49/lb x 2.66 lb",
+          "quantity": 1,
+          "unitPrice": 6.62,
+          "totalSpend": 6.62,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Potatoes Russet Ex Large + $1.79/lb x 3.75 lb",
+          "quantity": 1,
+          "unitPrice": 6.71,
+          "totalSpend": 6.71,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREE HALLMARK",
+          "quantity": 1,
+          "unitPrice": -3.99,
+          "totalSpend": -3.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\nAlafaya Square\n81 Alafaya Woods Blvd\nOviedo, FL 32765-6235\n(407) 603-4222\nStore Manager: Kayla Butts\nCard Anniversary T 3.99\nCard Birthday T 4.49\nNixie Sprk Lime Ginger FT 5.99\nNixie Sprk Lime Ginger FT 5.99\nDuke's Mayo 30Oz F 6.71\nDuke's Mayo 30Oz F 0.00\nYou saved: $6.71\nLsr Evll Avocado Oil Popn F 4.09\nLsr Evll Swt & Salty Popn F 0.00\nYou saved: $4.09\nBrm Ovrnht Oat Blubry Crm F 6.59\nApples Red Delicious Lg F\n$2.49/lb x 2.66 lb 6.62\nPotatoes Russet Ex Large F\n$1.79/lb x 3.75 lb 6.71\nFREE HALLMARK -3.99\nSubtotal 47.19\nSales Tax 7% - T 1.43\nTotal 48.62\nCredit 48.62\nChange 0.00\nVoided Items\nFREE HALLMARK -0.39\n****************************************\nSAVINGS: $14.79\n****************************************\nVisa: *1703 $48.62\nCredit Card Purchase\nAuth/Trace: 00000000/042110 Ctls\nReference: 001823285540\nA0000000980840\nUS DEBIT\n03/21/2026 12:53PM\nThank you for shopping at store 1889\nYour cashier today was Elleigh A..\n793, 0104, 271\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Card Annivermary",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "Card Birthday",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "Nixie Sprk Lims Ginger",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "Nixie Sprk Lime Ginger",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "Duke'm Mayo 30Oz",
+      "price": 6.71,
+      "quantity": 1,
+      "totalSpend": 6.71
+    },
+    {
+      "text": "Lsr Evil Avocado Oil Porn",
+      "price": 4.09,
+      "quantity": 1,
+      "totalSpend": 4.09
+    },
+    {
+      "text": "Brm Ovrnht Oat Blubry Crm",
+      "price": 6.59,
+      "quantity": 1,
+      "totalSpend": 6.59
+    },
+    {
+      "text": "Apples Red Delicious Lg + $2.49/lb x 2.66 lb 6.62",
+      "price": 2.66,
+      "quantity": 1,
+      "totalSpend": 6.62
+    },
+    {
+      "text": "Potatoes Russet Ex Large + $1.79/lb x 3.75 lb 6.71",
+      "price": 3.75,
+      "quantity": 1,
+      "totalSpend": 6.71
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

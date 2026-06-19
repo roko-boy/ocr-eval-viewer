@@ -1,0 +1,324 @@
+{
+  "id": "cmoxt7w7i00ssmcc7jhmlsa3v",
+  "url": null,
+  "retailer": "QFC",
+  "brand": "Simply Desserts",
+  "amount": 2.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "QFC (Quality Food Centers)",
+    "totalCost": "13.56",
+    "purchaseDate": "2026-05-08",
+    "time": null,
+    "zipCode": "98122",
+    "city": "Seattle",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12465.16245799998,
+        "totalUsd": 0.018633,
+        "inputTokens": 6086,
+        "outputTokens": 1056,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "QFC",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "13.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98122",
+          "status": "match"
+        },
+        "city": {
+          "value": "SEATTLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1401 BROADWAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1697",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIMPLY DELISH PDNG",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMP DSSRT PUDNG",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHEEZ IT SNACKS + QFC SAVINGS + eCpn Crackers",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": -0.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHEEZ IT SNACKS + QFC SAVINGS + eCpn Crackers",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": -0.51,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "QFC\nQuality Food Centers\n1401 BROADWAY\n206-860-3818\nYour cashier was CHEC 500\nQFC ADVANTAGE CUSTOMER ******0717\nSIMPLY DELISH PDNG 2.79 F\nSMP DSSRT PUDNG 2.79 F\nCHEEZ IT SNACKS QA 3.99 F\nSC QFC SAVINGS 2.50\nSC eCpn Crackers 2.00\nCHEEZ IT SNACKS QA 3.99 F\nSC QFC SAVINGS 2.50\nSC eCpn Crackers 2.00\nTAX 0.00\n**** BALANCE 13.56\nSEATTLE WA 98122\nVisa Credit Purchase\n************1697 - H\nREF#: 07872D TOTAL: 13.56\nAID: A0000000031010\nTC: 67C42F3731D75FDB\nVISA 13.56\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\nQFC ADVANTAGE SAVINGS $ 9.00\nTOTAL SAVINGS (39 Percent) $ 9.00\n05/08/26 07:29pm 847 500 279 999999500\n****************************************\nAnnual Card Savings $396.95\n****************************************\n****************************************\nFuel Points Earned Today: 14\nTotal May Fuel Points: 14\n****************************************\nRemaining April Fuel Points: 109\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to qfc.com/feedback\nDate: 05/08/26\nTime: 07:29PM\nEntry ID: 705-401-279-847-500-779\n****************************************\nToday, You Saved\n$9.00\nRECEIPT MAY BE CHECKED WHEN EXITING\nJoin our team today!\n#ER#\njobs.qfc.com\n05/08/26 07:29pm",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15814.385584,
+        "totalUsd": 0.035625,
+        "inputTokens": 3692,
+        "outputTokens": 1071,
+        "reasoningTokens": 2272
+      },
+      "fields": {
+        "storeName": {
+          "value": "QFC",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "13.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:29PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98122",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1401 Broadway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1697",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIMPLY DELISH PDNG",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMP DSSRT PUDNG",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHEEZ IT SNACKS QA + SC QFC SAVINGS + SC eCpn Crackers",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHEEZ IT SNACKS QA + SC QFC SAVINGS + SC eCpn Crackers",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "QFC\nQuality Food Centers\n1401 Broadway\n206-860-3818\nYour cashier was CHEC 500\nQFC ADVANTAGE CUSTOMER *******0717\nSIMPLY DELISH PDNG 2.79 F\nSMP DSSRT PUDNG 2.79 F\nCHEEZ IT SNACKS QA 3.99 F\nSC QFC SAVINGS 2.50\nSC eCpn Crackers 2.00\nCHEEZ IT SNACKS QA 3.99 F\nSC QFC SAVINGS 2.50\nSC eCpn Crackers 2.00\nTAX 0.00\n**** BALANCE 13.56\nSEATTLE WA 98122\nVisa Credit Purchase\n************1697 - H\nREF#: 07872D TOTAL: 13.56\nAID: A0000000031010\nTC: 67C42F3731D75FDB\nVISA 13.56\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\nQFC ADVANTAGE SAVINGS $ 9.00\nTOTAL SAVINGS (39 Percent) $ 9.00\n05/08/26 07:29pm 847 500 279 999999500\n****************************************\nAnnual Card Savings $396.95\n****************************************\n****************************************\nFuel Points Earned Today: 14\nTotal May Fuel Points: 14\n****************************************\nRemaining April Fuel Points: 109\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to qfc.com/feedback\nDate: 05/08/26\nTime: 07:29PM\nEntry ID: 705-401-279-847-500-779\n****************************************\nToday, You Saved\n$9.00\nRECEIPT MAY BE CHECKED WHEN EXITING\nJoin our team today!\n#ER#\njobs.qfc.com\n05/08/26 07:29pm",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5898.235708,
+        "totalUsd": 0.015042,
+        "inputTokens": 3692,
+        "outputTokens": 1056,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "QFC",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "13.56",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:29 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98122",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1401 Broadway",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1697",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIMPLY DELISH PDNG",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMP DSSRT PUDNG",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHEEZ IT SNACKS QA + QFC SAVINGS + eCpn Crackers",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": -0.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHEEZ IT SNACKS QA + QFC SAVINGS + eCpn Crackers",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": -0.51,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "QFC\nQuality Food Centers\n1401 BROADWAY\n206-860-3818\nYour cashier was CHEC 500\nQFC ADVANTAGE CUSTOMER ******0717\nSIMPLY DELISH PDNG 2.79 F\nSMP DSSRT PUDNG 2.79 F\nCHEEZ IT SNACKS QA 3.99 F\nSC QFC SAVINGS 2.50\nSC eCpn Crackers 2.00\nCHEEZ IT SNACKS QA 3.99 F\nSC QFC SAVINGS 2.50\nSC eCpn Crackers 2.00\nTAX 0.00\n**** BALANCE 13.56\nSEATTLE WA 98122\nVisa Credit Purchase\n************1697 - H\nREF#: 07872D TOTAL: 13.56\nAID: A0000000031010\nTC: 67C42F3731D75FDB\nVISA 13.56\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\nQFC ADVANTAGE SAVINGS $ 9.00\nTOTAL SAVINGS (39 Percent) $ 9.00\n05/08/26 07:29pm 847 500 279 999999500\n****************************************\nAnnual Card Savings $396.95\n****************************************\n****************************************\nFuel Points Earned Today: 14\nTotal May Fuel Points: 14\n****************************************\nRemaining April Fuel Points: 109\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to qfc.com/feedback\nDate: 05/08/26\nTime: 07:29PM\nEntry ID: 705-401-279-847-500-779\n****************************************\nToday, You Saved\n$9.00\nRECEIPT MAY BE CHECKED WHEN EXITING\nJoin our team today!\n#ER#\njobs.qfc.com\n05/08/26 07:29pm",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SIMPLY DELISH PDNG",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "SMP DSSRT PUDNG",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "CHEEZ IT SNACKS QA + SC QFC SAVINGS 2.50 + SC eCpn Crackers 2.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "CHEEZ IT SNACKS QA + SC QFC SAVINGS 2.50 + SC eCpn Crackers 2.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,513 @@
+{
+  "id": "cmoafqx3h006438u35wzxtcrc",
+  "url": null,
+  "retailer": "ShopRite of Montgomery, NJ",
+  "brand": "Perfy",
+  "amount": 2.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "28.25",
+    "purchaseDate": "2026-04-22",
+    "time": null,
+    "zipCode": "08558",
+    "city": "Montgomery Township",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16593.88187600003,
+        "totalUsd": 0.023718,
+        "inputTokens": 6086,
+        "outputTokens": 1621,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:28pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "MONTGOMERY TWSP",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5053",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIETE STRAW N CRM PC + On Sale You Saved 0.50 + Siete Mexican Cook",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 1.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SIETE STRAW N CRM PC + On Sale You Saved 0.50 + Siete Mexican Cook",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 1.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "HELLMANNS MAYO DIJPC + HELLMANN s Real Ma + HELLMANNS MAYO DIJ",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GATOR ZERO LEMON- PC + On Sale You Saved 0.10 + Gatorade Sports Dr",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.87,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GATOR ZERO ORANG- PC + On Sale You Saved 0.10 + GATOR ZERO COOL -",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GATOR ZERO COOL - PC + On Sale You Saved 0.10",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PERFY SODA TRP C",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFY SODA FRT P",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2.68 lb @ 1.49 /lb + WT BROC CRWNS RPC + On Sale You Saved 2.68",
+          "quantity": 1,
+          "unitPrice": 6.67,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1.87 lb @ 2.49 /lb + WT IMP APP GALA 100-",
+          "quantity": 1,
+          "unitPrice": 4.66,
+          "totalSpend": 4.66,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LOL SHARP CHEDDAR PC + On Sale You Saved 0.43 + Land O Lakes Farms",
+          "quantity": 1,
+          "unitPrice": 3.56,
+          "totalSpend": 1.57,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof MONTGOMERY\n04/22/26 02:28pm S617 R78 T91 C78\n*****************************************\n* Regular Items *\n*****************************************\nSIETE STRAW N CRM PC 4.49 F\nOn Sale You Saved 0.50\nMC Siete Mexican Cook 1.50-F\nSIETE STRAW N CRM PC 4.49 F\nOn Sale You Saved 0.50\nMC Siete Mexican Cook 1.50-F\nHELLMANNS MAYO DIJPC 4.99 F\nSC HELLMANN s Real Ma 1.00-F\nDM HELLMANNS MAYO DIJ 2.00-F\nGATOR ZERO LEMON- PC 2.29 B\nOn Sale You Saved 0.10\nSC Gatorade Sports Dr 1.87-B\nGATOR ZERO ORANG- PC 2.29 B\nOn Sale You Saved 0.10\nDM GATOR ZERO COOL - 1.00-F\nGATOR ZERO COOL - PC 2.29 B\nOn Sale You Saved 0.10\nPERFY SODA TRP C 2.49 B\nPERFY SODA FRT P 2.49 B\n2.68 lb @ 1.49 /lb\nWT BROC CRWNS RPC - 3.99 F\nOn Sale You Saved 2.68\n1.87 lb @ 2.49 /lb\nWT IMP APP GALA 100- 4.66 F\nLOL SHARP CHEDDAR PC 3.56 F\nOn Sale You Saved 0.43\nSC Land O Lakes Farms 1.57-F\nValued Customer 47110391954\nTAX 0.66\n**** BALANCE 28.25\n*****************************************\nShopRite Credit Receipt\nStore # 617 of MONTGOMERY TWSP , NJ\nTerminal: 78 Operator: 78 Trans: 91\nDate: 04/22/26 Time: 02:29pm\nPurchase: $ 28.25\nAcct#: ************5053 CONTACTLESS\nResponse : APPROVED\nApproval : 825840\nPrepaid Card Balance: 0.00\n*****************************************\nAMEX 28.25\n0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 37455.66062499996,
+        "totalUsd": 0.085395,
+        "inputTokens": 3692,
+        "outputTokens": 1718,
+        "reasoningTokens": 7155
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "MONTGOMERY",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5053",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIETE STRAW N CRM PC + On Sale You Saved 0.50 + MC Siete Mexican Cook 1.50-F",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIETE STRAW N CRM PC + On Sale You Saved 0.50 + MC Siete Mexican Cook 1.50-F",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HELLMANNS MAYO DIJPC + SC Hellmann s Real Ma 1.00-F + DM HELLMANNS MAYO DIJ 2.00-F",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GATOR ZERO LEMON- PC + On Sale You Saved 0.10 + SC Gatorade Sports Dr 1.87-B",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 0.42,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GATOR ZERO ORANG- PC + On Sale You Saved 0.10 + DM GATOR ZERO COOL - 1.00-F",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GATOR ZERO COOL - PC + On Sale You Saved 0.10",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PERFY SODA TRP C",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFY SODA FRT P",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2.68 lb @ 1.49 /lb + WT BROC CRWNS RPC + On Sale You Saved 2.68",
+          "quantity": 1,
+          "unitPrice": 6.67,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1.87 lb @ 2.49 /lb + WT IMP APP GALA 100-",
+          "quantity": 1,
+          "unitPrice": 4.66,
+          "totalSpend": 4.66,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LOL SHARP CHEDDAR PC + On Sale You Saved 0.43 + SC Land O Lakes Farms 1.57-F",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\n\nWelcome to ShopRite\nof MONTGOMERY\n\n04/22/26 02:28pm S617 R78 T91 C78\n***********************************\n*         Regular Items           *\n***********************************\n          SIETE STRAW N CRM PC   4.49 F\nOn Sale You Saved      0.50\nMC        Siete Mexican Cook     1.50-F\n          SIETE STRAW N CRM PC   4.49 F\nOn Sale You Saved      0.50\nMC        Siete Mexican Cook     1.50-F\n          HELLMANNS MAYO DIJPC   4.99 F\nSC        Hellmann s Real Ma     1.00-F\nDM        HELLMANNS MAYO DIJ     2.00-F\n          GATOR ZERO LEMON- PC   2.29 B\nOn Sale You Saved      0.10\nSC        Gatorade Sports Dr     1.87-B\n          GATOR ZERO ORANG- PC   2.29 B\nOn Sale You Saved      0.10\nDM        GATOR ZERO COOL -      1.00-F\n          GATOR ZERO COOL - PC   2.29 B\nOn Sale You Saved      0.10\n          PERFY SODA TRP C       2.49 B\n          PERFY SODA FRT P       2.49 B\n  2.68 lb @ 1.49 /lb\nWT        BROC CRWNS RPC   -     3.99 F\nOn Sale You Saved      2.68\n  1.87 lb @ 2.49 /lb\nWT        IMP APP GALA 100-      4.66 F\n          LOL SHARP CHEDDAR PC   3.56 F\nOn Sale You Saved      0.43\nSC        Land O Lakes Farms     1.57-F\n          Valued Customer    47110391954\n          TAX                    0.66\n      **** BALANCE              28.25\n*************************************\nShopRite Credit Receipt\nStore # 617 of MONTGOMERY TWSP , NJ\nTerminal: 78 Operator: 78 Trans: 91\nDate: 04/22/26 Time: 02:29pm\n\nPurchase: $ 28.25\nAcct#: ************5053    CONTACTLESS\n\nResponse : APPROVED\nApproval : 825840\nPrepaid Card Balance: 0.00\n\n*************************************\n          AMEX                  28.25\n                                 0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 11056.13475,
+        "totalUsd": 0.02019,
+        "inputTokens": 3692,
+        "outputTokens": 1628,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:28pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "MONTGOMERY TWSP",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5053",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIETE STRAW N CRM PC + On Sale You Saved 0.50 + MC Siete Mexican Cook",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIETE STRAW N CRM PC + On Sale You Saved 0.50 + MC Siete Mexican Cook",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HELLMANNS MAYO DIJPC + SC Hellmann s Real Ma + DM HELLMANNS MAYO DIJ",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GATOR ZERO LEMON- PC + On Sale You Saved 0.10 + SC Gatorade Sports Dr",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 0.32,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GATOR ZERO ORANG- PC + On Sale You Saved 0.10 + DM GATOR ZERO COOL -",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GATOR ZERO COOL - PC + On Sale You Saved 0.10",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PERFY SODA TRP C",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PERFY SODA FRT P",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BROC CRWNS RPC + 2.68 lb @ 1.49 /lb + On Sale You Saved 2.68",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.31,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "IMP APP GALA 100- + 1.87 lb @ 2.49 /lb",
+          "quantity": 1,
+          "unitPrice": 4.66,
+          "totalSpend": 4.66,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LOL SHARP CHEDDAR PC + On Sale You Saved 0.43 + SC Land O Lakes Farms",
+          "quantity": 1,
+          "unitPrice": 3.56,
+          "totalSpend": 1.56,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof MONTGOMERY\n04/22/26 02:28pm S617 R78 T91 C78\n***********************************\n*          Regular Items          *\n***********************************\nSIETE STRAW N CRM PC   4.49 F\nOn Sale You Saved      0.50\nMC      Siete Mexican Cook     1.50-F\nSIETE STRAW N CRM PC   4.49 F\nOn Sale You Saved      0.50\nMC      Siete Mexican Cook     1.50-F\nHELLMANNS MAYO DIJPC   4.99 F\nSC      Hellmann s Real Ma     1.00-F\nDM      HELLMANNS MAYO DIJ     2.00-F\nGATOR ZERO LEMON- PC   2.29 B\nOn Sale You Saved      0.10\nSC      Gatorade Sports Dr     1.87-B\nGATOR ZERO ORANG- PC   2.29 B\nOn Sale You Saved      0.10\nDM      GATOR ZERO COOL -      1.00-F\nGATOR ZERO COOL - PC   2.29 B\nOn Sale You Saved      0.10\nPERFY SODA TRP C       2.49 B\nPERFY SODA FRT P       2.49 B\n2.68 lb @ 1.49 /lb\nWT      BROC CRWNS RPC -       3.99 F\nOn Sale You Saved      2.68\n1.87 lb @ 2.49 /lb\nWT      IMP APP GALA 100-      4.66 F\nLOL SHARP CHEDDAR PC   3.56 F\nOn Sale You Saved      0.43\nSC      Land O Lakes Farms     1.57-F\nValued Customer        47110391954\nTAX                    0.66\n**** BALANCE          28.25\n***********************************\nShopRite Credit Receipt\nStore # 617 of MONTGOMERY TWSP , NJ\nTerminal: 78 Operator: 78 Trans: 91\nDate: 04/22/26 Time: 02:29pm\nPurchase: $ 28.25\nAcct#: ************5053   CONTACTLESS\nResponse : APPROVED\nApproval : 825840\nPrepaid Card Balance: 0.00\n***********************************\nAMEX                  28.25\n                      0.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SIETE STRAW N CRM + On Sale You Saved 0.50 + MC Siete Mexican Cook 1.50-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SIETE STRAW N CRM + On Sale You Saved 0.50 + MC Siete Mexican Cook 1.50-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "HELLMANNS MAYO DIJ",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "GATOR ZERO LEMON- + On Sale You Saved 0.10",
+      "price": 0.42,
+      "quantity": 1,
+      "totalSpend": 0.42
+    },
+    {
+      "text": "GATOR ZERO ORANG- + On Sale You Saved 0.10",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "GATOR ZERO COOL - + On Sale You Saved 0.10",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "PERFY SODA TRP C",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "PERFY SODA FRT P + 2.68 lb @ 1.49 /lb",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "BROC CRWNS RPC + 2.68 lb @ 1.49 /lb + On Sale You Saved 2.68 + 1.87 lb @ 2.49 /lb",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "IMP APP GALA 100 + 1.87 lb @ 2.49 /lb",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 4.66
+    },
+    {
+      "text": "LOL SHARP CHEDDAR + On Sale You Saved 0.43",
+      "price": 3.56,
+      "quantity": 1,
+      "totalSpend": 3.56
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

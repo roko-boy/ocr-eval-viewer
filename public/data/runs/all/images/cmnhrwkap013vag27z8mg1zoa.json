@@ -1,0 +1,432 @@
+{
+  "id": "cmnhrwkap013vag27z8mg1zoa",
+  "url": null,
+  "retailer": "Smith's",
+  "brand": "Wilde Brands Inc.",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Smith's Food and Drug",
+    "totalCost": "21.93",
+    "purchaseDate": "2026-04-01",
+    "time": null,
+    "zipCode": "89103",
+    "city": "Las Vegas",
+    "state": "NV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9921.705541000032,
+        "totalUsd": 0.021162,
+        "inputTokens": 6206,
+        "outputTokens": 1317,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "21.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:42 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89103",
+          "status": "match"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4001 South Decatur",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7159",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CRWN SARDINES + YOU SAVED 0.30",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KINDER BUENO",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRY LEMON",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROUD SOURCE WATER",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIFEWAY SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILDE PRT CHPS + YOU SAVED 3.30",
+          "quantity": 1,
+          "unitPrice": 9.29,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AVOCADOS",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WNDR HALOS + YOU SAVED 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Smith's Low prices.\nMarket fresh.\n4001 South Decatur\n702-248-4400\nYour cashier was CHEC 502\nCRWN SARDINES FV 3.19 F\nSC YOU SAVED 0.30\nKINDER BUENO 2.69 F\nSTRAWBERRY LEMON 2.69 F\nPROUD SOURCE WATER 1.59 F\nLIFEWAY SMOOTHIE 1.79 F\nWILDE PRT CHPS FV 5.99 F\nSC YOU SAVED 3.30\n1 @ 5/5.00\nAVOCADOS 1.00 F\nWNDR HALOS FV 2.99 F\nSC YOU SAVED 2.00\nFRESH VALUE CUSTOMER ********6401\nTAX 0.00\n**** BALANCE 21.93\nLas Vegas NV 89103\nCHASE VISA Purchase\n************7159 - H\nREF#: 07489D TOTAL: 21.93\nAID: A0000000031010\nTC: 5AD7CEE6DBDFAC A2\nVISA 21.93\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 8\nFreshValues Savings $ 5.60\nTotal Savings (20 Percent) $ 5.60\n04/01/26 11:42am 304 502 136 999999502\n***********************************\nAnnual Card Savings $23.25\n***********************************\n***********************************\nFuel Points Earned Today: 22\nTotal April Fuel Points: 22\n***********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to smithsfoodanddrug.com/feedback\nDate: 04/01/26\nTime: 11:42AM\nEntry ID: 705-602-136-304-502-638\n***********************************\nToday, You Saved\n$5.60\nFresh opportunity awaits\nJoin our team today!\nHER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17352.245792,
+        "totalUsd": 0.04071900000000001,
+        "inputTokens": 3692,
+        "outputTokens": 1324,
+        "reasoningTokens": 2585
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "21.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:42 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89103",
+          "status": "match"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4001 South Decatur",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7159",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CRWN SARDINES + FV + SC YOU SAVED 0.30",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KINDER BUENO",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRY LEMON",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROUD SOURCE WATER",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIFEWAY SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILDE PRT CHPS + FV + SC YOU SAVED 3.30",
+          "quantity": 1,
+          "unitPrice": 9.29,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AVOCADOS + 1 @ 5/5.00",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WNDR HALOS + FV + SC YOU SAVED 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Smith's Low prices.\nMarket fresh.\n4001 South Decatur\n702-248-4400\nYour cashier was CHEC 502\nCRWN SARDINES FV 3.19 F\nSC YOU SAVED 0.30\nKINDER BUENO 2.69 F\nSTRAWBERRY LEMON 2.69 F\nPROUD SOURCE WATER 1.59 F\nLIFEWAY SMOOTHIE 1.79 F\nWILDE PRT CHPS FV 5.99 F\nSC YOU SAVED 3.30\n1 @ 5/5.00\nAVOCADOS 1.00 F\nWNDR HALOS FV 2.99 F\nSC YOU SAVED 2.00\nFRESH VALUE CUSTOMER *******6401\nTAX 0.00\n**** BALANCE 21.93\nLas Vegas NV 89103\nCHASE VISA Purchase\n************7159 - H\nREF#: 07489D TOTAL: 21.93\nAID: A0000000031010\nTC: 5AD7CEE6DBDFAC A2\nVISA 21.93\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 8\nFreshValues Savings $ 5.60\nTotal Savings (20 Percent) $ 5.60\n04/01/26 11:42am 304 502 136 999999502\n***********************************\nAnnual Card Savings $23.25\n***********************************\n***********************************\nFuel Points Earned Today: 22\nTotal April Fuel Points: 22\n***********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to smithsfoodanddrug.com/feedback\nDate: 04/01/26\nTime: 11:42AM\nEntry ID: 705-602-136-304-502-638\n***********************************\nToday, You Saved\n$5.60\nFresh opportunity awaits\nJoin our team today!\nMER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5873.430957999997,
+        "totalUsd": 0.016806,
+        "inputTokens": 3692,
+        "outputTokens": 1252,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "21.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:42 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89103",
+          "status": "match"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4001 South Decatur",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7159",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CRWN SARDINES",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 2.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KINDER BUENO",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRY LEMON",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROUD SOURCE WATER",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIFEWAY SMOOTHIE",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WILDE PRT CHPS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "AVOCADOS",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WNDR HALOS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Smith's Low prices.\nMarket fresh.\n4001 South Decatur\n702-248-4400\nYour cashier was CHEC 502\nCRWN SARDINS FV 3.19 F\nSC YOU SAVED 0.30\nKINDER BUENO 2.69 F\nSTRAWBERRY LEMON 2.69 F\nPROUD SOURCE WATER 1.59 F\nLIFEWAY SMOOTHIE 1.79 F\nWILDE PRT CHPS FV 5.99 F\nSC YOU SAVED 3.30\n1 @ 5/5.00\nAVOCADOS 1.00 F\nWNDR HALOS FV 2.99 F\nSC YOU SAVED 2.00\nFRESH VALUE CUSTOMER *******6401\nTAX 0.00\n**** BALANCE 21.93\nLas Vegas NV 89103\nCHASE VISA Purchase\n************7159 - H\nREF#: 07489D TOTAL: 21.93\nAID: A0000000031010\nTC: 5AD7CEE6DBDFAC A2\nVISA 21.93\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 8\nFreshValues Savings $ 5.60\nTotal Savings (20 Percent) $ 5.60\n04/01/26 11:42am 304 502 136 999999502\n***********************************\nAnnual Card Savings $23.25\n***********************************\n***********************************\nFuel Points Earned Today: 22\nTotal April Fuel Points: 22\n***********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to smithsfoodanddrug.com/feedback\nDate: 04/01/26\nTime: 11:42AM\nEntry ID: 705-602-136-304-502-638\n***********************************\nToday, You Saved\n$5.60\nFresh opportunity awaits\nJoin our team today!\nMER#\nwww.smithsfoodanddrug.com\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CRWN SARDINS + SC YOU SAVED 0.30",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    },
+    {
+      "text": "KINDER BUENO",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    },
+    {
+      "text": "STRAWBERRY LEMON",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    },
+    {
+      "text": "PROUD SOURCE WATER",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.59
+    },
+    {
+      "text": "LIFEWAY SMOOTHIE",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "WILDE PRT CHPS + SC YOU SAVED 3.30 + 1 @ 5/5.00",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "AVOCADOS + 1 @ 5/5.00",
+      "price": 1,
+      "quantity": 1,
+      "totalSpend": 1
+    },
+    {
+      "text": "WNDR HALOS + SC YOU SAVED 2.00 + FRESH VALUE CUSTOMER *******6401",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

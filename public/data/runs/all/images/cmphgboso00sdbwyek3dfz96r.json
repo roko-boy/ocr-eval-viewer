@@ -1,0 +1,270 @@
+{
+  "id": "cmphgboso00sdbwyek3dfz96r",
+  "url": null,
+  "retailer": "RaceTrac",
+  "brand": "RYSE Energy",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "RaceTrac",
+    "totalCost": "4.33",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "75034",
+    "city": "Frisco",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8855.710958000003,
+        "totalUsd": 0.016122,
+        "inputTokens": 6086,
+        "outputTokens": 777,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "RaceTrac",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75034",
+          "status": "match"
+        },
+        "city": {
+          "value": "Frisco",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4740 Main St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6047",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Item/GTIN 85004191416 + RYSE KOOL AID TROPICAL + MM - NAB - RYSE ENER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Item/GTIN 8505000882 + RYSE SUNNYD TANGY 16OZ + MM - NAB - RYSE ENER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "RaceTrac Store 0133\n4740 Main St\nFrisco, TX 75034\nPhone: 404-829-6185\n\nUSD\nItem/GTIN 85004191416\nRYSE KOOL AID TROPICAL\nMM - NAB - RYSE ENER\n2.99 F\n-0.99\n\nItem/GTIN 8505000882\nRYSE SUNNYD TANGY 16OZ\nMM - NAB - RYSE ENER\n2.99 F\n-0.99\n\nSUBTOTAL [2]\nUSD\n4.00\n4.00 @ 6.250% =\n0.25\n4.00 @ 2.000% =\n0.08\n\nTOTAL WITH TAX\nUSD\n4.33\nMastercard\nUSD\n4.33\n\nPURCHASE $4.33\n************6047 MC\nCHIP CONTACTLESS Credit\nREF#: 21823P APPROVED\n\nMastercard\nARQC - A4BB914C65DD4E1D\n\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0110A040012200000000000000000000000F\nTSI: E800\nARC: 00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11416.18775,
+        "totalUsd": 0.02604,
+        "inputTokens": 3692,
+        "outputTokens": 765,
+        "reasoningTokens": 1513
+      },
+      "fields": {
+        "storeName": {
+          "value": "RaceTrac",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2023-02-18",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75034",
+          "status": "match"
+        },
+        "city": {
+          "value": "Frisco",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4740 Main St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6047",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RYSE KOOL AID TROPICAL + Item/GTIN 85004191416 + MM - NAB - RYSE ENER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RYSE SUNNYD TANGY 16OZ + Item/GTIN 85405000882 + MM - NAB - RYSE ENER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "RaceTrac Store 0133\n4740 Main St\nFrisco, TX 75034\nPhone: 404-829-6185\n\nItem/GTIN 85004191416\nRYSE KOOL AID TROPICAL\nMM - NAB - RYSE ENER\n2.99 F\n-0.99\n\nItem/GTIN 85405000882\nRYSE SUNNYD TANGY 16OZ\nMM - NAB - RYSE ENER\n2.99 F\n-0.99\n\nSUBTOTAL [2] USD 4.00\n4.00 @ 6.250% = 0.25\n4.00 @ 2.000% = 0.08\nTOTAL WITH TAX USD 4.33\nMastercard USD 4.33\n\nPURCHASE $4.33\n************6047 MC\nCHIP CONTACTLESS Credit\nREF#: 21823P APPROVED\n\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0110A040012200000000000000000000000F\nTSI: E800\nARC: 00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4186.756916999999,
+        "totalUsd": 0.012342,
+        "inputTokens": 3692,
+        "outputTokens": 756,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "RaceTrac",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75034",
+          "status": "match"
+        },
+        "city": {
+          "value": "Frisco",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4740 Main St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6047",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Item/GTIN 85004191416 + RYSE KOOL AID TROPICAL + MM - NAB - RYSE ENER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Item/GTIN 85050500882 + RYSE SUNNYD TANGY 16OZ + MM - NAB - RYSE ENER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "RaceTrac\nRaceTrac Store 0133\n4740 Main St\nFrisco, TX 75034\nPhone: 404-829-6185\n\nUSD\nItem/GTIN 85004191416\nRYSE KOOL AID TROPICAL\n2.99 F\nMM - NAB - RYSE ENER\n-0.99\n\nItem/GTIN 85050500882\nRYSE SUNNYD TANGY 16OZ\n2.99 F\nMM - NAB - RYSE ENER\n-0.99\n\nSUBTOTAL [2]\nUSD\n4.00\n4.00 @ 6.250% =\n0.25\n4.00 @ 2.000% =\n0.08\n\nTOTAL WITH TAX\nUSD\n4.33\nMastercard\nUSD\n4.33\n\nPURCHASE $4.33\n************6047 MC\nCHIP CONTACTLESS Credit\nREF#: 21823P APPROVED\n\nMastercard\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0110A040012200000000000000000000000F\nTSI: E800\nARC: 00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "RYSE KOOL AID TROPICAL + 85004191416 + RYSE KOOL AID TROPICAL 2.99 F",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "RYSE SUNNYD TANGY 16OZ + 85405000882 + RYSE SUNNYD TANGY 16OZ 2.99 F",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,264 @@
+{
+  "id": "cmpijgk0q0010uwj7zp5q4psj",
+  "url": null,
+  "retailer": "Pilot Travel Center",
+  "brand": "Pepsi Food Service",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Pilot Travel Centers",
+    "totalCost": "3.2",
+    "purchaseDate": "2026-05-23",
+    "time": null,
+    "zipCode": "80642",
+    "city": "Hudson",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9731.706750000001,
+        "totalUsd": 0.016023,
+        "inputTokens": 6158,
+        "outputTokens": 754,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pilot",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:02:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80642",
+          "status": "match"
+        },
+        "city": {
+          "value": "Hudson",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7044 CR 49",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0473",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI ZERO WILD CHER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Deposit Soda Single",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Pilot.\nSTORE 1382\n7044 CR 49\nHudson, CO 80642\n(720) 773-8351\n05/23/2026\nSALE\nTransaction #: 16041222\nDestination\nQty Name Price Total\n1 PEPSI ZERO WILD CHER 2.99 2.99\n1 Deposit Soda Single 0.00 0.00\nSubtotal 2.99\nSales Tax 0.21\nSales Tax 0.21\nTotal 3.20\nReceived:\nDebit Card 3.20\nXXXXXXXXXXXX0473 INSERTED\nAPPROVED\nAuth #: 284904\nTYPE: PURCHASE\nUS DEBIT (T)\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nVerified by PIN\nIMPORTANT - Retain this copy for your\nrecords.\nCUSTOMER COPY\nMyRewards Card# XXXXXXXXXXX7686\nPOINTS:\nCurrent Balance: 0\nEarned This Visit: 0\nFREE DRINKS:\nBalance: 0\n0138216041222\nPos:16 Clerk:1 05/23/2026 10:02:31\nORIGINAL RECEIPT",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10758.70875,
+        "totalUsd": 0.024672,
+        "inputTokens": 3728,
+        "outputTokens": 792,
+        "reasoningTokens": 1328
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pilot",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:02:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80642",
+          "status": "match"
+        },
+        "city": {
+          "value": "Hudson",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7044 CR 49",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0473",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI ZERO WILD CHER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Deposit Soda Single",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Pilot.\n\nSTORE 1382\n7044 CR 49\nHudson, CO 80642\n(720) 773-8351\n05/23/2026\nSALE\nTransaction #: 16041222\nDestination\n----------------------------------------\nQty Name Price Total\n----------------------------------------\n1 PEPSI ZERO WILD CHER 2.99 2.99\n1 Deposit Soda Single 0.00 0.00\n----------------------------------------\nSubtotal 2.99\nSales Tax 0.21\n Sales Tax 0.21\n----------------------------------------\nTotal 3.20\n----------------------------------------\nReceived:\n Debit Card 3.20\n XXXXXXXXXXXX0473 INSERTED\n APPROVED\n Auth #: 284904\n\nTYPE: PURCHASE\nUS DEBIT (T)\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\n\nVerified by PIN\n\nIMPORTANT - Retain this copy for your\nrecords.\n\nCUSTOMER COPY\n\n\nMyRewards Card# XXXXXXXXXX7686\nPOINTS:\n Current Balance: 0\n Earned This Visit: 0\nFREE DRINKS:\n Balance: 0\n----------------------------------------\n0138216041222\nPos:16 Clerk:1 05/23/2026 10:02:31\nORIGINAL RECEIPT",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5202.131125,
+        "totalUsd": 0.012324,
+        "inputTokens": 3728,
+        "outputTokens": 748,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Pilot",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:02:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80642",
+          "status": "match"
+        },
+        "city": {
+          "value": "Hudson",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7044 CR 49",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0473",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI ZERO WILD CHER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Deposit Soda Single",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Pilot\nSTORE 1382\n7044 CR 49\nHudson, CO 80642\n(720) 773-8351\n05/23/2026\nSALE\nTransaction #: 16041222\nDestination\nQty Name Price Total\n1 PEPSI ZERO WILD CHER 2.99 2.99\n1 Deposit Soda Single 0.00 0.00\nSubtotal 2.99\nSales Tax 0.21\nSales Tax 0.21\nTotal 3.20\nReceived:\nDebit Card 3.20\nXXXXXXXXXXXX0473 INSERTED\nAPPROVED\nAuth #: 284904\nTYPE: PURCHASE\nUS DEBIT (T)\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06011203A00000\nARC: 00\nVerified by PIN\nIMPORTANT - Retain this copy for your\nrecords.\nCUSTOMER COPY\nMyRewards Card# XXXXXXXXXX7686\nPOINTS:\nCurrent Balance: 0\nEarned This Visit: 0\nFREE DRINKS:\nBalance: 0\n0138216041222\nPos:16 Clerk:1 05/23/2026 10:02:31\nORIGINAL RECEIPT",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PEPSI ZERO WILD CHER",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

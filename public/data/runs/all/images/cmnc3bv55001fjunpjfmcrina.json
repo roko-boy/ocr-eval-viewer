@@ -1,0 +1,459 @@
+{
+  "id": "cmnc3bv55001fjunpjfmcrina",
+  "url": null,
+  "retailer": "Stop & Shop",
+  "brand": "nutpods",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Stop & Shop",
+    "totalCost": "27.54",
+    "purchaseDate": "2026-03-27",
+    "time": null,
+    "zipCode": "02809",
+    "city": "Bristol",
+    "state": "RI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11393.44737400001,
+        "totalUsd": 0.020919,
+        "inputTokens": 6086,
+        "outputTokens": 1310,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "27.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:55pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "02809",
+          "status": "match"
+        },
+        "city": {
+          "value": "BRISTOL",
+          "status": "match"
+        },
+        "state": {
+          "value": "RI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "605 METACOM AVENUE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5108",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BELGIOS MASCRPE + SAVINGS + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BELGIOS MASCRPE + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB HEAVY CREAM",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NUTPD TST MRSH + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NUTPD TST MRSH + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI VN NF YG",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MM GRV CH2.75Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MM CHKTNA 2.75OZ + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GYA LADY FINGERS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n605 METACOM AVENUE\nBRISTOL, RI 02809\nStore Telephone: (401) 254-2525\nStore #723 03/27/26 04:55pm\nCHEESE SHOP\nBELGIOS MASCRPE 4.99 F\nSAVINGS 1.00-F\nSC PERSONAL DISC 1.00-F\nPRICE YOU PAY 2.99\nBELGIOS MASCRPE 4.99 F\nSAVINGS 1.00-F\nPRICE YOU PAY 3.99\nDAIRY\nSB HEAVY CREAM 6.99 F\nNUTPD TST MRSH 5.99 F\nSAVINGS 2.00-F\nPRICE YOU PAY 3.99\nNUTPD TST MRSH 5.99 F\nSAVINGS 2.00-F\nPRICE YOU PAY 3.99\nCHOBANI VN NF YG 1.49 F\nGROCERY\nMM GRV CH2.75Z 0.99 T\nSAVINGS 0.24-T\nPRICE YOU PAY 0.75\nMM CHKTNA 2.75OZ 0.99 T\nSAVINGS 0.24-T\nPRICE YOU PAY 0.75\nGYA LADY FINGERS 2.49 F\nTotal After Savings 27.43\nTAX 0.11\n**** BALANCE 27.54\n****************************************\nPayment Type: AMEX CREDIT\nEMV CONTACTLESS Purchase\nCard: ************5108\nPayment Amt: $27.54\nBALANCE: $\nAID: A000000025010901\nAUTH#815015 RC#00 03/27/26 04:56pm\n****************************************\nAMER EXPRESS 27.54\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\n********* SAVINGS SUMMARY *********\nCard Savings: 7.48",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11810.88299999997,
+        "totalUsd": 0.027642,
+        "inputTokens": 3692,
+        "outputTokens": 1310,
+        "reasoningTokens": 1146
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "27.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:55pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "02809",
+          "status": "match"
+        },
+        "city": {
+          "value": "BRISTOL",
+          "status": "match"
+        },
+        "state": {
+          "value": "RI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "605 METACOM AVENUE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5108",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BELGIOS MASCRPE + SAVINGS + PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BELGIOS MASCRPE + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB HEAVY CREAM",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NUTPD TST MRSH + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NUTPD TST MRSH + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI VN NF YG",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MM GRV CH2.75Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MM CHKTNA 2.75OZ + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GYA LADY FINGERS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n605 METACOM AVENUE\nBRISTOL, RI 02809\nStore Telephone: (401) 254-2525\nStore #723 03/27/26 04:55pm\nCHEESE SHOP\nBELGIOS MASCRPE 4.99 F\nSAVINGS 1.00-F\nSC PERSONAL DISC 1.00-F\nPRICE YOU PAY 2.99\nBELGIOS MASCRPE 4.99 F\nSAVINGS 1.00-F\nPRICE YOU PAY 3.99\nDAIRY\nSB HEAVY CREAM 6.99 F\nNUTPD TST MRSH 5.99 F\nSAVINGS 2.00-F\nPRICE YOU PAY 3.99\nNUTPD TST MRSH 5.99 F\nSAVINGS 2.00-F\nPRICE YOU PAY 3.99\nCHOBANI VN NF YG 1.49 F\nGROCERY\nMM GRV CH2.75Z 0.99 T\nSAVINGS 0.24-T\nPRICE YOU PAY 0.75\nMM CHKTNA 2.75OZ 0.99 T\nSAVINGS 0.24-T\nPRICE YOU PAY 0.75\nGYA LADY FINGERS 2.49 F\nTotal After Savings 27.43\nTAX 0.11\n**** BALANCE 27.54\n****************************************\nPayment Type: AMEX CREDIT\nEMV CONTACTLESS Purchase\nCard: ************5108\nPayment Amt: $27.54\nBALANCE: $\nAID: A000000025010901\nAUTH#815015 RC#00 03/27/26 04:56pm\n****************************************\nAMER EXPRESS 27.54\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\n********* SAVINGS SUMMARY *********\nCard Savings: 7.48",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7074.004125000007,
+        "totalUsd": 0.017454,
+        "inputTokens": 3692,
+        "outputTokens": 1324,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "STOP&SHOP",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "27.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:55pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "02809",
+          "status": "match"
+        },
+        "city": {
+          "value": "BRISTOL",
+          "status": "match"
+        },
+        "state": {
+          "value": "RI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "605 METACOM AVENUE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5108",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BELGIOS MASCRPE + SAVINGS + SC PERSONAL DISC",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BELGIOS MASCRPE + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SB HEAVY CREAM",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NUTPD TST MRSH + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NUTPD TST MRSH + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI VN NF YG",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MM GRV CH2.75Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.75,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MM CHKTNA 2.75OZ + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GYA LADY FINGERS",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n605 METACOM AVENUE\nBRISTOL, RI 02809\nStore Telephone: (401) 254-2525\nStore #723 03/27/26 04:55pm\nCHEESE SHOP\nBELGIOS MASCRPE 4.99 F\nSAVINGS 1.00-F\nSC PERSONAL DISC 1.00-F\nPRICE YOU PAY 2.99\nBELGIOS MASCRPE 4.99 F\nSAVINGS 1.00-F\nPRICE YOU PAY 3.99\nDAIRY\nSB HEAVY CREAM 6.99 F\nNUTPD TST MRSH 5.99 F\nSAVINGS 2.00-F\nPRICE YOU PAY 3.99\nNUTPD TST MRSH 5.99 F\nSAVINGS 2.00-F\nPRICE YOU PAY 3.99\nCHOBANI VN NF YG 1.49 F\nGROCERY\nMM GRV CH2.75Z 0.99 T\nSAVINGS 0.24-T\nPRICE YOU PAY 0.75\nMM CHKTNA 2.75OZ 0.99 T\nSAVINGS 0.24-T\nPRICE YOU PAY 0.75\nGYA LADY FINGERS 2.49 F\nTotal After Savings 27.43\nTAX 0.11\n**** BALANCE 27.54\n****************************************\nPayment Type: AMEX CREDIT\nEMV CONTACTLESS Purchase\nCard: ************5108\nPayment Amt: $27.54\nBALANCE: $\nAID: A00000025010901\nAUTH#815015 RC#00 03/27/26 04:56pm\n****************************************\nAMER EXPRESS 27.54\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\n********* SAVINGS SUMMARY *********\nCard Savings: 7.48",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BELGIOS MASCRPE + CHEESE SHOP",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BELGIOS MASCRPE",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SB HEAVY CREAM + DAIRY",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "NUTPD TST MRSH",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "NUTPD TST MRSH",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "CHOBANI VN NF YG + GROCERY",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "MM GRV CH2.75Z + GROCERY",
+      "price": 0.75,
+      "quantity": 1,
+      "totalSpend": 0.75
+    },
+    {
+      "text": "MM CHKTNA 2.75OZ",
+      "price": 0.75,
+      "quantity": 1,
+      "totalSpend": 0.75
+    },
+    {
+      "text": "GYA LADY FINGERS",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmnrvpy1d004ey09f8mpidri5",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Proper Wild",
+  "amount": 3.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "3.52",
+    "purchaseDate": "2026-04-09",
+    "time": null,
+    "zipCode": null,
+    "city": "Marion",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 20711.916417,
+        "totalUsd": 0.012549,
+        "inputTokens": 6086,
+        "outputTokens": 380,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "FS",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.52",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:34:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Marion",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1501 E Deyoung",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Groc N Snacks",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nOUR STORE\nFS\n1501 E Deyoung\nMarion IL\n\nDescription Qty Amount\n----------------- --- ------\n! Groc N Snacks 1 3.49\n-----------------\nSubtotal 3.49\nTax 0.03\nTOTAL 3.52\nCASH $ 10.00\nChange $ -6.48\n\nST#EDYNG DR#1 TRAN#1012680\nCSH: 4 4/9/26 2:34:59 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 6880.085957999981,
+        "totalUsd": 0.016689,
+        "inputTokens": 3692,
+        "outputTokens": 389,
+        "reasoningTokens": 850
+      },
+      "fields": {
+        "storeName": {
+          "value": "FS",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.52",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:34:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Marion",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1501 E Deyoung",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Groc N Snacks",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nOUR STORE\nFS\n1501 E Deyoung\nMarion IL\n\nDescription        Qty    Amount\n-----------        ---    ------\n! Groc N Snacks      1      3.49\n                          ------\n              Subtotal      3.49\n                   Tax      0.03\n         TOTAL              3.52\n                CASH $     10.00\n              Change $     -6.48\n\nST#EDYNG             DR#1 TRAN#1012680\nCSH: 4               4/9/26 2:34:59 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3686.826957999991,
+        "totalUsd": 0.008858999999999999,
+        "inputTokens": 3692,
+        "outputTokens": 369,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "FS",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.52",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:34:59 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Marion",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1501 E Deyoung",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Groc N Snacks",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nOUR STORE\nFS\n1501 E Deyoung\nMarion IL\n\nDescription Qty Amount\n----------------- --- ------\n! Groc N Snacks 1 3.49\n-----------------\nSubtotal 3.49\nTax 0.03\nTOTAL 3.52\nCASH $ 10.00\nChange $ -6.48\n\nST#EDYNG DR#1 TRAN#1012680\nCSH: 4 4/9/26 2:34:59 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Groc N Snacks",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

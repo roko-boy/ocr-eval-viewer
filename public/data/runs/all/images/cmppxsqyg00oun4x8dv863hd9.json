@@ -1,0 +1,243 @@
+{
+  "id": "cmppxsqyg00oun4x8dv863hd9",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Ketone-IQ™",
+  "amount": 4.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "4.29",
+    "purchaseDate": "2026-05-28",
+    "time": null,
+    "zipCode": "79762",
+    "city": "ODESSA",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12163.09633400006,
+        "totalUsd": 0.014601,
+        "inputTokens": 6086,
+        "outputTokens": 608,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALON",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:18:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79762",
+          "status": "match"
+        },
+        "city": {
+          "value": "ODESSA",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3800 e 52ND Str",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4088",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KETONE IQ BLUE RASP",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nOUR STORE\n****************\nALON DK #51136\n3800 e 52ND Str\nODESSA TX 79762\n\nDescription Qty Amount\nKETONE IQ BLUE RASP 1 4.29\nSubtotal 4.29\nTOTAL 4.29\nCREDIT $ 4.29\n\nSALE Receipt\nUSD$4.29\nAcct/Card #: *********4088\nEntry: Contactless ICC\nAppName: US DEBIT\nAuthNet: VISA\nMODE: Issuer\nAID: A0000000980840\nAuth #: 40890\nResp Code: 000\nStan: 04311660402\nInvoice #: 714950\nShift #: 1\nStore # ****************\n\nPIN Bypassed\nCUSTOMER COPY\nAPPROVED\n\nALL SALES FINAL\nCONTAINS UP TO 5% BIODIESEL\nSTATE DIESEL TAX $.19 PER GALLON\nSERVICE ID 2047284\nST#1136 DR#1 TRAN#1022254\nCSH: 33 5/28/26 3:18:28 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19597.63575000002,
+        "totalUsd": 0.02451,
+        "inputTokens": 3692,
+        "outputTokens": 615,
+        "reasoningTokens": 1493
+      },
+      "fields": {
+        "storeName": {
+          "value": "Alon",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:18:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79762",
+          "status": "match"
+        },
+        "city": {
+          "value": "ODESSA",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3800 e 52ND Str",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4088",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KETONE IQ BLUE RASP",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nOUR STORE\n***************\nALON DK #51136\n3800 e 52ND Str\nODESSA TX 79762\n\nDescription Qty Amount\nKETONE IQ BLUE RASP 1 4.29\n\nSubtotal 4.29\nTOTAL 4.29\nCREDIT $ 4.29\n\nSALE Receipt\nUSD$4.29\nAcct/Card #: *********4088\nEntry: Contactless ICC\nAppName: US DEBIT\nAuthNet: VISA\nMODE: Issuer\nAID: A0000000980840\nAuth #: 408940\nResp Code: 000\nStan: 04311660402\nInvoice #: 714950\nShift #: 1\nStore # ****************\n\nPIN Bypassed\n\nCUSTOMER COPY\n\nAPPROVED\n\nALL SALES FINAL\nCONTAINS UP TO 5% BIODIESEL\nSTATE DIESEL TAX $.19 PER GALLON\nSERVICE ID 2047284\nST#1136 DR#1 TRAN#1022254\nCSH: 33 5/28/26 3:18:28 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4972.020208000002,
+        "totalUsd": 0.011037,
+        "inputTokens": 3692,
+        "outputTokens": 611,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALON DK",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:18:28 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79762",
+          "status": "match"
+        },
+        "city": {
+          "value": "ODESSA",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3800 e 52ND Str",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4088",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KETONE IQ BLUE RASP",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WELCOME TO\nOUR STORE\n****************\nALON DK #51136\n3800 e 52ND Str\nODESSA TX 79762\n\nDescription Qty Amount\nKETONE IQ BLUE RASP 1 4.29\nSubtotal 4.29\nTOTAL 4.29\nCREDIT $ 4.29\n\nSALE Receipt\nUSD$4.29\nAcct/Card #: *********4088\nEntry: Contactless ICC\nAppName: US DEBIT\nAuthNet: VISA\nMODE: Issuer\nAID: A0000000980840\nAuth #: 408490\nResp Code: 000\nStan: 04311660402\nInvoice #: 714950\nShift #: 1\nStore # ****************\n\nPIN Bypassed\nCUSTOMER COPY\nAPPROVED\n\nALL SALES FINAL\nCONTAINS UP TO 5% BIODIESEL\nSTATE DIESEL TAX $.19 PER GALLON\nSERVICE ID 2047284\nST#1136 DR#1 TRAN#1022254\nCSH: 33 5/28/26 3:18:28 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KETONE IQ BLUE RASP",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 4.29
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

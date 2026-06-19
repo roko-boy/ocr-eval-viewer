@@ -1,0 +1,432 @@
+{
+  "id": "cmodksmie0006tmwhd886o5ip",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Hop Wtr",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "41.06",
+    "purchaseDate": "2026-04-24",
+    "time": null,
+    "zipCode": "98118",
+    "city": "Seattle",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8624.728708999988,
+        "totalUsd": 0.022593,
+        "inputTokens": 6086,
+        "outputTokens": 1496,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41.06",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:59",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98118",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9262 Rainier Ave. SO.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8915",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RUFFLES POT CHPS + 040051773 + Member Savings -1.30 + forU Store Coupon -2.00",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIG HAMBURGER BUNS + 2113012089 + Member Savings -0.50",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIG BUNS SAUSAGE + 2113013923 + Member Savings -0.30",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZUCCHINI SQUASH + 4067 + 0.92 lb @ $2.69 /lb",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 2.47,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YELLOW NECK SQUASH + 4782 + 1.03 lb @ $2.69 /lb",
+          "quantity": 1,
+          "unitPrice": 2.77,
+          "totalSpend": 2.77,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUE MOON + 7199000104 + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 12.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOP WATER N/A 6PK + 85002088320 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DONATION + 22986",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1965 Dir Rafiat S\nMain: (206) 494-1120 Rx: (206) 494-113\n9262 Rainier Ave. SO.\nSeattle WA 98118\n00196512502762604241659\nYOUR CASHIER TODAY WAS Nimesha\nGROCERY\nPrice You Pay\n040051773 RUFFLES POT CHPS 7.29 3.99 S\nMember Savings -1.30\nforU Store Coupon -2.00\nBAKED GOODS\n2113012089 SIG HAMBURGER BUNS 3.49 2.99 S\nMember Savings -0.50\n2113013923 SIG BUNS SAUSAGE 3.29 2.99 S\nMember Savings -0.30\nPRODUCE\n4067 ZUCCHINI SQUASH 2.47 2.47 S\nWT 0.92 lb @ $2.69 /lb\n4782 YELLOW NECK SQUASH 2.77 2.77 S\nWT 1.03 lb @ $2.69 /lb\nLIQUOR\n7199000104 BLUE MOON 13.99 12.49 T\nMember Savings -1.50\n85002088320 HOP WATER N/A 6PK 11.99 9.99 T\nMember Savings -2.00\nMISCELLANEOUS\n22986 DONATION 1.00 1.00\nTAX 2.37\n**** BALANCE 41.06\nCredit Purchase 04/24/26 16:59\nCARD # ************8915\nREF: 265937489150 AUTH: 0008169D\nPAYMENT AMOUNT 41.06\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 41.06\nCHANGE 0.00\n****************************************\nNOW HIRING!\nSee Store Director or visit",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14918.43683399999,
+        "totalUsd": 0.037326,
+        "inputTokens": 3692,
+        "outputTokens": 1509,
+        "reasoningTokens": 2023
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41.06",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:59",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98118",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9262 Rainier Ave. SO.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8915",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RUFFLES POT CHPS + 2840051773 + Member Savings -1.30 + forU Store Coupon -2.00",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIG HAMBURGER BUNS + 2113012089 + Member Savings -0.50",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIG BUNS SAUSAGE + 2113013923 + Member Savings -0.30",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZUCCHINI SQUASH + 4067 + 0.92 lb @ $2.69 /lb",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 2.47,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YELLOW NECK SQUASH + 4782 + 1.03 lb @ $2.69 /lb",
+          "quantity": 1,
+          "unitPrice": 2.77,
+          "totalSpend": 2.77,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUE MOON + 7199000104 + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 12.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOP WATER N/A 6PK + 85002088320 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DONATION + 22986",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1965 Dir Rafiat S\nMain: (206) 494-1120 Rx: (206) 494-113\n9262 Rainier Ave. SO.\nSeattle WA 98118\n00196512502762604241659\nYOUR CASHIER TODAY WAS Nimesha\nGROCERY\nPrice You Pay\n2840051773 RUFFLES POT CHPS 7.29 3.99 S\nMember Savings -1.30\nforU Store Coupon -2.00\nBAKED GOODS\n2113012089 SIG HAMBURGER BUNS 3.49 2.99 S\nMember Savings -0.50\n2113013923 SIG BUNS SAUSAGE 3.29 2.99 S\nMember Savings -0.30\nPRODUCE\n4067 ZUCCHINI SQUASH 2.47 2.47 S\nWT 0.92 lb @ $2.69 /lb\n4782 YELLOW NECK SQUASH 2.77 2.77 S\nWT 1.03 lb @ $2.69 /lb\nLIQUOR\n7199000104 BLUE MOON 13.99 12.49 T\nMember Savings -1.50\n85002088320 HOP WATER N/A 6PK 11.99 9.99 T\nMember Savings -2.00\nMISCELLANEOUS\n22986 DONATION 1.00 1.00\nTAX 2.37\n**** BALANCE 41.06\nCredit Purchase 04/24/26 16:59\nCARD # ************8915\nREF: 265937489150 AUTH: 0008169D\nPAYMENT AMOUNT 41.06\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 41.06\nCHANGE 0.00\n*********************************\nNOW HIRING!\nSee Store Director or visit",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7497.13833300001,
+        "totalUsd": 0.01902,
+        "inputTokens": 3692,
+        "outputTokens": 1498,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "41.06",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:59",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98118",
+          "status": "match"
+        },
+        "city": {
+          "value": "Seattle",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9262 Rainier Ave. SO.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8915",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "RUFFLES POT CHPS + 040051773 + Member Savings -1.30 + forU Store Coupon -2.00",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SIG HAMBURGER BUNS + 2113012089 + Member Savings -0.50",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SIG BUNS SAUSAGE + 2113013923 + Member Savings -0.30",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ZUCCHINI SQUASH + 4067 + 0.92 lb @ $2.69 /lb",
+          "quantity": 1,
+          "unitPrice": 2.47,
+          "totalSpend": 2.47,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YELLOW NECK SQUASH + 4782 + 1.03 lb @ $2.69 /lb",
+          "quantity": 1,
+          "unitPrice": 2.77,
+          "totalSpend": 2.77,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUE MOON + 7199000104 + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 12.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HOP WATER N/A 6PK + 85002088320 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DONATION + 22986",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1965 Dir Rafiat S\nMain: (206) 494-1120 Rx: (206) 494-113\n9262 Rainier Ave. SO.\nSeattle WA 98118\n00196512502762604241659\nYOUR CASHIER TODAY WAS Nimesha\nGROCERY\nPrice You Pay\n040051773 RUFFLES POT CHPS 7.29 3.99 S\nMember Savings -1.30\nforU Store Coupon -2.00\nBAKED GOODS\n2113012089 SIG HAMBURGER BUNS 3.49 2.99 S\nMember Savings -0.50\n2113013923 SIG BUNS SAUSAGE 3.29 2.99 S\nMember Savings -0.30\nPRODUCE\n4067 ZUCCHINI SQUASH 2.47 2.47 S\nWT 0.92 lb @ $2.69 /lb\n4782 YELLOW NECK SQUASH 2.77 2.77 S\nWT 1.03 lb @ $2.69 /lb\nLIQUOR\n7199000104 BLUE MOON 13.99 12.49 T\nMember Savings -1.50\n85002088320 HOP WATER N/A 6PK 11.99 9.99 T\nMember Savings -2.00\nMISCELLANEOUS\n22986 DONATION 1.00 1.00\nTAX 2.37\n**** BALANCE 41.06\nCredit Purchase 04/24/26 16:59\nCARD # ************8915\nREF: 265937489150 AUTH: 0008169D\nPAYMENT AMOUNT 41.06\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 41.06\nCHANGE 0.00\n*********************************\nNOW HIRING!\nSee Store Director or visit",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "RUFFLES POT CHPS + 640051773 + Member Savings -1.30 + forU Store Coupon -2.00 + BAKED GOODS",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "SIG HAMBURGER BUNS + 2113012089 + Member Savings -0.50",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SIG BUNS SAUSAGE + 2113013923 + Member Savings -0.30 + PRODUCE",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "ZUCCHINI SQUASH + 4067 + WT 0.92 lb @ $2.69 /lb",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.47
+    },
+    {
+      "text": "YELLOW NECK SQUASH + 4782 + WT 1.03 lb @ $2.69 /lb + LIQUOR",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.77
+    },
+    {
+      "text": "BLUE MOON + 7199000104 + Member Savings -1.50",
+      "price": 12.49,
+      "quantity": 1,
+      "totalSpend": 12.49
+    },
+    {
+      "text": "DONATION + 22986",
+      "price": 1,
+      "quantity": 1,
+      "totalSpend": 1
+    },
+    {
+      "text": "HOP WATER N/A 6PK + 85002088320 + Member Savings -2.00 + MISCELLANEOUS",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

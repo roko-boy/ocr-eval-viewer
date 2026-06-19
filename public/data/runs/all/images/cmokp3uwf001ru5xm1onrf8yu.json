@@ -1,0 +1,243 @@
+{
+  "id": "cmokp3uwf001ru5xm1onrf8yu",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "Brutus Bone Broth",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "4.43",
+    "purchaseDate": "2026-04-29",
+    "time": null,
+    "zipCode": "60805",
+    "city": "Chicago",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5793.981250000012,
+        "totalUsd": 0.015087,
+        "inputTokens": 6086,
+        "outputTokens": 662,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.43",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:27PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60805",
+          "status": "match"
+        },
+        "city": {
+          "value": "CHICAGO",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9670 S WESTERN AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9318",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153168 BTH-DOG 32Z BEEF BRO + Vital Care Premier - 10% : -1.00 (1) + Vital Care Rewards: -5.00 (1)",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCHICAGO EVERGREEN #01990\n9670 S WESTERN AVE\nCHICAGO, IL 60805\n708-907-4297\n04/29/26 6:27PM Reg 003 Trans 122001\nHelped by Julian\n003153168 BTH-DOG 32Z BEEF BRO 3.99 T\nReg Price: 9.99\nVital Care Premier - 10% : -1.00 (1)\nVital Care Rewards: -5.00 (1)\nReturn Value: 3.99\nTaxable Total 3.99\nSubtotal 3.99\nTax IL 11% 0.44\nTOTAL 4.43\nPetco Pay Credit Card 4.43\n2026-04-29 06:27:27 PM\nTotal: USD $4.43\nPetco PLCC\nEntry Method: Swiped\nCARD #: XXXXXXXXXXXX9318\nPurchase - APPROVED\nAUTH CODE: 009873\nRRN: 329890\n1 Item\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20167.64162499999,
+        "totalUsd": 0.02226,
+        "inputTokens": 3692,
+        "outputTokens": 670,
+        "reasoningTokens": 1188
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.43",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:27:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60805",
+          "status": "match"
+        },
+        "city": {
+          "value": "CHICAGO",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9670 S WESTERN AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9318",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153168 BTH-DOG 32Z BEEF BRO + Reg Price: 9.99 + Vital Care Premier - 10% : -1.00 (1) + Vital Care Rewards: -5.00 (1)",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCHICAGO EVERGREEN #01990\n9670 S WESTERN AVE\nCHICAGO, IL 60805\n708-907-4297\n04/29/26 6:27PM Reg 003 Trans 122001\nHelped by Julian\n003153168 BTH-DOG 32Z BEEF BRO\n3.99 T\nReg Price: 9.99\nVital Care Premier - 10% : -1.00 (1)\nVital Care Rewards: -5.00 (1)\nReturn Value: 3.99\nTaxable Total\n3.99\nSubtotal\n3.99\nTax IL 11%\n0.44\nTOTAL\n4.43\nPetco Pay Credit Card\n4.43\n2026-04-29 06:27:27 PM\nTotal: USD $4.43\nPetco PLCC\nEntry Method: Swiped\nCARD #: XXXXXXXXXXXX9318\nPurchase - APPROVED\nAUTH CODE: 009873\nRRN: 329890\n1 Item\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4242.041624999983,
+        "totalUsd": 0.011289,
+        "inputTokens": 3692,
+        "outputTokens": 639,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.43",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:27 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60805",
+          "status": "match"
+        },
+        "city": {
+          "value": "CHICAGO",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9670 S WESTERN AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9318",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153168 BTH-DOG 32Z BEEF BRO + Vital Care Premier - 10% + Vital Care Rewards",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCHICAGO EVERGREEN #01990\n9670 S WESTERN AVE\nCHICAGO, IL 60805\n708-907-4297\n04/29/26 6:27PM Reg 003 Trans 122001\nHelped by Julian\n003153168 BTH-DOG 32Z BEEF BRO\n3.99 T\nReg Price: 9.99\nVital Care Premier - 10% : -1.00 (1)\nVital Care Rewards: -5.00 (1)\nReturn Value: 3.99\nTaxable Total\n3.99\nSubtotal\n3.99\nTax IL 11%\n0.44\nTOTAL\n4.43\nPetco Pay Credit Card\n4.43\n2026-04-29 06:27:27 PM\nTotal: USD $4.43\nPetco PLCC\nEntry Method: Swiped\nCARD #: XXXXXXXXXXXX9318\nPurchase - APPROVED\nAUTH CODE: 009873\nRRN: 329890\n1 Item\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BTH-DOG 32Z BEEF BRO + 003153168 + Reg Price: 9.99 + Vital Care Premier - 10%: -1.00 (1) + Vital Care Rewards: -5.00 (1)",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

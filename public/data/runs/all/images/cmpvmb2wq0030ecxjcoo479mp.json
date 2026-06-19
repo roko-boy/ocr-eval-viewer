@@ -1,0 +1,1161 @@
+{
+  "id": "cmpvmb2wq0030ecxjcoo479mp",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Churn",
+  "amount": 9.89,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "554.42",
+    "purchaseDate": "2026-06-01",
+    "time": null,
+    "zipCode": "29414",
+    "city": "Charleston",
+    "state": "SC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 28332.12333300005,
+        "totalUsd": 0.043182,
+        "inputTokens": 6168,
+        "outputTokens": 3770,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "554.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "29414",
+          "status": "match"
+        },
+        "city": {
+          "value": "Charleston",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3050 Ashley Town Center Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8798",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1991335 MCME 18CT",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "87745 ROTISSERIE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "87745 ROTISSERIE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2016574 KEE COOL",
+          "quantity": 1,
+          "unitPrice": 12.89,
+          "totalSpend": 12.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "833684 KS ORT CHIP",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "73616 PORK LOIN + 0000382181 / 73616",
+          "quantity": 1,
+          "unitPrice": 14.39,
+          "totalSpend": 8.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "18030 LAMB LOIN + 0000382118 / 18030",
+          "quantity": 1,
+          "unitPrice": 28.41,
+          "totalSpend": 22.41,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1891143 WILDE BUFF + 0000380458 / 1891143",
+          "quantity": 1,
+          "unitPrice": 9.79,
+          "totalSpend": 6.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1389082 ORGSOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1714849 SCOOP AWAY + 0000380451 / 1714849",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 12.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1984218 GARDEN BED",
+          "quantity": 1,
+          "unitPrice": 94.99,
+          "totalSpend": 94.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "283169 FRESH ROSES",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "283169 FRESH ROSES",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8258 ASIAN CASHEW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8443334 KS SLCD TRKY",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2001803 RG TORTILLAS",
+          "quantity": 1,
+          "unitPrice": 8.39,
+          "totalSpend": 8.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2042052 VTY STICKS",
+          "quantity": 1,
+          "unitPrice": 16.69,
+          "totalSpend": 16.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2040272 GRILL PACK",
+          "quantity": 1,
+          "unitPrice": 26.99,
+          "totalSpend": 26.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1892398 SMOOTHIES",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1656611 KS CREAM CHS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1997785 CHICK ROLLUP",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "805350 PALMETO JALP",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2061552 PICKLE DE GA",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 6.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "25595 COCKTAIL TOM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1320300 PROS DIPARMA",
+          "quantity": 1,
+          "unitPrice": 14.59,
+          "totalSpend": 14.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2056885 NOODLE BOWL",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "797684 BURATTA",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "50683 FRUIT TRAY",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "31300 KS BURNT END",
+          "quantity": 1,
+          "unitPrice": 23.11,
+          "totalSpend": 23.11,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "36712 U-15 SHRIMP",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "totalSpend": 39.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "303285 FOUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2050232 GARLICBUTTER",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2050232 GARLICBUTTER",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "33825 WHOLE FRYERS",
+          "quantity": 1,
+          "unitPrice": 12.02,
+          "totalSpend": 12.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "33825 WHOLE FRYERS",
+          "quantity": 1,
+          "unitPrice": 11.86,
+          "totalSpend": 11.86,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nCharleston #360\n3050 Ashley Town Center Drive\nCharleston, SC 29414\nRL Member 111965928916\n1991335 MCME 18CT 14.99 A\n87745 ROTISSERIE 4.99 AF\n87745 ROTISSERIE 4.99 AF\n2016574 KEE COOL 12.89 A\nE 833684 KS ORT CHIP 6.89 E\nE 73616 PORK LOIN 14.39 E\nE 0000382181 / 73616 6.00-\nE 18030 LAMB LOIN 28.41 E\nE 0000382118 / 18030 6.00-E\nE 1891143 WILDE BUFF 9.79 E\nE 0000380458 / 1891143 3.00-E\nE 1389082 ORGSOURDOUGH 7.99 E\n**********Bottom of Basket**********\n1714849 SCOOP AWAY 16.49 A\n0000380451 / 1714849 4.10-A\n**********BOB Count 1 **********\n1984218 GARDEN BED 94.99 A\n283169 FRESH ROSES 20.99 A\n283169 FRESH ROSES 20.99 A\nE 8258 ASIAN CASHEW 6.99 E\nE 8443334 KS SLCD TRKY 12.99 E\nE 2001803 RG TORTILLAS 8.39 E\nE 2042052 VTY STICKS 16.69 E\nE 2040272 GRILL PACK 26.99 E\nE 1892398 SMOOTHIES 16.99 E\nE 1656611 KS CREAM CHS 6.99 E\nE 1997785 CHICK ROLLUP 12.99 E\nE 805350 PALMETO JALP 6.99 E\nE 2061552 PICKLE DE GA 6.39 E\nE 25595 COCKTAIL TOM 5.49 E\nE 1320300 PROS DIPARMA 14.59 E\nE 2056885 NOODLE BOWL 12.99 E\nE 797684 BURATTA 7.49 E\nE 50683 FRUIT TRAY 11.99 E\nE 31300 KS BURNT END 23.11 E\nE 36712 U-15 SHRIMP 39.99 E\nE 303285 FOUR CHEESE 8.99 E\nE 2050232 GARLICBUTTER 9.89 E\nE 2050232 GARLICBUTTER 9.89 E\nE 33825 WHOLE FRYERS 12.02 E\nE 33825 WHOLE FRYERS 11.86 E\nSUBTOTAL 530.39\nTAX 24.03\n**** TOTAL 554.42\nXXXXXXXXXXXX8798 CHIP Read\nAID: A0000000980840\nSeq# 3814 App#: 029640\nVisa Resp: APPROVED\nTran ID#: 615200003814....\nAPPROVED - Purchase\nAMOUNT: $554.42\n06/01/2026 13:16 360 3 204 36\nVisa 554.42\nCHANGE 0.00\nA 9.0% TAX 16.85\nE 2.0% TAX 6.98\nF 2.0% TAX 0.20\nTOTAL TAX 24.03\nTOTAL NUMBER OF ITEMS SOLD = 35\nINSTANT SAVINGS $ 19.10\n06/01/2026 13:16 360 3 204 36\n21036000302042606011316\nOP#: 36 Name: Jeremy\nThank You!\nPlease Come Again\nWhse:360 Trm:3 Trn:204 OP:36\nTotal BOB Item Count = 1\nItems Sold: 35\nRL 06/01/2026 13:16",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 28853.46216599998,
+        "totalUsd": 0.07408050000000001,
+        "inputTokens": 3733,
+        "outputTokens": 3795,
+        "reasoningTokens": 3814
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "554.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "29414",
+          "status": "match"
+        },
+        "city": {
+          "value": "Charleston",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3050 Ashley Town Center Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8798",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1991335 MCME 18CT",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "87745 ROTISSERIE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "87745 ROTISSERIE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2016574 KEE COOL",
+          "quantity": 1,
+          "unitPrice": 12.89,
+          "totalSpend": 12.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "833684 KS TORT CHIP",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "73616 PORK LOIN + 0000382181 / 73616",
+          "quantity": 1,
+          "unitPrice": 14.39,
+          "totalSpend": 8.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "18030 LAMB LOIN + 0000382118 / 18030",
+          "quantity": 1,
+          "unitPrice": 28.41,
+          "totalSpend": 22.41,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1891143 WILDE BUFF + 0000380458 / 1891143",
+          "quantity": 1,
+          "unitPrice": 9.79,
+          "totalSpend": 6.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1389082 ORGSOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1714849 SCOOP AWAY + 0000380451 / 1714849",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 12.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1984218 GARDEN BED",
+          "quantity": 1,
+          "unitPrice": 94.99,
+          "totalSpend": 94.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "283169 FRESH ROSES",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "283169 FRESH ROSES",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8258 ASIAN CASHEW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8443334 KS SLCD TRKY",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2001803 RG TORTILLAS",
+          "quantity": 1,
+          "unitPrice": 8.39,
+          "totalSpend": 8.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2042052 VTY STICKS",
+          "quantity": 1,
+          "unitPrice": 16.69,
+          "totalSpend": 16.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2040272 GRILL PACK",
+          "quantity": 1,
+          "unitPrice": 26.99,
+          "totalSpend": 26.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1892398 SMOOTHIES",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1656611 KS CREAM CHS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1997785 CHICK ROLLUP",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "805350 PALMETO JALP",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2061552 PICKLE DE GA",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 6.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "25595 COCKTAIL TOM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1320300 PROS DIPARMA",
+          "quantity": 1,
+          "unitPrice": 14.59,
+          "totalSpend": 14.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2056885 NOODLE BOWL",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "797684 BURATTA",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "50683 FRUIT TRAY",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "31300 KS BURNT END",
+          "quantity": 1,
+          "unitPrice": 23.11,
+          "totalSpend": 23.11,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "36712 U-15 SHRIMP",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "totalSpend": 39.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "303285 FOUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2050232 GARLICBUTTER",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2050232 GARLICBUTTER",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "33825 WHOLE FRYERS",
+          "quantity": 1,
+          "unitPrice": 12.02,
+          "totalSpend": 12.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "33825 WHOLE FRYERS",
+          "quantity": 1,
+          "unitPrice": 11.86,
+          "totalSpend": 11.86,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nCharleston #360\n3050 Ashley Town Center Drive\nCharleston, SC 29414\nRL Member 111965928916\n1991335 MCME 18CT 14.99 A\n87745 ROTISSERIE 4.99 AF\n87745 ROTISSERIE 4.99 AF\n2016574 KEE COOL 12.89 A\nE 833684 KS TORT CHIP 6.89 E\nE 73616 PORK LOIN 14.39 E\nE 0000382181 / 73616 6.00-\nE 18030 LAMB LOIN 28.41 E\nE 0000382118 / 18030 6.00-E\nE 1891143 WILDE BUFF 9.79 E\nE 0000380458 / 1891143 3.00-E\nE 1389082 ORGSOURDOUGH 7.99 E\n**********Bottom of Basket**********\n1714849 SCOOP AWAY 16.49 A\n0000380451 / 1714849 4.10-A\n**********BOB Count 1 **********\n1984218 GARDEN BED 94.99 A\n283169 FRESH ROSES 20.99 A\n283169 FRESH ROSES 20.99 A\nE 8258 ASIAN CASHEW 6.99 E\nE 8443334 KS SLCD TRKY 12.99 E\nE 2001803 RG TORTILLAS 8.39 E\nE 2042052 VTY STICKS 16.69 E\nE 2040272 GRILL PACK 26.99 E\nE 1892398 SMOOTHIES 16.99 E\nE 1656611 KS CREAM CHS 6.99 E\nE 1997785 CHICK ROLLUP 12.99 E\nE 805350 PALMETO JALP 6.99 E\nE 2061552 PICKLE DE GA 6.39 E\nE 25595 COCKTAIL TOM 5.49 E\nE 1320300 PROS DIPARMA 14.59 E\nE 2056885 NOODLE BOWL 12.99 E\nE 797684 BURATTA 7.49 E\nE 50683 FRUIT TRAY 11.99 E\nE 31300 KS BURNT END 23.11 E\nE 36712 U-15 SHRIMP 39.99 E\nE 303285 FOUR CHEESE 8.99 E\nE 2050232 GARLICBUTTER 9.89 E\nE 2050232 GARLICBUTTER 9.89 E\nE 33825 WHOLE FRYERS 12.02 E\nE 33825 WHOLE FRYERS 11.86 E\nSUBTOTAL 530.39\nTAX 24.03\n**** TOTAL 554.42\nXXXXXXXXXXXX8798 CHIP Read\nAID: A00000000980840\nSeq# 3814 App#: 029640\nVisa Resp: APPROVED\nTran ID#: 615200003814....\nAPPROVED - Purchase\nAMOUNT: $554.42\n06/01/2026 13:16 360 3 204 36\nVisa 554.42\nCHANGE 0.00\nA 9.0% TAX 16.85\nE 2.0% TAX 6.98\nF 2.0% TAX 0.20\nTOTAL TAX 24.03\nTOTAL NUMBER OF ITEMS SOLD = 35\nINSTANT SAVINGS $ 19.10\n06/01/2026 13:16 360 3 204 36\n21036000302042606011316\nOP#: 36 Name: Jeremy\nThank You!\nPlease Come Again\nWhse:360 Trm:3 Trn:204 OP:36\nTotal BOB Item Count = 1\nItems Sold: 35\nRL 06/01/2026 13:16",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 16241.18983400002,
+        "totalUsd": 0.0396915,
+        "inputTokens": 3733,
+        "outputTokens": 3788,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "554.42",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "29414",
+          "status": "match"
+        },
+        "city": {
+          "value": "Charleston",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3050 Ashley Town Center Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8798",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1991335 MCME 18CT",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "87745 ROTISSERIE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "87745 ROTISSERIE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2016574 KEE COOL",
+          "quantity": 1,
+          "unitPrice": 12.89,
+          "totalSpend": 12.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "833684 KS TORT CHIP",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "73616 PORK LOIN + 0000382181 / 73616",
+          "quantity": 1,
+          "unitPrice": 14.39,
+          "totalSpend": 8.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "18030 LAMB LOIN + 0000382118 / 18030",
+          "quantity": 1,
+          "unitPrice": 28.41,
+          "totalSpend": 22.41,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1891143 WILDE BUFF + 0000380458 / 1891143",
+          "quantity": 1,
+          "unitPrice": 9.79,
+          "totalSpend": 6.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1389082 ORGSOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1714849 SCOOP AWAY + 0000380451 / 1714849",
+          "quantity": 1,
+          "unitPrice": 16.49,
+          "totalSpend": 12.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1984218 GARDEN BED",
+          "quantity": 1,
+          "unitPrice": 94.99,
+          "totalSpend": 94.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "283169 FRESH ROSES",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "283169 FRESH ROSES",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8258 ASIAN CASHEW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "8443334 KS SLCD TRKY",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2001803 RG TORTILLAS",
+          "quantity": 1,
+          "unitPrice": 8.39,
+          "totalSpend": 8.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2042052 VTY STICKS",
+          "quantity": 1,
+          "unitPrice": 16.69,
+          "totalSpend": 16.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2040272 GRILL PACK",
+          "quantity": 1,
+          "unitPrice": 26.99,
+          "totalSpend": 26.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1892398 SMOOTHIES",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1656611 KS CREAM CHS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1997785 CHICK ROLLUP",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "805350 PALMETO JALP",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2061552 PICKLE DE GA",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 6.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "25595 COCKTAIL TOM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1320300 PROS DIPARMA",
+          "quantity": 1,
+          "unitPrice": 14.59,
+          "totalSpend": 14.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2056885 NOODLE BOWL",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "797684 BURATTA",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "50683 FRUIT TRAY",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "31300 KS BURNT END",
+          "quantity": 1,
+          "unitPrice": 23.11,
+          "totalSpend": 23.11,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "36712 U-15 SHRIMP",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "totalSpend": 39.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "303285 FOUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2050232 GARLICBUTTER",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2050232 GARLICBUTTER",
+          "quantity": 1,
+          "unitPrice": 9.89,
+          "totalSpend": 9.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "33825 WHOLE FRYERS",
+          "quantity": 1,
+          "unitPrice": 12.02,
+          "totalSpend": 12.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "33825 WHOLE FRYERS",
+          "quantity": 1,
+          "unitPrice": 11.86,
+          "totalSpend": 11.86,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nCharleston #360\n3050 Ashley Town Center Drive\nCharleston, SC 29414\nRL Member 111965928916\n1991335 MCME 18CT 14.99 A\n87745 ROTISSERIE 4.99 AF\n87745 ROTISSERIE 4.99 AF\n2016574 KEE COOL 12.89 A\nE 833684 KS TORT CHIP 6.89 E\nE 73616 PORK LOIN 14.39 E\nE 0000382181 / 73616 6.00-\nE 18030 LAMB LOIN 28.41 E\nE 0000382118 / 18030 6.00-E\nE 1891143 WILDE BUFF 9.79 E\nE 0000380458 / 1891143 3.00-E\nE 1389082 ORGSOURDOUGH 7.99 E\n**********Bottom of Basket**********\n1714849 SCOOP AWAY 16.49 A\n0000380451 / 1714849 4.10-A\n**********BOB Count 1 **********\n1984218 GARDEN BED 94.99 A\n283169 FRESH ROSES 20.99 A\n283169 FRESH ROSES 20.99 A\nE 8258 ASIAN CASHEW 6.99 E\nE 8443334 KS SLCD TRKY 12.99 E\nE 2001803 RG TORTILLAS 8.39 E\nE 2042052 VTY STICKS 16.69 E\nE 2040272 GRILL PACK 26.99 E\nE 1892398 SMOOTHIES 16.99 E\nE 1656611 KS CREAM CHS 6.99 E\nE 1997785 CHICK ROLLUP 12.99 E\nE 805350 PALMETO JALP 6.99 E\nE 2061552 PICKLE DE GA 6.39 E\nE 25595 COCKTAIL TOM 5.49 E\nE 1320300 PROS DIPARMA 14.59 E\nE 2056885 NOODLE BOWL 12.99 E\nE 797684 BURATTA 7.49 E\nE 50683 FRUIT TRAY 11.99 E\nE 31300 KS BURNT END 23.11 E\nE 36712 U-15 SHRIMP 39.99 E\nE 303285 FOUR CHEESE 8.99 E\nE 2050232 GARLICBUTTER 9.89 E\nE 2050232 GARLICBUTTER 9.89 E\nE 33825 WHOLE FRYERS 12.02 E\nE 33825 WHOLE FRYERS 11.86 E\nSUBTOTAL 530.39\nTAX 24.03\n**** TOTAL 554.42\nXXXXXXXXXXXX8798 CHIP Read\nAID: A00000000980840\nSeq# 3814 App#: 029640\nVisa Resp: APPROVED\nTran ID#: 615200003814....\nAPPROVED - Purchase\nAMOUNT: $554.42\n06/01/2026 13:16 360 3 204 36\nVisa 554.42\nCHANGE 0.00\nA 9.0% TAX 16.85\nE 2.0% TAX 6.98\nF 2.0% TAX 0.20\nTOTAL TAX 24.03\nTOTAL NUMBER OF ITEMS SOLD = 35\nINSTANT SAVINGS $ 19.10\n06/01/2026 13:16 360 3 204 36\n21036000302042606011316\nOP#: 36 Name: Jeremy\nThank You!\nPlease Come Again\nWhse:360 Trm:3 Trn:204 OP:36\nTotal BOB Item Count = 1\nItems Sold: 35\nRL 06/01/2026 13:16",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MCME 18CT + 1991335",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "ROTISSERIE + 87745",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "ROTISSERIE + 87745",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "KEE COOL + 2016574",
+      "price": 12.89,
+      "quantity": 1,
+      "totalSpend": 12.89
+    },
+    {
+      "text": "KS TORT CHIP + 833684",
+      "price": 6.89,
+      "quantity": 1,
+      "totalSpend": 6.89
+    },
+    {
+      "text": "PORK LOIN + 73616",
+      "price": 8.39,
+      "quantity": 1,
+      "totalSpend": 8.39
+    },
+    {
+      "text": "LAMB LOIN + 18030",
+      "price": 22.41,
+      "quantity": 1,
+      "totalSpend": 22.41
+    },
+    {
+      "text": "WILDE BUFF + 1891143",
+      "price": 6.79,
+      "quantity": 1,
+      "totalSpend": 6.79
+    },
+    {
+      "text": "ORGSOURDOUGH + 1389082",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "SCOOP AWAY + 1714849",
+      "price": 12.39,
+      "quantity": 1,
+      "totalSpend": 12.39
+    },
+    {
+      "text": "GARDEN BED + 1984218",
+      "price": 94.99,
+      "quantity": 1,
+      "totalSpend": 94.99
+    },
+    {
+      "text": "FRESH ROSES + 283169",
+      "price": 20.99,
+      "quantity": 1,
+      "totalSpend": 20.99
+    },
+    {
+      "text": "FRESH ROSES + 283169",
+      "price": 20.99,
+      "quantity": 1,
+      "totalSpend": 20.99
+    },
+    {
+      "text": "ASIAN CASHEW + 8258",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "KS SLCD TRKY + 8443334",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "RG TORTILLAS + 2001803",
+      "price": 8.39,
+      "quantity": 1,
+      "totalSpend": 8.39
+    },
+    {
+      "text": "VTY STICKS + 2042052",
+      "price": 16.69,
+      "quantity": 1,
+      "totalSpend": 16.69
+    },
+    {
+      "text": "GRILL PACK + 2040272",
+      "price": 26.99,
+      "quantity": 1,
+      "totalSpend": 26.99
+    },
+    {
+      "text": "SMOOTHIES + 1892398",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    },
+    {
+      "text": "KS CREAM CHS + 1656611",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "CHICK ROLLUP + 1997785",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "PALMETO JALP + 805350",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "PICKLE DE GA + 2061552",
+      "price": 6.39,
+      "quantity": 1,
+      "totalSpend": 6.39
+    },
+    {
+      "text": "COCKTAIL TOM + 25595",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "PROS DIPARMA + 1320300",
+      "price": 14.59,
+      "quantity": 1,
+      "totalSpend": 14.59
+    },
+    {
+      "text": "NOODLE BOWL + 2056885",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "BURATTA + 797684",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    },
+    {
+      "text": "FRUIT TRAY + 50683",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "KS BURNT END + 31300",
+      "price": 23.11,
+      "quantity": 1,
+      "totalSpend": 23.11
+    },
+    {
+      "text": "U-15 SHRIMP + 36712",
+      "price": 39.99,
+      "quantity": 1,
+      "totalSpend": 39.99
+    },
+    {
+      "text": "FOUR CHEESE + 303285",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "GARLICBUTTER + 2050232",
+      "price": 9.89,
+      "quantity": 1,
+      "totalSpend": 9.89
+    },
+    {
+      "text": "GARLICBUTTER + 2050232",
+      "price": 9.89,
+      "quantity": 1,
+      "totalSpend": 9.89
+    },
+    {
+      "text": "WHOLE FRYERS + 33825",
+      "price": 12.02,
+      "quantity": 1,
+      "totalSpend": 12.02
+    },
+    {
+      "text": "WHOLE FRYERS + 33825",
+      "price": 11.86,
+      "quantity": 1,
+      "totalSpend": 11.86
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

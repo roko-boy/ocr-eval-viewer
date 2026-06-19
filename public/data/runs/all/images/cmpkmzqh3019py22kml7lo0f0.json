@@ -1,0 +1,324 @@
+{
+  "id": "cmpkmzqh3019py22kml7lo0f0",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Hop Wtr",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "22.33",
+    "purchaseDate": "2026-05-24",
+    "time": null,
+    "zipCode": "14043",
+    "city": "Depew",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17833.17470800004,
+        "totalUsd": 0.016038,
+        "inputTokens": 6114,
+        "outputTokens": 763,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "22.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:17pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14043",
+          "status": "match"
+        },
+        "city": {
+          "value": "DEPEW",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4960 TRANSIT ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4188",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HW CLASSIC",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HW BLOOD OR",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n4960 TRANSIT ROAD\nDEPEW, NY 14043\n(716) 686-7300\n05/24/26 OP# 500759\nHW CLASSIC 9.99 T\nDP CONTAINER DEPOSIT 0.30\nHW BLOOD OR 9.99 T\nDP CONTAINER DEPOSIT 0.30\nTAX 1.75\n**** BALANCE 22.33\nCASH 20.00\nMASTERCARD PURCHASE\nCARD NUMBER: ************4188 C\nMastercard 05\nAUTH: 02498B RCPT: 12234\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 2.33\nCHANGE 0.00\n05/24/26 10:17pm 87 12 273 500759\nsave $500+\nevery year\nwith digital coupons\ndownload the\napp today",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12290.91566699999,
+        "totalUsd": 0.029454,
+        "inputTokens": 3706,
+        "outputTokens": 764,
+        "reasoningTokens": 1891
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "22.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:17pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14043",
+          "status": "match"
+        },
+        "city": {
+          "value": "DEPEW",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4960 TRANSIT ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4188",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HW CLASSIC",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HW BLOOD OR",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n4960 TRANSIT ROAD\nDEPEW, NY 14043\n(716) 686-7300\n\n05/24/26 OP# 500759\n\nHW CLASSIC 9.99 T\nCONTAINER DEPOSIT 0.30\nHW BLOOD OR 9.99 T\nCONTAINER DEPOSIT 0.30\nTAX 1.75\n\n**** BALANCE 22.33\n\nCASH 20.00\nMASTERCARD PURCHASE 2.33\nCARD NUMBER: ************4188 C\nMastercard 05\nAUTH: 02498B RCPT: 12234\nCODE: 0000 Approved\nAID: A0000000041010\n\nCREDIT CARD 2.33\nCHANGE 0.00\n\n05/24/26 10:17pm 87 12 273 500759\n\nsave $500+\nevery year\nwith digital coupons\ndownload the\napp today",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4656.511583000014,
+        "totalUsd": 0.012183,
+        "inputTokens": 3706,
+        "outputTokens": 736,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "22.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:17pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14043",
+          "status": "match"
+        },
+        "city": {
+          "value": "DEPEW",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4960 TRANSIT ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4188",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HW CLASSIC",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HW BLOOD OR",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n4960 TRANSIT ROAD\nDEPEW, NY 14043\n(716) 685-7300\n05/24/26 OP# 500759\nHW CLASSIC 9.99 T\nDP CONTAINER DEPOSIT 0.30\nHW BLOOD OR 9.99 T\nDP CONTAINER DEPOSIT 0.30\nTAX 1.75\n**** BALANCE 22.33\nCASH 20.00\nMASTERCARD PURCHASE\nCARD NUMBER: ************4188 C\nMastercard 05\nAUTH: 02498B RCPT: 12234\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 2.33\nCHANGE 0.00\n05/24/26 10:17pm 87 12 273 500759\nsave $500+\nevery year\nwith digital coupons\ndownload the\napp today",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HW CLASSIC",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "CONTAINER DEPOSIT",
+      "price": 0.3,
+      "quantity": 1,
+      "totalSpend": 0.3
+    },
+    {
+      "text": "HW BLOOD OR",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "CONTAINER DEPOSIT",
+      "price": 0.3,
+      "quantity": 1,
+      "totalSpend": 0.3
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

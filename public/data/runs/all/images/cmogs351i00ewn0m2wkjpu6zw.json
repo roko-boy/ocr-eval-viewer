@@ -1,0 +1,432 @@
+{
+  "id": "cmogs351i00ewn0m2wkjpu6zw",
+  "url": null,
+  "retailer": "ShopRite of Avenue I",
+  "brand": "Melinda's Hot Sauce",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "39.27",
+    "purchaseDate": "2026-04-27",
+    "time": null,
+    "zipCode": "11230",
+    "city": "Brooklyn",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12847.838708,
+        "totalUsd": 0.021396,
+        "inputTokens": 6086,
+        "outputTokens": 1363,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "38.73",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-04-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:46am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11230",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brooklyn",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1080 McDonald Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2729",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MO BOTT ALLA VODKA SA + On Sale You Saved 7.50",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MADHV ORG LIT AGAV + On Sale You Saved 1.50",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MADHV ORG AMB RW A + On Sale You Saved 1.50",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MLND XTRA HOT SAUC",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONOIN GARLIC HERB",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONOIN JALAP LIME C",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HLV MARB 8Z",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SR 80GSM WHT REUSE + 1 @ 2/1.00",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite of Avenue I\n1080 McDonald Avenue Brooklyn NY\nOpen - 24 Hours - Everyday\n04/27/26 01:44am S218 R10 T5 C176\n***********************************\n* Regular Items *\n***********************************\nMO BOTT ALLA VODKA SA 1.99 F\nOn Sale You Saved 7.50\nMADHV ORG LIT AGAV 6.49 F\nOn Sale You Saved 1.50\nMADHV ORG AMB RW A 6.49 F\nOn Sale You Saved 1.50\nMLND XTRA HOT SAUC 3.79 F\nONOIN GARLIC HERB 6.49 F\nONOIN JALAP LIME C 6.49 F\nHLV MARB 8Z 6.99 B\n1 @ 2/1.00\nSR 80GSM WHT REUSE 0.50 T\nValued Customer 48504840557\nTAX 0.04\n**** BALANCE 39.27\nFS BAL DUE 38.73\n***********************************\nShopRite Transaction Record\nStore # 218 of BROOKLYN , NY\nTerminal: 10 Operator: 176 Trans: 5\nDate: 04/27/26 Time: 01:46am\nPurchase: $ 38.73\nAcct#: *************2729 SWIPED\nResponse : APPROVED\nApproval : 784642\nSNAP Bal : $ 831.41\n***********************************\nONLINE FOODSTAMPS 38.73\nCASH 0.54\nFS CHG 0.00\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 8\n-------- ShopRite Savings --------\nTotal On Sale Savings $ 10.50\nTotal Savings today is $ 10.50\n04/27/26 01:48am 218 10 5 176\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\nSpring Refresh Rewards\nSpend $150 on participating items\nand receive a $50 ShopRite Gift Card",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17265.15083300002,
+        "totalUsd": 0.043662,
+        "inputTokens": 3692,
+        "outputTokens": 1389,
+        "reasoningTokens": 2847
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "39.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:46am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11230",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brooklyn",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1080 McDonald Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2729",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MO BOTT ALLA VODKA SA + On Sale You Saved 7.50",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MADHV ORG LIT AGAV + On Sale You Saved 1.50",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MADHV ORG AMB RW A + On Sale You Saved 1.50",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MLND XTRA HOT SAUC",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONOIN GARLIC HERB",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONOIN JALAP LIME C",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HLV MARB 8Z",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SR 80GSM WHT REUSE + 1 @ 2/1.00",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Welcome to ShopRite of Avenue I\n1080 McDonald Avenue Brooklyn NY\n\nOpen - 24 Hours - Everyday\n\n04/27/26 01:44am S218 R10 T5 C176\n\n*************************************\n* Regular Items *\n*************************************\nMO BOTT ALLA VODKA SA 1.99 F\nOn Sale You Saved 7.50\nMADHV ORG LIT AGAV 6.49 F\nOn Sale You Saved 1.50\nMADHV ORG AMB RW A 6.49 F\nOn Sale You Saved 1.50\nMLND XTRA HOT SAUC 3.79 F\nONOIN GARLIC HERB 6.49 F\nONOIN JALAP LIME C 6.49 F\nHLV MARB 8Z 6.99 B\n1 @ 2/1.00\nSR 80GSM WHT REUSE 0.50 T\nValued Customer 48504840557\nTAX 0.04\n**** BALANCE 39.27\nFS BAL DUE 38.73\n*************************************\nShopRite Transaction Record\nStore # 218 of BROOKLYN , NY\nTerminal: 10 Operator: 176 Trans: 5\nDate: 04/27/26 Time: 01:46am\n\nPurchase: $ 38.73\nAcct#: ************2729 SWIPED\nResponse : APPROVED\nApproval : 784642\nSNAP Bal : $ 831.41\n*************************************\n\nONLINE FOODSTAMPS 38.73\nCASH 0.54\nFS CHG 0.00\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 8\n\n-------- ShopRite Savings --------\nTotal On Sale Savings $ 10.50\nTotal Savings today is $ 10.50\n----------------------------------\n04/27/26 01:48am 218 10 5 176\n\nPresent your card with every order\nand save with Price Plus discounts!\n\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n\nSpring Refresh Rewards\nSpend $150 on participating items\nand receive a $50 ShopRite Gift Card",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6443.824083,
+        "totalUsd": 0.017481,
+        "inputTokens": 3692,
+        "outputTokens": 1327,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "39.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:46 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11230",
+          "status": "match"
+        },
+        "city": {
+          "value": "Brooklyn",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1080 McDonald Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2729",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MO BOTT ALLA VODKA SA",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MADHV ORG LIT AGAV",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MADHV ORG AMB RW A",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MLND XTRA HOT SAUC",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONOIN GARLIC HERB",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONOIN JALAP LIME C",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HLV MARB 8Z",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SR 80GSM WHT REUSE + 1 @ 2/1.00",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite of Avenue I\n1080 McDonald Avenue Brooklyn NY\nOpen - 24 Hours - Everyday\n04/27/26 01:44am S218 R10 T5 C176\n***********************************\n* Regular Items *\n***********************************\nMO BOTT ALLA VODKA SA 1.99 F\nOn Sale You Saved 7.50\nMADHV ORG LIT AGAV 6.49 F\nOn Sale You Saved 1.50\nMADHV ORG AMB RW A 6.49 F\nOn Sale You Saved 1.50\nMLND XTRA HOT SAUC 3.79 F\nONOIN GARLIC HERB 6.49 F\nONOIN JALAP LIME C 6.49 F\nHLV MARB 8Z 6.99 B\n1 @ 2/1.00\nSR 80GSM WHT REUSE 0.50 T\nValued Customer 48504840557\nTAX 0.04\n**** BALANCE 39.27\nFS BAL DUE 38.73\n***********************************\nShopRite Transaction Record\nStore # 218 of BROOKLYN , NY\nTerminal: 10 Operator: 176 Trans: 5\nDate: 04/27/26 Time: 01:46am\nPurchase: $ 38.73\nAcct#: *************2729 SWIPED\nResponse : APPROVED\nApproval : 784642\nSNAP Bal : $ 831.41\n***********************************\nONLINE FOODSTAMPS 38.73\nCASH 0.54\nFS CHG 0.00\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 8\n-------- ShopRite Savings --------\nTotal On Sale Savings $ 10.50\nTotal Savings today is $ 10.50\n04/27/26 01:48am 218 10 5 176\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\nSpring Refresh Rewards\nSpend $150 on participating items\nand receive a $50 ShopRite Gift Card",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOTT ALLA VODKA SA + On Sale You Saved 7.50",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "MADHV ORG LIT AGAV + On Sale You Saved 1.50",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "MADHV ORG AMB RW A + On Sale You Saved 1.50",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "MLND XTRA HOT SAUC",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "ONOIN GARLIC HERB",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "ONOIN JALAP LIME C",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "HLV MARB 8Z + 1 @ 2/1.00",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "SR 80GSM WHT REUSE + 1 @ 2/1.00 + Valued Customer 48504840557",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

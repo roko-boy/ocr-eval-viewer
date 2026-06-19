@@ -1,0 +1,243 @@
+{
+  "id": "cmohlkvws00aaf5mw8zkh5bmj",
+  "url": null,
+  "retailer": "Total Wine & More",
+  "brand": "Pepsi Food Service",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Total Wine & More",
+    "totalCost": "3.24",
+    "purchaseDate": "2026-04-25",
+    "time": null,
+    "zipCode": "76177",
+    "city": "Fort Worth",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10910.18695800001,
+        "totalUsd": 0.016194,
+        "inputTokens": 6086,
+        "outputTokens": 785,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine & More",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:23 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76177",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Worth",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3101 Texas Sage Trail",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2356",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Pepsi-20oz + 1200000129",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n523-Total Wine-Alliance\n3101 Texas Sage Trail\nFort Worth, TX 76177\n817-741-9415\n\nTicket: 796684  2:23 PM  04/25/2026\nStore: 523  Register: 2\nCashier: 106153 (Melissa)\n\nItem  Qty  Price  Amount\nPepsi-20oz\n1200000129  1  2.99  2.99\n\nSubtotal  2.99\nTax1  0.25\nTotal  3.24\n\n04/25/2026  14:23:16\nVISA CREDIT  Entry Method:Cntctless\nCARD #:  XXXXXXXXXXXX2356\nPURCHASE  - APPROVED\nAUTH CODE:09505I\nMode:  Issuer\n00040000000000000000000000000000\nMID: 590658  TID: 001 SEQ: 028662\nTotal:  USD$ 3.24\n\nI agree to pay the above amount according\nto my card holder agreement.\n\nChange  0.00\n\n& MORE rewards Select Member\nYou've earned 30 points\nJust 3,840 points until your next reward!\n2026 Tier Points Earned: 640\nMember ID: 20060720201297\n\nThank you for shopping with us today!\nWe value your feedback.\nPlease take our survey to let us know how\nwe're doing:\nwww.telltotalwine.com\n\nSold Item Count = 1",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10439.79583399999,
+        "totalUsd": 0.026022,
+        "inputTokens": 3692,
+        "outputTokens": 745,
+        "reasoningTokens": 1531
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "3.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:23 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76177",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Worth",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3101 Texas Sage Trail",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2356",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Pepsi-20oz + 1200000129",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n523-Total Wine-Alliance\n3101 Texas Sage Trail\nFort Worth, TX 76177\n817-741-9415\nTicket: 796684 2:23 PM 04/25/2026\nStore: 523 Register: 2\nCashier: 106153 (Melissa)\nItem Qty Price Amount\nPepsi-20oz\n1200000129 1 2.99 2.99\nSubtotal 2.99\nTax1 0.25\nTotal 3.24\n04/25/2026 14:23:16\nVISA CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX2356\nPURCHASE - APPROVED\nAUTH CODE:09505I\nMode: Issuer\n00040000000000000000000000000000\nMID: 590658 TID: 001 SEQ: 028662\nTotal: USD$ 3.24\nI agree to pay the above amount according\nto my card holder agreement.\nChange 0.00\n& MORE rewards Select Member\nYou've earned 30 points\nJust 3,840 points until your next reward!\n2026 Tier Points Earned: 640\nMember ID: 20060720201297\nThank you for shopping with us today!\nWe value your feedback.\nPlease take our survey to let us know how\nwe're doing:\nwww.telltotalwine.com\nSold Item Count = 1",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5133.653874999989,
+        "totalUsd": 0.012261,
+        "inputTokens": 3692,
+        "outputTokens": 747,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine & More",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:23 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76177",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fort Worth",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3101 Texas Sage Trail",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2356",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Pepsi-20oz + 1200000129",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n523-Total Wine-Alliance\n3101 Texas Sage Trail\nFort Worth, TX 76177\n817-741-9415\nTicket: 796684 2:23 PM 04/25/2026\nStore: 523 Register: 2\nCashier: 106153 (Melissa)\nItem Qty Price Amount\nPepsi-20oz\n1200000129 1 2.99 2.99\nSubtotal 2.99\nTax1 0.25\nTotal 3.24\n04/25/2026 14:23:16\nVISA CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX2356\nPURCHASE - APPROVED\nAUTH CODE:09505I\nMode: Issuer\n00040000000000000000000000000000\nMID: 590658 TID: 001 SEQ: 028662\nTotal: USD$ 3.24\nI agree to pay the above amount according\nto my card holder agreement.\nChange 0.00\n& MORE rewards Select Member\nYou've earned 30 points\nJust 3,840 points until your next reward!\n2026 Tier Points Earned: 640\nMember ID: 20060720201297\nThank you for shopping with us today!\nWe value your feedback.\nPlease take our survey to let us know how\nwe're doing:\nwww.telltotalwine.com\nSold Item Count = 1",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Pepsi-20oz + 1200000129",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

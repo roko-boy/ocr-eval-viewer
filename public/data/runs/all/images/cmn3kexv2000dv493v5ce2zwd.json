@@ -1,0 +1,432 @@
+{
+  "id": "cmn3kexv2000dv493v5ce2zwd",
+  "url": null,
+  "retailer": "ALDI",
+  "brand": "GT's Living Foods",
+  "amount": 3.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ALDI",
+    "totalCost": "21.54",
+    "purchaseDate": "2026-03-23",
+    "time": null,
+    "zipCode": "32068",
+    "city": "Middleburg",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 20800.72429200003,
+        "totalUsd": 0.019596,
+        "inputTokens": 6086,
+        "outputTokens": 1163,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:29 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32068",
+          "status": "match"
+        },
+        "city": {
+          "value": "Middleburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1702 Blanding Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3120",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "696376 GTs Kombucha",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "696376 GTs Kombucha",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "452257 Canned Coconut Wtr",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "452257 Canned Coconut Wtr",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "384101 Organic Tofu",
+          "quantity": 4,
+          "unitPrice": 1.55,
+          "totalSpend": 6.2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "369673 Energy LWE",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "369673 Energy LWE",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "369673 Energy LWE",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #68\n1702 Blanding Blvd.\nMiddleburg, FL\nhttps://help.aldi.us\nYour cashier today was Marissa\n\n696376 GTs Kombucha 3.29 FB\n696376 GTs Kombucha 3.29 FB\n452257 Canned Coconut Wtr 0.99 FA\n452257 Canned Coconut Wtr 0.99 FA\n384101 Organic Tofu 6.20 FA\n4 @ 1.55\n369673 Energy LWE 1.95 FB\n369673 Energy LWE 1.95 FB\n369673 Energy LWE 1.95 FB\nDiscover 21.54\n*****************3120 OTHER\n03/23/26 11:29 Ref/Seq # 988024\nTrace # 988024\nAuth # 02314R\nAID A0000001523010\nTVR 0000000000\nIAD 0115201AC0000000000002\nTSI 4800 ARC 000 EntryMode 07\n++APPROVED++\n\nSUBTOTAL 20.61\nB-Taxable @7.500% 0.93\nA-Taxable @0.00% 0.00\nAMOUNT DUE 21.54\nTOTAL $ 21.54\n11 ITEMS\nCredit Card $ 21.54\n*5075 L719/002/008 03/23/26 11:29AM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19296.05925000005,
+        "totalUsd": 0.036471,
+        "inputTokens": 3692,
+        "outputTokens": 1158,
+        "reasoningTokens": 2279
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:29 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Middleburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1702 Blanding Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3120",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "696376 GTs Kombucha",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "696376 GTs Kombucha",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "452257 Canned Coconut Wtr",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "452257 Canned Coconut Wtr",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "384101 Organic Tofu + 4 @ 1.55",
+          "quantity": 4,
+          "unitPrice": 1.55,
+          "totalSpend": 6.2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "369673 Energy LWE",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "369673 Energy LWE",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "369673 Energy LWE",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #68\n1702 Blanding Blvd.\nMiddleburg, FL\nhttps://help.aldi.us\nYour cashier today was Marissa\n\n696376 GTs Kombucha 3.29 FB\n696376 GTs Kombucha 3.29 FB\n452257 Canned Coconut Wtr 0.99 FA\n452257 Canned Coconut Wtr 0.99 FA\n384101 Organic Tofu 6.20 FA\n4 @ 1.55\n369673 Energy LWE 1.95 FB\n369673 Energy LWE 1.95 FB\n369673 Energy LWE 1.95 FB\nDiscover 21.54\n************3120 OTHER\n03/23/26 11:29 Ref/Seq # 988024\nTrace # 988024\nAuth # 02314R\nAID A0000001523010\nTVR 0000000000\nIAD 0115201AC0000000B00002\nTSI 4800 ARC 000 EntryMode 07\n++APPROVED++\n\nSUBTOTAL 20.61\nB-Taxable @7.500% 0.93\nA-Taxable @0.00% 0.00\nAMOUNT DUE 21.54\nTOTAL $ 21.54\n11 ITEMS\nCredit Card $ 21.54\n*5075 L719/002/008 03/23/26 11:29AM\n************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6232.543666999991,
+        "totalUsd": 0.015933,
+        "inputTokens": 3692,
+        "outputTokens": 1155,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ALDI",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:29 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "32068",
+          "status": "match"
+        },
+        "city": {
+          "value": "Middleburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1702 Blanding Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3120",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "696376 GTs Kombucha",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "696376 GTs Kombucha",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "452257 Canned Coconut Wtr",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "452257 Canned Coconut Wtr",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "384101 Organic Tofu",
+          "quantity": 4,
+          "unitPrice": 1.55,
+          "totalSpend": 6.2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "369673 Energy LWE",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "369673 Energy LWE",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "369673 Energy LWE",
+          "quantity": 1,
+          "unitPrice": 1.95,
+          "totalSpend": 1.95,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ALDI\nStore #68\n1702 Blanding Blvd.\nMiddleburg, FL\nhttps://help.aldi.us\nYour cashier today was Marissa\n\n696376 GTs Kombucha 3.29 FB\n696376 GTs Kombucha 3.29 FB\n452257 Canned Coconut Wtr 0.99 FA\n452257 Canned Coconut Wtr 0.99 FA\n384101 Organic Tofu 6.20 FA\n4 @ 1.55\n369673 Energy LWE 1.95 FB\n369673 Energy LWE 1.95 FB\n369673 Energy LWE 1.95 FB\nDiscover 21.54\n************3120 OTHER\n03/23/26 11:29 Ref/Seq # 988024\nTrace # 988024\nAuth # 02314R\nAID A0000001523010\nTVR 0000000000\nIAD 0115201AC0000000B00002\nTSI 4800 ARC 00 EntryMode 07\n++APPROVED++\n\nSUBTOTAL 20.61\nB-Taxable @7.500% 0.93\nA-Taxable @0.00% 0.00\nAMOUNT DUE 21.54\nTOTAL $ 21.54\n11 ITEMS\nCredit Card $ 21.54\n*5075 L719/002/008 03/23/26 11:29AM\n**********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GTS Kombucha + 696376",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "GTs Kombucha + 696376",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "Canned Coconut Wtr + 452257",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "Canned Coconut Wtr + 452257",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "Organic Tofu + 384101 + 4 @ 1.55",
+      "price": 1.55,
+      "quantity": 4,
+      "totalSpend": 6.2
+    },
+    {
+      "text": "Energy LWE + 369673",
+      "price": 1.95,
+      "quantity": 1,
+      "totalSpend": 1.95
+    },
+    {
+      "text": "Energy LWE + 369673",
+      "price": 1.95,
+      "quantity": 1,
+      "totalSpend": 1.95
+    },
+    {
+      "text": "Energy LWE + 369673",
+      "price": 1.95,
+      "quantity": 1,
+      "totalSpend": 1.95
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

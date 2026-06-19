@@ -1,0 +1,243 @@
+{
+  "id": "cmoozv18b00b7fac6eoh2n3tb",
+  "url": null,
+  "retailer": "QuickChek",
+  "brand": "f'real",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "QuickChek",
+    "totalCost": "4.47",
+    "purchaseDate": "2026-05-02",
+    "time": null,
+    "zipCode": "07836",
+    "city": "Flanders",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 4937.570751000007,
+        "totalUsd": 0.013269,
+        "inputTokens": 6086,
+        "outputTokens": 460,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "QuickChek",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:48:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07836",
+          "status": "match"
+        },
+        "city": {
+          "value": "Flanders",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "84 Route 206",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0446",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1F'REAL COTTON CANDY",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "QuickChek #054\n84 Route 206\nFlanders, NJ 07836\nReceipt 71540685\nQty Name Total\n1F'REAL COTTON CANDY 4.19\nSubTotal 4.19\nNJ Full Tax Rate 0.28\nTotal 4.47\nReceived\nVisa 4.47\nACC XXXXXXXXXXXX0446 TAP\nApproved APP 05443D\nREF 051053\nBATCH 52 SEQ 86\nApproved On 05/02/2026 19:48:34\n----------------------------------------\nApproved\nSale\nVisa\nCard Num : XXXXXXXXXXXX0446",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8539.197375000003,
+        "totalUsd": 0.018183,
+        "inputTokens": 3692,
+        "outputTokens": 465,
+        "reasoningTokens": 940
+      },
+      "fields": {
+        "storeName": {
+          "value": "QuickChek",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:48:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07836",
+          "status": "match"
+        },
+        "city": {
+          "value": "Flanders",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "84 Route 206",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0446",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "F'REAL COTTON CANDY",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "QuickChek #054\n84 Route 206\nFlanders, NJ 07836\nReceipt 71540685\n\nQty Name Total\n1 F'REAL COTTON CANDY 4.19\nSubTotal 4.19\nNJ Full Tax Rate 0.28\nTotal 4.47\nReceived\nVisa 4.47\n\nACC XXXXXXXXXXXX0446 TAP\nApproved APP 05443D\nREF 051053\nBATCH 52 SEQ 86\nApproved On 05/02/2026 19:48:34\n---------------------------------\nApproved\nSale\n\nVisa\nCard Num : XXXXXXXXXXXX0446",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4006.609333,
+        "totalUsd": 0.009659999999999998,
+        "inputTokens": 3692,
+        "outputTokens": 458,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "QuickChek",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:48:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07836",
+          "status": "match"
+        },
+        "city": {
+          "value": "Flanders",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "84 Route 206",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0446",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "F'REAL COTTON CANDY",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "QuickChek #054\n84 Route 206\nFlanders, NJ 07836\nReceipt 71540685\n\nQty Name Total\n1 F'REAL COTTON CANDY 4.19\nSubTotal 4.19\nNJ Full Tax Rate 0.28\nTotal 4.47\nReceived\nVisa 4.47\n\nACC XXXXXXXXXXXX0446 TAP\nApproved APP 05443D\nREF 051053\nBATCH 52 SEQ 86\nApproved On 05/02/2026 19:48:34\n---------------------------------\nApproved\nSale\n\nVisa\nCard Num : XXXXXXXXXXXX0446",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "1F'REAL COTTON CANDY",
+      "price": 4.19,
+      "quantity": 1,
+      "totalSpend": 4.19
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,270 @@
+{
+  "id": "cmoof3fnc00fhtkqamkepo6h6",
+  "url": null,
+  "retailer": "Marathon Gas",
+  "brand": "Stella Blue Coffee",
+  "amount": 3.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Marathon Oil",
+    "totalCost": "6.98",
+    "purchaseDate": "2026-05-02",
+    "time": null,
+    "zipCode": "44054",
+    "city": "Sheffield Lake",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6210.989292000013,
+        "totalUsd": 0.013755,
+        "inputTokens": 6086,
+        "outputTokens": 514,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Abes Marathon",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:48:59 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44054",
+          "status": "match"
+        },
+        "city": {
+          "value": "SHEFFIELD",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4095 COLOARDO AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "stela blu cof esp moch",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "stela blu cof esp moch",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ABES MARATHON, 2\n4095 COLOARDO AVE\nSHEFFIELD, OH 44054\n\n05/02/26 9:48:59 AM\nRegister: 1 Trans #: 5958 Op ID: 1\nYour cashier: cashier\n\nstela blu cof esp moch          $3.49 99\nstela blu cof esp moch          $3.49 99\n----------------------------------------\nSubtotal =      $6.98\n----------------------------------------\nTotal =      $6.98\n\nChange Due =    $-0.02\n\nCash                            $7.00\n\nTHANK YOU\nCOME AGAIN",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8733.659707999992,
+        "totalUsd": 0.019794,
+        "inputTokens": 3692,
+        "outputTokens": 484,
+        "reasoningTokens": 1100
+      },
+      "fields": {
+        "storeName": {
+          "value": "Abes Marathon",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:48:59 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44054",
+          "status": "match"
+        },
+        "city": {
+          "value": "SHEFFIELD",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4095 COLOARDO AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "stela blu cof esp moch",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "stela blu cof esp moch",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ABES MARATHON, 2\n4095 COLOARDO AVE\nSHEFFIELD, OH 44054\n\n05/02/26 9:48:59 AM\nRegister: 1 Trans #: 5958 Op ID: 1\nYour cashier: cashier\n\nstela blu cof esp moch          $3.49 99\nstela blu cof esp moch          $3.49 99\n                      -------------------\n            Subtotal =   $6.98\n                      -------------------\n               Total =   $6.98\n\n          Change Due =  $-0.02\n\nCash                     $7.00\n\n\n             THANK YOU\n             COME AGAIN",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3887.483124999999,
+        "totalUsd": 0.009804,
+        "inputTokens": 3692,
+        "outputTokens": 474,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Abes Marathon",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:48:59 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44054",
+          "status": "match"
+        },
+        "city": {
+          "value": "SHEFFIELD",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "OH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4095 COLOARDO AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "stela blu cof esp moch",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "stela blu cof esp moch",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ABES MARATHON, 2\n4095 COLOARDO AVE\nSHEFFIELD, OH 44054\n\n05/02/26 9:48:59 AM\nRegister: 1 Trans #: 5958 Op ID: 1\nYour cashier: cashier\n\nstela blu cof esp moch\t$3.49 99\nstela blu cof esp moch\t$3.49 99\n-------------------------\nSubtotal =\t$6.98\n-------------------------\nTotal =\t$6.98\nChange Due =\t$-0.02\nCash\t$7.00\n\nTHANK YOU\nCOME AGAIN",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "stela blu cof esp moch",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "stela blu cof esp moch",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

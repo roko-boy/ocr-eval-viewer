@@ -1,0 +1,270 @@
+{
+  "id": "cmndje4dc003tl8zp3ebplnay",
+  "url": null,
+  "retailer": "H-E-B",
+  "brand": "Wow Bao",
+  "amount": 4.96,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "19.84",
+    "purchaseDate": "2026-03-30",
+    "time": null,
+    "zipCode": "79764",
+    "city": "Odessa",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17543.26354199997,
+        "totalUsd": 0.019461,
+        "inputTokens": 6086,
+        "outputTokens": 1148,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:10P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79764",
+          "status": "match"
+        },
+        "city": {
+          "value": "Odessa",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2501 West University Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1582",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WOW BAO CHICKEN SOUP DUMP + 3 Ea. @ 1/ 4.96 F",
+          "quantity": 3,
+          "unitPrice": 4.96,
+          "totalSpend": 14.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WOW BAO PORK SOUP DUMPLIN F",
+          "quantity": 1,
+          "unitPrice": 4.96,
+          "totalSpend": 4.96,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "H-E-B\n1051 1843 0330 2613 1000 711\n1 WOW BAO CHICKEN SOUP DUMP\n3 Ea. @ 1/ 4.96 F 14.88\n2 WOW BAO PORK SOUP DUMPLIN F 4.96\n************** Total Sale*** 19.84\n*** DEBIT 19.84\nITEMS PURCHASED: 4\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n711033026511 843311\n****************************************\nUS DEBIT\n************1582\nChip Read USD$ 19.84\nAppr No : 354850 Ref No : 851180\nMode: Issuer Verified By Pin\nSTARNE\nAID : A0000000980840\nTVR : 8000048000\nIAD : 06011203A0A000\nTSI : 6800 ARC : 00\nRECEIPT EXPIRES ON 06-28-26\n1051 1843 0330 2613 1000 711\nHEB Food-Drugs #02/711\n2501 West University Blvd\nOdessa, TX 79764\nPhone: (432) 368-8400\nPharmacy: (432) 332-0475\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:LESLIE R\n511843 03-30-26 1:10P 279/13/00711",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8960.907332999981,
+        "totalUsd": 0.023655,
+        "inputTokens": 3692,
+        "outputTokens": 1098,
+        "reasoningTokens": 915
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:10P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79764",
+          "status": "match"
+        },
+        "city": {
+          "value": "Odessa",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2501 West University Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1582",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WOW BAO CHICKEN SOUP DUMP",
+          "quantity": 3,
+          "unitPrice": 4.96,
+          "totalSpend": 14.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WOW BAO PORK SOUP DUMPLIN F",
+          "quantity": 1,
+          "unitPrice": 4.96,
+          "totalSpend": 4.96,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "H-E-B\n1051 1843 0330 2613 1000 711\n1 WOW BAO CHICKEN SOUP DUMP\n3 Ea. @ 4.96 F 14.88\n2 WOW BAO PORK SOUP DUMPLIN F 4.96\n************* Total Sale*** 19.84\n*** DEBIT 19.84\nITEMS PURCHASED: 4\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n711033026511 843311\n***********************************\nUS DEBIT\n************1582\nChip Read USD$ 19.84\nAppr No : 354850 Ref No : 851180\nMode: Issuer Verified By Pin\nSTARNE\nAID : A0000000980840\nTVR : 8000048000\nIAD : 06011203A0A000\nTSI : 6800 ARC : 00\nRECEIPT EXPIRES ON 06-28-26\n1051 1843 0330 2613 1000 711\nHEB Food-Drugs #02/711\n2501 West University Blvd\nOdessa, TX 79764\nPhone: (432) 368-8400\nPharmacy: (432) 332-0475\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:LESLIE R\n511843 03-30-26 1:10P 279/13/00711",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6187.189333999995,
+        "totalUsd": 0.015573,
+        "inputTokens": 3692,
+        "outputTokens": 1115,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:10 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79764",
+          "status": "match"
+        },
+        "city": {
+          "value": "Odessa",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2501 West University Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1582",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WOW BAO CHICKEN SOUP DUMP",
+          "quantity": 3,
+          "unitPrice": 4.96,
+          "totalSpend": 14.88,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WOW BAO PORK SOUP DUMPLIN F",
+          "quantity": 1,
+          "unitPrice": 4.96,
+          "totalSpend": 4.96,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "H-E-B\n1051 1843 0330 2613 1000 711\n1 WOW BAO CHICKEN SOUP DUMP\n3 Ea. @ 1/ 4.96 F 14.88\n2 WOW BAO PORK SOUP DUMPLIN F 4.96\n************** Total Sale*** 19.84\n*** DEBIT 19.84\nITEMS PURCHASED: 4\nTell us how we are doing and you could\nWIN 1 OF 30 $250 HEB GIFT CARDS\nNo purchase necessary.\nSee rules and take survey at\nwww.heb.com/survey\nor call 1-866-583-5024\nor text SURVEY to 40879\nMessage and data rates may apply.\nOdds depend on entries received.\nMust be 18. Ends 3/31/26.\nPara Espanol, visitenos por Internet a\nwww.heb.com/survey\nO llame al 1-866-583-5024\nO envie un mensaje de texto con\nla palabra SURVEY al 40879\nPueden aplicarse tarifas\nde mensajes y datos.\nLas probabilidades de ganar dependen\nde cuantas inscripciones recibamos.\nTener 18 anos o mas.\nEl sorteo se acaba 3/31/26.\nCERTIFICATE CODE\n711033026511 843311\n*************************************\nUS DEBIT\n************1582\nChip Read USD$ 19.84\nAppr No : 354850 Ref No : 851180\nMode: Issuer Verified By Pin\nSTARNE\nAID : A0000000980840\nTVR : 8000048000\nIAD : 06011203A0A000\nTSI : 6800 ARC : 00\nRECEIPT EXPIRES ON 06-28-26\n1051 1843 0330 2613 1000 711\nHEB Food-Drugs #02/711\n2501 West University Blvd\nOdessa, TX 79764\nPhone: (432) 368-8400\nPharmacy: (432) 332-0475\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier:LESLIE R\n511843 03-30-26 1:10P 279/13/00711",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "WOW BAO CHICKEN SOUP DUMP + 3 Ea. @ 1/ 4.96 F 14.88",
+      "price": 4.96,
+      "quantity": 3,
+      "totalSpend": 14.88
+    },
+    {
+      "text": "2 WOW BAO PORK SOUP DUMPLIN",
+      "price": 4.96,
+      "quantity": 1,
+      "totalSpend": 4.96
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

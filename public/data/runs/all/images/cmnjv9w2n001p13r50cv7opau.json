@@ -1,0 +1,378 @@
+{
+  "id": "cmnjv9w2n001p13r50cv7opau",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Actual Veggies",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "111.77",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "01532",
+    "city": "Northborough",
+    "state": "MA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17354.74012499995,
+        "totalUsd": 0.016905,
+        "inputTokens": 6086,
+        "outputTokens": 864,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "111.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01532",
+          "status": "match"
+        },
+        "city": {
+          "value": "NORTHBOROUGH",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9102 SHOPS WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5508",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ARCTIC GLIER ICE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ACTUAL VEG BURGERS",
+          "quantity": 3,
+          "unitPrice": 7.49,
+          "totalSpend": 22.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ACTUAL VEG BURGERS",
+          "quantity": 4,
+          "unitPrice": 7.49,
+          "totalSpend": 29.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AV VEGGIE BURGER",
+          "quantity": 2,
+          "unitPrice": 7.49,
+          "totalSpend": 14.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB SPRING WTR 35PK",
+          "quantity": 3,
+          "unitPrice": 3.79,
+          "totalSpend": 11.37,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOSTON CREAM 3 LYR",
+          "quantity": 1,
+          "unitPrice": 28,
+          "totalSpend": 28,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n9102 SHOPS WAY\nNORTHBOROUGH, MA 01532\n(508) 936-1900\n04/03/26 OP# 81\nARCTIC GLACIER ICE 4.99 F\n3 @ 7.49\nACTUAL VEG BURGERS 22.47 F\n4 @ 7.49\nACTUAL VEG BURGERS 29.96 F\n2 @ 7.49\nAV VEGGIE BURGER 14.98 F\n3 @ 3.79\nWB SPRING WTR 35PK 11.37 F\nBOSTON CREAM 3 LYR 28.00 F\nSTATE AND LOCAL TAX 0.00\n*** BALANCE 111.77\nMASTERCARD PURCHASE\nCARD NUMBER: ************5508 C\nMastercard 05\nAUTH 23985P RCPT: 81033\nCODE: 0000 Approved\nAID: A0000000041010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10594.13145799999,
+        "totalUsd": 0.02649,
+        "inputTokens": 3692,
+        "outputTokens": 852,
+        "reasoningTokens": 1476
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "111.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01532",
+          "status": "match"
+        },
+        "city": {
+          "value": "NORTHBOROUGH",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9102 SHOPS WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5508",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ARCTIC GLACIER ICE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ACTUAL VEG BURGERS",
+          "quantity": 3,
+          "unitPrice": 7.49,
+          "totalSpend": 22.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ACTUAL VEG BURGERS",
+          "quantity": 4,
+          "unitPrice": 7.49,
+          "totalSpend": 29.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AV VEGGIE BURGER",
+          "quantity": 2,
+          "unitPrice": 7.49,
+          "totalSpend": 14.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB SPRING WTR 35PK",
+          "quantity": 3,
+          "unitPrice": 3.79,
+          "totalSpend": 11.37,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOSTON CREAM 3 LYR",
+          "quantity": 1,
+          "unitPrice": 28,
+          "totalSpend": 28,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n9102 SHOPS WAY\nNORTHBOROUGH, MA 01532\n(508) 936-1900\n04/03/26 OP# 81\nARCTIC GLACIER ICE 4.99 F\n3 @ 7.49\nACTUAL VEG BURGERS 22.47 F\n4 @ 7.49\nACTUAL VEG BURGERS 29.96 F\n2 @ 7.49\nAV VEGGIE BURGER 14.98 F\n3 @ 3.79\nWB SPRING WTR 35PK 11.37 F\nBOSTON CREAM 3 LYR 28.00 F\nSTATE AND LOCAL TAX 0.00\n*** BALANCE 111.77\nMASTERCARD PURCHASE\nCARD NUMBER: ************5508 C\nMastercard 05\nAUTH\nCODE: 23985P RCPT: 81033\n0000 Approved\nAID: A0000000041010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5027.223457999993,
+        "totalUsd": 0.01326,
+        "inputTokens": 3692,
+        "outputTokens": 858,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "111.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01532",
+          "status": "match"
+        },
+        "city": {
+          "value": "NORTHBOROUGH",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9102 SHOPS WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5508",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ARCTIC GLACIER ICE",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ACTUAL VEG BURGERS",
+          "quantity": 3,
+          "unitPrice": 7.49,
+          "totalSpend": 22.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ACTUAL VEG BURGERS",
+          "quantity": 4,
+          "unitPrice": 7.49,
+          "totalSpend": 29.96,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AV VEGGIE BURGER",
+          "quantity": 2,
+          "unitPrice": 7.49,
+          "totalSpend": 14.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB SPRING WTR 35PK",
+          "quantity": 3,
+          "unitPrice": 3.79,
+          "totalSpend": 11.37,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOSTON CREAM 3 LYR",
+          "quantity": 1,
+          "unitPrice": 28,
+          "totalSpend": 28,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n9102 SHOPS WAY\nNORTHBOROUGH, MA 01532\n(508) 936-1900\n04/03/26 OP# 81\nARCTIC GLACIER ICE 4.99 F\n3 @ 7.49\nACTUAL VEG BURGERS 22.47 F\n4 @ 7.49\nACTUAL VEG BURGERS 29.96 F\n2 @ 7.49\nAV VEGGIE BURGER 14.98 F\n3 @ 3.79\nWB SPRING WTR 35PK 11.37 F\nBOSTON CREAM 3 LYR 28.00 F\nSTATE AND LOCAL TAX 0.00\n**** BALANCE 111.77\nMASTERCARD PURCHASE\nCARD NUMBER: ************5508 C\nMastercard 05\nAUTH CODE: 23985P RCPT: 81033\n0000 Approved\nAID: A0000000041010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ARCTIC GLACIER ICE + 3 @ 7.49",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "AV VEGGIE BURGER + 2 @ 7.49 + 3 @ 3.79",
+      "price": 7.49,
+      "quantity": 2,
+      "totalSpend": 14.98
+    },
+    {
+      "text": "WB SPRING WTR 35PK + 3 @ 3.79",
+      "price": 3.79,
+      "quantity": 3,
+      "totalSpend": 11.37
+    },
+    {
+      "text": "BOSTON CREAM 3 LYR",
+      "price": 28,
+      "quantity": 1,
+      "totalSpend": 28
+    },
+    {
+      "text": "ACTUAL VEG BURGERS + 3 @ 7.49 + 4 @ 7.49",
+      "price": 7.49,
+      "quantity": 3,
+      "totalSpend": 22.47
+    },
+    {
+      "text": "ACTUAL VEG BURGERS + 4 @ 7.49 + 2 @ 7.49",
+      "price": 7.49,
+      "quantity": 4,
+      "totalSpend": 29.96
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

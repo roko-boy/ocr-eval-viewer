@@ -1,0 +1,270 @@
+{
+  "id": "cmnkbc63e0084tuotapgvqolu",
+  "url": null,
+  "retailer": "The Fresh Market",
+  "brand": "bark bistro",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "The Fresh Market",
+    "totalCost": "14.99",
+    "purchaseDate": "2026-04-04",
+    "time": null,
+    "zipCode": "27605",
+    "city": "Raleigh",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13977.701959,
+        "totalUsd": 0.014835,
+        "inputTokens": 6086,
+        "outputTokens": 634,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:31am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Raleigh",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "400 Woodburn Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5471",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DOG AWSME APLE PB",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOG SPRBRY SNT PB",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "***********************************\nTHE\nFRESH\nMARKET\nStephen McLaurin Jr, Director\n(919) 828-7888\nDOG AWSME APLE PB 6.99 T\nDOG SPRBRY SNT PB 6.99 T\nTAX 1.01\n**** BALANCE 14.99\n***********************************\nCard Number: ************5471\nTYPE: Purchase\n(Signature Not Required)\nPOS Entry Mode: 07\nHost Return Code: 000\nVISA 14.99\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/04/26 08:31am 13 3 7 10094942\nThank you Loyalty Member.\nYour transaction was recorded in The\nUltimate Loyalty Experience program.\n400 Woodburn Rd, Raleigh, NC\nYour Cashier: Marguerite\nHOW TO JOIN OR QUESTIONS ABOUT THE\nULTIMATE LOYALTY\nEXPERIENCE(SM)\nCONTACT US AT 866-817-4367\nOR Scan the QR Code to Signup",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9267.879457999981,
+        "totalUsd": 0.020811,
+        "inputTokens": 3692,
+        "outputTokens": 639,
+        "reasoningTokens": 1058
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:31am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Raleigh",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "400 Woodburn Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5471",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DOG AWSME APLE PB",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOG SPRBRY SNT PB",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "THE\nFRESH\nMARKET\nStephen McLaurin Jr, Director\n(919) 828-7888\nDOG AWSME APLE PB\n6.99 T\nDOG SPRBRY SNT PB\n6.99 T\nTAX\n1.01\n**** BALANCE\n14.99\n***********************************\nCard Number: ************5471\nTYPE: Purchase\n(Signature Not Required)\nPOS Entry Mode: 07\nHost Return Code: 000\nVISA\n14.99\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n2\n04/04/26 08:31am 13 3 7 10094942\nThank you Loyalty Member.\nYour transaction was recorded in The\nUltimate Loyalty Experience program.\n400 Woodburn Rd, Raleigh, NC\nYour Cashier: Marguerite\nHOW TO JOIN OR QUESTIONS ABOUT THE\nULTIMATE LOYALTY\nEXPERIENCE(SM)\nCONTACT US AT 866-817-4367\nOR Scan the QR Code to Signup",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4226.129207999998,
+        "totalUsd": 0.011199,
+        "inputTokens": 3692,
+        "outputTokens": 629,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "The Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:31 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Raleigh",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "400 Woodburn Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5471",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DOG AWSME APLE PB",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOG SPRBRY SNT PB",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "THE\nFRESH\nMARKET\nStephen McLaurin Jr, Director\n(919) 828-7888\nDOG AWSME APLE PB\n6.99 T\nDOG SPRBRY SNT PB\n6.99 T\nTAX\n1.01\n**** BALANCE\n14.99\n************************************\nCard Number: ************5471\nTYPE: Purchase\n(Signature Not Required)\nPOS Entry Mode: 07\nHost Return Code: 000\nVISA\n14.99\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n2\n04/04/26 08:31am 13 3 7 10094942\nThank you Loyalty Member.\nYour transaction was recorded in The\nUltimate Loyalty Experience program.\n400 Woodburn Rd, Raleigh, NC\nYour Cashier: Marguerite\nHOW TO JOIN OR QUESTIONS ABOUT THE\nULTIMATE LOYALTY\nEXPERIENCE(SM)\nCONTACT US AT 866-817-4367\nOR Scan the QR Code to Signup",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "DOG AWSME APLE PB",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "DOG SPRBRY SNT PB",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

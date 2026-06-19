@@ -1,0 +1,366 @@
+{
+  "id": "cmp626qq102rnikzbxi7vwaeg",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "Pepsi Food Service",
+  "amount": 2.89,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "20.76",
+    "purchaseDate": "2026-05-14",
+    "time": null,
+    "zipCode": "16828",
+    "city": "Centre Hall",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18190.06699999992,
+        "totalUsd": 0.018471,
+        "inputTokens": 6086,
+        "outputTokens": 1038,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:26:01 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "16828",
+          "status": "match"
+        },
+        "city": {
+          "value": "Centre Hall",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "106 Savannah Lane",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3805",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Bag of Onion Petals",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Chicken Shnack Wrap - 2-Pack + Cheddar + Add Pepper Jack Chs + Boom Boom Sauce + Bacon",
+          "quantity": 1,
+          "unitPrice": 9.2,
+          "totalSpend": 9.2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SMARTWATER 700ML PET Single",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI 20OZ ZERO SUGAR Single",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #562\n106 Savannah Lane\nCentre Hall, PA 16828\n814-531-0070\n5/14/2026 6:26:01 PM\nCSS Inside\nOrder Number: 448\nRegister:23\nBag of Onion Petals $4.89\nChicken Shnack Wrap - 2-Pack $6.00\n+ Cheddar $0.60\n+ Add Pepper Jack Chs $0.60\n+ Boom Boom Sauce $0.60\n+ Bacon $0.80\nSMARTWATER 700ML PET Single $3.39\nPEPSI 20OZ ZERO SUGAR Single $2.89\nMy Sheetz Rewardz $0.00\nSub. Total: $19.77\nTax: $0.99\nTotal: $20.76\nDiscount Total: $0.00\nVisa: $20.76\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX3805\nContactless\nTerminal : XXXXXXXXXX8002\nApproval : 430210\nSequence : 038105\nUSD$ 20.76\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 253AB76A7BF1C9CE\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX3605\nTerminal : 20562\nApproval : 198359807\nYou earned 98 Points today!\nSpendable Points: 1138\nYearly Points: 1138\nLEVEL:FRIEND",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19255.27100000001,
+        "totalUsd": 0.046398,
+        "inputTokens": 3692,
+        "outputTokens": 1175,
+        "reasoningTokens": 3365
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:26:01 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "16828",
+          "status": "match"
+        },
+        "city": {
+          "value": "Centre Hall",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "106 Savannah Lane",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3805",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Bag of Onion Petals",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Chicken Shnack Wrap - 2-Pack",
+          "quantity": 1,
+          "unitPrice": 6,
+          "totalSpend": 6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+ Cheddar",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "+ Add Pepper Jack Chs",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "+ Boom Boom Sauce",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "+ Bacon",
+          "quantity": 1,
+          "unitPrice": 0.8,
+          "totalSpend": 0.8,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SMARTWATER 700ML PET Single",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI 20OZ ZERO SUGAR Single",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #562\n106 Savannah Lane\nCentre Hall, PA 16828\n814-531-0070\n5/14/2026 6:26:01 PM\nCSS Inside\nOrder Number: 448\nRegister:23\nBag of Onion Petals $4.89\nChicken Shnack Wrap - 2-Pack $6.00\n+ Cheddar $0.60\n+ Add Pepper Jack Chs $0.60\n+ Boom Boom Sauce $0.60\n+ Bacon $0.80\nSMARTWATER 700ML PET Single $3.39\nPEPSI 20OZ ZERO SUGAR Single $2.89\nMy Sheetz Rewardz $0.00\nSub. Total: $19.77\nTax: $0.99\nTotal: $20.76\nDiscount Total: $0.00\nVisa: $20.76\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX3805\nContactless\nTerminal : XXXXXXXXXX8002\nApproval : 430210\nSequence : 038105\nUSD$ 20.76\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 253AB76A7BF1C9CE\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX3605\nTerminal : 20562\nApproval : 198359807\nYou earned 98 Points today!\nSpendable Points: 1138\nYearly Points: 1138\nLEVEL:FRIEND",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5751.943583999993,
+        "totalUsd": 0.014835,
+        "inputTokens": 3692,
+        "outputTokens": 1033,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:26:01 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "16828",
+          "status": "match"
+        },
+        "city": {
+          "value": "Centre Hall",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "106 Savannah Lane",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3805",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Bag of Onion Petals",
+          "quantity": 1,
+          "unitPrice": 4.89,
+          "totalSpend": 4.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Chicken Shnack Wrap - 2-Pack + Cheddar + Add Pepper Jack Chs + Boom Boom Sauce + Bacon",
+          "quantity": 1,
+          "unitPrice": 8.6,
+          "totalSpend": 8.6,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SMARTWATER 700ML PET Single",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI 200Z ZERO SUGAR Single",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #562\n106 Savannah Lane\nCentre Hall, PA 16828\n814-531-0070\n5/14/2026 6:26:01 PM\nCSS Inside\nOrder Number: 448\nRegister:23\nBag of Onion Petals $4.89\nChicken Shnack Wrap - 2-Pack $6.00\n+ Cheddar $0.60\n+ Add Pepper Jack Chs $0.60\n+ Boom Boom Sauce $0.60\n+ Bacon $0.80\nSMARTWATER 700ML PET Single $3.39\nPEPSI 200Z ZERO SUGAR Single $2.89\nMy Sheetz Rewardz $0.00\nSub. Total: $19.77\nTax: $0.99\nTotal: $20.76\nDiscount Total: $0.00\nVisa: $20.76\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX3805\nContactless\nTerminal : XXXXXXXXXX8002\nApproval : 430210\nSequence : 038105\nUSD$ 20.76\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 253AB76A7BF1C9CE\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX3605\nTerminal : 20562\nApproval : 198359807\nYou earned 98 Points today!\nSpendable Points: 1138\nYearly Points: 1138\nLEVEL:FRIEND",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Bag of Onion Petals",
+      "price": 4.89,
+      "quantity": 1,
+      "totalSpend": 4.89
+    },
+    {
+      "text": "Chicken Shnack Wrap - 2-Pack",
+      "price": 6,
+      "quantity": 1,
+      "totalSpend": 6
+    },
+    {
+      "text": "SMARTWATER 700ML PET Single",
+      "price": 3.39,
+      "quantity": 1,
+      "totalSpend": 3.39
+    },
+    {
+      "text": "PEPSI 20OZ ZERO SUGAR Single + My Sheetz Rewardz $0.00",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

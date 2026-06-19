@@ -1,0 +1,297 @@
+{
+  "id": "cmqeczvpu002rcqax47p9e9cq",
+  "url": null,
+  "retailer": "A Matter of Health NYC, Inc",
+  "brand": "Fronen Foods, Inc.",
+  "amount": 3.8,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "A Matter Of Health",
+    "totalCost": "19.37",
+    "purchaseDate": "2026-06-14",
+    "time": null,
+    "zipCode": "10021",
+    "city": "New York",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6771.136375000002,
+        "totalUsd": 0.01758,
+        "inputTokens": 6086,
+        "outputTokens": 939,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "A Matter Of Health",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:30 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10021",
+          "status": "match"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1347 First Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1928",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "*Marin, Apple Juniper 16 Floz + (Reg.Price -> $5.69 Saved $2.90)",
+          "quantity": 1,
+          "unitPrice": 5.69,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*Greek Frozen Yogurt,plain,15.2fl.oz + (Reg.Price -> $10.79 Saved $1.80)",
+          "quantity": 1,
+          "unitPrice": 10.79,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*Bar Dessert Pineapple Df - 10fo + (Reg.Price -> $10.49 Saved $2.90)",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 7.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "* Reprint on request *\nA Matter Of Health NYC Inc.\n1347 First Ave\nNew York, NY 10021\nTel: 212.396.4500\n6/14/2026 6:30 PM Store 001 Lane 003\nCashier 712 JINA\nTRX 01188477\n*Marin, Apple Juniper 16 Floz\n$2.79 1\n(Reg.Price -> $5.69 Saved $2.90)\n*Greek Frozen Yogurt,plain,15.2fl.oz\n$8.99 1\n(Reg.Price -> $10.79 Saved $1.80)\n*Bar Dessert Pineapple Df - 10fo\n$7.59 1\n(Reg.Price -> $10.49 Saved $2.90)\nItem Count 3\nTotal before $avings\n$26.97\nYour Promo/Disc $avings\n-$7.60\n28% of Your Order\nSub-Total\n$19.37\nTotal\n$19.37\nCredit Card\n$19.37\nSALE: $19.37\nACCT: 370382********1928\nAPP NAME:AMEX\nAID: A000000025010901\nE78B593B9D7BC167\nY: Tapped\nVAL:821927\nThank you for shopping at\nA Matter Of Health\nWe are Open\nMon-Sat 8:00AM To 9:00PM\nSun 9:00AM To 8:00PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10689.6305,
+        "totalUsd": 0.023547,
+        "inputTokens": 3692,
+        "outputTokens": 931,
+        "reasoningTokens": 1070
+      },
+      "fields": {
+        "storeName": {
+          "value": "A Matter Of Health",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:30 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10021",
+          "status": "match"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1347 First Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1928",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "*Marin, Apple Juniper 16 Floz + (Reg.Price -> $5.69 Saved $2.90)",
+          "quantity": 1,
+          "unitPrice": 5.69,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*Greek Frozen Yogurt,plain,15.2fl.oz + (Reg.Price -> $10.79 Saved $1.80)",
+          "quantity": 1,
+          "unitPrice": 10.79,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*Bar Dessert Pineapple Df - 10fo + (Reg.Price -> $10.49 Saved $2.90)",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 7.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "* Reprint on request *\nA Matter Of Health NYC Inc.\n1347 First Ave\nNew York, NY 10021\nTel: 212.396.4500\n6/14/2026 6:30 PM Store 001 Lane 003\nCashier 712 JINA\nTRX 01188477\n*Marin, Apple Juniper 16 Floz\n$2.79 1\n(Reg.Price -> $5.69 Saved $2.90)\n*Greek Frozen Yogurt,plain,15.2fl.oz\n$8.99 1\n(Reg.Price -> $10.79 Saved $1.80)\n*Bar Dessert Pineapple Df - 10fo\n$7.59 1\n(Reg.Price -> $10.49 Saved $2.90)\nItem Count 3\nTotal before $avings\n$26.97\nYour Promo/Disc $avings\n-$7.60\n28% of Your Order\nSub-Total\n$19.37\nTotal\n$19.37\nCredit Card\n$19.37\nSALE: $19.37\nACCT: 370382********1928\nAPP NAME:AMEX\nAID: A000000025010901\nE78B593B9D7BC167\nY: Tapped\nVAL:821927\nThank you for shopping at\nA Matter Of Health\nWe are Open\nMon-Sat 8:00AM To 9:00PM\nSun 9:00AM To 8:00PM\nShop Online Please Visit:",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4927.378957999999,
+        "totalUsd": 0.013404,
+        "inputTokens": 3692,
+        "outputTokens": 874,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "A Matter Of Health",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:30 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10021",
+          "status": "match"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1347 First Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1928",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "*Marin, Apple Juniper 16 Floz",
+          "quantity": 1,
+          "unitPrice": 5.69,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*Greek Frozen Yogurt,plain,15.2fl.oz",
+          "quantity": 1,
+          "unitPrice": 10.79,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*Bar Dessert Pineapple Df - 10fo",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 7.59,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "* Reprint on request *\nA Matter Of Health NYC Inc.\n1347 First Ave\nNew York, NY 10021\nTel: 212.396.4500\n6/14/2026 6:30 PM Store 001 Lane 003\nCashier 712 JINA\nTRX 01188477\n*Marin, Apple Juniper 16 Floz\n$2.79 1\n(Reg.Price -> $5.69 Saved $2.90)\n*Greek Frozen Yogurt,plain,15.2fl.oz\n$8.99 1\n(Reg.Price -> $10.79 Saved $1.80)\n*Bar Dessert Pineapple Df - 10fo\n$7.59 1\n(Reg.Price -> $10.49 Saved $2.90)\nItem Count 3\nTotal before Savings\n$26.97\nYour Promo/Disc Savings\n-$7.60\n28% of Your Order\nSub-Total\n$19.37\nTotal\n$19.37\nCredit Card\n$19.37\nSALE: $19.37\nACCT: 370382********1928\nAPP NAME:AMEX\nAID: A000000025010901\nE78B593B9D7BC167\nENTRY: Tapped\nAPPROVAL:821927\nThank you for shopping at\nA Matter Of Health\nWe are Open\nMon-Sat 8:00AM To 9:00PM\nSun 9:00AM To 8:00PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "*Marin, Apple Juniper 16 Floz + (Reg.Price -> $5.69 Saved $2.90)",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "*Greek Frozen Yogurt,plain,15.2fl.oz + (Reg.Price -> $10.79 Saved $1.80)",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "*Bar Dessert Pineapple Df - 10fo + (Reg.Price -> $10.49 Saved $2.90)",
+      "price": 7.59,
+      "quantity": 1,
+      "totalSpend": 7.59
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

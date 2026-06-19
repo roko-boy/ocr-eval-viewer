@@ -1,0 +1,243 @@
+{
+  "id": "cmqcpz70s00d811y5hy20tgql",
+  "url": null,
+  "retailer": "H-E-B",
+  "brand": "Vital Planet",
+  "amount": 8,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "H-E-B",
+    "totalCost": "12.1",
+    "purchaseDate": "2026-06-13",
+    "time": null,
+    "zipCode": "75033",
+    "city": "Frisco",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7624.132165999967,
+        "totalUsd": 0.016392,
+        "inputTokens": 6086,
+        "outputTokens": 807,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:05P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75033",
+          "status": "match"
+        },
+        "city": {
+          "value": "Frisco",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4800 Main St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3297",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PIRQ HYDRATION PUNCH WATE TF",
+          "quantity": 1,
+          "unitPrice": 11.18,
+          "totalSpend": 11.18,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1027 9050 0613 2613 0500 789\n1 PIRQ HYDRATION PUNCH WATE TF 11.18\n********** Sale Subtotal*** 11.18\nSales Tax 0.92\n************ Total Sale*** 12.10\n*** MASTRCRD EPS 12.10\nITEMS PURCHASED: 1\nMASTERCARD\n************3297\nContactless Chip USD$ 12.10\nAppr No : 48759P Ref No : 894782\nMode: Issuer Verified By Pin\nMASTERCD\nAID : A0000000041010\nTVR : 0000008001\nIAD : 0114A14003020000000400000000000000FF\nTSI : ARC : 00\nRECEIPT EXPIRES ON 09-11-26\n1027 9050 0613 2613 0500 789\nReturns can be done at any checkstand\nH-E-B Food-Drugs #01/789\n4800 Main St, Frisco, TX 75033\nPhone: (469) 473-4419\nPharmacy: (972) 377-2261\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier: SELF CHECKOUT 664\n279050 06-13-26 1:05P 664/34/00789",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11982.91870799998,
+        "totalUsd": 0.028119,
+        "inputTokens": 3692,
+        "outputTokens": 802,
+        "reasoningTokens": 1707
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:05P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75033",
+          "status": "match"
+        },
+        "city": {
+          "value": "Frisco",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4800 Main St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3297",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PIRQ HYDRATION PUNCH WATE TF",
+          "quantity": 1,
+          "unitPrice": 11.18,
+          "totalSpend": 11.18,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1027 9050 0613 2613 0500 789\n1 PIRQ HYDRATION PUNCH WATE TF 11.18\n********** Sale Subtotal*** 11.18\nSales Tax 0.92\n************ Total Sale*** 12.10\n*** MASTRCRD EPS 12.10\nITEMS PURCHASED: 1\nMASTERCARD\n************3297\nContactless Chip USD$ 12.10\nAppr No : 48759P Ref No : 894782\nMode: Issuer Verified By Pin\nMASTERCD\nAID : A0000000041010\nTVR : 0000008001\nIAD : 0114A14003020000000400000000000000FF\nTSI : ARC : 00\nRECEIPT EXPIRES ON 09-11-26\n1027 9050 0613 2613 0500 789\nReturns can be done at any checkstand\nH-E-B Food-Drugs #01/789\n4800 Main St, Frisco, TX 75033\nPhone: (469) 473-4419\nPharmacy: (972) 377-2261\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier: SELF CHECKOUT 664\n279050 06-13-26 1:05P 664/34/00789",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5374.423665999988,
+        "totalUsd": 0.012756,
+        "inputTokens": 3692,
+        "outputTokens": 802,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "H-E-B",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:05P",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75033",
+          "status": "match"
+        },
+        "city": {
+          "value": "Frisco",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4800 Main St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3297",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PIRQ HYDRATION PUNCH WATE TF",
+          "quantity": 1,
+          "unitPrice": 11.18,
+          "totalSpend": 11.18,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "H-E-B\n1027 9050 0613 2613 0500 789\n1 PIRQ HYDRATION PUNCH WATE TF 11.18\n********** Sale Subtotal*** 11.18\nSales Tax 0.92\n************ Total Sale*** 12.10\n*** MASTRCRD EPS 12.10\nITEMS PURCHASED: 1\nMASTERCARD\n************3297\nContactless Chip USD$ 12.10\nAppr No : 48759P Ref No : 894782\nMode: Issuer Verified By Pin\nMASTERCD\nAID : A0000000041010\nTVR : 0000008001\nIAD : 0114A14003020000000400000000000000FF\nTSI : ARC : 00\nRECEIPT EXPIRES ON 09-11-26\n1027 9050 0613 2613 0500 789\nReturns can be done at any checkstand\nH-E-B Food-Drugs #01/789\n4800 Main St, Frisco, TX 75033\nPhone: (469) 473-4419\nPharmacy: (972) 377-2261\nStore Hours: 6 A.M. to 11 P.M.\nYour Cashier: SELF CHECKOUT 664\n279050 06-13-26 1:05P 664/34/00789",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PIRQ HYDRATION PUNCH WATE TF",
+      "price": 11.18,
+      "quantity": 1,
+      "totalSpend": 11.18
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,405 @@
+{
+  "id": "cmq10mq7z00jzoncfi452skjt",
+  "url": null,
+  "retailer": "Ralphs",
+  "brand": "Momofuku Goods",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Ralphs",
+    "totalCost": "19.58",
+    "purchaseDate": "2026-06-04",
+    "time": null,
+    "zipCode": "92109",
+    "city": "San Diego",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8493.689583,
+        "totalUsd": 0.020253,
+        "inputTokens": 6086,
+        "outputTokens": 1236,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.58",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:32pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4315 Mission Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3214",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MMFK NOODLE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONIONS GREEN",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA COLOMBE CLD BRWRC + SC RALPHS SAVED YOU 1.29",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LACOLOMBE OAT DRFTRC + SC RALPHS SAVED YOU 1.29",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRDNT GUM RC + C RALPHS SAVED YOU 0.49",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n4315 Mission Blvd.\n(858) 273-0778\nYour cashier was CHEC 650\nMMFK NOODLE 12.99 F\nONIONS GREEN 0.99 F\nLA COLOMBE CLD BRWRC 2.00 F\nCRV 0.05 F\nSC RALPHS SAVED YOU 1.29\nLACOLOMBE OAT DRFTRC 2.00 F\nCRV 0.05 F\nSC RALPHS SAVED YOU 1.29\nTRDNT GUM RC 1.50 F\nC RALPHS SAVED YOU 0.49\nRALPHS rewards CUSTOMER *******1861\nTAX 0.00\n**** BALANCE 19.58\nUS DEBIT Purchase\n************3214 - H\nREF#: 117113 TOTAL: 19.58\nPURCHASE: 19.58 CASHBACK: 0.00\nAID: A0000000980840\nTC: B1C0CE4AF1FA5F82\nVERIFIED BY PIN\nDEBIT 19.58\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nRALPHS rewards SAVINGS $3.07\nTOTAL COUPONS $ 3.07\n06/04/26 05:32pm 207 650 190 999999650\n****************************************\nAnnual Card Savings $139.69\n****************************************\n****************************************\nFuel Points Earned Today: 19\nTotal June Fuel Points: 19\n****************************************\nRemaining May Fuel Points: 225\n****************************************\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 3.\nTRY OUR PHARMACY (858) 273-2108\nMGR: LAUREN PILGRIM (858) 273-0778\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18865.67920800002,
+        "totalUsd": 0.042951,
+        "inputTokens": 3692,
+        "outputTokens": 1163,
+        "reasoningTokens": 2994
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.58",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": "05:32pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92109-92109 (not printed, omitted per schema instructions - only printed values allowed in scalar fields except derived math fields or standard ISO conversions. Since city/state/zip are not printed, they are omitted.)",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "4315 Mission Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MMFK NOODLE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONIONS GREEN",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA COLOMBE CLD BRWRC + RALPHS SAVED YOU 1.29",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LACOLOMBE OAT DRFTRC + RALPHS SAVED YOU 1.29",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRDNT GUM RC + RALPHS SAVED YOU 0.49",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n4315 Mission Blvd.\n(858) 273-0778\nYour cashier was CHEC 650\nMMFK NOODLE 12.99 F\nONIONS GREEN 0.99 F\nLA COLOMBE CLD BRWRC 2.00 F\nCRV 0.05 F\nSC RALPHS SAVED YOU 1.29\nLACOLOMBE OAT DRFTRC 2.00 F\nCRV 0.05 F\nSC RALPHS SAVED YOU 1.29\nTRDNT GUM RC 1.50 F\nC RALPHS SAVED YOU 0.49\nRALPHS rewards CUSTOMER *******1861\nTAX 0.00\n**** BALANCE 19.58\nUS DEBIT Purchase\n************3214 - H\nREF#: 117113 TOTAL: 19.58\nPURCHASE: 19.58 CASHBACK: 0.00\nAID: A0000000980840\nTC: B1C0CE4AF1FA5F82\nVERIFIED BY PIN\nDEBIT 19.58\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nRALPHS rewards SAVINGS $3.07\nTOTAL COUPONS $ 3.07\n06/04/26 05:32pm 207 650 190 999999650\n****************************************\nAnnual Card Savings $139.69\n****************************************\n****************************************\nFuel Points Earned Today: 19\nTotal June Fuel Points: 19\n****************************************\nRemaining May Fuel Points: 225\n****************************************\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 3.\nTRY OUR PHARMACY (858) 273-2108\nMGR: LAUREN PILGRIM (858) 273-0778\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6320.971040999983,
+        "totalUsd": 0.016527,
+        "inputTokens": 3692,
+        "outputTokens": 1221,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "19.58",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:32 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4315 Mission Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3214",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MMFK NOODLE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ONIONS GREEN",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA COLOMBE CLD BRWRC + RALPHS SAVED YOU 1.29",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LACOLOMBE OAT DRFTRC + RALPHS SAVED YOU 1.29",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRDNT GUM + RALPHS SAVED YOU 0.49",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n4315 Mission Blvd.\n(858) 273-0778\nYour cashier was CHEC 650\nMMFK NOODLE 12.99 F\nONIONS GREEN 0.99 F\nLA COLOMBE CLD BRWRC 2.00 F\nCRV 0.05 F\nSC RALPHS SAVED YOU 1.29\nLACOLOMBE OAT DRFTRC 2.00 F\nCRV 0.05 F\nSC RALPHS SAVED YOU 1.29\nTRDNT GUM RC 1.50 F\nC RALPHS SAVED YOU 0.49\nRALPHS rewards CUSTOMER *******1861\nTAX 0.00\n**** BALANCE 19.58\nUS DEBIT Purchase\n************3214 - H\nREF#: 117113 TOTAL: 19.58\nPURCHASE: 19.58 CASHBACK: 0.00\nAID: A0000000980840\nTC: B1C0CE4AF1FA5F82\nVERIFIED BY PIN\nDEBIT 19.58\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nRALPHS rewards SAVINGS $3.07\nTOTAL COUPONS $ 3.07\n06/04/26 05:32pm 207 650 190 999999650\n***********************************\nAnnual Card Savings $139.69\n***********************************\n***********************************\nFuel Points Earned Today: 19\nTotal June Fuel Points: 19\n***********************************\nRemaining May Fuel Points: 225\n***********************************\nWith Card & Coupons\n! VERIFIED TOTAL SAVINGS $ 3.\nTRY OUR PHARMACY (858) 273-2108\nMGR: LAUREN PILGRIM (858) 273-0778\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MMFK NOODLE",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "ONIONS GREEN",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "LA COLOMBE CLD BRW",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "CRV + SC RALPHS SAVED YOU 1.29",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "LACOLOMBE OAT DRFT",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "CRV + SC RALPHS SAVED YOU 1.29",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "TRDNT GUM + C RALPHS SAVED YOU 0.49 + RALPHS rewards CUSTOMER *******1861",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    }
+  ],
+  "disagreementCount": 3,
+  "nullCount": 0
+}

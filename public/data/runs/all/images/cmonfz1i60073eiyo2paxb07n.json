@@ -1,0 +1,459 @@
+{
+  "id": "cmonfz1i60073eiyo2paxb07n",
+  "url": null,
+  "retailer": "Stop & Shop",
+  "brand": "Evergreen",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Stop & Shop",
+    "totalCost": "32.83",
+    "purchaseDate": "2026-05-01",
+    "time": null,
+    "zipCode": "01701",
+    "city": "Framingham",
+    "state": "MA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18926.86166700002,
+        "totalUsd": 0.021711,
+        "inputTokens": 6086,
+        "outputTokens": 1398,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "32.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:50pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01701",
+          "status": "match"
+        },
+        "city": {
+          "value": "Framingham",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "19 TEMPLE STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2946",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WHT ICD FILL CPK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB SOUR CREAM8Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TFF APPL PIE 33Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RAOS 4 CHS RAV + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAOS ON CARB 9Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVRGRN PB BANA + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVRGRN APCNM WFL + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MLNO BNCO GLTI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHCKOUT BAG CHG",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n19 TEMPLE STREET\nFRAMINGHAM, MA 01701\nStore Telephone: (508) 879-4044\nStore #8 05/01/26 03:50pm\nBAKE SHOP\nWHT ICD FILL CPK 2.99 F\nDAIRY\nSB SOUR CREAM8Z 1.79 F\nFROZEN FOOD\nTFF APPL PIE 33Z 9.99 F\nSAVINGS 5.00-F\nPRICE YOU PAY 4.99\nRAOS 4 CHS RAV 6.49 F\nSAVINGS 2.50-F\nPRICE YOU PAY 3.99\nRAOS ON CARB 9Z 6.49 F\nSAVINGS 2.50-F\nPRICE YOU PAY 3.99\nEVRGRN PB BANA 5.99 F\nSAVINGS 1.00-F\nPRICE YOU PAY 4.99\nEVRGRN APCNM WFL 5.99 F\nSAVINGS 1.00-F\nPRICE YOU PAY 4.99\nGROCERY\nMLNO BNCO GLTI 4.99 F\nCONVENIENCE ITEMS\nMR CHCKOUT BAG CHG NP 0.10 T\nTotal After Savings 32.82\nTAX 0.01\n**** BALANCE 32.83\n****************************************\nPayment Type: CapitalOne Debit\nCHIP Purchase PIN Verified\nCard: ************2946\nPayment Amt: $32.83\nCashback Amt: $0.00\nBALANCE: $\nAID: A0000001524010\nAUTH#045228 RC#00 05/01/26 03:52pm\n****************************************\nTrace # 00133799\nDEBIT CARD 32.83\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 8\n********* SAVINGS SUMMARY *********\nCard Savings: 12.00\nYour Total Savings: 12.00\n05/01/26 03:52pm 8 406 112 880006\nYou've earned 100 GO Points for",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16306.603917,
+        "totalUsd": 0.040251,
+        "inputTokens": 3692,
+        "outputTokens": 1381,
+        "reasoningTokens": 2476
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "32.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:50pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01701",
+          "status": "match"
+        },
+        "city": {
+          "value": "FRAMINGHAM",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "19 TEMPLE STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2946",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WHT ICD FILL CPK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB SOUR CREAM8Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TFF APPL PIE 33Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RAOS 4 CHS RAV + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAOS ON CARB 9Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVRGRN PB BANA + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVRGRN APCNM WFL + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MLNO BNCO GLTI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHCKOUT BAG CHG",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n19 TEMPLE STREET\nFRAMINGHAM, MA 01701\nStore Telephone: (508) 879-4044\nStore #8 05/01/26 03:50pm\nBAKE SHOP\nWHT ICD FILL CPK 2.99 F\nDAIRY\nSB SOUR CREAM8Z 1.79 F\nFROZEN FOOD\nTFF APPL PIE 33Z 9.99 F\nSAVINGS 5.00-F\nPRICE YOU PAY 4.99\nRAOS 4 CHS RAV 6.49 F\nSAVINGS 2.50-F\nPRICE YOU PAY 3.99\nRAOS ON CARB 9Z 6.49 F\nSAVINGS 2.50-F\nPRICE YOU PAY 3.99\nEVRGRN PB BANA 5.99 F\nSAVINGS 1.00-F\nPRICE YOU PAY 4.99\nEVRGRN APCNM WFL 5.99 F\nSAVINGS 1.00-F\nPRICE YOU PAY 4.99\nGROCERY\nMLNO BNCO GLTI 4.99 F\nCONVENIENCE ITEMS\nMR CHCKOUT BAG CHG NP 0.10 T\nTotal After Savings 32.82\nTAX 0.01\n**** BALANCE 32.83\n****************************************\nPayment Type: CapitalOne Debit\nCHIP Purchase PIN Verified\nCard: ************2946\nPayment Amt: $32.83\nCashback Amt: $0.00\nBALANCE: $\nAID: A0000001524010\nAUTH#045228 RC#00 05/01/26 03:52pm\n****************************************\nTrace # 00133799\nDEBIT CARD 32.83\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 8\n********* SAVINGS SUMMARY *********\nCard Savings: 12.00\nYour Total Savings: 12.00\n05/01/26 03:52pm 8 406 112 880006\nYou've earned 100 GO Points for",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7283.656667000003,
+        "totalUsd": 0.01794,
+        "inputTokens": 3692,
+        "outputTokens": 1378,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "32.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:50pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01701",
+          "status": "match"
+        },
+        "city": {
+          "value": "FRAMINGHAM",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "19 TEMPLE STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2946",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WHT ICD FILL CPK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SB SOUR CREAM8Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TFF APPL PIE 33Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RAOS 4 CHS RAV + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAOS ON CARB 9Z + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVRGRN PB BANA + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVRGRN APCNM WFL + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MLNO BNCO GLTI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHCKOUT BAG CHG",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STOP&SHOP\n19 TEMPLE STREET\nFRAMINGHAM, MA 01701\nStore Telephone: (508) 879-4044\nStore #8 05/01/26 03:50pm\nBAKE SHOP\nWHT ICD FILL CPK 2.99 F\nDAIRY\nSB SOUR CREAM8Z 1.79 F\nFROZEN FOOD\nTFF APPL PIE 33Z 9.99 F\nSAVINGS 5.00-F\nPRICE YOU PAY 4.99\nRAOS 4 CHS RAV 6.49 F\nSAVINGS 2.50-F\nPRICE YOU PAY 3.99\nRAOS ON CARB 9Z 6.49 F\nSAVINGS 2.50-F\nPRICE YOU PAY 3.99\nEVRGRN PB BANA 5.99 F\nSAVINGS 1.00-F\nPRICE YOU PAY 4.99\nEVRGRN APCNM WFL 5.99 F\nSAVINGS 1.00-F\nPRICE YOU PAY 4.99\nGROCERY\nMLNO BNCO GLTI 4.99 F\nCONVENIENCE ITEMS\nMR CHCKOUT BAG CHG NP 0.10 T\nTotal After Savings 32.82\nTAX 0.01\n**** BALANCE 32.83\n****************************************\nPayment Type: CapitalOne Debit\nCHIP Purchase PIN Verified\nCard: ************2946\nPayment Amt: $32.83\nCashback Amt: $0.00\nBALANCE: $\nAID: A0000001524010\nAUTH#045228 RC#00 05/01/26 03:52pm\n****************************************\nTrace # 00133799\nDEBIT CARD 32.83\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 8\n********* SAVINGS SUMMARY *********\nCard Savings: 12.00\nYour Total Savings: 12.00\n05/01/26 03:52pm 8 406 112 880006\nYou've earned 100 GO Points for",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "WHT ICD FILL CPK + BAKE SHOP + DAIRY",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SB SOUR CREAM8Z + DAIRY + FROZEN FOOD",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "TFF APPL PIE 33Z + FROZEN FOOD",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "RAOS 4 CHS RAV",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "RAOS ON CARB 9Z",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "EVRGRN PB BANA",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "EVRGN APCNM WFL",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "MLNO BNCO GLTI + GROCERY + CONVENIENCE ITEMS",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "CHCKOUT BAG CHG",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

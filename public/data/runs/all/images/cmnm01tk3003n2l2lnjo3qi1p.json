@@ -1,0 +1,297 @@
+{
+  "id": "cmnm01tk3003n2l2lnjo3qi1p",
+  "url": null,
+  "retailer": "Stater Bros. Markets",
+  "brand": "alta dena dairy ",
+  "amount": 4.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Stater Bros",
+    "totalCost": "30.97",
+    "purchaseDate": "2026-04-04",
+    "time": null,
+    "zipCode": "91762",
+    "city": "Ontario",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7781.338041000003,
+        "totalUsd": 0.016479,
+        "inputTokens": 6114,
+        "outputTokens": 812,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stater Bros. Markets",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "30.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:23:54",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91762",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ontario",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1105 W. Philadelphia St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1564",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CT FRT MELON TRAY*",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 21.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALTA DENA MILK",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALTA DENA MILK",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STATER BROS.\nmarkets\n90TH\nANNIVERSARY\nStore #59\n1105 W. Philadelphia St.\nOntario\nCA 91762\n909 984-0517\nStore Manager: Alicia Campos\nCashier: Arnold\nCT FRT MELON TRAY* $21.99 F\nALTA DENA MILK $4.49 F\nALTA DENA MILK $4.49 F\nSubtotal *includes MfrCpns: $30.97\nTax: $0.00\nTotal: $30.97\nPaid:\nDebit $30.97\nNumber of ITEMS: 3\n04/04/2026 19:23:54\n015524\nDEBIT CARD\nPURCHASE\nCARD #: XXXXXXXXXXXX1564\nChip Card: US DEBIT\nAID: A0000000042203\nATC: 013B\nTSI: 6800 ARC: 24PL69\nTC: 35A74A43390886AC\nINVOICE: 470100273\nApproval Code: 24PL69\nEntry Method: Chip Read\nMode: Issuer-PIN Verified\nTotal: USD$ 30.97\nAPPROVED BY ISSUER\nMember ID: ********68\nSave even more with Digital Deals!\n****************************************\nDate: 04/04/2026 Time: 19:23",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12204.933292,
+        "totalUsd": 0.022902,
+        "inputTokens": 3706,
+        "outputTokens": 830,
+        "reasoningTokens": 1097
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stater Bros.",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "30.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:23:54",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91762",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ontario",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1105 W. Philadelphia St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1564",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CT FRT MELON TRAY*",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 21.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALTA DENA MILK",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALTA DENA MILK",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STATER BROS.\nmarkets\n90TH\nANNIVERSARY\nStore #59\n1105 W. Philadelphia St.\nOntario\nCA 91762\n909 984-0517\nStore Manager: Alicia Campos\n\nCashier: Arnold\n\nCT FRT MELON TRAY* $21.99 F\nALTA DENA MILK $4.49 F\nALTA DENA MILK $4.49 F\n\nSubtotal *includes MfrCpns: $30.97\nTax: $0.00\nTotal: $30.97\n\nPaid:\nDebit $30.97\nNumber of ITEMS: 3\n\n04/04/2026 19:23:54\n015524\n\nDEBIT CARD\nPURCHASE\n\nCARD #: XXXXXXXXXXXX1564\nChip Card: US DEBIT\nAID: A0000000042203\nATC: 013B\nTSI: 6800 ARC: 24PL69\nTC: 35A74A43390886AC\nINVOICE: 470100273\nApproval Code: 24PL69\nEntry Method: Chip Read\nMode: Issuer-PIN Verified\n\nTotal: USD$ 30.97\n\nAPPROVED BY ISSUER\n\nMember ID: ********68\n\nSave even more with Digital Deals!\n***********************************\nTime: 19:23\nDate: 04/04/2026\nStore# 59",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5211.543958,
+        "totalUsd": 0.01293,
+        "inputTokens": 3706,
+        "outputTokens": 819,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stater Bros.",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "30.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:23:54",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91762",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ontario",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1105 W. Philadelphia St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1564",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CT FRT MELON TRAY*",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 21.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALTA DENA MILK",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALTA DENA MILK",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "STATER BROS.\nmarkets\n90TH\nANNIVERSARY\nStore #59\n1105 W. Philadelphia St.\nOntario\nCA 91762\n909 984-0517\nStore Manager: Alicia Campos\nCashier: Arnold\nCT FRT MELON TRAY*\n$21.99 F\nALTA DENA MILK\n$4.49 F\nALTA DENA MILK\n$4.49 F\nSubtotal *includes MfrCpns:\n$30.97\nTax:\n$0.00\nTotal:\n$30.97\nPaid:\nDebit\n$30.97\nNumber of ITEMS:\n3\n04/04/2026\n19:23:54\n015524\nDEBIT CARD\nPURCHASE\nCARD #:\nXXXXXXXXXXXX1564\nChip Card:\nUS DEBIT\nAID:\nA0000000042203\nATC:\n013B\nTSI: 6800\nARC: 24PL69\nTC:\n35A74A43390886AC\nINVOICE:\n470100273\nApproval Code:\n24PL69\nEntry Method:\nChip Read\nMode:\nIssuer-PIN Verified\nTotal:\nUSD$ 30.97\nAPPROVED BY ISSUER\nMember ID:\n********68\nSave even more with Digital Deals!\n****************************************\nDate: 04/04/2026\nTime: 19:23",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CT FRT MELON TRAY",
+      "price": 21.99,
+      "quantity": 1,
+      "totalSpend": 21.99
+    },
+    {
+      "text": "ALTA DENA MILK",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "ALTA DENA MILK",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

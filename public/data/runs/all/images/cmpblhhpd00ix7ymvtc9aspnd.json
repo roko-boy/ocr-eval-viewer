@@ -1,0 +1,243 @@
+{
+  "id": "cmpblhhpd00ix7ymvtc9aspnd",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "Pepsi Food Service",
+  "amount": 3.89,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "4.13",
+    "purchaseDate": "2026-05-07",
+    "time": null,
+    "zipCode": "18103",
+    "city": "Allentown",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9348.28375100001,
+        "totalUsd": 0.015303,
+        "inputTokens": 6086,
+        "outputTokens": 686,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.13",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:25:56 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18103",
+          "status": "match"
+        },
+        "city": {
+          "value": "Allentown",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2901 Lehigh St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7842",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Pepsi Wild Cherry 2 Liter Si",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #773\n2901 Lehigh St\nAllentown, PA 18103\n(610) 871-0962\n5/7/2026 12:25:56 PM\nPOS Terminal\nOrder Number: 319\nRegister:21\nMy Sheetz Rewardz $0.00\nPepsi Wild Cherry 2 Liter Si $3.89\nSub. Total: $3.89\nTax: $0.24\nTotal: $4.13\nDiscount Total: $0.00\nDiscover: $4.13\nChange $0.00\nSale\nDiscover\nCard Num : XXXXXXXXXXXX7842\nContactless\nTerminal : XXXXXXXXXX1002\nApproval : 00786Q\nSequence : 040366\nUSD$ 4.13\nDISCOVER\nMode: Issuer\nAID: A00000015230100100000001\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXXXXXXXXXX\nTSI: 0800\nARC: 00\nARQC: OFA216FB2FA097E3\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0759\nTerminal : 20773\nApproval : 192748115",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8444.719666999998,
+        "totalUsd": 0.020352,
+        "inputTokens": 3692,
+        "outputTokens": 663,
+        "reasoningTokens": 983
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.13",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:25:56 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18103",
+          "status": "match"
+        },
+        "city": {
+          "value": "Allentown",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2901 Lehigh St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7842",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Pepsi Wild Cherry 2 Liter Si",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #773\n2901 Lehigh St\nAllentown, PA 18103\n(610) 871-0962\n5/7/2026 12:25:56 PM\nPOS Terminal\nOrder Number: 319\nRegister:21\nMy Sheetz Rewardz $0.00\nPepsi Wild Cherry 2 Liter Si $3.89\nSub. Total: $3.89\nTax: $0.24\nTotal: $4.13\nDiscount Total: $0.00\nDiscover: $4.13\nChange $0.00\nSale\nDiscover\nCard Num : XXXXXXXXXXXX7842\nContactless\nTerminal : XXXXXXXX1002\nApproval : 00786Q\nSequence : 040366\nUSD$ 4.13\nDISCOVER\nMode: Issuer\nAID: A00000015230100100000001\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXXXXXXXXXX\nTSI: 0800\nARC: 00\nARQC: OFA216FB2FA097E3\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0759\nTerminal : 20773\nApproval : 192748115",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4411.622583999997,
+        "totalUsd": 0.011496,
+        "inputTokens": 3692,
+        "outputTokens": 662,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.13",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:25:56 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18103",
+          "status": "match"
+        },
+        "city": {
+          "value": "Allentown",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2901 Lehigh St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7842",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Pepsi Wild Cherry 2 Liter Si",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 3.89,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #773\n2901 Lehigh St\nAllentown, PA 18103\n(610) 871-0962\n5/7/2026 12:25:56 PM\nPOS Terminal\nOrder Number: 319\nRegister:21\nMy Sheetz Rewardz $0.00\nPepsi Wild Cherry 2 Liter Si $3.89\nSub. Total: $3.89\nTax: $0.24\nTotal: $4.13\nDiscount Total: $0.00\nDiscover: $4.13\nChange $0.00\nSale\nDiscover\nCard Num : XXXXXXXXXXXX7842\nContactless\nTerminal : XXXXXXXX1002\nApproval : 00786Q\nSequence : 040366\nUSD$ 4.13\nDISCOVER\nMode: Issuer\nAID: A00000015230100100000001\nTVR: 0000008000\nIAD: XXXXXXXXXXXXXXXXXXXXXX\nTSI: 0800\nARC: 00\nARQC: OFA216FB2FA097E3\nMy Sheetz Rewardz\nCard Num : (*) XXXXXXXXXXXX0759\nTerminal : 20773\nApproval : 192748115",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Pepsi Wild Cherry 2 Liter Si",
+      "price": 3.89,
+      "quantity": 1,
+      "totalSpend": 3.89
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

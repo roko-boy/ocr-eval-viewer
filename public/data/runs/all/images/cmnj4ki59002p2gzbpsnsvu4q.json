@@ -1,0 +1,297 @@
+{
+  "id": "cmnj4ki59002p2gzbpsnsvu4q",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "Bachan's",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "24.53",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "46530",
+    "city": "Granger",
+    "state": "IN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7245.128750000033,
+        "totalUsd": 0.018192,
+        "inputTokens": 6086,
+        "outputTokens": 1007,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "24.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:33",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "46530",
+          "status": "match"
+        },
+        "city": {
+          "value": "Granger",
+          "status": "match"
+        },
+        "state": {
+          "value": "IN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "625 E University Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8678",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1199652 BUTER CROISS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1566350 BACHAN'S",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1796314 BEACH TOWEL + 0000377837 /1796314",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMishawaka #1183\n625 E University Dr\nGranger, IN 46530\nSELF-CHECKOUT\n7D Member 111966846933\n***START OF PRE-SCANNED ITEMS*********\n1199652 BUTER CROISS 5.99\n1566350 BACHAN'S 9.99\n1796314 BEACH TOWEL 9.99 A\n0000377837 /1796314 2.00-A\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 3\nSUBTOTAL 23.97\nTAX 0.56\n**** TOTAL 24.53\nXXXXXXXXXXXX8678 H\nAID: A0000000042203 VERIFIED BY PIN\nSeq# 204430 App#: 162263\nEFT/Debit Resp: APPROVED\nTran ID#: 609300204430....\nAPPROVED - Purchase\nAMOUNT: $24.53\n04/03/2026 12:33 1183 204 135 704\nEFT/Debit 24.53\nCHANGE 0.00\nA 7.0% TAX 0.56\nTOTAL TAX 0.56\nTOTAL NUMBER OF ITEMS SOLD = 3\nINSTANT SAVINGS $ 2.00\n04/03/2026 12:33 1183 204 135 704\n21118320401352604031233\nOP#: 704 Name: SCO\nThank You!\nPlease Come Again\nWhse:1183 Trm:204 Trn:135 OP:704\nItems Sold: 3\n7D 04/03/2026 12:33\n****************************************\nREMINDER:\nYour membership renewal fee will be\nadded to the first purchase after\nexpiration. To sign up for auto-\nrenewal please visit the membership\ncounter.\n****************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12717.27670799999,
+        "totalUsd": 0.031548,
+        "inputTokens": 3692,
+        "outputTokens": 1073,
+        "reasoningTokens": 1817
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "24.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:33",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "46530",
+          "status": "match"
+        },
+        "city": {
+          "value": "Granger",
+          "status": "match"
+        },
+        "state": {
+          "value": "IN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "625 E University Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8678",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1199652 BUTER CROISS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1566350 BACHAN'S",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1796314 BEACH TOWEL + 0000377837 /1796314",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMishawaka #1183\n625 E University Dr\nGranger, IN 46530\n\nSELF-CHECKOUT\n\n7D Member 111966846933\n\n***START OF PRE-SCANNED ITEMS**********\n\n1199652 BUTER CROISS      5.99\n1566350 BACHAN'S          9.99\n1796314 BEACH TOWEL       9.99 A\n0000377837 /1796314       2.00-A\n\n***END OF PRE-SCANNED ITEMS************\n\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 3\n\nSUBTOTAL                 23.97\nTAX                       0.56\n**** TOTAL               24.53\n\nXXXXXXXXXXXX8678          H\nAID: A0000000042203 VERIFIED BY PIN\nSeq# 204430      App#: 162263\nEFT/Debit    Resp: APPROVED\nTran ID#: 609300204430....\n\nAPPROVED - Purchase\nAMOUNT: $24.53\n04/03/2026 12:33 1183 204 135 704\n\nEFT/Debit                24.53\nCHANGE                    0.00\n\nA 7.0% TAX                0.56\nTOTAL TAX                 0.56\nTOTAL NUMBER OF ITEMS SOLD = 3\nINSTANT SAVINGS         $ 2.00\n04/03/2026 12:33 1183 204 135 704\n\n21118320401352604031233\nOP#: 704 Name: SCO\nThank You!\nPlease Come Again\nWhse:1183 Trm:204 Trn:135 OP:704\n\nItems Sold: 3\n7D 04/03/2026 12:33\n\n****************************************\n\nREMINDER:\n\nYour membership renewal fee will be\nadded to the first purchase after\nexpiration. To sign up for auto-\nrenewal please visit the membership\ncounter.\n****************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6013.251292000001,
+        "totalUsd": 0.014871,
+        "inputTokens": 3692,
+        "outputTokens": 1037,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "24.53",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:33",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "46530",
+          "status": "match"
+        },
+        "city": {
+          "value": "Granger",
+          "status": "match"
+        },
+        "state": {
+          "value": "IN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "625 E University Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8678",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1199652 BUTER CROISS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1566350 BACHAN'S",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1796314 BEACH TOWEL + 0000377837 /1796314",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nMishawaka #1183\n625 E University Dr\nGranger, IN 46530\nSELF-CHECKOUT\n7D Member 111966846933\n***START OF PRE-SCANNED ITEMS*********\n1199652 BUTER CROISS 5.99\n1566350 BACHAN'S 9.99\n1796314 BEACH TOWEL 9.99 A\n0000377837 /1796314 2.00-A\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 3\nSUBTOTAL 23.97\nTAX 0.56\n**** TOTAL 24.53\nXXXXXXXXXXXX8678 H\nAID: A0000000042203 VERIFIED BY PIN\nSeq# 204430 App#: 162263\nEFT/Debit Resp: APPROVED\nTran ID#: 609300204430....\nAPPROVED - Purchase\nAMOUNT: $24.53\n04/03/2026 12:33 1183 204 135 704\nEFT/Debit 24.53\nCHANGE 0.00\nA 7.0% TAX 0.56\nTOTAL TAX 0.56\nTOTAL NUMBER OF ITEMS SOLD = 3\nINSTANT SAVINGS $ 2.00\n04/03/2026 12:33 1183 204 135 704\n21118320401352604031233\nOP#: 704 Name: SCO\nThank You!\nPlease Come Again\nWhse:1183 Trm:204 Trn:135 OP:704\nItems Sold: 3\n7D 04/03/2026 12:33\n**************************************\nREMINDER:\nYour membership renewal fee will be\nadded to the first purchase after\nexpiration. To sign up for auto-\nrenewal please visit the membership\ncounter.\n**************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BUTER CROISS + 1199652",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "BACHAN'S + 1566350",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "BEACH TOWEL + 1796314",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

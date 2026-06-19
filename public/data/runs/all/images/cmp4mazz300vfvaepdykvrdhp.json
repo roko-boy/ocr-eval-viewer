@@ -1,0 +1,243 @@
+{
+  "id": "cmp4mazz300vfvaepdykvrdhp",
+  "url": null,
+  "retailer": "Publix Super Market at Shops at Walnut Creek",
+  "brand": "Like Air",
+  "amount": 2.24,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "2.24",
+    "purchaseDate": "2026-05-13",
+    "time": null,
+    "zipCode": "30228",
+    "city": "Hampton",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8164.008625000075,
+        "totalUsd": 0.015078,
+        "inputTokens": 6086,
+        "outputTokens": 661,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "2.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:48PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30228",
+          "status": "match"
+        },
+        "city": {
+          "value": "Hampton",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2400 Jonesboro Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2529",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Like Air White Cheddar Ft + You saved: $2.25",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.24,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nShops at Walnut Creek\n2400 Jonesboro Rd\nHampton, GA 30228\n(470) 369-9579\nStore Manager: Cheinel Byrd\nLike Air White Cheddar Ft 2.24\nYou saved: $2.25\nSubtotal 2.24\nFood Tax 4% - t 0.09\nTax Forgiven -0.09\nTotal Tax 0.00\nTotal 2.24\nEBT Food 2.24\nChange 0.00\nF/S Total 2.24\n****************************************\nSAVINGS: $2.25\n****************************************\nEBT: *2529 $2.24\nEBT Food Purchase\nAuth/Trace: 056031/712150 Swipe\nReference: 000269339908\nEnding Balance: $3.27\n05/13/2026 05:48PM\nThank you for shopping at store 1891\n7574, 0171, 771\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.\nTerms & conditions apply.\nPublix Super Markets, Inc.\n1891 5DR 717 574",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11062.86404100002,
+        "totalUsd": 0.025293,
+        "inputTokens": 3692,
+        "outputTokens": 645,
+        "reasoningTokens": 1550
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "2.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:48 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30228",
+          "status": "match"
+        },
+        "city": {
+          "value": "Hampton",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2400 Jonesboro Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2529",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Like Air White Cheddar Ft",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.24,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nShops at Walnut Creek\n2400 Jonesboro Rd\nHampton, GA 30228\n(470) 369-9579\nStore Manager: Cheinel Byrd\nLike Air White Cheddar Ft 2.24\nYou saved: $2.25\nSubtotal 2.24\nFood Tax 4% - t 0.09\nTax Forgiven -0.09\nTotal Tax 0.00\nTotal 2.24\nEBT Food 2.24\nChange 0.00\nF/S Total 2.24\n****************************************\nSAVINGS: $2.25\n****************************************\nEBT: *2529 $2.24\nEBT Food Purchase\nAuth/Trace: 056031/712150 Swipe\nReference: 000269339908\nEnding Balance: $3.27\n05/13/2026 05:48PM\nThank you for shopping at store 1891\n7574, 0171, 771\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.\nTerms & conditions apply.\nPublix Super Markets, Inc.\n1891 5DR 717 574",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4331.925125000009,
+        "totalUsd": 0.011352,
+        "inputTokens": 3692,
+        "outputTokens": 646,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "2.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:48 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30228",
+          "status": "match"
+        },
+        "city": {
+          "value": "Hampton",
+          "status": "match"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2400 Jonesboro Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2529",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Like Air White Cheddar Ft",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.24,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nShops at Walnut Creek\n2400 Jonesboro Rd\nHampton, GA 30228\n(470) 369-9579\nStore Manager: Cheinel Byrd\nLike Air White Cheddar Ft 2.24\nYou saved: $2.25\nSubtotal 2.24\nFood Tax 4% - t 0.09\nTax Forgiven -0.09\nTotal Tax 0.00\nTotal 2.24\nEBT Food 2.24\nChange 0.00\nF/S Total 2.24\n****************************************\nSAVINGS: $2.25\n****************************************\nEBT: *2529 $2.24\nEBT Food Purchase\nAuth/Trace: 056031/712150 Swipe\nReference: 000269339908\nEnding Balance: $3.27\n05/13/2026 05:48PM\nThank you for shopping at store 1891\n7574, 0171, 771\nClub Publix members save more.\nJoin today at clubpublix.com/newmember.\nTerms & conditions apply.\nPublix Super Markets, Inc.\n1891 5DR 717 574",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Like Air White Cheddar",
+      "price": 2.24,
+      "quantity": 1,
+      "totalSpend": 2.24
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

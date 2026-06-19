@@ -1,0 +1,310 @@
+{
+  "id": "cmqa81bk200kr11hi1xamnt70",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "f'real",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "16.66",
+    "purchaseDate": "2026-06-11",
+    "time": null,
+    "zipCode": "26201",
+    "city": "Buckhannon",
+    "state": "WV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9071.790917000035,
+        "totalUsd": 0.016347,
+        "inputTokens": 6086,
+        "outputTokens": 802,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:53:07 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "26201",
+          "status": "match"
+        },
+        "city": {
+          "value": "Buckhannon",
+          "status": "match"
+        },
+        "state": {
+          "value": "WV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "341 N Locust St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1558",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BBQ Brisket Nachos",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Cup of Fryz + Ranch",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FREAL 12OZ STRAW SHRTCK SHAK",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #214\n341 N Locust St\nBuckhannon, WV 26201\n(304) 318-8404\n6/11/2026 8:53:07 PM\nCSS Inside\nOrder Number: 759\nRegister:22\nBBQ Brisket Nachos $6.99\nCup of Fryz $3.79\n+ Ranch $0.80\nFREAL 12OZ STRAW SHRTCK SHAK $3.99\nSub. Total: $15.57\nTax: $1.09\nTotal: $16.66\nDiscount Total: $0.00\nVisa: $16.66\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX1558\nContactless\nTerminal : XXXXXXXXXX0002\nApproval : 142530\nSequence : 051515\nUSD$ 16.66\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 903A40DB544DB33D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8659.987625000009,
+        "totalUsd": 0.021936,
+        "inputTokens": 3692,
+        "outputTokens": 716,
+        "reasoningTokens": 1106
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "2620126201",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "341 N Locust St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BBQ Brisket Nachos",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Cup of Fryz",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+ Ranch",
+          "quantity": 1,
+          "unitPrice": 0.8,
+          "totalSpend": 0.8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL 12OZ STRAW SHRTCK SHAK",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #214\n341 N Locust St\nBuckhannon, WV 26201\n(304) 318-8404\n6/11/2026 8:53:07 PM\nCSS Inside\nOrder Number: 759\nRegister:22\nBBQ Brisket Nachos $6.99\nCup of Fryz $3.79\n+ Ranch $0.80\nFREAL 12OZ STRAW SHRTCK SHAK $3.99\nSub. Total: $15.57\nTax: $1.09\nTotal: $16.66\nDiscount Total: $0.00\nVisa: $16.66\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX1558\nContactless\nTerminal : XXXXXXXXXX0002\nApproval : 142530\nSequence : 051515\nUSD$ 16.66\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 903A40DB544DB33D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4831.795666999999,
+        "totalUsd": 0.01245,
+        "inputTokens": 3692,
+        "outputTokens": 768,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "8:53:07 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "26201",
+          "status": "match"
+        },
+        "city": {
+          "value": "Buckhannon",
+          "status": "match"
+        },
+        "state": {
+          "value": "WV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "341 N Locust St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1558",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BBQ Brisket Nachos",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Cup of Fryz + + Ranch",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FREAL 12OZ STRAW SHRTCK SHAK",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #214\n341 N Locust St\nBuckhannon, WV 26201\n(304) 318-8404\n6/11/2026 8:53:07 PM\nCSS Inside\nOrder Number: 759\nRegister:22\nBBQ Brisket Nachos $6.99\nCup of Fryz $3.79\n+ Ranch $0.80\nFREAL 12OZ STRAW SHRTCK SHAK $3.99\nSub. Total: $15.57\nTax: $1.09\nTotal: $16.66\nDiscount Total: $0.00\nVisa: $16.66\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX1558\nContactless\nTerminal : XXXXXXXXXX0002\nApproval : 142530\nSequence : 051515\nUSD$ 16.66\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 903A40DB544DB33D",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BBQ Brisket Nachos",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "Cup of Fryz",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "+ Ranch",
+      "price": 0.8,
+      "quantity": 1,
+      "totalSpend": 0.8
+    },
+    {
+      "text": "FREAL 12OZ STRAW SHRTCK SHAK",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 4,
+  "nullCount": 0
+}

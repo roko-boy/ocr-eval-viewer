@@ -1,0 +1,243 @@
+{
+  "id": "cmn527v5g002nha5rlshm6ca7",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "simple mills ",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "5.99",
+    "purchaseDate": "2026-03-23",
+    "time": null,
+    "zipCode": "92880",
+    "city": "Eastvale",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16781.56320800004,
+        "totalUsd": 0.0253545,
+        "inputTokens": 6169,
+        "outputTokens": 959,
+        "reasoningTokens": 830
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:37:14",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92880",
+          "status": "match"
+        },
+        "city": {
+          "value": "Eastvale",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13984 Limonite Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1216",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GARLIC SEED CRACKERS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n13984 Limonite Ave\nEastvale, CA 92880\n(909) 655-5356\nStore Hours MON-SUN 7AM-10PM\n03/23/2026 17:37:14\nMASTERCARD Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX1216\nPURCHASE - APPROVED\nAUTH CODE: 46517Z\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0114A140030200000004000000000000\nOOOFF\nTSI: A800\nARC: 00\nTC: 2133BB93C3E073DD\nMID: 608512 TID: 001 SEQ: 065097\nTotal: USD$ 5.99\nGROCERY\nGARLIC SEED CRACKERS 5.99 F\nBALANCE DUE 5.99\nCREDIT $5.99\n[ ] XXXXXXXXXXXX1216\nAuth# 46517Z Ref# 065097\nCHANGE 0.00\nCard XXXXXXXXXXX4412\nHave a Healthy Day Xiaochang!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 780\nTotal Points earned today: 30\nNew points balance: 810\n***********************************\n99044000618330821736\n72 HOUR SALE SATURDAY, SUNDAY, MONDAY MARCH 21ST-23RD\nSelect Frozen Seafood\nMIX & MATCH\nBUY ONE, GET ONE FREE\n*Of equal or lesser value. Discount taken at checkout. Select items only.\n***********************************\nCashier: Brittany Store: 440\nPOS: 006 Transaction: 1833\nMonday, March 23, 2026 05:36 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12482.27400000009,
+        "totalUsd": 0.028551,
+        "inputTokens": 3692,
+        "outputTokens": 947,
+        "reasoningTokens": 1610
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:37:14",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92880",
+          "status": "match"
+        },
+        "city": {
+          "value": "Eastvale",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13984 Limonite Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1216",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GARLIC SEED CRACKERS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n13984 Limonite Ave\nEastvale, CA 92880\n(909) 655-5356\nStore Hours MON-SUN 7AM-10PM\n03/23/2026 17:37:14\nMASTERCARD Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX1216\nPURCHASE - APPROVED\nAUTH CODE:46517Z\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD: 0114A140030200000004000000000000\nOOOFF\nTSI: A800\nARC: 00\nTC: 2133BB93C3E073DD\nMID: 608512 TID: 001 SEQ: 065097\nTotal: USD$ 5.99\nGROCERY\nGARLIC SEED CRACKERS 5.99 F\nBALANCE DUE 5.99\nCREDIT $5.99\n[ ] XXXXXXXXXXXX1216\nAuth# 46517Z Ref# 065097\nCHANGE 0.00\nCard XXXXXXXXXX4412\nHave a Healthy Day Xiaochang!\n********************************\nSprouts Rewards\nPrevious Points Balance: 780\nTotal Points earned today: 30\nNew points balance: 810\n********************************\n99044000618330821736\n72 HOUR SALE SATURDAY, SUNDAY, MONDAY MARCH 21ST-23RD\nSelect Frozen Seafood\nMIX & MATCH BUY ONE, GET ONE FREE\n*Of equal or lesser value. Discount taken at checkout. Select items only.\n****************************************\nCashier:Brittany Store: 440\nPOS:006 Transaction:1833\nMonday, March 23, 2026 05:36 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5942.944375000021,
+        "totalUsd": 0.01434,
+        "inputTokens": 3692,
+        "outputTokens": 978,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:37:14",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92880",
+          "status": "match"
+        },
+        "city": {
+          "value": "Eastvale",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13984 Limonite Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1216",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GARLIC SEED CRACKERS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n13984 Limonite Ave\nEastvale, CA 92880\n(909) 655-5356\nStore Hours MON-SUN 7AM-10PM\n03/23/2026\n17:37:14\nMASTERCARD\nEntry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX1216\nPURCHASE\n- APPROVED\nAUTH CODE: 46517Z\nMode:\nIssuer\nAID:\nA0000000041010\nTVR:\n0000008001\nIAD:\n0114A140030200000004000000000000\n000FF\nTSI:\nA800\nARC:\n00\nTC:\n2133BB93C3E073DD\nMID: 608512\nTID:\n001 SEQ: 065097\nTotal:\nUSD$ 5.99\nGROCERY\nGARLIC SEED CRACKERS\n5.99 F\nBALANCE DUE\n5.99\nCREDIT\n$5.99\n[ ] XXXXXXXXXXXX1216\nAuth# 46517Z\nRef# 065097\nCHANGE\n0.00\nCard XXXXXXXXXX4412\nHave a Healthy Day Xiaochang!\n***********************************\nSprouts Rewards\nPrevious Points Balance:\n780\nTotal Points earned today:\n30\nNew points balance:\n810\n***********************************\n99044000618330821736\n72 HOUR SALE SATURDAY, SUNDAY, MONDAY\nMARCH 21ST-23RD\nSelect\nFrozen Seafood\nMIX &\nMATCH\nBUY ONE, GET ONE\nFREE\n*Of equal or lesser value. Discount taken at checkout. Select items only.\n***********************************\nCashier: Brittany Store: 440\nPOS: 006 Transaction: 1833\nMonday, March 23, 2026 05:36 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GARLIC SEED CRACKERS",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

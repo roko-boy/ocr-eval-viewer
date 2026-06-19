@@ -1,0 +1,243 @@
+{
+  "id": "cmqfqfqgx01wcwdg2eofc69wa",
+  "url": null,
+  "retailer": "Blue Bottle Coffee",
+  "brand": "B.T.R. Nation",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Blue Bottle Coffee",
+    "totalCost": "3.5",
+    "purchaseDate": "2026-06-15",
+    "time": null,
+    "zipCode": "10018",
+    "city": "New York",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13023.954917,
+        "totalUsd": 0.015303,
+        "inputTokens": 6086,
+        "outputTokens": 686,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Blue Bottle Coffee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10018",
+          "status": "match"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "54 W 40th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3749",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BTR Bar + Spiced Chocolate Chip",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Blue Bottle Coffee\n54 W 40th St\nNew York, NY\n10018\n(510) 653-3394\nbluebottlecoffee.com\n@bluebottleny\n\nJune 15, 2026\n5:20 PM\nEmily\n\nTicket: Receipt #plOg\nReceipt: plOg\nAuthorization: 01587R\n\nCREDIT\nAID A0 00 00 01 52 30 10\n\nTO GO\n\nBTR Bar\nSpiced Chocolate Chip\n$3.50\n\nTotal\n$3.50\nDiscover 3749 (Contactless)\n$3.50\n\nNeed support?\nhttps://support.bluebottlecoffee.com/hc\n/en-us\n\nPlease visit us at\nhttps://bluebottlecoffee.com for brew\nguides, exclusive merchandise, and\ndelicious coffee.\n\n\"At Blue Bottle coffee, we want you to be\nhappy. Our goal is to provide our guests\nwith impeccable service, and delicious\ncoffee and food. If you are dissatisfied with\nyour Blue Bottle purchase, please let us\nknow.\n\nFor a refund on merchandise purchased in\nour cafes, we ask that you return the item\nto the cafe where it was purchased in new\ncondition, with a receipt, and within 30\ndays. We are happy to offer exchanges or\nstore credit if an item is returned at a\ndifferent store location.\n\nIf you purchased your merchandise online,\nplease email\nsupport@bluebottlecoffee.com to learn\nabout online returns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10769.562375,
+        "totalUsd": 0.021027,
+        "inputTokens": 3692,
+        "outputTokens": 676,
+        "reasoningTokens": 1045
+      },
+      "fields": {
+        "storeName": {
+          "value": "Blue Bottle Coffee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10018",
+          "status": "match"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "54 W 40th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3749",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BTR Bar + Spiced Chocolate Chip",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Blue Bottle Coffee\n54 W 40th St\nJune 15, 2026\nNew York, NY\n5:20 PM\n10018\nEmily\n(510) 653-3394\nbluebottlecoffee.com\n@bluebottleny\n\nTicket: Receipt #plOg\nReceipt: plOg\nAuthorization: 01587R\n\nCREDIT\nAID A0 00 00 01 52 30 10\n\nTO GO\n\nBTR Bar\n$3.50\nSpiced Chocolate Chip\n\nTotal\n$3.50\nDiscover 3749 (Contactless)\n$3.50\n\nNeed support?\nhttps://support.bluebottlecoffee.com/hc\n/en-us\n\nPlease visit us at\nhttps://bluebottlecoffee.com for brew\nguides, exclusive merchandise, and\ndelicious coffee.\n\n\"At Blue Bottle coffee, we want you to be\nhappy. Our goal is to provide our guests\nwith impeccable service, and delicious\ncoffee and food. If you are dissatisfied with\nyour Blue Bottle purchase, please let us\nknow.\n\nFor a refund on merchandise purchased in\nour cafes, we ask that you return the item\nto the cafe where it was purchased in new\ncondition, with a receipt, and within 30\ndays. We are happy to offer exchanges or\nstore credit if an item is returned at a\ndifferent store location.\n\nIf you purchased your merchandise online,\nplease email\nsupport@bluebottlecoffee.com to learn\nabout online returns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4260.116082999999,
+        "totalUsd": 0.011469,
+        "inputTokens": 3692,
+        "outputTokens": 659,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Blue Bottle Coffee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10018",
+          "status": "match"
+        },
+        "city": {
+          "value": "New York",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "54 W 40th St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3749",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BTR Bar + Spiced Chocolate Chip",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Blue Bottle Coffee\n54 W 40th St\nNew York, NY\n10018\n(510) 653-3394\nbluebottlecoffee.com\n@bluebottleny\nJune 15, 2026\n5:20 PM\nEmily\nTicket: Receipt #plOg\nReceipt: plOg\nAuthorization: 01587R\nCREDIT\nAID A0 00 00 01 52 30 10\nTO GO\nBTR Bar\nSpiced Chocolate Chip\n$3.50\nTotal\n$3.50\nDiscover 3749 (Contactless)\n$3.50\nNeed support?\nhttps://support.bluebottlecoffee.com/hc\n/en-us\nPlease visit us at\nhttps://bluebottlecoffee.com for brew\nguides, exclusive merchandise, and\ndelicious coffee.\n\"At Blue Bottle coffee, we want you to be\nhappy. Our goal is to provide our guests\nwith impeccable service, and delicious\ncoffee and food. If you are dissatisfied with\nyour Blue Bottle purchase, please let us\nknow.\nFor a refund on merchandise purchased in\nour cafes, we ask that you return the item\nto the cafe where it was purchased in new\ncondition, with a receipt, and within 30\ndays. We are happy to offer exchanges or\nstore credit if an item is returned at a\ndifferent store location.\nIf you purchased your merchandise online,\nplease email\nsupport@bluebottlecoffee.com to learn\nabout online returns.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BTR Bar + Spiced Chocolate Chip",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

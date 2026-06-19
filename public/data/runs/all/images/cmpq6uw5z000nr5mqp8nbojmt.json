@@ -1,0 +1,243 @@
+{
+  "id": "cmpq6uw5z000nr5mqp8nbojmt",
+  "url": null,
+  "retailer": "Trader Joe's",
+  "brand": "RationAle Brewing",
+  "amount": 5.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Trader Joe's",
+    "totalCost": "11.9",
+    "purchaseDate": "2026-05-28",
+    "time": null,
+    "zipCode": "75230",
+    "city": "Dallas",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7820.35033299998,
+        "totalUsd": 0.014745,
+        "inputTokens": 6086,
+        "outputTokens": 624,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Trader Joe's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:06",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75230",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dallas",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7939 Walnut Hill Lane, Bldg. A",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8192",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "T RATIONALE NON ALC MEXICA",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "TRADER JOE'S\n\n7939 Walnut Hill Lane, Bldg. A\nDallas, TX 75230\nStore #0401 - 214-346-6579\n\nOPEN 8:00AM TO 9:00PM DAILY\n\nSALE TRANSACTION\n\nT RATIONALE NON ALC MEXICA $10.99\nTax: $10.99 @ 8.25% $0.91\nItems in Transaction:1\nBalance to pay $11.90\nVISA $11.90\n----------------------------------------\nPAYMENT CARD PURCHASE TRANSACTION\nCUSTOMER COPY\n\nUS DEBIT ************8192\nType: MOBILE Auth Code: 040503\nMID: *******65070 TID: ****0614\nTOTAL PURCHASE $11.90\n\nCardholder PIN Verified\n\nPlease retain for your records\n----------------------------------------\nL, Larry\nSTORE TILL TRANS. DATE\n0401 5 37099 05-28-2026 19:06\n\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nwww.traderjoes.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 79538.64791600002,
+        "totalUsd": 0.020772,
+        "inputTokens": 3786,
+        "outputTokens": 616,
+        "reasoningTokens": 1061
+      },
+      "fields": {
+        "storeName": {
+          "value": "Trader Joe's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:06",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75230",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dallas",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7939 Walnut Hill Lane, Bldg. A",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8192",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "T RATIONALE NON ALC MEXICA",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "TRADER JOE'S\n\n7939 Walnut Hill Lane, Bldg. A\nDallas, TX 75230\nStore #0401 - 214-346-6579\n\nOPEN 8:00AM TO 9:00PM DAILY\n\nSALE TRANSACTION\n\nT RATIONALE NON ALC MEXICA $10.99\n\nTax: $10.99 @ 8.25% $0.91\n\nItems in Transaction:1\nBalance to pay $11.90\nVISA $11.90\n----------------------------------------\nPAYMENT CARD PURCHASE TRANSACTION\nCUSTOMER COPY\n\nUS DEBIT ************8192\nType: MOBILE Auth Code: 040503\nMID: *******65070 TID: ****0614\nTOTAL PURCHASE $11.90\n\nCardholder PIN Verified\n\nPlease retain for your records\n----------------------------------------\nL, Larry\nSTORE TILL TRANS. DATE\n0401 5 37099 05-28-2026 19:06\n\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nwww.traderjoes.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4608.008583000003,
+        "totalUsd": 0.011046,
+        "inputTokens": 3692,
+        "outputTokens": 612,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Trader Joe's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:06",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75230",
+          "status": "match"
+        },
+        "city": {
+          "value": "Dallas",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "7939 Walnut Hill Lane, Bldg. A",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8192",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "T RATIONALE NON ALC MEXICA",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "TRADER JOE'S\n\n7939 Walnut Hill Lane, Bldg. A\nDallas, TX 75230\nStore #0401 - 214-346-6579\n\nOPEN 8:00AM TO 9:00PM DAILY\n\nSALE TRANSACTION\n\nT RATIONALE NON ALC MEXICA $10.99\nTax: $10.99 @ 8.25% $0.91\nItems in Transaction:1\nBalance to pay $11.90\nVISA $11.90\n----------------------------------------\nPAYMENT CARD PURCHASE TRANSACTION\nCUSTOMER COPY\n\nUS DEBIT ************8192\nType: MOBILE Auth Code: 040503\nMID: *******65070 TID: ****0614\nTOTAL PURCHASE $11.90\n\nCardholder PIN Verified\n\nPlease retain for your records\n----------------------------------------\nL, Larry\nSTORE TILL TRANS. DATE\n0401 5 37099 05-28-2026 19:06\n\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nwww.traderjoes.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "T RATIONALE NON ALC MEXICA",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

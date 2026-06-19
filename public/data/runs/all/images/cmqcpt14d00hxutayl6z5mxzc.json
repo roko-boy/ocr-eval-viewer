@@ -1,0 +1,235 @@
+{
+  "id": "cmqcpt14d00hxutayl6z5mxzc",
+  "url": null,
+  "retailer": "ACME Fresh Market",
+  "brand": "phx hydration energy",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "ACME Fresh Market",
+    "totalCost": "3.2",
+    "purchaseDate": "2026-06-13",
+    "time": null,
+    "zipCode": "44721",
+    "city": "Canton",
+    "state": "OH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7061.742459000001,
+        "totalUsd": 0.015258,
+        "inputTokens": 6086,
+        "outputTokens": 681,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Acme Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:52pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9105",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PHX ENERGY WLD BRY",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ACME\nFresh Market\n\nSupport Local with Acme!\nwww.acmestores.com/ccb\nACME #15 (330) 666-6781\nYour cashier today is SCO 7\n\n1 @ 2/6.00\nPHX ENERGY WLD BRY 3.00 B\nTAX 0.20\n**** BALANCE 3.20\n\nACME EPS MASTERCARD RECEIPT\nACME #15\nAmount $3.20\nCARD#************9105\nTYPE:Purchase APPROVED 06951P\nEntry Mode:H\nCashback:$0.00\nTVR:0000008001\nTSI:E800\n\n06/13/26 02:52pm 77 15\n\nMASTERCARD 3.20\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/13/26 02:52pm 15 77 92 787\n\nRECEIPT REWARDS\n\nPromotions in Progress\nEarn 2.5% Beef Rewards on every dollar\nyou spend!\n\nGo to acmestores.com for complete\ndetails and to unlock your free beef!\n\n*****THANK YOU FOR SHOPPING ACME******\n\nAcme Card #41004094582\nRECEIPT REQUIRED FOR REFUND\n\nCreate Account! acmestores.com\nSpecial Offers & Weekly ad by email\n\n06/13/26 02:52pm 15 77 92 787",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 6633.906749999995,
+        "totalUsd": 0.015366,
+        "inputTokens": 3692,
+        "outputTokens": 671,
+        "reasoningTokens": 421
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:52pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "44333",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PHX ENERGY WLD BRY",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ACME\nFresh Market\n\nSupport Local with Acme!\nwww.acmestores.com/ccb\nACME #15 (330) 666-6781\nYour cashier today is SCO 7\n\n1 @ 2/6.00\nPHX ENERGY WLD BRY 3.00 B\nTAX 0.20\n**** BALANCE 3.20\n\nACME EPS MASTERCARD RECEIPT\nACME #15\nAmount $3.20\nCARD#************9105\nTYPE: Purchase APPROVED 06951P\nEntry Mode: H\nCashback: $0.00\nTVR: 0000008001\nTSI: E800\n\n06/13/26 02:52pm 77 15\n\nMASTERCARD 3.20\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/13/26 02:52pm 15 77 92 787\n\nRECEIPT REWARDS\n\nPromotions in Progress\nEarn 2.5% Beef Rewards on every dollar\nyou spend!\n\nGo to acmestores.com for complete\ndetails and to unlock your free beef!\n\n*****THANK YOU FOR SHOPPING ACME******\n\nAcme Card #41004094582\nRECEIPT REQUIRED FOR REFUND\n\nCreate Account! acmestores.com\nSpecial Offers & Weekly ad by email\n\n06/13/26 02:52pm 15 77 92 787",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PHX ENERGY WLD BRY",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    }
+  ],
+  "disagreementCount": 3,
+  "nullCount": 1
+}

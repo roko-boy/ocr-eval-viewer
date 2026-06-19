@@ -1,0 +1,243 @@
+{
+  "id": "cmpd79obh00011102b2jiorcw",
+  "url": null,
+  "retailer": "Hometown Market",
+  "brand": "f'real",
+  "amount": 2.3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Hometown Market",
+    "totalCost": "9.18",
+    "purchaseDate": "2026-05-19",
+    "time": null,
+    "zipCode": "98815",
+    "city": "CASHMERE",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12461.1905,
+        "totalUsd": 0.014646,
+        "inputTokens": 6086,
+        "outputTokens": 613,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hometown Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:20:34 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98615",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "CASHMERE",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "300 APLETS WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6867",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Milkshake",
+          "quantity": 2,
+          "unitPrice": 4.59,
+          "totalSpend": 9.18,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HOMETOWN MARKET\n300 APLETS WAY\nCASHMERE, WA 98615\nXXXXXXXXXX9001\n\n5/19/2026 3:20:34 PM\nRegister: 2 Trans #: 46474 Op ID: 123\nYour cashier: Erick\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nMilkshake\n2 @ $4.59\n$9.18 99\n\nSubtotal = $9.18\nTax = $0.00\nTotal = $9.18\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nDebit $9.18\n\nXXXX XXXX XXXX 6867 Debit\nINVOICE: 026231\nAUTH: 027966\n----------------------------------------\nPOS Purchase/Capture\nSequence Number 32709\nChip Read\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 8000048000\nIAD: 06011203A0A000\nTSI: 6800\nARC: 00\nAPPROVED 027966\nVerified by PIN\n========================================\n\nThank You!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9846.232333,
+        "totalUsd": 0.022557,
+        "inputTokens": 3692,
+        "outputTokens": 617,
+        "reasoningTokens": 1274
+      },
+      "fields": {
+        "storeName": {
+          "value": "HOMETOWN MARKET",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:20:34 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98815",
+          "status": "match"
+        },
+        "city": {
+          "value": "CASHMERE",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "300 APLETS WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6867",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Milkshake",
+          "quantity": 2,
+          "unitPrice": 4.59,
+          "totalSpend": 9.18,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HOMETOWN MARKET\n300 APLETS WAY\nCASHMERE, WA 98815\nXXXXXXXXX9001\n\n5/19/2026 3:20:34 PM\nRegister: 2 Trans #: 46474 Op ID: 123\nYour cashier: Erick\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nMilkshake\n2 @ $4.59                     $9.18 99\n\n                         -----------\n             Subtotal =       $9.18\n                  Tax =       $0.00\n                         -----------\n                Total =       $9.18\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nDebit                         $9.18\n\nXXXX XXXX XXXX 6867 Debit\nINVOICE: 026231\nAUTH: 027966\n------------------------------------\nPOS Purchase/Capture\nSequence Number 32709\nChip Read\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 8000048000\nIAD: 06011203A0A000\nTSI: 6800\nARC: 00\nAPPROVED 027966\nVerified by PIN\n====================================\n\n             Thank You!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4111.361999999999,
+        "totalUsd": 0.010893,
+        "inputTokens": 3692,
+        "outputTokens": 595,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "HOMETOWN MARKET",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:20:34 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98615",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "CASHMERE",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "300 APLETS WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6867",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Milkshake",
+          "quantity": 2,
+          "unitPrice": 4.59,
+          "totalSpend": 9.18,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HOMETOWN MARKET\n300 APLETS WAY\nCASHMERE, WA 98615\nXXXXXXXXX9001\n\n5/19/2026 3:20:34 PM\nRegister: 2 Trans #: 46474 Op ID: 123\nYour cashier: Erick\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nMilkshake\n2 @ $4.59\n$9.18 99\n\nSubtotal = $9.18\nTax = $0.00\nTotal = $9.18\n\n*** REPRINT *** REPRINT *** REPRINT ***\n\nDebit $9.18\n\nXXXX XXXX XXXX 6867 Debit\nINVOICE: 026231\nAUTH: 027966\n\nPOS Purchase/Capture\nSequence Number 32709\nChip Read\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 8000048000\nIAD: 06011203A0A000\nTSI: 6800\nARC: 00\nAPPROVED 027966\nVerified by PIN\n\nThank You!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Milkshake + 2 @ $4.59 $9.18 99",
+      "price": 4.59,
+      "quantity": 2,
+      "totalSpend": 9.18
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

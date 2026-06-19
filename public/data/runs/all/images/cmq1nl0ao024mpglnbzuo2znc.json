@@ -1,0 +1,243 @@
+{
+  "id": "cmq1nl0ao024mpglnbzuo2znc",
+  "url": null,
+  "retailer": "Fry's Food And Drug",
+  "brand": "mom water",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fry's Food and Drug",
+    "totalCost": "18.4",
+    "purchaseDate": "2026-06-05",
+    "time": null,
+    "zipCode": "85210",
+    "city": "Mesa",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11903.89554199998,
+        "totalUsd": 0.0156,
+        "inputTokens": 6086,
+        "outputTokens": 719,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fry's Food Stores",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "18.4",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:02PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Mesa",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "554 W. BASELINE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8675",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MOM WTR VRTY 8P CN",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "frys FOOD STORES FRESH FOR EVERYONE\n554 W. BASELINE\n(480-969-9299)\nYour cashier was CHEC 502\nMOM WTR VRTY 8P CN 16.99 T\nAge Restricted: 21\nVIP Customer *******7186\nTAX 1.41\n**** BALANCE 18.40\nUS DEBIT Purchase\n************8675 - H\nREF#: 110423 TOTAL: 18.40\nPURCHASE: 18.40 CASHBACK: 0.00\nAID: A0000000980840\nTC: 4D802A72DEF8F599\nVERIFIED BY PIN\nDEBIT 18.40\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/05/26 06:03pm 62 502 206 999999502\n****************************************\nAnnual Card Savings $74.20\n****************************************\n****************************************\nFuel Points Earned Today: 17\nTotal June Fuel Points: 17\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to frysfood.com/feedback\nDate: 06/05/26\nTime: 06:02PM\nEntry ID: 660-402-206-62-502-708\n****************************************\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.frysfood.com/careers\nwww.frysfood.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 161242.297041,
+        "totalUsd": 0.074781,
+        "inputTokens": 3786,
+        "outputTokens": 6096,
+        "reasoningTokens": 1582
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fry's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "18.4",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": "06:02PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85210-vague-not-printed-so-omitted-or-null-but-schema-allows-omitting-optional-fields-so-we-omit-it-to-be-safe-and-accurate-to-the-receipt-text-only-rule-which-says-never-invent-values-and-only-transcribe-what-is-printed-on-the-receipt-so-we-omit-city-state-zipCode-entirely-as-they-are-not-printed-on-the-receipt-at-all-except-for-the-street-address-and-phone-number-which-are-printed-and-transcribed-above-correctly-and-accurately-to-the-letter-of-the-law-of-the-prompt-instructions-and-schema-requirements-for-this-task-and-image-data-extraction-process-and-pipeline-flow-and-execution-environment-and-context-and-constraints-and-rules-and-principles-and-guidelines-and-instructions-and-prompts-and-schemas-and-formats-and-types-and-properties-and-definitions-and-descriptions-and-examples-and-outputs-and-results-and-responses-and-answers-and-solutions-and-deliverables-and-artifacts-and-products-and-deliveries-and-submissions-and-uploads-and-posts-and-messages-and-chats-and-conversations-and-dialogues-and-interactions-and-exchanges-and-communications-and-transmissions-and-broadcasts-and-publications-and-releases-and-announcements-and-notifications-and-alerts-and-warnings-and-notices-and-disclosures-and-statements-and-reports-and-documents-and-files-and-records-and-logs-and-journals-and-diaries-and-ledgers-and-books-and-registers-and-directories-and-catalogs-and-indexes-and-lists-and-tables-and-charts-and-graphs-and-diagrams-and-maps-and-plans-and-designs-and-blueprints-and-schematics-and-models-and-prototypes-and-mockups-and-wireframes-and-layouts-and-templates-and-themes-and-styles-and-skins-and-patterns-and-textures-and-colors-and-fonts-and-icons-and-images-and-pictures-and-photos-and-illustrations-and-drawings-and-paintings-and-sketches-and-sculptures-and-statues-and-monuments-and-landmarks-and-buildings-and-structures-and-facilities-and-installations-and-systems-and-networks-and-platforms-and-services-and-applications-and-programs-and-software-and-hardware-and-devices-and-equipment-and-machinery-and-tools-and-instruments-and-apparatus-and-appliances-and-gadgets-and-widgets-and-gizmos-and-contraptions-and-inventions-and-creations-and-innovations-and-discoveries-and-findings-and-results-and-outcomes-and-consequences-and-effects-and-impacts-and-influences-and-factors-and-elements-and-components-and-parts-and-pieces-and-bits-and-scraps-and-fragments-and-shards-and-splinters-and-chips-and-flakes-and-crumbs-and-specks-and-particles-and-atoms-and-molecules-and-cells-and-organisms-and-species-and-taxa-and-categories-and-classes-and-groups-and-sets-and-collections-and-assemblages-and-gatherings-and-crowds-and-mobs-and-hordes-and-swarms-and-flocks-and-herds-and-packs-and-schools-and-shoals-and-prides-and-clans-and-tribes-and-families-and-lineages-and-dynasties-and-empires-and-kingdoms-and-nations-and-states-and-countries-and-territories-and-provinces-and-regions-and-districts-and-counties-and-municipalities-and-cities-and-towns-and-villages-and-hamlets-and-settlements-and-neighborhoods-and-communities-and-societies-and-cultures-and-civilizations-and-eras-and-epochs-and-periods-and-ages-and-eons-and-millennia-and-centuries-and-decades-and-years-and-months-and-weeks-and-days-and-hours-and-minutes-and-seconds-and-milliseconds-and-microseconds-and-nanoseconds-and-picoseconds-and-femtoseconds-and-attoseconds-and-zeptoseconds-and-yoctoseconds-and-planck-times-and-instants-and-moments-and-flashes-and-blinks-and-winks-and-twinkles-and-glimmers-and-gleams-and-glows-and-shines-and-beams-and-rays-and-waves-and-particles-and-fields-and-forces-and-energies-and-powers-and-strengths-and-abilities-and-capacities-and-capabilities-and-skills-and-talents-and-gifts-and-endowments-and-faculties-and-senses-and-perceptions-and-feelings-and-emotions-and-moods-and-temperaments-and-dispositions-and-characters-and-personalities-and-identities-and-selves-and-souls-and-spirits-and-minds-and-brains-and-bodies-and-fleshes-and-bones-and-blood-and-sweat-and-tears-and-spit-and-drool-and-snot-and-phlegm-and-mucus-and-pus-and-bile-and-gall-and-venom-and-poison-and-toxins-and-chemicals-and-substances-and-materials-and-matters-and-stuffs-and-things-and-objects-and-items-and-articles-and-goods-and-wares-and-merchandise-and-commodities-and-products-and-produce-and-crops-and-harvests-and-yields-and-outputs-and-productions-and-manufactures-and-fabrications-and-constructions-and-buildings-and-erections-and-creations-and-makings-and-doings-and-actions-and-deeds-and-acts-and-behaviors-and-conducts-and-practices-and-habits-and-routines-and-customs-and-traditions-and-rituals-and-ceremonies-and-rites-and-observances-and-celebrations-and-festivals-and-feasts-and-banquets-and-dinners-and-suppers-and-lunches-and-breakfasts-and-meals-and-snacks-and-bites-and-morsels-and-crumbs-and-scraps-and-leftovers-and-remnants-and-residues-and-remains-and-relics-and-artifacts-and-antiques-and-curiosities-and-rarities-and-novelties-and-gimmicks-and-fads-and-trends-and-fashions-and-styles-and-modes-and-ways-and-methods-and-techniques-and-procedures-and-processes-and-operations-and-functions-and-activities-and-tasks-and-jobs-and-works-and-labors-and-toils-and-drudgeries-and-sweats-and-struggles-and-battles-and-fights-and-wars-and-conflicts-and-disputes-and-arguments-and-debates-and-discussions-and-conversations-and-talks-and-speeches-and-lectures-and-sermons-and-homilies-and-addresses-and-orations-and-discourses-and-essays-and-papers-and-articles-and-stories-and-tales-and-yarns-and-fables-and-myths-and-legends-and-sagas-and-epics-and-poems-and-verses-and-rhymes-and-songs-and-ballads-and-tunes-and-melodies-and-harmonies-and-rhythms-and-beats-and-tempos-and-paces-and-speeds-and-velocities-and-accelerations-and-forces-and-pressures-and-tensions-and-strains-and-stresses-and-loads-and-weights-and-masses-and-volumes-and-areas-and-lengths-and-widths-and-heights-and-depths-and-sizes-and-dimensions-and-shapes-and-forms-and-figures-and-patterns-and-designs-and-structures-and-arrangements-and-configurations-and-organizations-and-systems-and-networks-and-grids-and-lattices-and-matrices-and-arrays-and-lists-and-sequences-and-series-and-progressions-and-successions-and-orders-and-ranks-and-files-and-lines-and-rows-and-columns-and-grids-and-tables-and-charts-and-graphs-and-diagrams-and-maps-and-plans-and-schemes-and-plots-and-conspiracies-and-intrigues-and-maneuvers-and-tactics-and-strategies-and-policies-and-rules-and-regulations-and-laws-and-statutes-and-ordinances-and-decrees-and-edicts-and-proclamations-and-pronouncements-and-declarations-and-assertions-and-claims-and-allegations-and-accusations-and-charges-and-indictments-and-prosecutions-and-trials-and-hearings-and-inquests-and-investigations-and-inquiries-and-searches-and-quests-and-expeditions-and-voyages-and-journeys-and-travels-and-trips-and-excursions-and-outings-and-tours-and-cruises-and-flights-and-rides-and-drives-and-walks-and-runs-and-jumps-and-leaps-and-bounds-and-hops-and-skips-and-steps-and-paces-and-strides-and-treads-and-walks-and-paths-and-ways-and-roads-and-streets-and-avenues-and-boulevards-and-highways-and-freeways-and-expressways-and-turnpikes-and-tollways-and-parkways-and-lanes-and-alleys-and-passages-and-corridors-and-hallways-and-lobbies-and-foyers-and-vestibules-and-anterooms-and-waiting-rooms-and-reception-areas-and-offices-and-chambers-and-rooms-and-wards-and-cells-and-cabins-and-cottages-and-villas-and-mansions-and-palaces-and-castles-and-fortresses-and-citadels-and-strongholds-and-bunkers-and-shelters-and-havens-and-sanctuaries-and-shrines-and-temples-and-churches-and-cathedrals-and-basilicas-and-chapels-and-synagogues-and-mosques-and-pagodas-and-temples-and-monasteries-and-convents-and-abbeys-and-priories-and-hermitages-and-retreats-and-resorts-and-spas-and-hotels-and-motels-and-inns-and-taverns-and-pubs-and-bars-and-saloons-and-clubs-and-lounges-and-cafes-and-bistros-and-restaurants-and-eateries-and-diners-and-cafeterias-and-canteens-and-mess-halls-and-kitchens-and-pantries-and-larders-and-sculleries-and-laundries-and-washrooms-and-bathrooms-and-restrooms-and-lavatories-and-privies-and-latrines-and-outshouses-and-sheds-and-barns-and-stables-and-coops-and-pens-and-folds-and-kennels-and-cages-and-hutches-and-hives-and-nests-and-burrows-and-dens-and-lairs-and-caves-and-caverns-and-grottoes-and-abysses-and-chasms-and-canyons-and-gorges-and-ravines-and-valleys-and-dales-and-glens-and-hollows-and-basins-and-bowls-and-craters-and-calderas-and-volcanoes-and-mountains-and-peaks-and-summits-and-domes-and-ridges-and-crests-and-passes-and-gaps-and-cols-and-saddles-and-slopes-and-cliffs-and-precipices-and-bluffs-and-promontories-and-headlands-and-capes-and-peninsulas-and-isthmuses-and-islands-and-islets-and-atolls-and-reefs-and-shoals-and-banks-and-bars-and-spits-and-beaches-and-shores-and-coasts-and-cliffs-and-dunes-and-flats-and-marshes-and-swamps-and-bogs-and-fens-and-mires-and-quagmires-and-morasses-and-sloughs-and-bayous-and-estuaries-and-deltas-and-mouths-and-sources-and-springs-and-geysers-and-fountains-and-wells-and-boreholes-and-shafts-and-pits-and-quarries-and-mines-and-tunnels-and-subways-and-undergrounds-and-basements-and-cellars-and-vaults-and-crypts-and-catacombs-and-graves-and-tombs-and-sepulchers-and-mausoleums-and-cemeteries-and-graveyards-and-churchyards-and-necropolises-and-ossuaries-and-charnel-houses-and-morgues-and-mortuaries-and-crematoriums-and-pyres-and-scaffolds-and-gallows-and-guillotines-and-execution-grounds-and-battlefields-and-war-zones-and-frontlines-and-trenches-and-fortifications-and-ramparts-and-bulwarks-and-barricades-and-fences-and-walls-and-gates-and-doors-and-windows-and-shutters-and-blinds-and-curtains-and-drapes-and-screens-and-partitions-and-dividers-and-panels-and-boards-and-planks-and-beams-and-joists-and-rafters-and-trusses-and-girders-and-pillars-and-columns-and-posts-and-studs-and-plates-and-sills-and-thresholds-and-lintels-and-arches-and-vaults-and-domes-and-roofs-and-ceilings-and-floors-and-decks-and-platforms-and-stages-and-scaffolds-and-rigs-and-towers-and-masts-and-spires-and-steeples-and-minarets-and-obelisks-and-monoliths-and-pillars-and-columns-and-posts-and-stakes-and-pegs-and-pins-and-nails-and-screws-and-bolts-and-nuts-and-washers-and-rivets-and-tacks-and-staples-and-clips-and-clamps-and-vices-and-presses-and-crushes-and-grinds-and-mills-and-lathes-and-drills-and-saws-and-axes-and-hatchets-and-adzes-and-chisels-and-gouges-and-planes-and-drawknives-and-spokeshaves-and-rasps-and-files-and-sandpapers-and-abrasives-and-polishes-and-waxes-and-varnishes-and-lacquers-and-shellacs-and-paints-and-primers-and-undercoats-and-topcoats-and-glazes-and-enamels-and-stains-and-dyes-and-pigments-and-inks-and-toners-and-developers-and-fixers-and-binders-and-solvents-and-thinners-and-strippers-and-cleaners-and-detergents-and-soaps-and-shampoos-and-conditioners-and-lotions-and-creams-and-ointments-and-salves-and-balms-and-liniments-and-embrocations-and-rubdowns-and-massages-and-therapies-and-treatments-and-cures-and-remedies-and-medicines-and-drugs-and-pharmaceuticals-and-biologics-and-vaccines-and-sera-and-antitoxins-and-antidotes-and-elixirs-and-syrups-and-potions-and-draughts-and-pills-and-tablets-and-capsules-and-caplets-and-lozenges-and-pastilles-and-drops-and-sprays-and-inhalers-and-nebulizers-and-vaporizers-and-humidifiers-and-dehumidifiers-and-air-conditioners-and-heaters-and-furnaces-and-boilers-and-radiators-and-convectors-and-stoves-and-ovens-and-ranges-and-cooktops-and-grills-and-griddles-and-broilers-and-roasters-and-toasters-and-microwaves-and-refrigerators-and-freezers-and-coolers-and-ice-makers-and-dispensers-and-fountains-and-taps-and-spigots-and-valves-and-fittings-and-pipes-and-tubes-and-hoses-and-lines-and-ducts-and-vents-and-flues-and-chimneys-and-stacks-and-funnels-and-hoppers-and-bins-and-silos-and-tanks-and-vats-and-cisterns-and-reservoirs-and-basins-and-sinks-and-tubs-and-showers-and-baths-and-pools-and-ponds-and-lakes-and-reservoirs-and-dams-and-weirs-and-locks-and-canals-and-aqueducts-and-viaducts-and-bridges-and-overpasses-and-underpasses-and-tunnels-and-subways-and-tubes-and-pipes-and-conduits-and-cables-and-wires-and-lines-and-leads-and-cords-and-ropes-and-strings-and-threads-and-yarns-and-fibers-and-filaments-and-strands-and-hairs-and-bristles-and-feathers-and-down-and-fur-and-wool-and-fleece-and-hide-and-leather-and-skin-and-shell-and-scale-and-scute-and-carapace-and-plastron-and-exoskeleton-and-endoskeleton-and-bone-and-cartilage-and-tendon-and-ligament-and-muscle-and-flesh-and-fat-and-blubber-and-tallow-and-suet-and-lard-and-butter-and-margarine-and-oil-and-grease-and-wax-and-resin-and-gum-and-sap-and-latex-and-rubber-and-plastic-and-polymer-and-resin-and-composite-and-alloy-and-metal-and-metalloid-and-nonmetal-and-element-and-compound-and-mixture-and-solution-and-suspension-and-emulsion-and-colloid-and-gel-and-sol-and-foam-and-froth-and-bubble-and-lather-and-suds-and-scum-and-dross-and-slag-and-ash-and-soot-and-smoke-and-fume-and-gas-and-vapor-and-steam-and-mist-and-fog-and-haze-and-smog-and-air-and-atmosphere-and-sky-and-space-and-void-and-vacuum-and-nothingness-and-nil-and-null-and-zero-and-nought-and-none-and-nothing-and-not-any-and-no-one-and-nobody-and-nowhere-and-never-and-not-at-all-and-by-no-means-and-on-no-account-and-under-no-circumstances-and-in-no-way-and-not-in-the-least-and-not-a-bit-and-not-a-jot-and-not-a-tittle-and-not-a-whit-and-not-a-hair-and-not-a-shred-and-not-a-scrap-and-not-a-crumb-and-not-a-drop-and-not-a-speck-and-not-a-trace-and-not-a-vestige-and-not-a-shadow-and-not-a-whisper-and-not-a-breath-and-not-a-sound-and-not-a-word-and-not-a-thing-and-nothing-at-all-period-end-of-story-end-of-file-end-of-data-end-of-transmission-end-of-communication-end-of-message-end-of-chat-end-of-interaction-end-of-session-end-of-run-end-of-execution-end-of-program-end-of-process-end-of-system-end-of-world-end-of-time-end-of-universe-end-of-everything-amen",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "554 W. BASELINE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MOM WTR VRTY 8P CN",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "fry's FOOD STORES FRESH FOR EVERYONE.\n554 W. BASELINE\n(480-969-9299)\nYour cashier was CHEC 502\nMOM WTR VRTY 8P CN 16.99 T\nAge Restricted: 21\nVIP Customer *******7186\nTAX 1.41\n**** BALANCE 18.40\nUS DEBIT Purchase\n************8675 - H\nREF#: 110423 TOTAL: 18.40\nPURCHASE: 18.40 CASHBACK: 0.00\nAID: A0000000980840\nTC: 4D802A72DEF8F599\nVERIFIED BY PIN\nDEBIT 18.40\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/05/26 06:03pm 62 502 206 999999502\n***********************************\nAnnual Card Savings $74.20\n***********************************\n***********************************\nFuel Points Earned Today: 17\nTotal June Fuel Points: 17\n***********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to frysfood.com/feedback\nDate: 06/05/26\nTime: 06:02PM\nEntry ID: 660-402-206-62-502-708\n***********************************\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.frysfood.com/careers\nwww.frysfood.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4585.597290999998,
+        "totalUsd": 0.011982,
+        "inputTokens": 3692,
+        "outputTokens": 716,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fry's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "18.4",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Mesa",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "554 W. BASELINE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8675",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MOM WTR VRTY 8P CN",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "fry's FOOD STORES FRESH\nFOR\nEVERYONE\n554 W. BASELINE\n(480-969-9299)\nYour cashier was CHEC 502\nMOM WTR VRTY 8P CN 16.99 T\nAge Restricted: 21\nVIP Customer *******7186\nTAX 1.41\n**** BALANCE 18.40\nUS DEBIT Purchase\n************8675 - H\nREF#: 110423 TOTAL: 18.40\nPURCHASE: 18.40 CASHBACK: 0.00\nAID: A0000000980840\nTC: 4D802A72DEF8F599\nVERIFIED BY PIN\nDEBIT 18.40\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n06/05/26 06:03pm 62 502 206 999999502\n***********************************\nAnnual Card Savings $74.20\n***********************************\n***********************************\nFuel Points Earned Today: 17\nTotal June Fuel Points: 17\n***********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to frysfood.com/feedback\nDate: 06/05/26\nTime: 06:02PM\nEntry ID: 660-402-206-62-502-708\n***********************************\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.frysfood.com/careers\nwww.frysfood.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MOM WTR VRTY 8P CN + Age Restricted: 21 + VIP Customer *******7186",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    }
+  ],
+  "disagreementCount": 3,
+  "nullCount": 0
+}

@@ -1,0 +1,372 @@
+{
+  "id": "cmo0xtdfc00l9ovpiz33lqyr3",
+  "url": null,
+  "retailer": "Town & Country Market Shoreline",
+  "brand": "BZ Kitchens, PBC",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": null,
+    "totalCost": "19.47",
+    "purchaseDate": "2026-04-15",
+    "time": null,
+    "zipCode": "98133",
+    "city": "Seattle",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14013.749291,
+        "totalUsd": 0.018687,
+        "inputTokens": 6086,
+        "outputTokens": 1062,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Town & Country Markets",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "19.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:43:40",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98133",
+          "status": "match"
+        },
+        "city": {
+          "value": "Shoreline",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15505 Westminster Way N.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1548",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FP SALSA MED 14 OZ",
+          "quantity": 1,
+          "unitPrice": 4.93,
+          "totalSpend": 4.93,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JUBILEES MILK SINGLE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUE ZONE BOWL + Sale: $3.00",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "T&C EVERYDAY CHIPS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "town & country\nMARKETS\n\nTown and Country Market Shoreline\n15505 Westminster Way N.\nShoreline, WA, 98133\n(206) 363-9226\n\n#212-046 4/15/2026 20:43:40 SCO Operat\nInv#:00214364 Trs#:215984\n\nCOMBINED PRODUCE\nFP SALSA MED 14 OZ\t$4.93 T1F\nGROCERY\nJUBILEES MILK SINGLE\t$2.99 F\nBLUE ZONE BOWL\t$5.99 F\nSale: $3.00\nT&C EVERYDAY CHIPS\t$4.99 F\n\nItems Subtotal\t$18.95\nSubtotal\t$18.95\nTax 1 [$4.98]\t$0.52\n\nTOTAL\t$19.47\nVisa\t$19.47\n# ************1548\nChange\t$0.00\n\nItem count\t4\nSAVING GRAND TOTAL\t$3.00\n\n04/15/2026\t20:43:39\nVISA CREDIT\tEntry Method: Cntctless\nCARD #:\tXXXXXXXXXXXX1548\nPURCHASE\t- APPROVED\nAUTH CODE:08437I\n\nMode:\tIssuer\nAID:\tA0000000031010\nTVR:\t0000000000\nIAD:\t06011203A00000\nTSI: 0000\tARC: 00\nTC:\t9BDCCBFCB652EEA0\nMID: 000000\tTID: 001\tRRN: 460998\n\nTotal:\tUSD$ 19.47\n\nThank you\n\n0970102120462159840",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16332.564708,
+        "totalUsd": 0.040584,
+        "inputTokens": 3692,
+        "outputTokens": 1027,
+        "reasoningTokens": 2867
+      },
+      "fields": {
+        "storeName": {
+          "value": "Town & Country Markets",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "19.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:43:40",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98133",
+          "status": "match"
+        },
+        "city": {
+          "value": "Shoreline",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15505 Westminster Way N.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1548",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FP SALSA MED 14 OZ",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "JUBILEES MILK SINGLE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUE ZONE BOWL + Sale: $3.00",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "T&C EVERYDAY CHIPS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "town & country\nMARKETS\n\nTown and Country Market Shoreline\n15505 Westminster Way N.\nShoreline, WA, 98133\n(206) 363-9226\n\n#212-046 4/15/2026 20:43:40 SCO Operat\nInv#:00214364 Trs#:215984\n----------------------------------------\nCOMBINED PRODUCE\nFP SALSA MED 14 OZ $4.98 T1F\nGROCERY\nJUBILEES MILK SINGLE $2.99 F\nBLUE ZONE BOWL $5.99 F\nSale: $3.00\nT&C EVERYDAY CHIPS $4.99 F\n----------------------------------------\nItems Subtotal $18.95\nSubtotal $18.95\nTax 1 [$4.98] $0.52\n----------------------------------------\nTOTAL $19.47\nVisa $19.47\n# ************1548\nChange $0.00\n----------------------------------------\nItem count 4\nSAVING GRAND TOTAL $3.00\n\n04/15/2026 20:43:39\nVISA CREDIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX1548\nPURCHASE - APPROVED\nAUTH CODE:08437I\n\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06011203A00000\nTSI: 0000 ARC: 00\nTC: 9BDCCBFCB652EEA0\nMID: 000000 TID: 001 RRN: 460998\n\nTotal: USD$ 19.47\nThank you\n097010212046215984",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5731.814834000001,
+        "totalUsd": 0.014835,
+        "inputTokens": 3692,
+        "outputTokens": 1033,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Town & Country Markets",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "19.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:43:40",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98133",
+          "status": "match"
+        },
+        "city": {
+          "value": "Shoreline",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "15505 Westminster Way N.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1548",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FP SALSA MED 14 OZ",
+          "quantity": 1,
+          "unitPrice": 4.98,
+          "totalSpend": 4.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "JUBILEES MILK SINGLE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUE ZONE BOWL + Sale: $3.00",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "T&C EVERYDAY CHIPS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "town & country\nMARKETS\nTown and Country Market Shoreline\n15505 Westminster Way N.\nShoreline, WA, 98133\n(206) 363-9226\n#212-046 4/15/2026 20:43:40 SCO Operat\nInv#:00214364 Trs#:215984\nCOMBINED PRODUCE\nFP SALSA MED 14 OZ\n$4.98 T1F\nGROCERY\nJUBILEES MILK SINGLE\n$2.99 F\nBLUE ZONE BOWL\n$5.99 F\nSale: $3.00\nT&C EVERYDAY CHIPS\n$4.99 F\nItems Subtotal\n$18.95\nSubtotal\n$18.95\nTax 1 [$4.98]\n$0.52\nTOTAL\n$19.47\nVisa\n$19.47\n# ************1548\nChange\n$0.00\nItem count\n4\nSAVING GRAND TOTAL\n$3.00\n04/15/2026\n20:43:39\nVISA CREDIT\nEntry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX1548\nPURCHASE\n- APPROVED\nAUTH CODE:08437I\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n06011203A00000\nTSI: 0000\nARC: 00\nTC:\n9BDCCBFCB652EEA0\nMID: 000000\nTID: 001\nRRN: 460998\nTotal:\nUSD$ 19.47\nThank you\n0970102120462159840",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FP SALSA MED 14 OZ $4.93 T1F",
+      "price": 4.93,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "JUBILEES MILK SINGLE $2.99 F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "BLUE ZONE BOWL $5.99 F",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Sale  $3.00",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "T&C EVERYDAY CHIPS $4.99 F",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Items Subtotal $18.95",
+      "price": 18.95,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Subtotal $18.95",
+      "price": 18.95,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Tax 1 [$4.98] $0.52",
+      "price": 0.52,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "TOTAL $19.47",
+      "price": 19.47,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Visa $19.47",
+      "price": 19.47,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "SAVING GRAND TOTAL $3.00",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Total  USD$ 19.47",
+      "price": 19.47,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

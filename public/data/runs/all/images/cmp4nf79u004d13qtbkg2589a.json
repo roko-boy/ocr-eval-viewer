@@ -1,0 +1,324 @@
+{
+  "id": "cmp4nf79u004d13qtbkg2589a",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "LesserEvil",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "18",
+    "purchaseDate": "2026-05-10",
+    "time": null,
+    "zipCode": "76248",
+    "city": "Keller",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 25701.82412499998,
+        "totalUsd": 0.03185250000000001,
+        "inputTokens": 6169,
+        "outputTokens": 941,
+        "reasoningTokens": 1570
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:52:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76248",
+          "status": "match"
+        },
+        "city": {
+          "value": "KELLER",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2003 S. MAIN",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3827",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HMRS BLND POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HMRS BLND POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OH MY GHEE POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG CHEDDAR POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2003 S. MAIN\nKELLER, TX 76248\n(817) 380-7024\nStore Hours MON-SUN 7AM-10PM\n05/10/2026 17:52:16\nCHASE VISA Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX3827\nPURCHASE - APPROVED\nAUTH CODE:06591C\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06021203A00000\nTSI: 0000 ARC: 00\nTC: 156D3B24A6D76349\nMID: 053669 TID: 001 RRN: 030713\nTotal: USD$ 18.00\nGROCERY\nHMRS BLND POPCORN 4.50 F\n1 @ 2 FOR 9.00\nHMRS BLND POPCORN 4.50 F\n1 @ 2 FOR 9.00\nOH MY GHEE POPCORN 4.50 I\n1 @ 2 FOR 9.00\nORG CHEDDAR POPCORN 4.50 F\n1 @ 2 FOR 9.00\nBALANCE DUE 18.00\nCREDIT $18.00\n[ ] XXXXXXXXXXXX3827\nAuth# 06591C Ref# 030713\nCHANGE 0.00\nCard XXXXXXXXXX1256\nHave a Healthy Day Jen!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13742.93570799998,
+        "totalUsd": 0.032214,
+        "inputTokens": 3692,
+        "outputTokens": 957,
+        "reasoningTokens": 2007
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:52:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76248",
+          "status": "match"
+        },
+        "city": {
+          "value": "KELLER",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2003 S. MAIN",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3827",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HMRS BLND POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HMRS BLND POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OH MY GHEE POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG CHEDDAR POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2003 S. MAIN\nKELLER, TX 76248\n(817) 380-7024\nStore Hours MON-SUN 7AM-10PM\n\n05/10/2026 17:52:16\nCHASE VISA Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX3827\nPURCHASE - APPROVED\nAUTH CODE:06591C\n\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06021203A00000\nTSI: 0000 ARC: 00\nTC: 156D3B24A6D76349\nMID: 053669 TID: 001 RRN: 030713\n\nTotal: USD$ 18.00\n\nGROCERY\nHMRS BLND POPCORN 4.50 F\n1 @ 2 FOR 9.00\nHMRS BLND POPCORN 4.50 F\n1 @ 2 FOR 9.00\nOH MY GHEE POPCORN 4.50 I\n1 @ 2 FOR 9.00\nORG CHEDDAR POPCORN 4.50 F\n1 @ 2 FOR 9.00\n\nBALANCE DUE 18.00\nCREDIT $18.00\n[ ] XXXXXXXXXXXX3827\nAuth# 06591C Ref# 030713\nCHANGE 0.00\n\nCard XXXXXXXXXX1256\nHave a Healthy Day Jen!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7418.964624999993,
+        "totalUsd": 0.013917,
+        "inputTokens": 3692,
+        "outputTokens": 931,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:52:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "76248",
+          "status": "match"
+        },
+        "city": {
+          "value": "KELLER",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2003 S. MAIN",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3827",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HMRS BLND POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HMRS BLND POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OH MY GHEE POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG CHEDDAR POPCORN + 1 @ 2 FOR 9.00",
+          "quantity": 1,
+          "unitPrice": 4.5,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n2003 S. MAIN\nKELLER, TX 76248\n(817) 380-7024\nStore Hours MON-SUN 7AM-10PM\n05/10/2026 17:52:16\nCHASE VISA Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX3827\nPURCHASE - APPROVED\nAUTH CODE: 06591C\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06021203A00000\nTSI: 0000 ARC: 00\nTC: 156D3B24A6D76349\nMID: 053669 TID: 001 RRN: 030713\nTotal: USD$ 18.00\nGROCERY\nHMRS BLND POPCORN 4.50 F\n1 @ 2 FOR 9.00\nHMRS BLND POPCORN 4.50 F\n1 @ 2 FOR 9.00\nOH MY GHEE POPCORN 4.50 F\n1 @ 2 FOR 9.00\nORG CHEDDAR POPCORN 4.50 F\n1 @ 2 FOR 9.00\nBALANCE DUE 18.00\nCREDIT $18.00\n[ ] XXXXXXXXXXXX3827\nAuth# 06591C Ref# 030713\nCHANGE 0.00\nCard XXXXXXXXXX1256\nHave a Healthy Day Jen!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HMRS BLND POPCORN + 1 @ 2 FOR 9.00 4.50 F",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    },
+    {
+      "text": "HMRS BLND POPCORN + 1 @ 2 FOR 9.00 4.50 F",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    },
+    {
+      "text": "OH MY GHEE POPCORN + 1 @ 2 FOR 9.00",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    },
+    {
+      "text": "ORG CHEDDAR POPCORN + 1 @ 2 FOR 9.00",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

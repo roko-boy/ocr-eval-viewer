@@ -1,0 +1,405 @@
+{
+  "id": "cmof57r1f004ykmt85ftqanpn",
+  "url": null,
+  "retailer": "King Soopers",
+  "brand": "Egglife",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "King Soopers",
+    "totalCost": "20.65",
+    "purchaseDate": "2026-04-24",
+    "time": null,
+    "zipCode": "80920",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9176.179042000003,
+        "totalUsd": 0.019068,
+        "inputTokens": 6136,
+        "outputTokens": 1096,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:56pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80920",
+          "status": "match"
+        },
+        "city": {
+          "value": "Colorado Springs",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9225 N. Union Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8495",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY EGG LG EGGS",
+          "quantity": 1,
+          "unitPrice": 2.94,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAP-$ + SOOPER SAVINGS 1.30",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO 4 CHEESE BLEND-$ + SOOPER SAVINGS 0.45",
+          "quantity": 1,
+          "unitPrice": 2.34,
+          "totalSpend": 1.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE -$ + SOOPER SAVINGS 0.15",
+          "quantity": 1,
+          "unitPrice": 2.34,
+          "totalSpend": 2.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ROSEMARY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BURPEE SEEDS + 50% off 2nd item 1.50",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KROGER COTTAGE CHS",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KING Soopers\nHometown Grocer. Hometown Team.\n9225 N. Union Blvd.\n(719) 522-2200 Store\nYour cashier was CHEC 504\nValued Customer ******7041\nHAPPY EGG LG EGGS 2.94 F\nEGGLF EGG WHT WRAP-$ 4.99 F\nSC SOOPER SAVINGS 1.30\nKRO 4 CHEESE BLEND-$ 2.34 F\nSC SOOPER SAVINGS 0.45\nKRO CHEESE -$ 2.34 F\nSC SOOPER SAVINGS 0.15\nROSEMARY 2.99 B\nBURPEE SEEDS 1.49 B\nSC 50% off 2nd item 1.50\nKROGER COTTAGE CHS 3.19 F\nTAX 0.37\n**** BALANCE 20.65\nColorado Springs CO 80920\nCHASE VISA Purchase\n************8495 - H\nREF#: 06641D TOTAL: 20.65\nAID: A0000000031010\nTC: 95BAE50EF1BB56F7\nVISA 20.65\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nSooper Card Coupon Savings $3.40\nTotal Coupon Savings $3.40\nYou Saved 14% Off Your Order Today!\n04/24/26 02:56pm 119 504 148 999999504",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 24985.67600000001,
+        "totalUsd": 0.0560565,
+        "inputTokens": 3717,
+        "outputTokens": 1112,
+        "reasoningTokens": 4497
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:56pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80920",
+          "status": "match"
+        },
+        "city": {
+          "value": "Colorado Springs",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9225 N. Union Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8495",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY EGG LG EGGS",
+          "quantity": 1,
+          "unitPrice": 2.94,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAP-$ + SC SOOPER SAVINGS 1.30",
+          "quantity": 1,
+          "unitPrice": 6.29,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO 4 CHEESE BLEND-$ + SC SOOPER SAVINGS 0.45",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.34,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO CHEESE -$ + SC SOOPER SAVINGS 0.15",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.34,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ROSEMARY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BURPEE SEEDS + SC 50% off 2nd item 1.50",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KROGER COTTAGE CHS",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Hometown Grocer. Hometown Team.\n9225 N. Union Blvd.\n(719) 522-2200 Store\nYour cashier was CHEC 504\nValued Customer      *******7041\nHAPPY EGG LG EGGS      2.94 F\nEGGLF EGG WHT WRAP-$   4.99 F\nSC   SOOPER SAVINGS   1.30\nKRO 4 CHEESE BLEND-$   2.34 F\nSC   SOOPER SAVINGS   0.45\nKRO CHEESE -$          2.34 F\nSC   SOOPER SAVINGS   0.15\nROSEMARY               2.99 B\nBURPEE SEEDS           1.49 B\nSC   50% off 2nd item 1.50\nKROGER COTTAGE CHS     3.19 F\nTAX                    0.37\n**** BALANCE          20.65\nColorado Springs CO 80920\nCHASE VISA Purchase\n************8495 - H\nREF#: 06641D TOTAL: 20.65\nAID: A0000000031010\nTC: 95BAE50EF1BB56F7\n\nVISA                  20.65\nCHANGE                 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nSooper Card Coupon Savings $3.40\nTotal Coupon Savings       $3.40\nYou Saved 14% Off Your Order Today!\n04/24/26 02:56pm 119 504 148 999999504",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5189.854542000001,
+        "totalUsd": 0.0152055,
+        "inputTokens": 3717,
+        "outputTokens": 1070,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "20.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:56pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80920",
+          "status": "match"
+        },
+        "city": {
+          "value": "Colorado Springs",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9225 N. Union Blvd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8495",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY EGG LG EGGS",
+          "quantity": 1,
+          "unitPrice": 2.94,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLF EGG WHT WRAP-$ + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO 4 CHEESE BLEND-$ + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.34,
+          "totalSpend": 1.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO CHEESE -$ + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.34,
+          "totalSpend": 2.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ROSEMARY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BURPEE SEEDS + 50% off 2nd item",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KROGER COTTAGE CHS",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KING Soopers\nHometown Grocer. Hometown Team.\n9225 N. Union Blvd.\n(719) 522-2200 Store\nYour cashier was CHEC 504\nValued Customer ******7041\nHAPPY EGG LG EGGS 2.94 F\nEGGLF EGG WHT WRAP-$ 4.99 F\nSC SOOPER SAVINGS 1.30\nKRO 4 CHEESE BLEND-$ 2.34 F\nSC SOOPER SAVINGS 0.45\nKRO CHEESE -$ 2.34 F\nSC SOOPER SAVINGS 0.15\nROSEMARY 2.99 B\nBURPEE SEEDS 1.49 B\nSC 50% off 2nd item 1.50\nKROGER COTTAGE CHS 3.19 F\nTAX 0.37\n**** BALANCE 20.65\nColorado Springs CO 80920\nCHASE VISA Purchase\n************8495 - H\nREF#: 06641D TOTAL: 20.65\nAID: A0000000031010\nTC: 95BAE50EF1BB56F7\nVISA 20.65\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\nSooper Card Coupon Savings $3.40\nTotal Coupon Savings $3.40\nYou Saved 14% Off Your Order Today!\n04/24/26 02:56pm 119 504 148 999999504",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HAPPY EGG LG EGGS",
+      "price": 2.94,
+      "quantity": 1,
+      "totalSpend": 2.94
+    },
+    {
+      "text": "EGGLF EGG WHT WRAP + SC SOOPER SAVINGS 1.30",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "KRO 4 CHEESE BLEND + SC SOOPER SAVINGS 0.45",
+      "price": 2.34,
+      "quantity": 1,
+      "totalSpend": 2.34
+    },
+    {
+      "text": "KRO CHEESE + SC SOOPER SAVINGS 0.15",
+      "price": 2.34,
+      "quantity": 1,
+      "totalSpend": 2.34
+    },
+    {
+      "text": "ROSEMARY",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "BURPEE SEEDS + SC 50% off 2nd item 1.50",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "KROGER COTTAGE CHS",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,412 @@
+{
+  "id": "cmn60bder0024z9d0hjtsxrdg",
+  "url": null,
+  "retailer": "Circle K",
+  "brand": "Alec's Ice Cream",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Circle K",
+    "totalCost": "36.1",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 19582.843792,
+        "totalUsd": 0.016581,
+        "inputTokens": 6086,
+        "outputTokens": 828,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "36.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7015",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ALEC ORG BLKOUT CK",
+          "quantity": 1,
+          "unitPrice": 9.26,
+          "totalSpend": 9.26,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ALEC OG STRWB CRMB",
+          "quantity": 1,
+          "unitPrice": 4.26,
+          "totalSpend": 4.26,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PEPSI WILD CHERRY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PEPSI-COLA",
+          "quantity": 1,
+          "unitPrice": -0.99,
+          "totalSpend": -0.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC PANE",
+          "quantity": 1,
+          "unitPrice": 4,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO 2# CARROTS",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPPER JALAPENO",
+          "quantity": 1,
+          "unitPrice": 0.21,
+          "totalSpend": 0.21,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ALEC ORG BLKOUT CK\t9.26 F\nALEC OG STRWB CRMB\t4.26 F\nSC\tPEPSI WILD CHERRY\t2.99 B\nSC 24928 PEPSI-COLA\t0.99-B\nDP\tCONTAINER DEPOSIT\t0.05 F\n\tORGANIC PANE\t4.00 F\n\tWBO 2# CARROTS\t2.79 F\n\tPEPPER JALAPENO\t0.21 F\n\n---------- COUPONS ----------\n\nWC\tDIG CPN KOMBUCHA\t1.00-F\n\tTAX\t0.21\n\n**** BALANCE\t36.10\n\nVISA PURCHASE\nCARD NUMBER: ************7015\nVISA CREDIT 07\nAUTH: 06107D RCPT: 395875\nCODE: 0000 Approved\nAID: A0000000031010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19521.01850000001,
+        "totalUsd": 0.043356,
+        "inputTokens": 3692,
+        "outputTokens": 758,
+        "reasoningTokens": 3444
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "36.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7015",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ALEC ORG BLKOUT CK",
+          "quantity": 1,
+          "unitPrice": 9.26,
+          "totalSpend": 9.26,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ALEC OG STRWB CRMB",
+          "quantity": 1,
+          "unitPrice": 4.26,
+          "totalSpend": 4.26,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SC PEPSI WILD CHERRY + SC 24928 PEPSI-COLA",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC PANE",
+          "quantity": 1,
+          "unitPrice": 4,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO 2# CARROTS",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPPER JALAPENO",
+          "quantity": 1,
+          "unitPrice": 0.21,
+          "totalSpend": 0.21,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ALEC ORG BLKOUT CK 9.26 F\nALEC OG STRWB CRMB 4.26 F\nSC PEPSI WILD CHERRY 2.99 B\nSC 24928 PEPSI-COLA 0.99-B\nDP CONTAINER DEPOSIT 0.05 F\nORGANIC PANE 4.00 F\nWBO 2# CARROTS 2.79 F\nPEPPER JALAPENO 0.21 F\n---------- COUPONS ----------\nWC DIG CPN KOMBUCHA 1.00-F\nTAX 0.21\n**** BALANCE 36.10\nVISA PURCHASE\nCARD NUMBER: ************7015\nVISA CREDIT 07\nAUTH: 06107D RCPT: 395875\nCODE: 0000 Approved\nAID: A0000000031010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4505.761624999999,
+        "totalUsd": 0.012279,
+        "inputTokens": 3692,
+        "outputTokens": 749,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "36.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7015",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ALEC ORG BLKOUT CK",
+          "quantity": 1,
+          "unitPrice": 4.26,
+          "totalSpend": 4.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ALEC OG STRWB CRMB",
+          "quantity": 1,
+          "unitPrice": 4.26,
+          "totalSpend": 4.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SC PEPSI WILD CHERRY + SC 24928 PEPSI-COLA",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORGANIC PANE",
+          "quantity": 1,
+          "unitPrice": 4,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO 2# CARROTS",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPPER JALAPENO",
+          "quantity": 1,
+          "unitPrice": 0.21,
+          "totalSpend": 0.21,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ALEC ORG BLKOUT CK 4.26 F\nALEC OG STRWB CRMB 4.26 F\nSC PEPSI WILD CHERRY 2.99 B\nSC 24928 PEPSI-COLA 0.99-B\nDP CONTAINER DEPOSIT 0.05 F\nORGANIC PANE 4.00 F\nWBO 2# CARROTS 2.79 F\nPEPPER JALAPENO 0.21 F\n---------- COUPONS ----------\nWC DIG CPN KOMBUCHA 1.00-F\nTAX 0.21\n**** BALANCE 36.10\nVISA PURCHASE\nCARD NUMBER: ************7015 M\nVISA CREDIT 07\nAUTH: 06107D RCPT: 395875\nCODE: 0000 Approved\nAID: A0000000031010",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ALEC ORG BLKOUT CK",
+      "price": 4.26,
+      "quantity": 1,
+      "totalSpend": 4.26
+    },
+    {
+      "text": "ALEC OG STRWB CRMB",
+      "price": 4.26,
+      "quantity": 1,
+      "totalSpend": 4.26
+    },
+    {
+      "text": "PEPSI WILD CHERRY",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "CONTAINER DEPOSIT",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "ORGANIC PANE",
+      "price": 4,
+      "quantity": 1,
+      "totalSpend": 4
+    },
+    {
+      "text": "WBO 2# CARROTS",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "PEPPER JALAPENO",
+      "price": 0.21,
+      "quantity": 1,
+      "totalSpend": 0.21
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

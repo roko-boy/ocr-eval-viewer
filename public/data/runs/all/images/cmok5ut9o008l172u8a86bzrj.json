@@ -1,0 +1,364 @@
+{
+  "id": "cmok5ut9o008l172u8a86bzrj",
+  "url": null,
+  "retailer": "CITGO",
+  "brand": "1st Phorm",
+  "amount": 4.22,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "CITGO",
+    "totalCost": "15.74",
+    "purchaseDate": "2026-04-29",
+    "time": null,
+    "zipCode": "04730",
+    "city": "Houlton",
+    "state": "ME",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14111.096709,
+        "totalUsd": 0.015987,
+        "inputTokens": 6158,
+        "outputTokens": 750,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "DOCs Place",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:35:46 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "04730",
+          "status": "match"
+        },
+        "city": {
+          "value": "HOULTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "ME",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "289 NORTH ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LEVEL-1 CHOCOLATE P",
+          "quantity": 1,
+          "unitPrice": 4.22,
+          "totalSpend": 4.22,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEVEL-1SALTED CARME",
+          "quantity": 1,
+          "unitPrice": 4.22,
+          "totalSpend": 4.22,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GORILLAMIND BLUERAS + SINGLE",
+          "quantity": 1,
+          "unitPrice": 3.24,
+          "totalSpend": 3.24,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GORILLAMIND BLUERAS + SINGLE",
+          "quantity": 1,
+          "unitPrice": 3.24,
+          "totalSpend": 3.24,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Welcome to\nDOCs Place\n207-532-4059\nDOC'S PLACE CITGO\n289 NORTH ST\nHOULTON ME 04730\n\nDescription Qty Amount\n--- --- ---\nT LEVEL-1 CHOCOLATE P 1 4.22\nT LEVEL-1SALTED CARME 1 4.22\nT GORILLAMIND BLUERAS 1 3.19\nSINGLE 0.05\nT GORILLAMIND BLUERAS 1 3.19\nSINGLE 0.05\n\nSubtotal 14.92\nT MAINE 5.5% TAX 0.82\nTOTAL 15.74\nCASH $ 20.00\nChange $ -4.26\n\nThank you\nPlease Come Again\nAttendant:\nPlate #:\nOdometer:\nST#1014 DR#1 TRAN#1010685\nCSH: 5 4/29/26 10:35:46 AM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18823.24449999999,
+        "totalUsd": 0.031773,
+        "inputTokens": 3728,
+        "outputTokens": 830,
+        "reasoningTokens": 2079
+      },
+      "fields": {
+        "storeName": {
+          "value": "DOCs Place",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:35:46 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "04730",
+          "status": "match"
+        },
+        "city": {
+          "value": "HOULTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "ME",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "289 NORTH ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LEVEL-1 CHOCOLATE P",
+          "quantity": 1,
+          "unitPrice": 4.22,
+          "totalSpend": 4.22,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEVEL-1SALTED CARME",
+          "quantity": 1,
+          "unitPrice": 4.22,
+          "totalSpend": 4.22,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GORILLAMIND BLUERAS",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SINGLE",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GORILLAMIND BLUERAS",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SINGLE",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Welcome to\nDOCs Place\n207-532-4059\nDOC'S PLACE CITGO\n289 NORTH ST\nHOULTON ME 04730\n\nDescription Qty Amount\n--- --- ---\nT LEVEL-1 CHOCOLATE P 1 4.22\nT LEVEL-1SALTED CARME 1 4.22\nT GORILLAMIND BLUERAS 1 3.19\nSINGLE 0.05\nT GORILLAMIND BLUERAS 1 3.19\nSINGLE 0.05\n\nSubtotal 14.92\nT MAINE 5.5% TAX 0.82\nTOTAL 15.74\nCASH $ 20.00\nChange $ -4.26\n\nThank you\nPlease Come Again\nAttendant:\nPlate #:\nOdometer:\nST#1014 DR#1 TRAN#1010685\nCSH: 5 4/29/26 10:35:46 AM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4887.384875,
+        "totalUsd": 0.013044,
+        "inputTokens": 3728,
+        "outputTokens": 828,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "DOCs Place",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "15.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:35:46 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "04730",
+          "status": "match"
+        },
+        "city": {
+          "value": "HOULTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "ME",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "289 NORTH ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LEVEL-1 CHOCOLATE P",
+          "quantity": 1,
+          "unitPrice": 4.22,
+          "totalSpend": 4.22,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEVEL-1SALTED CARME",
+          "quantity": 1,
+          "unitPrice": 4.22,
+          "totalSpend": 4.22,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GORILLAMIND BLUERAS",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SINGLE",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GORILLAMIND BLUERAS",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SINGLE",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Welcome to\nDOCs Place\n207-532-4059\nDOC'S PLACE CITGO\n289 NORTH ST\nHOULTON ME 04730\n\nDescription Qty Amount\n---\nT LEVEL-1 CHOCOLATE P 1 4.22\nT LEVEL-1SALTED CARME 1 4.22\nT GORILLAMIND BLUERAS 1 3.19\nSINGLE 0.05\nT GORILLAMIND BLUERAS 1 3.19\nSINGLE 0.05\n\nSubtotal 14.92\nT MAINE 5.5% TAX 0.82\nTOTAL 15.74\nCASH $ 20.00\nChange $ -4.26\n\nThank you\nPlease Come Again\nAttendant:\nPlate #:\nOdometer:\nST#1014 DR#1 TRAN#1010685\nCSH: 5 4/29/26 10:35:46 AM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "LEVEL-1 CHOCOLATE P",
+      "price": 4.22,
+      "quantity": 1,
+      "totalSpend": 4.22
+    },
+    {
+      "text": "LEVEL-1SALTED CARME",
+      "price": 4.22,
+      "quantity": 1,
+      "totalSpend": 4.22
+    },
+    {
+      "text": "GORILLAMIND BLUERAS",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    },
+    {
+      "text": "SINGLE",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "GORILLAMIND BLUERAS",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    },
+    {
+      "text": "SINGLE",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

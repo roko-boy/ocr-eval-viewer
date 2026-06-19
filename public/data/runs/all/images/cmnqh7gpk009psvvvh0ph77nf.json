@@ -1,0 +1,654 @@
+{
+  "id": "cmnqh7gpk009psvvvh0ph77nf",
+  "url": null,
+  "retailer": "Aldi",
+  "brand": "RYSE Energy",
+  "amount": 2.59,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Aldi",
+    "totalCost": "123.49",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9281.907334000018,
+        "totalUsd": 0.0237225,
+        "inputTokens": 6191,
+        "outputTokens": 1604,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "123.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7778",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STARBUST + 055021997",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Unwell + 203550069 + 2 @ $2.40 ea + Regular Price $2.59 + 5for$12",
+          "quantity": 2,
+          "unitPrice": 2.59,
+          "totalSpend": 4.8,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RYSE + 271550885",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Unwell + 203550242 + Regular Price $2.59 + 5for$12",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYSE + 271550871",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Unwell + 203550242 + Regular Price $2.59 + 5for$12",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Unwell + 203550241 + Regular Price $2.59 + 5for$12",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYSE + 271550870",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYSE + 271550872",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "055021997 STARBUST TF $4.19\n203550069 Unwell NF $4.80\n2 @ $2.40 ea\nRegular Price $2.59\n5for$12\n271550885 RYSE TFP $2.59\nBottle Deposit Fee $0.10\n203550242 Unwell TFP $2.40\nRegular Price $2.59\n5for$12\nBottle Deposit Fee $0.10\n271550871 RYSE TFP $2.59\nBottle Deposit Fee $0.10\n203550242 Unwell TFP $2.40\nRegular Price $2.59\n5for$12\nBottle Deposit Fee $0.10\n203550241 Unwell TFP $2.40\nRegular Price $2.59\n5for$12\nBottle Deposit Fee $0.10\n271550870 RYSE TFP $2.59\nBottle Deposit Fee $0.10\n271550872 RYSE TFP $2.59\nBottle Deposit Fee $0.10\nSUBTOTAL $118.59\nT = CT TAX 6.35000 on $77.15 $4.90\nTOTAL $123.49\n*7778 DEBIT TOTAL PAYMENT $123.49\nAID: A00000000980840\nUS DEBIT\nAUTH CODE: 633556\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 29367.90120899997,
+        "totalUsd": 0.053601,
+        "inputTokens": 3706,
+        "outputTokens": 1560,
+        "reasoningTokens": 3778
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "123.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "CT",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7778",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STARBUST + 055021997",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Unwell + 203550069 + 5for$12",
+          "quantity": 2,
+          "unitPrice": 2.59,
+          "totalSpend": 4.8,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RYSE + 271550885",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Unwell + 203550242 + 5for$12",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYSE + 271550871",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Unwell + 203550242 + 5for$12",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Unwell + 203550241 + 5for$12",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYSE + 271550870",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYSE + 271550872",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "055021997 STARBUST TF $4.19\n203550069 Unwell NF $4.80\n2 @ $2.40 ea\nRegular Price $2.59\n5for$12\n271550885 RYSE TFP $2.59\nBottle Deposit Fee $0.10\n203550242 Unwell TFP $2.40\nRegular Price $2.59\n5for$12\nBottle Deposit Fee $0.10\n271550871 RYSE TFP $2.59\nBottle Deposit Fee $0.10\n203550242 Unwell TFP $2.40\nRegular Price $2.59\n5for$12\nBottle Deposit Fee $0.10\n203550241 Unwell TFP $2.40\nRegular Price $2.59\n5for$12\nBottle Deposit Fee $0.10\n271550870 RYSE TFP $2.59\nBottle Deposit Fee $0.10\n271550872 RYSE TFP $2.59\nBottle Deposit Fee $0.10\nSUBTOTAL $118.59\nT = CT TAX 6.35000 on $77.15 $4.90\nTOTAL $123.49\n*7778 DEBIT TOTAL PAYMENT $123.49\nAID: A00000000980840\nUS DEBIT\nAUTH CODE: 633556\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7724.69862499999,
+        "totalUsd": 0.020211,
+        "inputTokens": 3706,
+        "outputTokens": 1628,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "123.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06001-0699 (CT Tax implied, exact zip not printed on visible portion of receipt snippet but CT state is certain from CT TAX label.)",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STARBUST + 055021997",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Unwell + 203550069 + 2 @ $2.40 ea + Regular Price $2.59 + 5for$12",
+          "quantity": 2,
+          "unitPrice": 2.59,
+          "totalSpend": 4.8,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RYSE + 271550885",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Unwell + 203550242 + Regular Price $2.59 + 5for$12",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYSE + 271550871",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Unwell + 203550242 + Regular Price $2.59 + 5for$12",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Unwell + 203550241 + Regular Price $2.59 + 5for$12",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYSE + 271550870",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RYSE + 271550872",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Bottle Deposit Fee",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "055021997 STARBUST TF $4.19\n203550069 Unwell NF $4.80\n2 @ $2.40 ea\nRegular Price $2.59\n5for$12\n271550885 RYSE TFP $2.59\nBottle Deposit Fee $0.10\n203550242 Unwell TFP $2.40\nRegular Price $2.59\n5for$12\nBottle Deposit Fee $0.10\n271550871 RYSE TFP $2.59\nBottle Deposit Fee $0.10\n203550242 Unwell TFP $2.40\nRegular Price $2.59\n5for$12\nBottle Deposit Fee $0.10\n203550241 Unwell TFP $2.40\nRegular Price $2.59\n5for$12\nBottle Deposit Fee $0.10\n271550870 RYSE TFP $2.59\nBottle Deposit Fee $0.10\n271550872 RYSE TFP $2.59\nBottle Deposit Fee $0.10\nSUBTOTAL $118.59\nT = CT TAX 6.35000 on $77.15 $4.90\nTOTAL $123.49\n*7778 DEBIT TOTAL PAYMENT $123.49\nAID: A00000000980840\nUS DEBIT\nAUTH CODE: 633556\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "055021997 STARBUST + ::",
+      "price": 4.19,
+      "quantity": 1,
+      "totalSpend": 4.19
+    },
+    {
+      "text": "203550069 Unwell + ::: 2 @ $2.40ea + : + : Regular Price $2.59",
+      "price": 2.4,
+      "quantity": 2,
+      "totalSpend": 4.8
+    },
+    {
+      "text": "271550885 RYSE + ::",
+      "price": 2.59,
+      "quantity": 1,
+      "totalSpend": 2.59
+    },
+    {
+      "text": "Bottle Deposit Fee + :",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "203550242 Unwell + :: + Regular Price $2.59",
+      "price": 2.4,
+      "quantity": 1,
+      "totalSpend": 2.4
+    },
+    {
+      "text": "Bottle Deposit Fee",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "271550871 RYSE + :",
+      "price": 2.59,
+      "quantity": 1,
+      "totalSpend": 2.59
+    },
+    {
+      "text": "Bottle Deposit Fee",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "203550242 Unwell + : + : Regular Price $2.59",
+      "price": 2.4,
+      "quantity": 1,
+      "totalSpend": 2.4
+    },
+    {
+      "text": "Bottle Deposit Fee",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "203550241 Unwell + : + : Regular Price $2.59",
+      "price": 2.4,
+      "quantity": 1,
+      "totalSpend": 2.4
+    },
+    {
+      "text": "Bottle Deposit Fee + :",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "271550870 RYSE + ::",
+      "price": 2.59,
+      "quantity": 1,
+      "totalSpend": 2.59
+    },
+    {
+      "text": "Bottle Deposit Fee + *",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "271550872 RYSE + :",
+      "price": 2.59,
+      "quantity": 1,
+      "totalSpend": 2.59
+    },
+    {
+      "text": "Bottle Deposit Fee",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "T=CTTAX 6.35000 on",
+      "price": 4.9,
+      "quantity": 1,
+      "totalSpend": 4.9
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

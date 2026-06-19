@@ -1,0 +1,405 @@
+{
+  "id": "cmpj4iscj009y4smwie3ad0bk",
+  "url": null,
+  "retailer": "Target",
+  "brand": "unwell hydration",
+  "amount": 2.39,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "79.66",
+    "purchaseDate": "2026-05-23",
+    "time": null,
+    "zipCode": "78749",
+    "city": "Austin",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18760.739,
+        "totalUsd": 0.0208905,
+        "inputTokens": 6163,
+        "outputTokens": 1294,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "79.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:24 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78749-1112",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5300 S Mo Pac Expy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1180",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "013000737 UT - Shirts + Regular Price $10.00",
+          "quantity": 2,
+          "unitPrice": 10,
+          "totalSpend": 14,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "096134936 Shade & Shor + Regular Price $18.00",
+          "quantity": 1,
+          "unitPrice": 18,
+          "totalSpend": 12.6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "096229395 Universal Th",
+          "quantity": 1,
+          "unitPrice": 30,
+          "totalSpend": 30,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271550498 MONSTER",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271550765 MONSTER",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "203800234 UNWELL",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "084180177 AREA",
+          "quantity": 1,
+          "unitPrice": 13.29,
+          "totalSpend": 13.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Austin SW - 512-892-5535\n5300 S Mo Pac Expy\nAustin, Texas 78749-1112\n05/23/2026 08:24 PM\nAPPAREL\n013000737 UT - Shirts T $14.00\n2 @ $7.00 ea\nRegular Price $10.00\n096134936 Shade & Shor T $12.60\nRegular Price $18.00\n096229395 Universal Th T $30.00\nGROCERY\n271550498 MONSTER T $2.59\n271550765 MONSTER T $2.59\n203800234 UNWELL TF $2.39\nPATIO & OUTDOOR DECOR\n084180177 AREA T $13.29\nSUBTOTAL $77.46\nTarget Circle Card 5% $3.87 -\nT = TX TAX 8.25000 on $73.54 $6.07\nTOTAL $79.66\nReusable Bag Discount $0.05\n*1180 TARGET MASTERCARD $79.61\nAID: A0000000041010\nMastercard\nAUTH CODE: 02318B\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$15.27\nREC#2-6143-1061-0166-6277-0\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7385 6893 9983\nPassword: 337 230\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18122.723792,
+        "totalUsd": 0.040656,
+        "inputTokens": 3692,
+        "outputTokens": 1323,
+        "reasoningTokens": 2579
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "79.61",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:24 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78749-1112",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5300 S Mo Pac Expy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1180",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "013000737 UT - Shirts + 2 @ $7.00 ea + Regular Price $10.00",
+          "quantity": 2,
+          "unitPrice": 10,
+          "totalSpend": 14,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "096134936 Shade & Shor + Regular Price $18.00",
+          "quantity": 1,
+          "unitPrice": 18,
+          "totalSpend": 12.6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "096229395 Universal Th",
+          "quantity": 1,
+          "unitPrice": 30,
+          "totalSpend": 30,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271550498 MONSTER",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271550765 MONSTER",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "203800234 UNWELL",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "084180177 AREA",
+          "quantity": 1,
+          "unitPrice": 13.29,
+          "totalSpend": 13.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Austin SW - 512-892-5535\n5300 S Mo Pac Expy\nAustin, Texas 78749-1112\n05/23/2026 08:24 PM\n\nAPPAREL\n013000737 UT - Shirts T $14.00\n2 @ $7.00 ea\nRegular Price $10.00\n096134936 Shade & Shor T $12.60\nRegular Price $18.00\n096229395 Universal Th T $30.00\nGROCERY\n271550498 MONSTER T $2.59\n271550765 MONSTER T $2.59\n203800234 UNWELL TF $2.39\nPATIO & OUTDOOR DECOR\n084180177 AREA T $13.29\n\nSUBTOTAL $77.46\nTarget Circle Card 5% $3.87 -\nT = TX TAX 8.25000% on $73.54 $6.07\nTOTAL $79.66\n\nReusable Bag Discount $0.05\n\n*1180 TARGET MASTERCARD $79.61\nAID: A0000000041010\nMastercard\nAUTH CODE: 02318B\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\n\nYOUR TOTAL SAVINGS THIS TRIP:\n$15.27\n\nREC#2-6143-1061-0166-6277-0\n\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\n\ninformtarget.com\nUser ID: 7385 6893 9983\nPassword: 337 230\n\nCUÉNTENOS EN ESPAÑOL\n\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6839.18775,
+        "totalUsd": 0.016896,
+        "inputTokens": 3692,
+        "outputTokens": 1262,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "79.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:24 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "78749-1112",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Austin",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5300 S Mo Pac Expy",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1180",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "013000737 UT - Shirts",
+          "quantity": 2,
+          "unitPrice": 10,
+          "totalSpend": 14,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "096134936 Shade & Shor",
+          "quantity": 1,
+          "unitPrice": 18,
+          "totalSpend": 12.6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "096229395 Universal Th",
+          "quantity": 1,
+          "unitPrice": 30,
+          "totalSpend": 30,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271550498 MONSTER",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271550765 MONSTER",
+          "quantity": 1,
+          "unitPrice": 2.59,
+          "totalSpend": 2.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "203800234 UNWELL",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "084180177 AREA",
+          "quantity": 1,
+          "unitPrice": 13.29,
+          "totalSpend": 13.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Austin SW - 512-892-5535\n5300 S Mo Pac Expy\nAustin, Texas 78749-1112\n05/23/2026 08:24 PM\nAPPAREL\n013000737 UT - Shirts T $14.00\n2 @ $7.00 ea\nRegular Price $10.00\n096134936 Shade & Shor T $12.60\nRegular Price $18.00\n096229395 Universal Th T $30.00\nGROCERY\n271550498 MONSTER T $2.59\n271550765 MONSTER T $2.59\n203800234 UNWELL TF $2.39\nPATIO & OUTDOOR DECOR\n084180177 AREA T $13.29\nSUBTOTAL $77.46\nTarget Circle Card 5% $3.87 -\nT = TX TAX 8.25000 on $73.54 $6.07\nTOTAL $79.66\nReusable Bag Discount $0.05\n*1180 TARGET MASTERCARD $79.61\nAID: A0000000041010\nMastercard\nAUTH CODE: 02318B\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.\nYOUR TOTAL SAVINGS THIS TRIP:\n$15.27\nREC#2-6143-1061-0166-6277-0\nHelp make your Target Run better.\nTake a 2 minute survey about today's trip\ninformtarget.com\nUser ID: 7385 6893 9983\nPassword: 337 230\nCUÉNTENOS EN ESPAÑOL\nPlease take this survey within 7 days",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "UT - Shirts + 013000737 + 2 @ $7.00 ea + Regular Price $10.00",
+      "price": 7,
+      "quantity": 2,
+      "totalSpend": 14
+    },
+    {
+      "text": "Shade & Shor + 096134936 + Regular Price $18.00",
+      "price": 12.6,
+      "quantity": 1,
+      "totalSpend": 12.6
+    },
+    {
+      "text": "Universal Th + 096229395 + GROCERY",
+      "price": 30,
+      "quantity": 1,
+      "totalSpend": 30
+    },
+    {
+      "text": "MONSTER + 271550498",
+      "price": 2.59,
+      "quantity": 1,
+      "totalSpend": 2.59
+    },
+    {
+      "text": "MONSTER + 271550765",
+      "price": 2.59,
+      "quantity": 1,
+      "totalSpend": 2.59
+    },
+    {
+      "text": "UNWELL + 203800234 + PATIO & OUTDOOR DECOR",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "AREA + 084180177",
+      "price": 13.29,
+      "quantity": 1,
+      "totalSpend": 13.29
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

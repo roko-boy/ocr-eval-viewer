@@ -1,0 +1,972 @@
+{
+  "id": "cmnsy6xgc0003qwh05k7hr9yt",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "Good Pop ",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "92.23",
+    "purchaseDate": "2026-04-10",
+    "time": null,
+    "zipCode": "75002",
+    "city": "Allen",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 20826.66920800001,
+        "totalUsd": 0.03981,
+        "inputTokens": 6086,
+        "outputTokens": 3409,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "92.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:29 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75002",
+          "status": "match"
+        },
+        "city": {
+          "value": "ALLEN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1212 E.BETHANY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2399",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ANNIE HMG BUNNIES + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 2.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NATIVE MINI COC",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAISY SOUR CREAM + KROGER SAVINGS 0.30",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SNMD RAISINS PC + KROGER SAVINGS 0.50 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "STSH TEA PC + KROGER SAVINGS 1.00 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STSH TEA PC + KROGER SAVINGS 1.00 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ANNIES MAC CHS + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NTVL GRANOLA BAR PC + KROGER SAVINGS 0.50 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KLEENEX ON THE GO",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GOOD POP BARS MM PC + KROGER SAVINGS 0.50",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EXTENSIONIST BLACK",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OEP CHOPPED GRRE",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HUMMUS + eCpn ST Organic Hu0.70",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CELERY ORG",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STO TOM GRP ORGNC PC + KROGER SAVINGS 0.20 + eCpn ST Organic Gr0.60",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CABBAGE ORG + 1.01 (1.02) lb @ 1.29 /lb",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DANJOU ORG + 1.00 (1.01) lb @ 2.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MANDARINS GOLD NGG + eCpn Citrus 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRSL NAVELS HEIRLO + eCpn Citrus 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRSL NAVELS HEIRLO + eCpn Citrus 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBER ORG + 2 @ 0.99",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOLE BAN ORG + 1.84 (1.85) lb @ 0.69 /lb",
+          "quantity": 1,
+          "unitPrice": 0.69,
+          "totalSpend": 1.27,
+          "matchStatus": "match"
+        },
+        {
+          "text": "APPLES + 1.50 (1.51) lb @ 1.99 /lb",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STO CHK BRST + eCpn ST Natural Ch1.50",
+          "quantity": 1,
+          "unitPrice": 12.41,
+          "totalSpend": 10.91,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KROGER BUTTERMILK",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 2.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO LACT FREE 1%LF",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWANSON BROTH PC",
+          "quantity": 1,
+          "unitPrice": 0.9,
+          "totalSpend": 0.9,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPINDRIFT SPRK WTRPC + KROGER SAVINGS 1.50 + eCpn Spindrift 1.00",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Kroger FOR EVERYONE\n1212 E.BETHANY\n(972) 727-9299\nYour cashier was CHEC 553\nKROGER PLUS CUSTOMER ******2371\nSC ANNIE HMG BUNNIES 1.74 F\nMega Event Savings 1.00\nNATIVE MINI COC 1.74 T\nSC DAISY SOUR CREAM 2.99 F\nKROGER SAVINGS 0.30\nSC SNMD RAISINS PC 1.49 F\nSC KROGER SAVINGS 0.50\nMega Event Savings 1.00\nSC STSH TEA PC 2.49 F\nSC KROGER SAVINGS 1.00\nMega Event Savings 1.00\nSC STSH TEA PC 2.49 F\nSC KROGER SAVINGS 1.00\nMega Event Savings 1.00\nSC ANNIES MAC CHS 0.99 F\nMega Event Savings 1.00\nSC NTVL GRANOLA BAR PC 2.49 F\nSC KROGER SAVINGS 0.50\nMega Event Savings 1.00\nKLEENEX ON THE GO 1.99 T\nGOOD POP BARS MM PC 7.99 F\nSC KROGER SAVINGS 0.50\nEXTENSIONIST BLACK 16.99 T\nOEP CHOPPED GRRE 1.99 F\nHUMMUS 3.29 F\nSC eCpn ST Organic Hu0.70\nCELERY ORG 2.79 F\nSTO TOM GRP ORGNC PC 2.49 F\nSC KROGER SAVINGS 0.20\nSC eCpn ST Organic Gr0.60\n1.01 (1.02) lb @ 1.29 /lb\nWT CABBAGE ORG 1.30 F\n1.00 (1.01) lb @ 2.99 /lb\nWT DANJOU ORG 2.99 F\nMANDARINS GOLD NGG 2.99 F\nSC eCpn Citrus 2.00\nPRSL NAVELS HEIRLO 2.99 F\nSC eCpn Citrus 2.00\nPRSL NAVELS HEIRLO 2.99 F\nSC eCpn Citrus 2.00\n2 @ 0.99\nCUCUMBER ORG 1.98 F\n1.84 (1.85) lb @ 0.69 /lb\nWT DOLE BAN ORG 1.27 F\n1.50 (1.51) lb @ 1.99 /lb\nWT APPLES 2.99 F\nSTO CHK BRST 10.91 F\nSC eCpn ST Natural Ch1.50\nKROGER BUTTERMILK 2.19 F\nKRO LACT FREE 1%LF 3.49 F\nSWANSON BROTH PC 0.90 F\nSPINDRIFT SPRK WTRPC 4.99 F\nSC KROGER SAVINGS 1.50\nSC eCpn Spindrift 1.00\nSC eCpn 4X Fuel\nSC $5 Off Order 5.00-T\nTAX 1.30\n**** BALANCE 92.23\nALLEN TX 75002\nVISA CREDIT Purchase\n************2399 - C\nREF#: 71496G TOTAL: 92.23\nAID: A0000000031010\nTC: 7A63167A760F2753\nVISA 92.23\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 29\nKROGER SAVINGS $ 26.30\nTOTAL COUPONS $ 26.30\nTOTAL SAVINGS (22 %) $ 26.30\n04/10/26 07:30am 544 553 4 999999553\n****************************************\nAnnual Card Savings $593.50\n****************************************\n****************************************\nFuel Points Earned Today: 384\nTotal April Fuel Points: 462\n****************************************\nRemaining March Fuel Points: 247\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 04/10/26\nTime: 07:29AM\nEntry ID: 035-102-4-544-553-557\n****************************************\nWith Our Low Prices, You Saved",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 126230.464,
+        "totalUsd": 0.146538,
+        "inputTokens": 3786,
+        "outputTokens": 3402,
+        "reasoningTokens": 12249
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "92.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:29AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75002",
+          "status": "match"
+        },
+        "city": {
+          "value": "ALLEN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1212 E. BETHANY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2399",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ANNIE HMG BUNNIES + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 2.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NATIVE MINI COC",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAISY SOUR CREAM + KROGER SAVINGS 0.30",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SNMD RAISINS PC + KROGER SAVINGS 0.50 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "STSH TEA PC + KROGER SAVINGS 1.00 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STSH TEA PC + KROGER SAVINGS 1.00 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ANNIES MAC CHS + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NTVL GRANOLA BAR PC + KROGER SAVINGS 0.50 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KLEENEX ON THE GO",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GOOD POP BARS MM PC + KROGER SAVINGS 0.50",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EXTENSIONIST BLACK",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OEP CHOPPED GRRE",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HUMMUS + eCpn ST Organic Hu 0.70",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CELERY ORG",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STO TOM GRP ORGNC PC + KROGER SAVINGS 0.20 + eCpn ST Organic Gr 0.60",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CABBAGE ORG + 1.01 (1.02) lb @ 1.29 /lb",
+          "quantity": 1,
+          "unitPrice": 1.3,
+          "totalSpend": 1.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DANJOU ORG + 1.00 (1.01) lb @ 2.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MANDARINS GOLD NGG + eCpn Citrus 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRSL NAVELS HEIRLO + eCpn Citrus 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRSL NAVELS HEIRLO + eCpn Citrus 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBER ORG + 2 @ 0.99",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOLE BAN ORG + 1.84 (1.85) lb @ 0.69 /lb",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27,
+          "matchStatus": "match"
+        },
+        {
+          "text": "APPLES + 1.50 (1.51) lb @ 1.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STO CHK BRST + eCpn ST Natural Ch 1.50",
+          "quantity": 1,
+          "unitPrice": 12.41,
+          "totalSpend": 10.91,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KROGER BUTTERMILK",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 2.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO LACT FREE 1%LF",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWANSON BROTH PC",
+          "quantity": 1,
+          "unitPrice": 0.9,
+          "totalSpend": 0.9,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPINDRIFT SPRK WTR PC + KROGER SAVINGS 1.50 + eCpn Spindrift 1.00",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Kroger FOR EVERYONE\n1212 E. BETHANY\n(972) 727-9299\nYour cashier was CHEC 553\nKROGER PLUS CUSTOMER ******2371\nSC ANNIE HMG BUNNIES 1.74 F\nMega Event Savings 1.00\nNATIVE MINI COC 1.74 T\nSC DAISY SOUR CREAM 2.99 F\nKROGER SAVINGS 0.30\nSC SNMD RAISINS PC 1.49 F\nKROGER SAVINGS 0.50\nMega Event Savings 1.00\nSC STSH TEA PC 2.49 F\nKROGER SAVINGS 1.00\nMega Event Savings 1.00\nSC STSH TEA PC 2.49 F\nKROGER SAVINGS 1.00\nMega Event Savings 1.00\nSC ANNIES MAC CHS 0.99 F\nMega Event Savings 1.00\nSC NTVL GRANOLA BAR PC 2.49 F\nKROGER SAVINGS 0.50\nMega Event Savings 1.00\nKLEENEX ON THE GO 1.99 T\nSC GOOD POP BARS MM PC 7.99 F\nKROGER SAVINGS 0.50\nEXTENSIONIST BLACK 16.99 T\nOEP CHOPPED GRRE 1.99 F\nHUMMUS 3.29 F\nSC eCpn ST Organic Hu 0.70\nCELERY ORG 2.79 F\nSTO TOM GRP ORGNC PC 2.49 F\nSC KROGER SAVINGS 0.20\nSC eCpn ST Organic Gr 0.60\n1.01 (1.02) lb @ 1.29 /lb\nWT CABBAGE ORG 1.30 F\n1.00 (1.01) lb @ 2.99 /lb\nWT DANJOU ORG 2.99 F\nMANDARINS GOLD NGG 2.99 F\nSC eCpn Citrus 2.00\nPRSL NAVELS HEIRLO 2.99 F\nSC eCpn Citrus 2.00\nPRSL NAVELS HEIRLO 2.99 F\nSC eCpn Citrus 2.00\n2 @ 0.99\nCUCUMBER ORG 1.98 F\n1.84 (1.85) lb @ 0.69 /lb\nWT DOLE BAN ORG 1.27 F\n1.50 (1.51) lb @ 1.99 /lb\nWT APPLES 2.99 F\nSTO CHK BRST 10.91 F\nSC eCpn ST Natural Ch 1.50\nKROGER BUTTERMILK 2.19 F\nKRO LACT FREE 1%LF 3.49 F\nSWANSON BROTH PC 0.90 F\nSPINDRIFT SPRK WTR PC 4.99 F\nSC KROGER SAVINGS 1.50\nSC eCpn Spindrift 1.00\nSC eCpn 4X Fuel\nSC $5 Off Order 5.00-T\nTAX 1.30\n**** BALANCE 92.23\nALLEN TX 75002\nVISA CREDIT Purchase\n************2399 - C\nREF#: 714966 TOTAL: 92.23\nAID: A0000000031010\nTC: 7A63167A760F2753\nVISA 92.23\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 29\nKROGER SAVINGS $ 26.30\nTOTAL COUPONS $ 26.30\nTOTAL SAVINGS (22 %) $ 26.30\n04/10/26 07:30am 544 553 4 999999553\n****************************************\nAnnual Card Savings $593.50\n****************************************\n****************************************\nFuel Points Earned Today: 384\nTotal April Fuel Points: 462\n****************************************\nRemaining March Fuel Points: 247\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 04/10/26\nTime: 07:29AM\nEntry ID: 035-102-4-544-553-557\n****************************************\nWith Our Low Prices, You Saved",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 12563.27341699999,
+        "totalUsd": 0.036138,
+        "inputTokens": 3692,
+        "outputTokens": 3400,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "92.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:29AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "75002",
+          "status": "match"
+        },
+        "city": {
+          "value": "ALLEN",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1212 E.BETHANY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2399",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ANNIE HMG BUNNIES + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 2.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NATIVE MINI COC",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAISY SOUR CREAM + KROGER SAVINGS 0.30",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SNMD RAISINS PC + KROGER SAVINGS 0.50 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "STSH TEA PC + KROGER SAVINGS 1.00 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STSH TEA PC + KROGER SAVINGS 1.00 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ANNIES MAC CHS + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NTVL GRANOLA BAR PC + KROGER SAVINGS 0.50 + Mega Event Savings 1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KLEENEX ON THE GO",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GOOD POP BARS MM PC + KROGER SAVINGS 0.50",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EXTENSIONIST BLACK",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OEP CHOPPED GRRE",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HUMMUS + eCpn ST Organic Hu0.70",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CELERY ORG",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STO TOM GRP ORGNC PC + KROGER SAVINGS 0.20 + eCpn ST Organic Gr0.60",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CABBAGE ORG + 1.01 (1.02) lb @ 1.29 /lb",
+          "quantity": 1,
+          "unitPrice": 1.3,
+          "totalSpend": 1.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DANJOU ORG + 1.00 (1.01) lb @ 2.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MANDARINS GOLD NGG + eCpn Citrus 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRSL NAVELS HEIRLO + eCpn Citrus 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRSL NAVELS HEIRLO + eCpn Citrus 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBER ORG + 2 @ 0.99",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DOLE BAN ORG + 1.84 (1.85) lb @ 0.69 /lb",
+          "quantity": 1,
+          "unitPrice": 1.27,
+          "totalSpend": 1.27,
+          "matchStatus": "match"
+        },
+        {
+          "text": "APPLES + 1.50 (1.51) lb @ 1.99 /lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STO CHK BRST + eCpn ST Natural Ch1.50",
+          "quantity": 1,
+          "unitPrice": 12.41,
+          "totalSpend": 10.91,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KROGER BUTTERMILK",
+          "quantity": 1,
+          "unitPrice": 2.19,
+          "totalSpend": 2.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO LACT FREE 1%LF",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWANSON BROTH PC",
+          "quantity": 1,
+          "unitPrice": 0.9,
+          "totalSpend": 0.9,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPINDRIFT SPRK WTRPC + KROGER SAVINGS 1.50 + eCpn Spindrift 1.00 + eCpn 4X Fuel",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Kroger FOR EVERYONE\n1212 E.BETHANY\n(972) 727-9299\nYour cashier was CHEC 553\nKROGER PLUS CUSTOMER ******2371\nSC ANNIE HMG BUNNIES 1.74 F\nMega Event Savings1.00\nNATIVE MINI COC 1.74 T\nSC DAISY SOUR CREAM 2.99 F\nKROGER SAVINGS 0.30\nSC SNMD RAISINS PC 1.49 F\nSC KROGER SAVINGS 0.50\nMega Event Savings1.00\nSC STSH TEA PC 2.49 F\nSC KROGER SAVINGS 1.00\nMega Event Savings1.00\nSC STSH TEA PC 2.49 F\nSC KROGER SAVINGS 1.00\nMega Event Savings1.00\nANNIES MAC CHS 0.99 F\nSC Mega Event Savings1.00\nSC NTVL GRANOLA BAR PC 2.49 F\nSC KROGER SAVINGS 0.50\nMega Event Savings1.00\nKLEENEX ON THE GO 1.99 T\nGOOD POP BARS MM PC 7.99 F\nSC KROGER SAVINGS 0.50\nEXTENSIONIST BLACK 16.99 T\nOEP CHOPPED GRRE 1.99 F\nHUMMUS 3.29 F\nSC eCpn ST Organic Hu0.70\nCELERY ORG 2.79 F\nSTO TOM GRP ORGNC PC 2.49 F\nSC KROGER SAVINGS 0.20\nSC eCpn ST Organic Gr0.60\n1.01 (1.02) lb @ 1.29 /lb\nWT CABBAGE ORG 1.30 F\n1.00 (1.01) lb @ 2.99 /lb\nWT DANJOU ORG 2.99 F\nMANDARINS GOLD NGG 2.99 F\nSC eCpn Citrus 2.00\nPRSL NAVELS HEIRLO 2.99 F\nSC eCpn Citrus 2.00\nPRSL NAVELS HEIRLO 2.99 F\nSC eCpn Citrus 2.00\n2 @ 0.99\nCUCUMBER ORG 1.98 F\n1.84 (1.85) lb @ 0.69 /lb\nWT DOLE BAN ORG 1.27 F\n1.50 (1.51) lb @ 1.99 /lb\nWT APPLES 2.99 F\nSTO CHK BRST 10.91 F\nSC eCpn ST Natural Ch1.50\nKROGER BUTTERMILK 2.19 F\nKRO LACT FREE 1%LF 3.49 F\nSWANSON BROTH PC 0.90 F\nSPINDRIFT SPRK WTRPC 4.99 F\nSC KROGER SAVINGS 1.50\nSC eCpn Spindrift 1.00\nSC eCpn 4X Fuel\nSC $5 Off Order 5.00-T\nTAX 1.30\n**** BALANCE 92.23\nALLEN TX 75002\nVISA CREDIT Purchase\n************2399 - C\nREF#: 71496G TOTAL: 92.23\nAID: A0000000031010\nTC: 7A63167A760F2753\nVISA 92.23\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 29\nKROGER SAVINGS $ 26.30\nTOTAL COUPONS $ 26.30\nTOTAL SAVINGS (22 %) $ 26.30\n04/10/26 07:30am 544 553 4 999999553\n****************************************\nAnnual Card Savings $593.50\n****************************************\n****************************************\nFuel Points Earned Today: 384\nTotal April Fuel Points: 462\n****************************************\nRemaining March Fuel Points: 247\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 04/10/26\nTime: 07:29AM\nEntry ID: 035-102-4-544-553-557\n****************************************\nWith Our Low Prices, You Saved",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ANNIE HMG BUNNIES + Mega Event Savings 1.00",
+      "price": 1.74,
+      "quantity": 1,
+      "totalSpend": 1.74
+    },
+    {
+      "text": "NATIVE MINI COC",
+      "price": 1.74,
+      "quantity": 1,
+      "totalSpend": 1.74
+    },
+    {
+      "text": "DAISY SOUR CREAM + SC KROGER SAVINGS 0.30",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "SNMD RAISINS + SC KROGER SAVINGS 0.50 + SC Mega Event Savings 1.00",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1
+    },
+    {
+      "text": "STSH TEA + SC KROGER SAVINGS 1.00 + SC Mega Event Savings 1.00",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "STSH TEA + SC KROGER SAVINGS 1.00 + SC Mega Event Savings 1.00",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "ANNIES MAC CHS + SC Mega Event Savings 1.00",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "NTVL GRANOLA BAR + SC KROGER SAVINGS 0.50 + SC Mega Event Savings 1.00",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "KLEENEX ON THE GO",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GOOD POP BARS MM + SC KROGER SAVINGS 0.50",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "EXTENSIONIST BLACK",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 16.99
+    },
+    {
+      "text": "OEP CHOPPED GRRE",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "HUMMUS + SC eCpn ST Organic HuO.70",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "CELERY ORG",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "STO TOM GRP ORGNC + SC KROGER SAVINGS 0.20 + SC eCpn ST Organic Gr 0.60 + 1.01 (1.02) lb @ 1.29 /lb",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "CABBAGE ORG + 1.01 (1.02) lb @ 1.29 /lb + 1.00 (1.01) lb @ 2.99 /lb",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.3
+    },
+    {
+      "text": "DANJOU ORG + 1.00 (1.01) lb @ 2.99 /lb",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "MANDARINS GOLD NGG + SC eCpn Citrus 2.00",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "PRSL NAVELS HEIRLO + SC eCpn Citrus 2.00",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "PRSL NAVELS HEIRLO + SC eCpn Citrus 2.00 + 2 @ 0.99",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "CUCUMBER ORG + 2 @ 0.99 + 1.84 (1.85) lb @ 0.69 /lb",
+      "price": 0.99,
+      "quantity": 2,
+      "totalSpend": 1.98
+    },
+    {
+      "text": "DOLE BAN ORG + 1.84 (1.85) lb @ 0.69 /lb + 1.50 (1.51) lb @ 1.99 /lb",
+      "price": 0.69,
+      "quantity": 1,
+      "totalSpend": 1.27
+    },
+    {
+      "text": "APPLES + 1.50 (1.51) lb @ 1.99 /lb",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "STO CHK BRST + SC eCpn ST Natural Ch 1.50",
+      "price": 10.91,
+      "quantity": 1,
+      "totalSpend": 10.91
+    },
+    {
+      "text": "KROGER BUTTERMILK",
+      "price": 2.19,
+      "quantity": 1,
+      "totalSpend": 2.19
+    },
+    {
+      "text": "KRO LACT FREE 1%LF",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "SWANSON BROTH",
+      "price": 0.9,
+      "quantity": 1,
+      "totalSpend": 0.9
+    },
+    {
+      "text": "SPINDRIFT SPRK WTR + SC KROGER SAVINGS 1.50 + SC eCpn Spindrift + SC eCpn 4X Fuel",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

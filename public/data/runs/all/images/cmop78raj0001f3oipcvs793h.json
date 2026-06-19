@@ -1,0 +1,270 @@
+{
+  "id": "cmop78raj0001f3oipcvs793h",
+  "url": null,
+  "retailer": "Wegmans Delivery & Curbside Pickup",
+  "brand": "N!CK'S",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "6.93",
+    "purchaseDate": "2026-05-02",
+    "time": null,
+    "zipCode": "07712",
+    "city": "Ocean",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7182.431332999957,
+        "totalUsd": 0.01686,
+        "inputTokens": 6086,
+        "outputTokens": 859,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:40pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07712",
+          "status": "match"
+        },
+        "city": {
+          "value": "OCEAN",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1104 HIGHWAY 35",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2457",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NICKS IC STRW + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HASS AVOCADOS + SAVINGS",
+          "quantity": 6,
+          "unitPrice": 1.49,
+          "totalSpend": 2.94,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1104 HIGHWAY 35\nOCEAN, NJ 07712\n(732) 695-7000\nStore Telephone: (732) 203-2233\nPharmacy Telephone: (732) 335-4281\nStore #801 05/02/26 07:40pm\nFROZEN FOOD\nNICKS IC STRW 6.99 F\nSAVINGS 3.00-F\nPRICE YOU PAY 3.99\nPRODUCE\n6 @ 1.49\n+HASS AVOCADOS 8.94 F\n6 @ 1.00\nSAVINGS 6.00-F\nPRICE YOU PAY FOR 6 2.94\nTotal After Savings 6.93\nTAX 0.00\n**** BALANCE 6.93\n************************************\nPayment Type: CHASE VISA\nEMV CONTACTLESS Purchase\nCard: ************2457\nPayment Amt: $6.93\nBALANCE: $\nAID: A0000000031010\nAUTH#06216D RC#00 05/02/26 07:45pm\n************************************\nVISA 6.93\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\n********* SAVINGS SUMMARY *********\nCard Savings: 9.00\nYour Total Savings: 9.00\n05/02/26 07:45pm 801 402 72 880002\n************************************\n******* GO POINTS *******\nGO Points Today 7\nTotal GO Points 25",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12683.27974999999,
+        "totalUsd": 0.031152,
+        "inputTokens": 3692,
+        "outputTokens": 844,
+        "reasoningTokens": 2002
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:40pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07712",
+          "status": "match"
+        },
+        "city": {
+          "value": "OCEAN",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1104 HIGHWAY 35",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2457",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NICKS IC STRW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "+HASS AVOCADOS",
+          "quantity": 6,
+          "unitPrice": 1.49,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1104 HIGHWAY 35\nOCEAN, NJ 07712\n(732) 695-7000\nStore Telephone: (732) 203-2233\nPharmacy Telephone: (732) 335-4281\nStore #801 05/02/26 07:40pm\nFROZEN FOOD\nNICKS IC STRW 6.99 F\nSAVINGS 3.00-F\nPRICE YOU PAY 3.99\nPRODUCE\n6 @ 1.49\n+HASS AVOCADOS 8.94 F\n6 @ 1.00\nSAVINGS 6.00-F\nPRICE YOU PAY FOR 6 2.94\nTotal After Savings 6.93\nTAX 0.00\n**** BALANCE 6.93\n********************************\nPayment Type: CHASE VISA\nEMV CONTACTLESS Purchase\nCard: ************2457\nPayment Amt: $6.93\nBALANCE: $\nAID: A0000000031010\nAUTH#06216D RC#00 05/02/26 07:45pm\n********************************\nVISA 6.93\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\n********* SAVINGS SUMMARY *********\nCard Savings: 9.00\nYour Total Savings: 9.00\n05/02/26 07:45pm 801 402 72 880002\n********************************\n******* GO POINTS *******\nGO Points Today 7\nTotal GO Points 25",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6930.103707999981,
+        "totalUsd": 0.013188,
+        "inputTokens": 3692,
+        "outputTokens": 850,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.93",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:40pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07712",
+          "status": "match"
+        },
+        "city": {
+          "value": "OCEAN",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1104 HIGHWAY 35",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2457",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NICKS IC STRW + SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HASS AVOCADOS + SAVINGS",
+          "quantity": 6,
+          "unitPrice": 1.49,
+          "totalSpend": 2.94,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1104 HIGHWAY 35\nOCEAN, NJ 07712\n(732) 695-7000\nStore Telephone: (732) 203-2233\nPharmacy Telephone: (732) 335-4281\nStore #801 05/02/26 07:40pm\nFROZEN FOOD\nNICKS IC STRW 6.99 F\nSAVINGS 3.00-F\nPRICE YOU PAY 3.99\nPRODUCE\n6 @ 1.49\n+HASS AVOCADOS 8.94 F\n6 @ 1.00\nSAVINGS 6.00-F\nPRICE YOU PAY FOR 6 2.94\nTotal After Savings 6.93\nTAX 0.00\n**** BALANCE 6.93\n***********************************\nPayment Type: CHASE VISA\nEMV CONTACTLESS Purchase\nCard: ************2457\nPayment Amt: $6.93\nBALANCE: $\nAID: A0000000031010\nAUTH#06216D RC#00 05/02/26 07:45pm\n***********************************\nVISA 6.93\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 7\n********* SAVINGS SUMMARY *********\nCard Savings: 9.00\nYour Total Savings: 9.00\n05/02/26 07:45pm 801 402 72 880002\n***********************************\n******* GO POINTS *******\nGO Points Today 7\nTotal GO Points 25",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NICKS IC STRW + FROZEN FOOD",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "HASS AVOCADOS + 6 @ 1.49 + 6 @ 1.00",
+      "price": 0.49,
+      "quantity": 6,
+      "totalSpend": 2.94
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

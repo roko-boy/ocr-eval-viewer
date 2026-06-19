@@ -1,0 +1,311 @@
+{
+  "id": "cmp7d136r00acmiunxsx9xnj3",
+  "url": null,
+  "retailer": "Nugget Markets",
+  "brand": "nutpods",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Nugget Market",
+    "totalCost": "7.5",
+    "purchaseDate": "2026-05-15",
+    "time": null,
+    "zipCode": "95747",
+    "city": "Roseville",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15672.112292,
+        "totalUsd": 0.018381,
+        "inputTokens": 6086,
+        "outputTokens": 1028,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Nugget Markets",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "7.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:15:09",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "Blue Oaks Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9329",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTPODS CRMR COFF + You saved $1.80",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NUTPODS CRMR COFF + You saved $1.80",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NUTPOD CRMR 2/$5",
+          "quantity": 1,
+          "unitPrice": -7.47,
+          "totalSpend": -7.47,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NUTPODS CRMR FRNCH + You saved $1.80",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.19,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Nugget\nMARKETS\nBlue Oaks Blvd, Roseville, CA\n(916) 918-1900\nwww.nuggetmarket.com\n05/15/2026 13:15:09\nVISA CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX9329\nPURCHASE - APPROVED\nAUTH CODE:05372D\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 1F420132A0000000001003027300000\n00040000000000000000000000000000\nTSI: 0000 ARC: 00\nTC: 20E314C730A7061F\nMID: 000000 TID: 001 RRN: 027056\nTotal: USD$ 7.50\nDAIRY\n@ NUTPODS CRMR COFF $4.99 N F\nYou saved $1.80\n@ NUTPODS CRMR COFF $4.99 N F\nYou saved $1.80\nNUTPOD CRMR 2/$5 -$7.47 N F\n@ NUTPODS CRMR FRNCH $4.99 N F\nYou saved $1.80\nSUB TOTAL $7.50\nTOTAL TAX $0.00\nTOTAL $7.50\nBALANCE DUE $7.50\nVISA $7.50\nAuth Code = 05372D\nCHANGE $0.00\nYour Savings Today!\nTOTAL DISCOUNTS 4 -$12.87\nTotal number of items sold = 3\nSTORE:00010 REGISTER:002 CASHIER:0230\nTICKET#:0302 15MAY2026 13:15:10\n* Thank you for shopping with us! *",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 23062.758459,
+        "totalUsd": 0.05016,
+        "inputTokens": 3692,
+        "outputTokens": 1018,
+        "reasoningTokens": 3940
+      },
+      "fields": {
+        "storeName": {
+          "value": "Nugget Markets",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "7.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:15:09",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "Blue Oaks Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9329",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "@ NUTPODS CRMR COFF + You saved $1.80 + NUTPOD CRMR 2/$5",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "@ NUTPODS CRMR COFF + You saved $1.80 + NUTPOD CRMR 2/$5",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "@ NUTPODS CRMR FRNCH + You saved $1.80 + NUTPOD CRMR 2/$5",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Nugget\nMARKETS\nBlue Oaks Blvd, Roseville, CA\n(916) 918-1900\nwww.nuggetmarket.com\n05/15/2026 13:15:09\nVISA CREDIT Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX9329\nPURCHASE\n- APPROVED\nAUTH CODE:05372D\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n1F420132A00000000010030273000000\n00040000000000000000000000000000\nTSI: 0000\nARC: 00\nTC:\n20E314C730A7061F\nMID: 000000 TID: 001\nRRN: 027056\nTotal:\nUSD$ 7.50\nDAIRY\n@ NUTPODS CRMR COFF\n$4.99 N F\nYou saved $1.80\n@ NUTPODS CRMR COFF\n$4.99 N F\nYou saved $1.80\nNUTPOD CRMR 2/$5\n-$7.47 N F\n@ NUTPODS CRMR FRNCH\n$4.99 N F\nYou saved $1.80\nSUB TOTAL\n$7.50\nTOTAL TAX\n$0.00\nTOTAL\n$7.50\nBALANCE DUE\n$7.50\nVISA\n$7.50\nAuth Code = 05372D\nCHANGE\n$0.00\nYour Savings Today!\nTOTAL DISCOUNTS\n4 -$12.87\nTotal number of items sold = 3\nSTORE:00010 REGISTER:002 CASHIER:0230\nTICKET#:0302\n15MAY2026 13:15:10\n* Thank you for shopping with us! *",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5702.070749999999,
+        "totalUsd": 0.015078,
+        "inputTokens": 3692,
+        "outputTokens": 1060,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Nugget Markets",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "7.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "13:15:09",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Roseville",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "Blue Oaks Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9329",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTPODS CRMR COFF + You saved $1.80",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NUTPODS CRMR COFF + You saved $1.80",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NUTPOD CRMR 2/$5",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": -7.47,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NUTPODS CRMR FRNCH + You saved $1.80",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.19,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Nugget\nMARKETS\nBlue Oaks Blvd, Roseville, CA\n(916) 918-1900\nwww.nuggetmarket.com\n05/15/2026\n13:15:09\nVISA CREDIT\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX9329\nPURCHASE\n- APPROVED\nAUTH CODE:05372D\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n1F420132A000000001003027300000\n00040000000000000000000000000000\nTSI: 0000\nARC: 00\nTC:\n20E314C730A7061F\nMID: 000000\nTID: 001\nRRN: 027056\nTotal:\nUSD$ 7.50\nDAIRY\n@ NUTPODS CRMR COFF\n$4.99 N F\nYou saved $1.80\n@ NUTPODS CRMR COFF\n$4.99 N F\nYou saved $1.80\nNUTPOD CRMR 2/$5\n-$7.47 N F\n@ NUTPODS CRMR FRNCH\n$4.99 N F\nYou saved $1.80\nSUB TOTAL\n$7.50\nTOTAL TAX\n$0.00\nTOTAL\n$7.50\nBALANCE DUE\n$7.50\nVISA\n$7.50\nAuth Code = 05372D\nCHANGE\n$0.00\nYour Savings Today!\nTOTAL DISCOUNTS\n4 -$12.87\nTotal number of items sold = 3\nSTORE:00010 REGISTER:002 CASHIER:0230\nTICKET#:0302\n15MAY2026 13:15:10\n* Thank you for shopping with us! *",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "@ NUTPODS CRMR COFF + You saved $1.80",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "@ NUTPODS CRMR COFF + You saved $1.80",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "@ NUTPODS CRMR FRNCH + You saved $1.80",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

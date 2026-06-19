@@ -1,0 +1,297 @@
+{
+  "id": "cmn0osl6h004kwgj8upxjjtjg",
+  "url": null,
+  "retailer": "Erewhon",
+  "brand": "Olipop",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Erewhon",
+    "totalCost": "10.7",
+    "purchaseDate": "2026-03-15",
+    "time": null,
+    "zipCode": "90232",
+    "city": "Culver City",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6379.928334000011,
+        "totalUsd": 0.015996,
+        "inputTokens": 6086,
+        "outputTokens": 763,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Erewhon",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90232",
+          "status": "match"
+        },
+        "city": {
+          "value": "Culver City",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9300 Culver Blvd Suite 101",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1918",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Tonic Sprk Strwbrry Vnlla 12z",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV - $.05",
+          "quantity": 2,
+          "unitPrice": 0.05,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Kale Curly Org EA",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "EREWHON\n9300 Culver Blvd\nSuite 101\nCulver City, CA 90232\n3/15/26 5:58 PM Receipt #: 429410-02\nYour cashier today is Drake C.\nTonic Sprk Strwbrry Vnlla 12z $5.98 TEL\n2 @ $2.99\nCRV - $.05 $0.10 EL\n2 @ $0.05\nKale Curly Org EA $3.98 EL\n2 @ $1.99\nSUBTOTAL $10.06\nCC State Tax $0.64\nTOTAL $10.70\nCredit Card $10.70\nTOTAL TENDERED $10.70\nChange $0.00\nCARD INFORMATION:\nCard Type: Maste\nAccount: 1918\nAmount: USD $10.70\nApproval #: 01524Z\nDate: 3/15/26\nReference #: 593429410001\nMID: **7624\nMODE: Issuer\nCard Name: MASTERCARD\nPIN verified\nAID: A0000000041010\nThank you for shopping with us!\nPlease Note:\nYour change total will be rounded when\npaying with cash. This is due to the\nUnited States Treasury ceasing penny\nproduction and the current lack of\navailabilty.\nplease scan to view our Return Policy or",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10733.84637500001,
+        "totalUsd": 0.026562,
+        "inputTokens": 3692,
+        "outputTokens": 750,
+        "reasoningTokens": 1586
+      },
+      "fields": {
+        "storeName": {
+          "value": "Erewhon",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90232",
+          "status": "match"
+        },
+        "city": {
+          "value": "Culver City",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9300 Culver Blvd Suite 101",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1918",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Tonic Sprk Strwbrry Vnlla 12z",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV - $.05",
+          "quantity": 2,
+          "unitPrice": 0.05,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Kale Curly Org EA",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "EREWHON\n9300 Culver Blvd\nSuite 101\nCulver City, CA 90232\n3/15/26 5:58 PM Receipt #: 429410-02\nYour cashier today is Drake C.\nTonic Sprk Strwbrry Vnlla 12z $5.98 TEL\n2 @ $2.99\nCRV - $.05 $0.10 EL\n2 @ $0.05\nKale Curly Org EA $3.98 EL\n2 @ $1.99\nSUBTOTAL $10.06\nCC State Tax $0.64\nTOTAL $10.70\nCredit Card $10.70\nTOTAL TENDERED $10.70\nChange $0.00\nCARD INFORMATION:\nCard Type: Maste\nAccount: 1918\nAmount: USD $10.70\nApproval #: 01524Z\nDate: 3/15/26\nReference #: 593429410001\nMID: **7624\nMODE: Issuer\nCard Name: MASTERCARD\nPIN verified\nAID: A0000000041010\nThank you for shopping with us!\nPlease Note:\nYour change total will be rounded when\npaying with cash. This is due to the\nUnited States Treasury ceasing penny\nproduction and the current lack of\navailabilty.\nplease scan to view our Return Policy or",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4773.626916999994,
+        "totalUsd": 0.012306,
+        "inputTokens": 3692,
+        "outputTokens": 752,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Erewhon",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.7",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90232",
+          "status": "match"
+        },
+        "city": {
+          "value": "Culver City",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "9300 Culver Blvd Suite 101",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1918",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Tonic Sprk Strwbrry Vnlla 12z",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 5.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV - $.05",
+          "quantity": 2,
+          "unitPrice": 0.05,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Kale Curly Org EA",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "EREWHON\n9300 Culver Blvd\nSuite 101\nCulver City, CA 90232\n3/15/26 5:58 PM Receipt #: 429410-02\nYour cashier today is Drake C.\nTonic Sprk Strwbrry Vnlla 12z $5.98 TEL\n2 @ $2.99\nCRV - $.05 $0.10 EL\n2 @ $0.05\nKale Curly Org EA $3.98 EL\n2 @ $1.99\nSUBTOTAL $10.06\nCC State Tax $0.64\nTOTAL $10.70\nCredit Card $10.70\nTOTAL TENDERED $10.70\nChange $0.00\nCARD INFORMATION:\nCard Type: Maste\nAccount: 1918\nAmount: USD $10.70\nApproval #: 01524Z\nDate: 3/15/26\nReference #: 593429410001\nMID: **7624\nMODE: Issuer\nCard Name: MASTERCARD\nPIN verified\nAID: A0000000041010\nThank you for shopping with us!\nPlease Note:\nYour change total will be rounded when\npaying with cash. This is due to the\nUnited States Treasury ceasing penny\nproduction and the current lack of\navailabilty.\nplease scan to view our Return Policy or",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Tonic Sprk Strwbrry Vnlla 12z + 2 @ $2.99",
+      "price": 2.99,
+      "quantity": 2,
+      "totalSpend": 5.98
+    },
+    {
+      "text": "CRV + 2 @ $0.05",
+      "price": 0.05,
+      "quantity": 2,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "Kale Curly Org EA + 2 @ $1.99",
+      "price": 1.99,
+      "quantity": 2,
+      "totalSpend": 3.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

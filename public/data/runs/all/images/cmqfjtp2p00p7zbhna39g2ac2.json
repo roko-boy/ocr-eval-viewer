@@ -1,0 +1,351 @@
+{
+  "id": "cmqfjtp2p00p7zbhna39g2ac2",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "killer brownie",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "15.73",
+    "purchaseDate": "2026-06-15",
+    "time": null,
+    "zipCode": "22842",
+    "city": "Mount Jackson",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15817.21929199999,
+        "totalUsd": 0.017895,
+        "inputTokens": 6086,
+        "outputTokens": 974,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:26:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "22842",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mount Jackson",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "227 Conicville Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2413",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1stPhorm Level 1 Choc PB Pre",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1stPhorm Level 1 PB Lover Ba",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1st Phorm Orig Meat Stick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1stPhorm Cheddr MeatStick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Killer Brownie Chocolatier S + PROTEIN BARS 2/6.00 NEW",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.01,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #701\n227 Conicville Blvd\nMount Jackson\nVA 22842\n(540) 246-0057\n6/15/2026 2:26:45 PM\nPOS Terminal\nOrder Number: 137\nRegister:21\n1stPhorm Level 1 Choc PB Pre $3.39\n1stPhorm Level 1 PB Lover Ba $3.39\n1st Phorm Orig Meat Stick 2o $3.39\n1stPhorm Cheddr MeatStick 2o $3.39\nKiller Brownie Chocolatier S $2.79\nPROTEIN BARS 2/6.00 NEW -$0.78\nSub. Total: $15.57\nTax: $0.16\nTotal: $15.73\nDiscount Total: -$0.78\nMasterCard: $15.73\nChange $0.00\nSale\nMasterCard\nCard Num : XXXXXXXXXXXX2413\nChip Read\nTerminal : XXXXXXXXXX5002\nApproval : 055374\nSequence : 043882\nUSD$ 15.73\nUS Debit\nMode: Issuer\nAID: A0000000042203\nTVR: 0000088000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: A4BC258E49E5B5CE\nPIN Bypassed",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10888.94524999999,
+        "totalUsd": 0.026949,
+        "inputTokens": 3692,
+        "outputTokens": 978,
+        "reasoningTokens": 1401
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:26:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "22842",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mount Jackson",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "227 Conicville Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2413",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1stPhorm Level 1 Choc PB Pre + PROTEIN BARS 2/6.00 NEW",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1stPhorm Level 1 PB Lover Ba + PROTEIN BARS 2/6.00 NEW",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1st Phorm Orig Meat Stick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1stPhorm Cheddr MeatStick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Killer Brownie Chocolatier S",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #701\n227 Conicville Blvd\nMount Jackson\nVA 22842\n(540) 246-0057\n6/15/2026 2:26:45 PM\nPOS Terminal\nOrder Number: 137\nRegister:21\n1stPhorm Level 1 Choc PB Pre $3.39\n1stPhorm Level 1 PB Lover Ba $3.39\n1st Phorm Orig Meat Stick 2o $3.39\n1stPhorm Cheddr MeatStick 2o $3.39\nKiller Brownie Chocolatier S $2.79\nPROTEIN BARS 2/6.00 NEW -$0.78\nSub. Total: $15.57\nTax: $0.16\nTotal: $15.73\nDiscount Total: -$0.78\nMasterCard: $15.73\nChange $0.00\nSale\nMasterCard\nCard Num : XXXXXXXXXXXX2413\nChip Read\nTerminal : XXXXXXXXXX5002\nApproval : 055374\nSequence : 043882\nUSD$ 15.73\nUS Debit\nMode: Issuer\nAID: A0000000042203\nTVR: 0000088000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: A4BC258E49E5B5CE\nPIN Bypassed",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5552.979250000004,
+        "totalUsd": 0.01434,
+        "inputTokens": 3692,
+        "outputTokens": 978,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:26:45 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "22842",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mount Jackson",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "227 Conicville Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2413",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1stPhorm Level 1 Choc PB Pre + PROTEIN BARS 2/6.00 NEW",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1stPhorm Level 1 PB Lover Ba + PROTEIN BARS 2/6.00 NEW",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1st Phorm Orig Meat Stick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1stPhorm Cheddr MeatStick 2o",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Killer Brownie Chocolatier S",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #701\n227 Conicville Blvd\nMount Jackson\nVA 22842\n(540) 246-0057\n6/15/2026 2:26:45 PM\nPOS Terminal\nOrder Number: 137\nRegister:21\n1stPhorm Level 1 Choc PB Pre $3.39\n1stPhorm Level 1 PB Lover Ba $3.39\n1st Phorm Orig Meat Stick 2o $3.39\n1stPhorm Cheddr MeatStick 2o $3.39\nKiller Brownie Chocolatier S $2.79\nPROTEIN BARS 2/6.00 NEW -$0.78\nSub. Total: $15.57\nTax: $0.16\nTotal: $15.73\nDiscount Total: -$0.78\nMasterCard: $15.73\nChange $0.00\nSale\nMasterCard\nCard Num : XXXXXXXXXXXX2413\nChip Read\nTerminal : XXXXXXXXXX5002\nApproval : 055374\nSequence : 043882\nUSD$ 15.73\nUS Debit\nMode: Issuer\nAID: A0000000042203\nTVR: 0000088000\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: A4BC258E49E5B5CE\nPIN Bypassed",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "1stPhorm Level 1 Choc PB Pre + PROTEIN BARS 2/6.00 NEW",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "1stPhorm Level 1 PB Lover Ba + PROTEIN BARS 2/6.00 NEW",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "1stPhorm Orig Meat Stick 2o",
+      "price": 3.39,
+      "quantity": 1,
+      "totalSpend": 3.39
+    },
+    {
+      "text": "1stPhorm Cheddr MeatStick 2o",
+      "price": 3.39,
+      "quantity": 1,
+      "totalSpend": 3.39
+    },
+    {
+      "text": "Killer Brownie Chocolatier S",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

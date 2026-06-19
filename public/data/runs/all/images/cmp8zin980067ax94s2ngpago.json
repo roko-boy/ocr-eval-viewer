@@ -1,0 +1,405 @@
+{
+  "id": "cmp8zin980067ax94s2ngpago",
+  "url": null,
+  "retailer": "Wegmans Delivery & Curbside Pickup",
+  "brand": "Pulmuone - Plant Based",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "27.73",
+    "purchaseDate": "2026-05-16",
+    "time": null,
+    "zipCode": "19067",
+    "city": "Lower Makefield Township",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7172.560957999958,
+        "totalUsd": 0.017832,
+        "inputTokens": 6086,
+        "outputTokens": 967,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "27.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:43",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19067",
+          "status": "match"
+        },
+        "city": {
+          "value": "YARDLEY",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "925 VANSANT DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3218",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NASOYA BBQ TOFU",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NASOYA OG DUMPLING",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB VAN GREEK YGT",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB PLAIN CCMK YGRT",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AF MICRO RAINBW MX",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG ITALIAN PARSL",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO MINT",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n925 VANSANT DRIVE\nYARDLEY, PA 19067\n(215) 369-6500\n05/16/26 OP# 86\nNASOYA BBQ TOFU 4.99 F\nNASOYA OG DUMPLING 4.99 F\nWB VAN GREEK YGT 4.29 F\nWB PLAIN CCMK YGRT 4.99 F\nAF MICRO RAINBW MX 4.99 F\nORG ITALIAN PARSL 1.99 F\nWBO MINT 1.49 F\nTAX 0.00\n**** BALANCE 27.73\nMASTERCARD PURCHASE\nCARD NUMBER: ************3218 H\nMASTERCARD 07\nAUTH: 40209Z RCPT: 86010\nCODE: 0000 Approved\nAID: A0000000041010\nVERIFIED BY PIN\nCREDIT CARD 27.73\nCHANGE 0.00\n05/16/26 18:43 152 86 92 86\nEvery day you get our best!\nThank you!\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9017.413875000027,
+        "totalUsd": 0.023187,
+        "inputTokens": 3692,
+        "outputTokens": 961,
+        "reasoningTokens": 1000
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "27.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:43",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19067",
+          "status": "match"
+        },
+        "city": {
+          "value": "YARDLEY",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "925 VANSANT DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3218",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NASOYA BBQ TOFU",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NASOYA OG DUMPLING",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB VAN GREEK YGT",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB PLAIN CCMK YGRT",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AF MICRO RAINBW MX",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG ITALIAN PARSL",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO MINT",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n925 VANSANT DRIVE\nYARDLEY, PA 19067\n(215) 369-6500\n05/16/26 OP# 86\nNASOYA BBQ TOFU 4.99 F\nNASOYA OG DUMPLING 4.99 F\nWB VAN GREEK YGT 4.29 F\nWB PLAIN CCMK YGRT 4.99 F\nAF MICRO RAINBW MX 4.99 F\nORG ITALIAN PARSL 1.99 F\nWBO MINT 1.49 F\nTAX 0.00\n**** BALANCE 27.73\nMASTERCARD PURCHASE\nCARD NUMBER: ************3218 H\nMASTERCARD 07\nAUTH: 40209Z RCPT: 86010\nCODE: 0000 Approved\nAID: A0000000041010\nVERIFIED BY PIN\nCREDIT CARD 27.73\nCHANGE 0.00\n05/16/26 18:43 152 86 92 86\nEvery day you get our best!\nThank you!\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5629.669750000001,
+        "totalUsd": 0.014178,
+        "inputTokens": 3692,
+        "outputTokens": 960,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "27.73",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "18:43",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19067",
+          "status": "match"
+        },
+        "city": {
+          "value": "Yardley",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "925 VANSANT DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3218",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NASOYA BBQ TOFU",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NASOYA OG DUMPLING",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB VAN GREEK YGT",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB PLAIN CCMK YGRT",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AF MICRO RAINBW MX",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG ITALIAN PARSL",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WBO MINT",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n925 VANSANT DRIVE\nYARDLEY, PA 19067\n(215) 369-6500\n05/16/26 OP# 86\nNASOYA BBQ TOFU 4.99 F\nNASOYA OG DUMPLING 4.99 F\nWB VAN GREEK YGT 4.29 F\nWB PLAIN CCMK YGRT 4.99 F\nAF MICRO RAINBW MX 4.99 F\nORG ITALIAN PARSL 1.99 F\nWBO MINT 1.49 F\nTAX 0.00\n**** BALANCE 27.73\nMASTERCARD PURCHASE\nCARD NUMBER: ************3218 H\nMASTERCARD 07\nAUTH: 40209Z RCPT: 86010\nCODE: 0000 Approved\nAID: A0000000041010\nVERIFIED BY PIN\nCREDIT CARD 27.73\nCHANGE 0.00\n05/16/26 18:43 152 86 92 86\nEvery day you get our best!\nThank you!\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NASOYA BBQ TOFU",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "NASOYA OG DUMPLING",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "WB VAN GREEK YGT",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 4.29
+    },
+    {
+      "text": "WB PLAIN CCMK YGRT",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "AF MICRO RAINBW MX",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "ORG ITALIAN PARSL",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "WBO MINT",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

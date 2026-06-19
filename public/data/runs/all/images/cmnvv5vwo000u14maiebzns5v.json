@@ -1,0 +1,297 @@
+{
+  "id": "cmnvv5vwo000u14maiebzns5v",
+  "url": null,
+  "retailer": "MOM's Organic Market",
+  "brand": "Ground Up",
+  "amount": 7,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "MOM's Organic Market",
+    "totalCost": "21.66",
+    "purchaseDate": "2026-04-12",
+    "time": null,
+    "zipCode": "22201",
+    "city": "Arlington",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13769.70608300001,
+        "totalUsd": 0.016203,
+        "inputTokens": 6086,
+        "outputTokens": 786,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "MOM's Organic Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:30 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Arlington",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8808",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JUST. SESM GNGR PLNTBSD CHKN 8OZ + Reg Price:$7.29 + Save:$1.30",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GU NUT BUTTER SNICKERDODLE 12 OZ",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRML STRIPS MESQUITE LIME 1 OZ + Reg Price:$1.99 + Save:$0.52",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.47,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "RETURN POLICY\nMOM's Organic Market\nArlington, VA • 571-354-8810\n4/12/26 10:30 AM Receipt #: 774499-05\nYour cashier today is Dilcia\nJUST. SESM GNGR PLNTBSD CHKN 8OZ $5.99\nReg Price:$7.29 Save:$1.30\nGU NUT BUTTER SNICKERDODLE 12 OZ $13.99\nPRML STRIPS MESQUITE LIME 1 OZ $1.47\nReg Price:$1.99 Save:$0.52\nSUBTOTAL $21.45\nVA REDUCED TAX $0.21\nSale Savings:$1.82\nTOTAL $21.66\nCharge 16550 $21.66\nTOTAL TENDERED $21.66\nChange $0.00\nCARD INFORMATION:\nCard Type:Disco\nAccount: 8808\nAmount: USD $21.66\nAppr 01259R\n10:31:49\n005774499001\n**7178\nIssuer\nName: DISCOVER\nID: A0000001523010010000\n>J9732UL39V1DC7",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11740.705625,
+        "totalUsd": 0.027822,
+        "inputTokens": 3692,
+        "outputTokens": 804,
+        "reasoningTokens": 1672
+      },
+      "fields": {
+        "storeName": {
+          "value": "MOM's Organic Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:30 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Arlington",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8808",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JUST. SESM GNGR PLNTBSD CHKN 8OZ + Reg Price:$7.29 + Save:$1.30",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GU NUT BUTTER SNICKERDODLE 12 OZ",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRML STRIPS MESQUITE LIME 1 OZ + Reg Price:$1.99 + Save:$0.52",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.47,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "RETURN POLICY\nMOM\nMOM's Organic Market\nArlington, VA • 571-354-8810\n4/12/26 10:30 AM Receipt #: 774499-05\nYour cashier today is Dilcia\nJUST. SESM GNGR PLNTBSD CHKN 8OZ $5.99\nReg Price:$7.29 Save:$1.30\nGU NUT BUTTER SNICKERDODLE 12 OZ $13.99\nPRML STRIPS MESQUITE LIME 1 OZ $1.47\nReg Price:$1.99 Save:$0.52\nSUBTOTAL $21.45\nVA REDUCED TAX $0.21\nSale Savings:$1.82\nTOTAL $21.66\nCharge 16550 $21.66\nTOTAL TENDERED $21.66\nChange $0.00\nCARD INFORMATION:\nCard Type:Disco\nAccount: 8808\nAmount: USD $21.66\nAppr: 01259R\n10:31:49\n005774499001\n**7178\nIssuer\nCard Name: DISCOVER\nAID: A0000001523010010000\n>J9732UL39V1DC7",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4826.188125000001,
+        "totalUsd": 0.012288,
+        "inputTokens": 3692,
+        "outputTokens": 750,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "MOM's Organic Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:30 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Arlington",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8808",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JUST. SESM GNGR PLNTBSD CHKN 8OZ",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GU NUT BUTTER SNICKERDODLE 12 OZ",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRML STRIPS MESQUITE LIME 1 OZ",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.47,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "RETURN POLICY\nMOM\nMOM's Organic Market\nArlington, VA • 571-354-8810\n4/12/26 10:30 AM Receipt #: 774499-05\nYour cashier today is Dilcia\nJUST. SESM GNGR PLNTBSD CHKN 8OZ $5.99\nReg Price:$7.29 Save:$1.30\nGU NUT BUTTER SNICKERDODLE 12 OZ $13.99\nPRML STRIPS MESQUITE LIME 1 OZ $1.47\nReg Price:$1.99 Save:$0.52\nSUBTOTAL $21.45\nVA REDUCED TAX $0.21\nSale Savings:$1.82\nTOTAL $21.66\nCharge 16550 $21.66\nTOTAL TENDERED $21.66\nChange $0.00\nCARD INFORMATION:\nCard Type:Disco\nAccount: 8808\nAmount: USD $21.66\nApp 01259R\nJ:31:49\n005774499001\n**7178\nIssuer\nd Name: DISCOVER\nD: A0000001523010010000\n>J9732UL39V1DC7",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JUST. SESM GNGR PLNTBSD CHKN 8OZ + Reg Price: $7.29 Save: $1.30",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "GU NUT BUTTER SNICKERDODLE 12 OZ",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "PRML STRIPS MESQUITE LIME 1 OZ + Reg Price: $1.99 Save: $0.52",
+      "price": 1.47,
+      "quantity": 1,
+      "totalSpend": 1.47
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

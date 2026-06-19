@@ -1,0 +1,324 @@
+{
+  "id": "cmp23prry0020rxoows8dun2p",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Ripple Foods",
+  "amount": 3.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "14.39",
+    "purchaseDate": "2026-05-11",
+    "time": null,
+    "zipCode": "92865",
+    "city": "Orange",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16436.96524900006,
+        "totalUsd": 0.0346065,
+        "inputTokens": 6169,
+        "outputTokens": 1034,
+        "reasoningTokens": 1783
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:56:44",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92865",
+          "status": "match"
+        },
+        "city": {
+          "value": "ORANGE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1500 EAST VILLAGE WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2612",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COOKIES & CRM COOKIE + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1% MILK",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MILK-ORGANIC-PLANT B",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1500 EAST VILLAGE WAY\nORANGE, CA 92865\n(714) 464-1060\nStore Hours MON-SUN 7AM-10PM\n05/11/2026\nVISA CREDIT\nCARD #:\nPURCHASE\nAUTH CODE:09490I\n20:56:44\nEntry Method:Cntctless\nXXXXXXXXXXXX2612\n- APPROVED\nMode:\nAID:\nTVR:\nIAD:\nIssuer\nA0000000031010\n0000000000\n1F420132A0000000001003027300000\n00040000000000000000000000000000\nTSI:\nARC:\nTC:\nMID: 816948\nTID:\n0000\n00\n9477AC63B98A54B4\n001 SEQ: 321352\nTotal:\nUSD$ 14.39\nGROCERY\nCOOKIES & CRM COOKIE\n1 @ 2 FOR 7.00\n3.50\nDAIRY\n1% MILK\nMILK-ORGANIC-PLANT B\n*CRV FS/TX 10\n4.29\n6.49\n0.10 T\nTax Report\nTAX 1\n0.10\n0.01 TT\nBALANCE DUE\nCREDIT\n[ ] XXXXXXXXXXXX2612\nAuth# 09490I\nCHANGE\n14.39\n$14.39\nRef# 321352\n0.00\n****************************************\n99021103231021312056\n****************************************\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9313.842334000045,
+        "totalUsd": 0.022413,
+        "inputTokens": 3692,
+        "outputTokens": 1026,
+        "reasoningTokens": 849
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:56:44",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92865",
+          "status": "match"
+        },
+        "city": {
+          "value": "ORANGE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1500 EAST VILLAGE WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2612",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COOKIES & CRM COOKIE + 1 @ 2 FOR 7.00",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1% MILK",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MILK-ORGANIC-PLANT B",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1500 EAST VILLAGE WAY\nORANGE, CA 92865\n(714) 464-1060\nStore Hours MON-SUN 7AM-10PM\n05/11/2026\n20:56:44\nVISA CREDIT\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX2612\nPURCHASE\n- APPROVED\nAUTH CODE:09490I\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n1F420132A0000000001003027300000\n00040000000000000000000000000000\nTSI:\n0000\nARC:\n00\nTC:\n9477AC63B98A54B4\nMID: 816948\nTID: 001 SEQ: 321352\nTotal:\nUSD$ 14.39\nGROCERY\nCOOKIES & CRM COOKIE\n3.50\n1 @ 2 FOR 7.00\nDAIRY\n1% MILK\n4.29\nMILK-ORGANIC-PLANT B\n6.49\n*CRV FS/TX 10\n0.10 T\nTax Report\nTAX 1\n0.10\n0.01 TT\nBALANCE DUE\n14.39\nCREDIT\n$14.39\n[ ] XXXXXXXXXXXX2612\nAuth# 09490I\nRef# 321352\nCHANGE\n0.00\n****************************************\n99021103231021312056\n****************************************\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5513.353250000015,
+        "totalUsd": 0.0147,
+        "inputTokens": 3692,
+        "outputTokens": 1018,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:56:44",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92865",
+          "status": "match"
+        },
+        "city": {
+          "value": "ORANGE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1500 EAST VILLAGE WAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2612",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COOKIES & CRM COOKIE",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1% MILK",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MILK-ORGANIC-PLANT B",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1500 EAST VILLAGE WAY\nORANGE, CA 92865\n(714) 464-1060\nStore Hours MON-SUN 7AM-10PM\n05/11/2026\n20:56:44\nVISA CREDIT\nEntry Method: Cntctless\nCARD #:\nXXXXXXXXXXXX2612\nPURCHASE\n- APPROVED\nAUTH CODE: 09490I\nMode:\nIssuer\nAID:\nA0000000031010\nTVR:\n0000000000\nIAD:\n1F420132A00000000010030273000000\n00040000000000000000000000000000\nTSI:\n0000\nARC:\n00\nTC:\n9477AC63B98A54B4\nMID: 816948\nTID: 001 SEQ: 321352\nTotal:\nUSD$ 14.39\nGROCERY\nCOOKIES & CRM COOKIE\n3.50\n1 @ 2 FOR 7.00\nDAIRY\n1% MILK\n4.29\nMILK-ORGANIC-PLANT B\n6.49\n*CRV FS/TX 10\n0.10 T\nTax Report\nTAX 1\n0.10\n0.01 TT\nBALANCE DUE\n14.39\nCREDIT\n$14.39\n[ ] XXXXXXXXXXXX2612\nAuth# 09490I\nRef# 321352\nCHANGE\n0.00\n****************************************\n99021103231021312056\n****************************************\nTo join our rewards program please go to\nwww.sprouts.com/rewards or scan the QR",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "COOKIES & CRM COOKIE + 1 @ 2 FOR 7.00",
+      "price": 3.5,
+      "quantity": 1,
+      "totalSpend": 3.5
+    },
+    {
+      "text": "1% MILK",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 4.29
+    },
+    {
+      "text": "MILK-ORGANIC-PLANT B",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "CRV FS/TX 10",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

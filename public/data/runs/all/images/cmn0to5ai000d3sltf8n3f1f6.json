@@ -1,0 +1,324 @@
+{
+  "id": "cmn0to5ai000d3sltf8n3f1f6",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "¡Ya Oaxaca!",
+  "amount": 5.04,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "23.9",
+    "purchaseDate": "2026-03-21",
+    "time": null,
+    "zipCode": "30097",
+    "city": "Johns Creek",
+    "state": "GA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 19873.31133300008,
+        "totalUsd": 0.019056,
+        "inputTokens": 6086,
+        "outputTokens": 1103,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "23.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:48 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30097",
+          "status": "match"
+        },
+        "city": {
+          "value": "Duluth",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5945 State Bridge Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2001",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "YAOXCA CHL DE ARBOL SALSA + Qty 2 Reg $6.49 ea + Savings ($2.90)",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 10.08,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG HNY CLSTRBUCKS + Reg $6.99 + Savings ($1.00)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG EVRTG CLSTRBCKS + Reg $6.99 + Savings ($1.00)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "365WFM SPRING WATER SGL + Qty 2 $0.49 ea",
+          "quantity": 2,
+          "unitPrice": 0.49,
+          "totalSpend": 0.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nDuluth DUL 678-514-2400\n5945 State Bridge Rd\nDuluth, GA 30097\nYAOXCA CHL DE ARBOL SALSA\n$10.08 FT\nQty 2 Reg $6.49 ea\nSavings ($2.90)\nLILBUK OG HNY CLSTRBUCKS\n$5.99 FT\nReg $6.99\nSavings ($1.00)\nLILBUK OG EVRTG CLSTRBCKS\n$5.99 FT\nReg $6.99\nSavings ($1.00)\n365WFM SPRING WATER SGL\n$0.98 FT\nQty 2 $0.49 ea\nSubtotal:\n$27.94\nTotal Savings:\n-$4.90\nNet Sales:\n$23.04\nTax:\n3.75%\n$0.86\nTotal:\n$23.90\nSold Items:\n6\nPaid:\nAmerican Exp *2001\n$23.90\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$4.90\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n902 16943 03/21/2026 11:48 AM\n63011021590216943032120260\n2YHGPEOIHP",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16862.31820800004,
+        "totalUsd": 0.024204,
+        "inputTokens": 3692,
+        "outputTokens": 1079,
+        "reasoningTokens": 995
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "23.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:48 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30097",
+          "status": "match"
+        },
+        "city": {
+          "value": "Duluth",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5945 State Bridge Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2001",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "YAOXCA CHL DE ARBOL SALSA + Qty 2 Reg $6.49 ea + Savings ($2.90)",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 10.08,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG HNY CLSTRBUCKS + Reg $6.99 + Savings ($1.00)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG EVRTG CLSTRBCKS + Reg $6.99 + Savings ($1.00)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "365WFM SPRING WATER SGL + Qty 2 $0.49 ea",
+          "quantity": 2,
+          "unitPrice": 0.49,
+          "totalSpend": 0.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nDuluth DUL 678-514-2400\n5945 State Bridge Rd\nDuluth, GA 30097\nYAOXCA CHL DE ARBOL SALSA $10.08 FT\nQty 2 Reg $6.49 ea\nSavings ($2.90)\nLILBUK OG HNY CLSTRBUCKS $5.99 FT\nReg $6.99\nSavings ($1.00)\nLILBUK OG EVRTG CLSTRBCKS $5.99 FT\nReg $6.99\nSavings ($1.00)\n365WFM SPRING WATER SGL $0.98 FT\nQty 2 $0.49 ea\nSubtotal: $27.94\nTotal Savings: -$4.90\nNet Sales: $23.04\nTax: 3.75% $0.86\nTotal: $23.90\nSold Items: 6\nPaid:\nAmerican Exp *2001 $23.90\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$4.90\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n902 16943 03/21/2026 11:48 AM\n63011021590216943032120260\n2YHGPEOIHP",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6113.145707999996,
+        "totalUsd": 0.01551,
+        "inputTokens": 3692,
+        "outputTokens": 1108,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "23.9",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-21",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:48 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "30097",
+          "status": "match"
+        },
+        "city": {
+          "value": "Duluth",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "GA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5945 State Bridge Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2001",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "YAOXCA CHL DE ARBOL SALSA + Qty 2 Reg $6.49 ea + Savings ($2.90)",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 10.08,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG HNY CLSTRBUCKS + Reg $6.99 + Savings ($1.00)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG EVRTG CLSTRBCKS + Reg $6.99 + Savings ($1.00)",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "365WFM SPRING WATER SGL + Qty 2 $0.49 ea",
+          "quantity": 2,
+          "unitPrice": 0.49,
+          "totalSpend": 0.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nDuluth DUL 678-514-2400\n5945 State Bridge Rd\nDuluth, GA 30097\nYAOXCA CHL DE ARBOL SALSA\n$10.08 FT\nQty 2 Reg $6.49 ea\nSavings ($2.90)\nLILBUK OG HNY CLSTRBUCKS\n$5.99 FT\nReg $6.99\nSavings ($1.00)\nLILBUK OG EVRTG CLSTRBCKS\n$5.99 FT\nReg $6.99\nSavings ($1.00)\n365WFM SPRING WATER SGL\n$0.98 FT\nQty 2 $0.49 ea\nSubtotal:\n$27.94\nTotal Savings:\n-$4.90\nNet Sales:\n$23.04\nTax:\n3.75%\n$0.86\nTotal:\n$23.90\nSold Items:\n6\nPaid:\nAmerican Exp *2001\n$23.90\nChip Card:AMERICAN EXPRESS\nChip Card AID:A00000002501\n****************************************\nYour Total Savings\n$4.90\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n902 16943 03/21/2026 11:48 AM\n63011021590216943032120260\n2YHGPEOIHP",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "YAOXCA CHL DE ARBOL SALSA + Qty 2 Reg $6.49 ea + Savings ($2.90)",
+      "price": 5.04,
+      "quantity": 2,
+      "totalSpend": 10.08
+    },
+    {
+      "text": "LILBUK OG HNY CLSTRBUCKS + Reg $6.99 + Savings ($1.00)",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "LILBUK OG EVRTG CLSTRBCKS + Reg $6.99 + Savings ($1.00)",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "365WFM SPRING WATER SGL + Qty 2 $0.49 ea",
+      "price": 0.49,
+      "quantity": 2,
+      "totalSpend": 0.98
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

@@ -1,0 +1,225 @@
+{
+  "id": "cmo3cssnd000q9389jqsqiv6f",
+  "url": null,
+  "retailer": "Grocery Outlet Bargain Market",
+  "brand": "1st Phorm",
+  "amount": 12.48,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Grocery Outlet Bargain Market",
+    "totalCost": "11.82",
+    "purchaseDate": "2026-04-17",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5102.805457999988,
+        "totalUsd": 0.011376,
+        "inputTokens": 6114,
+        "outputTokens": 245,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "100.66",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "3:18\nDelivered: Emerg...\nHere's a photo of where your order was left\nView order\n10 items arrived\n+7\nHow was your delivery experience?\nSelect a rating to begin quick survey.\nPayment method\nVISA Ending in 3399\n$98.66\nWalmart Cash\n$2.00\nYour payment method has been charged for the final total. Your bank should remove any temporary holds within 10 business days. Adjustment refunds for EBT & prepaid cards will be credited within 3 hours. Learn more\nAbout your tip",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7055.198040999996,
+        "totalUsd": 0.016701,
+        "inputTokens": 3706,
+        "outputTokens": 214,
+        "reasoningTokens": 1024
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3399",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "3:18\nDelivered: Emerg...\nHere's a photo of where your order was left\nView order\n10 items arrived\n+7\nHow was your delivery experience?\nSelect a rating to begin quick survey.\nPayment method\nVISA Ending in 3399 $98.66\nWalmart Cash $2.00\nYour payment method has been charged for the final total. Your bank should remove any temporary holds within 10 business days. Adjustment refunds for EBT & prepaid cards will be credited within 3 hours. Learn more\nAbout your tip",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 2828.227665999999,
+        "totalUsd": 0.007665,
+        "inputTokens": 3706,
+        "outputTokens": 234,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "100.66",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "3:18\nDelivered: Emerg...\nHere's a photo of where your order was left\nView order\n10 items arrived\n+7\nHow was your delivery experience?\nSelect a rating to begin quick survey.\nPayment method\nVISA Ending in 3399\n$98.66\nWalmart Cash\n$2.00\nYour payment method has been charged for the final total. Your bank should remove any temporary holds within 10 business days. Adjustment refunds for EBT & prepaid cards will be credited within 3 hours. Learn more\nAbout your tip",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "VSa Endingin 3399",
+      "price": 98.66,
+      "quantity": 1,
+      "totalSpend": 98.66
+    },
+    {
+      "text": "Walmart Cash",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

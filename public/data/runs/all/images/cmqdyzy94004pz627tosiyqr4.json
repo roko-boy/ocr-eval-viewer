@@ -1,0 +1,756 @@
+{
+  "id": "cmqdyzy94004pz627tosiyqr4",
+  "url": null,
+  "retailer": "Woodman's Markets",
+  "brand": "Hummus Goodness ",
+  "amount": 3.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Woodman's Markets",
+    "totalCost": "50.64",
+    "purchaseDate": "2026-06-14",
+    "time": null,
+    "zipCode": "53937",
+    "city": "Hillpoint",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 23413.27804200001,
+        "totalUsd": 0.027642,
+        "inputTokens": 6086,
+        "outputTokens": 2057,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Woodman's Markets",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:50 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Madison",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3817 Milwaukee St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "D RICE CAKE 4 OZ",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GHRDLLT COCOA 8 OZ",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HG HUMMUS 8 OZ",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HG CLSC HUMMUS 8 Z",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BITCHIN DIP 7 OZ",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEEDLESS CUCUMBER",
+          "quantity": 2,
+          "unitPrice": 0.59,
+          "totalSpend": 1.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHRY VN TMATO",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ASPARAGUS + 1.01lb @ 2.99/lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 3.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YELLOW PEACHES + 0.94lb @ 1.29/lb",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.21,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ZUCCHINI + 1.35lb @ 1.29/lb",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.74,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CAULIFLOWER",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CF CREAM CHEESE 8Z",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI YOGURT 5.3",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHOBANI YOGURT 5.3",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TOO GOOD YOGURT 5Z",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SD DESSERT JEL .7Z",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DELISH PUDDING 1.2",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MISFITS BAR 1.9Z",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MISFITS BAR 1.9Z",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LAKANTO SYRUP 13 Z",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WOODMAN'S\n· MARKETS ·\nEMPLOYEE OWNED\nMadison East - WI\n(608) 244-6630\nPURCHASES\nD RICE CAKE 4 OZ 3.39F\nGHRDLLT COCOA 8 OZ 7.69B\nHG HUMMUS 8 OZ 3.29F\nHG CLSC HUMMUS 8 Z 3.29F\nBITCHIN DIP 7 OZ 5.99F\nSEEDLESS CUCUMBER\n2 @ 0.59 1.18F\nCHRY VN TMATO 2.50F\nWT ASPARAGUS\n1.01lb @ 2.99/lb 3.02F\nWT YELLOW PEACHES\n0.94lb @ 1.29/lb 1.21F\nWT ZUCCHINI\n1.35lb @ 1.29/lb 1.74F\nCAULIFLOWER 2.29F\nCF CREAM CHEESE 8Z 1.29F\nCHOBANI YOGURT 5.3 1.29F\nCHOBANI YOGURT 5.3 1.29F\nTOO GOOD YOGURT 5Z 1.59F\nSD DESSERT JEL .7Z 1.29F\nDELISH PUDDING 1.2 1.99F\nMISFITS BAR 1.9Z 2.39F\nMISFITS BAR 1.9Z 2.39F\nLAKANTO SYRUP 13 Z 6.99F\nCOUPONS\nMC FREE COUPON -1.59\nMC FREE COUPON -5.99F\nTAX 0.42\nBALANCE 50.64\n**** BALANCE\nDiscover 50.64\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 21\n06/14/26 10:50am 16 625 81 625\nWoodman's Shopper ID:\n98010183081\n000001662500812606141050\n- Thank You -\nSave Receipt: See Return\nPolicy Posted in Store\nHAVE FEEDBACK? Send us a quick\nnote, or complete a survey for a chance\nto win a $100 Woodman's gift card!\nwww.Woodmans-Food.com/Feedback",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 35750.413333,
+        "totalUsd": 0.076683,
+        "inputTokens": 3692,
+        "outputTokens": 2183,
+        "reasoningTokens": 5722
+      },
+      "fields": {
+        "storeName": {
+          "value": "Woodman's Markets",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:50am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Madison",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3817 Milwaukee St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9068",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "D RICE CAKE 4 OZ",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GHRDLI COCOA 8 OZ",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HG HUMMUS 8 OZ",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HG CLSC HUMMUS 8 Z",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BITCHIN DIP 7 OZ + MC FREE COUPON",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SEEDLESS CUCUMBER + 2 @ 0.59",
+          "quantity": 2,
+          "unitPrice": 0.59,
+          "totalSpend": 1.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHRY VN TMATO",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ASPARAGUS + 1.01lb @ 2.99/lb",
+          "quantity": 1,
+          "unitPrice": 3.02,
+          "totalSpend": 3.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YELLOW PEACHES + 0.94lb @ 1.29/lb",
+          "quantity": 1,
+          "unitPrice": 1.21,
+          "totalSpend": 1.21,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ZUCCHINI + 1.35lb @ 1.29/lb",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CAULIFLOWER",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CF CREAM CHEESE 8Z",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHOBANI YOGURT 5 2",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TOO GOOD YOGURT 5Z + MC FREE COUPON",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHOBANI YOGURT 5 2",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SD DESSERT JEL .7Z",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DELISH PUDDING 1 2",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MISFITS BAR 1 OZ",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MISFITS BAR 1 OZ",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LAKANTO SYRUP 13 Z",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WOODMAN'S\n. MARKETS .\nEMPLOYEE OWNED\n\nMadison East - WI\n(608) 244-6630\n\nPURCHASES\nD RICE CAKE 4 OZ  3.39F\nGHRDLI COCOA 8 OZ  7.69B\nHG HUMMUS 8 OZ  3.29F\nHG CLSC HUMMUS 8 Z  3.29F\nBITCHIN DIP 7 OZ  5.99F\n2 @ 0.59\nSEEDLESS CUCUMBER  1.18F\nCHRY VN TMATO  2.50F\nASPARAGUS  3.02F\n1.01lb @ 2.99/lb\nYELLOW PEACHES  1.21F\n0.94lb @ 1.29/lb\nZUCCHINI  1.74F\n1.35lb @ 1.29/lb\nCAULIFLOWER  2.29F\nCF CREAM CHEESE 8Z  2.29F\nCHOBANI YOGURT 5 2  1.29F\nTOO GOOD YOGURT 5Z  1.59F\nCHOBANI YOGURT 5 2  1.29F\nSD DESSERT JEL .7Z  1.29F\nDELISH PUDDING 1 2  1.99F\nMISFITS BAR 1 OZ  2.39F\nMISFITS BAR 1 OZ  2.39F\nLAKANTO SYRUP 13 Z  6.99F\n\nCOUPONS\nMC FREE COUPON  -1.59\nMC FREE COUPON  -5.99F\nTAX  0.42\nBALANCE  50.64\n\n**** BALANCE\n\nDiscover  50.64\nxxxxxxxxxxxx9068\nWFM #16 Discover Receipt - H\n3817 Milwaukee St\nMadison WI\nPurchase Amount : 50.64\nCashback Amount : 0.00\nTotal Amount : 50.64\n\nCHANGE  0.00\nTOTAL NUMBER OF ITEMS SOLD = 21\n06/14/26 10:50am 16 625 81 625\n\nWoodman's Shopper ID:\n98010183081\n00001662500812606141050\n\n- Thank You -\nSave Receipt: See Return\nPolicy Posted in Store\n\nHAVE FEEDBACK? Send us a quick\nnote, or complete a survey for a chance\nto win a $100 Woodman's gift card!\nwww.Woodmans-Food.com/Feedback",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10919.41716700001,
+        "totalUsd": 0.025194,
+        "inputTokens": 3692,
+        "outputTokens": 2184,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Woodman's Markets",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.64",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:50am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "53714",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Madison",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3817 Milwaukee St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9068",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Q RICE CAKE 4 OZ",
+          "quantity": 1,
+          "unitPrice": 3.39,
+          "totalSpend": 3.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GHRDLL COCOA 8 OZ",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HG HUMMUS 8 OZ",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HG CLSC HUMMUS 8 Z",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BITCHIN DIP 7 OZ",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEEDLESS CUCUMBER",
+          "quantity": 2,
+          "unitPrice": 0.59,
+          "totalSpend": 1.18,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHRY VN TMATO",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ASPARAGUS + 1.01lb @ 2.99/lb",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 3.02,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YELLOW PEACHES + 0.94lb @ 1.29/lb",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.21,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ZUCCHINI + 1.35lb @ 1.29/lb",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.74,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CAULIFLOWER",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CF CREAM CHEESE 8Z",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI YOGURT 5 Z",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TOO GOOD YOGURT 5Z",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI YOGURT 5 Z",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SD DESSERT JEL .7Z",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DELISH PUDDING 1 Z",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MISFITS BAR 1 OZ",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MISFITS BAR 1 OZ",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LAKANTO SYRUP 13 Z",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WOODMAN'S\n· MARKETS ·\nEMPLOYEE OWNED\nMadison East - WI\n(608) 244-6630\nPURCHASES\nQ RICE CAKE 4 OZ\n3.39F\nGHRDLL COCOA 8 OZ\n7.69B\nHG HUMMUS 8 OZ\n3.29F\nHG CLSC HUMMUS 8 Z\n3.29F\nBITCHIN DIP 7 OZ\n5.99F\nSEEDLESS CUCUMBER\n2 @ 0.59\n1.18F\nCHRY VN TMATO\n2.50F\nASPARAGUS\nWT\n1.01lb @ 2.99/lb\n3.02F\nYELLOW PEACHES\nWT\n0.94lb @ 1.29/lb\n1.21F\nZUCCHINI\nWT\n1.35lb @ 1.29/lb\n1.74F\nCAULIFLOWER\n2.29F\nCF CREAM CHEESE 8Z\n1.29F\nCHOBANI YOGURT 5 Z\n1.59F\nTOO GOOD YOGURT 5Z\n1.29F\nCHOBANI YOGURT 5 Z\n1.29F\nSD DESSERT JEL .7Z\n1.99F\nDELISH PUDDING 1 Z\n1.99F\nMISFITS BAR 1 OZ\n2.39F\nMISFITS BAR 1 OZ\n2.39F\nLAKANTO SYRUP 13 Z\n6.99F\nCOUPONS\nMC\nFREE COUPON\n-1.59\nMC\nFREE COUPON\n-5.99F\nTAX\n0.42\n**** BALANCE\n50.64\nDiscover\n************9068\nWFM #16 Discover Receipt - H\n3817 Milwaukee St\nMadison WI\n01456R-625889-000-APPROVED\nPurchase Amount : 50.64\nCashback Amount : 0.00\nTotal Amount : 50.64\nDiscover\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n21\n06/14/26 10:50am 16 625 81 625\nWoodman's Shopper ID:\n98010183081\n000001662500812606141050\n- Thank You -\nSave Receipt: See Return\nPolicy Posted in Store\nHAVE FEEDBACK? Send us a quick\nnote, or complete a survey for a chance\nto win a $100 Woodman's gift card!\nwww.Woodmans-Food.com/Feedback",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "D RICE CAKE 4 OZ",
+      "price": 3.39,
+      "quantity": 1,
+      "totalSpend": 3.39
+    },
+    {
+      "text": "GHRDLI COCOA 8 OZ",
+      "price": 7.69,
+      "quantity": 1,
+      "totalSpend": 7.69
+    },
+    {
+      "text": "HG HUMMUS 8 OZ",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "HG CLSC HUMMUS 8 Z",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "BITCHIN DIP 7 OZ",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "SEEDLESS CUCUMBER + 2 @ 0.59",
+      "price": 0.59,
+      "quantity": 2,
+      "totalSpend": 1.18
+    },
+    {
+      "text": "CHRY VN TMATO + WT 1.01lb @ 2.99/lb",
+      "price": 3.02,
+      "quantity": 1,
+      "totalSpend": 3.02
+    },
+    {
+      "text": "ASPARAGUS + WT 0.94lb @ 1.29/lb",
+      "price": 1.21,
+      "quantity": 1,
+      "totalSpend": 1.21
+    },
+    {
+      "text": "YELLOW PEACHES + WT 1.35lb @ 1.29/lb",
+      "price": 1.74,
+      "quantity": 1,
+      "totalSpend": 1.74
+    },
+    {
+      "text": "ZUCCHINI",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "CAULIFLOWER",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "CF CREAM CHEESE 8Z",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "CHOBANI YOGURT 5 2",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.59
+    },
+    {
+      "text": "TOO GOOD YOGURT 5Z",
+      "price": 1.29,
+      "quantity": 1,
+      "totalSpend": 1.29
+    },
+    {
+      "text": "CHOBANI YOGURT 5 2",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.59
+    },
+    {
+      "text": "SD DESSERT JEL .7Z",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "DELISH PUDDING 1 Z",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "MISFITS BAR 1 OZ",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "MISFITS BAR 1 OZ",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "LAKANTO SYRUP 13 Z",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

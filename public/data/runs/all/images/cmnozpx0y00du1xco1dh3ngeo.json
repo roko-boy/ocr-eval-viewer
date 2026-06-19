@@ -1,0 +1,381 @@
+{
+  "id": "cmnozpx0y00du1xco1dh3ngeo",
+  "url": null,
+  "retailer": "Giant",
+  "brand": "Diana's Bananas",
+  "amount": 7.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Giant",
+    "totalCost": "28.08",
+    "purchaseDate": "2026-04-07",
+    "time": null,
+    "zipCode": "20010",
+    "city": "Washington",
+    "state": "DC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11410.968417,
+        "totalUsd": 0.017985,
+        "inputTokens": 6086,
+        "outputTokens": 984,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:03pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20010",
+          "status": "match"
+        },
+        "city": {
+          "value": "WASHINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "DC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1345 PARK ROAD N.W.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2231",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PLNT OTMLK XC52Z",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DIANABN DRK CHC",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 7.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MIS FJT TORTLLA",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MIS YLLW CORN T",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "C1 91% ISO ALCHL",
+          "quantity": 1,
+          "unitPrice": 8.29,
+          "totalSpend": 8.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Giant\n1345 PARK ROAD N.W.\nWASHINGTON, DC 20010\nStore Telephone: (202) 777-1077\nPharmacy Telephone: (202) 777-1078\nStore #378 04/07/26 03:03pm\nDAIRY\nPLNT OTMLK XC52Z 3.79 F\nFROZEN FOOD\nDIANABN DRK CHC 7.29 B\nGROCERY\nMIS FJT TORTLLA 4.49 F\nMIS YLLW CORN T 3.49 F\nHEALTH AND BEAUTY CARE\nC1 91% ISO ALCHL 8.29 Q\nTAX 0.73\n**** BALANCE 28.08\n***********************************\nPayment Type: MASTERCARD\nMC CONTACTLESS Purchase\nCard: ************2231\nPayment Amt: $28.08\nBALANCE: $\nAID: A0000000041010\nAUTH#55446Z RC#00 04/07/26 03:04pm\n***********************************\nMASTERCARD 28.08\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 5\n04/07/26 03:04pm 378 402 102 880002\nwww.GiantFood.com\nThank you for shopping GIANT\nRene Leon, Store Manager\nSELF-CHECKOUT, Your Cashier\nYou could have saved $1.20\nSign up at the Service Center for a\nGiant card and start saving.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10986.17795799999,
+        "totalUsd": 0.026787,
+        "inputTokens": 3692,
+        "outputTokens": 978,
+        "reasoningTokens": 1383
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:03pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20010",
+          "status": "match"
+        },
+        "city": {
+          "value": "WASHINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "DC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1345 PARK ROAD N.W.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2231",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PLNT OTMLK XC52Z",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DIANABN DRK CHC",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 7.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MIS FJT TORTLLA",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MIS YLLW CORN T",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "C1 91% ISO ALCHL",
+          "quantity": 1,
+          "unitPrice": 8.29,
+          "totalSpend": 8.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Giant\n1345 PARK ROAD N.W.\nWASHINGTON, DC 20010\nStore Telephone: (202) 777-1077\nPharmacy Telephone: (202) 777-1078\nStore #378 04/07/26 03:03pm\nDAIRY\nPLNT OTMLK XC52Z 3.79 F\nFROZEN FOOD\nDIANABN DRK CHC 7.29 B\nGROCERY\nMIS FJT TORTLLA 4.49 F\nMIS YLLW CORN T 3.49 F\nHEALTH AND BEAUTY CARE\nC1 91% ISO ALCHL 8.29 Q\nTAX 0.73\n**** BALANCE 28.08\n***********************************\nPayment Type: MASTERCARD\nMC CONTACTLESS Purchase\nCard: ************2231\nPayment Amt: $28.08\nBALANCE: $\nAID: A0000000041010\nAUTH#55446Z RC#00 04/07/26 03:04pm\n***********************************\nMASTERCARD 28.08\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 5\n04/07/26 03:04pm 378 402 102 880002\nwww.GiantFood.com\nThank you for shopping GIANT\nRene Leon, Store Manager\nSELF-CHECKOUT, Your Cashier\nYou could have saved $1.20\nSign up at the Service Center for a\nGiant card and start saving.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5536.959041000002,
+        "totalUsd": 0.01434,
+        "inputTokens": 3692,
+        "outputTokens": 978,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Giant",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-07",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:03pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20010",
+          "status": "match"
+        },
+        "city": {
+          "value": "WASHINGTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "DC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1345 PARK ROAD N.W.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2231",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PLNT OTMLK XC52Z",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DIANABN DRK CHC",
+          "quantity": 1,
+          "unitPrice": 7.29,
+          "totalSpend": 7.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MIS FJT TORTLLA",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MIS YLLW CORN T",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "C1 91% ISO ALCHL",
+          "quantity": 1,
+          "unitPrice": 8.29,
+          "totalSpend": 8.29,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Giant\n1345 PARK ROAD N.W.\nWASHINGTON, DC 20010\nStore Telephone: (202) 777-1077\nPharmacy Telephone: (202) 777-1078\nStore #378 04/07/26 03:03pm\nDAIRY\nPLNT OTMLK XC52Z 3.79 F\nFROZEN FOOD\nDIANABN DRK CHC 7.29 B\nGROCERY\nMIS FJT TORTLLA 4.49 F\nMIS YLLW CORN T 3.49 F\nHEALTH AND BEAUTY CARE\nC1 91% ISO ALCHL 8.29 Q\nTAX 0.73\n**** BALANCE 28.08\n***********************************\nPayment Type: MASTERCARD\nIV CONTACTLESS Purchase\nrd: ************2231\nayment Amt: $28.08\nBALANCE: $\nAID: A0000000041010\nAUTH#55446Z RC#00 04/07/26 03:04pm\n***********************************\nMASTERCARD 28.08\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 5\n04/07/26 03:04pm 378 402 102 880002\nwww.GiantFood.com\nThank you for shopping GIANT\nRene Leon, Store Manager\nSELF-CHECKOUT, Your Cashier\nYou could have saved $1.20\nSign up at the Service Center for a\nGiant card and start saving.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PLNT OTMLK XC52Z 3.79 F",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "DIANABN DRK CHC 7.29 B",
+      "price": 7.29,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "MIS FUT TORTLLA 4.49 R",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "MIS YLLW CORN T 3.49 F",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "C1 91% ISO ALCHL 8.29 Q",
+      "price": 8.29,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "TAX 0.73",
+      "price": 0.73,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "**** BALANCE 28.08",
+      "price": 28.08,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "BALANCE ayment   Amt  $ $28.08",
+      "price": 28.08,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "CHANGE 28.08",
+      "price": 28.08,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "You could have saved Center $1.20 for",
+      "price": 1.2,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

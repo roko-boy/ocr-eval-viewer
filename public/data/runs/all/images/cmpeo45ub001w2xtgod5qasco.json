@@ -1,0 +1,335 @@
+{
+  "id": "cmpeo45ub001w2xtgod5qasco",
+  "url": null,
+  "retailer": "Fred Meyer Pharmacy",
+  "brand": "Wilde Brands Inc.",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fred Meyer",
+    "totalCost": "117.97",
+    "purchaseDate": "2026-05-20",
+    "time": null,
+    "zipCode": "97055",
+    "city": "Sandy",
+    "state": "OR",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16244.92858300003,
+        "totalUsd": 0.02082,
+        "inputTokens": 6086,
+        "outputTokens": 1299,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fred Meyer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "117.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:39 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Sandy",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16625 362nd Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6304",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STRBK VL G 100.00 + 7675010812",
+          "quantity": 1,
+          "unitPrice": 100,
+          "totalSpend": 100,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PS CINNAMON + 1111065520",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FR STRW TPRS + 63711813609",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MMS PEANUT + 4000049754",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REESES PIECE + 3400011470",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC WILDE CHIPS + 85680200881 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH FOR EVERYONE.\nNow Hiring!\nApply at jobs.fredmeyer.com\n16625 362nd Ave\n503-668-2300\nYOUR CASHIER WAS Nicolas\nREWARDS CARD *******2799\nMR 7675010812 STRBK VL G 100.00\nGB ************8201 100.00 BInc\n1111065520 PS CINNAMON 1.99 F\n63711813609 FR STRW TPRS 5.49\n1 @ 2/3.00\n4000049754 MMS PEANUT 1.50 F\n1 @ 2/3.00\n3400011470 REESES PIECE 1.50 F\n85680200881 PC WILDE CHIPS 7.49 F\nSC FM SAVINGS 1.00\nTAX 0.00\n**** BALANCE 117.97\nUS DEBIT Purchase\n************6304 - C\nREF#: 062086 TOTAL: 117.97\nPURCHASE: 117.97 CASHBACK: 0.00\nAID: A0000000980840\nTC: 5896FF4BE82321C8\nVERIFIED BY PIN\nDEBIT 117.97\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 5\nFred Meyer Savings $ 1.00\nTotal Coupons $ 1.00\nTotal Savings (0 Percent) $ 1.00\n05/20/26 11:39AM 663 2 15 47792\n****************************************\nAnnual Card Savings $347.07\n****************************************\n****************************************\nFuel Points Earned Today: 218\nTotal May Fuel Points: 345\n****************************************\nMARINERS REWARDS\nTotal points earned: 44\nMay not reflect recent redemptions\nVisit FredMeyer.com/Mariners\nor customer service for details\n****************************************\nFred Meyer Community Rewards\nOn your behalf, we are contributing to\nThe Asher House\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to fredmeyer.com/feedback\nDate: 05/20/26",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6818.196041999996,
+        "totalUsd": 0.017184,
+        "inputTokens": 3692,
+        "outputTokens": 1294,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fred Meyer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "117.97",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:39 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97055",
+          "status": "match"
+        },
+        "city": {
+          "value": "Sandy",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "16625 362nd Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6304",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STRBK VL G 100.00 + 7675010812",
+          "quantity": 1,
+          "unitPrice": 100,
+          "totalSpend": 100,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PS CINNAMON + 1111065520",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FR STRW TPRS + 63711813609",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MMS PEANUT + 4000049754",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REESES PIECE + 3400011470",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC WILDE CHIPS + 85680200881 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 6.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH FOR EVERYONE.\nNow Hiring!\nApply at jobs.fredmeyer.com\n16625 362nd Ave\n503-668-2300\nYOUR CASHIER WAS Nicolas\nREWARDS CARD *******2799\nMR 7675010812 STRBK VL G 100.00\nGB ************8201 100.00 BInc\n1111065520 PS CINNAMON 1.99 F\n63711813609 FR STRW TPRS 5.49\n1 @ 2/3.00\n4000049754 MMS PEANUT 1.50 F\n1 @ 2/3.00\n3400011470 REESES PIECE 1.50 F\n85680200881 PC WILDE CHIPS 7.49 F\nSC FM SAVINGS 1.00-\nTAX 0.00\n**** BALANCE 117.97\nUS DEBIT Purchase\n************6304 - C\nREF#: 062086 TOTAL: 117.97\nPURCHASE: 117.97 CASHBACK: 0.00\nAID: A0000000980840\nTC: 5896FF4BE82321C8\nVERIFIED BY PIN\nDEBIT 117.97\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 5\nFred Meyer Savings $ 1.00\nTotal Coupons $ 1.00\nTotal Savings (0 Percent) $ 1.00\n05/20/26 11:39AM 663 2 15 47792\n***********************************\nAnnual Card Savings $347.07\n***********************************\n***********************************\nFuel Points Earned Today: 218\nTotal May Fuel Points: 345\n***********************************\nMARINERS REWARDS\nTotal points earned: 44\nMay not reflect recent redemptions\nVisit FredMeyer.com/Mariners\nor customer service for details\n***********************************\nFred Meyer Community Rewards\nOn your behalf, we are contributing to\nThe Asher House\n***********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to fredmeyer.com/feedback\nDate: 05/20/26",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "STRBK VL G + 7675010812 + GB ************8201 100.00 Blnc",
+      "price": 100,
+      "quantity": 1,
+      "totalSpend": 100
+    },
+    {
+      "text": "PS CINNAMON + 1111065520",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "FR STRW TPRS + 63711813609 + 1 @ 2/3.00",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "MMS PEANUT + 4000049754 + 1 @ 2/3.00 + 1 @ 2/3.00",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "REESES PIECF + 3400011470 + 1 @ 2/3.00",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "WILDE CHIPS + 85680200881 + SC FM SAVINGS 1.00",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    }
+  ],
+  "disagreementCount": 6,
+  "nullCount": 1
+}

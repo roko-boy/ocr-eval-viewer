@@ -1,0 +1,588 @@
+{
+  "id": "cmo5truaj0095rox1qe77z1on",
+  "url": null,
+  "retailer": "Jewel-Osco",
+  "brand": "MALK",
+  "amount": 0.75,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Jewel Osco",
+    "totalCost": "80.49",
+    "purchaseDate": "2026-04-19",
+    "time": null,
+    "zipCode": "60026",
+    "city": "Glenview",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15176.91116700001,
+        "totalUsd": 0.031593,
+        "inputTokens": 6086,
+        "outputTokens": 2496,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "80.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:27",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60026",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glenview",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1340 Patriot Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6382",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 5150002570 + SM SF RRSP 100Z",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "REFRIG/FROZEN + 2113004833 + 20 LUC CHES SHRP CHED + Sale Savings -1.58",
+          "quantity": 1,
+          "unitPrice": 6.58,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "REFRIG/FROZEN + 2113004941 + 20 JEWEL LRG EGGS12 + Sale Savings -4.00 + forU Store Coupon -6.22",
+          "quantity": 1,
+          "unitPrice": 11.98,
+          "totalSpend": 1.76,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "REFRIG/FROZEN + 4154024404 + 20 OUTSHINE GRAPE",
+          "quantity": 1,
+          "unitPrice": 12.08,
+          "totalSpend": 12.08,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "REFRIG/FROZEN + 88102900011 + MALK MILK ALM 28FZ + Sale Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BAKED GOODS + 7341095608 + 20 BROWNBERRY 100% + Sale Savings -6.29",
+          "quantity": 1,
+          "unitPrice": 12.58,
+          "totalSpend": 6.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MEAT + 27082900000 + PER BNLS BRST VW",
+          "quantity": 1,
+          "unitPrice": 13.41,
+          "totalSpend": 13.41,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MEAT + 27082900000 + PER BNLS BRST VW + Sale Savings -13.03",
+          "quantity": 1,
+          "unitPrice": 13.03,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PRODUCE + 3121 + 20 ORANGE BELL PEPPER",
+          "quantity": 1,
+          "unitPrice": 3.98,
+          "totalSpend": 3.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PRODUCE + 4093 + YELLOW ONIONS + WT 0.82 lb @ $0.99 /lb",
+          "quantity": 1,
+          "unitPrice": 0.81,
+          "totalSpend": 0.81,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRODUCE + 4225 + AVOCADOS HASS LRG + forU Store Coupon -1.20",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 0.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRODUCE + 5783616826 + MINI CUCUMBERS + forU Store Coupon -2.00",
+          "quantity": 1,
+          "unitPrice": 3.89,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRODUCE + 62930712334 + LITTLE YELLOWS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DELI + 21635500000 + BH HNY MAPLE TRKY",
+          "quantity": 1,
+          "unitPrice": 18.34,
+          "totalSpend": 18.34,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Jewel\nOsco.\nStore 1 Dir Pierre Baptiste\nMain: (847)657-9130 Rx: (847)657-9151\n1340 Patriot Blvd\nGlenview IL 60026\n00000105200102604190827\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n5150002570 SM SF RRSP 100Z 4.49 4.49 B\nREFRIG/FROZEN\n2113004833 20 LUC CHES SHRP CHED 6.58 5.00 B\nSale Savings -1.58\n2113004941 20 JEWEL LRG EGGS12 11.98 1.76 B\nSale Savings -4.00\nforU Store Coupon -6.22\n4154024404 20 OUTSHINE GRAPE 12.08 12.08 B\n88102900011 MALK MILK ALM 28FZ 5.99 4.99 B\nSale Savings -1.00\nBAKED GOODS\n7341095608 20 BROWNBERRY 100% 12.58 6.29 B\nSale Savings -6.29\nMEAT\n27082900000 PER BNLS BRST VW 13.41 13.41 B\n27082900000 PER BNLS BRST VW 13.03 0.00 B\nSale Savings -13.03\nPRODUCE\n3121 20 ORANGE BELL PEPPER 3.98 3.98 B\n4093 YELLOW ONIONS 0.81 0.81 B\nWT 0.82 lb @ $0.99 /lb\n4225 AVOCADOS HASS LRG 1.89 0.69 B\nforU Store Coupon -1.20\n5783616826 MINI CUCUMBERS 3.89 1.99 B\nforU Store Coupon -2.00\n62930712334 LITTLE YELLOWS 4.99 4.99 B\nDELI\n21635500000 BH HNY MAPLE TRKY 18.34 18.34 B\nADDITIONAL DISCOUNTS\nRewards and CashOff -1.00\nTAX 1.77\n**** BALANCE 80.49\nCredit Purchase 04/19/26 08:27\nCARD # ************6382\nREF: 102712463820 AUTH: 0034251D\nPAYMENT AMOUNT 80.49\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 80.49\nCHANGE 0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nYOUR SAVINGS\nStore Savings 25.90\nfor U Savings 9.52\nRewards and CashOff 1.00\nTotal 36.42\nTotal Savings Value 32%\nYOUR POINTS\nPoints Earned Today 78\nPoints Available 132\nTOTAL NUMBER OF ITEMS SOLD = 19\n04/19/26 08:27 1 52 10 8852\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO for U questions call\n877-276-9637 or Jewelosco.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 64534.04587500001,
+        "totalUsd": 0.095718,
+        "inputTokens": 3692,
+        "outputTokens": 2422,
+        "reasoningTokens": 7598
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "80.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:27",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60026",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glenview",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1340 Patriot Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6382",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SM SF RRSP 100Z + 5150002570",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LUC CHES SHRP CHED + 2113004833 + Sale Savings -1.58",
+          "quantity": 2,
+          "unitPrice": 3.29,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JEWEL LRG EGGS12 + 2113004941 + Sale Savings -4.00 + forU Store Coupon -6.22",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 1.76,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "OUTSHINE Grape + 4154824404",
+          "quantity": 2,
+          "unitPrice": 6.49,
+          "totalSpend": 12.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MILK MILK ALM 28FZ + 88102900011 + Sale Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BROWNBERRY 100% + 7341095608 + Sale Savings -6.29",
+          "quantity": 2,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PER BNLS BRST VW + 27082900000",
+          "quantity": 1,
+          "unitPrice": 13.41,
+          "totalSpend": 13.41,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PER BNLS BRST VW + 27082900000 + Sale Savings -13.03",
+          "quantity": 1,
+          "unitPrice": 13.03,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ORANGE BELL PEPPER + 3121",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YELLOW ONIONS + 4093 + 0.82 lb @ $0.99 /lb",
+          "quantity": 1,
+          "unitPrice": 0.81,
+          "totalSpend": 0.81,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AVOCADOS HASS LRG + 4225 + forU Store Coupon -1.30",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MINI CUCUMBERS + 5783616826 + forU Store Coupon -2.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LITTLE YELLOWS + 62930712334",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BH HNY MAPLE TRKY + 21635500000",
+          "quantity": 1,
+          "unitPrice": 18.34,
+          "totalSpend": 18.34,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Jewel\nOsco.\nStore 1 Dir Pierre Baptiste\nMain: (847)657-9130 Rx: (847)657-9151\n1340 Patriot Blvd\nGlenview IL 60026\n00000105200102604190827\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n5150002570 SM SF RRSP 100Z\n4.49 4.49 B\nREFRIG/FROZEN\n2113004833 2@ LUC CHES SHRP CHED\n6.58 5.00 B\nSale Savings -1.58\n2113004941 2@ JEWEL LRG EGGS12\n11.98 1.76 B\nSale Savings -4.00\nforU Store Coupon -6.22\n4154824404 2@ OUTSHINE Grape\n12.98 12.98 B\n88102900011 MILK MILK ALM 28FZ\n5.99 4.99 B\nSale Savings -1.00\nBAKED GOODS\n7341095608 2@ BROWNBERRY 100%\n12.58 6.29 B\nSale Savings -6.29\nMEAT\n27082900000 PER BNLS BRST VW\n13.41 13.41 B\n27082900000 PER BNLS BRST VW\n13.03 0.00 B\nSale Savings -13.03\nPRODUCE\n3121 2@ ORANGE BELL PEPPER\n3.98 3.98 B\n4093 YELLOW ONIONS\n0.81 0.81 B\nWT 0.82 lb @ $0.99 /lb\n4225 AVOCADOS HASS LRG\n1.99 0.69 B\nforU Store Coupon -1.30\n5783616826 MINI CUCUMBERS\n3.99 1.99 B\nforU Store Coupon -2.00\n62930712334 LITTLE YELLOWS\n4.99 4.99 B\nDELI\n21635500000 BH HNY MAPLE TRKY\n18.34 18.34 B\nADDITIONAL DISCOUNTS\nRewards and CashOff\n-1.00\nTAX\n1.77\n**** BALANCE\n80.49\nCredit Purchase 04/19/26 08:27\nCARD # ************6382\nREF: 102712463820 AUTH: 0034251D\nPAYMENT AMOUNT\n80.49\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n80.49\nCHANGE\n0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nYOUR SAVINGS\nStore Savings\n25.90\nfor U Savings\n9.52\nRewards and CashOff\n1.00\nTotal\n36.42\nTotal Savings Value\n32%\nYOUR POINTS\nPoints Earned Today 78\nPoints Available 132\nTOTAL NUMBER OF ITEMS SOLD = 19\n04/19/26 08:27 1 52 10 8852\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO for U questions call\n877-276-9637 or Jewelosco.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10666.47691599999,
+        "totalUsd": 0.027156,
+        "inputTokens": 3692,
+        "outputTokens": 2402,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Jewel-Osco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "80.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-19",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:27 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60026",
+          "status": "match"
+        },
+        "city": {
+          "value": "Glenview",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1340 Patriot Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6382",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SM SF RRSP 100Z + 5150002570",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ LUC CHES SHRP CHED + 2113004833 + Sale Savings -1.58",
+          "quantity": 2,
+          "unitPrice": 3.29,
+          "totalSpend": 5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2@ JEWEL LRG EGGS12 + 2113004941 + Sale Savings -4.00 + forU Store Coupon -6.22",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 1.76,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ OUTSHINE Grape + 4154821104",
+          "quantity": 2,
+          "unitPrice": 6.04,
+          "totalSpend": 12.08,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MALK MILK ALM 28FZ + 88102900011 + Sale Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2@ BROWNBERRY 100% + 7341095608 + Sale Savings -6.29",
+          "quantity": 2,
+          "unitPrice": 6.29,
+          "totalSpend": 6.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PER BNLS BRST VW + 27082900000",
+          "quantity": 1,
+          "unitPrice": 13.41,
+          "totalSpend": 13.41,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PER BNLS BRST VW + 27082900000 + Sale Savings -13.03",
+          "quantity": 1,
+          "unitPrice": 13.03,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "2@ ORANGE BELL PEPPER + 3121",
+          "quantity": 2,
+          "unitPrice": 1.99,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "YELLOW ONIONS + 4093 + 0.82 lb @ $0.99 /lb",
+          "quantity": 1,
+          "unitPrice": 0.81,
+          "totalSpend": 0.81,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "AVOCADOS HASS LRG + 4225 + forU Store Coupon -1.30",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 0.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MINI CUCUMBERS + 5783616826 + forU Store Coupon -2.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LITTLE YELLOWS + 62930712334",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BH HNY MAPLE TRKY + 21635500000",
+          "quantity": 1,
+          "unitPrice": 18.34,
+          "totalSpend": 18.34,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Jewel\nOsco.\nStore 1 Dir Pierre Baptiste\nMain: (847)657-9130 Rx: (847)657-9151\n1340 Patriot Blvd\nGlenview IL 60026\n00000105200102604190827\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n5150002570 SM SF RRSP 100Z 4.49 4.49 B\nREFRIG/FROZEN\n2113004833 2@ LUC CHES SHRP CHED 6.58 5.00 B\nSale Savings -1.58\n2113004941 2@ JEWEL LRG EGGS12 11.98 1.76 B\nSale Savings -4.00\nforU Store Coupon -6.22\n4154821104 2@ OUTSHINE Grape 12.08 12.08 B\n88102900011 MALK MILK ALM 28FZ 5.99 4.99 B\nSale Savings -1.00\nBAKED GOODS\n7341095608 2@ BROWNBERRY 100% 12.58 6.29 B\nSale Savings -6.29\nMEAT\n27082900000 PER BNLS BRST VW 13.41 13.41 B\n27082900000 PER BNLS BRST VW 13.03 0.00 B\nSale Savings -13.03\nPRODUCE\n3121 2@ ORANGE BELL PEPPER 3.98 3.98 B\n4093 YELLOW ONIONS 0.81 0.81 B\nWT 0.82 lb @ $0.99 /lb\n4225 AVOCADOS HASS LRG 1.89 0.59 B\nforU Store Coupon -1.30\n5783616826 MINI CUCUMBERS 3.99 1.99 B\nforU Store Coupon -2.00\n62930712334 LITTLE YELLOWS 4.99 4.99 B\nDELI\n21635500000 BH HNY MAPLE TRKY 18.34 18.34 B\nADDITIONAL DISCOUNTS\nRewards and CashOff -1.00\nTAX 1.77\n**** BALANCE 80.49\nCredit Purchase 04/19/26 08:27\nCARD # ************6382\nREF: 102712463820 AUTH: 0034251D\nPAYMENT AMOUNT 80.49\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 80.49\nCHANGE 0.00\nDid you know that you get FREE\ndelivery on baby orders over $25?\nPlus get $5 off when you spend $25\nor more instore or online!\nValid till 6/16\nYOUR SAVINGS\nStore Savings 25.90\nfor U Savings 9.52\nRewards and CashOff 1.00\nTotal 36.42\nTotal Savings Value 32%\nYOUR POINTS\nPoints Earned Today 78\nPoints Available 132\nTOTAL NUMBER OF ITEMS SOLD = 19\n04/19/26 08:27 1 52 10 8852\nThank you for shopping Jewel-Osco!\nFor JEWEL-OSCO for U questions call\n877-276-9637 or Jewelosco.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SM SF RRSP 10OZ + 5150002570 + REFRIG/FROZEN",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "LUC CHES SHRP CHED + 2113004833 + Sale SavIngs -1.58",
+      "price": 2.5,
+      "quantity": 2,
+      "totalSpend": 5
+    },
+    {
+      "text": "JEWEL LRG EGG$12 + 2113004941 + Sale Savings -4.00 + forU Store_Coupon 8.22",
+      "price": 0.88,
+      "quantity": 2,
+      "totalSpend": 1.76
+    },
+    {
+      "text": "OUTSHINE GRAPE + 4454024404",
+      "price": 6.49,
+      "quantity": 2,
+      "totalSpend": 12.98
+    },
+    {
+      "text": "MALK MILK ALM 28FZ + 86102900011 + SaTe SaVIngs -1.00 + BAKED G000$",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "BROWNBERRY 100% + 7341095608 + Sale Savinge -8.29 + NEAT",
+      "price": 3.14,
+      "quantity": 2,
+      "totalSpend": 6.29
+    },
+    {
+      "text": "PER BNLS BRST VW + 27082900000",
+      "price": 13.41,
+      "quantity": 1,
+      "totalSpend": 13.41
+    },
+    {
+      "text": "ORANGE BELL PEPPER + 3121",
+      "price": 1.99,
+      "quantity": 2,
+      "totalSpend": 3.98
+    },
+    {
+      "text": "YELLOW ONIONS + 4093 + WT 0.82 lb @ $0.99 /lb",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.81
+    },
+    {
+      "text": "AVOCADOS HASS LRG + 4225 + forU Store Coupon -1.30",
+      "price": 0.69,
+      "quantity": 1,
+      "totalSpend": 0.69
+    },
+    {
+      "text": "MINI CUCUMBERS + 5783616826 + forU Store Coupon -2.00",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "LITTLE YELLOWS + 62930712334 + DELI",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "BH HNY MAPLE TRKY + 21635500000",
+      "price": 18.34,
+      "quantity": 1,
+      "totalSpend": 18.34
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,255 @@
+{
+  "id": "cmncs9tx70016xvm6hfhzd5jm",
+  "url": null,
+  "retailer": "Cumberland Farms",
+  "brand": "f'real",
+  "amount": 1.75,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Cumberland Farms",
+    "totalCost": "8.01",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "12020",
+    "city": "Ballston Spa",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7524.342708000011,
+        "totalUsd": 0.014673,
+        "inputTokens": 6086,
+        "outputTokens": 616,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "8.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "120",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Ballston Spa",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1559",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2 HERSHEY WHATCHAMACL",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1 FREAL FH COFFEE 12OZ",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Ballston Spa, NY 120\n1590-3169\n518-885-3588\n#ORIGINAL\nReceipt 1377830\nQty Name Price Total\n2 HERSHEY WHATCHAMACL 5.98 4.00 *\n1 FREAL FH COFFEE 12OZ 3.49 3.49\nSubTotal 7.49\nState/Local Sales Ta 0.52\nTotal 8.01\nReceived\nSALE\nVisa\nCard Num (C) xxxxxxxxxxxx1559\nChip Read\nTerminal 001\nApproval 821345\nUSD$ 8.01\nUS DEBIT\nAID A0000000980840\nTVR 8000088000\nIAD xxxxxxxxxxxxxx\nTSI 6800\nARC 00\nARQC 761E6D70C90BCDB6\nPIN Bypassed\nCOMBO DISCOUNT 1.98\nPhone: 888-888-5185\nALT ID Discount: $0.00\nTransaction Total: $8.01",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15385.37579199999,
+        "totalUsd": 0.030891,
+        "inputTokens": 3692,
+        "outputTokens": 653,
+        "reasoningTokens": 2164
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "8.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2023-09-10",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "2:00 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Ballston Spa",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1559",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2 HERSHEY WHATCHAMACL",
+          "quantity": 2,
+          "unitPrice": 2.99,
+          "totalSpend": 4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1 FREAL FH COFFEE 120Z",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Ballston Spa, NY 120\n1590-3169\n518-885-3588\n#ORIGINAL\nReceipt 1377830\nQty Name Price Total\n2 HERSHEY WHATCHAMACL 5.98 4.00 *\n1 FREAL FH COFFEE 120Z 3.49 3.49\nSubTotal 7.49\nState/Local Sales Ta 0.52\nTotal 8.01\nReceived\nSALE\nVisa\nCard Num: (C) xxxxxxxxxxxx1559\nChip Read\nTerminal 001\nApproval 821345\nUSD$ 8.01\nUS DEBIT\nAID A0000000980840\nTVR 8000088000\nIAD xxxxxxxxxxxxxx\nTSI 6800\nARC 00\nARQC 761E6D70C90BCD86\nPIN Bypassed\nCOMBO DISCOUNT 1.98\nPhone: 888-888-5185\nALT ID Discount: $0.00\nTransaction Total: $8.01\n09/10/2023 2:00:15 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HERSHEY WHATCHAMACL",
+      "price": 2,
+      "quantity": 2,
+      "totalSpend": 4
+    },
+    {
+      "text": "FREAL FH COFFEE 12OZ",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    }
+  ],
+  "disagreementCount": 3,
+  "nullCount": 1
+}

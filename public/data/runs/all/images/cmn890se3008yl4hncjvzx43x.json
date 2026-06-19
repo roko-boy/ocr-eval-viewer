@@ -1,0 +1,405 @@
+{
+  "id": "cmn890se3008yl4hncjvzx43x",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Strong Roots",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "44.2",
+    "purchaseDate": "2026-03-26",
+    "time": null,
+    "zipCode": "27514",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10408.57941599999,
+        "totalUsd": 0.01857,
+        "inputTokens": 6086,
+        "outputTokens": 1049,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "44.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:52pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27514",
+          "status": "match"
+        },
+        "city": {
+          "value": "CHAPEL HILL",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1810 FORDHAM BOULEVARD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9103",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SC KEV THAI CCNT CHCK + SC 22551 KEV THAI CCNT CHCK",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PILLS STRUDEL CINN",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NICKS ICE CREAM",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 9.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RISPUF QUESADILLA",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 11.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRRT CAULI HASH",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WB SPK WATER LEMON",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GF CC COOKIE CUP",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1810 FORDHAM BOULEVARD\nCHAPEL HILL, NC 27514\n(919) 864-7400\n03/26/26 OP# 476712\nSC KEV THAI CCNT CHCK 9.99 B\nSC 22551 KEV THAI CCNT CHCK 2.00-B\nPILLS STRUDEL CINN 2.99 B\nNICKS ICE CREAM 5.49 B\n2 @ 4.99\nRISPUF QUESADILLA 9.98 B\n2 @ 5.99\nSTRRT CAULI HASH 11.98 B\nWB SPK WATER LEMON 1.89 B\nGF CC COOKIE CUP 2.99 B\nTAX 0.89\n**** BALANCE 44.20\nVISA PURCHASE\nCARD NUMBER: ************9103 H\nVISA DEBIT 07\nAUTH: 088777 RCPT: 12381\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 44.20\nCHANGE 0.00\n--------- SAVINGS SUMMARY ---------\nSHOPPERS CLUB SAVINGS $ 2.00\nTOTAL $ 2.00\n-----------------------------------\n03/26/26 09:52pm 140 12 178",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 23985.70504200005,
+        "totalUsd": 0.048252,
+        "inputTokens": 3692,
+        "outputTokens": 1096,
+        "reasoningTokens": 3650
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "44.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:52 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27514",
+          "status": "match"
+        },
+        "city": {
+          "value": "CHAPEL HILL",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1810 FORDHAM BOULEVARD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9103",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SC KEV THAI CCNT CHCK + SC 22551 KEV THAI CCNT CHCK",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PILLS STRUDEL CINN",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NICKS ICE CREAM",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RISPUF QUESADILLA + 2 @ 4.99",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRRT CAULI HASH + 2 @ 5.99",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 11.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB SPK WATER LEMON",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GF CC COOKIE CUP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1810 FORDHAM BOULEVARD\nCHAPEL HILL, NC 27514\n(919) 864-7400\n\n03/26/26 OP# 476712\n\nSC      KEV THAI CCNT CHCK      9.99 B\nSC 22551 KEV THAI CCNT CHCK     2.00-B\n        PILLS STRUDEL CINN      2.99 B\n        NICKS ICE CREAM         5.49 B\n  2 @ 4.99\n        RISPUF QUESADILLA       9.98 B\n  2 @ 5.99\n        STRRT CAULI HASH       11.98 B\n        WB SPK WATER LEMON      1.89 B\n        GF CC COOKIE CUP        2.99 B\n        TAX                     0.89\n\n**** BALANCE                   44.20\n\nVISA PURCHASE\nCARD NUMBER: ************9103 H\nVISA DEBIT 07\nAUTH: 088777 RCPT: 12381\nCODE: 0000 Approved\nAID: A0000000031010\n\n        CREDIT CARD            44.20\n        CHANGE                  0.00\n\n--------- SAVINGS SUMMARY ---------\nSHOPPERS CLUB SAVINGS       $   2.00\nTOTAL                       $   2.00\n-----------------------------------\n\n03/26/26 09:52pm 140 12 178",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5793.111250000016,
+        "totalUsd": 0.014835,
+        "inputTokens": 3692,
+        "outputTokens": 1033,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "44.2",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:52 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "27514",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chapel Hill",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1810 FORDHAM BOULEVARD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9103",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KEV THAI CCNT CHCK + SC 22551 KEV THAI CCNT CHCK",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PILLS STRUDEL CINN",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NICKS ICE CREAM",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 9.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RISPUF QUESADILLA",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 11.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "STRRT CAULI HASH",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WB SPK WATER LEMON",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GF CC COOKIE CUP",
+          "quantity": 1,
+          "unitPrice": 0.89,
+          "totalSpend": 0.89,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n1810 FORDHAM BOULEVARD\nCHAPEL HILL, NC 27514\n(919) 864-7400\n03/26/26 OP# 476712\nSC KEV THAI CCNT CHCK 9.99 B\nSC 22551 KEV THAI CCNT CHCK 2.00-B\nPILLS STRUDEL CINN 2.99 B\nNICKS ICE CREAM 5.49 B\n2 @ 4.99\nRISPUF QUESADILLA 9.98 B\n2 @ 5.99\nSTRRT CAULI HASH 11.98 B\nWB SPK WATER LEMON 1.89 B\nGF CC COOKIE CUP 2.99 B\nTAX 0.89\n**** BALANCE 44.20\nVISA PURCHASE\nCARD NUMBER: ************9103 H\nVISA DEBIT 07\nAUTH: 088777 RCPT: 12381\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 44.20\nCHANGE 0.00\n-------- SAVINGS SUMMARY --------\nSHOPPERS CLUB SAVINGS $ 2.00\nTOTAL $ 2.00\n03/26/26 09:52pm 140 12 178",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KEV THAI CCNT CHCK",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "PILLS STRUDEL CINN",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "NICKS ICE CREAM + 2 @ 4.99",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "RISPUF QUESADILLA + 2 @ 4.99 + 2 @ 5.99",
+      "price": 4.99,
+      "quantity": 2,
+      "totalSpend": 9.98
+    },
+    {
+      "text": "STRRT CAULI HASH + 2 @ 5.99",
+      "price": 5.99,
+      "quantity": 2,
+      "totalSpend": 11.98
+    },
+    {
+      "text": "WB SPK WATER LEMON",
+      "price": 1.89,
+      "quantity": 1,
+      "totalSpend": 1.89
+    },
+    {
+      "text": "GF CC COOKIE CUP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

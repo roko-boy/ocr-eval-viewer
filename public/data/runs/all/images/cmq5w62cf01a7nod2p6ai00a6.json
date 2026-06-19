@@ -1,0 +1,520 @@
+{
+  "id": "cmq5w62cf01a7nod2p6ai00a6",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "BRAMI",
+  "amount": 5.85,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "112.07",
+    "purchaseDate": "2026-06-08",
+    "time": null,
+    "zipCode": "60614",
+    "city": "Chicago",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 21124.13229199999,
+        "totalUsd": 0.023772,
+        "inputTokens": 6086,
+        "outputTokens": 1627,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "112.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:14",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60614",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2746 N Clybourn Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6132",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1898132 HUELCHOC",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 34.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "0000382646 / 1898132",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": -7,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "1951950 BRAMI PASTA",
+          "quantity": 1,
+          "unitPrice": 11.69,
+          "totalSpend": 11.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1474912 DRK CHO CHPS",
+          "quantity": 1,
+          "unitPrice": 13.79,
+          "totalSpend": 13.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1712715 SEA SALT",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1269739 FAGE",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1269739 FAGE",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1063232 KS EGG WHITE",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "427381 KS ORG EGGS",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3771 SPRING MIX",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "251680 ORG RASPBERY",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "702669 BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nLincoln Park #380\n2746 N Clybourn Ave\nChicago, IL 60614\n(773) 360-2053\n\n47 Member 111869784249\n\n***START OF PRE-SCANNED ITEMS**********\n\nE 1898132 HUELCHOC 34.99 E\nE 0000382646 / 1898132 7.00-E\nE 1951950 BRAMI PASTA 11.69 E\nE 1474912 DRK CHO CHPS 13.79 E\nE 1712715 SEA SALT 8.49 E\nE 1269739 FAGE 7.79 E\nE 1269739 FAGE 7.79 E\nE 1063232 KS EGG WHITE 10.99 E\nE 427381 KS ORG EGGS 7.69 E\nE 3771 SPRING MIX 5.49 E\nE 251680 ORG RASPBERY 6.49 E\nE 702669 BLACKBERRIES 2.49 E\n\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 11\nTOTAL NUMBER OF ITEMS SOLD = 11\nSUBTOTAL 110.69\nTAX 1.38\n**** TOTAL 112.07\n\nCostco Wallet APPROVED\nAPPROVED - Purchase\nWallet - Shop Card: $4.56\nRemaining Balance: $0.00\n----------------------------------------\nWallet - Shop Card 4.56\nSUBTOTAL 106.13\nTAX 1.38\n**** TOTAL 107.51\n\nXXXXXXXXXXXX6132 H\nAID: A0000000031010\nSeq# 8043 App#: 02663I\nVisa Resp: APPROVED\nTran ID#: 615900008043....\n\nAPPROVED - Purchase\nAMOUNT: $107.51\n06/08/2026 19:14 380 8 556 803\n\nVisa\nCHANGE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 71351.98283399997,
+        "totalUsd": 0.03621600000000001,
+        "inputTokens": 3786,
+        "outputTokens": 1551,
+        "reasoningTokens": 1842
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "112.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:14",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60614",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2746 N Clybourn Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6132",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1898132 HUELCHOC + 0000382646 / 1898132",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 27.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1951950 BRAMI PASTA",
+          "quantity": 1,
+          "unitPrice": 11.69,
+          "totalSpend": 11.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1474912 DRK CHO CHPS",
+          "quantity": 1,
+          "unitPrice": 13.79,
+          "totalSpend": 13.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1712715 SEA SALT",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1267939 FAGE",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1267939 FAGE",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1063232 KS EGG WHITE",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "427381 KS ORG EGGS",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3771 SPRING MIX",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "251680 ORG RASPBERY",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "702669 BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nLincoln Park #380\n2746 N Clybourn Ave\nChicago, IL 60614\n(773) 360-2053\n47 Member 111869784249\n***START OF PRE-SCANNED ITEMS**********\nE 1898132 HUELCHOC 34.99 E\nE 0000382646 / 1898132 7.00-E\nE 1951950 BRAMI PASTA 11.69 E\nE 1474912 DRK CHO CHPS 13.79 E\nE 1712715 SEA SALT 8.49 E\nE 1267939 FAGE 7.79 E\nE 1267939 FAGE 7.79 E\nE 1063232 KS EGG WHITE 10.99 E\nE 427381 KS ORG EGGS 7.69 E\nE 3771 SPRING MIX 5.49 E\nE 251680 ORG RASPBERY 6.49 E\nE 702669 BLACKBERRIES 2.49 E\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 11\nTOTAL NUMBER OF ITEMS SOLD = 11\nSUBTOTAL 110.69\nTAX 1.38\n**** TOTAL 112.07\nCostco Wallet APPROVED\nAPPROVED - Purchase\nWallet - Shop Card: $4.56\nRemaining Balance: $0.00\nWallet - Shop Card 4.56\nSUBTOTAL 106.13\nTAX 1.38\n**** TOTAL 107.51\nXXXXXXXXXXXX6132 H\nAID: A0000000031010\nSeq# 8043 App#: 02663I\nVisa Resp: APPROVED\nTran ID#: 615900008043....\nAPPROVED - Purchase\nAMOUNT: $107.51\n06/08/2026 19:14 380 8 556 803\nVisa\nCHANGE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7655.412500000006,
+        "totalUsd": 0.019497,
+        "inputTokens": 3692,
+        "outputTokens": 1551,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "112.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:14",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60614",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2746 N Clybourn Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6132",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1898132 HUELCHOC + 0000382646 / 1898132",
+          "quantity": 1,
+          "unitPrice": 34.99,
+          "totalSpend": 27.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1951950 BRAMI PASTA",
+          "quantity": 1,
+          "unitPrice": 11.69,
+          "totalSpend": 11.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1474912 DRK CHO CHPS",
+          "quantity": 1,
+          "unitPrice": 13.79,
+          "totalSpend": 13.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1712715 SEA SALT",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1269739 FAGE",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1269739 FAGE",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1063232 KS EGG WHITE",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "427381 KS ORG EGGS",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3771 SPRING MIX",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "251680 ORG RASPBERY",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "702669 BLACKBERRIES",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nLincoln Park #380\n2746 N Clybourn Ave\nChicago, IL 60614\n(773) 360-2053\n47 Member 111869784249\n***START OF PRE-SCANNED ITEMS**********\nE 1898132 HUELCHOC 34.99 E\nE 0000382646 / 1898132 7.00-E\nE 1951950 BRAMI PASTA 11.69 E\nE 1474912 DRK CHO CHPS 13.79 E\nE 1712715 SEA SALT 8.49 E\nE 1269739 FAGE 7.79 E\nE 1269739 FAGE 7.79 E\nE 1063232 KS EGG WHITE 10.99 E\nE 427381 KS ORG EGGS 7.69 E\nE 3771 SPRING MIX 5.49 E\nE 251680 ORG RASPBERY 6.49 E\nE 702669 BLACKBERRIES 2.49 E\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 11\nTOTAL NUMBER OF ITEMS SOLD = 11\nSUBTOTAL 110.69\nTAX 1.38\n**** TOTAL 112.07\nCostco Wallet APPROVED\nAPPROVED - Purchase\nWallet - Shop Card: $4.56\nRemaining Balance: $0.00\nWallet - Shop Card 4.56\nSUBTOTAL 106.13\nTAX 1.38\n**** TOTAL 107.51\nXXXXXXXXXXXX6132 H\nAID: A0000000031010\nSeq# 8043 App#: 02663I\nVisa Resp: APPROVED\nTran ID#: 615900008043....\nAPPROVED - Purchase\nAMOUNT: $107.51\n06/08/2026 19:14 380 8 556 803\nVisa\nCHANGE",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HUELCHOC + 1898132",
+      "price": 27.99,
+      "quantity": 1,
+      "totalSpend": 27.99
+    },
+    {
+      "text": "BRAMI PASTA + 1951950",
+      "price": 11.69,
+      "quantity": 1,
+      "totalSpend": 11.69
+    },
+    {
+      "text": "DRK CHO CHPS + 1474912",
+      "price": 13.79,
+      "quantity": 1,
+      "totalSpend": 13.79
+    },
+    {
+      "text": "SEA SALT + 1712715",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "FAGE + 1269739",
+      "price": 7.79,
+      "quantity": 1,
+      "totalSpend": 7.79
+    },
+    {
+      "text": "FAGE + 1269739",
+      "price": 7.79,
+      "quantity": 1,
+      "totalSpend": 7.79
+    },
+    {
+      "text": "KS EGG WHITE + 1063232",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "KS ORG EGGS + 427381",
+      "price": 7.69,
+      "quantity": 1,
+      "totalSpend": 7.69
+    },
+    {
+      "text": "SPRING MIX + 3771",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "ORG RASPBERY + 251680",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "BLACKBERRIES + 702669",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

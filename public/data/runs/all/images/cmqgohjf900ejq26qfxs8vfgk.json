@@ -1,0 +1,297 @@
+{
+  "id": "cmqgohjf900ejq26qfxs8vfgk",
+  "url": null,
+  "retailer": "Maverik",
+  "brand": "f'real",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": "9.6",
+    "purchaseDate": "2026-06-08",
+    "time": null,
+    "zipCode": "65807",
+    "city": "Springfield",
+    "state": "MO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6951.119833000004,
+        "totalUsd": 0.015564,
+        "inputTokens": 6086,
+        "outputTokens": 715,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "65807",
+          "status": "match"
+        },
+        "city": {
+          "value": "Springfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "777 E Battlefield Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5095",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OVR* COLD FM LRG",
+          "quantity": 1,
+          "unitPrice": 1.26,
+          "totalSpend": 1.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GATOR BLUE RASP 24z",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL MLKSHK MINT CHIP",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nSpringfield | #5091\n777 E Battlefield Rd\nSpringfield, MO 65807\n06-08-2026 06:53 PM Invoice # 509100911445\nNitro XXXXXXXXXXXXXX5095\nDESC QTY AMNT\nOVR* COLD FM LRG 1 $1.26 B\nGATOR BLUE RASP 24z 1 $3.69 C\nFREAL MLKSHK MINT CHIP 1 $3.99 A\nSUB-TOTAL $8.94\nSALES TAX 9.335% (A) $0.37\nSALES TAX 8.11% (B) $0.10\nSALES TAX 5.105% (C) $0.19\nTOTAL PURCHASES $9.60\nNITRO XXXXXXXXXXXXXX5095\nSWIPED\nAmount Tendered $9.60\nPayment Network.36\nAUTH # 4782\nPIN Verified\nMID **4600 TID 001\nSequence # 521737\nItems Sold = 3\nCard # **275095\nAdventure Club",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11822.79699999996,
+        "totalUsd": 0.028434,
+        "inputTokens": 3692,
+        "outputTokens": 734,
+        "reasoningTokens": 1810
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "65807",
+          "status": "match"
+        },
+        "city": {
+          "value": "Springfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "777 E Battlefield Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5095",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OVR* COLD FM LRG",
+          "quantity": 1,
+          "unitPrice": 1.26,
+          "totalSpend": 1.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GATOR BLUE RASP 24z",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL MLKSHK MINT CHIP",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\n\nADVENTURE'S FIRST STOP\nSpringfield | #5091\n777 E Battlefield Rd\nSpringfld, MO 65807\n\n06-08-2026 06:53 PM Invoice # 509100911445\nNitro XXXXXXXXXXXXXX5095\n\nDESC QTY AMNT\n\nOVR* COLD FM LRG 1 $1.26 B\nGATOR BLUE RASP 24z 1 $3.69 C\nFREAL MLKSHK MINT CHIP 1 $3.99 A\n\nSUB-TOTAL $8.94\nSALES TAX 9.335% (A) $0.37\nSALES TAX 8.11% (B) $0.10\nSALES TAX 5.105% (C) $0.19\nTOTAL PURCHASES $9.60\n\nNITRO XXXXXXXXXXXXXX5095\nSWIPED\nAmount Tendered $9.60\nPayment Network:36\nAUTH # 4782\nPIN Verified\nMID **4600 TID 001\nSequence # 521737\n\nItems Sold = 3\n\nCard # **275095\nAdventure Club",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4516.935292000009,
+        "totalUsd": 0.012027,
+        "inputTokens": 3692,
+        "outputTokens": 721,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "65807",
+          "status": "match"
+        },
+        "city": {
+          "value": "Springfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "MO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "777 E Battlefield Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5095",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OVR* COLD FM LRG",
+          "quantity": 1,
+          "unitPrice": 1.26,
+          "totalSpend": 1.26,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GATOR BLUE RASP 24z",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL MLKSHK MINT CHIP",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nSpringfield | #5091\n777 E Battlefield Rd\nSpringfld, MO 65807\n06-08-2026 06:53 PM Invoice # 509100911445\nNitro XXXXXXXXXXXXXX5095\nDESC QTY AMNT\nOVR* COLD FM LRG 1 $1.26 B\nGATOR BLUE RASP 24z 1 $3.69 C\nFREAL MLKSHK MINT CHIP 1 $3.99 A\nSUB-TOTAL $8.94\nSALES TAX 9.335% (A) $0.37\nSALES TAX 8.11% (B) $0.10\nSALES TAX 5.105% (C) $0.19\nTOTAL PURCHASES $9.60\nNITRO XXXXXXXXXXXXXX5095\nSWIPED\nAmount Tendered $9.60\nPayment Network.36\nAUTH # 4782\nPIN Verified\nMID **4600 TID 001\nSequence # 521737\nItems Sold = 3\nCard # **275095\nAdventure Club",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "OVR* COLD FM LRG",
+      "price": 1.26,
+      "quantity": 1,
+      "totalSpend": 1.26
+    },
+    {
+      "text": "GATOR BLUE RASP 24z",
+      "price": 3.69,
+      "quantity": 1,
+      "totalSpend": 3.69
+    },
+    {
+      "text": "FREAL MLKSHK MINT CHIP",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

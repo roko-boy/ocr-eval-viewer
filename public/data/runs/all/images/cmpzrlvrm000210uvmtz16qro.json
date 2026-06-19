@@ -1,0 +1,351 @@
+{
+  "id": "cmpzrlvrm000210uvmtz16qro",
+  "url": null,
+  "retailer": "Whole Foods Bakery",
+  "brand": "Heyday Canning Co",
+  "amount": 4.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "24.48",
+    "purchaseDate": "2026-06-04",
+    "time": null,
+    "zipCode": "15241",
+    "city": "Upper St. Clair",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7260.041166999959,
+        "totalUsd": 0.019335,
+        "inputTokens": 6086,
+        "outputTokens": 1134,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "24.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15241",
+          "status": "match"
+        },
+        "city": {
+          "value": "Upper St Clair",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "111 Siena Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1990",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KND DK CHOCO GRNLA + Reg $6.49 + Savings with Prime ($1.62)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GDCRSP SPICY CHEESE BALLS + Reg $4.49 + Savings with Prime ($1.49)",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SOMO BLK BN MXCN STRT CRN + Reg $2.99 + Savings with Prime ($0.75)",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYDYCN HRSSA LMN CHCKPEAS + Qty 2 $4.79 ea",
+          "quantity": 2,
+          "unitPrice": 4.79,
+          "totalSpend": 9.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYDYCN KMCHI NAVY BEANS",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nSouth Hills SHL 412-409-4550\n111 Siena Dr\nUpper St Clair, PA 15241 1318\nKND DK CHOCO GRNLA\n$4.87 F\nReg $6.49\nSavings with Prime ($1.62)\nGDCRSP SPICY CHEESE BALLS\n$3.00 F\nReg $4.49\nSavings with Prime ($1.49)\nSOMO BLK BN MXCN STRT CRN\n$2.24 F\nReg $2.99\nSavings with Prime ($0.75)\nHydycn HRSSA LMN CHCKPEAS\n$9.58 F\nQty 2 $4.79 ea\nHYDYCN KMCHI NAVY BEANS\n$4.79 F\nSubtotal:\n$24.48\nTotal Savings:\n-$3.86\nNet Sales:\n$24.48\nTotal:\n$24.48\nSold Items:\n6\nPaid:\nDebit\n*1990\n$24.48\nChip Card:US Debit\nChip Card AID:A0000000042203\n***********************************\nYour Total Savings\n$3.86\n***********************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n208 69887 06/04/2026 01:20 PM\n63011024220869887060420260\nBWMNX093W2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15680.24554099992,
+        "totalUsd": 0.038559,
+        "inputTokens": 3692,
+        "outputTokens": 1174,
+        "reasoningTokens": 2495
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15241",
+          "status": "match"
+        },
+        "city": {
+          "value": "Upper St Clair",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "111 Siena Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1990",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KND DK CHOCO GRNLA + Reg $6.49 + Savings with Prime ($1.62)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GDCRSP SPICY CHEESE BALLS + Reg $4.49 + Savings with Prime ($1.49)",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SOMO BLK BN MXCN STRT CRN + Reg $2.99 + Savings with Prime ($0.75)",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYDYCN HRSSA LMN CHCKPEAS + Qty 2 $4.79 ea",
+          "quantity": 2,
+          "unitPrice": 4.79,
+          "totalSpend": 9.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYDYCN KMCHI NAVY BEANS",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nSouth Hills SHL 412-409-4550\n111 Siena Dr\nUpper St Clair, PA 15241 1318\nKND DK CHOCO GRNLA\nReg $6.49\nSavings with Prime ($1.62)\nGDCRSP SPICY CHEESE BALLS\nReg $4.49\nSavings with Prime ($1.49)\nSOMO BLK BN MXCN STRT CRN\nReg $2.99\nSavings with Prime ($0.75)\nHYDYCN HRSSA LMN CHCKPEAS\nQty 2 $4.79 ea\nHYDYCN KMCHI NAVY BEANS\nSubtotal:\nTotal Savings:\nNet Sales:\nTotal:\nSold Items:\nPaid:\nDebit\n*1990\nChip Card: US Debit\n$4.87 F\n$3.00 F\n$2.24 F\n$9.58 F\n$4.79 F\n$28.34\n-$3.86\n$24.48\n$24.48\n6\n$24.48\nChip Card AID: A0000000042203\n************************************\nYour Total Savings\n$3.86\n************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n208 69887 06/04/2026 01:20 PM\n63011024220869887060420260\nBWMNM093W2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6288.016042000003,
+        "totalUsd": 0.015465,
+        "inputTokens": 3692,
+        "outputTokens": 1103,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:20 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15241",
+          "status": "match"
+        },
+        "city": {
+          "value": "Upper St Clair",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "111 Siena Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1990",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KND DK CHOCO GRNLA",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GDCRSP SPICY CHEESE BALLS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SOMO BLK BN MXCN STRT CRN",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYDYCN HRSSA LMN CHCKPEAS",
+          "quantity": 2,
+          "unitPrice": 4.79,
+          "totalSpend": 9.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HYDYCN KMCHI NAVY BEANS",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nSouth Hills SHL 412-409-4550\n111 Siena Dr\nUpper St Clair, PA 15241 1318\nKND DK CHOCO GRNLA\n$4.87 F\nReg $6.49\nSavings with Prime ($1.62)\nGDCRSP SPICY CHEESE BALLS\n$3.00 F\nReg $4.49\nSavings with Prime ($1.49)\nSOMO BLK BN MXCN STRT CRN\n$2.24 F\nReg $2.99\nSavings with Prime ($0.75)\nHYDYCN HRSSA LMN CHCKPEAS\n$9.58 F\nQty 2 $4.79 ea\nHYDYCN KMCHI NAVY BEANS\n$4.79 F\nSubtotal:\n$24.48\nTotal Savings:\n-$3.86\nNet Sales:\n$24.48\nTotal:\n$24.48\nSold Items:\n6\nPaid:\nDebit\n*1990\n$24.48\nChip Card: US Debit\nChip Card AID: A0000000042203\n***********************************\nYour Total Savings\n$3.86\n***********************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns\n***********************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n***********************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n208 69887 06/04/2026 01:20 PM\n63011024220869887060420260\nBWMNM093W2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KND DK CHOCO GRNLA + Reg $6.49 + Savings with Prime ($1.62)",
+      "price": 4.87,
+      "quantity": 1,
+      "totalSpend": 4.87
+    },
+    {
+      "text": "GDCRSP SPICY CHEESE BALLS + Reg $4.49 + Savings with Prime ($1.49)",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "SOMO BLK BN MXCN STRT CRN + Reg $2.99 + Savings with Prime ($0.75)",
+      "price": 2.24,
+      "quantity": 1,
+      "totalSpend": 2.24
+    },
+    {
+      "text": "HYDYCN HRSSA LMN CHCKPEAS + Qty 2 $4.79 ea",
+      "price": 4.79,
+      "quantity": 2,
+      "totalSpend": 9.58
+    },
+    {
+      "text": "HYDYCN KMCHI NAVY BEANS",
+      "price": 4.79,
+      "quantity": 1,
+      "totalSpend": 4.79
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

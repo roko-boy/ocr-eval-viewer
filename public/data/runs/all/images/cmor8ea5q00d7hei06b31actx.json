@@ -1,0 +1,243 @@
+{
+  "id": "cmor8ea5q00d7hei06b31actx",
+  "url": null,
+  "retailer": "Shaw's",
+  "brand": "Ketone-IQ™",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Shaw's Supermarkets",
+    "totalCost": "4.99",
+    "purchaseDate": "2026-05-04",
+    "time": null,
+    "zipCode": "03301",
+    "city": "Concord",
+    "state": "NH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7394.516499999998,
+        "totalUsd": 0.015915,
+        "inputTokens": 6086,
+        "outputTokens": 754,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Shaws",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Concord",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "20 D'amante Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3768",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "85063200676 KETONE IQ SHOT KET",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "shaws\nPharmacy\nPerfecting the art of fresh\nStore 811 Dir Pete\nMain: (603) 228-1440 Rx: (603) 228-227\n20 D'amante Drive\nConcord NH 03301\n00081105200322605040921\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85063200676 KETONE IQ SHOT KET\n4.99 4.99\nTAX\n0.00\n**** BALANCE\n4.99\nDebit Purchase 05/04/26 09:21\nCARD # ************3768 PRIMARY\nTOTAL TRANSACTION AMOUNT: 4.99\nCASH BACK AMOUNT:\n0.00\nREF: 472150137680 AUTH: 00464303\nTT\n00980840\nebit\n4.99\nHANGE\n0.00\nYOUR POINTS\nned Today 4\navailable 4\nNUMBER OF ITEMS SOLD =\n1\n/26 09:21 811 52 32\n8852\nThank you for shopping Shaws!\nFor SHAWS FOR U questions call\n877-276-9637 or Shaws.com/foru",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14857.581334,
+        "totalUsd": 0.034635,
+        "inputTokens": 3692,
+        "outputTokens": 758,
+        "reasoningTokens": 2475
+      },
+      "fields": {
+        "storeName": {
+          "value": "Shaw's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Concord",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "20 D'amante Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3768",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "85063200676 KETONE IQ SHOT KET",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "shaws\nPharmacy\nPerfecting the art of fresh\n\nStore 811 Dir Pete\nMain: (603) 228-1440 Rx: (603) 228-227\n20 D'amante Drive\nConcord NH 03301\n\n00081105200322605040921\n\nYOUR CASHIER TODAY WAS SELF\n\nGROCERY                               Price   You Pay\n85063200676 KETONE IQ SHOT KET         4.99    4.99\n\n         TAX                                   0.00\n**** BALANCE                                   4.99\n\nDebit Purchase     05/04/26 09:21\nCARD # ************3768   PRIMARY\nTOTAL TRANSACTION AMOUNT: 4.99\nCASH BACK AMOUNT:         0.00\nREF: 472150137680  AUTH: 00464303\n\nTT\n00980840\nebit                                           4.99\nHANGE                                          0.00\n\n            YOUR POINTS\nned Today 4\nable 4\n\nUMBER OF ITEMS SOLD =      1\n/26 09 21  811  52   32       8852\n\nThank you for shopping Shaws!\nFor SHAWS FOR U questions call\n877-276-9637 or Shaws.com/foru",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4880.380832999996,
+        "totalUsd": 0.012234,
+        "inputTokens": 3692,
+        "outputTokens": 744,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Shaws",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:21 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03301",
+          "status": "match"
+        },
+        "city": {
+          "value": "Concord",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "20 D'amante Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3768",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "85063200676 KETONE IQ SHOT KET",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "shaws\nPharmacy\nPerfecting the art of fresh\nStore 811 Dir Pete\nMain: (603) 228-1440 Rx: (603) 228-227\n20 D'amante Drive\nConcord NH 03301\n00081105200322605040921\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n85063200676 KETONE IQ SHOT KET\n4.99 4.99\nTAX\n0.00\n**** BALANCE\n4.99\nDebit Purchase 05/04/26 09:21\nCARD # ************3768 PRIMARY\nTOTAL TRANSACTION AMOUNT: 4.99\nCASH BACK AMOUNT:\n0.00\nREF: 472150137680 AUTH: 00464303\nTT\n00980840\nebit\n4.99\nHANGE\n0.00\nYOUR POINTS\nned Today 4\nailable 4\nNUMBER OF ITEMS SOLD =\n1\n/26 09:21 811 52 32\n8852\nThank you for shopping Shaws!\nFor SHAWS FOR U questions call\n877-276-9637 or Shaws.com/foru",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KETONE IQ SHOT KET + 85063200676",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

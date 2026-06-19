@@ -1,0 +1,297 @@
+{
+  "id": "cmo96wug300ft664uo3qkv0fg",
+  "url": null,
+  "retailer": "ARCO",
+  "brand": "f'real",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ARCO",
+    "totalCost": "9.33",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "93725",
+    "city": "FRESNO",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6499.412583999998,
+        "totalUsd": 0.013593,
+        "inputTokens": 6086,
+        "outputTokens": 496,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ARCO",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93725",
+          "status": "match"
+        },
+        "city": {
+          "value": "Fresno",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4609 E Jensen Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORE CKCRM MS12",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORE CKCRM MS12",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Debit Fee",
+          "quantity": 1,
+          "unitPrice": 0.35,
+          "totalSpend": 0.35,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ARCO GASOLINE\nARCO AMPM 66482\n4609 E JENSEN AVE\nFRESNO CA 93725\n*****************\nARCO 66482\n4609 E Jensen Ave\nFresno CA 93725\n\n<CUSTOMER COPY>\nDescription\tQty\tAmount\n---\t---\t---\nORE CKCRM MS12\t1\t4.49\nORE CKCRM MS12\t1\t4.49\nDebit Fee\t1\t0.35\n\tSubtotal\t9.33\nTOTAL\t9.33\n\tDEBIT $\t9.33",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 67087.55258300001,
+        "totalUsd": 0.148593,
+        "inputTokens": 3692,
+        "outputTokens": 537,
+        "reasoningTokens": 15358
+      },
+      "fields": {
+        "storeName": {
+          "value": "ARCO",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2023-11-21",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "3:18:08 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93725",
+          "status": "match"
+        },
+        "city": {
+          "value": "FRESNO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4609 E JENSEN AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORE CKCRM MS12",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORE CKCRM MS12",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Debit Fee",
+          "quantity": 1,
+          "unitPrice": 0.35,
+          "totalSpend": 0.35,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "11/21/23 3:18:08 PM\n\nARCO GASOLINE\nARCO AMPM 66482\n4609 E JENSEN AVE\nFRESNO CA 93725\n*****************\nARCO 66482\n4609 E JENSEN Ave\nFresno CA 93725\n\n<CUSTOMER COPY>\n\nDescription\tQty\tAmount\nORE CKCRM MS12\t1\t4.49\nORE CKCRM MS12\t1\t4.49\nDebit Fee\t1\t0.35\nSubtotal\t9.33\nTOTAL\t9.33\nDEBIT $\t9.33",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5417.078874999999,
+        "totalUsd": 0.009606,
+        "inputTokens": 3692,
+        "outputTokens": 452,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ARCO",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "93725",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "4609 E JENSEN AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORE CKCRM MS12",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORE CKCRM MS12",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Debit Fee",
+          "quantity": 1,
+          "unitPrice": 0.35,
+          "totalSpend": 0.35,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ARCO GASOLINE\nARCO AMPM 66482\n4609 E JENSEN AVE\nFRESNO CA 93725\n*****************\nARCO 66482\n4609 E Jensen Ave\nFresno CA 93725\n\n<CUSTOMER COPY>\n\nDescription Qty Amount\n----------------- --- ------\nORE CKCRM MS12 1 4.49\nORE CKCRM MS12 1 4.49\nDebit Fee 1 0.35\n-----------------\nSubtotal 9.33\nTOTAL 9.33\nDEBIT $ 9.33",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ORE CKCRM MS12",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "ORE CKCRM MS12",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "Debit Fee",
+      "price": 0.35,
+      "quantity": 1,
+      "totalSpend": 0.35
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

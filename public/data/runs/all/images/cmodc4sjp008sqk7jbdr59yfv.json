@@ -1,0 +1,432 @@
+{
+  "id": "cmodc4sjp008sqk7jbdr59yfv",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "smashkitchen ",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "24.15",
+    "purchaseDate": "2026-04-24",
+    "time": null,
+    "zipCode": "85296",
+    "city": "Gilbert",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11904.40220800001,
+        "totalUsd": 0.023601,
+        "inputTokens": 6086,
+        "outputTokens": 1608,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:58",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85296",
+          "status": "match"
+        },
+        "city": {
+          "value": "GILBERT",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "90 S. VAL VISTA DR.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4586",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "81011612350 PRIME HYDRATION + Markdown Coupon -1.25",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.24,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "84044220022 LIQUID DEATH + Markdown Coupon -1.15",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.14,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85006817401 SMASH KITCHEN KETC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2113004466 LUC CHSE PEPPR JAC + Member Savings -1.83",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.66,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2113004600 2@ LUC CHSE MUENSTER + Member Savings -3.66",
+          "quantity": 1,
+          "unitPrice": 6.98,
+          "totalSpend": 3.32,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "81363602374 CALIFIA FARMS SOY + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7989340949 O ORG BROCCOLI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "89979100201 5@ MED HASS AVOCADOS + forU Store Coupon -6.15",
+          "quantity": 1,
+          "unitPrice": 7.5,
+          "totalSpend": 1.35,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SAFEWAY (S)\nStore 1534 Dir Jonathan Boggess\nMain: (480) 545-7555 Rx: (480) 892-209\n90 S. VAL VISTA DR.\nGILBERT AZ 85296\n00153405200662604241258\nYOUR CASHIER TODAY WAS SELF\nGROCERY Price You Pay\n81011612350 PRIME HYDRATION 2.49 1.24 B\nMarkdown Coupon -1.25\n84044220022 LIQUID DEATH 2.29 1.14 B\nMarkdown Coupon -1.15\n85006817401 SMASH KITCHEN KETC 3.99 3.99 B\nREFRIG/FROZEN\n2113004466 LUC CHSE PEPPR JAC 3.49 1.66 B\nMember Savings -1.83\n2113004600 2@ LUC CHSE MUENSTER 6.98 3.32 B\nMember Savings -3.66\n81363602374 CALIFIA FARMS SOY 6.99 5.99 B\nMember Savings -1.00\nPRODUCE\n7989340949 O ORG BROCCOLI 4.99 4.99 B\n89979100201 5@ MED HASS AVOCADOS 7.50 1.35 B\nforU Store Coupon -6.15\nTAX 0.47\n**** BALANCE 24.15\nCredit Purchase 04/24/26 12:58\nCARD # ************4586\nREF: 765817445860 AUTH: 0003000S\nPAYMENT AMOUNT 24.15\nAL MASTERCARD\nAID A0000000041010\nTVR 0000008001\nMastercard 24.15\nCHANGE 0.00\nPoints expiring 04/30/26 58\nYOUR SAVINGS\nMember Savings 6.49\nfor U Savings 8.55\nTotal 15.04\nTotal Savings value 38%\nYOUR POINTS\nPoints Earned Today 23\nPoints Available 98\nTOTAL NUMBER OF ITEMS SOLD = 13\n04/24/26 12:58 1534 52 66 8852\nThank you for shopping Safeway!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16488.85545899998,
+        "totalUsd": 0.040773,
+        "inputTokens": 3692,
+        "outputTokens": 1628,
+        "reasoningTokens": 2287
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:58",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85296",
+          "status": "match"
+        },
+        "city": {
+          "value": "GILBERT",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "90 S. VAL VISTA DR.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4586",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PRIME HYDRATION + 81011612350 + Markdown Coupon -1.25",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIQUID DEATH + 84044220022 + Markdown Coupon -1.15",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.14,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMASH KITCHEN KETC + 85006817401",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LUC CHSE PEPPR JAC + 2113004466 + Member Savings -1.83",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.66,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2@ LUC CHSE MUENSTER + 2113004600 + Member Savings -3.66",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 3.32,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CALIFIA FARMS SOY + 81363602374 + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "0 ORG BROCCOLI + 7989340949",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "5@ MED HASS AVOCADOS + 89979100201 + forU Store Coupon -6.15",
+          "quantity": 5,
+          "unitPrice": 1.5,
+          "totalSpend": 1.35,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1534 Dir Jonathan Boggess\nMain: (480) 545-7555 Rx: (480) 892-209\n90 S. VAL VISTA DR.\nGILBERT AZ 85296\n00153405200662604241258\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n81011612350 PRIME HYDRATION\n2.49 1.24 B\nMarkdown Coupon -1.25\n84044220022 LIQUID DEATH\n2.29 1.14 B\nMarkdown Coupon -1.15\n85006817401 SMASH KITCHEN KETC\n3.99 3.99 B\nREFRIG/FROZEN\n2113004466 LUC CHSE PEPPR JAC\n3.49 1.66 B\nMember Savings -1.83\n2113004600 2@ LUC CHSE MUENSTER\n6.98 3.32 B\nMember Savings -3.66\n81363602374 CALIFIA FARMS SOY\n6.99 5.99 B\nMember Savings -1.00\nPRODUCE\n7989340949 0 ORG BROCCOLI\n4.99 4.99 B\n89979100201 5@ MED HASS AVOCADOS\n7.50 1.35 B\nforU Store Coupon -6.15\nTAX\n0.47\n**** BALANCE\n24.15\nCredit Purchase 04/24/26 12:58\nCARD # ************4586\nREF: 765817445860 AUTH: 0003000S\nPAYMENT AMOUNT\n24.15\nAL Mastercard\nAID A0000000041010\nTVR 0000008001\nMastercard\n24.15\nCHANGE\n0.00\nPoints expiring 04/30/26 58\nYOUR SAVINGS\nMember Savings\n6.49\nfor U Savings\n8.55\nTotal\n15.04\nTotal Savings value\n39%\nYOUR POINTS\nPoints Earned Today 23\nPoints Available 98\nTOTAL NUMBER OF ITEMS SOLD = 13\n04/24/26 12:58 1534 52 66 8852\nThank you for shopping Safeway!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7811.028250000003,
+        "totalUsd": 0.02019,
+        "inputTokens": 3692,
+        "outputTokens": 1628,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "24.15",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85296",
+          "status": "match"
+        },
+        "city": {
+          "value": "GILBERT",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "90 S. VAL VISTA DR.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4586",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PRIME HYDRATION + 81011612350 + Markdown Coupon -1.25",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIQUID DEATH + 84044220022 + Markdown Coupon -1.15",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 1.14,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMASH KITCHEN KETC + 85006817401",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LUC CHSE PEPPR JAC + 2113004466 + Member Savings -1.83",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.66,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LUC CHSE MUENSTER + 2113004600 + Member Savings -3.66",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 3.32,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CALIFIA FARMS SOY + 81363602374 + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "O ORG BROCCOLI + 7989340949",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MED HASS AVOCADOS + 89979100201 + forU Store Coupon -6.15",
+          "quantity": 5,
+          "unitPrice": 1.5,
+          "totalSpend": 1.35,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1534 Dir Jonathan Boggess\nMain: (480) 545-7555 Rx: (480) 892-209\n90 S. VAL VISTA DR.\nGILBERT AZ 85296\n00153405200662604241258\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n81011612350 PRIME HYDRATION\n2.49 1.24 B\nMarkdown Coupon -1.25\n84044220022 LIQUID DEATH\n2.29 1.14 B\nMarkdown Coupon -1.15\n85006817401 SMASH KITCHEN KETC\n3.99 3.99 B\nREFRIG/FROZEN\n2113004466 LUC CHSE PEPPR JAC\n3.49 1.66 B\nMember Savings -1.83\n2113004600 2@ LUC CHSE MUENSTER\n6.98 3.32 B\nMember Savings -3.66\n81363602374 CALIFIA FARMS SOY\n6.99 5.99 B\nMember Savings -1.00\nPRODUCE\n7989340949 O ORG BROCCOLI\n4.99 4.99 B\n89979100201 5@ MED HASS AVOCADOS\n7.50 1.35 B\nforU Store Coupon -6.15\nTAX\n0.47\n**** BALANCE\n24.15\nCredit Purchase 04/24/26 12:58\nCARD # ************4586\nREF: 765817445860 AUTH: 0003000S\nPAYMENT AMOUNT\n24.15\nAL Mastercard\nAID A0000000041010\nTVR 0000008001\nMastercard\n24.15\nCHANGE\n0.00\nPoints expiring 04/30/26 58\nYOUR SAVINGS\nMember Savings\n6.49\nfor U Savings\n8.55\nTotal\n15.04\nTotal Savings value\n39%\nYOUR POINTS\nPoints Earned Today 23\nPoints Available 98\nTOTAL NUMBER OF ITEMS SOLD = 13\n04/24/26 12:58 1534 52 66\n8852\nThank you for shopping Safeway!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PRIME HYDRATION + 81011612350 + Markdown Coupon -1.25",
+      "price": 1.24,
+      "quantity": 1,
+      "totalSpend": 1.24
+    },
+    {
+      "text": "LIQUID DEATH + 84044220022 + Markdown Coupon -1.15",
+      "price": 1.14,
+      "quantity": 1,
+      "totalSpend": 1.14
+    },
+    {
+      "text": "SMASH KITCHEN KETC + 85006817401 + REFRIG/FROZEN",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "LUC CHSE PEPPR JAC + 2113004466 + Member Savings -1.83",
+      "price": 1.66,
+      "quantity": 1,
+      "totalSpend": 1.66
+    },
+    {
+      "text": "LUC CHSE MUENSTER + 2113004600 + Member Savings -3.66",
+      "price": 1.66,
+      "quantity": 2,
+      "totalSpend": 3.32
+    },
+    {
+      "text": "CALIFIA FARMS SOY + 81363602374 + Member Savings -1.00 + PRODUCE",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "O ORG BROCCOLI + 7989340949",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "MED MRSS RVOCADOS + 89979100Z01 + forU Store Coupon -6.15",
+      "price": 0.27,
+      "quantity": 5,
+      "totalSpend": 1.35
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

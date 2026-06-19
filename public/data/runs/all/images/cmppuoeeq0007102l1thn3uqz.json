@@ -1,0 +1,297 @@
+{
+  "id": "cmppuoeeq0007102l1thn3uqz",
+  "url": null,
+  "retailer": "Grocery Outlet",
+  "brand": "Slate",
+  "amount": 0.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Grocery Outlet Bargain Market",
+    "totalCost": "57.27",
+    "purchaseDate": "2026-05-27",
+    "time": null,
+    "zipCode": "97814",
+    "city": "Baker City",
+    "state": "OR",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12301.12929199998,
+        "totalUsd": 0.018702,
+        "inputTokens": 6228,
+        "outputTokens": 737,
+        "reasoningTokens": 303
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "57.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:24 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97814",
+          "status": "match"
+        },
+        "city": {
+          "value": "Baker City",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "297 Campbell St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Slate Vanilla Latte Protein Iced Cof",
+          "quantity": 9,
+          "unitPrice": 0.97,
+          "totalSpend": 8.73,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Produce 00000000008421",
+          "quantity": 2,
+          "unitPrice": 1,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Taylor Farms Asian Chop Salad",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Slate Vanilla Latte Protein Iced Cof\t8.73\n9 @ 0.97\nroduce\nProduce 00000000008421\t2.00\n-2 @ 1.00\nTaylor Farms Asian Chop Salad\t3.99\n1 @ 3.99\n\nBalance Due 57.27\n\nSub Total\t57.27\nTotal Tax\t0.00\nTotal\t57.27\nPayment Mode : Credit\t57.27\nChange\t0.00\n\nCashier :271 Store : 0379\n\nPOS :1 Transaction : 51\nWednesday, 27 May, 2026 11:24 AM\n\nTHANK YOU FOR SHOPPING WITH US!\nQuestions please call (541) 523-1126\n297 Campbell St, Baker City, Oregon, 97814\n\nReturns are gladly accepted with a receipt within 30 days of\npurchase for a full cash refund (or credit to the applicable\ncredit or EBT card)\n\nYOUR SAVINGS TODAY!\n-------------------\nAdvertised Savings\t187.74\nPromotion Savings\t0.00\nToday You Saved\n$ 187.74",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15554.672833,
+        "totalUsd": 0.032676,
+        "inputTokens": 3706,
+        "outputTokens": 734,
+        "reasoningTokens": 2279
+      },
+      "fields": {
+        "storeName": {
+          "value": "Albertsons",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "57.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:24 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97814",
+          "status": "match"
+        },
+        "city": {
+          "value": "Baker City",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "297 Campbell St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Slate Vanilla Latte Protein Iced Cof",
+          "quantity": 9,
+          "unitPrice": 0.97,
+          "totalSpend": 8.73,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Produce + Produce 00000000008421",
+          "quantity": 2,
+          "unitPrice": 1,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Taylor Farms Asian Chop Salad",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Slate Vanilla Latte Protein Iced Cof 8.73\n9 @ 0.97\nroduce\nProduce 00000000008421 2.00\n-2 @ 1.00\nTaylor Farms Asian Chop Salad 3.99\n1 @ 3.99\n\nBalance Due 57.27\n\nSub Total 57.27\nTotal Tax 0.00\nTotal 57.27\nPayment Mode : Credit 57.27\nChange 0.00\n\nCashier :271 Store : 0379\n\nPOS :1 Transaction : 51\nWednesday, 27 May, 2026 11:24 AM\n\nTHANK YOU FOR SHOPPING WITH US!\nQuestions please call (541) 523-1126\n297 Campbell St, Baker City, Oregon, 97814\n\nReturns are gladly accepted with a receipt within 30 days of\npurchase for a full cash refund (or credit to the applicable\ncredit or EBT card)\n\nYOUR SAVINGS TODAY!\nAdvertised Savings 187.74\nPromotion Savings 0.00\nToday You Saved\n$ 187.74",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 12189.175875,
+        "totalUsd": 0.018879,
+        "inputTokens": 3820,
+        "outputTokens": 710,
+        "reasoningTokens": 751
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "57.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:24 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97814",
+          "status": "match"
+        },
+        "city": {
+          "value": "Baker City",
+          "status": "match"
+        },
+        "state": {
+          "value": "OR",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "297 Campbell St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Slate Vanilla Latte Protein Iced Cof",
+          "quantity": 9,
+          "unitPrice": 0.97,
+          "totalSpend": 8.73,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Produce 000000000008421",
+          "quantity": 2,
+          "unitPrice": 1,
+          "totalSpend": -2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Taylor Farms Asian Chop Salad",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Slate Vanilla Latte Protein Iced Cof\n9 @ 0.97\n8.73\nroduce\nProduce 000000000008421\n-2 @ 1.00\n2.00\nTaylor Farms Asian Chop Salad\n1 @ 3.99\n3.99\nBalance Due 57.27\nSub Total\n57.27\nTotal Tax\n0.00\nTotal\n57.27\nPayment Mode : Credit\n57.27\nChange\n0.00\nCashier :271 Store : 0379\nPOS :1 Transaction : 51\nWednesday, 27 May, 2026 11:24 AM\nTHANK YOU FOR SHOPPING WITH US!\nQuestions please call (541) 523-1126\n297 Campbell St, Baker City, Oregon, 97814\nReturns are gladly accepted with a receipt within 30 days of\npurchase for a full cash refund (or credit to the applicable\ncredit or EBT card)\nYOUR SAVINGS TODAY!\nAdvertised Savings\n187.74\nPromotion Savings\n0.00\nToday You Saved\n$ 187.74",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Slate Vani a Latte Proteinlced Cof + 9 @ 0.97 + roduce",
+      "price": 0.97,
+      "quantity": 9,
+      "totalSpend": 8.73
+    },
+    {
+      "text": "Produce 00000000008421 + -2 @ 1.00",
+      "price": 1,
+      "quantity": 2,
+      "totalSpend": 2
+    },
+    {
+      "text": "Taylor Farms Asian Chop Salad + 1 @ 3.99",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

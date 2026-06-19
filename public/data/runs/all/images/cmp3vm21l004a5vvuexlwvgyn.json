@@ -1,0 +1,243 @@
+{
+  "id": "cmp3vm21l004a5vvuexlwvgyn",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "JustFoodForDogs",
+  "amount": 11.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "26.08",
+    "purchaseDate": "2026-05-11",
+    "time": null,
+    "zipCode": "90631",
+    "city": "La Habra",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11317.47116700001,
+        "totalUsd": 0.01722,
+        "inputTokens": 6086,
+        "outputTokens": 899,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:49PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90631",
+          "status": "match"
+        },
+        "city": {
+          "value": "LA HABRA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1601 W IMPERIAL HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1581",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936419 JFFD-DOG 18Z FSH/SWT",
+          "quantity": 2,
+          "unitPrice": 11.99,
+          "totalSpend": 23.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\n\nLA HABRA #02163\n1601 W IMPERIAL HWY\nLA HABRA, CA 90631\n562-315-4334\n\n05/11/26 7:49PM Reg 002 Trans 246834\nHelped by Frank\n\n002936419 JFFD-DOG 18Z FSH/SWT 23.98 T\nReg Price: 2@ 11.99\n\nTaxable Total 23.98\nSubtotal 23.98\nTax CA 8.75% 2.10\nTOTAL 26.08\n\nMastercard Credit Card 26.08\n2026-05-11 07:48:55 PM\nTotal: USD $26.08\nMastercard\nEntry Method: INSERT\nCARD #: XXXXXXXXXXXX1581\nPurchase - APPROVED\nAUTH CODE: 51455P\nAID: A0000000041010\nTVR: 0000008000\nIAD: 0110A040012220000000000000000003700FF\nTSI: E800\nARC: Z3\nRRN: 167608\n\n2 Items\nTransaction Barcode\n012163021002246834202605115120758840\n\nVital Care Number: 512075884\nT = Taxable N = Non-Taxable\n(1)Discount not subject to sales tax\n(2)Manufacturer coupon subject to sales tax\n\nAs a Vital Care member, get rewarded for\nevery purchase.\n\nPoints total before this purchase: 90.49\nSpend at least $52.53 today and earn\nyour next $5 Reward!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15007.76612500002,
+        "totalUsd": 0.028011,
+        "inputTokens": 3692,
+        "outputTokens": 887,
+        "reasoningTokens": 1610
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:49PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90631",
+          "status": "match"
+        },
+        "city": {
+          "value": "LA HABRA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1601 W IMPERIAL HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1581",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936419 JFFD-DOG 18Z FSH/SWT",
+          "quantity": 2,
+          "unitPrice": 11.99,
+          "totalSpend": 23.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\n\nLA HABRA #02163\n1601 W IMPERIAL HWY\nLA HABRA, CA 90631\n562-315-4334\n\n05/11/26 7:49PM Reg 002 Trans 246834\nHelped by Frank\n\n002936419 JFFD-DOG 18Z FSH/SWT 23.98 T\nReg Price: 2@ 11.99\n\nTaxable Total 23.98\nSubtotal 23.98\nTax CA 8.75% 2.10\nTOTAL 26.08\n\nMastercard Credit Card 26.08\n2026-05-11 07:48:55 PM\nTotal: USD $26.08\nMastercard\nEntry Method: INSERT\nCARD #: XXXXXXXXXXXX1581\nPurchase - APPROVED\nAUTH CODE: 51455P\nAID: A0000000041010\nTVR: 0000008000\nIAD: 0110A04001222000000000000000003700FF\nTSI: E800\nARC: Z3\nRRN: 167608\n\n2 Items\nTransaction Barcode\n012163021002246834202605115120758840\n\nVital Care Number: 512075884\nT = Taxable N = Non-Taxable\n(1)Discount not subject to sales tax\n(2)Manufacturer coupon subject to sales tax\n\nAs a Vital Care member, get rewarded for\nevery purchase.\n\nPoints total before this purchase: 90.49\nSpend at least $52.53 today and earn\nyour next $5 Reward!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4755.882291999995,
+        "totalUsd": 0.013512,
+        "inputTokens": 3692,
+        "outputTokens": 886,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:49PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90631",
+          "status": "match"
+        },
+        "city": {
+          "value": "LA HABRA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1601 W IMPERIAL HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1581",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936419 JFFD-DOG 18Z FSH/SWT",
+          "quantity": 2,
+          "unitPrice": 11.99,
+          "totalSpend": 23.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\n\nLA HABRA #02163\n1601 W IMPERIAL HWY\nLA HABRA, CA 90631\n562-315-4334\n\n05/11/26 7:49PM Reg 002 Trans 246834\nHelped by Frank\n\n002936419 JFFD-DOG 18Z FSH/SWT 23.98 T\nReg Price: 2@ 11.99\n\nTaxable Total 23.98\nSubtotal 23.98\nTax CA 8.75% 2.10\nTOTAL 26.08\n\nMastercard Credit Card 26.08\n2026-05-11 07:48:55 PM\nTotal: USD $26.08\nMastercard\nEntry Method: INSERT\nCARD #: XXXXXXXXXXXX1581\nPurchase - APPROVED\nAUTH CODE: 51455P\nAID: A0000000041010\nTVR: 0000008000\nIAD: 0110A0400122200000000000000003700FF\nTSI: E800\nARC: Z3\nRRN: 167608\n\n2 Items\nTransaction Barcode\n012163021002246834202605115120758840\n\nVital Care Number: 512075884\nT = Taxable N = Non-Taxable\n(1)Discount not subject to sales tax\n(2)Manufacturer coupon subject to sales tax\n\nAs a Vital Care member, get rewarded for\nevery purchase.\n\nPoints total before this purchase: 90.49\nSpend at least $52.53 today and earn\nyour next $5 Reward!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JFFD-DOG 18Z FSH/SWT + 002936419 + Reg Price: 2@ 11.99",
+      "price": 11.99,
+      "quantity": 2,
+      "totalSpend": 23.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

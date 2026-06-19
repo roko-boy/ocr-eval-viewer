@@ -1,0 +1,486 @@
+{
+  "id": "cmnwk7sie00fdy6rive2zgpw1",
+  "url": null,
+  "retailer": "Sprouts Farmers Market",
+  "brand": "Churn",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sprouts Farmers Market",
+    "totalCost": "37.54",
+    "purchaseDate": "2026-04-12",
+    "time": null,
+    "zipCode": "95131",
+    "city": "San Jose",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 30108.15308300004,
+        "totalUsd": 0.0466845,
+        "inputTokens": 6169,
+        "outputTokens": 1628,
+        "reasoningTokens": 2531
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:22 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95131",
+          "status": "match"
+        },
+        "city": {
+          "value": "SAN JOSE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1028 BROKAW RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6919",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COCONUT WATER-LEMONY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COCONUT WATER-STILL + BOGO COCONUT WATER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOCOLATE MILK GLS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*BOTTLE DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOUR HERB BUTTER",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GARLIC BUTTER",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG PLAIN YOGURT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GELATO BOMBS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1028 BROKAW RD.\nSAN JOSE, CA 95131\n(408) 490-3041\nStore Hours MON-SUN 7AM-10PM\n\n04/12/2026 14:23:27\nVISA CREDIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX6919\nPURCHASE - APPROVED\nAUTH CODE: 46788D\n\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 1F420132A00000000001003027300000\n00040000000000000000000000000000\nTSI: 0000\nTC: ARC: 00\nMID: 320571 TID: 001 F2B1A3F20C39647F\nRRN: 029989\nTotal: USD$ 37.54\n\nGROCERY\nCOCONUT WATER-LEMONY 2.99 F\n*CRV FS 05 0.05\nCOCONUT WATER-STILL 2.99 F\n*CRV FS 05 0.05\n\nDAIRY\nCHOCOLATE MILK GLS 4.49 F\n*BOTTLE DEPOSIT 3.00\nFOUR HERB BUTTER 5.99 F\nGARLIC BUTTER 5.99 F\nORG PLAIN YOGURT 5.99 F\n\nFROZEN\nGELATO BOMBS 8.99 F\n\nBOGO COCONUT WATER -2.99\n\nBALANCE DUE 37.54\nCREDIT $37.54\n[ ] XXXXXXXXXXXX6919\nAuth# 46788D Ref# 029989\nCHANGE 0.00\n\nYou Saved!\nTOTAL DISCOUNTS 1 2.99\n\nCard XXXXXXXXXXXX4824\n\nHave a Healthy Day Bella!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 0\nTotal Points earned today: 175\nNew points balance: 175\n***********************************\n99040600284091021422\n***********************************\nCashier: Dina Store: 406\nPOS: 002 Transaction: 8409\nSunday, April 12, 2026 02:22 PM\n\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\n\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18256.22033299995,
+        "totalUsd": 0.046596,
+        "inputTokens": 3692,
+        "outputTokens": 1612,
+        "reasoningTokens": 2950
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "37.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:22 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95131",
+          "status": "match"
+        },
+        "city": {
+          "value": "SAN JOSE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1028 BROKAW RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6919",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COCONUT WATER-LEMONY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COCONUT WATER-STILL + BOGO COCONUT WATER",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOCOLATE MILK GLS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*BOTTLE DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FOUR HERB BUTTER",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GARLIC BUTTER",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG PLAIN YOGURT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GELATO BOMBS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1028 BROKAW RD.\nSAN JOSE, CA 95131\n(408) 490-3041\nStore Hours MON-SUN 7AM-10PM\n\n04/12/2026 14:23:27\nVISA CREDIT Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX6919\nPURCHASE - APPROVED\nAUTH CODE: 46788D\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 1F420132A0000000001003027300000\n00040000000000000000000000000000\nTSI: 0000\nTC: ARC: 00\nMID: 320571 F2B1A3F20C39647F\nTID: 001 RRN: 029989\nTotal: USD$ 37.54\n\nGROCERY\nCOCONUT WATER-LEMONY 2.99 F\n*CRV FS 05 0.05\nCOCONUT WATER-STILL 2.99 F\n*CRV FS 05 0.05\n\nDAIRY\nCHOCOLATE MILK GLS 4.49 F\n*BOTTLE DEPOSIT 3.00\nFOUR HERB BUTTER 5.99 F\nGARLIC BUTTER 5.99 F\nORG PLAIN YOGURT 5.99 F\n\nFROZEN\nGELATO BOMBS 8.99 F\nBOGO COCONUT WATER -2.99\n\nBALANCE DUE 37.54\nCREDIT $37.54\n[ ] XXXXXXXXXXXX6919\nAuth# 46788D Ref# 029989\nCHANGE 0.00\n\nYou Saved!\nTOTAL DISCOUNTS 1 2.99\n\nCard XXXXXXXXXXXX4824\n\nHave a Healthy Day Bella!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 0\nTotal Points earned today: 175\nNew points balance: 175\n***********************************\n99040600284091021422\n***********************************\nCashier: Dina Store: 406\nPOS:002 Transaction:8409\nSunday, April 12, 2026 02:22 PM\n\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\n\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 10120.94495800001,
+        "totalUsd": 0.019893,
+        "inputTokens": 3692,
+        "outputTokens": 1595,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "37.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:22 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95131",
+          "status": "match"
+        },
+        "city": {
+          "value": "SAN JOSE",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1028 BROKAW RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6919",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "COCONUT WATER-LEMONY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COCONUT WATER-STILL",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*CRV FS 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOCOLATE MILK GLS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*BOTTLE DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FOUR HERB BUTTER",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GARLIC BUTTER",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG PLAIN YOGURT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GELATO BOMBS + BOGO COCONUT WATER",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 6,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n1028 BROKAW RD.\nSAN JOSE, CA 95131\n(408)490-3041\nStore Hours MON-SUN 7AM-10PM\n04/12/2026 14:23:27\nVISA CREDIT Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX6919\nPURCHASE - APPROVED\nAUTH CODE:46788D\nMode: Issuer\nAID: A0000000031010\nTVR: 0000000000\nIAD: 1F420132A0000000001003027300000\n00040000000000000000000000000000\nTSI: 0000\nTC: ARC: 00\nMID: 320571 F2B1A3F20C39647F\nTID: 001 RRN: 029989\nTotal: USD$ 37.54\nGROCERY\nCOCONUT WATER-LEMONY 2.99 F\n*CRV FS 05 0.05\nCOCONUT WATER-STILL 2.99 F\n*CRV FS 05 0.05\nDAIRY\nCHOCOLATE MILK GLS 4.49 F\n*BOTTLE DEPOSIT 3.00\nFOUR HERB BUTTER 5.99 F\nGARLIC BUTTER 5.99 F\nORG PLAIN YOGURT 5.99 F\nFROZEN\nGELATO BOMBS 8.99 F\nBOGO COCONUT WATER -2.99\nBALANCE DUE 37.54\nCREDIT $37.54\n[ ] XXXXXXXXXXXX6919\nAuth# 46788D Ref# 029989\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 1 2.99\nCard XXXXXXXXXXXX4824\nHave a Healthy Day Bella!\n***********************************\nSprouts Rewards\nPrevious Points Balance: 0\nTotal Points earned today: 175\nNew points balance: 175\n***********************************\n99040600284091021422\n***********************************\nCashier:Dina Store: 406\nPOS:002 Transaction:8409\nSunday, April 12, 2026 02:22 PM\nSave money, save paper -\nsign up to receive our weekly ad\nby email at Sprouts.com\nPlease keep your original receipt, the\ntype of credit given is determined by\nthe method of payment used.\nID is required for returns without a\nreceipt. Limits apply to returns\nwithout a receipt",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "COCONUT WATER-LEMONY",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "CRV FS 05",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "COCONUT WATER-STILL",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "CRV FS 05",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "CHOCOLATE MILK GLS",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "BOTTLE DEPOSIT",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "FOUR HERB BUTTER",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "GARLIC BUTTER",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "ORG PLAIN YOGURT",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "GELATO BOMBS",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

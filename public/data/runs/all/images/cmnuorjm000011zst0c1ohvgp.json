@@ -1,0 +1,243 @@
+{
+  "id": "cmnuorjm000011zst0c1ohvgp",
+  "url": null,
+  "retailer": "QuickChek",
+  "brand": "Proper Wild",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "QuickChek",
+    "totalCost": "4.25",
+    "purchaseDate": "2026-04-11",
+    "time": null,
+    "zipCode": "07424",
+    "city": "Little Falls",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5677.348707000012,
+        "totalUsd": 0.014865,
+        "inputTokens": 6142,
+        "outputTokens": 628,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "QuickChek",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:40:06 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Little Falls",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "69 East Main Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9607",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1PROPER WILD BLK BERY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "QuickChek #028\n69 East Main Street\nLittle Falls, NJ\nReceipt 1848855\n\nQty Name Total\n1PROPER WILD BLK BERY 3.99\nSubTotal 3.99\nNJ Full Tax Rate 0.26\nTotal 4.25\nReceived\nVisa 4.25\n\nACC XXXXXXXXXXXX9607 INSERT\nApproved APP 02483D\n\nREF 001838\nBATCH 31 SEQ 41\nApproved On 04/11/2026 14:40:03\n-\n----------------------------------------\nApproved\nSale\n\nVisa\nCard Num : XXXXXXXXXXXX9607\nChip Read\nTerminal : XXXXXXXXXX1001\nApproval : 02483D\nSequence : 001838\n\nUSD$ 4.25\n\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\nTVR: 8000008000\n\nCustomer:\nCashier Name: Justin\n04/11/2026 2:40:06 PM Pos:1\nQuestions or comments call 973-256-9757",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7062.953874999992,
+        "totalUsd": 0.017937,
+        "inputTokens": 3720,
+        "outputTokens": 619,
+        "reasoningTokens": 754
+      },
+      "fields": {
+        "storeName": {
+          "value": "QuickChek",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:40:06 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Little Falls",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "69 East Main Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9607",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PROPER WILD BLK BERY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "QuickChek #028\n69 East Main Street\nLittle Falls, NJ\nReceipt 1848855\n\nQty Name Total\n1PROPER WILD BLK BERY 3.99\nSubTotal 3.99\nNJ Full Tax Rate 0.26\nTotal 4.25\nReceived\nVisa 4.25\n\nACC XXXXXXXXXXXX9607 INSERT\nApproved APP 02483D\nREF 001838\nBATCH 31 SEQ 41\nApproved On 04/11/2026 14:40:03\n-\n----------------------------------------\nApproved\nSale\n\nVisa\nCard Num : XXXXXXXXXXXX9607\nChip Read\nTerminal : XXXXXXXXXX1001\nApproval : 02483D\nSequence : 001838\n\nUSD$ 4.25\n\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\nTVR: 8000008000\n\nCustomer:\nCashier Name: Justin\n04/11/2026 2:40:06 PM Pos:1\nQuestions or comments call 973-256-9757",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4145.094958000001,
+        "totalUsd": 0.010998,
+        "inputTokens": 3720,
+        "outputTokens": 602,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "QuickChek",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-11",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:40:06 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Little Falls",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "69 East Main Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9607",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PROPER WILD BLK BERY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "QuickChek #028\n69 East Main Street\nLittle Falls, NJ\nReceipt 1848855\nQty Name Total\n1PROPER WILD BLK BERY 3.99\nSubTotal 3.99\nNJ Full Tax Rate 0.26\nTotal 4.25\nReceived\nVisa 4.25\nACC XXXXXXXXXXXX9607 INSERT\nApproved APP 02483D\nREF 001838\nBATCH 31 SEQ 41\nApproved On 04/11/2026 14:40:03\n-\nApproved\nSale\nVisa\nCard Num : XXXXXXXXXXXX9607\nChip Read\nTerminal : XXXXXXXXXX1001\nApproval : 02483D\nSequence : 001838\nUSD$ 4.25\nVISA CREDIT\nMode: Issuer\nAID: A0000000031010\nTVR: 8000008000\nCustomer:\nCashier Name: Justin\n04/11/2026 2:40:06 PM Pos:1\nQuestions or comments call 973-256-9757",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PROPER WILD BLK BERY",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

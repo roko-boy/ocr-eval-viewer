@@ -1,0 +1,426 @@
+{
+  "id": "cmn83w02g002nhg9lpfuhea30",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Dropps",
+  "amount": 22.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "65.31",
+    "purchaseDate": "2026-03-26",
+    "time": null,
+    "zipCode": "95123",
+    "city": "San Jose",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8809.651667999999,
+        "totalUsd": 0.0218985,
+        "inputTokens": 6163,
+        "outputTokens": 1406,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "65.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95123-3696",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5630 Cottle Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9854",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "790017459 PROMO GFTCRD + 041-816-642-438-535 + New Bal: $15.00 + Cannot be returned*",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "055080901 STARBURST",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "055084003 LINDT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "245054034 TUMS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003080050 Dropps + Regular Price $22.49 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 22.49,
+          "totalSpend": 22.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003082165 Dropps + Regular Price $22.49 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 22.49,
+          "totalSpend": 22.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003063224 Palmolive + Regular Price $2.79 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003060070 Palmolive + Regular Price $2.79 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "San Jose South - 408-600-3721\n5630 Cottle Rd\nSan Jose, California 95123-3696\n03/26/2026 04:09 PM\n\nELECTRONICS\n790017459 PROMO GFTCRD          N      $0.00\n          041-816-642-438-535\n          New Bal: $15.00\n          Cannot be returned*\nGROCERY\n055080901 STARBURST             NF     $2.49\n055084003 LINDT                 NF     $5.99\nHEALTH AND BEAUTY\n245054034 TUMS                  T+     $2.69\nLAUNDRY CLEANING AND CLOSET\n003080050 Dropps                T     $22.49\n          Regular Price $22.49\n          $15 GC Circle\n003082165 Dropps                T     $22.49\n          Regular Price $22.49\n          $15 GC Circle\n003063224 Palmolive              T      $2.79\n          Regular Price $2.79\n          $15 GC Circle\n003060070 Palmolive              T      $2.79\n          Regular Price $2.79\n          $15 GC Circle\n\n                     SUBTOTAL         $61.73\n       T = CA TAX 9.37500 on $38.20    $3.58\n                        TOTAL         $65.31\n            Reusable Bag Discount      $0.05\n            *5928 GIFT CARD PAYMENT   $10.00\n            *3484 GIFT CARD PAYMENT    $3.00\n            *9854 MASTERCARD CHARGE   $52.26\n                     AID: A0000000042203\n                                    US Debit\n                    AUTH CODE:        2IBH09\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\n*Not redeemable for cash\nexcept where required by law",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20547.403375,
+        "totalUsd": 0.043491,
+        "inputTokens": 3692,
+        "outputTokens": 1355,
+        "reasoningTokens": 2862
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "65.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95123-3696",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5630 Cottle Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9854",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "790017459 PROMO GFTCRD + 041-816-642-438-535 + New Bal: $15.00 + Cannot be returned*",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "055080901 STARBURST",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "055084003 LINDT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "245054034 TUMS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003080050 Dropps + Regular Price $22.49 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 22.49,
+          "totalSpend": 22.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003082165 Dropps + Regular Price $22.49 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 22.49,
+          "totalSpend": 22.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003063224 Palmolive + Regular Price $2.79 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003060070 Palmolive + Regular Price $2.79 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "San Jose South - 408-600-3721\n5630 Cottle Rd\nSan Jose, California 95123-3696\n03/26/2026 04:09 PM\n\nELECTRONICS\n790017459 PROMO GFTCRD N $0.00\n041-816-642-438-535\nNew Bal: $15.00\nCannot be returned*\nGROCERY\n055080901 STARBURST NF $2.49\n055084003 LINDT NF $5.99\nHEALTH AND BEAUTY\n245054034 TUMS T+ $2.69\nLAUNDRY CLEANING AND CLOSET\n003080050 Dropps T $22.49\nRegular Price $22.49\n$15 GC Circle\n003082165 Dropps T $22.49\nRegular Price $22.49\n$15 GC Circle\n003063224 Palmolive T $2.79\nRegular Price $2.79\n$15 GC Circle\n003060070 Palmolive T $2.79\nRegular Price $2.79\n$15 GC Circle\n\nSUBTOTAL $61.73\nT = CA TAX 9.37500% on $38.20 $3.58\nTOTAL $65.31\nReusable Bag Discount $0.05\n*5928 GIFT CARD PAYMENT $10.00\n*3484 GIFT CARD PAYMENT $3.00\n*9854 MASTERCARD CHARGE $52.26\nAID: A0000000042203\nUS Debit\nAUTH CODE: 2IBH09\n\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n\n*Not redeemable for cash\nexcept where required by law",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7044.979874999999,
+        "totalUsd": 0.017508,
+        "inputTokens": 3692,
+        "outputTokens": 1330,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "65.31",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95123-3696",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "San Jose",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5630 Cottle Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9854",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PROMO GFTCRD + 790017459 + 041-816-642-438-535 + New Bal: $15.00 + Cannot be returned*",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "STARBURST + 055080901",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LINDT + 055084003",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TUMS + 245054034",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Dropps + 003080050 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 22.49,
+          "totalSpend": 22.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Dropps + 003082165 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 22.49,
+          "totalSpend": 22.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Palmolive + 003063224 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Palmolive + 003060070 + $15 GC Circle",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "San Jose South - 408-600-3721\n5630 Cottle Rd\nSan Jose, California 95123-3696\n03/26/2026 04:09 PM\nELECTRONICS\n790017459 PROMO GFTCRD N $0.00\n041-816-642-438-535\nNew Bal: $15.00\nCannot be returned*\nGROCERY\n055080901 STARBURST NF $2.49\n055084003 LINDT NF $5.99\nHEALTH AND BEAUTY\n245054034 TUMS T+ $2.69\nLAUNDRY CLEANING AND CLOSET\n003080050 Dropps T $22.49\nRegular Price $22.49\n$15 GC Circle\n003082165 Dropps T $22.49\nRegular Price $22.49\n$15 GC Circle\n003063224 Palmolive T $2.79\nRegular Price $2.79\n$15 GC Circle\n003060070 Palmolive T $2.79\nRegular Price $2.79\n$15 GC Circle\nSUBTOTAL $61.73\nT = CA TAX 9.37500 on $38.20 $3.58\nTOTAL $65.31\nReusable Bag Discount $0.05\n*5928 GIFT CARD PAYMENT $10.00\n*3484 GIFT CARD PAYMENT $3.00\n*9854 MASTERCARD CHARGE $52.26\nAID: A0000000042203\nUS Debit\nAUTH CODE: 2IBH09\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\n*Not redeemable for cash\nexcept where required by law",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "STARBURST + 055080901",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "LINDT + 055084003 + HEALTH AND BEAUTY",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "TUMS + 245054034 + LAUNDRY CLEANING AND CLOSET",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    },
+    {
+      "text": "Dropps + 003080050 + Regular Price $22.49 + $15 GC Circle",
+      "price": 22.49,
+      "quantity": 1,
+      "totalSpend": 22.49
+    },
+    {
+      "text": "Dropps + 003082165 + Regular Price $22.49 + $15 GC Circle",
+      "price": 22.49,
+      "quantity": 1,
+      "totalSpend": 22.49
+    },
+    {
+      "text": "Palmolive + 003063224 + Regular Price $2.79 + $15 GC Circle",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "Palmolive + 003060070 + Regular Price $2.79 + $15 GC Circle",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

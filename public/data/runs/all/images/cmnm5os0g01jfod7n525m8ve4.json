@@ -1,0 +1,270 @@
+{
+  "id": "cmnm5os0g01jfod7n525m8ve4",
+  "url": null,
+  "retailer": "Fry's Food and Drug Fuel",
+  "brand": "Ruby Jewel ",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fry's Food and Drug Fuel",
+    "totalCost": "9.98",
+    "purchaseDate": "2026-04-05",
+    "time": null,
+    "zipCode": "85087",
+    "city": "NEW RIVER",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8543.86179200001,
+        "totalUsd": 0.015456,
+        "inputTokens": 6086,
+        "outputTokens": 703,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Shell",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:26:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85087",
+          "status": "match"
+        },
+        "city": {
+          "value": "NEW RIVER",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "NEW RIVER RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6924",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ice Cream Sandwiches",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Ice Cream Sandwiches",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Welcome to Shell\n\nSHELL\nNEW RIVER RD\nNEW RIVER, AZ 85087\n57446154700\n\n04/05/2026 12:26:49 PM\nRegister: 2 Trans #: 3004 Op ID: 2\nYour cashier: Ange\n\nIce Cream Sandwiches $4.99 99\nIce Cream Sandwiches $4.99 99\n-----------------------------\nSubtotal = $9.98\nTax = $0.00\n-----------------------------\nTotal = $9.98\nChange Due = $0.00\nCredit $9.98\n-----------------------------\nAMEX CREDIT USD$9.98\nXXXX XXXXXX X6924\nContactless\nAPPROVED\nAUTH # 885463 INV # 826248\n\nMode: Issuer\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: A800\nARC: 00\n\nCustomer Copy\n-----------------------------\nDisp 9-12 Diesel Tax Rate .26c\nDisp 1,2,7,8 Diesel Tax Rate .18c\nThe Carioca Company\nRedeem Your Fry's Fuel Points At Shell!\n\nPlease come again",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11897.12424999999,
+        "totalUsd": 0.026157,
+        "inputTokens": 3692,
+        "outputTokens": 714,
+        "reasoningTokens": 1577
+      },
+      "fields": {
+        "storeName": {
+          "value": "Shell",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:26:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85087",
+          "status": "match"
+        },
+        "city": {
+          "value": "NEW RIVER",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "NEW RIVER RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6924",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ice Cream Sandwiches",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Ice Cream Sandwiches",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Welcome to Shell\n\nSHELL\nNEW RIVER RD\nNEW RIVER, AZ 85087\n57446154700\n\n04/05/2026 12:26:49 PM\nRegister: 2 Trans #: 3004 Op ID: 2\nYour cashier: Ange\n\nIce Cream Sandwiches          $4.99 99\nIce Cream Sandwiches          $4.99 99\n---------------------------------------\n                     Subtotal =   $9.98\n                          Tax =   $0.00\n---------------------------------------\n                        Total =   $9.98\n\n                   Change Due =   $0.00\n\nCredit                            $9.98\n---------------------------------------\nAMEX CREDIT               USD$9.98\nXXXX XXXXXX X6924\nContactless\nAPPROVED\nAUTH # 885463             INV # 826248\n\nMode: Issuer\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: A800\nARC: 00\n\n                 Customer Copy\n---------------------------------------\n\n\n     Disp 9-12 Diesel Tax Rate .26c\n    Disp 1,2,7,8 Diesel Tax Rate .18c\n          The Carioca Company\n  Redeem Your Fry's Fuel Points At Shell!\n\n\n             Please come again",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4560.241624999995,
+        "totalUsd": 0.011748,
+        "inputTokens": 3692,
+        "outputTokens": 690,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Shell",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:26:49 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85087",
+          "status": "match"
+        },
+        "city": {
+          "value": "NEW RIVER",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "NEW RIVER RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6924",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ice Cream Sandwiches",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Ice Cream Sandwiches",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Welcome to Shell\n\nSHELL\nNEW RIVER RD\nNEW RIVER, AZ 85087\n57446154700\n\n04/05/2026 12:26:49 PM\nRegister: 2 Trans #: 3004 Op ID: 2\nYour cashier: Ange\n\nIce Cream Sandwiches $4.99 99\nIce Cream Sandwiches $4.99 99\n\nSubtotal = $9.98\nTax = $0.00\nTotal = $9.98\nChange Due = $0.00\n\nCredit $9.98\n\nAMEX CREDIT USD$9.98\nXXXX XXXXXX X6924\nContactless\nAPPROVED\nAUTH # 885463 INV # 826248\n\nMode: Issuer\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06040103A20102\nTSI: A800\nARC: 00\n\nCustomer Copy\n\nDisp 9-12 Diesel Tax Rate .26c\nDisp 1,2,7,8 Diesel Tax Rate .18c\nThe Carioca Company\nRedeem Your Fry's Fuel Points At Shell!\n\nPlease come again",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Ice Cream Sandwiches",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "Ice Cream Sandwiches",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

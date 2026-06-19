@@ -1,0 +1,999 @@
+{
+  "id": "cmpljfavy00cz4t1htfdyt9ge",
+  "url": null,
+  "retailer": "Food Lion",
+  "brand": "Happy Dad",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Food Lion",
+    "totalCost": "130.46",
+    "purchaseDate": "2026-05-25",
+    "time": null,
+    "zipCode": "29056",
+    "city": "Greeleyville",
+    "state": "SC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18305.441333,
+        "totalUsd": 0.036876,
+        "inputTokens": 6086,
+        "outputTokens": 3083,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Food Lion",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "130.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:08:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Surfside Beach",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1610 Highway 17 S.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0721",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STB ZS CRMR CRML MCC",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI PREB COLA 12Z",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWT BBY RAY GRLC PRM",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DORITOS COOL RNCH PS M + Frito Lay PS Disc + Frito Lay PS Disc",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DORITOS NACHO CHS PS M + Frito Lay PS Disc + Frito Lay PS Disc",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KENS ZSTY ITALN DRS",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THOM PLAIN BGL 6PK M + You saved 0.50",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "THOM PLAIN BGL 6PK M + You saved 0.50",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MCC PP GF LMN PPR SS",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LINDSAY SLCD BL OLV M + 1 @ 2 FOR 4.00 + You saved 0.89",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 1.11,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ARTSEANO SAUS ROLL M + You saved 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 2.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ARTSEANO SAUS ROLL M + You saved 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 2.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BUFFALO WW ASIAN ZIN",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MRTNS SAND ROLL",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HPPY DAD GRAPE 12C",
+          "quantity": 1,
+          "unitPrice": 19.49,
+          "totalSpend": 19.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMFLD ANYTM CUBE HAM",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JVLE BRATS CHEDDAR M + You saved 3.70",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JVLE BRATS CHEDDAR M + You saved 3.70",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHUCK PATTIES M + You saved 1.97",
+          "quantity": 1,
+          "unitPrice": 8.03,
+          "totalSpend": 6.06,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHUCK PATTIES M + You saved 2.01",
+          "quantity": 1,
+          "unitPrice": 8.03,
+          "totalSpend": 6.02,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TOTE SWEET ONIONS + 0.93 lb @ 1.59/lb",
+          "quantity": 1,
+          "unitPrice": 1.48,
+          "totalSpend": 1.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANAS + 5.06 lb @ 0.50/lb",
+          "quantity": 1,
+          "unitPrice": 2.53,
+          "totalSpend": 2.53,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GREEN PEPPERS + 3 @ 1.49",
+          "quantity": 3,
+          "unitPrice": 1.49,
+          "totalSpend": 4.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONSUMER BNCH CSE 2",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRIES 1LB WM + 1 @ 2 FOR 5.00 + You saved 0.99",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 1.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TOI WW GMT MEDLY",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SEEDLESS CUCUMBER WM + You saved 0.30",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SEEDLESS CUCUMBER WM + You saved 0.30",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BLUEBERRIES PINT",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "FOOD LION\nFood Lion #2239 (843) 650-4523\n1610 Highway 17 S. Surfside Beach\nFROZEN/DAIRY\nSTB ZS CRMR CRML MCC 5.49 A *\nGROCERY\nPEPSI PREB COLA 12Z 1.99 A *\nSWT BBY RAY GRLC PRM 3.69 A *\nDORITOS COOL RNCH PS M 5.99 A *\nFrito Lay PS Disc -2.00 A *\nFrito Lay PS Disc -1.00 A *\nDORITOS NACHO CHS PS M 5.99 A *\nFrito Lay PS Disc -2.00 A *\nFrito Lay PS Disc -1.00 A *\nKENS ZSTY ITALN DRS 3.79 A *\nTHOM PLAIN BGL 6PK M 4.99 A *\nYou saved 0.50\nTHOM PLAIN BGL 6PK M 4.99 A *\nYou saved 0.50\nMCC PP GF LMN PPR SS 4.19 A *\nLINDSAY SLCD BL OLV M\n1 @ 2 FOR 4.00 2.00 A *\nYou saved 0.89\nARTSEANO SAUS ROLL M 3.79 A *\nYou saved 1.00\nARTSEANO SAUS ROLL M 3.79 A *\nYou saved 1.00\nBUFFALO WW ASIAN ZIN 3.99 A *\nMRTNS SAND ROLL 4.59 A *\nHPPY DAD GRAPE 12C 19.49 B\nMEAT\nSMFLD ANYTM CUBE HAM 5.99 A *\nJVLE BRATS CHEDDAR M 3.69 A *\nYou saved 3.70\nJVLE BRATS CHEDDAR M 3.69 A *\nYou saved 3.70\nCHUCK PATTIES M 8.03 A *\nYou saved 1.97\nCHUCK PATTIES M 8.03 A *\nYou saved 2.01\nPRODUCE\nTOTE SWEET ONIONS\n0.93 lb @ 1.59/lb 1.48 A *\nBANANAS W\n5.06 lb @ 0.50/lb 2.53 A *\nGREEN PEPPERS W\n3 @ 1.49 4.47 A *\nCONSUMER BNCH CSE 2 5.99 B\nSTRAWBERRIES 1LB WM\n1 @ 2 FOR 5.00 2.50 A *\nYou saved 0.99\nTOI WW GMT MEDLY W 3.79 A *\nSEEDLESS CUCUMBER WM 0.99 A *\nYou saved 0.30\nSEEDLESS CUCUMBER WM 0.99 A *\nYou saved 0.30\nBLUEBERRIES PINT W 3.49 A *\nTax Paid\n0.00 Tx 1 102.94 0.00\n8.00 Tx 2 25.48 2.04\nTOTAL TAX 2.04\n31 BALANCE DUE 130.46\nVISA $130.46\nMID: 160000102551\nRRN: 513086\nSALE\nXXXXXXXXXXXX0721\nVISA Entry Method: Chip\n05/25/2026 14:08:47\nINVOICE: 513086\nUS DEBIT\nAID: A0000000980840\nTVR: 8000088000",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 58416.10858300002,
+        "totalUsd": 0.125067,
+        "inputTokens": 3692,
+        "outputTokens": 3087,
+        "reasoningTokens": 10194
+      },
+      "fields": {
+        "storeName": {
+          "value": "Food Lion",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "130.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:08:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Surfside Beach",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1610 Highway 17 S.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0721",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STB ZS CRMR CRML MCC",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI PREB COLA 12Z",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWT BBY RAY GRLC PRM",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DORITOS COOL RNCH PS M + Frito Lay PS Disc + Frito Lay PS Disc",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DORITOS NACHO CHS PS M + Frito Lay PS Disc + Frito Lay PS Disc",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KENS ZSTY ITALN DRS",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THOM PLAIN BGL 6PK M + You saved 0.50",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "THOM PLAIN BGL 6PK M + You saved 0.50",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MCC PP GF LMN PPR SS",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LINDSAY SLCD BL OLV M + 1 @ 2 FOR 4.00 + You saved 0.89",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ARTSEANO SAUS ROLL M + You saved 1.00",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ARTSEANO SAUS ROLL M + You saved 1.00",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BUFFALO WW ASIAN ZIN",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MRTNS SAND ROLL",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HPPY DAD GRAPE 12C",
+          "quantity": 1,
+          "unitPrice": 19.49,
+          "totalSpend": 19.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMFLD ANYTM CUBE HAM",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JVLE BRATS CHEDDAR M + You saved 3.70",
+          "quantity": 1,
+          "unitPrice": 7.39,
+          "totalSpend": 3.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "JVLE BRATS CHEDDAR M + You saved 3.70",
+          "quantity": 1,
+          "unitPrice": 7.39,
+          "totalSpend": 3.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHUCK PATTIES M + You saved 1.97",
+          "quantity": 1,
+          "unitPrice": 10,
+          "totalSpend": 8.03,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHUCK PATTIES M + You saved 2.01",
+          "quantity": 1,
+          "unitPrice": 10.04,
+          "totalSpend": 8.03,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TOTE SWEET ONIONS + 0.93 lb @ 1.59/lb",
+          "quantity": 1,
+          "unitPrice": 1.48,
+          "totalSpend": 1.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANAS + 5.06 lb @ 0.50/lb",
+          "quantity": 1,
+          "unitPrice": 2.53,
+          "totalSpend": 2.53,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GREEN PEPPERS + 3 @ 1.49",
+          "quantity": 3,
+          "unitPrice": 1.49,
+          "totalSpend": 4.47,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONSUMER BNCH CSE 2",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRIES 1LB WM + 1 @ 2 FOR 5.00 + You saved 0.99",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TOI WW GMT MEDLY W",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SEEDLESS CUCUMBER WM + You saved 0.30",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SEEDLESS CUCUMBER WM + You saved 0.30",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUEBERRIES PINT W",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "FOOD LION\n\nFood Lion #2239 (843) 650-4523\n1610 Highway 17 S. Surfside Beach\n\nFROZEN/DAIRY\nSTB ZS CRMR CRML MCC 5.49 A *\n\nGROCERY\nPEPSI PREB COLA 12Z 1.99 A *\nSWT BBY RAY GRLC PRM 3.69 A *\nDORITOS COOL RNCH PS M 5.99 A *\nFrito Lay PS Disc -2.00 A *\nFrito Lay PS Disc -1.00 A *\nDORITOS NACHO CHS PS M 5.99 A *\nFrito Lay PS Disc -2.00 A *\nFrito Lay PS Disc -1.00 A *\nKENS ZSTY ITALN DRS 3.79 A *\nTHOM PLAIN BGL 6PK M 4.99 A *\nYou saved 0.50\nTHOM PLAIN BGL 6PK M 4.99 A *\nYou saved 0.50\nMCC PP GF LMN PPR SS 4.19 A *\nLINDSAY SLCD BL OLV M\n1 @ 2 FOR 4.00 2.00 A *\nYou saved 0.89\nARTSEANO SAUS ROLL M 3.79 A *\nYou saved 1.00\nARTSEANO SAUS ROLL M 3.79 A *\nYou saved 1.00\nBUFFALO WW ASIAN ZIN 3.99 A *\nMRTNS SAND ROLL 4.59 A *\nHPPY DAD GRAPE 12C 19.49 B\n\nMEAT\nSMFLD ANYTM CUBE HAM 5.99 A *\nJVLE BRATS CHEDDAR M 3.69 A *\nYou saved 3.70\nJVLE BRATS CHEDDAR M 3.69 A *\nYou saved 3.70\nCHUCK PATTIES M 8.03 A *\nYou saved 1.97\nCHUCK PATTIES M 8.03 A *\nYou saved 2.01\n\nPRODUCE\nTOTE SWEET ONIONS\n0.93 lb @ 1.59/lb 1.48 A *\nBANANAS W\n5.06 lb @ 0.50/lb 2.53 A *\nGREEN PEPPERS W\n3 @ 1.49 4.47 A *\nCONSUMER BNCH CSE 2 5.99 B\nSTRAWBERRIES 1LB WM\n1 @ 2 FOR 5.00 2.50 A *\nYou saved 0.99\nTOI WW GMT MEDLY W 3.79 A *\nSEEDLESS CUCUMBER WM 0.99 A *\nYou saved 0.30\nSEEDLESS CUCUMBER WM 0.99 A *\nYou saved 0.30\nBLUEBERRIES PINT W 3.49 A *\n\nTax Paid\n0.00 Tx 1 102.94 0.00\n8.00 Tx 2 25.48 2.04\nTOTAL TAX 2.04\n\n31 BALANCE DUE 130.46\nVISA $130.46\n\nMID: 160000102551\nRRN: 513086\n\nSALE\n\nXXXXXXXXXXXX0721\nVISA Entry Method: Chip\n\n05/25/2026 14:08:47\nINVOICE: 513086\n\nUS DEBIT\nAID: A0000000980840\nTVR: 8000088000",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 13227.259833,
+        "totalUsd": 0.033411,
+        "inputTokens": 3692,
+        "outputTokens": 3097,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Food Lion",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "130.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:08:47",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Surfside Beach",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1610 Highway 17 S.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0721",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STB ZS CRMR CRML MCC",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI PREB COLA 12Z",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWT BBY RAY GRLC PRM",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": 3.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DORITOS COOL RNCH PS M + Frito Lay PS Disc + Frito Lay PS Disc",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DORITOS NACHO CHS PS M + Frito Lay PS Disc + Frito Lay PS Disc",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KENS ZSTY ITALN DRS",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THOM PLAIN BGL 6PK M + You saved 0.50",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "THOM PLAIN BGL 6PK M + You saved 0.50",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MCC PP GF LMN PPR SS",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LINDSAY SLCD BL OLV M + 1 @ 2 FOR 4.00 + You saved 0.89",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 1.11,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ARTSEANO SAUS ROLL M + You saved 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 2.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ARTSEANO SAUS ROLL M + You saved 1.00",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 2.79,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BUFFALO WW ASIAN ZIN",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MRTNS SAND ROLL",
+          "quantity": 1,
+          "unitPrice": 4.59,
+          "totalSpend": 4.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HPPY DAD GRAPE 12C",
+          "quantity": 1,
+          "unitPrice": 19.49,
+          "totalSpend": 19.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMFLD ANYTM CUBE HAM",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JVLE BRATS CHEDDAR M + You saved 3.70",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JVLE BRATS CHEDDAR M + You saved 3.70",
+          "quantity": 1,
+          "unitPrice": 3.69,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHUCK PATTIES M + You saved 1.97",
+          "quantity": 1,
+          "unitPrice": 8.03,
+          "totalSpend": 6.06,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHUCK PATTIES M + You saved 2.01",
+          "quantity": 1,
+          "unitPrice": 8.03,
+          "totalSpend": 6.02,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TOTE SWEET ONIONS + 0.93 lb @ 1.59/lb",
+          "quantity": 1,
+          "unitPrice": 1.48,
+          "totalSpend": 1.48,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BANANAS W + 5.06 lb @ 0.50/lb",
+          "quantity": 1,
+          "unitPrice": 2.53,
+          "totalSpend": 2.53,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GREEN PEPPERS W + 3 @ 1.49",
+          "quantity": 3,
+          "unitPrice": 1.49,
+          "totalSpend": 4.47,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CONSUMER BNCH CSE 2",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRAWBERRIES 1LB WM + 1 @ 2 FOR 5.00 + You saved 0.99",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 1.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TOI WW GMT MEDLY W",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SEEDLESS CUCUMBER WM + You saved 0.30",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SEEDLESS CUCUMBER WM + You saved 0.30",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BLUEBERRIES PINT W",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "FOOD LION\n\nFood Lion #2239 (843) 650-4523\n1610 Highway 17 S. Surfside Beach\n\nFROZEN/DAIRY\nSTB ZS CRMR CRML MCC 5.49 A *\n\nGROCERY\nPEPSI PREB COLA 12Z 1.99 A *\nSWT BBY RAY GRLC PRM 3.69 A *\nDORITOS COOL RNCH PS M 5.99 A *\nFrito Lay PS Disc -2.00 A *\nFrito Lay PS Disc -1.00 A *\nDORITOS NACHO CHS PS M 5.99 A *\nFrito Lay PS Disc -2.00 A *\nFrito Lay PS Disc -1.00 A *\nKENS ZSTY ITALN DRS 3.79 A *\nTHOM PLAIN BGL 6PK M 4.99 A *\nYou saved 0.50\nTHOM PLAIN BGL 6PK M 4.99 A *\nYou saved 0.50\nMCC PP GF LMN PPR SS 4.19 A *\nLINDSAY SLCD BL OLV M\n1 @ 2 FOR 4.00 2.00 A *\nYou saved 0.89\nARTSEANO SAUS ROLL M 3.79 A *\nYou saved 1.00\nARTSEANO SAUS ROLL M 3.79 A *\nYou saved 1.00\nBUFFALO WW ASIAN ZIN 3.99 A *\nMRTNS SAND ROLL 4.59 A *\nHPPY DAD GRAPE 12C 19.49 B\n\nMEAT\nSMFLD ANYTM CUBE HAM 5.99 A *\nJVLE BRATS CHEDDAR M 3.69 A *\nYou saved 3.70\nJVLE BRATS CHEDDAR M 3.69 A *\nYou saved 3.70\nCHUCK PATTIES M 8.03 A *\nYou saved 1.97\nCHUCK PATTIES M 8.03 A *\nYou saved 2.01\n\nPRODUCE\nTOTE SWEET ONIONS\n0.93 lb @ 1.59/lb 1.48 A *\nBANANAS W\n5.06 lb @ 0.50/lb 2.53 A *\nGREEN PEPPERS W\n3 @ 1.49 4.47 A *\nCONSUMER BNCH CSE 2 5.99 B\nSTRAWBERRIES 1LB WM\n1 @ 2 FOR 5.00 2.50 A *\nYou saved 0.99\nTOI WW GMT MEDLY W 3.79 A *\nSEEDLESS CUCUMBER WM 0.99 A *\nYou saved 0.30\nSEEDLESS CUCUMBER WM 0.99 A *\nYou saved 0.30\nBLUEBERRIES PINT W 3.49 A *\n\nTax Paid\n0.00 Tx 1 102.94 0.00\n8.00 Tx 2 25.48 2.04\nTOTAL TAX 2.04\n\n31 BALANCE DUE 130.46\nVISA $130.46\n\nMID: 160000102551\nRRN: 513086\n\nSALE\nXXXXXXXXXXXX0721\nVISA Entry Method: Chip\n\n05/25/2026 14:08:47\nINVOICE: 513086\n\nUS DEBIT\nAID: A0000000980840\nTVR: 8000088000",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "STB ZS CRMR CRML MCC",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "PEPSI PREB COLA 12Z",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "SWT BBY RAY GRLC PRM",
+      "price": 3.69,
+      "quantity": 1,
+      "totalSpend": 3.69
+    },
+    {
+      "text": "DORITOS COOL RNCH PS",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "DORITOS NACHO CHS PS",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "KENS ZSTY ITALN DRS",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "THOM PLAIN BGL 6PK + You saved 0.50",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "THOM PLAIN BGL 6PK + You saved 0.50",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "MCC PP GF LMN PPR",
+      "price": 4.19,
+      "quantity": 1,
+      "totalSpend": 4.19
+    },
+    {
+      "text": "LINDSAY SLCD BL OLV + 1 @ 2 FOR 4.00 2.00 A * + You saved 0.89",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "ARTSEANO SAUS ROLL + You saved 1.00",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "ARTSEANO SAUS ROLL + You saved 1.00",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "BUFFALO WW ASIAN ZIN",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "MRTNS SAND ROLL",
+      "price": 4.59,
+      "quantity": 1,
+      "totalSpend": 4.59
+    },
+    {
+      "text": "HPPY DAD GRAPE 12C",
+      "price": 19.49,
+      "quantity": 1,
+      "totalSpend": 19.49
+    },
+    {
+      "text": "SMFLD ANYTM CUBE HAM",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "JVLE BRATS CHEDDAR + You saved 3.70",
+      "price": 3.69,
+      "quantity": 1,
+      "totalSpend": 3.69
+    },
+    {
+      "text": "JVLE BRATS CHEDDAR + You saved 3.70",
+      "price": 3.69,
+      "quantity": 1,
+      "totalSpend": 3.69
+    },
+    {
+      "text": "CHUCK PATTIES + You saved 1.97",
+      "price": 8.03,
+      "quantity": 1,
+      "totalSpend": 8.03
+    },
+    {
+      "text": "CHUCK PATTIES + You saved 2.01",
+      "price": 8.03,
+      "quantity": 1,
+      "totalSpend": 8.03
+    },
+    {
+      "text": "TOTE SWEET ONIONS + 0.93 lb @ 1.59/lb 1.48 A *",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.48
+    },
+    {
+      "text": "BANANAS + 5.06 lb @ 0.50/lb 2.53 A *",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 2.53
+    },
+    {
+      "text": "GREEN PEPPERS + 3 @ 1.49 4.47 A *",
+      "price": 1.49,
+      "quantity": 3,
+      "totalSpend": 4.47
+    },
+    {
+      "text": "CONSUMER BNCH CSE 2",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "STRAWBERRIES 1LB + 1 @ 2 FOR 5.00 2.50 A * + You saved 0.99",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "TOI WW GMT MEDLY",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "SEEDLESS CUCUMBER + You saved 0.30",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "SEEDLESS CUCUMBER + You saved 0.30",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "BLUEBERRIES PINT",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

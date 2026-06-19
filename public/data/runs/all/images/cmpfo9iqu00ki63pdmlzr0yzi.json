@@ -1,0 +1,278 @@
+{
+  "id": "cmpfo9iqu00ki63pdmlzr0yzi",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "Cirkul",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "33.08",
+    "purchaseDate": "2026-05-20",
+    "time": null,
+    "zipCode": "23111",
+    "city": "Mechanicsville",
+    "state": "VA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6923.061417000019,
+        "totalUsd": 0.015099,
+        "inputTokens": 6118,
+        "outputTokens": 658,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "23111",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "6468 Mechanicsville Tpke",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cirkul® FitSip® Mixed Berry Flavor Cartridge, 1 ct + UPC:0085002137342",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Cirkul® GoSip® Strawberry Watermelon Flavor Cartridge, 1 ct + UPC:0085002137345",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Cirkul® LifeSip® Fruit Punch Flavor Cartridge, 1 ct + UPC:0085002137339",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger\nOrder Type: In Store\nOrder Date: May 20, 2026\nLoyalty Card (last 4): #5302\nKroger\n6468 Mechanicsville Tpke\nMechanicsville, VA 23111 USA\nSavings & Rewards\nTotal Savings: $0.00\nOrder Summary\nOriginal Item Total $32.43\nSales Tax $0.65\nOrder Total: $33.08\nItem Details 7 Items\nCirkul® FitSip® Mixed Berry Flavor Cartridge, 1 ct $3.99\n1.0 x $3.99 ea.\nUPC:0085002137342\nCirkul® GoSip® Strawberry Watermelon Flavor Cartridge, 1 ct $3.99\n1.0 x $3.99 ea.\nUPC:0085002137345\nCirkul® LifeSip® Fruit Punch Flavor Cartridge, 1 ct $3.99\n1.0 x $3.99 ea.\nUPC:0085002137339",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11253.43237500003,
+        "totalUsd": 0.027162,
+        "inputTokens": 3708,
+        "outputTokens": 707,
+        "reasoningTokens": 1693
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "23111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mechanicsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "VA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6468 Mechanicsville Tpke",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cirkul® FitSip® Mixed Berry Flavor Cartridge, 1 ct + UPC:0085002137342",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Cirkul® GoSip® Strawberry Watermelon Flavor Cartridge, 1 ct + UPC:0085002137345",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Cirkul® LifeSip® Fruit Punch Flavor Cartridge, 1 ct + UPC:0085002137339",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger\n\nOrder Type: In Store\nOrder Date: May 20, 2026\nLoyalty Card (last 4): #5302\n\nKroger\n6468 Mechanicsville Tpke\nMechanicsville, VA 23111 USA\n\nSavings & Rewards\nTotal Savings: $0.00\n\nOrder Summary\nOriginal Item Total $32.43\nSales Tax $0.65\nOrder Total: $33.08\n\nItem Details 7 Items\nCirkul® FitSip® Mixed Berry Flavor Cartridge, 1 ct $3.99\n1.0 x $3.99 ea.\nUPC:0085002137342\nCirkul® GoSip® Strawberry Watermelon Flavor Cartridge, 1 ct $3.99\n1.0 x $3.99 ea.\nUPC:0085002137345\nCirkul® LifeSip® Fruit Punch Flavor Cartridge, 1 ct $3.99\n1.0 x $3.99 ea.\nUPC:0085002137339\nComforts™ Clear Sweet Baby Wipes, 72 count...",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4689.902082999994,
+        "totalUsd": 0.011385,
+        "inputTokens": 3708,
+        "outputTokens": 647,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.08",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "23111",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "6468 Mechanicsville Tpke",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Cirkul® FitSip® Mixed Berry Flavor Cartridge, 1 ct + UPC:0085002137342",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Cirkul® GoSip® Strawberry Watermelon Flavor Cartridge, 1 ct + UPC:0085002137345",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Cirkul® LifeSip® Fruit Punch Flavor Cartridge, 1 ct + UPC:0085002137339",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger\nOrder Type: In Store\nOrder Date: May 20, 2026\nLoyalty Card (last 4): #5302\nKroger\n6468 Mechanicsville Tpke\nMechanicsville, VA 23111 USA\nSavings & Rewards\nTotal Savings: $0.00\nOrder Summary\nOriginal Item Total $32.43\nSales Tax $0.65\nOrder Total: $33.08\nItem Details 7 Items\nCirkul® FitSip® Mixed Berry Flavor Cartridge, 1 ct $3.99\n1.0 x $3.99 ea.\nUPC:0085002137342\nCirkul® GoSip® Strawberry Watermelon Flavor Cartridge, 1 ct $3.99\n1.0 x $3.99 ea.\nUPC:0085002137345\nCirkul® LifeSip® Fruit Punch Flavor Cartridge, 1 ct $3.99\n1.0 x $3.99 ea.\nUPC:0085002137339",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 3,
+  "nullCount": 0
+}

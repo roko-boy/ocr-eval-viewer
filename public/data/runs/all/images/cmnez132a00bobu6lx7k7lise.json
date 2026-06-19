@@ -1,0 +1,327 @@
+{
+  "id": "cmnez132a00bobu6lx7k7lise",
+  "url": null,
+  "retailer": "Sprouts",
+  "brand": "rivo protein ice cream",
+  "amount": 9.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Sprouts",
+    "totalCost": "91.11",
+    "purchaseDate": "2026-03-30",
+    "time": null,
+    "zipCode": "20601",
+    "city": "Waldorf",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15828.05445899999,
+        "totalUsd": 0.0334395,
+        "inputTokens": 6183,
+        "outputTokens": 658,
+        "reasoningTokens": 2027
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "91.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Waldorf",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3000 Festival Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Bundle X Joy Vibrant Grain Free Salmon Recipe Dry Dog Food + 4 lb",
+          "quantity": 2,
+          "unitPrice": 22.995,
+          "totalSpend": 39.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Organic Unsweetened Vanilla Pecan Milk + 32 fl oz",
+          "quantity": 3,
+          "unitPrice": 8.6633,
+          "totalSpend": 25.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Rivo Ice Cream Chocolate Bliss Protein Ice Cream + 14 oz",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 19.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\nHi Unison, Thank you for your order at\nSprouts Farmers Market\nPickup Address\n3000 Festival Way,\nWaldorf, MD 20601\n301-597-1105\nPicked up on\n03/30/2026\nOrder Details\nOrder ID: # 19635538855649413\n2 x Bundle X Joy Vibrant Grain Free Salmon\nRecipe Dry Dog Food\n4 lb\n$39.98\n$45.99\n3 x Organic Unsweetened Vanilla Pecan Milk\n32 fl oz\n$25.99\n2 x Rivo Ice Cream Chocolate Bliss Protein\nIce Cream\n14 oz\n$19.98\nItems Subtotal: $85.95\nSales Tax: $5.16\nTotal: $91.11\nYou saved: $5.00\nName: Unison Joshi",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11607.072792,
+        "totalUsd": 0.0267525,
+        "inputTokens": 3699,
+        "outputTokens": 717,
+        "reasoningTokens": 1639
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "91.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "null",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Waldorf",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3000 Festival Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "null",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "null",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Bundle X Joy Vibrant Grain Free Salmon Recipe Dry Dog Food + 4 lb",
+          "quantity": 2,
+          "unitPrice": 22.995,
+          "totalSpend": 39.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Organic Unsweetened Vanilla Pecan Milk + 32 fl oz",
+          "quantity": 3,
+          "unitPrice": 8.66,
+          "totalSpend": 25.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Rivo Ice Cream Chocolate Bliss Protein Ice Cream + 14 oz",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 19.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\nHi Unison, Thank you for your order at\nSprouts Farmers Market\nPickup Address\n3000 Festival Way,\nWaldorf, MD 20601\n301-597-1105\nPicked up on\n03/30/2026\nOrder Details\nOrder ID: # 19635538855649413\n2 x Bundle X Joy Vibrant Grain Free Salmon\nRecipe Dry Dog Food\n4 lb\n$39.98\n$45.99\n3 x Organic Unsweetened Vanilla Pecan Milk\n32 fl oz\n$25.99\n2 x Rivo Ice Cream Chocolate Bliss Protein\nIce Cream\n14 oz\n$19.98\nItems Subtotal: $85.95\nSales Tax: $5.16\nTotal: $91.11\nYou saved: $5.00\nName: Unison Joshi",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4566.848333000002,
+        "totalUsd": 0.0113805,
+        "inputTokens": 3699,
+        "outputTokens": 648,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sprouts Farmers Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "91.11",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-30",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "20601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Waldorf",
+          "status": "match"
+        },
+        "state": {
+          "value": "MD",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3000 Festival Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Bundle X Joy Vibrant Grain Free Salmon Recipe Dry Dog Food + 4 lb",
+          "quantity": 2,
+          "unitPrice": 22.995,
+          "totalSpend": 39.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Organic Unsweetened Vanilla Pecan Milk + 32 fl oz",
+          "quantity": 3,
+          "unitPrice": 8.66,
+          "totalSpend": 25.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Rivo Ice Cream Chocolate Bliss Protein Ice Cream + 14 oz",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "totalSpend": 19.98,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\nHi Unison, Thank you for your order at\nSprouts Farmers Market\nPickup Address\n3000 Festival Way,\nWaldorf, MD 20601\n301-597-1105\nPicked up on\n03/30/2026\nOrder Details\nOrder ID: # 19635538855649413\n2 x Bundle X Joy Vibrant Grain Free Salmon\nRecipe Dry Dog Food\n4 lb\n$39.98\n$45.99\n3 x Organic Unsweetened Vanilla Pecan Milk\n32 fl oz\n$25.99\n2 x Rivo Ice Cream Chocolate Bliss Protein\nIce Cream\n14 oz\n$19.98\nItems Subtotal: $85.95\nSales Tax: $5.16\nTotal: $91.11\nYou saved: $5.00\nName: Unison Joshi",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "2 x Bundle X Joy Vibrant Grain Free Salmon $39.98",
+      "price": 39.98,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Recipe Dry Dog Food $45.99",
+      "price": 45.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "3 x Organic Unsweetened Vanilla Pecan Milk $25.99",
+      "price": 25.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "2 x Rivo Ice Cream Chocolate Bliss Protein $19.98",
+      "price": 19.98,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Items Subtotal  $85.95",
+      "price": 85.95,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Sales Tax  $5.16",
+      "price": 5.16,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Total  $91.11",
+      "price": 91.11,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "You saved  $5.00",
+      "price": 5,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,270 @@
+{
+  "id": "cmpivhikn02ac11aynoy0bukh",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "organicgirl",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "10.99",
+    "purchaseDate": "2026-05-22",
+    "time": null,
+    "zipCode": "94530",
+    "city": "El Cerrito",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9242.114458999946,
+        "totalUsd": 0.01641,
+        "inputTokens": 6086,
+        "outputTokens": 809,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:29",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94530",
+          "status": "match"
+        },
+        "city": {
+          "value": "EL CERRITO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11450 SAN PABLO AVENUE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6188",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "82757520007 + 2@ MINI WATERMELON + Member Savings -5.99",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "89520300128 + ORGANIC GIRL 50 50 + Member Savings -0.99",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 2940 Dir STEVE PETERS\nMain: (510) 233-8400 Rx: (510) 233-840\n11450 SAN PABLO AVENUE\nEL CERRITO CA 94530\n00294009500522605220929\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n82757520007 2@ MINI WATERMELON 11.98 5.99 S\nMember Savings -5.99\n89520300128 ORGANIC GIRL 50 50 5.99 5.00 S\nMember Savings -0.99\nTAX 0.00\n**** BALANCE 10.99\nCredit Purchase 05/22/26 09:29\nCARD # ************6188\nREF: 372929461880 AUTH: 0094611G\nPAYMENT AMOUNT 10.99\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 10.99\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 6.98\nTotal 6.98\nTotal Savings Value 39%",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10480.636,
+        "totalUsd": 0.025734,
+        "inputTokens": 3692,
+        "outputTokens": 817,
+        "reasoningTokens": 1427
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:29",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94530",
+          "status": "match"
+        },
+        "city": {
+          "value": "EL CERRITO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11450 SAN PABLO AVENUE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6188",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "82757520007 + 2@ MINI WATERMELON + Member Savings -5.99",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "89520300128 + ORGANIC GIRL 50 50 + Member Savings -0.99",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 2940 Dir STEVE PETERS\nMain: (510) 233-8400 Rx: (510) 233-840\n11450 SAN PABLO AVENUE\nEL CERRITO CA 94530\n00294009500522605220929\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n82757520007 2@ MINI WATERMELON 11.98 5.99 S\nMember Savings -5.99\n89520300128 ORGANIC GIRL 50 50 5.99 5.00 S\nMember Savings -0.99\nTAX 0.00\n**** BALANCE 10.99\nCredit Purchase 05/22/26 09:29\nCARD # ************6188\nREF: 372929461880 AUTH: 0094611G\nPAYMENT AMOUNT 10.99\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 10.99\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 6.98\nTotal 6.98\nTotal Savings Value 39%",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5038.347666999995,
+        "totalUsd": 0.01299,
+        "inputTokens": 3692,
+        "outputTokens": 828,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:29 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94530",
+          "status": "match"
+        },
+        "city": {
+          "value": "EL CERRITO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "11450 SAN PABLO AVENUE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6188",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MINI WATERMELON + 82757520007 + Member Savings -5.99",
+          "quantity": 2,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORGANIC GIRL 50 50 + 89520300128 + Member Savings -0.99",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY S\nStore 2940 Dir STEVE PETERS\nMain: (510) 233-8400 Rx: (510) 233-840\n11450 SAN PABLO AVENUE\nEL CERRITO CA 94530\n00294009500522605220929\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n82757520007 2@ MINI WATERMELON 11.98 5.99 S\nMember Savings -5.99\n89520300128 ORGANIC GIRL 50 50 5.99 5.00 S\nMember Savings -0.99\nTAX 0.00\n**** BALANCE 10.99\nCredit Purchase 05/22/26 09:29\nCARD # ************6188\nREF: 372929461880 AUTH: 0094611G\nPAYMENT AMOUNT 10.99\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 10.99\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 6.98\nTotal 6.98\nTotal Savings Value 39%",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MINI WATERMELON + 82757520007 + Mambar Savings -5.99",
+      "price": 3,
+      "quantity": 2,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "ORGANIC GIRL 50 50 + 89520300128 + Mamber Savings -0.99",
+      "price": 5,
+      "quantity": 1,
+      "totalSpend": 5
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

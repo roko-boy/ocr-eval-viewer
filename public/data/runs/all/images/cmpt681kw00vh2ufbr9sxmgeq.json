@@ -1,0 +1,243 @@
+{
+  "id": "cmpt681kw00vh2ufbr9sxmgeq",
+  "url": null,
+  "retailer": "Maverik Adventure's First Stop",
+  "brand": "Pepsi Food Service",
+  "amount": 8.19,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Maverik",
+    "totalCost": null,
+    "purchaseDate": "2026-05-30",
+    "time": null,
+    "zipCode": "80014",
+    "city": "Aurora",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15896.98608400003,
+        "totalUsd": 0.015492,
+        "inputTokens": 6086,
+        "outputTokens": 707,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.45",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:34 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80014",
+          "status": "match"
+        },
+        "city": {
+          "value": "Aurora",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2700 S Havana St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7899",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI 20z DIET MAX",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nAurora | #5352\n2700 S Havana St\nAurora, CO 80014\n05-30-2026 08:34 PM Invoice # 535202135494\nPURCHASE\nDESC QTY AMNT\nPEPSI 20z DIET MAX 1 $3.19 A\nSUB-TOTAL $3.19\nSALES TAX 8.0% (A) $0.26\nTOTAL PURCHASES $3.45\nMASTERCARD XXXXXXXXXXXX7899\nContactless\nAmount Tendered $3.45\nPayment Network:03\nAID: A0000000041010\nAUTH # 02522Z\nNo CVM\nMode: Issuer\nMID **2456 TID 001\nSequence # 093361\nIAD 0114A14003020000000400000000000000FF\nTVR 0000008001\nARC Z3\nItems Sold = 1\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n20261502135494000005352\nsel12",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9762.476208000036,
+        "totalUsd": 0.023763,
+        "inputTokens": 3692,
+        "outputTokens": 695,
+        "reasoningTokens": 1330
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.45",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:34 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80014",
+          "status": "match"
+        },
+        "city": {
+          "value": "Aurora",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2700 S Havana St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7899",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI 20z DIET MAX",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nAurora | #5352\n2700 S Havana St\nAurora, CO 80014\n05-30-2026 08:34 PM Invoice # 535202135494\nPURCHASE\nDESC QTY AMNT\nPEPSI 20z DIET MAX 1 $3.19 A\nSUB-TOTAL $3.19\nSALES TAX 8.0% (A) $0.26\nTOTAL PURCHASES $3.45\nMASTERCARD XXXXXXXXXXXX7899\nContactless\nAmount Tendered $3.45\nPayment Network:03\nAID: A0000000041010\nAUTH # 02522Z\nNo CVM\nMode: Issuer\nMID **2456 TID 001\nSequence # 093361\nIAD 0114A140030200000040000000000000FF\nTVR 0000008001\nARC Z3\nItems Sold = 1\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n202615021354940000005352\nsell2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4985.280750000005,
+        "totalUsd": 0.011793,
+        "inputTokens": 3692,
+        "outputTokens": 695,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Maverik",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.45",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-05-30",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:34 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80014",
+          "status": "match"
+        },
+        "city": {
+          "value": "Aurora",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2700 S Havana St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7899",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI 20z DIET MAX",
+          "quantity": 1,
+          "unitPrice": 3.19,
+          "totalSpend": 3.19,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MAVERIK\nADVENTURE'S FIRST STOP\nAurora | #5352\n2700 S Havana St\nAurora, CO 80014\n05-30-2026 08:34 PM Invoice # 535202135494\nPURCHASE\nDESC QTY AMNT\nPEPSI 20z DIET MAX 1 $3.19 A\nSUB-TOTAL $3.19\nSALES TAX 8.0% (A) $0.26\nTOTAL PURCHASES $3.45\nMASTERCARD XXXXXXXXXXXX7899\nContactless\nAmount Tendered $3.45\nPayment Network:03\nAID: A0000000041010\nAUTH # 02522Z\nNo CVM\nMode: Issuer\nMID **2456 TID 001\nSequence # 093361\nIAD 0114A14003020000000400000000000000FF\nTVR 0000008001\nARC Z3\nItems Sold = 1\nThanks for fueling your\nadventure at Maverik\nCustomer Service 1-800-789-4455\n20261502135494000005352\nsell2",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PEPSI 20z DIET WAX",
+      "price": 3.19,
+      "quantity": 1,
+      "totalSpend": 3.19
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

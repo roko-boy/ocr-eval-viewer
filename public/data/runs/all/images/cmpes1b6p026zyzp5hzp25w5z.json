@@ -1,0 +1,324 @@
+{
+  "id": "cmpes1b6p026zyzp5hzp25w5z",
+  "url": null,
+  "retailer": "King Soopers",
+  "brand": "BEAM Be Amazing",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "King Soopers",
+    "totalCost": "13.14",
+    "purchaseDate": "2026-05-20",
+    "time": null,
+    "zipCode": "80904",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7375.683875000017,
+        "totalUsd": 0.017616,
+        "inputTokens": 6086,
+        "outputTokens": 943,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:22pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80904",
+          "status": "match"
+        },
+        "city": {
+          "value": "COLORADO SPRINGS",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1750 W UINTAH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7715",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BE AMZNG PNK LMNDE-$ + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 1.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BE AMZNG PCH MNGO -$ + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 1.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MUSHROOMS WHT",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RDBD CH THGH",
+          "quantity": 1,
+          "unitPrice": 4.26,
+          "totalSpend": 4.26,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KING\nSoopers\nHOMETOWN GROCER. HOMETOWN TEAM\n1750 W UINTAH\n(719) 636-5043 Store\nYour cashier was CHEC 650\nValued Customer *******3681\nBE AMZNG PNK LMNDE-$ 3.00 B\nSC SOOPER SAVINGS 1.49\nBE AMZNG PCH MNGO -$ 3.00 B\nSC SOOPER SAVINGS 1.49\nMUSHROOMS WHT 2.39 F\nRDBD CH THGH 4.26 F\nTAX 0.49\n**** BALANCE 13.14\nCOLORADO SPRINGS CO 80904\nCAPITAL ONE Purchase\n************7715 - C\nREF#: 04715P TOTAL: 13.14\nAID: A0000000041010\nTC: 6D76ECE1B3F26A1B\nMASTERCARD 13.14\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\nSooper Card Coupon Savings $2.98\nTotal Coupon Savings $2.98\nYou Saved 19% Off Your Order Today!\n05/20/26 06:22pm 6 650 234 999999650\n****************************************\nAnnual Card Savings $159.85\n****************************************\n****************************************\nFuel Points Earned Today: 13\nTotal May Fuel Points: 97\n****************************************\nWith Our Low Prices, You Saved\n$2.98\nFresh opportunity awaits\nJoin our team today!\nAPPLY\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19415.31429099999,
+        "totalUsd": 0.04061099999999999,
+        "inputTokens": 3692,
+        "outputTokens": 931,
+        "reasoningTokens": 2966
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:22 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80904",
+          "status": "match"
+        },
+        "city": {
+          "value": "COLORADO SPRINGS",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1750 W UINTAH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7715",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BE AMZNG PNK LMNDE-$ + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BE AMZNG PCH MNGO -$ + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MUSHROOMS WHT",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RDBD CH THGH",
+          "quantity": 1,
+          "unitPrice": 4.26,
+          "totalSpend": 4.26,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KING\nSoopers\nHOMETOWN GROCER. HOMETOWN TEAM\n1750 W UINTAH\n(719) 636-5043 Store\nYour cashier was CHEC 650\nValued Customer *******3681\nBE AMZNG PNK LMNDE-$ 3.00 B\nSC SOOPER SAVINGS 1.49\nBE AMZNG PCH MNGO -$ 3.00 B\nSC SOOPER SAVINGS 1.49\nMUSHROOMS WHT 2.39 F\nRDBD CH THGH 4.26 F\nTAX 0.49\n**** BALANCE 13.14\nCOLORADO SPRINGS CO 80904\nCAPITAL ONE Purchase\n************7715 - C\nREF#: 04715P TOTAL: 13.14\nAID: A0000000041010\nTC: 6D76ECE1B3F26A1B\nMASTERCARD 13.14\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\nSooper Card Coupon Savings $2.98\nTotal Coupon Savings $2.98\nYou Saved 19% Off Your Order Today!\n05/20/26 06:22pm 6 650 234 999999650\n****************************************\nAnnual Card Savings $159.85\n****************************************\nFuel Points Earned Today: 13\nTotal May Fuel Points: 97\n****************************************\nWith Our Low Prices, You Saved\n$2.98\nFresh opportunity awaits\nJoin our team today!\nAPPLY\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5417.871958000003,
+        "totalUsd": 0.014061,
+        "inputTokens": 3692,
+        "outputTokens": 947,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "King Soopers",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:22pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "80904",
+          "status": "match"
+        },
+        "city": {
+          "value": "COLORADO SPRINGS",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1750 W UINTAH",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7715",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BE AMZNG PNK LMNDE-$ + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 1.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BE AMZNG PCH MNGO -$ + SOOPER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 1.51,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MUSHROOMS WHT",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RDBD CH THGH",
+          "quantity": 1,
+          "unitPrice": 4.26,
+          "totalSpend": 4.26,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "KING\nSoopers\nHOMETOWN GROCER. HOMETOWN TEAM\n1750 W UINTAH\n(719) 636-5043 Store\nYour cashier was CHEC 650\nValued Customer *******3681\nBE AMZNG PNK LMNDE-$ 3.00 B\nSC SOOPER SAVINGS 1.49\nBE AMZNG PCH MNGO -$ 3.00 B\nSC SOOPER SAVINGS 1.49\nMUSHROOMS WHT 2.39 F\nRDBD CH THGH 4.26 F\nTAX 0.49\n**** BALANCE 13.14\nCOLORADO SPRINGS CO 80904\nCAPITAL ONE Purchase\n************7715 - C\nREF#: 04715P TOTAL: 13.14\nAID: A0000000041010\nTC: 6D76ECE1B3F26A1B\nMASTERCARD 13.14\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\nSooper Card Coupon Savings $2.98\nTotal Coupon Savings $2.98\nYou Saved 19% Off Your Order Today!\n05/20/26 06:22pm 6 650 234 999999650\n***********************************\nAnnual Card Savings $159.85\n***********************************\n***********************************\nFuel Points Earned Today: 13\nTotal May Fuel Points: 97\n***********************************\nWith Our Low Prices, You Saved\n$2.98\nFresh opportunity awaits\nJoin our team today!\nAPPLY\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BE AMZNG PNK LMNDE + SC SOOPER SAVINGS 1.49",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "BE AMZNG PCH MNGO + SC SOOPER SAVINGS 1.49",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "MUSHROOMS WHT",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "RDBD CH THGH",
+      "price": 4.26,
+      "quantity": 1,
+      "totalSpend": 4.26
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

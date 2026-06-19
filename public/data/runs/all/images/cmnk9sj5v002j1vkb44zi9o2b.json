@@ -1,0 +1,486 @@
+{
+  "id": "cmnk9sj5v002j1vkb44zi9o2b",
+  "url": null,
+  "retailer": "CITGO",
+  "brand": "LesserEvil",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Route 114 Citgo",
+    "totalCost": null,
+    "purchaseDate": "2026-04-04",
+    "time": null,
+    "zipCode": "01970",
+    "city": "Salem",
+    "state": "MA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12266.544667,
+        "totalUsd": 0.021594,
+        "inputTokens": 6086,
+        "outputTokens": 1385,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market Basket",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-04-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "7:20 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01970",
+          "status": "match"
+        },
+        "city": {
+          "value": "Salem",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "227 Highland Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CULTURE + 071481025004 + FRIENDSHIP 1% UNSALTED COTTAGE",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGS + 815652004180 + NELLIE'S FREE RANGE",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FRESH FISH + 206527000000 + FRESH COD LOINS",
+          "quantity": 1,
+          "unitPrice": 28.99,
+          "totalSpend": 28.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 850007042226 + KITU SUPER CREAMER CARAMEL",
+          "quantity": 3,
+          "unitPrice": 2.99,
+          "totalSpend": 8.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "802763029928 + SUNSWT PRUNE DNOIR",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "180999001001 + LESSEREVIL ORIGINAL",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HUMMUS + 044115008216 + CEDAR GARLIC HOMMUS",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MILK + 852909003695 + CALIFIA UNSWEET VANILLA ALMOND",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORGANIC FRUIT + 789707720137 + OLIVIA ORG BABY KALE",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "789707720281 + ORG 10OZ CELERY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n227 Highland Avenue\nSalem, MA 01970\n(978) 741-0986\nStore Director: William Caraballo\nStore: 058\nCashier:\n0580479- Jefferson C 479\n4/04/26\n7:20 AM\nSale\nCULTURE\n071481025004 FRIENDSHIP 1%\n7.98 F\nUNSALTED COTTAGE\n2 @ 3.99\nEGGS\n815652004180 NELLIE'S FREE RANGE\n5.29 F\nFRESH FISH\n206527000000 FRESH COD LOINS\n28.99 F\n1 @ 28.99\nGROCERY\n850007042226 KITU SUPER CREAMER\n8.97 F\nCARAMEL\n3 @ 2.99\n802763029928 SUNSWT PRUNE DNOIR\n4.19 F\n180999001001 LESSEREVIL ORIGINAL\n3.00 F\nHUMMUS\n044115008216 CEDAR GARLIC HOMMUS\n2.50 F\nMILK\n852909003695 CALIFIA UNSWEET\n3.49 F\nVANILLA ALMOND\nORGANIC FRUIT\n789707720137 OLIVIA ORG BABY KALE\n2.50 F\n789707720281 ORG 10OZ CELERY\n3.99 F",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17512.34291699999,
+        "totalUsd": 0.042015,
+        "inputTokens": 3692,
+        "outputTokens": 1315,
+        "reasoningTokens": 2738
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market Basket",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "70.9",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01970",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "227 Highland Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CULTURE + 071481025004 + FRIENDSHIP 1% UNSALTED COTTAGE",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGS + 815652004180 + NELLIE'S FREE RANGE",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FRESH FISH + 2065270000000 + FRESH COD LOINS",
+          "quantity": 1,
+          "unitPrice": 28.99,
+          "totalSpend": 28.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 850007042226 + KITU SUPER CREAMER CARAMEL",
+          "quantity": 3,
+          "unitPrice": 2.99,
+          "totalSpend": 8.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "802763029928 + SUNSWT PRUNE DNOIR",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "180999001001 + LESSEREVIL ORIGINAL",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HUMMUS + 044115008216 + CEDAR GARLIC HOMMUS",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MILK + 852909003695 + CALIFIA UNSWEET VANILLA ALMOND",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORGANIC FRUIT + 789707720137 + OLIVIA ORG BABY KALE",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "789707720281 + ORG 100Z CELERY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n227 Highland Avenue\nSalem, MA 01970\n(978) 741-0986\nStore Director: William Caraballo\nStore: 058\nCashier:\n0580479- Jefferson C 479\n4/04/26\n7:20 AM\nSale\nCULTURE\n071481025004 FRIENDSHIP 1%\n7.98 F\nUNSALTED COTTAGE\n2 @ 3.99\nEGGS\n815652004180 NELLIE'S FREE RANGE\n5.29 F\nFRESH FISH\n2065270000000 FRESH COD LOINS\n28.99 F\n1 @ 28.99\nGROCERY\n850007042226 KITU SUPER CREAMER\n8.97 F\nCARAMEL\n3 @ 2.99\n802763029928 SUNSWT PRUNE DNOIR\n4.19 F\n180999001001 LESSEREVIL ORIGINAL\n3.00 F\nHUMMUS\n044115008216 CEDAR GARLIC HOMMUS\n2.50 F\nMILK\n852909003695 CALIFIA UNSWEET\n3.49 F\nVANILLA ALMOND\nORGANIC FRUIT\n789707720137 OLIVIA ORG BABY KALE\n2.50 F\n789707720281 ORG 100Z CELERY\n3.99 F\nHEARTS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9481.846582999999,
+        "totalUsd": 0.022386,
+        "inputTokens": 3692,
+        "outputTokens": 1872,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market Basket",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "70.9",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01970227 Highland Avenue\nSalem, MA 01970\n(978) 741-0986\nStore Director: William Caraballo\nStore: 058\nCashier:\n0580479- Jefferson C 479\n4/04/26\n7:20 AM\nSale\nCULTURE\n071481025004 FRIENDSHIP 1%\n7.98 F\nUNSALTED COTTAGE\n2 @ 3.99\nEGGS\n815652004180 NELLIE'S FREE RANGE\n5.29 F\nFRESH FISH\n2065270000000 FRESH COD LOINS\n28.99 F\n1 @ 28.99\nGROCERY\n850007042226 KITU SUPER CREAMER\n8.97 F\nCARAMEL\n3 @ 2.99\n802763029928 SUNSWT PRUNE DNOIR\n4.19 F\n180999001001 LESSEREVIL ORIGINAL\n3.00 F\nHUMMUS\n044115008216 CEDAR GARLIC HOMMUS\n2.50 F\nMILK\n852909003695 CALIFIA UNSWEET\n3.49 F\nVANILLA ALMOND\nORGANIC FRUIT\n789707720137 OLIVIA ORG BABY KALE\n2.50 F\n789707720281 ORG 10OZ CELERY\n3.99 F\nHEARTS\n1 @ 3.99\nSUBTOTAL\n70.90\nTOTAL\n70.90\nDEBIT\n70.90\nACCOUNT NUMBER\n************1234\nAUTH CODE\n123456\nAPPROVED\nTHANK YOU FOR SHOPPING\nMARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n0580479 058 479 4/04/26 7:20 AM\n",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "227 Highland Avenue",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CULTURE + 071481025004 + FRIENDSHIP 1% UNSALTED COTTAGE",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "EGGS + 815652004180 + NELLIE'S FREE RANGE",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FRESH FISH + 2065270000000 + FRESH COD LOINS",
+          "quantity": 1,
+          "unitPrice": 28.99,
+          "totalSpend": 28.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + 850007042226 + KITU SUPER CREAMER CARAMEL",
+          "quantity": 3,
+          "unitPrice": 2.99,
+          "totalSpend": 8.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "802763029928 + SUNSWT PRUNE DNOIR",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "180999001001 + LESSEREVIL ORIGINAL",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HUMMUS + 044115008216 + CEDAR GARLIC HOMMUS",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MILK + 852909003695 + CALIFIA UNSWEET VANILLA ALMOND",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ORGANIC FRUIT + 789707720137 + OLIVIA ORG BABY KALE",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "789707720281 + ORG 10OZ CELERY HEARTS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n227 Highland Avenue\nSalem, MA 01970\n(978) 741-0986\nStore Director: William Caraballo\nStore: 058\nCashier:\n0580479- Jefferson C 479\n4/04/26\n7:20 AM\nSale\nCULTURE\n071481025004 FRIENDSHIP 1%\n7.98 F\nUNSALTED COTTAGE\n2 @ 3.99\nEGGS\n815652004180 NELLIE'S FREE RANGE\n5.29 F\nFRESH FISH\n2065270000000 FRESH COD LOINS\n28.99 F\n1 @ 28.99\nGROCERY\n850007042226 KITU SUPER CREAMER\n8.97 F\nCARAMEL\n3 @ 2.99\n802763029928 SUNSWT PRUNE DNOIR\n4.19 F\n180999001001 LESSEREVIL ORIGINAL\n3.00 F\nHUMMUS\n044115008216 CEDAR GARLIC HOMMUS\n2.50 F\nMILK\n852909003695 CALIFIA UNSWEET\n3.49 F\nVANILLA ALMOND\nORGANIC FRUIT\n789707720137 OLIVIA ORG BABY KALE\n2.50 F\n789707720281 ORG 10OZ CELERY\n3.99 F",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FRIENDSHIP 1% + 071481025004 + UNSALTED COTTAGE + 2 @ 3.99 + EGGS",
+      "price": 3.99,
+      "quantity": 2,
+      "totalSpend": 7.98
+    },
+    {
+      "text": "NELLIE'S FREE RANGE + 815652004180 + FRESH FISH",
+      "price": 5.29,
+      "quantity": 1,
+      "totalSpend": 5.29
+    },
+    {
+      "text": "FRESH COD LOINS + 2065270000000 + GROCERY 1 @ 28.99",
+      "price": 28.99,
+      "quantity": 1,
+      "totalSpend": 28.99
+    },
+    {
+      "text": "KITU SUPER CREAMER + 850007042226 + CARAMEL + 3 @ 2.99",
+      "price": 2.99,
+      "quantity": 3,
+      "totalSpend": 8.97
+    },
+    {
+      "text": "SUNSWT PRUNE DNOIR + 802763029928",
+      "price": 4.19,
+      "quantity": 1,
+      "totalSpend": 4.19
+    },
+    {
+      "text": "LESSEREVIL ORIGINAL + 180999001001 + HUMMUS",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    },
+    {
+      "text": "CEDAR GARLIC HOMMUS + 044115008216 + MILK",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "CALIFIA UNSWEET + 852909003695 + VANILLA ALMOND + ORGANIC FRUIT",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "OLIVIA ORG BABY KALE + 789707720137",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "ORG 10OZ CELERY + 789707720281",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 4,
+  "nullCount": 0
+}

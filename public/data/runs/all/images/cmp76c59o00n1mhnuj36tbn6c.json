@@ -1,0 +1,527 @@
+{
+  "id": "cmp76c59o00n1mhnuj36tbn6c",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Three Spirit ",
+  "amount": 7,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "132.74",
+    "purchaseDate": "2026-05-15",
+    "time": null,
+    "zipCode": "02090",
+    "city": "Westwood",
+    "state": "MA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 22348.22820799996,
+        "totalUsd": 0.021594,
+        "inputTokens": 6086,
+        "outputTokens": 1385,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "132.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:13 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "02090",
+          "status": "match"
+        },
+        "city": {
+          "value": "WESTWOOD",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "169 UNIVERSITY AVENUE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3450",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "QUEEN ST CHIA LOAF",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CV REMEDY MX BERRY",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POP DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.2,
+          "totalSpend": 0.2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REMEDY GNGLRMN KMB",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "POP DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.2,
+          "totalSpend": 0.2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RECESS GRAPEFRT TG",
+          "quantity": 8,
+          "unitPrice": 2.99,
+          "totalSpend": 23.92,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 8,
+          "unitPrice": 0.05,
+          "totalSpend": 0.4,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RECESS WATER STRAW",
+          "quantity": 8,
+          "unitPrice": 1,
+          "totalSpend": 4,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WALKERS COOKIES GF",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCHAR LADYFINGERS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THREE SPIRIT NIGHT",
+          "quantity": 2,
+          "unitPrice": 36.99,
+          "totalSpend": 73.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.05,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n169 UNIVERSITY AVENUE\nWESTWOOD, MA 02090\n(781) 234-0300\n05/15/26 OP# 455391\nQUEEN ST CHIA LOAF 7.99 F\nCV REMEDY MX BERRY 6.99 F\nDP POP DEPOSIT 0.20 F\nREMEDY GNGLRMN KMB 6.99 F\nDP POP DEPOSIT 0.20 F\n8 @ 2.99\nSC RECESS GRAPEFRT TG 23.92 F\n8 @ 0.05\nDP CONTAINER DEPOSIT 0.40 F\n8 @ 0.50\nSC 21666 RECESS WATER STRAW 4.00-F\n2 @ 4.99\nWALKERS COOKIES GF 9.98 F\nSCHAR LADYFINGERS 5.99 F\n2 @ 36.99\nTHREE SPIRIT NIGHT 73.98 -\n2 @ 0.05\nDP CONTAINER DEPOSIT 0.10\nTAX 0.00\n**** BALANCE 132.74\nMASTERCARD PURCHASE\nCARD NUMBER: ************3450 H\nMastercard 07\nAUTH: 90485P RCPT: 19498\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 132.74\nCHANGE 0.00\n---------- SAVINGS SUMMARY ----------\nSHOPPERS CLUB SAVINGS $ 4.00\nTOTAL $ 4.00\n-------------------------------------\n05/15/26 09:13am 57 19 25 455391",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 23389.20558299997,
+        "totalUsd": 0.05308499999999999,
+        "inputTokens": 3692,
+        "outputTokens": 1345,
+        "reasoningTokens": 3938
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "132.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:13 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "02090",
+          "status": "match"
+        },
+        "city": {
+          "value": "WESTWOOD",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "169 UNIVERSITY AVENUE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3450",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "QUEEN ST CHIA LOAF",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CV REMEDY MX BERRY",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP POP DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.2,
+          "totalSpend": 0.2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REMEDY GNGRLMN KMB",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP POP DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.2,
+          "totalSpend": 0.2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SC RECESS GRAPEFRT TG + SC 21666 RECESS WATER STRAW",
+          "quantity": 8,
+          "unitPrice": 2.99,
+          "totalSpend": 19.92,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DP CONTAINER DEPOSIT",
+          "quantity": 8,
+          "unitPrice": 0.05,
+          "totalSpend": 0.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WALKERS COOKIES GF",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCHAR LADYFINGERS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THREE SPIRIT NIGHT",
+          "quantity": 2,
+          "unitPrice": 36.99,
+          "totalSpend": 73.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP CONTAINER DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.05,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n169 UNIVERSITY AVENUE\nWESTWOOD, MA 02090\n(781) 234-0300\n05/15/26 OP# 455391\nQUEEN ST CHIA LOAF 7.99 F\nCV REMEDY MX BERRY 6.99 F\nDP POP DEPOSIT 0.20 F\nREMEDY GNGRLMN KMB 6.99 F\nDP POP DEPOSIT 0.20 F\n8 @ 2.99\nSC RECESS GRAPEFRT TG 23.92 F\n8 @ 0.05\nDP CONTAINER DEPOSIT 0.40 F\n8 @ 0.50\nSC 21666 RECESS WATER STRAW 4.00-F\n2 @ 4.99\nWALKERS COOKIES GF 9.98 F\nSCHAR LADYFINGERS 5.99 F\n2 @ 36.99\nTHREE SPIRIT NIGHT 73.98 —\n2 @ 0.05\nDP CONTAINER DEPOSIT 0.10\nTAX 0.00\n**** BALANCE 132.74\nMASTERCARD PURCHASE\nCARD NUMBER: ************3450 H\nMastercard 07\nAUTH: 90485P RCPT: 19498\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 132.74\nCHANGE 0.00\n--------- SAVINGS SUMMARY ---------\nSHOPPERS CLUB SAVINGS $ 4.00\nTOTAL $ 4.00\n-----------------------------------\n05/15/26 09:13am 57 19 25 455391",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9673.39520899998,
+        "totalUsd": 0.017985,
+        "inputTokens": 3692,
+        "outputTokens": 1383,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "132.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "09:13 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "02090",
+          "status": "match"
+        },
+        "city": {
+          "value": "WESTWOOD",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "169 UNIVERSITY AVENUE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3450",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "QUEEN ST CHIA LOAF",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CV REMEDY MX BERRY",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP POP DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.2,
+          "totalSpend": 0.2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REMEDY GNGRLMN KMB",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP POP DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.2,
+          "totalSpend": 0.2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SC RECESS GRAPEFRT TG",
+          "quantity": 8,
+          "unitPrice": 2.99,
+          "totalSpend": 23.92,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DP CONTAINER DEPOSIT",
+          "quantity": 8,
+          "unitPrice": 0.05,
+          "totalSpend": 0.4,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SC 21666 RECESS WATER STRAW",
+          "quantity": 8,
+          "unitPrice": 0.5,
+          "totalSpend": -4,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WALKERS COOKIES GF",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalSpend": 9.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCHAR LADYFINGERS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THREE SPIRIT NIGHT",
+          "quantity": 2,
+          "unitPrice": 36.99,
+          "totalSpend": 73.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DP CONTAINER DEPOSIT",
+          "quantity": 2,
+          "unitPrice": 0.05,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n169 UNIVERSITY AVENUE\nWESTWOOD, MA 02090\n(781) 234-0300\n05/15/26 OP# 455391\nQUEEN ST CHIA LOAF 7.99 F\nCV REMEDY MX BERRY 6.99 F\nDP POP DEPOSIT 0.20 F\nREMEDY GNGRLMN KMB 6.99 F\nDP POP DEPOSIT 0.20 F\n8 @ 2.99\nSC RECESS GRAPEFRT TG 23.92 F\n8 @ 0.05\nDP CONTAINER DEPOSIT 0.40 F\n8 @ 0.50\nSC 21666 RECESS WATER STRAW 4.00-F\n2 @ 4.99\nWALKERS COOKIES GF 9.98 F\nSCHAR LADYFINGERS 5.99 F\n2 @ 36.99\nTHREE SPIRIT NIGHT 73.98 -\n2 @ 0.05\nDP CONTAINER DEPOSIT 0.10\nTAX 0.00\n**** BALANCE 132.74\nMASTERCARD PURCHASE\nCARD NUMBER: ************3450 H\nMastercard 07\nAUTH: 90485P RCPT: 19498\nCODE: 0000 Approved\nAID: A0000000041010\nCREDIT CARD 132.74\nCHANGE 0.00\n--------- SAVINGS SUMMARY ---------\nSHOPPERS CLUB SAVINGS $ 4.00\nTOTAL $ 4.00\n-----------------------------------\n05/15/26 09:13am 57 19 25 455391",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "QUEEN ST CHIA LOAF",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "CV REMEDY MX BERRY",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "POP DEPOSIT",
+      "price": 0.2,
+      "quantity": 1,
+      "totalSpend": 0.2
+    },
+    {
+      "text": "REMEDY GNGRLMN KMB",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "POP DEPOSIT + 8 @ 2.99",
+      "price": 0.2,
+      "quantity": 1,
+      "totalSpend": 0.2
+    },
+    {
+      "text": "RECESS GRAPEFRT TG + 8 @ 2.99 + 8 @ 0.05",
+      "price": 2.99,
+      "quantity": 8,
+      "totalSpend": 23.92
+    },
+    {
+      "text": "CONTAINER DEPOSIT + 8 @ 0.05 + 8 @ 0.50",
+      "price": 0.05,
+      "quantity": 8,
+      "totalSpend": 0.4
+    },
+    {
+      "text": "WALKERS COOKIES GF + 2 @ 4.99",
+      "price": 4.99,
+      "quantity": 2,
+      "totalSpend": 9.98
+    },
+    {
+      "text": "SCHAR LADYFINGERS + 2 @ 36.99",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "THREE SPIRIT NIGHT + 2 @ 36.99 + 2 @ 0.05",
+      "price": 36.99,
+      "quantity": 2,
+      "totalSpend": 73.98
+    },
+    {
+      "text": "CONTAINER DEPOSIT + 2 @ 0.05",
+      "price": 0.05,
+      "quantity": 2,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

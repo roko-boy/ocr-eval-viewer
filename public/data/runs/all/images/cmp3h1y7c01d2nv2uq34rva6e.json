@@ -1,0 +1,243 @@
+{
+  "id": "cmp3h1y7c01d2nv2uq34rva6e",
+  "url": null,
+  "retailer": "Gelson's La Canada Flintridge",
+  "brand": "Jubilee's",
+  "amount": 3.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Gelson's",
+    "totalCost": "3.29",
+    "purchaseDate": "2026-05-12",
+    "time": null,
+    "zipCode": "91011",
+    "city": "La Cañada Flintridge",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 23847.67908300001,
+        "totalUsd": 0.01332,
+        "inputTokens": 6114,
+        "outputTokens": 461,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Gelson's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91011",
+          "status": "match"
+        },
+        "city": {
+          "value": "LA CANADA",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "635 FOOTHILL BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 00086001231194 + JUBILEE'S MILK",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Gelson's\n635 FOOTHILL BLVD\nLA CANADA, CA 91011\n(818) 790-0563\n\n05/12/2026\nTotal:\nUSD$ 3.29\n\nGROCERY\n00086001231194\nJUBILEE'S MILK\n3.29 F\n\nBALANCE DUE\n3.29\nCREDIT CARD\n$3.29\nCHANGE\n0.00\n\n**************************************************\nSave up to $25 more a month!\nJoin Gelson's Rewards program\ngelsons.com/rewards\n**************************************************\n\nTuesday, May 12, 2026",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9960.864042000001,
+        "totalUsd": 0.0222,
+        "inputTokens": 3706,
+        "outputTokens": 480,
+        "reasoningTokens": 1369
+      },
+      "fields": {
+        "storeName": {
+          "value": "Gelson's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91011",
+          "status": "match"
+        },
+        "city": {
+          "value": "LA CANADA",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "635 FOOTHILL BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JUBILEE'S MILK + 00086001231194",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Gelson's\n635 FOOTHILL BLVD\nLA CANADA, CA 91011\n(818) 790-0563\n05/12/2026\nCHAOCTUDEO\nOOTPDL CA\nAOllinEE6210010re\nUollcrevOea\nTotal:\nUSD$ 3.29\nGROCERY\n00086001231194\nJUBILEE'S MILK\n3.29 F\nBALANCE DUE\n3.29\nCBEDJI CADD\n$3.29\nCHANGE\n0.00\n**************************************************\nSave up to $25 more a month!\nJoin Gelson's Rewards program\ngelsons.com/rewards\n**************************************************\nTuesday, May 12, 2026",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5942.570082999999,
+        "totalUsd": 0.009545999999999999,
+        "inputTokens": 3706,
+        "outputTokens": 443,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Gelson's",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.29",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "91011",
+          "status": "match"
+        },
+        "city": {
+          "value": "LA CANADA",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "635 FOOTHILL BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 00086001231194 + JUBILEE'S MILK",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Gelson's\n635 FOOTHILL BLVD\nLA CANADA, CA 91011\n(818) 790-0563\n05/12/2026\nTotal:\nUSD$ 3.29\nGROCERY\n00086001231194\nJUBILEE'S MILK\n3.29 F\nBALANCE DUE\n3.29\nCREDIT CARD\n$3.29\nCHANGE\n0.00\n****************************************\nSave up to $25 more a month!\nJoin Gelson's Rewards program\ngelsons.com/rewards\n****************************************\nTuesday, May 12, 2026",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GDEDJI CeOO + o0mDOd Rno8 + oUA",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

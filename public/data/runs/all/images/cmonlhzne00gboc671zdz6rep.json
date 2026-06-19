@@ -1,0 +1,351 @@
+{
+  "id": "cmonlhzne00gboc671zdz6rep",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "JustFoodForDogs",
+  "amount": 12.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "84.3",
+    "purchaseDate": "2026-05-01",
+    "time": null,
+    "zipCode": "92064",
+    "city": "Poway",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10113.07324999996,
+        "totalUsd": 0.018957,
+        "inputTokens": 6086,
+        "outputTokens": 1092,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "84.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:26 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92064",
+          "status": "match"
+        },
+        "city": {
+          "value": "POWAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13375 POWAY RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3602",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936540 JFFD-DOG 18Z BF/POTA + Reg Price: 3@ 12.99",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "totalSpend": 38.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002919651 WHD-DOG 5# GF SB BEE",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002426769 NAV-DOG 6Z RAW BST F",
+          "quantity": 1,
+          "unitPrice": 14.49,
+          "totalSpend": 14.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002924493 WHD-DOG 6Z GF TRN BE",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004811450 PAWS FOR GOOD-1 CAN",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nPOWAY #04502\n13375 POWAY RD\nPOWAY, CA 92064\n858-762-8720\n05/01/26 4:26PM Reg 001 Trans 47074\nHelped by Humberto\n002936540 JFFD-DOG 18Z BF/POTA 38.97 T\nReg Price: 3@ 12.99\n002919651 WHD-DOG 5# GF SB BEE 13.99 T\n002426769 NAV-DOG 6Z RAW BST F 14.49 T\n002924493 WHD-DOG 6Z GF TRN BE 7.79 T\n004811450 PAWS FOR GOOD-1 CAN 3.00 T\nTaxable Total 78.24\nSubtotal 78.24\nTax CA 7.75% 6.06\nTOTAL 84.30\nMastercard Debit Card 84.30\n2026-05-01 04:26:09 PM\nTotal: USD $84.30\nMastercard\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX3602\nPurchase - APPROVED\nAUTH CODE: 000020\nAID: A0000000042203\nTVR: 0000048001\nIAD: 0110A04001220000000000000000000000FF\nARC: 00\nRRN: 177392\n7 Items\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10265.62916700001,
+        "totalUsd": 0.028056,
+        "inputTokens": 3692,
+        "outputTokens": 1081,
+        "reasoningTokens": 1421
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "84.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:26 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92064",
+          "status": "match"
+        },
+        "city": {
+          "value": "POWAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13375 POWAY RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3602",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936540 JFFD-DOG 18Z BF/POTA + Reg Price: 3@ 12.99",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "totalSpend": 38.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002919651 WHD-DOG 5# GF SB BEE",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002426769 NAV-DOG 6Z RAW BST F",
+          "quantity": 1,
+          "unitPrice": 14.49,
+          "totalSpend": 14.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002924493 WHD-DOG 6Z GF TRN BE",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004811450 PAWS FOR GOOD-1 CAN",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nPOWAY #04502\n13375 POWAY RD\nPOWAY, CA 92064\n858-762-8720\n05/01/26 4:26PM Reg 001 Trans 47074\nHelped by Humberto\n002936540 JFFD-DOG 18Z BF/POTA 38.97 T\nReg Price: 3@ 12.99\n002919651 WHD-DOG 5# GF SB BEE 13.99 T\n002426769 NAV-DOG 6Z RAW BST F 14.49 T\n002924493 WHD-DOG 6Z GF TRN BE 7.79 T\n004811450 PAWS FOR GOOD-1 CAN 3.00 T\nTaxable Total 78.24\nSubtotal 78.24\nTax CA 7.75% 6.06\nTOTAL 84.30\nMastercard Debit Card 84.30\n2026-05-01 04:26:09 PM\nTotal: USD $84.30\nMastercard\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX3602\nPurchase - APPROVED\nAUTH CODE: 000020\nAID: A0000000042203\nTVR: 0000048001\nIAD: 0110A04001220000000000000000000000FF\nARC: 00\nRRN: 177392\n7 Items\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6365.685041999997,
+        "totalUsd": 0.01515,
+        "inputTokens": 3692,
+        "outputTokens": 1068,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "84.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-01",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:26 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92064",
+          "status": "match"
+        },
+        "city": {
+          "value": "POWAY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "13375 POWAY RD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3602",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936540 JFFD-DOG 18Z BF/POTA",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "totalSpend": 38.97,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002919651 WHD-DOG 5# GF SB BEE",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002426769 NAV-DOG 6Z RAW BST F",
+          "quantity": 1,
+          "unitPrice": 14.49,
+          "totalSpend": 14.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "002924493 WHD-DOG 6Z GF TRN BE",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004811450 PAWS FOR GOOD-1 CAN",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nPOWAY #04502\n13375 POWAY RD\nPOWAY, CA 92064\n858-762-8720\n05/01/26 4:26PM Reg 001 Trans 47074\nHelped by Humberto\n002936540 JFFD-DOG 18Z BF/POTA 38.97 T\nReg Price: 3@ 12.99\n002919651 WHD-DOG 5# GF SB BEE 13.99 T\n002426769 NAV-DOG 6Z RAW BST F 14.49 T\n002924493 WHD-DOG 6Z GF TRN BE 7.79 T\n004811450 PAWS FOR GOOD-1 CAN 3.00 T\nTaxable Total 78.24\nSubtotal 78.24\nTax CA 7.75% 6.06\nTOTAL 84.30\nMastercard Debit Card 84.30\n2026-05-01 04:26:09 PM\nTotal: USD $84.30\nMastercard\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX3602\nPurchase - APPROVED\nAUTH CODE: 000020\nAID: A0000000042203\nTVR: 0000048001\nIAD: 0110A040012200000000000000000000FF\nARC: 00\nRRN: 177392\n7 Items\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JFFD-DOG 18Z BF/POTA + 002936540 + Reg Price: 3@ 12.99",
+      "price": 12.99,
+      "quantity": 3,
+      "totalSpend": 38.97
+    },
+    {
+      "text": "WHD-DOG 5# GF SB BEE + 002919651",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "NAV-DOG 6Z RAW BST F + 002426769",
+      "price": 14.49,
+      "quantity": 1,
+      "totalSpend": 14.49
+    },
+    {
+      "text": "WHD-DOG 6Z GF TRN BE + 002924493",
+      "price": 7.79,
+      "quantity": 1,
+      "totalSpend": 7.79
+    },
+    {
+      "text": "PAWS FOR GOOD-1 CAN + 004811450",
+      "price": 3,
+      "quantity": 1,
+      "totalSpend": 3
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

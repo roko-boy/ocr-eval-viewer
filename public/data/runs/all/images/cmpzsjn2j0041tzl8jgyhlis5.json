@@ -1,0 +1,284 @@
+{
+  "id": "cmpzsjn2j0041tzl8jgyhlis5",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "Perfect Bar",
+  "amount": 3.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "8.27",
+    "purchaseDate": "2026-06-04",
+    "time": null,
+    "zipCode": "28697",
+    "city": "Wilkesboro",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5869.268916999979,
+        "totalUsd": 0.015879,
+        "inputTokens": 6086,
+        "outputTokens": 750,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:55:32 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "28697",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wilkesboro",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4112 W US Hwy 421",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8.27",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "2 Lucky Energy Son of a Peach + LOY LUCKY ENERGY B1G1 1.00",
+          "quantity": 2,
+          "unitPrice": 3.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2 PERFECT BAR COOKIE DOUGH Sin + EE Discount On C + EE Discount On C",
+          "quantity": 2,
+          "unitPrice": 3.79,
+          "totalSpend": 3.34,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "EE on the Clock",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #794\n4112 W US Hwy 421\nWilkesboro, NC 28697\n743-210-4026\n6/4/2026 10:55:32 AM\nPOS Terminal\nOrder Number: 568\nRegister:2\n2 Lucky Energy Son of a Peach $6.78\n2 PERFECT BAR COOKIE DOUGH Sin $7.58\nEE on the Clock $0.00\nMy Sheetz Rewardz $0.00\nLOY LUCKY ENERGY B1G1 1.00 -$2.39\nEE Discount On C -$0.44\nEE Discount On C -$3.80\nSub. Total: $7.73\nWireless Fee $0.00\nSales Tax $0.54\nTotal: $8.27\nDiscount Total: -$6.63\nMasterCard: $8.27\nChange $0.00\nSale",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11771.809458,
+        "totalUsd": 0.028065,
+        "inputTokens": 3692,
+        "outputTokens": 634,
+        "reasoningTokens": 1869
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:55:32 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "28697",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wilkesboro",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4112 W US Hwy 421",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Lucky Energy Son of a Peach + LOY LUCKY ENERGY B1G1 1.00 + EE Discount On C",
+          "quantity": 2,
+          "unitPrice": 3.39,
+          "totalSpend": 3.95,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PERFECT BAR COOKIE DOUGH Sin + EE on the Clock + My Sheetz Rewardz + EE Discount On C",
+          "quantity": 2,
+          "unitPrice": 3.79,
+          "totalSpend": 3.78,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #794\n4112 W US Hwy 421\nWilkesboro, NC 28697\n743-210-4026\n6/4/2026 10:55:32 AM\nPOS Terminal\nOrder Number: 568\nRegister:2\n2 Lucky Energy Son of a Peach $6.78\n2 PERFECT BAR COOKIE DOUGH Sin $7.58\nEE on the Clock $0.00\nMy Sheetz Rewardz $0.00\nLOY LUCKY ENERGY B1G1 1.00 -$2.39\nEE Discount On C -$0.44\nEE Discount On C -$3.80\nSub. Total: $7.73\nWireless Fee $0.00\nSales Tax $0.54\nTotal: $8.27\nDiscount Total: -$6.63\nMasterCard: $8.27\nChange $0.00\nSale",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4276.326915999991,
+        "totalUsd": 0.011244,
+        "inputTokens": 3692,
+        "outputTokens": 634,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": "10:55:32 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "28697",
+          "status": "match"
+        },
+        "city": {
+          "value": "Wilkesboro",
+          "status": "match"
+        },
+        "state": {
+          "value": "NC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4112 W US Hwy 421",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Lucky Energy Son of a Peach + LOY LUCKY ENERGY B1G1 1.00",
+          "quantity": 2,
+          "unitPrice": 3.39,
+          "totalSpend": 4.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PERFECT BAR COOKIE DOUGH Sin + EE on the Clock + My Sheetz Rewardz + EE Discount On C + EE Discount On C",
+          "quantity": 2,
+          "unitPrice": 3.79,
+          "totalSpend": 3.34,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #794\n4112 W US Hwy 421\nWilkesboro, NC 28697\n743-210-4026\n6/4/2026 10:55:32 AM\nPOS Terminal\nOrder Number: 568\nRegister:2\n2 Lucky Energy Son of a Peach $6.78\n2 PERFECT BAR COOKIE DOUGH Sin $7.58\nEE on the Clock $0.00\nMy Sheetz Rewardz $0.00\nLOY LUCKY ENERGY B1G1 1.00 -$2.39\nEE Discount On C -$0.44\nEE Discount On C -$3.80\nSub. Total: $7.73\nWireless Fee $0.00\nSales Tax $0.54\nTotal: $8.27\nDiscount Total: -$6.63\nMasterCard: $8.27\nChange $0.00\nSale",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Lucky Energy Son of a Peach",
+      "price": 2.2,
+      "quantity": 2,
+      "totalSpend": 4.39
+    },
+    {
+      "text": "PERFECT BAR COOKIE DOUGH Sin",
+      "price": 3.79,
+      "quantity": 2,
+      "totalSpend": 7.58
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

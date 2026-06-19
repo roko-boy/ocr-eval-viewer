@@ -1,0 +1,459 @@
+{
+  "id": "cmnf1lm1c00ecbatsl8cdg9n7",
+  "url": null,
+  "retailer": "ShopRite of Fishkill",
+  "brand": "Protein Pints",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "40.1",
+    "purchaseDate": "2026-03-31",
+    "time": null,
+    "zipCode": "12524",
+    "city": "Fishkill",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 32429.61154200003,
+        "totalUsd": 0.022116,
+        "inputTokens": 6086,
+        "outputTokens": 1443,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "40.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:44pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "FISHKILL",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3181",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI ZERO SUGAR PC",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTLE DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROFEEL CHOC PUDDI + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROFEEL CHOC PUDDI + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GODSHALL TRKBCN PEPC + On Sale You Saved 1.00 + SC Godshall's Turkey 1.00-",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTN PINTS CHOC ICPC + On Sale You Saved 1.07 + MC Protein Pints 0.43-",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTN PINTS STRWBRYPC + On Sale You Saved 1.07 + MC Protein Pints 0.43-",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SC VANILLA BN FRCO + On Sale You Saved 1.50",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRTN PINTS CHOC ICPC + On Sale You Saved 1.07 + MC Protein Pints 0.43-",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Welcome to ShopRite\nof FISHKILL\nStore Manager: RONALD MONTAGUE\n** Store Phone Number 845-897-2211 **\n\n03/31/26 02:44pm 269 77 39 Op77\n\n***********************************\n*        Items Purchased Today    *\n***********************************\n     PEPSI ZERO SUGAR PC    2.89 B\nDP   BOTTLE DEPOSIT         0.05 F\n     PROFEEL CHOC PUDDI     1.99 F\nOn Sale You Saved      0.50\n     PROFEEL CHOC PUDDI     1.99 F\nOn Sale You Saved      0.50\n     GODSHALL TRKBCN PEPC   5.99 F\nOn Sale You Saved      1.00\nSC   Godshall's Turkey      1.00-F\n     PRTN PINTS CHOC ICPC   6.92 F\nOn Sale You Saved      1.07\nMC   Protein Pints          0.43-F\n     PRTN PINTS STRWBRYPC   6.92 F\nOn Sale You Saved      1.07\nMC   Protein Pints          0.43-F\n     SC VANILLA BN FRCO     8.49 F\nOn Sale You Saved      1.50\n     PRTN PINTS CHOC ICPC   6.92 F\nOn Sale You Saved      1.07\nMC   Protein Pints          0.43-F\nValued Customer        48504312585\n     TAX                    0.23\n**** BALANCE               40.10\n***********************************\nShopRite Debit Receipt\nStore # 269 of FISHKILL , NY\nTerminal: 77 Operator: 77 Trans: 39\nDate: 03/31/26 Time: 02:45pm\n\nAcct#: ************3181  CONTACTLESS\n\nResponse : APPROVED\nTrace #: #ER#\nReference: 178260905316119280\n\n***********************************\n\n     DEBIT                 90.10\n     CHANGE                50.00\n     ITEMS SOLD =              8",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 27936.14520800003,
+        "totalUsd": 0.06465,
+        "inputTokens": 3692,
+        "outputTokens": 1439,
+        "reasoningTokens": 5129
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "40.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:44pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "FISHKILL",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3181",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI ZERO SUGAR PC",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTLE DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROFEEL CHOC PUDDI + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROFEEL CHOC PUDDI + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GODSHALL TRKBCN PEPC + On Sale You Saved 1.00 + SC Godshall's Turkey 1.00-F",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTN PINTS CHOC ICPC + On Sale You Saved 1.07 + MC Protein Pints 0.43-F",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTN PINTS STRWBRYPC + On Sale You Saved 1.07 + MC Protein Pints 0.43-F",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SC VANILLA BN FRCO + On Sale You Saved 1.50",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRTN PINTS CHOC ICPC + On Sale You Saved 1.07 + MC Protein Pints 0.43-F",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Welcome to ShopRite\nof FISHKILL\nStore Manager: RONALD MONTAGUE\n** Store Phone Number 845-897-2211 **\n\n03/31/26 02:44pm 269 77 39 Op77\n\n***********************************\n*        Items Purchased Today    *\n***********************************\n         PEPSI ZERO SUGAR PC   2.89 B\nDP       BOTTLE DEPOSIT        0.05 F\n         PROFEEL CHOC PUDDI    1.99 F\nOn Sale You Saved      0.50\n         PROFEEL CHOC PUDDI    1.99 F\nOn Sale You Saved      0.50\n         GODSHALL TRKBCN PEPC  5.99 F\nOn Sale You Saved      1.00\nSC       Godshall's Turkey     1.00-F\n         PRTN PINTS CHOC ICPC  6.92 F\nOn Sale You Saved      1.07\nMC       Protein Pints         0.43-F\n         PRTN PINTS STRWBRYPC  6.92 F\nOn Sale You Saved      1.07\nMC       Protein Pints         0.43-F\n         SC VANILLA BN FRCO    8.49 F\nOn Sale You Saved      1.50\n         PRTN PINTS CHOC ICPC  6.92 F\nOn Sale You Saved      1.07\nMC       Protein Pints         0.43-F\nValued Customer        48504312585\n         TAX                   0.23\n**** BALANCE                  40.10\n***********************************\nShopRite Debit Receipt\nStore # 269 of FISHKILL , NY\nTerminal: 77 Operator: 77 Trans: 39\nDate: 03/31/26 Time: 02:45pm\n\nAcct#: ************3181   CONTACTLESS\n\nResponse : APPROVED\nTrace #: #ER#\nReference: 178260905316119280\n\n***********************************\n         DEBIT                90.10\n         CHANGE               50.00\n         ITEMS SOLD =            8",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6492.76670800001,
+        "totalUsd": 0.018435,
+        "inputTokens": 3692,
+        "outputTokens": 1433,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "40.1",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "02:44pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "FISHKILL",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3181",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI ZERO SUGAR PC",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTLE DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROFEEL CHOC PUDDI + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PROFEEL CHOC PUDDI + On Sale You Saved 0.50",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GODSHALL TRKBCN PEPC + On Sale You Saved 1.00 + SC Godshall's Turkey 1.00-F",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTN PINTS CHOC ICPC + On Sale You Saved 1.07 + MC Protein Pints 0.43-F",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRTN PINTS STRWBRYPC + On Sale You Saved 1.07 + MC Protein Pints 0.43-F",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SC VANILLA BN FRCO + On Sale You Saved 1.50",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRTN PINTS CHOC ICPC + On Sale You Saved 1.07 + MC Protein Pints 0.43-F",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Welcome to ShopRite\nof FISHKILL\nStore Manager: RONALD MONTAGUE\n** Store Phone Number 845-897-2211 **\n\n03/31/26 02:44pm 269 77 39 Op77\n\n***********************************\n*        Items Purchased Today    *\n***********************************\n      PEPSI ZERO SUGAR PC    2.89 B\nDP    BOTTLE DEPOSIT         0.05 F\n      PROFEEL CHOC PUDDI     1.99 F\nOn Sale You Saved      0.50\n      PROFEEL CHOC PUDDI     1.99 F\nOn Sale You Saved      0.50\n      GODSHALL TRKBCN PEPC   5.99 F\nOn Sale You Saved      1.00\nSC    Godshall's Turkey      1.00-F\n      PRTN PINTS CHOC ICPC   6.92 F\nOn Sale You Saved      1.07\nMC    Protein Pints          0.43-F\n      PRTN PINTS STRWBRYPC   6.92 F\nOn Sale You Saved      1.07\nMC    Protein Pints          0.43-F\n      SC VANILLA BN FRCO     8.49 F\nOn Sale You Saved      1.50\n      PRTN PINTS CHOC ICPC   6.92 F\nOn Sale You Saved      1.07\nMC    Protein Pints          0.43-F\nValued Customer         48504312585\n      TAX                    0.23\n**** BALANCE                40.10\n***********************************\nShopRite Debit Receipt\nStore # 269 of FISHKILL , NY\nTerminal: 77 Operator: 77 Trans: 39\nDate: 03/31/26 Time: 02:45pm\n\nAcct#: ************3181   CONTACTLESS\n\nResponse : APPROVED\nTrace #: #ER#\nReference: 178260905316119280\n\n***********************************\n\n      DEBIT                 90.10\n      CHANGE                50.00\n      ITEMS SOLD =             8",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PEPSI ZERO SUGAR",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "BOTTLE DEPOSIT",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    },
+    {
+      "text": "PROFEEL CHOC PUDDI + On Sale You Saved 0.50",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "PROFEEL CHOC PUDDI + On Sale You Saved 0.50",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GODSHALL TRKBCN PE + On Sale You Saved 1.00",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "PRTN PINTS CHOC IC + On Sale You Saved 1.07 + MC Protein Pints 0.43-F",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "PRTN PINTS STRWBRY + On Sale You Saved 1.07 + MC Protein Pints 0.43-F",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "SC VANILLA BN FRCO + On Sale You Saved 1.50",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "PRTN PINTS CHOC IC + On Sale You Saved 1.07 + MC Protein Pints 0.43-F",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmnmhpvk5003fonqy8i5e89mj",
+  "url": null,
+  "retailer": "Fairway Market of 86th Street",
+  "brand": "nutpods",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fairway Market",
+    "totalCost": "5.99",
+    "purchaseDate": "2026-04-05",
+    "time": null,
+    "zipCode": "10028",
+    "city": "New York",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11078.40554299999,
+        "totalUsd": 0.015462,
+        "inputTokens": 6162,
+        "outputTokens": 691,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fairway Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:50pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "NEW YORK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "240 EAST 86TH STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2006",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTPOD CRMR FRCH VPC + Nutpods Creamer",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "FAIRWAY\nLIKE NO OTHER MARKET®\n\nFairway Markets of East 86th Str\n240 EAST 86TH STREET\n(718) 569-4511\n\n04/05/26 08:50pm S183 R74 T261 C74\n\n***********************************\n*          Regular Items          *\n***********************************\nNUTPOD CRMR FRCH VPC   6.99 F\nMC        Nutpods Creamer      1.00-F\nValued Customer       49010003863\nTAX                    0.00\n**** BALANCE           5.99\n***********************************\nFairway Markets Credit Receipt\nStore # 183 of NEW YORK , NY\nTerminal: 74 Operator: 74 Trans: 261\nDate: 04/05/26 Time: 08:50pm\n\nPurchase: $ 5.99\nAcct#: ************2006  CHIP\n\nResponse : APPROVED\nApproval : 863159\nPrepaid Card Balance: 0.00\n\n***********************************\n\nAMEX                   5.99\nCHANGE                 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n\n------- Fairway Savings -------\nMfr Cpns               $ 1.00\nTotal Savings today is $ 1.00\n\n04/05/26 08:50pm 183 74 261 74",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9194.385875,
+        "totalUsd": 0.021921,
+        "inputTokens": 3730,
+        "outputTokens": 682,
+        "reasoningTokens": 1132
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fairway",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:50pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "NEW YORK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "240 EAST 86TH STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2006",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTPOD CRMR FRCH VPC + MC Nutpods Creamer",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "FAIRWAY\nLIKE NO OTHER MARKET®\n\nFairway Markets of East 86th Str\n240 EAST 86TH STREET\n(718) 569-4511\n\n04/05/26 08:50pm S183 R74 T261 C74\n\n***********************************\n*          Regular Items          *\n***********************************\nNUTPOD CRMR FRCH VPC      6.99 F\nMC        Nutpods Creamer         1.00-F\nValued Customer          49010003863\nTAX                       0.00\n**** BALANCE              5.99\n***********************************\nFairway Markets Credit Receipt\nStore # 183 of NEW YORK , NY\nTerminal: 74 Operator: 74 Trans: 261\nDate: 04/05/26 Time: 08:50pm\n\nPurchase: $ 5.99\nAcct#: ************2006   CHIP\n\nResponse : APPROVED\nApproval : 863159\nPrepaid Card Balance: 0.00\n\n***********************************\n\nAMEX                      5.99\nCHANGE                    0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n\n-------- Fairway Savings --------\nMfr Cpns                  $ 1.00\nTotal Savings today is    $ 1.00\n\n04/05/26 08:50pm 183 74 261 74",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4411.297291999999,
+        "totalUsd": 0.011499,
+        "inputTokens": 3730,
+        "outputTokens": 656,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fairway",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:50pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "NEW YORK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "240 EAST 86TH STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2006",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTPOD CRMR FRCH VPC + Nutpods Creamer",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "FAIRWAY\nLIKE NO OTHER MARKET®\nFairway Markets of East 86th Str\n240 EAST 86TH STREET\n(718) 569-4511\n04/05/26 08:50pm S183 R74 T261 C74\n***********************************\n* Regular Items *\n***********************************\nNUTPOD CRMR FRCH VPC 6.99 F\nMC Nutpods Creamer 1.00-F\nValued Customer 49010003863\nTAX 0.00\n**** BALANCE 5.99\n***********************************\nFairway Markets Credit Receipt\nStore # 183 of NEW YORK, NY\nTerminal: 74 Operator: 74 Trans: 261\nDate: 04/05/26 Time: 08:50pm\nPurchase: $ 5.99\nAcct#: ************2006 CHIP\nResponse: APPROVED\nApproval: 863159\nPrepaid Card Balance: 0.00\n***********************************\nAMEX 5.99\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n------- Fairway Savings -------\nMfr Cpns $ 1.00\nTotal Savings today is $ 1.00\n04/05/26 08:50pm 183 74 261 74",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NUTPOD CRMR FRCH VPC + MC Nutpods Creamer 1.00-F",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

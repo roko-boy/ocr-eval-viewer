@@ -1,0 +1,432 @@
+{
+  "id": "cmqfv7xxd001jgc7xv86nt5c3",
+  "url": null,
+  "retailer": "Total Wine & More",
+  "brand": "Mash Gang",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Total Wine & More",
+    "totalCost": "123.86",
+    "purchaseDate": "2026-06-15",
+    "time": null,
+    "zipCode": "54913",
+    "city": "Appleton",
+    "state": "WI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11218.82416700001,
+        "totalUsd": 0.023268,
+        "inputTokens": 6086,
+        "outputTokens": 1571,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine & More",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "123.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:12 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54913",
+          "status": "match"
+        },
+        "city": {
+          "value": "Appleton",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4721 W Grande Market Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2516",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Penn's Best N/A-12c-6p + 7774019303 + PK",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Carlyle 12 Yr Blended Scotch-750ml + 8764711390",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Nicoya Anejo Rum-700ml + 377000505393",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Navy Bay Rum-750ml + 8955215084",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Hedges & Butler Scotch Whisky-700ml + 74750501771",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Gruvi N/A Imperial IPA-12c-6p + 465207488 + PK",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W & P ICE CUBE - CHARCOAL-gift + 81007441513",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Mash Gang N/A Journey Juice-12c-6p + 85002053797 + PK",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n1905-Total Wine-Appleton\n4721 W Grande Market Dr\nAppleton, WI 54913\n920-714-3300\nTicket: 98746 6:12 PM 06/15/2026\nStore: 1905 Register: 3\nCashier: 103630 (Stephen)\nItem Qty Price Amount\nPenn's Best N/A-12c-6p\n7774019303 PK 2 3.99 7.98\nCarlyle 12 Yr Blended Scotch-750ml\n8764711390 1 24.99 24.99\nNicoya Anejo Rum-700ml\n377000505393 1 19.99 19.99\nNavy Bay Rum-750ml\n8955215084 1 19.99 19.99\nHedges & Butler Scotch Whisky-700ml\n74750501771 1 11.99 11.99\nGruvi N/A Imperial IPA-12c-6p\n465207488 PK 1 10.99 10.99\nW & P ICE CUBE - CHARCOAL-gift\n81007441513 1 10.99 10.99\nMash Gang N/A Journey Juice-12c-6p\n85002053797 PK 1 10.49 10.49\nSubtotal 117.41\nTax1 6.45\nTotal 123.86\n06/15/2026 18:11:58\nMASTERCARD Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX2516\nPURCHASE - APPROVED\nAUTH CODE:81511Z\nMode: Issuer\nMID: 089290 TID: 001 RRN: 039661\nTotal: USD$ 123.86\nI agree to pay the above amount according\nto my card holder agreement.\nChange 0.00\n& MORE rewards Select Member\nAny eligible rewards points will appear\nin your reward account within 24 hours.\nMember ID: 8695398704361\nThank you for shopping with us today!\nWe value your feedback.\nPlease take our survey to let us know how\nwe're doing:\nwww.telltotalwine.com\nSold Item Count = 9",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14898.58775000001,
+        "totalUsd": 0.033375,
+        "inputTokens": 3692,
+        "outputTokens": 1567,
+        "reasoningTokens": 1526
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine & More",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "123.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:12 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54913",
+          "status": "match"
+        },
+        "city": {
+          "value": "Appleton",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4721 W Grande Market Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2516",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Penn's Best N/A-12c-6p + 7774019303",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Carlyle 12 Yr Blended Scotch-750ml + 8764711390",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Nicoya Anejo Rum-700ml + 377000505393",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Navy Bay Rum-750ml + 8955210584",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Hedges & Butler Scotch Whisky-700ml + 74750501771",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Gruvi N/A Imperial IPA-12c-6p + 465207488",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W & P ICE CUBE - CHARCOAL-gift + 81007441513",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Mash Gang N/A Journey Juice-12c-6p + 85002053797",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n1905-Total Wine-Appleton\n4721 W Grande Market Dr\nAppleton, WI 54913\n920-714-3300\nTicket: 98746  6:12 PM  06/15/2026\nStore: 1905  Register: 3\nCashier: 103630 (Stephen)\nItem  Qty  Price  Amount\nPenn's Best N/A-12c-6p\n7774019303  PK 2  3.99  7.98\nCarlyle 12 Yr Blended Scotch-750ml\n8764711390  1  24.99  24.99\nNicoya Anejo Rum-700ml\n377000505393  1  19.99  19.99\nNavy Bay Rum-750ml\n8955210584  1  19.99  19.99\nHedges & Butler Scotch Whisky-700ml\n74750501771  1  11.99  11.99\nGruvi N/A Imperial IPA-12c-6p\n465207488  PK 1  10.99  10.99\nW & P ICE CUBE - CHARCOAL-gift\n81007441513  1  10.99  10.99\nMash Gang N/A Journey Juice-12c-6p\n85002053797  PK 1  10.49  10.49\nSubtotal  117.41\nTax1  6.45\nTotal  123.86\n06/15/2026  18:11:58\nMASTERCARD  Entry Method:Cntctless\nCARD #:  XXXXXXXXXXXX2516\nPURCHASE  - APPROVED\nAUTH CODE:81511Z\nMode:  Issuer\nMID: 089290  TID: 001  RRN: 039661\nTotal:  USD$ 123.86\nI agree to pay the above amount according\nto my card holder agreement.\nChange  0.00\n& MORE rewards Select Member\nAny eligible rewards points will appear\nin your reward account within 24 hours.\nMember ID: 8695398704361\nThank you for shopping with us today!\nWe value your feedback.\nPlease take our survey to let us know how\nwe're doing:\nwww.telltotalwine.com\nSold Item Count = 9",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8546.214208000005,
+        "totalUsd": 0.019983,
+        "inputTokens": 3692,
+        "outputTokens": 1605,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Total Wine & More",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "123.86",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-15",
+          "status": "match"
+        },
+        "time": {
+          "value": "6:12 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "54913",
+          "status": "match"
+        },
+        "city": {
+          "value": "Appleton",
+          "status": "match"
+        },
+        "state": {
+          "value": "WI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4721 W Grande Market Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2516",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Penn's Best N/A-12c-6p + 7774019303 + PK",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Carlyle 12 Yr Blended Scotch-750ml + 8764711390",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 24.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Nicoya Anejo Rum-700ml + 377000505393",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Navy Bay Rum-750ml + 8955215084",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Hedges & Butler Scotch Whisky-700ml + 74750501771",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Gruvi N/A Imperial IPA-12c-6p + 465207488 + PK",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W & P ICE CUBE - CHARCOAL-gift + 81007441513",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Mash Gang N/A Journey Juice-12c-6p + 85002053797 + PK",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Total Wine\n& MORE\n1905-Total Wine-Appleton\n4721 W Grande Market Dr\nAppleton, WI 54913\n920-714-3300\nTicket: 98746\n6:12 PM\n06/15/2026\nStore: 1905\nRegister: 3\nCashier: 103630 (Stephen)\nItem\nQty\nPrice\nAmount\nPenn's Best N/A-12c-6p\n7774019303 PK 2\n3.99\n7.98\nCarlyle 12 Yr Blended Scotch-750ml\n8764711390\n1\n24.99\n24.99\nNicoya Anejo Rum-700ml\n377000505393\n1\n19.99\n19.99\nNavy Bay Rum-750ml\n8955215084\n1\n19.99\n19.99\nHedges & Butler Scotch Whisky-700ml\n74750501771\n1\n11.99\n11.99\nGruvi N/A Imperial IPA-12c-6p\n465207488 PK 1\n10.99\n10.99\nW & P ICE CUBE - CHARCOAL-gift\n81007441513\n1\n10.99\n10.99\nMash Gang N/A Journey Juice-12c-6p\n85002053797 PK 1\n10.49\n10.49\nSubtotal\n117.41\nTax1\n6.45\nTotal\n123.86\n06/15/2026\n18:11:58\nMASTERCARD\nEntry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX2516\nPURCHASE\n- APPROVED\nAUTH CODE:81511Z\nMode:\nIssuer\nMID: 089290\nTID: 001\nRRN: 039661\nTotal:\nUSD$ 123.86\nI agree to pay the above amount according\nto my card holder agreement.\nChange\n0.00\n& MORE rewards Select Member\nAny eligible rewards points will appear\nin your reward account within 24 hours.\nMember ID: 8695398704361\nThank you for shopping with us today!\nWe value your feedback.\nPlease take our survey to let us know how\nwe're doing:\nwww.telltotalwine.com\nSold Item Count = 9",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Penn's Best N/A-12c-6p + 7774019303 + PK",
+      "price": 3.99,
+      "quantity": 2,
+      "totalSpend": 7.98
+    },
+    {
+      "text": "Carlyle 12 Yr Blended Scotch-750ml + 8764711390",
+      "price": 24.99,
+      "quantity": 1,
+      "totalSpend": 24.99
+    },
+    {
+      "text": "Nicoya Anejo Rum-700ml + 377000505393",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    },
+    {
+      "text": "Navy Bay Rum-750ml + 8955215084",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    },
+    {
+      "text": "Hedges & Butler Scotch Whisky-700ml + 74750501771",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "Gruvi N/A Imperial IPA-12c-6p + 465207488 + PK",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "W & P ICE CUBE - CHARCOAL-gift + 81007441513",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "Mash Gang N/A Journey Juice-12c-6p + 85002053797 + PK",
+      "price": 10.49,
+      "quantity": 1,
+      "totalSpend": 10.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,324 @@
+{
+  "id": "cmpekgzog00oplngp8nhl6imb",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "realsy",
+  "amount": 1.75,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "17.76",
+    "purchaseDate": "2026-05-20",
+    "time": null,
+    "zipCode": "17601",
+    "city": "Lancaster",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12946.56237500004,
+        "totalUsd": 0.015807,
+        "inputTokens": 6086,
+        "outputTokens": 742,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "17.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:27",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17601",
+          "status": "match"
+        },
+        "city": {
+          "value": "LANCASTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2000 CROSSING BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4055",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JUNI OG TROP TEA",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKEAIR CHS PUFFS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY DATES",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ PROTEIN STRAW",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n2000 CROSSING BLVD\nLANCASTER, PA 17601\n(717) 358-9400\n05/20/26 OP# 92\n\nJUNI OG TROP TEA 2.99 F\nLIKEAIR CHS PUFFS 3.29 F\nREALSY DATES 3.49 F\nPIRQ PROTEIN STRAW 7.99 F\nTAX 0.00\n\n**** BALANCE 17.76\n\nVISA PURCHASE\nCARD NUMBER: ************4055 H\nVISA CREDIT 07\nAUTH: 01640D RCPT: 392502\nCODE: 0000 Approved\nAID: A0000000031010\n\nCREDIT CARD 17.76\nCHANGE 0.00\n\n05/20/26 14:27 135 392 60 92\n\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 32257.79470799997,
+        "totalUsd": 0.025104,
+        "inputTokens": 3692,
+        "outputTokens": 725,
+        "reasoningTokens": 1449
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "17.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:27",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17601",
+          "status": "match"
+        },
+        "city": {
+          "value": "LANCASTER",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2000 CROSSING BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4055",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JUNI OG TROP TEA",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKEAIR CHS PUFFS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY DATES",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ PROTEIN STRAW",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n2000 CROSSING BLVD\nLANCASTER, PA 17601\n(717) 358-9400\n05/20/26 OP# 92\nJUNI OG TROP TEA 2.99 F\nLIKEAIR CHS PUFFS 3.29 F\nREALSY DATES 3.49 F\nPIRQ PROTEIN STRAW 7.99 F\nTAX 0.00\n**** BALANCE 17.76\nVISA PURCHASE\nCARD NUMBER: ************4055 H\nVISA CREDIT 07\nAUTH: 01640D RCPT: 392502\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 17.76\nCHANGE 0.00\n05/20/26 14:27 135 392 60 92\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4369.391999999993,
+        "totalUsd": 0.012054,
+        "inputTokens": 3692,
+        "outputTokens": 724,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "17.76",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:27",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17601",
+          "status": "match"
+        },
+        "city": {
+          "value": "Lancaster",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2000 CROSSING BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4055",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "JUNI OG TROP TEA",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKEAIR CHS PUFFS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "REALSY DATES",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ PROTEIN STRAW",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n2000 CROSSING BLVD\nLANCASTER, PA 17601\n(717) 358-9400\n05/20/26 OP# 92\nJUNI OG TROP TEA 2.99 F\nLIKEAIR CHS PUFFS 3.29 F\nREALSY DATES 3.49 F\nPIRQ PROTEIN STRAW 7.99 F\nTAX 0.00\n**** BALANCE 17.76\nVISA PURCHASE\nCARD NUMBER: ************4055 H\nVISA CREDIT 07\nAUTH: 01640D RCPT: 392502\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 17.76\nCHANGE 0.00\n05/20/26 14:27 135 392 60 92\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "JUNI OG TROP TEA",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "LIKEAIR CHS PUFFS",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "REALSY DATES",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "PIRQ PROTEIN STRAW",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

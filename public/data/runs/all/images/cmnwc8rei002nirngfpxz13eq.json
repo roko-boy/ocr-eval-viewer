@@ -1,0 +1,414 @@
+{
+  "id": "cmnwc8rei002nirngfpxz13eq",
+  "url": null,
+  "retailer": "Smith's",
+  "brand": "MUD\\WTR",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Smith's Food and Drug",
+    "totalCost": "27.02",
+    "purchaseDate": "2026-04-12",
+    "time": null,
+    "zipCode": "84058",
+    "city": "Orem",
+    "state": "UT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9610.06716700003,
+        "totalUsd": 0.020595,
+        "inputTokens": 6206,
+        "outputTokens": 1254,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "27.02",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:19pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84057",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Orem",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "45 South State",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "NATIONS BENEFITS",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4853",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRAFT MX STY 4 CHSFV + YOU SAVED 3.79",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRAFT CLBY JCK CHSFV",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI YOGURT FV + YOU SAVED 1.50 + eCpn Chobani 1.50",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MUD/WTR RISE CACAOFV + YOU SAVED 2.00",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 17.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MICHELINA STEAK FV + YOU SAVED 0.26",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MICHELINA ZITI FV + YOU SAVED 0.26",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "UHC Tix 40 Msg",
+          "quantity": 1,
+          "unitPrice": 0.01,
+          "totalSpend": 0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "UHC Tix 20 Msg",
+          "quantity": 1,
+          "unitPrice": 0.01,
+          "totalSpend": 0.01,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n45 South State\n801-224-6111\nYour cashier was CHEC 500\nSC Boost 2X Fuel Pts\nKRAFT MX STY 4 CHSFV 0.00 B\nSC YOU SAVED 3.79\nKRAFT CLBY JCK CHSFV 3.79 Y\nCHOBANI YOGURT FV 2.49 Y\nSC YOU SAVED 1.50\nSC eCpn Chobani 1.50\nMUD/WTR RISE CACAOFV 17.99 Y\nSC YOU SAVED 2.00\n1 @ 4/5.00\nMICHELINA STEAK FV 0.99 Y\nSC YOU SAVED 0.26\n1 @ 4/5.00\nMICHELINA ZITI FV 0.99 Y\nSC YOU SAVED 0.26\nSC UHC Tix 40 Msg 0.01-B\nSC UHC Tix 20 Msg 0.01-B\nFRESH VALUE CUSTOMER *******2832\nTAX 0.79\n**** BALANCE 27.02\nUT 84057\nNATIONS BENEFITS Purchase\n************4853 - SWIPED\nREF#: 615170 TOTAL: 27.02\nHealthcare remaining balance:\nCFO 0\nINA 125.52\nNATIONS BENEFITS 27.02\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nFreshValues Savings $ 9.33\nTotal Savings (26 Percent) $ 9.33\n04/12/26 04:19pm 144 500 118 999999500",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 183794.281333,
+        "totalUsd": 0.06798599999999999,
+        "inputTokens": 3786,
+        "outputTokens": 1219,
+        "reasoningTokens": 5704
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "27.02",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:19pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84057",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Orem",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "45 South State",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "NATIONS BENEFITS",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4853",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRAFT MX STY 4 CHSFV",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRAFT CLBY JCK CHSFV",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI YOGURT FV + eCpn Chobani",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MUD/WTR RISE CACAO FV",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 17.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MICHELINA STEAK FV + 1 @ 4/5.00",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MICHELINA ZITI FV + 1 @ 4/5.00",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "UHC Tix 40 Msg",
+          "quantity": 1,
+          "unitPrice": -0.01,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "UHC Tix 20 Msg",
+          "quantity": 1,
+          "unitPrice": -0.01,
+          "totalSpend": -0.01,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n45 South State\n801-224-6111\nYour cashier was CHEC 500\nSC Boost 2X Fuel Pts\nKRAFT MX STY 4 CHSFV 0.00 B\nSC YOU SAVED 3.79\nKRAFT CLBY JCK CHSFV 3.79 Y\nCHOBANI YOGURT FV 2.49 Y\nSC YOU SAVED 1.50\nSC eCpn Chobani 1.50\nMUD/WTR RISE CACAO FV 17.99 Y\nSC YOU SAVED 2.00\n1 @ 4/5.00\nMICHELINA STEAK FV 0.99 Y\nSC YOU SAVED 0.26\n1 @ 4/5.00\nMICHELINA ZITI FV 0.99 Y\nSC YOU SAVED 0.26\nSC UHC Tix 40 Msg 0.01-B\nSC UHC Tix 20 Msg 0.01-B\nFRESH VALUE CUSTOMER *******2832\nTAX 0.79\n**** BALANCE 27.02\nUT 84057\nNATIONS BENEFITS Purchase\n************4853 - SWIPED\nREF#: 615170 TOTAL: 27.02\nHealthcare remaining balance:\nCFO 0\nINA 125.52\nNATIONS BENEFITS 27.02\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nFreshValues Savings $ 9.33\nTotal Savings (26 Percent) $ 9.33\n04/12/26 04:19pm 144 500 118 999999500",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6253.664791999996,
+        "totalUsd": 0.016257,
+        "inputTokens": 3692,
+        "outputTokens": 1191,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "27.02",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:19 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "84057",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Orem",
+          "status": "match"
+        },
+        "state": {
+          "value": "UT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "45 South State",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "NATIONS BENEFITS",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4853",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KRAFT MX STY 4 CHSFV",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRAFT CLBY JCK CHSFV",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHOBANI YOGURT FV + eCpn Chobani",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 0.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MUD/WTR RISE CACAOFV",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 15.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MICHELINA STEAK FV",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.73,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MICHELINA ZITI FV",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.73,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "UHC Tix 40 Msg",
+          "quantity": 1,
+          "unitPrice": 0.01,
+          "totalSpend": 0.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "UHC Tix 20 Msg",
+          "quantity": 1,
+          "unitPrice": 0.01,
+          "totalSpend": 0.01,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n45 South State\n801-224-6111\nYour cashier was CHEC 500\nSC Boost 2X Fuel Pts\nKRAFT MX STY 4 CHSFV 0.00 B\nSC YOU SAVED 3.79\nKRAFT CLBY JCK CHSFV 3.79 Y\nCHOBANI YOGURT FV 2.49 Y\nSC YOU SAVED 1.50\nSC eCpn Chobani 1.50\nMUD/WTR RISE CACAOFV 17.99 Y\nSC YOU SAVED 2.00\n1 @ 4/5.00\nMICHELINA STEAK FV 0.99 Y\nSC YOU SAVED 0.26\n1 @ 4/5.00\nMICHELINA ZITI FV 0.99 Y\nSC YOU SAVED 0.26\nSC UHC Tix 40 Msg 0.01-B\nSC UHC Tix 20 Msg 0.01-B\nFRESH VALUE CUSTOMER *******2832\nTAX 0.79\n**** BALANCE 27.02\nUT 84057\nNATIONS BENEFITS Purchase\n************4853 - SWIPED\nREF#: 615170 TOTAL: 27.02\nHealthcare remaining balance:\nCFO 0\nINA 125.52\nNATIONS BENEFITS 27.02\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nFreshValues Savings $ 9.33\nTotal Savings (26 Percent) $ 9.33\n04/12/26 04:19pm 144 500 118 999999500",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KRAFT CLBY JCK CHS",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "CHOBANI YOGURT + SC YOU SAVED 1.50 + SC eCpn Chobani 1.50",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 2.49
+    },
+    {
+      "text": "MUD/WTR RISE CACAO + SC YOU SAVED 2.00 + 1 @ 4/5.00",
+      "price": 17.99,
+      "quantity": 1,
+      "totalSpend": 17.99
+    },
+    {
+      "text": "MICHELINA STEAK + SC YOU SAVED 0.26 + 1 @ 4/5.00",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    },
+    {
+      "text": "MICHELINA ZITI + SC YOU SAVED 0.26",
+      "price": 0.99,
+      "quantity": 1,
+      "totalSpend": 0.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

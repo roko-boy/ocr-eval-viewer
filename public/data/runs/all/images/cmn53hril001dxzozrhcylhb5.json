@@ -1,0 +1,432 @@
+{
+  "id": "cmn53hril001dxzozrhcylhb5",
+  "url": null,
+  "retailer": "Grocery Outlet Bargain Market",
+  "brand": "meadow gold",
+  "amount": 2.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Grocery Outlet Bargain Market",
+    "totalCost": "76.77",
+    "purchaseDate": "2026-03-24",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13582.98795900001,
+        "totalUsd": 0.019335,
+        "inputTokens": 6086,
+        "outputTokens": 1134,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Grocery Outlet",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "76.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:54:20",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Nampa",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8179",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORGANIC DATE SYRUP",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPONGE",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TORTILLAS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GHOST WAR APPLE",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SALAD TF GARDEN",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "tillamook Coffee a",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MG 2% MILK 1/2 GAL + 2 @ 2.29",
+          "quantity": 2,
+          "unitPrice": 2.29,
+          "totalSpend": 4.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GRASS FED 93 GROUN + 10 @ 5.99 + $1 Off Beef - Corp A -10.00",
+          "quantity": 10,
+          "unitPrice": 5.99,
+          "totalSpend": 49.9,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "#441 Nampa Grocery Outlet\nGROCERYOUTLET\nbargain market\n*********************************\nSign up for GO Mobile App, get a $5 coupon\n- OR -\nTake our survey & share your feedback.\nSCAN THIS QR CODE TO START\nor visit www.groceryoutlet.com/connect\n*********************************\nGrocery\nORGANIC DATE SYRUP 4.99 T F\nSPONGE 1.59 T F\nTORTILLAS 3.29 T F\nSoda\nGHOST WAR APPLE 2.29 T\nProduce\nSALAD TF GARDEN 2.79 T F\nFrozen\ntillamook Coffee a 2.99 T F\nDeli\nMG 2% MILK 1/2 GAL 4.58 T F\n2 @ 2.29\nMeat\nGRASS FED 93 GROUN 59.90 T F\n10 @ 5.99\n$1 Off Beef - Corp A -10.00\nBALANCE DUE 76.77\nSUB TOTAL 72.42\n6.000% Sales Tax 4.35\nTOTAL TAX 4.35\nTOTAL 76.77\nDebit Type :Debit Card $76.77\n[ ] XXXXXXXXXXXX8179\nAuth# 633024 Ref# 010464\n03/24/2026 14:54:20\nUS Debit Entry Method: Chip\nCARD #: XXXXXXXXXXXX8179\nPURCHASE - APPROVED\nAUTH CODE:633024\nMode: Issuer-PIN Verified\nAID: A0000000042203\nTVR: 0000048000\nIAD: 0110A0400122000000000000000000\n000FF\nTSI: E800",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18516.49316700001,
+        "totalUsd": 0.039405,
+        "inputTokens": 3692,
+        "outputTokens": 1169,
+        "reasoningTokens": 2594
+      },
+      "fields": {
+        "storeName": {
+          "value": "Grocery Outlet",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "76.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:54:20",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Nampa",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8179",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORGANIC DATE SYRUP",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPONGE",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TORTILLAS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GHOST WAR APPLE",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SALAD TF GARDEN",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "tillamook Coffee a",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MG 2% MILK 1/2 GAL + 2 @ 2.29",
+          "quantity": 2,
+          "unitPrice": 2.29,
+          "totalSpend": 4.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GRASS FED 93 GROUN + 10 @ 5.99 + $1 Off Beef - Corp A -10.00",
+          "quantity": 10,
+          "unitPrice": 5.99,
+          "totalSpend": 49.9,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "#441 Nampa Grocery Outlet\nGROCERYOUTLET\nbargain market\n***********************************\nSign up for GO Mobile App. get a $5 coupon\n- OR -\nTake our survey & share your feedback.\n[QR Code]\nSCAN THIS QR CODE TO START\nor visit www.groceryoutlet.com/connect\n***********************************\nGrocery\nORGANIC DATE SYRUP 4.99 T F\nSPONGE 1.59 T F\nTORTILLAS 3.29 T F\nSoda\nGHOST WAR APPLE 2.29 T\nProduce\nSALAD TF GARDEN 2.79 T F\nFrozen\ntillamook Coffee a 2.99 T F\nDeli\nMG 2% MILK 1/2 GAL 4.58 T F\n2 @ 2.29\nMeat\nGRASS FED 93 GROUN 59.90 T F\n10 @ 5.99\n$1 Off Beef - Corp A -10.00\n\nBALANCE DUE 76.77\n\nSUB TOTAL 72.42\n6.000% Sales Tax 4.35\nTOTAL TAX 4.35\nTOTAL 76.77\n\nDebit Type :Debit Card $76.77\n[ ] XXXXXXXXXXXX8179\nAuth# 633024 Ref# 010464\n03/24/2026 14:54:20\nUS Debit Entry Method: Chip\nCARD #: XXXXXXXXXXXX8179\nPURCHASE - APPROVED\nAUTH CODE:633024\n\nMode: Issuer-PIN Verified\nAID: A0000000042203\nTVR: 0000048000\nIAD: 0110A040012200000000000000000000\n000FF\nTSI: E800",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6895.917332999998,
+        "totalUsd": 0.01569,
+        "inputTokens": 3692,
+        "outputTokens": 1128,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Grocery Outlet",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "76.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:54:20",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Nampa",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8179",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORGANIC DATE SYRUP",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPONGE",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TORTILLAS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GHOST WAR APPLE",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SALAD TF GARDEN",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "tillamook Coffee a",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MG 2% MILK 1/2 GAL + 2 @ 2.29",
+          "quantity": 2,
+          "unitPrice": 2.29,
+          "totalSpend": 4.58,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GRASS FED 93 GROUN + 10 @ 5.99 + $1 Off Beef - Corp A -10.00",
+          "quantity": 10,
+          "unitPrice": 5.99,
+          "totalSpend": 49.9,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "#441 Nampa Grocery Outlet\nGROCERYOUTLET\nbargain market\n*********************************\nSign up for GO Mobile App, get a $5 coupon\n- OR -\nTake our survey & share your feedback.\nSCAN THIS QR CODE TO START\nor visit www.groceryoutlet.com/connect\n*********************************\nGrocery\nORGANIC DATE SYRUP 4.99 T F\nSPONGE 1.59 T F\nTORTILLAS 3.29 T F\nSoda\nGHOST WAR APPLE 2.29 T\nProduce\nSALAD TF GARDEN 2.79 T F\nFrozen\ntillamook Coffee a 2.99 T F\nDeli\nMG 2% MILK 1/2 GAL 4.58 T F\n2 @ 2.29\nMeat\nGRASS FED 93 GROUN 59.90 T F\n10 @ 5.99\n$1 Off Beef - Corp A -10.00\nBALANCE DUE 76.77\nSUB TOTAL 72.42\n6.000% Sales Tax 4.35\nTOTAL TAX 4.35\nTOTAL 76.77\nDebit Type :Debit Card $76.77\n[ ] XXXXXXXXXXXX8179\nAuth# 633024 Ref# 010464\n03/24/2026 14:54:20\nUS Debit Entry Method: Chip\nCARD #: XXXXXXXXXXXX8179\nPURCHASE - APPROVED\nAUTH CODE:633024\nMode: Issuer-PIN Verified\nAID: A0000000042203\nTVR: 0000048000\nIAD: 0110A0400122000000000000000000\n000FF\nTSI: E800",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ORGANIC DATE SYRUP",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "SPONGE",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.59
+    },
+    {
+      "text": "TORTILLAS + Soda",
+      "price": 3.29,
+      "quantity": 1,
+      "totalSpend": 3.29
+    },
+    {
+      "text": "GHOST WAR APPLE + Produce",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "SALAD TF GARDEN + Frozen",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "tillamook Coffee a + Deli",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "MG 2% MILK 1/2 GAL + 2 @ 2.29 + Meat",
+      "price": 2.29,
+      "quantity": 2,
+      "totalSpend": 4.58
+    },
+    {
+      "text": "GRASS FED 93 GROUN + 10 @ 5.99 + $1 Off Beef - Corp A -10.00",
+      "price": 5.99,
+      "quantity": 10,
+      "totalSpend": 59.9
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

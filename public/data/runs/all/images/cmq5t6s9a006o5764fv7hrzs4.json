@@ -1,0 +1,243 @@
+{
+  "id": "cmq5t6s9a006o5764fv7hrzs4",
+  "url": null,
+  "retailer": "Valley Grocery & Gas",
+  "brand": "f'real",
+  "amount": 4.49,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Valley Grocery & Gas",
+    "totalCost": "4.49",
+    "purchaseDate": "2026-06-08",
+    "time": null,
+    "zipCode": "99016",
+    "city": "Spokane Valley",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5242.162458000003,
+        "totalUsd": 0.013998,
+        "inputTokens": 6086,
+        "outputTokens": 541,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Valley Grocery & Gas",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:30:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "99016",
+          "status": "match"
+        },
+        "city": {
+          "value": "Spokane Valley",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "17128 E Sprague ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5589",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Valley Grocery & Gas\n17128 E Sprague ave\nSpokane Valley WA 99016\n\n06/08/26 3:30:51 PM\nRegister: 1 Trans #: 2327 Op ID: 1\nYour cashier: BJ\n\nFREAL\t$4.49 99\n-------------------------\nSubtotal = $4.49\nTax = $0.00\n-------------------------\nTotal = $4.49\n\nChange Due = $0.00\n\nDebit\t$4.49\n-------------------------\nXXXXXXXXXXXX5589 Debit\nINVOICE: 0371\nAUTH 653516 REF 0371\nFUNDING\nInsert\nSALE\nAID: A0000000980840\nUS DEBIT\nARQC 3241C6459106B2EB\nPIN VERIFIED\nNO SIGNATURE REQUIRED\n-------------------------",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9518.808333,
+        "totalUsd": 0.017319,
+        "inputTokens": 3692,
+        "outputTokens": 509,
+        "reasoningTokens": 800
+      },
+      "fields": {
+        "storeName": {
+          "value": "Valley Grocery & Gas",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:30:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "99016",
+          "status": "match"
+        },
+        "city": {
+          "value": "Spokane Valley",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "17128 E Sprague ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5589",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Valley Grocery & Gas\n17128 E Sprague ave\nSpokane Valley WA 99016\n\n06/08/26 3:30:51 PM\nRegister: 1 Trans #: 2327 Op ID: 1\nYour cashier: BJ\n\nFREAL $4.49 99\n-------------------\nSubtotal = $4.49\nTax = $0.00\n-------------------\nTotal = $4.49\n\nChange Due = $0.00\n\nDebit $4.49\n-------------------\nXXXXXXXXXXXX5589 Debit\nINVOICE: 0371\nAUTH 653516 REF 0371\nFUNDING\nInsert\nSALE\nAID: A0000000980840\nUS DEBIT\nARQC 3241C6459106B2EB\nPIN VERIFIED\nNO SIGNATURE REQUIRED",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3894.704750000001,
+        "totalUsd": 0.010056,
+        "inputTokens": 3692,
+        "outputTokens": 502,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Valley Grocery & Gas",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.49",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-08",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:30:51 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "99016",
+          "status": "match"
+        },
+        "city": {
+          "value": "Spokane Valley",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "17128 E Sprague ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5589",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Valley Grocery & Gas\n17128 E Sprague ave\nSpokane Valley WA 99016\n\n06/08/26 3:30:51 PM\nRegister: 1 Trans #: 2327 Op ID: 1\nYour cashier: BJ\n\nFREAL\n$4.49 99\n-------------------\nSubtotal = $4.49\nTax = $0.00\n-------------------\nTotal = $4.49\nChange Due = $0.00\nDebit\n$4.49\n-------------------\nXXXXXXXXXXXX5589 Debit\nINVOICE: 0371\nAUTH 653516 REF 0371\nFUNDING\nInsert\nSALE\nAID: A0000000980840\nUS DEBIT\nARQC 3241C6459106B2EB\nPIN VERIFIED\nNO SIGNATURE REQUIRED",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FREAL",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

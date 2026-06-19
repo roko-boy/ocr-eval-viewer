@@ -1,0 +1,270 @@
+{
+  "id": "cmn81w6kx0001tx90r7l6sehs",
+  "url": null,
+  "retailer": "Harris Teeter",
+  "brand": "a2 Milk®",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Harris Teeter",
+    "totalCost": "8.65",
+    "purchaseDate": "2026-03-26",
+    "time": null,
+    "zipCode": "29412",
+    "city": "Charleston",
+    "state": "SC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6785.430999999982,
+        "totalUsd": 0.016968,
+        "inputTokens": 6086,
+        "outputTokens": 871,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Harris Teeter",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:37pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Charleston",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1739 Maybank",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4302",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "THE A2 WHOLE MI + SC 1956 THE A2 WHOLE MI + PRICE YOU PAY",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KENS DRS RUSSIA",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Harris Teeter\nYOUR NEIGHBORHOOD MARKET\nSTORE # 455\n1739 Maybank - Charleston, SC\n(843) 795-9091\nSTORE MANAGER: Scott S*pringston\nYOUR CASHIER : CHEC 504\nTHE A2 WHOLE MI PC 5.19 B\nSC 1956 THE A2 WHOLE MI 0.70-B\nPRICE YOU PAY 4.49\nKENS DRS RUSSIA 3.99 B\nVIC CUSTOMER 46800908952\nSC FUEL POINTS\nTAX 0.17\n**** BALANCE 8.65\nUS DEBIT Purchase\n************4302 - H\nREF#: 018696 TOTAL: 8.65\nPURCHASE: 8.65 CASHBACK: 0.00\nAID: A0000000980840\nTC: 41B82AB28E4F2B2C\nVERIFIED BY PIN\nDEBIT 8.65\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n************ VIC SAVINGS ************\nVIC SAVINGS $ 0.70\nTOTAL COUPONS $ 0.70\nTOTAL SAVINGS (7 %) $ 0.70\n************ VIC SAVINGS ************\n03/26/26 05:37pm 455 504 125 999999504\n*************************************\nMAR FUEL POINTS*\nREDEEM 100PTS TO SAVE .10 PER GAL.\nON ONE PURCHASE OF UP TO 35 GAL.\nSAVE UP TO $1 PER GAL AT HARRIS\nTEETER FUEL CENTERS ON 1 FILL-UP.\n*************************************\nFUEL POINTS THIS ORDER =8\nFUEL POINTS THIS MONTH =90\n*************************************\nTHIS MONTHS POINTS EXPIRE 4/30/26.\nVISIT WWW.HARRISTEETER.COM FOR DETAILS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 21771.01608299999,
+        "totalUsd": 0.027597,
+        "inputTokens": 3692,
+        "outputTokens": 873,
+        "reasoningTokens": 1578
+      },
+      "fields": {
+        "storeName": {
+          "value": "Harris Teeter",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:37pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Charleston",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1739 Maybank",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4302",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "THE A2 WHOLE MI + SC 1956 THE A2 WHOLE MI",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KENS DRS RUSSIA + VIC CUSTOMER 46800908952",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Harris Teeter\nYOUR NEIGHBORHOOD MARKET\nSTORE # 455\n1739 Maybank - Charleston, SC\n(843) 795-9091\nSTORE MANAGER: Scott S*pringston\nYOUR CASHIER : CHEC 504\nTHE A2 WHOLE MI PC 5.19 B\nSC 1956 THE A2 WHOLE MI 0.70-B\nPRICE YOU PAY 4.49\nKENS DRS RUSSIA 3.99 B\nVIC CUSTOMER 46800908952\nSC FUEL POINTS\nTAX 0.17\n**** BALANCE 8.65\nUS DEBIT Purchase\n************4302 - H\nREF#: 018696 TOTAL: 8.65\nPURCHASE: 8.65 CASHBACK: 0.00\nAID: A0000000980840\nTC: 41B82AB28E4F2B2C\nVERIFIED BY PIN\nDEBIT 8.65\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n************ VIC SAVINGS ************\nVIC SAVINGS $ 0.70\nTOTAL COUPONS $ 0.70\nTOTAL SAVINGS (7 %) $ 0.70\n************ VIC SAVINGS ************\n03/26/26 05:37pm 455 504 125 999999504\n*************************************\nMAR FUEL POINTS*\nREDEEM 100PTS TO SAVE .10 PER GAL.\nON ONE PURCHASE OF UP TO 35 GAL.\nSAVE UP TO $1 PER GAL AT HARRIS\nTEETER FUEL CENTERS ON 1 FILL-UP.\n*************************************\nFUEL POINTS THIS ORDER =8\nFUEL POINTS THIS MONTH =90\n*************************************\nTHIS MONTHS POINTS EXPIRE 4/30/26.\nVISIT WWW.HARRISTEETER.COM FOR DETAILS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6342.551000000007,
+        "totalUsd": 0.013305,
+        "inputTokens": 3692,
+        "outputTokens": 863,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Harris Teeter",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.65",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:37pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "",
+          "status": "missing"
+        },
+        "city": {
+          "value": "Charleston",
+          "status": "match"
+        },
+        "state": {
+          "value": "SC",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1739 Maybank",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4302",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "THE A2 WHOLE MI + SC 1956 THE A2 WHOLE MI",
+          "quantity": 1,
+          "unitPrice": 5.19,
+          "totalSpend": 4.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KENS DRS RUSSIA",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Harris Teeter\nYOUR NEIGHBORHOOD MARKET\nSTORE # 455\n1739 Maybank - Charleston, SC\n(843) 795-9091\nSTORE MANAGER: Scott S*pringston\nYOUR CASHIER : CHEC 504\nTHE A2 WHOLE MI PC 5.19 B\nSC 1956 THE A2 WHOLE MI 0.70-B\nPRICE YOU PAY 4.49\nKENS DRS RUSSIA 3.99 B\nVIC CUSTOMER 46800908952\nSC FUEL POINTS\nTAX 0.17\n**** BALANCE 8.65\nUS DEBIT Purchase\n************4302 - H\nREF#: 018696 TOTAL: 8.65\nPURCHASE: 8.65 CASHBACK: 0.00\nAID: A0000000980840\nTC: 41B82AB28E4F2B2C\nVERIFIED BY PIN\nDEBIT 8.65\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n************ VIC SAVINGS ************\nVIC SAVINGS $ 0.70\nTOTAL COUPONS $ 0.70\nTOTAL SAVINGS (7 %) $ 0.70\n************ VIC SAVINGS ************\n03/26/26 05:37pm 455 504 125 999999504\n*************************************\nMAR FUEL POINTS*\nREDEEM 100PTS TO SAVE .10 PER GAL.\nON ONE PURCHASE OF UP TO 35 GAL.\nSAVE UP TO $1 PER GAL AT HARRIS\nTEETER FUEL CENTERS ON 1 FILL-UP.\n*************************************\nFUEL POINTS THIS ORDER =8\nFUEL POINTS THIS MONTH =90\n*************************************\nTHIS MONTHS POINTS EXPIRE 4/30/26.\nVISIT WWW.HARRISTEETER.COM FOR DETAILS",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "THE A2 WHOLE MI",
+      "price": 5.19,
+      "quantity": 1,
+      "totalSpend": 5.19
+    },
+    {
+      "text": "KENS DRS RUSSIA + 46800908952 + SC FUEL POINTS",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

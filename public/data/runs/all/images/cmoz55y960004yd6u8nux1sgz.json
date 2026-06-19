@@ -1,0 +1,432 @@
+{
+  "id": "cmoz55y960004yd6u8nux1sgz",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Dr. Praeger's ",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "34.39",
+    "purchaseDate": "2026-05-09",
+    "time": null,
+    "zipCode": "81505",
+    "city": "Grand Junction",
+    "state": "CO",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12996.66825,
+        "totalUsd": 0.0206655,
+        "inputTokens": 6163,
+        "outputTokens": 1269,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:15 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "81505-1103",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Grand Junction",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2424 Highway 6 and 50 Ste C",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5048",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "270022456 DR PRAEGERS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "270022082 DR PRAEGERS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271750436 TRIP MINDFUL",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271750009 TRIP",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "270065965 Wow Bao",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "082025618 OathNutrtion",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003023616 Biom + Regular Price $4.99 + Buy1Get1 20%off",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.82,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003026532 Biom + Regular Price $4.99 + Buy1Get1 20%off",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.82,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Grand Junction - 970-245-8056\n2424 Highway 6 and 50 Ste C\nGrand Junction, Colorado 81505-1103\n05/09/2026 08:15 PM\nGROCERY\n270022456 DR PRAEGERS NF $4.99\n270022082 DR PRAEGERS NF $4.99\n271750436 TRIP MINDFUL BF $2.79\n271750009 TRIP TF $2.79\n270065965 Wow Bao NF $6.99\nHEALTH AND BEAUTY\n082025618 OathNutrtion B $2.99\nLAUNDRY CLEANING AND CLOSET\n003023616 Biom T $3.82\nRegular Price $4.99\nBuy1Get1 20%off\n003026532 Biom T $3.82\nRegular Price $4.99\nBuy1Get1 20%off\nSUBTOTAL $33.18\nT = CO TAX 8.66000 on $10.43 $0.90\nB = CO TAX 5.27000 on $5.78 $0.31\nTOTAL $34.39\n*5048 MASTERCARD CHARGE $34.39\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 05116S\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15399.512875,
+        "totalUsd": 0.024537,
+        "inputTokens": 3692,
+        "outputTokens": 1258,
+        "reasoningTokens": 853
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:15 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "81505-1103",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Grand Junction",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2424 Highway 6 and 50 Ste C",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5048",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "270022456 DR PRAEGERS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "270022082 DR PRAEGERS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271750436 TRIP MINDFUL",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "271750009 TRIP",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "270065965 Wow Bao",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "082025618 OathNutrtion",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003023616 Biom + Regular Price $4.99 + Buy1Get1 20%off",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.82,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "003026532 Biom + Regular Price $4.99 + Buy1Get1 20%off",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.82,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Grand Junction - 970-245-8056\n2424 Highway 6 and 50 Ste C\nGrand Junction, Colorado 81505-1103\n05/09/2026 08:15 PM\nGROCERY\n270022456 DR PRAEGERS NF $4.99\n270022082 DR PRAEGERS NF $4.99\n271750436 TRIP MINDFUL BF $2.79\n271750009 TRIP TF $2.79\n270065965 Wow Bao NF $6.99\nHEALTH AND BEAUTY\n082025618 OathNutrtion B $2.99\nLAUNDRY CLEANING AND CLOSET\n003023616 Biom T $3.82\nRegular Price $4.99\nBuy1Get1 20%off\n003026532 Biom T $3.82\nRegular Price $4.99\nBuy1Get1 20%off\nSUBTOTAL $33.18\nT = CO TAX 8.66000 on $10.43 $0.90\nB = CO TAX 5.27000 on $5.78 $0.31\nTOTAL $34.39\n*5048 MASTERCARD CHARGE $34.39\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 05116S\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6587.667,
+        "totalUsd": 0.017031,
+        "inputTokens": 3692,
+        "outputTokens": 1277,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.39",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:15 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "81505-1103",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Grand Junction",
+          "status": "match"
+        },
+        "state": {
+          "value": "CO",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2424 Highway 6 and 50 Ste C",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5048",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DR PRAEGERS + 270022456",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DR PRAEGERS + 270022082",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRIP MINDFUL + 271750436",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TRIP + 271750009",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Wow Bao + 270065965",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OathNutrtion + 082025618",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Biom + 003023616 + Regular Price $4.99 + Buy1Get1 20%off",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.82,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Biom + 003026532 + Regular Price $4.99 + Buy1Get1 20%off",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.82,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Grand Junction - 970-245-8056\n2424 Highway 6 and 50 Ste C\nGrand Junction, Colorado 81505-1103\n05/09/2026 08:15 PM\nGROCERY\n270022456 DR PRAEGERS NF $4.99\n270022082 DR PRAEGERS NF $4.99\n271750436 TRIP MINDFUL BF $2.79\n271750009 TRIP TF $2.79\n270065965 Wow Bao NF $6.99\nHEALTH AND BEAUTY\n082025618 OathNutrtion B $2.99\nLAUNDRY CLEANING AND CLOSET\n003023616 Biom T $3.82\nRegular Price $4.99\nBuy1Get1 20%off\n003026532 Biom T $3.82\nRegular Price $4.99\nBuy1Get1 20%off\nSUBTOTAL $33.18\nT = CO TAX 8.66000 on $10.43 $0.90\nB = CO TAX 5.27000 on $5.78 $0.31\nTOTAL $34.39\n*5048 MASTERCARD CHARGE $34.39\nAID: A0000000041010\nMASTERCARD\nAUTH CODE: 05116S\nWHEN YOU RETURN ANY ITEM, YOUR\nRETURN CREDIT WILL NOT INCLUDE ANY\nPROMOTIONAL DISCOUNT OR COUPON\nAPPLIED TO THE ORIGINAL ORDER.\nYOU'RE SHOPPING SMARTER WITH\nTARGET CIRCLE\nIf you've unlocked a partnership perk\nwith this purchase, you may get an\nemail. Visit Target.com/Circle to see\ndetails and all of your benefits.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "DR PRAEGERS + 270022456",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "DR PRAEGERS + 270022082",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "TRIP MINDFUL + 271750436",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "TRIP + 271750009",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "Wow Bao + 270065965 + HEALTH AND BEAUTY",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "OathNutrtion + 082025618 + LAUNDRY CLEANING AND CLOSET",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "Biom + 003023616 + Regular Price $4.99",
+      "price": 3.82,
+      "quantity": 1,
+      "totalSpend": 3.82
+    },
+    {
+      "text": "Biom + 003026532 + Regular Price $4.99",
+      "price": 3.82,
+      "quantity": 1,
+      "totalSpend": 3.82
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

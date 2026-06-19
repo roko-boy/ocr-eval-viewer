@@ -1,0 +1,282 @@
+{
+  "id": "cmnmj14g100lx6xahqpyx30vn",
+  "url": null,
+  "retailer": "ShopRite",
+  "brand": "Hop Wtr",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "93.54",
+    "purchaseDate": "2026-04-02",
+    "time": null,
+    "zipCode": "21093",
+    "city": "Lutherville-Timonium",
+    "state": "MD",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5984.798666999995,
+        "totalUsd": 0.013167,
+        "inputTokens": 6114,
+        "outputTokens": 444,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "93.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:30pm-6:00pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Sunnyside Fresh + Sunnyside Fresh Butternut Squash, 20 oz",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Fresh + Fresh Organic Leeks, bunch",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "9:41\nOrder Details\nOrder #67022415\nCompleted\nPickup\nPickup Time April 2, 2026 5:30pm-6:00pm\nOrder Total $93.54\nReport an Issue\nItems Ordered\nSelect All Items\nProduce\nItem was replaced with Fresh Butternut Squash\nSunnyside Fresh\nSunnyside Fresh Butternut Squash, 20 oz\n$3.99\nQty: 1\nAllow substitution\n$3.99\n$0.26/oz\nFulfilled\nFresh\nFresh Organic Leeks, bunch\n$4.99\nQty: 1\nHome\nShop Aisles\nCart\nWeekly Ad\nMore",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8935.511832999997,
+        "totalUsd": 0.015639,
+        "inputTokens": 3706,
+        "outputTokens": 435,
+        "reasoningTokens": 685
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "93.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:30pm-6:00pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Sunnyside Fresh + Sunnyside Fresh Butternut Squash, 20 oz",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Fresh + Fresh Organic Leeks, bunch",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "9:41\nOrder Details\nOrder #67022415\nCompleted\nPickup\nPickup Time April 2, 2026 5:30pm-6:00pm\nOrder Total $93.54\nReport an Issue\nItems Ordered\nSelect All Items\nProduce\nItem was replaced with Fresh Butternut Squash\nSunnyside Fresh\nSunnyside Fresh Butternut Squash, 20\nOZ\n$3.99\nQty: 1\nAllow substitution\n$3.99\n$0.26/oz\nFulfilled\nFresh\nFresh Organic Leeks, bunch\n$4.99\nQty: 1\nHome\nShop Aisles\nCart\nWeekly Ad\nMore",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3791.876166000002,
+        "totalUsd": 0.009311999999999999,
+        "inputTokens": 3706,
+        "outputTokens": 417,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "93.54",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-02",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Sunnyside Fresh + Sunnyside Fresh Butternut Squash, 20 oz",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Fresh + Fresh Organic Leeks, bunch",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "9:41\nOrder Details\nOrder #67022415\nCompleted\nPickup\nPickup Time April 2, 2026 5:30pm-6:00pm\nOrder Total $93.54\nReport an Issue\nItems Ordered\nSelect All Items\nProduce\nItem was replaced with Fresh Butternut Squash\nSunnyside Fresh\nSunnyside Fresh Butternut Squash, 20\nOZ\n$3.99\nQty: 1\nAllow substitution\n$3.99\n$0.26/oz\nFulfilled\nFresh\nFresh Organic Leeks, bunch\n$4.99\nQty: 1\nHome\nShop Aisles\nCart\nWeekly Ad\nMore",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Order Total $93.54",
+      "price": 93.54,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Sunnyside Fresh $3.99",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "$3.99 $0.26/oz",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Fresh $4.99",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

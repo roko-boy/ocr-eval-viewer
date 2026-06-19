@@ -1,0 +1,540 @@
+{
+  "id": "cmn6jk7se00sibrm1csdef9hc",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "N!CK'S",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "82.6",
+    "purchaseDate": "2026-03-25",
+    "time": null,
+    "zipCode": "08540",
+    "city": "Princeton",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 17413.93400099996,
+        "totalUsd": 0.02415,
+        "inputTokens": 6086,
+        "outputTokens": 1669,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "82.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08540",
+          "status": "match"
+        },
+        "city": {
+          "value": "Princeton",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3495 US Highway 1",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0414",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PARTKE CONFETTI CKIE 10CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLKBRD CHS MINI PZA 4CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLKBRD PPRRNI MNI PZA 4CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN RSMRY GRLC FRIES",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN CLSSC SSLT FRIES",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MSFTS PNTBTR FDG PRTN BAR + Reg $2.99 + Savings with Prime ($0.99)",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MSFTS CKIE BTTR PRTN BAR + Reg $2.99 + Savings with Prime ($0.99)",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG HNY CLSTRBUCKS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG EVRTG CLSTRBCKS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCYBCO SLTD CRML COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCYBCO CHOC CHIP COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WLDSNK PNK SLT CHKN CHPS",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nPrinceton PRN 609-799-2919\n3495 US Highway 1\nPrinceton, NJ 08540 5933\nPARTKE CONFETTI CKIE 10CT $8.99 F\nBLKBRD CHS MINI PZA 4CT $8.99 F\nBLKBRD PPRRNI MNI PZA 4CT $8.99 F\nJESBEN RSMRY GRLC FRIES $8.99 F\nJESBEN CLSSC SSLT FRIES $8.99 F\nMSFTS PNTBTR FDG PRTN BAR $2.00 F\nReg $2.99\nSavings with Prime ($0.99)\nMSFTS CKIE BTTR PRTN BAR $2.00 F\nReg $2.99\nSavings with Prime ($0.99)\nLILBUK OG HNY CLSTRBUCKS $6.99 F\nLILBUK OG EVRTG CLSTRBCKS $6.99 F\nFCYBCO SLTD CRML COOKIE $5.99 F\nFCYBCO CHOC CHIP COOKIE $5.99 F\nWLDSNK PNK SLT CHKN CHPS $7.69 F\nSubtotal: $84.58\nTotal Savings: -$1.98\nNet Sales: $82.60\nTotal: $82.60\nSold Items: 12\nPaid:\nDebit *0414 $82.60\nChip Card:US DEBIT\nChip Card AID:A0000000980840\n****************************************\nYour Total Savings\n$1.98\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n901 36408 03/25/2026 05:09 PM\n63011018790136408032520260\nY1ZUX8D26R",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12296.66650000005,
+        "totalUsd": 0.03054,
+        "inputTokens": 3692,
+        "outputTokens": 1665,
+        "reasoningTokens": 1113
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "82.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08540",
+          "status": "match"
+        },
+        "city": {
+          "value": "Princeton",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3495 US Highway 1",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0414",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PARTKE CONFETTI CKIE 10CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLKBRD CHS MINI PZA 4CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLKBRD PPRRNI MNI PZA 4CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN RSMRY GRLC FRIES",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN CLSSC SSLT FRIES",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MSFTS PNTBTR FDG PRTN BAR + Reg $2.99 + Savings with Prime ($0.99)",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MSFTS CKIE BTTR PRTN BAR + Reg $2.99 + Savings with Prime ($0.99)",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG HNY CLSTRBUCKS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG EVRTG CLSTRBCKS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCYBCO SLTD CRML COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCYBCO CHOC CHIP COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WLDSNK PNK SLT CHKN CHPS",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nPrinceton PRN 609-799-2199\n3495 US Highway 1\nPrinceton, NJ 08540 5933\nPARTKE CONFETTI CKIE 10CT $8.99 F\nBLKBRD CHS MINI PZA 4CT $8.99 F\nBLKBRD PPRRNI MNI PZA 4CT $8.99 F\nJESBEN RSMRY GRLC FRIES $8.99 F\nJESBEN CLSSC SSLT FRIES $8.99 F\nMSFTS PNTBTR FDG PRTN BAR $2.00 F\nReg $2.99\nSavings with Prime ($0.99)\nMSFTS CKIE BTTR PRTN BAR $2.00 F\nReg $2.99\nSavings with Prime ($0.99)\nLILBUK OG HNY CLSTRBUCKS $6.99 F\nLILBUK OG EVRTG CLSTRBCKS $6.99 F\nFCYBCO SLTD CRML COOKIE $5.99 F\nFCYBCO CHOC CHIP COOKIE $5.99 F\nWLDSNK PNK SLT CHKN CHPS $7.69 F\nSubtotal: $84.58\nTotal Savings: -$1.98\nNet Sales: $82.60\nTotal: $82.60\nSold Items: 12\nPaid:\nDebit *0414 $82.60\nChip Card:US DEBIT\nChip Card AID:A0000000980840\n****************************************\nYour Total Savings\n$1.98\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n901 36408 03/25/2026 05:09 PM\n63011018790136408032520260\nY1ZUX8D26R",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8083.260291999992,
+        "totalUsd": 0.020388,
+        "inputTokens": 3692,
+        "outputTokens": 1650,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "82.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-25",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "08540",
+          "status": "match"
+        },
+        "city": {
+          "value": "Princeton",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3495 US Highway 1",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0414",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PARTKE CONFETTI CKIE 10CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLKBRD CHS MINI PZA 4CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLKBRD PPRRNI MNI PZA 4CT",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN RSMRY GRLC FRIES",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN CLSSC SSLT FRIES",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MSFTS PNTBTR FDG PRTN BAR + Savings with Prime ($0.99)",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "MSFTS CKIE BTTR PRTN BAR + Savings with Prime ($0.99)",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LILBUK OG HNY CLSTRBUCKS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LILBUK OG EVRTG CLSTRBCKS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCYBCO SLTD CRML COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FCYBCO CHOC CHIP COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WLDSNK PNK SLT CHKN CHPS",
+          "quantity": 1,
+          "unitPrice": 7.69,
+          "totalSpend": 7.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nPrinceton PRN 609-799-2919\n3495 US Highway 1\nPrinceton, NJ 08540 5933\nPARTKE CONFETTI CKIE 10CT $8.99 F\nBLKBRD CHS MINI PZA 4CT $8.99 F\nBLKBRD PPRRNI MNI PZA 4CT $8.99 F\nJESBEN RSMRY GRLC FRIES $8.99 F\nJESBEN CLSSC SSLT FRIES $8.99 F\nMSFTS PNTBTR FDG PRTN BAR $2.00 F\nReg $2.99\nSavings with Prime ($0.99)\nMSFTS CKIE BTTR PRTN BAR $2.00 F\nReg $2.99\nSavings with Prime ($0.99)\nLILBUK OG HNY CLSTRBUCKS $6.99 F\nLILBUK OG EVRTG CLSTRBCKS $6.99 F\nFCYBCO SLTD CRML COOKIE $5.99 F\nFCYBCO CHOC CHIP COOKIE $5.99 F\nWLDSNK PNK SLT CHKN CHPS $7.69 F\nSubtotal: $84.58\nTotal Savings: -$1.98\nNet Sales: $82.60\nTotal: $82.60\nSold Items: 12\nPaid:\nDebit *0414 $82.60\nChip Card:US DEBIT\nChip Card AID:A0000000980840\n****************************************\nYour Total Savings\n$1.98\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n901 36408 03/25/2026 05:09 PM\n63011018790136408032520260\nY1ZUX8D26R",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PARTKE CONFETTI CKIE 10CT",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "BLKBRD CHS MINI PZA 4CT",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "BLKBRD PPRRNI MNI PZA 4CT",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "JESBEN RSMRY GRLC FRIES",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "JESBEN CLSSC SSLT FRIES",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "MSFTS PNTBTR FDG PRTN BAR + Reg $2.99 + Savings with Prime ($0.99)",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "MSFTS CKIE BTTR PRTN BAR + Reg $2.99 + Savings with Prime ($0.99)",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    },
+    {
+      "text": "LILBUK OG HNY CLSTRBUCKS",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "LILBUK OG EVRTG CLSTRBCKS",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "FCYBCO SLTD CRML COOKIE",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "FCYBCO CHOC CHIP COOKIE",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "WLDSNK PNK SLT CHKN CHPS",
+      "price": 7.69,
+      "quantity": 1,
+      "totalSpend": 7.69
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

@@ -1,0 +1,438 @@
+{
+  "id": "cmn9ksy0t00j8hhg8qs6axdbr",
+  "url": null,
+  "retailer": "Unknown",
+  "brand": "Sunsweet Growers Inc",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": null,
+    "totalCost": null,
+    "purchaseDate": "2026-03-27",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16315.45000000001,
+        "totalUsd": 0.021582,
+        "inputTokens": 6168,
+        "outputTokens": 1370,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "4.33",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ginger Root (~ 0.21 lb) + Adjustment: 0.21 lb -> 0.31 lb + 0.31 lb x $3.99",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.24,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Lifeway Kefir, Plain Unsweetened (plain) + 2 x $3.99 + Sale savings: $1.40",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lemon (2 lb) + 1 x $2.99 + Sale savings: $1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Garlic (1 each) + 2 x $0.89",
+          "quantity": 2,
+          "unitPrice": 0.89,
+          "totalSpend": 1.78,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Avocado (1 each) + 3 x $1.09 + Sale savings: $2.70",
+          "quantity": 3,
+          "unitPrice": 1.99,
+          "totalSpend": 3.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Chiquita Bananas (~ 0.4 lb) + 2.69 lb x $0.59",
+          "quantity": 1,
+          "unitPrice": 0.59,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Sunsweet Prunes, Pitted (9 oz) + 1 x $3.99 + Sale savings: $2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Mauna Loa Hawaiian Sea Salt Macadamia Nuts Snack Mac (1 oz) + 1 x $1.99 + Get 1 for free",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "instacart\nBrandy delivered your order\nYour order from Meijer was placed on March 23rd, 2026 and delivered on March 27th, 2026 at 2:46 PM\n7 Items Found\n1 Adjustment\nADJUSTMENTS (MEIJER)\nWEIGHT ADJUSTMENTS\nGinger Root (~ 0.21 lb)\n$3.99\nAdjustment: 0.21 lb -> 0.31 lb\n0.31 lb x $3.99\n$0.85\n$1.24\nITEMS FOUND (MEIJER)\nDAIRY & EGGS\nLifeway Kefir, Plain Unsweetened (plain)\n2 x $3.99\n✓ Sale savings: $1.40\n$9.38\n$7.98\nPRODUCE\nLemon (2 lb)\n1 x $2.99\n✓ Sale savings: $1.00\n$3.99\n$2.99\nGarlic (1 each)\n2 x $0.89\n$1.78\nAvocado (1 each)\n3 x $1.09\n✓ Sale savings: $2.70\n$5.97\n$3.27\nChiquita Bananas (~ 0.4 lb)\n2.69 lb x $0.59\n$1.59\nSNACKS\nSunsweet Prunes, Pitted (9 oz)\n1 x $3.99\n✓ Sale savings: $2.00\n$5.99\n$3.99\nSPECIAL REQUEST\nMauna Loa Hawaiian Sea Salt Macadamia Nuts Snack Mac (1 oz)\n1 x $1.99\n✓ Get 1 for free\n$1.99\n$0.00\nORDER TOTALS\nItems Subtotal\n$22.84\nTip\n$1.00\nService Fee\n$2.49\nMastercard Card Credits\n-$20.00\nScheduled delivery discount\n-$2.00\nTotal\n$4.33\nInstacart+ Member $0 Delivery!\nYou saved\n$31.09\nSavings from Instacart Coupons\n$1.99\nCHARGES\nInstacart credits\nOriginal charge\n$28.93\nLearn more\nRefund\n-$24.60\nLearn more\nTotal charged\n$4.33\nView Rating\nGet help",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18774.14150000003,
+        "totalUsd": 0.0465045,
+        "inputTokens": 3733,
+        "outputTokens": 1360,
+        "reasoningTokens": 3185
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "4.33",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "mismatch"
+        },
+        "time": {
+          "value": "2:46 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ginger Root (~ 0.21 lb) + Adjustment: 0.21 lb -> 0.31 lb + 0.31 lb x $3.99",
+          "quantity": 1,
+          "unitPrice": 1.24,
+          "totalSpend": 1.24,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Lifeway Kefir, Plain Unsweetened (plain) + 2 x $3.99 + Sale savings: $1.40",
+          "quantity": 2,
+          "unitPrice": 4.69,
+          "totalSpend": 7.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lemon (2 lb) + 1 x $2.99 + Sale savings: $1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Garlic (1 each) + 2 x $0.89",
+          "quantity": 2,
+          "unitPrice": 0.89,
+          "totalSpend": 1.78,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Avocado (1 each) + 3 x $1.09 + Sale savings: $2.70",
+          "quantity": 3,
+          "unitPrice": 1.99,
+          "totalSpend": 3.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Chiquita Bananas (~ 0.4 lb) + 2.69 lb x $0.59",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Sunsweet Prunes, Pitted (9 oz) + 1 x $3.99 + Sale savings: $2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Mauna Loa Hawaiian Sea Salt Macadamia Nuts Snack Mac (1 oz) + 1 x $1.99 + Get 1 for free",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "instacart\nBrandy delivered your order\nYour order from Meijer was placed on March 23rd, 2026 and delivered on\nMarch 27th, 2026 at 2:46 PM\n7 Items Found\n1 Adjustment\nADJUSTMENTS (MEIJER)\n1\nWEIGHT ADJUSTMENTS\nGinger Root (~ 0.21 lb)\n$3.99\nAdjustment: 0.21 lb -> 0.31 lb\n0.31 lb x $3.99\n$0.85\n$1.24\nITEMS FOUND (MEIJER)\n7\nDAIRY & EGGS\nLifeway Kefir, Plain Unsweetened (plain)\n2 x $3.99\n✓ Sale savings: $1.40\n$9.38\n$7.98\nPRODUCE\nLemon (2 lb)\n1 x $2.99\n✓ Sale savings: $1.00\n$3.99\n$2.99\nGarlic (1 each)\n2 x $0.89\n$1.78\nAvocado (1 each)\n3 x $1.09\n✓ Sale savings: $2.70\n$5.97\n$3.27\nChiquita Bananas (~ 0.4 lb)\n2.69 lb x $0.59\n$1.59\nSNACKS\nSunsweet Prunes, Pitted (9 oz)\n1 x $3.99\n✓ Sale savings: $2.00\n$5.99\n$3.99\nSPECIAL REQUEST\nMauna Loa Hawaiian Sea Salt Macadamia Nuts Snack Mac\n(1 oz)\n1 x $1.99\n✓ Get 1 for free\n$1.99\n$0.00\nORDER TOTALS\nItems Subtotal $22.84\nTip $1.00\nService Fee $2.49\nMastercard Card Credits -$20.00\nScheduled delivery discount -$2.00\nTotal $4.33\nInstacart+ Member $0 Delivery!\nYou saved $31.09\nSavings from Instacart Coupons $1.99\nCHARGES Instacart credits\nOriginal charge $28.93\nLearn more\nRefund -$24.60\nLearn more\nTotal charged $4.33\nView Rating\nGet help",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7403.416375000001,
+        "totalUsd": 0.0173715,
+        "inputTokens": 3733,
+        "outputTokens": 1308,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "no-truth"
+        },
+        "totalCost": {
+          "value": "4.33",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": "2:46 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "2026-03-27",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Ginger Root (~ 0.21 lb) + Adjustment: 0.21 lb -> 0.31 lb",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.24,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Lifeway Kefir, Plain Unsweetened (plain) + Sale savings: $1.40",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "totalSpend": 7.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Lemon (2 lb) + Sale savings: $1.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Garlic (1 each)",
+          "quantity": 2,
+          "unitPrice": 0.89,
+          "totalSpend": 1.78,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Avocado (1 each) + Sale savings: $2.70",
+          "quantity": 3,
+          "unitPrice": 1.99,
+          "totalSpend": 3.27,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Chiquita Bananas (~ 0.4 lb)",
+          "quantity": 1,
+          "unitPrice": 0.59,
+          "totalSpend": 1.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Sunsweet Prunes, Pitted (9 oz) + Sale savings: $2.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Mauna Loa Hawaiian Sea Salt Macadamia Nuts Snack Mac (1 oz) + Get 1 for free",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "instacart\nBrandy delivered your order\nYour order from Meijer was placed on March 23rd, 2026 and delivered on March 27th, 2026 at 2:46 PM\n7 Items Found\n1 Adjustment\nADJUSTMENTS (MEIJER)\n1\nWEIGHT ADJUSTMENTS\nGinger Root (~ 0.21 lb)\n$3.99\nAdjustment: 0.21 lb -> 0.31 lb\n0.31 lb x $3.99\n$0.85\n$1.24\nITEMS FOUND (MEIJER)\n7\nDAIRY & EGGS\nLifeway Kefir, Plain Unsweetened (plain)\n2 x $3.99\n✓ Sale savings: $1.40\n$9.38\n$7.98\nPRODUCE\nLemon (2 lb)\n1 x $2.99\n✓ Sale savings: $1.00\n$3.99\n$2.99\nGarlic (1 each)\n2 x $0.89\n$1.78\nAvocado (1 each)\n3 x $1.09\n✓ Sale savings: $2.70\n$5.97\n$3.27\nChiquita Bananas (~ 0.4 lb)\n2.69 lb x $0.59\n$1.59\nSNACKS\nSunsweet Prunes, Pitted (9 oz)\n1 x $3.99\n✓ Sale savings: $2.00\n$5.99\n$3.99\nSPECIAL REQUEST\nMauna Loa Hawaiian Sea Salt Macadamia Nuts Snack Mac\n(1 oz)\n1 x $1.99\n✓ Get 1 for free\n$1.99\n$0.00\nORDER TOTALS\nItems Subtotal\n$22.84\nTip\n$1.00\nService Fee\n$2.49\nMastercard Card Credits\n-$20.00\nScheduled delivery discount\n-$2.00\nTotal\n$4.33\nInstacart+ Member $0 Delivery!\nYou saved\n$31.09\nSavings from Instacart Coupons\n$1.99\nCHARGES\nInstacart credits\nOriginal charge\n$28.93\nLearn more\nRefund\n-$24.60\nLearn more\nTotal charged\n$4.33\nView Rating\nGet help",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Ginger Root(-021 lb) + VVEIGHT AD|USTMENTS + $399",
+      "price": 0.85,
+      "quantity": 1,
+      "totalSpend": 0.85
+    },
+    {
+      "text": "031 lbx",
+      "price": 1.24,
+      "quantity": 1,
+      "totalSpend": 1.24
+    },
+    {
+      "text": "Lifeway Kefir, Plain Unsweetened ptain) + = 2x $399 $7.98 + VSaesavings $140 + PRODUCE",
+      "price": 9.38,
+      "quantity": 1,
+      "totalSpend": 9.38
+    },
+    {
+      "text": "Lemon (2lb) + PRODUCE + 1x$2.99 $2.99 + Salesavings: $1.00",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "Gar ic C1 eachO + C 2x $089",
+      "price": 0.89,
+      "quantity": 2,
+      "totalSpend": 1.78
+    },
+    {
+      "text": "Avocado (1 each) + G 3x$1.09 $3.27 + Sa esavings: $270",
+      "price": 1.09,
+      "quantity": 3,
+      "totalSpend": 5.97
+    },
+    {
+      "text": "Chiquita Bananas(-04Ib) + 2.69lbx $0.59",
+      "price": 1.59,
+      "quantity": 1,
+      "totalSpend": 1.59
+    },
+    {
+      "text": "Sunsweet Prunes, Pitted C9oz) + SNACKS + 1x $399 $3.99 + Saesavings: $200",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "Mauna Loa Hawaian Sea Salt Macadamia NutsSnack Mac + 1x$1.99 $0.00 + V Getifortee",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

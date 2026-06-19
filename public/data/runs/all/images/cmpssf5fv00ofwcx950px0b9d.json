@@ -1,0 +1,378 @@
+{
+  "id": "cmpssf5fv00ofwcx950px0b9d",
+  "url": null,
+  "retailer": "Publix Super Market at Hillsboro Plaza",
+  "brand": "Pepsi Food Service",
+  "amount": 2.89,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "9.89",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "33614",
+    "city": "Tampa",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9255.825458999956,
+        "totalUsd": 0.015969,
+        "inputTokens": 6086,
+        "outputTokens": 760,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33614",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "2724 W Hillsborough Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI ZERO 20OZ",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI ZERO 20OZ",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TENA PADS + DC TENA",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 2.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CILANTRO",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADOS GREEN + Promotion",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBER HOT HOUSE + Club Publix Perk",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": -1,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\nHillsboro Plaza\n2724 W Hillsborough Ave\nTampa, FL 33614\nStore Manager: Pete\n813-873-8900\n\nPEPSI ZERO 20OZ 2.89 T\nPEPSI ZERO 20OZ 2.89 T\nTENA PADS 6.59 H\nCILANTRO 1.49 F\nAVOCADOS GREEN\n2 @ 3.49 6.98 F\nPromotion -3.49 F\nCUCUMBER HOT HOUSE 1.00 F\nYou Saved 2.00\nDC Pepsi and Pepsi Z -2.89\nDC TENA -4.00 H\nClub Publix Perk -2.00 F\n\nOrder Total 9.46\nSales Tax 0.43\nGrand Total 9.89\nCredit Payment 9.89\n\nChange 0.00\n\nSavings Summary\nVendor Coupon 8.89\nSpecial Price Savings 5.49\n****************************************\nYour Savings at Publix\n14.38\n****************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15373.40458299994,
+        "totalUsd": 0.039234,
+        "inputTokens": 3692,
+        "outputTokens": 828,
+        "reasoningTokens": 2916
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2023-01-01",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33614",
+          "status": "match"
+        },
+        "city": {
+          "value": "Tampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2724 W Hillsborough Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI ZERO 20OZ + DC Pepsi and Pepsi Z",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI ZERO 20OZ",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TENA PADS + DC TENA",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 2.59,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CILANTRO",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADOS GREEN + Promotion",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBER HOT HOUSE + You Saved 2.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nHillsboro Plaza\n2724 W Hillsborough Ave\nTampa, FL 33614\nStore Manager Pete\n813-873-8900\n\nPEPSI ZERO 20OZ 2.89 T\nPEPSI ZERO 20OZ 2.89 T\nTENA PADS 6.59 H\nCILANTRO 1.49 F\nAVOCADOS GREEN\n2 @ 3.49 6.98 F\nPromotion -3.49 F\nCUCUMBER HOT HOUSE 1.00 F\nYou Saved 2.00\nDC Pepsi and Pepsi Z -2.89\nDC TENA -4.00 H\nClub Publix Perk -2.00 F\n\nOrder Total 9.46\nSales Tax 0.43\nGrand Total 9.89\nCredit Payment 9.89\n\nChange 0.00\n\nSavings Summary\nVendor Coupon 8.69\nSpecial Price Savings 5.49\n*******************************\nYour Savings at Publix\n14.38\n*******************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4886.104542000015,
+        "totalUsd": 0.012549,
+        "inputTokens": 3692,
+        "outputTokens": 779,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "9.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33614",
+          "status": "match"
+        },
+        "city": {
+          "value": "Tampa",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2724 W Hillsborough Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CREDIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "PEPSI ZERO 20OZ",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI ZERO 20OZ",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TENA PADS",
+          "quantity": 1,
+          "unitPrice": 6.59,
+          "totalSpend": 6.59,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CILANTRO",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADOS GREEN + Promotion",
+          "quantity": 2,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBER HOT HOUSE",
+          "quantity": 1,
+          "unitPrice": 1,
+          "totalSpend": 1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Publix.\nHillsboro Plaza\n2724 W Hillsborough Ave\nTampa, FL 33614\nStore Manager: Pete\n813-873-8900\nPEPSI ZERO 20OZ 2.89 T\nPEPSI ZERO 20OZ 2.89 T\nTENA PADS 6.59 H\nCILANTRO 1.49 F\nAVOCADOS GREEN\n2 @ 3.49 6.98 F\nPromotion -3.49 F\nCUCUMBER HOT HOUSE 1.00 F\nYou Saved 2.00\nDC Pepsi and Pepsi Z -2.89\nDC TENA -4.00 H\nClub Publix Perk -2.00 F\nOrder Total 9.46\nSales Tax 0.43\nGrand Total 9.89\nCredit Payment 9.89\nChange 0.00\nSavings Summary\nVendor Coupon 8.89\nSpecial Price Savings 5.49\n***********************************\nYour Savings at Publix\n14.38\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "PEPSI ZERO 20OZ",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "PEPSI ZERO 20OZ",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "TENA PADS",
+      "price": 2.59,
+      "quantity": 1,
+      "totalSpend": 2.59
+    },
+    {
+      "text": "CILANTRO",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "AVOCADOS GREEN + 2 @ 3.49 6.98 F",
+      "price": 1.75,
+      "quantity": 2,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "CUCUMBER HOT HOUSE + You Saved 2.00",
+      "price": 1,
+      "quantity": 1,
+      "totalSpend": 1
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

@@ -1,0 +1,324 @@
+{
+  "id": "cmofzdr1n002tmrmmn727bj6q",
+  "url": null,
+  "retailer": "Giant Food Store",
+  "brand": "Soom",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Giant Food Store",
+    "totalCost": "25.69",
+    "purchaseDate": "2026-04-26",
+    "time": null,
+    "zipCode": "19031",
+    "city": "Flourtown",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15275.35954200001,
+        "totalUsd": 0.019785,
+        "inputTokens": 6086,
+        "outputTokens": 1184,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.69",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:24 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19031",
+          "status": "match"
+        },
+        "city": {
+          "value": "FLOURTOWN",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1874 BETHLEHEM PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2148",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIMPOG CURRY PWD",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THNI SOOM 11OZ + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.59,
+          "totalSpend": 6.72,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TB SPC HSRD MST",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHBF 93% TRKY1.3",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n1874 BETHLEHEM PIKE\nFLOURTOWN, PA 19031\nStore Telephone: (215) 836-4300\nPharmacy Telephone: (215) 948-8016\nStore #6522 04/26/26 12:24pm\nGROCERY\nSIMPOG CURRY PWD 6.49 F\nTHNI SOOM 11OZ 7.59 F\nBONUS BUY SAVINGS 0.87-F\nPRICE YOU PAY 6.72\nTB SPC HSRD MST 6.49 F\nMEAT\nSHBF 93% TRKY1.3 5.99 F\nTAX 0.00\n**** BALANCE 25.69\n*************************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************2148\nPayment Amt: $25.69\nBALANCE: $\nAID: A0000000031010\nAUTH#03475D RC#00 04/26/26 12:24pm\n*************************************\nVISA 25.69\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\n******** SAVINGS SUMMARY *********\nCard Savings: 0.87\nYour Total Savings: 0.87\n04/26/26 12:24pm 6522 436 74 880036\n2026 CARD SAVINGS\n$55.50\n*************************************\n*****CHOICE REWARDS *****\nEarned this visit 26\nCurrent Total 772\n$0.70/GAL Available\nor\n$7.00 Grocery Dollars\nPoints expiring on\n04/30 = 347\n100 Points = $1.00 Grocery Dollar\n100 Points = $0.10/gallon discount\nSome restrictions apply.\nGas savings limited to 1 vehicle\nper purchase up to 25 gallons.\nVisit our website for more details.\n*************************************\nCustomer 4******9217\nwww.GiantFoodStores.com\nThank you for shopp\nSpence McClaind, Store Manager\nSELF-CHECKOUT, Your Cashier\nHow was your visit?\nTake our survey to help us improve.\nWithin 5 days please visit:\nwww.talktogiant.com\nUse the PIN # below to start:\n0426 1224 6542 2436 0074\nTambien disponible en espanol",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14196.48324999999,
+        "totalUsd": 0.029946,
+        "inputTokens": 3692,
+        "outputTokens": 1168,
+        "reasoningTokens": 1544
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.69",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:24pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19031",
+          "status": "match"
+        },
+        "city": {
+          "value": "FLOURTOWN",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1874 BETHLEHEM PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2148",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIMPOG CURRY PWD",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THNI SQCM 11OZ + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.59,
+          "totalSpend": 6.72,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TB SPC HSRD MST",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHBF 93% TRKY1.3",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n1874 BETHLEHEM PIKE\nFLOURTOWN, PA 19031\nStore Telephone: (215) 836-4300\nPharmacy Telephone: (215) 948-8016\nStore #6522 04/26/26 12:24pm\nGROCERY\nSIMPOG CURRY PWD 6.49 F\nTHNI SQCM 11OZ 7.59 F\nBONUS BUY SAVINGS 0.87-F\nPRICE YOU PAY 6.72\nTB SPC HSRD MST 6.49 F\nMEAT\nSHBF 93% TRKY1.3 5.99 F\nTAX 0.00\n**** BALANCE 25.69\n****************************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************2148\nPayment Amt: $25.69\nBALANCE: $\nAID: A0000000031010\nAUTH#03475D RC#00 04/26/26 12:24pm\n****************************************\nVISA 25.69\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\n******** SAVINGS SUMMARY *********\nCard Savings: 0.87\nYour Total Savings: 0.87\n04/26/26 12:24pm 6522 436 74 880036\n2026 CARD SAVINGS\n$55.50\n****************************************\n*****CHOICE REWARDS *****\nEarned this visit 26\nCurrent Total 772\n$0.70/GAL Available\nor\n$7.00 Grocery Dollars\nPoints expiring on\n04/30 = 347\n100 Points = $1.00 Grocery Dollar\n100 Points = $0.10/gallon discount\nSome restrictions apply.\nGas savings limited to 1 vehicle\nper purchase up to 25 gallons.\nVisit our website for more details.\n****************************************\nCustomer 4******9217\nwww.GiantFoodStores.com\nThank you for shopping\nSpence McClaind, Store Manager\nSELF-CHECKOUT, Your Cashier\nHow was your visit?\nTake our survey to help us improve.\nWithin 5 days please visit:\nwww.talktogiant.com\nUse the PIN # below to start:\n0426 1224 6542 2436 0074\nTambien disponible en espanol",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6234.442624999996,
+        "totalUsd": 0.016095,
+        "inputTokens": 3692,
+        "outputTokens": 1173,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.69",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:24 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19031",
+          "status": "match"
+        },
+        "city": {
+          "value": "FLOURTOWN",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1874 BETHLEHEM PIKE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2148",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SIMPOG CURRY PWD",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "THNI SQOM 11OZ + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.59,
+          "totalSpend": 6.72,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TB SPC HSRD MST",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHBF 93% TRKY1.3",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n1874 BETHLEHEM PIKE\nFLOURTOWN, PA 19031\nStore Telephone: (215) 836-4300\nPharmacy Telephone: (215) 948-8016\nStore #6522 04/26/26 12:24pm\nGROCERY\nSIMPOG CURRY PWD 6.49 F\nTHNI SQOM 11OZ 7.59 F\nBONUS BUY SAVINGS 0.87-F\nPRICE YOU PAY 6.72\nTB SPC HSRD MST 6.49 F\nMEAT\nSHBF 93% TRKY1.3 5.99 F\nTAX 0.00\n**** BALANCE 25.69\n***********************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************2148\nPayment Amt: $25.69\nBALANCE: $\nAID: A0000000031010\nAUTH#03475D RC#00 04/26/26 12:24pm\n***********************************\nVISA 25.69\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\n******** SAVINGS SUMMARY *********\nCard Savings: 0.87\nYour Total Savings: 0.87\n04/26/26 12:24pm 6522 436 74 880036\n2026 CARD SAVINGS\n$55.50\n***********************************\n*****CHOICE REWARDS *****\nEarned this visit 26\nCurrent Total 772\n$0.70/GAL Available\nor\n$7.00 Grocery Dollars\nPoints expiring on\n04/30 = 347\n100 Points = $1.00 Grocery Dollar\n100 Points = $0.10/gallon discount\nSome restrictions apply.\nGas savings limited to 1 vehicle\nper purchase up to 25 gallons.\nVisit our website for more details.\n***********************************\nCustomer 4******9217\nwww.GiantFoodStores.com\nThank you for shopp\nSpence McClaind, Store Manager\nSELF-CHECKOUT, Your Cashier\nHow was your visit?\nTake our survey to help us improve.\nWithin 5 days please visit:\nwww.talktogiant.com\nUse the PIN # below to start:\n0426 1224 6542 2436 0074\nTambien disponible en espanol",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SIMPOG CURRY PWD + GROCERY",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "THNI SOOM 11OZ",
+      "price": 6.72,
+      "quantity": 1,
+      "totalSpend": 6.72
+    },
+    {
+      "text": "TB SPC HSRD MST",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "MEAT + SHBF 93% TRKY1.3",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

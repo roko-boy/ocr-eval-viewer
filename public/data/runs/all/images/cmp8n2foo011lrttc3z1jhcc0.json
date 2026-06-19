@@ -1,0 +1,212 @@
+{
+  "id": "cmp8n2foo011lrttc3z1jhcc0",
+  "url": null,
+  "retailer": "Publix Super Market at The Shoppes at Heritage Village",
+  "brand": "Wilde Brands Inc.",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Publix Super Markets",
+    "totalCost": "70.48",
+    "purchaseDate": "2026-05-16",
+    "time": null,
+    "zipCode": "27587",
+    "city": "Wake Forest",
+    "state": "NC",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 20000.63895800005,
+        "totalUsd": 0.013143,
+        "inputTokens": 6086,
+        "outputTokens": 446,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "70.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1201",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "*\n* Store Number 1514\n* Survey Code 0516151401074180\n*\n****************************************\nReceipt ID: 1514 5GR 074 180\nRedeemed: 1551151260428190427\nPRESTO!\nTrace #: 074316\nReference #: 1305082282\nAcct #: XXXXXXXXXXXX1201\nPurchase VISA\nAmount: $70.48\nAuth #: 09912D\nCREDIT CARD\nA0000000031010\nEntry Method:\nMode:\nPURCHASE\nVISA CREDIT\nCntctless\nIssuer\nYour cashier was Alex S.\n05/16/2026 12:23 S1514 R107 4180 C0214\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7848.31133300002,
+        "totalUsd": 0.019488,
+        "inputTokens": 3692,
+        "outputTokens": 445,
+        "reasoningTokens": 1105
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "70.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:23",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1201",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "* Store Number 1514 *\n* Survey Code 0516151401074180 *\n* *\n****************************************\n\nReceipt ID: 1514 5GR 074 180\nRedeemed: 1551151260428190427\n\nPRESTO!\nTrace #: 074316\nReference #: 1305082282\nAcct #: XXXXXXXXXXXX1201\nPurchase VISA\nAmount: $70.48\nAuth #: 09912D\n\nCREDIT CARD PURCHASE\nA0000000031010 VISA CREDIT\nEntry Method: Cntctless\nMode: Issuer\n\nYour cashier was Alex S.\n\n05/16/2026 12:23 S1514 R107 4180 C0214\n\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\n\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 64191.53875000001,
+        "totalUsd": 0.012195,
+        "inputTokens": 3786,
+        "outputTokens": 391,
+        "reasoningTokens": 333
+      },
+      "fields": {
+        "storeName": {
+          "value": "Publix",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "70.48",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "1514 5GR 074 180",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "* Store Number 1514 *\n* Survey Code 0516151401074180 *\n*\n****************************************\nReceipt ID: 1514 5GR 074 180\nRedeemed: 1551151260428190427\nPRESTO!\nTrace #: 074316\nReference #: 1305082282\nAcct #: XXXXXXXXXXXX1201\nPurchase VISA\nAmount: $70.48\nAuth #: 09912D\nCREDIT CARD PURCHASE\nA0000000031010 VISA CREDIT\nEntry Method: Cntctless\nMode: Issuer\nYour cashier was Alex S.\n05/16/2026 12:23 S1514 R107 4180 C0214\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\nPublix Super Markets, Inc.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

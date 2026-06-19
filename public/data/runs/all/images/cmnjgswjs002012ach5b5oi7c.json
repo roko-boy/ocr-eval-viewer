@@ -1,0 +1,432 @@
+{
+  "id": "cmnjgswjs002012ach5b5oi7c",
+  "url": null,
+  "retailer": "Kroger",
+  "brand": "holmes smokehouse",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "26.14",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "48327",
+    "city": "Waterford",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12141.62524999998,
+        "totalUsd": 0.021387,
+        "inputTokens": 6086,
+        "outputTokens": 1362,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:42pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48327",
+          "status": "match"
+        },
+        "city": {
+          "value": "WATERFORD TWP.",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5111 HIGHLAND RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2007",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CNTRY SAGE BRKFST PC + KROGER SAVINGS  2.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BLBRY MPL SLC SMK PC + KROGER SAVINGS  2.00",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BLUE DIAMOND CHOCO",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUE DIAMOND ORIGI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KOMBUCHA DRNKS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BTL DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KOMBUCHA DRNKS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BTL DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger\nDETROIT\nPISTONS\nHometown Grocer. Hometown Team.\n\n5111 HIGHLAND RD.\n248-673-1629\nYour cashier was EDNA\nCNTRY SAGE BRKFST PC  3.99 F\nSC  KROGER SAVINGS  2.00\nBLBRY MPL SLC SMK PC  3.99 F\nSC  KROGER SAVINGS  2.00\nBLUE DIAMOND CHOCO  4.99 F\nBLUE DIAMOND ORIGI  4.99 F\nGTS KOMBUCHA DRNKS  3.99 F\nMR  BTL DEPOSIT  0.10 F\nGTS KOMBUCHA DRNKS  3.99 F\nMR  BTL DEPOSIT  0.10 F\nKROGER PLUS CUSTOMER  ******3510\nSC  eCpn 4X Fuel\nSC  Load Digital Cpns\nTAX  0.00\n**** BALANCE  26.14\nWATERFORD TWP. MI 48327\nAMERICAN EXPRESS Purchase\n***********2007 - H\nREF#: 842486 TOTAL: 26.14\nAID: A000000025010801\nTC: 8B732D284EE075A4\nAMEX  26.14\nCHANGE  0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nKROGER SAVINGS  $ 4.00\nTOTAL COUPONS  $ 4.00\nTOTAL SAVINGS (13 %)  $ 4.00\n04/03/26 04:42pm 675 9 112 125\n****************************************\nAnnual Card Savings $429.90\n****************************************\n****************************************\nFuel Points Earned Today: 104\nTotal April Fuel Points: 440\n****************************************\nRemaining March Fuel Points: 1448\n****************************************\nKroger Community Rewards\nOn your behalf, we are contributing to\nDEAF COMMUNITY ADVOCACY NETWORK\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 04/03/26\nTime: 04:41PM\nEntry ID: 018-101-112-675-9-121\n****************************************\nWith Our Low Prices, You Saved\n$4.00\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 21485.57316699997,
+        "totalUsd": 0.050493,
+        "inputTokens": 3692,
+        "outputTokens": 1238,
+        "reasoningTokens": 3757
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48327",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "5111 HIGHLAND RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CNTRY SAGE BRKFST PC + KROGER SAVINGS 2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLBRY MPL SLC SMK PC + KROGER SAVINGS 2.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BLUE DIAMOND CHOCO",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUE DIAMOND ORIGI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KOMBUCHA DRNKS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BTL DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KOMBUCHA DRNKS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BTL DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger DETROIT PISTONS\nHometown Grocer. Hometown Team.\n\n5111 HIGHLAND RD.\n248-673-1629\nYour cashier was EDNA\nCNTRY SAGE BRKFST PC 3.99 F\nSC KROGER SAVINGS 2.00\nBLBRY MPL SLC SMK PC 3.99 F\nSC KROGER SAVINGS 2.00\nBLUE DIAMOND CHOCO 4.99 F\nBLUE DIAMOND ORIGI 4.99 F\nGTS KOMBUCHA DRNKS 3.99 F\nMR BTL DEPOSIT 0.10 F\nGTS KOMBUCHA DRNKS 3.99 F\nMR BTL DEPOSIT 0.10 F\nKROGER PLUS CUSTOMER ******3510\nSC eCpn 4X Fuel\nSC Load Digital Cpns\nTAX 0.00\n**** BALANCE 26.14\nWATERFORD TWP. MI 48327\nAMERICAN EXPRESS Purchase\n************2007 - H\nREF#: 842486 TOTAL: 26.14\nAID: A000000025010801\nTC: 8B732D284EE075A4\nAMEX 26.14\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nKROGER SAVINGS $ 4.00\nTOTAL COUPONS $ 4.00\nTOTAL SAVINGS (13 %) $ 4.00\n04/03/26 04:42pm 675 9 112 125\n****************************************\nAnnual Card Savings $429.90\n****************************************\n****************************************\nFuel Points Earned Today: 104\nTotal April Fuel Points: 440\n****************************************\nRemaining March Fuel Points: 1448\n****************************************\nKroger Community Rewards\nOn your behalf, we are contributing to\nDEAF COMMUNITY ADVOCACY NETWORK\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 04/03/26\nTime: 04:41PM\nEntry ID: 018-101-112-675-9-121\n****************************************\nWith Our Low Prices, You Saved\n$4.00\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7752.838667000004,
+        "totalUsd": 0.017517,
+        "inputTokens": 3692,
+        "outputTokens": 1331,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "26.14",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:42 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48327",
+          "status": "match"
+        },
+        "city": {
+          "value": "Waterford Twp.",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5111 HIGHLAND RD.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2007",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CNTRY SAGE BRKFST PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BLBRY MPL SLC SMK PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BLUE DIAMOND CHOCO",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUE DIAMOND ORIGI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KOMBUCHA DRNKS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BTL DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GTS KOMBUCHA DRNKS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BTL DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger DETROIT PISTONS\nHometown Grocer. Hometown Team.\n\n5111 HIGHLAND RD.\n248-673-1629\nYour cashier was EDNA\nCNTRY SAGE BRKFST PC 3.99 F\nSC KROGER SAVINGS 2.00\nBLBRY MPL SLC SMK PC 3.99 F\nSC KROGER SAVINGS 2.00\nBLUE DIAMOND CHOCO 4.99 F\nBLUE DIAMOND ORIGI 4.99 F\nGTS KOMBUCHA DRNKS 3.99 F\nMR BTL DEPOSIT 0.10 F\nGTS KOMBUCHA DRNKS 3.99 F\nMR BTL DEPOSIT 0.10 F\nKROGER PLUS CUSTOMER ******3510\nSC eCpn 4X Fuel\nSC Load Digital Cpns\nTAX 0.00\n**** BALANCE 26.14\nWATERFORD TWP. MI 48327\nAMERICAN EXPRESS Purchase\n************2007 - H\nREF#: 842486 TOTAL: 26.14\nAID: A000000025010801\nTC: 8B732D284EE075A4\nAMEX 26.14\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\nKROGER SAVINGS $ 4.00\nTOTAL COUPONS $ 4.00\nTOTAL SAVINGS (13 %) $ 4.00\n04/03/26 04:42pm 675 9 112 125\n****************************************\nAnnual Card Savings $429.90\n****************************************\n****************************************\nFuel Points Earned Today: 104\nTotal April Fuel Points: 440\n****************************************\nRemaining March Fuel Points: 1448\n****************************************\nKroger Community Rewards\nOn your behalf, we are contributing to\nDEAF COMMUNITY ADVOCACY NETWORK\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 04/03/26\nTime: 04:41PM\nEntry ID: 018-101-112-675-9-121\n****************************************\nWith Our Low Prices, You Saved\n$4.00\nFresh opportunity awaits\nJoin our team today!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CNTRY SAGE BRKFST + SC KROGER SAVINGS 2.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BLBRY MPL SLC SMK + SC KROGER SAVINGS 2.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BLUE DIAMOND CHOCO",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "BLUE DIAMOND ORIGI",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "GTS KOMBUCHA DRNKS",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BTL DEPOSIT",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "GTS KOMBUCHA DRNKS",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "BTL DEPOSIT + KROGER PLUS CUSTOMER *******3510 + SC eCpn 4X Fuel + SC Load Digital Cpns",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

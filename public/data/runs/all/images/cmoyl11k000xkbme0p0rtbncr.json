@@ -1,0 +1,285 @@
+{
+  "id": "cmoyl11k000xkbme0p0rtbncr",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "Pepsi Food Service",
+  "amount": 1.23,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "1.23",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "15102",
+    "city": "Bethel Park",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13191.49399899994,
+        "totalUsd": 0.015399,
+        "inputTokens": 6114,
+        "outputTokens": 692,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "1510215102, USA\nYour order is complete. Enjoy!\nEnable notifications\nGet order updates and deals\nTurn on\nOrder details\nSheetz\n3 items\nRate order\n1 × Classic Appetizer Sampler\nWisconsin Cheese Bitez · Boneless Bitez · Honey Mustard · Jalapeño Fryz\n$6.49\n1 × Pepsi Zero Sugar Cola Bottle (20 fl oz)\n$2.89\n1 × Shweetz Gobbz Sugar Cookie\n$1.79\nSubtotal $11.17\nService Fee $0.00\nEstimated Tax $0.66\nDiscount -$10.00\nDoorDash Credits -$0.60\nTotal $1.23\nYou earned on this order $0.56\nDashPass Pickup credit",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Bethel Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Classic Appetizer Sampler + Wisconsin Cheese Bitez · Boneless Bitez · Honey Mustard · Jalapeño Fryz",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Pepsi Zero Sugar Cola Bottle (20 fl oz)",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Shweetz Gobbz Sugar Cookie",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Order Complete\n4599 Library Rd, Bethel Park, PA\n15102, USA\nYour order is complete. Enjoy!\nEnable notifications\nGet order updates and deals\nTurn on\nOrder details\nSheetz\n3 items\nRate order\n1 × Classic Appetizer Sampler\nWisconsin Cheese Bitez · Boneless Bitez · Honey Mustard · Jalapeño Fryz\n$6.49\n1 × Pepsi Zero Sugar Cola Bottle (20 fl oz)\n$2.89\n1 × Shweetz Gobbz Sugar Cookie\n$1.79\nSubtotal $11.17\nService Fee $0.00\nEstimated Tax $0.66\nDiscount -$10.00\nDoorDash Credits -$0.60\nTotal $1.23\nYou earned on this order $0.56\nDashPass Pickup credit",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8499.999083000002,
+        "totalUsd": 0.020211,
+        "inputTokens": 3706,
+        "outputTokens": 536,
+        "reasoningTokens": 1092
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15102",
+          "status": "match"
+        },
+        "city": {
+          "value": "Bethel Park",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4599 Library Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Classic Appetizer Sampler + Wisconsin Cheese Bitez · Boneless Bitez · Honey Mustard · Jalapeño Fryz",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Pepsi Zero Sugar Cola Bottle (20 fl oz)",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Shweetz Gobbz Sugar Cookie",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "12:52 1\nOrder Complete\n4599 Library Rd, Bethel Park, PA 15102, USA\nYour order is complete. Enjoy!\nEnable notifications\nGet order updates and deals\nTurn on\nOrder details\nSheetz\n3 items\nRate order\n1 x Classic Appetizer Sampler\nWisconsin Cheese Bitez · Boneless Bitez · Honey Mustard · Jalapeño Fryz\n$6.49\n1 x Pepsi Zero Sugar Cola Bottle (20 fl oz)\n$2.89\n1 x Shweetz Gobbz Sugar Cookie\n$1.79\nSubtotal $11.17\nService Fee $0.00\nEstimated Tax $0.66\nDiscount -$10.00\nDoorDash Credits -$0.60\nTotal $1.23\nYou earned on this order $0.56\nDashPass Pickup credit",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3957.520416999992,
+        "totalUsd": 0.010419,
+        "inputTokens": 3706,
+        "outputTokens": 540,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "1.23",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "15102",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "4599 Library Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Classic Appetizer Sampler + Wisconsin Cheese Bitez · Boneless Bitez · Honey Mustard · Jalapeño Fryz",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Pepsi Zero Sugar Cola Bottle (20 fl oz)",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Shweetz Gobbz Sugar Cookie",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "12:52 1\nOrder Complete\n4599 Library Rd, Bethel Park, PA\n15102, USA\nYour order is complete. Enjoy!\nEnable notifications\nGet order updates and deals\nTurn on\nOrder details\nSheetz\n3 items\nRate order\n1 x Classic Appetizer Sampler\nWisconsin Cheese Bitez · Boneless\nBitez · Honey Mustard · Jalapeño\nFryz\n$6.49\n1 x Pepsi Zero Sugar Cola Bottle\n(20 fl oz)\n$2.89\n1 x Shweetz Gobbz Sugar Cookie\n$1.79\nSubtotal\n$11.17\nService Fee\n$0.00\nEstimated Tax\n$0.66\nDiscount\n-$10.00\nDoorDash Credits\n-$0.60\nTotal\n$1.23\nYou earned on this order\n$0.56\nDashPass Pickup credit",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "EstimatedTax + Discount -$10.00 + DoorDash Credits -$0.60",
+      "price": 0.66,
+      "quantity": 1,
+      "totalSpend": 0.66
+    }
+  ],
+  "disagreementCount": 5,
+  "nullCount": 0
+}

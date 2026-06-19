@@ -1,0 +1,405 @@
+{
+  "id": "cmqbdr06i00c7ev13fn6c3fyw",
+  "url": null,
+  "retailer": "Meijer Express Gas Station",
+  "brand": "spikedade",
+  "amount": 3.6,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Meijer",
+    "totalCost": "62.3",
+    "purchaseDate": "2026-06-12",
+    "time": null,
+    "zipCode": "48858",
+    "city": "Mt. Pleasant",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10269.458209,
+        "totalUsd": 0.021135,
+        "inputTokens": 6086,
+        "outputTokens": 1334,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:26:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48858",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mt. Pleasant",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1015 Pickard St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2319",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CANDY + 4000061045",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FEBREZE PLUG + 3077211404",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGG WHITE WRAP + *81002354011 + was 5.59 now 4.49",
+          "quantity": 1,
+          "unitPrice": 5.59,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLIFE WRAP + *81002354013 + was 5.59 now 4.49",
+          "quantity": 1,
+          "unitPrice": 5.59,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COCKTAIL + *85005556643 + was 19.99 now 17.49",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 17.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT + 99976 + 2 @ .80",
+          "quantity": 2,
+          "unitPrice": 0.8,
+          "totalSpend": 1.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COCKTAILS + *85006978306 + was 20.99 now 17.99",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 17.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n1015 Pickard St.\nMt. Pleasant, MI 48858 - #69\n(989)772 4700\nmeijer.com\n06/12/26 Fastlane116\nMEIJER SAVINGS\nSPECIALS 7.70\nSAVINGS TOTAL 7.70\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n74.20\nGROCERY\n4000061045 CANDY 2.99 F\n3077211404 FEBREZE PLUG 10.49 T\n*81002354011 EGG WHITE WRAP\nwas 5.59 now 4.49 F\n*81002354013 EGGLIFE WRAP\nwas 5.59 now 4.49 F\n*85005556643 COCKTAIL\nwas 19.99 now 17.49 NT\n99976 DEPOSIT\n2 @ .80 1.60 N\n*85006978306 COCKTAILS\nwas 20.99 now 17.99 NT\nmPerks # -- ********50\nTOTAL\nMI 6% Sales Tax 2.76\nTOTAL TAX 2.76\nTOTAL 62.30\nPAYMENTS\nPrimary Account - Debit\nATM/DEBIT CARD TENDER 62.30\nXXXXXXXXXXXX2319 (C)\nAPPROVAL CODE 300225\nUS DEBIT\nAID A0000000980840\nTC 3EC1947F7028A5B1\nPIN VERIFIED ONLINE\nNUMBER OF ITEMS 8\nA006900V7351VES\nTx:175 Op:567 Tm:116 St:69 16:26:21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10789.86516700004,
+        "totalUsd": 0.026814,
+        "inputTokens": 3692,
+        "outputTokens": 1260,
+        "reasoningTokens": 1104
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:26:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48858",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mt. Pleasant",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1015 Pickard St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2319",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CANDY + 4000061045",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FEBREZE PLUG + 3077211404",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGG WHITE WRAP + *81002354011",
+          "quantity": 1,
+          "unitPrice": 5.59,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLIFE WRAP + *81002354013",
+          "quantity": 1,
+          "unitPrice": 5.59,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COCKTAIL + *85005556643",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 17.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT + 99976",
+          "quantity": 2,
+          "unitPrice": 0.8,
+          "totalSpend": 1.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COCKTAILS + *85006978306",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 17.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n1015 Pickard St.\nMt. Pleasant, MI 48858 - #69\n(989)772-4700\nmeijer.com\n06/12/26 Fastlane116\nMEIJER SAVINGS\nSPECIALS 7.70\nSAVINGS TOTAL 7.70\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n74.20\nGROCERY\n4000061045 CANDY 2.99 F\n3077211404 FEBREZE PLUG 10.49 T\n*81002354011 EGG WHITE WRAP\nwas 5.59 now 4.49 F\n*81002354013 EGGLIFE WRAP\nwas 5.59 now 4.49 F\n*85005556643 COCKTAIL\nwas 19.99 now 17.49 NT\n99976 DEPOSIT\n2 @ .80 1.60 N\n*85006978306 COCKTAILS\nwas 20.99 now 17.99 NT\nmPerks # -- ********50\nTOTAL\nMI 6% Sales Tax 2.76\nTOTAL TAX 2.76\nTOTAL 62.30\nPAYMENTS\nPrimary Account - Debit\nATM/DEBIT CARD TENDER 62.30\nXXXXXXXXXXXX2319 (C)\nAPPROVAL CODE 300225\nUS DEBIT\nAID A0000000980840\nTC 3EC1947F7028A5B1\nPIN VERIFIED ONLINE\nNUMBER OF ITEMS 8\nA006900V7351VES\nTx:175 Op:567 Tm:116 St:69 16:26:21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8950.232875000016,
+        "totalUsd": 0.017382,
+        "inputTokens": 3692,
+        "outputTokens": 1316,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Meijer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "62.3",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:26:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48858",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mt. Pleasant",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1015 Pickard St.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2319",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CANDY + 4000061045",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FEBREZE PLUG + 3077211404",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGG WHITE WRAP + *81002354011 + was 5.59 now 4.49",
+          "quantity": 1,
+          "unitPrice": 5.59,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EGGLIFE WRAP + *81002354013 + was 5.59 now 4.49",
+          "quantity": 1,
+          "unitPrice": 5.59,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "COCKTAIL + *85005556643 + was 19.99 now 17.49",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 17.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT + 99976",
+          "quantity": 2,
+          "unitPrice": 0.8,
+          "totalSpend": 1.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "COCKTAILS + *85006978306 + was 20.99 now 17.99",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 17.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "meijer\n1015 Pickard St.\nMt. Pleasant, MI 48858 - #69\n(989)772-4700\nmeijer.com\n06/12/26 Fastlane116\nMEIJER SAVINGS\nSPECIALS 7.70\nSAVINGS TOTAL 7.70\nYOUR TOTAL SAVINGS\nSINCE 01/01/26\n74.20\nGROCERY\n4000061045 CANDY 2.99 F\n3077211404 FEBREZE PLUG 10.49 T\n*81002354011 EGG WHITE WRAP\nwas 5.59 now 4.49 F\n*81002354013 EGGLIFE WRAP\nwas 5.59 now 4.49 F\n*85005556643 COCKTAIL\nwas 19.99 now 17.49 NT\n99976 DEPOSIT\n2 @ .80 1.60 N\n*85006978306 COCKTAILS\nwas 20.99 now 17.99 NT\nmPerks # -- ********50\nTOTAL\nMI 6% Sales Tax 2.76\nTOTAL TAX 2.76\nTOTAL 62.30\nPAYMENTS\nPrimary Account - Debit\nATM/DEBIT CARD TENDER 62.30\nXXXXXXXXXXXX2319 (C)\nAPPROVAL CODE 300225\nUS DEBIT\nAID A0000000980840\nTC 3EC1947F7028A5B1\nPIN VERIFIED ONLINE\nNUMBER OF ITEMS 8\nA006900V7351VES\nTx:175 Op:567 Tm:116 St:69 16:26:21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CANDY + 4000061045",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "FEBREZE PLUG + 3077211404",
+      "price": 10.49,
+      "quantity": 1,
+      "totalSpend": 10.49
+    },
+    {
+      "text": "EGG WHITE WRAP + *81002354011 + was 5.59 now 4.49",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "EGGGLIFE WRAP + *81002354013 + was 5.59 now 4.49",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "COCKTAIL + *85005556643 + was 19.99 now 17.49",
+      "price": 17.49,
+      "quantity": 1,
+      "totalSpend": 17.49
+    },
+    {
+      "text": "DEPOSIT + 99976 + 2 @ .80",
+      "price": 0.8,
+      "quantity": 2,
+      "totalSpend": 1.6
+    },
+    {
+      "text": "COCKTAILS + *85006978306 + was 20.99 now 17.99",
+      "price": 17.99,
+      "quantity": 1,
+      "totalSpend": 17.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,243 @@
+{
+  "id": "cmo7o6o3b006f2pr3virbrxv2",
+  "url": null,
+  "retailer": "ShopRite Wines & Spirits of Neptune",
+  "brand": "Sweet Loren's",
+  "amount": 5.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "5.99",
+    "purchaseDate": "2026-04-20",
+    "time": null,
+    "zipCode": "07753",
+    "city": "Neptune",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6648.326915999962,
+        "totalUsd": 0.01443,
+        "inputTokens": 6086,
+        "outputTokens": 589,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:44pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "NEPTUNE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7441",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SWT LOR SLTD CRML PC + On Sale You Saved 1.00 + SC Sweet Loren's Cook",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof NEPTUNE\n04/20/26 04:44pm S299 R80 T10 C80\n****************************************\n* Regular Items *\n****************************************\nSWT LOR SLTD CRML PC 6.99 F\nOn Sale You Saved 1.00\nSC Sweet Loren's Cook 1.00-F\nValued Customer 40000108539\nTAX 0.00\n**** BALANCE 5.99\n****************************************\nShopRite Credit Receipt\nStore # 299 of NETPUNE , NJ\nTerminal: 80 Operator: 80 Trans: 10\nDate: 04/20/26 Time: 04:44pm\nPurchase: $ 5.99\nAcct#: ************7441 CONTACTLESS\nResponse : APPROVED\nApproval : 02988D\nPrepaid Card Balance: 0.00\n****************************************\nVISA CARD 5.99\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n------ ShopRite Savings ------\nTotal On Sale Savings $ 1.00\nPPC & Str Cpns $ 1.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 17252.06312499999,
+        "totalUsd": 0.037101,
+        "inputTokens": 3692,
+        "outputTokens": 600,
+        "reasoningTokens": 2907
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-20",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:44 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Neptune",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7441",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SWT LOR SLTD CRML PC + On Sale You Saved + SC Sweet Loren's Cook",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\n\nWelcome to ShopRite\nof NEPTUNE\n\n04/20/26 04:44pm S299 R80 T10 C80\n\n******************************************\n*             Regular Items              *\n******************************************\nSWT LOR SLTD CRML PC      6.99 F\nOn Sale You Saved      1.00\nSC      Sweet Loren's Cook      1.00-F\n     Valued Customer         40000108539\n     TAX                        0.00\n**** BALANCE                    5.99\n******************************************\nShopRite Credit Receipt\nStore # 299 of NETPUNE , NJ\nTerminal: 80 Operator: 80 Trans: 10\nDate: 04/20/26 Time: 04:44pm\n\n     Purchase: $ 5.99\nAcct#: ************7441   CONTACTLESS\n\nResponse : APPROVED\nApproval : 02988D\nPrepaid Card Balance: 0.00\n\n******************************************\n\n          VISA CARD             5.99\n          CHANGE                0.00\nTOTAL NUMBER OF ITEMS SOLD =    1\n\n------ ShopRite Savings ------\nTotal On Sale Savings   $  1.00\nPPC & Str Cpns          $  1.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4055.705583000003,
+        "totalUsd": 0.010317,
+        "inputTokens": 3692,
+        "outputTokens": 531,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "5.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": "04:44pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07753",
+          "status": "match"
+        },
+        "city": {
+          "value": "NEPTUNE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SWT LOR SLTD CRML PC + SC Sweet Loren's Cook",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof NEPTUNE\n04/20/26 04:44pm S299 R80 T10 C80\n***********************************\n* Regular Items *\n***********************************\nSWT LOR SLTD CRML PC 6.99 F\nOn Sale You Saved 1.00\nSC Sweet Loren's Cook 1.00-F\nValued Customer 40000108539\nTAX 0.00\n**** BALANCE 5.99\n***********************************\nShopRite Credit Receipt\nStore # 299 of NETPUNE , NJ\nTerminal: 80 Operator: 80 Trans: 10\nDate: 04/20/26 Time: 04:44pm\nPurchase: $ 5.99\nAcct#: ************7441 CONTACTLESS\nResponse : APPROVED\nApproval : 02988D\nPrepaid Card Balance: 0.00\n***********************************\nVISA CARD 5.99\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n------ ShopRite Savings ------\nTotal On Sale Savings $ 1.00\nPPC & Str Cpns $ 1.00",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SWT LOR SLTD CRML + On Sale You Saved 1.00",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

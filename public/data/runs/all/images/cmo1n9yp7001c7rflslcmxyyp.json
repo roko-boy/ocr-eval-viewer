@@ -1,0 +1,432 @@
+{
+  "id": "cmo1n9yp7001c7rflslcmxyyp",
+  "url": null,
+  "retailer": "ShopRite of 20th Ave.",
+  "brand": "Califia Farms",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "28.91",
+    "purchaseDate": "2026-04-16",
+    "time": null,
+    "zipCode": "11356",
+    "city": "College Point",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9562.069958999986,
+        "totalUsd": 0.023637,
+        "inputTokens": 6086,
+        "outputTokens": 1612,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.91",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:23 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "College Point",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "133-11 20th Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3166",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GM CIN TST CR TRT PC + On Sale You Saved 1.00 + SC General Mills Trea",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "GM CIN TST CR TRT PC + On Sale You Saved 1.00 + SC General Mills Trea",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "JNKLSS GRAN STRAWBPC + On Sale You Saved 0.70 + SC Junkless Chewy Gra",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 0.3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CUCUMBR BURPLSS LG",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CALIFIA CB ESPRS B",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PANERA GRK LMN CHKPC + On Sale You Saved 1.00 + SC Panera Soup Cups",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 1.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PANERA GRK LMN CHKPC + On Sale You Saved 1.00 + SC Panera Soup Cups",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 1.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PANERA GRK LMN CHKPC + On Sale You Saved 1.00 + SC Panera Soup Cups",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 1.5,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "WHITESTONE CAR WASH & AUTO CENTER\nWelcome to ShopRite of 20th Aven\n133-11 20th Ave, College Point\nOpen 6 a.m. to Midnight Daily\n04/16/26 11:23am S204 R75 T72 C75\n***********************************\n* Regular Items *\n***********************************\nGM CIN TST CR TRT PC 4.49 F\nOn Sale You Saved 1.00\nSC General Mills Trea 2.50-F\nGM CIN TST CR TRT PC 4.49 F\nOn Sale You Saved 1.00\nSC General Mills Trea 2.50-F\nJNKLSS GRAN STRAWBPC 4.29 F\nOn Sale You Saved 0.70\nSC Junkless Chewy Gra 0.30-F\n2 @ 0.99\nCUCUMBR BURPLSS LG 1.98 F\nCALIFIA CB ESPRS B 6.99 F\nPANERA GRK LMN CHKPC 5.49 F\nOn Sale You Saved 1.00\nSC Panera Soup Cups 1.50-F\nPANERA GRK LMN CHKPC 5.49 F\nOn Sale You Saved 1.00\nSC Panera Soup Cups 1.50-F\nPANERA GRK LMN CHKPC 5.49 F\nOn Sale You Saved 1.00\nSC Panera Soup Cups 1.50-F\nValued Customer 47027430368\nTAX 0.00\n**** BALANCE 28.91\n***********************************\nShopRite Credit Receipt\nStore # 204 of College Point , NY\nTerminal: 75 Operator: 75 Trans: 72\nDate: 04/16/26 Time: 11:24am\nPurchase: $ 28.91\nAcct#: ************3166 CONTACTLESS\nResponse : APPROVED\nApproval : 01647R\nPrepaid Card Balance: 0.00\n***********************************\nDISCOVER CARD 28.91\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\nShopRite Savings\nTotal On Sale Savings $ 8.72\nPPC & Str Cpns $ 9.80\nTotal Savings today is $ 18.52\n04/16/26 11:24am 204 75 72 75\nYou saved $ 9.80 in PricePlusCpns\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\nSpring Refresh Rewards\nSpend $150 on participating items\nand receive a $50 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 5/2/2026\nREDEEM by 5/9/2026\nPlease view the front page of\nthe circular for item details.\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 36968.94691700005,
+        "totalUsd": 0.082173,
+        "inputTokens": 3692,
+        "outputTokens": 1570,
+        "reasoningTokens": 6945
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.91",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:23 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "College Point",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "133-11 20th Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3166",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GM CIN TST CR TRT PC + SC General Mills Trea",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GM CIN TST CR TRT PC + SC General Mills Trea",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "JNKLSS GRAN STRAWBC + SC Junkless Chewy Gra",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBR BURPLSS LG",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CALIFIA CB ESPRS B",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PANERA GRK LMN CHKPC + SC Panera Soup Cups",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PANERA GRK LMN CHKPC + SC Panera Soup Cups",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PANERA GRK LMN CHKPC + SC Panera Soup Cups",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Welcome to ShopRite of 20th Aven\n133-11 20th Ave, College Point\n\nOpen 6 a.m. to Midnight Daily\n\n04/16/26 11:23am S204 R75 T72 C75\n\n*************************************\n*           Regular Items           *\n*************************************\nGM CIN TST CR TRT PC      4.49 F\nOn Sale You Saved      1.00\nSC    General Mills Trea  2.50-F\nGM CIN TST CR TRT PC      4.49 F\nOn Sale You Saved      1.00\nSC    General Mills Trea  2.50-F\nJNKLSS GRAN STRAWBC       4.29 F\nOn Sale You Saved      0.70\nSC    Junkless Chewy Gra  0.30-F\n2 @ 0.99\n      CUCUMBR BURPLSS LG  1.98 F\n\nCALIFIA CB ESPRS B        6.99 F\nPANERA GRK LMN CHKPC      5.49 F\nOn Sale You Saved      1.00\nSC    Panera Soup Cups    1.50-F\nPANERA GRK LMN CHKPC      5.49 F\nOn Sale You Saved      1.00\nSC    Panera Soup Cups    1.50-F\nPANERA GRK LMN CHKPC      5.49 F\nOn Sale You Saved      1.00\nSC    Panera Soup Cups    1.50-F\nValued Customer      47027430368\nTAX                         0.00\n**** BALANCE               28.91\n*************************************\nShopRite Credit Receipt\nStore # 204 of College Point , NY\nTerminal: 75 Operator: 75 Trans: 72\nDate: 04/16/26 Time: 11:24am\n\nPurchase: $ 28.91\nAcct#: ************3166   CONTACTLESS\n\nResponse : APPROVED\nApproval : 01647R\nPrepaid Card Balance: 0.00\n\n*************************************\n\n      DISCOVER CARD        28.91\n      CHANGE                0.00\nTOTAL NUMBER OF ITEMS SOLD =   9\n\n--------- ShopRite Savings ---------\nTotal On Sale Savings    $ 8.72\nPPC & Str Cpns           $ 9.80\nTotal Savings today is   $ 18.52\n\n04/16/26 11:24am 204 75 72 75\n\nYou saved $ 9.80 in PricePlusCpns\n\nPresent your card with every order\nand save with Price Plus discounts!\n\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n\nSpring Refresh Rewards\nSpend $150 on participating items\nand receive a $50 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 5/2/2026\nREDEEM by 5/9/2026\nPlease view the front page of\nthe circular for item details.\n*************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7287.090250000008,
+        "totalUsd": 0.019209,
+        "inputTokens": 3692,
+        "outputTokens": 1519,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.91",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-16",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:23 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "College Point",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "133-11 20th Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3166",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GM CIN TST CR TRT PC + General Mills Trea",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GM CIN TST CR TRT PC + General Mills Trea",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "JNKLSS GRAN STRAWBC + Junkless Chewy Gra",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBR BURPLSS LG",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CALIFIA CB ESPRS B",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PANERA GRK LMN CHKPC + Panera Soup Cups",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PANERA GRK LMN CHKPC + Panera Soup Cups",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PANERA GRK LMN CHKPC + Panera Soup Cups",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Welcome to ShopRite of 20th Aven\n133-11 20th Ave, College Point\nOpen 6 a.m. to Midnight Daily\n04/16/26 11:23am S204 R75 T72 C75\n***********************************\n* Regular Items *\n***********************************\nGM CIN TST CR TRT PC 4.49 F\nOn Sale You Saved 1.00\nSC General Mills Trea 2.50-F\nGM CIN TST CR TRT PC 4.49 F\nOn Sale You Saved 1.00\nSC General Mills Trea 2.50-F\nJNKLSS GRAN STRAWBC 4.29 F\nOn Sale You Saved 0.70\nSC Junkless Chewy Gra 0.30-F\n2 @ 0.99\nCUCUMBR BURPLSS LG 1.98 F\nCALIFIA CB ESPRS B 6.99 F\nPANERA GRK LMN CHKPC 5.49 F\nOn Sale You Saved 1.00\nSC Panera Soup Cups 1.50-F\nPANERA GRK LMN CHKPC 5.49 F\nOn Sale You Saved 1.00\nSC Panera Soup Cups 1.50-F\nPANERA GRK LMN CHKPC 5.49 F\nOn Sale You Saved 1.00\nSC Panera Soup Cups 1.50-F\nValued Customer 47027430368\nTAX 0.00\n**** BALANCE 28.91\n***********************************\nShopRite Credit Receipt\nStore # 204 of College Point , NY\nTerminal: 75 Operator: 75 Trans: 72\nDate: 04/16/26 Time: 11:24am\nPurchase: $ 28.91\nAcct#: ************3166 CONTACTLESS\nResponse : APPROVED\nApproval : 01647R\nPrepaid Card Balance: 0.00\n***********************************\nDISCOVER CARD 28.91\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\nShopRite Savings\nTotal On Sale Savings $ 8.72\nPPC & Str Cpns $ 9.80\nTotal Savings today is $ 18.52\n04/16/26 11:24am 204 75 72 75\nYou saved $ 9.80 in PricePlusCpns\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\nSpring Refresh Rewards\nSpend $150 on participating items\nand receive a $50 ShopRite Gift Card\nLimit 1 offer per customer.\nQUALIFY by 5/2/2026\nREDEEM by 5/9/2026\nPlease view the front page of\nthe circular for item details.",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GM CIN TST CR TRT + On Sale You Saved 1.00",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "GM CIN TST CR TRT + On Sale You Saved 1.00",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 1.99
+    },
+    {
+      "text": "JNKLSS GRAN STRAWB + On Sale You Saved 0.70",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "CUCUMBR BURPLSS LG + 2 @ 0.99",
+      "price": 0.99,
+      "quantity": 2,
+      "totalSpend": 1.98
+    },
+    {
+      "text": "CALIFIA CB ESPRS B",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "PANERA GRK LMN CHK + On Sale You Saved 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "PANERA GRK LMN CHK + On Sale You Saved 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "PANERA GRK LMN CHK + On Sale You Saved 1.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

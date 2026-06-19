@@ -1,0 +1,297 @@
+{
+  "id": "cmod4hegt00nwn6ehimaoowon",
+  "url": null,
+  "retailer": "Kroger Marketplace",
+  "brand": "UNREAL",
+  "amount": 5.34,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kroger",
+    "totalCost": "16.21",
+    "purchaseDate": "2026-04-22",
+    "time": null,
+    "zipCode": "46237",
+    "city": "Indianapolis",
+    "state": "IN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 9509.841707999993,
+        "totalUsd": 0.01599,
+        "inputTokens": 6178,
+        "outputTokens": 747,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.21",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:54pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "46237",
+          "status": "match"
+        },
+        "city": {
+          "value": "INDIANAPOLIS",
+          "status": "match"
+        },
+        "state": {
+          "value": "IN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5350 E. Thompson Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8398",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "POPPI ORANGE",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ST BERRY BANANA PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "UNREAL PB CUPS PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger\nFRESH FOR EVERYONE\n5350 E. Thompson Rd\n317-781-3560\nYour cashier was CHEC 522\nPOPPI ORANGE 2.69 T\nST BERRY BANANA PC 7.99 F\nSC KROGER SAVINGS 1.00\nUNREAL PB CUPS PC 4.99 T\nSC KROGER SAVINGS 2.00\nKROGER PLUS CUSTOMER *******2799\nTAX 0.54\n**** BALANCE 16.21\nINDIANAPOLIS IN 46237\nCHASE VISA Purchase\n************8398 - H\nREF#: 03357D TOTAL: 16.21\nAID: A0000000031010\nTC: 487A247A66BFBB58\nVISA 16.21\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\nKROGER SAVINGS $ 3.00\nTOTAL SAVINGS (16 %) $ 3.00\n04/22/26 12:54pm 995 522 13 999999522\n************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 24800.39349999995,
+        "totalUsd": 0.053145,
+        "inputTokens": 3738,
+        "outputTokens": 750,
+        "reasoningTokens": 4532
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.21",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:54pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "46237",
+          "status": "match"
+        },
+        "city": {
+          "value": "Indianapolis",
+          "status": "match"
+        },
+        "state": {
+          "value": "IN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5350 E. Thompson Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8398",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "POPPI ORANGE",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ST BERRY BANANA PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "UNREAL PB CUPS PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Kroger\n\nFRESH FOR EVERYONE\n\n5350 E. Thompson Rd\n317-781-3560\nYour cashier was CHEC 522\nPOPPI ORANGE 2.69 T\nST BERRY BANANA PC 7.99 F\nSC KROGER SAVINGS 1.00\nUNREAL PB CUPS PC 4.99 T\nSC KROGER SAVINGS 2.00\nKROGER PLUS CUSTOMER *******2799\nTAX 0.54\n**** BALANCE 16.21\nINDIANAPOLIS IN 46237\nCHASE VISA Purchase\n************8398 - H\nREF#: 03357D TOTAL: 16.21\nAID: A0000000031010\nTC: 487A247A66BFBB58\n\nVISA 16.21\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\nKROGER SAVINGS $ 3.00\nTOTAL SAVINGS (16 %) $ 3.00\n04/22/26 12:54pm 995 522 13 999999522\n*************************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4716.406208999979,
+        "totalUsd": 0.012231,
+        "inputTokens": 3738,
+        "outputTokens": 736,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kroger",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "16.21",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-22",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:54pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "46237",
+          "status": "match"
+        },
+        "city": {
+          "value": "INDIANAPOLIS",
+          "status": "match"
+        },
+        "state": {
+          "value": "IN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5350 E. Thompson Rd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8398",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "POPPI ORANGE",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ST BERRY BANANA PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "UNREAL PB CUPS PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger\nFRESH FOR EVERYONE\n5350 E. Thompson Rd\n317-781-3560\nYour cashier was CHEC 522\nPOPPI ORANGE 2.69 T\nST BERRY BANANA PC 7.99 F\nSC KROGER SAVINGS 1.00\nUNREAL PB CUPS PC 4.99 T\nSC KROGER SAVINGS 2.00\nKROGER PLUS CUSTOMER *******2799\nTAX 0.54\n**** BALANCE 16.21\nINDIANAPOLIS IN 46237\nCHASE VISA Purchase\n************8398 - H\nREF#: 03357D TOTAL: 16.21\nAID: A0000000031010\nTC: 487A247A66BFBB58\nVISA 16.21\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\nKROGER SAVINGS $ 3.00\nTOTAL SAVINGS (16 %) $ 3.00\n04/22/26 12:54pm 995 522 13 999999522\n***********************************",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "POPPI ORANGE",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    },
+    {
+      "text": "ST BERRY BANANA + SC KROGER SAVINGS 1.00",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "UNREAL PB CUPS + SC KROGER SAVINGS 2.00 + KROGER PLUS CUSTOMER *******2799",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

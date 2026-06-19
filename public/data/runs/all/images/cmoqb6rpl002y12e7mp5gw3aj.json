@@ -1,0 +1,243 @@
+{
+  "id": "cmoqb6rpl002y12e7mp5gw3aj",
+  "url": null,
+  "retailer": "7-Eleven",
+  "brand": "Proper Wild",
+  "amount": 3.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "7-Eleven",
+    "totalCost": "3.99",
+    "purchaseDate": "2026-05-03",
+    "time": null,
+    "zipCode": "10001",
+    "city": "NEW YORK",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6104.810750000004,
+        "totalUsd": 0.015024,
+        "inputTokens": 6086,
+        "outputTokens": 655,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "7-Eleven",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10001",
+          "status": "match"
+        },
+        "city": {
+          "value": "NEW YORK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "800 6TH AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9291",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1 Proper Wild Blackberry 2.5z",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "7 ELEVEN\n800 6TH AVE\nNEW YORK NY 10001\nPh: 646902263\nSTORE#: 39516\nTHANKS FOR SHOPPING\n7-ELEVEN\nSALE\n\n1 Proper Wild Blackberry 2.5z\t3.99\n\nSUBTOTAL\t$3.99\nTOTAL DUE\t$3.99\n\nVISA\t$3.99\nACCT#: ************9291\nAPPROVAL#: 09681I\tAUTH CODE: 0\nAPPROVAL TIME: 175321\nTERM#: 00073951601\nREF#: 80128077044\nAPP NAME: VISACREDIT\nAID: A0000000031010\nENTRY: CONTACTLESS\nAPPROVED\nPIN VERIFIED\nCRYPTO: ARQC 645177E874899B62\n\n# ITEMS SOLD 1\nCUSTOMER AGREES TO PAY THE ABOVE\nTOTAL AMOUNT ACCORDING TO THE CARD\nHOLDERS AGREEMENT\n\nTRY OUR DELI CENTRAL SANDWICHES\nNO REFUNDS ON ANY PREPAID CARD LOADS\n**** REPRINT ****\nT#01 OP22 TRN1621 05/03/2026 5:53 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7951.105291999993,
+        "totalUsd": 0.01974,
+        "inputTokens": 3692,
+        "outputTokens": 626,
+        "reasoningTokens": 952
+      },
+      "fields": {
+        "storeName": {
+          "value": "7-Eleven",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10001",
+          "status": "match"
+        },
+        "city": {
+          "value": "NEW YORK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "800 6TH AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9291",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Proper Wild Blackberry 2.5z",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "7 ELEVEN\n800 6TH AVE\nNEW YORK NY 10001\nPh: 6469032263\nSTORE#: 39516\nTHANKS FOR SHOPPING\n7-ELEVEN\nSALE\n1 Proper Wild Blackberry 2.5z 3.99\nSUBTOTAL $3.99\nTOTAL DUE $3.99\nVISA $3.99\nACCT#: ************9291\nAPPROVAL#: 09681I AUTH CODE: 0\nAPPROVAL TIME: 175321\nTERM#: 00073951601\nREF#: 80128077044\nAPP NAME: VISACREDIT\nAID: A0000000031010\nENTRY: CONTACTLESS\nAPPROVED\nPIN VERIFIED\nCRYPTO: ARQC 645177E874899B62\n# ITEMS SOLD 1\nCUSTOMER AGREES TO PAY THE ABOVE\nTOTAL AMOUNT ACCORDING TO THE CARD\nHOLDERS AGREEMENT\nTRY OUR DELI CENTRAL SANDWICHES\nNO REFUNDS ON ANY PREPAID CARD LOADS\n**** REPRINT ****\nT#01 OP22 TRN1621 05/03/2026 5:53 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4415.957709000002,
+        "totalUsd": 0.011343,
+        "inputTokens": 3692,
+        "outputTokens": 645,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "7-Eleven",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.99",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "5:53 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "10001",
+          "status": "match"
+        },
+        "city": {
+          "value": "NEW YORK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "800 6TH AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9291",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Proper Wild Blackberry 2.5z",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "7 ELEVEN\n800 6TH AVE\nNEW YORK NY 10001\nPh: 6469302263\nSTORE#: 39516\nTHANKS FOR SHOPPING\n7-ELEVEN\nSALE\n\n1 Proper Wild Blackberry 2.5z\t3.99\n\nSUBTOTAL\t$3.99\nTOTAL DUE\t$3.99\n\nVISA\t$3.99\nACCT#: ************9291\nAPPROVAL#: 09681I\tAUTH CODE: 0\nAPPROVAL TIME: 175321\nTERM#: 00073951601\nREF#: 80128077044\nAPP NAME: VISACREDIT\nAID: A0000000031010\nENTRY: CONTACTLESS\nAPPROVED\nPIN VERIFIED\nCRYPTO: ARQC 645177E874899B62\n\n# ITEMS SOLD 1\nCUSTOMER AGREES TO PAY THE ABOVE\nTOTAL AMOUNT ACCORDING TO THE CARD\nHOLDERS AGREEMENT\n\nTRY OUR DELI CENTRAL SANDWICHES\nNO REFUNDS ON ANY PREPAID CARD LOADS\n**** REPRINT ****\nT#01 OP22 TRN1621 05/03/2026 5:53 PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Proper Wild Blackberry 2.5z",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

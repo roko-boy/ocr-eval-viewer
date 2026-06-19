@@ -1,0 +1,270 @@
+{
+  "id": "cmobzcijf0023vfaakuvuq2kl",
+  "url": null,
+  "retailer": "Village Fresh Market",
+  "brand": "Dust Bowl Brewing Co. ",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Village Fresh Market",
+    "totalCost": "21.28",
+    "purchaseDate": "2026-04-23",
+    "time": null,
+    "zipCode": "95380",
+    "city": "Turlock",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10961.04116699999,
+        "totalUsd": 0.014907,
+        "inputTokens": 6086,
+        "outputTokens": 642,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Village Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:09:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95380",
+          "status": "match"
+        },
+        "city": {
+          "value": "Turlock",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2090 E. Canal Dr.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9404",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DUST BOWL TACO T + YOU SAVE 3.00",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 18.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "12 PACK BEER CRV + CRV BEER WINE LIQUOR",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Fresh Market\nwww.villagefresh.com\n@villagefreshturlock\nVillage Fresh Market\n2090 E. Canal Dr.\nTurlock, CA 95380\nPhone: 209-667-0572\n\nHi, my name is Patrick\n\nBEER\nDUST BOWL TACO T  18.99 T\n  YOU SAVE  3.00\n  CRV BEER WINE LIQUOR\n12 PACK BEER CRV  .60 T\n\nSUBTOTAL 2 19.59\nSALES TAX 1.69\nTOTAL 21.28\n\nDUE 21.28\n*VISA* 21.28\nEPS Response Desc APPROVED\n04/23/2026 14:09:51\nCAPITAL ONE VISA Entry Method:Cntctless\nCARD #:\nXXXXXXXXXXXX9404\nPURCHASE - APPROVED\nAUTH CODE:08562D\n\nMode:\nIssuer\nA0000000031010\n0000000000",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9230.063416999998,
+        "totalUsd": 0.021594,
+        "inputTokens": 3692,
+        "outputTokens": 632,
+        "reasoningTokens": 1152
+      },
+      "fields": {
+        "storeName": {
+          "value": "Village Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:09:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95380",
+          "status": "match"
+        },
+        "city": {
+          "value": "Turlock",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2090 E. Canal Dr.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9404",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DUST BOWL TACO T + YOU SAVE 3.00",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 18.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "12 PACK BEER CRV + CRV BEER WINE LIQUOR",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Village Fresh Market\nwww.villagefresh.com\n@villagefreshturlock\nVillage Fresh Market\n2090 E. Canal Dr.\nTurlock, CA 95380\nPhone: 209-667-0572\n\nHi, my name is Patrick\n\nBEER\nDUST BOWL TACO T 18.99 T\nYOU SAVE 3.00\nCRV BEER WINE LIQUOR\n12 PACK BEER CRV .60 T\n\nSUBTOTAL 2 19.59\nSALES TAX 1.69\nTOTAL 21.28\n\nDUE 21.28\n*VISA* 21.28\nEPS Response Desc APPROVED\n04/23/2026 14:09:51\nCAPITAL ONE VISA Entry Method:Cntctless\nCARD #: XXXXXXXXXXXX9404\nPURCHASE - APPROVED\nAUTH CODE:08562D\n\nMode: Issuer\nA0000000031010\n0000000000",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4070.716208999991,
+        "totalUsd": 0.011244,
+        "inputTokens": 3692,
+        "outputTokens": 634,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Village Fresh Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "21.28",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "14:09:51",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "95380",
+          "status": "match"
+        },
+        "city": {
+          "value": "Turlock",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2090 E. Canal Dr.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9404",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DUST BOWL TACO T + YOU SAVE 3.00",
+          "quantity": 1,
+          "unitPrice": 21.99,
+          "totalSpend": 18.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV BEER WINE LIQUOR + 12 PACK BEER CRV",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Fresh Market\nwww.villagefresh.com\n@villagefreshturlock\nVillage Fresh Market\n2090 E. Canal Dr.\nTurlock, CA 95380\nPhone: 209-667-0572\n\nHi, my name is Patrick\n\nBEER\nDUST BOWL TACO T 18.99 T\nYOU SAVE 3.00\nCRV BEER WINE LIQUOR\n12 PACK BEER CRV .60 T\n\nSUBTOTAL 2 19.59\nSALES TAX 1.69\nTOTAL 21.28\n\nDUE 21.28\n*VISA* 21.28\nEPS Response Desc APPROVED\n04/23/2026 14:09:51\nCAPITAL ONE VISA Entry Method: Cntctless\nCARD #: XXXXXXXXXXXX9404\nPURCHASE - APPROVED\nAUTH CODE:08562D\n\nMode:\nIssuer\nA0000000031010\n0000000000",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "DUST BOWL TACO T + YOU SAVE 3.00 + CRV BEER WINE LIQUOR",
+      "price": 18.99,
+      "quantity": 1,
+      "totalSpend": 18.99
+    },
+    {
+      "text": "12 PACK BEER CRV",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0.6
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

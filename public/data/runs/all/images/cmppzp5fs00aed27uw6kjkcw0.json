@@ -1,0 +1,243 @@
+{
+  "id": "cmppzp5fs00aed27uw6kjkcw0",
+  "url": null,
+  "retailer": "Market Basket",
+  "brand": "Hop Wtr",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Market Basket",
+    "totalCost": "33.98",
+    "purchaseDate": "2026-05-28",
+    "time": null,
+    "zipCode": "03053",
+    "city": "Londonderry",
+    "state": "NH",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6429.379790999985,
+        "totalUsd": 0.016203,
+        "inputTokens": 6086,
+        "outputTokens": 786,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market Basket",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:48 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03053",
+          "status": "match"
+        },
+        "city": {
+          "value": "Londonderry",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 Michels Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2507",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 850020883158 + HOP WATER",
+          "quantity": 2,
+          "unitPrice": 16.99,
+          "totalSpend": 33.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n10 Michels Way\nLondonderry, NH 03053\n(603) 434-3780\nStore Director: Chris Stetson\nStore: 042\nCashier:\n0420110-Annabelle C\n5/28/26\n4:48 PM\nSale\nGROCERY\n850020883158 HOP WATER\n33.98\n2 @ 16.99\nSUBTOTAL\n33.98\nTOTAL\n33.98\nCredit\n33.98\nTOTAL TENDERED\n33.98\nChange\n0.00\nCARD INFORMATION:\nCard Type:\nVisa\nAccount:\n2507\nAmount:\nUSD $33.98\nApproval #:\n064903\nEntry:\nChip Read\nDate:\n5/28/26\nReference #:\n245991832001\nAID:\nA0000000031010\nTVR:\n8000088000\nIAD:\n06011203A0A000\nTSI:\n6800\nARC:\n3030\nMID:\n*9438\nMode:\nIssuer\nCard Name:\nVISA CREDIT\nNumber of Items\n2\n*E74GQ015Z10Z1D\nTrx:991832 Term:20 Store:042 4:48 PM\nSTORE HOURS MON-SAT 7AM-9PM SUN 7AM-8PM\nTo sign up for the weekly flyer email",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7505.623875000019,
+        "totalUsd": 0.019911,
+        "inputTokens": 3692,
+        "outputTokens": 777,
+        "reasoningTokens": 820
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market Basket",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:48 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03053",
+          "status": "match"
+        },
+        "city": {
+          "value": "Londonderry",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 Michels Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2507",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 850020883158 HOP WATER",
+          "quantity": 2,
+          "unitPrice": 16.99,
+          "totalSpend": 33.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n10 Michels Way\nLondonderry, NH 03053\n(603) 434-3780\nStore Director: Chris Stetson\nStore: 042\nCashier:\n0420110-Annabelle C\n5/28/26\n4:48 PM\nSale\nGROCERY\n850020883158 HOP WATER\n33.98\n2 @ 16.99\nSUBTOTAL\n33.98\nTOTAL\n33.98\nCredit\n33.98\nTOTAL TENDERED\n33.98\nChange\n0.00\nCARD INFORMATION:\nCard Type:\nVisa\nAccount:\n2507\nAmount:\nUSD $33.98\nApproval #:\n064903\nEntry:\nChip Read\nDate:\n5/28/26\nReference #:\n245991832001\nAID:\nA0000000031010\nTVR:\n8000088000\nIAD:\n06011203A0A000\nTSI:\n6800\nARC:\n3030\nMID:\n*9438\nMode:\nIssuer\nCard Name:\nVISA CREDIT\nNumber of Items\n2\n*E74GQ015Z10Z1D\nTrx:991832 Term:20 Store: 042 4:48 PM\nSTORE HOURS MON-SAT 7AM-9PM SUN 7AM-8PM\nTo sign up for the weekly flyer email",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4682.337958999997,
+        "totalUsd": 0.012243,
+        "inputTokens": 3692,
+        "outputTokens": 745,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Market Basket",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "33.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "4:48 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "03053",
+          "status": "match"
+        },
+        "city": {
+          "value": "Londonderry",
+          "status": "match"
+        },
+        "state": {
+          "value": "NH",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 Michels Way",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2507",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GROCERY + 850020883158 HOP WATER",
+          "quantity": 2,
+          "unitPrice": 16.99,
+          "totalSpend": 33.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "MARKET BASKET\n\"MORE FOR YOUR DOLLAR\"\n10 Michels Way\nLondonderry, NH 03053\n(603) 434-3780\nStore Director: Chris Stetson\nStore: 042\nCashier:\n0420110-Annabelle C\n5/28/26\n4:48 PM\nSale\nGROCERY\n850020883158 HOP WATER\n33.98\n2 @ 16.99\nSUBTOTAL\n33.98\nTOTAL\n33.98\nCredit\n33.98\nTOTAL TENDERED\n33.98\nChange\n0.00\nCARD INFORMATION:\nCard Type:\nVisa\nAccount:\n2507\nAmount:\nUSD $33.98\nApproval #:\n064903\nEntry:\nChip Read\nDate:\n5/28/26\nReference #:\n245991832001\nAID:\nA0000000980840\nTVR:\n8000088000\nIAD:\n06011203A0A000\nTSI:\n6800\nARC:\n3030\nMID:\n*9438\nMode:\nIssuer\nCard Name:\nVISA CREDIT\nNumber of Items\n2\n*E74GQ015Z10Z1D\nTrx:991832 Term:20 Store: 042 4:48 PM\nSTORE HOURS MON-SAT 7AM-9PM SUN 7AM-8PM",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HOP WATER + 850020883158 + 2 @ 16.99",
+      "price": 16.99,
+      "quantity": 2,
+      "totalSpend": 33.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,324 @@
+{
+  "id": "cmnkmkmvs002112ibrfake36g",
+  "url": null,
+  "retailer": "Walmart Supercenter",
+  "brand": "W",
+  "amount": 1.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walmart",
+    "totalCost": "13.18",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "79415",
+    "city": "Lubbock",
+    "state": "TX",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 21618.156793,
+        "totalUsd": 0.018234,
+        "inputTokens": 6114,
+        "outputTokens": 1007,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "22:54:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79415",
+          "status": "match"
+        },
+        "city": {
+          "value": "LUBBOCK",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1911 MARSHA SHARP FWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5026",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORIGNL DO NW 810155630450",
+          "quantity": 1,
+          "unitPrice": 8.97,
+          "totalSpend": 8.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W DEO 810155630000",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W DEO 810155630000",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TAPE MEASURE 072879275910",
+          "quantity": 1,
+          "unitPrice": 1.12,
+          "totalSpend": 1.12,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WRJMZ1BFDWN\nWalmart\nWM Supercenter\n806-747-3454 Mgr. KEVIN\n1911 MARSHA SHARP FWY\nLUBBOCK TX 79415\nST# 03826 OP# 009012 TE# 12 TR# 04033\n# ITEMS SOLD 4\nTC# 8897 7835 5692 2179 7881\nORIGNL DO NW 810155630450 8.97 N\nW DEO 810155630000 1.50 O\nW DEO 810155630000 1.50 O\nTAPE MEASURE 072879275910 1.12 X\nSUBTOTAL 13.09\nTAX1 8.2500 % 0.09\nTOTAL 13.18\nMCARD TEND 13.18\nCHANGE DUE 0.00\nMASTERCARD- 5026 I 1 APPR#003026\n13.18 TOTAL PURCHASE\nREF # UE96V2488121\nAID A0000000041010\nTERMINAL # 27076551\n*No Signature Required\n04/03/26 22:54:31\nGet free delivery\nfrom this store\nwith Walmart+\nScan for 30-day free trial.\nLow prices You Can Trust. Every Day.\n04/03/26 22:54:37",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13135.757167,
+        "totalUsd": 0.030426,
+        "inputTokens": 3706,
+        "outputTokens": 1001,
+        "reasoningTokens": 1762
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "22:54:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79415",
+          "status": "match"
+        },
+        "city": {
+          "value": "LUBBOCK",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1911 MARSHA SHARP FWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5026",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORIGNL DO NW 810155630450",
+          "quantity": 1,
+          "unitPrice": 8.97,
+          "totalSpend": 8.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W DEO 810155630000",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W DEO 810155630000",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TAPE MEASURE 072879275910",
+          "quantity": 1,
+          "unitPrice": 1.12,
+          "totalSpend": 1.12,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WRJMZ1BFDWN\nWalmart\nWM Supercenter\n806-747-3454 Mgr. KEVIN\n1911 MARSHA SHARP FWY\nLUBBOCK TX 79415\nST# 03826 OP# 009012 TE# 12 TR# 04033\n# ITEMS SOLD 4\nTC# 8897 7835 5692 2179 7881\nORIGNL DO NW 810155630450 8.97 N\nW DEO 810155630000 1.50 O\nW DEO 810155630000 1.50 O\nTAPE MEASURE 072879275910 1.12 X\nSUBTOTAL 13.09\nTAX1 8.2500 % 0.09\nTOTAL 13.18\nMCARD TEND 13.18\nCHANGE DUE 0.00\nMASTERCARD- 5026 I 1 APPR#003026\n13.18 TOTAL PURCHASE\nREF # UE96V2488121\nAID A0000000041010\nTERMINAL # 27076551\n*No Signature Required\n04/03/26 22:54:31\nGet free delivery\nfrom this store\nwith Walmart+\nScan for 30-day free trial.\nLow prices You Can Trust. Every Day.\n04/03/26 22:54:37",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6053.196625,
+        "totalUsd": 0.014568,
+        "inputTokens": 3706,
+        "outputTokens": 1001,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.18",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "22:54:31",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "79415",
+          "status": "match"
+        },
+        "city": {
+          "value": "LUBBOCK",
+          "status": "match"
+        },
+        "state": {
+          "value": "TX",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1911 MARSHA SHARP FWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5026",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ORIGNL DO NW 810155630450",
+          "quantity": 1,
+          "unitPrice": 8.97,
+          "totalSpend": 8.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W DEO 810155630000",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "W DEO 810155630000",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TAPE MEASURE 072879275910",
+          "quantity": 1,
+          "unitPrice": 1.12,
+          "totalSpend": 1.12,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Give us feedback @ survey.walmart.com\nThank you! ID #:7WRJMZ1BFDWN\nWalmart\nWM Supercenter\n806-747-3454 Mgr. KEVIN\n1911 MARSHA SHARP FWY\nLUBBOCK TX 79415\nST# 03826 OP# 009012 TE# 12 TR# 04033\n# ITEMS SOLD 4\nTC# 8897 7835 5692 2179 7881\nORIGNL DO NW 810155630450 8.97 N\nW DEO 810155630000 1.50 O\nW DEO 810155630000 1.50 O\nTAPE MEASURE 072879275910 1.12 X\nSUBTOTAL 13.09\nTAX1 8.2500 % 0.09\nTOTAL 13.18\nMCARD TEND 13.18\nCHANGE DUE 0.00\nMASTERCARD- 5026 I 1 APPR#003026\n13.18 TOTAL PURCHASE\nREF # UE96V2488121\nAID A0000000041010\nTERMINAL # 27076551\n*No Signature Required\n04/03/26 22:54:31\nGet free delivery\nfrom this store\nwith Walmart+\nScan for 30-day free trial.\nLow prices You Can Trust. Every Day.\n04/03/26 22:54:37",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "W DEO + 810155630000",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "TAPE MEASURE + 072879275910",
+      "price": 1.12,
+      "quantity": 1,
+      "totalSpend": 1.12
+    },
+    {
+      "text": "W DEO + 810155630000",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "ORIGNL DO NW + 810155630450",
+      "price": 8.97,
+      "quantity": 1,
+      "totalSpend": 8.97
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

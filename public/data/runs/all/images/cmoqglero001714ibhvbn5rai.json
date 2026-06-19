@@ -1,0 +1,212 @@
+{
+  "id": "cmoqglero001714ibhvbn5rai",
+  "url": null,
+  "retailer": "CVS",
+  "brand": "Alec's Ice Cream",
+  "amount": 0,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "CVS",
+    "totalCost": null,
+    "purchaseDate": "2026-03-29",
+    "time": null,
+    "zipCode": "60613",
+    "city": "Chicago",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 5070.096501000022,
+        "totalUsd": 0.012102,
+        "inputTokens": 6172,
+        "outputTokens": 316,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-03-29",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60613-4316",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "CHICAGO",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3640 N HALSTED ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "Purchased at store\n\nWhole Foods Market\n3640 N HALSTED ST\nCHICAGO, IL 60613-4316\n\nPurchase Summary\n\nOrder #: 113-3318424-6326656\nPurchased Sunday, March 29, 2026\n\nItem Subtotal\nTotal Savings\nTax and Fees\nCHICAGO, CITY OF\nREGIONAL TRANSPORTATION AUTHORI\nGrand Total\n\nPayment Methods\nDebit\n\nHow was your trip?",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 7071.913624999986,
+        "totalUsd": 0.0144225,
+        "inputTokens": 3735,
+        "outputTokens": 305,
+        "reasoningTokens": 675
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": "2026-03-29",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60613-4316",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "CHICAGO",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3640 N HALSTED ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "Purchased at store\n\nWhole Foods Market\n3640 N HALSTED ST\nCHICAGO, IL 60613-4316\n\nPurchase Summary\n\nOrder #: 113-3318424-6326656\nPurchased Sunday, March 29, 2026\n\nItem Subtotal\nTotal Savings\nTax and Fees\nCHICAGO, CITY OF\nREGIONAL TRANSPORTATION AUTHORI\nGrand Total\n\nPayment Methods\nDebit\n\nHow was your trip?",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 2922.07475,
+        "totalUsd": 0.0080595,
+        "inputTokens": 3735,
+        "outputTokens": 273,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "0",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60613-4316",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "3640 N HALSTED ST",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [],
+      "rawText": "Purchased at store\n\nWhole Foods Market\n3640 N HALSTED ST\nCHICAGO, IL 60613-4316\n\nPurchase Summary\n\nOrder #: 113-3318424-6326656\nPurchased Sunday, March 29, 2026\n\nItem Subtotal\nTotal Savings\nTax and Fees\nCHICAGO, CITY OF\nREGIONAL TRANSPORTATION AUTHORI\nGrand Total\n\nPayment Methods\nDebit\n\nHow was your trip?",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 3,
+  "nullCount": 0
+}

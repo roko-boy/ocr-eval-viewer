@@ -1,0 +1,243 @@
+{
+  "id": "cmqed2zgm01283v0invy6gnam",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "JustFoodForDogs",
+  "amount": 12.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "28.77",
+    "purchaseDate": "2026-06-14",
+    "time": null,
+    "zipCode": "90403",
+    "city": "SANTA MONICA",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7481.719207999937,
+        "totalUsd": 0.015789,
+        "inputTokens": 6086,
+        "outputTokens": 740,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:13 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90403",
+          "status": "match"
+        },
+        "city": {
+          "value": "SANTA MONICA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2910 WILSHIRE BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5284",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936540 JFFD-DOG 18Z BF/POTA + Reg Price: 2@ 12.99",
+          "quantity": 2,
+          "unitPrice": 12.99,
+          "totalSpend": 25.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nSANTA MONICA #00539\n2910 WILSHIRE BLVD\nSANTA MONICA, CA 90403\n310-586-1963\n06/14/26 3:13PM Reg 004 Trans 168560\nHelped by Fabian\n002936540 JFFD-DOG 18Z BF/POTA 25.98 T\nReg Price: 2@ 12.99\nTaxable Total 25.98\nSubtotal 25.98\nTax CA 10.75% 2.79\nTOTAL 28.77\nVisa Credit Card 28.77\n2026-06-14 03:13:25 PM\nTotal: USD $28.77\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX5284\nPurchase - APPROVED\nAUTH CODE: 051652\nAID: A0000000980840\nTVR: 0000000000\nIAD: 1F42046EA0000000010030273000000004000000000\n00000000000000000000\nARC: 00\nRRN: 548409\n2 Items\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 6771.988208000024,
+        "totalUsd": 0.017634,
+        "inputTokens": 3692,
+        "outputTokens": 729,
+        "reasoningTokens": 615
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:13 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90403",
+          "status": "match"
+        },
+        "city": {
+          "value": "SANTA MONICA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2910 WILSHIRE BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5284",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936540 JFFD-DOG 18Z BF/POTA + Reg Price: 2@ 12.99",
+          "quantity": 2,
+          "unitPrice": 12.99,
+          "totalSpend": 25.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nSANTA MONICA #00539\n2910 WILSHIRE BLVD\nSANTA MONICA, CA 90403\n310-586-1963\n06/14/26 3:13PM Reg 004 Trans 168560\nHelped by Fabian\n002936540 JFFD-DOG 18Z BF/POTA 25.98 T\nReg Price: 2@ 12.99\nTaxable Total 25.98\nSubtotal 25.98\nTax CA 10.75% 2.79\nTOTAL 28.77\nVisa Credit Card 28.77\n2026-06-14 03:13:25 PM\nTotal: USD $28.77\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX5284\nPurchase - APPROVED\nAUTH CODE: 051652\nAID: A0000000980840\nTVR: 0000000000\nIAD:\n1F42046EA0000000010030273000000004000000000\n00000000000000000000\nARC: 00\nRRN: 548409\n2 Items\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5029.023541999981,
+        "totalUsd": 0.011982,
+        "inputTokens": 3692,
+        "outputTokens": 716,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "28.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "3:13 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "90403",
+          "status": "match"
+        },
+        "city": {
+          "value": "SANTA MONICA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2910 WILSHIRE BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5284",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "002936540 JFFD-DOG 18Z BF/POTA",
+          "quantity": 2,
+          "unitPrice": 12.99,
+          "totalSpend": 25.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "petco\nwhere the pets go\nSANTA MONICA #00539\n2910 WILSHIRE BLVD\nSANTA MONICA, CA 90403\n310-586-1963\n06/14/26 3:13PM Reg 004 Trans 168560\nHelped by Fabian\n002936540 JFFD-DOG 18Z BF/POTA 25.98 T\nReg Price: 2@ 12.99\nTaxable Total 25.98\nSubtotal 25.98\nTax CA 10.75% 2.79\nTOTAL 28.77\nVisa Credit Card 28.77\n2026-06-14 03:13:25 PM\nTotal: USD $28.77\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX5284\nPurchase - APPROVED\nAUTH CODE: 051652\nAID: A0000000980840\nTVR: 0000000000\nIAD: 1F42046EA0000000010030273000000004000000000\n00000000000000000000\nARC: 00\nRRN: 548409\n2 Items\nTransaction Barcode",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "002936540 JFFD-DOG 18Z BF/POTA",
+      "price": 12.99,
+      "quantity": 2,
+      "totalSpend": 25.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

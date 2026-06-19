@@ -1,0 +1,338 @@
+{
+  "id": "cmqdghv330063kkczi07u9oky",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "f'real",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "12.84",
+    "purchaseDate": "2026-06-14",
+    "time": null,
+    "zipCode": "25315",
+    "city": "Marmet",
+    "state": "WV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6179.710499999986,
+        "totalUsd": 0.016203,
+        "inputTokens": 6086,
+        "outputTokens": 786,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:48:19 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "25315",
+          "status": "match"
+        },
+        "city": {
+          "value": "Marmet",
+          "status": "match"
+        },
+        "state": {
+          "value": "WV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10401 MaCorkle Ave SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EFRUTTI GUMMY LUNCH BAG Sing",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL 12OZ MINT CHIP SHAKE S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL 12OZ VAN BLISS SHAKE S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Pure Life Water 16.9oz Singl",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #857\n10401 MaCorkle Ave SE\nMarmet, WV 25315\n(304) 220-2368\n6/14/2026 2:48:19 AM\nPOS Terminal\nOrder Number: 407\nRegister:3\nEFRUTTI GUMMY LUNCH BAG Sing $2.89\nFREAL 12OZ MINT CHIP SHAKE S $3.99\nFREAL 12OZ VAN BLISS SHAKE S $3.99\nPure Life Water 16.9oz Singl $1.49\nMy Sheetz Rewardz $0.00\nSub. Total: $12.36\nTax: $0.48\nTotal: $12.84\nDiscount Total: $0.00\nVisa: $12.84\nChange $0.00\nSale\nVisa\nCard Num\nCont",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8516.006416999968,
+        "totalUsd": 0.020244,
+        "inputTokens": 3692,
+        "outputTokens": 720,
+        "reasoningTokens": 914
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:48:19 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "25315",
+          "status": "match"
+        },
+        "city": {
+          "value": "Marmet",
+          "status": "match"
+        },
+        "state": {
+          "value": "WV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10401 MaCorkle Ave SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EFRUTTI GUMMY LUNCH BAG Sing",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL 12OZ MINT CHIP SHAKE S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL 12OZ VAN BLISS SHAKE S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Pure Life Water 16.9oz Singl",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #857\n10401 MaCorkle Ave SE\nMarmet, WV 25315\n(304) 220-2368\n6/14/2026 2:48:19 AM\nPOS Terminal\nOrder Number: 407\nRegister:3\nEFRUTTI GUMMY LUNCH BAG Sing $2.89\nFREAL 12OZ MINT CHIP SHAKE S $3.99\nFREAL 12OZ VAN BLISS SHAKE S $3.99\nPure Life Water 16.9oz Singl $1.49\nMy Sheetz Rewardz $0.00\nSub. Total: $12.36\nTax: $0.48\nTotal: $12.84\nDiscount Total: $0.00\nVisa: $12.84\nChange $0.00\nSale\nVisa\nCard Num\nCont",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4461.400208000006,
+        "totalUsd": 0.012513,
+        "inputTokens": 3692,
+        "outputTokens": 775,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.84",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-14",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:48:19 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "25315",
+          "status": "match"
+        },
+        "city": {
+          "value": "Marmet",
+          "status": "match"
+        },
+        "state": {
+          "value": "WV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10401 MaCorkle Ave SE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EFRUTTI GUMMY LUNCH BAG Sing",
+          "quantity": 1,
+          "unitPrice": 2.89,
+          "totalSpend": 2.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL 12OZ MINT CHIP SHAKE S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL 12OZ VAN BLISS SHAKE S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Pure Life Water 16.9oz Singl",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #857\n10401 MaCorkle Ave SE\nMarmet, WV 25315\n(304) 220-2368\n6/14/2026 2:48:19 AM\nPOS Terminal\nOrder Number: 407\nRegister:3\nEFRUTTI GUMMY LUNCH BAG Sing $2.89\nFREAL 12OZ MINT CHIP SHAKE S $3.99\nFREAL 12OZ VAN BLISS SHAKE S $3.99\nPure Life Water 16.9oz Singl $1.49\nMy Sheetz Rewardz $0.00\nSub. Total: $12.36\nTax: $0.48\nTotal: $12.84\nDiscount Total: $0.00\nVisa: $12.84\nChange $0.00\nSale\nVisa\nCard Num\nCont",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "EFRUTTI GUMMY LUNCH BAG Sing",
+      "price": 2.89,
+      "quantity": 1,
+      "totalSpend": 2.89
+    },
+    {
+      "text": "FREAL 12OZ MINT CHIP SHAKE S",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "FREAL 12OZ VAN BLISS SHAKE S",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "Pure Life Water 16.9oz Singl",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,297 @@
+{
+  "id": "cmqd2kmkw00mu8syxq98oaavf",
+  "url": null,
+  "retailer": "Hy-Vee Grocery Store",
+  "brand": "Melinda's Hot Sauce",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Hy-Vee",
+    "totalCost": "8.07",
+    "purchaseDate": "2026-06-13",
+    "time": null,
+    "zipCode": "61401",
+    "city": "Galesburg",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8688.780208000011,
+        "totalUsd": 0.018888,
+        "inputTokens": 6100,
+        "outputTokens": 1082,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "61401",
+          "status": "match"
+        },
+        "city": {
+          "value": "Galesburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1975 National Boulevard",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5996",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MELINDAS ORIG HAB 3692418281",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAISY CTTG CHS W/ 7342053122",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAISY CTTG CHS W/ 7342053122",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n1975 National Boulevard\nGalesburg, IL 61401\n309-344-1100\n1215StoreManagementMailGroup@Hy-Vee.com\n\nMELINDAS ORIG HAB 3692418281   4.49 F\n1242016 Fuel Saver .0         0.02\nDAISY CTTG CHS W/ 7342053122   1.79 F\nDAISY CTTG CHS W/ 7342053122   1.79 F\n-------------------------------------\nSUBTOTAL [3]                   8.07\n-------------------------------------\nTOTAL                          8.07\nMastercard                     8.07\n-------------------------------------\n\nPURCHASE $8.07\n************5996 MC CHIP READ\nREF#: 00990S 480032773122\nTransaction Approved\n\nMASTERCARD (as Credit)\n\nTC - D6B094DDB13B8596\n\nMode: Issuer\nAID: A0000000041010\nTVR: 0400008800\nIAD: 021060100322000000000000000000000000\nTSI: E800      ARC: 00\n-------------------------------------\n\nLoyalty Card # xxxxxxx8651\nEarned Today:      $0.02 per gallon\nRedeemed Today:    $0.00 per gallon\nTotal Rewards:     $0.02 per gallon\nCashier Name: SCO\n\nDate     Time     Store   POS Emp TRX\n06/13/26 07:40 PM 1215    43  10000 0168\n\nHelp us serve you better!\nCOMPLETE THE SURVEY AND GET $5,\nyour choice of prepaid Visa, gift card,\nor donation.\nVisit Hy-VeeSurvey.com\nLimited time offer.\nReward available while supplies last.\nHy-Vee employees not eligible.\n\n0011215130626043000168",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9788.170874999982,
+        "totalUsd": 0.0264015,
+        "inputTokens": 3699,
+        "outputTokens": 1088,
+        "reasoningTokens": 1229
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "61401",
+          "status": "match"
+        },
+        "city": {
+          "value": "Galesburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1975 National Boulevard",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5996",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MELINDAS ORIG HAB 3692418281 + 1242016 Fuel Saver .0 0.02",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAISY CTTG CHS W/ 7342053122",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAISY CTTG CHS W/ 7342053122",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n1975 National Boulevard\nGalesburg, IL 61401\n309-344-1100\n1215StoreManagementMailGroup@Hy-Vee.com\n\nMELINDAS ORIG HAB 3692418281   4.49 F\n1242016 Fuel Saver .0      0.02\nDAISY CTTG CHS W/ 7342053122   1.79 F\nDAISY CTTG CHS W/ 7342053122   1.79 F\n--------------------------------------\nSUBTOTAL [3]                   8.07\n--------------------------------------\nTOTAL                          8.07\nMastercard                     8.07\n--------------------------------------\n\nPURCHASE $8.07\n************5996 MC CHIP READ\nREF#: 00990S 480032773122\nTransaction Approved\n\nMASTERCARD (as Credit)\n\nTC - D6B094DDB13B8596\n\nMode: Issuer\nAID: A0000000041010\nTVR: 0400008800\nIAD: 02106010032200000000000000000000\nTSI: E800      ARC: 00\n--------------------------------------\n\nLoyalty Card # xxxxxxx8651\nEarned Today:      $0.02 per gallon\nRedeemed Today:    $0.00 per gallon\nTotal Rewards:     $0.02 per gallon\n     Cashier Name: SCO\n\nDate     Time     Store   POS Emp  TRX\n06/13/26 07:40 PM 1215    43  10000 0168\n\nHelp us serve you better!\nCOMPLETE THE SURVEY AND GET $5,\nyour choice of prepaid Visa, gift card,\nor donation.\nVisit Hy-VeeSurvey.com\nLimited time offer.\nReward available while supplies last.\nHy-Vee employees not eligible.\n\n0011215130626043000168",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6021.357959000001,
+        "totalUsd": 0.0149445,
+        "inputTokens": 3699,
+        "outputTokens": 1044,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "8.07",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "07:40 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "61401",
+          "status": "match"
+        },
+        "city": {
+          "value": "Galesburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1975 National Boulevard",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5996",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "MELINDAS ORIG HAB 3692418281 + 1242016 Fuel Saver .0 0.02",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAISY CTTG CHS W/ 7342053122",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DAISY CTTG CHS W/ 7342053122",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n1975 National Boulevard\nGalesburg, IL 61401\n309-344-1100\n1215StoreManagementMailGroup@Hy-Vee.com\nMELINDAS ORIG HAB 3692418281 4.49 F\n1242016 Fuel Saver .0 0.02\nDAISY CTTG CHS W/ 7342053122 1.79 F\nDAISY CTTG CHS W/ 7342053122 1.79 F\nSUBTOTAL [3] 8.07\nTOTAL 8.07\nMastercard 8.07\nPURCHASE $8.07\n************5996 MC CHIP READ\nREF#: 00990S 480032773122\nTransaction Approved\nMASTERCARD (as Credit)\nTC - D6B094DDB13B8596\nMode: Issuer\nAID: A0000000041010\nTVR: 0400008800\nIAD: 021060100322000000000000000000000000\nTSI: E800 ARC: 00\nLoyalty Card # xxxxxxx8651\nEarned Today: $0.02 per gallon\nRedeemed Today: $0.00 per gallon\nTotal Rewards: $0.02 per gallon\nCashier Name: SCO\nDate Time Store POS Emp TRX\n06/13/26 07:40 PM 1215 43 10000 0168\nHelp us serve you better!\nCOMPLETE THE SURVEY AND GET $5,\nyour choice of prepaid Visa, gift card,\nor donation.\nVisit Hy-VeeSurvey.com\nLimited time offer.\nReward available while supplies last.\nHy-Vee employees not eligible.\n0011215130626043000168",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MELINDAS ORIG HAB 3692418281 + 1242016 Fuel Saver .0 0.02",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "DAISY CTTG CHS W/ 7342053122",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "DAISY CTTG CHS W/ 7342053122",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

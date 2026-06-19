@@ -1,0 +1,270 @@
+{
+  "id": "cmn9eyql400019o7eiwbfv72w",
+  "url": null,
+  "retailer": "Dillons",
+  "brand": "nutpods",
+  "amount": 2.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Dillons",
+    "totalCost": "9.12",
+    "purchaseDate": "2026-03-27",
+    "time": null,
+    "zipCode": "67601",
+    "city": "Hays",
+    "state": "KS",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6405.024041999997,
+        "totalUsd": 0.017022,
+        "inputTokens": 6086,
+        "outputTokens": 877,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dillons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:25PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "67601",
+          "status": "match"
+        },
+        "city": {
+          "value": "HAYS",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1902 VINE ST.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6543",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTPODS SWEE + DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TWININGS REFRESHRSPC + DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 4.79,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Dillons FRESH FOR EVERYONE\n1902 VINE ST.\n(785) 628-6137\nYour cashier was CHEC 552\nNUTPODS SWEE PC 2.99 B\nSC DILLON SAVINGS 2.00\nTWININGS REFRESHRSPC 5.89 B\nSC DILLON SAVINGS 1.10\nPlus Customer *******7826\nTAX 0.24\n**** BALANCE 9.12\nHAYS KS 67601\nVISA CREDIT Purchase\n************6543 - H\nREF#: 05820D TOTAL: 9.12\nAID: A0000000031010\nTC: 96B7B571FFE27ADF\nVISA 9.12\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\nSTORE COUPONS 3.10\nTOTAL SAVINGS (25 pct.) 3.10\n03/27/26 04:25pm 61 552 97 999999552\n***********************************\nAnnual Card Savings $3.10\n***********************************\n***********************************\nRedeem your Points for\nfuel discounts or Rewards Cash\nonline or in your mobile app\nPoints Earned Today: 9\nTotal Mar Points: 9\n***********************************\nEARN 50 POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 03/27/26\nTime: 04:25PM\nEntry ID: 615-802-97-61-552-649\n***********************************\nWith Our Low Prices, You Saved\n$3.10\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.dillons.com\nwww.dillons.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18002.96245799999,
+        "totalUsd": 0.039036,
+        "inputTokens": 3692,
+        "outputTokens": 888,
+        "reasoningTokens": 2834
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dillons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:25 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "67601",
+          "status": "match"
+        },
+        "city": {
+          "value": "HAYS",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1902 VINE ST.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6543",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTPODS SWEE PC + DILLON SAVINGS 2.00",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TWININGS REFRESHRSPC + DILLON SAVINGS 1.10",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.89,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Dillons FRESH FOR EVERYONE\n1902 VINE ST.\n(785) 628-6137\nYour cashier was CHEC 552\nNUTPODS SWEE PC 2.99 B\nSC DILLON SAVINGS 2.00\nTWININGS REFRESHRSPC 5.89 B\nSC DILLON SAVINGS 1.10\nPlus Customer *******7826\nTAX 0.24\n**** BALANCE 9.12\nHAYS KS 67601\nVISA CREDIT Purchase\n************6543 - H\nREF#: 05820D TOTAL: 9.12\nAID: A0000000031010\nTC: 96B7B571FFE27ADF\nVISA 9.12\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\nSTORE COUPONS 3.10\nTOTAL SAVINGS (25 pct.) 3.10\n03/27/26 04:25pm 61 552 97 999999552\n*************************************\nAnnual Card Savings $3.10\n*************************************\n*************************************\nRedeem your Points for\nfuel discounts or Rewards Cash\nonline or in your mobile app\nPoints Earned Today: 9\nTotal Mar Points: 9\n*************************************\nEARN 50 POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 03/27/26\nTime: 04:25PM\nEntry ID: 615-802-97-61-552-649\n*************************************\nWith Our Low Prices, You Saved\n$3.10\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.dillons.com\nwww.dillons.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4840.937458,
+        "totalUsd": 0.013206,
+        "inputTokens": 3692,
+        "outputTokens": 852,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dillons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "9.12",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-27",
+          "status": "match"
+        },
+        "time": {
+          "value": "04:25 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "67601",
+          "status": "match"
+        },
+        "city": {
+          "value": "HAYS",
+          "status": "match"
+        },
+        "state": {
+          "value": "KS",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1902 VINE ST.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6543",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTPODS SWEE + DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TWININGS REFRESHRSPC + DILLON SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 4.79,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Dillons FRESH\nFOR\nEVERYONE\n1902 VINE ST.\n(785) 628-6137\nYour cashier was CHEC 552\nNUTPODS SWEE PC 2.99 B\nSC DILLON SAVINGS 2.00\nTWININGS REFRESHRSPC 5.89 B\nSC DILLON SAVINGS 1.10\nPlus Customer *******7826\nTAX 0.24\n**** BALANCE 9.12\nHAYS KS 67601\nVISA CREDIT Purchase\n************6543 - H\nREF#: 05820D TOTAL: 9.12\nAID: A0000000031010\nTC: 96B7B571FFE27ADF\nVISA 9.12\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\nSTORE COUPONS 3.10\nTOTAL SAVINGS (25 pct.) 3.10\n03/27/26 04:25pm 61 552 97 999999552\n***********************************\nAnnual Card Savings $3.10\n***********************************\n***********************************\nRedeem your Points for\nfuel discounts or Rewards Cash\nonline or in your mobile app\nPoints Earned Today: 9\nTotal Mar Points: 9\n***********************************\nEARN 50 POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 03/27/26\nTime: 04:25PM\nEntry ID: 615-802-97-61-552-649\n***********************************\nWith Our Low Prices, You Saved\n$3.10\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.dillons.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NUTPODS SWEE + SC DILLON SAVINGS 2.00",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "TWININGS REFRESHRS + SC DILLON SAVINGS 1.10 + Plus Customer *******7826",
+      "price": 5.89,
+      "quantity": 1,
+      "totalSpend": 5.89
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

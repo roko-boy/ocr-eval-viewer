@@ -1,0 +1,621 @@
+{
+  "id": "cmqbgn3ia011cj7627qt19afj",
+  "url": null,
+  "retailer": "Costco",
+  "brand": "Yesly Water",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Costco",
+    "totalCost": "137.5",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "92009",
+    "city": "Carlsbad",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15076.38616699999,
+        "totalUsd": 0.024537,
+        "inputTokens": 6086,
+        "outputTokens": 1712,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "137.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92009",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "951 Palomar Airport Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1952184 ANTH HOT STX",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1962444 CRML APL BTS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "3732 CRMYDILLPCKL",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1938239 KEVN HI CHIX",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1953411 OLDSPICE DUO + 0000383037 /1953411",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 13.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "56366 RASPBERRIES",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "826365 ORG SQUASH",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1816818 PHILLY PROVO",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2029805 YESLY MIXBRY",
+          "quantity": 1,
+          "unitPrice": 14.49,
+          "totalSpend": 14.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "4500000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "33683 SLCD SOURDGH",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "897 DR PEPPER + 0000383110 / 897",
+          "quantity": 1,
+          "unitPrice": 20.79,
+          "totalSpend": 16.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "6500000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 1.8,
+          "totalSpend": 1.8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1918284 ARROWHEAD",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "6900000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nCarlsbad #462\n951 Palomar Airport Road\nCarlsbad, CA 92009\n(760) 929-0963\nSELF-CHECKOUT\nR4 Member 112007434826\n***START OF PRE-SCANNED ITEMS**********\n1952184 ANTH HOT STX 15.99\n1962444 CRML APL BTS 7.99\n3732 CRMYDILLPCKL 7.79\n1938239 KEVN HI CHIX 14.99\n1953411 OLDSPICE DUO 17.99 A\n0000383037 /1953411 4.50-A\n56366 RASPBERRIES 5.49\n826365 ORG SQUASH 8.49\n1816818 PHILLY PROVO 12.99\n2029805 YESLY MIXBRY 14.49 A\n4500000000 CA REDEMP VA 0.60 A\n33683 SLCD SOURDGH 4.49\n897 DR PEPPER 20.79 A\n0000383110 / 897 4.50-A\n6500000000 CA REDEMP VA 1.80 A\n1918284 ARROWHEAD 6.99\n6900000000 CA REDEMP VA 2.00\n***END OF PRE-SCANNED ITEMS************\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 12\nSUBTOTAL 133.88\nTAX 3.62\n**** TOTAL 137.50\nXXXXXXXXXXXX1169 H\nAID: A0000000980840 VERIFIED BY PIN\nSeq# 204916 App#: 666511\nEFT/Debit Resp: APPROVED\nTran ID#: 616200204916....\nAPPROVED - Purchase",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 20782.84683299996,
+        "totalUsd": 0.052887,
+        "inputTokens": 3692,
+        "outputTokens": 1778,
+        "reasoningTokens": 3483
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "137.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92009",
+          "status": "match"
+        },
+        "city": {
+          "value": "Carlsbad",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "951 Palomar Airport Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1169",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1952184 ANTH HOT STX",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1962444 CRML APL BTS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "3732 CRMYDILLPCKL",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1938239 KEVN HI CHIX",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1953411 OLDSPICE DUO + 0000383037 /1953411",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 13.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "56366 RASPBERRIES",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "826365 ORG SQUASH",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1816818 PHILLY PROVO",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2029805 YESLY MIXBRY",
+          "quantity": 1,
+          "unitPrice": 14.49,
+          "totalSpend": 14.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "4500000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "33683 SLCD SOURDGH",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "897 DR PEPPER + 0000383110 / 897",
+          "quantity": 1,
+          "unitPrice": 20.79,
+          "totalSpend": 16.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "6500000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 1.8,
+          "totalSpend": 1.8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1918284 ARROWHEAD",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "6900000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nCarlsbad #462\n951 Palomar Airport Road\nCarlsbad, CA 92009\n(760) 920-0963\nSELF-CHECKOUT\nR4 Member 112007434826\n***START OF PRE-SCANNED ITEMS**********\n1952184 ANTH HOT STX 15.99\n1962444 CRML APL BTS 7.99\n3732 CRMYDILLPCKL 7.79\n1938239 KEVN HI CHIX 14.99\n1953411 OLDSPICE DUO 17.99 A\n0000383037 /1953411 4.50-A\n56366 RASPBERRIES 5.49\n826365 ORG SQUASH 8.49\n1816818 PHILLY PROVO 12.99\n2029805 YESLY MIXBRY 14.49 A\n4500000000 CA REDEMP VA 0.60 A\n33683 SLCD SOURDGH 4.49\n897 DR PEPPER 20.79 A\n0000383110 / 897 4.50-A\n6500000000 CA REDEMP VA 1.80 A\n1918284 ARROWHEAD 6.99\n6900000000 CA REDEMP VA 2.00\n***END OF PRE-SCANNED ITEMS************\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 12\nSUBTOTAL 133.88\nTAX 3.62\n**** TOTAL 137.50\nXXXXXXXXXXXX1169 H\nAID: A0000000980840 VERIFIED BY PIN\nSeq# 204916 App#: 666511\nEFT/Debit Resp: APPROVED\nTran ID#: 616200204916....\nAPPROVED - Purchase",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9189.664541999984,
+        "totalUsd": 0.02181,
+        "inputTokens": 3692,
+        "outputTokens": 1808,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "137.5",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92009",
+          "status": "match"
+        },
+        "city": {
+          "value": "Carlsbad",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "951 Palomar Airport Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1169",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1952184 ANTH HOT STX",
+          "quantity": 1,
+          "unitPrice": 15.99,
+          "totalSpend": 15.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1962444 CRML APL BTS",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "3732 CRMYDILLPCKL",
+          "quantity": 1,
+          "unitPrice": 7.79,
+          "totalSpend": 7.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1938239 KEVN HI CHIX",
+          "quantity": 1,
+          "unitPrice": 14.99,
+          "totalSpend": 14.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1953411 OLDSPICE DUO + 0000383037 /1953411",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 13.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "56366 RASPBERRIES",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "826365 ORG SQUASH",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1816818 PHILLY PROVO",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "2029805 YESLY MIXBRY",
+          "quantity": 1,
+          "unitPrice": 14.49,
+          "totalSpend": 14.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "4500000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "33683 SLCD SOURDGH",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "897 DR PEPPER + 0000383110 / 897",
+          "quantity": 1,
+          "unitPrice": 20.79,
+          "totalSpend": 16.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "6500000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 1.8,
+          "totalSpend": 1.8,
+          "matchStatus": "match"
+        },
+        {
+          "text": "1918284 ARROWHEAD",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "6900000000 CA REDEMP VA",
+          "quantity": 1,
+          "unitPrice": 2,
+          "totalSpend": 2,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nCarlsbad #462\n951 Palomar Airport Road\nCarlsbad, CA 92009\n(760) 929-0963\nSELF-CHECKOUT\nR4 Member 112007434826\n***START OF PRE-SCANNED ITEMS*********\nE 1952184 ANTH HOT STX 15.99\nE 1962444 CRML APL BTS 7.99\nE 3732 CRMYDILLPCKL 7.79\nE 1938239 KEVN HI CHIX 14.99\nE 1953411 OLDSPICE DUO 17.99 A\n0000383037 /1953411 4.50-A\nE 56366 RASPBERRIES 5.49\nE 826365 ORG SQUASH 8.49\nE 1816818 PHILLY PROVO 12.99\nE 2029805 YESLY MIXBRY 14.49 A\nE 4500000000 CA REDEMP VA 0.60 A\nE 33683 SLCD SOURDGH 4.49\nE 897 DR PEPPER 20.79 A\n0000383110 / 897 4.50-A\nE 6500000000 CA REDEMP VA 1.80 A\nE 1918284 ARROWHEAD 6.99\nE 6900000000 CA REDEMP VA 2.00\n***END OF PRE-SCANNED ITEMS***********\nTOTAL NUMBER OF PRE-SCANNED ITEMS= 12\nSUBTOTAL 133.88\nTAX 3.62\n**** TOTAL 137.50\nXXXXXXXXXXXX1169 H\nAID: A0000000980840 VERIFIED BY PIN\nSeq# 204916 App#: 666511\nEFT/Debit Resp: APPROVED\nTran ID#: 616200204916....\nAPPROVED - Purchase",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "1952184 ANTH HOT STX",
+      "price": 15.99,
+      "quantity": 1,
+      "totalSpend": 15.99
+    },
+    {
+      "text": "1962444 CRML APL BTS",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "3732 CRMYDILLPCKL",
+      "price": 7.79,
+      "quantity": 1,
+      "totalSpend": 7.79
+    },
+    {
+      "text": "1938239 KEVN HI CHIX",
+      "price": 14.99,
+      "quantity": 1,
+      "totalSpend": 14.99
+    },
+    {
+      "text": "1953411 OLDSPICE DUO + 0000383037 /1953411",
+      "price": 13.49,
+      "quantity": 1,
+      "totalSpend": 13.49
+    },
+    {
+      "text": "56366 RASPBERRIES",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "826365 ORG SQUASH",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "1816818 PHILLY PROVO",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "2029805 YESLY MIXBRY",
+      "price": 14.49,
+      "quantity": 1,
+      "totalSpend": 14.49
+    },
+    {
+      "text": "4500000000 CA REDEMP VA",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0.6
+    },
+    {
+      "text": "33683 SLCD SOURDGH",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "897 DR PEPPER + 0000383110 / 897",
+      "price": 16.29,
+      "quantity": 1,
+      "totalSpend": 16.29
+    },
+    {
+      "text": "6500000000 CA REDEMP VA",
+      "price": 1.8,
+      "quantity": 1,
+      "totalSpend": 1.8
+    },
+    {
+      "text": "1918284 ARROWHEAD",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "6900000000 CA REDEMP VA",
+      "price": 2,
+      "quantity": 1,
+      "totalSpend": 2
+    }
+  ],
+  "disagreementCount": 2,
+  "nullCount": 0
+}

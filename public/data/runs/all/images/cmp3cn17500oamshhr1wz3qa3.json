@@ -1,0 +1,270 @@
+{
+  "id": "cmp3cn17500oamshhr1wz3qa3",
+  "url": null,
+  "retailer": "LINCOLN MARKET",
+  "brand": "realsy",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Lincoln Market",
+    "totalCost": "12.6",
+    "purchaseDate": "2026-05-12",
+    "time": null,
+    "zipCode": "11105",
+    "city": "Astoria",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7050.239957999998,
+        "totalUsd": 0.015807,
+        "inputTokens": 6086,
+        "outputTokens": 742,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Lincoln Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:55:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11105",
+          "status": "match"
+        },
+        "city": {
+          "value": "ASTORIA",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21-21 31ST STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9020",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TONYS 70% DARK CHOCOLATE BA + Code: 0085801000562",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ROLLIN N BOWLIN PB & JEL + Code: 0085002212132",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "LINCOLN\nMARKET\nLINCOLN MARKET\n21-21 31ST STREET\nASTORIA, NY, 11105\n718-777-1120\n(212) 280-3800\n#006-091 5/12/2026 20:55:28 SCO 1\nInv#:00135536 Trs#:138064\nTONYS 70% DARK CHOCOLATE BA $6.99 T1F\nCode: 0085801000562\nROLLIN N BOWLIN PB & JEL $4.99 F\nCode: 0085002212132\nNet Sales $11.98\nTax 1 [$6.99] $0.62\nTOTAL SALES $12.60\nSUB TOTAL $12.60\nCredit Master Card $12.60\n# ************9020\nChange $0.00\nItem count 2\nNETWORK ID:MASTERCARD\nMODE:Online(Issuer)\nTYPE : Purchase\nTENDER : MasterCard\nCARD : R************9020\nContactless EMV\nAMOUNT : USD$12.60",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9341.223458,
+        "totalUsd": 0.020595,
+        "inputTokens": 3692,
+        "outputTokens": 732,
+        "reasoningTokens": 941
+      },
+      "fields": {
+        "storeName": {
+          "value": "Lincoln Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:55:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11105",
+          "status": "match"
+        },
+        "city": {
+          "value": "ASTORIA",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21-21 31ST STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9020",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TONYS 70% DARK CHOCOLATE BA + Code: 0085801000562",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ROLLIN N BOWLIN PB & JEL + Code: 0085002212132",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "LINCOLN MARKET\nLINCOLN MARKET\n21-21 31ST STREET\nASTORIA, NY, 11105\n718-777-1120\n(212) 280-3800\n#006-091 5/12/2026 20:55:28 SCO 1\nInv#:00135536 Trs#:138064\nTONYS 70% DARK CHOCOLATE BA $6.99 T1F\nCode: 0085801000562\nROLLIN N BOWLIN PB & JEL $4.99 F\nCode: 0085002212132\nNet Sales $11.98\nTax 1 [$6.99] $0.62\nTOTAL SALES $12.60\nSUB TOTAL $12.60\nCredit Master Card $12.60\n# ************9020\nChange $0.00\nItem count 2\nNETWORK ID:MASTERCARD\nMODE:Online(Issuer)\nTYPE : Purchase\nTENDER : MasterCard\nCARD : R************9020\nContactless EMV\nAMOUNT : USD$12.60",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5006.104874999999,
+        "totalUsd": 0.012072,
+        "inputTokens": 3692,
+        "outputTokens": 726,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Lincoln Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.6",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:55:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11105",
+          "status": "match"
+        },
+        "city": {
+          "value": "ASTORIA",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "21-21 31ST STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9020",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "TONYS 70% DARK CHOCOLATE BA + Code: 0085801000562",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ROLLIN N BOWLIN PB & JEL + Code: 0085002212132",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "LINCOLN MARKET\n21-21 31ST STREET\nASTORIA, NY, 11105\n718-777-1120\n(212) 280-3800\n#006-091 5/12/2026 20:55:28 SCO 1\nInv#:00135536 Trs#:138064\nTONYS 70% DARK CHOCOLATE BA $6.99 T1F\nCode: 0085801000562\nROLLIN N BOWLIN PB & JEL $4.99 F\nCode: 0085002212132\nNet Sales $11.98\nTax 1 [$6.99] $0.62\nTOTAL SALES $12.60\nSUB TOTAL $12.60\nCredit Master Card $12.60\n# ************9020\nChange $0.00\nItem count 2\nNETWORK ID:MASTERCARD\nMODE:Online(Issuer)\nTYPE : Purchase\nTENDER : MasterCard\nCARD : R************9020\nContactless EMV\nAMOUNT : USD$12.60",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "TONYS 70% DARK CHOCOLATE BA + 0085801000562",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "ROLLIN N BOWLIN PB & JEL + 0085002212132",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

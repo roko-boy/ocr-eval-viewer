@@ -1,0 +1,297 @@
+{
+  "id": "cmnjcq43x00m38pugl5w2m8ki",
+  "url": null,
+  "retailer": "Hy-Vee Wine & Spirits",
+  "brand": "shinewater",
+  "amount": 2.29,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Hy-Vee",
+    "totalCost": "15.38",
+    "purchaseDate": "2026-03-18",
+    "time": null,
+    "zipCode": "56001",
+    "city": "Mankato",
+    "state": "MN",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6727.525542000018,
+        "totalUsd": 0.017823,
+        "inputTokens": 6086,
+        "outputTokens": 966,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:34 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "56001",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mankato",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2010 Adams St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4272",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SHINE WTR MIXED B 5003644410",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKE AIR PANCAKE 5001433500",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ GOLDEN VANIL 5769000825",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n2010 Adams St\nMankato, MN 56001\n507-625-9070\n1394StoreManagementMailGroup@Hy-Vee.com\nSHINE WTR MIXED B 5003644410 2.29 TF\nLIKE AIR PANCAKE 5001433500 4.29 F\nPIRQ GOLDEN VANIL 5769000825 7.99 TF\nSUBTOTAL [3] 14.57\nT 10.28 @ 7.875% = 0.81\nTOTAL 15.38\nDebit 15.38\nPURCHASE $15.38\n************4272 Visa CHIP CONTACTLESS\nREF#: 739194 580192384725\nTransaction Approved\nUS DEBIT (as Debit)\nARQC - C55200FCBC0C7F7B\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06011203A00000\nTSI: 0000 ARC: 00\nCashier Name: SCO\nDate Time Store POS Emp TRX\n03/18/26 08:34 PM 1394 55 10000 0416\nTell us about your trip for a chance to\nWIN A $500 HY-VEE GIFT CARD!\nVisit Hy-VeeSurvey.com\nfor a survey and official rules.\nNo purchase necessary to enter\nsweepstakes.\nwww.hy-vee.com\n0011394180326055000416",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11925.02249999999,
+        "totalUsd": 0.027597,
+        "inputTokens": 3692,
+        "outputTokens": 955,
+        "reasoningTokens": 1496
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:34 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "56001",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mankato",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2010 Adams St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4272",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SHINE WTR MIXED B 5003644410",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKE AIR PANCAKE 5001433500",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ GOLDEN VANIL 5769000825",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n2010 Adams St\nMankato, MN 56001\n507-625-9070\n1394StoreManagementMailGroup@Hy-Vee.com\nSHINE WTR MIXED B 5003644410 2.29 TF\nLIKE AIR PANCAKE 5001433500 4.29 F\nPIRQ GOLDEN VANIL 5769000825 7.99 TF\nSUBTOTAL [3] 14.57\nT 10.28 @ 7.875% = 0.81\nTOTAL 15.38\nDebit 15.38\nPURCHASE $15.38\n************4272 Visa CHIP CONTACTLESS\nREF#: 739194 580192384725\nTransaction Approved\nUS DEBIT (as Debit)\nARQC - C55200FCBC0C7F7B\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06011203A00000\nTSI: 0000 ARC: 00\nCashier Name: SCO\nDate Time Store POS Emp TRX\n03/18/26 08:34 PM 1394 55 10000 0416\nTell us about your trip for a chance to\nWIN A $500 HY-VEE GIFT CARD!\nVisit Hy-VeeSurvey.com\nfor a survey and official rules.\nNo purchase necessary to enter\nsweepstakes.\nwww.hy-vee.com\n0011394180326055000416",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5312.328083999993,
+        "totalUsd": 0.014133,
+        "inputTokens": 3692,
+        "outputTokens": 955,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Hy-Vee",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.38",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:34 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "56001",
+          "status": "match"
+        },
+        "city": {
+          "value": "Mankato",
+          "status": "match"
+        },
+        "state": {
+          "value": "MN",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2010 Adams St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4272",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SHINE WTR MIXED B 5003644410",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKE AIR PANCAKE 5001433500",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PIRQ GOLDEN VANIL 5769000825",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "HyVee\nEMPLOYEE OWNED\n2010 Adams St\nMankato, MN 56001\n507-625-9070\n1394StoreManagementMailGroup@Hy-Vee.com\nSHINE WTR MIXED B 5003644410 2.29 TF\nLIKE AIR PANCAKE 5001433500 4.29 F\nPIRQ GOLDEN VANIL 5769000825 7.99 TF\nSUBTOTAL [3] 14.57\nT 10.28 @ 7.875% = 0.81\nTOTAL 15.38\nDebit 15.38\nPURCHASE $15.38\n************4272 Visa CHIP CONTACTLESS\nREF#: 739194 580192384725\nTransaction Approved\nUS DEBIT (as Debit)\nARQC - C55200FCBC0C7F7B\nONLINE PIN VERIFIED\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: 06011203A00000\nTSI: 0000 ARC: 00\nCashier Name: SCO\nDate Time Store POS Emp TRX\n03/18/26 08:34 PM 1394 55 10000 0416\nTell us about your trip for a chance to\nWIN A $500 HY-VEE GIFT CARD!\nVisit Hy-VeeSurvey.com\nfor a survey and official rules.\nNo purchase necessary to enter\nsweepstakes.\nwww.hy-vee.com\n0011394180326055000416",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SHINE WTR MIXED B + 5003644410",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "LIKE AIR PANCAKE + 5001433500",
+      "price": 4.29,
+      "quantity": 1,
+      "totalSpend": 4.29
+    },
+    {
+      "text": "PIRQ GOLDEN VANIL + 5769000825",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,702 @@
+{
+  "id": "cmqbehmxy00wwev137ku9yq6x",
+  "url": null,
+  "retailer": "Wegmans",
+  "brand": "Happy Dad",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "LLM",
+  "truth": {
+    "storeName": "Wegmans",
+    "totalCost": "95.43",
+    "purchaseDate": "2026-06-12",
+    "time": null,
+    "zipCode": "14221",
+    "city": "WILLIAMSVILLE",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 15215.36012500006,
+        "totalUsd": 0.025446,
+        "inputTokens": 6086,
+        "outputTokens": 1813,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "95.43",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:41",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14221",
+          "status": "match"
+        },
+        "city": {
+          "value": "Williamsville",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5275 Sheridan Drive",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3437",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WB PIZZA BAGEL PEP",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MATEO'S SALSA",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MSTR OF MXRS SIMPL",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEP LOW SALT TACO + 2 @ 0.99",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "WB REG MARSHMALLOW",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MISSION FAJITA TOR",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TOSTITOS TORT CHIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB COOKIE CRISPS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG CHORIZO SSG LK",
+          "quantity": 1,
+          "unitPrice": 8.5,
+          "totalSpend": 8.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FYF GRND BEEF 80/2",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RDC WEG SAUSAGE RO",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWEET ONIONS + 0.72 lb @ 1.99 /lb + WT",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.43,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LETTUCE WRAPPED",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPPER POBLANO + 0.51 lb @ 4.49 /lb + WT",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TOPO CHICO VRTY",
+          "quantity": 1,
+          "unitPrice": 19.49,
+          "totalSpend": 19.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT + DP",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HAPPY DAD VRTY PK",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT + DP",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "5275 SHERIDAN DRIVE\nWILLIAMSVILLE, NY 14221\n716 631-4300\n\n06/12/26 OP# 86\n\nWB PIZZA BAGEL PEP 2.79 F\nMATEO'S SALSA 4.99 F\nMSTR OF MXRS SIMPL 3.49 F\n2 @ 0.99\nDEP LOW SALT TACO 1.98 F\nWB REG MARSHMALLOW 1.19 F\nMISSION FAJITA TOR 3.79 F\nTOSTITOS TORT CHIP 2.99 F\nWB COOKIE CRISPS 4.49 F\nWEG CHORIZO SSG LK 8.50 F\nFYF GRND BEEF 80/2 6.89 F\nRDC WEG SAUSAGE RO 4.19 F\n0.72 lb @ 1.99 /lb\nWT SWEET ONIONS 1.43 F\nLETTUCE WRAPPED 2.29 F\n0.51 lb @ 4.49 /lb\nWT PEPPER POBLANO 2.29 F\nTOPO CHICO VRTY 19.49 T\nAge Restricted: 21\nDP CONTAINER DEPOSIT 0.60\nHAPPY DAD VRTY PK 19.99 T\nAge Restricted: 21\nDP CONTAINER DEPOSIT 0.60\nTAX 3.45\n\n**** BALANCE 95.43\n\nVISA PURCHASE\nCARD NUMBER: ************3437 H\nCHASE VISA 07\nAUTH: 03207D RCPT: 86298\nCODE: 0000 Approved\nAID: A0000000031010\n\nCREDIT CARD 95.43\nCHANGE 0.00\n\n06/12/26 16:41 83 86 58 86",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 21377.63375000004,
+        "totalUsd": 0.052842,
+        "inputTokens": 3692,
+        "outputTokens": 1809,
+        "reasoningTokens": 3447
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "95.43",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:41",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14221",
+          "status": "match"
+        },
+        "city": {
+          "value": "WILLIAMSVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5275 SHERIDAN DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3437",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WB PIZZA BAGEL PEP",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MATEO'S SALSA",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MSTR OF MXRS SIMPL",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OEP LOW SALT TACO",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB REG MARSHMALLOW",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MISSION FAJITA TOR",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TOSTITOS TORT CHIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB COOKIE CRISPS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG CHORIZO SSG LK",
+          "quantity": 1,
+          "unitPrice": 8.5,
+          "totalSpend": 8.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FYF GRND BEEF 80/2",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RDC WEG SAUSAGE RO",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWEET ONIONS + 0.72 lb @ 1.99 /lb",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.43,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LETTUCE WRAPPED",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPPER POBLANO + 0.51 lb @ 4.49 /lb",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TOPO CHICO VRTY",
+          "quantity": 1,
+          "unitPrice": 19.49,
+          "totalSpend": 19.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HAPPY DAD VRTY PK",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "5275 SHERIDAN DRIVE\nWILLIAMSVILLE, NY 14221\n716 631-4300\n\n06/12/26 OP# 86\n\nWB PIZZA BAGEL PEP      2.79 F\nMATEO'S SALSA           4.99 F\nMSTR OF MXRS SIMPL      3.49 F\n2 @ 0.99\nOEP LOW SALT TACO       1.98 F\nWB REG MARSHMALLOW      1.19 F\nMISSION FAJITA TOR      3.79 F\nTOSTITOS TORT CHIP      2.99 F\nWB COOKIE CRISPS        4.49 F\nWEG CHORIZO SSG LK      8.50 F\nFYF GRND BEEF 80/2      6.89 F\nRDC WEG SAUSAGE RO      4.19 F\n0.72 lb @ 1.99 /lb\nWT      SWEET ONIONS    1.43 F\n        LETTUCE WRAPPED 2.29 F\n0.51 lb @ 4.49 /lb\nWT      PEPPER POBLANO  2.29 F\n        TOPO CHICO VRTY 19.49 T\nAge Restricted: 21\nDP      CONTAINER DEPOSIT 0.60\n        HAPPY DAD VRTY PK 19.99 T\nAge Restricted: 21\nDP      CONTAINER DEPOSIT 0.60\n        TAX             3.45\n\n**** BALANCE            95.43\n\nVISA PURCHASE\nCARD NUMBER: ************3437 H\nCHASE VISA 07\nAUTH: 03207D  RCPT: 86298\nCODE: 0000  Approved\nAID: A0000000031010\n\n        CREDIT CARD     95.43\n        CHANGE           0.00\n\n06/12/26 16:41   83 86  58      86",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 8017.241624999995,
+        "totalUsd": 0.021423,
+        "inputTokens": 3692,
+        "outputTokens": 1765,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "95.43",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "16:41",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "14221",
+          "status": "match"
+        },
+        "city": {
+          "value": "WILLIAMSVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5275 SHERIDAN DRIVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3437",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "WB PIZZA BAGEL PEP",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MATEO'S SALSA",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MSTR OF MXRS SIMPL",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OEP LOW SALT TACO",
+          "quantity": 2,
+          "unitPrice": 0.99,
+          "totalSpend": 1.98,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB REG MARSHMALLOW",
+          "quantity": 1,
+          "unitPrice": 1.19,
+          "totalSpend": 1.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MISSION FAJITA TOR",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TOSTITOS TORT CHIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WB COOKIE CRISPS",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WEG CHORIZO SSG LK",
+          "quantity": 1,
+          "unitPrice": 8.5,
+          "totalSpend": 8.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FYF GRND BEEF 80/2",
+          "quantity": 1,
+          "unitPrice": 6.89,
+          "totalSpend": 6.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RDC WEG SAUSAGE RO",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 4.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWEET ONIONS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.43,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LETTUCE WRAPPED",
+          "quantity": 1,
+          "unitPrice": 2.29,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPPER POBLANO",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "TOPO CHICO VRTY",
+          "quantity": 1,
+          "unitPrice": 19.49,
+          "totalSpend": 19.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HAPPY DAD VRTY PK",
+          "quantity": 1,
+          "unitPrice": 19.99,
+          "totalSpend": 19.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CONTAINER DEPOSIT",
+          "quantity": 1,
+          "unitPrice": 0.6,
+          "totalSpend": 0.6,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "5275 SHERIDAN DRIVE\nWILLIAMSVILLE, NY 14221\n716 631-4300\n\n06/12/26 OP# 86\n\nWB PIZZA BAGEL PEP 2.79 F\nMATEO'S SALSA 4.99 F\nMSTR OF MXRS SIMPL 3.49 F\n2 @ 0.99\nOEP LOW SALT TACO 1.98 F\nWB REG MARSHMALLOW 1.19 F\nMISSION FAJITA TOR 3.79 F\nTOSTITOS TORT CHIP 2.99 F\nWB COOKIE CRISPS 4.49 F\nWEG CHORIZO SSG LK 8.50 F\nFYF GRND BEEF 80/2 6.89 F\nRDC WEG SAUSAGE RO 4.19 F\n0.72 lb @ 1.99 /lb\nWT SWEET ONIONS 1.43 F\nLETTUCE WRAPPED 2.29 F\n0.51 lb @ 4.49 /lb\nWT PEPPER POBLANO 2.29 F\nTOPO CHICO VRTY 19.49 T\nAge Restricted: 21\nDP CONTAINER DEPOSIT 0.60\nHAPPY DAD VRTY PK 19.99 T\nAge Restricted: 21\nDP CONTAINER DEPOSIT 0.60\nTAX 3.45\n\n**** BALANCE 95.43\n\nVISA PURCHASE\nCARD NUMBER: ************3437 H\nCHASE VISA 07\nAUTH: 03207D RCPT: 86298\nCODE: 0000 Approved\nAID: A0000000031010\n\nCREDIT CARD 95.43\nCHANGE 0.00\n\n06/12/26 16:41 83 86 58 86",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "WB PIZZA BAGEL PEP",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "MATEO'S SALSA",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "MSTR OF MXRS SIMPL",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "OEP LOW SALT TACO + 2 @ 0.99",
+      "price": 0.99,
+      "quantity": 2,
+      "totalSpend": 1.98
+    },
+    {
+      "text": "WB REG MARSHMALLOW",
+      "price": 1.19,
+      "quantity": 1,
+      "totalSpend": 1.19
+    },
+    {
+      "text": "MISSION FAJITA TOR",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "TOSTITOS TORT CHIP",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "WB COOKIE CRISPS",
+      "price": 4.49,
+      "quantity": 1,
+      "totalSpend": 4.49
+    },
+    {
+      "text": "WEG CHORIZO SSG LK",
+      "price": 8.5,
+      "quantity": 1,
+      "totalSpend": 8.5
+    },
+    {
+      "text": "FYF GRND BEEF 80/2",
+      "price": 6.89,
+      "quantity": 1,
+      "totalSpend": 6.89
+    },
+    {
+      "text": "RDC WEG SAUSAGE RO",
+      "price": 4.19,
+      "quantity": 1,
+      "totalSpend": 4.19
+    },
+    {
+      "text": "SWEET ONIONS + 0.72 lb @ 1.99 /lb + WT",
+      "price": 1.43,
+      "quantity": 1,
+      "totalSpend": 1.43
+    },
+    {
+      "text": "LETTUCE WRAPPED",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "PEPPER POBLANO + 0.51 lb @ 4.49 /lb + WT",
+      "price": 2.29,
+      "quantity": 1,
+      "totalSpend": 2.29
+    },
+    {
+      "text": "TOPO CHICO VRTY",
+      "price": 19.49,
+      "quantity": 1,
+      "totalSpend": 19.49
+    },
+    {
+      "text": "DP CONTAINER DEPOSIT",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0.6
+    },
+    {
+      "text": "HAPPY DAD VRTY PK + Age Restricted: 21",
+      "price": 19.99,
+      "quantity": 1,
+      "totalSpend": 19.99
+    },
+    {
+      "text": "DP CONTAINER DEPOSIT",
+      "price": 0.6,
+      "quantity": 1,
+      "totalSpend": 0.6
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

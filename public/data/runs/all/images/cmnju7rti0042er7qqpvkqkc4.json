@@ -1,0 +1,405 @@
+{
+  "id": "cmnju7rti0042er7qqpvkqkc4",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Pete & Gerry's Family of Brands",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "50.22",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "85730",
+    "city": "Tucson",
+    "state": "AZ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 16999.01366599993,
+        "totalUsd": 0.022191,
+        "inputTokens": 6100,
+        "outputTokens": 1449,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "21:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85730",
+          "status": "match"
+        },
+        "city": {
+          "value": "Tucson",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6360 E. Golf Links",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6609",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "5200006775 + 14@ GATORADE LOWER SGR + Member Savings -17.90 + J4U Mfr Coupon -4.00",
+          "quantity": 14,
+          "unitPrice": 2.79,
+          "totalSpend": 17.16,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4470009219 + CLAUSEN DILL + Member Savings -4.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4670409612 + 2@ TGIF POT SKNS LOAD + Member Savings -11.98",
+          "quantity": 2,
+          "unitPrice": 10.99,
+          "totalSpend": 10,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "81565200214 + PETE & GERRY EGGS + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "81565200215 + PETE & GERRY EGGS + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "7675319860 + GC MEASURING CUPS + Member Savings -0.20 + Markdown Coupon -2.40",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.39,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4470001988 + OM BACON + Member Savings -4.50",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "SAFEWAY (S).\nStore 1874 Dir Mark Valenzuela\nMain: (520) 514-2008 Rx:\n6360 E. Golf Links\nTucson AZ 85730\n00187409301042604032100\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n5200006775 14@ GATORADE LOWER SGR 39.06 17.16 S\nMember Savings -17.90\nJ4U Mfr Coupon -4.00\nREFRIG/FROZEN\n4470009219 CLAUSEN DILL 7.99 3.99 S\nMember Savings -4.00\n4670409612 2@ TGIF POT SKNS LOAD 21.98 10.00 S\nMember Savings -11.98\n81565200214 PETE & GERRY EGGS 7.99 5.99 S\nMember Savings -2.00\n81565200215 PETE & GERRY EGGS 7.99 6.49 S\nMember Savings -1.50\nGEN MERCHANDISE\n7675319860 GC MEASURING CUPS 4.99 2.39 T\nMember Savings -0.20\nMarkdown Coupon -2.40\nMEAT\n4470001988 OM BACON 8.49 3.99 S\nMember Savings -4.50\nTAX 0.21\n**** BALANCE 50.22\nCredit Purchase 04/03/26 21:00\nCARD # ************6609\nREF: 560014466090 AUTH: 00052900\nPAYMENT AMOUNT 50.22\nAL US DEBIT\nAID A0000000980840\nTVR 0000000000\nVisa 50.22\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 42.08\nfor U Savings 6.40\nTotal 48.48\nTotal Savings Value 49%",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 19227.15499999997,
+        "totalUsd": 0.0471375,
+        "inputTokens": 3699,
+        "outputTokens": 1505,
+        "reasoningTokens": 3116
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "21:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85730",
+          "status": "match"
+        },
+        "city": {
+          "value": "Tucson",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6360 E. Golf Links",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6609",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GATORADE LOWER SGR + 5200006775 + Member Savings -17.90 + J4U Mfr Coupon -4.00",
+          "quantity": 14,
+          "unitPrice": 2.79,
+          "totalSpend": 17.16,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLAUSEN DILL + 4470009219 + Member Savings -4.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TGIF POT SKNS LOAD + 4670409612 + Member Savings -11.98",
+          "quantity": 2,
+          "unitPrice": 10.99,
+          "totalSpend": 10,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PETE & GERRY EGGS + 81565200214 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PETE & GERRY EGGS + 81565200215 + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GC MEASURING CUPS + 7675319860 + Member Savings -0.20 + Markdown Coupon -2.40",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OM BACON + 4470001988 + Member Savings -4.50",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\n\nStore 1874 Dir Mark Valenzuela\nMain: (520) 514-2008 Rx:\n6360 E. Golf Links\nTucson AZ 85730\n\n00187409301042604032100\n\nYOUR CASHIER TODAY WAS SELF\n\nGROCERY                               Price   You Pay\n5200006775   14@ GATORADE LOWER SGR   39.06   17.16 S\n             Member Savings -17.90\n             J4U Mfr Coupon -4.00\nREFRIG/FROZEN\n4470009219   CLAUSEN DILL              7.99    3.99 S\n             Member Savings -4.00\n4670409612   2@ TGIF POT SKNS LOAD    21.98   10.00 S\n             Member Savings -11.98\n81565200214  PETE & GERRY EGGS         7.99    5.99 S\n             Member Savings -2.00\n81565200215  PETE & GERRY EGGS         7.99    6.49 S\n             Member Savings -1.50\nGEN MERCHANDISE\n7675319860   GC MEASURING CUPS         4.99    2.39 T\n             Member Savings -0.20\n             Markdown Coupon -2.40\nMEAT\n4470001988   OM BACON                  8.49    3.99 S\n             Member Savings -4.50\n\n                  TAX                          0.21\n             **** BALANCE                     50.22\n\nCredit Purchase   04/03/26 21:00\nCARD # ************6609\nREF: 560014466090  AUTH: 00052900\n\nPAYMENT AMOUNT                                50.22\n\nAL US DEBIT\nAID A0000000980840\nTVR 0000000000\n             Visa                             50.22\n             CHANGE                            0.00\n\n                  YOUR SAVINGS\nMember Savings                                42.08\nfor U Savings                                  6.40\nTotal                                         48.48\nTotal Savings Value                             49%",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6861.779500000004,
+        "totalUsd": 0.0186075,
+        "inputTokens": 3699,
+        "outputTokens": 1451,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "50.22",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "21:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "85730",
+          "status": "match"
+        },
+        "city": {
+          "value": "Tucson",
+          "status": "match"
+        },
+        "state": {
+          "value": "AZ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "6360 E. Golf Links",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6609",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "GATORADE LOWER SGR + 5200006775 + Member Savings -17.90 + J4U Mfr Coupon -4.00",
+          "quantity": 14,
+          "unitPrice": 2.79,
+          "totalSpend": 17.16,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CLAUSEN DILL + 4470009219 + Member Savings -4.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TGIF POT SKNS LOAD + 4670409612 + Member Savings -11.98",
+          "quantity": 2,
+          "unitPrice": 10.99,
+          "totalSpend": 10,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PETE & GERRY EGGS + 81565200214 + Member Savings -2.00",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PETE & GERRY EGGS + 81565200215 + Member Savings -1.50",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GC MEASURING CUPS + 7675319860 + Member Savings -0.20 + Markdown Coupon -2.40",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "OM BACON + 4470001988 + Member Savings -4.50",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SAFEWAY S.\nStore 1874 Dir Mark Valenzuela\nMain: (520) 514-2008 Rx:\n6360 E. Golf Links\nTucson AZ 85730\n00187409301042604032100\nYOUR CASHIER TODAY WAS SELF\nGROCERY\nPrice You Pay\n5200006775 14@ GATORADE LOWER SGR 39.06 17.16 S\nMember Savings -17.90\nJ4U Mfr Coupon -4.00\nREFRIG/FROZEN\n4470009219 CLAUSEN DILL 7.99 3.99 S\nMember Savings -4.00\n4670409612 2@ TGIF POT SKNS LOAD 21.98 10.00 S\nMember Savings -11.98\n81565200214 PETE & GERRY EGGS 7.99 5.99 S\nMember Savings -2.00\n81565200215 PETE & GERRY EGGS 7.99 6.49 S\nMember Savings -1.50\nGEN MERCHANDISE\n7675319860 GC MEASURING CUPS 4.99 2.39 T\nMember Savings -0.20\nMarkdown Coupon -2.40\nMEAT\n4470001988 OM BACON 8.49 3.99 S\nMember Savings -4.50\nTAX 0.21\n**** BALANCE 50.22\nCredit Purchase 04/03/26 21:00\nCARD # ************6609\nREF: 560014466090 AUTH: 00052900\nPAYMENT AMOUNT 50.22\nAL US DEBIT\nAID A0000000980840\nTVR 0000000000\nVisa 50.22\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 42.08\nfor U Savings 6.40\nTotal 48.48\nTotal Savings Value 49%",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "GATORADE LOWER SGR + 5200006775 + Member Savings -17.90 + J4U Mfr Coupon -4.00 + REFRIG/FROZEN",
+      "price": 1.23,
+      "quantity": 14,
+      "totalSpend": 17.16
+    },
+    {
+      "text": "CLAUSEN DILL + 4470009219 + Mombar Savings -4.00",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "TGIF POT SKNS LOAD + 4670409612 + Mewber Savings -11.98",
+      "price": 5,
+      "quantity": 2,
+      "totalSpend": 10
+    },
+    {
+      "text": "PETE & GERRY EGGS + 81565200214 + Member Savings -2.00",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "PETE & GERRY EGGS + 81565200215 + Member Savings -1.50 + GEN MERCHANDISE",
+      "price": 6.49,
+      "quantity": 1,
+      "totalSpend": 6.49
+    },
+    {
+      "text": "GC MEASURING CUPS + 7675319860 + Member SavIngs -0.20 + Markdown Coupon -2.40 + MEAT",
+      "price": 2.39,
+      "quantity": 1,
+      "totalSpend": 2.39
+    },
+    {
+      "text": "OM BACON + 4470001988 + Member Savings -4.50",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

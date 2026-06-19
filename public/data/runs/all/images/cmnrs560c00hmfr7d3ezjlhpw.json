@@ -1,0 +1,810 @@
+{
+  "id": "cmnrs560c00hmfr7d3ezjlhpw",
+  "url": null,
+  "retailer": "Ralphs",
+  "brand": "Coro Foods",
+  "amount": 2.45,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Ralphs",
+    "totalCost": "126.66",
+    "purchaseDate": "2026-04-05",
+    "time": null,
+    "zipCode": "92108",
+    "city": "San Diego",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13857.91495799998,
+        "totalUsd": 0.033864,
+        "inputTokens": 6100,
+        "outputTokens": 2746,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "126.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:07pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92108",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5680 Mission Center Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9199",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STARBUCKS KUPCS RC",
+          "quantity": 1,
+          "unitPrice": 16.65,
+          "totalSpend": 16.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRVT SELCTN SAUCE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ERLYCL OLIVES RC + RALPHS SAVED YOU 1.79",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 0.71,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ERLYCL OLIVES RC + RALPHS SAVED YOU 1.79",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 0.71,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "LA CREMA CHARDNY RC + RALPHS SAVED YOU 9.86 + 30% Wine Discount 5.14",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": -3.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA CREMA CHARDNY RC + RALPHS SAVED YOU 9.86 + 30% Wine Discount 5.14",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": -3.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA CREMA CHARDNY RC + RALPHS SAVED YOU 9.86 + 30% Wine Discount 5.14",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": -3.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAEBURN CHARDONNAYRC + RALPHS SAVED YOU 5.00 + 30% Wine Discount 6.00",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAEBURN CHARDONNAYRC + RALPHS SAVED YOU 5.00 + 30% Wine Discount 6.00",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KNDLL JCKSN RC + RALPHS SAVED YOU 4.43 + 30% Wine Discount 5.57",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUE DIAMOND MILK RC + RALPHS SAVED YOU 1.30",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CORO SALAMI MOLE",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CORO SALAMI MOLE",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CORO ORGCRD SLMI",
+          "quantity": 1,
+          "unitPrice": 3.15,
+          "totalSpend": 3.15,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MRRY LA TUR",
+          "quantity": 1,
+          "unitPrice": 6.44,
+          "totalSpend": 6.44,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MPLF BGUETTE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n5680 Mission Center Rd.\n(619) 297-2593\nYour cashier was Keisha B\nVERIFIED TOTAL SAVINGS $ 83.88\nSC Boost 2X Fuel Pts\nSTARBUCKS KUPCS RC 16.65 F\nPRVT SELCTN SAUCE 2.99 F\nERLYCL OLIVES RC 2.50 F\nSC RALPHS SAVED YOU 1.79\nERLYCL OLIVES RC 2.50 F\nSC RALPHS SAVED YOU 1.79\nLA CREMA CHARDNY RC 11.99 T\nAGE VERIFICATION BYPASSED\nCRV 0.10 T\nSC RALPHS SAVED YOU 9.86\nSC 30% Wine Discount 5.14\nLA CREMA CHARDNY RC 11.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 9.86\nSC 30% Wine Discount 5.14\nLA CREMA CHARDNY RC 11.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 9.86\nSC 30% Wine Discount 5.14\nRAEBURN CHARDONNAYRC 13.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 5.00\nSC 30% Wine Discount 6.00\nRAEBURN CHARDONNAYRC 13.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 5.00\nSC 30% Wine Discount 6.00\nKNDLL JCKSN RC 12.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 4.43\nSC 30% Wine Discount 5.57\nBLUE DIAMOND MILK RC 2.99 F\nSC RALPHS SAVED YOU 1.30\nCORO SALAMI MOLE 2.45 F\nCORO SALAMI MOLE 2.45 F\nCORO ORGCRD SLMI 3.15 F\nMRRY LA TUR 6.44 F\nMPLF BGUETTE 2.99 F\nSC Load Digital Cpns\nMC SCANNED COUPON 1.00 F\nMC SCANNED COUPON 1.00-F\nRALPHS rewards CUSTOMER *******7734\nTAX 6.01\n**** BALANCE 126.66\nSan Diego CA 92108\nCHASE VISA Purchase\n************9199 - C\nREF#: 02729D TOTAL: 126.66\nAID: A0000000031010\nTC: 94EA0C8F3F3AC687\nVISA 126.66\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 22\nMFG CPN SAVINGS $ 2.00\nRALPHS rewards SAVINGS $81.88\nTOTAL COUPONS $ 83.88\n04/05/26 01:07pm 77 11 56 108\n****************************************\nAnnual Card Savings $748.81\n****************************************\nFuel Points Earned Today: 90\nTotal April Fuel Points: 190\n****************************************\nRemaining March Fuel Points: 1053\n****************************************\nYour Benefits have been Boosted!\nAs a Boost member you enjoy\n2X Fuel Points and Free delivery\non qualifying orders over $35!\n****************************************\nRalphs Community Rewards\nOn your behalf, we are contributing to\nSURVIVORS OF TORTURE, INTERNATIONAL\nWith Card & Coupons\nVERIFIED TOTAL SAVINGS $ 83.\nMGR: ISABEL JONES (619) 297-2593\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\njobs.ralphs.com\nwww.ralphs.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 36666.33412499999,
+        "totalUsd": 0.0879075,
+        "inputTokens": 3699,
+        "outputTokens": 2761,
+        "reasoningTokens": 6390
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "126.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:07pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92108",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5680 Mission Center Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9199",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STARBUCKS KUPCS RC",
+          "quantity": 1,
+          "unitPrice": 16.65,
+          "totalSpend": 16.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRVT SELCTN SAUCE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ERLYCL OLIVES RC + RALPHS SAVED YOU 1.79",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ERLYCL OLIVES RC + RALPHS SAVED YOU 1.79",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 2.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LA CREMA CHARDNY RC + RALPHS SAVED YOU 9.86 + 30% Wine Discount 5.14",
+          "quantity": 1,
+          "unitPrice": 26.99,
+          "totalSpend": 11.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA CREMA CHARDNY RC + RALPHS SAVED YOU 9.86 + 30% Wine Discount 5.14",
+          "quantity": 1,
+          "unitPrice": 26.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA CREMA CHARDNY RC + RALPHS SAVED YOU 9.86 + 30% Wine Discount 5.14",
+          "quantity": 1,
+          "unitPrice": 26.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAEBURN CHARDONNAYRC + RALPHS SAVED YOU 5.00 + 30% Wine Discount 6.00",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 13.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAEBURN CHARDONNAYRC + RALPHS SAVED YOU 5.00 + 30% Wine Discount 6.00",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 13.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KNDLL JCKSN RC + RALPHS SAVED YOU 4.43 + 30% Wine Discount 5.57",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUE DIAMOND MILK RC + RALPHS SAVED YOU 1.30",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CORO SALAMI MOLE",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CORO SALAMI MOLE",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CORO ORGCRD SLMI",
+          "quantity": 1,
+          "unitPrice": 3.15,
+          "totalSpend": 3.15,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MRRY LA TUR",
+          "quantity": 1,
+          "unitPrice": 6.44,
+          "totalSpend": 6.44,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MPLF BGUETTE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n5680 Mission Center Rd.\n(619) 297-2593\nYour cashier was Keisha B\nVERIFIED TOTAL SAVINGS $ 83.88\nSC Boost 2X Fuel Pts\nSTARBUCKS KUPCS RC 16.65 F\nPRVT SELCTN SAUCE 2.99 F\nERLYCL OLIVES RC 2.50 F\nSC RALPHS SAVED YOU 1.79\nERLYCL OLIVES RC 2.50 F\nSC RALPHS SAVED YOU 1.79\nLA CREMA CHARDNY RC 11.99 T\nAGE VERIFICATION BYPASSED\nCRV 0.10 T\nSC RALPHS SAVED YOU 9.86\nSC 30% Wine Discount 5.14\nLA CREMA CHARDNY RC 11.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 9.86\nSC 30% Wine Discount 5.14\nLA CREMA CHARDNY RC 11.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 9.86\nSC 30% Wine Discount 5.14\nRAEBURN CHARDONNAYRC 13.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 5.00\nSC 30% Wine Discount 6.00\nRAEBURN CHARDONNAYRC 13.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 5.00\nSC 30% Wine Discount 6.00\nKNDLL JCKSN RC 12.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 4.43\nSC 30% Wine Discount 5.57\nBLUE DIAMOND MILK RC 2.99 F\nSC RALPHS SAVED YOU 1.30\nCORO SALAMI MOLE 2.45 F\nCORO SALAMI MOLE 2.45 F\nCORO ORGCRD SLMI 3.15 F\nMRRY LA TUR 6.44 F\nMPLF BGUETTE 2.99 F\nSC Load Digital Cpns\nMC SCANNED COUPON 1.00 F-\nMC SCANNED COUPON 1.00 F-\nRALPHS rewards CUSTOMER *******7734\nTAX 6.01\n**** BALANCE 126.66\nSan Diego CA 92108\nCHASE VISA Purchase\n************9199 - C\nREF#: 02729D TOTAL: 126.66\nAID: A0000000031010\nTC: 94EA0C8F3F3AC687\nVISA 126.66\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 22\nMFG CPN SAVINGS $ 2.00\nRALPHS rewards SAVINGS $81.88\nTOTAL COUPONS $ 83.88\n04/05/26 01:07pm 77 11 56 108\n****************************************\nAnnual Card Savings $748.81\n****************************************\nFuel Points Earned Today: 90\nTotal April Fuel Points: 190\n****************************************\nRemaining March Fuel Points: 1053\n****************************************\nYour Benefits have been Boosted!\nAs a Boost member you enjoy\n2X Fuel Points and Free delivery\non qualifying orders over $35!\n****************************************\nRalphs Community Rewards\nOn your behalf, we are contributing to\nSURVIVORS OF TORTURE, INTERNATIONAL\nWith Card & Coupons\nVERIFIED TOTAL SAVINGS $ 83.\nMGR: ISABEL JONES (619) 297-2593\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\njobs.ralphs.com\nwww.ralphs.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 11623.861875,
+        "totalUsd": 0.0301545,
+        "inputTokens": 3699,
+        "outputTokens": 2734,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Ralphs",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "126.66",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-05",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:07pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92108",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5680 Mission Center Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "9199",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "STARBUCKS KUPCS RC",
+          "quantity": 1,
+          "unitPrice": 16.65,
+          "totalSpend": 16.65,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRVT SELCTN SAUCE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ERLYCL OLIVES RC + RALPHS SAVED YOU 1.79",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 0.71,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "ERLYCL OLIVES RC + RALPHS SAVED YOU 1.79",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 0.71,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "LA CREMA CHARDNY RC + RALPHS SAVED YOU 9.86 + 30% Wine Discount 5.14",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": -3.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA CREMA CHARDNY RC + RALPHS SAVED YOU 9.86 + 30% Wine Discount 5.14",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": -3.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LA CREMA CHARDNY RC + RALPHS SAVED YOU 9.86 + 30% Wine Discount 5.14",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": -3.01,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAEBURN CHARDONNAYRC + RALPHS SAVED YOU 5.00 + 30% Wine Discount 6.00",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RAEBURN CHARDONNAYRC + RALPHS SAVED YOU 5.00 + 30% Wine Discount 6.00",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KNDLL JCKSN RC + RALPHS SAVED YOU 4.43 + 30% Wine Discount 5.57",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CRV",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BLUE DIAMOND MILK RC + RALPHS SAVED YOU 1.30",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 1.69,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CORO SALAMI MOLE",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CORO SALAMI MOLE",
+          "quantity": 1,
+          "unitPrice": 2.45,
+          "totalSpend": 2.45,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CORO ORGCRD SLMI",
+          "quantity": 1,
+          "unitPrice": 3.15,
+          "totalSpend": 3.15,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MRRY LA TUR",
+          "quantity": 1,
+          "unitPrice": 6.44,
+          "totalSpend": 6.44,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MPLF BGUETTE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Ralphs FRESH FOR EVERYONE\n5680 Mission Center Rd.\n(619) 297-2593\nYour cashier was Keisha B\nVERIFIED TOTAL SAVINGS $ 83.88\nSC Boost 2X Fuel Pts\nSTARBUCKS KUPCS RC 16.65 F\nPRVT SELCTN SAUCE 2.99 F\nERLYCL OLIVES RC 2.50 F\nSC RALPHS SAVED YOU 1.79\nERLYCL OLIVES RC 2.50 F\nSC RALPHS SAVED YOU 1.79\nLA CREMA CHARDNY RC 11.99 T\nAGE VERIFICATION BYPASSED\nCRV 0.10 T\nSC RALPHS SAVED YOU 9.86\nSC 30% Wine Discount 5.14\nLA CREMA CHARDNY RC 11.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 9.86\nSC 30% Wine Discount 5.14\nLA CREMA CHARDNY RC 11.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 9.86\nSC 30% Wine Discount 5.14\nRAEBURN CHARDONNAYRC 13.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 5.00\nSC 30% Wine Discount 6.00\nRAEBURN CHARDONNAYRC 13.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 5.00\nSC 30% Wine Discount 6.00\nKNDLL JCKSN RC 12.99 T\nCRV 0.10 T\nSC RALPHS SAVED YOU 4.43\nSC 30% Wine Discount 5.57\nBLUE DIAMOND MILK RC 2.99 F\nSC RALPHS SAVED YOU 1.30\nCORO SALAMI MOLE 2.45 F\nCORO SALAMI MOLE 2.45 F\nCORO ORGCRD SLMI 3.15 F\nMRRY LA TUR 6.44 F\nMPLF BGUETTE 2.99 F\nSC Load Digital Cpns\nMC SCANNED COUPON 1.00 F-\nMC SCANNED COUPON 1.00 F-\nRALPHS rewards CUSTOMER *******7734\nTAX 6.01\n**** BALANCE 126.66\nSan Diego CA 92108\nCHASE VISA Purchase\n************9199 - C\nREF#: 02729D TOTAL: 126.66\nAID: A0000000031010\nTC: 94EA0C8F3F3AC687\nVISA 126.66\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 22\nMFG CPN SAVINGS $ 2.00\nRALPHS rewards SAVINGS $81.88\nTOTAL COUPONS $ 83.88\n04/05/26 01:07pm 77 11 56 108\n****************************************\nAnnual Card Savings $748.81\n****************************************\nFuel Points Earned Today: 90\nTotal April Fuel Points: 190\n****************************************\nRemaining March Fuel Points: 1053\n****************************************\nYour Benefits have been Boosted!\nAs a Boost member you enjoy\n2X Fuel Points and Free delivery\non qualifying orders over $35!\n****************************************\nRalphs Community Rewards\nOn your behalf, we are contributing to\nSURVIVORS OF TORTURE, INTERNATIONAL\nWith Card & Coupons\nVERIFIED TOTAL SAVINGS $ 83.\nMGR: ISABEL JONES (619) 297-2593\nTHANK YOU FOR SHOPPING AT RALPHS!\nFresh opportunity awaits\nJoin our team today!\njobs.ralphs.com\nwww.ralphs.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "STARBUCKS KUPCS",
+      "price": 16.65,
+      "quantity": 1,
+      "totalSpend": 16.65
+    },
+    {
+      "text": "PRVT SELCTN SAUCE",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "ERLYCL OLIVES + SC RALPHS SAVED YOU 1.79",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "ERLYCL OLIVES + SC RALPHS SAVED YOU 1.79",
+      "price": 2.5,
+      "quantity": 1,
+      "totalSpend": 2.5
+    },
+    {
+      "text": "LA CREMA CHARDNY + AGE VERIFICATION BYPASSED",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "CRV + SC RALPHS SAVED YOU 9.86 + SC 30% Wine Discount 5.14",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "LA CREMA CHARDNY",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "CRV + SC RALPHS SAVED YOU 9.86 + SC 30% Wine Discount 5.14",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "LA CREMA CHARDNY",
+      "price": 11.99,
+      "quantity": 1,
+      "totalSpend": 11.99
+    },
+    {
+      "text": "CRV + SC RALPHS SAVED YOU 9.86 + SC 30% Wine Discount 5.14",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "RAEBURN CHARDONNAY",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "CRV + SC RALPHS SAVED YOU 5.00 + SC 30% Wine Discount 6.00",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "RAEBURN CHARDONNAY",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 13.99
+    },
+    {
+      "text": "CRV + SC RALPHS SAVED YOU 5.00 + SC 30% Wine Discount 6.00",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "KNDLL JCKSN",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "CRV + SC RALPHS SAVED YOU 4.43 + SC 30% Wine Discount 5.57",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "BLUE DIAMOND MILK + SC RALPHS SAVED YOU 1.30",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "CORO SALAMI MOLE",
+      "price": 2.45,
+      "quantity": 1,
+      "totalSpend": 2.45
+    },
+    {
+      "text": "CORO SALAMI MOLE",
+      "price": 2.45,
+      "quantity": 1,
+      "totalSpend": 2.45
+    },
+    {
+      "text": "CORO ORGCRD SLMI",
+      "price": 3.15,
+      "quantity": 1,
+      "totalSpend": 3.15
+    },
+    {
+      "text": "MRRY LA TUR",
+      "price": 6.44,
+      "quantity": 1,
+      "totalSpend": 6.44
+    },
+    {
+      "text": "MPLF BGUETTE + SC Load Digital Cpns + MC SCANNED COUPON 1.00-F",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

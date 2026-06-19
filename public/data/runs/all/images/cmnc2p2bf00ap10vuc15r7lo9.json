@@ -1,0 +1,270 @@
+{
+  "id": "cmnc2p2bf00ap10vuc15r7lo9",
+  "url": null,
+  "retailer": "Stop & Shop",
+  "brand": "Kite Hill",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Stop & Shop",
+    "totalCost": "10.98",
+    "purchaseDate": "2026-03-29",
+    "time": null,
+    "zipCode": "06035",
+    "city": "Granby",
+    "state": "CT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12648.96025,
+        "totalUsd": 0.016047,
+        "inputTokens": 6162,
+        "outputTokens": 756,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:08pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06035",
+          "status": "match"
+        },
+        "city": {
+          "value": "GRANBY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "120 SALMON BROOK STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4156",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KITEHILL GRK PLN",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KITEHILL GRK PLN",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "STOP & SHOP\n120 SALMON BROOK STREET\nGRANBY, CT 06035\nStore Telephone: (860) 844-8331\nPharmacy Telephone: (860) 844-8346\nStore #611 03/29/26 01:08pm\n\nDAIRY\nKITEHILL GRK PLN 5.49 F\nKITEHILL GRK PLN 5.49 F\n\nTAX 0.00\n**** BALANCE 10.98\n\n****************************************\nPayment Type: Visa Credit\nCHIP CONTACTLESS Purchase\nCard ************4156\nPayment Amt: $10.98\nBALANCE: $\nAID: A0000000031010\nAUTH: 05065D RC:00 03/29/26 01:08pm\n****************************************\nVISA 10.98\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n03/29/26 01:08pm 611 411 50 880011\n\n****************************************\n****** GO Points ******\nPoints Today 11\nTotal GO Points 117\n\nOpen your Stop & Shop mobile app or\ngo to StopandShop.com to redeem these\nfor:\n\nPoints - $1 off your\nin-store or online",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11931.57866600002,
+        "totalUsd": 0.029499,
+        "inputTokens": 3730,
+        "outputTokens": 729,
+        "reasoningTokens": 1927
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:08pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06035",
+          "status": "match"
+        },
+        "city": {
+          "value": "GRANBY",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "120 SALMON BROOK STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4156",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KITEHILL GRK PLN",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KITEHILL GRK PLN",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "STOP&SHOP\n120 SALMON BROOK STREET\nGRANBY, CT 06035\nStore Telephone: (860) 844-8331\nPharmacy Telephone: (860) 844-8346\nStore #611 03/29/26 01:08pm\nDAIRY\nKITEHILL GRK PLN 5.49 F\nKITEHILL GRK PLN 5.49 F\nTAX 0.00\n***** BALANCE 10.98\n****************************************\nPayment Type: Visa Credit\nCHIP CONTACTLESS Purchase\nCard ************4156\nPayment Amt: $10.98\nBALANCE: $\nATC: A0000000031010\nAUTH#050650 RC#00 03/29/26 01:08pm\n****************************************\nVISA 10.98\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n03/29/26 01:08pm 611 411 50 880011\n****************************************\n****** GO Points ******\nPoints Today 11\nTotal GO Points 117\nOpen your Stop & Shop mobile app or\ngo to StopandShop.com to redeem these\nfor:\n$1 off your\nstore or online",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4670.388833999998,
+        "totalUsd": 0.012165,
+        "inputTokens": 3730,
+        "outputTokens": 730,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Stop & Shop",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "10.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "01:08 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06035",
+          "status": "match"
+        },
+        "city": {
+          "value": "Granby",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "120 Salmon Brook Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4156",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KITEHILL GRK PLN",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KITEHILL GRK PLN",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "STOP&SHOP\n120 SALMON BROOK STREET\nGRANBY, CT 06035\nStore Telephone: (860) 844-8331\nPharmacy Telephone: (860) 844-8346\nStore #611 03/29/26 01:08pm\nDAIRY\nKITEHILL GRK PLN 5.49 F\nKITEHILL GRK PLN 5.49 F\nTAX 0.00\n**** BALANCE 10.98\n****************************************\nPayment Type: Visa Credit\nCHIP CONTACTLESS Purchase\nCard ************4156\nPayment Amt: $10.98\nBALANCE: $\nATC: A0000000031010\nAUTH:05065D RC:00 03/29/26 01:08pm\n****************************************\nVISA 10.98\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n03/29/26 01:08pm 611 411 50 880011\n****************************************\n****** GO Points ******\nPoints Today 11\nTotal GO Points 117\nOpen your Stop & Shop mobile app or\ngo to StopandShop.com to redeem these\npoints for:\nPoints - $1 off your\nnext store or online",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KITEHLL GRK PLN + :IRY",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "KITEHLL GRK PLN",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

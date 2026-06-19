@@ -1,0 +1,235 @@
+{
+  "id": "cmnqhl4t4006c113kq14yxj1y",
+  "url": null,
+  "retailer": "Shaw's Supermarkets",
+  "brand": "All In",
+  "amount": 2.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Shaw's Supermarkets",
+    "totalCost": "21.74",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "06812",
+    "city": "New Fairfield",
+    "state": "CT",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 14145.510167,
+        "totalUsd": 0.027315,
+        "inputTokens": 3708,
+        "outputTokens": 371,
+        "reasoningTokens": 2046
+      },
+      "fields": {
+        "storeName": {
+          "value": "Starbucks",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "21.74",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "06812",
+          "status": "match"
+        },
+        "city": {
+          "value": "New Fairfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5 Rt 39, Shaws Plaza",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "2285",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "All In™ Madagascar Vanilla, Honey & Almonds Bar + 1 Piece 40 g + 170 Calories",
+          "quantity": 1,
+          "unitPrice": 2.25,
+          "totalSpend": 2.25,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Receipt\nAll In™ Madagascar\nVanilla, Honey &\nAlmonds Bar\n$2.25\n1 Piece 40 g\n170 Calories\nDiscount\n-$0.10\nSubtotal\n$20.25\nTax 7.35%\n$1.49\nTotal\n$21.74\nMy Card (2285)\nEarns 1.2★ per $1\nAuth code: 194576\nNew Fairfield\n5 Rt 39\nShaws Plaza\nNew Fairfield, CT 06812",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 64412.97925,
+        "totalUsd": 0.011598,
+        "inputTokens": 3802,
+        "outputTokens": 655,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "0681220.25 / 2.25 = 9 items total. Discount of 0.10 is store-wide or not attached to a specific item row directly, but we can represent the store name as Starbucks based on the logo. Let's refine the zip code to 06812 and store name to Starbucks. Let's also extract the last4cc as 2285 and paymentMethod as CARD/VISA/etc (My Card (2285)). Let's use CARD or CREDIT/DEBIT. Let's use 'CARD'. Let's extract streetAddress as '5 Rt 39, Shaws Plaza'. Let's keep it simple: streetAddress: '5 Rt 39, Shaws Plaza'. Let's set storeName: 'Starbucks'. Let's set totalCost: 21.74. Let's set transactionNum: '194576' (Auth code). Let's set last4cc: '2285'. Let's set paymentMethod: 'CARD'. Let's set zipCode: '06812'. Let's set state: 'CT'. Let's set city: 'New Fairfield'. Let's set streetAddress: '5 Rt 39, Shaws Plaza'. Let's output the JSON now. Wait, the discount of -0.10 is printed below the subtotal or as a general discount. Let's keep discount: null for the line item since it's a general discount, or we can keep it as is. Let's output the JSON.06812",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "New Fairfield",
+          "status": "match"
+        },
+        "state": {
+          "value": "CT",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "All In™ Madagascar Vanilla, Honey & Almonds Bar + 1 Piece 40 g + 170 Calories",
+          "quantity": 9,
+          "unitPrice": 2.25,
+          "totalSpend": 20.25,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Receipt\nAll In™ Madagascar Vanilla, Honey & Almonds Bar\n$2.25\n1 Piece 40 g\n170 Calories\nDiscount\n-$0.10\nSubtotal\n$20.25\nTax 7.35%\n$1.49\nTotal\n$21.74\nMy Card (2285)\nEarns 1.2★ per $1\nAuth code: 194576\nNew Fairfield\n5 Rt 39\nShaws Plaza\nNew Fairfield, CT 06812",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "All Inm Madagascar + Vanilla, Honey & + Almonds Bar + 1 Piece40g + 170 Calories",
+      "price": 2.25,
+      "quantity": 1,
+      "totalSpend": 2.25
+    }
+  ],
+  "disagreementCount": 4,
+  "nullCount": 1
+}

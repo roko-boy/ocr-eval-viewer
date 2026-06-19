@@ -1,0 +1,311 @@
+{
+  "id": "cmozan7bz01rb9l1hjgbwv7m8",
+  "url": null,
+  "retailer": "Sheetz",
+  "brand": "f'real",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Sheetz",
+    "totalCost": "12.85",
+    "purchaseDate": "2026-05-10",
+    "time": null,
+    "zipCode": "17111",
+    "city": "Harrisburg",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8680.156667000032,
+        "totalUsd": 0.017022,
+        "inputTokens": 6086,
+        "outputTokens": 877,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.85",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:27:22 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Harrisburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4651 Lindle Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1574",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FREAL 12OZ MINT CHIP SHAKE S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL 12OZ CINNAMON CHURRO S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Gallikers 2% Milk Gallon Sin + $2 Off Birthday",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 4.39,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #580\n4651 Lindle Road\nHarrisburg, PA 17111\n(717) 260-5590\n5/10/2026 12:27:22 AM\nPOS Terminal\nOrder Number: 100\nRegister:21\nMy Sheetz Rewardz $0.00\nFREAL 12OZ MINT CHIP SHAKE S $3.99\nFREAL 12OZ CINNAMON CHURRO S $3.99\nGallikers 2% Milk Gallon Sin $6.39\n$2 Off Birthday -$2.00\nSub. Total: $12.37\nTax: $0.48\nTotal: $12.85\nDiscount Total: -$2.00\nVisa: $12.85\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX1574\nContactless\nTerminal : XXXXXXXXXX9002\nApproval : 002721\nSequence : 033612\nUSD$ 12.85\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 72A125763A1951E1",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 45821.22495800001,
+        "totalUsd": 0.03405,
+        "inputTokens": 3692,
+        "outputTokens": 810,
+        "reasoningTokens": 2358
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.85",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:27:22 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Harrisburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4651 Lindle Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1574",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "FREAL 120Z MINT CHIP SHAKE S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "FREAL 120Z CINNAMON CHURRO S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Gallikers 2% Milk Gallon Sin",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 6.39,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Sheetz #580\n4651 Lindle Road\nHarrisburg, PA 17111\n(717) 260-5590\n5/10/2026 12:27:22 AM\nPOS Terminal\nOrder Number: 100\nRegister:21\nMy Sheetz Rewardz $0.00\nFREAL 120Z MINT CHIP SHAKE S $3.99\nFREAL 120Z CINNAMON CHURRO S $3.99\nGallikers 2% Milk Gallon Sin $6.39\n$2 Off Birthday -$2.00\nSub. Total: $12.37\nTax: $0.48\nTotal: $12.85\nDiscount Total: -$2.00\nVisa: $12.85\nChange $0.00\nSale\nVisa\nCard Num : XXXXXXXXXXXX1574\nContactless\nTerminal : XXXXXXXXXX9002\nApproval : 002721\nSequence : 033612\nUSD$ 12.85\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 72A125763A1951E1",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5097.938374999998,
+        "totalUsd": 0.013503,
+        "inputTokens": 3692,
+        "outputTokens": 885,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Sheetz",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "12.85",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:27:22 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "17111",
+          "status": "match"
+        },
+        "city": {
+          "value": "Harrisburg",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4651 Lindle Road",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1574",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "My Sheetz Rewardz",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "FREAL 12OZ MINT CHIP SHAKE S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FREAL 12OZ CINNAMON CHURRO S",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "Gallikers 2% Milk Gallon Sin + $2 Off Birthday",
+          "quantity": 1,
+          "unitPrice": 6.39,
+          "totalSpend": 4.39,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Sheetz #580\n4651 Lindle Road\nHarrisburg, PA 17111\n(717) 260-5590\n5/10/2026 12:27:22 AM\nPOS Terminal\nOrder Number: 100\nRegister:21\nMy Sheetz Rewardz\n$0.00\nFREAL 12OZ MINT CHIP SHAKE S\n$3.99\nFREAL 12OZ CINNAMON CHURRO S\n$3.99\nGallikers 2% Milk Gallon Sin\n$6.39\n$2 Off Birthday\n-$2.00\nSub. Total:\n$12.37\nTax:\n$0.48\nTotal:\n$12.85\nDiscount Total:\n-$2.00\nVisa:\n$12.85\nChange\n$0.00\nSale\nVisa\nCard Num: XXXXXXXXXXXX1574\nContactless\nTerminal: XXXXXXXX9002\nApproval: 002721\nSequence: 033612\nUSD$ 12.85\nUS DEBIT\nMode: Issuer\nAID: A0000000980840\nTVR: 0000000000\nIAD: XXXXXXXXXXXXXX\nTSI: 0000\nARC: 00\nARQC: 72A125763A1951E1",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "FREAL 12OZ MINT CHIP SHAKE S",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "FREAL 12OZ CINNAMON CHURRO S",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "Gallikers 2% Milk Gallon Sin",
+      "price": 6.39,
+      "quantity": 1,
+      "totalSpend": 6.39
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,264 @@
+{
+  "id": "cmnad2cun00nu3w84eaq36wwt",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "Instinct - Fresh Raw Meals",
+  "amount": 6.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "15.83",
+    "purchaseDate": "2026-03-28",
+    "time": null,
+    "zipCode": "34986",
+    "city": "Port St Lucie",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 22623.042625,
+        "totalUsd": 0.016602,
+        "inputTokens": 6136,
+        "outputTokens": 822,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:21 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34986",
+          "status": "match"
+        },
+        "city": {
+          "value": "PORT ST LUCIE",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1753 NW SAINT LUCIE W BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4727",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003964374 BNR-MT BONEBROTH 9.6 + MANUFACTURER COUPON - 100: -12.49 (2) + Return Value: 0.00",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "004622536 NAV-DOG 8Z FRESHRAW",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nPORT ST LUCIE #02761\n1753 NW SAINT LUCIE W BLVD\nPORT ST LUCIE, FL 34986\n772-873-2575\n03/28/26 9:21AM Reg 003 Trans 170628\nHelped by Hanna\n003964374 BNR-MT BONEBROTH 9.6 0.00 T\nReg Price: 12.49\nMANUFACTURER COUPON - 100: -12.49 (2)\nReturn Value: 0.00\n004622536 NAV-DOG 8Z FRESHRAW 13.98 T\nReg Price: 2@ 6.99\nTaxable Total 26.47\nSubtotal 13.98\nTax FL 7% 1.85\nTOTAL 15.83\nVisa Credit Card 15.83\n2026-03-28 09:20:57 AM\nTotal: USD $15.83\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX4727\nPurchase - APPROVED\nAUTH CODE: 03314D\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06021203A00000\nARC: 00\nRRN: 439229",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13330.11683300004,
+        "totalUsd": 0.0251865,
+        "inputTokens": 3717,
+        "outputTokens": 806,
+        "reasoningTokens": 1373
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:21 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34986",
+          "status": "match"
+        },
+        "city": {
+          "value": "PORT ST LUCIE",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1753 NW SAINT LUCIE W BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4727",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003964374 BNR-MT BONEBROTH 9.6 + MANUFACTURER COUPON - 100: -12.49 (2)",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "004622536 NAV-DOG 8Z FRESHRAW",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nPORT ST LUCIE #02761\n1753 NW SAINT LUCIE W BLVD\nPORT ST LUCIE, FL 34986\n772-873-2575\n03/28/26 9:21AM Reg 003 Trans 170628\nHelped by Hanna\n003964374 BNR-MT BONEBROTH 9.6 0.00 T\nReg Price: 12.49\nMANUFACTURER COUPON - 100: -12.49 (2)\nReturn Value: 0.00\n004622536 NAV-DOG 8Z FRESHRAW 13.98 T\nReg Price: 2@ 6.99\nTaxable Total 26.47\nSubtotal 13.98\nTax FL 7% 1.85\nTOTAL 15.83\nVisa Credit Card 15.83\n2026-03-28 09:20:57 AM\nTotal: USD $15.83\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX4727\nPurchase - APPROVED\nAUTH CODE: 03314D\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06021203A00000\nARC: 00\nRRN: 439229",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4859.594000000012,
+        "totalUsd": 0.0128655,
+        "inputTokens": 3717,
+        "outputTokens": 810,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "15.83",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-28",
+          "status": "match"
+        },
+        "time": {
+          "value": "9:21 AM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "34986",
+          "status": "match"
+        },
+        "city": {
+          "value": "PORT ST LUCIE",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1753 NW SAINT LUCIE W BLVD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4727",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BNR-MT BONEBROTH 9.6 + 003964374 + MANUFACTURER COUPON - 100: -12.49 (2)",
+          "quantity": 1,
+          "unitPrice": 12.49,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "NAV-DOG 8Z FRESHRAW + 004622536",
+          "quantity": 2,
+          "unitPrice": 6.99,
+          "totalSpend": 13.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "petco\nPORT ST LUCIE #02761\n1753 NW SAINT LUCIE W BLVD\nPORT ST LUCIE, FL 34986\n772-873-2575\n03/28/26 9:21AM Reg 003 Trans 170628\nHelped by Hanna\n003964374 BNR-MT BONEBROTH 9.6 0.00 T\nReg Price: 12.49\nMANUFACTURER COUPON - 100: -12.49 (2)\nReturn Value: 0.00\n004622536 NAV-DOG 8Z FRESHRAW 13.98 T\nReg Price: 2@ 6.99\nTaxable Total 26.47\nSubtotal 13.98\nTax FL 7% 1.85\nTOTAL 15.83\nVisa Credit Card 15.83\n2026-03-28 09:20:57 AM\nTotal: USD $15.83\nVisa\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX4727\nPurchase - APPROVED\nAUTH CODE: 03314D\nAID: A0000000031010\nTVR: 0000000000\nIAD: 06021203A00000\nARC: 00\nRRN: 439229",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NAV-DOG 8Z FRESHRAW + 004622536 + 0 + oncna- Reg Price: 2@ 6.99",
+      "price": 6.99,
+      "quantity": 2,
+      "totalSpend": 13.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

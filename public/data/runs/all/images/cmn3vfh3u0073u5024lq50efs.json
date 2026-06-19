@@ -1,0 +1,243 @@
+{
+  "id": "cmn3vfh3u0073u5024lq50efs",
+  "url": null,
+  "retailer": "Wegmans Wine & Beer",
+  "brand": "Back to Nature",
+  "amount": 4.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Wegmans Food Markets",
+    "totalCost": "4.79",
+    "purchaseDate": "2026-03-23",
+    "time": null,
+    "zipCode": "18045",
+    "city": "Easton",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8301.619708000042,
+        "totalUsd": 0.013938,
+        "inputTokens": 6142,
+        "outputTokens": 525,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18045",
+          "status": "match"
+        },
+        "city": {
+          "value": "EASTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3791 EASTON-NAZARETH HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0651",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BTN RSMRY & OO WT",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n3791 EASTON-NAZARETH HWY\nEASTON, PA 18045\n(610) 515-2400\n03/23/26 OP# 92\nBTN RSMRY & OO WT 4.79 F\nTAX 0.00\n**** BALANCE 4.79\nVISA PURCHASE\nCARD NUMBER: ************0651 H\nVISA CREDIT 07\nAUTH: 09722C RCPT: 392175\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 4.79\nCHANGE 0.00\n03/23/26 11:16 94 392 15 92\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9851.317290999985,
+        "totalUsd": 0.022023,
+        "inputTokens": 3720,
+        "outputTokens": 537,
+        "reasoningTokens": 1290
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18045",
+          "status": "match"
+        },
+        "city": {
+          "value": "EASTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3791 EASTON-NAZARETH HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0651",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BTN RSMRY & OO WT",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n\n3791 EASTON-NAZARETH HWY\nEASTON, PA 18045\n(610) 515-2400\n\n03/23/26 OP# 92\n\nBTN RSMRY & OO WT 4.79 F\nTAX 0.00\n\n**** BALANCE 4.79\n\nVISA PURCHASE\nCARD NUMBER: ************0651 H\nVISA CREDIT 07\nAUTH: 09722C RCPT: 392175\nCODE: 0000 Approved\nAID: A0000000031010\n\nCREDIT CARD 4.79\nCHANGE 0.00\n\n03/23/26 11:16 94 392 15 92\n\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3659.922250000003,
+        "totalUsd": 0.01026,
+        "inputTokens": 3720,
+        "outputTokens": 520,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Wegmans",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "11:16",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "18045",
+          "status": "match"
+        },
+        "city": {
+          "value": "EASTON",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3791 EASTON-NAZARETH HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0651",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BTN RSMRY & OO WT",
+          "quantity": 1,
+          "unitPrice": 4.79,
+          "totalSpend": 4.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Wegmans\nEvery day you get our best!\n3791 EASTON-NAZARETH HWY\nEASTON, PA 18045\n(610) 515-2400\n03/23/26 OP# 92\nBTN RSMRY & OO WT 4.79 F\nTAX 0.00\n**** BALANCE 4.79\nVISA PURCHASE\nCARD NUMBER: ************0651 H\nVISA CREDIT 07\nAUTH: 09722C RCPT: 392175\nCODE: 0000 Approved\nAID: A0000000031010\nCREDIT CARD 4.79\nCHANGE 0.00\n03/23/26 11:16 94 392 15 92\nEvery day you get our best!\nThank you!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BTN RSMRY & 00 WT",
+      "price": 4.79,
+      "quantity": 1,
+      "totalSpend": 4.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

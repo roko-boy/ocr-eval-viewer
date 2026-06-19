@@ -1,0 +1,270 @@
+{
+  "id": "cmo4r3com002ylqt9q67qwv7q",
+  "url": null,
+  "retailer": "Vons",
+  "brand": "Sunny With a Chance of Flowers",
+  "amount": 3,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Vons",
+    "totalCost": "14.46",
+    "purchaseDate": "2026-04-18",
+    "time": null,
+    "zipCode": "92130",
+    "city": "San Diego",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 19237.594916,
+        "totalUsd": 0.017319,
+        "inputTokens": 6086,
+        "outputTokens": 910,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92130",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4627 Carmel Mountain Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4479",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIQUOR + 67582942507 SUNNY W/ A CHANCE + Member Savings -3.67",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 13.32,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9751 CRV WINE SNGL TAX",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "VONS\nStore 1797 Dir Charsae Navedo\nMain: (858) 523-1842 Rx: (858) 523-184\n4627 Carmel Mountain Rd.\nSan Diego CA 92130\n00179705000472604181224\nYOUR CASHIER TODAY WAS THIP-MISELL\nLIQUOR Price You Pay\n67582942507 SUNNY W/ A CHANCE 16.99 13.32 T\n9751 CRV WINE SNGL TAX 0.10 0.10 T\nMember Savings -3.67\nTAX 1.04\n**** BALANCE 14.46\nCredit Purchase 04/18/26 12:24\nCARD # ************4479\nREF: 042421444790 AUTH: 00S94076\nPAYMENT AMOUNT 14.46\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa 14.46\nCHANGE 0.00\nYOUR SAVINGS\nMember Savings 3.67\nTotal 3.67\nTotal Savings Value 21%\nYOUR POINTS\nPoints Available 59\nAGE VERIFICATION BYPASSED\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/18/26 12:24 1797 50 47 8999\nThank you for shopping Vons!\nFor VONS FOR U questions call\n877-276-9637 or Vons.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8208.988416999986,
+        "totalUsd": 0.018408,
+        "inputTokens": 3692,
+        "outputTokens": 915,
+        "reasoningTokens": 515
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92130",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4627 Carmel Mountain Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4479",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIQUOR + 67582942507 SUNNY W/ A CHANCE + Member Savings -3.67",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 13.32,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9751 CRV WINE SNGL TAX",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "VONS\nStore 1797 Dir Charsae Navedo\nMain: (858) 523-1842 Rx: (858) 523-184\n4627 Carmel Mountain Rd.\nSan Diego CA 92130\n00179705000472604181224\nYOUR CASHIER TODAY WAS THIP-MISELL\nLIQUOR\nPrice You Pay\n67582942507 SUNNY W/ A CHANCE\n16.99 13.32 T\n9751\nCRV WINE SNGL TAX\n0.10 0.10 T\nMember Savings -3.67\nTAX\n1.04\n**** BALANCE\n14.46\nCredit Purchase 04/18/26 12:24\nCARD # ************4479\nREF: 042421444790 AUTH: 00S94076\nPAYMENT AMOUNT\n14.46\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n14.46\nCHANGE\n0.00\nYOUR SAVINGS\nMember Savings\n3.67\nTotal\n3.67\nTotal Savings Value\n21%\nYOUR POINTS\nPoints Available 59\nAGE VERIFICATION BYPASSED\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/18/26 12:24 1797 50 47 8999\nThank you for shopping Vons!\nFor VONS FOR U questions call\n877-276-9637 or Vons.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5678.860625000001,
+        "totalUsd": 0.013764,
+        "inputTokens": 3692,
+        "outputTokens": 914,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Vons",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "14.46",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-18",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:24",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92130",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "4627 Carmel Mountain Rd.",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4479",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SUNNY W/ A CHANCE + 67582942507 + Member Savings -3.67",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 13.32,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV WINE SNGL TAX + 9751",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "VONS\nStore 1797 Dir Charsae Navedo\nMain: (858) 523-1842 Rx: (858) 523-184\n4627 Carmel Mountain Rd.\nSan Diego CA 92130\n00179705000472604181224\nYOUR CASHIER TODAY WAS THIP-MISELL\nLIQUOR\nPrice You Pay\n67582942507 SUNNY W/ A CHANCE\n16.99 13.32 T\n9751 CRV WINE SNGL TAX\n0.10 0.10 T\nMember Savings -3.67\nTAX\n1.04\n**** BALANCE\n14.46\nCredit Purchase 04/18/26 12:24\nCARD # ************4479\nREF: 042421444790 AUTH: 00S94076\nPAYMENT AMOUNT\n14.46\nAL VISA CREDIT\nAID A0000000031010\nTVR 0000000000\nVisa\n14.46\nCHANGE\n0.00\nYOUR SAVINGS\nMember Savings\n3.67\nTotal\n3.67\nTotal Savings Value\n21%\nYOUR POINTS\nPoints Available 59\nAGE VERIFICATION BYPASSED\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/18/26 12:24 1797 50 47 8999\nThank you for shopping Vons!\nFor VONS FOR U questions call\n877-276-9637 or Vons.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SUNNY W/ A CHANCE + 67582942507",
+      "price": 13.32,
+      "quantity": 1,
+      "totalSpend": 13.32
+    },
+    {
+      "text": "CRV WINE SNGL TAX + 9751 + Member Savings -3.67",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

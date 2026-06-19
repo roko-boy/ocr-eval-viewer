@@ -1,0 +1,297 @@
+{
+  "id": "cmnf3zc10008uax74b4v7mjzw",
+  "url": null,
+  "retailer": "ShopRite of Rochelle Park",
+  "brand": "VUUM",
+  "amount": 4.78,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "ShopRite",
+    "totalCost": "11.27",
+    "purchaseDate": "2026-03-31",
+    "time": null,
+    "zipCode": "07662",
+    "city": "Rochelle Park",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6975.920374999987,
+        "totalUsd": 0.018219,
+        "inputTokens": 6086,
+        "outputTokens": 1010,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:02pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "LYNDHURST",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4881",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VUUM BERRY PRIN EN",
+          "quantity": 2,
+          "unitPrice": 2.39,
+          "totalSpend": 4.78,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "UNITE PBJ PROT BAR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRFBAR CHOCCHP CKY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\n\nWelcome to ShopRite\nof LYNDHURST\n\nREMEMBER TO BRING YOUR BAGS\n****************************************\n* Regular Items *\n****************************************\n2 @ 2.39\nVUUM BERRY PRIN EN 4.78 B\nUNITE PBJ PROT BAR 2.99 B\nPRFBAR CHOCCHP CKY 2.99 F\nValued Customer 48502232307\nTAX 0.51\n**** BALANCE 11.27\n****************************************\nShopRite Credit Receipt\nStore # 113 of LYNDHURST , NJ\nTerminal: 72 Operator: 72 Trans: 99\nDate: 03/31/26 Time: 05:02pm\n\nPurchase: $ 11.27\nAcct#: ************4881 CONTACTLESS\n\nResponse : APPROVED\nApproval : 07454C\nPrepaid Card Balance: 0.00\n\n****************************************\n\nVISA CARD 11.27\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\n03/31/26 05:03pm 113 72 99 72\n\nPresent your card with every order\nand save with Price Plus discounts!\n\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n\n****************************************\n***HOLIDAY PROMOTION***\nYOUR HOLIDAY POINTS:$ 379.44 of $400\nQUALIFY & REDEEM 3/1 - 4/4\nLIMIT 1 REDEMPTION\n****************************************\n\n****************************************\n* HOW WAS YOUR VISIT TODAY? *\n****************************************\nPlease take our survey within\n7 days for a chance to win\n$100 in ShopRite Gift Cards.\nScan the QR Code or visit\nMyShopRiteExperience.com\nUse This Code: 113 S 72 R 99 T\nThank you for your feedback!\n\nYOUR CASHIER TODAY: SCOT 72\n\nTHANK YOU FOR SHOPPING AT LYNDHURST\nSTORE MANAGER DANIELLE WARES\nSTORE PHONE NUMBER 201-939-6227\nNOW ACCEPTING APPLICATIONS @\nSHOPRITE.COM CALL FOR MORE INFO!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10157.90904200001,
+        "totalUsd": 0.025518,
+        "inputTokens": 3692,
+        "outputTokens": 979,
+        "reasoningTokens": 1241
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "LYNDHURST",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4881",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VUUM BERRY PRIN EN",
+          "quantity": 2,
+          "unitPrice": 2.39,
+          "totalSpend": 4.78,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "UNITE PBJ PROT BAR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRFBAR CHOCCHP CKY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof LYNDHURST\nREMEMBER TO BRING YOUR BAGS\n******************************************\n* Regular Items *\n******************************************\n2 @ 2.39\nVUUM BERRY PRIN EN 4.78 B\nUNITE PBJ PROT BAR 2.99 B\nPRFBAR CHOCCHP CKY 2.99 F\nValued Customer 48502232307\nTAX 0.51\n**** BALANCE 11.27\n******************************************\nShopRite Credit Receipt\nStore # 113 of LYNDHURST , NJ\nTerminal: 72 Operator: 72 Trans: 99\nDate: 03/31/26 Time: 05:02pm\nPurchase: $ 11.27\nAcct#: ************4881 CONTACTLESS\nResponse : APPROVED\nApproval : 07454C\nPrepaid Card Balance: 0.00\n******************************************\nVISA CARD 11.27\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\n03/31/26 05:03pm 113 72 99 72\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n******************************************\n***HOLIDAY PROMOTION***\nYOUR HOLIDAY POINTS:$ 379.44 of $400\nQUALIFY & REDEEM 3/1 - 4/4\nLIMIT 1 REDEMPTION\n******************************************\n******************************************\n* HOW WAS YOUR VISIT TODAY? *\n******************************************\nPlease take our survey within\n7 days for a chance to win\n$100 in ShopRite Gift Cards.\nScan the QR Code or visit\nMyShopRiteExperience.com\nUse This Code: 113 S 72 R 99 T\nThank you for your feedback!\n******************************************\nYOUR CASHIER TODAY: SCOT 72\nTHANK YOU FOR SHOPPING AT LYNDHURST\nSTORE MANAGER DANIELLE WARES\nSTORE PHONE NUMBER 201-939-6227\nNOW ACCEPTING APPLICATIONS @\nSHOPRITE.COM CALL FOR MORE INFO!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6180.021999999997,
+        "totalUsd": 0.014349,
+        "inputTokens": 3692,
+        "outputTokens": 979,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ShopRite",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "11.27",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "LYNDHURST",
+          "status": "mismatch"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4881",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "VUUM BERRY PRIN EN",
+          "quantity": 2,
+          "unitPrice": 2.39,
+          "totalSpend": 4.78,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "UNITE PBJ PROT BAR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PRFBAR CHOCCHP CKY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ShopRite\nwe are here.\nWelcome to ShopRite\nof LYNDHURST\nREMEMBER TO BRING YOUR BAGS\n****************************************\n* Regular Items *\n****************************************\n2 @ 2.39\nVUUM BERRY PRIN EN 4.78 B\nUNITE PBJ PROT BAR 2.99 B\nPRFBAR CHOCCHP CKY 2.99 F\nValued Customer 48502232307\nTAX 0.51\n**** BALANCE 11.27\n****************************************\nShopRite Credit Receipt\nStore # 113 of LYNDHURST, NJ\nTerminal: 72 Operator: 72 Trans: 99\nDate: 03/31/26 Time: 05:02pm\nPurchase: $ 11.27\nAcct#: ************4881 CONTACTLESS\nResponse : APPROVED\nApproval : 07454C\nPrepaid Card Balance: 0.00\n****************************************\nVISA CARD 11.27\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 4\n03/31/26 05:03pm 113 72 99 72\nPresent your card with every order\nand save with Price Plus discounts!\nQuestions or comments?\nContact us at 1-800-SHOPRITE or\non the web at www.shoprite.com\n****************************************\n***HOLIDAY PROMOTION***\nYOUR HOLIDAY POINTS:$ 379.44 of $400\nQUALIFY & REDEEM 3/1 - 4/4\nLIMIT 1 REDEMPTION\n****************************************\n****************************************\n* HOW WAS YOUR VISIT TODAY? *\n****************************************\nPlease take our survey within\n7 days for a chance to win\n$100 in ShopRite Gift Cards.\nScan the QR Code or visit\nMyShopRiteExperience.com\nUse This Code: 113 S 72 R 99 T\nThank you for your feedback!\n****************************************\nYOUR CASHIER TODAY: SCOT 72\nTHANK YOU FOR SHOPPING AT LYNDHURST\nSTORE MANAGER DANIELLE WARES\nSTORE PHONE NUMBER 201-939-6227\nNOW ACCEPTING APPLICATIONS @\nSHOPRITE.COM CALL FOR MORE INFO!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "VUUM BERRY PRTN EN + 2 @ 2.39",
+      "price": 2.39,
+      "quantity": 2,
+      "totalSpend": 4.78
+    },
+    {
+      "text": "UNITE PBJ PROT BAR",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    },
+    {
+      "text": "PRFBAR CHOCCHP CKY + Valued Customer 48502232307",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

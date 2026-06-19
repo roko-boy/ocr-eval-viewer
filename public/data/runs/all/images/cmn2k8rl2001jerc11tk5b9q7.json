@@ -1,0 +1,488 @@
+{
+  "id": "cmn2k8rl2001jerc11tk5b9q7",
+  "url": null,
+  "retailer": "Fred Meyer",
+  "brand": "Back to Nature",
+  "amount": 3.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Fred Meyer",
+    "totalCost": "29.67",
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": "98033",
+    "city": "Kirkland",
+    "state": "WA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12393.05108400001,
+        "totalUsd": 0.025626,
+        "inputTokens": 6086,
+        "outputTokens": 1833,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fred Meyer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2025-05-22",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "19:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98033-6905",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Kirkland",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12221 120th Ave. Northeast",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6437",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "3082 BROCCOLI CRO + 2.91 (2.92) lb @ 2.49 /lb",
+          "quantity": 1,
+          "unitPrice": 7.25,
+          "totalSpend": 7.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "76101004046 HAAS AVOCADO + eCpn Avocado + eCpn Avocado + eCpn Avocado + eCpn Avocado + eCpn Avocado",
+          "quantity": 5,
+          "unitPrice": 3.85,
+          "totalSpend": 2.7,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "81939801013 BKTN CRACKER",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85606900519 SMP M_S CHOC",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9396600014 PC ORG VALLEY M + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "9396631600 PC ORG VALLEY M + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.09,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "9396600014 PC ORG VALLEY M + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "9396631600 PC ORG VALLEY M + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.09,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "81109999998 eCpn $3 off",
+          "quantity": 1,
+          "unitPrice": -3,
+          "totalSpend": -3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "81109999998 Customer Rel",
+          "quantity": 1,
+          "unitPrice": -0.77,
+          "totalSpend": -0.77,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "81109999998 eCpn 4X Fuel",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "23456 DIGL CPN RE",
+          "quantity": 1,
+          "unitPrice": -13,
+          "totalSpend": -13,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH FOR EVERYONE.\nNow Hiring!\nApply at Jobs.fredmeyer.com\n12221 120th Ave. Northeast\n425-820-3200\nYOUR CASHIER WAS CHRIS 513\nREWARDS CARD *******4416\n2.91 (2.92) lb @ 2.49 /lb\n3082 BROCCOLI CRO 7.25 F\n5 @ 5/5.00\n76101004046 HAAS AVOCADO 3.85 F\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\n81939801013 BKTN CRACKER 3.79 F\n85606900519 SMP M_S CHOC 6.99 F\n9396600014 PC ORG VALLEY M 6.99 F\nSC FM SAVINGS 1.80\n9396631600 PC ORG VALLEY M 5.79 F\nSC FM SAVINGS 0.70\n9396600014 PC ORG VALLEY M 6.99 F\nSC FM SAVINGS 1.80\n9396631600 PC ORG VALLEY M 5.79 F\nSC FM SAVINGS 0.70\nRC 81109999998 eCpn $3 off 3.00-B\nRC 81109999998 Customer Rel 0.77-T\nRC 81109999998 eCpn 4X Fuel\nSC 23456 DIGL CPN RE 13.00-F\nTAX 0.00\n**** BALANCE 29.67\nKirkland WA 98033-6905\nDiscover Purchase\n************6437 - H\nREF# 02233R TOTAL: 29.67\nAID: A0000001523010\nTC: 3E87C7944E7D33A0\nDISCOVER 29.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nFred Meyer Savings $ 22.92\nTotal Coupons $ 22.92\nTotal Savings (43 Percent) $ 22.92\n05/22/25 19:01 391 513 181 999999513\n*********************************\nAnnual Card Savings $180.69",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 49018.14866700003,
+        "totalUsd": 0.107598,
+        "inputTokens": 3692,
+        "outputTokens": 1565,
+        "reasoningTokens": 9775
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fred Meyer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2025-03-22",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "13:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98033-6905",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Kirkland",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12221 120th Ave. Northeast",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5437",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BROCCOLI CRO + 3082",
+          "quantity": 1,
+          "unitPrice": 7.25,
+          "totalSpend": 7.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HAAS AVOCADO + 76101004046 + eCpn Avocado + eCpn Avocado + eCpn Avocado + eCpn Avocado + eCpn Avocado",
+          "quantity": 5,
+          "unitPrice": 1,
+          "totalSpend": 3.85,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BKTN CRACKER + 81939801013",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SMP MLS CHOC + 85606900519",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC ORG VALLEY M + 9396600014 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC ORG VALLEY M + 939661600 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 5.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC ORG VALLEY M + 9396600014 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC ORG VALLEY M + 939661600 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 5.79,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH FOR EVERYONE.\nNow Hiring!\nApply at Jobs.fredmeyer.com\n12221 120th Ave. Northeast\n425-820-3200\nYOUR CASHIER WAS CHEC 513\nREWARDS CARD *******4416\n2.91 (2.92) lb @ 2.49 /lb\n3082 BROCCOLI CRO 7.25 F\n5 @ 5/5.00\n76101004046 HAAS AVOCADO 3.85 F\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\n81939801013 BKTN CRACKER 3.79 F\n85606900519 SMP MLS CHOC 5.99 F\n9396600014 PC ORG VALLEY M 6.99 F\nSC FM SAVINGS 1.80\n939661600 PC ORG VALLEY M 5.79 F\nSC FM SAVINGS 0.70\n9396600014 PC ORG VALLEY M 6.99 F\nSC FM SAVINGS 1.80\n939661600 PC ORG VALLEY M 5.79 F\nSC FM SAVINGS 0.70\nSC RC 811099999998 eCpn $3 off 3.00-B\nSC RC 811099999998 Customer Rel 0.77-T\nSC RC 811099999998 eCpn 4X Fuel\nSC RC 23456 DIGL CPN RE 13.00-F\nTAX 0.00\n**** BALANCE 29.67\nKirkland WA 98033-6905\nDiscover Purchase\n************5437 - H\nREF# 02233R TOTAL: 29.67\nAID: A0000001523010\nTC: 3E87C7944E7D33A0\nDISCOVER 29.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nFred Meyer Savings $ 22.92\nTotal Coupons $ 22.92\nTotal Savings (43 Percent) $ 22.92\n03/22/25 13:01 391 513 181 999999513\n*********************************\nAnnual Card Savings $180.69",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 9189.762292,
+        "totalUsd": 0.022062,
+        "inputTokens": 3692,
+        "outputTokens": 1836,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Fred Meyer",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.67",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2025-05-22",
+          "status": "no-truth"
+        },
+        "time": {
+          "value": "13:01",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "98033-6905",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Kirkland",
+          "status": "match"
+        },
+        "state": {
+          "value": "WA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "12221 120th Ave. Northeast",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "5437",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BROCCOLI CRD + 3082",
+          "quantity": 1,
+          "unitPrice": 7.25,
+          "totalSpend": 7.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HAAS AVOCADO + 76101004046 + eCpn Avocado + eCpn Avocado + eCpn Avocado + eCpn Avocado + eCpn Avocado",
+          "quantity": 5,
+          "unitPrice": 3.85,
+          "totalSpend": 2.7,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BXTN CRACKER + 81939801013",
+          "quantity": 1,
+          "unitPrice": 3.79,
+          "totalSpend": 3.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SMP MLS CHOC + 85606900519",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC ORG VALLEY M + 9396600014 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PC ORG VALLEY M + 9396631600 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.09,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PC ORG VALLEY M + 9396600014 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 5.19,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PC ORG VALLEY M + 9396631600 + FM SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "totalSpend": 5.09,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "eCpn $3 off + 811099999998",
+          "quantity": 1,
+          "unitPrice": -3,
+          "totalSpend": -3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Customer Rel + 811099999998",
+          "quantity": 1,
+          "unitPrice": -0.77,
+          "totalSpend": -0.77,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "eCpn 4X Fuel + 811099999998",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DIGL CPN RE + 23456",
+          "quantity": 1,
+          "unitPrice": -13,
+          "totalSpend": -13,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH\nFOR\nEVERYONE.\nNow Hiring!\nApply at Jobs.fredmeyer.com\n12221 120th Ave. Northeast\n425-820-3200\nYOUR CASHIER WAS CHRIS 513\nREWARDS CARD\n******4416\n2.91 (2.92) lb @ 2.49 /lb\n3082 BROCCOLI CRD 7.25 F\n5 @ 5/5.00\n76101004046 HAAS AVOCADO 3.85 F\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\nSC eCpn Avocado 0.23\n81939801013 BXTN CRACKER 3.79 F\n85606900519 SMP MLS CHOC 5.99 F\n9396600014 PC ORG VALLEY M 6.99 F\nSC FM SAVINGS 1.80\n9396631600 PC ORG VALLEY M 5.79 F\nSC FM SAVINGS 0.70\n9396600014 PC ORG VALLEY M 6.99 F\nSC FM SAVINGS 1.80\n9396631600 PC ORG VALLEY M 5.79 F\nSC FM SAVINGS 0.70\nRC 811099999998 eCpn $3 off 3.00-B\nRC 811099999998 Customer Rel 0.77-T\nRC 811099999998 eCpn 4X Fuel\nRC 23456 DIGL CPN RE 13.00-F\nTAX 0.00\n**** BALANCE 29.67\nKirkland WA 98033-6905\nDiscover Purchase\n************5437 - H\nREF# 02233R TOTAL: 29.67\nAID: A0000001523010\nTC: 3E87C7944E7D33A0\nDISCOVER 29.67\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 12\nFred Meyer Savings $ 22.92\nTotal Coupons $ 22.92\nTotal Savings (43 Percent) $ 22.92\n05/22/25 13:01 391 513 181 999999513\n*********************************\nAnnual Card Savings $180.69",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BROCCOLI CRO + 3082 + 2.91 (2.92) lb @ 2.49 /lb + 5 @ 5/5 00",
+      "price": 2.49,
+      "quantity": 1,
+      "totalSpend": 7.25
+    },
+    {
+      "text": "HAAS AVOCADO + 76101004046 + SC eCpn Avocado 0.23 + SC eCpn Avocado 0.23 + SC eCpn Avocado 0.23 + S eCpn Avocado 0.23",
+      "price": 3.85,
+      "quantity": 1,
+      "totalSpend": 3.85
+    },
+    {
+      "text": "BKTN CRACKER + 81989801013",
+      "price": 3.79,
+      "quantity": 1,
+      "totalSpend": 3.79
+    },
+    {
+      "text": "SMP M S CHOC + 85606900519",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    },
+    {
+      "text": "ORG VALLEY M + 9396600014 + SC FM SAVINGS 1.80",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "ORG VALLEY M + 9396651600 + SC FM SAVINGS 0.70",
+      "price": 5.79,
+      "quantity": 1,
+      "totalSpend": 5.79
+    },
+    {
+      "text": "ORG VALLEY M + 9396600014 + SC FM SAVINGS 1.80",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "ORG VALLEY M + 9396651600 + SC FM SAVINGS 0.70",
+      "price": 5.79,
+      "quantity": 1,
+      "totalSpend": 5.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

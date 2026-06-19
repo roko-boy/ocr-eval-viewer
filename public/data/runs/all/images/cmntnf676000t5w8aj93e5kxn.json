@@ -1,0 +1,243 @@
+{
+  "id": "cmntnf676000t5w8aj93e5kxn",
+  "url": null,
+  "retailer": "ACME Markets",
+  "brand": "Pulmuone - Plant Based",
+  "amount": 3.4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Acme Markets",
+    "totalCost": "6.79",
+    "purchaseDate": "2026-04-10",
+    "time": null,
+    "zipCode": "19145",
+    "city": "Philadelphia",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13104.513334,
+        "totalUsd": 0.016014,
+        "inputTokens": 6086,
+        "outputTokens": 765,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:53",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19145",
+          "status": "match"
+        },
+        "city": {
+          "value": "Philadelphia",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1400 Passyunk Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6608",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KIMCHI VEGAN NAPA + 2548400740",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ACME\nYOUR Favorite Local Supermarket®\nStore 726 Dir Lance Linton\nMain: 215-467-2221 Rx: (215) 551-3321\n1400 Passyunk Ave\nPhiladelphia PA 19145\n00072617803002604102053\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n2548400740 KIMCHI VEGAN NAPA 6.79 6.79 S\nTAX 0.00\n**** BALANCE 6.79\nCredit Purchase 04/10/26 20:53\nCARD # ************6608\nREF: 335311466080 AUTH: 0009396Z\nPAYMENT AMOUNT 6.79\nAL CAPITAL ONE\nAID A0000000041010\nTVR 0000008000\nMastercard 6.79\nCHANGE 0.00\nYOUR POINTS\nPoints Earned Today 6\nPoints Available 6\nTOTAL NUMBER OF ITEMS SOLD = 1\n04/10/26 20:53 726 178 300 8824\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9688.401291999995,
+        "totalUsd": 0.023583,
+        "inputTokens": 3692,
+        "outputTokens": 754,
+        "reasoningTokens": 1251
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:53",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19145",
+          "status": "match"
+        },
+        "city": {
+          "value": "Philadelphia",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1400 Passyunk Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6608",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KIMCHI VEGAN NAPA + 2548400740",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ACME\nYOUR Favorite Local Supermarket®\nStore 726 Dir Lance Linton\nMain: 215-467-2221 Rx: (215) 551-3321\n1400 Passyunk Ave\nPhiladelphia PA 19145\n00072617803002604102053\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n2548400740 KIMCHI VEGAN NAPA 6.79 6.79 S\nTAX 0.00\n**** BALANCE 6.79\nCredit Purchase 04/10/26 20:53\nCARD # ************6608\nREF: 335311466080 AUTH: 0009396Z\nPAYMENT AMOUNT 6.79\nAL CAPITAL ONE\nAID A0000000041010\nTVR 0000008000\nMastercard 6.79\nCHANGE 0.00\nYOUR POINTS\nPoints Earned Today 6\nPoints Available 6\nTOTAL NUMBER OF ITEMS SOLD = 1\n04/10/26 20:53 726 178 300 8824\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4578.194917000001,
+        "totalUsd": 0.012315,
+        "inputTokens": 3692,
+        "outputTokens": 753,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "6.79",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "20:53",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19145",
+          "status": "match"
+        },
+        "city": {
+          "value": "Philadelphia",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1400 Passyunk Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "6608",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "KIMCHI VEGAN NAPA + 2548400740",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ACME\nYOUR Favorite Local Supermarket\nStore 726 Dir Lance Linton\nMain: 215-467-2221 Rx: (215) 551-3321\n1400 Passyunk Ave\nPhiladelphia PA 19145\n00072617803002604102053\nYOUR CASHIER TODAY WAS SELF\nPRODUCE Price You Pay\n2548400740 KIMCHI VEGAN NAPA 6.79 6.79 S\nTAX 0.00\n**** BALANCE 6.79\nCredit Purchase 04/10/26 20:53\nCARD # ************6608\nREF: 335311466080 AUTH: 0009396Z\nPAYMENT AMOUNT 6.79\nAL CAPITAL ONE\nAID A0000000041010\nTVR 0000008000\nMastercard 6.79\nCHANGE 0.00\nYOUR POINTS\nPoints Earned Today 6\nPoints Available 6\nTOTAL NUMBER OF ITEMS SOLD = 1\n04/10/26 20:53 726 178 300 8824\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n** **",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "KIMCHI VEGAN NAPA + 2548400740",
+      "price": 6.79,
+      "quantity": 1,
+      "totalSpend": 6.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

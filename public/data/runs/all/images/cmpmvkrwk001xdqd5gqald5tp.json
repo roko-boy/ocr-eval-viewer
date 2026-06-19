@@ -1,0 +1,362 @@
+{
+  "id": "cmpmvkrwk001xdqd5gqald5tp",
+  "url": null,
+  "retailer": "Starbucks",
+  "brand": "Kismet",
+  "amount": 17.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Starbucks",
+    "totalCost": "35.98",
+    "purchaseDate": "2026-05-21",
+    "time": null,
+    "zipCode": "33837",
+    "city": "Davenport",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10013.63933300001,
+        "totalUsd": 0.0209685,
+        "inputTokens": 6191,
+        "outputTokens": 1298,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "76.56",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-05-21",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33837-5236",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Davenport",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "157 Blue Heron Ct",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "30ct Ice Cream Party Lunch Napkins - Spritz™",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Starbucks Unsweetened Medium Roast Iced Coffee - 48 fl oz",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Disposable Plates 8.5\" - Colorful Thick Stripes - 38ct - up&up™",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Orange Solid Table Cover 1ct - Spritz™",
+          "quantity": 2,
+          "unitPrice": 1,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "White Claw Hard Seltzer Variety Pack - 12pk/12 fl oz Slim Cans",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Kismet Chicken and Barley Recipe with Freeze-Dried Nugs Dry Dog Food - 4lbs",
+          "quantity": 2,
+          "unitPrice": 17.99,
+          "totalSpend": 35.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Disposable Clear Cups - Colorful Checkered - 18oz/30ct - up&up™",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Delivered to\n157 Blue Heron Ct,\nDavenport, FL, 33837-5236\n\n$76.56\nReceipt total\n\n2-6142-3991-3004-9120-7\n\nHide details\n\n30ct Ice Cream Party Lunch Napkins - Spritz™\nQty 1 • $3.00 unit price\nAmount $3.00\nTaxes & fees\nSales tax $0.21\nItem total $3.21\n\nStarbucks Unsweetened Medium Roast Iced Coffee - 48 fl oz\nQty 1 • $5.99 unit price\nAmount $5.99\nItem total $5.99\n\nDisposable Plates 8.5\" - Colorful Thick Stripes - 38ct - up&up™\nQty 1 • $3.49 unit price\nAmount $3.49\nTaxes & fees\nSales tax $0.25\nItem total $3.74\n\nOrange Solid Table Cover 1ct - Spritz™\nQty 2 • $1.00 unit price\nAmount $2.00\nTaxes & fees\nSales tax $0.14\nItem total $2.14\n\nWhite Claw Hard Seltzer Variety Pack - 12pk/12 fl oz Slim Cans\nQty 1 • $17.99 unit price\nAmount $17.99\nTaxes & fees\nSales tax $1.26\nItem total $19.25\n\nKismet Chicken and Barley Recipe with Freeze-Dried Nugs Dry Dog Food - 4lbs\nQty 2 • $17.99 unit price\nAmount $35.98\nTaxes & fees\nSales tax $2.52\nItem total $38.50\n\nDisposable Clear Cups - Colorful Checkered - 18oz/30ct - up&up™\nQty 1 • $3.49 unit price\nAmount $3.49\nTaxes & fees\nSales tax $0.24\nItem total $3.73\n\nReceipt total $76.56\nAmerican Express *1019\n\nThu, May 21, 2026\nInvoice #61423991300491207",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 16695.04795800001,
+        "totalUsd": 0.038157,
+        "inputTokens": 3706,
+        "outputTokens": 1294,
+        "reasoningTokens": 2328
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "76.56",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-05-21",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33837-5236",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Davenport",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "157 Blue Heron Ct",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "30ct Ice Cream Party Lunch Napkins - Spritz™",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Starbucks Unsweetened Medium Roast Iced Coffee - 48 fl oz",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Disposable Plates 8.5\" - Colorful Thick Stripes - 38ct - up&up™",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Orange Solid Table Cover 1ct - Spritz™",
+          "quantity": 2,
+          "unitPrice": 1,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "White Claw Hard Seltzer Variety Pack - 12pk/12 fl oz Slim Cans",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Kismet Chicken and Barley Recipe with Freeze-Dried Nugs Dry Dog Food - 4lbs",
+          "quantity": 2,
+          "unitPrice": 17.99,
+          "totalSpend": 35.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Disposable Clear Cups - Colorful Checkered - 18oz/30ct - up&up™",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Delivered to\n157 Blue Heron Ct,\nDavenport, FL, 33837-5236\n\n$76.56\nReceipt total\n\n2-6142-3991-3004-9120-7\n\nHide details\n\n30ct Ice Cream Party Lunch Napkins - Spritz™\nQty 1 • $3.00 unit price\nAmount $3.00\nTaxes & fees\nSales tax $0.21\nItem total $3.21\n\nStarbucks Unsweetened Medium Roast Iced Coffee - 48 fl oz\nQty 1 • $5.99 unit price\nAmount $5.99\nItem total $5.99\n\nDisposable Plates 8.5\" - Colorful Thick Stripes - 38ct - up&up™\nQty 1 • $3.49 unit price\nAmount $3.49\nTaxes & fees\nSales tax $0.25\nItem total $3.74\n\nOrange Solid Table Cover 1ct - Spritz™\nQty 2 • $1.00 unit price\nAmount $2.00\nTaxes & fees\nSales tax $0.14\nItem total $2.14\n\nWhite Claw Hard Seltzer Variety Pack - 12pk/12 fl oz Slim Cans\nQty 1 • $17.99 unit price\nAmount $17.99\nTaxes & fees\nSales tax $1.26\nItem total $19.25\n\nKismet Chicken and Barley Recipe with Freeze-Dried Nugs Dry Dog Food - 4lbs\nQty 2 • $17.99 unit price\nAmount $35.98\nTaxes & fees\nSales tax $2.52\nItem total $38.50\n\nDisposable Clear Cups - Colorful Checkered - 18oz/30ct - up&up™\nQty 1 • $3.49 unit price\nAmount $3.49\nTaxes & fees\nSales tax $0.24\nItem total $3.73\n\nReceipt total $76.56\nAmerican Express *1019\n\nThu, May 21, 2026\nInvoice #61423991300491207",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6848.759375000009,
+        "totalUsd": 0.016926,
+        "inputTokens": 3706,
+        "outputTokens": 1263,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "76.56",
+          "status": "mismatch"
+        },
+        "purchaseDate": {
+          "value": "2026-05-21",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33837-5236",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Davenport",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "157 Blue Heron Ct",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1019",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "30ct Ice Cream Party Lunch Napkins - Spritz™",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Starbucks Unsweetened Medium Roast Iced Coffee - 48 fl oz",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Disposable Plates 8.5\" - Colorful Thick Stripes - 38ct - up&up™",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Orange Solid Table Cover 1ct - Spritz™",
+          "quantity": 2,
+          "unitPrice": 1,
+          "totalSpend": 2,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "White Claw Hard Seltzer Variety Pack - 12pk/12 fl oz Slim Cans",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Kismet Chicken and Barley Recipe with Freeze-Dried Nugs Dry Dog Food - 4lbs",
+          "quantity": 2,
+          "unitPrice": 17.99,
+          "totalSpend": 35.98,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "Disposable Clear Cups - Colorful Checkered - 18oz/30ct - up&up™",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Delivered to\n157 Blue Heron Ct,\nDavenport, FL, 33837-5236\n$76.56\nReceipt total\n2-6142-3991-3004-9120-7\nHide details\n30ct Ice Cream Party Lunch Napkins - Spritz™\nQty 1 • $3.00 unit price\nAmount $3.00\nTaxes & fees\nSales tax $0.21\nItem total $3.21\nStarbucks Unsweetened Medium Roast Iced Coffee - 48 fl oz\nQty 1 • $5.99 unit price\nAmount $5.99\nItem total $5.99\nDisposable Plates 8.5\" - Colorful Thick Stripes - 38ct - up&up™\nQty 1 • $3.49 unit price\nAmount $3.49\nTaxes & fees\nSales tax $0.25\nItem total $3.74\nOrange Solid Table Cover 1ct - Spritz™\nQty 2 • $1.00 unit price\nAmount $2.00\nTaxes & fees\nSales tax $0.14\nItem total $2.14\nWhite Claw Hard Seltzer Variety Pack - 12pk/12 fl oz Slim Cans\nQty 1 • $17.99 unit price\nAmount $17.99\nTaxes & fees\nSales tax $1.26\nItem total $19.25\nKismet Chicken and Barley Recipe with Freeze-Dried Nugs Dry Dog Food - 4lbs\nQty 2 • $17.99 unit price\nAmount $35.98\nTaxes & fees\nSales tax $2.52\nItem total $38.50\nDisposable Clear Cups - Colorful Checkered - 18oz/30ct - up&up™\nQty 1 • $3.49 unit price\nAmount $3.49\nTaxes & fees\nSales tax $0.24\nItem total $3.73\nReceipt total $76.56\nAmerican Express *1019\nThu, May 21, 2026\nInvoice #61423991300491207",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

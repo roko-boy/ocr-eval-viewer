@@ -1,0 +1,297 @@
+{
+  "id": "cmo3pocsx004yysm97pdtxbgz",
+  "url": null,
+  "retailer": "Monrovia Liquor & Mart",
+  "brand": "Boochcraft",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Monrovia Liquor Mart",
+    "totalCost": "23.47",
+    "purchaseDate": "2026-04-17",
+    "time": null,
+    "zipCode": "92627",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 25420.666958,
+        "totalUsd": 0.014124,
+        "inputTokens": 6086,
+        "outputTokens": 555,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Monrovia Liquor Mart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "23.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:18",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92627",
+          "status": "match"
+        },
+        "city": {
+          "value": "COSTA MESA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1895 MONROVIA AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOOCHCRAFT STRAW LEM T1",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV T1",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUNCHIPS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MONROVIA LIQUOR MART\n1895 MONROVIA AVE\nCOSTA MESA CA. 92627\n949-646-0186\nDATE 04/17/2026 FRI\nBOOCHCRAFT STRAW LEM T1 $18.99\nCRV T1 $0.30\nSUNCHIPS $2.69\nTAX1 AMT $1.49\nTOTAL $23.47\nCASH $23.47\n* ORDER# 0155 *\nNO.240355 REG01 1 EMPLOYEE TIME 19:18",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 11535.73525,
+        "totalUsd": 0.021981,
+        "inputTokens": 3692,
+        "outputTokens": 562,
+        "reasoningTokens": 1265
+      },
+      "fields": {
+        "storeName": {
+          "value": "Monrovia Liquor Mart",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "23.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:18",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92627",
+          "status": "match"
+        },
+        "city": {
+          "value": "COSTA MESA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1895 MONROVIA AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOOCHCRAFT STRAW LEM T1",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV T1",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUNCHIPS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MONROVIA LIQUOR MART\n1895 MONROVIA AVE\nCOSTA MESA CA. 92627\n949-646-0186\n\nDATE         04/17/2026         FRI\nBOOCHCRAFT STRAW LEM T1      $18.99\nCRV T1                        $0.30\nSUNCHIPS                      $2.69\nTAX1 AMT                      $1.49\nTOTAL                        $23.47\nCASH                         $23.47\n         * ORDER# 0155 *\nNO.240355 REG01 1 EMPLOYEE   TIME 19:18",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 3995.312375,
+        "totalUsd": 0.010497,
+        "inputTokens": 3692,
+        "outputTokens": 551,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "MONROVIA LIQUOR MART",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "23.47",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-17",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:18",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92627",
+          "status": "match"
+        },
+        "city": {
+          "value": "COSTA MESA",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1895 MONROVIA AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "BOOCHCRAFT STRAW LEM T1",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "totalSpend": 18.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRV T1",
+          "quantity": 1,
+          "unitPrice": 0.3,
+          "totalSpend": 0.3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SUNCHIPS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.69,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "MONROVIA LIQUOR MART\n1895 MONROVIA AVE\nCOSTA MESA CA. 92627\n949-646-0186\nDATE 04/17/2026 FRI\nBOOCHCRAFT STRAW LEM T1 $18.99\nCRV T1 $0.30\nSUNCHIPS $2.69\nTAX1 AMT $1.49\nTOTAL $23.47\nCASH $23.47\n* ORDER# 0155 *\nNO.240355 REG01 1 EMPLOYEE TIME 19:18",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BOOCHCRAFT STRAW LEM T1",
+      "price": 18.99,
+      "quantity": 1,
+      "totalSpend": 18.99
+    },
+    {
+      "text": "CRV T1",
+      "price": 0.3,
+      "quantity": 1,
+      "totalSpend": 0.3
+    },
+    {
+      "text": "SUNCHIPS",
+      "price": 2.69,
+      "quantity": 1,
+      "totalSpend": 2.69
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

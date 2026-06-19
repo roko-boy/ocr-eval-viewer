@@ -1,0 +1,459 @@
+{
+  "id": "cmq8i5viv00cqco9qe3a7ujpu",
+  "url": null,
+  "retailer": "Costco Wholesale",
+  "brand": "a2 Milk®",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Costco Wholesale Corp.",
+    "totalCost": "114.91",
+    "purchaseDate": "2026-06-10",
+    "time": null,
+    "zipCode": "48823",
+    "city": "East Lansing",
+    "state": "MI",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 14491.13529100001,
+        "totalUsd": 0.021396,
+        "inputTokens": 6086,
+        "outputTokens": 1363,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "114.91",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:49",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48823",
+          "status": "match"
+        },
+        "city": {
+          "value": "East Lansing",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2540 E. Saginaw Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0714",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1068042 MT COMFORT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1740946 ROWSTER COFF",
+          "quantity": 1,
+          "unitPrice": 19.89,
+          "totalSpend": 19.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "134777 KS WD FL HNY",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1585601 KS MEXICO",
+          "quantity": 1,
+          "unitPrice": 16.89,
+          "totalSpend": 16.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1577596 SWEETNSPICY",
+          "quantity": 1,
+          "unitPrice": 6.69,
+          "totalSpend": 6.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9407 4 BEAN SALAD",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "384881 KS BUTTER",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1262178 A2 MILK 3/59Z",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1262178 A2 MILK 3/59Z",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nE Lansing #1277\n2540 E. Saginaw Street\nEast Lansing, MI 48823\nSELF-CHECKOUT\n2C Member 111876022950\nE 1068042 MT COMFORT 17.99\nE 1740946 ROWSTER COFF 19.89\nE 134777 KS WD FL HNY 12.99\nE 1585601 KS MEXICO 16.89\nE 1577596 SWEETNSPICY 6.69\nE 9407 4 BEAN SALAD 7.99\nE 384881 KS BUTTER 10.49\nE 1262178 A2 MILK 3/59Z 10.99\nE 1262178 A2 MILK 3/59Z 10.99\nSUBTOTAL 114.91\nTAX 0.00\n**** TOTAL 114.91\nXXXXXXXXXXXX0714 H\nAID: A0000000031010\nSeq# 201430 App: 054941\nVisa Resp: APPROVED\nTran ID#: 616100201430....\nAPPROVED - Purchase\nAMOUNT: $114.91\n06/10/2026 15:49 1277 201 141 701\nVisa 114.91\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\n06/10/2026 15:49 1277 201 141 701\n21127720101412606101549\nOP#: 701 Name: SCO\nThank You!\nPlease Come Again\nWhse:1277 Trm:201 Trn:141 OP:701\nItems Sold: 9\n2C 06/10/2026 15:49",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 15771.39416700002,
+        "totalUsd": 0.038451,
+        "inputTokens": 3692,
+        "outputTokens": 1411,
+        "reasoningTokens": 2246
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "114.91",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:49",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48823",
+          "status": "match"
+        },
+        "city": {
+          "value": "East Lansing",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2540 E. Saginaw Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0714",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1068042 MT COMFORT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1740946 ROWSTER COFF",
+          "quantity": 1,
+          "unitPrice": 19.89,
+          "totalSpend": 19.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "134777 KS WD FL HNY",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1585601 KS MEXICO",
+          "quantity": 1,
+          "unitPrice": 16.89,
+          "totalSpend": 16.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1577596 SWEETNSPICY",
+          "quantity": 1,
+          "unitPrice": 6.69,
+          "totalSpend": 6.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9407 4 BEAN SALAD",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "384881 KS BUTTER",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1262178 A2 MILK 3/59Z",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1262178 A2 MILK 3/59Z",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nE Lansing #1277\n2540 E. Saginaw Street\nEast Lansing, MI 48823\n\nSELF-CHECKOUT\n\n2C Member 111876022950\nE 1068042 MT COMFORT 17.99\nE 1740946 ROWSTER COFF 19.89\nE 134777 KS WD FL HNY 12.99\nE 1585601 KS MEXICO 16.89\nE 1577596 SWEETNSPICY 6.69\nE 9407 4 BEAN SALAD 7.99\nE 384881 KS BUTTER 10.49\nE 1262178 A2 MILK 3/59Z 10.99\nE 1262178 A2 MILK 3/59Z 10.99\nSUBTOTAL 114.91\nTAX 0.00\n**** TOTAL 114.91\n\nXXXXXXXXXXXX0714 H\nAID: A0000000980840\nSeq# 201430 App#: 054941\nVisa Resp: APPROVED\nTran ID#: 616100201430....\n\nAPPROVED - Purchase\nAMOUNT: $114.91\n06/10/2026 15:49 1277 201 141 701\n\nVisa 114.91\nCHANGE 0.00\n\nTOTAL NUMBER OF ITEMS SOLD = 9\n06/10/2026 15:49 1277 201 141 701\n\n21127720101412606101549\nOP#: 701 Name: SCO\nThank You!\nPlease Come Again\nWhse:1277 Trm:201 Trn:141 OP:701\n\nItems Sold: 9\n2C 06/10/2026 15:49",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6194.027875,
+        "totalUsd": 0.018003,
+        "inputTokens": 3692,
+        "outputTokens": 1385,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Costco",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "114.91",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-10",
+          "status": "match"
+        },
+        "time": {
+          "value": "15:49",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "48823",
+          "status": "match"
+        },
+        "city": {
+          "value": "East Lansing",
+          "status": "match"
+        },
+        "state": {
+          "value": "MI",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2540 E. Saginaw Street",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0714",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "1068042 MT COMFORT",
+          "quantity": 1,
+          "unitPrice": 17.99,
+          "totalSpend": 17.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "174094 ROWSTER COFF",
+          "quantity": 1,
+          "unitPrice": 19.89,
+          "totalSpend": 19.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "134777 KS WD FL HNY",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1585601 KS MEXICO",
+          "quantity": 1,
+          "unitPrice": 16.89,
+          "totalSpend": 16.89,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1577596 SWEETNSPICY",
+          "quantity": 1,
+          "unitPrice": 6.69,
+          "totalSpend": 6.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "9407 4 BEAN SALAD",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "384881 KS BUTTER",
+          "quantity": 1,
+          "unitPrice": 10.49,
+          "totalSpend": 10.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1262178 A2 MILK 3/59Z",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1262178 A2 MILK 3/59Z",
+          "quantity": 1,
+          "unitPrice": 10.99,
+          "totalSpend": 10.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "COSTCO\nWHOLESALE\nE Lansing #1277\n2540 E. Saginaw Street\nEast Lansing, MI 48823\nSELF-CHECKOUT\n2C Member 111876022950\nE 1068042 MT COMFORT 17.99\nE 174094 ROWSTER COFF 19.89\nE 134777 KS WD FL HNY 12.99\nE 1585601 KS MEXICO 16.89\nE 1577596 SWEETNSPICY 6.69\nE 9407 4 BEAN SALAD 7.99\nE 384881 KS BUTTER 10.49\nE 1262178 A2 MILK 3/59Z 10.99\nE 1262178 A2 MILK 3/59Z 10.99\nSUBTOTAL 114.91\nTAX 0.00\n**** TOTAL 114.91\nXXXXXXXXXXXX0714 H\nAID: A0000000980840\nSeq# 201430 App#: 054941\nVisa Resp: APPROVED\nTran ID#: 616100201430....\nAPPROVED - Purchase\nAMOUNT: $114.91\n06/10/2026 15:49 1277 201 141 701\nVisa 114.91\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 9\n06/10/2026 15:49 1277 201 141 701\n21127720101412606101549\nOP#: 701 Name: SCO\nThank You!\nPlease Come Again\nWhse:1277 Trm:201 Trn:141 OP:701\nItems Sold: 9\n2C 06/10/2026 15:49",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "MT COMFORT + 1068042",
+      "price": 17.99,
+      "quantity": 1,
+      "totalSpend": 17.99
+    },
+    {
+      "text": "ROWSTER COFF + 1740946",
+      "price": 19.89,
+      "quantity": 1,
+      "totalSpend": 19.89
+    },
+    {
+      "text": "13477-7F KS WD FL HNY",
+      "price": 12.99,
+      "quantity": 1,
+      "totalSpend": 12.99
+    },
+    {
+      "text": "KS MEXICO + 1585601",
+      "price": 16.89,
+      "quantity": 1,
+      "totalSpend": 16.89
+    },
+    {
+      "text": "SWFETNSPICY + 1577596",
+      "price": 6.69,
+      "quantity": 1,
+      "totalSpend": 6.69
+    },
+    {
+      "text": "4 BEAN SALAD + 9407",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    },
+    {
+      "text": "KS BLTTER + 384881",
+      "price": 10.49,
+      "quantity": 1,
+      "totalSpend": 10.49
+    },
+    {
+      "text": "A2 MILK3/59Z + 1262178",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    },
+    {
+      "text": "A2 MIL 3/59Z + 1262178",
+      "price": 10.99,
+      "quantity": 1,
+      "totalSpend": 10.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

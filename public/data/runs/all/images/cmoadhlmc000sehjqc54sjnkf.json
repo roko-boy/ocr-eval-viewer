@@ -1,0 +1,378 @@
+{
+  "id": "cmoadhlmc000sehjqc54sjnkf",
+  "url": null,
+  "retailer": "Whole Foods Market",
+  "brand": "Churn",
+  "amount": 1.47,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Whole Foods Market",
+    "totalCost": "34.21",
+    "purchaseDate": "2026-04-03",
+    "time": null,
+    "zipCode": "60654",
+    "city": "Chicago",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 24829.348291,
+        "totalUsd": 0.020517,
+        "inputTokens": 6118,
+        "outputTokens": 1260,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "34.21",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60654",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3 W Chicago Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4246",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OVF OG 2% MILK + Reg $6.49 + Savings with Prime ($1.62)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN CLSSC SSLT FRIES",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN RSMRY GRLC FRIES",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHURNN HERB GRSFD BUTTER + Qty 2 $1.47 ea",
+          "quantity": 2,
+          "unitPrice": 1.47,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG CN BN DATE POPS + Reg $5.99 + Savings with Prime ($1.49)",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG LMN DATE POPS + Reg $5.99 + Savings with Prime ($1.49)",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\n\nOne Chicago GOC 312-932-9600\n3 W Chicago Ave\nChicago, IL 60654 3207\nOVF OG 2% MILK\n$4.87 FT\nReg $6.49\nSavings with Prime ($1.62)\nJESBEN CLSSC SSLT FRIES\n$8.49 FT\nJESBEN RSMRY GRLC FRIES\n$8.49 FT\nCHURNN HERB GRSFD BUTTER\n$2.94 FT\nQty 2 $1.47 ea\nJOOLIE OG CN BN DATE POPS\n$4.50 FT\nReg $5.99\nSavings with Prime ($1.49)\nJOOLIE OG LMN DATE POPS\n$4.50 FT\nReg $5.99\nSavings with Prime ($1.49)\nSubtotal:\n$38.39\nTotal Savings:\n-$4.60\nNet Sales:\n$33.79\nTax:\n1.25%\n$0.42\nTotal:\n$34.21\nSold Items:\n7\nPaid:\nVISA\n*4246\n$34.21\nChip Card:VISA CREDIT\nChip Card AID:A0000000031010\n****************************************\nYour Total Savings\n$4.60\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n** BATHROOM CODE 3832 **\n957 38439 04/03/2026 06:02 PM\n63011074095738439040320260",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9745.19283299998,
+        "totalUsd": 0.025137,
+        "inputTokens": 3708,
+        "outputTokens": 1246,
+        "reasoningTokens": 929
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.21",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60654",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3 W Chicago Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4246",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OVF OG 2% MILK + Reg $6.49 + Savings with Prime ($1.62)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN CLSSC SSLT FRIES",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN RSMRY GRLC FRIES",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHURNN HERB GRSFD BUTTER + Qty 2 $1.47 ea",
+          "quantity": 2,
+          "unitPrice": 1.47,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG CN BN DATE POPS + Reg $5.99 + Savings with Prime ($1.49)",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG LMN DATE POPS + Reg $5.99 + Savings with Prime ($1.49)",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nOne Chicago GOC 312-932-9600\n3 W Chicago Ave\nChicago, IL 60654 3207\nOVF OG 2% MILK\n$4.87 FT\nReg $6.49\nSavings with Prime ($1.62)\nJESBEN CLSSC SSLT FRIES\n$8.49 FT\nJESBEN RSMRY GRLC FRIES\n$8.49 FT\nCHURNN HERB GRSFD BUTTER\n$2.94 FT\nQty 2 $1.47 ea\nJOOLIE OG CN BN DATE POPS\n$4.50 FT\nReg $5.99\nSavings with Prime ($1.49)\nJOOLIE OG LMN DATE POPS\n$4.50 FT\nReg $5.99\nSavings with Prime ($1.49)\nSubtotal:\n$38.39\nTotal Savings:\n-$4.60\nNet Sales:\n$33.79\nTax:\n1.25%\n$0.42\nTotal:\n$34.21\nSold Items:\n7\nPaid:\nVISA\n*4246\n$34.21\nChip Card: VISA CREDIT\nChip Card AID: A0000000031010\n****************************************\nYour Total Savings\n$4.60\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n** BATHROOM CODE 3832 **\n957 38439 04/03/2026 06:02 PM\n63011074095738439040320260",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 6528.835292000003,
+        "totalUsd": 0.016794,
+        "inputTokens": 3708,
+        "outputTokens": 1248,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Whole Foods Market",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "34.21",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-03",
+          "status": "match"
+        },
+        "time": {
+          "value": "06:02 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60654",
+          "status": "match"
+        },
+        "city": {
+          "value": "Chicago",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "3 W Chicago Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "4246",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OVF OG 2% MILK + Reg $6.49 + Savings with Prime ($1.62)",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 4.87,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN CLSSC SSLT FRIES",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JESBEN RSMRY GRLC FRIES",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 8.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHURNN HERB GRSFD BUTTER + Qty 2 $1.47 ea",
+          "quantity": 2,
+          "unitPrice": 1.47,
+          "totalSpend": 2.94,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG CN BN DATE POPS + Reg $5.99 + Savings with Prime ($1.49)",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "JOOLIE OG LMN DATE POPS + Reg $5.99 + Savings with Prime ($1.49)",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "WHOLE FOODS\nMARKET\nOne Chicago GOC 312-932-9600\n3 W Chicago Ave\nChicago, IL 60654 3207\nOVF OG 2% MILK\n$4.87 FT\nReg $6.49\nSavings with Prime ($1.62)\nJESBEN CLSSC SSLT FRIES\n$8.49 FT\nJESBEN RSMRY GRLC FRIES\n$8.49 FT\nCHURNN HERB GRSFD BUTTER\n$2.94 FT\nQty 2 $1.47 ea\nJOOLIE OG CN BN DATE POPS\n$4.50 FT\nReg $5.99\nSavings with Prime ($1.49)\nJOOLIE OG LMN DATE POPS\n$4.50 FT\nReg $5.99\nSavings with Prime ($1.49)\nSubtotal:\n$38.39\nTotal Savings:\n-$4.60\nNet Sales:\n$33.79\nTax:\n1.25%\n$0.42\nTotal:\n$34.21\nSold Items:\n7\nPaid:\nVISA\n*4246\n$34.21\nChip Card: VISA CREDIT\nChip Card AID: A0000000031010\n****************************************\nYour Total Savings\n$4.60\n****************************************\nRETURNS: All returns require proof\nof purchase. No returns on items\npurchased after 30 days.\nFor additional information\nplease visit wfm.com/returns.\n****************************************\nEarn 5% back at Whole Foods Market\nwith Prime Visa\nand an eligible Prime membership\nLearn more at amazon.com/wfmvisa\n****************************************\nHOW WAS YOUR SHOPPING EXPERIENCE?\nGo to: http://www.wfm.com/feedback\nENTER FOR A CHANCE TO WIN A $250 GIFT CARD\n** BATHROOM CODE 3832 **\n957 38439 04/03/2026 06:02 PM\n63011074095738439040320260",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "OVF OG 2% MILK + Reg $6.49 + Savings with Prime ($1.62)",
+      "price": 4.87,
+      "quantity": 1,
+      "totalSpend": 4.87
+    },
+    {
+      "text": "JESBEN CLSSC SSLT FRIES",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "JESBEN RSMRY GRLC FRIES",
+      "price": 8.49,
+      "quantity": 1,
+      "totalSpend": 8.49
+    },
+    {
+      "text": "CHURNN HERB GRSFD BUTTER + Qty 2 $1.47 ea",
+      "price": 1.47,
+      "quantity": 2,
+      "totalSpend": 2.94
+    },
+    {
+      "text": "JOOLIE OG CN BN DATE POPS + Reg $5.99 + Savings with Prime ($1.49)",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    },
+    {
+      "text": "JOOLIE OG LMN DATE POPS + Reg $5.99 + Savings with Prime ($1.49)",
+      "price": 4.5,
+      "quantity": 1,
+      "totalSpend": 4.5
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

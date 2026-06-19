@@ -1,0 +1,270 @@
+{
+  "id": "cmod2io8c00nasilwckj76np0",
+  "url": null,
+  "retailer": "Smith's",
+  "brand": "NuTrail",
+  "amount": 8.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Smith's Food and Drug",
+    "totalCost": "16.98",
+    "purchaseDate": "2026-04-24",
+    "time": null,
+    "zipCode": "89109",
+    "city": "Las Vegas",
+    "state": "NV",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8027.682624000008,
+        "totalUsd": 0.015285,
+        "inputTokens": 6206,
+        "outputTokens": 664,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "16.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:30am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": "Las Vegas",
+          "status": "match"
+        },
+        "state": {
+          "value": "NV",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "2540 S. MARYLAND PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3534",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTRAIL GRANOLA FV",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NUTRL GRANOLA",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n2540 S. MARYLAND PKWY\n702-735-8928\nYour cashier was CHEC 503\nNUTRAIL GRANOLA FV 8.99 F\nNUTRL GRANOLA 7.99 F\nTAX 0.00\n**** BALANCE 16.98\nFS BAL DUE 16.98\nEBT FOOD Purchase ************3534\nREF#: 038717 TOTAL: 16.98\nPURCHASE: 16.98 CASHBACK: 0.00\nEBT F/S BALANCE: $469.79\nEBT CASH BALANCE: $\nEBT FOOD 16.98\nFS CHG 0.00\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/24/26 08:30am 358 503 24 999999503\nJoin FreshValues & Begin Saving Today!\nYou Could Have Saved $1.00\nTHANK YOU FOR SHOPPING SMITH'S\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10319.66195899999,
+        "totalUsd": 0.021567,
+        "inputTokens": 3692,
+        "outputTokens": 637,
+        "reasoningTokens": 1144
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "16.98",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-04-24",
+          "status": "match"
+        },
+        "time": {
+          "value": "08:30am",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89109",
+          "status": "match"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "2540 S. MARYLAND PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "EBT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTRAIL GRANOLA FV",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NUTRL GRANOLA",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Smith's FRESH\nFOR\nEVERYONETM\n2540 S. MARYLAND PKWY\n702-735-8928\nYour cashier was CHEC 503\nNUTRAIL GRANOLA FV 8.99 F\nNUTRL GRANOLA 7.99 F\nTAX 0.00\n**** BALANCE 16.98\nFS BAL DUE 16.98\nEBT FOOD Purchase ************3534\nREF#: 038717 TOTAL: 16.98\nPURCHASE: 16.98 CASHBACK: 0.00\nEBT F/S BALANCE: $469.79\nEBT CASH BALANCE: $\nEBT FOOD 16.98\nFS CHG 0.00\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/24/26 08:30am 358 503 24 999999503\nJoin FreshValues & Begin Saving Today!\nYou Could Have Saved $1.00\nTHANK YOU FOR SHOPPING SMITH'S\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7346.271542000002,
+        "totalUsd": 0.01623,
+        "inputTokens": 3692,
+        "outputTokens": 1188,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Smith's",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "89109-1600 (implied by address, but not printed, so omitted or left to printed only. Let's omit zipCode since it's not printed.)\nActually, let's look closely at the receipt. No zip code is printed. I will omit zipCode, city, and state as they are not printed on the receipt, or extract them if known. The prompt says: 'Every scalar you emit — the grand total, dates, card digits — must appear printed on the receipt.' So I will omit city, state, and zipCode since they are not printed on the receipt text itself, only the street address is printed.\nWait, let's check if there is any other info. No, just 2540 S. MARYLAND PKWY and phone 702-735-8928. I will omit city, state, and zipCode to strictly follow the transcription rule.\nLet's fill in the other fields:\nphoneNumbers: [\"702-735-8928\"]\npurchaseDate: \"2026-04-24\"\ntime: \"08:30am\"\ntotalCost: 16.98\npaymentMethod: \"EBT\"\nlast4cc: \"3534\"\ntransactionNum: \"038717\"\nregisterNum: \"24\"\nstoreNum: \"358\"\nrawText: \"Smith's FRESH FOR EVERYONE\\n2540 S. MARYLAND PKWY\\n702-735-8928\\nYour cashier was CHEC 503\\nNUTRAIL GRANOLA FV 8.99 F\\nNUTRL GRANOLA 7.99 F\\nTAX 0.00\\n**** BALANCE 16.98\\nFS BAL DUE 16.98\\nEBT FOOD Purchase ************3534\\nREF#: 038717 TOTAL: 16.98\\nPURCHASE: 16.98 CASHBACK: 0.00\\nEBT F/S BALANCE: $469.79\\nEBT CASH BALANCE: $\\nEBT FOOD 16.98\\nFS CHG 0.00\\nCHANGE 0.00\\nTOTAL NUMBER OF ITEMS SOLD = 2\\n04/24/26 08:30am 358 503 24 999999503\\nJoin FreshValues & Begin Saving Today!\\nYou Could Have Saved $1.00\\nTHANK YOU FOR SHOPPING SMITH'S\\nFresh opportunity awaits\\nJoin our team today!\\n#ER#\\nwww.smithsfoodanddrug.com\"\n}\n```\nWait, let's format the JSON correctly without comments inside the block as requested by the developer prompt. Let's output the clean JSON now. \n\n```json\n{\n  ",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": "2540 S. MARYLAND PKWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "NUTRAIL GRANOLA FV",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NUTRL GRANOLA",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Smith's FRESH FOR EVERYONE\n2540 S. MARYLAND PKWY\n702-735-8928\nYour cashier was CHEC 503\nNUTRAIL GRANOLA FV 8.99 F\nNUTRL GRANOLA 7.99 F\nTAX 0.00\n**** BALANCE 16.98\nFS BAL DUE 16.98\nEBT FOOD Purchase ************3534\nREF#: 038717 TOTAL: 16.98\nPURCHASE: 16.98 CASHBACK: 0.00\nEBT F/S BALANCE: $469.79\nEBT CASH BALANCE: $\nEBT FOOD 16.98\nFS CHG 0.00\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 2\n04/24/26 08:30am 358 503 24 999999503\nJoin FreshValues & Begin Saving Today!\nYou Could Have Saved $1.00\nTHANK YOU FOR SHOPPING SMITH'S\nFresh opportunity awaits\nJoin our team today!\n#ER#\nwww.smithsfoodanddrug.com",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "NUTRAIL GRANOLA FV",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "NUTRL GRANOLA",
+      "price": 7.99,
+      "quantity": 1,
+      "totalSpend": 7.99
+    }
+  ],
+  "disagreementCount": 5,
+  "nullCount": 0
+}

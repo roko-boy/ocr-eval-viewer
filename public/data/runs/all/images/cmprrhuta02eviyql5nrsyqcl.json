@@ -1,0 +1,567 @@
+{
+  "id": "cmprrhuta02eviyql5nrsyqcl",
+  "url": null,
+  "retailer": "Roths West Salem",
+  "brand": "Acme Valley Ice Cream",
+  "amount": 1,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Roths West Salem",
+    "totalCost": "56.25",
+    "purchaseDate": "2026-05-29",
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11131.44066600001,
+        "totalUsd": 0.022377,
+        "inputTokens": 6086,
+        "outputTokens": 1472,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Roth's Fresh Markets",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "56.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:33:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Salem",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "OR",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7558",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EB OG SPINACH",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL 2 MILK LF",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRENCH VANILLA LACTO",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CGO JUCIE/VITASEA",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT FS SNG 0.10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WYL CBDWTR/BLCKBRY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT FS SNG 0.10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "N CANA BLD ORNGMANO",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEP NON FS SNG 0.10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CROSPN DARK CHOCOLAT",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 8.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEAR BOSC + 2.63 lb @ 1.99/lb",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 5.23,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WX PASTURE FED EGGS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Roth's\nFRESH MARKETS\nThank You for Shopping\nRoths West Salem\n\nEB OG SPINACH\t4.99 F\nFL 2 MILK LF\t5.89 F\nFRENCH VANILLA LACTO\t7.49 F\nCGO JUCIE/VITASEA\t5.49 F\nDEPOSIT FS SNG 0.10\t0.10 F\nWYL CBDWTR/BLCKBRY\t3.99 F\nDEPOSIT FS SNG 0.10\t0.10 F\nN CANA BLD ORNGMANO\t4.99\nDEP NON FS SNG 0.10\t0.10\nCROSPN DARK CHOCOLAT\t8.79 F\nPEAR BOSC\n2.63 lb @ 1.99/lb\t5.23 F\nWX PASTURE FED EGGS\t8.99 F\nBAG CHARGE\t0.10 F\n\nBALANCE DUE\t56.25\n05/29/2026\t19:33:28\nUS DEBIT\tEntry Method:Cntctless\nCARD #:\tXXXXXXXXXXXX7558\nPURCHASE\t- APPROVED\nAUTH CODE:738583\n\nMode:\tIssuer-PIN Verified\nAID:\tA00000000980840\nTVR:\t0000000000\nIAD:\t06021203A00000\nTSI: 0000\tARC: 00\nTC:\t21101D59174A7AE5\nMID: 000000 TID: 001\tRRN: 045255\n\nTotal:\tUSD$ 56.25\n\nCHANGE\t0.00\nTotal number of items sold = 10\nCHANGE\t0.00\n\nCashier Confirmed - Age Over 21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 22522.49916599999,
+        "totalUsd": 0.04153800000000001,
+        "inputTokens": 3692,
+        "outputTokens": 1438,
+        "reasoningTokens": 2562
+      },
+      "fields": {
+        "storeName": {
+          "value": "Roth's Fresh Markets",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "56.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-29",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:33:28",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "West Salem",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "7558",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EB OG SPINACH",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL 2  MILK LF",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRENCH VANILLA LACTO",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CGO JUCIE/VITASEA",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT FS SNG 0.10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WYL CBDWTR/BLCKBRY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT FS SNG 0.10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "N CANA BLD ORNGMANO",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEP NON FS SNG 0.10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CROSPN DARK CHOCOLAT",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 8.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEAR BOSC + 2.63 lb @ 1.99/lb",
+          "quantity": 1,
+          "unitPrice": 5.23,
+          "totalSpend": 5.23,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WX PASTURE FED EGGS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Roth's\nFRESH MARKETS\nThank You for Shopping\nRoths West Salem\n\nEB OG SPINACH\t4.99 F\nFL 2  MILK LF\t5.89 F\nFRENCH VANILLA LACTO\t7.49 F\nCGO JUCIE/VITASEA\t5.49 F\nDEPOSIT FS SNG 0.10\t0.10 F\nWYL CBDWTR/BLCKBRY\t3.99 F\nDEPOSIT FS SNG 0.10\t0.10 F\nN CANA BLD ORNGMANO\t4.99\nDEP NON FS SNG 0.10\t0.10\nCROSPN DARK CHOCOLAT\t8.79 F\nPEAR BOSC\n2.63 lb @ 1.99/lb\t5.23 F\nWX PASTURE FED EGGS\t8.99 F\nBAG CHARGE\t0.10 F\n\nBALANCE DUE\t56.25\n05/29/2026\t19:33:28\nUS DEBIT\tEntry Method:Cntctless\nCARD #:\tXXXXXXXXXXXX7558\nPURCHASE\t- APPROVED\nAUTH CODE:738583\n\nMode:\tIssuer-PIN Verified\nAID:\tA0000000980840\nTVR:\t0000000000\nIAD:\t06021203A00000\nTSI:\t0000\tARC:\t00\nTC:\t21101D59174A7AE5\nMID: 000000\tTID: 001\tRRN: 045255\n\nTotal:\tUSD$ 56.25\n\nCHANGE\t0.00\nTotal number of items sold = 10\nCHANGE\t0.00\n\nCashier Confirmed - Age Over 21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 67008.083958,
+        "totalUsd": 0.018225,
+        "inputTokens": 3786,
+        "outputTokens": 1394,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Roth's Fresh Markets",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "56.25",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "97304",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "state": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "Roths West Salem",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EB OG SPINACH",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FL 2 MILK LF",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 5.89,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FRENCH VANILLA LACTO",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CGO JUCIE/VITASEA",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT FS SNG 0.10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WYL CBDWTR/BLCKBRY",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEPOSIT FS SNG 0.10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "N CANA BLD ORNGMANO",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DEP NON FS SNG 0.10",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CROSPN DARK CHOCOLAT",
+          "quantity": 1,
+          "unitPrice": 8.79,
+          "totalSpend": 8.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEAR BOSC + 2.63 lb @ 1.99/lb",
+          "quantity": 1,
+          "unitPrice": 5.23,
+          "totalSpend": 5.23,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WX PASTURE FED EGGS",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BAG CHARGE",
+          "quantity": 1,
+          "unitPrice": 0.1,
+          "totalSpend": 0.1,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Roth's\nFRESH MARKETS\nThank You for Shopping\nRoths West Salem\nEB OG SPINACH\t4.99 F\nFL 2 MILK LF\t5.89 F\nFRENCH VANILLA LACTO\t7.49 F\nCGO JUCIE/VITASEA\t5.49 F\nDEPOSIT FS SNG 0.10\t0.10 F\nWYL CBDWTR/BLCKBRY\t3.99 F\nDEPOSIT FS SNG 0.10\t0.10 F\nN CANA BLD ORNGMANO\t4.99\nDEP NON FS SNG 0.10\t0.10\nCROSPN DARK CHOCOLAT\t8.79 F\nPEAR BOSC\n2.63 lb @ 1.99/lb\t5.23 F\nWX PASTURE FED EGGS\t8.99 F\nBAG CHARGE\t0.10 F\nBALANCE DUE\t56.25\n05/29/2026\t19:33:28\nUS DEBIT\tEntry Method:Cntctless\nCARD #:\tXXXXXXXXXXXX7558\nPURCHASE\t- APPROVED\nAUTH CODE:738583\nMode:\tIssuer-PIN Verified\nAID:\tA0000000980840\nTVR:\t0000000000\nIAD:\t06021203A00000\nTSI: 0000\tARC: 00\nTC:\t21101D59174A7AE5\nMID: 000000 TID: 001\tRRN: 045255\nTotal:\tUSD$ 56.25\nCHANGE\t0.00\nTotal number of items sold = 10\nCHANGE\t0.00\nCashier Confirmed - Age Over 21",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "EB OG SPINACH",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "FL 2 MILK LF",
+      "price": 5.89,
+      "quantity": 1,
+      "totalSpend": 5.89
+    },
+    {
+      "text": "FRENCH VANILLA LACTO",
+      "price": 7.49,
+      "quantity": 1,
+      "totalSpend": 7.49
+    },
+    {
+      "text": "CGO JUCIE/VITASEA",
+      "price": 5.49,
+      "quantity": 1,
+      "totalSpend": 5.49
+    },
+    {
+      "text": "DEPOSIT FS SNG",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "WYL CBDWTR/BLCKBRY",
+      "price": 3.99,
+      "quantity": 1,
+      "totalSpend": 3.99
+    },
+    {
+      "text": "DEPOSIT FS SNG",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "N CANA BLD ORNGMANO",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "DEP NON FS SNG",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    },
+    {
+      "text": "CROSPN DARK CHOCOLAT",
+      "price": 8.79,
+      "quantity": 1,
+      "totalSpend": 8.79
+    },
+    {
+      "text": "PEAR BOSC + 2.63 lb @ 1.99/lb 5.23 F",
+      "price": 1.99,
+      "quantity": 1,
+      "totalSpend": 5.23
+    },
+    {
+      "text": "WX PASTURE FED EGGS",
+      "price": 8.99,
+      "quantity": 1,
+      "totalSpend": 8.99
+    },
+    {
+      "text": "BAG CHARGE",
+      "price": 0.1,
+      "quantity": 1,
+      "totalSpend": 0.1
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}

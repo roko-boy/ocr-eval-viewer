@@ -1,0 +1,297 @@
+{
+  "id": "cmpk9fmom002ntnm7pgpfxpvc",
+  "url": null,
+  "retailer": "Chips Liquor",
+  "brand": "Happy Dad",
+  "amount": 10,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Chip's Liquor",
+    "totalCost": "55.82",
+    "purchaseDate": "2026-05-23",
+    "time": null,
+    "zipCode": "92109",
+    "city": "San Diego",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 6468.037209,
+        "totalUsd": 0.016059,
+        "inputTokens": 6086,
+        "outputTokens": 770,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "CHIPS LIQUOR",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "55.82",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:55PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92109",
+          "status": "match"
+        },
+        "city": {
+          "value": "SAN DIEGO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1926 GARNET AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3924",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "8417396808 + HAPPY DAD HARD SELTZER + 12.0OZ CAN",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85004652215 + HAPPY DAD HARD SELTZER GRAPE + 12.0OZ CAN",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "65722700033 + ESSENTIA WATER + 1.0L BOTTLE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "CHIPS LIQUOR\n1926 GARNET AVE\nSAN DIEGO, CA 92109\n(858) 273-1536\n05/23/2026 1:55PM\nMERCHANT ID: *******4048\nINVOICE: 35898\nSTATION: 01\nTENDER: CREDIT CARD PURCHASE\nSTATUS: COMPLETE\nQTY\n==================================\n1 8417396808 @ $22.99 $22.99\nHAPPY DAD HARD SELTZER\n12.0OZ CAN\n1 85004652215 @ $22.99 $22.99\nHAPPY DAD HARD SELTZER GRAPE\n12.0OZ CAN\n1 65722700033 @ $2.99 $2.99\nESSENTIA WATER\n1.0L BOTTLE\n==================================\nSUBTOTAL: $48.97\nTAXES & FEES: $6.85\nGRAND TOTAL: $55.82\nThank you for supporting\nyour local store.\nPlease visit us again soon!!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13029.752917,
+        "totalUsd": 0.026346,
+        "inputTokens": 3692,
+        "outputTokens": 1012,
+        "reasoningTokens": 1300
+      },
+      "fields": {
+        "storeName": {
+          "value": "CHIPS LIQUOR",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "55.82",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:55PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92109",
+          "status": "match"
+        },
+        "city": {
+          "value": "SAN DIEGO",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1926 GARNET AVE",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3924",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "HAPPY DAD HARD SELTZER 12.0OZ CAN + 8417396808",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HAPPY DAD HARD SELTZER GRAPE 12.0OZ CAN + 85004652215",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ESSENTIA WATER 1.0L BOTTLE + 65722700033",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "CHIPS LIQUOR\n1926 GARNET AVE\nSAN DIEGO, CA 92109\n(858) 273-1536\n05/23/2026 1:55PM\nMERCHANT ID: *******4048\nINVOICE: 35898\nSTATION: 01\nTENDER: CREDIT CARD PURCHASE\nSTATUS: COMPLETE\nQTY\n==================================\n1 8417396808 @ $22.99 $22.99\nHAPPY DAD HARD SELTZER\n12.0OZ CAN\n1 85004652215 @ $22.99 $22.99\nHAPPY DAD HARD SELTZER GRAPE\n12.0OZ CAN\n1 65722700033 @ $2.99 $2.99\nESSENTIA WATER\n1.0L BOTTLE\n==================================\nSUBTOTAL: $48.97\nTAXES & FEES: $6.85\nGRAND TOTAL: $55.82\nThank you for supporting\nyour local store.\nPlease visit us again soon!!\n\nCHIPS LIQUOR\n1926 GARNET AVE\nSAN DIEGO, CA 92109\n(858) 273-1536\n05/23/2026 1:55PM\nMERCHANT ID: *******4048\nINVOICE: 35898\nSTATION: 01\nSTATUS: APPROVED\nCREDIT SALE\nAMOUNT: $55.82\nCARD TYPE: Visa\nAPPROVAL: 30907D\nREFERENCE: 45\nCARD NUMBER: ************3924\nTVR: 0000000000\nTSI:\nAPP TRANS: 024A\nAPP LABEL:\nAPP EMV: A0000000031010\nENTRY: Contactless EMV\nTC_ACC: 2515CB8EA0DFEEF5\nThank you for supporting\nyour local business.\nPlease come back soon!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5578.296542,
+        "totalUsd": 0.014745,
+        "inputTokens": 3692,
+        "outputTokens": 1023,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Chips Liquor",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "55.82",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "1:55 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "92109",
+          "status": "match"
+        },
+        "city": {
+          "value": "San Diego",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1926 Garnet Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3924",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "8417396808 + HAPPY DAD HARD SELTZER 12.0OZ CAN",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85004652215 + HAPPY DAD HARD SELTZER GRAPE 12.0OZ CAN",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "65722700033 + ESSENTIA WATER 1.0L BOTTLE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "CHIPS LIQUOR\n1926 GARNET AVE\nSAN DIEGO, CA 92109\n(858) 273-1536\n05/23/2026\n1:55PM\nMERCHANT ID:\n******4048\nINVOICE:\n35898\nSTATION:\n01\nTENDER:\nCREDIT CARD PURCHASE\nSTATUS:\nCOMPLETE\nQTY\n==================================\n1 8417396808 @ $22.99\nHAPPY DAD HARD SELTZER\n$22.99\n12.0OZ CAN\n1 85004652215 @ $22.99\nHAPPY DAD HARD SELTZER GRAPE\n$22.99\n12.0OZ CAN\n1 65722700033 @ $2.99\nESSENTIA WATER\n$2.99\n1.0L BOTTLE\n==================================\nSUBTOTAL:\n$48.97\nTAXES & FEES:\n$6.85\nGRAND TOTAL:\n$55.82\nThank you for supporting\nyour local store.\nPlease visit us again soon!!\n\nCHIPS LIQUOR\n1926 GARNET AVE\nSAN DIEGO, CA 92109\n(858) 273-1536\n05/23/2026\n1:55PM\nMERCHANT ID:\n******4048\nINVOICE:\n35898\nSTATION:\n01\nSTATUS:\nAPPROVED\nCREDIT SALE\nAMOUNT:\n$55.82\nCARD TYPE:\nVisa\nAPPROVAL:\n30907D\nREFERENCE:\n45\nCARD NUMBER:\n************3924\nTVR:\n0000000000\nTSI:\nAPP TRANS:\n024A\nAPP LABEL:\nAPP EMV:\nA0000000031010\nENTRY:\nContactless EMV\nTC_ACC:\n2515CB8EA0DFEEF5\nThank you for supporting\nyour local business.\nPlease come back soon!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "HAPPY DAD HARD SELTZER + 8417396808 + 12 00Z CAN",
+      "price": 22.99,
+      "quantity": 1,
+      "totalSpend": 22.99
+    },
+    {
+      "text": "HAPPYDAD HARD SEETZER GRAPE + 85004652215 + REFERENCE + 12.0OZ CAN ARD NU ABER",
+      "price": 22.99,
+      "quantity": 1,
+      "totalSpend": 22.99
+    },
+    {
+      "text": "ESSENTUA VVATER + 65722700033 + 1.OL BOTTLE APP TRANS: + APP LABEL + ========================================= APP EN V A000000003",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 2.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

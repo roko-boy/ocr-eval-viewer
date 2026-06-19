@@ -1,0 +1,243 @@
+{
+  "id": "cmq7axzcf026hg2qav074a5i8",
+  "url": null,
+  "retailer": "ACME Markets",
+  "brand": "Olipop",
+  "amount": 1.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Acme Markets",
+    "totalCost": "4.24",
+    "purchaseDate": "2026-06-09",
+    "time": null,
+    "zipCode": "07869",
+    "city": "Randolph",
+    "state": "NJ",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 8042.998250000004,
+        "totalUsd": 0.01659,
+        "inputTokens": 6086,
+        "outputTokens": 829,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Acme",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:56",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07869",
+          "status": "match"
+        },
+        "city": {
+          "value": "Randolph",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "690 Millbrook Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3894",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "85002770218 + 2@ OLIPOP CREAM SODA + Sale Savings -1.60",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 3.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ACME\nYOUR Favorite Local Supermarket®\nStore 2927 Dir RON DeTore\nMain: (973)895-2699 Rx: (973) 895-2694\n690 Millbrook Ave\nRandolph NJ 07869\n00292717601912606091956\nYOUR CASHIER TODAY WAS SELF\nPRODUCE\nPrice You Pay\n85002770218 2@ OLIPOP CREAM SODA\n5.58 3.98 B\nSale Savings -1.60\nTAX\n0.26\n**** BALANCE\n4.24\nCredit Purchase 06/09/26 19:56\nCARD # ************3894\nREF: 815631438940 AUTH: 00326747\nPAYMENT AMOUNT\n4.24\nAL US DEBIT\nAID A0000000980840\nTVR 0000000000\nVisa\n4.24\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n1.60\nTotal\n1.60\nTotal Savings Value\n29%\nYOUR POINTS\nPoints Earned Today 3\nPoints Available 3\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/09/26 19:56 2927 176 191 8822\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10311.822208,
+        "totalUsd": 0.020838,
+        "inputTokens": 3692,
+        "outputTokens": 823,
+        "reasoningTokens": 877
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:56",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07869",
+          "status": "match"
+        },
+        "city": {
+          "value": "Randolph",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "690 Millbrook Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3894",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "85002770218 2@ OLIPOP CREAM SODA + Sale Savings -1.60",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 3.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "ACME\nYOUR Favorite Local Supermarket®\nStore 2927 Dir RON DeTore\nMain: (973)895-2699 Rx: (973) 895-2694\n690 Millbrook Ave\nRandolph NJ 07869\n00292717601912606091956\nYOUR CASHIER TODAY WAS SELF\nPRODUCE\nPrice You Pay\n85002770218 2@ OLIPOP CREAM SODA\n5.58 3.98 B\nSale Savings -1.60\nTAX\n0.26\n**** BALANCE\n4.24\nCredit Purchase 06/09/26 19:56\nCARD # ************3894\nREF: 815631438940 AUTH: 00326747\nPAYMENT AMOUNT\n4.24\nAL US DEBIT\nAID A0000000980840\nTVR 0000000000\nVisa\n4.24\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n1.60\nTotal\n1.60\nTotal Savings Value\n29%\nYOUR POINTS\nPoints Earned Today 3\nPoints Available 3\nTOTAL NUMBER OF ITEMS SOLD =\n2\n06/09/26 19:56 2927 176 191\n8822\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4876.285875000009,
+        "totalUsd": 0.012855,
+        "inputTokens": 3692,
+        "outputTokens": 813,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "ACME",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "4.24",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "19:56",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07869",
+          "status": "match"
+        },
+        "city": {
+          "value": "Randolph",
+          "status": "match"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "690 Millbrook Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3894",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "OLIPOP CREAM SODA + 85002770218",
+          "quantity": 2,
+          "unitPrice": 2.79,
+          "totalSpend": 3.98,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "ACME\nYOUR Favorite Local Supermarket\nStore 2927 Dir RON DeTore\nMain: (973)895-2699 Rx: (973) 895-2694\n690 Millbrook Ave\nRandolph NJ 07869\n00292717601912606091956\nYOUR CASHIER TODAY WAS SELF\nPRODUCE\nPrice You Pay\n85002770218 2@ OLIPOP CREAM SODA\n5.58 3.98 B\nSale Savings -1.60\nTAX\n0.26\n**** BALANCE\n4.24\nCredit Purchase 06/09/26 19:56\nCARD # ************3894\nREF: 815631438940 AUTH: 00326747\nPAYMENT AMOUNT\n4.24\nAL US DEBIT\nAID A0000000980840\nTVR 0000000000\nVisa\n4.24\nCHANGE\n0.00\nYOUR SAVINGS\nStore Savings\n1.60\nTotal\n1.60\nTotal Savings Value\n29%\nYOUR POINTS\nPoints Earned Today 3\nPoints Available 3\nTOTAL NUMBER OF ITEMS SOLD = 2\n06/09/26 19:56 2927 176 191\n8822\nThank you for shopping Acme!\nFor ACME FOR U questions call\n877-276-9637 or Acmemarkets.com/foru\n**\n**",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "OLIPOP CREAM SODA + 85002770218 + Sale Savings -1.60",
+      "price": 1.99,
+      "quantity": 2,
+      "totalSpend": 3.98
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

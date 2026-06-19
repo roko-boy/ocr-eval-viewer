@@ -1,0 +1,378 @@
+{
+  "id": "cmn7za9hz00192wj5mgr19bdl",
+  "url": null,
+  "retailer": "Giant Food Store",
+  "brand": "simple mills ",
+  "amount": 4.99,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Giant Food Store",
+    "totalCost": "12.89",
+    "purchaseDate": "2026-03-26",
+    "time": null,
+    "zipCode": "19440",
+    "city": "Hatfield",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 7608.807832999999,
+        "totalUsd": 0.019218,
+        "inputTokens": 6086,
+        "outputTokens": 1121,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "12.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:27pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19440",
+          "status": "match"
+        },
+        "city": {
+          "value": "HATFIELD",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1540 COWPATH ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1308",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMPLMLL CRKR4.25 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "GIANT\n1540 COWPATH ROAD\nHATFIELD, PA 19440\nStore Telephone: (215) 361-4190\nPharmacy Telephone: (215) 412-9264\nStore #6445 03/26/26 03:27pm\nGROCERY\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSMPLMLL CRKR4.25 5.99 F\nBONUS BUY SAVINGS 1.00-F\nPRICE YOU PAY 4.99\nTAX 0.45\n**** BALANCE 12.89\n****************************************\nPayment Type: DISCOVER\nEMV CONTACTLESS Purchase\nCard: ************1308\nPayment Amt: $12.89\nBALANCE: $\nAID: A00000015230100100000001\nAUTH#02623R RC#00 03/26/26 03:29pm\n****************************************\nDISCOVER 12.89\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\n********* SAVINGS SUMMARY *********\nCard Savings: 1.00\nYour Total Savings: 1.00\n03/26/26 03:29pm 6445 436 85 880036\n****************************************\nTHE CHOICE IS YOURS!\nFREE HAM OR TURKEY, GAS OR GROCERY $\nKeep earning points toward\na FREE HAM OR TURKEY\nRedeem 400 points ONLINE\nor at the REGISTER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 12763.87404200001,
+        "totalUsd": 0.030333,
+        "inputTokens": 3692,
+        "outputTokens": 1113,
+        "reasoningTokens": 1642
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "12.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:27pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19440",
+          "status": "match"
+        },
+        "city": {
+          "value": "HATFIELD",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1540 COWPATH ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1308",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMPLMLL CRKR4.25 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "GIANT\n1540 COWPATH ROAD\nHATFIELD, PA 19440\nStore Telephone: (215) 361-4190\nPharmacy Telephone: (215) 412-9264\nStore #6445 03/26/26 03:27pm\nGROCERY\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSMPLMLL CRKR4.25 5.99 F\nBONUS BUY SAVINGS 1.00-F\nPRICE YOU PAY 4.99\nTAX 0.45\n**** BALANCE 12.89\n****************************************\nPayment Type: DISCOVER\nEMV CONTACTLESS Purchase\nCard: ************1308\nPayment Amt: $12.89\nBALANCE: $\nAID: A00000015230100100000001\nAUTH#02623R RC#00 03/26/26 03:29pm\n****************************************\nDISCOVER 12.89\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\n********* SAVINGS SUMMARY *********\nCard Savings: 1.00\nYour Total Savings: 1.00\n03/26/26 03:29pm 6445 436 85 880036\n****************************************\nTHE CHOICE IS YOURS!\nFREE HAM OR TURKEY, GAS OR GROCERY $\nKeep earning points toward\na FREE HAM OR TURKEY\nRedeem 400 points ONLINE\nor at the REGISTER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7575.8295,
+        "totalUsd": 0.015573,
+        "inputTokens": 3692,
+        "outputTokens": 1115,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "12.89",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-26",
+          "status": "match"
+        },
+        "time": {
+          "value": "03:27pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19440",
+          "status": "match"
+        },
+        "city": {
+          "value": "HATFIELD",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1540 COWPATH ROAD",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DISCOVER",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "1308",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCRB DRP IN1.7Z",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 1.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMPLMLL CRKR4.25 + BONUS BUY SAVINGS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "GIANT\n1540 COWPATH ROAD\nHATFIELD, PA 19440\nStore Telephone: (215) 361-4190\nPharmacy Telephone: (215) 412-9264\nStore #6445 03/26/26 03:27pm\nGROCERY\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSCRB DRP IN1.7Z 1.49 T\nSMPLMLL CRKR4.25 5.99 F\nBONUS BUY SAVINGS 1.00-F\nPRICE YOU PAY 4.99\nTAX 0.45\n**** BALANCE 12.89\n****************************************\nPayment Type: DISCOVER\nEMV CONTACTLESS Purchase\nCard: ************1308\nPayment Amt: $12.89\nBALANCE: $\nAID: A00000015230100100000001\nAUTH#02623R RC#00 03/26/26 03:29pm\n****************************************\nDISCOVER 12.89\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 6\n********* SAVINGS SUMMARY *********\nCard Savings: 1.00\nYour Total Savings: 1.00\n03/26/26 03:29pm 6445 436 85 880036\n****************************************\nTHE CHOICE IS YOURS!\nFREE HAM OR TURKEY, GAS OR GROCERY $\nKeep earning points toward\na FREE HAM OR TURKEY\nRedeem 400 points ONLINE\nor at the REGISTER",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "SCRB DRP IN1.7Z + GROCERY",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "SCRB DRP IN1.7Z",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "SCRB DRP IN1.7Z",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "SCRB DRP IN1.7Z",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "SCRB DRP IN1.7Z",
+      "price": 1.49,
+      "quantity": 1,
+      "totalSpend": 1.49
+    },
+    {
+      "text": "SMPLMLL CRKR4.25",
+      "price": 5.99,
+      "quantity": 1,
+      "totalSpend": 5.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

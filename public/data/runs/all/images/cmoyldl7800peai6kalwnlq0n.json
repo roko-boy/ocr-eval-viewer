@@ -1,0 +1,513 @@
+{
+  "id": "cmoyldl7800peai6kalwnlq0n",
+  "url": null,
+  "retailer": "Dollar Tree",
+  "brand": "Like Air",
+  "amount": 5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Dollar Tree",
+    "totalCost": "13.77",
+    "purchaseDate": "2026-05-09",
+    "time": null,
+    "zipCode": "60085",
+    "city": "Waukegan",
+    "state": "IL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 18701.53854199999,
+        "totalUsd": 0.022296,
+        "inputTokens": 6086,
+        "outputTokens": 1463,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60085-5121",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Waukegan",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 South Lewis Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3294",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EVERYDAY CUTLERY FORKS 48CT",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERYDAY CUTLERY FORKS 48CT",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERYDAY CUTLERY SPOONS 48CT",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SURE&F BLDDR CNTRL LNRS 20C",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SILICONE SPOON REST",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CARD MDAY ANYONE",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CARD MDAY GRANDMOTHER",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKE AIR WHITE CHEDDAR 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIKE AIR WHITE CHEDDAR 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIKE AIR CLASSIC PUFFCORN 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIKE AIR CLASSIC PUFFCORN 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "DOLLAR TREE.\n(224) 214-4062\nStore# 10714\n10 South Lewis Ave\nWaukegan IL 60085-5121\n========================================\nDESCRIPTION             QTY  PRICE     TOTAL\n========================================\nEVERYDAY CUTLERY FORKS 48CT   1   1.50     1.50T\nEVERYDAY CUTLERY FORKS 48CT   1   1.50     1.50T\nEVERYDAY CUTLERY SPOONS 48CT  1   1.50     1.50T\nSURE&F BLDDR CNTRL LNRS 20C   1   1.25     1.25T\nSILICONE SPOON REST           1   1.25     1.25T\nCARD MDAY ANYONE              1   0.50     0.50T\nCARD MDAY GRANDMOTHER         1   0.50     0.50T\nLIKE AIR WHITE CHEDDAR 1.5Z   1   1.25     1.25T\nLIKE AIR WHITE CHEDDAR 1.5Z   1   1.25     1.25T\nLIKE AIR CLASSIC PUFFCORN 1.5Z 1  1.25     1.25T\nLIKE AIR CLASSIC PUFFCORN 1.5Z 1  1.25     1.25T\n                      Sub Total       $13.00\n                      SALES TAX        $0.68\n                      FOOD TAX         $0.09\n                      Total           $13.77\n                      Debit Card      $13.77\n                      ************3294 Approved\n                      Purchase        Cntctless\n                      Auth/Trace Number: 140228/040666\n========================================\nPlease provide your feedback at\nwww.dollartreefeedback.com\nGrow your career at Dollar Tree by visiting\nhttps://careers.dollartree.com\n0412 10714 04 014 26100326   5/09/26 12:00\nSales Associate:Consuelo",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10008.939167,
+        "totalUsd": 0.025446,
+        "inputTokens": 3692,
+        "outputTokens": 1433,
+        "reasoningTokens": 779
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60085-5121",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Waukegan",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 South Lewis Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3294",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EVERYDAY CUTLERY FORKS 48CT",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERYDAY CUTLERY FORKS 48CT",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERYDAY CUTLERY SPOONS 48CT",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SURE&F BLDDR CNTRL LNRS 20C",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SILICONE SPOON REST",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CARD MDAY ANYONE",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CARD MDAY GRANDMOTHER",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKE AIR WHITE CHEDDAR 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIKE AIR WHITE CHEDDAR 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIKE AIR CLASSIC PUFFCORN 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIKE AIR CLASSIC PUFFCORN 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 10714\n(224) 214-4062\n10 South Lewis Ave\nWaukegan IL 60085-5121\n========================================\nDESCRIPTION\nQTY PRICE TOTAL\n========================================\nEVERYDAY CUTLERY FORKS 48CT 1 1.50 1.50T\nEVERYDAY CUTLERY FORKS 48CT 1 1.50 1.50T\nEVERYDAY CUTLERY SPOONS 48CT 1 1.50 1.50T\nSURE&F BLDDR CNTRL LNRS 20C 1 1.25 1.25T\nSILICONE SPOON REST 1 1.25 1.25T\nCARD MDAY ANYONE 1 0.50 0.50T\nCARD MDAY GRANDMOTHER 1 0.50 0.50T\nLIKE AIR WHITE CHEDDAR 1.5Z 1 1.25 1.25T\nLIKE AIR WHITE CHEDDAR 1.5Z 1 1.25 1.25T\nLIKE AIR CLASSIC PUFFCORN 1.5Z 1 1.25 1.25T\nLIKE AIR CLASSIC PUFFCORN 1.5Z 1 1.25 1.25T\nSub Total $13.00\nSALES TAX $0.68\nFOOD TAX $0.09\nTotal $13.77\nDebit Card $13.77\n************3294 Approved\nPurchase Cntctless\nAuth/Trace Number: 140228/040666\n========================================\nPlease provide your feedback at\nwww.dollartreefeedback.com\nGrow your career at Dollar Tree by visiting\nhttps://careers.dollartree.com\n0412 10714 04 014 26100326 5/09/26 12:00\nSales Associate:Consuelo",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 7362.484833000024,
+        "totalUsd": 0.018939,
+        "inputTokens": 3692,
+        "outputTokens": 1489,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "13.77",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:00",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "60085-5121",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Waukegan",
+          "status": "match"
+        },
+        "state": {
+          "value": "IL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "10 South Lewis Ave",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "DEBIT",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3294",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "EVERYDAY CUTLERY FORKS 48CT",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERYDAY CUTLERY FORKS 48CT",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "EVERYDAY CUTLERY SPOONS 48CT",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SURE&F BLDDR CNTRL LNRS 20C",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SILICONE SPOON REST",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CARD MDAY ANYONE",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CARD MDAY GRANDMOTHER",
+          "quantity": 1,
+          "unitPrice": 0.5,
+          "totalSpend": 0.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LIKE AIR WHITE CHEDDAR 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIKE AIR WHITE CHEDDAR 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIKE AIR CLASSIC PUFFCORN 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LIKE AIR CLASSIC PUFFCORN 1.5Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 10714\n(224) 214-4062\n10 South Lewis Ave\nWaukegan IL 60085-5121\n========================================\nDESCRIPTION\tQTY\tPRICE\tTOTAL\nEVERYDAY CUTLERY FORKS 48CT\t1\t1.50\t1.50T\nEVERYDAY CUTLERY FORKS 48CT\t1\t1.50\t1.50T\nEVERYDAY CUTLERY SPOONS 48CT\t1\t1.50\t1.50T\nSURE&F BLDDR CNTRL LNRS 20C\t1\t1.25\t1.25T\nSILICONE SPOON REST\t1\t1.25\t1.25T\nCARD MDAY ANYONE\t1\t0.50\t0.50T\nCARD MDAY GRANDMOTHER\t1\t0.50\t0.50T\nLIKE AIR WHITE CHEDDAR 1.5Z\t1\t1.25\t1.25T\nLIKE AIR WHITE CHEDDAR 1.5Z\t1\t1.25\t1.25T\nLIKE AIR CLASSIC PUFFCORN 1.5Z\t1\t1.25\t1.25T\nLIKE AIR CLASSIC PUFFCORN 1.5Z\t1\t1.25\t1.25T\nSub Total\t$13.00\nSALES TAX\t$0.68\nFOOD TAX\t$0.09\nTotal\t$13.77\nDebit Card\t$13.77\n************3294\tApproved\nPurchase\tCntctless\nAuth/Trace Number: 140228/040666\n========================================\nPlease provide your feedback at\nwww.dollartreefeedback.com\nGrow your career at Dollar Tree by visiting\nhttps://careers.dollartree.com\n0412 10714 04 014 26100326\t5/09/26 12:00\nSales Associate:Consuelo",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "EVERYDAY CUTLERY FORKS 48CT",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "EVERYDAY CUTLERY FORKS 48CT",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "EVERYDAY CUTLERY SPOONS 48CT",
+      "price": 1.5,
+      "quantity": 1,
+      "totalSpend": 1.5
+    },
+    {
+      "text": "SURE&F BLDDR CNTRL LNRS 20C",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "SILICONE SPOON REST",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "CARD MDAY ANYONE",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    },
+    {
+      "text": "CARD MDAY GRANDMOTHER",
+      "price": 0.5,
+      "quantity": 1,
+      "totalSpend": 0.5
+    },
+    {
+      "text": "LIKE AIR CLASSIC PUFFCORN 1.5Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "LIKE AIR CLASSIC PUFFCORN 1.5Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "LIKE AIR WHITE CHEDDAR 1.5Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "LIKE AIR WHITE CHEDDAR 1.5Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

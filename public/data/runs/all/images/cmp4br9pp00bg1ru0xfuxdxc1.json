@@ -1,0 +1,297 @@
+{
+  "id": "cmp4br9pp00bg1ru0xfuxdxc1",
+  "url": null,
+  "retailer": "Dollar Tree",
+  "brand": "Pepsi Food Service",
+  "amount": 1.25,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Dollar Tree",
+    "totalCost": "4.01",
+    "purchaseDate": "2026-05-13",
+    "time": null,
+    "zipCode": "33322",
+    "city": "Plantation",
+    "state": "FL",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10144.29874999996,
+        "totalUsd": 0.01542,
+        "inputTokens": 6086,
+        "outputTokens": 699,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33322-5405",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Plantation",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8341 W Sunrise Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DOLE LEMONADE PET 20Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI CAN 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI CAN 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 4850\n(754) 223-6055\n8341 W Sunrise Blvd\nPlantation FL 33322-5405\n========================================\nDESCRIPTION\tQTY\tPRICE\tTOTAL\n========================================\nDOLE LEMONADE PET 20Z\t1\t1.25\t1.25T\nPEPSI CAN 16Z\t1\t1.25\t1.25T\nPEPSI CAN 16Z\t1\t1.25\t1.25T\nSub Total\t$3.75\nSALES TAX\t$0.26\nTotal\t$4.01\nCash\t$4.01\n========================================\nPlease provide your feedback at\nwww.dollartreefeedback.com\nGrow your career at Dollar Tree by visiting\nhttps://careers.dollartree.com\n6938 04850 03 003 50021441 5/13/26 12:34\nSales Associate: Joshua",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 9793.128666999983,
+        "totalUsd": 0.024726,
+        "inputTokens": 3692,
+        "outputTokens": 699,
+        "reasoningTokens": 1433
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33322-5405",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Plantation",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8341 W Sunrise Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DOLE LEMONADE PET 20Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI CAN 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI CAN 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 4850          (754) 223-6055\n8341 W Sunrise Blvd\nPlantation FL 33322-5405\n========================================\nDESCRIPTION            QTY   PRICE   TOTAL\n----------------------------------------\nDOLE LEMONADE PET 20Z    1    1.25   1.25T\nPEPSI CAN 16Z            1    1.25   1.25T\nPEPSI CAN 16Z            1    1.25   1.25T\n            Sub Total                $3.75\n            SALES TAX                $0.26\n            Total                    $4.01\n            Cash                     $4.01\n========================================\nPlease provide your feedback at\nwww.dollartreefeedback.com\nGrow your career at Dollar Tree by visiting\nhttps://careers.dollartree.com\n6938 04850 03 003 50021441   5/13/26 12:34\nSales Associate:Joshua",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4260.148749999993,
+        "totalUsd": 0.011586,
+        "inputTokens": 3692,
+        "outputTokens": 672,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Dollar Tree",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "4.01",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-13",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:34",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "33322-5405",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Plantation",
+          "status": "match"
+        },
+        "state": {
+          "value": "FL",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "8341 W Sunrise Blvd",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "CASH",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "DOLE LEMONADE PET 20Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI CAN 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI CAN 16Z",
+          "quantity": 1,
+          "unitPrice": 1.25,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "DOLLAR TREE\nStore# 4850\n(754) 223-6055\n8341 W Sunrise Blvd\nPlantation FL 33322-5405\n========================================\nDESCRIPTION\nQTY PRICE TOTAL\n----------------------------------------\nDOLE LEMONADE PET 20Z 1 1.25 1.25T\nPEPSI CAN 16Z 1 1.25 1.25T\nPEPSI CAN 16Z 1 1.25 1.25T\nSub Total $3.75\nSALES TAX $0.26\nTotal $4.01\nCash $4.01\n========================================\nPlease provide your feedback at\nwww.dollartreefeedback.com\nGrow your career at Dollar Tree by visiting\nhttps://careers.dollartree.com\n6938 04850 03 003 50021441 5/13/26 12:34\nSales Associate: Joshua",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "DOLE LEMONADE PET 20Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "PEPSI CAN 16Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    },
+    {
+      "text": "PEPSI CAN 16Z",
+      "price": 1.25,
+      "quantity": 1,
+      "totalSpend": 1.25
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

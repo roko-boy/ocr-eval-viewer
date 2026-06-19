@@ -1,0 +1,304 @@
+{
+  "id": "cmpfwc3ff00cwtrtwlj6h4b59",
+  "url": null,
+  "retailer": "Kwik Star",
+  "brand": "Pepsi Food Service",
+  "amount": 2.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Kwik Star",
+    "totalCost": "3.04",
+    "purchaseDate": "2026-05-09",
+    "time": null,
+    "zipCode": "50010",
+    "city": "Ames",
+    "state": "IA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 12592.83545800002,
+        "totalUsd": 0.017229,
+        "inputTokens": 6086,
+        "outputTokens": 900,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Star",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:29:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50010",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ames",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1910 Issac Newton Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0728",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CM PIZZA FOUR MEAT SLICE",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PEPSI ZERO 20OZ",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POP DEPOSIT EA",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "L-XFreePizzaSlic",
+          "quantity": 1,
+          "unitPrice": -2.99,
+          "totalSpend": -2.99,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kwik Star\n1910 Issac Newton Dr\nAmes, IA 50010\n515-735-4993\nStore #1158 5/9/2026 12:29:58 PM\nRegister # 4 Trans # 4655300\nTax Description Qty Amount\nT CM PIZZA FOUR MEAT SLICE $2.99\nT PEPSI ZERO 20OZ $2.79\nPOP DEPOSIT EA 1 $0.05\nT L-XFreePizzaSlic 1 -$2.99\nSub Total $2.84\nTax $0.20\nTotal $3.04\nMasterCard: $3.04\nChange $0.00\nMasterCard\nCard Num : (P) XXXXXXXXXXXX0728\nContactless\nTerminal : RA1094001158706\nApproval : 00989Z\nSale\nUSD$ 3.04\nMastercard\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: 4477259B21AF8176\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nKwik Rewards\nCard Num : (*) XXXXXXXXXXXX3576\nTerminal : 1158\nApproval : U:236276\nTotal Visits: 249/15",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10585.402667,
+        "totalUsd": 0.026031,
+        "inputTokens": 3692,
+        "outputTokens": 863,
+        "reasoningTokens": 1414
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Star",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:29:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50010",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ames",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1910 Issac Newton Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0728",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CM PIZZA FOUR MEAT SLICE + L-XFreePizzaSlic",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI ZERO 20OZ",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POP DEPOSIT EA",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Star\n1910 Issac Newton Dr\nAmes, IA 50010\n515-735-4993\nStore #1158      5/9/2026   12:29:58 PM\nRegister # 4  Trans #  4655300\nTax Description            Qty   Amount\nT  CM PIZZA FOUR MEAT SLICE      $2.99\nT  PEPSI ZERO 20OZ               $2.79\n   POP DEPOSIT EA            1   $0.05\nT  L-XFreePizzaSlic          1  -$2.99\n                      Sub Total  $2.84\n                            Tax  $0.20\n                          Total  $3.04\n                    MasterCard:  $3.04\n                         Change  $0.00\nMasterCard\nCard Num : (P) XXXXXXXXXXXX0728\nContactless\nTerminal : RA1094001158706\nApproval : 00989Z\nSale\nUSD$ 3.04\nMastercard\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: 4477259B21AF8176\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nKwik Rewards\nCard Num : (*) XXXXXXXXXXXX3576\nTerminal : 1158\nApproval : U:2362763\nTotal Visits: 249/15",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 4925.507417000001,
+        "totalUsd": 0.013125,
+        "inputTokens": 3692,
+        "outputTokens": 843,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Kwik Star",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "3.04",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-09",
+          "status": "match"
+        },
+        "time": {
+          "value": "12:29:58 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "50010",
+          "status": "match"
+        },
+        "city": {
+          "value": "Ames",
+          "status": "match"
+        },
+        "state": {
+          "value": "IA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "1910 Issac Newton Dr",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "MASTERCARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "0728",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "CM PIZZA FOUR MEAT SLICE + L-XFreePizzaSlic",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEPSI ZERO 20OZ",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POP DEPOSIT EA",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kwik Star\n1910 Issac Newton Dr\nAmes, IA 50010\n515-735-4993\nStore #1158 5/9/2026 12:29:58 PM\nRegister # 4 Trans # 4655300\nTax Description Qty Amount\nT CM PIZZA FOUR MEAT SLICE $2.99\nT PEPSI ZERO 20OZ $2.79\nPOP DEPOSIT EA 1 $0.05\nT L-XFreePizzaSlic 1 -$2.99\nSub Total $2.84\nTax $0.20\nTotal $3.04\nMasterCard: $3.04\nChange $0.00\nMasterCard\nCard Num : (P) XXXXXXXXXXXX0728\nContactless\nTerminal : RA1094001158706\nApproval : 00989Z\nSale\nUSD$ 3.04\nMastercard\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008001\nIAD:\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\nTSI: E800\nARC: 00\nARQC: 4477259B21AF8176\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\nKwik Rewards\nCard Num : (*) XXXXXXXXXXXX3576\nTerminal : 1158\nApproval : U:2362763\nTotal Visits: 249/15",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "CM PIZZA FOUR MEAT SLICE",
+      "price": 2.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "PEPSI ZERO 20OZ",
+      "price": 2.79,
+      "quantity": 1,
+      "totalSpend": 2.79
+    },
+    {
+      "text": "POP DEPOSIT EA",
+      "price": 0.05,
+      "quantity": 1,
+      "totalSpend": 0.05
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

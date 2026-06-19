@@ -1,0 +1,402 @@
+{
+  "id": "cmq5seccz00bggr34405th9hz",
+  "url": null,
+  "retailer": "Target",
+  "brand": "Dabble & Dollop",
+  "amount": 2,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "TAGGUN",
+  "truth": {
+    "storeName": "Target",
+    "totalCost": "49.55",
+    "purchaseDate": "2026-06-04",
+    "time": null,
+    "zipCode": "01824",
+    "city": "Chelmsford",
+    "state": "MA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 10890.059791,
+        "totalUsd": 0.0181845,
+        "inputTokens": 6243,
+        "outputTokens": 980,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01824-4869",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Chelmsford",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14 Roberts St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3024",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Magna Hydration Electrolyte Mix Stick Pack Dietary Supplement Vegan Powder - Iced Tea Lemonade - 10ct: Magnesium 210mg, NSF Certified, Sugar-Free",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Disney and Pixar Cars Color Changer Race Ready Car Wash Playset & Color Changing Lightning McQueen",
+          "quantity": 1,
+          "unitPrice": 16.19,
+          "totalSpend": 15.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CauliPuffs Gluten Free Puffs - White Cheddar - 4oz: Toddler, Bag, Ready to Eat, Kosher",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.15,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Dabble & Dollop Baby Sensory Suds Bubble Bath, Gentle Tear-Free Formula for Sensitive Skin, Fragrance-Free, Newborn Friendly - 10 fl oz",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.46,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Receipt\n3 of 4\nDelivered to\n14 Roberts St, Chelmsford, MA 01824-4869\n$49.55\nReceipt total\n2-6155-3991-1116-0535-1\nShow detail\nMagna Hydration Electrolyte Mix Stick Pack Dietary Supplement Vegan Powder - Iced Tea Lemonade - 10ct: Magnesium 210mg, NSF Certified, Sugar-Free\nQty 1 • $16.99 unit price\nAmount $16.99\nItem total $16.35\nDisney and Pixar Cars Color Changer Race Ready Car Wash Playset & Color Changing Lightning McQueen\nQty 1 • $16.19 unit price\nAmount $16.19\nItem total $15.59\nCauliPuffs Gluten Free Puffs - White Cheddar - 4oz: Toddler, Bag, Ready to Eat, Kosher\nQty 1 • $4.99 unit price\nAmount $4.99\nItem total $4.15\nDabble & Dollop Baby Sensory Suds Bubble Bath, Gentle Tear-Free Formula for Sensitive Skin, Fragrance-Free, Newborn Friendly - 10 fl oz\nQty 1 • $13.99 unit price\nAmount $13.99\nItem total $13.46\nReceipt total $49.55\nTarget GiftCard $33.18\nTarget GiftCard $2.23\nAmerican Express *3024 $14.14\nJun 4, 2026\nInvoice #61553991111605351",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 13193.264375,
+        "totalUsd": 0.028413,
+        "inputTokens": 3732,
+        "outputTokens": 968,
+        "reasoningTokens": 1567
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01824-4869",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Chelmsford",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14 Roberts St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3024",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Magna Hydration Electrolyte Mix Stick Pack Dietary Supplement Vegan Powder - Iced Tea Lemonade - 10ct: Magnesium 210mg, NSF Certified, Sugar-Free",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Disney and Pixar Cars Color Changer Race Ready Car Wash Playset & Color Changing Lightning McQueen",
+          "quantity": 1,
+          "unitPrice": 16.19,
+          "totalSpend": 15.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CauliPuffs Gluten Free Puffs - White Cheddar - 4oz: Toddler, Bag, Ready to Eat, Kosher",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.15,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Dabble & Dollop Baby Sensory Suds Bubble Bath, Gentle Tear-Free Formula for Sensitive Skin, Fragrance-Free, Newborn Friendly - 10 fl oz",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.46,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Receipt\n3 of 4\nDelivered to\n14 Roberts St, Chelmsford, MA 01824-4869\n$49.55\nReceipt total\n2-6155-3991-1116-0535-1\nShow detail\nMagna Hydration Electrolyte Mix Stick Pack Dietary Supplement Vegan Powder - Iced Tea Lemonade - 10ct: Magnesium 210mg, NSF Certified, Sugar-Free\nQty 1 • $16.99 unit price\nAmount $16.99\nItem total $16.35\nDisney and Pixar Cars Color Changer Race Ready Car Wash Playset & Color Changing Lightning McQueen\nQty 1 • $16.19 unit price\nAmount $16.19\nItem total $15.59\nCauliPuffs Gluten Free Puffs - White Cheddar - 4oz: Toddler, Bag, Ready to Eat, Kosher\nQty 1 • $4.99 unit price\nAmount $4.99\nItem total $4.15\nDabble & Dollop Baby Sensory Suds Bubble Bath, Gentle Tear-Free Formula for Sensitive Skin, Fragrance-Free, Newborn Friendly - 10 fl oz\nQty 1 • $13.99 unit price\nAmount $13.99\nItem total $13.46\nReceipt total $49.55\nTarget GiftCard $33.18\nTarget GiftCard $2.23\nAmerican Express *3024 $14.14\nJun 4, 2026\nInvoice #61553991111605351",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5839.080959,
+        "totalUsd": 0.014526,
+        "inputTokens": 3732,
+        "outputTokens": 992,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Target",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "49.55",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-06-04",
+          "status": "match"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "01824-4869",
+          "status": "mismatch"
+        },
+        "city": {
+          "value": "Chelmsford",
+          "status": "match"
+        },
+        "state": {
+          "value": "MA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "14 Roberts St",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "GIFT CARD",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "3024",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "Magna Hydration Electrolyte Mix Stick Pack Dietary Supplement Vegan Powder - Iced Tea Lemonade - 10ct: Magnesium 210mg, NSF Certified, Sugar-Free",
+          "quantity": 1,
+          "unitPrice": 16.99,
+          "totalSpend": 16.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Disney and Pixar Cars Color Changer Race Ready Car Wash Playset & Color Changing Lightning McQueen",
+          "quantity": 1,
+          "unitPrice": 16.19,
+          "totalSpend": 15.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CauliPuffs Gluten Free Puffs - White Cheddar - 4oz: Toddler, Bag, Ready to Eat, Kosher",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.15,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "Dabble & Dollop Baby Sensory Suds Bubble Bath, Gentle Tear-Free Formula for Sensitive Skin, Fragrance-Free, Newborn Friendly - 10 fl oz",
+          "quantity": 1,
+          "unitPrice": 13.99,
+          "totalSpend": 13.46,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Receipt\n3 of 4\nDelivered to\n14 Roberts St, Chelmsford, MA 01824-4869\n$49.55\nReceipt total\n2-6155-3991-1116-0535-1\nShow detail\nMagna Hydration Electrolyte Mix Stick Pack Dietary Supplement Vegan Powder - Iced Tea Lemonade - 10ct: Magnesium 210mg, NSF Certified, Sugar-Free\nQty 1 • $16.99 unit price\nAmount\n$16.99\nItem total\n$16.35\nDisney and Pixar Cars Color Changer Race Ready Car Wash Playset & Color Changing Lightning McQueen\nQty 1 • $16.19 unit price\nAmount\n$16.19\nItem total\n$15.59\nCauliPuffs Gluten Free Puffs - White Cheddar - 4oz: Toddler, Bag, Ready to Eat, Kosher\nQty 1 • $4.99 unit price\nAmount\n$4.99\nItem total\n$4.15\nDabble & Dollop Baby Sensory Suds Bubble Bath, Gentle Tear-Free Formula for Sensitive Skin, Fragrance-Free, Newborn Friendly - 10 fl oz\nQty 1 • $13.99 unit price\nAmount\n$13.99\nItem total\n$13.46\nReceipt total\n$49.55\nTarget GiftCard\n$33.18\nTarget GiftCard\n$2.23\nAmerican Express *3024\n$14.14\nJun 4, 2026\nInvoice #61553991111605351",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "$49.55",
+      "price": 49.55,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Qty 1 . $16.99 unit price",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Amount $16.99",
+      "price": 16.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Item total $16.35",
+      "price": 16.35,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Qty 1 . $16.19 unit price",
+      "price": 16.19,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Amount $16.19",
+      "price": 16.19,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Item total $15.59",
+      "price": 15.59,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Qty 1 . $4.99 unit price",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Amount $4.99",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Item total $4.15",
+      "price": 4.15,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Qty 1 . $13.99 unit price",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Amount $13.99",
+      "price": 13.99,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Item total $13.46",
+      "price": 13.46,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Receipt total $49.55",
+      "price": 49.55,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Target GiftCard $33.18",
+      "price": 33.18,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "Target GiftCard $2.23",
+      "price": 2.23,
+      "quantity": 1,
+      "totalSpend": 0
+    },
+    {
+      "text": "American Express *3024 $14.14",
+      "price": 14.14,
+      "quantity": 1,
+      "totalSpend": 0
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

@@ -1,0 +1,297 @@
+{
+  "id": "cmnf5qz4i008e1wyewn1bsskb",
+  "url": null,
+  "retailer": "Giant Food Store",
+  "brand": "Icelandic Provisions ",
+  "amount": 1.79,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Giant Food Store",
+    "totalCost": "5.37",
+    "purchaseDate": "2026-03-31",
+    "time": null,
+    "zipCode": "19438",
+    "city": "Harleysville",
+    "state": "PA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 11368.369292,
+        "totalUsd": 0.0165,
+        "inputTokens": 6086,
+        "outputTokens": 819,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:24pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19438",
+          "status": "match"
+        },
+        "city": {
+          "value": "HARLEYSVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "611 MAIN STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8845",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ILC SK RSPB 5.3Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICLNDC SKY KL5.3",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICLNDC SKYR5.3Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n611 MAIN STREET\nHARLEYSVILLE, PA 19438\nStore Telephone: (215) 513-0400\nStore #6472\n03/31/26\n05:24pm\nDAIRY\nILC SK RSPB 5.3Z\n1.79 F\nICLNDC SKY KL5.3\n1.79 F\nICLNDC SKYR5.3Z\n1.79 F\nTAX\n0.00\n**** BALANCE\n5.37\n****************************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************8845\nPayment Amt: $5.37\nBALANCE: $\nAID: A0000000031010\nAUTH#77233D RC#00 03/31/26 05:25pm\n****************************************\nVISA\n5.37\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n3\n03/31/26 05:25pm 6472 432 86 880032\n****************************************\nTHE CHOICE IS YOURS!\nFREE HAM OR TURKEY, GAS OR GROCERY $\nKeep earning points toward\na FREE HAM OR TURKEY\nRedeem 400 points ONLINE\nor at the REGISTER\n03/01/26 - 04/05/26\nSome restrictions apply.\nSee customer service for full program",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 10716.225083,
+        "totalUsd": 0.024546,
+        "inputTokens": 3692,
+        "outputTokens": 809,
+        "reasoningTokens": 1303
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:24pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19438",
+          "status": "match"
+        },
+        "city": {
+          "value": "HARLEYSVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "611 MAIN STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8845",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ILC SK RSPB 5.3Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICLNDC SKY KL5.3",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICLNDC SKYR5.3Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n611 MAIN STREET\nHARLEYSVILLE, PA 19438\nStore Telephone: (215) 513-0400\nStore #6472\n03/31/26\n05:24pm\nDAIRY\nILC SK RSPB 5.3Z\n1.79 F\nICLNDC SKY KL5.3\n1.79 F\nICLNDC SKYR5.3Z\n1.79 F\nTAX\n0.00\n**** BALANCE\n5.37\n****************************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************8845\nPayment Amt: $5.37\nBALANCE: $\nAID: A0000000031010\nAUTH#77233D RC#00 03/31/26 05:25pm\n****************************************\nVISA\n5.37\nCHANGE\n0.00\nTOTAL NUMBER OF ITEMS SOLD =\n3\n03/31/26 05:25pm 6472 432 86 880032\n****************************************\nTHE CHOICE IS YOURS!\nFREE HAM OR TURKEY, GAS OR GROCERY $\nKeep earning points toward\na FREE HAM OR TURKEY\nRedeem 400 points ONLINE\nor at the REGISTER\n03/01/26 - 04/05/26\nSome restrictions apply.\nSee customer service for full program",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5202.558542000006,
+        "totalUsd": 0.012729,
+        "inputTokens": 3692,
+        "outputTokens": 799,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "GIANT",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "5.37",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-31",
+          "status": "match"
+        },
+        "time": {
+          "value": "05:24pm",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "19438",
+          "status": "match"
+        },
+        "city": {
+          "value": "HARLEYSVILLE",
+          "status": "match"
+        },
+        "state": {
+          "value": "PA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "611 MAIN STREET",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8845",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "ILC SK RSPB 5.3Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICLNDC SKY KL5.3",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ICLNDC SKYR5.3Z",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "GIANT\n611 MAIN STREET\nHARLEYSVILLE, PA 19438\nStore Telephone: (215) 513-0400\nStore #6472 03/31/26 05:24pm\nDAIRY\nILC SK RSPB 5.3Z 1.79 F\nICLNDC SKY KL5.3 1.79 F\nICLNDC SKYR5.3Z 1.79 F\nTAX 0.00\n**** BALANCE 5.37\n****************************************\nPayment Type: VISA CREDIT\nEMV CONTACTLESS Purchase\nCard: ************8845\nPayment Amt: $5.37\nBALANCE: $\nAID: A0000000031010\nAUTH#77233D RC#00 03/31/26 05:25pm\n****************************************\nVISA 5.37\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 3\n03/31/26 05:25pm 6472 432 86 880032\n****************************************\nTHE CHOICE IS YOURS!\nFREE HAM OR TURKEY, GAS OR GROCERY $\nKeep earning points toward\na FREE HAM OR TURKEY\nRedeem 400 points ONLINE\nor at the REGISTER\n03/01/26 - 04/05/26\nSome restrictions apply.\nSee customer service for full program",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "ILC SK RSPB 5.3Z + DAIRY",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "ICLNDC SKY KL5.3",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    },
+    {
+      "text": "ICLNDC SKYR5.3Z",
+      "price": 1.79,
+      "quantity": 1,
+      "totalSpend": 1.79
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

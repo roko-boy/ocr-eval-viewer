@@ -1,0 +1,227 @@
+{
+  "id": "cmnunfps800f0rflqsx67wkpc",
+  "url": null,
+  "retailer": "Walgreens",
+  "brand": "Like Air",
+  "amount": 2.92,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Walgreens",
+    "totalCost": null,
+    "purchaseDate": null,
+    "time": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 8470.005291000009,
+        "totalUsd": 0.020031,
+        "inputTokens": 3706,
+        "outputTokens": 328,
+        "reasoningTokens": 1280
+      },
+      "fields": {
+        "storeName": {
+          "value": "Walmart",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "2.92",
+          "status": "no-truth"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "time": {
+          "value": null,
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "07501",
+          "status": "no-truth"
+        },
+        "city": {
+          "value": "Paterson",
+          "status": "no-truth"
+        },
+        "state": {
+          "value": "NJ",
+          "status": "no-truth"
+        },
+        "streetAddress": {
+          "value": "93 Dixon Ave, Apt 1",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8120",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "LIKE AIR PUFFCORN CLASSIC",
+          "quantity": 1,
+          "unitPrice": 9.91,
+          "totalSpend": 2.92,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "1:15\nArrives Sat, Apr 11\n93 Dixon Ave, Apt 1, Paterson, NJ,\n07501, USA\n1 item See item\nLIKE AIR\nPUFFCORN\nCLASSIC\nOrder total\nIncludes all fees, taxes and\ndiscounts\n$2.92\nYou saved a total of\n$6.99\nPayment method\nVISA Ending in 8120\n$2.92\nWalmart+ Try free pharmacy delivery!",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": true,
+      "error": "no response stamped",
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 0,
+        "totalUsd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": null,
+          "status": "missing"
+        },
+        "purchaseDate": {
+          "value": null,
+          "status": "missing"
+        },
+        "time": {
+          "value": null,
+          "status": "missing"
+        },
+        "zipCode": {
+          "value": null,
+          "status": "missing"
+        },
+        "city": {
+          "value": null,
+          "status": "missing"
+        },
+        "state": {
+          "value": null,
+          "status": "missing"
+        },
+        "streetAddress": {
+          "value": null,
+          "status": "missing"
+        },
+        "paymentMethod": {
+          "value": null,
+          "status": "missing"
+        },
+        "last4cc": {
+          "value": null,
+          "status": "missing"
+        }
+      },
+      "lineItems": [],
+      "rawText": null,
+      "flags": {
+        "isReceipt": null,
+        "isDigital": null,
+        "isScreen": null,
+        "isEbt": null
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "Ending in 8120",
+      "price": 0.73,
+      "quantity": 4,
+      "totalSpend": 2.92
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 2
+}

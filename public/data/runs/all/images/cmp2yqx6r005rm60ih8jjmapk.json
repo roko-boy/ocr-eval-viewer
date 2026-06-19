@@ -1,0 +1,297 @@
+{
+  "id": "cmp2yqx6r005rm60ih8jjmapk",
+  "url": null,
+  "retailer": "Petco",
+  "brand": "Brutus Bone Broth",
+  "amount": 4,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Petco",
+    "totalCost": "29.33",
+    "purchaseDate": "2026-05-12",
+    "time": null,
+    "zipCode": "11725",
+    "city": "Commack",
+    "state": "NY",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 13956.88891699997,
+        "totalUsd": 0.017427,
+        "inputTokens": 6086,
+        "outputTokens": 922,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11725",
+          "status": "match"
+        },
+        "city": {
+          "value": "COMMACK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "30 VETERANS MEMORIAL HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8981",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153168 BTH-DOG 32Z BEEF BRO",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622579 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004777343 NAV-DOG 3Z FRESHDRIE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCOMMACK #01702\n30 VETERANS MEMORIAL HWY\nCOMMACK, NY 11725\n631-462-1643\n05/12/26 2:09PM Reg 001 Trans 271573\nHelped by Logan\n003153168 BTH-DOG 32Z BEEF BRO 9.99 T\n004622579 NAV-DOG 8Z FRESHRAW 6.99 T\n004777343 NAV-DOG 3Z FRESHDRIE 9.99 T\nTaxable Total 26.97\nSubtotal 26.97\nTax NY 8.75% 2.36\nTOTAL 29.33\nAmerican Express Credit Card 29.33\n2026-05-12 02:08:53 PM\nTotal USD $29.33\nAmex\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX8981\nPurchase APPROVED\nAUTH CODE: 803060\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06030103A20102\nTSI: E800\nARC: 00\nRRN: 551871\n3 Items\nTransaction Barcode\n011702373001271573202605125426956480",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 18603.09137500002,
+        "totalUsd": 0.020316,
+        "inputTokens": 3692,
+        "outputTokens": 916,
+        "reasoningTokens": 726
+      },
+      "fields": {
+        "storeName": {
+          "value": "petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11725",
+          "status": "match"
+        },
+        "city": {
+          "value": "COMMACK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "30 VETERANS MEMORIAL HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8981",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153168 BTH-DOG 32Z BEEF BRO",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622579 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004777343 NAV-DOG 3Z FRESHDRIE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCOMMACK #01702\n30 VETERANS MEMORIAL HWY\nCOMMACK, NY 11725\n631-462-1643\n05/12/26 2:09PM Reg 001 Trans 271573\nHelped by Logan\n003153168 BTH-DOG 32Z BEEF BRO 9.99 T\n004622579 NAV-DOG 8Z FRESHRAW 6.99 T\n004777343 NAV-DOG 3Z FRESHDRIE 9.99 T\nTaxable Total 26.97\nSubtotal 26.97\nTax NY 8.75% 2.36\nTOTAL 29.33\nAmerican Express Credit Card 29.33\n2026-05-12 02:08:53 PM\nTotal USD $29.33\nAmex\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX8981\nPurchase APPROVED\nAUTH CODE: 803060\nAID: A000000025010901\nTVR: 0000008000\nIAD: 06030103A20102\nTSI: E800\nARC: 00\nRRN: 551871\n3 Items\nTransaction Barcode\n011702373001271573202605125426956480",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5674.15191700001,
+        "totalUsd": 0.013782,
+        "inputTokens": 3692,
+        "outputTokens": 916,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Petco",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "29.33",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-05-12",
+          "status": "match"
+        },
+        "time": {
+          "value": "2:09 PM",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "11725",
+          "status": "match"
+        },
+        "city": {
+          "value": "COMMACK",
+          "status": "match"
+        },
+        "state": {
+          "value": "NY",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "30 VETERANS MEMORIAL HWY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "AMEX",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8981",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "003153168 BTH-DOG 32Z BEEF BRO",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004622579 NAV-DOG 8Z FRESHRAW",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "004777343 NAV-DOG 3Z FRESHDRIE",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "petco\nCOMMACK #01702\n30 VETERANS MEMORIAL HWY\nCOMMACK, NY 11725\n631-462-1643\n05/12/26 2:09PM Reg 001 Trans 271573\nHelped by Logan\n003153168 BTH-DOG 32Z BEEF BRO 9.99 T\n004622579 NAV-DOG 8Z FRESHRAW 6.99 T\n004777343 NAV-DOG 3Z FRESHDRIE 9.99 T\nTaxable Total 26.97\nSubtotal 26.97\nTax NY 8.75% 2.36\nTOTAL 29.33\nAmerican Express Credit Card 29.33\n2026-05-12 02:08:53 PM\nTotal USD $29.33\nAmex\nEntry Method: TAP\nCARD #: XXXXXXXXXXXX8981\nPurchase - APPROVED\nAUTH CODE: 803060\nAID: A00000025010901\nTVR: 0000008000\nIAD: 06030103A20102\nTSI: E800\nARC: 00\nRRN: 551871\n3 Items\nTransaction Barcode\n011702373001271573202605125426956480",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "BTH-DOG 32Z BEEF BRO + 003153168",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    },
+    {
+      "text": "NAV-DOG 8Z FRESHRAW + 004622579",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "NAV-DOG 3Z FRESHDRIE + 004777343",
+      "price": 9.99,
+      "quantity": 1,
+      "totalSpend": 9.99
+    }
+  ],
+  "disagreementCount": 0,
+  "nullCount": 0
+}

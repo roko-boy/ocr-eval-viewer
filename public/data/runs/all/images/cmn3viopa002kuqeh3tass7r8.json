@@ -1,0 +1,372 @@
+{
+  "id": "cmn3viopa002kuqeh3tass7r8",
+  "url": null,
+  "retailer": "Safeway",
+  "brand": "Pulmuone - Plant Based",
+  "amount": 3.5,
+  "purpose": "REDEMPTION",
+  "ocrProcessor": "MICROBLINK",
+  "truth": {
+    "storeName": "Safeway",
+    "totalCost": "25.19",
+    "purchaseDate": "2026-03-23",
+    "time": null,
+    "zipCode": "94611",
+    "city": "Oakland",
+    "state": "CA",
+    "streetAddress": null,
+    "paymentMethod": null,
+    "last4cc": null
+  },
+  "models": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-merchantSpecific",
+      "metrics": {
+        "latencyMs": 21342.836167,
+        "totalUsd": 0.01875,
+        "inputTokens": 6086,
+        "outputTokens": 1069,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": null,
+          "status": "missing"
+        },
+        "totalCost": {
+          "value": "25.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94611",
+          "status": "match"
+        },
+        "city": {
+          "value": "OAKLAND",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5100 BROADWAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8425",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "885870241082 TAOKAENOI BIG ROLL",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2548400740 NASOYA KIMCHI SPCY",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85977400727 CLASSIC KIMCHI + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85977400783 SPICY KIMCHI + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "68710 #RX NON-TAX ITEM",
+          "quantity": 1,
+          "unitPrice": 4.73,
+          "totalSpend": 4.73,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "68710 #RX NON-TAX ITEM",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Store 3132 Dir Gina Hernanadez\nMain: (510) 285-0782 Rx:\n5100 BROADWAY\nOAKLAND CA 94611\n00313202800402603231722\nYOUR CASHIER TODAY WAS Robin\nGROCERY\nPrice You Pay\n885870241082 TAOKAENOI BIG ROLL\n3.49 3.49 S\nPRODUCE\n2548400740 NASOYA KIMCHI SPCY\n6.99 6.99 S\n85977400727 CLASSIC KIMCHI\n5.99 4.99 S\nMember Savings -1.00\n85977400783 SPICY KIMCHI\n5.99 4.99 S\nMember Savings -1.00\nPHARMACY\n68710 #RX NON-TAX ITEM\n4.73 4.73 Q\n68710 #RX NON-TAX ITEM\n0.00 0.00 Q\nTAX\n0.00\n**** BALANCE\n25.19\nCredit Purchase 03/23/26 17:21\nCARD # ************8425\nREF: 772130484250 AUTH: 00782673\nPAYMENT AMOUNT\n4.73\nQHP ITEM TOTAL\n4.73\nQHP TOTAL\n4.73\nVisa\n4.73 Q",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-mediumThinking",
+      "metrics": {
+        "latencyMs": 22903.28658399999,
+        "totalUsd": 0.035103,
+        "inputTokens": 3692,
+        "outputTokens": 1099,
+        "reasoningTokens": 2186
+      },
+      "fields": {
+        "storeName": {
+          "value": "CVS Pharmacy",
+          "status": "mismatch"
+        },
+        "totalCost": {
+          "value": "25.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94611",
+          "status": "match"
+        },
+        "city": {
+          "value": "OAKLAND",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5100 BROADWAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8425",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "885870241082 TAOKAENOI BIG ROLL",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2548400740 NASOYA KIMCHI SPCY",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85977400727 CLASSIC KIMCHI + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85977400783 SPICY KIMCHI + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "68710 #RX NON-TAX ITEM",
+          "quantity": 1,
+          "unitPrice": 4.73,
+          "totalSpend": 4.73,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "68710 #RX NON-TAX ITEM",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Store 3132 Dir Gina Hernanadez\nMain: (510) 285-0782 Rx:\n5100 BROADWAY\nOAKLAND CA 94611\n\n00313202800402603231722\n\nYOUR CASHIER TODAY WAS Robin\n\nGROCERY\n885870241082 TAOKAENOI BIG ROLL\nPrice You Pay\n3.49 3.49 S\nPRODUCE\n2548400740 NASOYA KIMCHI SPCY\n6.99 6.99 S\n85977400727 CLASSIC KIMCHI\n5.99 4.99 S\nMember Savings -1.00\n85977400783 SPICY KIMCHI\n5.99 4.99 S\nMember Savings -1.00\nPHARMACY\n68710 #RX NON-TAX ITEM\n4.73 4.73 Q\n68710 #RX NON-TAX ITEM\n0.00 0.00 Q\n\nTAX 0.00\n**** BALANCE 25.19\n\nCredit Purchase 03/23/26 17:21\nCARD # ************8425\nREF: 772130484250 AUTH: 00782673\nPAYMENT AMOUNT 4.73\n\nQHP ITEM TOTAL 4.73\nQHP TOTAL 4.73\nVisa 4.73 Q",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "isNull": false,
+      "error": null,
+      "source": "gemini-3.5-flash-lowThinking",
+      "metrics": {
+        "latencyMs": 5796.456917000003,
+        "totalUsd": 0.015204,
+        "inputTokens": 3692,
+        "outputTokens": 1074,
+        "reasoningTokens": 0
+      },
+      "fields": {
+        "storeName": {
+          "value": "Safeway",
+          "status": "match"
+        },
+        "totalCost": {
+          "value": "25.19",
+          "status": "match"
+        },
+        "purchaseDate": {
+          "value": "2026-03-23",
+          "status": "match"
+        },
+        "time": {
+          "value": "17:21",
+          "status": "no-truth"
+        },
+        "zipCode": {
+          "value": "94611",
+          "status": "match"
+        },
+        "city": {
+          "value": "OAKLAND",
+          "status": "match"
+        },
+        "state": {
+          "value": "CA",
+          "status": "match"
+        },
+        "streetAddress": {
+          "value": "5100 BROADWAY",
+          "status": "no-truth"
+        },
+        "paymentMethod": {
+          "value": "VISA",
+          "status": "no-truth"
+        },
+        "last4cc": {
+          "value": "8425",
+          "status": "no-truth"
+        }
+      },
+      "lineItems": [
+        {
+          "text": "885870241082 TAOKAENOI BIG ROLL",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "2548400740 NASOYA KIMCHI SPCY",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85977400727 CLASSIC KIMCHI + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85977400783 SPICY KIMCHI + Member Savings -1.00",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "68710 #RX NON-TAX ITEM",
+          "quantity": 1,
+          "unitPrice": 4.73,
+          "totalSpend": 4.73,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "68710 #RX NON-TAX ITEM",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Store 3132 Dir Gina Hernanadez\nMain: (510) 285-0782 Rx:\n5100 BROADWAY\nOAKLAND CA 94611\n00313202800402603231722\nYOUR CASHIER TODAY WAS Robin\nGROCERY\nPrice You Pay\n885870241082 TAOKAENOI BIG ROLL\n3.49 3.49 S\nPRODUCE\n2548400740 NASOYA KIMCHI SPCY\n6.99 6.99 S\n85977400727 CLASSIC KIMCHI\n5.99 4.99 S\nMember Savings -1.00\n85977400783 SPICY KIMCHI\n5.99 4.99 S\nMember Savings -1.00\nPHARMACY\n68710 #RX NON-TAX ITEM\n4.73 4.73 Q\n68710 #RX NON-TAX ITEM\n0.00 0.00 Q\nTAX\n0.00\n**** BALANCE\n25.19\nCredit Purchase 03/23/26 17:21\nCARD # ************8425\nREF: 772130484250 AUTH: 00782673\nPAYMENT AMOUNT\n4.73\nQHP ITEM TOTAL\n4.73\nQHP TOTAL\n4.73\nVisa\n4.73 Q",
+      "flags": {
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
+      }
+    }
+  },
+  "lineItemTruth": [
+    {
+      "text": "TAOKAENOT BIG ROLL + 885870241082 + PRODUCE",
+      "price": 3.49,
+      "quantity": 1,
+      "totalSpend": 3.49
+    },
+    {
+      "text": "NASOYA KIMCHI SPCY + 2548400740",
+      "price": 6.99,
+      "quantity": 1,
+      "totalSpend": 6.99
+    },
+    {
+      "text": "CLASSIC KIMCHI + 85977400727 + Member Savings -1.00",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "SPICY KIMCHI + 85977400783 + Member Savings -1.00 + PHARMACY",
+      "price": 4.99,
+      "quantity": 1,
+      "totalSpend": 4.99
+    },
+    {
+      "text": "RX NON-TAX ITEM + 68710",
+      "price": 4.73,
+      "quantity": 1,
+      "totalSpend": 4.73
+    }
+  ],
+  "disagreementCount": 1,
+  "nullCount": 0
+}
