@@ -103,5 +103,6 @@ export interface RunIndex {
   }>;
   lineItemAgg: Record<string, unknown>;
   fieldMatrix: Record<string, Record<string, { ok: number; n: number; rate: number }>>;
+  merchantOrder?: string[];
   images: ImageIndex[];
 }

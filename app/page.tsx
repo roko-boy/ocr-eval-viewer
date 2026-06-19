@@ -46,15 +46,23 @@ export default function Home() {
 
   const allFields = [...(data.scalarFields || []), ...(data.positionalFields || [])];
 
-  // Merchant counts for ordering and filter dropdown
+  // Merchant counts for ordering and filter dropdown.
+  // Prefer the gen script's merchantOrder (preserves CSV ordering on ties).
   const merchantCounts = new Map<string, number>();
   for (const img of data.images) {
     const m = img.merchantId ?? "unknown";
     merchantCounts.set(m, (merchantCounts.get(m) ?? 0) + 1);
   }
-  const merchantsByCount = Array.from(merchantCounts.entries()).sort(
-    (a, b) => b[1] - a[1] || a[0].localeCompare(b[0])
-  );
+  const ordered = data.merchantOrder?.length
+    ? data.merchantOrder
+    : Array.from(merchantCounts.keys()).sort(
+        (a, b) =>
+          (merchantCounts.get(b) ?? 0) - (merchantCounts.get(a) ?? 0) ||
+          a.localeCompare(b)
+      );
+  const merchantsByCount: Array<[string, number]> = ordered
+    .filter((m) => merchantCounts.has(m))
+    .map((m) => [m, merchantCounts.get(m) ?? 0]);
   const merchantRank = new Map<string, number>();
   merchantsByCount.forEach(([m], i) => merchantRank.set(m, i));
 
