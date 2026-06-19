@@ -1,6 +1,7 @@
 {
   "id": "cmq05457z0020nzeumm8zwf35",
   "url": null,
+  "merchantId": "kroger",
   "retailer": "Kroger Marketplace",
   "brand": "Clearly Canadian",
   "amount": 5.99,
@@ -491,5 +492,19 @@
     }
   ],
   "disagreementCount": 5,
-  "nullCount": 1
+  "nullCount": 1,
+  "perModelScalar": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "ok": 0,
+      "n": 6
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "ok": 1,
+      "n": 6
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "ok": 5,
+      "n": 6
+    }
+  }
 }

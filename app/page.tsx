@@ -24,6 +24,8 @@ function AccuracyBar({ rate }: { rate: number }) {
 export default function Home() {
   const [data, setData] = useState<RunIndex | null>(null);
   const [filter, setFilter] = useState<string | null>(null);
+  const [merchantFilter, setMerchantFilter] = useState<string>("all");
+  const [accuracyFilter, setAccuracyFilter] = useState<string>("all"); // all | wrong-on-any | wrong-on-all
 
   useEffect(() => {
     fetch("/data/runs.json")
@@ -44,10 +46,50 @@ export default function Home() {
 
   const allFields = [...(data.scalarFields || []), ...(data.positionalFields || [])];
 
+  // Merchant counts for ordering and filter dropdown
+  const merchantCounts = new Map<string, number>();
+  for (const img of data.images) {
+    const m = img.merchantId ?? "unknown";
+    merchantCounts.set(m, (merchantCounts.get(m) ?? 0) + 1);
+  }
+  const merchantsByCount = Array.from(merchantCounts.entries()).sort(
+    (a, b) => b[1] - a[1] || a[0].localeCompare(b[0])
+  );
+  const merchantRank = new Map<string, number>();
+  merchantsByCount.forEach(([m], i) => merchantRank.set(m, i));
+
   // Filter images
-  let images = data.images;
+  let images = data.images.slice();
   if (filter === "disagreements") images = images.filter((i) => i.disagreementCount > 0);
   else if (filter === "nulls") images = images.filter((i) => i.nullCount > 0);
+  if (merchantFilter !== "all") {
+    images = images.filter((i) => (i.merchantId ?? "unknown") === merchantFilter);
+  }
+  if (accuracyFilter !== "all") {
+    const modelKeys = data.models;
+    images = images.filter((i) => {
+      if (!i.perModelScalar) return false;
+      const flags = modelKeys.map((m) => {
+        const s = i.perModelScalar?.[m];
+        if (!s || s.n === 0) return null;
+        return s.ok < s.n; // true if model missed at least one scalar field
+      });
+      const hasMiss = flags.some((f) => f === true);
+      const allMiss = flags.every((f) => f === true);
+      return accuracyFilter === "wrong-on-any" ? hasMiss : allMiss;
+    });
+  }
+
+  // Default sort: by merchant frequency desc, then merchant name asc, then retailer asc
+  images.sort((a, b) => {
+    const am = a.merchantId ?? "unknown";
+    const bm = b.merchantId ?? "unknown";
+    const ar = merchantRank.get(am) ?? 999;
+    const br = merchantRank.get(bm) ?? 999;
+    if (ar !== br) return ar - br;
+    if (am !== bm) return am.localeCompare(bm);
+    return (a.retailer ?? "").localeCompare(b.retailer ?? "");
+  });
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 space-y-10">
@@ -176,12 +218,33 @@ export default function Home() {
 
       {/* Receipt Grid */}
       <section>
-        <div className="mb-3 flex items-center justify-between gap-3">
+        <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
           <h2 className="text-base font-semibold text-neutral-200">
             Receipts{" "}
             <span className="text-neutral-500 font-normal">({images.length})</span>
           </h2>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <select
+              value={merchantFilter}
+              onChange={(e) => setMerchantFilter(e.target.value)}
+              className="rounded border border-neutral-700 bg-neutral-900 px-2 py-1 text-xs text-neutral-300 hover:bg-neutral-800"
+            >
+              <option value="all">All merchants ({data.images.length})</option>
+              {merchantsByCount.map(([m, n]) => (
+                <option key={m} value={m}>
+                  {m} ({n})
+                </option>
+              ))}
+            </select>
+            <select
+              value={accuracyFilter}
+              onChange={(e) => setAccuracyFilter(e.target.value)}
+              className="rounded border border-neutral-700 bg-neutral-900 px-2 py-1 text-xs text-neutral-300 hover:bg-neutral-800"
+            >
+              <option value="all">All accuracy</option>
+              <option value="wrong-on-any">Any model missed a field</option>
+              <option value="wrong-on-all">All models missed a field</option>
+            </select>
             {(["all", "disagreements", "nulls"] as const).map((f) => (
               <button
                 key={f}
@@ -201,6 +264,7 @@ export default function Home() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-neutral-800 text-left text-xs text-neutral-500">
+                <th className="px-4 py-3">Merchant</th>
                 <th className="px-4 py-3">Retailer</th>
                 <th className="px-4 py-3">Brand</th>
                 <th className="px-4 py-3">Amount</th>
@@ -211,12 +275,13 @@ export default function Home() {
               </tr>
             </thead>
             <tbody>
-              {images.slice(0, 200).map((img: ImageIndex) => (
+              {images.map((img: ImageIndex) => (
                 <tr
                   key={img.id}
                   className="border-t border-neutral-800 hover:bg-neutral-900/70 cursor-pointer"
                   onClick={() => window.location.href = `/image/${img.id}`}
                 >
+                  <td className="px-4 py-2.5 text-neutral-400 font-mono text-xs">{img.merchantId ?? "—"}</td>
                   <td className="px-4 py-2.5 font-medium text-sky-400">{img.retailer}</td>
                   <td className="px-4 py-2.5 text-neutral-400">{img.brand}</td>
                   <td className="px-4 py-2.5 text-neutral-300">
@@ -258,11 +323,6 @@ export default function Home() {
               ))}
             </tbody>
           </table>
-          {images.length > 200 && (
-            <div className="border-t border-neutral-800 px-4 py-3 text-xs text-neutral-500">
-              Showing 200 of {images.length} receipts
-            </div>
-          )}
         </div>
       </section>
     </main>

@@ -1,8 +1,9 @@
 {
   "id": "cmoyl11k000xkbme0p0rtbncr",
   "url": null,
+  "merchantId": "sheetz",
   "retailer": "Sheetz",
-  "brand": "Pepsi Food Service",
+  "brand": "PEPSI® Food Service",
   "amount": 1.23,
   "purpose": "REDEMPTION",
   "ocrProcessor": "MICROBLINK",
@@ -281,5 +282,19 @@
     }
   ],
   "disagreementCount": 5,
-  "nullCount": 0
+  "nullCount": 0,
+  "perModelScalar": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "ok": 2,
+      "n": 5
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "ok": 5,
+      "n": 5
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "ok": 3,
+      "n": 5
+    }
+  }
 }

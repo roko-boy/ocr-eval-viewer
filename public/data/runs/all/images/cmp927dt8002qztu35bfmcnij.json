@@ -1,8 +1,9 @@
 {
   "id": "cmp927dt8002qztu35bfmcnij",
   "url": null,
+  "merchantId": "kroger",
   "retailer": "Kroger",
-  "brand": "phx hydration energy",
+  "brand": "PHX Hydration Energy",
   "amount": 2.99,
   "purpose": "REDEMPTION",
   "ocrProcessor": "MICROBLINK",
@@ -231,5 +232,19 @@
     }
   ],
   "disagreementCount": 5,
-  "nullCount": 1
+  "nullCount": 1,
+  "perModelScalar": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "ok": 5,
+      "n": 6
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "ok": 2,
+      "n": 6
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "ok": 0,
+      "n": 6
+    }
+  }
 }

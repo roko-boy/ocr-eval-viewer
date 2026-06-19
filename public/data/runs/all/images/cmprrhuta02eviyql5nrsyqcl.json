@@ -1,8 +1,9 @@
 {
   "id": "cmprrhuta02eviyql5nrsyqcl",
   "url": null,
+  "merchantId": "acme",
   "retailer": "Roths West Salem",
-  "brand": "Acme Valley Ice Cream",
+  "brand": "Crooked Spoon Ice Cream",
   "amount": 1,
   "purpose": "REDEMPTION",
   "ocrProcessor": "MICROBLINK",
@@ -563,5 +564,19 @@
     }
   ],
   "disagreementCount": 1,
-  "nullCount": 0
+  "nullCount": 0,
+  "perModelScalar": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "ok": 2,
+      "n": 3
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "ok": 2,
+      "n": 3
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "ok": 1,
+      "n": 3
+    }
+  }
 }

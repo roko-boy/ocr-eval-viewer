@@ -38,6 +38,7 @@ export interface ModelResult {
 
 export interface ImageIndex {
   id: string;
+  merchantId?: string;
   retailer: string;
   brand: string;
   amount: number | null;
@@ -45,6 +46,8 @@ export interface ImageIndex {
   ocrProcessor: string;
   disagreementCount: number;
   nullCount: number;
+  truthLineCount?: number;
+  perModelScalar?: Record<string, { ok: number; n: number }>;
   problems: Record<string, unknown>;
 }
 

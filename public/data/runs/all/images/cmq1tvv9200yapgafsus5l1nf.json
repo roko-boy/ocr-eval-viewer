@@ -1,6 +1,7 @@
 {
   "id": "cmq1tvv9200yapgafsus5l1nf",
   "url": null,
+  "merchantId": "bar",
   "retailer": "Unknown",
   "brand": "Actual Veggies",
   "amount": 2,
@@ -431,5 +432,19 @@
     }
   ],
   "disagreementCount": 1,
-  "nullCount": 1
+  "nullCount": 1,
+  "perModelScalar": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "ok": 0,
+      "n": 2
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "ok": 1,
+      "n": 2
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "ok": 1,
+      "n": 2
+    }
+  }
 }

@@ -1,8 +1,9 @@
 {
   "id": "cmnjgswjs002012ach5b5oi7c",
   "url": null,
+  "merchantId": "kroger",
   "retailer": "Kroger",
-  "brand": "holmes smokehouse",
+  "brand": "Holmes Smokehouse",
   "amount": 3.99,
   "purpose": "REDEMPTION",
   "ocrProcessor": "MICROBLINK",
@@ -428,5 +429,19 @@
     }
   ],
   "disagreementCount": 2,
-  "nullCount": 0
+  "nullCount": 0,
+  "perModelScalar": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "ok": 5,
+      "n": 6
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "ok": 3,
+      "n": 6
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "ok": 5,
+      "n": 6
+    }
+  }
 }

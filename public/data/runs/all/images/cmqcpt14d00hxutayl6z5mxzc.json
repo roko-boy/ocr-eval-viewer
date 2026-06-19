@@ -1,8 +1,9 @@
 {
   "id": "cmqcpt14d00hxutayl6z5mxzc",
   "url": null,
+  "merchantId": "thefreshmarket",
   "retailer": "ACME Fresh Market",
-  "brand": "phx hydration energy",
+  "brand": "PHX Hydration Energy",
   "amount": 3,
   "purpose": "REDEMPTION",
   "ocrProcessor": "LLM",
@@ -231,5 +232,19 @@
     }
   ],
   "disagreementCount": 3,
-  "nullCount": 1
+  "nullCount": 1,
+  "perModelScalar": {
+    "gemini-3.5-flash-merchantSpecific": {
+      "ok": 3,
+      "n": 6
+    },
+    "gemini-3.5-flash-mediumThinking": {
+      "ok": 3,
+      "n": 6
+    },
+    "gemini-3.5-flash-lowThinking": {
+      "ok": 0,
+      "n": 6
+    }
+  }
 }
