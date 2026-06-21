@@ -70,7 +70,7 @@ function ReceiptImage({ url, id }: { url: string; id: string }) {
               top: lens.y - LENS_SIZE / 2,
               border: "2px solid rgba(255,255,255,0.6)",
               backgroundImage: `url(${url})`,
-              backgroundSize: `${imgRef.current?.offsetWidth ?? 200 * ZOOM}px`,
+              backgroundSize: `${(imgRef.current?.offsetWidth ?? 200) * ZOOM}px`,
               backgroundPosition: `${lens.bgX}px ${lens.bgY}px`,
               backgroundRepeat: "no-repeat",
               boxShadow: "0 0 0 1px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.6)",
