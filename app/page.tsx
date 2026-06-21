@@ -287,10 +287,23 @@ export default function Home() {
                 <tr
                   key={img.id}
                   className="border-t border-neutral-800 hover:bg-neutral-900/70 cursor-pointer"
-                  onClick={() => window.location.href = `/image/${img.id}`}
+                  onClick={(e) => {
+                    if (e.metaKey || e.ctrlKey) {
+                      window.open(`/image/${img.id}`, "_blank");
+                    } else {
+                      window.location.href = `/image/${img.id}`;
+                    }
+                  }}
+                  onAuxClick={(e) => {
+                    if (e.button === 1) window.open(`/image/${img.id}`, "_blank");
+                  }}
                 >
                   <td className="px-4 py-2.5 text-neutral-400 font-mono text-xs">{img.merchantId ?? "—"}</td>
-                  <td className="px-4 py-2.5 font-medium text-sky-400">{img.retailer}</td>
+                  <td className="px-4 py-2.5 font-medium text-sky-400">
+                    <Link href={`/image/${img.id}`} target="_blank" onClick={(e) => e.stopPropagation()} className="hover:underline">
+                      {img.retailer}
+                    </Link>
+                  </td>
                   <td className="px-4 py-2.5 text-neutral-400">{img.brand}</td>
                   <td className="px-4 py-2.5 text-neutral-300">
                     {img.amount != null ? `$${img.amount.toFixed(2)}` : "—"}
