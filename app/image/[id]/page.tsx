@@ -229,13 +229,13 @@ export default function ImagePage({ params }: { params: Promise<{ id: string }> 
                       {labelFor(model)}
                     </div>
                     {result.lineItems?.length > 0 ? (
-                      <table className="w-full text-xs">
+                      <table className="w-full table-fixed text-xs">
                         <thead>
                           <tr className="border-b border-neutral-800 text-neutral-500">
                             <th className="px-3 py-2 text-left">Item</th>
-                            <th className="px-3 py-2 text-right">Unit price</th>
-                            <th className="px-3 py-2 text-right">Qty</th>
-                            <th className="px-3 py-2 text-right">Total</th>
+                            <th className="px-3 py-2 text-right w-20">Unit price</th>
+                            <th className="px-3 py-2 text-right w-10">Qty</th>
+                            <th className="px-3 py-2 text-right w-16">Total</th>
                           </tr>
                         </thead>
                         <tbody>
