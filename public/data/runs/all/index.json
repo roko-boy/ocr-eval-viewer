@@ -1,7 +1,7 @@
 {
   "run": "all",
   "runLabel": "merchantSpecific vs medium vs low thinking",
-  "generatedAt": "2026-06-21T03:27:38.606Z",
+  "generatedAt": "2026-06-21T11:09:06.069Z",
   "batchLabel": "batch750",
   "models": [
     "gemini-3.5-flash-merchantSpecific",
@@ -23,12 +23,12 @@
   "positionalFields": [],
   "scorecard": {
     "gemini-3.5-flash-merchantSpecific": {
-      "scalarOk": 3317,
+      "scalarOk": 3319,
       "scalarN": 3962,
-      "scalarAccuracy": 0.837203432609793,
-      "avgLatencyMs": 14809.926561839993,
-      "avgCostUsd": 0.022379936,
-      "projectedMonthlyUsd": 6713.9808,
+      "scalarAccuracy": 0.8377082281675922,
+      "avgLatencyMs": 15036.054254454655,
+      "avgCostUsd": 0.023352283999999994,
+      "projectedMonthlyUsd": 7005.685199999998,
       "nullResponses": 0,
       "attempts": 750
     },
@@ -56,13 +56,13 @@
   "modelHistory": [],
   "lineItemAgg": {
     "gemini-3.5-flash-merchantSpecific": {
-      "emittedRows": 6206,
+      "emittedRows": 6202,
       "matchedRows": 2891,
-      "textWarn": 2072,
-      "mismatchRows": 1243,
+      "textWarn": 2075,
+      "mismatchRows": 1236,
       "truthRows": 6175,
-      "truthCovered": 4963,
-      "receiptsExact": 401,
+      "truthCovered": 4966,
+      "receiptsExact": 404,
       "receiptsScored": 700
     },
     "gemini-3.5-flash-mediumThinking": {
@@ -174,9 +174,9 @@
     },
     "city": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 560,
+        "ok": 561,
         "n": 652,
-        "rate": 0.8588957055214724
+        "rate": 0.8604294478527608
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 551,
@@ -191,9 +191,9 @@
     },
     "state": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 593,
+        "ok": 594,
         "n": 650,
-        "rate": 0.9123076923076923
+        "rate": 0.9138461538461539
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 586,
@@ -17007,12 +17007,12 @@
       "amount": 2.89,
       "purpose": "REDEMPTION",
       "ocrProcessor": "MICROBLINK",
-      "disagreementCount": 2,
+      "disagreementCount": 0,
       "nullCount": 0,
       "truthLineCount": 6,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {
-          "ok": 2,
+          "ok": 4,
           "n": 5
         },
         "gemini-3.5-flash-mediumThinking": {
