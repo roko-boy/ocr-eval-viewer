@@ -13,30 +13,34 @@ function StatusBadge({ status }: { status: string }) {
 }
 
 const LENS_SIZE = 160;
-const ZOOM = 3;
+const ZOOM = 2.5;
 
 function ReceiptImage({ url, id }: { url: string; id: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const imgRef = useRef<HTMLImageElement>(null);
-  const [lens, setLens] = useState<{ show: boolean; x: number; y: number; bgX: number; bgY: number }>(
-    { show: false, x: 0, y: 0, bgX: 0, bgY: 0 }
-  );
+  const [lens, setLens] = useState<{
+    show: boolean; x: number; y: number; bgX: number; bgY: number; imgW: number;
+  }>({ show: false, x: 0, y: 0, bgX: 0, bgY: 0, imgW: 0 });
 
   const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
     const container = containerRef.current;
     const imgEl = imgRef.current;
     if (!container || !imgEl) return;
-    const rect = container.getBoundingClientRect();
-    const cx = e.clientX - rect.left;
-    const cy = e.clientY - rect.top;
-    const w = imgEl.offsetWidth;
-    const h = imgEl.offsetHeight;
-    // background-position offsets so the zoomed image is centered on the cursor
-    const bgX = -(cx * ZOOM - LENS_SIZE / 2);
-    const bgY = -(cy * ZOOM - LENS_SIZE / 2);
-    setLens({ show: true, x: cx, y: cy, bgX, bgY });
-    // suppress unused warning
-    void w; void h;
+
+    const containerRect = container.getBoundingClientRect();
+    const imgRect = imgEl.getBoundingClientRect();
+
+    // Lens position: relative to container
+    const lensX = e.clientX - containerRect.left;
+    const lensY = e.clientY - containerRect.top;
+
+    // Background offset: use cursor position relative to the IMAGE element
+    const imgX = e.clientX - imgRect.left;
+    const imgY = e.clientY - imgRect.top;
+    const bgX = -(imgX * ZOOM - LENS_SIZE / 2);
+    const bgY = -(imgY * ZOOM - LENS_SIZE / 2);
+
+    setLens({ show: true, x: lensX, y: lensY, bgX, bgY, imgW: imgEl.offsetWidth });
   }, []);
 
   const handleMouseLeave = useCallback(() => setLens((l) => ({ ...l, show: false })), []);
@@ -60,17 +64,17 @@ function ReceiptImage({ url, id }: { url: string; id: string }) {
           />
         </a>
         {/* Loupe lens */}
-        {lens.show && (
+        {lens.show && lens.imgW > 0 && (
           <div
-            className="absolute rounded-full pointer-events-none shadow-xl"
+            className="absolute rounded-full pointer-events-none"
             style={{
               width: LENS_SIZE,
               height: LENS_SIZE,
               left: lens.x - LENS_SIZE / 2,
               top: lens.y - LENS_SIZE / 2,
-              border: "2px solid rgba(255,255,255,0.6)",
+              border: "2px solid rgba(255,255,255,0.7)",
               backgroundImage: `url(${url})`,
-              backgroundSize: `${(imgRef.current?.offsetWidth ?? 200) * ZOOM}px`,
+              backgroundSize: `${lens.imgW * ZOOM}px`,
               backgroundPosition: `${lens.bgX}px ${lens.bgY}px`,
               backgroundRepeat: "no-repeat",
               boxShadow: "0 0 0 1px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.6)",
