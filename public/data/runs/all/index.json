@@ -1,7 +1,7 @@
 {
   "run": "all",
   "runLabel": "merchantSpecific vs medium vs low thinking",
-  "generatedAt": "2026-06-21T03:05:14.070Z",
+  "generatedAt": "2026-06-21T03:13:02.959Z",
   "batchLabel": "batch750",
   "models": [
     "gemini-3.5-flash-merchantSpecific",
@@ -23,13 +23,13 @@
   "positionalFields": [],
   "scorecard": {
     "gemini-3.5-flash-merchantSpecific": {
-      "scalarOk": 3313,
+      "scalarOk": 3317,
       "scalarN": 3962,
-      "scalarAccuracy": 0.8361938414941948,
-      "avgLatencyMs": 14693.520829171994,
-      "avgCostUsd": 0.022087422000000002,
-      "projectedMonthlyUsd": 6626.226600000001,
-      "nullResponses": 2,
+      "scalarAccuracy": 0.837203432609793,
+      "avgLatencyMs": 14809.926561839993,
+      "avgCostUsd": 0.022379936,
+      "projectedMonthlyUsd": 6713.9808,
+      "nullResponses": 0,
       "attempts": 750
     },
     "gemini-3.5-flash-mediumThinking": {
@@ -56,12 +56,12 @@
   "modelHistory": [],
   "lineItemAgg": {
     "gemini-3.5-flash-merchantSpecific": {
-      "emittedRows": 6146,
-      "matchedRows": 2878,
-      "textWarn": 2044,
-      "mismatchRows": 1224,
+      "emittedRows": 6206,
+      "matchedRows": 2891,
+      "textWarn": 2072,
+      "mismatchRows": 1243,
       "truthRows": 6175,
-      "truthCovered": 4922,
+      "truthCovered": 4963,
       "receiptsExact": 401,
       "receiptsScored": 700
     },
@@ -106,9 +106,9 @@
     },
     "totalCost": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 632,
+        "ok": 633,
         "n": 668,
-        "rate": 0.9461077844311377
+        "rate": 0.9476047904191617
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 631,
@@ -123,9 +123,9 @@
     },
     "purchaseDate": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 616,
+        "ok": 617,
         "n": 663,
-        "rate": 0.9291101055806938
+        "rate": 0.9306184012066365
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 601,
@@ -174,9 +174,9 @@
     },
     "city": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 559,
+        "ok": 560,
         "n": 652,
-        "rate": 0.8573619631901841
+        "rate": 0.8588957055214724
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 549,
@@ -191,9 +191,9 @@
     },
     "state": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 592,
+        "ok": 593,
         "n": 650,
-        "rate": 0.9107692307692308
+        "rate": 0.9123076923076923
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 584,
@@ -619,11 +619,11 @@
       "purpose": "REDEMPTION",
       "ocrProcessor": "MICROBLINK",
       "disagreementCount": 4,
-      "nullCount": 2,
+      "nullCount": 1,
       "truthLineCount": 2,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {
-          "ok": 0,
+          "ok": 4,
           "n": 4
         },
         "gemini-3.5-flash-mediumThinking": {
@@ -2023,7 +2023,7 @@
       "purpose": "REDEMPTION",
       "ocrProcessor": "MICROBLINK",
       "disagreementCount": 0,
-      "nullCount": 2,
+      "nullCount": 1,
       "truthLineCount": 52,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {

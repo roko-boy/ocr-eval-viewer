@@ -21,35 +21,35 @@
   },
   "models": {
     "gemini-3.5-flash-merchantSpecific": {
-      "isNull": true,
+      "isNull": false,
       "error": null,
       "source": "gemini-3.5-flash-merchantSpecific",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "reasoningTokens": 0
+        "latencyMs": 82379.212667,
+        "totalUsd": 0.2042655,
+        "inputTokens": 6169,
+        "outputTokens": 5267,
+        "reasoningTokens": 16401
       },
       "fields": {
         "storeName": {
-          "value": null,
+          "value": "Sprouts",
           "status": "no-truth"
         },
         "totalCost": {
-          "value": null,
+          "value": "312.45",
           "status": "no-truth"
         },
         "purchaseDate": {
-          "value": null,
+          "value": "2026-03-22",
           "status": "no-truth"
         },
         "time": {
-          "value": null,
+          "value": "05:54 PM",
           "status": "no-truth"
         },
         "zipCode": {
-          "value": null,
+          "value": "91350",
           "status": "no-truth"
         },
         "city": {
@@ -65,7 +65,7 @@
           "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
+          "value": "VISA",
           "status": "no-truth"
         },
         "last4cc": {
@@ -73,13 +73,420 @@
           "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "PRODUCE + LB CARA CARA",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TERIYAKI STIR FRY KI",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TERIYAKI STIR FRY KI + BOGO 50% OFF SALAD",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 2.24,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GROCERY + VANL INSTANT PUDDING",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CINY PECAN GRANOLA",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "BROWNIE BATTER BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BROWNIE BATTER BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BROWNIE BATTER BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BROWNIE BATTER BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BROWNIE BATTER BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CARAMEL FUDGE BAR + BOGO 50% OFF BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.39,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CARAMEL FUDGE BAR + BOGO 50% OFF BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.39,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CARAMEL FUDGE BAR + BOGO 50% OFF BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.39,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CARAMEL FUDGE BAR + BOGO 50% OFF BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.4,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CARAMEL FUDGE BAR + BOGO 50% OFF BAR",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 1.4,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CHICKEN NOODLE SOUP",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHICKEN NOODLE SOUP",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHICKEN NOODLE SOUP + BOGO SOUP",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHICKEN NOODLE SOUP + BOGO SOUP",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHICKEN NOODLE SOUP",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHICKEN NOODLE SOUP",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHIKPEA TIKKA MASALA",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CHIKPEA TIKKA MASALA",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CINY PECAN GRANOLA",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "DGTL CPN Wonderpop + DGTL CPN Wonderpop",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PB MILK CHOC BITES",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DGTL CPN Wonderpop + DGTL CPN Wonderpop",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRINK-ENERGY-SUPERFR",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRINK-ENERGY-SUPERFR",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAPLE NUT BUTTER",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAPLE NUT BUTTER",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAPLE NUT BUTTER",
+          "quantity": 1,
+          "unitPrice": 11.99,
+          "totalSpend": 11.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PB MILK CHOC BITES",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RSMRY OL OIL CRACKRS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SEA SALT CHIPS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "TOASTED PECAN COOKIE",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VANL INSTANT PUDDING",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VANL INSTANT PUDDING",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VNLLA BEAN CHOCO BAR",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VNLLA BEAN CHOCO BAR",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WHT CHODR WONDERPOP",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WHT CHODR WONDERPOP",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WHT CHODR WONDERPOP + DGTL CPN Wonderpop",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 4.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "VITAMINS + SHATTERM CHOCOLATES + VITAMIN DISCOUNT",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "totalSpend": 35.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRINK-GREENS-PEACH M + VITAMIN DISCOUNT",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DRINK-GREENS-PEACH M + VITAMIN DISCOUNT",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "*CRV FS/TX 05",
+          "quantity": 1,
+          "unitPrice": 0.05,
+          "totalSpend": 0.05,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SHATTERM CHOCOLATES + VITAMIN DISCOUNT",
+          "quantity": 1,
+          "unitPrice": 39.99,
+          "totalSpend": 35.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DAIRY + PLAIN NF GRK YOGURT",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TAXABLE GROCERY + PB APPLE DOG BISCUIT",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FROZEN + SESAME GINGER BOWL",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SPICY HAWAIIAN BOWL",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "totalSpend": 6.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VANILLA DZE BODY OIL + VITAMIN DISCOUNT",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 22.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "VANILLA DZE BODY OIL + VITAMIN DISCOUNT",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "totalSpend": 22.49,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "RSMRY OL OIL CRACKRS + VITAMIN DISCOUNT",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.24,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "(661) 414-1108\nStore Hours MON-SUN 7AM-10PM\n03/22/2026 18:00:54\nCHASE VISA Entry Method: Chip\nCARD #: XXXXXXXXXXXX7480\nPURCHASE - APPROVED\nAUTH CODE 01730D\n...\nPRODUCE\n  LB CARA CARA 5.99\nTERIYAKI STIR FRY KI 4.49\nTERIYAKI STIR FRY KI 4.49\n  BOGO 50% OFF SALAD -2.25\nGROCERY\nVANL INSTANT PUDDING 3.00\n  1 @ 2 FOR 6.00\nCINY PECAN GRANOLA 8.99\nBROWNIE BATTER BAR 2.79\nBROWNIE BATTER BAR 2.79\nBROWNIE BATTER BAR 2.79\nBROWNIE BATTER BAR 2.79\nBROWNIE BATTER BAR 2.79\nCARAMEL FUDGE BAR 2.79\nCARAMEL FUDGE BAR 2.79\nCARAMEL FUDGE BAR 2.79\nCARAMEL FUDGE BAR 2.79\nCARAMEL FUDGE BAR 2.79\nCHICKEN NOODLE SOUP 5.99\nCHICKEN NOODLE SOUP 5.99\nCHICKEN NOODLE SOUP 5.99\n  BOGO SOUP -5.99\nCHICKEN NOODLE SOUP 5.99\n  BOGO SOUP -5.99\nCHICKEN NOODLE SOUP 5.99\nCHICKEN NOODLE SOUP 5.99\nCHIKPEA TIKKA MASALA 5.49\nCHIKPEA TIKKA MASALA 5.49\nCINY PECAN GRANOLA 8.99\nDGTL CPN Wonderpop 5.99\n  DGTL CPN Wonderpop -3.00\nPB MILK CHOC BITES 6.49\nDGTL CPN Wonderpop 5.99\n  DGTL CPN Wonderpop -3.00\nDRINK-ENERGY-SUPERFR 3.50 T\n  1 @ 2 FOR 7.00\n*CRV FS/TX 05 0.05 T\nDRINK-ENERGY-SUPERFR 3.50 T\n  1 @ 2 FOR 7.00\n*CRV FS/TX 05 0.05 T\nMAPLE NUT BUTTER 11.99\nMAPLE NUT BUTTER 11.99\nMAPLE NUT BUTTER 11.99\nPB MILK CHOC BITES 6.49\nRSMRY OL OIL CRACKRS 4.99\nSEA SALT CHIPS 5.99\nTOASTED PECAN COOKIE 5.99\nVANL INSTANT PUDDING 3.00\n  1 @ 2 FOR 6.00\nVANL INSTANT PUDDING 3.00\n  1 @ 2 FOR 6.00\nVNLLA BEAN CHOCO BAR 6.99\nVNLLA BEAN CHOCO BAR 6.99\nWHT CHODR WONDERPOP 5.99\nWHT CHODR WONDERPOP 5.99\nWHT CHODR WONDERPOP 5.99\n  DGTL CPN Wonderpop -1.49\nVITAMINS\nSHATTERM CHOCOLATES 39.99 T\n  VITAMIN DISCOUNT -4.00\nDRINK-GREENS-PEACH M 4.99 T\n  VITAMIN DISCOUNT -0.50\n*CRV FS/TX 05 0.05 T\nDRINK-GREENS-PEACH M 4.99 T\n  VITAMIN DISCOUNT -0.50\n*CRV FS/TX 05 0.05 T\nSHATTERM CHOCOLATES 39.99 T\n  VITAMIN DISCOUNT -4.00\nDAIRY\nPLAIN NF GRK YOGURT 5.99\nTAXABLE GROCERY\nPB APPLE DOG BISCUIT 3.99 T\nFROZEN\nSESAME GINGER BOWL 6.49\nSPICY HAWAIIAN BOWL 6.49\nVANILLA DZE BODY OIL 24.99 T\nVANILLA DZE BODY OIL 24.99 T\nRSMRY OL OIL CRACKRS 4.99\n  VITAMIN DISCOUNT -1.25\n  VITAMIN DISCOUNT -2.50\nBOGO 50% OFF BAR -1.40\nBOGO 50% OFF BAR -1.40\nBOGO 50% OFF BAR -1.40\nBOGO 50% OFF BAR -1.39\nBOGO 50% OFF BAR -1.39\nSPROUTS REWARDS -4.00\nTax Report\nSales Tax 124.24 12.11 TT\nBALANCE DUE 320.43\nTOTAL 312.45\n[ ] XXXXXXXXXXXX7480\nAUTH CODE 01730D Ref# 321628\nCHANGE 0.00\nYou Saved!\nTOTAL DISCOUNTS 14 58.43\nCard XXXXXXXXXX9237\nHave a Healthy Day Cindy!\nSprouts Rewards\nPrevious Points Balance: 2200\nBonus Points earned: 140\nTotal Points earned today: 1640\nNew points balance: 1840\nSPROUTS REWARDS\nCashier: 5500 92 Store: 218\nPOS: 02 Transaction: 3449\nSunday, March 22, 2026 05:54 PM",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
       }
     },
     "gemini-3.5-flash-mediumThinking": {
@@ -908,7 +1315,7 @@
     }
   ],
   "disagreementCount": 0,
-  "nullCount": 2,
+  "nullCount": 1,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 0,
