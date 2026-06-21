@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import Link from "next/link";
 import { use } from "react";
 import { ImageDetail } from "@/lib/types";
@@ -9,6 +9,76 @@ function StatusBadge({ status }: { status: string }) {
   const cls = STATUS_STYLES[status] ?? "bg-neutral-900 text-neutral-500 border-neutral-700";
   return (
     <span className={`rounded border px-2 py-0.5 text-xs font-mono ${cls}`}>{status}</span>
+  );
+}
+
+const LENS_SIZE = 160;
+const ZOOM = 3;
+
+function ReceiptImage({ url, id }: { url: string; id: string }) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const imgRef = useRef<HTMLImageElement>(null);
+  const [lens, setLens] = useState<{ show: boolean; x: number; y: number; bgX: number; bgY: number }>(
+    { show: false, x: 0, y: 0, bgX: 0, bgY: 0 }
+  );
+
+  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+    const container = containerRef.current;
+    const imgEl = imgRef.current;
+    if (!container || !imgEl) return;
+    const rect = container.getBoundingClientRect();
+    const cx = e.clientX - rect.left;
+    const cy = e.clientY - rect.top;
+    const w = imgEl.offsetWidth;
+    const h = imgEl.offsetHeight;
+    // background-position offsets so the zoomed image is centered on the cursor
+    const bgX = -(cx * ZOOM - LENS_SIZE / 2);
+    const bgY = -(cy * ZOOM - LENS_SIZE / 2);
+    setLens({ show: true, x: cx, y: cy, bgX, bgY });
+    // suppress unused warning
+    void w; void h;
+  }, []);
+
+  const handleMouseLeave = useCallback(() => setLens((l) => ({ ...l, show: false })), []);
+
+  return (
+    <div className="w-[22%] shrink-0 sticky top-4">
+      <h2 className="mb-3 text-base font-semibold text-neutral-200">Receipt</h2>
+      <div
+        ref={containerRef}
+        className="relative rounded-lg border border-neutral-800 bg-neutral-950 p-2 overflow-hidden cursor-crosshair"
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+      >
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            ref={imgRef}
+            src={url}
+            alt={`Receipt ${id}`}
+            className="w-full rounded"
+          />
+        </a>
+        {/* Loupe lens */}
+        {lens.show && (
+          <div
+            className="absolute rounded-full pointer-events-none shadow-xl"
+            style={{
+              width: LENS_SIZE,
+              height: LENS_SIZE,
+              left: lens.x - LENS_SIZE / 2,
+              top: lens.y - LENS_SIZE / 2,
+              border: "2px solid rgba(255,255,255,0.6)",
+              backgroundImage: `url(${url})`,
+              backgroundSize: `${imgRef.current?.offsetWidth ?? 200 * ZOOM}px`,
+              backgroundPosition: `${lens.bgX}px ${lens.bgY}px`,
+              backgroundRepeat: "no-repeat",
+              boxShadow: "0 0 0 1px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.6)",
+            }}
+          />
+        )}
+      </div>
+    </div>
   );
 }
 
@@ -81,42 +151,7 @@ export default function ImagePage({ params }: { params: Promise<{ id: string }> 
       <div className="flex gap-6 items-start">
 
         {/* ── Left: sticky receipt image (~1/4) ── */}
-        {img.url && (
-          <div className="w-[22%] shrink-0 sticky top-4">
-            <h2 className="mb-3 text-base font-semibold text-neutral-200">Receipt</h2>
-            <a
-              href={img.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative block rounded-lg border border-neutral-800 bg-neutral-950 p-2 overflow-hidden cursor-zoom-in"
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={img.url}
-                alt={`Receipt ${img.id}`}
-                className="w-full rounded transition-transform duration-200 group-hover:scale-125 origin-top"
-              />
-              {/* Magnifying glass overlay */}
-              <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/25 transition-colors duration-150 rounded-lg">
-                <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-150 bg-black/60 rounded-full p-3 shadow-lg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-7 h-7 text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <circle cx="11" cy="11" r="7" />
-                    <line x1="16.5" y1="16.5" x2="22" y2="22" strokeLinecap="round" />
-                    <line x1="11" y1="8" x2="11" y2="14" strokeLinecap="round" />
-                    <line x1="8" y1="11" x2="14" y2="11" strokeLinecap="round" />
-                  </svg>
-                </div>
-              </div>
-            </a>
-          </div>
-        )}
+        {img.url && <ReceiptImage url={img.url} id={img.id} />}
 
         {/* ── Right: scrollable data (~3/4) ── */}
         <div className="flex-1 min-w-0 space-y-8">
