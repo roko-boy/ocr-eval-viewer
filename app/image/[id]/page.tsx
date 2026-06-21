@@ -94,7 +94,7 @@ export default function ImagePage({ params }: { params: Promise<{ id: string }> 
               <img
                 src={img.url}
                 alt={`Receipt ${img.id}`}
-                className="w-full rounded"
+                className="w-full rounded transition-transform duration-200 group-hover:scale-125 origin-top"
               />
               {/* Magnifying glass overlay */}
               <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/25 transition-colors duration-150 rounded-lg">
@@ -179,9 +179,9 @@ export default function ImagePage({ params }: { params: Promise<{ id: string }> 
           {/* Model metrics */}
           <section>
             <h2 className="mb-3 text-base font-semibold text-neutral-200">Metrics</h2>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div className="flex flex-row flex-nowrap gap-4 overflow-x-auto">
               {modelEntries.map(([model, result]) => (
-                <div key={model} className="rounded-lg border border-neutral-800 p-4 space-y-2">
+                <div key={model} className="flex-1 min-w-[220px] rounded-lg border border-neutral-800 p-4 space-y-2">
                   <div className="font-medium text-neutral-200">{labelFor(model)}</div>
                   <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs text-neutral-400">
                     <span>Latency</span>
