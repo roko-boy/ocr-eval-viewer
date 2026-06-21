@@ -241,14 +241,14 @@ export default function ImagePage({ params }: { params: Promise<{ id: string }> 
                         <tbody>
                           {result.lineItems.map((li, i) => (
                             <tr key={i} className="border-t border-neutral-800/60">
-                              <td className="px-3 py-2 text-neutral-300 max-w-xs truncate" title={li.text}>
+                              <td className="px-3 py-2 text-neutral-300 break-words">
                                 {li.text}
                               </td>
-                              <td className="px-3 py-2 text-right text-neutral-500">
+                              <td className="px-3 py-2 text-right text-neutral-500 whitespace-nowrap">
                                 {li.unitPrice != null ? `$${li.unitPrice.toFixed(2)}` : "—"}
                               </td>
-                              <td className="px-3 py-2 text-right text-neutral-500">{li.quantity ?? "—"}</td>
-                              <td className="px-3 py-2 text-right text-neutral-300">
+                              <td className="px-3 py-2 text-right text-neutral-500 whitespace-nowrap">{li.quantity ?? "—"}</td>
+                              <td className="px-3 py-2 text-right text-neutral-300 whitespace-nowrap">
                                 {li.totalSpend != null ? `$${li.totalSpend.toFixed(2)}` : "—"}
                               </td>
                             </tr>
