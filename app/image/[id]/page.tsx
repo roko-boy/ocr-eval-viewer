@@ -75,6 +75,23 @@ export default function ImagePage({ params }: { params: Promise<{ id: string }> 
         </div>
       </div>
 
+      {/* Receipt image */}
+      {img.url && (
+        <section>
+          <h2 className="mb-3 text-base font-semibold text-neutral-200">Receipt</h2>
+          <div className="rounded-lg border border-neutral-800 bg-neutral-950 p-2 inline-block">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <a href={img.url} target="_blank" rel="noopener noreferrer">
+              <img
+                src={img.url}
+                alt={`Receipt ${img.id}`}
+                className="max-h-[600px] w-auto rounded"
+              />
+            </a>
+          </div>
+        </section>
+      )}
+
       {/* Field Comparison */}
       <section>
         <h2 className="mb-3 text-base font-semibold text-neutral-200">Field comparison</h2>
