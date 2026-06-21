@@ -259,36 +259,36 @@
       }
     },
     "gemini-3.5-flash-mediumThinking": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-mediumThinking",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "reasoningTokens": 0
+        "latencyMs": 47982.54775,
+        "totalUsd": 0.115086,
+        "inputTokens": 3692,
+        "outputTokens": 2969,
+        "reasoningTokens": 9203
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Schnucks",
+          "status": "match"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "77.82",
+          "status": "no-truth"
         },
         "purchaseDate": {
-          "value": null,
-          "status": "missing"
+          "value": "2026-04-22",
+          "status": "match"
         },
         "time": {
-          "value": null,
-          "status": "missing"
+          "value": "5:00 PM",
+          "status": "no-truth"
         },
         "zipCode": {
-          "value": null,
-          "status": "missing"
+          "value": "65202",
+          "status": "mismatch"
         },
         "city": {
           "value": null,
@@ -299,25 +299,201 @@
           "status": "missing"
         },
         "streetAddress": {
-          "value": null,
-          "status": "missing"
+          "value": "Battle Crossing",
+          "status": "no-truth"
         },
         "paymentMethod": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "last4cc": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "FANTA ORANGE 12PK",
+          "quantity": 1,
+          "unitPrice": 9.79,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FANTA STRAWBRY 12PK",
+          "quantity": 1,
+          "unitPrice": 9.79,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "FANTA P-APL 12PK",
+          "quantity": 1,
+          "unitPrice": 9.79,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAWT BLBRY CHSCK MFN M + 1 @ 4 / 5.00",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MAWT BLBRY CHSCK MFN M + 1 @ 4 / 5.00",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "M/W STRWBRY MUFFIN MX + 1 @ 4 / 5.00",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "M/W BANANA NUT MUFFN MX + 1 @ 4 / 5.00",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "M/W POPPY SEED MFN MIX + 1 @ 4 / 5.00",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.25,
+          "matchStatus": "match"
+        },
+        {
+          "text": "M/W STRWBRY MUFFIN MX + 1 @ 4 / 5.00",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.25,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SCH TACO SEAS MIX FJITA",
+          "quantity": 1,
+          "unitPrice": 0.74,
+          "totalSpend": 0.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCH TACO SEAS MIX FJITA",
+          "quantity": 1,
+          "unitPrice": 0.74,
+          "totalSpend": 0.69,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCH POPCORN SHRIMP",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCH SLOPPY JOE SAUCE + Digital Coupon",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.85,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SCH SLOPPY JOE SAUCE + Digital Coupon",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.85,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SCH SLOPPY JOE SAUCE + Digital Coupon",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.85,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SCH SLOPPY JOE SAUCE + Digital Coupon",
+          "quantity": 1,
+          "unitPrice": 1.49,
+          "totalSpend": 0.85,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SCH BOUILLON CUBE BEEF",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SCH THYME LEAVES",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BBELL GOOEY BUTTER 64Z",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 6.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRAVN IC DEATH BY CHOC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CRAVN IC FRENCH VANILLA",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LOUISA TSTD RAVIOLI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LOUISA TSTD RAVIOLI",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GT KOMBUCHA LEMN",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GT KOMBUCHA MYS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Schnucks\nStore Leader - Beth Swaim\nBattle Crossing 573-514-6988\nFANTA ORANGE 12PK t F 5.99\nYou Saved $3.80\nFANTA STRAWBRY 12PK t F 5.99\nYou Saved $3.80\nFANTA P-APL 12PK t F 5.99\nYou Saved $3.80\nMAWT BLBRY CHSCK MFN M t F 1.25\n1 @ 4 / 5.00\nYou Saved $0.44\nMAWT BLBRY CHSCK MFN M t F 1.25\n1 @ 4 / 5.00\nYou Saved $0.44\nM/W STRWBRY MUFFIN MX t F 1.25\n1 @ 4 / 5.00\nYou Saved $0.44\nM/W BANANA NUT MUFFN MX t F 1.25\n1 @ 4 / 5.00\nYou Saved $0.44\nM/W POPPY SEED MFN MIX t F 1.25\n1 @ 4 / 5.00\nYou Saved $0.44\nM/W STRWBRY MUFFIN MX t F 1.25\n1 @ 4 / 5.00\nYou Saved $0.44\nSCH TACO SEAS MIX FJITA t F 0.69\nYou Saved $0.05\nSCH TACO SEAS MIX FJITA t F 0.69\nYou Saved $0.05\nSCH POPCORN SHRIMP t F 6.99\nYou Saved $1.00\nSCH SLOPPY JOE SAUCE t F 1.00\nYou Saved $0.49\nDigital Coupon 0.15-\nSCH SLOPPY JOE SAUCE t F 1.00\nYou Saved $0.49\nDigital Coupon 0.15-\nSCH SLOPPY JOE SAUCE t F 1.00\nYou Saved $0.49\nDigital Coupon 0.15-\nSCH SLOPPY JOE SAUCE t F 1.00\nYou Saved $0.49\nDigital Coupon 0.15-\nSCH BOUILLON CUBE BEEF t F 1.99\nSCH THYME LEAVES t F 2.99\nBBELL GOOEY BUTTER 64Z t F 6.99\nYou Saved $2.00\nCRAVN IC DEATH BY CHOC t F 2.99\nYou Saved $1.00\nCRAVN IC FRENCH VANILLA t F 2.99\nYou Saved $1.00\nLOUISA TSTD RAVIOLI t F 3.99\nYou Saved $1.00\nLOUISA TSTD RAVIOLI t F 3.99\nYou Saved $1.00\nGT KOMBUCHA LEMN T F 4.99\nGT KOMBUCHA MYS T F 4.99\nRewards account accepted\n********** Sale Subtotal*** 73.15\nHiTax 8.975 0.90\nLoTax 5.975 3.77\n************* Total Sale*** 77.82\n*** REWARDS 2.00\n*** CASH 100.02\nChange : 24.20 $\nSavings Summary\nReduced Price Savings 23.70\n***********************************\nYOU SAVED $23.70\n***********************************\nITEMS PURCHASED: 25\nYour Cashier:Scout\nHealthier Habits\nGrand Total: 2 Dietitian Pick Items\nToday's trip: 8% Dietitian Pick\nSchnucks Rewards\nPrior Points: 264\nTotal Earned Points: 767\nConv to Rewards: 1000\nPoints Balance: 31\nRewards Redeemed: 2.00\nConv from Points: 2.00\nRewards Balance: 2.00\nEnter to WIN\n$300 Schnucks Gift Card\nOne winner every month\nTake our survey at\ntellschnucks.com\nRespond by 4/27/2026\nMust Be 18 To Participate\nSee Manager For Details\nID 0000-4617-1253\nFor our current refund policy, please\nvisit: schnucks.com/Returns\nThank You for shopping with us!\n071291 04-22-26 5:00P 328/08/0715",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
       }
     },
     "gemini-3.5-flash-lowThinking": {
@@ -711,15 +887,15 @@
       "totalSpend": 4.99
     }
   ],
-  "disagreementCount": 2,
-  "nullCount": 1,
+  "disagreementCount": 0,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 2,
       "n": 5
     },
     "gemini-3.5-flash-mediumThinking": {
-      "ok": 0,
+      "ok": 2,
       "n": 5
     },
     "gemini-3.5-flash-lowThinking": {

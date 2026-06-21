@@ -145,14 +145,14 @@
       }
     },
     "gemini-3.5-flash-lowThinking": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-lowThinking",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
+        "latencyMs": 3956.288167,
+        "totalUsd": 0.008277,
+        "inputTokens": 3706,
+        "outputTokens": 302,
         "reasoningTokens": 0
       },
       "fields": {
@@ -161,55 +161,55 @@
           "status": "missing"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "129.27",
+          "status": "match"
         },
         "purchaseDate": {
-          "value": null,
-          "status": "missing"
+          "value": "2026-06-14",
+          "status": "match"
         },
         "time": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "zipCode": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "city": {
-          "value": null,
-          "status": "missing"
+          "value": "VIRGINIA BEACH",
+          "status": "match"
         },
         "state": {
-          "value": null,
-          "status": "missing"
+          "value": "VA",
+          "status": "match"
         },
         "streetAddress": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "VISA",
+          "status": "no-truth"
         },
         "last4cc": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         }
       },
       "lineItems": [],
-      "rawText": null,
+      "rawText": "7:25 1\nOrder #1467\n06/14/2026\nOrder Number\n#1467\nTotal\n$129.27\nClub Information\nClub Location: VIRGINIA BEACH, VA\nStore #: 36\nRegister #: 84\nSee Details\nPayment Method\nVisa Card\nOrder Summary\nSubtotal\n$126.52\nSavings\n-$2.99\nTax\n$5.74\nTotal\n$129.27\nItem purchased In-Club can only be\nreturned\nIn-Club View Our Return Policy",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
       }
     }
   },
   "lineItemTruth": [],
-  "disagreementCount": 5,
-  "nullCount": 1,
+  "disagreementCount": 1,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 4,
@@ -220,7 +220,7 @@
       "n": 5
     },
     "gemini-3.5-flash-lowThinking": {
-      "ok": 0,
+      "ok": 4,
       "n": 5
     }
   }

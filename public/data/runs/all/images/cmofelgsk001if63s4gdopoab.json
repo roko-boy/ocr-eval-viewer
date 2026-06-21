@@ -266,32 +266,32 @@
       }
     },
     "gemini-3.5-flash-mediumThinking": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-mediumThinking",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "reasoningTokens": 0
+        "latencyMs": 67094.599375,
+        "totalUsd": 0.159204,
+        "inputTokens": 3692,
+        "outputTokens": 3878,
+        "reasoningTokens": 13196
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Fred Meyer",
+          "status": "match"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "56.44",
+          "status": "match"
         },
         "purchaseDate": {
-          "value": null,
-          "status": "missing"
+          "value": "2026-04-25",
+          "status": "match"
         },
         "time": {
-          "value": null,
-          "status": "missing"
+          "value": "07:41PM",
+          "status": "no-truth"
         },
         "zipCode": {
           "value": null,
@@ -306,25 +306,215 @@
           "status": "missing"
         },
         "streetAddress": {
-          "value": null,
-          "status": "missing"
+          "value": "1401 SE FIRST",
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "EBT",
+          "status": "no-truth"
         },
         "last4cc": {
-          "value": null,
-          "status": "missing"
+          "value": "1096",
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "PC POPSICLE POP + 7756700157",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PC POPSICLE FUD + 7756700158",
+          "quantity": 1,
+          "unitPrice": 6.79,
+          "totalSpend": 6.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PC LOFR FST TKY + 5190080109 + eCpn Land O Frost",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC LOFR FST TKY + 5190080109 + eCpn Land O Frost",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC LOFR FST TKY + 5190080109 + eCpn Land O Frost",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC LOFR FST TKY + 5190080109 + eCpn Land O Frost",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC LOFR FST TKY + 5190080109 + eCpn Land O Frost",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC LOFR FST TKY + 5190080109 + eCpn Land O Frost",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC HILLY CREAM + 2100065731",
+          "quantity": 1,
+          "unitPrice": 4.49,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC TYSON PROTEI + 2370006157",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PC TYSON PROTEI + 2370006157",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BOTTICELLI P + 85501000511 + eCpn Botticelli",
+          "quantity": 1,
+          "unitPrice": 3.84,
+          "totalSpend": 2.84,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NALLY CHILI + 4132124111 + eCpn Nalley Chili",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC BEST FOODS + 4800135356",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PC BEST FOODS M + 4800135356",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PC PRSL 4LYR CI + 6211095549",
+          "quantity": 1,
+          "unitPrice": 1.69,
+          "totalSpend": 1.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRSL 4LYR CI + 1111111111 + eCpn FREE PS Cake",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PC THOMAS BAG + 4812121657",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC THMS SWRL BR + 4812122905",
+          "quantity": 1,
+          "unitPrice": 4.19,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PC HTGF CHKN TH + 28334750000",
+          "quantity": 1,
+          "unitPrice": 5.88,
+          "totalSpend": 4.42,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO STRWBRY + 11111014893",
+          "quantity": 1,
+          "unitPrice": 0.9,
+          "totalSpend": 0.9,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC SRGNTO CHS B + 4400008080 + eCpn Sargento + eCpn Sargento Chse",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 1.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MARINERS REWARDS + 11111014859",
+          "quantity": 1,
+          "unitPrice": 3.5,
+          "totalSpend": 3.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PC BUNNY A SIGN + 88877715473",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC SILK ORIGINA + 3663208129 + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 2.08,
+          "totalSpend": 1.08,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC SILK ORIGINA + 3663208129 + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 2.08,
+          "totalSpend": 1.08,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PC SILK ORIGINA + 3663208129 + eCpn Silk",
+          "quantity": 1,
+          "unitPrice": 2.08,
+          "totalSpend": 1.08,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH FOR EVERYONE\nNow Hiring!\nApply at jobs.fredmeyer.com\n1401 SE FIRST\n503-263-4100\nYOUR CASHIER WAS CHEC 503\n7756700157 PC POPSICLE POP 0.00 F\nSC FM SAVINGS 6.79\n7756700158 PC POPSICLE FUD 6.79 F\n5190080109 PC LOFR FST TKY 1.99 F\nSC FM SAVINGS 0.50\nSC eCpn Land O Frost 1.00\n5190080109 PC LOFR FST TKY 1.99 F\nSC FM SAVINGS 0.50\nSC eCpn Land O Frost 1.00\n5190080109 PC LOFR FST TKY 1.99 F\nSC FM SAVINGS 0.50\nSC eCpn Land O Frost 1.00\n5190080109 PC LOFR FST TKY 1.99 F\nSC FM SAVINGS 0.50\nSC eCpn Land O Frost 1.00\n5190080109 PC LOFR FST TKY 1.99 F\nSC FM SAVINGS 0.50\nSC eCpn Land O Frost 1.00\n5190080109 PC LOFR FST TKY 1.99 F\nSC FM SAVINGS 0.50\nSC eCpn Land O Frost 1.00\n2100065731 PC HILLY CREAM 4.49 F\n2370006157 PC TYSON PROTEI 0.00 F\nSC FM SAVINGS 4.99\n2370006157 PC TYSON PROTEI 4.99 F\n85501000511 BOTTICELLI P 2.84 F\nSC eCpn Botticelli 1.00\n4132124111 NALLY CHILI 1.99 F\nSC eCpn Nalley Chili 0.50\n4800135356 PC BEST FOODS 0.00 F\nSC FM SAVINGS 5.29\n4800135356 PC BEST FOODS M 5.29 F\n6211095549 PC PRSL 4LYR CI 1.69 F\n1111111111 PRSL 4LYR CI 0.00 F\nSC eCpn FREE PS Cake 4.99\n4812121657 PC THOMAS BAG 5.29 F\n4812122905 PC THMS SWRL BR 0.00 F\nSC FM SAVINGS 4.19\n28334750000 PC HTGF CHKN TH 4.42 F\nSC FM SAVINGS 1.46\n11111014893 KRO STRWBRY 0.90 F\n4400008080 PC SRGNTO CHS B 1.99 F\nSC FM SAVINGS 0.50\nSC eCpn Sargento 2.00\nSC eCpn Sargento Chse 0.50\n11111014859 MARINERS REWARDS 3.50\n88877715473 PC BUNNY A SIGN 1.49\nSC FM SAVINGS 0.50\n3663208129 PC SILK ORIGINA 1.08 F\nSC eCpn Silk 1.00\n3663208129 PC SILK ORIGINA 1.08 F\nSC eCpn Silk 1.00\n3663208129 PC SILK ORIGINA 1.08 F\nSC eCpn Silk 1.00\nREWARDS CARD *********4915\nTAX 0.00\n**** BALANCE 56.44\nBAL DUE 13.50\nEBT FOOD PURCHASE ************1096\nREF#: 044157 TOTAL: 54.95\nPURCHASE: 54.95 CASHBACK: 0.00\nEBT F/S BALANCE: $201.60\nEBT CASH BALANCE: $\nEBT FOOD 54.95\nGIFT CARD PURCHASE - SCANNED\n************4470\nREF#: 557934 TOTAL: 1.49\nPURCHASE: 1.49 CASHBACK: 0.00\nRemaining Balance: 48.51\nGIFT CARD 1.49\nTENDER 56.44\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 26\nFred Meyer Savings $ 62.21\nTotal Coupons $ 62.21\nTotal Savings (52 Percent) $ 62.21\n04/25/26 19:41 651 503 202 99999503\n****************************************\nAnnual Card Savings $652.59\n****************************************\n****************************************\nFuel Points Earned Today: 56\nTotal April Fuel Points: 151\n****************************************\nMARINERS REWARDS\nPoints earned this order:1\nTotal points earned:\nMay not reflect recent redemptions\nGo to FredMeyer.com/Mariners\nor customer service for details\n****************************************\nFred Meyer Community Rewards\nOn your behalf, we are contributing to\nBridging Cultures\n****************************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to FredMeyer.com/feedback\nDate: 04/25/26\nTime: 07:39PM\nEntry ID: 701-301-202-651-503-705\n****************************************\nWith Our Low Prices, You Saved\n$62.21\nSAVE THIS RECEIPT FOR REFUNDS\nOR ADJUSTMENTS\n9102065170150302022604251941\nFresh opportunity awaits\nJoin our team today!\n#ERA\nwww.fredmeyer.com\n04/25/26 07:41PM",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": true
       }
     },
     "gemini-3.5-flash-lowThinking": {
@@ -694,15 +884,15 @@
       "totalSpend": 1.08
     }
   ],
-  "disagreementCount": 6,
-  "nullCount": 1,
+  "disagreementCount": 3,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 5,
       "n": 6
     },
     "gemini-3.5-flash-mediumThinking": {
-      "ok": 0,
+      "ok": 3,
       "n": 6
     },
     "gemini-3.5-flash-lowThinking": {

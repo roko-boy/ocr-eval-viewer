@@ -175,20 +175,20 @@
       }
     },
     "gemini-3.5-flash-lowThinking": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-lowThinking",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
+        "latencyMs": 3582.062916999999,
+        "totalUsd": 0.010626,
+        "inputTokens": 3706,
+        "outputTokens": 563,
         "reasoningTokens": 0
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Sam's Club",
+          "status": "no-truth"
         },
         "totalCost": {
           "value": null,
@@ -200,40 +200,55 @@
         },
         "time": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "zipCode": {
-          "value": null,
-          "status": "missing"
+          "value": "5019452167",
+          "status": "no-truth"
         },
         "city": {
-          "value": null,
-          "status": "missing"
+          "value": "NORTH LITTLE ROCK",
+          "status": "match"
         },
         "state": {
-          "value": null,
-          "status": "missing"
+          "value": "AR",
+          "status": "match"
         },
         "streetAddress": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "paymentMethod": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "last4cc": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "0990451189 OUAF SMOOTH + INST SV OUAF SMOOTH",
+          "quantity": 2,
+          "unitPrice": 14.97,
+          "totalSpend": 21.94,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "0990380246 CHICKEN TEN",
+          "quantity": 1,
+          "unitPrice": 11.98,
+          "totalSpend": 11.98,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Receipt details\nsam's club\nCLUB MANAGER TRAVIS\n5019452167\nNORTH LITTLE ROCK, AR\n03/20/26 12:24 1585 8266 96\n0990451189 OUAF SMOOTH\n2 AT 1 FOR 14.97 29.94 Y\n0990380246 CHICKEN TEN 11.98 Y\nINST SV OUAF SMOOTH\n2 AT 1 FOR 4.00- 8.00-Y\nSUBTOTAL 33.92\nTAX 2 3 % 1.02\nTOTAL 34.94\nMASTERCARD DEBIT TEND 34.94\nMASTERCARD **** **** **** 6227\nCHANGE DUE 0.00\n# ITEMS SOLD 3\nTC# 9433 1689 2047 7574 7651\n03/20/26 12:24",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
       }
     }
   },
@@ -251,8 +266,8 @@
       "totalSpend": 11.98
     }
   ],
-  "disagreementCount": 4,
-  "nullCount": 1,
+  "disagreementCount": 2,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 4,
@@ -263,7 +278,7 @@
       "n": 4
     },
     "gemini-3.5-flash-lowThinking": {
-      "ok": 0,
+      "ok": 2,
       "n": 4
     }
   }

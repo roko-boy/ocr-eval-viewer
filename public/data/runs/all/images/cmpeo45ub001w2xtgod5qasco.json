@@ -126,36 +126,36 @@
       }
     },
     "gemini-3.5-flash-mediumThinking": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-mediumThinking",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "reasoningTokens": 0
+        "latencyMs": 38832.094833,
+        "totalUsd": 0.079905,
+        "inputTokens": 3692,
+        "outputTokens": 1290,
+        "reasoningTokens": 6973
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Fred Meyer",
+          "status": "match"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "117.97",
+          "status": "match"
         },
         "purchaseDate": {
-          "value": null,
-          "status": "missing"
+          "value": "2026-05-20",
+          "status": "match"
         },
         "time": {
-          "value": null,
-          "status": "missing"
+          "value": "11:39 AM",
+          "status": "no-truth"
         },
         "zipCode": {
-          "value": null,
-          "status": "missing"
+          "value": "97055",
+          "status": "match"
         },
         "city": {
           "value": null,
@@ -166,25 +166,68 @@
           "status": "missing"
         },
         "streetAddress": {
-          "value": null,
-          "status": "missing"
+          "value": "16625 362nd Ave",
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "DEBIT",
+          "status": "no-truth"
         },
         "last4cc": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "STRBK VL G 100.00 + GB ************8201 100.00 Blnc",
+          "quantity": 1,
+          "unitPrice": 100,
+          "totalSpend": 100,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "1111065520 PS CINNAMON",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "63711813609 FR STRW TPRS",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "4000049754 MMS PEANUT + 1 @ 2/3.00",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "3400011470 REESES PIECE + 1 @ 2/3.00",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "85680200881 PC WILDE CHIPS + SC FM SAVINGS 1.00",
+          "quantity": 1,
+          "unitPrice": 8.49,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "Fred Meyer FRESH FOR EVERYONE.\nNow Hiring!\nApply at jobs.fredmeyer.com\n16625 362nd Ave\n503-668-2300\nYOUR CASHIER WAS Nicolas\nREWARDS CARD *******2799\nMR 7675010812 STRBK VL G 100.00\nGB ************8201 100.00 Blnc\n1111065520 PS CINNAMON 1.99 F\n63711813609 FR STRW TPRS 5.49\n1 @ 2/3.00\n4000049754 MMS PEANUT 1.50 F\n1 @ 2/3.00\n3400011470 REESES PIECE 1.50 F\n85680200881 PC WILDE CHIPS 7.49 F\nSC FM SAVINGS 1.00\nTAX 0.00\n**** BALANCE 117.97\nUS DEBIT Purchase\n************6304 - C\nREF#: 062086 TOTAL: 117.97\nPURCHASE: 117.97 CASHBACK: 0.00\nAID: A0000000980840\nTC: 5896FF4BE82321C8\nVERIFIED BY PIN\nDEBIT 117.97\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 5\nFred Meyer Savings $ 1.00\nTotal Coupons $ 1.00\nTotal Savings (0 Percent) $ 1.00\n05/20/26 11:39AM 663 2 15 47792\n*********************************\nAnnual Card Savings $347.07\n*********************************\n*********************************\nFuel Points Earned Today: 218\nTotal May Fuel Points: 345\n*********************************\nMARINERS REWARDS\nTotal points earned: 44\nMay not reflect recent redemptions\nVisit FredMeyer.com/Mariners\nor customer service for details\n*********************************\nFred Meyer Community Rewards\nOn your behalf, we are contributing to\nThe Asher House\n*********************************\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to fredmeyer.com/feedback\nDate: 05/20/26",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
       }
     },
     "gemini-3.5-flash-lowThinking": {
@@ -331,15 +374,15 @@
       "totalSpend": 7.49
     }
   ],
-  "disagreementCount": 6,
-  "nullCount": 1,
+  "disagreementCount": 3,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 5,
       "n": 6
     },
     "gemini-3.5-flash-mediumThinking": {
-      "ok": 0,
+      "ok": 4,
       "n": 6
     },
     "gemini-3.5-flash-lowThinking": {

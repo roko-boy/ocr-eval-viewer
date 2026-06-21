@@ -161,65 +161,73 @@
       }
     },
     "gemini-3.5-flash-lowThinking": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-lowThinking",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
+        "latencyMs": 4085.559083,
+        "totalUsd": 0.011046,
+        "inputTokens": 3692,
+        "outputTokens": 612,
         "reasoningTokens": 0
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Kroger",
+          "status": "match"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "3.19",
+          "status": "match"
         },
         "purchaseDate": {
-          "value": null,
-          "status": "missing"
+          "value": "2026-05-16",
+          "status": "match"
         },
         "time": {
-          "value": null,
-          "status": "missing"
+          "value": "08:49pm",
+          "status": "no-truth"
         },
         "zipCode": {
           "value": null,
           "status": "missing"
         },
         "city": {
-          "value": null,
-          "status": "missing"
+          "value": "CINCINNATI",
+          "status": "match"
         },
         "state": {
-          "value": null,
-          "status": "missing"
+          "value": "OH",
+          "status": "match"
         },
         "streetAddress": {
-          "value": null,
-          "status": "missing"
+          "value": "450 OHIO PIKE",
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "DEBIT",
+          "status": "no-truth"
         },
         "last4cc": {
-          "value": null,
-          "status": "missing"
+          "value": "3301",
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "PHX ORANGE DRNK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "Kroger FRESH\nFOR\nEVERYONE TM\n450 OHIO PIKE\n513-528-6120\nYour cashier was CHEC 652\nPHX ORANGE DRNK 2.99 B\nKROGER PLUS CUSTOMER *******6321\nTAX 0.20\n**** BALANCE 3.19\nUS DEBIT Purchase\n************3301 - C\nREF#: 949745 TOTAL: 3.19\nPURCHASE: 3.19 CASHBACK: 0.00\nAID: A0000000980840\nTC: 94C58CF7B824D953\nVERIFIED BY PIN\nDEBIT 3.19\nCHANGE 0.00\nTOTAL NUMBER OF ITEMS SOLD = 1\n05/16/26 08:49pm 431 652 232 999999652\n****************************************\nAnnual Card Savings $1212.56\n****************************************\n****************************************\nFuel Points Earned Today: 3\nTotal May Fuel Points: 329\n****************************************\nFresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kroger.com\nwww.kroger.com",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
       }
     }
   },
@@ -231,8 +239,8 @@
       "totalSpend": 2.99
     }
   ],
-  "disagreementCount": 5,
-  "nullCount": 1,
+  "disagreementCount": 3,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 5,
@@ -243,7 +251,7 @@
       "n": 6
     },
     "gemini-3.5-flash-lowThinking": {
-      "ok": 0,
+      "ok": 5,
       "n": 6
     }
   }

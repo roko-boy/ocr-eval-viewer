@@ -602,65 +602,591 @@
       }
     },
     "gemini-3.5-flash-mediumThinking": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-mediumThinking",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "reasoningTokens": 0
+        "latencyMs": 187094.398917,
+        "totalUsd": 0.1517025,
+        "inputTokens": 3827,
+        "outputTokens": 7477,
+        "reasoningTokens": 8741
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Kroger",
+          "status": "match"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "387.35",
+          "status": "match"
         },
         "purchaseDate": {
-          "value": null,
-          "status": "missing"
+          "value": "2026-04-24",
+          "status": "match"
         },
         "time": {
-          "value": null,
-          "status": "missing"
+          "value": "01:39 PM",
+          "status": "no-truth"
         },
         "zipCode": {
-          "value": null,
-          "status": "missing"
+          "value": "24551",
+          "status": "match"
         },
         "city": {
-          "value": null,
-          "status": "missing"
+          "value": "Forest",
+          "status": "match"
         },
         "state": {
-          "value": null,
-          "status": "missing"
+          "value": "VA",
+          "status": "match"
         },
         "streetAddress": {
-          "value": null,
-          "status": "missing"
+          "value": "15059 Forest Road",
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "VISA",
+          "status": "no-truth"
         },
         "last4cc": {
-          "value": null,
-          "status": "missing"
+          "value": "3936",
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "BLUE BELL ICE CRM",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO RICED CAULIFLO",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO RICED CAULIFLO",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO RICED CAULIFLO",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO RICED CAULIFLO",
+          "quantity": 1,
+          "unitPrice": 2.79,
+          "totalSpend": 2.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO SMOKED SAUSAGEPC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HLSR BF SAUS",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KIELBASA PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KIELBASA PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GOOD CULTUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GOOD CULTUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BREAKFAST SSG",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "BREAKFAST SSG",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BREAKFAST SSG",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO BUTTER",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GOOD CULTUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GOOD CULTUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GOOD CULTUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "GOOD CULTUR CHEESE",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BREAKFAST SSG",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 5.29,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "HTGF CHK THGH",
+          "quantity": 1,
+          "unitPrice": 13.77,
+          "totalSpend": 13.77,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HTGF CHKN THGHS",
+          "quantity": 1,
+          "unitPrice": 12.97,
+          "totalSpend": 12.97,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HTGF CHKN THGHS",
+          "quantity": 1,
+          "unitPrice": 12.24,
+          "totalSpend": 12.24,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HTGF CHKN THGHS",
+          "quantity": 1,
+          "unitPrice": 12.61,
+          "totalSpend": 12.61,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HTGF CHKN THGHS + eCpn Heritage Farm",
+          "quantity": 1,
+          "unitPrice": 12.94,
+          "totalSpend": 11.94,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "KRO BACON",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PS TRAD HUMMUS PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "PS GARLIC HUMMUS PC",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO WHMLK GRK PLN",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO WHMLK GRK PLN",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "totalSpend": 4.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KROGER BROTH PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KROGER BROTH PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KROGER BROTH PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KROGER BROTH PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KROGER BROTH PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.59,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CVDR GRK SSNG",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "totalSpend": 3.29,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LSNA FISH FRY + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.19,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LSNA FISH FRY + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LSNA LMN FSH FRY + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "LSNA LMN FSH FRY + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 2.69,
+          "totalSpend": 2.19,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO SWEET RELISH PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 1.89,
+          "totalSpend": 1.5,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PS BLUEBERRIES PC + KROGER SAVINGS + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PS BLUEBERRIES PC + KROGER SAVINGS + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PS BLUEBERRIES PC + KROGER SAVINGS + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 3.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PRSL BLACKBERRIES PC + KROGER SAVINGS + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NABISCO OREO COKIEPC + KROGER SAVINGS + eCpn Nabisco Snak",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NABISCO OREO COKIEPC + KROGER SAVINGS + eCpn Nabisco Snak",
+          "quantity": 1,
+          "unitPrice": 5.29,
+          "totalSpend": 4.29,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GATORADE PC + KROGER SAVINGS + eCpn Gatorade",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 5.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO BASMATI RICE PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO PIMENTO",
+          "quantity": 1,
+          "unitPrice": 2.39,
+          "totalSpend": 2.39,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HDDN VLY DIP MIX",
+          "quantity": 1,
+          "unitPrice": 7.49,
+          "totalSpend": 7.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO PNUT OIL",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO PNUT OIL",
+          "quantity": 1,
+          "unitPrice": 20.99,
+          "totalSpend": 20.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SMP MLS CRACKERS PC + KROGER SAVINGS + eCpn Simple Mills",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "ONIONS YLW + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 1.92,
+          "totalSpend": 1.73,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "HAPPY DAD VRTY",
+          "quantity": 1,
+          "unitPrice": 19.49,
+          "totalSpend": 19.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "HAPPY DAD VRTY",
+          "quantity": 1,
+          "unitPrice": 19.49,
+          "totalSpend": 19.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KRO BASMATI RICE PC + KROGER SAVINGS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 3.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KROGER SQZ KETCHUP",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 2.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "POTATOES RUSS + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO POTATOES + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.69,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO APPLES HONEYCRPC + KROGER SAVINGS + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 6.99,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "YAMS SWEET RED + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 3.44,
+          "totalSpend": 3.1,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "KRO ROMAINE + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.59,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DRIS STRWBRY PC + KROGER SAVINGS + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 5.89,
+          "totalSpend": 4.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "GRAPES + eCpn Grapes + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 13.47,
+          "totalSpend": 8.49,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "SOLO PLSTCUP",
+          "quantity": 1,
+          "unitPrice": 5.49,
+          "totalSpend": 5.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "KROGER EGGS",
+          "quantity": 1,
+          "unitPrice": 1.79,
+          "totalSpend": 1.79,
+          "matchStatus": "match"
+        },
+        {
+          "text": "QK RICE CKES",
+          "quantity": 1,
+          "unitPrice": 3.99,
+          "totalSpend": 3.99,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "WNDR WHITE BREAD",
+          "quantity": 1,
+          "unitPrice": 3.49,
+          "totalSpend": 3.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SOURDOUGH",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalSpend": 5.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "AVOCADOS + eCpnBoost10pctoff",
+          "quantity": 5,
+          "unitPrice": 1,
+          "totalSpend": 4.5,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "TOMATOES HH RED + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 2.61,
+          "totalSpend": 2.35,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "RPC PEPPERS BELL + eCpnBoost10pctoff",
+          "quantity": 1,
+          "unitPrice": 1.29,
+          "totalSpend": 1.16,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "CUCUMBER RPC PC + KROGER SAVINGS + eCpnBoost10pctoff",
+          "quantity": 4,
+          "unitPrice": 1.79,
+          "totalSpend": 4.48,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Kroger FRESH FOR EVERYONE\n15059 Forest Road\n434-534-0020\nYour cashier was SARAH\nBLUE BELL ICE CRM 9.49 B\nKRO RICED CAULIFLO 2.79 B\nKRO RICED CAULIFLO 2.79 B\nKRO RICED CAULIFLO 2.79 B\nKRO RICED CAULIFLO 2.79 B\nKRO SMOKED SAUSAGEPC 3.00 B\nSC KROGER SAVINGS 0.29\nHLSR BF SAUS 5.99 B\nKIELBASA PC 3.00 B\nSC KROGER SAVINGS 0.29\nKIELBASA PC 3.00 B\nSC KROGER SAVINGS 0.29\nKROGER PLUS CUSTOMER *******3590\nGOOD CULTUR CHEESE 4.29 B\nGOOD CULTUR CHEESE 4.29 B\nBREAKFAST SSG 5.29 B\nBREAKFAST SSG 5.29 B\nBREAKFAST SSG 5.29 B\nKRO BUTTER 5.29 B\nGOOD CULTUR CHEESE 3.49 B\nGOOD CULTUR CHEESE 4.29 B\nGOOD CULTUR CHEESE 4.29 B\nGOOD CULTUR CHEESE 4.29 B\nBREAKFAST SSG 5.29 B\nHTGF CHK THGH 13.77 B\nHTGF CHKN THGHS 12.97 B\nHTGF CHKN THGHS 12.24 B\nHTGF CHKN THGHS 12.61 B\nHTGF CHKN THGHS 11.94 B\nSC eCpn Heritage Farm 1.00\nKRO BACON 4.99 B\nPS TRAD HUMMUS PC 0.00 B\nSC KROGER SAVINGS 3.99\nPS GARLIC HUMMUS PC 3.99 B\nKRO WHMLK GRK PLN 4.29 B\nKRO WHMLK GRK PLN 4.29 B\nKROGER BROTH PC 1.50 B\nSC KROGER SAVINGS 0.09\nKROGER BROTH PC 1.50 B\nSC KROGER SAVINGS 0.09\nKROGER BROTH PC 1.50 B\nSC KROGER SAVINGS 0.09\nKROGER BROTH PC 1.50 B\nSC KROGER SAVINGS 0.09\nKROGER BROTH PC 1.50 B\nSC KROGER SAVINGS 0.09\nCVDR GRK SSNG 3.29 B\nLSNA FISH FRY 2.19 B\nSC KROGER SAVINGS 0.50\nLSNA FISH FRY 2.19 B\nSC KROGER SAVINGS 0.50\nLSNA LMN FSH FRY 2.19 B\nSC KROGER SAVINGS 0.50\nLSNA LMN FSH FRY 2.19 B\nSC KROGER SAVINGS 0.50\nKRO SWEET RELISH PC 1.50 B\nSC KROGER SAVINGS 0.39\nPS BLUEBERRIES PC 3.59 B\nSC KROGER SAVINGS 3.00\nSC eCpnBoost10pctoff 0.40\nPS BLUEBERRIES PC 3.59 B\nSC KROGER SAVINGS 3.00\nSC eCpnBoost10pctoff 0.40\nPS BLUEBERRIES PC 3.59 B\nSC KROGER SAVINGS 3.00\nSC eCpnBoost10pctoff 0.40\nPRSL BLACKBERRIES PC 3.59 B\nSC KROGER SAVINGS 1.00\nSC eCpnBoost10pctoff 0.40\nNABISCO OREO COKIEPC 4.29 B\nSC KROGER SAVINGS 0.50\nSC eCpn Nabisco Snak 0.50\nNABISCO OREO COKIEPC 4.29 B\nSC KROGER SAVINGS 0.50\nSC eCpn Nabisco Snak 0.50\nGATORADE PC 5.99 B\nSC KROGER SAVINGS 2.00\nSC eCpn Gatorade 1.00\nKRO BASMATI RICE PC 3.99 B\nSC KROGER SAVINGS 1.00\nKRO PIMENTO 2.39 B\nHDDN VLY DIP MIX 7.49 B\nKRO PNUT OIL 20.99 B\nKRO PNUT OIL 20.99 B\nSMP MLS CRACKERS PC 3.49 B\nSC KROGER SAVINGS 0.50\nSC eCpn Simple Mills 1.00\n1.94 (1.95) lb @ 0.99 /lb\nWT ONIONS YLW 1.73 B\nSC eCpnBoost10pctoff 0.19\nHAPPY DAD VRTY 19.49 T\nHAPPY DAD VRTY 19.49 T\nKRO BASMATI RICE PC 3.99 B\nSC KROGER SAVINGS 1.00\nKROGER SQZ KETCHUP 2.49 B\nPOTATOES RUSS 2.69 B\nSC eCpnBoost10pctoff 0.30\nKRO POTATOES 2.69 B\nSC eCpnBoost10pctoff 0.30\nKRO APPLES HONEYCRPC 4.49 B\nSC KROGER SAVINGS 2.00\nSC eCpnBoost10pctoff 0.50\n2.31 (2.32) lb @ 1.49 /lb\nWT YAMS SWEET RED 3.10 B\nSC eCpnBoost10pctoff 0.34\nKRO ROMAINE 3.59 B\nSC eCpnBoost10pctoff 0.40\nDRIS STRWBRY PC 4.49 B\nSC KROGER SAVINGS 0.90\nSC eCpnBoost10pctoff 0.50\n2.70 (2.71) lb @ 4.99 /lb\nWT GRAPES 8.49 B\nSC eCpn Grapes 4.04\nSC eCpnBoost10pctoff 0.94\nSOLO PLSTCUP 5.49 T\nKROGER EGGS 1.79 B\nQK RICE CKES 3.99 B\nWNDR WHITE BREAD 3.49 B\nSOURDOUGH 5.99 B\n5 @ 5/5.00\nAVOCADOS 4.50 B\nSC eCpnBoost10pctoff 0.10\nSC eCpnBoost10pctoff 0.10\nSC eCpnBoost10pctoff 0.10\nSC eCpnBoost10pctoff 0.10\nSC eCpnBoost10pctoff 0.10\n1.14 (1.15) lb @ 2.29 /lb\nWT TOMATOES HH RED 2.35 B\nSC eCpnBoost10pctoff 0.26\nRPC PEPPERS BELL 1.16 B\nSC eCpnBoost10pctoff 0.13\n4 @ 1.79\nCUCUMBER RPC PC 4.48 B\nSC KROGER SAVINGS 2.16\nSC eCpnBoost10pctoff 0.13\nSC eCpnBoost10pctoff 0.13\nSC eCpnBoost10pctoff 0.13\nSC eCpnBoost10pctoff 0.13\nSC eCpnBoost10pctoff 0.13\nSC eCpn 4X Fuel\nSC Boost 2X Fuel Pts\nTAX 6.13\n**** BALANCE 387.35\nForest Va 24551\nVISA CREDIT Purchase\n************3936 - H\nREF#: 024530 TOTAL: 387.35\nAID: A0000000031010\nTC: A1D647132964ED89\nVISA 387.35\nCHANGE 0.00\nDate of Birth = xx/xx/xx KEYED\nTOTAL NUMBER OF ITEMS SOLD = 81\nKROGER SAVINGS $ 42.78\nTOTAL COUPONS $ 42.78\nTOTAL SAVINGS (10 %) $ 42.70\n04/24/26 01:39PM 377 12 176 125\nAnnual Card Savings $678.50\nFuel Points Earned Today: 1710\nTotal April Fuel Points: 4006\nYour Benefits have been Boosted!\nAs a Boost member you enjoy\n2X Fuel Points and Free Delivery\non qualifying orders over $35!\nKroger Community Rewards\nOn your behalf, we are contributing to\nCHAPEL HILL MIDDLE SCHOOL\nEARN 50 FUEL POINTS\nBY GIVING US FEEDBACK\nGo to www.kroger.com/feedback\nDate: 04/24/26\nTime: 01:39PM\nEntry ID: 029-123-176-377-12-186\nWith Our Low Prices, You Saved\n$42.78\nFresh opportunity awaits\nJoin our team today!\njobs.kroger.com\nwww.kroger.com",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
       }
     },
     "gemini-3.5-flash-lowThinking": {
@@ -1685,15 +2211,15 @@
       "totalSpend": 4.48
     }
   ],
-  "disagreementCount": 6,
-  "nullCount": 1,
+  "disagreementCount": 0,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 6,
       "n": 6
     },
     "gemini-3.5-flash-mediumThinking": {
-      "ok": 0,
+      "ok": 6,
       "n": 6
     },
     "gemini-3.5-flash-lowThinking": {

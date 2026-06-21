@@ -259,65 +259,129 @@
       }
     },
     "gemini-3.5-flash-lowThinking": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-lowThinking",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
+        "latencyMs": 6229.590334,
+        "totalUsd": 0.016995,
+        "inputTokens": 3692,
+        "outputTokens": 1273,
         "reasoningTokens": 0
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Publix",
+          "status": "mismatch"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "13.97",
+          "status": "match"
         },
         "purchaseDate": {
-          "value": null,
-          "status": "missing"
+          "value": "2026-05-08",
+          "status": "match"
         },
         "time": {
-          "value": null,
-          "status": "missing"
+          "value": "16:24",
+          "status": "no-truth"
         },
         "zipCode": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "city": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "state": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "streetAddress": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "VISA",
+          "status": "no-truth"
         },
         "last4cc": {
-          "value": null,
-          "status": "missing"
+          "value": "2541",
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "D/H ORNG LAYER CK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "D/H LEMON CAKE MIX + Promotion",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "D/H ORNG LAYER CK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DH STRWBRY SUPREME + Promotion",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "NUTRAIL GRNL HONEY",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "NUTRAIL GRNL HONEY + Promotion",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PAINTERLAND SISTER + 1 @ 2 FOR 6.00",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "PAINTERLAND SISTER + 1 @ 2 FOR 6.00 + Promotion",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 0,
+          "matchStatus": "text-warn"
+        },
+        {
+          "text": "DC Duncan Hines or D",
+          "quantity": 1,
+          "unitPrice": 0,
+          "totalSpend": -3,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Publix.\nD/H ORNG LAYER CK\n2.99 F\nD/H LEMON CAKE MIX\n2.99 F\nPromotion\n-2.99 F\nD/H ORNG LAYER CK\n2.99 F\nDH STRWBRY SUPREME\n2.99 F\nPromotion\n-2.99 F\nNUTRAIL GRNL HONEY\n7.99 F\nNUTRAIL GRNL HONEY\n7.99 F\nPromotion\n-7.99 F\nPAINTERLAND SISTER\n1 @ 2 FOR 6.00\n3.00 F\nPAINTERLAND SISTER\n1 @ 2 FOR 6.00\n3.00 F\nPromotion\n-3.00 F\nDC Duncan Hines or D\n-3.00 F\nOrder Total\n13.97\nSales Tax\n0.00\nGrand Total\n13.97\nCredit Payment\n13.97\nChange\n0.00\nSavings Summary\nVendor Coupon\n3.00\nSpecial Price Savings\n16.97\n****************************************\n* Your Savings at Publix *\n* 19.97 *\n****************************************\nReceipt ID: 0448 58R 745 433\nPRESTO!\nTrace #: 743274\nReference #: 1297343099\nAcct #: XXXXXXXXXXXX2541\nPurchase VISA\nAmount: $13.97\nAuth #: 680284\nCREDIT CARD\nPURCHASE\nA0000000980840\nUS DEBIT\nEntry Method:\nCntctless\nMode:\nIssuer\nYour cashier was Self-Checkout Lane 1\n05/08/2026 16:24 S0448 R174 5433 C0774\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\nPublix Super Markets, Inc.",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
       }
     }
   },
@@ -371,8 +435,8 @@
       "totalSpend": 0
     }
   ],
-  "disagreementCount": 2,
-  "nullCount": 1,
+  "disagreementCount": 0,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 2,
@@ -383,7 +447,7 @@
       "n": 3
     },
     "gemini-3.5-flash-lowThinking": {
-      "ok": 0,
+      "ok": 2,
       "n": 3
     }
   }
