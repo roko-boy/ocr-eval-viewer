@@ -21,65 +21,73 @@
   },
   "models": {
     "gemini-3.5-flash-merchantSpecific": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-merchantSpecific",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
+        "latencyMs": 60339.995,
+        "totalUsd": 0.012246,
+        "inputTokens": 6208,
+        "outputTokens": 326,
         "reasoningTokens": 0
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Walmart",
+          "status": "mismatch"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "2.92",
+          "status": "no-truth"
         },
         "purchaseDate": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "time": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "zipCode": {
-          "value": null,
-          "status": "missing"
+          "value": "07501",
+          "status": "no-truth"
         },
         "city": {
-          "value": null,
-          "status": "missing"
+          "value": "Paterson",
+          "status": "no-truth"
         },
         "state": {
-          "value": null,
-          "status": "missing"
+          "value": "NJ",
+          "status": "no-truth"
         },
         "streetAddress": {
-          "value": null,
-          "status": "missing"
+          "value": "93 Dixon Ave, Apt 1",
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "VISA",
+          "status": "no-truth"
         },
         "last4cc": {
-          "value": null,
-          "status": "missing"
+          "value": "8120",
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "LIKE AIR PUFFCORN CLASSIC",
+          "quantity": 1,
+          "unitPrice": 9.91,
+          "totalSpend": 2.92,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "1:15\nArrives Sat, Apr 11\n93 Dixon Ave, Apt 1, Paterson, NJ, 07501, USA\n1 item See item\nLIKE AIR PUFFCORN CLASSIC\nOrder total\nIncludes all fees, taxes and discounts $2.92\nYou saved a total of $6.99\nPayment method\nVISA Ending in 8120 $2.92\nWalmart+ Try free pharmacy delivery!",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
       }
     },
     "gemini-3.5-flash-mediumThinking": {
@@ -224,7 +232,7 @@
     }
   ],
   "disagreementCount": 0,
-  "nullCount": 2,
+  "nullCount": 1,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
       "ok": 0,

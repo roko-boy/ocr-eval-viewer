@@ -21,65 +21,73 @@
   },
   "models": {
     "gemini-3.5-flash-merchantSpecific": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-merchantSpecific",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
+        "latencyMs": 4380.33825,
+        "totalUsd": 0.012732,
+        "inputTokens": 6118,
+        "outputTokens": 395,
         "reasoningTokens": 0
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Starbucks",
+          "status": "mismatch"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "21.74",
+          "status": "match"
         },
         "purchaseDate": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "time": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "zipCode": {
-          "value": null,
-          "status": "missing"
+          "value": "06812",
+          "status": "match"
         },
         "city": {
-          "value": null,
-          "status": "missing"
+          "value": "New Fairfield",
+          "status": "match"
         },
         "state": {
-          "value": null,
-          "status": "missing"
+          "value": "CT",
+          "status": "match"
         },
         "streetAddress": {
-          "value": null,
-          "status": "missing"
+          "value": "5 Rt 39, Shaws Plaza",
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "DEBIT",
+          "status": "no-truth"
         },
         "last4cc": {
-          "value": null,
-          "status": "missing"
+          "value": "2285",
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "All In™ Madagascar Vanilla, Honey & Almonds Bar + 1 Piece 40 g + 170 Calories",
+          "quantity": 9,
+          "unitPrice": 2.25,
+          "totalSpend": 20.25,
+          "matchStatus": "mismatch"
+        }
+      ],
+      "rawText": "Receipt\nAll In™ Madagascar\nVanilla, Honey &\nAlmonds Bar\n1 Piece 40 g\n170 Calories\n$2.25\nDiscount..................................................................-$0.10\nSubtotal..................................................................$20.25\nTax 7.35%..................................................................$1.49\nTotal..................................................................$21.74\nMy Card (2285)\nAuth code: 194576\nEarns 1.2★ per $1\nNew Fairfield\n5 Rt 39\nShaws Plaza\nNew Fairfield, CT 06812",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": true,
+        "isScreen": true,
+        "isEbt": false
       }
     },
     "gemini-3.5-flash-mediumThinking": {
@@ -231,11 +239,11 @@
       "totalSpend": 2.25
     }
   ],
-  "disagreementCount": 4,
-  "nullCount": 1,
+  "disagreementCount": 2,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
-      "ok": 0,
+      "ok": 4,
       "n": 5
     },
     "gemini-3.5-flash-mediumThinking": {

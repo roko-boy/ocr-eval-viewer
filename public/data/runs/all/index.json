@@ -1,7 +1,7 @@
 {
   "run": "all",
   "runLabel": "merchantSpecific vs medium vs low thinking",
-  "generatedAt": "2026-06-19T17:33:35.200Z",
+  "generatedAt": "2026-06-21T03:05:14.070Z",
   "batchLabel": "batch750",
   "models": [
     "gemini-3.5-flash-merchantSpecific",
@@ -23,14 +23,14 @@
   "positionalFields": [],
   "scorecard": {
     "gemini-3.5-flash-merchantSpecific": {
-      "scalarOk": 3294,
-      "scalarN": 3932,
-      "scalarAccuracy": 0.8377416073245167,
-      "avgLatencyMs": 14585.778002140345,
-      "avgCostUsd": 0.0220158056680162,
-      "projectedMonthlyUsd": 6604.74170040486,
-      "nullResponses": 0,
-      "attempts": 741
+      "scalarOk": 3313,
+      "scalarN": 3962,
+      "scalarAccuracy": 0.8361938414941948,
+      "avgLatencyMs": 14693.520829171994,
+      "avgCostUsd": 0.022087422000000002,
+      "projectedMonthlyUsd": 6626.226600000001,
+      "nullResponses": 2,
+      "attempts": 750
     },
     "gemini-3.5-flash-mediumThinking": {
       "scalarOk": 3287,
@@ -56,14 +56,14 @@
   "modelHistory": [],
   "lineItemAgg": {
     "gemini-3.5-flash-merchantSpecific": {
-      "emittedRows": 6051,
-      "matchedRows": 2831,
-      "textWarn": 2043,
-      "mismatchRows": 1177,
-      "truthRows": 6059,
-      "truthCovered": 4874,
+      "emittedRows": 6146,
+      "matchedRows": 2878,
+      "textWarn": 2044,
+      "mismatchRows": 1224,
+      "truthRows": 6175,
+      "truthCovered": 4922,
       "receiptsExact": 401,
-      "receiptsScored": 693
+      "receiptsScored": 700
     },
     "gemini-3.5-flash-mediumThinking": {
       "emittedRows": 5956,
@@ -89,9 +89,9 @@
   "fieldMatrix": {
     "storeName": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 433,
-        "n": 684,
-        "rate": 0.6330409356725146
+        "ok": 435,
+        "n": 690,
+        "rate": 0.6304347826086957
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 443,
@@ -106,9 +106,9 @@
     },
     "totalCost": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 628,
-        "n": 662,
-        "rate": 0.9486404833836858
+        "ok": 632,
+        "n": 668,
+        "rate": 0.9461077844311377
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 631,
@@ -123,9 +123,9 @@
     },
     "purchaseDate": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 612,
-        "n": 658,
-        "rate": 0.9300911854103343
+        "ok": 616,
+        "n": 663,
+        "rate": 0.9291101055806938
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 601,
@@ -157,9 +157,9 @@
     },
     "zipCode": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 478,
-        "n": 636,
-        "rate": 0.7515723270440252
+        "ok": 479,
+        "n": 639,
+        "rate": 0.7496087636932708
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 479,
@@ -174,9 +174,9 @@
     },
     "city": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 555,
-        "n": 647,
-        "rate": 0.8578052550231839
+        "ok": 559,
+        "n": 652,
+        "rate": 0.8573619631901841
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 549,
@@ -191,9 +191,9 @@
     },
     "state": {
       "gemini-3.5-flash-merchantSpecific": {
-        "ok": 588,
-        "n": 645,
-        "rate": 0.9116279069767442
+        "ok": 592,
+        "n": 650,
+        "rate": 0.9107692307692308
       },
       "gemini-3.5-flash-mediumThinking": {
         "ok": 584,
@@ -5181,12 +5181,12 @@
       "amount": 2.25,
       "purpose": "REDEMPTION",
       "ocrProcessor": "MICROBLINK",
-      "disagreementCount": 4,
-      "nullCount": 1,
+      "disagreementCount": 2,
+      "nullCount": 0,
       "truthLineCount": 1,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {
-          "ok": 0,
+          "ok": 4,
           "n": 5
         },
         "gemini-3.5-flash-mediumThinking": {
@@ -5776,7 +5776,7 @@
       "purpose": "REDEMPTION",
       "ocrProcessor": "MICROBLINK",
       "disagreementCount": 0,
-      "nullCount": 2,
+      "nullCount": 1,
       "truthLineCount": 1,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {
@@ -8989,7 +8989,7 @@
       "purpose": "REDEMPTION",
       "ocrProcessor": "MICROBLINK",
       "disagreementCount": 0,
-      "nullCount": 1,
+      "nullCount": 0,
       "truthLineCount": 0,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {
@@ -15873,12 +15873,12 @@
       "amount": 3.83,
       "purpose": "REDEMPTION",
       "ocrProcessor": "MICROBLINK",
-      "disagreementCount": 5,
-      "nullCount": 1,
+      "disagreementCount": 2,
+      "nullCount": 0,
       "truthLineCount": 35,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {
-          "ok": 0,
+          "ok": 5,
           "n": 6
         },
         "gemini-3.5-flash-mediumThinking": {
@@ -17817,12 +17817,12 @@
       "amount": 5.99,
       "purpose": "REDEMPTION",
       "ocrProcessor": "MICROBLINK",
-      "disagreementCount": 5,
-      "nullCount": 1,
+      "disagreementCount": 4,
+      "nullCount": 0,
       "truthLineCount": 14,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {
-          "ok": 0,
+          "ok": 5,
           "n": 6
         },
         "gemini-3.5-flash-mediumThinking": {
@@ -18195,12 +18195,12 @@
       "amount": 2,
       "purpose": "REDEMPTION",
       "ocrProcessor": "MICROBLINK",
-      "disagreementCount": 1,
-      "nullCount": 1,
+      "disagreementCount": 0,
+      "nullCount": 0,
       "truthLineCount": 11,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {
-          "ok": 0,
+          "ok": 1,
           "n": 2
         },
         "gemini-3.5-flash-mediumThinking": {
@@ -20491,11 +20491,11 @@
       "purpose": "REDEMPTION",
       "ocrProcessor": "LLM",
       "disagreementCount": 5,
-      "nullCount": 2,
+      "nullCount": 1,
       "truthLineCount": 0,
       "perModelScalar": {
         "gemini-3.5-flash-merchantSpecific": {
-          "ok": 0,
+          "ok": 4,
           "n": 5
         },
         "gemini-3.5-flash-mediumThinking": {

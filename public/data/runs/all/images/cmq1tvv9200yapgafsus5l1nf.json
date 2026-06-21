@@ -21,65 +21,143 @@
   },
   "models": {
     "gemini-3.5-flash-merchantSpecific": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-merchantSpecific",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "reasoningTokens": 0
+        "latencyMs": 25909.4335,
+        "totalUsd": 0.0581055,
+        "inputTokens": 6241,
+        "outputTokens": 1538,
+        "reasoningTokens": 3878
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Sprouts",
+          "status": "no-truth"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "83.8",
+          "status": "mismatch"
         },
         "purchaseDate": {
-          "value": null,
-          "status": "missing"
+          "value": "2026-06-05",
+          "status": "match"
         },
         "time": {
-          "value": null,
-          "status": "missing"
+          "value": "19:50:28",
+          "status": "no-truth"
         },
         "zipCode": {
-          "value": null,
-          "status": "missing"
+          "value": "85001",
+          "status": "no-truth"
         },
         "city": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "state": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "streetAddress": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "DEBIT",
+          "status": "no-truth"
         },
         "last4cc": {
           "value": null,
-          "status": "missing"
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "HOT FRESH SALSA",
+          "quantity": 1,
+          "unitPrice": 8.99,
+          "totalSpend": 8.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DRK CHOC PB BAR + DGTL CPN Quantum E",
+          "quantity": 1,
+          "unitPrice": 2.49,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MANGO DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MANGO DRINK",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MEDITRRNEAN MARINARA",
+          "quantity": 1,
+          "unitPrice": 9.49,
+          "totalSpend": 9.49,
+          "matchStatus": "match"
+        },
+        {
+          "text": "PEACH GNGER SPRK WTR",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WTRMLN HYDRATION BOX",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DISHWASHER PODS",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": 22.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "DISHWASHER PODS + BOGO MOLYYS SUDS + DGTL CPN MollysSud",
+          "quantity": 1,
+          "unitPrice": 22.99,
+          "totalSpend": -3,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "CALIFORNIA VEG BURGR",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CHTLI SUPERCUBE",
+          "quantity": 1,
+          "unitPrice": 12.99,
+          "totalSpend": 12.99,
+          "matchStatus": "text-warn"
+        }
+      ],
+      "rawText": "06/05/2026\t19:49:28\nDEBIT\tEntry Method:Cntctless\nCARD #:\tXXXXXXXXXXXX0941\nPURCHASE\t- APPROVED\nAUTH CODE:364008\n\nMode:\tIssuer-PIN Verified\nAID:\tA0000000042203\nTVR:\t0020048001\nIAD:\t0314A04100020000000000A9EB36689\n900FF\nTSI:\tE800\tARC:\t00\nTC:\tACC18031049AAE1E\nMID: 683979\tTID: 001\tRRN: 032794\n\nTotal:\tUSD$ 75.22\n\n\n06/05/2026\t19:50:28\nVISA CREDIT\tEntry Method:\tChip\nCARD #:\tXXXXXXXXXXXX2074\nPURCHASE\t- APPROVED\nAUTH CODE:61738D\n\nMode:\tIssuer\nAID:\tA0000000031010\nTVR:\t8000008000\nIAD:\t06011203A0A000\nTSI:\t6800\tARC:\t00\nTC:\t6B7F9B26032FA900\nMID: 683979\tTID: 001\tRRN: 032796\n\nTotal:\tUSD$ 8.58\n\nPRODUCE\n  HOT FRESH SALSA\t8.99 F\n\nGROCERY\n  DRK CHOC PB BAR\t2.49 T F\n    DGTL CPN Quantum E\t-2.49\n  MANGO DRINK\t2.99 T F\n  MANGO DRINK\t2.99 T F\n  MEDITRRNEAN MARINARA\t9.49 F\n  PEACH GNGER SPRK WTR\t2.99 T F\n\nVITAMINS\n  WTRMLN HYDRATION BOX\t12.99 F\n\nTAXABLE GROCERY\n  DISHWASHER PODS\t22.99 T\n  DISHWASHER PODS\t22.99 T\n    BOGO MOLYYS SUDS\t-22.99\n    DGTL CPN MollysSud\t-3.00\n\nFROZEN\n  CALIFORNIA VEG BURGR\t7.99 F\n  CHTLI SUPERCUBE\t12.99 F",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
       }
     },
     "gemini-3.5-flash-mediumThinking": {
@@ -431,11 +509,11 @@
       "totalSpend": 7.99
     }
   ],
-  "disagreementCount": 1,
-  "nullCount": 1,
+  "disagreementCount": 0,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
-      "ok": 0,
+      "ok": 1,
       "n": 2
     },
     "gemini-3.5-flash-mediumThinking": {

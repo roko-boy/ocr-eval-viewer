@@ -21,65 +21,304 @@
   },
   "models": {
     "gemini-3.5-flash-merchantSpecific": {
-      "isNull": true,
-      "error": "no response stamped",
+      "isNull": false,
+      "error": null,
       "source": "gemini-3.5-flash-merchantSpecific",
       "metrics": {
-        "latencyMs": 0,
-        "totalUsd": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "reasoningTokens": 0
+        "latencyMs": 40888.33145799999,
+        "totalUsd": 0.1006455,
+        "inputTokens": 6245,
+        "outputTokens": 3455,
+        "reasoningTokens": 6687
       },
       "fields": {
         "storeName": {
-          "value": null,
-          "status": "missing"
+          "value": "Sprouts Farmers Market",
+          "status": "match"
         },
         "totalCost": {
-          "value": null,
-          "status": "missing"
+          "value": "86.73",
+          "status": "match"
         },
         "purchaseDate": {
-          "value": null,
-          "status": "missing"
+          "value": "2026-05-25",
+          "status": "match"
         },
         "time": {
-          "value": null,
-          "status": "missing"
+          "value": "14:42:16",
+          "status": "no-truth"
         },
         "zipCode": {
           "value": null,
           "status": "missing"
         },
         "city": {
-          "value": null,
-          "status": "missing"
+          "value": "SANTA FE",
+          "status": "match"
         },
         "state": {
-          "value": null,
-          "status": "missing"
+          "value": "NM",
+          "status": "match"
         },
         "streetAddress": {
-          "value": null,
-          "status": "missing"
+          "value": "199 PASEO DE PERALTA",
+          "status": "no-truth"
         },
         "paymentMethod": {
-          "value": null,
-          "status": "missing"
+          "value": "VISA",
+          "status": "no-truth"
         },
         "last4cc": {
-          "value": null,
-          "status": "missing"
+          "value": "0612",
+          "status": "no-truth"
         }
       },
-      "lineItems": [],
-      "rawText": null,
+      "lineItems": [
+        {
+          "text": "ORG PINT BLUEBERRIES + 1 @ 2 FOR 3.00",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 1.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG PINT BLUEBERRIES + 1 @ 2 FOR 3.00 + BOGO 50% OFF BERRY",
+          "quantity": 1,
+          "unitPrice": 1.5,
+          "totalSpend": 0.75,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIRRIA BEEF STRIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BIRRIA BEEF STRIP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLT PPR VENISON STRP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SLT PPR VENISON STRP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SPICY LEMONADE",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SRIRACHA CHCKN STRIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SRIRACHA CHCKN STRIP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWEET HEAT CSHW BTTR",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SWEET HEAT POPCORN",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WAGYU BEEF STK STRIP",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 2.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WAGYU BEEF STK STRIP + BOGO GROCERY",
+          "quantity": 1,
+          "unitPrice": 2.99,
+          "totalSpend": 0,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG SEASON KOMBUCHA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG SEASON KOMBUCHA",
+          "quantity": 1,
+          "unitPrice": 0.99,
+          "totalSpend": 0.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "STRWBRY GRK YGT BRS",
+          "quantity": 1,
+          "unitPrice": 1.99,
+          "totalSpend": 1.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "VANILLA GRK YGRT BRS",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "totalSpend": 4.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEMON GLAZED ALMONDS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LEMON GLAZED ALMONDS",
+          "quantity": 1,
+          "unitPrice": 3,
+          "totalSpend": 3,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LMN SHRTBRD COOKIES",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "ORG WALNUT DATE ROLL",
+          "quantity": 1,
+          "unitPrice": 7.5,
+          "totalSpend": 7.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "RSPBRY SHRTBRD CKIES",
+          "quantity": 1,
+          "unitPrice": 2.5,
+          "totalSpend": 2.5,
+          "matchStatus": "match"
+        },
+        {
+          "text": "CANNED DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WET DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WET DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "WET DOG FOOD",
+          "quantity": 1,
+          "unitPrice": 3.83,
+          "totalSpend": 3.83,
+          "matchStatus": "match"
+        },
+        {
+          "text": "BRWN BUTTER ICE CRM",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 9.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "LMN DILL SALMON BOWL",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 7.99,
+          "matchStatus": "match"
+        },
+        {
+          "text": "SALT CARAMEL ICE CRM + BOGO FROZEN",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "SHRIMP ALFREDO BOWL + BOGO ENTREES",
+          "quantity": 1,
+          "unitPrice": 7.99,
+          "totalSpend": 0,
+          "matchStatus": "mismatch"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        },
+        {
+          "text": "MENS BODY BAR",
+          "quantity": 1,
+          "unitPrice": 1.74,
+          "totalSpend": 1.74,
+          "matchStatus": "match"
+        }
+      ],
+      "rawText": "SPROUTS\nFARMERS MARKET\n199 PASEO DE PERALTA\nSANTA FE, NM\n(505)988-1140\nStore Hours MON-SUN 7AM-10PM\n\n05/25/2026\nMID:000012648584\n313602\n14:42:16\nTID: 001\n\nCREDIT CARD\nPURCHASE\n\nCARD #:\nChip Card:\nAID:\nATC:\nTC:\nInvoice:\nApproval Code:\nEntry Method:\nMode:\n\nXXXXXXXXXXXX0612\nCHASE VISA\nA0000000031010\n001D\n508B60FF309E4ED4\n05682D\n06682D\nCmtctless\nIssuer\n\nSALE AMOUNT\n$86.73\n\nAPPROVED BY ISSUER\n\nPRODUCE\nORG PINT BLUEBERRIES\n1 @ 2 FOR 3.00\nORG PINT BLUEBERRIES\n1 @ 2 FOR 3.00\nBOGO 50% OFF BERRY\n\n1.50\n1.50\n-0.75\n\nGROCERY\nBIRRIA BEEF STRIP\nBIRRIA BEEF STRIP\nBOGO GROCERY\nORG TART CHRRY JUICE\nVoided Item\nORG TART CHRRY JUICE\nSLT PPR VENISON STRP\nSLT PPR VENISON STRP\nBOGO GROCERY\nSPICY LEMONADE\nSRIRACHA CHCKN STRIP\nSRIRACHA CHCKN STRIP\nBOGO GROCERY\nSWEET HEAT CSHW BTTR\nSWEET HEAT POPCORN\nWAGYU BEEF STK STRIP\nWAGYU BEEF STK STRIP\nBOGO GROCERY\n\n2.99\n2.99\n-2.99\n13.99\n-13.99\n2.99\n2.99\n-2.99\n0.99\n2.99\n2.99\n-2.99\n0.99\n0.99\n2.99\n2.99\n-2.99\n\nDAIRY\nORG SEASON KOMBUCHA\nORG SEASON KOMBUCHA\nSTRWBRY GRK YGT BRS\nVANILLA GRK YGRT BRS\n\n0.99\n0.99\n1.99\n4.99\n\nBULK\nLEMON GLAZED ALMONDS\nLEMON GLAZED ALMONDS\nLMN SHRTBRD COOKIES\nORG WALNUT DATE ROLL\nRSPBRY SHRTBRD CKIES\n\n3.00\n3.00\n2.50\n7.50\n2.50\n\nTAXABLE GROCERY\nCANNED DOG FOOD\nWET DOG FOOD\nWET DOG FOOD\nWET DOG FOOD\n\n3.83 M\n3.83 M\n3.83 M\n3.83 M\n\nFROZEN\nBRWN BUTTER ICE CRM\nLMN DILL SALMON BOWL\nSALT CARAMEL ICE CRM\nSHRIMP ALFREDO BOWL\n\n9.99\n7.99\n9.99\n7.99\n\nMENS BODY BAR\nMENS BODY BAR\nMENS BODY BAR\nMENS BODY BAR\n\n1.74 M\n1.74 M\n1.74 M\n1.74 M\n\nBOGO FROZEN\n-9.99\n\nBOGO ENTREES\n-7.99\n\nTax Report\nState Tax\nLocal Tax\n22.28\n22.28\n1.09 TT\n0.74 TT\n\nBALANCE DUE\nCREDIT\n[ ] XXXXXXXXXXXX0612\nAuth# 06682D\nCHANGE\n86.73\n$86.73\nRef# 313602\n0.00\n\nYou Saved!\nTOTAL DISCOUNTS\n7\n30.69\nCard XXXXXXXXXX4175\nHave a Healthy Day Robyn!\n*********************************\nSprouts Rewards\n*********************************\nPrevious Points Balance:\nNew points earned today:\nNew points balance:\n1790\n2425\n2215",
       "flags": {
-        "isReceipt": null,
-        "isDigital": null,
-        "isScreen": null,
-        "isEbt": null
+        "isReceipt": true,
+        "isDigital": false,
+        "isScreen": false,
+        "isEbt": false
       }
     },
     "gemini-3.5-flash-mediumThinking": {
@@ -918,11 +1157,11 @@
       "totalSpend": 1.74
     }
   ],
-  "disagreementCount": 5,
-  "nullCount": 1,
+  "disagreementCount": 2,
+  "nullCount": 0,
   "perModelScalar": {
     "gemini-3.5-flash-merchantSpecific": {
-      "ok": 0,
+      "ok": 5,
       "n": 6
     },
     "gemini-3.5-flash-mediumThinking": {
